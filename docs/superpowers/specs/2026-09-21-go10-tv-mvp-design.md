@@ -53,7 +53,7 @@ Verified facts about the source:
 | Thumbnail dimensions | 368x210 (16:9, low resolution) |
 | Videos with a year in the title | 721 |
 | Season/series videos | 133 |
-| Distinct series | 85 |
+| Distinct series | 84 (85 spellings; `Love, Death & Robots` and `Love Death & Robots` are one show) |
 | Titles with a malformed bracket | 1 (`[Sub Español}`) |
 
 Per card the scrape provides: `data-id`, watch URL, title, duration, view
@@ -86,7 +86,9 @@ Parsing rules:
   - `Temporada <N>: <Show>` — e.g. `Temporada 1: Invincible`
   - `<Show> - Temporada <N>: <Arc>` — e.g. `Dragon Ball - Temporada 5: 22º Torneo…`
   - `<Show> - Temporada 1, 2 y 3` — multi-season packs, e.g. `Spawn`, `Æon Flux`
-  Together these account for exactly 133 videos across 85 series.
+  Together these account for exactly 133 videos across 84 series — 85 distinct
+  show spellings, two of which are the same show punctuated differently and
+  correctly collapse to one `series_id`.
   Movies containing colons (`Batman: Knightfall Part 1: Knightfall`) must NOT
   be misread as seasons — requiring the literal word `Temporada` prevents this.
 - One title closes a bracket with a brace (`[Sub Español}`); bracket matching
