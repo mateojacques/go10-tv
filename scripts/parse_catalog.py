@@ -137,21 +137,33 @@ def build_episode_rows(html_text, sidecar, slug, start_index, root=ROOT, assets_
     `<assets_dir>/<slug>/`, skipping any that already exist there so a
     second run is safe after the raw scrape dump has been deleted. A card
     whose title doesn't match "Temporada N Episodio M" is skipped and
-    reported, never guessed.
+    reported, never guessed -- unless *no* card in the series has an
+    explicit number, in which case the whole series is numbered season 1,
+    episode 1..N in card order (the source lists no numbering at all, so
+    there's nothing to mis-parse; this is reported too).
     """
     assets_dir = assets_dir or ASSETS_DIR
     series_id = slugify(sidecar["series_title"])
     dest_dir = os.path.join(assets_dir, slug)
     os.makedirs(dest_dir, exist_ok=True)
 
+    cards = extract_cards(html_text)
+    parsed_numbers = [parse_episode_title(card["title_raw"]) for card in cards]
+    sequential = bool(cards) and all(p is None for p in parsed_numbers)
+    if sequential:
+        print(f"no 'Temporada N Episodio M' titles in {slug!r}; "
+              f"numbering {len(cards)} episodes sequentially as season 1")
+
     rows = []
     index = start_index
-    for card in extract_cards(html_text):
-        parsed = parse_episode_title(card["title_raw"])
-        if parsed is None:
+    for position, (card, parsed) in enumerate(zip(cards, parsed_numbers), start=1):
+        if sequential:
+            season_number, episode_number = 1, position
+        elif parsed is None:
             print(f"skip (no season/episode match): {card['title_raw']!r}")
             continue
-        season_number, episode_number = parsed
+        else:
+            season_number, episode_number = parsed
 
         filename = os.path.basename(card["thumbnail"])
         source_thumb = os.path.join(root, card["thumbnail"])

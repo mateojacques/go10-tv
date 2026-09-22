@@ -157,6 +157,30 @@ def test_build_episode_rows_skips_already_copied_thumbnails(tmp_path):
     assert len(rows) == 49
 
 
+MASCOTAS_SIDECAR = {
+    "series_title": "Las Mascotas Maravilla",
+    "studio": "Nickelodeon",
+    "quality": "1080p",
+    "language": "Español",
+    "genre": "Superhéroes",
+    "genre_secondary": "Infantil",
+}
+
+
+def test_build_episode_rows_numbers_sequentially_when_no_title_has_numbers(tmp_path, capsys):
+    # Mascotas Maravilla's titles carry no "Temporada N Episodio M" at all
+    # ("Las Mascotas Maravilla - Salvan a Las Ovejas"), unlike Spidey's.
+    html_text = open(os.path.join(ROOT, "mascotas-maravilla.html"), encoding="utf-8").read()
+    rows = parse_catalog.build_episode_rows(
+        html_text, MASCOTAS_SIDECAR, "mascotas-maravilla", start_index=0,
+        root=ROOT, assets_dir=str(tmp_path),
+    )
+    assert len(rows) == 3
+    assert all(r["season_number"] == "1" for r in rows)
+    assert [r["episode_number"] for r in rows] == ["1", "2", "3"]
+    assert "sequentially" in capsys.readouterr().out.lower()
+
+
 def test_build_episode_rows_skips_titles_that_dont_match(tmp_path, capsys):
     html_text = open(os.path.join(ROOT, "spidey.html"), encoding="utf-8").read()
     # Corrupt one card's title (its title="" and alt="" copies both contain
