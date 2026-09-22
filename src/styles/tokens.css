@@ -1,0 +1,60 @@
+/* GO10 TV — design tokens.
+ *
+ * Direction: broadcast console. Cold graphite near-black, one acid-lime signal
+ * colour, confident display type and monospaced metadata that reads like a
+ * video engineer's timecode. Deliberately not a Netflix skin.
+ *
+ * Every value is sized for a 10-foot viewing distance: type is large, contrast
+ * is high, and focus is unmistakable because there is no cursor to fall back on.
+ */
+:root {
+  /* Canvas — cold near-black, never pure #000 so blacks still read on an OLED */
+  --go-bg: #08090c;
+  --go-bg-raised: #12141a;
+  --go-bg-sunken: #050609;
+  --go-scrim: rgba(8, 9, 12, 0.92);
+  --go-hairline: rgba(242, 244, 240, 0.09);
+
+  /* Signal — one accent, reserved for focus, the wordmark and primary action */
+  --go-accent: #c6f24e;
+  --go-accent-dim: #7f9b2c;
+  --go-accent-glow: rgba(198, 242, 78, 0.28);
+
+  --go-text: #f2f4f0;
+  --go-text-muted: #878d99;
+
+  /* Type — display face for titles, mono for metadata readouts */
+  --go-font-display: 'Bricolage Grotesque', 'Trebuchet MS', sans-serif;
+  --go-font-mono: 'IBM Plex Mono', ui-monospace, 'Courier New', monospace;
+
+  /* Scale for 10-foot legibility: nothing below 1rem is allowed on screen */
+  --go-size-hero: clamp(3rem, 5.6vw, 5.25rem);
+  --go-size-section: clamp(1.375rem, 1.6vw, 1.875rem);
+  --go-size-card: clamp(1rem, 1.05vw, 1.1875rem);
+  --go-size-body: clamp(1.0625rem, 1.15vw, 1.3125rem);
+  --go-size-meta: clamp(0.9375rem, 0.95vw, 1.0625rem);
+
+  --go-card-w: clamp(15rem, 20vw, 22rem);
+  --go-card-h: calc(var(--go-card-w) * 0.5625); /* 16:9, matching the source art */
+  --go-gap: 1.25rem;
+
+  /* TV overscan safe area — content never touches the panel edge */
+  --go-safe-x: clamp(2rem, 4.5vw, 5rem);
+  --go-safe-y: 2.5rem;
+
+  --go-radius: 8px;
+  --go-focus-ring: 0 0 0 3px var(--go-bg), 0 0 0 6px var(--go-accent);
+  --go-focus-lift: 0 18px 44px -12px rgba(0, 0, 0, 0.9), 0 0 60px -18px var(--go-accent-glow);
+
+  --go-ease: cubic-bezier(0.2, 0, 0, 1);
+  --go-dur: 180ms;
+  --go-dur-slow: 420ms;
+}
+
+/* Motion is decoration here; input response never depends on it. */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --go-dur: 0ms;
+    --go-dur-slow: 0ms;
+  }
+}

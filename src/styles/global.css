@@ -1,0 +1,113 @@
+@import './tokens.css';
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  height: 100%;
+  background: var(--go-bg);
+  color: var(--go-text);
+  font-family: var(--go-font-display);
+  font-size: var(--go-size-body);
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+  /* The TV panel is the viewport. Rows scroll; the page itself never does. */
+  overflow: hidden;
+}
+
+/* No hover rules anywhere in this codebase: the target device has no pointer.
+ * The cursor is hidden so a stray mouse never breaks the 10-foot illusion. */
+body {
+  cursor: none;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  cursor: inherit;
+}
+
+img {
+  display: block;
+}
+
+/* Cinematic atmosphere: a fixed vignette plus fine film grain over everything.
+ * Both are pointer-events:none so they never intercept anything, and both sit
+ * above content but below the player overlay. */
+#root::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 5;
+  pointer-events: none;
+  background:
+    radial-gradient(
+      120% 85% at 50% 42%,
+      transparent 42%,
+      rgba(5, 6, 9, 0.55) 100%
+    );
+}
+
+.go-grain {
+  position: fixed;
+  inset: -50%;
+  z-index: 6;
+  pointer-events: none;
+  opacity: 0.16;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.82' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='180' height='180' filter='url(%23n)' opacity='0.5'/%3E%3C/svg%3E");
+}
+
+/* Loading and error states — kept in the brand's voice rather than bare text. */
+.go-state {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  gap: 1rem;
+  text-align: center;
+  padding: var(--go-safe-y) var(--go-safe-x);
+}
+
+.go-state_mark {
+  font-family: var(--go-font-mono);
+  font-size: var(--go-size-meta);
+  font-weight: 600;
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  color: var(--go-accent);
+}
+
+.go-state_msg {
+  margin: 0;
+  color: var(--go-text-muted);
+  font-size: var(--go-size-body);
+}
+
+/* A slow pulse on the wordmark while the catalog loads. */
+.go-state_mark.is-loading {
+  animation: go-pulse 1.6s var(--go-ease) infinite;
+}
+
+@keyframes go-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.35;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .go-state_mark.is-loading {
+    animation: none;
+  }
+}
