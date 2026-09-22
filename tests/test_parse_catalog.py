@@ -20,11 +20,12 @@ def test_parse_views_strips_separators():
     assert parse_views("") == 0
 
 
-def test_columns_are_the_23_specified_in_order():
+def test_columns_are_the_25_specified_in_order():
     assert COLUMNS == [
         "catalog_index", "video_id", "type", "title", "title_raw",
         "series_id", "series_title", "season_number", "season_label",
-        "episode_number", "year", "studio", "genre", "genre_secondary",
+        "episode_number", "chapter_start_seconds", "chapter_end_seconds",
+        "year", "studio", "genre", "genre_secondary",
         "quality", "language", "subtitled", "duration_raw", "duration_seconds",
         "views", "thumbnail", "video_url", "embed_url",
     ]
@@ -70,6 +71,84 @@ def test_urls_are_built_from_video_id():
     row = build_rows(html_text, {})[0]
     assert row["video_url"] == f"https://ok.ru/video/{row['video_id']}"
     assert row["embed_url"] == f"https://ok.ru/videoembed/{row['video_id']}"
+
+
+def test_columns_include_chapter_boundaries_after_episode_number():
+    assert COLUMNS[9:12] == ["episode_number", "chapter_start_seconds", "chapter_end_seconds"]
+
+
+def test_load_chapters_merges_every_sidecar_in_the_dir(tmp_path):
+    chapters_dir = tmp_path / "chapters"
+    chapters_dir.mkdir()
+    (chapters_dir / "show-a.json").write_text(
+        '{"111": [{"episode_number": 1, "title": "E1", "start_seconds": 0, "end_seconds": 1435}]}',
+        encoding="utf-8",
+    )
+    (chapters_dir / "show-b.json").write_text(
+        '{"222": [{"episode_number": 1, "title": "E1", "start_seconds": 0, "end_seconds": 1200}]}',
+        encoding="utf-8",
+    )
+    chapters = parse_catalog.load_chapters(str(chapters_dir))
+    assert set(chapters) == {"111", "222"}
+    assert chapters["111"][0]["end_seconds"] == 1435
+
+
+def test_load_chapters_returns_empty_dict_when_dir_missing(tmp_path):
+    assert parse_catalog.load_chapters(str(tmp_path / "nope")) == {}
+
+
+SEASON_ROW = {
+    "catalog_index": 5, "video_id": "111", "type": "season",
+    "title": "Hora de Aventura", "title_raw": "Hora de Aventura - Temporada 1",
+    "series_id": "hora-de-aventura", "series_title": "Hora de Aventura",
+    "season_number": "1", "season_label": "", "episode_number": "",
+    "year": "2010", "studio": "Cartoon N.", "genre": "Animación",
+    "genre_secondary": "", "quality": "1080p", "language": "Español",
+    "subtitled": "false", "duration_raw": "4:08:29", "duration_seconds": 14909,
+    "views": 173, "thumbnail": "catalogo_files/b.webp",
+    "video_url": "https://ok.ru/video/111", "embed_url": "https://ok.ru/videoembed/111",
+}
+
+THREE_CHAPTERS = [
+    {"episode_number": 1, "title": "Episodio 1", "start_seconds": 0, "end_seconds": 1435},
+    {"episode_number": 2, "title": "Episodio 2", "start_seconds": 1440, "end_seconds": 2810},
+    {"episode_number": 3, "title": "Episodio 3", "start_seconds": 2815, "end_seconds": None},
+]
+
+
+def test_explode_season_row_returns_row_unchanged_without_a_chapters_entry():
+    assert parse_catalog.explode_season_row(SEASON_ROW, {}) == [SEASON_ROW]
+
+
+def test_explode_season_row_produces_one_episode_row_per_chapter():
+    rows = parse_catalog.explode_season_row(SEASON_ROW, {"111": THREE_CHAPTERS})
+    assert len(rows) == 3
+    assert all(r["type"] == "episode" for r in rows)
+    assert all(r["video_id"] == "111" for r in rows)
+    assert all(r["series_id"] == "hora-de-aventura" for r in rows)
+    assert [r["episode_number"] for r in rows] == ["1", "2", "3"]
+    assert [r["chapter_start_seconds"] for r in rows] == ["0", "1440", "2815"]
+    assert [r["chapter_end_seconds"] for r in rows] == ["1435", "2810", ""]
+
+
+def test_explode_season_row_computes_per_chapter_duration_including_open_ended_last():
+    rows = parse_catalog.explode_season_row(SEASON_ROW, {"111": THREE_CHAPTERS})
+    assert rows[0]["duration_seconds"] == 1435  # 1435 - 0
+    assert rows[1]["duration_seconds"] == 1370  # 2810 - 1440
+    assert rows[2]["duration_seconds"] == 14909 - 2815  # open-ended: parent's total duration
+
+
+def test_explode_season_row_ignores_a_non_season_row():
+    episode_row = {**SEASON_ROW, "type": "episode", "video_id": "111"}
+    assert parse_catalog.explode_season_row(episode_row, {"111": THREE_CHAPTERS}) == [episode_row]
+
+
+def test_explode_chapters_renumbers_catalog_index_across_the_result():
+    other = {**SEASON_ROW, "catalog_index": 6, "video_id": "222"}
+    rows = parse_catalog.explode_chapters([SEASON_ROW, other], {"111": THREE_CHAPTERS})
+    assert len(rows) == 4  # 3 exploded + 1 unchanged
+    assert [r["catalog_index"] for r in rows] == [0, 1, 2, 3]
+    assert rows[3]["video_id"] == "222"
 
 
 def test_genres_are_joined_when_supplied():

@@ -18,11 +18,13 @@ GENRES_CSV = os.path.join(ROOT, "data", "genres.csv")
 OUTPUT_CSV = os.path.join(ROOT, "public", "data", "catalog.csv")
 SERIES_DIR = os.path.join(ROOT, "data", "series")
 ASSETS_DIR = os.path.join(ROOT, "assets")
+CHAPTERS_DIR = os.path.join(ROOT, "data", "chapters")
 
 COLUMNS = [
     "catalog_index", "video_id", "type", "title", "title_raw",
     "series_id", "series_title", "season_number", "season_label",
-    "episode_number", "year", "studio", "genre", "genre_secondary",
+    "episode_number", "chapter_start_seconds", "chapter_end_seconds",
+    "year", "studio", "genre", "genre_secondary",
     "quality", "language", "subtitled", "duration_raw", "duration_seconds",
     "views", "thumbnail", "video_url", "embed_url",
 ]
@@ -130,6 +132,66 @@ def load_series_sidecars(series_dir):
     return sidecars
 
 
+def load_chapters(chapters_dir):
+    """Return {video_id: [chapter, ...]} merged from every data/chapters/*.json file."""
+    if not os.path.isdir(chapters_dir):
+        return {}
+    chapters = {}
+    for name in sorted(os.listdir(chapters_dir)):
+        if not name.endswith(".json"):
+            continue
+        with open(os.path.join(chapters_dir, name), encoding="utf-8") as handle:
+            chapters.update(json.load(handle))
+    return chapters
+
+
+def explode_season_row(row, chapters):
+    """Turn one `season`-type row dict into one `episode` row dict per entry
+    in `chapters.get(row["video_id"])`, or return `[row]` unchanged if the
+    row isn't a season row or has no matching chapters entry.
+
+    All chapters of one video share its `video_id`/`embed_url`/`video_url`/
+    `thumbnail`; only `episode_number`, `chapter_start_seconds`,
+    `chapter_end_seconds`, `duration_seconds`, and `title` vary per chapter.
+    The final chapter's `end_seconds` may be `None` (open-ended, plays out
+    to ok.ru's real `ended` event) -- its duration is computed against the
+    parent row's own total `duration_seconds`.
+    """
+    video_chapters = chapters.get(row["video_id"])
+    if row["type"] != "season" or not video_chapters:
+        return [row]
+
+    total_duration = row["duration_seconds"]
+    exploded = []
+    for chapter in video_chapters:
+        start = chapter["start_seconds"]
+        end = chapter["end_seconds"]
+        new_row = {**row}
+        new_row.update({
+            "type": "episode",
+            "episode_number": str(chapter["episode_number"]),
+            "chapter_start_seconds": str(start),
+            "chapter_end_seconds": "" if end is None else str(end),
+            "duration_seconds": (end if end is not None else total_duration) - start,
+            "title": chapter.get("title") or row["title"],
+        })
+        exploded.append(new_row)
+    return exploded
+
+
+def explode_chapters(rows, chapters):
+    """Apply `explode_season_row` across `rows`, then renumber
+    `catalog_index` sequentially over the result so it stays a unique,
+    ordered position even though one row may have become several.
+    """
+    exploded = []
+    for row in rows:
+        exploded.extend(explode_season_row(row, chapters))
+    for index, row in enumerate(exploded):
+        row["catalog_index"] = index
+    return exploded
+
+
 def build_episode_rows(html_text, sidecar, slug, start_index, root=ROOT, assets_dir=None):
     """Turn one series' scraped HTML into episode rows.
 
@@ -203,13 +265,14 @@ def build_episode_rows(html_text, sidecar, slug, start_index, root=ROOT, assets_
 def report_coverage(rows):
     print(f"rows: {len(rows)}")
     for column in COLUMNS:
-        filled = sum(1 for row in rows if str(row[column]) not in ("", "0", "false"))
+        filled = sum(1 for row in rows if str(row.get(column, "")) not in ("", "0", "false"))
         print(f"  {column:<18} {filled:>4}/{len(rows)}")
 
 
 def main():
     html_text = open(SOURCE_HTML, encoding="utf-8").read()
     rows = build_rows(html_text, load_genres(GENRES_CSV))
+    rows = explode_chapters(rows, load_chapters(CHAPTERS_DIR))
 
     for slug, sidecar in load_series_sidecars(SERIES_DIR):
         series_html = open(os.path.join(ROOT, f"{slug}.html"), encoding="utf-8").read()
