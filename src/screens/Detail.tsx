@@ -1,8 +1,9 @@
-import { useState, type ReactNode } from 'react'
+import { useMemo, useState, type ReactNode } from 'react'
 import type { CatalogRow, Title } from '../types'
 import { Backdrop } from '../components/Backdrop'
 import { useFocusable } from '../focus/useFocusable'
 import { formatDuration, formatViews } from '../lib/format'
+import { groupSeasons } from './groupSeasons'
 import './Detail.css'
 
 function FocusButton({
@@ -49,14 +50,20 @@ export function Detail({
    */
   onBack: () => void
 }) {
-  const [activeSeason, setActiveSeason] = useState<CatalogRow>(title.seasons[0])
+  const [activeRow, setActiveRow] = useState<CatalogRow>(title.seasons[0])
   const isShow = title.kind === 'show'
 
+  const seasonGroups = useMemo(() => groupSeasons(title.seasons), [title.seasons])
+  const [selectedSeasonNumber, setSelectedSeasonNumber] = useState<number>(
+    activeRow.season_number ?? seasonGroups[0]?.seasonNumber ?? 0,
+  )
+  const selectedGroup = seasonGroups.find((group) => group.seasonNumber === selectedSeasonNumber)
+
   const meta = [
-    activeSeason.year ?? title.year,
+    activeRow.year ?? title.year,
     title.quality,
     title.subtitled ? `${title.language} (sub)` : title.language,
-    formatDuration(activeSeason.duration_seconds),
+    formatDuration(activeRow.duration_seconds),
     formatViews(title.views),
   ].filter(Boolean)
 
@@ -71,7 +78,7 @@ export function Detail({
       <div className="go-detail_body">
         <div className="go-detail_main">
           <p className="go-detail_eyebrow">
-            {isShow ? `Serie · ${title.seasons.length} temporadas` : 'Película'}
+            {isShow ? `Serie · ${seasonGroups.length} temporadas` : 'Película'}
             {title.studio && ` · ${title.studio}`}
           </p>
 
@@ -98,14 +105,15 @@ export function Detail({
             id="detail:play"
             row={0}
             col={0}
-            onEnter={() => onPlay(activeSeason)}
+            onEnter={() => onPlay(activeRow)}
             className="go-play"
           >
             <span className="go-play_icon" aria-hidden="true" />
             Reproducir
             {isShow && (
               <span className="go-play_season">
-                {activeSeason.season_label || `Temporada ${activeSeason.season_number}`}
+                {activeRow.season_label || `Temporada ${activeRow.season_number}`}
+                {activeRow.episode_number ? ` · Episodio ${activeRow.episode_number}` : ''}
               </span>
             )}
           </FocusButton>
@@ -124,31 +132,63 @@ export function Detail({
         <section className="go-seasons">
           <h2 className="go-seasons_label">Temporadas</h2>
           <div className="go-seasons_list">
-            {title.seasons.map((season, index) => (
+            {seasonGroups.map((group, index) => (
               <FocusButton
-                key={season.video_id}
-                id={`detail:season:${season.video_id}`}
+                key={group.seasonNumber}
+                id={`detail:season:${group.seasonNumber}`}
                 row={1}
                 col={index}
                 onEnter={() => {
-                  setActiveSeason(season)
-                  onPlay(season)
+                  const first = group.rows[0]
+                  setActiveRow(first)
+                  setSelectedSeasonNumber(group.seasonNumber)
+                  if (group.rows.length === 1) onPlay(first)
                 }}
                 className={`go-season${
-                  season.video_id === activeSeason.video_id ? ' is-active' : ''
+                  group.seasonNumber === selectedSeasonNumber ? ' is-active' : ''
                 }`}
               >
-                <span className="go-season_n">
-                  {season.season_label || `Temporada ${season.season_number}`}
-                </span>
+                <span className="go-season_n">{group.label}</span>
                 <span className="go-season_d">
-                  {[formatDuration(season.duration_seconds), season.quality]
-                    .filter(Boolean)
-                    .join(' · ')}
+                  {group.rows.length > 1
+                    ? `${group.rows.length} episodios`
+                    : [formatDuration(group.rows[0].duration_seconds), group.rows[0].quality]
+                        .filter(Boolean)
+                        .join(' · ')}
                 </span>
               </FocusButton>
             ))}
           </div>
+
+          {selectedGroup && selectedGroup.rows.length > 1 && (
+            <div className="go-episodes">
+              <h2 className="go-seasons_label">Episodios</h2>
+              <div className="go-seasons_list">
+                {selectedGroup.rows.map((episode, index) => (
+                  <FocusButton
+                    key={episode.video_id}
+                    id={`detail:episode:${episode.video_id}`}
+                    row={2}
+                    col={index}
+                    onEnter={() => {
+                      setActiveRow(episode)
+                      onPlay(episode)
+                    }}
+                    className={`go-season${
+                      episode.video_id === activeRow.video_id ? ' is-active' : ''
+                    }`}
+                  >
+                    <span className="go-season_n">Episodio {episode.episode_number}</span>
+                    <span className="go-season_d">
+                      {[formatDuration(episode.duration_seconds), episode.quality]
+                        .filter(Boolean)
+                        .join(' · ')}
+                    </span>
+                  </FocusButton>
+                ))}
+              </div>
+            </div>
+          )}
         </section>
       )}
     </div>

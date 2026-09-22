@@ -180,6 +180,10 @@
   gap: 0.75rem;
 }
 
+.go-episodes {
+  margin-top: 1.5rem;
+}
+
 .go-season {
   display: flex;
   flex-direction: column;
