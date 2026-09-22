@@ -100,4 +100,22 @@ describe('Player', () => {
     rerender(<Player row={row({ video_id: '2' })} onClose={() => {}} />)
     expect(localStorage.getItem('go10:resume:1')).toBeNull()
   })
+
+  it('calls onEnded once the episode duration has elapsed since load', () => {
+    const onEnded = vi.fn()
+    render(<Player row={row({ duration_seconds: 100 })} onClose={() => {}} onEnded={onEnded} />)
+    fireEvent.load(getFrame())
+
+    act(() => vi.advanceTimersByTime(99_000))
+    expect(onEnded).not.toHaveBeenCalled()
+
+    act(() => vi.advanceTimersByTime(1_000))
+    expect(onEnded).toHaveBeenCalledTimes(1)
+  })
+
+  it('does not call onEnded when no callback is provided', () => {
+    render(<Player row={row({ duration_seconds: 100 })} onClose={() => {}} />)
+    fireEvent.load(getFrame())
+    expect(() => act(() => vi.advanceTimersByTime(100_000))).not.toThrow()
+  })
 })

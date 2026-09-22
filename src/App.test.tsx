@@ -50,4 +50,55 @@ describe('App routing', () => {
     await screen.findByRole('heading', { name: 'Foo Movie' })
     expect(window.location.pathname).toBe('/')
   })
+
+  it('autoplays the next episode once the current one finishes', async () => {
+    const EPISODIC_CSV = `catalog_index,video_id,type,title,title_raw,series_id,series_title,season_number,season_label,episode_number,year,studio,genre,genre_secondary,quality,language,subtitled,duration_raw,duration_seconds,views,thumbnail,video_url,embed_url
+0,201,episode,Ep Show,Ep Show,ep-show,Ep Show,1,,1,2020,,Drama,,1080p,Español,false,0:05,5,10,thumb.webp,https://ok.ru/video/201,https://ok.ru/videoembed/201
+1,202,episode,Ep Show,Ep Show,ep-show,Ep Show,1,,2,2020,,Drama,,1080p,Español,false,0:05,5,10,thumb.webp,https://ok.ru/video/202,https://ok.ru/videoembed/202
+`
+    vi.stubGlobal(
+      'fetch',
+      vi.fn().mockResolvedValue({ ok: true, text: () => Promise.resolve(EPISODIC_CSV) }),
+    )
+
+    render(<App />)
+    await screen.findByRole('heading', { name: 'Ep Show' })
+    fireEvent.click(screen.getByText('Más información'))
+    await waitFor(() => expect(window.location.pathname).toBe('/title/ep-show'))
+
+    fireEvent.click(screen.getByText('Reproducir'))
+    await waitFor(() => expect(window.location.pathname).toBe('/title/ep-show/play/201'))
+
+    vi.useFakeTimers({ shouldAdvanceTime: true })
+    fireEvent.load(document.querySelector('.go-player_frame') as HTMLIFrameElement)
+    vi.advanceTimersByTime(5000)
+    vi.useRealTimers()
+
+    await waitFor(() => expect(window.location.pathname).toBe('/title/ep-show/play/202'))
+  })
+
+  it('does not autoplay past the last episode', async () => {
+    const EPISODIC_CSV = `catalog_index,video_id,type,title,title_raw,series_id,series_title,season_number,season_label,episode_number,year,studio,genre,genre_secondary,quality,language,subtitled,duration_raw,duration_seconds,views,thumbnail,video_url,embed_url
+0,201,episode,Ep Show,Ep Show,ep-show,Ep Show,1,,1,2020,,Drama,,1080p,Español,false,0:05,5,10,thumb.webp,https://ok.ru/video/201,https://ok.ru/videoembed/201
+`
+    vi.stubGlobal(
+      'fetch',
+      vi.fn().mockResolvedValue({ ok: true, text: () => Promise.resolve(EPISODIC_CSV) }),
+    )
+
+    render(<App />)
+    await screen.findByRole('heading', { name: 'Ep Show' })
+    fireEvent.click(screen.getByText('Más información'))
+    await waitFor(() => expect(window.location.pathname).toBe('/title/ep-show'))
+
+    fireEvent.click(screen.getByText('Reproducir'))
+    await waitFor(() => expect(window.location.pathname).toBe('/title/ep-show/play/201'))
+
+    vi.useFakeTimers({ shouldAdvanceTime: true })
+    fireEvent.load(document.querySelector('.go-player_frame') as HTMLIFrameElement)
+    vi.advanceTimersByTime(5000)
+    vi.useRealTimers()
+
+    expect(window.location.pathname).toBe('/title/ep-show/play/201')
+  })
 })

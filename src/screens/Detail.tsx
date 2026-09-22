@@ -1,4 +1,4 @@
-import { useMemo, useState, type ReactNode } from 'react'
+import { useEffect, useMemo, useState, type ReactNode } from 'react'
 import type { CatalogRow, Title } from '../types'
 import { Backdrop } from '../components/Backdrop'
 import { useFocusable } from '../focus/useFocusable'
@@ -40,6 +40,7 @@ export function Detail({
   title,
   onPlay,
   onBack,
+  playingRow,
 }: {
   title: Title
   onPlay: (row: CatalogRow) => void
@@ -49,6 +50,12 @@ export function Detail({
    * tappable way back too.
    */
   onBack: () => void
+  /**
+   * The row actually playing in the Player overlay, if any. Autoplay moves
+   * this forward without going through this screen's own click handlers, so
+   * it's watched here to keep the active season/episode in sync.
+   */
+  playingRow?: CatalogRow
 }) {
   const [activeRow, setActiveRow] = useState<CatalogRow>(title.seasons[0])
   const isShow = title.kind === 'show'
@@ -58,6 +65,12 @@ export function Detail({
     activeRow.season_number ?? seasonGroups[0]?.seasonNumber ?? 0,
   )
   const selectedGroup = seasonGroups.find((group) => group.seasonNumber === selectedSeasonNumber)
+
+  useEffect(() => {
+    if (!playingRow || playingRow.video_id === activeRow.video_id) return
+    setActiveRow(playingRow)
+    setSelectedSeasonNumber(playingRow.season_number ?? selectedSeasonNumber)
+  }, [playingRow, activeRow.video_id, selectedSeasonNumber])
 
   const meta = [
     activeRow.year ?? title.year,

@@ -4,6 +4,7 @@ import { FocusProvider } from './focus/FocusProvider'
 import { Home } from './screens/Home'
 import { Detail } from './screens/Detail'
 import { Player } from './screens/Player'
+import { findNextEpisode } from './screens/nextEpisode'
 import { useRoute } from './router/useRoute'
 import { resolveRoute } from './router/resolveRoute'
 import './styles/global.css'
@@ -52,6 +53,8 @@ export default function App() {
   }
 
   const title = resolved.title
+  const playingRow = resolved.name === 'player' ? resolved.row : undefined
+  const nextRow = playingRow ? findNextEpisode(title.seasons, playingRow) : null
 
   return (
     <>
@@ -63,10 +66,21 @@ export default function App() {
           title={title}
           onPlay={(row) => navigate({ name: 'play', key: title.key, videoId: row.video_id })}
           onBack={back}
+          playingRow={playingRow}
         />
       </FocusProvider>
 
-      {resolved.name === 'player' && <Player row={resolved.row} onClose={back} />}
+      {resolved.name === 'player' && (
+        <Player
+          row={resolved.row}
+          onClose={back}
+          onEnded={
+            nextRow
+              ? () => navigate({ name: 'play', key: title.key, videoId: nextRow.video_id })
+              : undefined
+          }
+        />
+      )}
     </>
   )
 }

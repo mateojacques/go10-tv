@@ -8,23 +8,38 @@ import './Player.css'
 /** How long to wait for the embed before treating it as a load failure. */
 const LOAD_TIMEOUT_MS = 8000
 
-export function Player({ row, onClose }: { row: CatalogRow; onClose: () => void }) {
+export function Player({
+  row,
+  onClose,
+  onEnded,
+}: {
+  row: CatalogRow
+  onClose: () => void
+  /** Fired once, roughly when this row's playback should be finishing. */
+  onEnded?: () => void
+}) {
   const [state, dispatch] = useReducer(playerRetryReducer, initialPlayerRetryState)
   const loaded = useRef(false)
   // Tracks whether this video_id has ever loaded successfully, so the resume
   // clock starts once per viewing session and isn't reset by retries/reloads.
   const startedRef = useRef(false)
+  const endedTimer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined)
   const containerRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     loaded.current = false
     startedRef.current = false
+    clearTimeout(endedTimer.current)
     dispatch({ type: 'reset' })
   }, [row.video_id])
 
   useEffect(() => {
     return () => clearResume(row.video_id)
   }, [row.video_id])
+
+  useEffect(() => {
+    return () => clearTimeout(endedTimer.current)
+  }, [])
 
   useEffect(() => {
     if (state.status === 'loading') {
@@ -64,21 +79,26 @@ export function Player({ row, onClose }: { row: CatalogRow; onClose: () => void 
     return () => window.removeEventListener('keydown', onKeyDown)
   }, [onClose])
 
+  const fromTime = readResumeFromTime(row.video_id)
+
   const handleLoad = useCallback(() => {
     loaded.current = true
     if (!startedRef.current) {
       startedRef.current = true
       markResumeStart(row.video_id)
+      if (onEnded && row.duration_seconds > 0) {
+        const remainingMs = Math.max(0, row.duration_seconds - (fromTime ?? 0)) * 1000
+        endedTimer.current = setTimeout(onEnded, remainingMs)
+      }
     }
     dispatch({ type: 'loaded' })
-  }, [row.video_id])
+  }, [row.video_id, row.duration_seconds, fromTime, onEnded])
 
   const heading = row.series_title || row.title
   const season = row.season_number
     ? row.season_label || `Temporada ${row.season_number}`
     : null
 
-  const fromTime = readResumeFromTime(row.video_id)
   const embedSrc = buildEmbedSrc(row.embed_url, fromTime)
 
   return (
