@@ -1,7 +1,7 @@
 import Papa from 'papaparse'
 import type { CatalogRow, Title } from '../types'
 
-const NUMERIC = ['catalog_index', 'season_number', 'year', 'duration_seconds', 'views']
+const NUMERIC = ['catalog_index', 'season_number', 'episode_number', 'year', 'duration_seconds', 'views']
 
 export function parseCatalogCsv(text: string): CatalogRow[] {
   const { data } = Papa.parse<Record<string, string>>(text.trim(), {
@@ -32,7 +32,9 @@ export function buildTitles(rows: CatalogRow[]): Title[] {
 
   return [...byKey.entries()].map(([key, group]): Title => {
     const seasons = [...group].sort(
-      (a, b) => (a.season_number ?? 0) - (b.season_number ?? 0),
+      (a, b) =>
+        (a.season_number ?? 0) - (b.season_number ?? 0) ||
+        (a.episode_number ?? 0) - (b.episode_number ?? 0),
     )
     const primary = seasons[0]
     const isShow = Boolean(primary.series_id)

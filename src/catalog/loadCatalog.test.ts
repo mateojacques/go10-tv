@@ -51,3 +51,25 @@ describe('buildTitles', () => {
     expect(show.views).toBe(137 + 173)
   })
 })
+
+const EPISODIC_CSV = `catalog_index,video_id,type,title,title_raw,series_id,series_title,season_number,season_label,episode_number,year,studio,genre,genre_secondary,quality,language,subtitled,duration_raw,duration_seconds,views,thumbnail,video_url,embed_url
+0,901,episode,Spidey,"Spidey - T1E2",spidey,Spidey,1,,2,,Marvel,Superhéroes,Infantil,1080p,Español,false,23:32,1412,2,assets/spidey/a.webp,https://ok.ru/video/901,https://ok.ru/videoembed/901
+1,902,episode,Spidey,"Spidey - T1E1",spidey,Spidey,1,,1,,Marvel,Superhéroes,Infantil,1080p,Español,false,23:20,1400,3,assets/spidey/b.webp,https://ok.ru/video/902,https://ok.ru/videoembed/902
+2,903,episode,Spidey,"Spidey - T2E1",spidey,Spidey,2,,1,,Marvel,Superhéroes,Infantil,1080p,Español,false,23:40,1420,1,assets/spidey/c.webp,https://ok.ru/video/903,https://ok.ru/videoembed/903
+`
+
+describe('buildTitles with episode rows', () => {
+  it('types episode_number as a number', () => {
+    const rows = parseCatalogCsv(EPISODIC_CSV)
+    expect(rows[0].episode_number).toBe(2)
+  })
+
+  it('sorts episodes by season then episode number regardless of scrape order', () => {
+    const show = buildTitles(parseCatalogCsv(EPISODIC_CSV))[0]
+    expect(show.seasons.map((s) => [s.season_number, s.episode_number])).toEqual([
+      [1, 1],
+      [1, 2],
+      [2, 1],
+    ])
+  })
+})

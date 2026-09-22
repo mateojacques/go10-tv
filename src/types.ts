@@ -1,13 +1,14 @@
 export interface CatalogRow {
   catalog_index: number
   video_id: string
-  type: 'movie' | 'season'
+  type: 'movie' | 'season' | 'episode'
   title: string
   title_raw: string
   series_id: string
   series_title: string
   season_number: number | null
   season_label: string
+  episode_number: number | null
   year: number | null
   studio: string
   genre: string
