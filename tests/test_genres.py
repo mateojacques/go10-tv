@@ -38,11 +38,14 @@ def test_columns_are_exact():
         ]
 
 
-def test_genres_are_vocabulary_or_unclassified():
-    """Task 3a may leave UNCLASSIFIED; Task 3b must eliminate it."""
+def test_genres_are_in_the_closed_vocabulary():
     for row in load_genres():
-        assert row["genre"] in VOCABULARY | {"UNCLASSIFIED"}, row
+        assert row["genre"] in VOCABULARY, row
         assert row["genre_secondary"] in VOCABULARY or row["genre_secondary"] == "", row
+
+
+def test_no_unclassified_rows_remain():
+    assert [r for r in load_genres() if r["genre"] == "UNCLASSIFIED"] == []
 
 
 def test_secondary_never_duplicates_primary():
@@ -52,11 +55,32 @@ def test_secondary_never_duplicates_primary():
 
 
 def test_seeded_studio_rules_applied():
-    """Spot-check that the two trusted heuristics actually fired."""
+    """Spot-check that the two trusted studio heuristics survived Task 3b's
+    classification untouched.
+
+    Studio-seeded rows are identified independently of `genre`'s value (Task
+    3b eliminated UNCLASSIFIED, so it can no longer be used to tell a
+    studio-seeded row apart from a manually classified one).
+    """
+    import seed_genres
+    from title_parser import parse_title
+
     rows = {r["video_id"]: r for r in load_genres()}
-    seeded = [r for r in rows.values() if r["genre"] != "UNCLASSIFIED"]
-    assert len(seeded) >= 50, "studio heuristics should seed at least 50 rows"
-    assert {r["genre"] for r in seeded} <= {"Animación", "Superhéroes"}
+
+    studio_seeded = {}
+    for card in extract_cards(open(
+        os.path.join(ROOT, "catalogo-solo-videos.html"), encoding="utf-8"
+    ).read()):
+        genre, secondary = seed_genres.guess(parse_title(card["title_raw"]))
+        if genre != "UNCLASSIFIED":
+            studio_seeded[card["video_id"]] = (genre, secondary)
+
+    assert len(studio_seeded) >= 50, "studio heuristics should seed at least 50 rows"
+    assert {genre for genre, _ in studio_seeded.values()} <= {"Animación", "Superhéroes"}
+
+    for video_id, (genre, secondary) in studio_seeded.items():
+        assert rows[video_id]["genre"] == genre, rows[video_id]
+        assert rows[video_id]["genre_secondary"] == secondary, rows[video_id]
 
 
 def test_seed_genres_main_preserves_hand_edits_and_seeds_new_rows(tmp_path, monkeypatch):
