@@ -6,3 +6,9 @@ dist/
 # Only the .webp thumbnails are used by the app; the rest is dead weight.
 catalogo_files/*
 !catalogo_files/*.webp
+
+# Raw per-series scrape dumps (HTML asset bundles) are throwaway once
+# ingested: scripts/parse_catalog.py copies the referenced thumbnails into
+# assets/<slug>/. The base catalog's own dump keeps its exception above.
+*_files/
+!catalogo_files/
