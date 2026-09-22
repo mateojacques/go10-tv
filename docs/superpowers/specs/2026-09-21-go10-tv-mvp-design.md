@@ -175,11 +175,18 @@ A separate, human-editable file keyed by `video_id`, with columns
 Genre is **inferred, not scraped** — this must be stated wherever the data is
 presented as a database. It is produced in two passes:
 
-1. **Heuristics** — studio and language signals (`Pixar`/`Disney`/`Cartoon N.`
-   → Animación; `Sub Español` on a known anime title → Anime; `[DC]`/`Marvel`
-   → Superhéroes).
-2. **Manual classification** — remaining titles classified in batches by title
-   recognition.
+1. **Studio heuristics only** — `Disney`/`Pixar`/`Cartoon N.`/`DreamWorks`/
+   `Nickelodeon`/`Adult Swim` → Animación; `DC`/`Marvel` → Superhéroes. This
+   seeds ~61 rows.
+2. **Deliberate classification** — the remaining 846 titles are classified in
+   batches against a fixed rule set, then merged back.
+
+Two tempting heuristics were deliberately rejected. `Sub Español → Anime`
+conflates having Spanish subtitles with being Japanese animation and would
+mislabel ~285 titles, many of them live-action foreign films (`Crows Zero`,
+`Blue Spring`). `year < 1970 → Clásicos` conflates era with genre. A confident
+wrong label is worse than `UNCLASSIFIED`, which the classification pass is
+guaranteed to visit.
 
 Genre vocabulary (fixed, closed set): `Animación`, `Anime`, `Acción`,
 `Aventura`, `Comedia`, `Drama`, `Terror`, `Ciencia Ficción`, `Fantasía`,
