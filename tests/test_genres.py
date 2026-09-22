@@ -57,3 +57,48 @@ def test_seeded_studio_rules_applied():
     seeded = [r for r in rows.values() if r["genre"] != "UNCLASSIFIED"]
     assert len(seeded) >= 50, "studio heuristics should seed at least 50 rows"
     assert {r["genre"] for r in seeded} <= {"Animación", "Superhéroes"}
+
+
+def test_seed_genres_main_preserves_hand_edits_and_seeds_new_rows(tmp_path, monkeypatch):
+    """Regression test for the never-overwrite guarantee `seed_genres.main()` relies on.
+
+    Writes a temp genres.csv with one row hand-edited away from UNCLASSIFIED
+    (as a human classifying for Task 3b would do) and one known corpus id
+    deliberately absent, points seed_genres.GENRES_CSV at it, runs main(),
+    and asserts: (a) the hand-edited row survives verbatim, both genre and
+    genre_secondary; (b) the absent row still gets seeded on this same run.
+    """
+    import seed_genres
+
+    ids = sorted(corpus_ids())
+    hand_edited_id, fresh_id = ids[0], ids[1]
+    real_rows = {r["video_id"]: r for r in load_genres()}
+
+    temp_csv = tmp_path / "genres.csv"
+    with open(temp_csv, "w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(
+            handle, fieldnames=["video_id", "title", "genre", "genre_secondary"]
+        )
+        writer.writeheader()
+        writer.writerow({
+            "video_id": hand_edited_id,
+            "title": real_rows[hand_edited_id]["title"],
+            "genre": "Drama",
+            "genre_secondary": "Comedia",
+        })
+        # fresh_id intentionally omitted: it must be seeded fresh by this run.
+
+    monkeypatch.setattr(seed_genres, "GENRES_CSV", str(temp_csv))
+    seed_genres.main()
+
+    with open(temp_csv, encoding="utf-8", newline="") as handle:
+        result = {r["video_id"]: r for r in csv.DictReader(handle)}
+
+    assert result[hand_edited_id]["genre"] == "Drama"
+    assert result[hand_edited_id]["genre_secondary"] == "Comedia"
+
+    assert fresh_id in result
+    assert result[fresh_id]["genre"] in VOCABULARY | {"UNCLASSIFIED"}
+
+    # The real, committed data/genres.csv must be untouched by this test.
+    assert load_genres() == list(real_rows.values())
