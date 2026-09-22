@@ -1,6 +1,7 @@
 node_modules/
 dist/
 .superpowers/
+__pycache__/
 
 # The scrape dumped ok.ru's JS/CSS/SVG bundles alongside the thumbnails.
 # Only the .webp thumbnails are used by the app; the rest is dead weight.
