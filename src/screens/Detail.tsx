@@ -4,6 +4,10 @@ import { Backdrop } from '../components/Backdrop'
 import { useFocusable } from '../focus/useFocusable'
 import { formatDuration, formatViews } from '../lib/format'
 import { groupSeasons } from './groupSeasons'
+import { ProgressBar } from '../components/ProgressBar'
+import { listProgress, resumeFromTime, type Progress } from '../progress/progressStore'
+import { playedFraction, titleProgress } from '../progress/titleProgress'
+import { remainingLabel } from '../progress/describe'
 import './Detail.css'
 
 function FocusButton({
@@ -36,6 +40,13 @@ function FocusButton({
   )
 }
 
+/** Duration and quality, plus "Visto" once finished. */
+function tileDetail(row: CatalogRow, progress: Progress | undefined): string {
+  return [formatDuration(row.duration_seconds), row.quality, progress?.watched && 'Visto']
+    .filter(Boolean)
+    .join(' · ')
+}
+
 export function Detail({
   title,
   onPlay,
@@ -57,8 +68,13 @@ export function Detail({
    */
   playingRow?: CatalogRow
 }) {
-  const [activeRow, setActiveRow] = useState<CatalogRow>(title.seasons[0])
+  // Re-read on every render: this screen stays mounted under the player, and
+  // re-renders when playback closes, so bars reflect what was just watched.
+  const progress = listProgress()
+  const [activeRow, setActiveRow] = useState<CatalogRow>(() => titleProgress(title, progress).row)
   const isShow = title.kind === 'show'
+  const activeProgress = progress[activeRow.video_id] ?? null
+  const resuming = resumeFromTime(activeProgress) !== null
 
   const seasonGroups = useMemo(() => groupSeasons(title.seasons), [title.seasons])
   const [selectedSeasonNumber, setSelectedSeasonNumber] = useState<number>(
@@ -122,14 +138,18 @@ export function Detail({
             className="go-play"
           >
             <span className="go-play_icon" aria-hidden="true" />
-            Reproducir
+            {resuming ? 'Reanudar' : 'Reproducir'}
             {isShow && (
               <span className="go-play_season">
                 {activeRow.season_label || `Temporada ${activeRow.season_number}`}
                 {activeRow.episode_number ? ` · Episodio ${activeRow.episode_number}` : ''}
               </span>
             )}
+            {resuming && activeProgress && (
+              <span className="go-play_season">{remainingLabel(activeProgress)}</span>
+            )}
           </FocusButton>
+          {resuming && <ProgressBar fraction={playedFraction(activeProgress)} className="go-play_progress" />}
 
           <p className="go-detail_hint">
             Usa las flechas para navegar · Atrás para volver
@@ -165,10 +185,11 @@ export function Detail({
                 <span className="go-season_d">
                   {group.rows.length > 1
                     ? `${group.rows.length} episodios`
-                    : [formatDuration(group.rows[0].duration_seconds), group.rows[0].quality]
-                        .filter(Boolean)
-                        .join(' · ')}
+                    : tileDetail(group.rows[0], progress[group.rows[0].video_id])}
                 </span>
+                {group.rows.length === 1 && (
+                  <ProgressBar fraction={playedFraction(progress[group.rows[0].video_id])} />
+                )}
               </FocusButton>
             ))}
           </div>
@@ -192,11 +213,8 @@ export function Detail({
                     }`}
                   >
                     <span className="go-season_n">Episodio {episode.episode_number}</span>
-                    <span className="go-season_d">
-                      {[formatDuration(episode.duration_seconds), episode.quality]
-                        .filter(Boolean)
-                        .join(' · ')}
-                    </span>
+                    <span className="go-season_d">{tileDetail(episode, progress[episode.video_id])}</span>
+                    <ProgressBar fraction={playedFraction(progress[episode.video_id])} />
                   </FocusButton>
                 ))}
               </div>

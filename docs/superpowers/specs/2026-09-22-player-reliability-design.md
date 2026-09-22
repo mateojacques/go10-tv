@@ -16,6 +16,13 @@ show up there:
 
 ## Key constraint discovered during research
 
+> **Correction (2026-09-22):** the constraint below turned out to be wrong.
+> ok.ru's `/videoembed/` iframe *does* post playback events (`timeupdate`,
+> `paused`, `ended`, …) to the parent, accepts `play`/`pause`/`seek`
+> commands, and honors `fromTime` — all confirmed on real playback. Resume
+> now uses the real position; §3 is superseded. See
+> `docs/superpowers/specs/2026-09-22-watch-progress-design.md`.
+
 OK.ru's `/videoembed/` iframe has **no documented postMessage API or any
 other cross-origin hook**. Once the iframe has loaded, the app cannot read
 its playback position, detect play/pause state, or detect a mid-playback
@@ -46,6 +53,7 @@ on the real TV.
 Explicitly out of scope: automatic detection of mid-playback freezes (not
 technically possible without cooperation from the OK.ru player), and a
 general "continue watching" feature (this is crash/freeze recovery only).
+*(Continue watching has since been added — see the watch-progress spec.)*
 
 ## 1. Router
 
@@ -149,6 +157,11 @@ status: 'loading' | 'ready' | 'retrying' | 'failed'
 
 ## 3. Resume via elapsed wall-clock time
 
+> **Superseded (2026-09-22).** Replaced by real-position progress tracking
+> (`src/progress/progressStore.ts`, key `go10:progress:<videoId>`). The
+> `go10:resume:*` entries and `src/screens/resume.ts` no longer exist. Kept
+> below as the original design record.
+
 Cannot read real `currentTime` from the iframe, so this is an
 approximation based on wall-clock time since the *first* successful load of
 this `video_id` in this viewing session.
@@ -209,4 +222,4 @@ in-place-reload that didn't work. Cache the parsed result:
 - Manual, on-device: confirm `fromTime` actually seeks the `/videoembed/`
   iframe (flagged above as unconfirmed) — do this before considering the
   resume feature done, since it's the one thing that can't be verified any
-  other way.
+  other way. *(Done 2026-09-22: `fromTime` works on `/videoembed/`.)*

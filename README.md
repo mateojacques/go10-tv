@@ -46,6 +46,12 @@ player also autoplays on open, so watching never needs an extra tap or click.
   season is separately focusable and playable.
 - **Player** — full-screen overlay wrapping the ok.ru embed, with a visible
   "Abrir en ok.ru" fallback if the embed fails to load.
+- **Watch progress** — the player saves the real playback position ok.ru's
+  embed reports (`timeupdate` via `postMessage`) to `localStorage`, per
+  video, and reopens at it with the embed's `fromTime` param. Home gets a
+  "Seguir viendo" row (in-progress titles, or the next episode once one is
+  finished) and Detail shows "Reanudar" plus progress bars on episodes.
+  Progress is per-browser only — there's no backend.
 
 ## Data
 
@@ -113,13 +119,13 @@ colour field and show the art crisp beside it at close to its native size.
 ## Tests
 
 ```bash
-python3 -m pytest tests/ -v   # 30 — parser, genres, merge
-npm test                      # 36 — loader, rows, focus, formatters
+python3 -m pytest tests/ -v   # 43 — parser, genres, merge
+npm test                      # 142 — loader, rows, focus, player, progress, routing
 ```
 
 ## Not in this MVP
 
-Search, filters, My List, Continue Watching, profiles, authentication. The
+Search, filters, My List, profiles, authentication. The
 original 907-video scrape still isn't split into episodes — its season rows
 stay one video per season; only series ingested via the "Episodic series"
 pipeline above get individual episodes.

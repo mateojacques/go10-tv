@@ -138,4 +138,48 @@ describe('App routing', () => {
     fireEvent.keyDown(window, { key: 'ArrowLeft', shiftKey: true })
     expect(window.location.pathname).toBe('/title/ep-show/play/201')
   })
+
+  function storeProgress(videoId: string, progress: object) {
+    localStorage.setItem(`go10:progress:${videoId}`, JSON.stringify(progress))
+  }
+
+  it('lists an in-progress title under "Seguir viendo" and plays it from the saved spot', async () => {
+    vi.stubGlobal(
+      'fetch',
+      vi.fn().mockResolvedValue({ ok: true, text: () => Promise.resolve(EPISODIC_CSV) }),
+    )
+    storeProgress('201', { time: 1380, duration: 1380, updatedAt: 1, watched: true })
+    storeProgress('202', { time: 600, duration: 1380, updatedAt: 2, watched: false })
+
+    render(<App />)
+    await screen.findByText('Seguir viendo')
+    screen.getByText('T1 · E2 · Quedan 13 min')
+
+    const card = screen.getAllByRole('button', { name: 'Ep Show' })[0]
+    fireEvent.click(card)
+    await waitFor(() => expect(window.location.pathname).toBe('/title/ep-show/play/202'))
+    const frame = document.querySelector('.go-player_frame') as HTMLIFrameElement
+    expect(frame.src).toContain('fromTime=597')
+
+    fireEvent.keyDown(window, { key: 'Escape' })
+    await waitFor(() => expect(window.location.pathname).toBe('/title/ep-show'))
+    screen.getByText('Reanudar')
+  })
+
+  it('offers the next episode once the last-watched one is finished', async () => {
+    vi.stubGlobal(
+      'fetch',
+      vi.fn().mockResolvedValue({ ok: true, text: () => Promise.resolve(EPISODIC_CSV) }),
+    )
+    storeProgress('201', { time: 1380, duration: 1380, updatedAt: 1, watched: true })
+
+    render(<App />)
+    await screen.findByText('Siguiente: T1 · E2')
+  })
+
+  it('shows no "Seguir viendo" row without any progress', async () => {
+    render(<App />)
+    await screen.findByRole('heading', { name: 'Foo Movie' })
+    expect(screen.queryByText('Seguir viendo')).toBeNull()
+  })
 })

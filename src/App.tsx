@@ -48,7 +48,11 @@ export default function App() {
   if (resolved.name === 'home') {
     return (
       <FocusProvider key="home" onBack={back}>
-        <Home titles={titles} onSelect={(title) => navigate({ name: 'title', key: title.key })} />
+        <Home
+          titles={titles}
+          onSelect={(title) => navigate({ name: 'title', key: title.key })}
+          onResume={(title, row) => navigate({ name: 'play', key: title.key, videoId: row.video_id })}
+        />
       </FocusProvider>
     )
   }

@@ -1,6 +1,13 @@
 import type { Title } from '../types'
 import { useFocusable } from '../focus/useFocusable'
+import { ProgressBar } from './ProgressBar'
 import './Card.css'
+
+/** Shown on "Seguir viendo" cards in place of the usual year/genre line. */
+export interface CardProgress {
+  fraction: number
+  label: string
+}
 
 export function Card({
   id,
@@ -8,6 +15,7 @@ export function Card({
   row,
   col,
   onSelect,
+  progress,
 }: {
   /**
    * Row-scoped focus id. A title can appear in several rows and the focus
@@ -18,6 +26,7 @@ export function Card({
   row: number
   col: number
   onSelect: (title: Title) => void
+  progress?: CardProgress
 }) {
   const { ref, focused, activate, tabIndex } = useFocusable(id, row, col, () => onSelect(title))
   const seasons = title.seasons.length
@@ -42,10 +51,11 @@ export function Card({
             </span>
           )}
         </div>
+        {progress && <ProgressBar fraction={progress.fraction} className="go-card_progress" />}
       </div>
       <div className="go-card_name">{title.title}</div>
       <div className="go-card_meta">
-        {[title.year, title.genre].filter(Boolean).join(' · ')}
+        {progress ? progress.label : [title.year, title.genre].filter(Boolean).join(' · ')}
       </div>
     </div>
   )

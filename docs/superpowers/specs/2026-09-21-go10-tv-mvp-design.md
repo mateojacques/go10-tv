@@ -31,7 +31,8 @@ Two things are being validated:
 **Explicitly out of scope:**
 
 - Search, browse grid, and filters
-- Continue Watching, My List, watch progress
+- Continue Watching, My List, watch progress *(watch progress and Continue
+  Watching added later — see `docs/superpowers/specs/2026-09-22-watch-progress-design.md`)*
 - User profiles, authentication, backend of any kind
 - Recommendations or any personalization
 - Real episode-level splitting of season videos

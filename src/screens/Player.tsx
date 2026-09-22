@@ -1,7 +1,7 @@
-import { useCallback, useEffect, useReducer, useRef } from 'react'
+import { useCallback, useEffect, useMemo, useReducer, useRef } from 'react'
 import type { CatalogRow } from '../types'
 import { playerRetryReducer, initialPlayerRetryState, backoffMs } from './playerRetry'
-import { markResumeStart, readResumeFromTime, clearResume } from './resume'
+import { markWatched, readProgress, resumeFromTime, writeProgress } from '../progress/progressStore'
 import { buildEmbedSrc } from './embedSrc'
 import './Player.css'
 
@@ -10,6 +10,15 @@ const LOAD_TIMEOUT_MS = 8000
 
 /** Origin ok.ru's /videoembed/ iframe posts playback events from. */
 const OK_RU_ORIGIN = 'https://ok.ru'
+
+/** `timeupdate` fires several times a second; storage only needs a few. */
+const PROGRESS_SAVE_INTERVAL_MS = 5000
+
+interface Position {
+  videoId: string
+  time: number
+  duration: number
+}
 
 export function Player({
   row,
@@ -28,9 +37,12 @@ export function Player({
 }) {
   const [state, dispatch] = useReducer(playerRetryReducer, initialPlayerRetryState)
   const loaded = useRef(false)
-  // Tracks whether this video_id has ever loaded successfully, so the resume
-  // clock starts once per viewing session and isn't reset by retries/reloads.
-  const startedRef = useRef(false)
+  // The latest position ok.ru reported, saved to storage at most every
+  // PROGRESS_SAVE_INTERVAL_MS — and always on pause, reload, and close.
+  const positionRef = useRef<Position | null>(null)
+  const lastSaveRef = useRef(0)
+  const videoIdRef = useRef(row.video_id)
+  videoIdRef.current = row.video_id
   const containerRef = useRef<HTMLDivElement>(null)
   const frameRef = useRef<HTMLIFrameElement>(null)
 
@@ -43,15 +55,25 @@ export function Player({
   const onNextRef = useRef(onNext)
   onNextRef.current = onNext
 
+  const flushProgress = useCallback(() => {
+    const position = positionRef.current
+    if (!position) return
+    writeProgress(position.videoId, position)
+    lastSaveRef.current = Date.now()
+  }, [])
+
   useEffect(() => {
     loaded.current = false
-    startedRef.current = false
     dispatch({ type: 'reset' })
   }, [row.video_id])
 
+  // Save where playback got to when switching video or closing the player.
   useEffect(() => {
-    return () => clearResume(row.video_id)
-  }, [row.video_id])
+    return () => {
+      flushProgress()
+      positionRef.current = null
+    }
+  }, [row.video_id, flushProgress])
 
   // ok.ru's /videoembed/ iframe posts playback events (`timeupdate`,
   // `ended`, ...) to the parent window — confirmed by inspecting real
@@ -61,13 +83,23 @@ export function Player({
     function onMessage(event: MessageEvent) {
       if (event.origin !== OK_RU_ORIGIN) return
       if (event.source !== frameRef.current?.contentWindow) return
-      if ((event.data as { event?: string } | null)?.event === 'ended') {
+      const data = event.data as { event?: string; time?: number; duration?: number } | null
+      const videoId = videoIdRef.current
+
+      if (data?.event === 'timeupdate' && typeof data.time === 'number') {
+        positionRef.current = { videoId, time: data.time, duration: data.duration ?? 0 }
+        if (Date.now() - lastSaveRef.current >= PROGRESS_SAVE_INTERVAL_MS) flushProgress()
+      } else if (data?.event === 'paused') {
+        flushProgress()
+      } else if (data?.event === 'ended') {
+        markWatched(videoId, positionRef.current?.duration || data.time || 0)
+        positionRef.current = null
         onEndedRef.current?.()
       }
     }
     window.addEventListener('message', onMessage)
     return () => window.removeEventListener('message', onMessage)
-  }, [])
+  }, [flushProgress])
 
   useEffect(() => {
     if (state.status === 'loading') {
@@ -113,16 +145,18 @@ export function Player({
     return () => window.removeEventListener('keydown', onKeyDown)
   }, [onClose])
 
-  const fromTime = readResumeFromTime(row.video_id)
+  // Computed once per video and per reload — never per render. Progress is
+  // saved during playback, and recomputing here would change the iframe
+  // `src` and restart the video every few seconds.
+  const fromTime = useMemo(() => {
+    flushProgress() // a reload should resume from the very latest position
+    return resumeFromTime(readProgress(row.video_id))
+  }, [row.video_id, state.reloadToken, flushProgress])
 
   const handleLoad = useCallback(() => {
     loaded.current = true
-    if (!startedRef.current) {
-      startedRef.current = true
-      markResumeStart(row.video_id)
-    }
     dispatch({ type: 'loaded' })
-  }, [row.video_id])
+  }, [])
 
   const heading = row.series_title || row.title
   const season = row.season_number

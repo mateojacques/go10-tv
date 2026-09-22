@@ -2,6 +2,10 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
+> **Note (2026-09-22):** the resume part of this plan (Task 7's `resume.ts`,
+> wall-clock `go10:resume:*` entries) was later replaced by real-position
+> progress tracking — see `docs/superpowers/specs/2026-09-22-watch-progress-design.md`.
+
 **Goal:** Make the OK.ru embedded player recoverable and fast to get back into on low-end TV hardware, via a path-based router, an in-place reload mechanism (manual key + auto-retry), best-effort resume, and a session-cached catalog.
 
 **Architecture:** A small hand-rolled path router (no new dependency) replaces `App.tsx`'s local `view` state, so every screen — including mid-playback — is a refreshable URL. `Player.tsx` gains a pure retry/backoff reducer driving both automatic retry-on-load-failure and a manual "R" in-place reload, plus a `localStorage`-backed best-effort resume timestamp. `useCatalog` gains a `sessionStorage` cache so a full-page refresh (the fallback recovery path) doesn't re-fetch/re-parse the 907-row CSV every time.

@@ -1,16 +1,18 @@
 import type { Title } from '../types'
 import type { CatalogRowGroup } from '../catalog/buildRows'
-import { Card } from './Card'
+import { Card, type CardProgress } from './Card'
 import './Row.css'
 
 export function Row({
   group,
   rowIndex,
   onSelect,
+  progressFor,
 }: {
   group: CatalogRowGroup
   rowIndex: number
   onSelect: (title: Title) => void
+  progressFor?: (title: Title) => CardProgress | undefined
 }) {
   return (
     <section className="go-row">
@@ -27,6 +29,7 @@ export function Row({
             row={rowIndex}
             col={col}
             onSelect={onSelect}
+            progress={progressFor?.(title)}
           />
         ))}
       </div>

@@ -82,31 +82,98 @@ describe('Player', () => {
     expect(getFrame()).not.toBeNull()
   })
 
-  it('writes a resume timestamp on first successful load, reused as fromTime on the next reload', () => {
-    render(<Player row={row()} onClose={() => {}} />)
-    fireEvent.load(getFrame())
-    expect(localStorage.getItem('go10:resume:1')).not.toBeNull()
-
-    act(() => vi.advanceTimersByTime(30_000))
-    fireEvent.keyDown(window, { key: 'r' })
-    expect(getFrame().src).toContain('fromTime=')
-  })
-
-  it('clears the resume timestamp when the video changes', () => {
-    const { rerender } = render(<Player row={row({ video_id: '1' })} onClose={() => {}} />)
-    fireEvent.load(getFrame())
-    expect(localStorage.getItem('go10:resume:1')).not.toBeNull()
-
-    rerender(<Player row={row({ video_id: '2' })} onClose={() => {}} />)
-    expect(localStorage.getItem('go10:resume:1')).toBeNull()
-  })
-
   function postFromEmbed(frame: HTMLIFrameElement, data: unknown, origin = 'https://ok.ru') {
     fireEvent(
       window,
       new MessageEvent('message', { data, origin, source: frame.contentWindow }),
     )
   }
+
+  function stored(videoId = '1') {
+    const raw = localStorage.getItem(`go10:progress:${videoId}`)
+    return raw ? JSON.parse(raw) : null
+  }
+
+  it('saves the position ok.ru reports, throttled, and flushes it on close', () => {
+    const { unmount } = render(<Player row={row()} onClose={() => {}} />)
+    const frame = getFrame()
+    fireEvent.load(frame)
+
+    postFromEmbed(frame, { event: 'timeupdate', time: 60, duration: 700 })
+    expect(stored().time).toBe(60)
+
+    act(() => vi.advanceTimersByTime(1000))
+    postFromEmbed(frame, { event: 'timeupdate', time: 61, duration: 700 })
+    expect(stored().time).toBe(60) // throttled
+
+    act(() => vi.advanceTimersByTime(5000))
+    postFromEmbed(frame, { event: 'timeupdate', time: 66, duration: 700 })
+    expect(stored().time).toBe(66)
+
+    postFromEmbed(frame, { event: 'timeupdate', time: 67, duration: 700 })
+    unmount()
+    expect(stored().time).toBe(67)
+  })
+
+  it('saves immediately on pause', () => {
+    render(<Player row={row()} onClose={() => {}} />)
+    const frame = getFrame()
+    postFromEmbed(frame, { event: 'timeupdate', time: 60, duration: 700 })
+    postFromEmbed(frame, { event: 'timeupdate', time: 62, duration: 700 })
+    postFromEmbed(frame, { event: 'paused', time: 62 })
+    expect(stored().time).toBe(62)
+  })
+
+  it('opens at the saved position via fromTime', () => {
+    localStorage.setItem(
+      'go10:progress:1',
+      JSON.stringify({ time: 120, duration: 700, updatedAt: 0, watched: false }),
+    )
+    render(<Player row={row()} onClose={() => {}} />)
+    expect(getFrame().src).toBe('https://ok.ru/videoembed/1?autoplay=1&fromTime=117')
+  })
+
+  it('keeps the iframe src stable while progress is being saved', () => {
+    render(<Player row={row()} onClose={() => {}} />)
+    const frame = getFrame()
+    const src = frame.src
+    postFromEmbed(frame, { event: 'timeupdate', time: 60, duration: 700 })
+    act(() => vi.advanceTimersByTime(6000))
+    postFromEmbed(frame, { event: 'timeupdate', time: 66, duration: 700 })
+    expect(getFrame()).toBe(frame)
+    expect(getFrame().src).toBe(src)
+  })
+
+  it('resumes from the latest position on a manual reload', () => {
+    render(<Player row={row()} onClose={() => {}} />)
+    postFromEmbed(getFrame(), { event: 'timeupdate', time: 60, duration: 700 })
+    act(() => vi.advanceTimersByTime(1000))
+    postFromEmbed(getFrame(), { event: 'timeupdate', time: 63, duration: 700 }) // throttled, unsaved
+    fireEvent.keyDown(window, { key: 'r' })
+    expect(getFrame().src).toContain('fromTime=60')
+  })
+
+  it('marks the video watched on "ended", so reopening starts over', () => {
+    const { unmount } = render(<Player row={row()} onClose={() => {}} />)
+    postFromEmbed(getFrame(), { event: 'timeupdate', time: 690, duration: 700 })
+    postFromEmbed(getFrame(), { event: 'ended', time: 700 })
+    unmount()
+    expect(stored().watched).toBe(true)
+
+    render(<Player row={row()} onClose={() => {}} />)
+    expect(getFrame().src).toBe('https://ok.ru/videoembed/1?autoplay=1')
+  })
+
+  it('attributes progress to the right video when switching episodes', () => {
+    const { rerender } = render(<Player row={row({ video_id: '1' })} onClose={() => {}} />)
+    postFromEmbed(getFrame(), { event: 'timeupdate', time: 60, duration: 700 })
+    act(() => vi.advanceTimersByTime(1000))
+    postFromEmbed(getFrame(), { event: 'timeupdate', time: 64, duration: 700 })
+
+    rerender(<Player row={row({ video_id: '2', embed_url: 'https://ok.ru/videoembed/2' })} onClose={() => {}} />)
+    expect(stored('1').time).toBe(64)
+    expect(stored('2')).toBeNull()
+  })
 
   it('calls onEnded when the ok.ru embed posts an "ended" message', () => {
     const onEnded = vi.fn()
@@ -128,7 +195,7 @@ describe('Player', () => {
     expect(onEnded).not.toHaveBeenCalled()
   })
 
-  it('ignores non-"ended" messages, such as "timeupdate"', () => {
+  it('does not treat a "timeupdate" message as the end', () => {
     const onEnded = vi.fn()
     render(<Player row={row()} onClose={() => {}} onEnded={onEnded} />)
     const frame = getFrame()

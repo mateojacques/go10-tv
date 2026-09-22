@@ -47,6 +47,13 @@
   color: var(--go-bg);
 }
 
+.go-card_progress {
+  position: absolute;
+  left: 0.625rem;
+  right: 0.625rem;
+  bottom: 0.625rem;
+}
+
 .go-card_name {
   margin-top: 0.625rem;
   font-size: var(--go-size-card);
