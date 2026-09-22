@@ -1,6 +1,7 @@
 import { useCallback } from 'react'
 import type { CatalogRow } from './types'
 import { useCatalog } from './catalog/useCatalog'
+import { rowKey } from './catalog/rowKey'
 import { FocusProvider } from './focus/FocusProvider'
 import { Home } from './screens/Home'
 import { Detail } from './screens/Detail'
@@ -51,7 +52,7 @@ export default function App() {
         <Home
           titles={titles}
           onSelect={(title) => navigate({ name: 'title', key: title.key })}
-          onResume={(title, row) => navigate({ name: 'play', key: title.key, videoId: row.video_id })}
+          onResume={(title, row) => navigate({ name: 'play', key: title.key, videoId: rowKey(row) })}
         />
       </FocusProvider>
     )
@@ -62,7 +63,7 @@ export default function App() {
   const nextRow = playingRow ? findNextEpisode(title.seasons, playingRow) : null
   const prevRow = playingRow ? findPreviousEpisode(title.seasons, playingRow) : null
   const goToEpisode = (episodeRow: CatalogRow) =>
-    navigate({ name: 'play', key: title.key, videoId: episodeRow.video_id })
+    navigate({ name: 'play', key: title.key, videoId: rowKey(episodeRow) })
 
   return (
     <>
@@ -72,7 +73,7 @@ export default function App() {
       <FocusProvider key="detail" onBack={back} enabled={resolved.name !== 'player'}>
         <Detail
           title={title}
-          onPlay={(row) => navigate({ name: 'play', key: title.key, videoId: row.video_id })}
+          onPlay={(row) => navigate({ name: 'play', key: title.key, videoId: rowKey(row) })}
           onBack={back}
           playingRow={playingRow}
         />

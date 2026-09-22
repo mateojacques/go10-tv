@@ -1,5 +1,6 @@
 import type { Route } from './route'
 import type { CatalogRow, Title } from '../types'
+import { rowKey } from '../catalog/rowKey'
 
 export type ResolvedView =
   | { name: 'home' }
@@ -15,7 +16,7 @@ export function resolveRoute(route: Route, titles: Title[]): ResolvedView {
 
   if (route.name === 'title') return { name: 'detail', title }
 
-  const row = title.seasons.find((r) => r.video_id === route.videoId)
+  const row = title.seasons.find((r) => rowKey(r) === route.videoId)
   if (!row) return { name: 'not-found' }
 
   return { name: 'player', title, row }

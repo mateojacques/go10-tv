@@ -57,3 +57,16 @@ describe('resolveRoute', () => {
     })
   })
 })
+
+describe('resolveRoute with chaptered episodes', () => {
+  it('resolves a play route to the specific chapter, not just any row sharing its video_id', () => {
+    const ep1 = row({ video_id: '9', episode_number: 1, chapter_start_seconds: 0 })
+    const ep2 = row({ video_id: '9', episode_number: 2, chapter_start_seconds: 1435 })
+    const t = title({ key: 'abc', seasons: [ep1, ep2] })
+    expect(resolveRoute({ name: 'play', key: 'abc', videoId: '9:2' }, [t])).toEqual({
+      name: 'player',
+      title: t,
+      row: ep2,
+    })
+  })
+})
