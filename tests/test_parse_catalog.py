@@ -80,3 +80,92 @@ def test_genres_are_joined_when_supplied():
     assert rows[0]["genre"] == "Animación"
     assert rows[0]["genre_secondary"] == "Aventura"
     assert rows[1]["genre"] == ""
+
+
+def test_thumbnail_regex_matches_any_series_files_folder():
+    html_text = open(os.path.join(ROOT, "spidey.html"), encoding="utf-8").read()
+    cards = extract_cards(html_text)
+    assert len(cards) == 49
+    assert all(c["thumbnail"].startswith("spidey_files/") for c in cards)
+
+
+def test_load_series_sidecars_reads_json_files(tmp_path):
+    series_dir = tmp_path / "series"
+    series_dir.mkdir()
+    (series_dir / "spidey.json").write_text(
+        '{"series_title": "Spidey y sus Sorprendentes Amigos", "studio": "Marvel"}',
+        encoding="utf-8",
+    )
+    sidecars = parse_catalog.load_series_sidecars(str(series_dir))
+    assert sidecars == [
+        ("spidey", {"series_title": "Spidey y sus Sorprendentes Amigos", "studio": "Marvel"})
+    ]
+
+
+def test_load_series_sidecars_returns_empty_list_when_dir_missing(tmp_path):
+    assert parse_catalog.load_series_sidecars(str(tmp_path / "nope")) == []
+
+
+SPIDEY_SIDECAR = {
+    "series_title": "Spidey y sus Sorprendentes Amigos",
+    "studio": "Marvel",
+    "quality": "1080p",
+    "language": "Español",
+    "genre": "Superhéroes",
+    "genre_secondary": "Infantil",
+}
+
+
+def test_build_episode_rows_extracts_all_spidey_episodes(tmp_path):
+    html_text = open(os.path.join(ROOT, "spidey.html"), encoding="utf-8").read()
+    rows = parse_catalog.build_episode_rows(
+        html_text, SPIDEY_SIDECAR, "spidey", start_index=907,
+        root=ROOT, assets_dir=str(tmp_path),
+    )
+    assert len(rows) == 49
+    assert all(r["type"] == "episode" for r in rows)
+    assert all(r["series_id"] == "spidey-y-sus-sorprendentes-amigos" for r in rows)
+    assert all(r["series_title"] == "Spidey y sus Sorprendentes Amigos" for r in rows)
+    assert all(r["studio"] == "Marvel" for r in rows)
+    assert {int(r["season_number"]) for r in rows} == {1, 2, 3, 4, 5}
+    assert rows[0]["catalog_index"] == 907
+    assert rows[-1]["catalog_index"] == 955
+
+
+def test_build_episode_rows_copies_thumbnails_into_assets(tmp_path):
+    html_text = open(os.path.join(ROOT, "spidey.html"), encoding="utf-8").read()
+    rows = parse_catalog.build_episode_rows(
+        html_text, SPIDEY_SIDECAR, "spidey", start_index=0,
+        root=ROOT, assets_dir=str(tmp_path),
+    )
+    for row in rows:
+        assert row["thumbnail"].startswith("assets/spidey/")
+        copied = tmp_path / "spidey" / os.path.basename(row["thumbnail"])
+        assert copied.exists(), row["thumbnail"]
+
+
+def test_build_episode_rows_skips_already_copied_thumbnails(tmp_path):
+    html_text = open(os.path.join(ROOT, "spidey.html"), encoding="utf-8").read()
+    parse_catalog.build_episode_rows(
+        html_text, SPIDEY_SIDECAR, "spidey", 0, root=ROOT, assets_dir=str(tmp_path),
+    )
+    # Re-running after the raw dump is hypothetically gone must not fail or
+    # try to re-copy — every destination file already exists.
+    rows = parse_catalog.build_episode_rows(
+        html_text, SPIDEY_SIDECAR, "spidey", 0, root=ROOT, assets_dir=str(tmp_path),
+    )
+    assert len(rows) == 49
+
+
+def test_build_episode_rows_skips_titles_that_dont_match(tmp_path, capsys):
+    html_text = open(os.path.join(ROOT, "spidey.html"), encoding="utf-8").read()
+    # Corrupt one card's title (its title="" and alt="" copies both contain
+    # the same text) so it no longer matches "Temporada N Episodio M". The
+    # trailing " -" is required so this doesn't also match "Episodio 21/22/
+    # 24/25", which all share the "Episodio 2" prefix.
+    broken_html = html_text.replace("Temporada 1 Episodio 2 -", "Special -")
+    rows = parse_catalog.build_episode_rows(
+        broken_html, SPIDEY_SIDECAR, "spidey", 0, root=ROOT, assets_dir=str(tmp_path),
+    )
+    assert len(rows) == 48
+    assert "skip" in capsys.readouterr().out.lower()

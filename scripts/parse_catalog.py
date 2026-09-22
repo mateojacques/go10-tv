@@ -4,16 +4,20 @@ Run: python3 scripts/parse_catalog.py
 """
 import csv
 import html
+import json
 import os
 import re
+import shutil
 import sys
 
-from title_parser import parse_title
+from title_parser import parse_title, parse_episode_title, slugify
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 SOURCE_HTML = os.path.join(ROOT, "catalogo-solo-videos.html")
 GENRES_CSV = os.path.join(ROOT, "data", "genres.csv")
 OUTPUT_CSV = os.path.join(ROOT, "public", "data", "catalog.csv")
+SERIES_DIR = os.path.join(ROOT, "data", "series")
+ASSETS_DIR = os.path.join(ROOT, "assets")
 
 COLUMNS = [
     "catalog_index", "video_id", "type", "title", "title_raw",
@@ -31,7 +35,7 @@ CARD_RE = re.compile(
 TITLE_RE = re.compile(r'class="video-card_n ellip[^"]*"[^>]*title="([^"]*)"')
 DURATION_RE = re.compile(r'class="video-card_duration">([^<]*)<')
 VIEWS_RE = re.compile(r'class="video-card_info_i">([^<]*)<')
-THUMB_RE = re.compile(r'<img[^>]*src="(catalogo_files/[^"]+)"')
+THUMB_RE = re.compile(r'<img[^>]*src="([\w.-]+_files/[^"]+)"')
 
 
 def parse_duration(text):
@@ -112,6 +116,78 @@ def load_genres(path):
         }
 
 
+def load_series_sidecars(series_dir):
+    """Return [(slug, sidecar_dict), ...] for every data/series/<slug>.json."""
+    if not os.path.isdir(series_dir):
+        return []
+    sidecars = []
+    for name in sorted(os.listdir(series_dir)):
+        if not name.endswith(".json"):
+            continue
+        slug = name[: -len(".json")]
+        with open(os.path.join(series_dir, name), encoding="utf-8") as handle:
+            sidecars.append((slug, json.load(handle)))
+    return sidecars
+
+
+def build_episode_rows(html_text, sidecar, slug, start_index, root=ROOT, assets_dir=None):
+    """Turn one series' scraped HTML into episode rows.
+
+    Copies each referenced thumbnail from `<root>/<slug>_files/` into
+    `<assets_dir>/<slug>/`, skipping any that already exist there so a
+    second run is safe after the raw scrape dump has been deleted. A card
+    whose title doesn't match "Temporada N Episodio M" is skipped and
+    reported, never guessed.
+    """
+    assets_dir = assets_dir or ASSETS_DIR
+    series_id = slugify(sidecar["series_title"])
+    dest_dir = os.path.join(assets_dir, slug)
+    os.makedirs(dest_dir, exist_ok=True)
+
+    rows = []
+    index = start_index
+    for card in extract_cards(html_text):
+        parsed = parse_episode_title(card["title_raw"])
+        if parsed is None:
+            print(f"skip (no season/episode match): {card['title_raw']!r}")
+            continue
+        season_number, episode_number = parsed
+
+        filename = os.path.basename(card["thumbnail"])
+        source_thumb = os.path.join(root, card["thumbnail"])
+        dest_thumb = os.path.join(dest_dir, filename)
+        if os.path.exists(source_thumb) and not os.path.exists(dest_thumb):
+            shutil.copy2(source_thumb, dest_thumb)
+
+        rows.append({
+            "catalog_index": index,
+            "video_id": card["video_id"],
+            "type": "episode",
+            "title": sidecar["series_title"],
+            "title_raw": card["title_raw"],
+            "series_id": series_id,
+            "series_title": sidecar["series_title"],
+            "season_number": str(season_number),
+            "season_label": "",
+            "episode_number": str(episode_number),
+            "year": "",
+            "studio": sidecar.get("studio", ""),
+            "genre": sidecar.get("genre", ""),
+            "genre_secondary": sidecar.get("genre_secondary", ""),
+            "quality": sidecar.get("quality", ""),
+            "language": sidecar.get("language", ""),
+            "subtitled": "false",
+            "duration_raw": card["duration_raw"],
+            "duration_seconds": parse_duration(card["duration_raw"]),
+            "views": parse_views(card["views_raw"]),
+            "thumbnail": f"assets/{slug}/{filename}",
+            "video_url": f"https://ok.ru/video/{card['video_id']}",
+            "embed_url": f"https://ok.ru/videoembed/{card['video_id']}",
+        })
+        index += 1
+    return rows
+
+
 def report_coverage(rows):
     print(f"rows: {len(rows)}")
     for column in COLUMNS:
@@ -122,6 +198,10 @@ def report_coverage(rows):
 def main():
     html_text = open(SOURCE_HTML, encoding="utf-8").read()
     rows = build_rows(html_text, load_genres(GENRES_CSV))
+
+    for slug, sidecar in load_series_sidecars(SERIES_DIR):
+        series_html = open(os.path.join(ROOT, f"{slug}.html"), encoding="utf-8").read()
+        rows.extend(build_episode_rows(series_html, sidecar, slug, len(rows)))
 
     os.makedirs(os.path.dirname(OUTPUT_CSV), exist_ok=True)
     with open(OUTPUT_CSV, "w", encoding="utf-8", newline="") as handle:
