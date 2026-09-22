@@ -48,3 +48,23 @@ describe('Detail', () => {
     expect(onPlay).toHaveBeenCalledWith(season2Ep1)
   })
 })
+
+describe('Detail with chaptered episodes', () => {
+  it('tracks progress and active state per chapter, not per shared video_id', () => {
+    const ep1 = row({ video_id: '9', season_number: 1, episode_number: 1, chapter_start_seconds: 0 })
+    const ep2 = row({ video_id: '9', season_number: 1, episode_number: 2, chapter_start_seconds: 1435 })
+    const title = makeTitle([ep1, ep2])
+
+    localStorage.setItem('go10:progress:9:1', JSON.stringify({ time: 1435, duration: 1435, updatedAt: 1, watched: true }))
+    localStorage.setItem('go10:progress:9:2', JSON.stringify({ time: 300, duration: 1370, updatedAt: 2, watched: false }))
+
+    render(
+      <FocusProvider onBack={() => {}}>
+        <Detail title={title} onPlay={() => {}} onBack={() => {}} />
+      </FocusProvider>,
+    )
+
+    expect(screen.getByText('Episodio 1').closest('[data-focused]')?.textContent).toContain('Visto')
+    expect(screen.getByText('Episodio 2').closest('[data-focused]')?.textContent).not.toContain('Visto')
+  })
+})

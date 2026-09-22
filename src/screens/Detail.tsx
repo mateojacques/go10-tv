@@ -4,6 +4,7 @@ import { Backdrop } from '../components/Backdrop'
 import { useFocusable } from '../focus/useFocusable'
 import { formatDuration, formatViews } from '../lib/format'
 import { groupSeasons } from './groupSeasons'
+import { rowKey } from '../catalog/rowKey'
 import { ProgressBar } from '../components/ProgressBar'
 import { listProgress, resumeFromTime, type Progress } from '../progress/progressStore'
 import { playedFraction, titleProgress } from '../progress/titleProgress'
@@ -73,7 +74,7 @@ export function Detail({
   const progress = listProgress()
   const [activeRow, setActiveRow] = useState<CatalogRow>(() => titleProgress(title, progress).row)
   const isShow = title.kind === 'show'
-  const activeProgress = progress[activeRow.video_id] ?? null
+  const activeProgress = progress[rowKey(activeRow)] ?? null
   const resuming = resumeFromTime(activeProgress) !== null
 
   const seasonGroups = useMemo(() => groupSeasons(title.seasons), [title.seasons])
@@ -83,10 +84,10 @@ export function Detail({
   const selectedGroup = seasonGroups.find((group) => group.seasonNumber === selectedSeasonNumber)
 
   useEffect(() => {
-    if (!playingRow || playingRow.video_id === activeRow.video_id) return
+    if (!playingRow || rowKey(playingRow) === rowKey(activeRow)) return
     setActiveRow(playingRow)
     setSelectedSeasonNumber(playingRow.season_number ?? selectedSeasonNumber)
-  }, [playingRow, activeRow.video_id, selectedSeasonNumber])
+  }, [playingRow, activeRow, selectedSeasonNumber])
 
   const meta = [
     activeRow.year ?? title.year,
@@ -185,10 +186,10 @@ export function Detail({
                 <span className="go-season_d">
                   {group.rows.length > 1
                     ? `${group.rows.length} episodios`
-                    : tileDetail(group.rows[0], progress[group.rows[0].video_id])}
+                    : tileDetail(group.rows[0], progress[rowKey(group.rows[0])])}
                 </span>
                 {group.rows.length === 1 && (
-                  <ProgressBar fraction={playedFraction(progress[group.rows[0].video_id])} />
+                  <ProgressBar fraction={playedFraction(progress[rowKey(group.rows[0])])} />
                 )}
               </FocusButton>
             ))}
@@ -200,8 +201,8 @@ export function Detail({
               <div className="go-seasons_list">
                 {selectedGroup.rows.map((episode, index) => (
                   <FocusButton
-                    key={episode.video_id}
-                    id={`detail:episode:${episode.video_id}`}
+                    key={rowKey(episode)}
+                    id={`detail:episode:${rowKey(episode)}`}
                     row={2}
                     col={index}
                     onEnter={() => {
@@ -209,12 +210,12 @@ export function Detail({
                       onPlay(episode)
                     }}
                     className={`go-season${
-                      episode.video_id === activeRow.video_id ? ' is-active' : ''
+                      rowKey(episode) === rowKey(activeRow) ? ' is-active' : ''
                     }`}
                   >
                     <span className="go-season_n">Episodio {episode.episode_number}</span>
-                    <span className="go-season_d">{tileDetail(episode, progress[episode.video_id])}</span>
-                    <ProgressBar fraction={playedFraction(progress[episode.video_id])} />
+                    <span className="go-season_d">{tileDetail(episode, progress[rowKey(episode)])}</span>
+                    <ProgressBar fraction={playedFraction(progress[rowKey(episode)])} />
                   </FocusButton>
                 ))}
               </div>
