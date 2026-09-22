@@ -7,7 +7,7 @@ function row(video_id: string, episode_number: number | null = null): CatalogRow
   return {
     catalog_index: 0, video_id, type: episode_number ? 'episode' : 'movie', title: 'T', title_raw: 'T',
     series_id: '', series_title: '', season_number: episode_number ? 1 : null, season_label: '',
-    episode_number, year: null, studio: '', genre: '', genre_secondary: '',
+    episode_number, chapter_start_seconds: null, chapter_end_seconds: null, year: null, studio: '', genre: '', genre_secondary: '',
     quality: '', language: '', subtitled: false, duration_raw: '', duration_seconds: 700,
     views: 0, thumbnail: '', video_url: '', embed_url: '',
   }

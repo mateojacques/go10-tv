@@ -1,7 +1,10 @@
 import Papa from 'papaparse'
 import type { CatalogRow, Title } from '../types'
 
-const NUMERIC = ['catalog_index', 'season_number', 'episode_number', 'year', 'duration_seconds', 'views']
+const NUMERIC = [
+  'catalog_index', 'season_number', 'episode_number', 'chapter_start_seconds',
+  'chapter_end_seconds', 'year', 'duration_seconds', 'views',
+]
 
 export function parseCatalogCsv(text: string): CatalogRow[] {
   const { data } = Papa.parse<Record<string, string>>(text.trim(), {

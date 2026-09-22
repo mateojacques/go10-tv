@@ -8,7 +8,7 @@ function row(overrides: Partial<CatalogRow>): CatalogRow {
   return {
     catalog_index: 0, video_id: '1', type: 'episode', title: 'Ep Show', title_raw: '',
     series_id: 'ep-show', series_title: 'Ep Show', season_number: 1, season_label: '',
-    episode_number: 1, year: null, studio: '', genre: '', genre_secondary: '',
+    episode_number: 1, chapter_start_seconds: null, chapter_end_seconds: null, year: null, studio: '', genre: '', genre_secondary: '',
     quality: '', language: '', subtitled: false, duration_raw: '', duration_seconds: 0,
     views: 0, thumbnail: '', video_url: '', embed_url: '',
     ...overrides,

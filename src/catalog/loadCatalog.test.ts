@@ -52,6 +52,24 @@ describe('buildTitles', () => {
   })
 })
 
+const CHAPTER_CSV = `catalog_index,video_id,type,title,title_raw,series_id,series_title,season_number,season_label,episode_number,chapter_start_seconds,chapter_end_seconds,year,studio,genre,genre_secondary,quality,language,subtitled,duration_raw,duration_seconds,views,thumbnail,video_url,embed_url
+0,111,episode,Hora de Aventura,"Hora de Aventura - Temporada 1",hora-de-aventura,Hora de Aventura,1,,1,0,1435,2010,Cartoon N.,Animación,,1080p,Español,false,23:55,1435,173,catalogo_files/b.webp,https://ok.ru/video/111,https://ok.ru/videoembed/111
+1,111,episode,Hora de Aventura,"Hora de Aventura - Temporada 1",hora-de-aventura,Hora de Aventura,1,,2,1435,,2010,Cartoon N.,Animación,,1080p,Español,false,45:34,2735,50,catalogo_files/b.webp,https://ok.ru/video/111,https://ok.ru/videoembed/111
+`
+
+describe('parseCatalogCsv with chapter boundaries', () => {
+  it('types chapter_start_seconds/chapter_end_seconds as numbers, and an open end as null', () => {
+    const rows = parseCatalogCsv(CHAPTER_CSV)
+    expect(rows[0].chapter_start_seconds).toBe(0)
+    expect(rows[0].chapter_end_seconds).toBe(1435)
+    expect(rows[1].chapter_end_seconds).toBeNull()
+  })
+
+  it('leaves chapter fields null for a CSV with no such columns', () => {
+    expect(parseCatalogCsv(CSV)[0].chapter_start_seconds).toBeNull()
+  })
+})
+
 const EPISODIC_CSV = `catalog_index,video_id,type,title,title_raw,series_id,series_title,season_number,season_label,episode_number,year,studio,genre,genre_secondary,quality,language,subtitled,duration_raw,duration_seconds,views,thumbnail,video_url,embed_url
 0,901,episode,Spidey,"Spidey - T1E2",spidey,Spidey,1,,2,,Marvel,Superhéroes,Infantil,1080p,Español,false,23:32,1412,2,assets/spidey/a.webp,https://ok.ru/video/901,https://ok.ru/videoembed/901
 1,902,episode,Spidey,"Spidey - T1E1",spidey,Spidey,1,,1,,Marvel,Superhéroes,Infantil,1080p,Español,false,23:20,1400,3,assets/spidey/b.webp,https://ok.ru/video/902,https://ok.ru/videoembed/902

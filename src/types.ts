@@ -9,6 +9,8 @@ export interface CatalogRow {
   season_number: number | null
   season_label: string
   episode_number: number | null
+  chapter_start_seconds: number | null
+  chapter_end_seconds: number | null
   year: number | null
   studio: string
   genre: string
