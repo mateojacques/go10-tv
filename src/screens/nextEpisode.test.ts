@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { findNextEpisode } from './nextEpisode'
+import { findNextEpisode, findPreviousEpisode } from './nextEpisode'
 import type { CatalogRow } from '../types'
 
 function row(overrides: Partial<CatalogRow>): CatalogRow {
@@ -57,5 +57,36 @@ describe('findNextEpisode', () => {
       row({ video_id: '2', season_number: 1, episode_number: 5 }),
     ]
     expect(findNextEpisode(rows, rows[0])?.video_id).toBe('2')
+  })
+})
+
+describe('findPreviousEpisode', () => {
+  it('returns the previous episode within the same season', () => {
+    const rows = [
+      row({ video_id: '1', season_number: 1, episode_number: 2 }),
+      row({ video_id: '2', season_number: 1, episode_number: 3 }),
+    ]
+    expect(findPreviousEpisode(rows, rows[1])?.video_id).toBe('1')
+  })
+
+  it('crosses back into the previous season when at the first episode of a season', () => {
+    const rows = [
+      row({ video_id: '1', season_number: 1, episode_number: 17 }),
+      row({ video_id: '2', season_number: 2, episode_number: 1 }),
+    ]
+    expect(findPreviousEpisode(rows, rows[1])?.video_id).toBe('1')
+  })
+
+  it('returns null for the first episode of the first season', () => {
+    const rows = [
+      row({ video_id: '1', season_number: 1, episode_number: 1 }),
+      row({ video_id: '2', season_number: 1, episode_number: 2 }),
+    ]
+    expect(findPreviousEpisode(rows, rows[0])).toBeNull()
+  })
+
+  it('returns null for a movie row (never episodic)', () => {
+    const movieRow = row({ video_id: '1', type: 'movie', season_number: null, episode_number: null })
+    expect(findPreviousEpisode([movieRow], movieRow)).toBeNull()
   })
 })

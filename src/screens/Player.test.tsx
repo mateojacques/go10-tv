@@ -101,21 +101,71 @@ describe('Player', () => {
     expect(localStorage.getItem('go10:resume:1')).toBeNull()
   })
 
-  it('calls onEnded once the episode duration has elapsed since load', () => {
+  function postFromEmbed(frame: HTMLIFrameElement, data: unknown, origin = 'https://ok.ru') {
+    fireEvent(
+      window,
+      new MessageEvent('message', { data, origin, source: frame.contentWindow }),
+    )
+  }
+
+  it('calls onEnded when the ok.ru embed posts an "ended" message', () => {
     const onEnded = vi.fn()
-    render(<Player row={row({ duration_seconds: 100 })} onClose={() => {}} onEnded={onEnded} />)
-    fireEvent.load(getFrame())
+    render(<Player row={row()} onClose={() => {}} onEnded={onEnded} />)
+    const frame = getFrame()
+    fireEvent.load(frame)
 
-    act(() => vi.advanceTimersByTime(99_000))
-    expect(onEnded).not.toHaveBeenCalled()
-
-    act(() => vi.advanceTimersByTime(1_000))
+    postFromEmbed(frame, { event: 'ended', time: 1412 })
     expect(onEnded).toHaveBeenCalledTimes(1)
   })
 
-  it('does not call onEnded when no callback is provided', () => {
-    render(<Player row={row({ duration_seconds: 100 })} onClose={() => {}} />)
-    fireEvent.load(getFrame())
-    expect(() => act(() => vi.advanceTimersByTime(100_000))).not.toThrow()
+  it('ignores an "ended" message from a different origin', () => {
+    const onEnded = vi.fn()
+    render(<Player row={row()} onClose={() => {}} onEnded={onEnded} />)
+    const frame = getFrame()
+    fireEvent.load(frame)
+
+    postFromEmbed(frame, { event: 'ended', time: 1412 }, 'https://evil.example')
+    expect(onEnded).not.toHaveBeenCalled()
+  })
+
+  it('ignores non-"ended" messages, such as "timeupdate"', () => {
+    const onEnded = vi.fn()
+    render(<Player row={row()} onClose={() => {}} onEnded={onEnded} />)
+    const frame = getFrame()
+    fireEvent.load(frame)
+
+    postFromEmbed(frame, { event: 'timeupdate', time: 5, duration: 1412 })
+    expect(onEnded).not.toHaveBeenCalled()
+  })
+
+  it('does not throw on an "ended" message when no onEnded callback is provided', () => {
+    render(<Player row={row()} onClose={() => {}} />)
+    const frame = getFrame()
+    fireEvent.load(frame)
+    expect(() => postFromEmbed(frame, { event: 'ended', time: 1412 })).not.toThrow()
+  })
+
+  it('navigates to the previous/next episode on Shift+ArrowLeft/ArrowRight', () => {
+    const onPrev = vi.fn()
+    const onNext = vi.fn()
+    render(<Player row={row()} onClose={() => {}} onPrev={onPrev} onNext={onNext} />)
+
+    fireEvent.keyDown(window, { key: 'ArrowLeft', shiftKey: true })
+    fireEvent.keyDown(window, { key: 'ArrowRight', shiftKey: true })
+
+    expect(onPrev).toHaveBeenCalledTimes(1)
+    expect(onNext).toHaveBeenCalledTimes(1)
+  })
+
+  it('does not treat a plain arrow key (no Shift) as episode navigation', () => {
+    const onPrev = vi.fn()
+    const onNext = vi.fn()
+    render(<Player row={row()} onClose={() => {}} onPrev={onPrev} onNext={onNext} />)
+
+    fireEvent.keyDown(window, { key: 'ArrowLeft' })
+    fireEvent.keyDown(window, { key: 'ArrowRight' })
+
+    expect(onPrev).not.toHaveBeenCalled()
+    expect(onNext).not.toHaveBeenCalled()
   })
 })

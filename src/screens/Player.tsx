@@ -8,28 +8,44 @@ import './Player.css'
 /** How long to wait for the embed before treating it as a load failure. */
 const LOAD_TIMEOUT_MS = 8000
 
+/** Origin ok.ru's /videoembed/ iframe posts playback events from. */
+const OK_RU_ORIGIN = 'https://ok.ru'
+
 export function Player({
   row,
   onClose,
   onEnded,
+  onPrev,
+  onNext,
 }: {
   row: CatalogRow
   onClose: () => void
-  /** Fired once, roughly when this row's playback should be finishing. */
+  /** Fired when the ok.ru embed reports its "ended" playback event. */
   onEnded?: () => void
+  /** Shift+ArrowLeft / Shift+ArrowRight — jump to a sibling episode. */
+  onPrev?: () => void
+  onNext?: () => void
 }) {
   const [state, dispatch] = useReducer(playerRetryReducer, initialPlayerRetryState)
   const loaded = useRef(false)
   // Tracks whether this video_id has ever loaded successfully, so the resume
   // clock starts once per viewing session and isn't reset by retries/reloads.
   const startedRef = useRef(false)
-  const endedTimer = useRef<ReturnType<typeof setTimeout> | undefined>(undefined)
   const containerRef = useRef<HTMLDivElement>(null)
+  const frameRef = useRef<HTMLIFrameElement>(null)
+
+  // Kept in refs so the message/keydown listeners never need to re-subscribe
+  // when these callbacks change identity across renders.
+  const onEndedRef = useRef(onEnded)
+  onEndedRef.current = onEnded
+  const onPrevRef = useRef(onPrev)
+  onPrevRef.current = onPrev
+  const onNextRef = useRef(onNext)
+  onNextRef.current = onNext
 
   useEffect(() => {
     loaded.current = false
     startedRef.current = false
-    clearTimeout(endedTimer.current)
     dispatch({ type: 'reset' })
   }, [row.video_id])
 
@@ -37,8 +53,20 @@ export function Player({
     return () => clearResume(row.video_id)
   }, [row.video_id])
 
+  // ok.ru's /videoembed/ iframe posts playback events (`timeupdate`,
+  // `ended`, ...) to the parent window — confirmed by inspecting real
+  // traffic. This is the actual player state, unlike a wall-clock guess
+  // from `duration_seconds`: immune to seeking, pausing, and buffering.
   useEffect(() => {
-    return () => clearTimeout(endedTimer.current)
+    function onMessage(event: MessageEvent) {
+      if (event.origin !== OK_RU_ORIGIN) return
+      if (event.source !== frameRef.current?.contentWindow) return
+      if ((event.data as { event?: string } | null)?.event === 'ended') {
+        onEndedRef.current?.()
+      }
+    }
+    window.addEventListener('message', onMessage)
+    return () => window.removeEventListener('message', onMessage)
   }, [])
 
   useEffect(() => {
@@ -73,6 +101,12 @@ export function Player({
         event.preventDefault()
         loaded.current = false
         dispatch({ type: 'manualReload' })
+      } else if (event.shiftKey && event.key === 'ArrowLeft') {
+        event.preventDefault()
+        onPrevRef.current?.()
+      } else if (event.shiftKey && event.key === 'ArrowRight') {
+        event.preventDefault()
+        onNextRef.current?.()
       }
     }
     window.addEventListener('keydown', onKeyDown)
@@ -86,13 +120,9 @@ export function Player({
     if (!startedRef.current) {
       startedRef.current = true
       markResumeStart(row.video_id)
-      if (onEnded && row.duration_seconds > 0) {
-        const remainingMs = Math.max(0, row.duration_seconds - (fromTime ?? 0)) * 1000
-        endedTimer.current = setTimeout(onEnded, remainingMs)
-      }
     }
     dispatch({ type: 'loaded' })
-  }, [row.video_id, row.duration_seconds, fromTime, onEnded])
+  }, [row.video_id])
 
   const heading = row.series_title || row.title
   const season = row.season_number
@@ -112,6 +142,7 @@ export function Player({
         {season && <span className="go-player_season">{season}</span>}
         <span className="go-player_hint">
           Pulsa Atrás para salir · F para pantalla completa · R para recargar
+          {(onPrev || onNext) && ' · Shift + ←/→ para episodio anterior/siguiente'}
         </span>
       </div>
 
@@ -131,6 +162,7 @@ export function Player({
       ) : (
         <iframe
           key={state.reloadToken}
+          ref={frameRef}
           className="go-player_frame"
           src={embedSrc}
           title={row.title}

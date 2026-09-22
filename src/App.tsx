@@ -1,10 +1,11 @@
 import { useCallback } from 'react'
+import type { CatalogRow } from './types'
 import { useCatalog } from './catalog/useCatalog'
 import { FocusProvider } from './focus/FocusProvider'
 import { Home } from './screens/Home'
 import { Detail } from './screens/Detail'
 import { Player } from './screens/Player'
-import { findNextEpisode } from './screens/nextEpisode'
+import { findNextEpisode, findPreviousEpisode } from './screens/nextEpisode'
 import { useRoute } from './router/useRoute'
 import { resolveRoute } from './router/resolveRoute'
 import './styles/global.css'
@@ -55,6 +56,9 @@ export default function App() {
   const title = resolved.title
   const playingRow = resolved.name === 'player' ? resolved.row : undefined
   const nextRow = playingRow ? findNextEpisode(title.seasons, playingRow) : null
+  const prevRow = playingRow ? findPreviousEpisode(title.seasons, playingRow) : null
+  const goToEpisode = (episodeRow: CatalogRow) =>
+    navigate({ name: 'play', key: title.key, videoId: episodeRow.video_id })
 
   return (
     <>
@@ -74,11 +78,9 @@ export default function App() {
         <Player
           row={resolved.row}
           onClose={back}
-          onEnded={
-            nextRow
-              ? () => navigate({ name: 'play', key: title.key, videoId: nextRow.video_id })
-              : undefined
-          }
+          onEnded={nextRow ? () => goToEpisode(nextRow) : undefined}
+          onPrev={prevRow ? () => goToEpisode(prevRow) : undefined}
+          onNext={nextRow ? () => goToEpisode(nextRow) : undefined}
         />
       )}
     </>
