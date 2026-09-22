@@ -18,8 +18,8 @@ OUTPUT_CSV = os.path.join(ROOT, "public", "data", "catalog.csv")
 COLUMNS = [
     "catalog_index", "video_id", "type", "title", "title_raw",
     "series_id", "series_title", "season_number", "season_label",
-    "year", "studio", "genre", "genre_secondary", "quality",
-    "language", "subtitled", "duration_raw", "duration_seconds",
+    "episode_number", "year", "studio", "genre", "genre_secondary",
+    "quality", "language", "subtitled", "duration_raw", "duration_seconds",
     "views", "thumbnail", "video_url", "embed_url",
 ]
 
@@ -81,6 +81,7 @@ def build_rows(html_text, genres):
             "series_title": parsed["series_title"],
             "season_number": parsed["season_number"],
             "season_label": parsed["season_label"],
+            "episode_number": "",
             "year": parsed["year"],
             "studio": parsed["studio"],
             "genre": genre.get("genre", ""),

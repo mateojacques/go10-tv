@@ -20,14 +20,20 @@ def test_parse_views_strips_separators():
     assert parse_views("") == 0
 
 
-def test_columns_are_the_22_specified_in_order():
+def test_columns_are_the_23_specified_in_order():
     assert COLUMNS == [
         "catalog_index", "video_id", "type", "title", "title_raw",
         "series_id", "series_title", "season_number", "season_label",
-        "year", "studio", "genre", "genre_secondary", "quality",
-        "language", "subtitled", "duration_raw", "duration_seconds",
+        "episode_number", "year", "studio", "genre", "genre_secondary",
+        "quality", "language", "subtitled", "duration_raw", "duration_seconds",
         "views", "thumbnail", "video_url", "embed_url",
     ]
+
+
+def test_base_rows_have_empty_episode_number():
+    html_text = open(os.path.join(ROOT, "catalogo-solo-videos.html"), encoding="utf-8").read()
+    rows = build_rows(html_text, {})
+    assert all(r["episode_number"] == "" for r in rows)
 
 
 def test_extract_cards_finds_every_card_with_every_field():
