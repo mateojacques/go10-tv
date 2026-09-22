@@ -1,0 +1,91 @@
+.go-player {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  background: #000;
+  animation: go-player-in var(--go-dur-slow) var(--go-ease);
+}
+
+@keyframes go-player-in {
+  from {
+    opacity: 0;
+    transform: scale(1.015);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.go-player_bar {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 1rem var(--go-safe-x);
+  background: var(--go-scrim);
+  border-bottom: 1px solid var(--go-hairline);
+}
+
+.go-player_mark {
+  align-self: center;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: var(--go-accent);
+  box-shadow: 0 0 14px 2px var(--go-accent-glow);
+}
+
+.go-player_title {
+  font-size: var(--go-size-card);
+  font-weight: 700;
+}
+
+.go-player_season {
+  font-family: var(--go-font-mono);
+  font-size: 0.8125rem;
+  color: var(--go-accent);
+}
+
+.go-player_hint {
+  margin-left: auto;
+  font-family: var(--go-font-mono);
+  font-size: 0.8125rem;
+  letter-spacing: 0.06em;
+  color: var(--go-text-muted);
+}
+
+.go-player_frame {
+  flex: 1;
+  width: 100%;
+  border: 0;
+}
+
+/* Demo safety: a blocked embed shows a way forward, never a black rectangle. */
+.go-player_fallback {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.go-player_fallback-msg {
+  margin: 0;
+  font-size: var(--go-size-body);
+  color: var(--go-text-muted);
+}
+
+/* Self-contained: deliberately does not borrow .go-play from Detail.css. */
+.go-player_open {
+  padding: 0.875rem 2rem;
+  border-radius: var(--go-radius);
+  background: var(--go-accent);
+  color: var(--go-bg);
+  box-shadow: var(--go-focus-ring);
+  font-size: var(--go-size-body);
+  font-weight: 700;
+  text-decoration: none;
+}

@@ -128,3 +128,25 @@ describe('FocusProvider', () => {
     expect(focusedId()).toBe('only')
   })
 })
+
+describe('FocusProvider when disabled', () => {
+  it('ignores keys but keeps the screen and its focus mounted', () => {
+    const onBack = vi.fn()
+    const onEnter = vi.fn()
+    render(
+      <FocusProvider onBack={onBack} enabled={false}>
+        <Cell id="a" row={0} col={0} onEnter={onEnter} />
+        <Cell id="b" row={0} col={1} />
+      </FocusProvider>,
+    )
+    expect(focusedId()).toBe('a')
+
+    press('ArrowRight')
+    press('Enter')
+    press('Escape')
+
+    expect(focusedId()).toBe('a')
+    expect(onEnter).not.toHaveBeenCalled()
+    expect(onBack).not.toHaveBeenCalled()
+  })
+})

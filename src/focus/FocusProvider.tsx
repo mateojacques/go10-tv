@@ -68,9 +68,16 @@ function neighbour(items: FocusItem[], current: FocusItem, key: ArrowKey) {
 export function FocusProvider({
   children,
   onBack,
+  enabled = true,
 }: {
   children: ReactNode
   onBack: () => void
+  /**
+   * When false the provider stops listening for keys, leaving the screen
+   * mounted and its focus intact. Used while the player overlay is open, so
+   * Escape closes the player instead of popping two levels at once.
+   */
+  enabled?: boolean
 }) {
   const items = useRef(new Map<string, FocusItem>())
   const [focusedId, setFocusedId] = useState<string | null>(null)
@@ -95,6 +102,8 @@ export function FocusProvider({
   const focus = useCallback((id: string) => setFocusedId(id), [])
 
   useEffect(() => {
+    if (!enabled) return
+
     function onKeyDown(event: KeyboardEvent) {
       switch (event.key) {
         case 'ArrowUp':
@@ -134,7 +143,7 @@ export function FocusProvider({
 
     window.addEventListener('keydown', onKeyDown)
     return () => window.removeEventListener('keydown', onKeyDown)
-  }, [focusedId, onBack])
+  }, [focusedId, onBack, enabled])
 
   const value = useMemo(
     () => ({ focusedId, focus, register }),
