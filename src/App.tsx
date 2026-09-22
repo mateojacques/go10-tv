@@ -1,27 +1,20 @@
-import { useCallback, useState } from 'react'
+import { useCallback } from 'react'
 import { useCatalog } from './catalog/useCatalog'
 import { FocusProvider } from './focus/FocusProvider'
 import { Home } from './screens/Home'
 import { Detail } from './screens/Detail'
 import { Player } from './screens/Player'
-import type { CatalogRow, Title } from './types'
+import { useRoute } from './router/useRoute'
+import { resolveRoute } from './router/resolveRoute'
 import './styles/global.css'
-
-type View =
-  | { name: 'home' }
-  | { name: 'detail'; title: Title }
-  | { name: 'player'; title: Title; row: CatalogRow }
 
 export default function App() {
   const { titles, loading, error } = useCatalog()
-  const [view, setView] = useState<View>({ name: 'home' })
+  const { route, navigate } = useRoute()
 
-  // Back pops one level: player -> detail -> home.
   const back = useCallback(() => {
-    setView((current) =>
-      current.name === 'player' ? { name: 'detail', title: current.title } : { name: 'home' },
-    )
-  }, [])
+    navigate(route.name === 'play' ? { name: 'title', key: route.key } : { name: 'home' })
+  }, [route, navigate])
 
   if (loading) {
     return (
@@ -41,27 +34,39 @@ export default function App() {
     )
   }
 
-  const playing = view.name === 'player'
-  // The player is an overlay on top of the detail screen, so the screen beneath
-  // keeps its identity — and its chosen season — while playback is open.
-  const screen = playing ? 'detail' : view.name
+  const resolved = resolveRoute(route, titles)
+
+  if (resolved.name === 'not-found') {
+    // Stale or hand-typed URL — bounce to Home without leaving a broken
+    // history entry behind.
+    navigate({ name: 'home' }, { replace: true })
+    return null
+  }
+
+  if (resolved.name === 'home') {
+    return (
+      <FocusProvider key="home" onBack={back}>
+        <Home titles={titles} onSelect={(title) => navigate({ name: 'title', key: title.key })} />
+      </FocusProvider>
+    )
+  }
+
+  const title = resolved.title
 
   return (
     <>
-      <FocusProvider key={screen} onBack={back} enabled={!playing}>
-        {view.name === 'home' && (
-          <Home titles={titles} onSelect={(title) => setView({ name: 'detail', title })} />
-        )}
-        {(view.name === 'detail' || playing) && (
-          <Detail
-            title={view.title}
-            onPlay={(row) => setView({ name: 'player', title: view.title, row })}
-            onBack={back}
-          />
-        )}
+      {/* The player is an overlay on top of the detail screen, so the screen
+          beneath keeps its identity — and its chosen season — while playback
+          is open. */}
+      <FocusProvider key="detail" onBack={back} enabled={resolved.name !== 'player'}>
+        <Detail
+          title={title}
+          onPlay={(row) => navigate({ name: 'play', key: title.key, videoId: row.video_id })}
+          onBack={back}
+        />
       </FocusProvider>
 
-      {playing && <Player row={view.row} onClose={back} />}
+      {resolved.name === 'player' && <Player row={resolved.row} onClose={back} />}
     </>
   )
 }
