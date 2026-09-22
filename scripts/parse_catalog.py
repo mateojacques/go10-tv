@@ -1,0 +1,136 @@
+"""Turn the scraped ok.ru catalog HTML into public/data/catalog.csv.
+
+Run: python3 scripts/parse_catalog.py
+"""
+import csv
+import html
+import os
+import re
+import sys
+
+from title_parser import parse_title
+
+ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
+SOURCE_HTML = os.path.join(ROOT, "catalogo-solo-videos.html")
+GENRES_CSV = os.path.join(ROOT, "data", "genres.csv")
+OUTPUT_CSV = os.path.join(ROOT, "public", "data", "catalog.csv")
+
+COLUMNS = [
+    "catalog_index", "video_id", "type", "title", "title_raw",
+    "series_id", "series_title", "season_number", "season_label",
+    "year", "studio", "genre", "genre_secondary", "quality",
+    "language", "subtitled", "duration_raw", "duration_seconds",
+    "views", "thumbnail", "video_url", "embed_url",
+]
+
+CARD_RE = re.compile(
+    r'<div class="video-card js-movie-card[^>]*?data-id="(\d+)"'
+    r'(.*?)(?=<div class="video-card js-movie-card|\Z)',
+    re.S,
+)
+TITLE_RE = re.compile(r'class="video-card_n ellip[^"]*"[^>]*title="([^"]*)"')
+DURATION_RE = re.compile(r'class="video-card_duration">([^<]*)<')
+VIEWS_RE = re.compile(r'class="video-card_info_i">([^<]*)<')
+THUMB_RE = re.compile(r'<img[^>]*src="(catalogo_files/[^"]+)"')
+
+
+def parse_duration(text):
+    """'4:08:29' -> 14909. Accepts H:MM:SS or MM:SS."""
+    parts = [p for p in text.strip().split(":") if p.isdigit()]
+    seconds = 0
+    for part in parts:
+        seconds = seconds * 60 + int(part)
+    return seconds
+
+
+def parse_views(text):
+    digits = re.sub(r"\D", "", html.unescape(text).replace("\xa0", ""))
+    return int(digits) if digits else 0
+
+
+def _search(pattern, segment):
+    match = pattern.search(segment)
+    return match.group(1) if match else ""
+
+
+def extract_cards(html_text):
+    cards = []
+    for video_id, segment in CARD_RE.findall(html_text):
+        cards.append({
+            "video_id": video_id,
+            "title_raw": html.unescape(_search(TITLE_RE, segment)),
+            "duration_raw": _search(DURATION_RE, segment).strip(),
+            "views_raw": _search(VIEWS_RE, segment),
+            "thumbnail": _search(THUMB_RE, segment),
+        })
+    return cards
+
+
+def build_rows(html_text, genres):
+    rows = []
+    for index, card in enumerate(extract_cards(html_text)):
+        parsed = parse_title(card["title_raw"])
+        genre = genres.get(card["video_id"], {})
+        rows.append({
+            "catalog_index": index,
+            "video_id": card["video_id"],
+            "type": parsed["type"],
+            "title": parsed["title"],
+            "title_raw": card["title_raw"],
+            "series_id": parsed["series_id"],
+            "series_title": parsed["series_title"],
+            "season_number": parsed["season_number"],
+            "season_label": parsed["season_label"],
+            "year": parsed["year"],
+            "studio": parsed["studio"],
+            "genre": genre.get("genre", ""),
+            "genre_secondary": genre.get("genre_secondary", ""),
+            "quality": parsed["quality"],
+            "language": parsed["language"],
+            "subtitled": "true" if parsed["subtitled"] else "false",
+            "duration_raw": card["duration_raw"],
+            "duration_seconds": parse_duration(card["duration_raw"]),
+            "views": parse_views(card["views_raw"]),
+            "thumbnail": card["thumbnail"],
+            "video_url": f"https://ok.ru/video/{card['video_id']}",
+            "embed_url": f"https://ok.ru/videoembed/{card['video_id']}",
+        })
+    return rows
+
+
+def load_genres(path):
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding="utf-8", newline="") as handle:
+        return {
+            row["video_id"]: {
+                "genre": row.get("genre", ""),
+                "genre_secondary": row.get("genre_secondary", ""),
+            }
+            for row in csv.DictReader(handle)
+        }
+
+
+def report_coverage(rows):
+    print(f"rows: {len(rows)}")
+    for column in COLUMNS:
+        filled = sum(1 for row in rows if str(row[column]) not in ("", "0", "false"))
+        print(f"  {column:<18} {filled:>4}/{len(rows)}")
+
+
+def main():
+    html_text = open(SOURCE_HTML, encoding="utf-8").read()
+    rows = build_rows(html_text, load_genres(GENRES_CSV))
+
+    os.makedirs(os.path.dirname(OUTPUT_CSV), exist_ok=True)
+    with open(OUTPUT_CSV, "w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=COLUMNS, quoting=csv.QUOTE_MINIMAL)
+        writer.writeheader()
+        writer.writerows(rows)
+
+    report_coverage(rows)
+    print(f"\nwrote {OUTPUT_CSV}")
+
+
+if __name__ == "__main__":
+    sys.exit(main())
