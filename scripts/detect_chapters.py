@@ -7,6 +7,11 @@ and writes a *draft* data/chapters/<series_id>.json. Review the candidates
 against the downloaded file (printed at the end) in mpv/VLC and hand-edit
 the draft before committing it -- detection is a starting point, not the
 final answer.
+
+If yt-dlp can't reach ok.ru from where this runs, download the video
+yourself by any other means and pass it directly:
+
+    python3 scripts/detect_chapters.py <video_id> --file /path/to/video.mp4
 """
 import argparse
 import csv
@@ -156,6 +161,8 @@ def main():
     parser.add_argument("video_id")
     parser.add_argument("--episodes", type=int, default=None,
                          help="expected episode count, for a sanity-check warning")
+    parser.add_argument("--file", default=None,
+                         help="use this local video file instead of downloading via yt-dlp")
     args = parser.parse_args()
 
     row = find_row(OUTPUT_CSV, args.video_id)
@@ -166,9 +173,14 @@ def main():
     if not row["series_id"]:
         sys.exit(f"video_id {args.video_id!r} has no series_id")
 
-    scratch_dir = tempfile.mkdtemp(prefix="go10-chapters-")
-    print(f"downloading into {scratch_dir} ...")
-    video_path = download_video(row["video_url"], scratch_dir)
+    if args.file:
+        if not os.path.exists(args.file):
+            sys.exit(f"--file {args.file!r} does not exist")
+        video_path = args.file
+    else:
+        scratch_dir = tempfile.mkdtemp(prefix="go10-chapters-")
+        print(f"downloading into {scratch_dir} ...")
+        video_path = download_video(row["video_url"], scratch_dir)
 
     print("probing duration...")
     duration = probe_duration(video_path)
