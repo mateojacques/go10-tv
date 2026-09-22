@@ -114,3 +114,18 @@
     display: none;
   }
 }
+
+.go-player_reconnecting {
+  position: absolute;
+  left: 50%;
+  bottom: 2rem;
+  transform: translateX(-50%);
+  padding: 0.625rem 1.25rem;
+  border-radius: var(--go-radius);
+  background: var(--go-scrim);
+  box-shadow: inset 0 0 0 1px var(--go-hairline);
+  font-family: var(--go-font-mono);
+  font-size: 0.8125rem;
+  letter-spacing: 0.06em;
+  color: var(--go-text-muted);
+}
