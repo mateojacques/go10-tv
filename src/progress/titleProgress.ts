@@ -1,5 +1,6 @@
 import type { CatalogRow, Title } from '../types'
 import type { Progress } from './progressStore'
+import { rowKey } from '../catalog/rowKey'
 
 export interface TitleProgress {
   /** The movie/season/episode "play" should open. */
@@ -19,8 +20,8 @@ export interface TitleProgress {
 export function titleProgress(title: Title, entries: Record<string, Progress>): TitleProgress {
   let latestIndex = -1
   for (let i = 0; i < title.seasons.length; i++) {
-    const entry = entries[title.seasons[i].video_id]
-    const latest = latestIndex === -1 ? undefined : entries[title.seasons[latestIndex].video_id]
+    const entry = entries[rowKey(title.seasons[i])]
+    const latest = latestIndex === -1 ? undefined : entries[rowKey(title.seasons[latestIndex])]
     if (entry && (!latest || entry.updatedAt > latest.updatedAt)) latestIndex = i
   }
 
@@ -28,15 +29,15 @@ export function titleProgress(title: Title, entries: Record<string, Progress>): 
   if (latestIndex === -1) return { row: first, mode: 'start', progress: null, updatedAt: 0 }
 
   const latestRow = title.seasons[latestIndex]
-  const latest = entries[latestRow.video_id]
+  const latest = entries[rowKey(latestRow)]
   const { updatedAt } = latest
 
   if (!latest.watched) return { row: latestRow, mode: 'resume', progress: latest, updatedAt }
 
   const next = title.seasons[latestIndex + 1]
-  if (!next) return { row: first, mode: 'start', progress: entries[first.video_id] ?? null, updatedAt }
+  if (!next) return { row: first, mode: 'start', progress: entries[rowKey(first)] ?? null, updatedAt }
 
-  const nextProgress = entries[next.video_id] ?? null
+  const nextProgress = entries[rowKey(next)] ?? null
   if (nextProgress && !nextProgress.watched) {
     return { row: next, mode: 'resume', progress: nextProgress, updatedAt }
   }

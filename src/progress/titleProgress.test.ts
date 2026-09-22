@@ -2,6 +2,7 @@ import { describe, it, expect } from 'vitest'
 import type { CatalogRow, Title } from '../types'
 import type { Progress } from './progressStore'
 import { titleProgress, continueWatching, playedFraction } from './titleProgress'
+import { rowKey } from '../catalog/rowKey'
 
 function row(video_id: string, episode_number: number | null = null): CatalogRow {
   return {
@@ -54,6 +55,21 @@ describe('titleProgress', () => {
 
   it('falls back to the start after the final item is finished', () => {
     expect(titleProgress(show, { e3: p(700, 3, true) })).toMatchObject({ mode: 'start', row: { video_id: 'e1' } })
+  })
+})
+
+function chapterRow(video_id: string, episode_number: number): CatalogRow {
+  return { ...row(video_id, episode_number), chapter_start_seconds: 0 }
+}
+
+describe('titleProgress with chaptered episodes', () => {
+  it('tracks two chapters of the same video_id independently', () => {
+    const chaptered = title('chaptered', [chapterRow('9', 1), chapterRow('9', 2)])
+    const key1 = rowKey(chaptered.seasons[0])
+    const key2 = rowKey(chaptered.seasons[1])
+    const result = titleProgress(chaptered, { [key1]: p(1435, 1, true), [key2]: p(300, 2) })
+    expect(result).toMatchObject({ mode: 'resume', row: { episode_number: 2 } })
+    expect(result.progress?.time).toBe(300)
   })
 })
 
