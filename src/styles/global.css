@@ -35,6 +35,13 @@ button {
   cursor: inherit;
 }
 
+/* Real DOM focus now lands on these elements (see useFocusable) so the TV's
+ * remote-control driver recognizes them as navigable, but the visual ring is
+ * still the custom .is-focused styling, so the native outline is redundant. */
+[data-focused] {
+  outline: none;
+}
+
 /* Shared "<" mark for the touch back controls in Detail and Player — a
  * remote/keyboard user has Escape/Backspace, a phone has no such key. */
 .go-back_chevron {

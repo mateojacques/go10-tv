@@ -20,10 +20,11 @@ function FocusButton({
   className: string
   children: ReactNode
 }) {
-  const { ref, focused, activate } = useFocusable(id, row, col, onEnter)
+  const { ref, focused, activate, tabIndex } = useFocusable(id, row, col, onEnter)
   return (
     <div
       ref={ref}
+      tabIndex={tabIndex}
       role="button"
       className={`${className}${focused ? ' is-focused' : ''}`}
       data-focused={focused}

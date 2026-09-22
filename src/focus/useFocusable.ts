@@ -28,6 +28,17 @@ export function useFocusable(id: string, row: number, col: number, onEnter: () =
     [id, row, col, register],
   )
 
+  const focused = focusedId === id
+
+  // Move real DOM focus to match our own focus model, not just the CSS
+  // class. Samsung's Tizen TV browser watches document.activeElement to
+  // decide whether the remote drives directional focus at all — with no
+  // element ever truly focused, it falls back to an on-screen pointer that
+  // has to be aimed and clicked, which is the bug this fixes.
+  useEffect(() => {
+    if (focused) ref.current?.focus({ preventScroll: true })
+  }, [focused])
+
   // For click/tap: a remote first moves focus, then presses Enter, but a
   // pointer has no separate "move focus" step, so a single tap does both.
   const activate = useCallback(() => {
@@ -35,5 +46,5 @@ export function useFocusable(id: string, row: number, col: number, onEnter: () =
     onEnterRef.current()
   }, [focus, id])
 
-  return { ref, focused: focusedId === id, activate }
+  return { ref, focused, activate, tabIndex: -1 as const }
 }

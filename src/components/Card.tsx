@@ -19,12 +19,13 @@ export function Card({
   col: number
   onSelect: (title: Title) => void
 }) {
-  const { ref, focused, activate } = useFocusable(id, row, col, () => onSelect(title))
+  const { ref, focused, activate, tabIndex } = useFocusable(id, row, col, () => onSelect(title))
   const seasons = title.seasons.length
 
   return (
     <div
       ref={ref}
+      tabIndex={tabIndex}
       className={`go-card${focused ? ' is-focused' : ''}`}
       data-focused={focused}
       role="button"
