@@ -5,7 +5,8 @@
  * video engineer's timecode. Deliberately not a Netflix skin.
  *
  * Every value is sized for a 10-foot viewing distance: type is large, contrast
- * is high, and focus is unmistakable because there is no cursor to fall back on.
+ * is high, and focus is unmistakable on remote-driven devices that have no
+ * cursor to fall back on. Mouse/trackpad users get a matching hover state.
  */
 :root {
   /* Canvas — cold near-black, never pure #000 so blacks still read on an OLED */

@@ -68,7 +68,6 @@
   white-space: nowrap;
 }
 
-/* Focus, never hover — the target device has no pointer. */
 .go-card.is-focused {
   transform: scale(1.09);
   filter: none;
@@ -77,4 +76,18 @@
 
 .go-card.is-focused .go-card_frame {
   box-shadow: var(--go-focus-ring), var(--go-focus-lift);
+}
+
+/* Mouse/trackpad users get the same lift on hover, without stealing remote
+ * focus from the currently-focused card. */
+@media (hover: hover) and (pointer: fine) {
+  .go-card:hover {
+    transform: scale(1.09);
+    filter: none;
+    z-index: 2;
+  }
+
+  .go-card:hover .go-card_frame {
+    box-shadow: var(--go-focus-ring), var(--go-focus-lift);
+  }
 }

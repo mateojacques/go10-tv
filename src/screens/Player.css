@@ -45,6 +45,13 @@
   transform: scale(0.92);
 }
 
+@media (hover: hover) and (pointer: fine) {
+  .go-player_back:hover {
+    background: var(--go-bg-raised);
+    transform: scale(1.08);
+  }
+}
+
 .go-player_mark {
   align-self: center;
   width: 0.5rem;
@@ -105,6 +112,14 @@
   font-size: var(--go-size-body);
   font-weight: 700;
   text-decoration: none;
+  transition: transform var(--go-dur) var(--go-ease);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .go-player_open:hover {
+    transform: scale(1.03);
+    box-shadow: var(--go-focus-ring), var(--go-focus-lift);
+  }
 }
 
 @media (max-width: 640px) {

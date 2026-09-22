@@ -116,6 +116,15 @@
   box-shadow: var(--go-focus-ring), var(--go-focus-lift);
 }
 
+@media (hover: hover) and (pointer: fine) {
+  .go-hero_cta:hover {
+    background: var(--go-accent);
+    color: var(--go-bg);
+    transform: scale(1.03);
+    box-shadow: var(--go-focus-ring), var(--go-focus-lift);
+  }
+}
+
 .go-chip {
   padding: 0.25rem 0.75rem;
   border: 1px solid var(--go-hairline);

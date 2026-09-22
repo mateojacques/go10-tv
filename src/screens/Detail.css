@@ -29,6 +29,13 @@
   transform: scale(0.92);
 }
 
+@media (hover: hover) and (pointer: fine) {
+  .go-back:hover {
+    background: var(--go-bg-raised);
+    transform: scale(1.08);
+  }
+}
+
 .go-detail_body {
   position: relative;
   z-index: 1;
@@ -159,6 +166,15 @@
   box-shadow: var(--go-focus-ring), var(--go-focus-lift);
 }
 
+@media (hover: hover) and (pointer: fine) {
+  .go-play:hover {
+    background: var(--go-accent);
+    color: var(--go-bg);
+    transform: scale(1.03);
+    box-shadow: var(--go-focus-ring), var(--go-focus-lift);
+  }
+}
+
 /* ---- Seasons ------------------------------------------------------------- */
 
 .go-seasons {
@@ -222,6 +238,17 @@
 
 .go-season.is-focused .go-season_d {
   color: var(--go-text);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .go-season:hover {
+    transform: scale(1.04);
+    box-shadow: var(--go-focus-ring), var(--go-focus-lift);
+  }
+
+  .go-season:hover .go-season_d {
+    color: var(--go-text);
+  }
 }
 
 @media (max-width: 900px) {

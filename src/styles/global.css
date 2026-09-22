@@ -21,10 +21,13 @@ body,
   overflow: hidden;
 }
 
-/* No hover rules anywhere in this codebase: the target device has no pointer.
- * The cursor is hidden so a stray mouse never breaks the 10-foot illusion. */
-body {
-  cursor: none;
+/* On a TV remote / coarse-pointer device there's no cursor to show, so it's
+ * hidden to keep the 10-foot illusion intact. A mouse/trackpad user (hover:
+ * hover) keeps their normal cursor. */
+@media (hover: none) {
+  body {
+    cursor: none;
+  }
 }
 
 button {
