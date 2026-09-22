@@ -18,11 +18,20 @@ export function Player({ row, onClose }: { row: CatalogRow; onClose: () => void 
     return () => clearTimeout(timer)
   }, [row.video_id])
 
+  const containerRef = useRef<HTMLDivElement>(null)
+
   useEffect(() => {
     function onKeyDown(event: KeyboardEvent) {
       if (event.key === 'Escape' || event.key === 'Backspace') {
         event.preventDefault()
         onClose()
+      } else if (event.key === 'f' || event.key === 'F') {
+        event.preventDefault()
+        if (document.fullscreenElement) {
+          document.exitFullscreen()
+        } else {
+          containerRef.current?.requestFullscreen().catch(() => {})
+        }
       }
     }
     window.addEventListener('keydown', onKeyDown)
@@ -38,7 +47,7 @@ export function Player({ row, onClose }: { row: CatalogRow; onClose: () => void 
   const embedSrc = `${row.embed_url}${row.embed_url.includes('?') ? '&' : '?'}autoplay=1`
 
   return (
-    <div className="go-player">
+    <div className="go-player" ref={containerRef}>
       <div className="go-player_bar">
         <button type="button" className="go-player_back" onClick={onClose} aria-label="Volver">
           <span className="go-back_chevron" aria-hidden="true" />
@@ -46,7 +55,7 @@ export function Player({ row, onClose }: { row: CatalogRow; onClose: () => void 
         <span className="go-player_mark" aria-hidden="true" />
         <span className="go-player_title">{heading}</span>
         {season && <span className="go-player_season">{season}</span>}
-        <span className="go-player_hint">Pulsa Atrás para salir</span>
+        <span className="go-player_hint">Pulsa Atrás para salir · F para pantalla completa</span>
       </div>
 
       {failed ? (
