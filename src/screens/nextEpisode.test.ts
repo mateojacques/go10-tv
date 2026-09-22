@@ -60,6 +60,18 @@ describe('findNextEpisode', () => {
   })
 })
 
+describe('findNextEpisode with chaptered episodes', () => {
+  it('does not treat every chapter of one video as the same row', () => {
+    const rows = [
+      row({ video_id: '9', season_number: 1, episode_number: 1, chapter_start_seconds: 0 }),
+      row({ video_id: '9', season_number: 1, episode_number: 2, chapter_start_seconds: 1435 }),
+      row({ video_id: '9', season_number: 1, episode_number: 3, chapter_start_seconds: 2810 }),
+    ]
+    expect(findNextEpisode(rows, rows[1])?.episode_number).toBe(3)
+    expect(findPreviousEpisode(rows, rows[1])?.episode_number).toBe(1)
+  })
+})
+
 describe('findPreviousEpisode', () => {
   it('returns the previous episode within the same season', () => {
     const rows = [
