@@ -91,6 +91,29 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
+  margin-bottom: 1.75rem;
+}
+
+.go-hero_cta {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.9375rem 2rem;
+  border-radius: var(--go-radius);
+  background: rgba(242, 244, 240, 0.08);
+  box-shadow: inset 0 0 0 1px var(--go-hairline);
+  font-size: var(--go-size-body);
+  font-weight: 700;
+  transition:
+    transform var(--go-dur) var(--go-ease),
+    background var(--go-dur) var(--go-ease),
+    color var(--go-dur) var(--go-ease);
+}
+
+.go-hero_cta.is-focused {
+  background: var(--go-accent);
+  color: var(--go-bg);
+  transform: scale(1.03);
+  box-shadow: var(--go-focus-ring), var(--go-focus-lift);
 }
 
 .go-chip {
