@@ -1,7 +1,7 @@
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "scripts"))
 
-from title_parser import parse_title, parse_seasons, slugify
+from title_parser import parse_title, parse_seasons, parse_episode_title, slugify
 
 
 def test_slugify_strips_accents_and_punctuation():
@@ -97,3 +97,27 @@ def test_missing_fields_are_empty_not_invented():
     assert r["language"] == ""
     assert r["year"] == ""
     assert r["season_number"] == "1"
+
+
+def test_parse_episode_title_extracts_season_and_episode():
+    assert parse_episode_title(
+        "Spidey y sus Sorprendentes Amigos - Temporada 1 Episodio 2 -"
+    ) == (1, 2)
+
+
+def test_parse_episode_title_ignores_show_name_casing():
+    # Same show, inconsistent capitalization across cards; only the numbers
+    # are trusted from the title — the show name comes from a sidecar file.
+    assert parse_episode_title(
+        "Spidey Y Sus Sorprendentes Amigos - Temporada 3 Episodio 17 -"
+    ) == (3, 17)
+
+
+def test_parse_episode_title_handles_no_trailing_dash():
+    assert parse_episode_title(
+        "Spidey y sus Sorprendentes Amigos - Temporada 2 Episodio 12"
+    ) == (2, 12)
+
+
+def test_parse_episode_title_returns_none_when_no_match():
+    assert parse_episode_title("Crows Zero (2007) [1080p] [Español]") is None

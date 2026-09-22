@@ -38,6 +38,10 @@ SEASON_PREFIX = re.compile(
     r"^Temporada\s*(?P<nums>\d+)\s*:\s*(?P<show>.+?)\s*$", re.I
 )
 
+EPISODE_RE = re.compile(
+    r"Temporada\s*(?P<season>\d+)\s*Episodio\s*(?P<episode>\d+)", re.I
+)
+
 
 def slugify(text):
     ascii_text = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode()
@@ -54,6 +58,19 @@ def parse_seasons(rest):
     if len(numbers) > 1:
         label = "Temporadas " + match.group("nums").strip()
     return match.group("show").strip(), min(numbers), label
+
+
+def parse_episode_title(raw):
+    """Return (season_number, episode_number) or None.
+
+    Only the numbers are trusted from the raw title. The show-name portion
+    is deliberately not parsed here — casing is inconsistent across cards
+    for the same show, so a per-series sidecar supplies the canonical name.
+    """
+    match = EPISODE_RE.search(raw)
+    if not match:
+        return None
+    return int(match.group("season")), int(match.group("episode"))
 
 
 def parse_title(raw):
