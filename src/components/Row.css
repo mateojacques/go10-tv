@@ -1,0 +1,35 @@
+.go-row {
+  margin-bottom: 2.25rem;
+}
+
+.go-row_label {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin: 0 0 0.5rem var(--go-safe-x);
+  font-size: var(--go-size-section);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+
+.go-row_count {
+  font-family: var(--go-font-mono);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--go-text-muted);
+  letter-spacing: 0.08em;
+}
+
+.go-row_track {
+  display: flex;
+  gap: var(--go-gap);
+  /* Vertical padding leaves room for the focused card's scale-up to breathe. */
+  padding: 1.25rem var(--go-safe-x) 1.5rem;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+}
+
+.go-row_track::-webkit-scrollbar {
+  display: none;
+}

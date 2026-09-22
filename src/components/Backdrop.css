@@ -1,0 +1,38 @@
+.go-backdrop {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.go-backdrop_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Source is 368x210: blur past the point where resolution is legible. */
+  filter: blur(72px) saturate(1.5) brightness(0.85);
+  transform: scale(1.25);
+  animation: go-backdrop-in var(--go-dur-slow) var(--go-ease);
+}
+
+.go-backdrop_scrim {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      100deg,
+      var(--go-bg) 20%,
+      rgba(8, 9, 12, 0.72) 52%,
+      rgba(8, 9, 12, 0.35) 100%
+    ),
+    linear-gradient(to top, var(--go-bg) 4%, transparent 58%);
+}
+
+@keyframes go-backdrop-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

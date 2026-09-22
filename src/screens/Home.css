@@ -1,0 +1,156 @@
+.go-home {
+  height: 100%;
+  overflow-y: auto;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+.go-home::-webkit-scrollbar {
+  display: none;
+}
+
+/* ---- Hero ---------------------------------------------------------------- */
+
+.go-hero {
+  position: relative;
+  min-height: 58vh;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: var(--go-safe-x);
+  padding: var(--go-safe-y) var(--go-safe-x) 3.5rem;
+}
+
+.go-hero_body {
+  position: relative;
+  z-index: 1;
+  max-width: 44rem;
+  animation: go-rise var(--go-dur-slow) var(--go-ease) both;
+}
+
+.go-wordmark {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.75rem;
+  font-family: var(--go-font-mono);
+  font-size: var(--go-size-meta);
+  font-weight: 600;
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  color: var(--go-accent);
+}
+
+.go-wordmark_dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: var(--go-accent);
+  box-shadow: 0 0 14px 2px var(--go-accent-glow);
+}
+
+.go-hero_eyebrow {
+  margin: 0 0 0.375rem;
+  font-family: var(--go-font-mono);
+  font-size: 0.8125rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--go-text-muted);
+}
+
+.go-hero_title {
+  margin: 0 0 0.875rem;
+  font-size: var(--go-size-hero);
+  font-weight: 800;
+  line-height: 0.98;
+  letter-spacing: -0.03em;
+  text-wrap: balance;
+}
+
+.go-hero_meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 0 1.25rem;
+  font-family: var(--go-font-mono);
+  font-size: var(--go-size-meta);
+  color: var(--go-text-muted);
+}
+
+.go-hero_sep {
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  margin: 0 0.75rem;
+  border-radius: 50%;
+  background: currentColor;
+  vertical-align: middle;
+}
+
+.go-hero_genres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.go-chip {
+  padding: 0.25rem 0.75rem;
+  border: 1px solid var(--go-hairline);
+  border-radius: 999px;
+  background: rgba(242, 244, 240, 0.04);
+  font-family: var(--go-font-mono);
+  font-size: 0.8125rem;
+  letter-spacing: 0.04em;
+  color: var(--go-text-muted);
+}
+
+.go-hero_art {
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  flex: 0 0 auto;
+  border-radius: var(--go-radius);
+  overflow: hidden;
+  box-shadow:
+    0 0 0 1px var(--go-hairline),
+    0 30px 70px -20px rgba(0, 0, 0, 0.95);
+  animation: go-rise var(--go-dur-slow) var(--go-ease) both;
+  animation-delay: 60ms;
+}
+
+.go-hero_art img {
+  /* Native art is 368x210; shown at roughly 1:1 so it stays sharp. */
+  width: clamp(18rem, 24vw, 26rem);
+  aspect-ratio: 368 / 210;
+  object-fit: cover;
+}
+
+/* ---- Rows ---------------------------------------------------------------- */
+
+.go-rows {
+  position: relative;
+  z-index: 1;
+  padding-bottom: var(--go-safe-y);
+}
+
+@keyframes go-rise {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Narrow screens: the art stacks out of the way, hero text leads. */
+@media (max-width: 900px) {
+  .go-hero {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .go-hero_art {
+    display: none;
+  }
+}

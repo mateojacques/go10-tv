@@ -1,8 +1,13 @@
+import { useState } from 'react'
 import { useCatalog } from './catalog/useCatalog'
+import { FocusProvider } from './focus/FocusProvider'
+import { Home } from './screens/Home'
+import type { Title } from './types'
 import './styles/global.css'
 
 export default function App() {
   const { titles, loading, error } = useCatalog()
+  const [selected, setSelected] = useState<Title | null>(null)
 
   if (loading) {
     return (
@@ -23,9 +28,9 @@ export default function App() {
   }
 
   return (
-    <div className="go-state">
-      <span className="go-state_mark">GO10 TV</span>
-      <p className="go-state_msg">{titles.length} títulos</p>
-    </div>
+    <FocusProvider onBack={() => setSelected(null)}>
+      <Home titles={titles} onSelect={setSelected} />
+      {selected && <div className="go-state">Seleccionado: {selected.title}</div>}
+    </FocusProvider>
   )
 }
