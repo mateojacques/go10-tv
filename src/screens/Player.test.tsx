@@ -287,4 +287,62 @@ describe('Player', () => {
     expect(stored('9:1').time).toBe(1500)
     expect(stored('9')).toBeNull()
   })
+
+  it('seeks instead of reloading when moving to a chapter of the same video', () => {
+    const { rerender } = render(<Player row={chapterRow({ episode_number: 1 })} onClose={() => {}} />)
+    const frame = getFrame()
+    fireEvent.load(frame)
+    const postSpy = vi.spyOn(frame.contentWindow as Window, 'postMessage')
+    const srcBefore = frame.src
+
+    rerender(
+      <Player
+        row={chapterRow({ episode_number: 2, chapter_start_seconds: 2810, chapter_end_seconds: 4200 })}
+        onClose={() => {}}
+      />,
+    )
+
+    expect(getFrame()).toBe(frame) // no remount
+    expect(getFrame().src).toBe(srcBefore) // no navigation via src
+    expect(postSpy).toHaveBeenCalledWith({ action: 'seek', time: 2810 }, 'https://ok.ru')
+  })
+
+  it('still reloads the iframe when moving to a genuinely different video', () => {
+    const { rerender } = render(<Player row={chapterRow({ episode_number: 1 })} onClose={() => {}} />)
+    const firstFrame = getFrame()
+    fireEvent.load(firstFrame)
+
+    rerender(
+      <Player
+        row={row({ video_id: '10', embed_url: 'https://ok.ru/videoembed/10' })}
+        onClose={() => {}}
+      />,
+    )
+
+    expect(getFrame().src).toBe('https://ok.ru/videoembed/10?autoplay=1')
+  })
+
+  it('does not re-seek on an unrelated re-render of the same chapter', () => {
+    const { rerender } = render(<Player row={chapterRow({ episode_number: 1 })} onClose={() => {}} />)
+    const frame = getFrame()
+    fireEvent.load(frame)
+    const postSpy = vi.spyOn(frame.contentWindow as Window, 'postMessage')
+
+    rerender(<Player row={chapterRow({ episode_number: 1 })} onClose={() => {}} />) // same chapter, new object
+    expect(postSpy).not.toHaveBeenCalled()
+  })
+
+  it("flushes the outgoing chapter's progress before seeking to the next one", () => {
+    const { rerender } = render(<Player row={chapterRow({ episode_number: 1 })} onClose={() => {}} />)
+    postFromEmbed(getFrame(), { event: 'timeupdate', time: 2000, duration: 14909 })
+
+    rerender(
+      <Player
+        row={chapterRow({ episode_number: 2, chapter_start_seconds: 2810, chapter_end_seconds: 4200 })}
+        onClose={() => {}}
+      />,
+    )
+
+    expect(stored('9:1').time).toBe(2000)
+  })
 })

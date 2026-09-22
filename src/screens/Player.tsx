@@ -72,6 +72,26 @@ export function Player({
     dispatch({ type: 'reset' })
   }, [row.video_id])
 
+  const prevRowRef = useRef(row)
+
+  // Two rows sharing a `video_id` are chapters of the *same* file: jumping
+  // between them should seek the already-loaded iframe, not remount it (the
+  // effect above only reloads when `video_id` itself changes).
+  useEffect(() => {
+    const prev = prevRowRef.current
+    prevRowRef.current = row
+    if (prev.video_id !== row.video_id) return // a different file -- the effect above handles reloading it
+    if (rowKey(prev) === rowKey(row)) return // same chapter -- nothing to do
+
+    flushProgress() // save the outgoing chapter's position under its own key first
+    videoIdRef.current = rowKey(row)
+    positionRef.current = null
+    frameRef.current?.contentWindow?.postMessage(
+      { action: 'seek', time: row.chapter_start_seconds ?? 0 },
+      OK_RU_ORIGIN,
+    )
+  }, [row, flushProgress])
+
   // Save where playback got to when switching video or closing the player.
   useEffect(() => {
     return () => {
