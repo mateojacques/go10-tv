@@ -9,6 +9,26 @@
   display: none;
 }
 
+/* Touch-only affordance: remote/keyboard already has Escape/Backspace. */
+.go-back {
+  position: fixed;
+  top: var(--go-safe-y);
+  left: var(--go-safe-x);
+  z-index: 7;
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border-radius: 50%;
+  background: var(--go-scrim);
+  box-shadow: inset 0 0 0 1px var(--go-hairline);
+  transition: transform var(--go-dur) var(--go-ease);
+}
+
+.go-back:active {
+  transform: scale(0.92);
+}
+
 .go-detail_body {
   position: relative;
   z-index: 1;
@@ -203,6 +223,9 @@
 @media (max-width: 900px) {
   .go-detail_body {
     grid-template-columns: minmax(0, 1fr);
+    /* 9vh is plenty of clearance on a TV/desktop viewport, but on a short
+       phone screen it isn't enough room for the floating back button. */
+    padding-top: calc(var(--go-safe-y) + 3.5rem);
   }
 
   .go-detail_art {

@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useCallback, useEffect, useRef } from 'react'
 import { useFocusContext } from './FocusProvider'
 
 /**
@@ -10,7 +10,7 @@ import { useFocusContext } from './FocusProvider'
  */
 export function useFocusable(id: string, row: number, col: number, onEnter: () => void) {
   const ref = useRef<HTMLDivElement>(null)
-  const { focusedId, register } = useFocusContext()
+  const { focusedId, focus, register } = useFocusContext()
 
   // Kept in a ref so a changing handler identity never re-registers the item.
   const onEnterRef = useRef(onEnter)
@@ -28,5 +28,12 @@ export function useFocusable(id: string, row: number, col: number, onEnter: () =
     [id, row, col, register],
   )
 
-  return { ref, focused: focusedId === id }
+  // For click/tap: a remote first moves focus, then presses Enter, but a
+  // pointer has no separate "move focus" step, so a single tap does both.
+  const activate = useCallback(() => {
+    focus(id)
+    onEnterRef.current()
+  }, [focus, id])
+
+  return { ref, focused: focusedId === id, activate }
 }

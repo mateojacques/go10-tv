@@ -19,7 +19,7 @@ export function Card({
   col: number
   onSelect: (title: Title) => void
 }) {
-  const { ref, focused } = useFocusable(id, row, col, () => onSelect(title))
+  const { ref, focused, activate } = useFocusable(id, row, col, () => onSelect(title))
   const seasons = title.seasons.length
 
   return (
@@ -29,6 +29,7 @@ export function Card({
       data-focused={focused}
       role="button"
       aria-label={title.title}
+      onClick={activate}
     >
       <div className="go-card_frame">
         <img className="go-card_img" src={`/${title.thumbnail}`} alt="" loading="lazy" />

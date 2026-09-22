@@ -33,10 +33,16 @@ export function Player({ row, onClose }: { row: CatalogRow; onClose: () => void 
   const season = row.season_number
     ? row.season_label || `Temporada ${row.season_number}`
     : null
+  // Autoplay is opt-in per embed, and the tap/click/Enter that opened the
+  // player already counts as the user gesture browsers require for it.
+  const embedSrc = `${row.embed_url}${row.embed_url.includes('?') ? '&' : '?'}autoplay=1`
 
   return (
     <div className="go-player">
       <div className="go-player_bar">
+        <button type="button" className="go-player_back" onClick={onClose} aria-label="Volver">
+          <span className="go-back_chevron" aria-hidden="true" />
+        </button>
         <span className="go-player_mark" aria-hidden="true" />
         <span className="go-player_title">{heading}</span>
         {season && <span className="go-player_season">{season}</span>}
@@ -58,7 +64,7 @@ export function Player({ row, onClose }: { row: CatalogRow; onClose: () => void 
       ) : (
         <iframe
           className="go-player_frame"
-          src={row.embed_url}
+          src={embedSrc}
           title={row.title}
           allow="autoplay; fullscreen; encrypted-media"
           allowFullScreen

@@ -28,6 +28,23 @@
   border-bottom: 1px solid var(--go-hairline);
 }
 
+/* Touch-only affordance: remote/keyboard already has Escape/Backspace. */
+.go-player_back {
+  align-self: center;
+  display: grid;
+  place-items: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  background: var(--go-scrim);
+  box-shadow: inset 0 0 0 1px var(--go-hairline);
+  transition: transform var(--go-dur) var(--go-ease);
+}
+
+.go-player_back:active {
+  transform: scale(0.92);
+}
+
 .go-player_mark {
   align-self: center;
   width: 0.5rem;
@@ -88,4 +105,12 @@
   font-size: var(--go-size-body);
   font-weight: 700;
   text-decoration: none;
+}
+
+@media (max-width: 640px) {
+  /* The Escape/Backspace hint is redundant with the back button on a
+     phone, and the bar is too narrow for all of it at once. */
+  .go-player_hint {
+    display: none;
+  }
 }

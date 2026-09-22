@@ -23,14 +23,19 @@ python3 scripts/parse_catalog.py
 
 ## Controls
 
-Designed for a TV remote. **There are no hover states anywhere** and the mouse
-cursor is hidden — the target device has no pointer.
+Designed for a TV remote first. **There are no hover states anywhere** and the
+mouse cursor is hidden — the primary target device has no pointer.
 
 | Key | Action |
 | --- | --- |
 | Arrows | Move focus |
 | Enter | Select |
 | Escape / Backspace | Back (player → detail → home) |
+
+Touch (phone/tablet) is also supported: tap a card, the play button, or a
+season to select it directly, and tap the back button shown on the detail and
+player screens (there's no hardware back key to fall back on there). The
+player also autoplays on open, so watching never needs an extra tap or click.
 
 ## What's in it
 

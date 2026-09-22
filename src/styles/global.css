@@ -35,6 +35,17 @@ button {
   cursor: inherit;
 }
 
+/* Shared "<" mark for the touch back controls in Detail and Player — a
+ * remote/keyboard user has Escape/Backspace, a phone has no such key. */
+.go-back_chevron {
+  display: block;
+  width: 0.6875rem;
+  height: 0.6875rem;
+  border-top: 2px solid currentColor;
+  border-left: 2px solid currentColor;
+  transform: rotate(-45deg);
+}
+
 img {
   display: block;
 }

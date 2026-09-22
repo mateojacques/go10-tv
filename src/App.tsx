@@ -56,6 +56,7 @@ export default function App() {
           <Detail
             title={view.title}
             onPlay={(row) => setView({ name: 'player', title: view.title, row })}
+            onBack={back}
           />
         )}
       </FocusProvider>

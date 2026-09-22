@@ -20,13 +20,14 @@ function FocusButton({
   className: string
   children: ReactNode
 }) {
-  const { ref, focused } = useFocusable(id, row, col, onEnter)
+  const { ref, focused, activate } = useFocusable(id, row, col, onEnter)
   return (
     <div
       ref={ref}
       role="button"
       className={`${className}${focused ? ' is-focused' : ''}`}
       data-focused={focused}
+      onClick={activate}
     >
       {children}
     </div>
@@ -36,9 +37,16 @@ function FocusButton({
 export function Detail({
   title,
   onPlay,
+  onBack,
 }: {
   title: Title
   onPlay: (row: CatalogRow) => void
+  /**
+   * A remote/keyboard user backs out with Escape/Backspace (handled in
+   * FocusProvider); a phone has no such key, so touch needs a visible,
+   * tappable way back too.
+   */
+  onBack: () => void
 }) {
   const [activeSeason, setActiveSeason] = useState<CatalogRow>(title.seasons[0])
   const isShow = title.kind === 'show'
@@ -54,6 +62,10 @@ export function Detail({
   return (
     <div className="go-detail">
       <Backdrop thumbnail={title.thumbnail} />
+
+      <button type="button" className="go-back" onClick={onBack} aria-label="Volver">
+        <span className="go-back_chevron" aria-hidden="true" />
+      </button>
 
       <div className="go-detail_body">
         <div className="go-detail_main">

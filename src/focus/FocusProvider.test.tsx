@@ -14,9 +14,9 @@ function Cell({
   col: number
   onEnter?: () => void
 }) {
-  const { ref, focused } = useFocusable(id, row, col, onEnter ?? (() => {}))
+  const { ref, focused, activate } = useFocusable(id, row, col, onEnter ?? (() => {}))
   return (
-    <div ref={ref} data-testid={id} data-focused={focused}>
+    <div ref={ref} data-testid={id} data-focused={focused} onClick={activate}>
       {id}
     </div>
   )
@@ -94,6 +94,20 @@ describe('FocusProvider', () => {
     press('ArrowRight')
     press('Enter')
     expect(onEnter).not.toHaveBeenCalled()
+  })
+
+  it('activates an item on click/tap without a prior focus move', () => {
+    const onEnter = vi.fn()
+    const { getByTestId } = render(<Grid onEnter={onEnter} />)
+    fireEvent.click(getByTestId('a'))
+    expect(onEnter).toHaveBeenCalledTimes(1)
+  })
+
+  it('moves focus to the clicked item, even if it was not already focused', () => {
+    const { getByTestId } = render(<Grid />)
+    expect(focusedId()).toBe('a')
+    fireEvent.click(getByTestId('d'))
+    expect(focusedId()).toBe('d')
   })
 
   it('calls onBack for Escape and Backspace', () => {
