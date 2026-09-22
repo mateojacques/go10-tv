@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import type { CatalogRow, Title } from '../types'
 import { parseCatalogCsv, buildTitles } from './loadCatalog'
+import { readCachedCatalog, writeCachedCatalog } from './catalogCache'
 
 interface CatalogState {
   rows: CatalogRow[]
@@ -10,11 +11,16 @@ interface CatalogState {
 }
 
 export function useCatalog(): CatalogState {
-  const [state, setState] = useState<CatalogState>({
-    rows: [], titles: [], loading: true, error: null,
+  const [state, setState] = useState<CatalogState>(() => {
+    const rows = readCachedCatalog()
+    return rows
+      ? { rows, titles: buildTitles(rows), loading: false, error: null }
+      : { rows: [], titles: [], loading: true, error: null }
   })
 
   useEffect(() => {
+    if (readCachedCatalog()) return // already hydrated synchronously above
+
     let cancelled = false
 
     fetch('/data/catalog.csv')
@@ -25,6 +31,7 @@ export function useCatalog(): CatalogState {
       .then((text) => {
         if (cancelled) return
         const rows = parseCatalogCsv(text)
+        writeCachedCatalog(rows)
         setState({ rows, titles: buildTitles(rows), loading: false, error: null })
       })
       .catch((error: Error) => {
