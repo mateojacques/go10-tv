@@ -3,6 +3,7 @@ import type { CatalogRow } from '../types'
 import { playerRetryReducer, initialPlayerRetryState, backoffMs } from './playerRetry'
 import { markWatched, readProgress, resumeFromTime, writeProgress } from '../progress/progressStore'
 import { buildEmbedSrc } from './embedSrc'
+import { rowKey } from '../catalog/rowKey'
 import './Player.css'
 
 /** How long to wait for the embed before treating it as a load failure. */
@@ -41,8 +42,8 @@ export function Player({
   // PROGRESS_SAVE_INTERVAL_MS — and always on pause, reload, and close.
   const positionRef = useRef<Position | null>(null)
   const lastSaveRef = useRef(0)
-  const videoIdRef = useRef(row.video_id)
-  videoIdRef.current = row.video_id
+  const videoIdRef = useRef(rowKey(row))
+  videoIdRef.current = rowKey(row)
   const containerRef = useRef<HTMLDivElement>(null)
   const frameRef = useRef<HTMLIFrameElement>(null)
 
@@ -54,6 +55,10 @@ export function Player({
   onPrevRef.current = onPrev
   const onNextRef = useRef(onNext)
   onNextRef.current = onNext
+  const chapterEndRef = useRef(row.chapter_end_seconds)
+  chapterEndRef.current = row.chapter_end_seconds
+  const chapterDurationRef = useRef(row.duration_seconds)
+  chapterDurationRef.current = row.duration_seconds
 
   const flushProgress = useCallback(() => {
     const position = positionRef.current
@@ -89,6 +94,13 @@ export function Player({
       if (data?.event === 'timeupdate' && typeof data.time === 'number') {
         positionRef.current = { videoId, time: data.time, duration: data.duration ?? 0 }
         if (Date.now() - lastSaveRef.current >= PROGRESS_SAVE_INTERVAL_MS) flushProgress()
+
+        const chapterEnd = chapterEndRef.current
+        if (chapterEnd != null && data.time >= chapterEnd) {
+          markWatched(videoId, chapterDurationRef.current)
+          positionRef.current = null
+          onEndedRef.current?.()
+        }
       } else if (data?.event === 'paused') {
         flushProgress()
       } else if (data?.event === 'ended') {
@@ -150,7 +162,12 @@ export function Player({
   // `src` and restart the video every few seconds.
   const fromTime = useMemo(() => {
     flushProgress() // a reload should resume from the very latest position
-    return resumeFromTime(readProgress(row.video_id))
+    const resumeAt = resumeFromTime(readProgress(rowKey(row)))
+    if (resumeAt !== null) return resumeAt
+    // A chapter's own beginning isn't the file's beginning. row.video_id is
+    // still the only thing gating recomputation (see the comment above) --
+    // this only takes effect the render a genuinely new video starts loading.
+    return row.chapter_start_seconds && row.chapter_start_seconds > 0 ? row.chapter_start_seconds : null
   }, [row.video_id, state.reloadToken, flushProgress])
 
   const handleLoad = useCallback(() => {

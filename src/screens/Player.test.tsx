@@ -235,4 +235,56 @@ describe('Player', () => {
     expect(onPrev).not.toHaveBeenCalled()
     expect(onNext).not.toHaveBeenCalled()
   })
+
+  function chapterRow(overrides: Partial<CatalogRow> = {}): CatalogRow {
+    return row({
+      video_id: '9', type: 'episode', episode_number: 1,
+      chapter_start_seconds: 1435, chapter_end_seconds: 2810, duration_seconds: 1375,
+      embed_url: 'https://ok.ru/videoembed/9',
+      ...overrides,
+    })
+  }
+
+  it('treats a timeupdate crossing chapter_end_seconds as the episode ending', () => {
+    const onEnded = vi.fn()
+    render(<Player row={chapterRow()} onClose={() => {}} onEnded={onEnded} />)
+    const frame = getFrame()
+    fireEvent.load(frame)
+
+    postFromEmbed(frame, { event: 'timeupdate', time: 2000, duration: 14909 })
+    expect(onEnded).not.toHaveBeenCalled()
+
+    postFromEmbed(frame, { event: 'timeupdate', time: 2810, duration: 14909 })
+    expect(onEnded).toHaveBeenCalledTimes(1)
+    expect(stored('9:1').watched).toBe(true)
+    expect(stored('9:1').duration).toBe(1375) // the chapter's own duration, not the file's
+  })
+
+  it('does not end early on a timeupdate before chapter_end_seconds', () => {
+    const onEnded = vi.fn()
+    render(<Player row={chapterRow()} onClose={() => {}} onEnded={onEnded} />)
+    postFromEmbed(getFrame(), { event: 'timeupdate', time: 1500, duration: 14909 })
+    expect(onEnded).not.toHaveBeenCalled()
+  })
+
+  it('opens a fresh chapter at its own chapter_start_seconds', () => {
+    render(<Player row={chapterRow()} onClose={() => {}} />)
+    expect(getFrame().src).toBe('https://ok.ru/videoembed/9?autoplay=1&fromTime=1435')
+  })
+
+  it('resumes an in-progress chapter from its stored position, not chapter_start_seconds', () => {
+    localStorage.setItem(
+      'go10:progress:9:1',
+      JSON.stringify({ time: 2000, duration: 1375, updatedAt: 0, watched: false }),
+    )
+    render(<Player row={chapterRow()} onClose={() => {}} />)
+    expect(getFrame().src).toBe('https://ok.ru/videoembed/9?autoplay=1&fromTime=1997')
+  })
+
+  it('attributes progress to the composite chapter key, not the bare shared video_id', () => {
+    render(<Player row={chapterRow()} onClose={() => {}} />)
+    postFromEmbed(getFrame(), { event: 'timeupdate', time: 1500, duration: 14909 })
+    expect(stored('9:1').time).toBe(1500)
+    expect(stored('9')).toBeNull()
+  })
 })
