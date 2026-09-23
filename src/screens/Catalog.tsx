@@ -81,7 +81,9 @@ function CatalogGrid({ titles, onSelect }: { titles: Title[]; onSelect: (title: 
       (entries) => {
         if (entries.some((entry) => entry.isIntersecting)) setLimit((l) => l + BATCH)
       },
-      { rootMargin: '100% 0px' },
+      // Rooted on the screen's own scroller: against the viewport, the
+      // margin would be clipped away by it and only fire at the very bottom.
+      { root: sentinel.closest('.go-catalog'), rootMargin: '100% 0px' },
     )
     observer.observe(sentinel)
     return () => observer.disconnect()
