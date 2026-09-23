@@ -30,7 +30,11 @@ mouse cursor is hidden — the primary target device has no pointer.
 | --- | --- |
 | Arrows | Move focus |
 | Enter | Select |
-| Escape / Backspace | Back (player → detail → home) |
+| Escape / Backspace | Back (player → detail → the page it was opened from → home) |
+
+In the search box, Enter starts typing (a TV opens its on-screen keyboard).
+While typing, Left/Right/Backspace edit the text, Enter or Down jump to the
+first result, and Up or Escape stop typing without leaving the page.
 
 Touch (phone/tablet) is also supported: tap a card, the play button, or a
 season to select it directly, and tap the back button shown on the detail and
@@ -42,6 +46,14 @@ player also autoplays on open, so watching never needs an extra tap or click.
 - **Home** — a hero for the most recently added title, then 28 focus-navigable
   rows: Recién añadidos, Series, En 4K, 13 genre rows, 6 studio rows, 5 decade
   rows and Más vistos.
+- **Navbar** — on Home and the catalog: "Películas", "Series" and a search
+  box.
+- **Catalog** — one grid screen for `/peliculas`, `/series` and search
+  results (`/buscar?q=…`, plus `&en=peliculas|series` when a search is scoped
+  to the section it was typed in, shown as a removable chip). Search is on the
+  title only: partial, accent-insensitive and typo-tolerant ("castelvania",
+  "yugioh"). When nothing matches it shows the closest titles under "Quizás
+  te interese" rather than an empty page.
 - **Detail** — metadata, genre chips, and for series a season list where each
   season is separately focusable and playable.
 - **Player** — full-screen overlay wrapping the ok.ru embed, with a visible

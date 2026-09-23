@@ -60,6 +60,12 @@ img {
   display: block;
 }
 
+/* Home and the catalog: the navbar overlays whichever screen is beneath it. */
+.go-browse {
+  position: relative;
+  height: 100%;
+}
+
 /* Cinematic atmosphere: a fixed vignette plus fine film grain over everything.
  * Both are pointer-events:none so they never intercept anything, and both sit
  * above content but below the player overlay. */

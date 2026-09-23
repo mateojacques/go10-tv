@@ -1,22 +1,39 @@
-import { useCallback } from 'react'
-import type { CatalogRow } from './types'
+import { useCallback, useRef } from 'react'
+import type { CatalogRow, Title } from './types'
 import { useCatalog } from './catalog/useCatalog'
 import { rowKey } from './catalog/rowKey'
 import { FocusProvider } from './focus/FocusProvider'
 import { Home } from './screens/Home'
+import { Catalog } from './screens/Catalog'
+import { Navbar } from './components/Navbar'
 import { Detail } from './screens/Detail'
 import { Player } from './screens/Player'
 import { findNextEpisode, findPreviousEpisode } from './screens/nextEpisode'
 import { useRoute } from './router/useRoute'
+import type { Route } from './router/route'
 import { resolveRoute } from './router/resolveRoute'
 import './styles/global.css'
 
 export default function App() {
   const { titles, loading, error } = useCatalog()
   const { route, navigate } = useRoute()
+  // The Home or catalog page a title was opened from, so backing out of Detail
+  // returns to that search or section rather than always to Home. Deep links
+  // have nowhere better to go than Home.
+  const lastBrowseRoute = useRef<Route>({ name: 'home' })
 
   const back = useCallback(() => {
-    navigate(route.name === 'play' ? { name: 'title', key: route.key } : { name: 'home' })
+    switch (route.name) {
+      case 'play':
+        navigate({ name: 'title', key: route.key })
+        break
+      case 'title':
+        navigate(lastBrowseRoute.current)
+        break
+      case 'catalog':
+        navigate({ name: 'home' })
+        break
+    }
   }, [route, navigate])
 
   if (loading) {
@@ -46,21 +63,35 @@ export default function App() {
     return null
   }
 
-  if (resolved.name === 'home') {
+  if (resolved.name === 'home' || resolved.name === 'catalog') {
+    lastBrowseRoute.current = route
+    const openTitle = (title: Title) => navigate({ name: 'title', key: title.key })
+
     return (
-      <FocusProvider key="home" onBack={back}>
-        <Home
-          titles={titles}
-          onSelect={(title) => navigate({ name: 'title', key: title.key })}
-          onResume={(title, row) => navigate({ name: 'play', key: title.key, videoId: rowKey(row) })}
-        />
+      // One provider for Home and the catalog, with the navbar outside the
+      // screen that swaps beneath it: typing on Home navigates to /buscar, and
+      // the input has to survive that without losing focus (and the TV's
+      // on-screen keyboard) after the first letter.
+      <FocusProvider key="browse" onBack={back}>
+        <div className="go-browse">
+          <Navbar route={route} onNavigate={navigate} />
+          {resolved.name === 'home' ? (
+            <Home
+              titles={titles}
+              onSelect={openTitle}
+              onResume={(title, row) => navigate({ name: 'play', key: title.key, videoId: rowKey(row) })}
+            />
+          ) : (
+            <Catalog
+              titles={titles}
+              section={resolved.section}
+              query={resolved.query}
+              onSelect={openTitle}
+            />
+          )}
+        </div>
       </FocusProvider>
     )
-  }
-
-  if (resolved.name === 'catalog') {
-    navigate({ name: 'home' }, { replace: true })
-    return null
   }
 
   const title = resolved.title

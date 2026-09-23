@@ -51,6 +51,39 @@ describe('App routing', () => {
     expect(window.location.pathname).toBe('/')
   })
 
+  it('typing on Home moves to /buscar with the same input still focused', async () => {
+    render(<App />)
+    await screen.findByRole('heading', { name: 'Foo Movie' })
+    const input = screen.getByRole('searchbox')
+    fireEvent.click(input)
+    fireEvent.change(input, { target: { value: 'foo' } })
+    await waitFor(() => expect(window.location.pathname).toBe('/buscar'))
+    expect(window.location.search).toBe('?q=foo')
+    expect(screen.getByRole('searchbox')).toBe(input)
+    expect(document.activeElement).toBe(input)
+    screen.getByRole('heading', { name: /Resultados para "foo"/ })
+  })
+
+  it('returns to the search from a title opened in it', async () => {
+    window.history.replaceState({}, '', '/buscar?q=foo')
+    render(<App />)
+    fireEvent.click(await screen.findByRole('button', { name: 'Foo Movie' }))
+    await waitFor(() => expect(window.location.pathname).toBe('/title/111'))
+    fireEvent.keyDown(window, { key: 'Escape' })
+    await waitFor(() => expect(window.location.pathname).toBe('/buscar'))
+    expect(window.location.search).toBe('?q=foo')
+  })
+
+  it('navbar links open the section catalogs', async () => {
+    render(<App />)
+    await screen.findByRole('heading', { name: 'Foo Movie' })
+    fireEvent.click(screen.getByText('Películas'))
+    await waitFor(() => expect(window.location.pathname).toBe('/peliculas'))
+    screen.getByRole('heading', { level: 1, name: /Películas/ })
+    fireEvent.click(screen.getByText('Series'))
+    await waitFor(() => expect(window.location.pathname).toBe('/series'))
+  })
+
   const EPISODIC_CSV = `catalog_index,video_id,type,title,title_raw,series_id,series_title,season_number,season_label,episode_number,year,studio,genre,genre_secondary,quality,language,subtitled,duration_raw,duration_seconds,views,thumbnail,video_url,embed_url
 0,201,episode,Ep Show,Ep Show,ep-show,Ep Show,1,,1,2020,,Drama,,1080p,Español,false,23:00,1380,10,thumb.webp,https://ok.ru/video/201,https://ok.ru/videoembed/201
 1,202,episode,Ep Show,Ep Show,ep-show,Ep Show,1,,2,2020,,Drama,,1080p,Español,false,23:00,1380,10,thumb.webp,https://ok.ru/video/202,https://ok.ru/videoembed/202

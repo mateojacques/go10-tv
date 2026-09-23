@@ -76,11 +76,6 @@ export function Home({
         <Backdrop thumbnail={featured.thumbnail} />
 
         <div className="go-hero_body">
-          <div className="go-wordmark">
-            <span className="go-wordmark_dot" aria-hidden="true" />
-            GO10 TV
-          </div>
-
           <p className="go-hero_eyebrow">Destacado</p>
           <h1 className="go-hero_title">{featured.title}</h1>
 

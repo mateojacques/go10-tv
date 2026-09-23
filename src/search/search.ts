@@ -58,21 +58,31 @@ function prepareTitle(title: string): Prepared {
   return prepared
 }
 
+// Three reusable rows (two back, one back, current) instead of a fresh matrix
+// per comparison: a keystroke runs thousands of these over the catalog.
+let rows: [Uint16Array, Uint16Array, Uint16Array] = [new Uint16Array(64), new Uint16Array(64), new Uint16Array(64)]
+
 /** Optimal-string-alignment Damerau-Levenshtein: a transposition is one edit. */
 function editDistance(a: string, b: string): number {
-  const d: number[][] = Array.from({ length: a.length + 1 }, (_, i) => [i])
-  for (let j = 1; j <= b.length; j++) d[0][j] = j
+  if (b.length + 1 > rows[0].length) {
+    rows = [new Uint16Array(b.length + 1), new Uint16Array(b.length + 1), new Uint16Array(b.length + 1)]
+  }
+  let [twoBack, oneBack, current] = rows
+  for (let j = 0; j <= b.length; j++) oneBack[j] = j
 
   for (let i = 1; i <= a.length; i++) {
+    current[0] = i
     for (let j = 1; j <= b.length; j++) {
       const cost = a[i - 1] === b[j - 1] ? 0 : 1
-      d[i][j] = Math.min(d[i - 1][j] + 1, d[i][j - 1] + 1, d[i - 1][j - 1] + cost)
+      let value = Math.min(oneBack[j] + 1, current[j - 1] + 1, oneBack[j - 1] + cost)
       if (i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1]) {
-        d[i][j] = Math.min(d[i][j], d[i - 2][j - 2] + 1)
+        value = Math.min(value, twoBack[j - 2] + 1)
       }
+      current[j] = value
     }
+    ;[twoBack, oneBack, current] = [oneBack, current, twoBack]
   }
-  return d[a.length][b.length]
+  return oneBack[b.length]
 }
 
 function similarity(a: string, b: string): number {
@@ -87,12 +97,14 @@ function similarity(a: string, b: string): number {
 function wordSimilarity(queryWord: string, titleWord: string): number {
   if (titleWord.startsWith(queryWord)) return 1
   if (queryWord.length < FUZZY_MIN_LENGTH) return 0
-  const whole = similarity(queryWord, titleWord)
   const prefix =
     titleWord.length > queryWord.length
       ? similarity(queryWord, titleWord.slice(0, queryWord.length))
       : 0
-  return Math.max(whole, prefix)
+  // The length gap alone caps the whole-word score; skip it when it can't win.
+  const longer = Math.max(queryWord.length, titleWord.length)
+  const wholeCap = 1 - Math.abs(queryWord.length - titleWord.length) / longer
+  return wholeCap > prefix ? Math.max(prefix, similarity(queryWord, titleWord)) : prefix
 }
 
 function fuzzy(query: Prepared, title: Prepared): number {

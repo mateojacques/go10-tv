@@ -1,6 +1,8 @@
 .go-home {
   height: 100%;
   overflow-y: auto;
+  /* scrollIntoView honours this, so focused cards never tuck under the navbar. */
+  scroll-padding-top: var(--go-nav-h);
   scrollbar-width: none;
   scroll-behavior: smooth;
 }
@@ -18,7 +20,8 @@
   grid-template-columns: minmax(0, 1fr) auto;
   align-items: end;
   gap: var(--go-safe-x);
-  padding: var(--go-safe-y) var(--go-safe-x) 3.5rem;
+  /* The navbar overlays the top of the hero, whose backdrop runs up behind it. */
+  padding: calc(var(--go-nav-h) + 1rem) var(--go-safe-x) 3.5rem;
 }
 
 .go-hero_body {
@@ -26,27 +29,6 @@
   z-index: 1;
   max-width: 44rem;
   animation: go-rise var(--go-dur-slow) var(--go-ease) both;
-}
-
-.go-wordmark {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 1.75rem;
-  font-family: var(--go-font-mono);
-  font-size: var(--go-size-meta);
-  font-weight: 600;
-  letter-spacing: 0.34em;
-  text-transform: uppercase;
-  color: var(--go-accent);
-}
-
-.go-wordmark_dot {
-  width: 0.5rem;
-  height: 0.5rem;
-  border-radius: 50%;
-  background: var(--go-accent);
-  box-shadow: 0 0 14px 2px var(--go-accent-glow);
 }
 
 .go-hero_eyebrow {
