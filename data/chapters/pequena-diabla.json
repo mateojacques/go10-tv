@@ -1,0 +1,64 @@
+{
+  "14992225798894": [
+    {
+      "episode_number": 1,
+      "title": "Episodio 1",
+      "start_seconds": 0,
+      "end_seconds": 1439
+    },
+    {
+      "episode_number": 2,
+      "title": "Episodio 2",
+      "start_seconds": 1439,
+      "end_seconds": 2878
+    },
+    {
+      "episode_number": 3,
+      "title": "Episodio 3",
+      "start_seconds": 2878,
+      "end_seconds": 4316
+    },
+    {
+      "episode_number": 4,
+      "title": "Episodio 4",
+      "start_seconds": 4316,
+      "end_seconds": 5755
+    },
+    {
+      "episode_number": 5,
+      "title": "Episodio 5",
+      "start_seconds": 5755,
+      "end_seconds": 7194
+    },
+    {
+      "episode_number": 6,
+      "title": "Episodio 6",
+      "start_seconds": 7194,
+      "end_seconds": 8633
+    },
+    {
+      "episode_number": 7,
+      "title": "Episodio 7",
+      "start_seconds": 8633,
+      "end_seconds": 10072
+    },
+    {
+      "episode_number": 8,
+      "title": "Episodio 8",
+      "start_seconds": 10072,
+      "end_seconds": 11510
+    },
+    {
+      "episode_number": 9,
+      "title": "Episodio 9",
+      "start_seconds": 11510,
+      "end_seconds": 12949
+    },
+    {
+      "episode_number": 10,
+      "title": "Episodio 10",
+      "start_seconds": 12949,
+      "end_seconds": null
+    }
+  ]
+}
