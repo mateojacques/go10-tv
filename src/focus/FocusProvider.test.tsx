@@ -1,6 +1,6 @@
 import { describe, it, expect, vi } from 'vitest'
 import { render, fireEvent } from '@testing-library/react'
-import { FocusProvider } from './FocusProvider'
+import { FocusProvider, useFocusState } from './FocusProvider'
 import { useFocusable } from './useFocusable'
 
 function Cell({
@@ -162,5 +162,88 @@ describe('FocusProvider when disabled', () => {
     expect(focusedId()).toBe('a')
     expect(onEnter).not.toHaveBeenCalled()
     expect(onBack).not.toHaveBeenCalled()
+  })
+})
+
+function KeyCell({ id, row, col, onKey }: { id: string; row: number; col: number; onKey: (k: string) => boolean }) {
+  const { ref, focused } = useFocusable(id, row, col, () => {}, { onKey })
+  return <div ref={ref} data-testid={id} data-focused={focused}>{id}</div>
+}
+
+function PassiveCell({ id, row, col }: { id: string; row: number; col: number }) {
+  const { ref, focused } = useFocusable(id, row, col, () => {}, { claimsInitialFocus: false })
+  return <div ref={ref} data-focused={focused}>{id}</div>
+}
+
+describe('FocusProvider key hooks', () => {
+  it('lets the focused item claim a key before the default handling', () => {
+    const onBack = vi.fn()
+    const onKey = vi.fn((key: string) => key === 'Escape')
+    render(
+      <FocusProvider onBack={onBack}>
+        <KeyCell id="a" row={0} col={0} onKey={onKey} />
+        <Cell id="b" row={0} col={1} />
+      </FocusProvider>,
+    )
+    press('Escape')
+    expect(onKey).toHaveBeenCalledWith('Escape')
+    expect(onBack).not.toHaveBeenCalled()
+    press('ArrowRight') // not claimed → default
+    expect(focusedId()).toBe('b')
+  })
+
+  it('leaves Left/Right/Backspace to a focused text input', () => {
+    const onBack = vi.fn()
+    render(
+      <FocusProvider onBack={onBack}>
+        <Cell id="a" row={0} col={0} />
+        <Cell id="b" row={0} col={1} />
+        <input data-testid="field" />
+      </FocusProvider>,
+    )
+    const field = document.querySelector('input')!
+    field.focus()
+    for (const key of ['ArrowRight', 'ArrowLeft', 'Backspace']) {
+      const event = new KeyboardEvent('keydown', { key, cancelable: true })
+      window.dispatchEvent(event)
+      expect(event.defaultPrevented).toBe(false)
+    }
+    expect(onBack).not.toHaveBeenCalled()
+    expect(focusedId()).toBe('a')
+  })
+
+  it('still goes back on Backspace when no input has focus', () => {
+    const onBack = vi.fn()
+    render(<Grid onBack={onBack} />)
+    press('Backspace')
+    expect(onBack).toHaveBeenCalledTimes(1)
+  })
+
+  it('does not give initial focus to passive items', () => {
+    render(
+      <FocusProvider onBack={() => {}}>
+        <PassiveCell id="nav" row={-2} col={0} />
+        <Cell id="a" row={0} col={0} />
+      </FocusProvider>,
+    )
+    expect(focusedId()).toBe('a')
+    press('ArrowUp')
+    expect(focusedId()).toBe('nav')
+  })
+
+  it('moves focus programmatically', () => {
+    function Mover() {
+      const { move } = useFocusState()
+      return <button onClick={() => move('ArrowDown')}>move</button>
+    }
+    const { getByText } = render(
+      <FocusProvider onBack={() => {}}>
+        <Cell id="a" row={0} col={0} />
+        <Cell id="c" row={1} col={0} />
+        <Mover />
+      </FocusProvider>,
+    )
+    fireEvent.click(getByText('move'))
+    expect(focusedId()).toBe('c')
   })
 })

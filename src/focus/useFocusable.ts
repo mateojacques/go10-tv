@@ -8,13 +8,27 @@ import { useFocusContext } from './FocusProvider'
  * rows, so callers scope the id by row (`${rowId}:${titleKey}`) rather than
  * using the title's own key.
  */
-export function useFocusable(id: string, row: number, col: number, onEnter: () => void) {
+export function useFocusable(
+  id: string,
+  row: number,
+  col: number,
+  onEnter: () => void,
+  options?: {
+    /** See `FocusItem.onKey`. */
+    onKey?: (key: string) => boolean
+    /** See `FocusItem.claimsInitialFocus`. */
+    claimsInitialFocus?: boolean
+  },
+) {
   const ref = useRef<HTMLDivElement>(null)
   const { focusedId, focus, register } = useFocusContext()
 
   // Kept in a ref so a changing handler identity never re-registers the item.
   const onEnterRef = useRef(onEnter)
   onEnterRef.current = onEnter
+  const onKeyRef = useRef(options?.onKey)
+  onKeyRef.current = options?.onKey
+  const claimsInitialFocus = options?.claimsInitialFocus
 
   useEffect(
     () =>
@@ -24,8 +38,10 @@ export function useFocusable(id: string, row: number, col: number, onEnter: () =
         col,
         element: ref.current,
         onEnter: () => onEnterRef.current(),
+        onKey: (key) => onKeyRef.current?.(key) ?? false,
+        claimsInitialFocus,
       }),
-    [id, row, col, register],
+    [id, row, col, register, claimsInitialFocus],
   )
 
   const focused = focusedId === id

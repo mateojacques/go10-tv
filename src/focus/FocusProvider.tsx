@@ -15,12 +15,25 @@ export interface FocusItem {
   col: number
   element: HTMLElement | null
   onEnter: () => void
+  /**
+   * Offered every key first while this item is focused. Returning true claims
+   * it, skipping the provider's own handling — how the search box keeps
+   * Escape from backing out while it's being typed into.
+   */
+  onKey?: (key: string) => boolean
+  /**
+   * False keeps the item from taking focus just by registering. The navbar
+   * uses it so a screen opens focused on its content, not on "Películas".
+   */
+  claimsInitialFocus?: boolean
 }
 
 interface FocusContextValue {
   focusedId: string | null
   focus: (id: string) => void
   register: (item: FocusItem) => () => void
+  /** Move focus as if an arrow key had been pressed. */
+  move: (key: ArrowKey) => void
 }
 
 const FocusContext = createContext<FocusContextValue | null>(null)
@@ -32,11 +45,11 @@ export function useFocusContext(): FocusContextValue {
 }
 
 export function useFocusState() {
-  const { focusedId, focus } = useFocusContext()
-  return { focusedId, focus }
+  const { focusedId, focus, move } = useFocusContext()
+  return { focusedId, focus, move }
 }
 
-type ArrowKey = 'ArrowUp' | 'ArrowDown' | 'ArrowLeft' | 'ArrowRight'
+export type ArrowKey = 'ArrowUp' | 'ArrowDown' | 'ArrowLeft' | 'ArrowRight'
 
 /**
  * Resolve the neighbour of `current` in the direction of `key`.
@@ -45,6 +58,16 @@ type ArrowKey = 'ArrowUp' | 'ArrowDown' | 'ArrowLeft' | 'ArrowRight'
  * nearest row and, within it, the nearest column — so moving down out of a long
  * row into a short one lands on the closest card rather than falling off.
  */
+/** Keys a focused text field needs for itself: caret movement and deleting. */
+const PASSTHROUGH_KEYS = new Set(['ArrowLeft', 'ArrowRight', 'Backspace'])
+
+function isEditable(element: Element | null) {
+  return (
+    element instanceof HTMLElement &&
+    (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA' || element.isContentEditable)
+  )
+}
+
 function neighbour(items: FocusItem[], current: FocusItem, key: ArrowKey) {
   const horizontal = key === 'ArrowLeft' || key === 'ArrowRight'
   const forward = key === 'ArrowRight' || key === 'ArrowDown' ? 1 : -1
@@ -81,11 +104,15 @@ export function FocusProvider({
 }) {
   const items = useRef(new Map<string, FocusItem>())
   const [focusedId, setFocusedId] = useState<string | null>(null)
+  const focusedRef = useRef(focusedId)
+  focusedRef.current = focusedId
 
   const register = useCallback((item: FocusItem) => {
     items.current.set(item.id, item)
     // Claim focus if nothing holds it, or if whatever held it has gone away.
-    setFocusedId((current) => (current && items.current.has(current) ? current : item.id))
+    if (item.claimsInitialFocus !== false) {
+      setFocusedId((current) => (current && items.current.has(current) ? current : item.id))
+    }
 
     return () => {
       items.current.delete(item.id)
@@ -93,38 +120,59 @@ export function FocusProvider({
         if (current !== item.id) return current
         // The focused item unmounted: hand focus to whatever remains, so there
         // is never a moment with nothing focused and no way to steer.
-        const next = items.current.values().next()
-        return next.done ? null : next.value.id
+        const remaining = [...items.current.values()]
+        const next = remaining.find((i) => i.claimsInitialFocus !== false) ?? remaining[0]
+        return next ? next.id : null
       })
     }
   }, [])
 
-  const focus = useCallback((id: string) => setFocusedId(id), [])
+  const focus = useCallback((id: string) => {
+    focusedRef.current = id
+    setFocusedId(id)
+  }, [])
+
+  const move = useCallback((key: ArrowKey) => {
+    const all = [...items.current.values()]
+    const current = focusedRef.current ? items.current.get(focusedRef.current) : undefined
+    if (!current) {
+      // Nothing focused, e.g. only passive navbar items are on screen: the
+      // first key press picks something rather than moving from nowhere.
+      if (all[0]) focus(all[0].id)
+      return
+    }
+
+    const next = neighbour(all, current, key)
+    if (!next) return
+
+    focusedRef.current = next.id
+    setFocusedId(next.id)
+    // Not available in jsdom, and purely cosmetic either way.
+    next.element?.scrollIntoView?.({
+      block: 'nearest',
+      inline: 'center',
+      behavior: 'smooth',
+    })
+  }, [focus])
 
   useEffect(() => {
     if (!enabled) return
 
     function onKeyDown(event: KeyboardEvent) {
+      const current = focusedId ? items.current.get(focusedId) : undefined
+      if (current?.onKey?.(event.key)) {
+        event.preventDefault()
+        return
+      }
+      if (isEditable(document.activeElement) && PASSTHROUGH_KEYS.has(event.key)) return
+
       switch (event.key) {
         case 'ArrowUp':
         case 'ArrowDown':
         case 'ArrowLeft':
         case 'ArrowRight': {
           event.preventDefault()
-          const all = [...items.current.values()]
-          const current = (focusedId && items.current.get(focusedId)) || all[0]
-          if (!current) return
-
-          const next = neighbour(all, current, event.key)
-          if (!next) return
-
-          setFocusedId(next.id)
-          // Not available in jsdom, and purely cosmetic either way.
-          next.element?.scrollIntoView?.({
-            block: 'nearest',
-            inline: 'center',
-            behavior: 'smooth',
-          })
+          move(event.key)
           break
         }
         case 'Enter': {
@@ -143,11 +191,11 @@ export function FocusProvider({
 
     window.addEventListener('keydown', onKeyDown)
     return () => window.removeEventListener('keydown', onKeyDown)
-  }, [focusedId, onBack, enabled])
+  }, [focusedId, onBack, enabled, move])
 
   const value = useMemo(
-    () => ({ focusedId, focus, register }),
-    [focusedId, focus, register],
+    () => ({ focusedId, focus, register, move }),
+    [focusedId, focus, register, move],
   )
 
   return <FocusContext.Provider value={value}>{children}</FocusContext.Provider>
