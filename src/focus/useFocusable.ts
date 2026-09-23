@@ -52,7 +52,11 @@ export function useFocusable(
   // element ever truly focused, it falls back to an on-screen pointer that
   // has to be aimed and clicked, which is the bug this fixes.
   useEffect(() => {
-    if (focused) ref.current?.focus({ preventScroll: true })
+    // Unless focus is already inside it — a search box's own input — which
+    // this would otherwise steal it from.
+    if (focused && !ref.current?.contains(document.activeElement)) {
+      ref.current?.focus({ preventScroll: true })
+    }
   }, [focused])
 
   // For click/tap: a remote first moves focus, then presses Enter, but a

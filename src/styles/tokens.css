@@ -43,6 +43,10 @@
   --go-safe-x: clamp(2rem, 4.5vw, 5rem);
   --go-safe-y: 2.5rem;
 
+  /* Height the navbar overlays at the top of Home and the catalog; content
+   * starts below it and scrollIntoView keeps focused cards out from under it. */
+  --go-nav-h: 7rem;
+
   --go-radius: 8px;
   --go-focus-ring: 0 0 0 3px var(--go-bg), 0 0 0 6px var(--go-accent);
   --go-focus-lift: 0 18px 44px -12px rgba(0, 0, 0, 0.9), 0 0 60px -18px var(--go-accent-glow);

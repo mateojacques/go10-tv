@@ -1,0 +1,209 @@
+.go-nav {
+  position: absolute;
+  inset: 0 0 auto;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  height: var(--go-nav-h);
+  padding: 0 var(--go-safe-x);
+  /* Content scrolls up underneath; the fade keeps the bar legible over it. */
+  background: linear-gradient(to bottom, var(--go-bg) 45%, rgba(8, 9, 12, 0.7) 75%, transparent);
+}
+
+/* ---- Wordmark ------------------------------------------------------------- */
+
+.go-wordmark {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--go-font-mono);
+  font-size: var(--go-size-meta);
+  font-weight: 600;
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  color: var(--go-accent);
+  white-space: nowrap;
+}
+
+.go-wordmark_dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: var(--go-accent);
+  box-shadow: 0 0 14px 2px var(--go-accent-glow);
+}
+
+/* ---- Links ---------------------------------------------------------------- */
+
+.go-nav_links {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.go-nav_link {
+  position: relative;
+  padding: 0.5rem 1rem;
+  border-radius: var(--go-radius);
+  font-size: var(--go-size-body);
+  font-weight: 700;
+  color: var(--go-text-muted);
+  transition:
+    color var(--go-dur) var(--go-ease),
+    background var(--go-dur) var(--go-ease),
+    transform var(--go-dur) var(--go-ease);
+}
+
+.go-nav_link.is-active {
+  color: var(--go-text);
+}
+
+.go-nav_link.is-active::after {
+  content: '';
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  bottom: 0.125rem;
+  height: 2px;
+  border-radius: 1px;
+  background: var(--go-accent);
+}
+
+.go-nav_link.is-focused,
+.go-nav_scope.is-focused {
+  background: var(--go-accent);
+  color: var(--go-bg);
+  transform: scale(1.04);
+  box-shadow: var(--go-focus-ring), var(--go-focus-lift);
+}
+
+.go-nav_link.is-focused::after {
+  background: var(--go-bg);
+}
+
+/* ---- Search --------------------------------------------------------------- */
+
+.go-nav_search {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-left: auto;
+}
+
+.go-nav_scope {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.375rem 0.875rem;
+  border: 1px solid var(--go-accent-dim);
+  border-radius: 999px;
+  font-family: var(--go-font-mono);
+  font-size: var(--go-size-meta);
+  color: var(--go-accent);
+  white-space: nowrap;
+  transition:
+    background var(--go-dur) var(--go-ease),
+    transform var(--go-dur) var(--go-ease);
+}
+
+.go-nav_scope-x {
+  font-size: 0.8125em;
+  opacity: 0.8;
+}
+
+.go-search {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  width: clamp(14rem, 22vw, 24rem);
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  background: rgba(242, 244, 240, 0.06);
+  box-shadow: inset 0 0 0 1px var(--go-hairline);
+  transition:
+    box-shadow var(--go-dur) var(--go-ease),
+    background var(--go-dur) var(--go-ease);
+}
+
+.go-search.is-focused {
+  background: rgba(242, 244, 240, 0.1);
+  box-shadow: var(--go-focus-ring), var(--go-focus-lift);
+}
+
+.go-search.is-editing {
+  background: var(--go-bg-raised);
+  box-shadow: inset 0 0 0 2px var(--go-accent), var(--go-focus-lift);
+}
+
+/* A magnifier drawn in CSS: a ring plus a short handle. */
+.go-search_icon {
+  position: relative;
+  flex: 0 0 auto;
+  width: 0.875rem;
+  height: 0.875rem;
+  border: 2px solid var(--go-text-muted);
+  border-radius: 50%;
+}
+
+.go-search_icon::after {
+  content: '';
+  position: absolute;
+  right: -0.375rem;
+  bottom: -0.3125rem;
+  width: 0.4375rem;
+  height: 2px;
+  background: var(--go-text-muted);
+  transform: rotate(45deg);
+}
+
+.go-search.is-editing .go-search_icon,
+.go-search.is-editing .go-search_icon::after {
+  border-color: var(--go-accent);
+  background-color: transparent;
+}
+
+.go-search.is-editing .go-search_icon::after {
+  background: var(--go-accent);
+}
+
+.go-search_input {
+  flex: 1;
+  min-width: 0;
+  padding: 0.25rem 0;
+  border: 0;
+  outline: none;
+  background: none;
+  color: var(--go-text);
+  font: inherit;
+  font-size: var(--go-size-body);
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.go-search_input::placeholder {
+  color: var(--go-text-muted);
+}
+
+.go-search_input::-webkit-search-cancel-button {
+  display: none;
+}
+
+/* Narrow screens: the wordmark gives up its room to the search field. */
+@media (max-width: 720px) {
+  .go-nav {
+    gap: 1rem;
+  }
+
+  .go-nav .go-wordmark {
+    display: none;
+  }
+
+  .go-nav_link {
+    padding: 0.5rem 0.625rem;
+  }
+
+  .go-search {
+    width: auto;
+    min-width: 8rem;
+  }
+}

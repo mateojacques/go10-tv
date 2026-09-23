@@ -839,7 +839,7 @@ function Result() {
   return <div ref={ref} data-testid="result" data-focused={focused} />
 }
 
-function Harness({ initial, spy, onBack = () => {} }: { initial: Route; spy?: ReturnType<typeof vi.fn>; onBack?: () => void }) {
+function Harness({ initial, spy, onBack = () => {} }: { initial: Route; spy?: (route: Route, options?: { replace?: boolean }) => void; onBack?: () => void }) {
   const [route, setRoute] = useState<Route>(initial)
   const onNavigate = (next: Route, options?: { replace?: boolean }) => {
     spy?.(next, options)
