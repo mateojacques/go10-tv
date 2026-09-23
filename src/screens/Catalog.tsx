@@ -56,7 +56,7 @@ export function Catalog({
         <p className="go-catalog_empty">No hay títulos.</p>
       ) : (
         // Keyed so a new filter starts again from the first batch.
-        <CatalogGrid key={`${section}|${query}`} titles={selection.titles} onSelect={onSelect} />
+        <CatalogGrid key={`${section}|${query.trim()}`} titles={selection.titles} onSelect={onSelect} />
       )}
     </div>
   )

@@ -49,10 +49,16 @@ export function SearchBox({
   useEffect(() => {
     if (editing) {
       inputRef.current?.focus()
-    } else if (focused && document.activeElement === inputRef.current) {
+    } else if (focused) {
       // Stopped editing but still selected: park DOM focus on the box itself,
       // which closes the keyboard and keeps the TV's remote driver engaged.
-      ref.current?.focus({ preventScroll: true })
+      // That's needed both when focus is still in the input (Escape/Up) and
+      // when the keyboard closed on its own (Done/Cancel) and blurred it to
+      // <body> — where Backspace would otherwise mean "back", not "delete".
+      const active = document.activeElement
+      if (active === inputRef.current || !ref.current?.contains(active)) {
+        ref.current?.focus({ preventScroll: true })
+      }
     }
   }, [editing, focused, ref])
 

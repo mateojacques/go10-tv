@@ -110,16 +110,31 @@ export function FocusProvider({
   const [focusedId, setFocusedId] = useState<string | null>(null)
   const focusedRef = useRef(focusedId)
   focusedRef.current = focusedId
+  // The focused item's id while it's between unregistering and registering
+  // again — its row/col changed, as when the catalog grid reflows to a new
+  // column count — so it takes focus back instead of losing it to the fallback.
+  const reclaimRef = useRef<string | null>(null)
 
   const register = useCallback((item: FocusItem) => {
     items.current.set(item.id, item)
-    // Claim focus if nothing holds it, or if whatever held it has gone away.
-    if (item.claimsInitialFocus !== false) {
+    if (reclaimRef.current === item.id) {
+      reclaimRef.current = null
+      focusedRef.current = item.id
+      setFocusedId(item.id)
+    } else if (item.claimsInitialFocus !== false) {
+      // Claim focus if nothing holds it, or if whatever held it has gone away.
       setFocusedId((current) => (current && items.current.has(current) ? current : item.id))
     }
 
     return () => {
       items.current.delete(item.id)
+      if (focusedRef.current === item.id) {
+        reclaimRef.current = item.id
+        // A re-register happens in the same commit; past that it really left.
+        queueMicrotask(() => {
+          if (reclaimRef.current === item.id) reclaimRef.current = null
+        })
+      }
       setFocusedId((current) => {
         if (current !== item.id) return current
         // The focused item unmounted: hand focus to whatever remains, so there

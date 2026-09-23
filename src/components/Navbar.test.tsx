@@ -1,5 +1,5 @@
 import { describe, it, expect, vi } from 'vitest'
-import { render, screen, fireEvent } from '@testing-library/react'
+import { render, screen, fireEvent, act } from '@testing-library/react'
 import { useState } from 'react'
 import { Navbar } from './Navbar'
 import { FocusProvider } from '../focus/FocusProvider'
@@ -108,5 +108,23 @@ describe('Navbar', () => {
     press('Enter')
     expect(screen.getByTestId('grid:a').dataset.focused).toBe('true')
     expect(document.activeElement).not.toBe(input())
+  })
+
+  it('parks focus on the box when the keyboard closes by itself', () => {
+    const onBack = vi.fn()
+    render(<Harness initial={{ name: 'catalog', section: 'movie', query: 'to' }} onBack={onBack} />)
+    fireEvent.click(input())
+    expect(document.activeElement).toBe(input())
+    act(() => input().blur()) // e.g. the TV keyboard's Done key
+    expect(document.activeElement).toBe(document.querySelector('.go-search'))
+    press('Backspace')
+    expect(onBack).toHaveBeenCalledTimes(1) // not editing any more: a real back
+  })
+
+  it('does not re-navigate to the section already open', () => {
+    const spy = vi.fn()
+    render(<Harness initial={{ name: 'catalog', section: 'movie', query: '' }} spy={spy} />)
+    fireEvent.click(screen.getByText('Películas'))
+    expect(spy).not.toHaveBeenCalled()
   })
 })

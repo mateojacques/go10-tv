@@ -60,6 +60,12 @@ export function Navbar({
   const query = route.name === 'catalog' ? route.query : ''
   const hasQuery = query.trim() !== ''
   const sectionLabel = section === 'all' ? null : SECTION_LABELS[section]
+  const isBrowsing = (target: Section) => section === target && !hasQuery
+
+  const openSection = (target: Exclude<Section, 'all'>) => {
+    // Already there: don't stack a duplicate history entry.
+    if (!isBrowsing(target)) onNavigate(browseRoute(target))
+  }
 
   const onQueryChange = (value: string) => {
     if (value.trim() === '') {
@@ -84,7 +90,7 @@ export function Navbar({
           col={0}
           className="go-nav_link"
           active={section === 'movie'}
-          onSelect={() => onNavigate(browseRoute('movie'))}
+          onSelect={() => openSection('movie')}
         >
           {SECTION_LABELS.movie}
         </NavButton>
@@ -93,7 +99,7 @@ export function Navbar({
           col={1}
           className="go-nav_link"
           active={section === 'show'}
-          onSelect={() => onNavigate(browseRoute('show'))}
+          onSelect={() => openSection('show')}
         >
           {SECTION_LABELS.show}
         </NavButton>

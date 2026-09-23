@@ -263,4 +263,20 @@ describe('FocusProvider key hooks', () => {
     fireEvent.click(getByText('first'))
     expect(focusedId()).toBe('c0')
   })
+
+  it('keeps focus on an item whose position changes', () => {
+    function Moving({ row }: { row: number }) {
+      return (
+        <FocusProvider onBack={() => {}}>
+          <Cell id="a" row={0} col={0} />
+          <Cell id="b" row={row} col={1} />
+        </FocusProvider>
+      )
+    }
+    const { rerender } = render(<Moving row={0} />)
+    press('ArrowRight')
+    expect(focusedId()).toBe('b')
+    rerender(<Moving row={1} />) // e.g. the grid reflowed to fewer columns
+    expect(focusedId()).toBe('b')
+  })
 })

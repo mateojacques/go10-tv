@@ -10,7 +10,7 @@ export function useGridColumns(ref: RefObject<HTMLElement | null>, fallback = 5)
 
   useEffect(() => {
     const element = ref.current
-    if (!element || typeof ResizeObserver === 'undefined') return
+    if (!element) return
 
     const measure = () => {
       const tracks = getComputedStyle(element).gridTemplateColumns
@@ -19,6 +19,8 @@ export function useGridColumns(ref: RefObject<HTMLElement | null>, fallback = 5)
     }
 
     measure()
+    // Older TV browsers lack ResizeObserver: measure once and keep that.
+    if (typeof ResizeObserver === 'undefined') return
     const observer = new ResizeObserver(measure)
     observer.observe(element)
     return () => observer.disconnect()
