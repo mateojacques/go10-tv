@@ -1,0 +1,69 @@
+.go-catalog {
+  height: 100%;
+  overflow-y: auto;
+  padding: var(--go-nav-h) 0 var(--go-safe-y);
+  /* scrollIntoView honours this, so focused cards never tuck under the navbar. */
+  scroll-padding-top: var(--go-nav-h);
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+.go-catalog::-webkit-scrollbar {
+  display: none;
+}
+
+.go-catalog_head {
+  margin: 1rem var(--go-safe-x) 0;
+  animation: go-rise var(--go-dur-slow) var(--go-ease) both;
+}
+
+.go-catalog_title {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.875rem;
+  margin: 0;
+  font-size: calc(var(--go-size-section) * 1.3);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  overflow-wrap: anywhere;
+}
+
+.go-catalog_sub {
+  margin: 0.5rem 0 0;
+  font-family: var(--go-font-mono);
+  font-size: var(--go-size-meta);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--go-text-muted);
+}
+
+.go-catalog_empty {
+  margin: 2rem var(--go-safe-x);
+  color: var(--go-text-muted);
+}
+
+.go-catalog_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, var(--go-card-w));
+  justify-content: start;
+  gap: 2rem var(--go-gap);
+  /* Room for the focused card's scale-up, as in the Home rows. */
+  padding: 1.25rem var(--go-safe-x) 1.5rem;
+}
+
+/* Keeps the lazily-loaded next batch one step ahead of the viewport. */
+.go-catalog_sentinel {
+  height: 1px;
+}
+
+/* Phone widths: two columns that fill the screen instead of fixed-width cards. */
+@media (max-width: 720px) {
+  .go-catalog_grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .go-catalog_grid .go-card {
+    width: auto;
+  }
+}

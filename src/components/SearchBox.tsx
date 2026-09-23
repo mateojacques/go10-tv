@@ -35,7 +35,7 @@ export function SearchBox({
       if (!editing) return false
       if (key === 'Enter' || key === 'ArrowDown') {
         setEditing(false)
-        move('ArrowDown')
+        move('ArrowDown', { alignStart: true })
         return true
       }
       if (key === 'ArrowUp' || key === 'Escape') {

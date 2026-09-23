@@ -246,4 +246,21 @@ describe('FocusProvider key hooks', () => {
     fireEvent.click(getByText('move'))
     expect(focusedId()).toBe('c')
   })
+
+  it('can land a vertical move on the start of the next row', () => {
+    function Mover() {
+      const { move } = useFocusState()
+      return <button onClick={() => move('ArrowDown', { alignStart: true })}>first</button>
+    }
+    const { getByText } = render(
+      <FocusProvider onBack={() => {}}>
+        <Cell id="top" row={0} col={3} />
+        <Cell id="c0" row={1} col={0} />
+        <Cell id="c3" row={1} col={3} />
+        <Mover />
+      </FocusProvider>,
+    )
+    fireEvent.click(getByText('first'))
+    expect(focusedId()).toBe('c0')
+  })
 })

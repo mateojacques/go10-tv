@@ -6,9 +6,9 @@ import { FocusProvider } from '../focus/FocusProvider'
 import { useFocusable } from '../focus/useFocusable'
 import type { Route } from '../router/route'
 
-function Result() {
-  const { ref, focused } = useFocusable('grid:a', 0, 0, () => {})
-  return <div ref={ref} data-testid="result" data-focused={focused} />
+function Result({ id = 'grid:a', col = 0 }: { id?: string; col?: number }) {
+  const { ref, focused } = useFocusable(id, 0, col, () => {})
+  return <div ref={ref} tabIndex={-1} data-testid={id} data-focused={focused} />
 }
 
 function Harness({ initial, spy, onBack = () => {} }: { initial: Route; spy?: (route: Route, options?: { replace?: boolean }) => void; onBack?: () => void }) {
@@ -21,6 +21,7 @@ function Harness({ initial, spy, onBack = () => {} }: { initial: Route; spy?: (r
     <FocusProvider onBack={onBack}>
       <Navbar route={route} onNavigate={onNavigate} />
       <Result />
+      <Result id="grid:d" col={3} />
       <output data-testid="route">{JSON.stringify(route)}</output>
     </FocusProvider>
   )
@@ -94,10 +95,18 @@ describe('Navbar', () => {
     expect(onBack).not.toHaveBeenCalled()
   })
 
-  it('Down while editing moves to the first result', () => {
+  it('Down while editing moves to the first result, not the one below', () => {
     render(<Harness initial={{ name: 'catalog', section: 'movie', query: 'to' }} />)
     fireEvent.click(input())
     press('ArrowDown')
-    expect(screen.getByTestId('result').dataset.focused).toBe('true')
+    expect(screen.getByTestId('grid:a').dataset.focused).toBe('true')
+  })
+
+  it('Enter while editing also moves to the first result', () => {
+    render(<Harness initial={{ name: 'catalog', section: 'movie', query: 'to' }} />)
+    fireEvent.click(input())
+    press('Enter')
+    expect(screen.getByTestId('grid:a').dataset.focused).toBe('true')
+    expect(document.activeElement).not.toBe(input())
   })
 })

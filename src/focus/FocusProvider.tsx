@@ -32,8 +32,12 @@ interface FocusContextValue {
   focusedId: string | null
   focus: (id: string) => void
   register: (item: FocusItem) => () => void
-  /** Move focus as if an arrow key had been pressed. */
-  move: (key: ArrowKey) => void
+  /**
+   * Move focus as if an arrow key had been pressed. `alignStart` lands a
+   * vertical move on the first item of the next row instead of the nearest
+   * column — "go to the results", not "go straight down".
+   */
+  move: (key: ArrowKey, options?: { alignStart?: boolean }) => void
 }
 
 const FocusContext = createContext<FocusContextValue | null>(null)
@@ -68,7 +72,7 @@ function isEditable(element: Element | null) {
   )
 }
 
-function neighbour(items: FocusItem[], current: FocusItem, key: ArrowKey) {
+function neighbour(items: FocusItem[], current: FocusItem, key: ArrowKey, alignStart = false) {
   const horizontal = key === 'ArrowLeft' || key === 'ArrowRight'
   const forward = key === 'ArrowRight' || key === 'ArrowDown' ? 1 : -1
 
@@ -84,7 +88,7 @@ function neighbour(items: FocusItem[], current: FocusItem, key: ArrowKey) {
     horizontal
       ? Math.abs(a.col - current.col) - Math.abs(b.col - current.col)
       : Math.abs(a.row - current.row) - Math.abs(b.row - current.row) ||
-        Math.abs(a.col - current.col) - Math.abs(b.col - current.col),
+        (alignStart ? a.col - b.col : Math.abs(a.col - current.col) - Math.abs(b.col - current.col)),
   )[0]
 }
 
@@ -132,7 +136,7 @@ export function FocusProvider({
     setFocusedId(id)
   }, [])
 
-  const move = useCallback((key: ArrowKey) => {
+  const move = useCallback((key: ArrowKey, options?: { alignStart?: boolean }) => {
     const all = [...items.current.values()]
     const current = focusedRef.current ? items.current.get(focusedRef.current) : undefined
     if (!current) {
@@ -142,7 +146,7 @@ export function FocusProvider({
       return
     }
 
-    const next = neighbour(all, current, key)
+    const next = neighbour(all, current, key, options?.alignStart)
     if (!next) return
 
     focusedRef.current = next.id
