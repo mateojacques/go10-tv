@@ -69,4 +69,14 @@ describe('resolveRoute with chaptered episodes', () => {
       row: ep2,
     })
   })
+
+  it('resolves a catalog route to the catalog view', () => {
+    expect(resolveRoute({ name: 'catalog', section: 'movie', query: 'x' }, [])).toEqual({
+      name: 'catalog', section: 'movie', query: 'x',
+    })
+  })
+
+  it('resolves an empty "all" catalog to home', () => {
+    expect(resolveRoute({ name: 'catalog', section: 'all', query: '' }, [])).toEqual({ name: 'home' })
+  })
 })

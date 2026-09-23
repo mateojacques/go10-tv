@@ -5,11 +5,11 @@ export function useRoute(): {
   route: Route
   navigate: (route: Route, options?: { replace?: boolean }) => void
 } {
-  const [route, setRoute] = useState<Route>(() => parseRoute(window.location.pathname))
+  const [route, setRoute] = useState<Route>(() => parseRoute(window.location.pathname, window.location.search))
 
   useEffect(() => {
     function onPopState() {
-      setRoute(parseRoute(window.location.pathname))
+      setRoute(parseRoute(window.location.pathname, window.location.search))
     }
     window.addEventListener('popstate', onPopState)
     return () => window.removeEventListener('popstate', onPopState)

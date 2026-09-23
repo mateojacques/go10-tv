@@ -54,3 +54,49 @@ describe('routeToPath', () => {
     expect(routeToPath({ name: 'title', key: 'crows zero' })).toBe('/title/crows%20zero')
   })
 })
+
+describe('catalog routes', () => {
+  it('parses the section browse paths', () => {
+    expect(parseRoute('/peliculas')).toEqual({ name: 'catalog', section: 'movie', query: '' })
+    expect(parseRoute('/series')).toEqual({ name: 'catalog', section: 'show', query: '' })
+  })
+
+  it('parses a search, with and without a section', () => {
+    expect(parseRoute('/buscar', '?q=spidy')).toEqual({ name: 'catalog', section: 'all', query: 'spidy' })
+    expect(parseRoute('/buscar', '?q=spidy&en=peliculas')).toEqual({ name: 'catalog', section: 'movie', query: 'spidy' })
+    expect(parseRoute('/buscar', '?q=spidy&en=series')).toEqual({ name: 'catalog', section: 'show', query: 'spidy' })
+  })
+
+  it('decodes + and percent-encoded accents in the query', () => {
+    expect(parseRoute('/buscar', '?q=pel%C3%ADcula+de&en=peliculas')).toEqual({
+      name: 'catalog', section: 'movie', query: 'película de',
+    })
+  })
+
+  it('collapses an empty search to the section browse route', () => {
+    expect(parseRoute('/buscar', '?q=&en=series')).toEqual({ name: 'catalog', section: 'show', query: '' })
+    expect(parseRoute('/buscar', '?q=%20%20')).toEqual({ name: 'home' })
+    expect(parseRoute('/buscar')).toEqual({ name: 'home' })
+  })
+
+  it('ignores an unknown section', () => {
+    expect(parseRoute('/buscar', '?q=x&en=docs')).toEqual({ name: 'catalog', section: 'all', query: 'x' })
+  })
+
+  it('round-trips every catalog route', () => {
+    const routes = [
+      { name: 'catalog', section: 'movie', query: '' },
+      { name: 'catalog', section: 'show', query: '' },
+      { name: 'catalog', section: 'all', query: 'película & co' },
+      { name: 'catalog', section: 'movie', query: 'toy story' },
+    ] as const
+    for (const route of routes) {
+      const url = new URL(routeToPath(route), 'http://x')
+      expect(parseRoute(url.pathname, url.search)).toEqual(route)
+    }
+  })
+
+  it('prints an empty "all" catalog as home', () => {
+    expect(routeToPath({ name: 'catalog', section: 'all', query: '' })).toBe('/')
+  })
+})

@@ -43,4 +43,10 @@ describe('useRoute', () => {
     })
     expect(result.current.route).toEqual({ name: 'title', key: 'xyz' })
   })
+
+  it('reads the query string from the initial URL', () => {
+    window.history.replaceState({}, '', '/buscar?q=toy&en=peliculas')
+    const { result } = renderHook(() => useRoute())
+    expect(result.current.route).toEqual({ name: 'catalog', section: 'movie', query: 'toy' })
+  })
 })

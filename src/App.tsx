@@ -58,6 +58,11 @@ export default function App() {
     )
   }
 
+  if (resolved.name === 'catalog') {
+    navigate({ name: 'home' }, { replace: true })
+    return null
+  }
+
   const title = resolved.title
   const playingRow = resolved.name === 'player' ? resolved.row : undefined
   const nextRow = playingRow ? findNextEpisode(title.seasons, playingRow) : null
