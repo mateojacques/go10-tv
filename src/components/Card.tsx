@@ -29,7 +29,7 @@ export function Card({
   progress?: CardProgress
 }) {
   const { ref, focused, activate, tabIndex } = useFocusable(id, row, col, () => onSelect(title))
-  const seasons = title.seasons.length
+  const seasons = new Set(title.seasons.map((s) => s.season_number)).size
 
   return (
     <div
@@ -47,7 +47,7 @@ export function Card({
           {title.quality === '4K' && <span className="go-card_tag is-accent">4K</span>}
           {title.kind === 'show' && (
             <span className="go-card_tag">
-              {seasons} {seasons === 1 ? 'temp.' : 'temps.'}
+              {seasons} {seasons === 1 ? 'Temporada' : 'Temporadas'}
             </span>
           )}
         </div>
