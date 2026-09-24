@@ -19,12 +19,12 @@ export function Collection({
   titles: Title[]
   onSelect: (title: Title) => void
 }) {
-  const { color, background } = collection.tile
+  const { background } = collection.tile
 
   return (
     <div className="go-catalog go-collection">
       {/* The logo is the page heading, so there's no separate title row. */}
-      <h1 className="go-collection_banner" style={{ backgroundColor: color }}>
+      <h1 className="go-collection_banner">
         {background && <img className="go-collection_bg" src={`/${background}`} alt="" />}
         <img className="go-collection_logo" src={`/${collection.logo}`} alt={collection.name} />
       </h1>
