@@ -11,6 +11,9 @@ import { remainingLabel, rowLabel } from '../progress/describe'
 import type { CardProgress } from '../components/Card'
 import { ProgressBar } from '../components/ProgressBar'
 import { groupSeasons } from './groupSeasons'
+import type { Collection } from '../collections/types'
+import { visibleCollections } from '../collections/resolveCollection'
+import { CollectionStrip } from '../components/CollectionStrip'
 import './Home.css'
 
 /** The hero is a fixed promo slot, not derived from the catalog. */
@@ -58,11 +61,15 @@ export function Home({
   titles,
   onSelect,
   onResume,
+  collections,
+  onOpenCollection,
 }: {
   titles: Title[]
   onSelect: (title: Title) => void
   /** "Seguir viendo" skips the detail screen and plays the resume target. */
   onResume: (title: Title, row: CatalogRow) => void
+  collections: Collection[]
+  onOpenCollection: (collection: Collection) => void
 }) {
   const groups = useMemo(() => buildRows(titles), [titles])
   // Home remounts each time it's navigated back to, so reading once per
@@ -70,6 +77,10 @@ export function Home({
   const continueItems = useMemo(
     () => new Map(continueWatching(titles, listProgress()).slice(0, ROW_LIMIT).map((item) => [item.title.key, item])),
     [titles],
+  )
+  const strip = useMemo(
+    () => visibleCollections(collections, titles).map((resolved) => resolved.collection),
+    [collections, titles],
   )
   const continueGroup: CatalogRowGroup = {
     id: 'seguir-viendo',
@@ -99,6 +110,8 @@ export function Home({
 
   const resuming = heroProgress?.mode === 'resume' ? heroProgress.progress : null
   const position = heroProgress && heroProgress.mode !== 'start' ? rowLabel(heroProgress.row) : ''
+  // The strip takes focus row 0 when present; every row below shifts down.
+  const firstRow = strip.length > 0 ? 1 : 0
 
   return (
     <div className="go-home">
@@ -182,10 +195,11 @@ export function Home({
       </header>
 
       <div className="go-rows">
+        {strip.length > 0 && <CollectionStrip collections={strip} rowIndex={0} onSelect={onOpenCollection} />}
         {continueGroup.titles.length > 0 && (
           <Row
             group={continueGroup}
-            rowIndex={0}
+            rowIndex={firstRow}
             onSelect={(title) => {
               const item = continueItems.get(title.key)
               if (item) onResume(title, item.progress.row)
@@ -200,7 +214,7 @@ export function Home({
           <Row
             key={group.id}
             group={group}
-            rowIndex={index + (continueGroup.titles.length > 0 ? 1 : 0)}
+            rowIndex={index + firstRow + (continueGroup.titles.length > 0 ? 1 : 0)}
             onSelect={onSelect}
           />
         ))}
