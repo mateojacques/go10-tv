@@ -100,3 +100,23 @@ describe('catalog routes', () => {
     expect(routeToPath({ name: 'catalog', section: 'all', query: '' })).toBe('/')
   })
 })
+
+describe('collection routes', () => {
+  it('parses a collection path', () => {
+    expect(parseRoute('/coleccion/cartoon-network')).toEqual({ name: 'collection', id: 'cartoon-network' })
+  })
+
+  it('decodes an encoded collection id', () => {
+    expect(parseRoute('/coleccion/cartoon%2Dnetwork')).toEqual({ name: 'collection', id: 'cartoon-network' })
+  })
+
+  it('falls back to home for a collection path without an id', () => {
+    expect(parseRoute('/coleccion')).toEqual({ name: 'home' })
+  })
+
+  it('round-trips a collection route', () => {
+    const route = { name: 'collection', id: 'cartoon-network' } as const
+    expect(routeToPath(route)).toBe('/coleccion/cartoon-network')
+    expect(parseRoute(routeToPath(route))).toEqual(route)
+  })
+})

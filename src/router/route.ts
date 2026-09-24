@@ -7,6 +7,7 @@ export type Route =
   | { name: 'title'; key: string }
   | { name: 'play'; key: string; videoId: string }
   | { name: 'catalog'; section: Section; query: string }
+  | { name: 'collection'; id: string }
 
 const SECTION_SLUGS: Record<Exclude<Section, 'all'>, string> = { movie: 'peliculas', show: 'series' }
 
@@ -34,6 +35,10 @@ export function parseRoute(pathname: string, search = ''): Route {
     return { name: 'play', key: segments[1], videoId: segments[3] }
   }
 
+  if (segments[0] === 'coleccion' && segments.length === 2) {
+    return { name: 'collection', id: segments[1] }
+  }
+
   if (segments.length === 1 && segments[0] === SECTION_SLUGS.movie) return browseRoute('movie')
   if (segments.length === 1 && segments[0] === SECTION_SLUGS.show) return browseRoute('show')
 
@@ -56,6 +61,8 @@ export function routeToPath(route: Route): string {
       return `/title/${encodeURIComponent(route.key)}`
     case 'play':
       return `/title/${encodeURIComponent(route.key)}/play/${encodeURIComponent(route.videoId)}`
+    case 'collection':
+      return `/coleccion/${encodeURIComponent(route.id)}`
     case 'catalog': {
       if (route.query.trim() === '') {
         return route.section === 'all' ? '/' : `/${SECTION_SLUGS[route.section]}`

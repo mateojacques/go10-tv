@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { resolveRoute } from './resolveRoute'
 import type { CatalogRow, Title } from '../types'
+import type { Collection } from '../collections/types'
 
 function row(overrides: Partial<CatalogRow>): CatalogRow {
   return {
@@ -55,6 +56,42 @@ describe('resolveRoute', () => {
     expect(resolveRoute({ name: 'play', key: 'abc', videoId: 'missing' }, [t])).toEqual({
       name: 'not-found',
     })
+  })
+
+  const collection = (titles: string[]): Collection => ({
+    id: 'cn',
+    name: 'Cartoon Network',
+    order: 1,
+    logo: 'assets/collections/cn/logo.svg',
+    tile: { color: '#000000' },
+    titles,
+  })
+
+  it('resolves a collection to its titles in collection order', () => {
+    const a = title({ key: 'a' })
+    const b = title({ key: 'b' })
+    const cn = collection(['b', 'gone', 'a'])
+    expect(resolveRoute({ name: 'collection', id: 'cn' }, [a, b], [cn])).toEqual({
+      name: 'collection',
+      collection: cn,
+      titles: [b, a],
+    })
+  })
+
+  it('treats an unknown collection id as not found', () => {
+    expect(resolveRoute({ name: 'collection', id: 'nope' }, [title({ key: 'a' })], [collection(['a'])])).toEqual({
+      name: 'not-found',
+    })
+  })
+
+  it('treats a collection whose titles are all gone as not found', () => {
+    expect(resolveRoute({ name: 'collection', id: 'cn' }, [title({ key: 'a' })], [collection(['gone'])])).toEqual({
+      name: 'not-found',
+    })
+  })
+
+  it('finds no collection when none are passed', () => {
+    expect(resolveRoute({ name: 'collection', id: 'cn' }, [title({ key: 'a' })])).toEqual({ name: 'not-found' })
   })
 })
 
