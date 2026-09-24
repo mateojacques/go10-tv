@@ -30,8 +30,8 @@ here:
 - **The strip has no heading**, like Disney+.
 - **The strip is hidden** when `visibleCollections` returns nothing.
 - **The collection page reuses the catalog grid.** It shows a branded banner
-  (tile color, background art if any, a large logo, and the name with the
-  title count as `h1`), then the titles in collection order in the same lazily
+  (tile color, background art if any, and a large logo). The banner is the
+  `h1`, named by the logo's alt text, with no visible title or count. Then the titles in collection order in the same lazily
   batched focus grid as `/peliculas`.
 - **The navbar stays on the collection page.** The page lives inside the same
   browse `FocusProvider` as Home and the catalog, so search works there too.
@@ -120,7 +120,7 @@ Initial focus doesn't change: the hero registers first.
   - Down from a tile lands on the first row;
   - the strip is absent when no collection is visible.
 - **Collection screen:**
-  - the heading shows the name and count;
+  - the banner is the heading, named after the collection, with no visible count;
   - cards appear in collection order;
   - Up from the grid reaches the navbar.
 - **App:**

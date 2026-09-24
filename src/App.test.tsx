@@ -240,7 +240,7 @@ describe('App collections', () => {
     render(<App />)
     fireEvent.click(await screen.findByRole('button', { name: 'Cartoon Network' }))
     await waitFor(() => expect(window.location.pathname).toBe('/coleccion/cartoon-network'))
-    expect(screen.getByRole('heading', { level: 1 }).textContent).toContain('Cartoon Network')
+    expect(screen.getByRole('heading', { level: 1, name: 'Cartoon Network' })).toBeTruthy()
     expect(screen.getByRole('button', { name: 'Chowder' })).toBeTruthy()
 
     fireEvent.keyDown(window, { key: 'Escape' })

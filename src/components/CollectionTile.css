@@ -30,9 +30,12 @@
 }
 
 .go-tile_logo {
-  position: relative;
-  max-width: 70%;
-  max-height: 62%;
+  /* A fixed box the logo scales into, whatever its aspect ratio. */
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 70%;
+  height: 62%;
   object-fit: contain;
 }
 

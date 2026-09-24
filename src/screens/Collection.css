@@ -1,5 +1,6 @@
 .go-collection_banner {
   position: relative;
+  box-sizing: border-box;
   display: grid;
   place-items: center;
   height: clamp(8rem, 20vh, 13rem);
@@ -19,8 +20,11 @@
 }
 
 .go-collection_logo {
-  position: relative;
-  max-width: 40%;
-  max-height: 70%;
+  /* A fixed box the logo scales into, whatever its aspect ratio. */
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 40%;
+  height: 62%;
   object-fit: contain;
 }

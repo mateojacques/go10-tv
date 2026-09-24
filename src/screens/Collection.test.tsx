@@ -43,11 +43,12 @@ function renderPage(onSelect = vi.fn()) {
 const press = (key: string) => fireEvent.keyDown(window, { key })
 
 describe('Collection', () => {
-  it('headings the page with the collection name and title count', () => {
+  it('headings the page with the logo, named after the collection, and no visible title or count', () => {
     renderPage()
-    const heading = screen.getByRole('heading', { level: 1 })
-    expect(heading.textContent).toContain('Cartoon Network')
-    expect(heading.textContent).toContain('3')
+    const heading = screen.getByRole('heading', { level: 1, name: 'Cartoon Network' })
+    expect(heading.querySelector('img')?.getAttribute('alt')).toBe('Cartoon Network')
+    expect(heading.textContent).toBe('')
+    expect(document.querySelector('.go-row_count')).toBeNull()
   })
 
   it('shows a banner in the tile colour with the logo', () => {

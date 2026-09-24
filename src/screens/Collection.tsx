@@ -23,17 +23,11 @@ export function Collection({
 
   return (
     <div className="go-catalog go-collection">
-      <div className="go-collection_banner" style={{ backgroundColor: color }} aria-hidden="true">
+      {/* The logo is the page heading, so there's no separate title row. */}
+      <h1 className="go-collection_banner" style={{ backgroundColor: color }}>
         {background && <img className="go-collection_bg" src={`/${background}`} alt="" />}
-        <img className="go-collection_logo" src={`/${collection.logo}`} alt="" />
-      </div>
-
-      <header className="go-catalog_head">
-        <h1 className="go-catalog_title">
-          {collection.name}
-          <span className="go-row_count">{titles.length}</span>
-        </h1>
-      </header>
+        <img className="go-collection_logo" src={`/${collection.logo}`} alt={collection.name} />
+      </h1>
 
       {/* Keyed so switching collections starts again from the first batch. */}
       <CatalogGrid key={collection.id} titles={titles} onSelect={onSelect} />
