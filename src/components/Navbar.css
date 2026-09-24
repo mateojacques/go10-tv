@@ -17,6 +17,7 @@
   display: inline-flex;
   align-items: center;
   gap: 0.5rem;
+  padding: 0;
   font-family: var(--go-font-mono);
   font-size: var(--go-size-meta);
   font-weight: 600;
@@ -24,6 +25,13 @@
   text-transform: uppercase;
   color: var(--go-accent);
   white-space: nowrap;
+  transition: opacity var(--go-dur) var(--go-ease);
+}
+
+.go-wordmark:focus-visible {
+  outline: 2px solid var(--go-accent);
+  outline-offset: 4px;
+  border-radius: 2px;
 }
 
 .go-wordmark_dot {
@@ -79,6 +87,29 @@
 
 .go-nav_link.is-focused::after {
   background: var(--go-bg);
+}
+
+/* Mouse/trackpad users: the pointer confirms these are clickable, and the
+ * same lift the remote's focus ring gives shows which one is under it. */
+@media (hover: hover) and (pointer: fine) {
+  .go-wordmark,
+  .go-nav_link,
+  .go-nav_scope {
+    cursor: pointer;
+  }
+
+  .go-wordmark:hover {
+    opacity: 0.8;
+  }
+
+  .go-nav_link:hover:not(.is-focused) {
+    color: var(--go-text);
+    background: var(--go-hairline);
+  }
+
+  .go-nav_scope:hover:not(.is-focused) {
+    background: var(--go-hairline);
+  }
 }
 
 /* ---- Search --------------------------------------------------------------- */

@@ -79,10 +79,15 @@ export function Navbar({
 
   return (
     <nav className="go-nav" aria-label="Principal">
-      <div className="go-wordmark">
+      <button
+        type="button"
+        className="go-wordmark"
+        aria-label="Ir al inicio"
+        onClick={() => onNavigate({ name: 'home' })}
+      >
         <span className="go-wordmark_dot" aria-hidden="true" />
         GO10 TV
-      </div>
+      </button>
 
       <div className="go-nav_links">
         <NavButton

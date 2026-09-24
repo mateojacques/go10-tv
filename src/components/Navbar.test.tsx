@@ -121,6 +121,12 @@ describe('Navbar', () => {
     expect(onBack).toHaveBeenCalledTimes(1) // not editing any more: a real back
   })
 
+  it('the logo navigates home', () => {
+    render(<Harness initial={{ name: 'catalog', section: 'movie', query: 'toy' }} />)
+    fireEvent.click(screen.getByRole('button', { name: /ir al inicio/i }))
+    expect(route()).toEqual({ name: 'home' })
+  })
+
   it('does not re-navigate to the section already open', () => {
     const spy = vi.fn()
     render(<Harness initial={{ name: 'catalog', section: 'movie', query: '' }} spy={spy} />)
