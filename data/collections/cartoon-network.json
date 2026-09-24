@@ -1,0 +1,39 @@
+{
+  "id": "cartoon-network",
+  "name": "Cartoon Network",
+  "order": 1,
+  "logo": "assets/collections/cartoon-network/logo.svg",
+  "tile": {
+    "color": "#000000"
+  },
+  "titles": [
+    "coraje-el-perro-cobarde",
+    "hora-de-aventura",
+    "los-jovenes-titanes",
+    "las-chicas-superpoderosas",
+    "chowder",
+    "samurai-jack",
+    "las-maravillosas-desventuras-de-flapjack",
+    "un-show-mas",
+    "knd-los-chicos-del-barrio",
+    "las-sombrias-aventuras-de-billy-y-mandy",
+    "hora-de-aventura-con-fionna-y-cake",
+    "los-caballeros-del-zodiaco",
+    "dragon-ball",
+    "sakura-card-captor",
+    "sailor-moon",
+    "sailor-moon-r",
+    "14718117677806",
+    "looney-tunes-el-correcaminos",
+    "10209735346926",
+    "10207933893358",
+    "10209981565678",
+    "14705474603758",
+    "10213846485742",
+    "10214016944878",
+    "14706742135534",
+    "10262625651438",
+    "14705474407150",
+    "10213891443438"
+  ]
+}
