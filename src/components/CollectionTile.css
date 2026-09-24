@@ -1,0 +1,53 @@
+.go-strip {
+  margin-bottom: 1rem;
+}
+
+.go-tile {
+  position: relative;
+  flex: 0 0 var(--go-tile-w);
+  width: var(--go-tile-w);
+  height: var(--go-tile-h);
+  display: grid;
+  place-items: center;
+  border-radius: var(--go-radius);
+  overflow: hidden;
+  box-shadow: inset 0 0 0 1px var(--go-hairline);
+  cursor: pointer;
+  transition:
+    transform var(--go-dur) var(--go-ease),
+    filter var(--go-dur) var(--go-ease),
+    box-shadow var(--go-dur) var(--go-ease);
+  /* Same resting state as cards, so the focused tile reads from 3m away. */
+  filter: brightness(0.62) saturate(0.85);
+}
+
+.go-tile_bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.go-tile_logo {
+  position: relative;
+  max-width: 70%;
+  max-height: 62%;
+  object-fit: contain;
+}
+
+.go-tile.is-focused {
+  transform: scale(1.09);
+  filter: none;
+  z-index: 2;
+  box-shadow: var(--go-focus-ring), var(--go-focus-lift);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .go-tile:hover {
+    transform: scale(1.09);
+    filter: none;
+    z-index: 2;
+    box-shadow: var(--go-focus-ring), var(--go-focus-lift);
+  }
+}

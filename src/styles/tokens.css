@@ -37,6 +37,10 @@
 
   --go-card-w: clamp(15rem, 20vw, 22rem);
   --go-card-h: calc(var(--go-card-w) * 0.5625); /* 16:9, matching the source art */
+
+  /* Collection tiles: five across a 1080p screen, Disney+-style brand cards. */
+  --go-tile-w: clamp(11rem, 16.5vw, 20rem);
+  --go-tile-h: calc(var(--go-tile-w) * 0.5625);
   --go-gap: 1.25rem;
 
   /* TV overscan safe area — content never touches the panel edge */
