@@ -12,6 +12,8 @@ import { findNextEpisode, findPreviousEpisode } from './screens/nextEpisode'
 import { useRoute } from './router/useRoute'
 import type { Route } from './router/route'
 import { resolveRoute } from './router/resolveRoute'
+import { COLLECTIONS } from './collections/collections'
+import { Collection } from './screens/Collection'
 import './styles/global.css'
 
 export default function App() {
@@ -29,6 +31,9 @@ export default function App() {
         break
       case 'title':
         navigate(lastBrowseRoute.current)
+        break
+      case 'collection':
+        navigate({ name: 'home' })
         break
       case 'catalog':
         navigate({ name: 'home' })
@@ -54,7 +59,7 @@ export default function App() {
     )
   }
 
-  const resolved = resolveRoute(route, titles)
+  const resolved = resolveRoute(route, titles, COLLECTIONS)
 
   if (resolved.name === 'not-found') {
     // Stale or hand-typed URL — bounce to Home without leaving a broken
@@ -63,12 +68,12 @@ export default function App() {
     return null
   }
 
-  if (resolved.name === 'home' || resolved.name === 'catalog') {
+  if (resolved.name === 'home' || resolved.name === 'catalog' || resolved.name === 'collection') {
     lastBrowseRoute.current = route
     const openTitle = (title: Title) => navigate({ name: 'title', key: title.key })
 
     return (
-      // One provider for Home and the catalog, with the navbar outside the
+      // One provider for Home, the catalog and collection pages, with the navbar outside the
       // screen that swaps beneath it: typing on Home navigates to /buscar, and
       // the input has to survive that without losing focus (and the TV's
       // on-screen keyboard) after the first letter.
@@ -80,14 +85,18 @@ export default function App() {
               titles={titles}
               onSelect={openTitle}
               onResume={(title, row) => navigate({ name: 'play', key: title.key, videoId: rowKey(row) })}
+              collections={COLLECTIONS}
+              onOpenCollection={(collection) => navigate({ name: 'collection', id: collection.id })}
             />
-          ) : (
+          ) : resolved.name === 'catalog' ? (
             <Catalog
               titles={titles}
               section={resolved.section}
               query={resolved.query}
               onSelect={openTitle}
             />
+          ) : (
+            <Collection collection={resolved.collection} titles={resolved.titles} onSelect={openTitle} />
           )}
         </div>
       </FocusProvider>

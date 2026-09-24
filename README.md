@@ -43,7 +43,8 @@ player also autoplays on open, so watching never needs an extra tap or click.
 
 ## What's in it
 
-- **Home** — a hero for the most recently added title, then 28 focus-navigable
+- **Home** — a hero for the featured title, a strip of collection tiles
+  (Disney+-style brand cards, e.g. Cartoon Network), then 28 focus-navigable
   rows: Recién añadidos, Series, En 4K, 13 genre rows, 6 studio rows, 5 decade
   rows and Más vistos.
 - **Navbar** — on Home and the catalog: "Películas", "Series" and a search
@@ -54,6 +55,9 @@ player also autoplays on open, so watching never needs an extra tap or click.
   title only: partial, accent-insensitive and typo-tolerant ("castelvania",
   "yugioh"). When nothing matches it shows the closest titles under "Quizás
   te interese" rather than an empty page.
+- **Collections** — `/coleccion/<id>`: a hand-curated collection's banner and
+  its titles in curated order, on the same grid as the catalog. Collections
+  are defined in `data/collections/` (see *Collections* under *Data*).
 - **Detail** — metadata, genre chips, and for series a season list where each
   season is separately focusable and playable.
 - **Player** — full-screen overlay wrapping the ok.ru embed, with a visible
@@ -161,7 +165,7 @@ colour field and show the art crisp beside it at close to its native size.
 
 ```bash
 python3 -m pytest tests/ -v   # 43 — parser, genres, merge
-npm test                      # 261 — loader, rows, focus, player, progress, routing, collections
+npm test                      # 288 — loader, rows, focus, player, progress, routing, collections
 ```
 
 ## Not in this MVP

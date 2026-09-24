@@ -225,3 +225,62 @@ describe('App routing', () => {
     expect(screen.queryByText('Seguir viendo')).toBeNull()
   })
 })
+
+const CN_CSV = `catalog_index,video_id,type,title,title_raw,series_id,series_title,season_number,season_label,year,studio,genre,genre_secondary,quality,language,subtitled,duration_raw,duration_seconds,views,thumbnail,video_url,embed_url
+0,111,movie,Foo Movie,Foo Movie,,,,,2020,,Drama,,1080p,Español,false,1:00:00,3600,10,thumb.webp,https://ok.ru/video/111,https://ok.ru/videoembed/111
+1,222,season,Chowder,Chowder - Temporada 1,chowder,Chowder,1,,2008,Cartoon N.,Animación,,1080p,Español,false,1:00:00,3600,5,thumb.webp,https://ok.ru/video/222,https://ok.ru/videoembed/222
+`
+
+describe('App collections', () => {
+  beforeEach(() => {
+    vi.stubGlobal('fetch', vi.fn().mockResolvedValue({ ok: true, text: () => Promise.resolve(CN_CSV) }))
+  })
+
+  it('opens a collection from its Home tile and backs out to Home', async () => {
+    render(<App />)
+    fireEvent.click(await screen.findByRole('button', { name: 'Cartoon Network' }))
+    await waitFor(() => expect(window.location.pathname).toBe('/coleccion/cartoon-network'))
+    expect(screen.getByRole('heading', { level: 1 }).textContent).toContain('Cartoon Network')
+    expect(screen.getByRole('button', { name: 'Chowder' })).toBeTruthy()
+
+    fireEvent.keyDown(window, { key: 'Escape' })
+    await waitFor(() => expect(window.location.pathname).toBe('/'))
+  })
+
+  it('returns to the collection when backing out of a title opened from it', async () => {
+    window.history.replaceState({}, '', '/coleccion/cartoon-network')
+    render(<App />)
+    fireEvent.click(await screen.findByRole('button', { name: 'Chowder' }))
+    await waitFor(() => expect(window.location.pathname).toBe('/title/chowder'))
+
+    fireEvent.keyDown(window, { key: 'Escape' })
+    await waitFor(() => expect(window.location.pathname).toBe('/coleccion/cartoon-network'))
+  })
+
+  it('searches from the navbar while on a collection page', async () => {
+    window.history.replaceState({}, '', '/coleccion/cartoon-network')
+    render(<App />)
+    await screen.findByRole('button', { name: 'Chowder' })
+    const input = screen.getByRole('searchbox')
+    fireEvent.click(input)
+    fireEvent.change(input, { target: { value: 'foo' } })
+    await waitFor(() => expect(window.location.pathname).toBe('/buscar'))
+  })
+
+  it('redirects an unknown collection id to Home', async () => {
+    window.history.replaceState({}, '', '/coleccion/nope')
+    render(<App />)
+    await screen.findByRole('button', { name: 'Cartoon Network' })
+    expect(window.location.pathname).toBe('/')
+  })
+})
+
+describe('App collections without matching titles', () => {
+  it('redirects a collection with no titles in the catalog to Home and shows no strip', async () => {
+    window.history.replaceState({}, '', '/coleccion/cartoon-network')
+    render(<App />)
+    await screen.findByRole('heading', { name: 'Foo Movie' })
+    expect(window.location.pathname).toBe('/')
+    expect(screen.queryByRole('navigation', { name: 'Colecciones' })).toBeNull()
+  })
+})

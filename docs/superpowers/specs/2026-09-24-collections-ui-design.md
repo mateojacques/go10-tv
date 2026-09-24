@@ -1,6 +1,6 @@
 # Collections UI — design
 
-Status: **draft** (2026-09-24). This is step 3 of 3. Step 1 (structure) is in
+Status: **implemented** (2026-09-24). This is step 3 of 3. Step 1 (structure) is in
 `2026-09-23-collections-design.md`. Step 2 added
 `data/collections/cartoon-network.json`.
 
