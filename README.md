@@ -161,7 +161,7 @@ colour field and show the art crisp beside it at close to its native size.
 
 ```bash
 python3 -m pytest tests/ -v   # 43 — parser, genres, merge
-npm test                      # 259 — loader, rows, focus, player, progress, routing, collections
+npm test                      # 261 — loader, rows, focus, player, progress, routing, collections
 ```
 
 ## Not in this MVP

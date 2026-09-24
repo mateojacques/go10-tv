@@ -1,10 +1,14 @@
 import type { CollectionFile } from './types'
 
+/**
+ * Omit either check to validate structure only, as the loader does at runtime
+ * where neither the catalog nor the disk is available.
+ */
 export interface ValidationContext {
   /** Every `Title.key` in the catalog. */
-  titleKeys: ReadonlySet<string>
+  titleKeys?: ReadonlySet<string>
   /** Whether a path relative to `public/` exists. */
-  assetExists: (path: string) => boolean
+  assetExists?: (path: string) => boolean
 }
 
 const KEBAB = /^[a-z0-9]+(-[a-z0-9]+)*$/
@@ -25,7 +29,7 @@ export function validateCollection(file: CollectionFile, ctx: ValidationContext)
     // A leading slash would pass existsSync but double up when the UI prefixes "/".
     if (typeof value !== 'string' || value === '' || value.startsWith('/')) {
       fail(`${field} must be a relative path string`)
-    } else if (!ctx.assetExists(value)) {
+    } else if (ctx.assetExists && !ctx.assetExists(value)) {
       fail(`${field} "${value}" not found under public/`)
     }
   }
@@ -68,7 +72,7 @@ export function validateCollection(file: CollectionFile, ctx: ValidationContext)
         duplicates.add(key)
       } else {
         seen.add(key)
-        if (!ctx.titleKeys.has(key)) fail(`unknown title key "${key}"`)
+        if (ctx.titleKeys && !ctx.titleKeys.has(key)) fail(`unknown title key "${key}"`)
       }
     }
   }
