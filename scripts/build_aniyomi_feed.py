@@ -6,7 +6,11 @@ season packs are collapsed back into one episode per ok.ru video. Run it after
 parse_catalog.py.
 """
 import csv
+import json
 import os
+import shutil
+import sys
+from datetime import datetime, timezone
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 CATALOG_CSV = os.path.join(ROOT, "public", "data", "catalog.csv")
@@ -116,3 +120,51 @@ def build_episodes(group):
             "quality": first["quality"] or None,
         })
     return sorted(episodes, key=lambda e: (e["season"] or 0, e["number"] or 0))
+
+
+def build_feed(rows):
+    items = []
+    series_files = {}
+    for key, group in group_rows(rows).items():
+        item = build_item(key, group)
+        if item["kind"] == "series":
+            episodes = build_episodes(group)
+            item["episode_count"] = len(episodes)
+            series_files[key] = {"schema_version": SCHEMA_VERSION, "episodes": episodes}
+        items.append(item)
+    items.sort(key=lambda i: i["recent_rank"])
+    return items, series_files
+
+
+def _dump(path, data):
+    with open(path, "w", encoding="utf-8") as handle:
+        json.dump(data, handle, ensure_ascii=False, separators=(",", ":"))
+        handle.write("\n")
+
+
+def write_feed(output_dir, items, series_files, generated_at):
+    """Replace output_dir wholesale so a removed series can't linger as a
+    stale file (Netlify would keep serving it)."""
+    if os.path.exists(output_dir):
+        shutil.rmtree(output_dir)
+    os.makedirs(os.path.join(output_dir, "series"))
+    _dump(os.path.join(output_dir, "index.json"), {
+        "schema_version": SCHEMA_VERSION,
+        "generated_at": generated_at,
+        "items": items,
+    })
+    for series_id, data in series_files.items():
+        _dump(os.path.join(output_dir, "series", f"{series_id}.json"), data)
+
+
+def main():
+    items, series_files = build_feed(load_rows(CATALOG_CSV))
+    generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    write_feed(OUTPUT_DIR, items, series_files, generated_at)
+    movies = sum(1 for i in items if i["kind"] == "movie")
+    print(f"wrote {OUTPUT_DIR}: {len(items)} titles ({len(series_files)} series, {movies} movies)")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

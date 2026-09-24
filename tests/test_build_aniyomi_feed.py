@@ -1,8 +1,9 @@
+import json
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "scripts"))
 
 from parse_catalog import COLUMNS
-from build_aniyomi_feed import group_rows, build_item, build_episodes
+from build_aniyomi_feed import group_rows, build_item, build_episodes, build_feed, write_feed
 
 
 def row(**overrides):
@@ -185,3 +186,40 @@ def test_pack_without_season_number_falls_back_to_series_title():
     episode = build_episodes(group)[0]
     assert episode["season"] is None
     assert episode["title"] == "Serie Única"
+
+
+def test_build_feed_sorts_by_recent_rank_and_counts_episodes():
+    rows = [
+        row(catalog_index=5, video_id="m1", title="Película"),
+        chapter("P", 1, 1, 0, 100, catalog_index=2),
+        chapter("P", 1, 2, 100, 100, catalog_index=3),
+    ]
+    items, series_files = build_feed(rows)
+    assert [i["id"] for i in items] == ["s:s", "m:m1"]
+    assert items[0]["episode_count"] == 1
+    assert series_files == {"s": {"schema_version": 1, "episodes": build_episodes(group_rows(rows)["s"])}}
+
+
+def test_write_feed_layout(tmp_path):
+    out = tmp_path / "aniyomi"
+    items = [{"id": "s:show", "kind": "series", "title": "Show"}]
+    write_feed(str(out), items, {"show": {"schema_version": 1, "episodes": []}}, "2026-09-24T00:00:00Z")
+    index = json.loads((out / "index.json").read_text(encoding="utf-8"))
+    assert index == {"schema_version": 1, "generated_at": "2026-09-24T00:00:00Z", "items": items}
+    assert json.loads((out / "series" / "show.json").read_text(encoding="utf-8")) == \
+        {"schema_version": 1, "episodes": []}
+
+
+def test_rewrite_removes_stale_series_files(tmp_path):
+    out = tmp_path / "aniyomi"
+    write_feed(str(out), [], {"old": {"schema_version": 1, "episodes": []}}, "t1")
+    write_feed(str(out), [], {"new": {"schema_version": 1, "episodes": []}}, "t2")
+    assert sorted(p.name for p in (out / "series").iterdir()) == ["new.json"]
+
+
+def test_output_is_utf8_without_ascii_escapes(tmp_path):
+    out = tmp_path / "aniyomi"
+    write_feed(str(out), [{"id": "m:1", "title": "Año de la Niña", "genres": ["Acción"]}], {}, "t")
+    text = (out / "index.json").read_text(encoding="utf-8")
+    assert "Año de la Niña" in text and "Acción" in text
+    assert "\\u00" not in text

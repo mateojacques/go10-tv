@@ -19,7 +19,15 @@ To rebuild it from the source HTML:
 
 ```bash
 python3 scripts/parse_catalog.py
+python3 scripts/build_aniyomi_feed.py   # Aniyomi extension feed → public/data/aniyomi/
 ```
+
+`build_aniyomi_feed.py` writes the static JSON feed the Go10 TV Aniyomi
+extension reads (`/data/aniyomi/index.json` plus `series/<series_id>.json`).
+**Never rename a `series_id` or re-upload a video under a new ok.ru id** for
+an existing title: the feed's `s:<series_id>` / `m:<video_id>` ids and each
+episode's `video_id` are what Aniyomi stores in users' libraries and watch
+history, so changing them orphans those entries.
 
 ## Controls
 
