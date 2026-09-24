@@ -1,0 +1,28 @@
+{
+  "id": "adult-swim",
+  "name": "Adult Swim",
+  "order": 4,
+  "logo": "assets/collections/adult-swim/logo.svg",
+  "tile": {
+    "color": "#000000"
+  },
+  "titles": [
+    "primal",
+    "rick-y-morty",
+    "one-piece",
+    "cowboy-bebop",
+    "futurama",
+    "death-note",
+    "evangelion",
+    "mobile-suit-gundam-iron-blooded-orphans",
+    "hellsing-ultimate",
+    "trigun",
+    "blue-gender",
+    "samurai-jack",
+    "padre-de-familia",
+    "kill-la-kill",
+    "akame-ga-kill",
+    "casshern-sins",
+    "deadman-wonderland"
+  ]
+}
