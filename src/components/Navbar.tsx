@@ -78,7 +78,7 @@ export function Navbar({
   }
 
   return (
-    <nav className="go-nav" aria-label="Principal">
+    <nav className={`go-nav${hasQuery ? ' has-query' : ''}`} aria-label="Principal">
       <button
         type="button"
         className="go-wordmark"
@@ -134,6 +134,22 @@ export function Navbar({
           placeholder={sectionLabel ? `Buscar en ${sectionLabel}` : 'Buscar'}
           onChange={onQueryChange}
         />
+        {/* Phones only: the way out of the expanded search. Off the focus grid
+            (and hidden) at TV widths, where the field is always open. */}
+        <button
+          type="button"
+          className="go-nav_cancel"
+          // Keep the input focused through the press, so the field doesn't
+          // collapse under the finger before the click lands.
+          onPointerDown={(event) => event.preventDefault()}
+          onClick={() => {
+            if (hasQuery) onQueryChange('')
+            const active = document.activeElement
+            if (active instanceof HTMLElement) active.blur()
+          }}
+        >
+          Cancelar
+        </button>
       </div>
     </nav>
   )

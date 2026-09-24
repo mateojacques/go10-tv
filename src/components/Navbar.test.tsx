@@ -121,6 +121,24 @@ describe('Navbar', () => {
     expect(onBack).toHaveBeenCalledTimes(1) // not editing any more: a real back
   })
 
+  it('Cancelar clears the search and closes the field', () => {
+    render(<Harness initial={{ name: 'catalog', section: 'movie', query: 'toy' }} />)
+    fireEvent.click(input())
+    expect(document.activeElement).toBe(input())
+    fireEvent.click(screen.getByRole('button', { name: 'Cancelar' }))
+    expect(route()).toEqual({ name: 'catalog', section: 'movie', query: '' })
+    expect(document.activeElement).not.toBe(input())
+  })
+
+  it('Cancelar with an empty field just closes it', () => {
+    const spy = vi.fn()
+    render(<Harness initial={{ name: 'catalog', section: 'movie', query: '' }} spy={spy} />)
+    fireEvent.click(input())
+    fireEvent.click(screen.getByRole('button', { name: 'Cancelar' }))
+    expect(spy).not.toHaveBeenCalled()
+    expect(document.activeElement).not.toBe(input())
+  })
+
   it('the logo navigates home', () => {
     render(<Harness initial={{ name: 'catalog', section: 'movie', query: 'toy' }} />)
     fireEvent.click(screen.getByRole('button', { name: /ir al inicio/i }))

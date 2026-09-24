@@ -79,6 +79,7 @@ export function SearchBox({
         placeholder={placeholder}
         aria-label={placeholder}
         tabIndex={-1}
+        enterKeyHint="search"
         autoComplete="off"
         spellCheck={false}
         onChange={(event) => onChange(event.target.value)}
