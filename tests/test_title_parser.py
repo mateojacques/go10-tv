@@ -121,3 +121,9 @@ def test_parse_episode_title_handles_no_trailing_dash():
 
 def test_parse_episode_title_returns_none_when_no_match():
     assert parse_episode_title("Crows Zero (2007) [1080p] [Español]") is None
+
+
+def test_parse_episode_title_extracts_season_and_episode_from_sxee_format():
+    assert parse_episode_title(
+        "068 - Yu-Gi-Oh! GX 2x16 (Duelo de Bienvenida, Parte 2) LAS dub"
+    ) == (2, 16)

@@ -9,6 +9,7 @@ import os
 import re
 import shutil
 import sys
+import urllib.request
 
 from title_parser import parse_title, parse_episode_title, slugify
 
@@ -39,6 +40,10 @@ TITLE_RE = re.compile(r'class="video-card_n ellip[^"]*"[^>]*title="([^"]*)"')
 DURATION_RE = re.compile(r'class="video-card_duration">([^<]*)<')
 VIEWS_RE = re.compile(r'class="video-card_info_i">([^<]*)<')
 THUMB_RE = re.compile(r'<img[^>]*src="([\w.-]+_files/[^"]+)"')
+# Fallback for a card whose page wasn't saved as a "complete webpage", so no
+# local `_files/` copy of its thumbnail exists -- the <img> still points at
+# ok.ru's live CDN, which build_episode_rows downloads directly instead.
+THUMB_URL_RE = re.compile(r'<img[^>]*src="(https://[^"]*videoPreview[^"]*)"')
 
 
 def parse_duration(text):
@@ -60,15 +65,27 @@ def _search(pattern, segment):
     return match.group(1) if match else ""
 
 
+def download_thumbnail(url, dest_path):
+    request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    try:
+        with urllib.request.urlopen(request, timeout=10) as response:
+            with open(dest_path, "wb") as handle:
+                shutil.copyfileobj(response, handle)
+    except OSError as error:
+        print(f"failed to download thumbnail {url!r}: {error}")
+
+
 def extract_cards(html_text):
     cards = []
     for video_id, segment in CARD_RE.findall(html_text):
+        thumbnail = _search(THUMB_RE, segment)
         cards.append({
             "video_id": video_id,
             "title_raw": html.unescape(_search(TITLE_RE, segment)),
             "duration_raw": _search(DURATION_RE, segment).strip(),
             "views_raw": _search(VIEWS_RE, segment),
-            "thumbnail": _search(THUMB_RE, segment),
+            "thumbnail": thumbnail,
+            "thumbnail_url": "" if thumbnail else html.unescape(_search(THUMB_URL_RE, segment)),
         })
     return cards
 
@@ -238,7 +255,10 @@ def build_episode_rows(html_text, sidecar, slug, start_index, root=ROOT, assets_
     Copies each referenced thumbnail from `<root>/<slug>_files/` into
     `<assets_dir>/<slug>/`, skipping any that already exist there so a
     second run is safe after the raw scrape dump has been deleted. A card
-    whose title doesn't match "Temporada N Episodio M" is skipped and
+    with no local `_files/` copy (the page wasn't saved as a "complete
+    webpage") instead downloads its thumbnail straight from ok.ru's CDN,
+    same skip-if-exists caching. A card whose title doesn't match "Temporada
+    N Episodio M" is skipped and
     reported, never guessed -- unless *no* card in the series has an
     explicit number, in which case the whole series is numbered season 1,
     episode 1..N in card order (the source lists no numbering at all, so
@@ -267,11 +287,17 @@ def build_episode_rows(html_text, sidecar, slug, start_index, root=ROOT, assets_
         else:
             season_number, episode_number = parsed
 
-        filename = os.path.basename(card["thumbnail"])
-        source_thumb = os.path.join(root, card["thumbnail"])
-        dest_thumb = os.path.join(dest_dir, filename)
-        if os.path.exists(source_thumb) and not os.path.exists(dest_thumb):
-            shutil.copy2(source_thumb, dest_thumb)
+        if card["thumbnail"]:
+            filename = os.path.basename(card["thumbnail"])
+            source_thumb = os.path.join(root, card["thumbnail"])
+            dest_thumb = os.path.join(dest_dir, filename)
+            if os.path.exists(source_thumb) and not os.path.exists(dest_thumb):
+                shutil.copy2(source_thumb, dest_thumb)
+        else:
+            filename = f"{card['video_id']}.jpg"
+            dest_thumb = os.path.join(dest_dir, filename)
+            if card["thumbnail_url"] and not os.path.exists(dest_thumb):
+                download_thumbnail(card["thumbnail_url"], dest_thumb)
 
         rows.append({
             "catalog_index": index,

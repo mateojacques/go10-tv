@@ -39,7 +39,9 @@ SEASON_PREFIX = re.compile(
 )
 
 EPISODE_RE = re.compile(
-    r"Temporada\s*(?P<season>\d+)\s*Episodio\s*(?P<episode>\d+)", re.I
+    r"Temporada\s*(?P<season>\d+)\s*Episodio\s*(?P<episode>\d+)"
+    r"|\b(?P<season_x>\d{1,2})x(?P<episode_x>\d{1,3})\b",
+    re.I,
 )
 
 
@@ -70,7 +72,9 @@ def parse_episode_title(raw):
     match = EPISODE_RE.search(raw)
     if not match:
         return None
-    return int(match.group("season")), int(match.group("episode"))
+    season = match.group("season") or match.group("season_x")
+    episode = match.group("episode") or match.group("episode_x")
+    return int(season), int(episode)
 
 
 def parse_title(raw):
