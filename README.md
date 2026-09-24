@@ -122,6 +122,35 @@ series ingested this way: 49 episodes across 5 seasons. Episode numbering
 has gaps (the source album doesn't list every episode) — the app doesn't
 assume contiguous numbers.
 
+### Collections
+
+Collections are hand-curated, labeled groups of titles (think Disney+'s
+Marvel or Star Wars tiles). There's one JSON file per collection in
+`data/collections/<id>.json`:
+
+```json
+{
+  "id": "cartoon-network",
+  "name": "Cartoon Network",
+  "order": 1,
+  "logo": "assets/collections/cartoon-network/logo.webp",
+  "tile": { "color": "#000000", "background": "assets/collections/cartoon-network/tile.webp" },
+  "titles": ["hora-de-aventura", "15692556471022"]
+}
+```
+
+- `id` must match the filename.
+- `order` sets the tile position on Home and must be unique.
+- `tile.background` is optional.
+- `titles` are title keys, listed in display order: a show's `series_id`, or a
+  movie's `video_id`. Write movie keys as strings.
+- Put the logo and art in `assets/collections/<id>/`. Paths are relative, with
+  no leading `/`.
+
+The app bundles these files directly, so there's no parser step. `npm test`
+validates every file against `catalog.csv` and the asset folder: unknown keys,
+duplicates, missing images and clashing `order` values all fail the suite.
+
 ## Design notes
 
 The thumbnails are **368×210** — too small to fill a 1080p screen. Rather than
@@ -132,7 +161,7 @@ colour field and show the art crisp beside it at close to its native size.
 
 ```bash
 python3 -m pytest tests/ -v   # 43 — parser, genres, merge
-npm test                      # 142 — loader, rows, focus, player, progress, routing
+npm test                      # 259 — loader, rows, focus, player, progress, routing, collections
 ```
 
 ## Not in this MVP

@@ -1,6 +1,6 @@
 # Collections — design
 
-Status: **approved** (2026-09-23). Covers step 1 of 3 (structure only).
+Status: **implemented** (2026-09-23). Covers step 1 of 3 (structure only).
 
 ## Problem
 
