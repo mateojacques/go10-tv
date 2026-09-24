@@ -1,0 +1,26 @@
+.go-collection_banner {
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: clamp(8rem, 20vh, 13rem);
+  margin: 1rem var(--go-safe-x) 0;
+  border-radius: var(--go-radius);
+  overflow: hidden;
+  box-shadow: inset 0 0 0 1px var(--go-hairline);
+  animation: go-rise var(--go-dur-slow) var(--go-ease) both;
+}
+
+.go-collection_bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.go-collection_logo {
+  position: relative;
+  max-width: 40%;
+  max-height: 70%;
+  object-fit: contain;
+}

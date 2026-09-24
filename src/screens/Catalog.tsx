@@ -62,7 +62,7 @@ export function Catalog({
   )
 }
 
-function CatalogGrid({ titles, onSelect }: { titles: Title[]; onSelect: (title: Title) => void }) {
+export function CatalogGrid({ titles, onSelect }: { titles: Title[]; onSelect: (title: Title) => void }) {
   const gridRef = useRef<HTMLDivElement>(null)
   const sentinelRef = useRef<HTMLDivElement>(null)
   const columns = useGridColumns(gridRef)
