@@ -185,6 +185,61 @@ def test_load_series_sidecars_returns_empty_list_when_dir_missing(tmp_path):
     assert parse_catalog.load_series_sidecars(str(tmp_path / "nope")) == []
 
 
+def test_load_reclassifications_reads_csv(tmp_path):
+    path = tmp_path / "reclassify.csv"
+    path.write_text(
+        "video_id,series_title\n111,Dave el Barbaro\n222,Death Note\n",
+        encoding="utf-8",
+    )
+    assert parse_catalog.load_reclassifications(str(path)) == {
+        "111": "Dave el Barbaro",
+        "222": "Death Note",
+    }
+
+
+def test_load_reclassifications_returns_empty_dict_when_file_missing(tmp_path):
+    assert parse_catalog.load_reclassifications(str(tmp_path / "nope.csv")) == {}
+
+
+MOVIE_ROW = {
+    "catalog_index": 5, "video_id": "111", "type": "movie",
+    "title": "Dave el Barbaro", "title_raw": "Dave el Barbaro (2004) [1080p] [Español]",
+    "series_id": "", "series_title": "", "season_number": "", "season_label": "",
+    "episode_number": "", "year": "2004", "studio": "", "genre": "Animación",
+    "genre_secondary": "Comedia", "quality": "1080p", "language": "Español",
+    "subtitled": "false", "duration_raw": "7:35:06", "duration_seconds": 27306,
+    "views": 1996, "thumbnail": "catalogo_files/a.webp",
+    "video_url": "https://ok.ru/video/111", "embed_url": "https://ok.ru/videoembed/111",
+}
+
+
+def test_apply_reclassifications_turns_a_movie_row_into_a_season_row():
+    rows = parse_catalog.apply_reclassifications(
+        [MOVIE_ROW], {"111": "Dave el Barbaro"},
+    )
+    row = rows[0]
+    assert row["type"] == "season"
+    assert row["series_id"] == "dave-el-barbaro"
+    assert row["series_title"] == "Dave el Barbaro"
+    assert row["season_number"] == "1"
+    assert row["title"] == "Dave el Barbaro"
+
+
+def test_apply_reclassifications_ignores_rows_not_listed():
+    rows = parse_catalog.apply_reclassifications([MOVIE_ROW], {"999": "Other"})
+    assert rows == [MOVIE_ROW]
+
+
+def test_apply_reclassifications_feeds_explode_chapters():
+    rows = parse_catalog.apply_reclassifications(
+        [MOVIE_ROW], {"111": "Dave el Barbaro"},
+    )
+    exploded = parse_catalog.explode_chapters(rows, {"111": THREE_CHAPTERS})
+    assert len(exploded) == 3
+    assert all(r["type"] == "episode" for r in exploded)
+    assert all(r["series_id"] == "dave-el-barbaro" for r in exploded)
+
+
 SPIDEY_SIDECAR = {
     "series_title": "Spidey y sus Sorprendentes Amigos",
     "studio": "Marvel",

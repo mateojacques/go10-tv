@@ -1,0 +1,220 @@
+{
+  "10019828402926": [
+    {
+      "episode_number": 1,
+      "title": "Episodio 1",
+      "start_seconds": 0,
+      "end_seconds": 1348
+    },
+    {
+      "episode_number": 2,
+      "title": "Episodio 2",
+      "start_seconds": 1348,
+      "end_seconds": 2696
+    },
+    {
+      "episode_number": 3,
+      "title": "Episodio 3",
+      "start_seconds": 2696,
+      "end_seconds": 4044
+    },
+    {
+      "episode_number": 4,
+      "title": "Episodio 4",
+      "start_seconds": 4044,
+      "end_seconds": 5391
+    },
+    {
+      "episode_number": 5,
+      "title": "Episodio 5",
+      "start_seconds": 5391,
+      "end_seconds": 6739
+    },
+    {
+      "episode_number": 6,
+      "title": "Episodio 6",
+      "start_seconds": 6739,
+      "end_seconds": 8087
+    },
+    {
+      "episode_number": 7,
+      "title": "Episodio 7",
+      "start_seconds": 8087,
+      "end_seconds": 9435
+    },
+    {
+      "episode_number": 8,
+      "title": "Episodio 8",
+      "start_seconds": 9435,
+      "end_seconds": 10783
+    },
+    {
+      "episode_number": 9,
+      "title": "Episodio 9",
+      "start_seconds": 10783,
+      "end_seconds": 12130
+    },
+    {
+      "episode_number": 10,
+      "title": "Episodio 10",
+      "start_seconds": 12130,
+      "end_seconds": 13478
+    },
+    {
+      "episode_number": 11,
+      "title": "Episodio 11",
+      "start_seconds": 13478,
+      "end_seconds": 14826
+    },
+    {
+      "episode_number": 12,
+      "title": "Episodio 12",
+      "start_seconds": 14826,
+      "end_seconds": 16174
+    },
+    {
+      "episode_number": 13,
+      "title": "Episodio 13",
+      "start_seconds": 16174,
+      "end_seconds": 17522
+    },
+    {
+      "episode_number": 14,
+      "title": "Episodio 14",
+      "start_seconds": 17522,
+      "end_seconds": 18870
+    },
+    {
+      "episode_number": 15,
+      "title": "Episodio 15",
+      "start_seconds": 18870,
+      "end_seconds": 20218
+    },
+    {
+      "episode_number": 16,
+      "title": "Episodio 16",
+      "start_seconds": 20218,
+      "end_seconds": 21565
+    },
+    {
+      "episode_number": 17,
+      "title": "Episodio 17",
+      "start_seconds": 21565,
+      "end_seconds": 22913
+    },
+    {
+      "episode_number": 18,
+      "title": "Episodio 18",
+      "start_seconds": 22913,
+      "end_seconds": 24261
+    },
+    {
+      "episode_number": 19,
+      "title": "Episodio 19",
+      "start_seconds": 24261,
+      "end_seconds": 25609
+    },
+    {
+      "episode_number": 20,
+      "title": "Episodio 20",
+      "start_seconds": 25609,
+      "end_seconds": 26957
+    },
+    {
+      "episode_number": 21,
+      "title": "Episodio 21",
+      "start_seconds": 26957,
+      "end_seconds": 28304
+    },
+    {
+      "episode_number": 22,
+      "title": "Episodio 22",
+      "start_seconds": 28304,
+      "end_seconds": 29652
+    },
+    {
+      "episode_number": 23,
+      "title": "Episodio 23",
+      "start_seconds": 29652,
+      "end_seconds": 31000
+    },
+    {
+      "episode_number": 24,
+      "title": "Episodio 24",
+      "start_seconds": 31000,
+      "end_seconds": 32348
+    },
+    {
+      "episode_number": 25,
+      "title": "Episodio 25",
+      "start_seconds": 32348,
+      "end_seconds": 33696
+    },
+    {
+      "episode_number": 26,
+      "title": "Episodio 26",
+      "start_seconds": 33696,
+      "end_seconds": 35044
+    },
+    {
+      "episode_number": 27,
+      "title": "Episodio 27",
+      "start_seconds": 35044,
+      "end_seconds": 36392
+    },
+    {
+      "episode_number": 28,
+      "title": "Episodio 28",
+      "start_seconds": 36392,
+      "end_seconds": 37739
+    },
+    {
+      "episode_number": 29,
+      "title": "Episodio 29",
+      "start_seconds": 37739,
+      "end_seconds": 39087
+    },
+    {
+      "episode_number": 30,
+      "title": "Episodio 30",
+      "start_seconds": 39087,
+      "end_seconds": 40435
+    },
+    {
+      "episode_number": 31,
+      "title": "Episodio 31",
+      "start_seconds": 40435,
+      "end_seconds": 41783
+    },
+    {
+      "episode_number": 32,
+      "title": "Episodio 32",
+      "start_seconds": 41783,
+      "end_seconds": 43131
+    },
+    {
+      "episode_number": 33,
+      "title": "Episodio 33",
+      "start_seconds": 43131,
+      "end_seconds": 44478
+    },
+    {
+      "episode_number": 34,
+      "title": "Episodio 34",
+      "start_seconds": 44478,
+      "end_seconds": 45826
+    },
+    {
+      "episode_number": 35,
+      "title": "Episodio 35",
+      "start_seconds": 45826,
+      "end_seconds": 47174
+    },
+    {
+      "episode_number": 36,
+      "title": "Episodio 36",
+      "start_seconds": 47174,
+      "end_seconds": null
+    }
+  ]
+}

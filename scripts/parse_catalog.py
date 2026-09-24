@@ -19,6 +19,7 @@ OUTPUT_CSV = os.path.join(ROOT, "public", "data", "catalog.csv")
 SERIES_DIR = os.path.join(ROOT, "data", "series")
 ASSETS_DIR = os.path.join(ROOT, "assets")
 CHAPTERS_DIR = os.path.join(ROOT, "data", "chapters")
+RECLASSIFY_CSV = os.path.join(ROOT, "data", "reclassify.csv")
 
 COLUMNS = [
     "catalog_index", "video_id", "type", "title", "title_raw",
@@ -130,6 +131,44 @@ def load_series_sidecars(series_dir):
         with open(os.path.join(series_dir, name), encoding="utf-8") as handle:
             sidecars.append((slug, json.load(handle)))
     return sidecars
+
+
+def load_reclassifications(path):
+    """Return {video_id: series_title} from data/reclassify.csv.
+
+    Covers season-pack movies whose scraped title carries no "Temporada"
+    marker for parse_title to key off (a plain movie title hiding a whole
+    series dumped into one video), so they need a manual series_title.
+    """
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding="utf-8", newline="") as handle:
+        return {row["video_id"]: row["series_title"] for row in csv.DictReader(handle)}
+
+
+def apply_reclassifications(rows, reclassifications):
+    """Turn each row whose video_id is in `reclassifications` from a `movie`
+    row into a single-season `season` row, ready for `explode_chapters` to
+    split via its data/chapters/<series_id>.json sidecar. Season number is
+    always 1: every reclassified video is one whole series in one file, not
+    a per-season release.
+    """
+    result = []
+    for row in rows:
+        series_title = reclassifications.get(row["video_id"])
+        if series_title is None:
+            result.append(row)
+            continue
+        new_row = {**row}
+        new_row.update({
+            "type": "season",
+            "title": series_title,
+            "series_id": slugify(series_title),
+            "series_title": series_title,
+            "season_number": "1",
+        })
+        result.append(new_row)
+    return result
 
 
 def load_chapters(chapters_dir):
@@ -272,6 +311,7 @@ def report_coverage(rows):
 def main():
     html_text = open(SOURCE_HTML, encoding="utf-8").read()
     rows = build_rows(html_text, load_genres(GENRES_CSV))
+    rows = apply_reclassifications(rows, load_reclassifications(RECLASSIFY_CSV))
     rows = explode_chapters(rows, load_chapters(CHAPTERS_DIR))
 
     for slug, sidecar in load_series_sidecars(SERIES_DIR):
