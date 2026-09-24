@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useMemo, type ReactNode } from 'react'
 import type { CatalogRow, Title } from '../types'
 import { buildRows, ROW_LIMIT, type CatalogRowGroup } from '../catalog/buildRows'
 import { Row } from '../components/Row'
@@ -6,26 +6,50 @@ import { Backdrop } from '../components/Backdrop'
 import { useFocusable } from '../focus/useFocusable'
 import { formatDuration } from '../lib/format'
 import { listProgress } from '../progress/progressStore'
-import { continueWatching, playedFraction, type ContinueItem } from '../progress/titleProgress'
+import { continueWatching, playedFraction, titleProgress, type ContinueItem } from '../progress/titleProgress'
 import { remainingLabel, rowLabel } from '../progress/describe'
 import type { CardProgress } from '../components/Card'
+import { ProgressBar } from '../components/ProgressBar'
+import { groupSeasons } from './groupSeasons'
 import './Home.css'
 
 /** The hero is a fixed promo slot, not derived from the catalog. */
 const FEATURED_SERIES_ID = 'spidey-y-sus-sorprendentes-amigos'
 
-function HeroCta({ onSelect }: { onSelect: () => void }) {
-  const { ref, focused, activate, tabIndex } = useFocusable('hero:select', -1, 0, onSelect)
+/**
+ * Full-resolution key art for the promo slot. Catalog thumbnails are only
+ * 368x210, so a title without its own key art falls back to the blurred
+ * backdrop plus a small crisp thumbnail.
+ */
+const FEATURED_ART = {
+  small: 'assets/spidey/spidey-hero-960.webp',
+  large: 'assets/spidey/spidey-hero-1920.webp',
+}
+
+function HeroButton({
+  id,
+  col,
+  onEnter,
+  variant,
+  children,
+}: {
+  id: string
+  col: number
+  onEnter: () => void
+  variant: 'primary' | 'secondary'
+  children: ReactNode
+}) {
+  const { ref, focused, activate, tabIndex } = useFocusable(id, -1, col, onEnter)
   return (
     <div
       ref={ref}
       tabIndex={tabIndex}
       role="button"
-      className={`go-hero_cta${focused ? ' is-focused' : ''}`}
+      className={`go-hero_cta go-hero_cta--${variant}${focused ? ' is-focused' : ''}`}
       data-focused={focused}
       onClick={activate}
     >
-      Más información
+      {children}
     </div>
   )
 }
@@ -53,6 +77,7 @@ export function Home({
     titles: [...continueItems.values()].map((item) => item.title),
   }
   const featured = titles.find((t) => t.key === FEATURED_SERIES_ID) ?? titles[0]
+  const heroProgress = useMemo(() => featured && titleProgress(featured, listProgress()), [featured])
 
   if (!featured) {
     return (
@@ -63,20 +88,44 @@ export function Home({
     )
   }
 
+  const art = featured.key === FEATURED_SERIES_ID ? FEATURED_ART : null
+  const isShow = featured.kind === 'show'
   const meta = [
+    isShow ? showExtent(featured) : formatDuration(featured.durationSeconds),
     featured.year,
     featured.quality,
     featured.subtitled ? `${featured.language} (sub)` : featured.language,
-    formatDuration(featured.durationSeconds),
   ].filter(Boolean)
+
+  const resuming = heroProgress?.mode === 'resume' ? heroProgress.progress : null
+  const position = heroProgress && heroProgress.mode !== 'start' ? rowLabel(heroProgress.row) : ''
 
   return (
     <div className="go-home">
-      <header className="go-hero">
-        <Backdrop thumbnail={featured.thumbnail} />
+      <header className={`go-hero${art ? ' has-art' : ''}`}>
+        {art ? (
+          <div className="go-hero_stage" aria-hidden="true">
+            <div className="go-hero_frame">
+              <img
+                className="go-hero_key"
+                src={`/${art.large}`}
+                srcSet={`/${art.small} 960w, /${art.large} 1920w`}
+                sizes="100vw"
+                alt=""
+                fetchPriority="high"
+              />
+            </div>
+          </div>
+        ) : (
+          <Backdrop thumbnail={featured.thumbnail} />
+        )}
 
         <div className="go-hero_body">
-          <p className="go-hero_eyebrow">Destacado</p>
+          <p className="go-hero_eyebrow">
+            <span className="go-hero_badge">Destacado</span>
+            {isShow ? 'Serie' : 'Película'}
+            {featured.studio && ` · ${featured.studio}`}
+          </p>
           <h1 className="go-hero_title">{featured.title}</h1>
 
           <p className="go-hero_meta">
@@ -96,14 +145,40 @@ export function Home({
             ))}
           </div>
 
-          <HeroCta onSelect={() => onSelect(featured)} />
+          <div className="go-hero_actions">
+            {heroProgress && (
+              <HeroButton
+                id="hero:play"
+                col={0}
+                variant="primary"
+                onEnter={() => onResume(featured, heroProgress.row)}
+              >
+                <span className="go-hero_play" aria-hidden="true" />
+                {resuming ? 'Reanudar' : 'Reproducir'}
+                {position && <span className="go-hero_cta-note">{position}</span>}
+              </HeroButton>
+            )}
+            <HeroButton id="hero:select" col={1} variant="secondary" onEnter={() => onSelect(featured)}>
+              <span className="go-hero_info" aria-hidden="true" />
+              Más información
+            </HeroButton>
+          </div>
+
+          {resuming && (
+            <div className="go-hero_resume">
+              <ProgressBar fraction={playedFraction(resuming)} className="go-hero_progress" />
+              <span>{remainingLabel(resuming)}</span>
+            </div>
+          )}
         </div>
 
-        {/* The art shown crisp, at close to its native 368x210, rather than
-            upscaled into the blurred field behind it. */}
-        <figure className="go-hero_art">
-          <img src={`/${featured.thumbnail}`} alt="" />
-        </figure>
+        {/* No key art: the thumbnail shown crisp, at close to its native
+            368x210, rather than upscaled into the blurred field behind it. */}
+        {!art && (
+          <figure className="go-hero_art">
+            <img src={`/${featured.thumbnail}`} alt="" />
+          </figure>
+        )}
       </header>
 
       <div className="go-rows">
@@ -132,6 +207,14 @@ export function Home({
       </div>
     </div>
   )
+}
+
+/** "3 temporadas", or "26 episodios" for a single season of episodes. */
+function showExtent(title: Title): string {
+  const seasons = groupSeasons(title.seasons)
+  if (seasons.length > 1) return `${seasons.length} temporadas`
+  const rows = seasons[0]?.rows ?? []
+  return rows.length > 1 ? `${rows.length} episodios` : formatDuration(title.durationSeconds)
 }
 
 function continueCardProgress({ progress }: ContinueItem): CardProgress {

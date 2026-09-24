@@ -24,29 +24,120 @@
   padding: calc(var(--go-nav-h) + 1rem) var(--go-safe-x) 3.5rem;
 }
 
+/* With full-resolution key art the hero goes cinematic: the art bleeds edge
+ * to edge behind the whole hero, and a scrim darkens the side the text holds. */
+.go-hero.has-art {
+  /* Tall enough to keep the characters whole, capped so rows stay in reach. */
+  --go-hero-h: min(50vw, 80vh);
+  min-height: var(--go-hero-h);
+  grid-template-columns: minmax(0, 1fr);
+  padding-bottom: clamp(3rem, 6vh, 5rem);
+}
+
+.go-hero_stage {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  background: var(--go-bg);
+}
+
+.go-hero_frame {
+  position: absolute;
+  inset: 0;
+}
+
+.go-hero_key {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* Crop from the foot rather than the head: the logo and faces stay clear of
+   * the navbar, and the lost legs fall inside the bottom fade anyway. */
+  object-position: 50% 20%;
+  animation: go-hero-settle calc(var(--go-dur-slow) * 4) var(--go-ease) both;
+}
+
+/* Legibility scrim: near-solid under the text column, clearing by mid-screen
+ * so the characters and logo stay at full colour; the foot melts into the
+ * canvas where the rows begin. */
+.go-hero_frame::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(8, 9, 12, 0.94) 0%,
+      rgba(8, 9, 12, 0.82) 24%,
+      rgba(8, 9, 12, 0.4) 44%,
+      rgba(8, 9, 12, 0) 62%
+    ),
+    linear-gradient(0deg, var(--go-bg) 0%, rgba(8, 9, 12, 0.7) 12%, rgba(8, 9, 12, 0) 38%);
+}
+
 .go-hero_body {
   position: relative;
   z-index: 1;
   max-width: 44rem;
+}
+
+.go-hero.has-art .go-hero_body {
+  max-width: min(36rem, 40vw);
+}
+
+/* One staggered reveal on arrival; zeroed with the rest of motion. */
+.go-hero_body > * {
   animation: go-rise var(--go-dur-slow) var(--go-ease) both;
 }
 
+.go-hero_body > :nth-child(2) {
+  animation-delay: calc(var(--go-dur-slow) * 0.15);
+}
+
+.go-hero_body > :nth-child(3),
+.go-hero_body > :nth-child(4) {
+  animation-delay: calc(var(--go-dur-slow) * 0.3);
+}
+
+.go-hero_body > :nth-child(n + 5) {
+  animation-delay: calc(var(--go-dur-slow) * 0.45);
+}
+
 .go-hero_eyebrow {
-  margin: 0 0 0.375rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0 0 0.875rem;
   font-family: var(--go-font-mono);
-  font-size: 0.8125rem;
-  letter-spacing: 0.22em;
+  font-size: 0.875rem;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--go-text-muted);
 }
 
+.go-hero_badge {
+  padding: 0.3125rem 0.625rem 0.25rem;
+  border-radius: 4px;
+  background: var(--go-accent);
+  color: var(--go-bg);
+  font-weight: 600;
+  letter-spacing: 0.16em;
+}
+
 .go-hero_title {
-  margin: 0 0 0.875rem;
+  margin: 0 0 1rem;
   font-size: var(--go-size-hero);
   font-weight: 800;
   line-height: 0.98;
   letter-spacing: -0.03em;
   text-wrap: balance;
+}
+
+.go-hero.has-art .go-hero_title {
+  font-size: clamp(2.75rem, 4.4vw, 4.75rem);
+  line-height: 0.96;
+  /* Lifts the type off the spill without reading as a drop shadow. */
+  text-shadow: 0 2px 30px rgba(8, 9, 12, 0.6);
 }
 
 .go-hero_meta {
@@ -56,7 +147,7 @@
   margin: 0 0 1.25rem;
   font-family: var(--go-font-mono);
   font-size: var(--go-size-meta);
-  color: var(--go-text-muted);
+  color: #aab0bb;
 }
 
 .go-hero_sep {
@@ -73,38 +164,125 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-bottom: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+/* ---- Hero actions --------------------------------------------------------- */
+
+.go-hero_actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
 .go-hero_cta {
   display: inline-flex;
   align-items: center;
-  padding: 0.9375rem 2rem;
+  gap: 0.75rem;
+  padding: 0.9375rem 1.75rem;
   border-radius: var(--go-radius);
-  background: rgba(242, 244, 240, 0.08);
-  box-shadow: inset 0 0 0 1px var(--go-hairline);
   font-size: var(--go-size-body);
   font-weight: 700;
+  white-space: nowrap;
   transition:
     transform var(--go-dur) var(--go-ease),
     background var(--go-dur) var(--go-ease),
-    color var(--go-dur) var(--go-ease);
+    color var(--go-dur) var(--go-ease),
+    box-shadow var(--go-dur) var(--go-ease);
 }
 
+/* Primary reads as primary even unfocused: solid light, like a lit key. */
+.go-hero_cta--primary {
+  background: var(--go-text);
+  color: var(--go-bg);
+}
+
+.go-hero_cta--secondary {
+  background: rgba(242, 244, 240, 0.12);
+  box-shadow: inset 0 0 0 1px rgba(242, 244, 240, 0.16);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
+}
+
+/* Focus is the one signal colour, whichever button holds it. */
 .go-hero_cta.is-focused {
   background: var(--go-accent);
   color: var(--go-bg);
-  transform: scale(1.03);
+  transform: scale(1.04);
   box-shadow: var(--go-focus-ring), var(--go-focus-lift);
 }
 
 @media (hover: hover) and (pointer: fine) {
+  .go-hero_cta {
+    cursor: pointer;
+  }
+
   .go-hero_cta:hover {
     background: var(--go-accent);
     color: var(--go-bg);
-    transform: scale(1.03);
+    transform: scale(1.04);
     box-shadow: var(--go-focus-ring), var(--go-focus-lift);
   }
+}
+
+.go-hero_play {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0.5rem 0 0.5rem 0.8125rem;
+  border-color: transparent transparent transparent currentColor;
+}
+
+/* An "i" in a ring, drawn so it takes currentColor through every state. */
+.go-hero_info {
+  position: relative;
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+}
+
+.go-hero_info::before,
+.go-hero_info::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  background: currentColor;
+  transform: translateX(-50%);
+}
+
+.go-hero_info::before {
+  top: 3px;
+  height: 2px;
+}
+
+.go-hero_info::after {
+  top: 7px;
+  height: 6px;
+}
+
+.go-hero_cta-note {
+  padding-left: 0.75rem;
+  border-left: 1px solid currentColor;
+  font-family: var(--go-font-mono);
+  font-size: 0.875rem;
+  font-weight: 500;
+  opacity: 0.75;
+}
+
+.go-hero_resume {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  font-family: var(--go-font-mono);
+  font-size: 0.875rem;
+  color: #aab0bb;
+}
+
+.go-hero_progress {
+  width: min(100%, 14rem);
 }
 
 .go-chip {
@@ -116,6 +294,12 @@
   font-size: 0.8125rem;
   letter-spacing: 0.04em;
   color: var(--go-text-muted);
+}
+
+.go-hero.has-art .go-chip {
+  border-color: rgba(242, 244, 240, 0.16);
+  background: rgba(8, 9, 12, 0.35);
+  color: #c3c8d1;
 }
 
 .go-hero_art {
@@ -147,6 +331,23 @@
   padding-bottom: var(--go-safe-y);
 }
 
+/* A clear breath between the hero and the first row. */
+.go-hero.has-art + .go-rows {
+  margin-top: clamp(1.5rem, 4vh, 3rem);
+}
+
+/* A slow push-in as the art arrives, settling to rest. */
+@keyframes go-hero-settle {
+  from {
+    opacity: 0;
+    transform: scale(1.06);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
 @keyframes go-rise {
   from {
     opacity: 0;
@@ -166,5 +367,38 @@
 
   .go-hero_art {
     display: none;
+  }
+
+  /* Key art runs full width under the navbar; the text starts over its foot. */
+  .go-hero.has-art {
+    --go-hero-h: 56.25vw;
+    --go-hero-top: calc(var(--go-nav-h) - 2.5rem);
+    min-height: 0;
+    padding-top: calc(var(--go-hero-top) + var(--go-hero-h) - 3rem);
+    padding-bottom: 3rem;
+  }
+
+  .go-hero_frame {
+    top: var(--go-hero-top);
+    bottom: auto;
+    height: var(--go-hero-h);
+  }
+
+  .go-hero_key {
+    object-position: 50% 50%;
+  }
+
+  .go-hero_frame::after {
+    background:
+      linear-gradient(180deg, var(--go-bg) 0%, rgba(8, 9, 12, 0) 22%),
+      linear-gradient(0deg, var(--go-bg) 0%, rgba(8, 9, 12, 0.6) 22%, rgba(8, 9, 12, 0) 50%);
+  }
+
+  .go-hero.has-art .go-hero_body {
+    max-width: none;
+  }
+
+  .go-hero.has-art + .go-rows {
+    margin-top: 1.5rem;
   }
 }

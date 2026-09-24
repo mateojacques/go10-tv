@@ -21,6 +21,15 @@ afterEach(() => {
 })
 
 describe('App routing', () => {
+  it('plays the featured title straight from the hero', async () => {
+    render(<App />)
+
+    await screen.findByRole('heading', { name: 'Foo Movie' })
+    fireEvent.click(screen.getByText('Reproducir'))
+
+    await waitFor(() => expect(window.location.pathname).toBe('/title/111/play/111'))
+  })
+
   it('navigates from home to detail to player, updating the URL each time, and back again', async () => {
     render(<App />)
 
