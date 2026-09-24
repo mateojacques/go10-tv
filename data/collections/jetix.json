@@ -1,0 +1,14 @@
+{
+  "id": "jetix",
+  "name": "Jetix",
+  "order": 2,
+  "logo": "assets/collections/jetix/logo.svg",
+  "tile": {
+    "color": "#000000"
+  },
+  "titles": [
+    "pucca",
+    "digimon-adventure",
+    "dave-el-barbaro"
+  ]
+}
