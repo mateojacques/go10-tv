@@ -273,6 +273,19 @@ def test_build_episode_rows_extracts_all_spidey_episodes(tmp_path):
     assert rows[-1]["catalog_index"] == 955
 
 
+def test_build_episode_rows_overrides_earliest_episode_thumbnail_with_sidecar_poster(tmp_path):
+    html_text = open(os.path.join(ROOT, "spidey.html"), encoding="utf-8").read()
+    sidecar = {**SPIDEY_SIDECAR, "thumbnail": "assets/spidey/poster.jpg"}
+    rows = parse_catalog.build_episode_rows(
+        html_text, sidecar, "spidey", start_index=0,
+        root=ROOT, assets_dir=str(tmp_path),
+    )
+    earliest = min(rows, key=lambda r: (int(r["season_number"]), int(r["episode_number"])))
+    assert earliest["thumbnail"] == "assets/spidey/poster.jpg"
+    others = [r for r in rows if r is not earliest]
+    assert all(r["thumbnail"] != "assets/spidey/poster.jpg" for r in others)
+
+
 def test_build_episode_rows_uses_sidecar_source_when_present(tmp_path):
     html_text = open(os.path.join(ROOT, "spidey.html"), encoding="utf-8").read()
     sidecar = {**SPIDEY_SIDECAR, "source": "Nick Jr."}

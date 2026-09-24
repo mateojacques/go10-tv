@@ -263,6 +263,12 @@ def build_episode_rows(html_text, sidecar, slug, start_index, root=ROOT, assets_
     explicit number, in which case the whole series is numbered season 1,
     episode 1..N in card order (the source lists no numbering at all, so
     there's nothing to mis-parse; this is reported too).
+
+    A sidecar `thumbnail` overrides the season/episode-earliest row's
+    thumbnail -- that's the same row `loadCatalog.ts` picks as the
+    grouped series card's representative image -- so a series can show
+    a dedicated poster instead of a frame grab, without touching any
+    other episode's own thumbnail.
     """
     assets_dir = assets_dir or ASSETS_DIR
     series_id = slugify(sidecar["series_title"])
@@ -326,6 +332,12 @@ def build_episode_rows(html_text, sidecar, slug, start_index, root=ROOT, assets_
             "embed_url": f"https://ok.ru/videoembed/{card['video_id']}",
         })
         index += 1
+
+    poster = sidecar.get("thumbnail")
+    if poster and rows:
+        primary = min(rows, key=lambda row: (int(row["season_number"]), int(row["episode_number"])))
+        primary["thumbnail"] = poster
+
     return rows
 
 
