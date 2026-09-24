@@ -2,7 +2,7 @@ import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "scripts"))
 
 from parse_catalog import COLUMNS
-from build_aniyomi_feed import group_rows, build_item
+from build_aniyomi_feed import group_rows, build_item, build_episodes
 
 
 def row(**overrides):
@@ -96,3 +96,92 @@ def test_series_title_falls_back_to_row_title():
     group = group_rows([row(video_id="1", type="season", series_id="s",
                             series_title="", title="Love Death & Robots")])["s"]
     assert build_item("s", group)["title"] == "Love Death & Robots"
+
+
+def chapter(video_id, season, number, start, duration, **extra):
+    return row(video_id=video_id, type="episode", series_id="s", series_title="S",
+               season_number=season, episode_number=number,
+               chapter_start_seconds=start, duration_seconds=duration,
+               title=f"Episodio {number}", thumbnail="catalogo_files/p.webp",
+               quality="1080p", **extra)
+
+
+def test_chapter_split_pack_collapses_to_one_full_length_episode():
+    group = group_rows([
+        chapter("900", 1, 1, 0, 1491, chapter_end_seconds=1491),
+        chapter("900", 1, 2, 1491, 1491, chapter_end_seconds=2982),
+        chapter("900", 1, 3, 2982, 11927, chapter_end_seconds=""),  # open-ended last chapter
+    ])["s"]
+    assert build_episodes(group) == [{
+        "video_id": "900", "season": 1, "number": 1, "title": "Temporada 1",
+        "pack": True, "duration_seconds": 14909,
+        "thumbnail": "catalogo_files/p.webp", "quality": "1080p",
+    }]
+
+
+def test_pack_title_prefers_season_label():
+    group = group_rows([chapter("900", 2, 1, 0, 100, season_label="Parte final")])["s"]
+    assert build_episodes(group)[0]["title"] == "Parte final"
+
+
+def test_season_row_without_chapters_is_one_pack_episode():
+    group = group_rows([
+        row(video_id="31", type="season", series_id="ldr", series_title="LDR",
+            season_number=3, title="Love Death & Robots", duration_seconds=7000),
+        row(video_id="32", type="season", series_id="ldr", series_title="LDR",
+            season_number=2, title="Love, Death & Robots", duration_seconds=6000),
+    ])["ldr"]
+    episodes = build_episodes(group)
+    assert [(e["video_id"], e["season"], e["number"], e["title"], e["duration_seconds"])
+            for e in episodes] == [
+        ("32", 2, 1, "Temporada 2", 6000),
+        ("31", 3, 1, "Temporada 3", 7000),
+    ]
+    assert all(e["pack"] for e in episodes)
+
+
+def test_plain_episodes_keep_number_and_title():
+    group = group_rows([
+        row(video_id="2", type="episode", series_id="gx", series_title="GX",
+            season_number=1, episode_number=2, title="El duelo", duration_seconds=1300),
+        row(video_id="1", type="episode", series_id="gx", series_title="GX",
+            season_number=1, episode_number=1, title="Llegada", duration_seconds=1400),
+    ])["gx"]
+    assert [(e["video_id"], e["number"], e["title"], e["pack"], e["duration_seconds"])
+            for e in build_episodes(group)] == [
+        ("1", 1, "Llegada", False, 1400),
+        ("2", 2, "El duelo", False, 1300),
+    ]
+
+
+def test_two_packs_in_same_season_are_numbered_sequentially():
+    group = group_rows([
+        chapter("A", 1, 1, 0, 100),
+        chapter("A", 1, 2, 100, 100),
+        chapter("B", 1, 1, 0, 100),
+    ])["s"]
+    assert [(e["video_id"], e["season"], e["number"]) for e in build_episodes(group)] == [
+        ("A", 1, 1), ("B", 1, 2),
+    ]
+
+
+def test_mixed_series_keeps_packs_and_plain_episodes():
+    group = group_rows([
+        chapter("P", 1, 1, 0, 500),
+        chapter("P", 1, 2, 500, 500),
+        row(video_id="E", type="episode", series_id="s", series_title="S",
+            season_number=2, episode_number=1, title="Especial", duration_seconds=900),
+    ])["s"]
+    episodes = build_episodes(group)
+    assert [(e["video_id"], e["season"], e["number"], e["pack"]) for e in episodes] == [
+        ("P", 1, 1, True), ("E", 2, 1, False),
+    ]
+    assert episodes[0]["duration_seconds"] == 1000
+
+
+def test_pack_without_season_number_falls_back_to_series_title():
+    group = group_rows([row(video_id="7", type="season", series_id="s",
+                            series_title="Serie Única", season_number="")])["s"]
+    episode = build_episodes(group)[0]
+    assert episode["season"] is None
+    assert episode["title"] == "Serie Única"
