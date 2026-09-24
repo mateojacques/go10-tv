@@ -55,7 +55,8 @@ def build_item(key, group):
         "quality": primary["quality"] or None,
         "language": primary["language"] or None,
         "subtitled": primary["subtitled"] == "true",
-        "views": sum(_int(r["views"]) or 0 for r in group),
+        # Chapter rows repeat their video's views, so count each ok.ru video once.
+        "views": sum(_int(r["views"]) or 0 for r in {r["video_id"]: r for r in group}.values()),
         "recent_rank": min(int(r["catalog_index"]) for r in group),
     }
     if not is_series:
@@ -119,6 +120,11 @@ def build_episodes(group):
             "thumbnail": first["thumbnail"],
             "quality": first["quality"] or None,
         })
+    # Several packs in one season (re-uploads, part 1/2) often share a label;
+    # suffix them so they aren't indistinguishable in Aniyomi.
+    for episode in episodes:
+        if episode["pack"] and packs_per_season[episode["season"]] > 1:
+            episode["title"] = f"{episode['title']} (parte {episode['number']})"
     return sorted(episodes, key=lambda e: (e["season"] or 0, e["number"] or 0))
 
 

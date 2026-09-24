@@ -223,3 +223,29 @@ def test_output_is_utf8_without_ascii_escapes(tmp_path):
     text = (out / "index.json").read_text(encoding="utf-8")
     assert "Año de la Niña" in text and "Acción" in text
     assert "\\u00" not in text
+
+
+def test_views_count_each_video_once_for_chapter_split_packs():
+    # parse_catalog copies a pack's views onto every chapter row; summing rows
+    # would inflate Popular N-fold for chapter-split series.
+    group = group_rows([
+        chapter("P", 1, 1, 0, 100, views=173),
+        chapter("P", 1, 2, 100, 100, views=173),
+        chapter("P", 1, 3, 200, 100, views=173),
+        chapter("Q", 2, 1, 0, 100, views=27),
+    ])["s"]
+    assert build_item("s", group)["views"] == 200
+
+
+def test_packs_sharing_a_season_get_distinct_titles():
+    # Real case: spawn has two season-1 packs both labelled "Temporadas 1, 2 y 3".
+    group = group_rows([
+        chapter("A", 1, 1, 0, 100, season_label="Temporadas 1, 2 y 3"),
+        chapter("B", 1, 1, 0, 100, season_label="Temporadas 1, 2 y 3"),
+        chapter("C", 2, 1, 0, 100),
+    ])["s"]
+    assert [e["title"] for e in build_episodes(group)] == [
+        "Temporadas 1, 2 y 3 (parte 1)",
+        "Temporadas 1, 2 y 3 (parte 2)",
+        "Temporada 2",
+    ]
