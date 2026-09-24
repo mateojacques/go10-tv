@@ -48,6 +48,7 @@ export function buildTitles(rows: CatalogRow[]): Title[] {
       title: isShow ? primary.series_title : primary.title,
       year: primary.year,
       studio: primary.studio,
+      source: primary.source,
       genre: primary.genre,
       genre_secondary: primary.genre_secondary,
       quality: primary.quality,

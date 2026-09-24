@@ -13,6 +13,7 @@ export interface CatalogRow {
   chapter_end_seconds: number | null
   year: number | null
   studio: string
+  source: string
   genre: string
   genre_secondary: string
   quality: string
@@ -32,6 +33,7 @@ export interface Title {
   title: string
   year: number | null
   studio: string
+  source: string
   genre: string
   genre_secondary: string
   quality: string

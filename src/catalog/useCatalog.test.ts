@@ -37,7 +37,7 @@ describe('useCatalog', () => {
           {
             catalog_index: 0, video_id: '111', type: 'movie', title: 'Foo', title_raw: 'Foo',
             series_id: '', series_title: '', season_number: null, season_label: '',
-            episode_number: null, year: 2020, studio: '', genre: 'Drama', genre_secondary: '',
+            episode_number: null, year: 2020, studio: '', source: '', genre: 'Drama', genre_secondary: '',
             quality: '1080p', language: 'Español', subtitled: false, duration_raw: '1:00:00',
             duration_seconds: 3600, views: 10, thumbnail: 'thumb.webp',
             video_url: 'https://ok.ru/video/111', embed_url: 'https://ok.ru/videoembed/111',

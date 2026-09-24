@@ -7,7 +7,7 @@ import type { Title } from '../types'
 
 function title(key: string, name: string, kind: Title['kind'] = 'movie'): Title {
   return {
-    key, kind, title: name, year: null, studio: '', genre: '', genre_secondary: '',
+    key, kind, title: name, year: null, studio: '', source: '', genre: '', genre_secondary: '',
     quality: '', language: '', subtitled: false, thumbnail: '', views: 0,
     durationSeconds: 0, catalogIndex: 0, seasons: [],
   }

@@ -20,12 +20,12 @@ def test_parse_views_strips_separators():
     assert parse_views("") == 0
 
 
-def test_columns_are_the_25_specified_in_order():
+def test_columns_are_the_26_specified_in_order():
     assert COLUMNS == [
         "catalog_index", "video_id", "type", "title", "title_raw",
         "series_id", "series_title", "season_number", "season_label",
         "episode_number", "chapter_start_seconds", "chapter_end_seconds",
-        "year", "studio", "genre", "genre_secondary",
+        "year", "studio", "source", "genre", "genre_secondary",
         "quality", "language", "subtitled", "duration_raw", "duration_seconds",
         "views", "thumbnail", "video_url", "embed_url",
     ]
@@ -64,6 +64,12 @@ def test_every_thumbnail_exists_on_disk():
     html_text = open(os.path.join(ROOT, "catalogo-solo-videos.html"), encoding="utf-8").read()
     for row in build_rows(html_text, {}):
         assert os.path.exists(os.path.join(ROOT, row["thumbnail"])), row["thumbnail"]
+
+
+def test_base_rows_are_credited_to_animax():
+    html_text = open(os.path.join(ROOT, "catalogo-solo-videos.html"), encoding="utf-8").read()
+    rows = build_rows(html_text, {})
+    assert all(r["source"] == "Animax" for r in rows)
 
 
 def test_urls_are_built_from_video_id():
@@ -261,9 +267,20 @@ def test_build_episode_rows_extracts_all_spidey_episodes(tmp_path):
     assert all(r["series_id"] == "spidey-y-sus-sorprendentes-amigos" for r in rows)
     assert all(r["series_title"] == "Spidey y sus Sorprendentes Amigos" for r in rows)
     assert all(r["studio"] == "Marvel" for r in rows)
+    assert all(r["source"] == "" for r in rows)
     assert {int(r["season_number"]) for r in rows} == {1, 2, 3, 4, 5}
     assert rows[0]["catalog_index"] == 907
     assert rows[-1]["catalog_index"] == 955
+
+
+def test_build_episode_rows_uses_sidecar_source_when_present(tmp_path):
+    html_text = open(os.path.join(ROOT, "spidey.html"), encoding="utf-8").read()
+    sidecar = {**SPIDEY_SIDECAR, "source": "Nick Jr."}
+    rows = parse_catalog.build_episode_rows(
+        html_text, sidecar, "spidey", start_index=0,
+        root=ROOT, assets_dir=str(tmp_path),
+    )
+    assert all(r["source"] == "Nick Jr." for r in rows)
 
 
 def test_build_episode_rows_copies_thumbnails_into_assets(tmp_path):

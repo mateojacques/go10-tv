@@ -8,7 +8,7 @@ function row(video_id: string, episode_number: number | null = null): CatalogRow
   return {
     catalog_index: 0, video_id, type: episode_number ? 'episode' : 'movie', title: 'T', title_raw: 'T',
     series_id: '', series_title: '', season_number: episode_number ? 1 : null, season_label: '',
-    episode_number, chapter_start_seconds: null, chapter_end_seconds: null, year: null, studio: '', genre: '', genre_secondary: '',
+    episode_number, chapter_start_seconds: null, chapter_end_seconds: null, year: null, studio: '', source: '', genre: '', genre_secondary: '',
     quality: '', language: '', subtitled: false, duration_raw: '', duration_seconds: 700,
     views: 0, thumbnail: '', video_url: '', embed_url: '',
   }
@@ -16,7 +16,7 @@ function row(video_id: string, episode_number: number | null = null): CatalogRow
 
 function title(key: string, rows: CatalogRow[]): Title {
   return {
-    key, kind: rows.length > 1 ? 'show' : 'movie', title: key, year: null, studio: '', genre: '',
+    key, kind: rows.length > 1 ? 'show' : 'movie', title: key, year: null, studio: '', source: '', genre: '',
     genre_secondary: '', quality: '', language: '', subtitled: false, thumbnail: '', views: 0,
     durationSeconds: 700, catalogIndex: 0, seasons: rows,
   }

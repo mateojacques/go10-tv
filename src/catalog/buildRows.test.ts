@@ -7,7 +7,7 @@ function title(overrides: Partial<Title> & { key: string }): Title {
     kind: 'movie',
     title: overrides.key,
     year: 2010,
-    studio: '',
+    studio: '', source: '',
     genre: 'Acción',
     genre_secondary: '',
     quality: '1080p',
