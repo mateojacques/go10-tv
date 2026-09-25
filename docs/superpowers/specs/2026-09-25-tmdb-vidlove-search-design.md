@@ -73,8 +73,10 @@ environment variables for deploys. Both documented in the README.
 
 ## Data model
 
-`Title` and `CatalogRow` gain `source: 'catalog' | 'tmdb'` (catalog loader
-sets `'catalog'`). TMDB data is mapped into the existing fields so no screen
+`Title` and `CatalogRow` gain `external: boolean` (catalog loader sets
+`false`; TMDB mapping sets `true`). Not named `source`: that field already
+exists as the per-title attribution string (e.g. "Animax"), which TMDB
+titles leave blank. TMDB data is mapped into the existing fields so no screen
 needs a second shape:
 
 | Field | TMDB value |
@@ -91,7 +93,7 @@ needs a second shape:
 | `season_number`, `episode_number`, `season_label` | from TMDB; label `Temporada N` |
 | `embed_url` | vidlove: `https://player.vidlove.cc/embed/movie/<id>` or `/embed/tv/<id>/<S>/<E>` |
 | `video_url` | same as `embed_url` (the "open in a new tab" fallback) |
-| `views`, `quality` | `0`, `''` |
+| `views`, `quality`, `source` | `0`, `''`, `''` |
 | chapter fields | `null` |
 
 Shared tweaks:
@@ -139,7 +141,7 @@ catálogo** and toggles the param with `replace` navigation.
   → `search/movie`, show → `search/tv`. `language=es-MX`,
   `include_adult=false`, page 1 only.
 - Each result maps to a lightweight `Title` (key, kind, title, year,
-  thumbnail, genres, language, `source: 'tmdb'`, empty `seasons`). Genre
+  thumbnail, genres, language, `external: true`, empty `seasons`). Genre
   ids resolve through `genre/movie/list` and `genre/tv/list`, fetched once
   per session. Results without any image are dropped.
 
@@ -167,7 +169,7 @@ terms require it; it's the only visible marker of a TMDB result.
 
 `Player` keeps its retry/timeout, progress saving (5 s cadence, on pause,
 on close), next/prev episode, keys and chrome. The ok.ru-specific parts
-move behind an adapter chosen by `row.source`:
+move behind an adapter chosen by `row.external`:
 
 ```ts
 interface EmbedProvider {
