@@ -2,15 +2,12 @@ import { useCallback, useEffect, useMemo, useReducer, useRef } from 'react'
 import type { CatalogRow } from '../types'
 import { playerRetryReducer, initialPlayerRetryState, backoffMs } from './playerRetry'
 import { markWatched, readProgress, resumeFromTime, writeProgress } from '../progress/progressStore'
-import { buildEmbedSrc } from './embedSrc'
+import { providerFor } from './providers'
 import { rowKey } from '../catalog/rowKey'
 import './Player.css'
 
 /** How long to wait for the embed before treating it as a load failure. */
 const LOAD_TIMEOUT_MS = 8000
-
-/** Origin ok.ru's /videoembed/ iframe posts playback events from. */
-const OK_RU_ORIGIN = 'https://ok.ru'
 
 /** `timeupdate` fires several times a second; storage only needs a few. */
 const PROGRESS_SAVE_INTERVAL_MS = 5000
@@ -46,6 +43,15 @@ export function Player({
   videoIdRef.current = rowKey(row)
   const containerRef = useRef<HTMLDivElement>(null)
   const frameRef = useRef<HTMLIFrameElement>(null)
+  const provider = providerFor(row)
+  // Kept in refs for the message listener, which never re-subscribes.
+  const providerRef = useRef(provider)
+  providerRef.current = provider
+  const rowRef = useRef(row)
+  rowRef.current = row
+  // For providers that can't start mid-video from the URL: where to seek
+  // once the embed first reports playback.
+  const pendingSeekRef = useRef<number | null>(null)
 
   // Kept in refs so the message/keydown listeners never need to re-subscribe
   // when these callbacks change identity across renders.
@@ -87,8 +93,8 @@ export function Player({
     videoIdRef.current = rowKey(row)
     positionRef.current = null
     frameRef.current?.contentWindow?.postMessage(
-      { action: 'seek', time: row.chapter_start_seconds ?? 0 },
-      OK_RU_ORIGIN,
+      providerRef.current.seekMessage(row.chapter_start_seconds ?? 0),
+      providerRef.current.origin,
     )
   }, [row, flushProgress])
 
@@ -100,31 +106,38 @@ export function Player({
     }
   }, [row.video_id, flushProgress])
 
-  // ok.ru's /videoembed/ iframe posts playback events (`timeupdate`,
-  // `ended`, ...) to the parent window — confirmed by inspecting real
-  // traffic. This is the actual player state, unlike a wall-clock guess
-  // from `duration_seconds`: immune to seeking, pausing, and buffering.
+  // The embed posts its real playback state to this window (each provider
+  // parses its own format). Unlike a wall-clock guess from
+  // `duration_seconds`, it's immune to seeking, pausing, and buffering.
   useEffect(() => {
     function onMessage(event: MessageEvent) {
-      if (event.origin !== OK_RU_ORIGIN) return
+      const current = providerRef.current
+      if (event.origin !== current.origin) return
       if (event.source !== frameRef.current?.contentWindow) return
-      const data = event.data as { event?: string; time?: number; duration?: number } | null
+      const parsed = current.parse(event.data, rowRef.current)
+      if (!parsed) return
       const videoId = videoIdRef.current
 
-      if (data?.event === 'timeupdate' && typeof data.time === 'number') {
-        positionRef.current = { videoId, time: data.time, duration: data.duration ?? 0 }
+      if (parsed.kind === 'time') {
+        const resumeAt = pendingSeekRef.current
+        if (resumeAt !== null) {
+          pendingSeekRef.current = null
+          frameRef.current?.contentWindow?.postMessage(current.seekMessage(resumeAt), current.origin)
+        }
+
+        positionRef.current = { videoId, time: parsed.time, duration: parsed.duration }
         if (Date.now() - lastSaveRef.current >= PROGRESS_SAVE_INTERVAL_MS) flushProgress()
 
         const chapterEnd = chapterEndRef.current
-        if (chapterEnd != null && data.time >= chapterEnd) {
+        if (chapterEnd != null && parsed.time >= chapterEnd) {
           markWatched(videoId, chapterDurationRef.current)
           positionRef.current = null
           onEndedRef.current?.()
         }
-      } else if (data?.event === 'paused') {
+      } else if (parsed.kind === 'paused') {
         flushProgress()
-      } else if (data?.event === 'ended') {
-        markWatched(videoId, positionRef.current?.duration || data.time || 0)
+      } else {
+        markWatched(videoId, positionRef.current?.duration || parsed.time || 0)
         positionRef.current = null
         onEndedRef.current?.()
       }
@@ -190,6 +203,11 @@ export function Player({
     return row.chapter_start_seconds && row.chapter_start_seconds > 0 ? row.chapter_start_seconds : null
   }, [row.video_id, state.reloadToken, flushProgress])
 
+  // Reloads restart the embed from zero too, so re-arm on each one.
+  useEffect(() => {
+    pendingSeekRef.current = provider.resumesViaUrl ? null : fromTime
+  }, [fromTime, state.reloadToken, provider])
+
   const handleLoad = useCallback(() => {
     loaded.current = true
     dispatch({ type: 'loaded' })
@@ -200,7 +218,7 @@ export function Player({
     ? row.season_label || `Temporada ${row.season_number}`
     : null
 
-  const embedSrc = buildEmbedSrc(row.embed_url, fromTime)
+  const embedSrc = provider.src(row, provider.resumesViaUrl ? fromTime : null)
 
   return (
     <div className="go-player" ref={containerRef}>
@@ -227,7 +245,7 @@ export function Player({
         <div className="go-player_fallback">
           <p className="go-player_fallback-msg">No se pudo reproducir aquí.</p>
           <a className="go-player_open" href={row.video_url} target="_blank" rel="noreferrer">
-            Abrir en ok.ru
+            {provider.fallbackLabel}
           </a>
         </div>
       ) : (
@@ -239,6 +257,7 @@ export function Player({
           title={row.title}
           allow="autoplay; fullscreen; encrypted-media"
           allowFullScreen
+          sandbox={provider.sandbox}
           onLoad={handleLoad}
         />
       )}
