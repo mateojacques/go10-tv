@@ -1,4 +1,5 @@
 import type { Section } from '../catalog/selectTitles'
+import { externalTitlesEnabled } from '../external/config'
 
 export type { Section }
 
@@ -6,7 +7,7 @@ export type Route =
   | { name: 'home' }
   | { name: 'title'; key: string }
   | { name: 'play'; key: string; videoId: string }
-  | { name: 'catalog'; section: Section; query: string }
+  | { name: 'catalog'; section: Section; query: string; catalogOnly?: true }
   | { name: 'collection'; id: string }
 
 const SECTION_SLUGS: Record<Exclude<Section, 'all'>, string> = { movie: 'peliculas', show: 'series' }
@@ -46,8 +47,11 @@ export function parseRoute(pathname: string, search = ''): Route {
     const params = new URLSearchParams(search)
     const section = sectionFromSlug(params.get('en'))
     const query = params.get('q') ?? ''
+    // "Solo catálogo" only means something while external titles exist.
+    const catalogOnly = externalTitlesEnabled() && params.get('solo') === 'catalogo'
     // A blank search is just the section it was scoped to.
-    return query.trim() === '' ? browseRoute(section) : { name: 'catalog', section, query }
+    if (query.trim() === '') return browseRoute(section)
+    return catalogOnly ? { name: 'catalog', section, query, catalogOnly: true } : { name: 'catalog', section, query }
   }
 
   return { name: 'home' }
@@ -69,6 +73,7 @@ export function routeToPath(route: Route): string {
       }
       const params = new URLSearchParams({ q: route.query })
       if (route.section !== 'all') params.set('en', SECTION_SLUGS[route.section])
+      if (route.catalogOnly) params.set('solo', 'catalogo')
       return `/buscar?${params}`
     }
   }

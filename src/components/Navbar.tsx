@@ -2,6 +2,7 @@ import { SearchBox } from './SearchBox'
 import { useFocusable } from '../focus/useFocusable'
 import { useFocusState } from '../focus/FocusProvider'
 import { browseRoute, type Route, type Section } from '../router/route'
+import { externalTitlesEnabled } from '../external/config'
 import './Navbar.css'
 
 /** The navbar sits above everything else on the screen in the focus grid. */
@@ -61,6 +62,9 @@ export function Navbar({
   const hasQuery = query.trim() !== ''
   const sectionLabel = section === 'all' ? null : SECTION_LABELS[section]
   const isBrowsing = (target: Section) => section === target && !hasQuery
+  const catalogOnly = route.name === 'catalog' && route.catalogOnly === true
+  // Carried through every search navigation, like the section scope.
+  const scope = catalogOnly ? { catalogOnly: true as const } : {}
 
   const openSection = (target: Exclude<Section, 'all'>) => {
     // Already there: don't stack a duplicate history entry.
@@ -73,7 +77,7 @@ export function Navbar({
     } else {
       // Only the keystroke that starts a search gets a history entry; the
       // rest refine it in place, so Back doesn't replay every letter.
-      onNavigate({ name: 'catalog', section, query: value }, { replace: hasQuery })
+      onNavigate({ name: 'catalog', section, query: value, ...scope }, { replace: hasQuery })
     }
   }
 
@@ -118,7 +122,7 @@ export function Navbar({
             className="go-nav_scope"
             ariaLabel={`Quitar filtro ${sectionLabel}`}
             onSelect={() => {
-              onNavigate({ name: 'catalog', section: 'all', query }, { replace: true })
+              onNavigate({ name: 'catalog', section: 'all', query, ...scope }, { replace: true })
               // The chip is about to unmount; keep focus where the user was headed.
               focus('nav:search')
             }}
@@ -134,6 +138,24 @@ export function Navbar({
           placeholder={sectionLabel ? `Buscar en ${sectionLabel}` : 'Buscar'}
           onChange={onQueryChange}
         />
+        {hasQuery && externalTitlesEnabled() && (
+          // In the navbar, not above the grid: Enter/Down from the search box
+          // must keep landing on the first result.
+          <NavButton
+            id="nav:source"
+            col={4}
+            className="go-nav_scope go-nav_source"
+            ariaLabel={catalogOnly ? 'Buscar en todo' : 'Buscar solo en el catálogo'}
+            onSelect={() =>
+              onNavigate(
+                catalogOnly ? { name: 'catalog', section, query } : { name: 'catalog', section, query, catalogOnly: true },
+                { replace: true },
+              )
+            }
+          >
+            {catalogOnly ? 'Solo catálogo' : 'Todo'}
+          </NavButton>
+        )}
         {/* Phones only: the way out of the expanded search. Off the focus grid
             (and hidden) at TV widths, where the field is always open. */}
         <button
