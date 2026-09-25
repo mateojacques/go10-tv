@@ -45,11 +45,13 @@ exactly today's app.
 
 ## Feature switch
 
-`src/external/config.ts` exports one constant:
+`src/external/config.ts` exports one function, read at call time so tests
+can flip it with `vi.stubEnv`:
 
 ```ts
-export const EXTERNAL_TITLES_ENABLED =
-  import.meta.env.VITE_EXTERNAL_TITLES === 'on' && Boolean(import.meta.env.VITE_TMDB_TOKEN)
+export function externalTitlesEnabled(): boolean {
+  return import.meta.env.VITE_EXTERNAL_TITLES === 'on' && Boolean(import.meta.env.VITE_TMDB_TOKEN)
+}
 ```
 
 Unset (the default), anything other than `on`, or a missing token means off.
@@ -62,8 +64,9 @@ Off guarantees:
 - Player only ever uses the ok.ru adapter.
 
 The existing test suite runs with the switch off and must pass unchanged;
-that is the regression guarantee. New tests enable it explicitly (a mockable
-config module, not ambient env).
+that is the regression guarantee. `vite.config.ts` pins the switch off for
+tests (`test.env`), so a developer's `.env.local` can't leak into the suite;
+new tests enable it explicitly with `vi.stubEnv`.
 
 Vite inlines env vars at build time: flipping it on Netlify means changing
 the variable **and redeploying**.
@@ -73,8 +76,8 @@ environment variables for deploys. Both documented in the README.
 
 ## Data model
 
-`Title` and `CatalogRow` gain `external: boolean` (catalog loader sets
-`false`; TMDB mapping sets `true`). Not named `source`: that field already
+`Title` and `CatalogRow` gain an optional `external?: true`: set by the TMDB
+mapping, absent on catalog data (so no catalog fixture or loader changes). Not named `source`: that field already
 exists as the per-title attribution string (e.g. "Animax"), which TMDB
 titles leave blank. TMDB data is mapped into the existing fields so no screen
 needs a second shape:
@@ -87,13 +90,13 @@ needs a second shape:
 | `year` | year of `release_date` / `first_air_date`, else `null` |
 | `genre`, `genre_secondary` | first two TMDB genres (es-MX names) |
 | `studio` | first production company; first network for TV |
-| `language`, `subtitled` | `original_language` → Spanish name (`en` → `Inglés`, fallback: the ISO code uppercased); `subtitled = original_language !== 'es'` |
+| `language`, `subtitled` | `original_language` → Spanish name via `Intl.DisplayNames('es')`, capitalised (`en` → `Inglés`; unknown code → the code uppercased); `subtitled = original_language !== 'es'` |
 | `duration_seconds` | movie `runtime` × 60; episode `runtime` × 60; `0` if missing |
 | `thumbnail` | backdrop at `w780` (16:9 like our art), else poster at `w500` — absolute URL |
 | `season_number`, `episode_number`, `season_label` | from TMDB; label `Temporada N` |
 | `embed_url` | vidlove: `https://player.vidlove.cc/embed/movie/<id>` or `/embed/tv/<id>/<S>/<E>` |
 | `video_url` | same as `embed_url` (the "open in a new tab" fallback) |
-| `views`, `quality`, `source` | `0`, `''`, `''` |
+| `views`, `quality`, `source`, `catalogIndex` | `0`, `''`, `''`, `0` |
 | chapter fields | `null` |
 
 Shared tweaks:
@@ -116,9 +119,9 @@ with `tmdb-` (switch on) goes through `useTmdbTitle(key)` →
 Fetching:
 
 - Movie: `GET /movie/<id>?language=es-MX`.
-- Show: `GET /tv/<id>?language=es-MX&append_to_response=season/1,…` —
-  TMDB caps `append_to_response` at 20, so longer shows take a second
-  batched call. Season 0 (specials) and episodes whose `air_date` is in the
+- Show: `GET /tv/<id>?language=es-MX` for the details and season list, then
+  `GET /tv/<id>?append_to_response=season/1,…` per batch of 20 seasons
+  (TMDB's cap) — two calls for most shows. Season 0 (specials) and episodes whose `air_date` is in the
   future or missing are dropped. A show left with no episodes is not-found.
 - Results cache in memory and `sessionStorage` (`go10:tmdb-cache:<key>`)
   for the session; snapshots (below) seed it as well.
@@ -129,8 +132,11 @@ Route: `catalog` gains `catalogOnly: boolean` ↔ `&solo=catalogo`; default
 false. `parseRoute`/`routeToPath` round-trip it; the navbar preserves it
 while typing, as it preserves `en`.
 
-UI: a focusable chip beside the results heading reads **Todo** or **Solo
-catálogo** and toggles the param with `replace` navigation.
+UI: a focusable chip in the navbar, right of the search box (`NAV_ROW`,
+col 4), shown while a query is active. It reads **Todo** or **Solo
+catálogo** and toggles the param with `replace` navigation. It lives in the
+navbar rather than above the grid so Enter/Down from the search box still
+lands on the first result instead of on the chip.
 
 `useTmdbSearch(query, section, enabled)`:
 
@@ -158,8 +164,9 @@ never move.
 | TMDB fails, catalog matches | catalog results only; no error shown |
 | Solo catálogo, or switch off | exactly today's behaviour; no requests |
 
-Card renders TMDB titles as it does catalog ones; its progress bar only
-shows when `seasons` is non-empty.
+Card renders TMDB titles as it does catalog ones. Search results have empty
+`seasons`, so Card hides its "N Temporadas" tag when the count is 0 (never
+the case for catalog shows).
 
 Attribution: while TMDB results are on screen, one quiet line under the grid
 — "Datos de títulos: TMDB" — styled like the existing hint text. TMDB's API
@@ -200,7 +207,7 @@ format):
   and `ended`. `pause` → `paused`, `timeupdate` → `time`, `ended` → `ended`.
 - Events whose `tmdbId`/`season`/`episode` don't match the row are dropped
   (stale events during an episode switch).
-- Resume: no URL param exists. On the first `play` or `timeupdate`, post
+- Resume: no URL param exists. On the first `timeupdate`, post
   `{type: 'seek', time}` once. The player accepts a seek before the media is
   ready and applies it when it can. vidlove's own in-iframe resume may land
   first; ours follows and wins.
@@ -246,12 +253,15 @@ and refreshes in the background.
 
 - `src/external/config.ts` — the switch.
 - `src/external/tmdb/client.ts` — fetch wrapper (token, base URL, errors).
+- `src/external/tmdb/keys.ts` — `tmdb-*` key building and parsing.
 - `src/external/tmdb/map.ts` — TMDB JSON → `Title`/`CatalogRow`; pure.
-- `src/external/tmdb/languages.ts` — ISO 639-1 → Spanish name.
+- `src/external/tmdb/search.ts` — search endpoints + genre-name lookup.
+- `src/external/tmdb/title.ts` — fetch one title (movie, or show + seasons).
 - `src/external/useTmdbSearch.ts`, `src/external/useTmdbTitle.ts`.
+- `src/external/mergeSearch.ts` — catalog selection + TMDB state → grid.
 - `src/external/snapshots.ts` — the "Seguir viendo" snapshot store.
-- `src/screens/providers/okru.ts`, `src/screens/providers/vidlove.ts`,
-  `src/screens/providers/types.ts`.
+- `src/screens/providers/{types,okru,vidlove,index}.ts`.
+- `src/lib/imageSrc.ts` — absolute URLs pass through, relative get `/`.
 
 ## Testing
 
