@@ -1,6 +1,6 @@
 # External titles: TMDB search + vidlove playback — design
 
-Status: **proposed** (2026-09-25).
+Status: **implemented** (2026-09-25).
 
 ## Problem
 

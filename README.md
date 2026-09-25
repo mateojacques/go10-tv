@@ -29,6 +29,36 @@ an existing title: the feed's `s:<series_id>` / `m:<video_id>` ids and each
 episode's `video_id` are what Aniyomi stores in users' libraries and watch
 history, so changing them orphans those entries.
 
+### External titles (TMDB + vidlove) — optional
+
+Search can reach beyond the catalog: with this on, results also include
+TMDB matches, which open on the same Detail screen and play through the
+[vidlove](https://player.vidlove.cc/) embed. Home and collections stay
+catalog-only, except that TMDB titles you've started appear in Seguir viendo.
+
+It's **off unless both variables are set**:
+
+```bash
+# .env.local (gitignored)
+VITE_EXTERNAL_TITLES=on
+VITE_TMDB_TOKEN=<TMDB v4 read access token>
+```
+
+On Netlify, set the same two variables and **redeploy**: Vite bakes them in
+at build time. Remove either one (or set the switch to anything but `on`)
+and the build is exactly the catalog-only app.
+
+- The token ships in the JS bundle. It's TMDB's read-only token, so the
+  worst case is someone else using your rate limit; rotate it if so.
+- A search chip toggles **Todo** / **Solo catálogo** (`&solo=catalogo`);
+  Solo catálogo makes no TMDB requests.
+- TMDB titles are keyed `tmdb-movie-<id>` / `tmdb-tv-<id>` and show their
+  original language, e.g. `Inglés (sub)`: vidlove streams original audio.
+- They're web-only: the Aniyomi feed is built from `catalog.csv` and never
+  includes them.
+- Titles in both the catalog and TMDB currently show twice in results.
+- This product uses the TMDB API but is not endorsed or certified by TMDB.
+
 ## Controls
 
 Designed for a TV remote first. **There are no hover states anywhere** and the
