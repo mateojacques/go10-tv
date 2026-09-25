@@ -1,4 +1,4 @@
-import { useCallback, useRef } from 'react'
+import { useCallback, useEffect, useRef } from 'react'
 import type { CatalogRow, Title } from './types'
 import { useCatalog } from './catalog/useCatalog'
 import { rowKey } from './catalog/rowKey'
@@ -14,6 +14,10 @@ import type { Route } from './router/route'
 import { resolveRoute } from './router/resolveRoute'
 import { COLLECTIONS } from './collections/collections'
 import { Collection } from './screens/Collection'
+import { externalTitlesEnabled } from './external/config'
+import { isTmdbKey } from './external/tmdb/keys'
+import { useTmdbTitle } from './external/useTmdbTitle'
+import { saveSnapshot } from './external/snapshots'
 import './styles/global.css'
 
 export default function App() {
@@ -41,6 +45,19 @@ export default function App() {
     }
   }, [route, navigate])
 
+  // TMDB titles aren't in the catalog: a `tmdb-*` key is fetched instead.
+  const tmdbKey =
+    externalTitlesEnabled() && (route.name === 'title' || route.name === 'play') && isTmdbKey(route.key)
+      ? route.key
+      : null
+  const tmdb = useTmdbTitle(tmdbKey)
+  const playingExternal = route.name === 'play' && tmdb.status === 'ready' ? tmdb.title : null
+
+  // Played TMDB titles are remembered for Home's "Seguir viendo".
+  useEffect(() => {
+    if (playingExternal) saveSnapshot(playingExternal)
+  }, [playingExternal])
+
   if (loading) {
     return (
       <div className="go-state">
@@ -59,7 +76,33 @@ export default function App() {
     )
   }
 
-  const resolved = resolveRoute(route, titles, COLLECTIONS)
+  if (tmdbKey && tmdb.status === 'loading') {
+    return (
+      <div className="go-state">
+        <span className="go-state_mark is-loading">GO10 TV</span>
+        <p className="go-state_msg">Cargando título…</p>
+      </div>
+    )
+  }
+
+  if (tmdbKey && tmdb.status === 'error') {
+    return (
+      <FocusProvider key="external-error" onBack={back}>
+        <div className="go-state">
+          <button type="button" className="go-back" onClick={back} aria-label="Volver">
+            <span className="go-back_chevron" aria-hidden="true" />
+          </button>
+          <span className="go-state_mark">GO10 TV</span>
+          <p className="go-state_msg">No se pudo cargar el título.</p>
+        </div>
+      </FocusProvider>
+    )
+  }
+
+  // A loaded TMDB title resolves exactly like a catalog one; `not-found`
+  // falls through to the usual bounce Home.
+  const available = tmdb.status === 'ready' ? [...titles, tmdb.title] : titles
+  const resolved = resolveRoute(route, available, COLLECTIONS)
 
   if (resolved.name === 'not-found') {
     // Stale or hand-typed URL — bounce to Home without leaving a broken

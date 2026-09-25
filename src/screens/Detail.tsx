@@ -95,7 +95,8 @@ export function Detail({
     title.quality,
     title.subtitled ? `${title.language} (sub)` : title.language,
     formatDuration(activeRow.duration_seconds),
-    formatViews(title.views),
+    // TMDB has no view counts; "0 vistas" would read as unpopular.
+    title.external ? null : formatViews(title.views),
   ].filter(Boolean)
 
   return (

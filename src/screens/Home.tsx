@@ -15,6 +15,8 @@ import { groupSeasons } from './groupSeasons'
 import type { Collection } from '../collections/types'
 import { visibleCollections } from '../collections/resolveCollection'
 import { CollectionStrip } from '../components/CollectionStrip'
+import { externalTitlesEnabled } from '../external/config'
+import { listSnapshots } from '../external/snapshots'
 import './Home.css'
 
 /** The hero is a fixed promo slot, not derived from the catalog. */
@@ -74,11 +76,14 @@ export function Home({
 }) {
   const groups = useMemo(() => buildRows(titles), [titles])
   // Home remounts each time it's navigated back to, so reading once per
-  // mount picks up whatever was just watched.
-  const continueItems = useMemo(
-    () => new Map(continueWatching(titles, listProgress()).slice(0, ROW_LIMIT).map((item) => [item.title.key, item])),
-    [titles],
-  )
+  // mount picks up whatever was just watched. Played TMDB titles aren't in
+  // the catalog; their snapshots stand in for them here, and only here.
+  const continueItems = useMemo(() => {
+    const candidates = externalTitlesEnabled() ? [...titles, ...listSnapshots()] : titles
+    return new Map(
+      continueWatching(candidates, listProgress()).slice(0, ROW_LIMIT).map((item) => [item.title.key, item]),
+    )
+  }, [titles])
   const strip = useMemo(
     () => visibleCollections(collections, titles).map((resolved) => resolved.collection),
     [collections, titles],
