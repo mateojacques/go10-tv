@@ -13,3 +13,7 @@ catalogo_files/*
 # assets/<slug>/. The base catalog's own dump keeps its exception above.
 *_files/
 !catalogo_files/
+
+# Local env (TMDB token, feature switches)
+.env.local
+.env.*.local

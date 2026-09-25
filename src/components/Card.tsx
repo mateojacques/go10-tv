@@ -1,6 +1,7 @@
 import type { Title } from '../types'
 import { useFocusable } from '../focus/useFocusable'
 import { ProgressBar } from './ProgressBar'
+import { imageSrc } from '../lib/imageSrc'
 import './Card.css'
 
 /** Shown on "Seguir viendo" cards in place of the usual year/genre line. */
@@ -42,7 +43,7 @@ export function Card({
       onClick={activate}
     >
       <div className="go-card_frame">
-        <img className="go-card_img" src={`/${title.thumbnail}`} alt="" loading="lazy" />
+        <img className="go-card_img" src={imageSrc(title.thumbnail)} alt="" loading="lazy" />
         <div className="go-card_tags">
           {title.quality === '4K' && <span className="go-card_tag is-accent">4K</span>}
           {title.kind === 'show' && (

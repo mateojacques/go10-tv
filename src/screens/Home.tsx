@@ -5,6 +5,7 @@ import { Row } from '../components/Row'
 import { Backdrop } from '../components/Backdrop'
 import { useFocusable } from '../focus/useFocusable'
 import { formatDuration } from '../lib/format'
+import { imageSrc } from '../lib/imageSrc'
 import { listProgress } from '../progress/progressStore'
 import { continueWatching, playedFraction, titleProgress, type ContinueItem } from '../progress/titleProgress'
 import { remainingLabel, rowLabel } from '../progress/describe'
@@ -189,7 +190,7 @@ export function Home({
             368x210, rather than upscaled into the blurred field behind it. */}
         {!art && (
           <figure className="go-hero_art">
-            <img src={`/${featured.thumbnail}`} alt="" />
+            <img src={imageSrc(featured.thumbnail)} alt="" />
           </figure>
         )}
       </header>

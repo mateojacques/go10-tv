@@ -9,6 +9,7 @@ import { ProgressBar } from '../components/ProgressBar'
 import { listProgress, resumeFromTime, type Progress } from '../progress/progressStore'
 import { playedFraction, titleProgress } from '../progress/titleProgress'
 import { remainingLabel } from '../progress/describe'
+import { imageSrc } from '../lib/imageSrc'
 import './Detail.css'
 
 function FocusButton({
@@ -158,7 +159,7 @@ export function Detail({
         </div>
 
         <figure className="go-detail_art">
-          <img src={`/${title.thumbnail}`} alt="" />
+          <img src={imageSrc(title.thumbnail)} alt="" />
         </figure>
       </div>
 

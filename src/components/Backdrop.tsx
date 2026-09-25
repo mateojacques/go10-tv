@@ -1,3 +1,4 @@
+import { imageSrc } from '../lib/imageSrc'
 import './Backdrop.css'
 
 /**
@@ -11,7 +12,7 @@ import './Backdrop.css'
 export function Backdrop({ thumbnail }: { thumbnail: string }) {
   return (
     <div className="go-backdrop" aria-hidden="true">
-      <img className="go-backdrop_img" src={`/${thumbnail}`} alt="" />
+      <img className="go-backdrop_img" src={imageSrc(thumbnail)} alt="" />
       <div className="go-backdrop_scrim" />
     </div>
   )

@@ -25,6 +25,8 @@ export interface CatalogRow {
   thumbnail: string
   video_url: string
   embed_url: string
+  /** Mapped from TMDB and played through vidlove. Absent on catalog data. */
+  external?: true
 }
 
 export interface Title {
@@ -45,4 +47,6 @@ export interface Title {
   catalogIndex: number
   /** For a movie, the single row. For a show, its seasons ordered ascending. */
   seasons: CatalogRow[]
+  /** Mapped from TMDB and played through vidlove. Absent on catalog data. */
+  external?: true
 }
