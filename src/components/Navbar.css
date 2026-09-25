@@ -220,17 +220,176 @@
   display: none;
 }
 
-/* Only phones show it, and only while the search is open. */
-.go-nav_cancel {
+/* Only phones show these, and only while the search is open. */
+.go-nav_cancel,
+.go-scopemenu {
   display: none;
+}
+
+/* ---- Phone scope menu ----------------------------------------------------- */
+
+.go-scopemenu_trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  height: 2rem;
+  padding: 0 0.625rem 0 0.75rem;
+  border-radius: 999px;
+  background: rgba(198, 242, 78, 0.12);
+  font-family: var(--go-font-mono);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--go-accent);
+  white-space: nowrap;
+  transition: background var(--go-dur) var(--go-ease);
+}
+
+.go-scopemenu_trigger:active,
+.go-scopemenu_trigger.is-open {
+  background: rgba(198, 242, 78, 0.22);
+}
+
+.go-scopemenu_trigger:focus-visible,
+.go-scopemenu_item:focus-visible,
+.go-nav_cancel:focus-visible {
+  outline: 2px solid var(--go-accent);
+  outline-offset: 2px;
+}
+
+/* A small chevron that flips while the menu is open. */
+.go-scopemenu_caret {
+  width: 0.375rem;
+  height: 0.375rem;
+  margin-top: -0.1875rem;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg);
+  transition: transform var(--go-dur) var(--go-ease);
+}
+
+.go-scopemenu_trigger.is-open .go-scopemenu_caret {
+  margin-top: 0.1875rem;
+  transform: rotate(-135deg);
+}
+
+.go-scopemenu_menu {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  left: 0;
+  z-index: 1;
+  display: grid;
+  gap: 0.25rem;
+  min-width: 12.5rem;
+  padding: 0.375rem;
+  border-radius: 12px;
+  background: var(--go-bg-raised);
+  box-shadow:
+    0 0 0 1px var(--go-hairline),
+    0 8px 8px -4px rgba(0, 0, 0, 0.6);
+  transform-origin: top left;
+  animation: go-menu-in var(--go-dur) var(--go-ease);
+}
+
+@keyframes go-menu-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px) scale(0.98);
+  }
+}
+
+.go-scopemenu_group {
+  display: grid;
+}
+
+.go-scopemenu_group + .go-scopemenu_group {
+  padding-top: 0.25rem;
+  border-top: 1px solid var(--go-hairline);
+}
+
+.go-scopemenu_heading {
+  padding: 0.5rem 0.75rem 0.25rem;
+  font-family: var(--go-font-mono);
+  font-size: 0.75rem;
+  color: var(--go-text-muted);
+}
+
+.go-scopemenu_item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 2.75rem;
+  padding: 0 0.75rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: left;
+  color: var(--go-text);
+}
+
+.go-scopemenu_item:active {
+  background: var(--go-hairline);
+}
+
+/* The chosen option: a check drawn in CSS, in the signal colour. */
+.go-scopemenu_item[aria-checked='true'] {
+  color: var(--go-accent);
+}
+
+.go-scopemenu_item[aria-checked='true']::after {
+  content: '';
+  width: 0.375rem;
+  height: 0.75rem;
+  margin: -0.25rem 0.25rem 0 0;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .go-scopemenu_trigger,
+  .go-scopemenu_item,
+  .go-nav_cancel {
+    cursor: pointer;
+  }
+
+  .go-scopemenu_item:hover {
+    background: var(--go-hairline);
+  }
+}
+
+/* The close button's ✕: two crossed strokes. */
+.go-nav_cancel-x {
+  position: relative;
+  width: 1rem;
+  height: 1rem;
+}
+
+.go-nav_cancel-x::before,
+.go-nav_cancel-x::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  margin-top: -1px;
+  border-radius: 1px;
+  background: currentColor;
+  transform: rotate(45deg);
+}
+
+.go-nav_cancel-x::after {
+  transform: rotate(-45deg);
 }
 
 /* ---- Phones ---------------------------------------------------------------
  * There's no room for a usable field beside the sections, so search collapses
  * to an icon button at the end of the bar. Tapping it opens the field across
- * the whole bar with a Cancelar button, the familiar mobile search pattern.
+ * the whole bar with a close button, the familiar mobile search pattern.
  * The field stays open while it's being edited or holds a query, so results
- * keep their context; Cancelar clears the query and closes it. */
+ * keep their context; the ✕ clears the query and closes it. The scope chips
+ * give way to a single menu at the start of the field. */
 @media (max-width: 720px) {
   .go-nav {
     gap: 0.5rem;
@@ -296,15 +455,27 @@
       margin-left: 0;
     }
 
+    /* The chips don't fit beside the field; the scope menu stands in. */
+    .go-nav_scope {
+      display: none;
+    }
+
     .go-search {
       flex: 1;
       justify-content: flex-start;
+      gap: 0.5rem;
       width: auto;
-      padding: 0 1rem;
+      padding: 0 0.75rem 0 0.375rem;
     }
 
+    /* The scope chip leads the field, so the magnifier steps aside. */
     .go-search_icon {
-      margin: 0;
+      display: none;
+    }
+
+    .go-scopemenu {
+      display: flex;
+      flex: 0 0 auto;
     }
 
     .go-search_input {
@@ -313,14 +484,18 @@
     }
 
     .go-nav_cancel {
-      display: inline-flex;
-      align-items: center;
-      min-height: 2.75rem;
-      padding: 0 0.25rem;
-      font-size: var(--go-size-body);
-      font-weight: 700;
+      display: grid;
+      place-items: center;
+      flex: 0 0 auto;
+      width: 2.75rem;
+      height: 2.75rem;
+      margin-right: -0.5rem; /* the glyph, not its tap area, lines up with the edge */
+      border-radius: 50%;
       color: var(--go-text);
-      white-space: nowrap;
+    }
+
+    .go-nav_cancel:active {
+      background: var(--go-hairline);
     }
   }
 }

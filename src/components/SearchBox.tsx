@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useRef, useState, type ReactNode } from 'react'
 import { useFocusable } from '../focus/useFocusable'
 import { useFocusState } from '../focus/FocusProvider'
 
@@ -18,12 +18,15 @@ export function SearchBox({
   onChange,
   row,
   col,
+  leading,
 }: {
   value: string
   placeholder: string
   onChange: (value: string) => void
   row: number
   col: number
+  /** Rendered inside the field, before the input (the phone's scope menu). */
+  leading?: ReactNode
 }) {
   const [editing, setEditing] = useState(false)
   const inputRef = useRef<HTMLInputElement>(null)
@@ -71,6 +74,7 @@ export function SearchBox({
       onClick={activate}
     >
       <span className="go-search_icon" aria-hidden="true" />
+      {leading}
       <input
         ref={inputRef}
         type="search"

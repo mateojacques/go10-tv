@@ -346,3 +346,43 @@ describe('Player', () => {
     expect(stored('9:1').time).toBe(2000)
   })
 })
+
+describe('Player bar', () => {
+  const episode = row({ type: 'episode', series_title: 'Spidey', season_number: 2, episode_number: 5 })
+  const bar = () => document.getElementById('go-player-bar')!
+
+  it('starts folded away behind a handle, and opens on tap', () => {
+    render(<Player row={episode} onClose={() => {}} />)
+    expect(bar().className).not.toContain('is-open')
+    expect(bar().hasAttribute('inert')).toBe(true)
+    fireEvent.click(screen.getByRole('button', { name: 'Mostrar controles' }))
+    expect(bar().className).toContain('is-open')
+    expect(screen.getByRole('button', { name: 'Ocultar controles' }).getAttribute('aria-expanded')).toBe('true')
+  })
+
+  it('names the episode compactly and shows no key hints', () => {
+    render(<Player row={episode} onClose={() => {}} onNext={() => {}} />)
+    expect(screen.getByText('T2 · E5')).not.toBeNull()
+    expect(bar().textContent).not.toMatch(/Pulsa|Shift/)
+  })
+
+  it('steps between episodes from the bar', () => {
+    const onPrev = vi.fn()
+    const onNext = vi.fn()
+    render(<Player row={episode} onClose={() => {}} onPrev={onPrev} onNext={onNext} />)
+    fireEvent.click(screen.getByRole('button', { name: 'Episodio anterior' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Episodio siguiente' }))
+    expect(onPrev).toHaveBeenCalledTimes(1)
+    expect(onNext).toHaveBeenCalledTimes(1)
+  })
+
+  it('disables the missing direction at either end of a season', () => {
+    render(<Player row={episode} onClose={() => {}} onNext={() => {}} />)
+    expect((screen.getByRole('button', { name: 'Episodio anterior' }) as HTMLButtonElement).disabled).toBe(true)
+  })
+
+  it('has no episode buttons for a movie', () => {
+    render(<Player row={row()} onClose={() => {}} />)
+    expect(screen.queryByRole('button', { name: 'Episodio siguiente' })).toBeNull()
+  })
+})

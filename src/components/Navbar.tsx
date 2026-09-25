@@ -1,4 +1,5 @@
 import { SearchBox } from './SearchBox'
+import { ScopeMenu, type ScopeGroup } from './ScopeMenu'
 import { useFocusable } from '../focus/useFocusable'
 import { useFocusState } from '../focus/FocusProvider'
 import { browseRoute, type Route, type Section } from '../router/route'
@@ -81,6 +82,39 @@ export function Navbar({
     }
   }
 
+  // Phones: one menu instead of the chips, which don't fit beside the field.
+  const chooseSection = (target: Section) => {
+    if (hasQuery) onNavigate({ name: 'catalog', section: target, query, ...scope }, { replace: true })
+    else onNavigate(browseRoute(target), { replace: true })
+  }
+  const scopeGroups: ScopeGroup<string>[] = [
+    {
+      label: 'Sección',
+      value: section,
+      options: [
+        { value: 'all', label: 'Todo' },
+        { value: 'movie', label: SECTION_LABELS.movie },
+        { value: 'show', label: SECTION_LABELS.show },
+      ],
+      onChange: (value) => chooseSection(value as Section),
+    },
+  ]
+  if (hasQuery && externalTitlesEnabled()) {
+    scopeGroups.push({
+      label: 'Fuente',
+      value: catalogOnly ? 'catalog' : 'everything',
+      options: [
+        { value: 'everything', label: 'Todo' },
+        { value: 'catalog', label: 'Solo catálogo' },
+      ],
+      onChange: (value) =>
+        onNavigate(
+          value === 'catalog' ? { name: 'catalog', section, query, catalogOnly: true } : { name: 'catalog', section, query },
+          { replace: true },
+        ),
+    })
+  }
+
   return (
     <nav className={`go-nav${hasQuery ? ' has-query' : ''}`} aria-label="Principal">
       <button
@@ -137,6 +171,7 @@ export function Navbar({
           value={query}
           placeholder={sectionLabel ? `Buscar en ${sectionLabel}` : 'Buscar'}
           onChange={onQueryChange}
+          leading={<ScopeMenu label={sectionLabel ?? 'Todo'} groups={scopeGroups} />}
         />
         {hasQuery && externalTitlesEnabled() && (
           // In the navbar, not above the grid: Enter/Down from the search box
@@ -161,6 +196,7 @@ export function Navbar({
         <button
           type="button"
           className="go-nav_cancel"
+          aria-label="Cerrar búsqueda"
           // Keep the input focused through the press, so the field doesn't
           // collapse under the finger before the click lands.
           onPointerDown={(event) => event.preventDefault()}
@@ -170,7 +206,7 @@ export function Navbar({
             if (active instanceof HTMLElement) active.blur()
           }}
         >
-          Cancelar
+          <span className="go-nav_cancel-x" aria-hidden="true" />
         </button>
       </div>
     </nav>

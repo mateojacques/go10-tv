@@ -61,8 +61,12 @@ and the build is exactly the catalog-only app.
 
 ## Controls
 
-Designed for a TV remote first. **There are no hover states anywhere** and the
-mouse cursor is hidden — the primary target device has no pointer.
+Designed for a TV remote first. On a TV (detected from the browser's user
+agent, or forced with `?tv=1`; `?tv=0` undoes it) one item is always lit and
+holds focus. Anywhere else the app starts in pointer mode, with nothing lit:
+mouse users get hover states and touch just taps. The first arrow or Enter
+press switches to keyboard mode and shows where focus is, without moving it;
+any click or tap switches back.
 
 | Key | Action |
 | --- | --- |
@@ -74,10 +78,12 @@ In the search box, Enter starts typing (a TV opens its on-screen keyboard).
 While typing, Left/Right/Backspace edit the text, Enter or Down jump to the
 first result, and Up or Escape stop typing without leaving the page.
 
-Touch (phone/tablet) is also supported: tap a card, the play button, or a
-season to select it directly, and tap the back button shown on the detail and
-player screens (there's no hardware back key to fall back on there). The
-player also autoplays on open, so watching never needs an extra tap or click.
+Touch (phone/tablet) is also supported: tap a card, the play button, a season
+tab or an episode number to select it directly, and tap the back button on the
+detail screen (there's no hardware back key to fall back on there). The player
+starts full-screen with its bar folded away: the small tab at the top edge
+opens it, with back and previous/next-episode buttons. The player also
+autoplays on open, so watching never needs an extra tap or click.
 
 ## What's in it
 

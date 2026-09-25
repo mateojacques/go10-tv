@@ -60,6 +60,14 @@
   --go-dur-slow: 420ms;
 }
 
+/* Phones: a 10-foot overscan margin is wasted width at arm's length. */
+@media (max-width: 600px) {
+  :root {
+    --go-safe-x: 1.25rem;
+    --go-safe-y: 1.5rem;
+  }
+}
+
 /* Motion is decoration here; input response never depends on it. */
 @media (prefers-reduced-motion: reduce) {
   :root {

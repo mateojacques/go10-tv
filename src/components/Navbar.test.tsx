@@ -34,9 +34,9 @@ const route = () => JSON.parse(screen.getByTestId('route').textContent!)
 describe('Navbar', () => {
   it('navigates to the section pages', () => {
     render(<Harness initial={{ name: 'home' }} />)
-    fireEvent.click(screen.getByText('Películas'))
+    fireEvent.click(screen.getByRole('button', { name: 'Películas' }))
     expect(route()).toEqual({ name: 'catalog', section: 'movie', query: '' })
-    fireEvent.click(screen.getByText('Series'))
+    fireEvent.click(screen.getByRole('button', { name: 'Series' }))
     expect(route()).toEqual({ name: 'catalog', section: 'show', query: '' })
   })
 
@@ -121,20 +121,20 @@ describe('Navbar', () => {
     expect(onBack).toHaveBeenCalledTimes(1) // not editing any more: a real back
   })
 
-  it('Cancelar clears the search and closes the field', () => {
+  it('the close button clears the search and closes the field', () => {
     render(<Harness initial={{ name: 'catalog', section: 'movie', query: 'toy' }} />)
     fireEvent.click(input())
     expect(document.activeElement).toBe(input())
-    fireEvent.click(screen.getByRole('button', { name: 'Cancelar' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Cerrar búsqueda' }))
     expect(route()).toEqual({ name: 'catalog', section: 'movie', query: '' })
     expect(document.activeElement).not.toBe(input())
   })
 
-  it('Cancelar with an empty field just closes it', () => {
+  it('the close button with an empty field just closes it', () => {
     const spy = vi.fn()
     render(<Harness initial={{ name: 'catalog', section: 'movie', query: '' }} spy={spy} />)
     fireEvent.click(input())
-    fireEvent.click(screen.getByRole('button', { name: 'Cancelar' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Cerrar búsqueda' }))
     expect(spy).not.toHaveBeenCalled()
     expect(document.activeElement).not.toBe(input())
   })
@@ -148,7 +148,44 @@ describe('Navbar', () => {
   it('does not re-navigate to the section already open', () => {
     const spy = vi.fn()
     render(<Harness initial={{ name: 'catalog', section: 'movie', query: '' }} spy={spy} />)
-    fireEvent.click(screen.getByText('Películas'))
+    fireEvent.click(screen.getByRole('button', { name: 'Películas' }))
     expect(spy).not.toHaveBeenCalled()
+  })
+})
+
+describe('Navbar phone scope menu', () => {
+  const trigger = (label: string) => screen.getByRole('button', { name: `Buscar en: ${label}` })
+
+  it('rescopes a search in place, keeping the query', () => {
+    const spy = vi.fn()
+    render(<Harness initial={{ name: 'catalog', section: 'all', query: 'gx' }} spy={spy} />)
+    fireEvent.click(trigger('Todo'))
+    const option = screen.getByRole('menuitemradio', { name: 'Series' })
+    fireEvent.click(option)
+    expect(spy).toHaveBeenLastCalledWith({ name: 'catalog', section: 'show', query: 'gx' }, { replace: true })
+    expect(screen.queryByRole('menu')).toBeNull()
+    expect(trigger('Series')).toBeTruthy()
+  })
+
+  it('marks the current section as checked', () => {
+    render(<Harness initial={{ name: 'catalog', section: 'movie', query: 'x' }} />)
+    fireEvent.click(trigger('Películas'))
+    expect(screen.getByRole('menuitemradio', { name: 'Películas' }).getAttribute('aria-checked')).toBe('true')
+    expect(screen.getByRole('menuitemradio', { name: 'Todo' }).getAttribute('aria-checked')).toBe('false')
+  })
+
+  it('Escape closes the menu without backing out of the screen', () => {
+    const onBack = vi.fn()
+    render(<Harness initial={{ name: 'catalog', section: 'all', query: 'x' }} onBack={onBack} />)
+    fireEvent.click(trigger('Todo'))
+    press('Escape')
+    expect(screen.queryByRole('menu')).toBeNull()
+    expect(onBack).not.toHaveBeenCalled()
+  })
+
+  it('offers no source group with external titles off', () => {
+    render(<Harness initial={{ name: 'home' }} />)
+    fireEvent.click(trigger('Todo'))
+    expect(screen.queryByRole('group', { name: 'Fuente' })).toBeNull()
   })
 })

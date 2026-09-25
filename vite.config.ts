@@ -5,6 +5,7 @@ export default defineConfig({
   plugins: [react()],
   test: {
     environment: 'jsdom',
+    setupFiles: ['./src/test/setup.ts'],
     globals: true,
     // External titles are off for the suite; tests that need them stub these.
     env: { VITE_EXTERNAL_TITLES: 'off', VITE_TMDB_TOKEN: '' },

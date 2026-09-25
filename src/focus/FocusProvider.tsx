@@ -8,6 +8,7 @@ import {
   useState,
   type ReactNode,
 } from 'react'
+import { getInputMode, setInputMode } from './inputMode'
 
 export interface FocusItem {
   id: string
@@ -64,6 +65,9 @@ export type ArrowKey = 'ArrowUp' | 'ArrowDown' | 'ArrowLeft' | 'ArrowRight'
  */
 /** Keys a focused text field needs for itself: caret movement and deleting. */
 const PASSTHROUGH_KEYS = new Set(['ArrowLeft', 'ArrowRight', 'Backspace'])
+
+/** Keys that mean "I'm steering with a remote or keyboard" — see inputMode. */
+const STEERING_KEYS = new Set(['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'Enter'])
 
 function isEditable(element: Element | null) {
   return (
@@ -178,12 +182,25 @@ export function FocusProvider({
     if (!enabled) return
 
     function onKeyDown(event: KeyboardEvent) {
+      const steering = STEERING_KEYS.has(event.key)
+      const wasHidden = getInputMode() === 'pointer'
       const current = focusedId ? items.current.get(focusedId) : undefined
       if (current?.onKey?.(event.key)) {
+        if (steering) setInputMode('keys')
         event.preventDefault()
         return
       }
       if (isEditable(document.activeElement) && PASSTHROUGH_KEYS.has(event.key)) return
+
+      if (steering) {
+        setInputMode('keys')
+        // Focus was hidden while the mouse or a finger drove: the first press
+        // only shows where it is, instead of moving (or activating) unseen.
+        if (wasHidden && focusedId) {
+          event.preventDefault()
+          return
+        }
+      }
 
       switch (event.key) {
         case 'ArrowUp':

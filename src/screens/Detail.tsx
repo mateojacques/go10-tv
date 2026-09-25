@@ -1,14 +1,16 @@
-import { useEffect, useMemo, useState, type ReactNode } from 'react'
+import { useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
 import type { CatalogRow, Title } from '../types'
 import { Backdrop } from '../components/Backdrop'
 import { useFocusable } from '../focus/useFocusable'
+import { useFocusState } from '../focus/FocusProvider'
 import { formatDuration, formatViews } from '../lib/format'
 import { groupSeasons } from './groupSeasons'
+import { useGridColumns } from './useGridColumns'
 import { rowKey } from '../catalog/rowKey'
 import { ProgressBar } from '../components/ProgressBar'
 import { listProgress, resumeFromTime, type Progress } from '../progress/progressStore'
 import { playedFraction, titleProgress } from '../progress/titleProgress'
-import { remainingLabel } from '../progress/describe'
+import { remainingLabel, rowLabel } from '../progress/describe'
 import { imageSrc } from '../lib/imageSrc'
 import './Detail.css'
 
@@ -18,6 +20,8 @@ function FocusButton({
   col,
   onEnter,
   className,
+  ariaLabel,
+  ariaPressed,
   children,
 }: {
   id: string
@@ -25,6 +29,8 @@ function FocusButton({
   col: number
   onEnter: () => void
   className: string
+  ariaLabel?: string
+  ariaPressed?: boolean
   children: ReactNode
 }) {
   const { ref, focused, activate, tabIndex } = useFocusable(id, row, col, onEnter)
@@ -33,6 +39,8 @@ function FocusButton({
       ref={ref}
       tabIndex={tabIndex}
       role="button"
+      aria-label={ariaLabel}
+      aria-pressed={ariaPressed}
       className={`${className}${focused ? ' is-focused' : ''}`}
       data-focused={focused}
       onClick={activate}
@@ -42,11 +50,85 @@ function FocusButton({
   )
 }
 
-/** Duration and quality, plus "Visto" once finished. */
-function tileDetail(row: CatalogRow, progress: Progress | undefined): string {
-  return [formatDuration(row.duration_seconds), row.quality, progress?.watched && 'Visto']
-    .filter(Boolean)
-    .join(' · ')
+/** Duration, then "Visto" once finished or how much is left mid-way. */
+function rowStatus(row: CatalogRow, progress: Progress | undefined): string {
+  const state = progress?.watched
+    ? 'Visto'
+    : progress && resumeFromTime(progress) !== null
+      ? remainingLabel(progress)
+      : null
+  return [formatDuration(row.duration_seconds), state].filter(Boolean).join(' · ')
+}
+
+const SEASON_ROW = 1
+/** Episode tiles take every focus row from here down, one per grid line. */
+const FIRST_EPISODE_ROW = 2
+
+/**
+ * A season's episodes as a dense grid of numbered tiles: fifty episodes fold
+ * into ten short lines on a phone instead of fifty stacked cards. The number
+ * is all most of these episodes have to tell them apart (they share one
+ * thumbnail), so the grid leads with it and the rest goes on one caption line.
+ */
+function EpisodeGrid({
+  rows,
+  activeRow,
+  progress,
+  onPick,
+}: {
+  rows: CatalogRow[]
+  activeRow: CatalogRow
+  progress: Record<string, Progress>
+  onPick: (row: CatalogRow) => void
+}) {
+  const gridRef = useRef<HTMLOListElement>(null)
+  const columns = useGridColumns(gridRef)
+  const { focusedId } = useFocusState()
+  // The caption follows the remote across the grid, and otherwise describes
+  // the episode Play would start.
+  const described =
+    rows.find((episode) => focusedId === `detail:episode:${rowKey(episode)}`) ??
+    rows.find((episode) => rowKey(episode) === rowKey(activeRow))
+
+  return (
+    <>
+      <p className="go-episodes_caption">
+        {described && (
+          <>
+            <span className="go-episodes_caption-n">Episodio {described.episode_number}</span>
+            {rowStatus(described, progress[rowKey(described)]) &&
+              ` · ${rowStatus(described, progress[rowKey(described)])}`}
+          </>
+        )}
+      </p>
+      <ol ref={gridRef} className="go-epgrid">
+        {rows.map((episode, index) => {
+          const key = rowKey(episode)
+          const episodeProgress = progress[key]
+          const watched = episodeProgress?.watched === true
+          return (
+            <li key={key}>
+              <FocusButton
+                id={`detail:episode:${key}`}
+                row={FIRST_EPISODE_ROW + Math.floor(index / columns)}
+                col={index % columns}
+                onEnter={() => onPick(episode)}
+                ariaLabel={[`Episodio ${episode.episode_number}`, rowStatus(episode, episodeProgress)]
+                  .filter(Boolean)
+                  .join(', ')}
+                className={`go-ep${key === rowKey(activeRow) ? ' is-active' : ''}${watched ? ' is-watched' : ''}`}
+              >
+                <span className="go-ep_n" aria-hidden="true">
+                  {episode.episode_number}
+                </span>
+                {!watched && <ProgressBar fraction={playedFraction(episodeProgress)} className="go-ep_progress" />}
+              </FocusButton>
+            </li>
+          )
+        })}
+      </ol>
+    </>
+  )
 }
 
 export function Detail({
@@ -99,6 +181,18 @@ export function Detail({
     title.external ? null : formatViews(title.views),
   ].filter(Boolean)
 
+  // Which episode Play starts and how much of it is left: context under the
+  // button, not part of its label.
+  const playMeta = [
+    isShow ? rowLabel(activeRow) : null,
+    resuming && activeProgress ? remainingLabel(activeProgress) : null,
+  ].filter(Boolean)
+
+  const pickEpisode = (episode: CatalogRow) => {
+    setActiveRow(episode)
+    onPlay(episode)
+  }
+
   return (
     <div className="go-detail">
       <Backdrop thumbnail={title.thumbnail} />
@@ -110,7 +204,9 @@ export function Detail({
       <div className="go-detail_body">
         <div className="go-detail_main">
           <p className="go-detail_eyebrow">
-            {isShow ? `Serie · ${seasonGroups.length} temporadas` : 'Película'}
+            {isShow
+              ? `Serie · ${seasonGroups.length} ${seasonGroups.length === 1 ? 'temporada' : 'temporadas'}`
+              : 'Película'}
             {title.studio && ` · ${title.studio}`}
           </p>
 
@@ -142,21 +238,13 @@ export function Detail({
           >
             <span className="go-play_icon" aria-hidden="true" />
             {resuming ? 'Reanudar' : 'Reproducir'}
-            {isShow && (
-              <span className="go-play_season">
-                {activeRow.season_label || `Temporada ${activeRow.season_number}`}
-                {activeRow.episode_number ? ` · Episodio ${activeRow.episode_number}` : ''}
-              </span>
-            )}
-            {resuming && activeProgress && (
-              <span className="go-play_season">{remainingLabel(activeProgress)}</span>
-            )}
           </FocusButton>
-          {resuming && <ProgressBar fraction={playedFraction(activeProgress)} className="go-play_progress" />}
-
-          <p className="go-detail_hint">
-            Usa las flechas para navegar · Atrás para volver
-          </p>
+          {playMeta.length > 0 && (
+            <p className="go-play_meta">
+              {resuming && <ProgressBar fraction={playedFraction(activeProgress)} className="go-play_progress" />}
+              {playMeta.join(' · ')}
+            </p>
+          )}
         </div>
 
         <figure className="go-detail_art">
@@ -165,62 +253,58 @@ export function Detail({
       </div>
 
       {isShow && (
-        <section className="go-seasons">
-          <h2 className="go-seasons_label">Temporadas</h2>
-          <div className="go-seasons_list">
-            {seasonGroups.map((group, index) => (
-              <FocusButton
-                key={group.seasonNumber}
-                id={`detail:season:${group.seasonNumber}`}
-                row={1}
-                col={index}
-                onEnter={() => {
-                  const first = group.rows[0]
-                  setActiveRow(first)
-                  setSelectedSeasonNumber(group.seasonNumber)
-                  if (group.rows.length === 1) onPlay(first)
-                }}
-                className={`go-season${
-                  group.seasonNumber === selectedSeasonNumber ? ' is-active' : ''
-                }`}
-              >
-                <span className="go-season_n">{group.label}</span>
-                <span className="go-season_d">
-                  {group.rows.length > 1
-                    ? `${group.rows.length} episodios`
-                    : tileDetail(group.rows[0], progress[rowKey(group.rows[0])])}
-                </span>
-                {group.rows.length === 1 && (
-                  <ProgressBar fraction={playedFraction(progress[rowKey(group.rows[0])])} />
-                )}
-              </FocusButton>
-            ))}
-          </div>
+        <section className="go-seasons" aria-label="Temporadas y episodios">
+          {seasonGroups.length > 1 && (
+            <div className="go-seasontabs">
+              {seasonGroups.map((group, index) => {
+                // A season that is one whole file plays straight from its tab.
+                const single = group.rows.length === 1 ? group.rows[0] : null
+                const singleProgress = single ? progress[rowKey(single)] : undefined
+                const selected = group.seasonNumber === selectedSeasonNumber
+                return (
+                  <FocusButton
+                    key={group.seasonNumber}
+                    id={`detail:season:${group.seasonNumber}`}
+                    row={SEASON_ROW}
+                    col={index}
+                    ariaPressed={selected}
+                    ariaLabel={
+                      single
+                        ? [group.label, rowStatus(single, singleProgress)].filter(Boolean).join(', ')
+                        : `${group.label}, ${group.rows.length} episodios`
+                    }
+                    onEnter={() => {
+                      const first = group.rows[0]
+                      setActiveRow(first)
+                      setSelectedSeasonNumber(group.seasonNumber)
+                      if (single) onPlay(first)
+                    }}
+                    className={`go-seasontab${selected ? ' is-active' : ''}${
+                      singleProgress?.watched ? ' is-watched' : ''
+                    }`}
+                  >
+                    {group.label}
+                    {single && !singleProgress?.watched && (
+                      <ProgressBar fraction={playedFraction(singleProgress)} className="go-seasontab_progress" />
+                    )}
+                  </FocusButton>
+                )
+              })}
+            </div>
+          )}
 
           {selectedGroup && selectedGroup.rows.length > 1 && (
             <div className="go-episodes">
-              <h2 className="go-seasons_label">Episodios</h2>
-              <div className="go-seasons_list">
-                {selectedGroup.rows.map((episode, index) => (
-                  <FocusButton
-                    key={rowKey(episode)}
-                    id={`detail:episode:${rowKey(episode)}`}
-                    row={2}
-                    col={index}
-                    onEnter={() => {
-                      setActiveRow(episode)
-                      onPlay(episode)
-                    }}
-                    className={`go-season${
-                      rowKey(episode) === rowKey(activeRow) ? ' is-active' : ''
-                    }`}
-                  >
-                    <span className="go-season_n">Episodio {episode.episode_number}</span>
-                    <span className="go-season_d">{tileDetail(episode, progress[rowKey(episode)])}</span>
-                    <ProgressBar fraction={playedFraction(progress[rowKey(episode)])} />
-                  </FocusButton>
-                ))}
-              </div>
+              <h2 className="go-seasons_label">
+                Episodios
+                <span className="go-seasons_count">{selectedGroup.rows.length}</span>
+              </h2>
+              <EpisodeGrid
+                rows={selectedGroup.rows}
+                activeRow={activeRow}
+                progress={progress}
+                onPick={pickEpisode}
+              />
             </div>
           )}
         </section>

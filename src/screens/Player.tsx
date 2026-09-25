@@ -1,9 +1,10 @@
-import { useCallback, useEffect, useMemo, useReducer, useRef } from 'react'
+import { useCallback, useEffect, useMemo, useReducer, useRef, useState } from 'react'
 import type { CatalogRow } from '../types'
 import { playerRetryReducer, initialPlayerRetryState, backoffMs } from './playerRetry'
 import { markWatched, readProgress, resumeFromTime, writeProgress } from '../progress/progressStore'
 import { providerFor } from './providers'
 import { rowKey } from '../catalog/rowKey'
+import { rowLabel } from '../progress/describe'
 import './Player.css'
 
 /** How long to wait for the embed before treating it as a load failure. */
@@ -29,11 +30,13 @@ export function Player({
   onClose: () => void
   /** Fired when the ok.ru embed reports its "ended" playback event. */
   onEnded?: () => void
-  /** Shift+ArrowLeft / Shift+ArrowRight — jump to a sibling episode. */
+  /** Jump to a sibling episode: the bar's buttons, or Shift+ArrowLeft / Shift+ArrowRight. */
   onPrev?: () => void
   onNext?: () => void
 }) {
   const [state, dispatch] = useReducer(playerRetryReducer, initialPlayerRetryState)
+  // The bar overlays the video, folded away to a small handle until wanted.
+  const [barOpen, setBarOpen] = useState(false)
   const loaded = useRef(false)
   // The latest position ok.ru reported, saved to storage at most every
   // PROGRESS_SAVE_INTERVAL_MS — and always on pause, reload, and close.
@@ -214,25 +217,53 @@ export function Player({
   }, [])
 
   const heading = row.series_title || row.title
-  const season = row.season_number
-    ? row.season_label || `Temporada ${row.season_number}`
-    : null
+  const position = rowLabel(row)
 
   const embedSrc = provider.src(row, provider.resumesViaUrl ? fromTime : null)
 
   return (
     <div className="go-player" ref={containerRef}>
-      <div className="go-player_bar">
-        <button type="button" className="go-player_back" onClick={onClose} aria-label="Volver">
+      <button
+        type="button"
+        className="go-player_handle"
+        aria-expanded={barOpen}
+        aria-controls="go-player-bar"
+        aria-label={barOpen ? 'Ocultar controles' : 'Mostrar controles'}
+        onClick={() => setBarOpen((open) => !open)}
+      >
+        <span className="go-player_handle-chevron" aria-hidden="true" />
+      </button>
+
+      <div id="go-player-bar" className={`go-player_bar${barOpen ? ' is-open' : ''}`} inert={!barOpen}>
+        <button type="button" className="go-player_btn" onClick={onClose} aria-label="Volver">
           <span className="go-back_chevron" aria-hidden="true" />
         </button>
-        <span className="go-player_mark" aria-hidden="true" />
-        <span className="go-player_title">{heading}</span>
-        {season && <span className="go-player_season">{season}</span>}
-        <span className="go-player_hint">
-          Pulsa Atrás para salir · F para pantalla completa · R para recargar
-          {(onPrev || onNext) && ' · Shift + ←/→ para episodio anterior/siguiente'}
-        </span>
+        <div className="go-player_heading">
+          <span className="go-player_title">{heading}</span>
+          {position && <span className="go-player_season">{position}</span>}
+        </div>
+        {(onPrev || onNext) && (
+          <div className="go-player_steps">
+            <button
+              type="button"
+              className="go-player_btn"
+              onClick={onPrev}
+              disabled={!onPrev}
+              aria-label="Episodio anterior"
+            >
+              <span className="go-player_step go-player_step--prev" aria-hidden="true" />
+            </button>
+            <button
+              type="button"
+              className="go-player_btn"
+              onClick={onNext}
+              disabled={!onNext}
+              aria-label="Episodio siguiente"
+            >
+              <span className="go-player_step" aria-hidden="true" />
+            </button>
+          </div>
+        )}
       </div>
 
       {state.status === 'retrying' && (

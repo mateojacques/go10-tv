@@ -37,10 +37,10 @@ describe('Navbar source chip (external titles on)', () => {
     const spy = vi.fn()
     render(<Harness initial={{ name: 'catalog', section: 'all', query: 'bat' }} spy={spy} />)
 
-    fireEvent.click(screen.getByText('Todo'))
+    fireEvent.click(screen.getByText('Todo', { selector: '.go-nav_source' }))
     expect(spy).toHaveBeenLastCalledWith({ name: 'catalog', section: 'all', query: 'bat', catalogOnly: true }, { replace: true })
 
-    fireEvent.click(screen.getByText('Solo catálogo'))
+    fireEvent.click(screen.getByText('Solo catálogo', { selector: '.go-nav_source' }))
     expect(spy).toHaveBeenLastCalledWith({ name: 'catalog', section: 'all', query: 'bat' }, { replace: true })
   })
 
@@ -65,14 +65,29 @@ describe('Navbar source chip (external titles on)', () => {
 
   it('has no chip without a query', () => {
     render(<Harness initial={{ name: 'catalog', section: 'movie', query: '' }} />)
-    expect(screen.queryByText('Todo')).toBeNull()
+    expect(screen.queryByText('Todo', { selector: '.go-nav_source' })).toBeNull()
   })
 })
 
 describe('Navbar source chip (external titles off)', () => {
   it('is never shown', () => {
     render(<Harness initial={{ name: 'catalog', section: 'all', query: 'bat' }} />)
-    expect(screen.queryByText('Todo')).toBeNull()
-    expect(screen.queryByText('Solo catálogo')).toBeNull()
+    expect(screen.queryByText('Todo', { selector: '.go-nav_source' })).toBeNull()
+    expect(screen.queryByText('Solo catálogo', { selector: '.go-nav_source' })).toBeNull()
+  })
+})
+
+describe('Navbar phone scope menu (external titles on)', () => {
+  beforeEach(() => enableExternalTitles())
+
+  it('offers the source group alongside the section while searching', () => {
+    const spy = vi.fn()
+    render(<Harness initial={{ name: 'catalog', section: 'show', query: 'bat' }} spy={spy} />)
+    fireEvent.click(screen.getByRole('button', { name: 'Buscar en: Series' }))
+    fireEvent.click(screen.getByRole('menuitemradio', { name: 'Solo catálogo' }))
+    expect(spy).toHaveBeenLastCalledWith(
+      { name: 'catalog', section: 'show', query: 'bat', catalogOnly: true },
+      { replace: true },
+    )
   })
 })

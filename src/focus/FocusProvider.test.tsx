@@ -1,7 +1,8 @@
 import { describe, it, expect, vi } from 'vitest'
-import { render, fireEvent } from '@testing-library/react'
+import { render, fireEvent, act } from '@testing-library/react'
 import { FocusProvider, useFocusState } from './FocusProvider'
 import { useFocusable } from './useFocusable'
+import { isTvUserAgent, setInputMode } from './inputMode'
 
 function Cell({
   id,
@@ -278,5 +279,53 @@ describe('FocusProvider key hooks', () => {
     expect(focusedId()).toBe('b')
     rerender(<Moving row={1} />) // e.g. the grid reflowed to fewer columns
     expect(focusedId()).toBe('b')
+  })
+})
+
+describe('FocusProvider with a mouse or a finger', () => {
+  const visible = () => document.querySelectorAll('[data-focused="true"]')
+
+  it('shows no focus until a steering key is pressed', () => {
+    setInputMode('pointer')
+    render(<Grid />)
+    expect(visible()).toHaveLength(0)
+  })
+
+  it('reveals focus on the first arrow without moving it', () => {
+    setInputMode('pointer')
+    render(<Grid />)
+    press('ArrowRight')
+    expect(focusedId()).toBe('a')
+    press('ArrowRight')
+    expect(focusedId()).toBe('b')
+  })
+
+  it('does not activate the hidden item on the first Enter', () => {
+    setInputMode('pointer')
+    const onEnter = vi.fn()
+    render(<Grid onEnter={onEnter} />)
+    press('Enter')
+    expect(onEnter).not.toHaveBeenCalled()
+    press('Enter')
+    expect(onEnter).toHaveBeenCalledTimes(1)
+  })
+
+  it('hides focus again once the pointer is used', () => {
+    render(<Grid />)
+    expect(focusedId()).toBe('a')
+    act(() => {
+      fireEvent.pointerDown(document.body)
+    })
+    expect(visible()).toHaveLength(0)
+  })
+})
+
+describe('isTvUserAgent', () => {
+  it('recognises smart-TV browsers and not phones or desktops', () => {
+    expect(isTvUserAgent('Mozilla/5.0 (SMART-TV; LINUX; Tizen 6.0) AppleWebKit/537.36')).toBe(true)
+    expect(isTvUserAgent('Mozilla/5.0 (Web0S; Linux/SmartTV) AppleWebKit/537.36')).toBe(true)
+    expect(isTvUserAgent('Mozilla/5.0 (Linux; Android 9; AFTMM) AppleWebKit/537.36')).toBe(true)
+    expect(isTvUserAgent('Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X)')).toBe(false)
+    expect(isTvUserAgent('Mozilla/5.0 (X11; Linux x86_64) Chrome/128.0 Safari/537.36')).toBe(false)
   })
 })

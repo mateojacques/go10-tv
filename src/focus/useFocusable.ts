@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useRef } from 'react'
 import { useFocusContext } from './FocusProvider'
+import { useInputMode } from './inputMode'
 
 /**
  * Register one element in the focus grid.
@@ -22,6 +23,7 @@ export function useFocusable(
 ) {
   const ref = useRef<HTMLDivElement>(null)
   const { focusedId, focus, register } = useFocusContext()
+  const inputMode = useInputMode()
 
   // Kept in a ref so a changing handler identity never re-registers the item.
   const onEnterRef = useRef(onEnter)
@@ -44,7 +46,9 @@ export function useFocusable(
     [id, row, col, register, claimsInitialFocus],
   )
 
-  const focused = focusedId === id
+  // Only shown (and only holding DOM focus) while a remote or keyboard steers:
+  // with a mouse or a finger the grid still tracks position, but invisibly.
+  const focused = focusedId === id && inputMode === 'keys'
 
   // Move real DOM focus to match our own focus model, not just the CSS
   // class. Samsung's Tizen TV browser watches document.activeElement to
