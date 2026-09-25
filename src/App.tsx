@@ -93,6 +93,7 @@ export default function App() {
               titles={titles}
               section={resolved.section}
               query={resolved.query}
+              catalogOnly={route.name === 'catalog' && route.catalogOnly === true}
               onSelect={openTitle}
             />
           ) : (

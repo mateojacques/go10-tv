@@ -1,8 +1,11 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import type { Title } from '../types'
-import { selectTitles, type CatalogMode, type Section } from '../catalog/selectTitles'
+import { selectTitles, type Section } from '../catalog/selectTitles'
 import { Card } from '../components/Card'
 import { useGridColumns } from './useGridColumns'
+import { externalTitlesEnabled } from '../external/config'
+import { useTmdbSearch } from '../external/useTmdbSearch'
+import { mergeSearch, type SearchMode } from '../external/mergeSearch'
 import './Catalog.css'
 
 /**
@@ -17,8 +20,8 @@ const SECTION_LABELS: Record<Section, string> = {
   show: 'Series',
 }
 
-function heading(mode: CatalogMode, section: Section, query: string) {
-  if (mode === 'results') return `Resultados para "${query.trim()}"`
+function heading(mode: SearchMode, section: Section, query: string) {
+  if (mode === 'results' || mode === 'searching') return `Resultados para "${query.trim()}"`
   if (mode === 'suggestions') return `Sin resultados para "${query.trim()}"`
   return SECTION_LABELS[section]
 }
@@ -31,33 +34,43 @@ export function Catalog({
   titles,
   section,
   query,
+  catalogOnly = false,
   onSelect,
 }: {
   titles: Title[]
   section: Section
   query: string
+  /** "Solo catálogo": skip TMDB for this search. */
+  catalogOnly?: boolean
   onSelect: (title: Title) => void
 }) {
   const selection = useMemo(() => selectTitles(titles, section, query), [titles, section, query])
+  const tmdb = useTmdbSearch(query, section, externalTitlesEnabled() && !catalogOnly && selection.mode !== 'browse')
+  const shown = mergeSearch(selection, tmdb)
 
   return (
     <div className="go-catalog">
       <header className="go-catalog_head">
         <h1 className="go-catalog_title">
-          {heading(selection.mode, section, query)}
-          {selection.mode !== 'suggestions' && (
-            <span className="go-row_count">{selection.titles.length}</span>
+          {heading(shown.mode, section, query)}
+          {(shown.mode === 'results' || shown.mode === 'browse') && (
+            <span className="go-row_count">{shown.titles.length}</span>
           )}
         </h1>
-        {selection.mode === 'suggestions' && <p className="go-catalog_sub">Quizás te interese</p>}
+        {shown.mode === 'suggestions' && <p className="go-catalog_sub">Quizás te interese</p>}
       </header>
 
-      {selection.titles.length === 0 ? (
+      {shown.mode === 'searching' ? (
+        <p className="go-catalog_empty">Buscando…</p>
+      ) : shown.titles.length === 0 ? (
         <p className="go-catalog_empty">No hay títulos.</p>
       ) : (
         // Keyed so a new filter starts again from the first batch.
-        <CatalogGrid key={`${section}|${query.trim()}`} titles={selection.titles} onSelect={onSelect} />
+        <CatalogGrid key={`${section}|${query.trim()}`} titles={shown.titles} onSelect={onSelect} />
       )}
+
+      {/* TMDB's API terms require the credit wherever its data is shown. */}
+      {shown.external && <p className="go-catalog_credit">Datos de títulos: TMDB</p>}
     </div>
   )
 }

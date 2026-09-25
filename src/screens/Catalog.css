@@ -67,3 +67,13 @@
     width: auto;
   }
 }
+
+/* TMDB attribution, as quiet as the Detail hint line. */
+.go-catalog_credit {
+  margin: 0 var(--go-safe-x) 1.5rem;
+  font-family: var(--go-font-mono);
+  font-size: var(--go-size-meta);
+  letter-spacing: 0.08em;
+  color: var(--go-text-muted);
+  opacity: 0.7;
+}

@@ -46,7 +46,7 @@ export function Card({
         <img className="go-card_img" src={imageSrc(title.thumbnail)} alt="" loading="lazy" />
         <div className="go-card_tags">
           {title.quality === '4K' && <span className="go-card_tag is-accent">4K</span>}
-          {title.kind === 'show' && (
+          {title.kind === 'show' && seasons > 0 && (
             <span className="go-card_tag">
               {seasons} {seasons === 1 ? 'Temporada' : 'Temporadas'}
             </span>
