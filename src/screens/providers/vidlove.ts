@@ -24,9 +24,11 @@ interface VidloveEvent {
   event?: string
   currentTime?: number
   duration?: number
-  tmdbId?: number
-  season?: number
-  episode?: number
+  // Numbers in every sample seen; compared via Number() in case the
+  // player ever passes its route params through as strings.
+  tmdbId?: number | string
+  season?: number | string
+  episode?: number | string
 }
 
 export const vidlove: EmbedProvider = {
@@ -39,10 +41,10 @@ export const vidlove: EmbedProvider = {
 
     // After autoplay moves on, the previous episode can still be talking.
     const target = parseTmdbKey(row.video_id)
-    if (target && e.tmdbId !== undefined && e.tmdbId !== target.id) return null
+    if (target && e.tmdbId !== undefined && Number(e.tmdbId) !== target.id) return null
     if (row.type === 'episode') {
-      if (e.season !== undefined && e.season !== row.season_number) return null
-      if (e.episode !== undefined && e.episode !== row.episode_number) return null
+      if (e.season !== undefined && Number(e.season) !== row.season_number) return null
+      if (e.episode !== undefined && Number(e.episode) !== row.episode_number) return null
     }
 
     if (e.event === 'timeupdate' && typeof e.currentTime === 'number') {

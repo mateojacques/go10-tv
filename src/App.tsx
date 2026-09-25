@@ -78,10 +78,13 @@ export default function App() {
 
   if (tmdbKey && tmdb.status === 'loading') {
     return (
-      <div className="go-state">
-        <span className="go-state_mark is-loading">GO10 TV</span>
-        <p className="go-state_msg">Cargando título…</p>
-      </div>
+      // A slow TMDB mustn't trap the remote: Back still leaves.
+      <FocusProvider key="external-loading" onBack={back}>
+        <div className="go-state">
+          <span className="go-state_mark is-loading">GO10 TV</span>
+          <p className="go-state_msg">Cargando título…</p>
+        </div>
+      </FocusProvider>
     )
   }
 

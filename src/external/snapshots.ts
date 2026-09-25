@@ -8,6 +8,12 @@ import type { Title } from '../types'
 
 const PREFIX = 'go10:tmdb-title:'
 export const SNAPSHOT_LIMIT = 30
+/**
+ * Total size cap, in characters. A long anime runs to ~1 MB of JSON, and
+ * localStorage is ~5M characters per origin, shared with watch progress:
+ * snapshots must never crowd out progress for the whole app.
+ */
+export const SNAPSHOT_BUDGET_CHARS = 1_000_000
 
 interface Snapshot {
   savedAt: number
@@ -29,14 +35,21 @@ function parse(raw: string | null): Snapshot | null {
   }
 }
 
-function entries(): { storageKey: string; snapshot: Snapshot }[] {
-  const found: { storageKey: string; snapshot: Snapshot }[] = []
+interface Entry {
+  storageKey: string
+  size: number
+  snapshot: Snapshot
+}
+
+function entries(): Entry[] {
+  const found: Entry[] = []
   try {
     for (let i = 0; i < localStorage.length; i++) {
       const storageKey = localStorage.key(i)
       if (!storageKey?.startsWith(PREFIX)) continue
-      const snapshot = parse(localStorage.getItem(storageKey))
-      if (snapshot) found.push({ storageKey, snapshot })
+      const raw = localStorage.getItem(storageKey)
+      const snapshot = parse(raw)
+      if (snapshot) found.push({ storageKey, size: raw?.length ?? 0, snapshot })
     }
   } catch {
     // ignore
@@ -44,10 +57,29 @@ function entries(): { storageKey: string; snapshot: Snapshot }[] {
   return found.sort((a, b) => b.snapshot.savedAt - a.snapshot.savedAt)
 }
 
+/** Drops the oldest snapshots beyond the count limit or the size budget; the newest always stays. */
+function prune(): void {
+  let total = 0
+  entries().forEach(({ storageKey, size }, index) => {
+    total += size
+    if (index > 0 && (index >= SNAPSHOT_LIMIT || total > SNAPSHOT_BUDGET_CHARS)) localStorage.removeItem(storageKey)
+  })
+}
+
 export function saveSnapshot(title: Title, now: number = Date.now()): void {
+  const storageKey = PREFIX + title.key
+  const value = JSON.stringify({ savedAt: now, title })
   try {
-    localStorage.setItem(PREFIX + title.key, JSON.stringify({ savedAt: now, title }))
-    for (const { storageKey } of entries().slice(SNAPSHOT_LIMIT)) localStorage.removeItem(storageKey)
+    try {
+      localStorage.setItem(storageKey, value)
+    } catch {
+      // Full: make room by dropping the oldest other snapshot, then try once more.
+      const oldest = entries().filter((entry) => entry.storageKey !== storageKey).pop()
+      if (!oldest) return
+      localStorage.removeItem(oldest.storageKey)
+      localStorage.setItem(storageKey, value)
+    }
+    prune()
   } catch {
     // ignore — private mode, quota exceeded, or storage disabled
   }

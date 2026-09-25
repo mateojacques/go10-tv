@@ -61,6 +61,16 @@ describe('App with external titles on', () => {
     await waitFor(() => expect(window.location.pathname).toBe('/'))
   })
 
+  it('lets Back leave while a TMDB title is still loading', async () => {
+    vi.stubGlobal('fetch', tmdbFetch({ '/movie/155': () => new Promise(() => {}) }, csv))
+    window.history.replaceState({}, '', '/title/tmdb-movie-155')
+    render(<App />)
+
+    await screen.findByText('Cargando título…')
+    fireEvent.keyDown(window, { key: 'Escape' })
+    await waitFor(() => expect(window.location.pathname).toBe('/'))
+  })
+
   it('bounces an unknown TMDB id home', async () => {
     vi.stubGlobal('fetch', tmdbFetch({}, csv))
     window.history.replaceState({}, '', '/title/tmdb-movie-404')

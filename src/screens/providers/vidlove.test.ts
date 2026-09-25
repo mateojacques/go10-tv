@@ -35,6 +35,12 @@ describe('vidlove provider', () => {
     expect(vidlove.parse(event('timeupdate', { currentTime: 1, season: 2 }), episode)).toBeNull()
   })
 
+  it('matches ids sent as strings', () => {
+    expect(vidlove.parse(event('timeupdate', { currentTime: 5, tmdbId: '1396', season: '1', episode: '2' }), episode))
+      .toEqual({ kind: 'time', time: 5, duration: 0 })
+    expect(vidlove.parse(event('timeupdate', { currentTime: 5, tmdbId: '1396', season: '1', episode: '1' }), episode)).toBeNull()
+  })
+
   it('does not check seasons for a movie', () => {
     expect(vidlove.parse(event('timeupdate', { currentTime: 1, tmdbId: 155, mediaType: 'movie', season: undefined, episode: undefined }), movie))
       .toEqual({ kind: 'time', time: 1, duration: 0 })
