@@ -17,20 +17,8 @@ import { visibleCollections } from '@go10/core/collections/resolveCollection'
 import { CollectionStrip } from '../components/CollectionStrip'
 import { externalTitlesEnabled } from '@go10/core/external/config'
 import { listSnapshots } from '@go10/core/external/snapshots'
+import { FEATURED_ART, FEATURED_SERIES_ID } from '@go10/core/featured'
 import './Home.css'
-
-/** The hero is a fixed promo slot, not derived from the catalog. */
-const FEATURED_SERIES_ID = 'spidey-y-sus-sorprendentes-amigos'
-
-/**
- * Full-resolution key art for the promo slot. Catalog thumbnails are only
- * 368x210, so a title without its own key art falls back to the blurred
- * backdrop plus a small crisp thumbnail.
- */
-const FEATURED_ART = {
-  small: 'assets/spidey/spidey-hero-960.webp',
-  large: 'assets/spidey/spidey-hero-1920.webp',
-}
 
 function HeroButton({
   id,
