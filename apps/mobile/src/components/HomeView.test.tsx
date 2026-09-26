@@ -2,7 +2,7 @@ import { render, screen, userEvent } from '@testing-library/react-native'
 import type { Collection } from '@go10/core/collections/types'
 import type { Title } from '@go10/core/types'
 import type { HomeModel } from '../home/homeModel'
-import { HomeView } from './HomeView'
+import { HomeView, homeSections } from './HomeView'
 
 const title = (key: string): Title => ({
   key, kind: 'movie', title: `Título ${key}`, year: 2001, studio: '', source: '', genre: '', genre_secondary: '',
@@ -51,5 +51,10 @@ describe('HomeView', () => {
     await render(<HomeView model={model({ strip: [] })} imageBase="https://tv.test/" {...handlers()} />)
     expect(screen.queryByRole('button', { name: 'Pixar' })).toBeNull()
     expect(screen.getByRole('header', { name: /Recién añadidos/ })).toBeTruthy()
+  })
+
+  it('keeps the hero out of the virtualised sections, so it never remounts and re-takes TV focus', async () => {
+    expect(homeSections(model()).map((s) => s.kind)).toEqual(['strip', 'row', 'row'])
+    expect(homeSections(model({ strip: [] })).map((s) => s.kind)).toEqual(['row', 'row'])
   })
 })

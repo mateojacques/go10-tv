@@ -42,4 +42,11 @@ describe('Hero', () => {
     expect(screen.getByTestId('hero-backdrop').props.source).toEqual([{ uri: 'https://tv.test/assets/spidey/thumb.webp' }])
     expect(screen.getByTestId('hero-thumb').props.source).toEqual([{ uri: 'https://tv.test/assets/spidey/thumb.webp' }])
   })
+
+  it('requests nothing without key art or a thumbnail', async () => {
+    await render(<Hero title={{ ...spidey, key: 'other', thumbnail: '' }} art={null} imageBase={IMG} onPlay={jest.fn()} onInfo={jest.fn()} />)
+    expect(screen.queryByTestId('hero-backdrop')).toBeNull()
+    expect(screen.queryByTestId('hero-thumb')).toBeNull()
+    expect(screen.getByRole('button', { name: 'Reproducir' })).toBeTruthy()
+  })
 })

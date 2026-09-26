@@ -43,6 +43,8 @@ export function Hero({ title, art, imageBase, onPlay, onInfo }: {
   const artHeight = tv ? Math.min(width * 0.5, 540 * 0.8) : width * 0.5625
   // The web's srcset (960w / 1920w at 100vw): the small file only when the screen is no wider in pixels.
   const artPath = art && (width * PixelRatio.get() > 960 ? art.large : art.small)
+  // No thumbnail: no request (imageSrc('') would be the site root), just the plain stage.
+  const thumb = title.thumbnail !== '' ? imageSrc(title.thumbnail, imageBase) : null
 
   return (
     <View style={[styles.hero, { minHeight: tv ? artHeight : undefined }]}>
@@ -56,7 +58,7 @@ export function Hero({ title, art, imageBase, onPlay, onInfo }: {
         </View>
       ) : (
         <View style={styles.stage} pointerEvents="none">
-          <Image testID="hero-backdrop" source={{ uri: imageSrc(title.thumbnail, imageBase) }} style={StyleSheet.absoluteFill} contentFit="cover" blurRadius={40} />
+          {thumb && <Image testID="hero-backdrop" source={{ uri: thumb }} style={StyleSheet.absoluteFill} contentFit="cover" blurRadius={40} />}
           <View style={[StyleSheet.absoluteFill, { backgroundColor: 'rgba(8,9,12,0.55)' }]} />
           <LinearGradient colors={['rgba(8,9,12,0)', BG]} locations={[0.55, 1]} style={StyleSheet.absoluteFill} />
         </View>
@@ -87,8 +89,8 @@ export function Hero({ title, art, imageBase, onPlay, onInfo }: {
         </View>
       </View>
 
-      {/* No key art: the thumbnail crisp at close to its native 368x210 (TV: beside the text; phone: under it). */}
-      {!art && <Image testID="hero-thumb" source={{ uri: imageSrc(title.thumbnail, imageBase) }} style={tv ? styles.thumb : styles.thumbPhone} contentFit="cover" />}
+      {/* No key art: the thumbnail (when there is one) crisp at close to its native 368x210 (TV: beside the text; phone: under it). */}
+      {!art && thumb && <Image testID="hero-thumb" source={{ uri: thumb }} style={tv ? styles.thumb : styles.thumbPhone} contentFit="cover" />}
     </View>
   )
 }
