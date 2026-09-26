@@ -24,6 +24,7 @@ export default ({ config }: ConfigContext): ExpoConfig => {
       'expo-font',
       ['expo-splash-screen', { image: './assets/images/splash-icon.png', imageWidth: 180, backgroundColor: '#08090c' }],
       ['@react-native-tvos/config-tv', { androidTVBanner: './assets/images/tv-banner.png' }],
+      './plugins/withReleaseSigning',
     ],
     // Real environment variables win over the file (CI, one-off overrides).
     extra: mobileExtra({ ...fileEnv, ...process.env }),
