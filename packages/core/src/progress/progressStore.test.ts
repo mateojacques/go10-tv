@@ -8,6 +8,7 @@ import {
   isWatchedAt,
   MIN_START_SECONDS,
 } from './progressStore'
+import { keyValueStore, memoryStore, setKeyValueStore, webStorageStore } from '../ports/keyValueStore'
 
 beforeEach(() => {
   localStorage.clear()
@@ -102,5 +103,37 @@ describe('resumeFromTime', () => {
   it('starts over for watched or missing entries', () => {
     expect(resumeFromTime(null)).toBeNull()
     expect(resumeFromTime({ time: 690, duration: 700, updatedAt: 0, watched: true })).toBeNull()
+  })
+})
+
+describe('through the installed KeyValueStore', () => {
+  it('reads and writes the store the app installed, not localStorage directly', () => {
+    const previous = keyValueStore()
+    const store = memoryStore()
+    setKeyValueStore(store)
+    try {
+      writeProgress('v-port', { time: 100, duration: 1000 })
+      expect(store.getItem('go10:progress:v-port')).not.toBeNull()
+      expect(localStorage.getItem('go10:progress:v-port')).toBeNull()
+      expect(readProgress('v-port')?.time).toBe(100)
+      expect(Object.keys(listProgress())).toEqual(['v-port'])
+    } finally {
+      setKeyValueStore(previous)
+    }
+  })
+
+  it('never throws when the storage itself throws on access', () => {
+    const previous = keyValueStore()
+    setKeyValueStore(webStorageStore(() => {
+      throw new Error('SecurityError')
+    }))
+    try {
+      expect(readProgress('v')).toBeNull()
+      expect(() => writeProgress('v', { time: 100, duration: 1000 })).not.toThrow()
+      expect(() => markWatched('v', 1000)).not.toThrow()
+      expect(listProgress()).toEqual({})
+    } finally {
+      setKeyValueStore(previous)
+    }
   })
 })

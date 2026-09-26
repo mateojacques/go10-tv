@@ -1,6 +1,7 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { listSnapshots, readSnapshot, saveSnapshot, SNAPSHOT_BUDGET_CHARS, SNAPSHOT_LIMIT } from './snapshots'
 import { mapMovie } from './tmdb/map'
+import { keyValueStore, memoryStore, setKeyValueStore } from '../ports/keyValueStore'
 
 const movie = (id: number) => mapMovie({ id, title: `Movie ${id}`, backdrop_path: '/x.jpg' })
 
@@ -60,5 +61,22 @@ describe('snapshots', () => {
       throw new Error('quota')
     })
     expect(() => saveSnapshot(movie(1))).not.toThrow()
+  })
+})
+
+describe('through the installed KeyValueStore', () => {
+  it('saves and lists snapshots in the store the app installed', () => {
+    const previous = keyValueStore()
+    const store = memoryStore()
+    setKeyValueStore(store)
+    try {
+      saveSnapshot(movie(155))
+      expect(store.keys()).toEqual(['go10:tmdb-title:tmdb-movie-155'])
+      expect(localStorage.length).toBe(0)
+      expect(readSnapshot('tmdb-movie-155')?.key).toBe('tmdb-movie-155')
+      expect(listSnapshots().map((t) => t.key)).toEqual(['tmdb-movie-155'])
+    } finally {
+      setKeyValueStore(previous)
+    }
   })
 })

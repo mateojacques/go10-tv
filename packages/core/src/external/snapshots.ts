@@ -1,4 +1,5 @@
 import type { Title } from '../types'
+import { keyValueStore } from '../ports/keyValueStore'
 
 /**
  * TMDB titles the viewer has played, kept whole (seasons included) so Home's
@@ -10,7 +11,7 @@ const PREFIX = 'go10:tmdb-title:'
 export const SNAPSHOT_LIMIT = 30
 /**
  * Total size cap, in characters. A long anime runs to ~1 MB of JSON, and
- * localStorage is ~5M characters per origin, shared with watch progress:
+ * web storage is ~5M characters per origin, shared with watch progress:
  * snapshots must never crowd out progress for the whole app.
  */
 export const SNAPSHOT_BUDGET_CHARS = 1_000_000
@@ -44,10 +45,10 @@ interface Entry {
 function entries(): Entry[] {
   const found: Entry[] = []
   try {
-    for (let i = 0; i < localStorage.length; i++) {
-      const storageKey = localStorage.key(i)
-      if (!storageKey?.startsWith(PREFIX)) continue
-      const raw = localStorage.getItem(storageKey)
+    const store = keyValueStore()
+    for (const storageKey of store.keys()) {
+      if (!storageKey.startsWith(PREFIX)) continue
+      const raw = store.getItem(storageKey)
       const snapshot = parse(raw)
       if (snapshot) found.push({ storageKey, size: raw?.length ?? 0, snapshot })
     }
@@ -59,10 +60,11 @@ function entries(): Entry[] {
 
 /** Drops the oldest snapshots beyond the count limit or the size budget; the newest always stays. */
 function prune(): void {
+  const store = keyValueStore()
   let total = 0
   entries().forEach(({ storageKey, size }, index) => {
     total += size
-    if (index > 0 && (index >= SNAPSHOT_LIMIT || total > SNAPSHOT_BUDGET_CHARS)) localStorage.removeItem(storageKey)
+    if (index > 0 && (index >= SNAPSHOT_LIMIT || total > SNAPSHOT_BUDGET_CHARS)) store.removeItem(storageKey)
   })
 }
 
@@ -70,14 +72,15 @@ export function saveSnapshot(title: Title, now: number = Date.now()): void {
   const storageKey = PREFIX + title.key
   const value = JSON.stringify({ savedAt: now, title })
   try {
+    const store = keyValueStore()
     try {
-      localStorage.setItem(storageKey, value)
+      store.setItem(storageKey, value)
     } catch {
       // Full: make room by dropping the oldest other snapshot, then try once more.
       const oldest = entries().filter((entry) => entry.storageKey !== storageKey).pop()
       if (!oldest) return
-      localStorage.removeItem(oldest.storageKey)
-      localStorage.setItem(storageKey, value)
+      store.removeItem(oldest.storageKey)
+      store.setItem(storageKey, value)
     }
     prune()
   } catch {
@@ -87,7 +90,7 @@ export function saveSnapshot(title: Title, now: number = Date.now()): void {
 
 export function readSnapshot(key: string): Title | null {
   try {
-    return parse(localStorage.getItem(PREFIX + key))?.title ?? null
+    return parse(keyValueStore().getItem(PREFIX + key))?.title ?? null
   } catch {
     return null
   }

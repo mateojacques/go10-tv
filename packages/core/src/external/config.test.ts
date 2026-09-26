@@ -1,5 +1,6 @@
 import { afterEach, describe, expect, it, vi } from 'vitest'
-import { externalTitlesEnabled, tmdbToken } from './config'
+import { externalTitlesEnabled, setExternalConfigSource, tmdbToken } from './config'
+import { installTestPlatform } from '../test/platform'
 
 afterEach(() => vi.unstubAllEnvs())
 
@@ -27,5 +28,19 @@ describe('externalTitlesEnabled', () => {
     vi.stubEnv('VITE_TMDB_TOKEN', 'tok')
     expect(externalTitlesEnabled()).toBe(true)
     expect(tmdbToken()).toBe('tok')
+  })
+})
+
+describe('setExternalConfigSource', () => {
+  it('reads the switch and token from the installed source on every call', () => {
+    let token = 'first'
+    setExternalConfigSource(() => ({ externalTitles: 'on', tmdbToken: token }))
+    try {
+      expect(externalTitlesEnabled()).toBe(true)
+      token = 'second'
+      expect(tmdbToken()).toBe('second')
+    } finally {
+      installTestPlatform()
+    }
   })
 })

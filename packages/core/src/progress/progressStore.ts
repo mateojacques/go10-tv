@@ -4,6 +4,8 @@
  * best-effort: if storage is unavailable, progress simply isn't tracked.
  */
 
+import { keyValueStore } from '../ports/keyValueStore'
+
 export interface Progress {
   /** Seconds into the video. */
   time: number
@@ -51,7 +53,7 @@ function parse(raw: string | null): Progress | null {
 
 function save(videoId: string, progress: Progress): void {
   try {
-    localStorage.setItem(PREFIX + videoId, JSON.stringify(progress))
+    keyValueStore().setItem(PREFIX + videoId, JSON.stringify(progress))
   } catch {
     // ignore — private mode, quota exceeded, or storage disabled
   }
@@ -59,7 +61,7 @@ function save(videoId: string, progress: Progress): void {
 
 export function readProgress(videoId: string): Progress | null {
   try {
-    return parse(localStorage.getItem(PREFIX + videoId))
+    return parse(keyValueStore().getItem(PREFIX + videoId))
   } catch {
     return null
   }
@@ -81,10 +83,10 @@ export function markWatched(videoId: string, duration: number, now: number = Dat
 export function listProgress(): Record<string, Progress> {
   const entries: Record<string, Progress> = {}
   try {
-    for (let i = 0; i < localStorage.length; i++) {
-      const key = localStorage.key(i)
-      if (!key?.startsWith(PREFIX)) continue
-      const progress = parse(localStorage.getItem(key))
+    const store = keyValueStore()
+    for (const key of store.keys()) {
+      if (!key.startsWith(PREFIX)) continue
+      const progress = parse(store.getItem(key))
       if (progress) entries[key.slice(PREFIX.length)] = progress
     }
   } catch {
