@@ -28,3 +28,11 @@ Deferred from the phone-only phases. Run with the remote on a Google TV / Androi
 - [ ] Back from the player returns focus to the Play button or the episode tile that started it.
 - [ ] Media next/previous keys step episodes.
 - [ ] The embed plays and reports progress on the TV's system WebView (Reanudar shows up afterwards).
+
+## From Phase 5 (Seguir viendo, catalog, search, collections)
+- [ ] Up from the hero reaches the navbar (Películas, Series, Buscar); Down returns to the hero.
+- [ ] Seguir viendo sits after the collection strip; Select on a card starts playback directly; Back returns to Home with focus on that card.
+- [ ] Películas / Series open with focus on the first card; Down/Right move through the grid and it keeps loading as focus goes down (no dead end at the bottom).
+- [ ] Series from the Películas navbar swaps screens; Back from either goes to Home.
+- [ ] Buscar opens the IME on the input; results update after a pause; Down leaves the input for the section chips, then the first result.
+- [ ] A collection opens with focus on its first title; Back returns to Home with focus on its tile.
