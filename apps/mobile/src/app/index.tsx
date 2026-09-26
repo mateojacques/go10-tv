@@ -1,9 +1,14 @@
-import { Text, View } from 'react-native'
+import { useFocusEffect } from 'expo-router'
+import { useCallback } from 'react'
+import { HomeContent } from '../components/HomeContent'
+import { appExtra, siteBase } from '../config/appConfig'
+import { useCatalog } from '../data/CatalogProvider'
+
+const imageBase = siteBase(appExtra().siteUrl)
 
 export default function Home() {
-  return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center', backgroundColor: '#08090c' }}>
-      <Text style={{ color: '#f2f4f0' }}>GO10 TV</Text>
-    </View>
-  )
+  const { state, store } = useCatalog()
+  // A background refresh is applied on arriving at Home, never mid-browse.
+  useFocusEffect(useCallback(() => store.applyPending(), [store]))
+  return <HomeContent state={state} onRetry={() => void store.retry()} imageBase={imageBase} />
 }
