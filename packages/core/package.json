@@ -1,0 +1,17 @@
+{
+  "name": "@go10/core",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "exports": { "./*": "./src/*.ts" },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "papaparse": "^5.7.0"
+  },
+  "devDependencies": {
+    "@types/papaparse": "^5.5.2"
+  }
+}
