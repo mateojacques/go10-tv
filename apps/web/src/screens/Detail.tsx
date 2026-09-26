@@ -3,14 +3,14 @@ import type { CatalogRow, Title } from '@go10/core/types'
 import { Backdrop } from '../components/Backdrop'
 import { useFocusable } from '../focus/useFocusable'
 import { useFocusState } from '../focus/FocusProvider'
-import { formatDuration, formatViews } from '@go10/core/lib/format'
 import { groupSeasons } from '@go10/core/player/groupSeasons'
 import { useGridColumns } from './useGridColumns'
 import { rowKey } from '@go10/core/catalog/rowKey'
 import { ProgressBar } from '../components/ProgressBar'
 import { listProgress, resumeFromTime, type Progress } from '@go10/core/progress/progressStore'
 import { playedFraction, titleProgress } from '@go10/core/progress/titleProgress'
-import { remainingLabel, rowLabel } from '@go10/core/progress/describe'
+import { playMeta, rowStatus } from '@go10/core/progress/describe'
+import { detailEyebrow, detailMeta } from '@go10/core/catalog/describeTitle'
 import { imageSrc } from '@go10/core/lib/imageSrc'
 import './Detail.css'
 
@@ -48,16 +48,6 @@ function FocusButton({
       {children}
     </div>
   )
-}
-
-/** Duration, then "Visto" once finished or how much is left mid-way. */
-function rowStatus(row: CatalogRow, progress: Progress | undefined): string {
-  const state = progress?.watched
-    ? 'Visto'
-    : progress && resumeFromTime(progress) !== null
-      ? remainingLabel(progress)
-      : null
-  return [formatDuration(row.duration_seconds), state].filter(Boolean).join(' · ')
 }
 
 const SEASON_ROW = 1
@@ -172,21 +162,11 @@ export function Detail({
     setSelectedSeasonNumber(playingRow.season_number ?? selectedSeasonNumber)
   }, [playingRow, activeRow, selectedSeasonNumber])
 
-  const meta = [
-    activeRow.year ?? title.year,
-    title.quality,
-    title.subtitled ? `${title.language} (sub)` : title.language,
-    formatDuration(activeRow.duration_seconds),
-    // TMDB has no view counts; "0 vistas" would read as unpopular.
-    title.external ? null : formatViews(title.views),
-  ].filter(Boolean)
+  const meta = detailMeta(title, activeRow)
 
   // Which episode Play starts and how much of it is left: context under the
   // button, not part of its label.
-  const playMeta = [
-    isShow ? rowLabel(activeRow) : null,
-    resuming && activeProgress ? remainingLabel(activeProgress) : null,
-  ].filter(Boolean)
+  const playNote = playMeta(title, activeRow, activeProgress)
 
   const pickEpisode = (episode: CatalogRow) => {
     setActiveRow(episode)
@@ -203,12 +183,7 @@ export function Detail({
 
       <div className="go-detail_body">
         <div className="go-detail_main">
-          <p className="go-detail_eyebrow">
-            {isShow
-              ? `Serie · ${seasonGroups.length} ${seasonGroups.length === 1 ? 'temporada' : 'temporadas'}`
-              : 'Película'}
-            {title.studio && ` · ${title.studio}`}
-          </p>
+          <p className="go-detail_eyebrow">{detailEyebrow(title)}</p>
 
           <h1 className="go-detail_title">{title.title}</h1>
 
@@ -239,10 +214,10 @@ export function Detail({
             <span className="go-play_icon" aria-hidden="true" />
             {resuming ? 'Reanudar' : 'Reproducir'}
           </FocusButton>
-          {playMeta.length > 0 && (
+          {playNote !== '' && (
             <p className="go-play_meta">
               {resuming && <ProgressBar fraction={playedFraction(activeProgress)} className="go-play_progress" />}
-              {playMeta.join(' · ')}
+              {playNote}
             </p>
           )}
         </div>

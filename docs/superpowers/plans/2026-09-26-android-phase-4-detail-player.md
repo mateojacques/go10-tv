@@ -507,8 +507,8 @@ describe('detailEyebrow', () => {
 describe('detailMeta', () => {
   it('lists year, quality, language, the row runtime and views', () => {
     const r = { year: 1999, duration_seconds: 1440 } as CatalogRow
-    expect(detailMeta(title({ views: 1444, subtitled: true, language: 'Japonés' }), r))
-      .toEqual(['1999', '1080p', 'Japonés (sub)', '24 min', '1.444 vistas'])
+    expect(detailMeta(title({ views: 12345, subtitled: true, language: 'Japonés' }), r))
+      .toEqual(['1999', '1080p', 'Japonés (sub)', '24 min', '12.345 vistas'])
   })
 
   it('falls back to the title year and hides views for external titles', () => {

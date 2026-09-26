@@ -1,6 +1,6 @@
-import { formatDuration } from '../lib/format'
+import { formatDuration, formatViews } from '../lib/format'
 import { groupSeasons } from '../player/groupSeasons'
-import type { Title } from '../types'
+import type { CatalogRow, Title } from '../types'
 
 /** "3 temporadas", or "26 episodios" for a single season of episodes. */
 export function showExtent(title: Title): string {
@@ -30,4 +30,25 @@ export function seasonCount(title: Title): number {
 /** The card's second line: "2001 · Animación". */
 export function cardMeta(title: Title): string {
   return [title.year, title.genre].filter(Boolean).join(' · ')
+}
+
+/** Detail's eyebrow: "Serie · 3 temporadas · Toei", or "Película". */
+export function detailEyebrow(title: Title): string {
+  const count = groupSeasons(title.seasons).length
+  const kind = title.kind === 'show' ? `Serie · ${count} ${count === 1 ? 'temporada' : 'temporadas'}` : 'Película'
+  return title.studio ? `${kind} · ${title.studio}` : kind
+}
+
+/** Detail's metadata line, for the row Play would start. */
+export function detailMeta(title: Title, row: CatalogRow): string[] {
+  return [
+    row.year ?? title.year,
+    title.quality,
+    title.subtitled ? `${title.language} (sub)` : title.language,
+    formatDuration(row.duration_seconds),
+    // TMDB has no view counts; "0 vistas" would read as unpopular.
+    title.external ? null : formatViews(title.views),
+  ]
+    .filter(Boolean)
+    .map(String)
 }

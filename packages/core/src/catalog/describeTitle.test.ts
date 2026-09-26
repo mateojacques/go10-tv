@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import type { CatalogRow, Title } from '../types'
-import { cardMeta, heroMeta, seasonCount, showExtent } from './describeTitle'
+import { cardMeta, detailEyebrow, detailMeta, heroMeta, seasonCount, showExtent } from './describeTitle'
 
 const row = (season: number | null, episode: number | null = null) =>
   ({ season_number: season, episode_number: episode, season_label: '' }) as CatalogRow
@@ -50,5 +50,26 @@ describe('cardMeta', () => {
     expect(cardMeta(title({}))).toBe('2001 · Animación')
     expect(cardMeta(title({ year: null }))).toBe('Animación')
     expect(cardMeta(title({ year: null, genre: '' }))).toBe('')
+  })
+})
+
+describe('detailEyebrow', () => {
+  it('says what it is, how many seasons, and the studio', () => {
+    expect(detailEyebrow(title({ kind: 'show', studio: 'Toei', seasons: [row(1), row(2)] }))).toBe('Serie · 2 temporadas · Toei')
+    expect(detailEyebrow(title({ kind: 'show', seasons: [row(1, 1), row(1, 2)] }))).toBe('Serie · 1 temporada')
+    expect(detailEyebrow(title({}))).toBe('Película')
+  })
+})
+
+describe('detailMeta', () => {
+  it('lists year, quality, language, the row runtime and views', () => {
+    const r = { year: 1999, duration_seconds: 1440 } as CatalogRow
+    expect(detailMeta(title({ views: 12345, subtitled: true, language: 'Japonés' }), r))
+      .toEqual(['1999', '1080p', 'Japonés (sub)', '24 min', '12.345 vistas'])
+  })
+
+  it('falls back to the title year and hides views for external titles', () => {
+    const r = { year: null, duration_seconds: 0 } as CatalogRow
+    expect(detailMeta(title({ external: true }), r)).toEqual(['2001', '1080p', 'Español'])
   })
 })
