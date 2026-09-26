@@ -2,6 +2,7 @@ import type { Title } from '@go10/core/types'
 import { useFocusable } from '../focus/useFocusable'
 import { ProgressBar } from './ProgressBar'
 import { imageSrc } from '@go10/core/lib/imageSrc'
+import { cardMeta, seasonCount } from '@go10/core/catalog/describeTitle'
 import './Card.css'
 
 /** Shown on "Seguir viendo" cards in place of the usual year/genre line. */
@@ -30,7 +31,7 @@ export function Card({
   progress?: CardProgress
 }) {
   const { ref, focused, activate, tabIndex } = useFocusable(id, row, col, () => onSelect(title))
-  const seasons = new Set(title.seasons.map((s) => s.season_number)).size
+  const seasons = seasonCount(title)
 
   return (
     <div
@@ -56,7 +57,7 @@ export function Card({
       </div>
       <div className="go-card_name">{title.title}</div>
       <div className="go-card_meta">
-        {progress ? progress.label : [title.year, title.genre].filter(Boolean).join(' · ')}
+        {progress ? progress.label : cardMeta(title)}
       </div>
     </div>
   )

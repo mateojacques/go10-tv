@@ -4,14 +4,13 @@ import { buildRows, ROW_LIMIT, type CatalogRowGroup } from '@go10/core/catalog/b
 import { Row } from '../components/Row'
 import { Backdrop } from '../components/Backdrop'
 import { useFocusable } from '../focus/useFocusable'
-import { formatDuration } from '@go10/core/lib/format'
+import { heroMeta } from '@go10/core/catalog/describeTitle'
 import { imageSrc } from '@go10/core/lib/imageSrc'
 import { listProgress } from '@go10/core/progress/progressStore'
 import { continueWatching, playedFraction, titleProgress, type ContinueItem } from '@go10/core/progress/titleProgress'
 import { remainingLabel, rowLabel } from '@go10/core/progress/describe'
 import type { CardProgress } from '../components/Card'
 import { ProgressBar } from '../components/ProgressBar'
-import { groupSeasons } from '@go10/core/player/groupSeasons'
 import type { Collection } from '@go10/core/collections/types'
 import { visibleCollections } from '@go10/core/collections/resolveCollection'
 import { CollectionStrip } from '../components/CollectionStrip'
@@ -95,12 +94,7 @@ export function Home({
 
   const art = featured.key === FEATURED_SERIES_ID ? FEATURED_ART : null
   const isShow = featured.kind === 'show'
-  const meta = [
-    isShow ? showExtent(featured) : formatDuration(featured.durationSeconds),
-    featured.year,
-    featured.quality,
-    featured.subtitled ? `${featured.language} (sub)` : featured.language,
-  ].filter(Boolean)
+  const meta = heroMeta(featured)
 
   const resuming = heroProgress?.mode === 'resume' ? heroProgress.progress : null
   const position = heroProgress && heroProgress.mode !== 'start' ? rowLabel(heroProgress.row) : ''
@@ -215,14 +209,6 @@ export function Home({
       </div>
     </div>
   )
-}
-
-/** "3 temporadas", or "26 episodios" for a single season of episodes. */
-function showExtent(title: Title): string {
-  const seasons = groupSeasons(title.seasons)
-  if (seasons.length > 1) return `${seasons.length} temporadas`
-  const rows = seasons[0]?.rows ?? []
-  return rows.length > 1 ? `${rows.length} episodios` : formatDuration(title.durationSeconds)
 }
 
 function continueCardProgress({ progress }: ContinueItem): CardProgress {
