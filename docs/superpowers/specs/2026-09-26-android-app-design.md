@@ -315,7 +315,7 @@ after the previous phase is done.
 | 4 | Detail + Player | Detail (seasons, episodes, Reanudar, progress bars); the real player from Phase 0's findings, with the full TV key map (D-pad + media keys) | ✅ Done 2026-09-26 (phone; TV items in docs/superpowers/tv-checklist.md). Success flow end to end: play → Back → relaunch → resume; auto-advance |
 | 5 | Seguir viendo, catalog, search, collections | The remaining screens | ✅ Done 2026-09-26 (phone; TV items in docs/superpowers/tv-checklist.md). Every web screen has a counterpart |
 | 6 | External titles | TMDB search, detail, vidlove playback behind the switch | ✅ Done 2026-09-26 (phone; TV items in docs/superpowers/tv-checklist.md). Parity with the web's external titles |
-| 7 | Polish | Launcher banner/icon, phone landscape + immersive player, signed release APK | v1 success criteria met on both devices |
+| 7 | Polish | Launcher banner/icon, phone landscape + immersive player, signed release APK | ✅ Done 2026-09-26 on the phone (release APK installed; TV run pending hardware, docs/superpowers/tv-checklist.md). v1 success criteria met on both devices |
 
 **If Phase 0 fails:** stop and write a new spec for the Kotlin + Compose
 rewrite. Phase 1 then loses its reason to exist (a TS core doesn't serve a
