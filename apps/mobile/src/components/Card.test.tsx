@@ -43,4 +43,18 @@ describe('Card', () => {
     await render(<Card title={title({ thumbnail: '' })} imageBase={IMG} onSelect={jest.fn()} />)
     expect(screen.queryByTestId('card-image')).toBeNull()
   })
+
+  it('shows a Seguir viendo progress bar and label instead of the meta line', async () => {
+    await render(<Card title={title()} imageBase={IMG} onSelect={jest.fn()} progress={{ fraction: 0.5, label: 'Quedan 12 min' }} />)
+    expect(screen.getByText('Quedan 12 min')).toBeTruthy()
+    expect(screen.queryByText('2001 · Animación')).toBeNull()
+    expect(screen.getByTestId('progress')).toBeTruthy()
+  })
+
+  it('takes a width for grids and can ask for TV focus first', async () => {
+    await render(<Card title={title()} imageBase={IMG} onSelect={jest.fn()} width={160} preferred />)
+    const card = screen.getByRole('button', { name: 'Coraje' })
+    expect(card.props.hasTVPreferredFocus).toBe(true)
+    expect(screen.getByTestId('card-frame')).toHaveStyle({ width: 160, height: 90 })
+  })
 })

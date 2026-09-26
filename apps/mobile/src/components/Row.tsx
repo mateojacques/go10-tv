@@ -1,5 +1,6 @@
 import { ScrollView, StyleSheet, Text, TVFocusGuideView, View } from 'react-native'
 import type { CatalogRowGroup } from '@go10/core/catalog/buildRows'
+import type { CardProgress } from '@go10/core/progress/describe'
 import type { Title } from '@go10/core/types'
 import { theme } from '../theme'
 import { Card } from './Card'
@@ -11,7 +12,13 @@ import { Card } from './Card'
  * titles (core's ROW_LIMIT), so every card is rendered and focus can never
  * target one that isn't mounted.
  */
-export function Row({ group, imageBase, onSelect }: { group: CatalogRowGroup; imageBase: string; onSelect: (title: Title) => void }) {
+export function Row({ group, imageBase, onSelect, progressFor }: {
+  group: CatalogRowGroup
+  imageBase: string
+  onSelect: (title: Title) => void
+  /** Seguir viendo: each card's progress, shown in place of its meta line. */
+  progressFor?: (title: Title) => CardProgress | undefined
+}) {
   return (
     <View style={styles.row}>
       <Text accessibilityRole="header" style={styles.label}>
@@ -21,7 +28,7 @@ export function Row({ group, imageBase, onSelect }: { group: CatalogRowGroup; im
       <TVFocusGuideView autoFocus>
         <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.track}>
           {group.titles.map((title) => (
-            <Card key={`${group.id}:${title.key}`} title={title} imageBase={imageBase} onSelect={onSelect} />
+            <Card key={`${group.id}:${title.key}`} title={title} imageBase={imageBase} onSelect={onSelect} progress={progressFor?.(title)} />
           ))}
         </ScrollView>
       </TVFocusGuideView>

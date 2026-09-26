@@ -41,4 +41,9 @@ describe('buildHome', () => {
   it('is null for an empty catalog', () => {
     expect(buildHome(data([]))).toBeNull()
   })
+
+  it('keeps every title, for Seguir viendo', () => {
+    const d = data([title('a'), title('b')])
+    expect(buildHome(d)!.titles).toBe(d.titles)
+  })
 })

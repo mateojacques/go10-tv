@@ -64,4 +64,12 @@ describe('Hero', () => {
     expect(screen.getByRole('button', { name: 'Reproducir' })).toBeTruthy()
     expect(screen.getByText('T1 · E3')).toBeTruthy()
   })
+
+  it('shows how much is left under the buttons while resuming', async () => {
+    const row = { type: 'episode', season_number: 2, episode_number: 5 } as CatalogRow
+    const progress = { row, mode: 'resume' as const, progress: { time: 700, duration: 1400, updatedAt: 1, watched: false }, updatedAt: 1 }
+    await render(<Hero title={spidey} art={ART} imageBase={IMG} progress={progress} onPlay={jest.fn()} onInfo={jest.fn()} />)
+    expect(screen.getByText('Quedan 11 min')).toBeTruthy()
+    expect(screen.getByTestId('progress')).toBeTruthy()
+  })
 })

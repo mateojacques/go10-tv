@@ -1,6 +1,7 @@
 import { render, screen, userEvent } from '@testing-library/react-native'
 import type { Collection } from '@go10/core/collections/types'
 import type { CatalogRow, Title } from '@go10/core/types'
+import type { Progress } from '@go10/core/progress/progressStore'
 import type { HomeModel } from '../home/homeModel'
 import { HomeView, homeSections } from './HomeView'
 
@@ -14,6 +15,7 @@ const pixar: Collection = { id: 'pixar', name: 'Pixar', order: 1, logo: 'assets/
 function model(overrides: Partial<HomeModel> = {}): HomeModel {
   return {
     featured: title('a'),
+    titles: [title('a'), title('b'), title('c')],
     featuredArt: null,
     strip: [pixar],
     rows: [
@@ -57,5 +59,21 @@ describe('HomeView', () => {
   it('keeps the hero out of the virtualised sections, so it never remounts and re-takes TV focus', async () => {
     expect(homeSections(model()).map((s) => s.kind)).toEqual(['strip', 'row', 'row'])
     expect(homeSections(model({ strip: [] })).map((s) => s.kind)).toEqual(['row', 'row'])
+    expect(homeSections(model(), 1).map((s) => s.kind)).toEqual(['strip', 'continue', 'row', 'row'])
+  })
+
+  it('shows Seguir viendo with progress, and plays straight from it', async () => {
+    const h = handlers()
+    const progress: Record<string, Progress> = { b1: { time: 600, duration: 1200, updatedAt: 5, watched: false } }
+    await render(<HomeView progress={progress} model={model()} imageBase="https://tv.test/" {...h} />)
+    expect(screen.getByRole('header', { name: /Seguir viendo/ })).toBeTruthy()
+    expect(screen.getByText('Quedan 10 min')).toBeTruthy()
+    await userEvent.setup().press(screen.getAllByRole('button', { name: 'Título b' })[0])
+    expect(h.onPlayTitle).toHaveBeenCalledWith(expect.objectContaining({ key: 'b' }), expect.objectContaining({ video_id: 'b1' }))
+  })
+
+  it('has no Seguir viendo row when nothing is in progress', async () => {
+    await render(<HomeView progress={{}} model={model()} imageBase="https://tv.test/" {...handlers()} />)
+    expect(screen.queryByRole('header', { name: /Seguir viendo/ })).toBeNull()
   })
 })

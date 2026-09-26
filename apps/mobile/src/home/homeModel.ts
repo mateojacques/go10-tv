@@ -12,9 +12,11 @@ export interface HomeModel {
   /** Collections with at least one title in the catalog, in tile order. */
   strip: Collection[]
   rows: CatalogRowGroup[]
+  /** Every title, for Seguir viendo. */
+  titles: Title[]
 }
 
-/** The web Home's layout decisions (apps/web/src/screens/Home.tsx), minus "Seguir viendo" (Phase 5). */
+/** The web Home's layout decisions (apps/web/src/screens/Home.tsx); Seguir viendo is built by HomeView from live progress. */
 export function buildHome(data: CatalogData): HomeModel | null {
   const featured = data.titles.find((t) => t.key === FEATURED_SERIES_ID) ?? data.titles[0]
   if (!featured) return null
@@ -23,5 +25,6 @@ export function buildHome(data: CatalogData): HomeModel | null {
     featuredArt: featured.key === FEATURED_SERIES_ID ? FEATURED_ART : null,
     strip: visibleCollections(data.collections, data.titles).map((resolved) => resolved.collection),
     rows: buildRows(data.titles),
+    titles: data.titles,
   }
 }

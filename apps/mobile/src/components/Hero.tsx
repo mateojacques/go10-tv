@@ -4,10 +4,11 @@ import type { ReactNode } from 'react'
 import { PixelRatio, Platform, Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native'
 import { heroMeta } from '@go10/core/catalog/describeTitle'
 import { imageSrc } from '@go10/core/lib/imageSrc'
-import { rowLabel } from '@go10/core/progress/describe'
-import type { TitleProgress } from '@go10/core/progress/titleProgress'
+import { remainingLabel, rowLabel } from '@go10/core/progress/describe'
+import { playedFraction, type TitleProgress } from '@go10/core/progress/titleProgress'
 import type { Title } from '@go10/core/types'
 import { theme } from '../theme'
+import { ProgressBar } from './ProgressBar'
 
 const BG = theme.color.bg
 const tv = Platform.isTV
@@ -94,6 +95,12 @@ export function Hero({ title, art, imageBase, progress, onPlay, onInfo }: {
           <HeroButton label={resuming ? 'Reanudar' : 'Reproducir'} note={position} primary preferred onPress={onPlay} icon={<View style={styles.playIcon} />} />
           <HeroButton label="Más información" onPress={onInfo} icon={<Text style={styles.infoIcon}>i</Text>} />
         </View>
+        {resuming && progress?.progress && (
+          <View style={styles.resume}>
+            <ProgressBar fraction={playedFraction(progress.progress)} style={styles.resumeBar} />
+            <Text style={styles.resumeText}>{remainingLabel(progress.progress)}</Text>
+          </View>
+        )}
       </View>
 
       {/* No key art: the thumbnail (when there is one) crisp at close to its native 368x210 (TV: beside the text; phone: under it). */}
@@ -125,6 +132,9 @@ const styles = StyleSheet.create({
   buttonInner: { flexDirection: 'row', alignItems: 'center', gap: 10 },
   buttonText: { color: theme.color.text, fontFamily: theme.font.displayBold, fontSize: theme.size.body },
   buttonTextOnAccent: { color: BG },
+  resume: { flexDirection: 'row', alignItems: 'center', gap: 10, marginTop: 14 },
+  resumeBar: { width: 96, height: 3 },
+  resumeText: { color: theme.color.textMuted, fontFamily: theme.font.mono, fontSize: theme.size.meta },
   note: { paddingLeft: 10, borderLeftWidth: 1, borderLeftColor: 'rgba(8,9,12,0.5)', color: theme.color.text, fontFamily: theme.font.monoMedium, fontSize: theme.size.meta, opacity: 0.75 },
   playIcon: { width: 0, height: 0, borderTopWidth: 7, borderBottomWidth: 7, borderLeftWidth: 11, borderTopColor: 'transparent', borderBottomColor: 'transparent', borderLeftColor: BG },
   infoIcon: { width: 18, height: 18, borderRadius: 9, borderWidth: 2, borderColor: theme.color.text, color: theme.color.text, textAlign: 'center', fontFamily: theme.font.monoSemi, fontSize: 11, lineHeight: 14 },
