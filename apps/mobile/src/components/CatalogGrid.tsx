@@ -10,12 +10,13 @@ import { Card } from './Card'
  * time for the same reason: Películas alone is 774 titles). The window is
  * generous so D-pad focus never targets an unmounted card.
  */
-export function CatalogGrid({ titles, imageBase, onSelect, header, empty, preferFirst }: {
+export function CatalogGrid({ titles, imageBase, onSelect, header, empty, footer, preferFirst }: {
   titles: Title[]
   imageBase: string
   onSelect: (title: Title) => void
   header?: ReactElement
   empty?: ReactElement
+  footer?: ReactElement
   /** TV: the first card takes focus when the screen opens. */
   preferFirst?: boolean
 }) {
@@ -31,6 +32,7 @@ export function CatalogGrid({ titles, imageBase, onSelect, header, empty, prefer
       keyExtractor={(title) => title.key}
       ListHeaderComponent={header}
       ListEmptyComponent={empty}
+      ListFooterComponent={footer}
       columnWrapperStyle={columns > 1 ? styles.line : undefined}
       contentContainerStyle={styles.content}
       initialNumToRender={columns * 4}

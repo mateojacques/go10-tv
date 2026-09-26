@@ -1,3 +1,5 @@
+import { setExternalConfigSource } from '@go10/core/external/config'
+import { useTmdbSearch } from '../external/useTmdbSearch'
 import { render, screen, userEvent } from '@testing-library/react-native'
 import type { Title } from '@go10/core/types'
 import { CatalogView } from './CatalogView'
@@ -8,6 +10,17 @@ const t = (key: string, title: string, kind: Title['kind'] = 'movie'): Title => 
 })
 const titles = [t('a', 'Coraje'), t('b', 'Dragon Ball', 'show'), t('c', 'Digimon', 'show')]
 const IMG = 'https://tv.test/'
+
+
+jest.mock('../external/useTmdbSearch', () => ({ useTmdbSearch: jest.fn() }))
+const tmdb = useTmdbSearch as jest.MockedFunction<typeof useTmdbSearch>
+const external = (on: boolean) => setExternalConfigSource(() => ({ externalTitles: on ? 'on' : undefined, tmdbToken: on ? 'test' : undefined }))
+const BATMAN: Title = { ...t('tmdb-movie-155', 'Batman'), external: true }
+
+beforeEach(() => {
+  external(false)
+  tmdb.mockReturnValue({ status: 'off', titles: [] })
+})
 
 describe('CatalogView', () => {
   it('browses a section with its name and count, first card focused on TV', async () => {
@@ -44,5 +57,43 @@ describe('CatalogView', () => {
     await render(<CatalogView titles={many} section="movie" query="" imageBase={IMG} onSelect={jest.fn()} />)
     expect(screen.getByRole('button', { name: 'Película 0' })).toBeTruthy()
     expect(screen.queryByRole('button', { name: 'Película 299' })).toBeNull()
+  })
+
+  it('appends TMDB hits after the catalog matches, with the credit', async () => {
+    external(true)
+    tmdb.mockReturnValue({ status: 'done', titles: [BATMAN] })
+    await render(<CatalogView titles={titles} section="all" query="dig" imageBase={IMG} onSelect={jest.fn()} />)
+    const cards = screen.getAllByRole('button').map((b) => b.props.accessibilityLabel)
+    expect(cards).toEqual(['Digimon', 'Batman'])
+    expect(screen.getByText('Datos de títulos: TMDB')).toBeTruthy()
+    expect(tmdb).toHaveBeenCalledWith('dig', 'all', true)
+  })
+
+  it('waits for TMDB before suggesting near titles', async () => {
+    external(true)
+    tmdb.mockReturnValue({ status: 'pending', titles: [] })
+    await render(<CatalogView titles={titles} section="all" query="zzzz" imageBase={IMG} onSelect={jest.fn()} />)
+    expect(screen.getByText('Buscando…')).toBeTruthy()
+    expect(screen.queryByText('Quizás te interese')).toBeNull()
+  })
+
+  it('falls back to the catalog when TMDB fails', async () => {
+    external(true)
+    tmdb.mockReturnValue({ status: 'failed', titles: [] })
+    await render(<CatalogView titles={titles} section="all" query="zzzz" imageBase={IMG} onSelect={jest.fn()} />)
+    expect(screen.getByText('Quizás te interese')).toBeTruthy()
+    expect(screen.queryByText('Datos de títulos: TMDB')).toBeNull()
+  })
+
+  it('Doblaje latino searches the catalog only', async () => {
+    external(true)
+    await render(<CatalogView titles={titles} section="all" query="dragon" catalogOnly imageBase={IMG} onSelect={jest.fn()} />)
+    expect(tmdb).toHaveBeenCalledWith('dragon', 'all', false)
+  })
+
+  it('never asks TMDB while browsing a section', async () => {
+    external(true)
+    await render(<CatalogView titles={titles} section="show" query="" imageBase={IMG} onSelect={jest.fn()} />)
+    expect(tmdb).toHaveBeenCalledWith('', 'show', false)
   })
 })

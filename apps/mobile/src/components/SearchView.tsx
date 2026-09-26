@@ -3,6 +3,7 @@ import { Platform, Pressable, StyleSheet, Text, TextInput, TVFocusGuideView, Vie
 import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import { SECTION_LABELS } from '@go10/core/catalog/catalogHeading'
 import type { Section } from '@go10/core/catalog/selectTitles'
+import { externalTitlesEnabled } from '@go10/core/external/config'
 import type { Title } from '@go10/core/types'
 import { SEARCH_DEBOUNCE_MS, useDebounced } from '../hooks/useDebounced'
 import { theme } from '../theme'
@@ -12,19 +13,36 @@ const tv = Platform.isTV
 const SECTIONS: Section[] = ['all', 'movie', 'show']
 const CHIP_LABELS: Record<Section, string> = { all: 'Todo', movie: SECTION_LABELS.movie, show: SECTION_LABELS.show }
 
+function Chip({ label, selected, onPress }: { label: string; selected: boolean; onPress: () => void }) {
+  return (
+    <Pressable
+      accessibilityRole="button"
+      accessibilityLabel={label}
+      accessibilityState={{ selected }}
+      onPress={onPress}
+      style={({ focused }) => [styles.chip, selected && styles.chipActive, focused && styles.chipFocused]}
+    >
+      <Text style={[styles.chipText, selected && styles.chipTextActive]}>{label}</Text>
+    </Pressable>
+  )
+}
+
 /**
  * Search (the web's navbar field plus its catalog results). The input owns
  * the keyboard — the IME on TV — and results follow it after a pause. The
  * section chips replace the web's scope chip and phone menu; D-pad Down
  * from the input reaches them, then the first result.
  */
-export function SearchView({ titles, section, query, imageBase, onQueryChange, onSectionChange, onSelect, onBack }: {
+export function SearchView({ titles, section, query, catalogOnly, imageBase, onQueryChange, onSectionChange, onCatalogOnlyChange, onSelect, onBack }: {
   titles: Title[]
   section: Section
   query: string
   imageBase: string
   onQueryChange: (query: string) => void
   onSectionChange: (section: Section) => void
+  /** The web's "Fuente": Doblaje latino searches the catalog only. */
+  catalogOnly: boolean
+  onCatalogOnlyChange: (catalogOnly: boolean) => void
   onSelect: (title: Title) => void
   onBack: () => void
 }) {
@@ -64,24 +82,19 @@ export function SearchView({ titles, section, query, imageBase, onQueryChange, o
           </View>
         </View>
         <TVFocusGuideView autoFocus style={styles.chips}>
-          {SECTIONS.map((target) => {
-            const selected = target === section
-            return (
-              <Pressable
-                key={target}
-                accessibilityRole="button"
-                accessibilityLabel={CHIP_LABELS[target]}
-                accessibilityState={{ selected }}
-                onPress={() => onSectionChange(target)}
-                style={({ focused }) => [styles.chip, selected && styles.chipActive, focused && styles.chipFocused]}
-              >
-                <Text style={[styles.chipText, selected && styles.chipTextActive]}>{CHIP_LABELS[target]}</Text>
-              </Pressable>
-            )
-          })}
+          {SECTIONS.map((target) => (
+            <Chip key={target} label={CHIP_LABELS[target]} selected={target === section} onPress={() => onSectionChange(target)} />
+          ))}
         </TVFocusGuideView>
+        {/* The web's "Fuente": only while searching with external titles on. */}
+        {externalTitlesEnabled() && query.trim() !== '' && (
+          <TVFocusGuideView autoFocus style={styles.chips}>
+            <Chip label="Lenguaje original" selected={!catalogOnly} onPress={() => onCatalogOnlyChange(false)} />
+            <Chip label="Doblaje latino" selected={catalogOnly} onPress={() => onCatalogOnlyChange(true)} />
+          </TVFocusGuideView>
+        )}
       </View>
-      <CatalogView titles={titles} section={section} query={shown} imageBase={imageBase} onSelect={onSelect} />
+      <CatalogView titles={titles} section={section} query={shown} catalogOnly={catalogOnly} imageBase={imageBase} onSelect={onSelect} />
     </View>
   )
 }

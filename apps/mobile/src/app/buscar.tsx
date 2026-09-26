@@ -10,15 +10,20 @@ import { useCatalog } from '../data/CatalogProvider'
 
 const imageBase = siteBase(appExtra().siteUrl)
 
-/** `/buscar?q=&en=` — the web's search URL; its params seed the screen, which then owns them. */
+/** `/buscar?q=&en=&solo=` — the web's search URL; its params seed the screen, which then owns them. */
 export default function SearchScreen() {
-  const params = useLocalSearchParams<{ q?: string; en?: string }>()
+  const params = useLocalSearchParams<{ q?: string; en?: string; solo?: string }>()
   const [query, setQuery] = useState(params.q ?? '')
-  const [section, setSection] = useState<Section>(() => {
-    const search = new URLSearchParams({ q: params.q || ' ', ...(params.en ? { en: params.en } : {}) })
-    const route = parseRoute('/buscar', `?${search}`)
-    return route.name === 'catalog' ? route.section : 'all'
+  const [initialRoute] = useState(() => {
+    const search = new URLSearchParams({
+      q: params.q || ' ',
+      ...(params.en ? { en: params.en } : {}),
+      ...(params.solo ? { solo: params.solo } : {}),
+    })
+    return parseRoute('/buscar', `?${search}`)
   })
+  const [section, setSection] = useState<Section>(initialRoute.name === 'catalog' ? initialRoute.section : 'all')
+  const [catalogOnly, setCatalogOnly] = useState(initialRoute.name === 'catalog' && initialRoute.catalogOnly === true)
   const { state } = useCatalog()
 
   if (state.status === 'loading') return <LoadingScreen />
@@ -31,6 +36,8 @@ export default function SearchScreen() {
       imageBase={imageBase}
       onQueryChange={setQuery}
       onSectionChange={setSection}
+      catalogOnly={catalogOnly}
+      onCatalogOnlyChange={setCatalogOnly}
       onSelect={openTitle}
       onBack={() => router.back()}
     />
