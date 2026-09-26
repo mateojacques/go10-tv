@@ -19,6 +19,8 @@ function collectionsIndex(): Plugin {
 
 export default defineConfig({
   plugins: [react(), collectionsIndex()],
+  // .env.local (the external-titles switch and TMDB token) lives at the repo root.
+  envDir: fileURLToPath(new URL('../..', import.meta.url)),
   test: {
     environment: 'jsdom',
     setupFiles: ['./src/test/setup.ts'],

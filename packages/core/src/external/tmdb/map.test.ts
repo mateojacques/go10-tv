@@ -1,4 +1,4 @@
-import { describe, expect, it } from 'vitest'
+import { describe, expect, it, vi } from 'vitest'
 import { languageName, mapMovie, mapSearchResult, mapShow, type TmdbMovie, type TmdbSeason, type TmdbShow } from './map'
 
 const MOVIE: TmdbMovie = {
@@ -139,5 +139,23 @@ describe('mapSearchResult', () => {
     expect(mapSearchResult({ id: 1, media_type: 'person', name: 'Someone', poster_path: '/p.jpg' }, genres)).toBeNull()
     expect(mapSearchResult({ id: 2, media_type: 'movie', title: 'No art' }, genres)).toBeNull()
     expect(mapSearchResult({ id: 3, media_type: 'movie', title: '', backdrop_path: '/x.jpg' }, genres)).toBeNull()
+  })
+})
+
+describe('languageName without Intl.DisplayNames (e.g. Hermes on Android)', () => {
+  it('loads and still names the common languages', async () => {
+    const intl = Intl as { DisplayNames?: unknown }
+    const original = intl.DisplayNames
+    delete intl.DisplayNames
+    vi.resetModules()
+    try {
+      const { languageName: name } = await import('./map')
+      expect(name('en')).toBe('Inglés')
+      expect(name('ja')).toBe('Japonés')
+      expect(name('xx')).toBe('XX')
+    } finally {
+      intl.DisplayNames = original
+      vi.resetModules()
+    }
   })
 })

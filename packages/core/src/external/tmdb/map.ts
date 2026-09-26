@@ -73,14 +73,32 @@ export function imageUrl(backdrop?: string | null, poster?: string | null): stri
   return ''
 }
 
-const languageNames = new Intl.DisplayNames(['es'], { type: 'language' })
+/**
+ * Spanish names for TMDB's most common original languages, for engines
+ * without Intl.DisplayNames (Hermes, on Android).
+ */
+const FALLBACK_LANGUAGE_NAMES: Record<string, string> = {
+  de: 'alemán', en: 'inglés', es: 'español', fr: 'francés', hi: 'hindi', it: 'italiano',
+  ja: 'japonés', ko: 'coreano', pt: 'portugués', ru: 'ruso', zh: 'chino',
+}
+
+// Built on first use, and only where the engine has it: constructing it at
+// module scope would make merely importing this file throw on Hermes.
+let languageNames: Intl.DisplayNames | null | undefined
+
+function displayNames(): Intl.DisplayNames | null {
+  if (languageNames === undefined) {
+    languageNames = typeof Intl.DisplayNames === 'function' ? new Intl.DisplayNames(['es'], { type: 'language' }) : null
+  }
+  return languageNames
+}
 
 /** ISO 639-1 → Spanish language name, capitalised as the catalog writes it ("Inglés"). */
 export function languageName(code?: string): string {
   if (!code) return ''
   let name: string | undefined
   try {
-    name = languageNames.of(code)
+    name = displayNames()?.of(code) ?? FALLBACK_LANGUAGE_NAMES[code.toLowerCase()]
   } catch {
     name = undefined
   }
