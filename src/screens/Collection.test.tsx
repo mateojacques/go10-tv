@@ -51,10 +51,10 @@ describe('Collection', () => {
     expect(document.querySelector('.go-row_count')).toBeNull()
   })
 
-  it('shows a banner in the tile colour with the logo', () => {
+  it('shows a banner with the logo and no tile colour behind it', () => {
     renderPage()
     const banner = document.querySelector('.go-collection_banner') as HTMLElement
-    expect(banner.style.backgroundColor).toBe('rgb(228, 0, 124)')
+    expect(banner.style.backgroundColor).toBe('')
     expect(banner.querySelector('img')?.getAttribute('src')).toBe('/assets/collections/cartoon-network/logo.svg')
   })
 
