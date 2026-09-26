@@ -1,10 +1,39 @@
+import { useMemo } from 'react'
+import { StyleSheet, Text, View } from 'react-native'
+import type { Collection } from '@go10/core/collections/types'
+import type { Title } from '@go10/core/types'
 import type { CatalogState } from '../data/catalogStore'
+import { buildHome } from '../home/homeModel'
+import { theme } from '../theme'
+import { HomeView } from './HomeView'
 import { LoadingScreen } from './LoadingScreen'
 import { OfflineScreen } from './OfflineScreen'
-import { TitleList } from './TitleList'
 
-export function HomeContent({ state, onRetry, imageBase }: { state: CatalogState; onRetry: () => void; imageBase: string }) {
+export function HomeContent({ state, onRetry, imageBase, onSelectTitle, onPlayTitle, onSelectCollection }: {
+  state: CatalogState
+  onRetry: () => void
+  imageBase: string
+  onSelectTitle: (title: Title) => void
+  onPlayTitle: (title: Title) => void
+  onSelectCollection: (collection: Collection) => void
+}) {
+  // Rebuilt only when the catalog changes (applyPending), not on every render.
+  const model = useMemo(() => (state.status === 'ready' ? buildHome(state.data) : null), [state])
   if (state.status === 'loading') return <LoadingScreen />
   if (state.status === 'error') return <OfflineScreen onRetry={onRetry} />
-  return <TitleList titles={state.data.titles} imageBase={imageBase} />
+  if (!model) {
+    return (
+      <View style={styles.empty}>
+        <Text style={styles.mark}>GO10 TV</Text>
+        <Text style={styles.msg}>El catálogo está vacío.</Text>
+      </View>
+    )
+  }
+  return <HomeView model={model} imageBase={imageBase} onSelectTitle={onSelectTitle} onPlayTitle={onPlayTitle} onSelectCollection={onSelectCollection} />
 }
+
+const styles = StyleSheet.create({
+  empty: { flex: 1, alignItems: 'center', justifyContent: 'center', gap: 10, backgroundColor: theme.color.bg },
+  mark: { color: theme.color.accent, fontFamily: theme.font.displayHeavy, fontSize: theme.size.section },
+  msg: { color: theme.color.textMuted, fontFamily: theme.font.mono, fontSize: theme.size.body },
+})
