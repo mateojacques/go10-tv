@@ -967,7 +967,7 @@ afterEach(() => jest.useRealTimers())
 
 describe('useDebounced', () => {
   it('follows the value only once it stops changing', async () => {
-    const { result, rerender } = await renderHook(({ value }) => useDebounced(value, 250), { initialProps: { value: 'a' } })
+    const { result, rerender } = await renderHook(({ value }: { value: string }) => useDebounced(value, 250), { initialProps: { value: 'a' } })
     expect(result.current).toBe('a')
     await rerender({ value: 'ab' })
     await act(() => { jest.advanceTimersByTime(200) })
