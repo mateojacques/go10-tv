@@ -4,13 +4,15 @@ import type { ReactNode } from 'react'
 import { PixelRatio, Platform, Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native'
 import { heroMeta } from '@go10/core/catalog/describeTitle'
 import { imageSrc } from '@go10/core/lib/imageSrc'
+import { rowLabel } from '@go10/core/progress/describe'
+import type { TitleProgress } from '@go10/core/progress/titleProgress'
 import type { Title } from '@go10/core/types'
 import { theme } from '../theme'
 
 const BG = theme.color.bg
 const tv = Platform.isTV
 
-function HeroButton({ label, primary, preferred, onPress, icon }: { label: string; primary?: boolean; preferred?: boolean; onPress: () => void; icon: ReactNode }) {
+function HeroButton({ label, note, primary, preferred, onPress, icon }: { label: string; note?: string; primary?: boolean; preferred?: boolean; onPress: () => void; icon: ReactNode }) {
   return (
     <Pressable
       accessibilityRole="button"
@@ -23,6 +25,7 @@ function HeroButton({ label, primary, preferred, onPress, icon }: { label: strin
         <View style={styles.buttonInner}>
           {icon}
           <Text style={[styles.buttonText, (primary || focused) && styles.buttonTextOnAccent]}>{label}</Text>
+          {note ? <Text style={[styles.note, (primary || focused) && styles.buttonTextOnAccent]}>{note}</Text> : null}
         </View>
       )}
     </Pressable>
@@ -30,15 +33,19 @@ function HeroButton({ label, primary, preferred, onPress, icon }: { label: strin
 }
 
 /** The Home hero (apps/web/src/screens/Home.tsx + Home.css): key art or a blurred backdrop, then the title block. */
-export function Hero({ title, art, imageBase, onPlay, onInfo }: {
+export function Hero({ title, art, imageBase, progress, onPlay, onInfo }: {
   title: Title
   art: { small: string; large: string } | null
   imageBase: string
+  /** The featured title's progress: Reanudar and the episode, as on the web hero. */
+  progress: TitleProgress | null
   onPlay: () => void
   onInfo: () => void
 }) {
   const { width } = useWindowDimensions()
   const isShow = title.kind === 'show'
+  const resuming = progress?.mode === 'resume'
+  const position = progress && progress.mode !== 'start' ? rowLabel(progress.row) : ''
   // TV: full-bleed art with the text over its left side. Phone: 16:9 art on top, text over its foot.
   const artHeight = tv ? Math.min(width * 0.5, 540 * 0.8) : width * 0.5625
   // The web's srcset (960w / 1920w at 100vw): the small file only when the screen is no wider in pixels.
@@ -84,7 +91,7 @@ export function Hero({ title, art, imageBase, onPlay, onInfo }: {
           ))}
         </View>
         <View style={styles.actions}>
-          <HeroButton label="Reproducir" primary preferred onPress={onPlay} icon={<View style={styles.playIcon} />} />
+          <HeroButton label={resuming ? 'Reanudar' : 'Reproducir'} note={position} primary preferred onPress={onPlay} icon={<View style={styles.playIcon} />} />
           <HeroButton label="Más información" onPress={onInfo} icon={<Text style={styles.infoIcon}>i</Text>} />
         </View>
       </View>
@@ -118,6 +125,7 @@ const styles = StyleSheet.create({
   buttonInner: { flexDirection: 'row', alignItems: 'center', gap: 10 },
   buttonText: { color: theme.color.text, fontFamily: theme.font.displayBold, fontSize: theme.size.body },
   buttonTextOnAccent: { color: BG },
+  note: { paddingLeft: 10, borderLeftWidth: 1, borderLeftColor: 'rgba(8,9,12,0.5)', color: theme.color.text, fontFamily: theme.font.monoMedium, fontSize: theme.size.meta, opacity: 0.75 },
   playIcon: { width: 0, height: 0, borderTopWidth: 7, borderBottomWidth: 7, borderLeftWidth: 11, borderTopColor: 'transparent', borderBottomColor: 'transparent', borderLeftColor: BG },
   infoIcon: { width: 18, height: 18, borderRadius: 9, borderWidth: 2, borderColor: theme.color.text, color: theme.color.text, textAlign: 'center', fontFamily: theme.font.monoSemi, fontSize: 11, lineHeight: 14 },
   thumb: { position: 'absolute', right: theme.space.safeX, bottom: 28, width: 184, height: 105, borderRadius: theme.radius },

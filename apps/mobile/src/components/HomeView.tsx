@@ -1,6 +1,9 @@
+import { useMemo } from 'react'
 import { FlatList, StyleSheet } from 'react-native'
 import type { Collection } from '@go10/core/collections/types'
-import type { Title } from '@go10/core/types'
+import type { Progress } from '@go10/core/progress/progressStore'
+import { titleProgress } from '@go10/core/progress/titleProgress'
+import type { CatalogRow, Title } from '@go10/core/types'
 import type { HomeModel } from '../home/homeModel'
 import { theme } from '../theme'
 import { CollectionStrip } from './CollectionStrip'
@@ -24,14 +27,17 @@ export function homeSections(model: HomeModel): Section[] {
  * hero is the list header, never virtualised: remounting it would re-apply
  * hasTVPreferredFocus and yank TV focus back to the top.
  */
-export function HomeView({ model, imageBase, onSelectTitle, onPlayTitle, onSelectCollection }: {
+export function HomeView({ model, progress, imageBase, onSelectTitle, onPlayTitle, onSelectCollection }: {
   model: HomeModel
+  progress: Record<string, Progress>
   imageBase: string
   onSelectTitle: (title: Title) => void
-  onPlayTitle: (title: Title) => void
+  /** `row` is what Reproducir/Reanudar starts. */
+  onPlayTitle: (title: Title, row: CatalogRow) => void
   onSelectCollection: (collection: Collection) => void
 }) {
   const sections = homeSections(model)
+  const heroProgress = useMemo(() => titleProgress(model.featured, progress), [model.featured, progress])
   return (
     <FlatList
       style={styles.root}
@@ -45,7 +51,8 @@ export function HomeView({ model, imageBase, onSelectTitle, onPlayTitle, onSelec
           title={model.featured}
           art={model.featuredArt}
           imageBase={imageBase}
-          onPlay={() => onPlayTitle(model.featured)}
+          progress={heroProgress}
+          onPlay={() => onPlayTitle(model.featured, heroProgress.row)}
           onInfo={() => onSelectTitle(model.featured)}
         />
       }

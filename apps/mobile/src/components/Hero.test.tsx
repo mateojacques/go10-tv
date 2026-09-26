@@ -13,7 +13,7 @@ const IMG = 'https://tv.test/'
 
 describe('Hero', () => {
   it('presents the featured title like the web hero', async () => {
-    await render(<Hero title={spidey} art={ART} imageBase={IMG} onPlay={jest.fn()} onInfo={jest.fn()} />)
+    await render(<Hero title={spidey} art={ART} imageBase={IMG} progress={null} onPlay={jest.fn()} onInfo={jest.fn()} />)
     expect(screen.getByText('Destacado')).toBeTruthy()
     expect(screen.getByText(/Serie · Disney/)).toBeTruthy()
     expect(screen.getByRole('header', { name: 'Spidey y sus Sorprendentes Amigos' })).toBeTruthy()
@@ -26,7 +26,7 @@ describe('Hero', () => {
   it('plays and opens the title from its two buttons, Reproducir taking focus first on TV', async () => {
     const onPlay = jest.fn()
     const onInfo = jest.fn()
-    await render(<Hero title={spidey} art={ART} imageBase={IMG} onPlay={onPlay} onInfo={onInfo} />)
+    await render(<Hero title={spidey} art={ART} imageBase={IMG} progress={null} onPlay={onPlay} onInfo={onInfo} />)
     const play = screen.getByRole('button', { name: 'Reproducir' })
     expect(play.props.hasTVPreferredFocus).toBe(true)
     const user = userEvent.setup()
@@ -37,16 +37,31 @@ describe('Hero', () => {
   })
 
   it('without key art, blurs the thumbnail behind and shows it crisp', async () => {
-    await render(<Hero title={{ ...spidey, key: 'other' }} art={null} imageBase={IMG} onPlay={jest.fn()} onInfo={jest.fn()} />)
+    await render(<Hero title={{ ...spidey, key: 'other' }} art={null} imageBase={IMG} progress={null} onPlay={jest.fn()} onInfo={jest.fn()} />)
     expect(screen.queryByTestId('hero-art')).toBeNull()
     expect(screen.getByTestId('hero-backdrop').props.source).toEqual([{ uri: 'https://tv.test/assets/spidey/thumb.webp' }])
     expect(screen.getByTestId('hero-thumb').props.source).toEqual([{ uri: 'https://tv.test/assets/spidey/thumb.webp' }])
   })
 
   it('requests nothing without key art or a thumbnail', async () => {
-    await render(<Hero title={{ ...spidey, key: 'other', thumbnail: '' }} art={null} imageBase={IMG} onPlay={jest.fn()} onInfo={jest.fn()} />)
+    await render(<Hero title={{ ...spidey, key: 'other', thumbnail: '' }} art={null} imageBase={IMG} progress={null} onPlay={jest.fn()} onInfo={jest.fn()} />)
     expect(screen.queryByTestId('hero-backdrop')).toBeNull()
     expect(screen.queryByTestId('hero-thumb')).toBeNull()
     expect(screen.getByRole('button', { name: 'Reproducir' })).toBeTruthy()
+  })
+
+  it('says Reanudar with the episode when one is in progress', async () => {
+    const row = { type: 'episode', season_number: 2, episode_number: 5 } as CatalogRow
+    const progress = { row, mode: 'resume' as const, progress: { time: 300, duration: 1400, updatedAt: 1, watched: false }, updatedAt: 1 }
+    await render(<Hero title={spidey} art={ART} imageBase={IMG} progress={progress} onPlay={jest.fn()} onInfo={jest.fn()} />)
+    expect(screen.getByRole('button', { name: 'Reanudar' })).toBeTruthy()
+    expect(screen.getByText('T2 · E5')).toBeTruthy()
+  })
+
+  it('names the next episode but keeps Reproducir once the last one was finished', async () => {
+    const row = { type: 'episode', season_number: 1, episode_number: 3 } as CatalogRow
+    await render(<Hero title={spidey} art={ART} imageBase={IMG} progress={{ row, mode: 'next', progress: null, updatedAt: 1 }} onPlay={jest.fn()} onInfo={jest.fn()} />)
+    expect(screen.getByRole('button', { name: 'Reproducir' })).toBeTruthy()
+    expect(screen.getByText('T1 · E3')).toBeTruthy()
   })
 })
