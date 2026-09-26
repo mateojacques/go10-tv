@@ -314,7 +314,7 @@ after the previous phase is done.
 | 3 | Home | Hero, collection strip, 28 rows, TV focus guides | ✅ Done 2026-09-26 (phone; TV focus in docs/superpowers/tv-checklist.md). Every Home item reachable by D-pad, focus never lost; phone touch scroll |
 | 4 | Detail + Player | Detail (seasons, episodes, Reanudar, progress bars); the real player from Phase 0's findings, with the full TV key map (D-pad + media keys) | ✅ Done 2026-09-26 (phone; TV items in docs/superpowers/tv-checklist.md). Success flow end to end: play → Back → relaunch → resume; auto-advance |
 | 5 | Seguir viendo, catalog, search, collections | The remaining screens | ✅ Done 2026-09-26 (phone; TV items in docs/superpowers/tv-checklist.md). Every web screen has a counterpart |
-| 6 | External titles | TMDB search, detail, vidlove playback behind the switch | Parity with the web's external titles |
+| 6 | External titles | TMDB search, detail, vidlove playback behind the switch | ✅ Done 2026-09-26 (phone; TV items in docs/superpowers/tv-checklist.md). Parity with the web's external titles |
 | 7 | Polish | Launcher banner/icon, phone landscape + immersive player, signed release APK | v1 success criteria met on both devices |
 
 **If Phase 0 fails:** stop and write a new spec for the Kotlin + Compose
