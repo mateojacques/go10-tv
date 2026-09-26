@@ -182,7 +182,7 @@ In `apps/web/src/components/Card.tsx`:
 - [ ] **Step 5: Run everything**
 
 Run: `npm test -w @go10/core 2>&1 | grep -E "Tests "; npm test -w @go10/web 2>&1 | grep -E "Tests "; npm run typecheck > /dev/null 2>&1; echo typecheck=$?`
-Expected: core `245 passed` (237 + 8), web `180 passed`, `typecheck=0`.
+Expected: core `244 passed` (237 + 7), web `180 passed`, `typecheck=0`.
 
 - [ ] **Step 6: Commit**
 
@@ -810,6 +810,7 @@ const styles = StyleSheet.create({
 
 Run: `npm test -w @go10/mobile 2>&1 | grep -E "Tests:"; npm run typecheck -w @go10/mobile; echo typecheck=$?`
 Expected: `Tests: 52 passed, 52 total` (44 + 8) and `typecheck=0`. `TitleList.tsx` may still fail typecheck; see Task 2 Step 5.
+If `toHaveStyle` isn't available, add `import '@testing-library/react-native/extend-expect'` at the top of `CollectionTile.test.tsx` (test mechanics only; ledger it).
 If `TVFocusGuideView` renders as `undefined` in Jest (the component isn't in the preset's mocks), check `node_modules/react-native/Libraries/Components/TV/TVFocusGuideView.js`. It is plain JS and should render as a `View`. If it doesn't, add `jest.mock` in a Jest setup file mapping it to `View`, and ledger that.
 
 - [ ] **Step 5: Commit**
@@ -980,10 +981,8 @@ export function Hero({ title, art, imageBase, onPlay, onInfo }: {
         </View>
       </View>
 
-      {!art && !tv ? null : !art ? (
-        <Image testID="hero-thumb" source={{ uri: imageSrc(title.thumbnail, imageBase) }} style={styles.thumb} contentFit="cover" />
-      ) : null}
-      {!art && !tv && <Image testID="hero-thumb" source={{ uri: imageSrc(title.thumbnail, imageBase) }} style={styles.thumbPhone} contentFit="cover" />}
+      {/* No key art: the thumbnail crisp at close to its native 368x210 (TV: beside the text; phone: under it). */}
+      {!art && <Image testID="hero-thumb" source={{ uri: imageSrc(title.thumbnail, imageBase) }} style={tv ? styles.thumb : styles.thumbPhone} contentFit="cover" />}
     </View>
   )
 }
@@ -1017,7 +1016,7 @@ const styles = StyleSheet.create({
   thumbPhone: { width: '100%', aspectRatio: 368 / 210, borderRadius: theme.radius, marginTop: 20 },
 })
 ```
-The two `hero-thumb` branches cover different devices. TV shows the crisp thumbnail at the right. On a phone the web's `.go-hero_art` is `display: none` under 900 px, but with no key art the hero would be just text on blur, so the phone shows the thumbnail below the text. **Simplify before committing:** keep a single `{!art && <Image testID="hero-thumb" … style={tv ? styles.thumb : styles.thumbPhone} />}` and delete the two conditional blocks above. The test only needs one `hero-thumb`.
+On a phone the web hides `.go-hero_art` under 900 px, but without key art the hero would be text on blur alone, so the phone shows the crisp thumbnail under the text instead (a deliberate, small deviation).
 
 - [ ] **Step 4: Run tests and typecheck**
 
@@ -1215,6 +1214,7 @@ const styles = StyleSheet.create({
 ```
 Replace `apps/mobile/src/components/HomeContent.tsx` with:
 ```tsx
+import { useMemo } from 'react'
 import { StyleSheet, Text, View } from 'react-native'
 import type { Collection } from '@go10/core/collections/types'
 import type { Title } from '@go10/core/types'
@@ -1233,9 +1233,10 @@ export function HomeContent({ state, onRetry, imageBase, onSelectTitle, onPlayTi
   onPlayTitle: (title: Title) => void
   onSelectCollection: (collection: Collection) => void
 }) {
+  // Rebuilt only when the catalog changes (applyPending), not on every render.
+  const model = useMemo(() => (state.status === 'ready' ? buildHome(state.data) : null), [state])
   if (state.status === 'loading') return <LoadingScreen />
   if (state.status === 'error') return <OfflineScreen onRetry={onRetry} />
-  const model = buildHome(state.data)
   if (!model) {
     return (
       <View style={styles.empty}>
@@ -1253,8 +1254,6 @@ const styles = StyleSheet.create({
   msg: { color: theme.color.textMuted, fontFamily: theme.font.mono, fontSize: theme.size.body },
 })
 ```
-`buildHome` runs every render. That's cheap next to rendering, but wrap it in `useMemo(() => …, [state])` if the typecheck/lint setup asks for hooks-safe ordering; hooks must then sit above the early returns. The simplest correct form is to compute `const model = state.status === 'ready' ? buildHome(state.data) : null` with `useMemo` at the top.
-
 Replace `apps/mobile/src/app/index.tsx` with:
 ```tsx
 import { router, useFocusEffect } from 'expo-router'
@@ -1371,7 +1370,7 @@ python3 -m pytest tests -q 2>&1 | tail -1
 npm run typecheck > /dev/null 2>&1; echo typecheck=$?
 npm run build > /dev/null 2>&1; echo build=$?
 ```
-Expected: core 245, web 180, mobile 57; Python 92; `typecheck=0`; `build=0`.
+Expected: core 244, web 180, mobile 57; Python 92; `typecheck=0`; `build=0`.
 ```bash
 git add docs/superpowers/tv-checklist.md docs/superpowers/specs/2026-09-26-android-app-design.md README.md
 git commit -m "docs: Phase 3 done on the phone, and the TV checklist
