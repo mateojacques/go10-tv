@@ -1,7 +1,7 @@
-import { router, useFocusEffect } from 'expo-router'
+import { useFocusEffect } from 'expo-router'
 import { useCallback, useState } from 'react'
-import { rowKey } from '@go10/core/catalog/rowKey'
 import { listProgress } from '@go10/core/progress/progressStore'
+import { openCollection, openSearch, openSection, openTitle, playTitle } from '../browse/navigate'
 import { HomeContent } from '../components/HomeContent'
 import { appExtra, siteBase } from '../config/appConfig'
 import { useCatalog } from '../data/CatalogProvider'
@@ -25,9 +25,11 @@ export default function Home() {
       progress={progress}
       onRetry={() => void store.retry()}
       imageBase={imageBase}
-      onSelectTitle={(title) => router.push({ pathname: '/title/[key]', params: { key: title.key } })}
-      onPlayTitle={(title, row) => router.push({ pathname: '/title/[key]/play/[videoId]', params: { key: title.key, videoId: rowKey(row) } })}
-      onSelectCollection={(c) => router.push({ pathname: '/coleccion/[id]', params: { id: c.id } })}
+      onSelectTitle={openTitle}
+      onPlayTitle={playTitle}
+      onSelectCollection={openCollection}
+      onOpenSection={(section) => openSection(section, false)}
+      onSearch={() => openSearch('all')}
     />
   )
 }

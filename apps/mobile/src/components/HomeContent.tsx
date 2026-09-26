@@ -10,7 +10,7 @@ import { HomeView } from './HomeView'
 import { LoadingScreen } from './LoadingScreen'
 import { OfflineScreen } from './OfflineScreen'
 
-export function HomeContent({ state, progress, onRetry, imageBase, onSelectTitle, onPlayTitle, onSelectCollection }: {
+export function HomeContent({ state, progress, onRetry, imageBase, onSelectTitle, onPlayTitle, onSelectCollection, onOpenSection, onSearch }: {
   state: CatalogState
   progress: Record<string, Progress>
   onRetry: () => void
@@ -18,6 +18,8 @@ export function HomeContent({ state, progress, onRetry, imageBase, onSelectTitle
   onSelectTitle: (title: Title) => void
   onPlayTitle: (title: Title, row: CatalogRow) => void
   onSelectCollection: (collection: Collection) => void
+  onOpenSection: (section: 'movie' | 'show') => void
+  onSearch: () => void
 }) {
   // Rebuilt only when the catalog changes (applyPending), not on every render.
   const model = useMemo(() => (state.status === 'ready' ? buildHome(state.data) : null), [state])
@@ -31,7 +33,7 @@ export function HomeContent({ state, progress, onRetry, imageBase, onSelectTitle
       </View>
     )
   }
-  return <HomeView model={model} progress={progress} imageBase={imageBase} onSelectTitle={onSelectTitle} onPlayTitle={onPlayTitle} onSelectCollection={onSelectCollection} />
+  return <HomeView model={model} progress={progress} imageBase={imageBase} onSelectTitle={onSelectTitle} onPlayTitle={onPlayTitle} onSelectCollection={onSelectCollection} onOpenSection={onOpenSection} onSearch={onSearch} />
 }
 
 const styles = StyleSheet.create({

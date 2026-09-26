@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { FlatList, StyleSheet } from 'react-native'
+import { FlatList, StyleSheet, View } from 'react-native'
 import { ROW_LIMIT, type CatalogRowGroup } from '@go10/core/catalog/buildRows'
 import type { Collection } from '@go10/core/collections/types'
 import { continueCardProgress } from '@go10/core/progress/describe'
@@ -10,6 +10,7 @@ import type { HomeModel } from '../home/homeModel'
 import { theme } from '../theme'
 import { CollectionStrip } from './CollectionStrip'
 import { Hero } from './Hero'
+import { Navbar } from './Navbar'
 import { Row } from './Row'
 
 type Section = { kind: 'strip' } | { kind: 'continue' } | { kind: 'row'; index: number }
@@ -30,7 +31,7 @@ export function homeSections(model: HomeModel, continueCount = 0): Section[] {
  * hero is the list header, never virtualised: remounting it would re-apply
  * hasTVPreferredFocus and yank TV focus back to the top.
  */
-export function HomeView({ model, progress, imageBase, onSelectTitle, onPlayTitle, onSelectCollection }: {
+export function HomeView({ model, progress, imageBase, onSelectTitle, onPlayTitle, onSelectCollection, onOpenSection, onSearch }: {
   model: HomeModel
   progress: Record<string, Progress>
   imageBase: string
@@ -38,6 +39,8 @@ export function HomeView({ model, progress, imageBase, onSelectTitle, onPlayTitl
   /** `row` is what Reproducir/Reanudar starts. */
   onPlayTitle: (title: Title, row: CatalogRow) => void
   onSelectCollection: (collection: Collection) => void
+  onOpenSection: (section: 'movie' | 'show') => void
+  onSearch: () => void
 }) {
   // Re-read on arriving at Home (the screen passes fresh progress), like the web's per-mount read.
   const continueItems = useMemo(
@@ -49,8 +52,9 @@ export function HomeView({ model, progress, imageBase, onSelectTitle, onPlayTitl
   const sections = homeSections(model, continueItems.length)
   const heroProgress = useMemo(() => titleProgress(model.featured, progress), [model.featured, progress])
   return (
+    <View style={styles.root}>
     <FlatList
-      style={styles.root}
+      style={styles.list}
       data={sections}
       keyExtractor={(s) => (s.kind === 'row' ? model.rows[s.index].id : s.kind)}
       initialNumToRender={4}
@@ -88,9 +92,12 @@ export function HomeView({ model, progress, imageBase, onSelectTitle, onPlayTitl
         return <Row group={model.rows[item.index]} imageBase={imageBase} onSelect={onSelectTitle} />
       }}
     />
+      <Navbar section="all" onSection={onOpenSection} onSearch={onSearch} />
+    </View>
   )
 }
 
 const styles = StyleSheet.create({
   root: { flex: 1, backgroundColor: theme.color.bg },
+  list: { flex: 1 },
 })

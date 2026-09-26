@@ -1,8 +1,8 @@
 import { Redirect, router, useFocusEffect, useLocalSearchParams } from 'expo-router'
 import { useCallback, useState } from 'react'
-import { rowKey } from '@go10/core/catalog/rowKey'
 import { listProgress } from '@go10/core/progress/progressStore'
 import { resolveRoute } from '@go10/core/router/resolveRoute'
+import { playTitle } from '../../../browse/navigate'
 import { DetailView } from '../../../components/DetailView'
 import { LoadingScreen } from '../../../components/LoadingScreen'
 import { appExtra, siteBase } from '../../../config/appConfig'
@@ -29,7 +29,7 @@ export default function TitleScreen() {
       progress={progress}
       imageBase={imageBase}
       onBack={() => router.back()}
-      onPlay={(row) => router.push({ pathname: '/title/[key]/play/[videoId]', params: { key: title.key, videoId: rowKey(row) } })}
+      onPlay={(row) => playTitle(title, row)}
     />
   )
 }

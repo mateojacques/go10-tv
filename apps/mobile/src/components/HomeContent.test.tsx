@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react-native'
 import type { Title } from '@go10/core/types'
 import { HomeContent } from './HomeContent'
 
-const props = { progress: {}, onRetry: jest.fn(), imageBase: 'https://tv.test/', onSelectTitle: jest.fn(), onPlayTitle: jest.fn(), onSelectCollection: jest.fn() }
+const props = { progress: {}, onRetry: jest.fn(), imageBase: 'https://tv.test/', onSelectTitle: jest.fn(), onPlayTitle: jest.fn(), onSelectCollection: jest.fn(), onOpenSection: jest.fn(), onSearch: jest.fn() }
 const title: Title = {
   key: 'a', kind: 'movie', title: 'Coraje', year: 2001, studio: '', source: '', genre: '', genre_secondary: '',
   quality: '', language: '', subtitled: false, thumbnail: '', views: 0, durationSeconds: 0, catalogIndex: 0, seasons: [],

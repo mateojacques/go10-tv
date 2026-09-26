@@ -25,7 +25,7 @@ function model(overrides: Partial<HomeModel> = {}): HomeModel {
     ...overrides,
   }
 }
-const handlers = () => ({ onSelectTitle: jest.fn(), onPlayTitle: jest.fn(), onSelectCollection: jest.fn() })
+const handlers = () => ({ onSelectTitle: jest.fn(), onPlayTitle: jest.fn(), onSelectCollection: jest.fn(), onOpenSection: jest.fn(), onSearch: jest.fn() })
 
 describe('HomeView', () => {
   it('stacks the hero, the collection strip and the rows', async () => {
@@ -75,5 +75,15 @@ describe('HomeView', () => {
   it('has no Seguir viendo row when nothing is in progress', async () => {
     await render(<HomeView progress={{}} model={model()} imageBase="https://tv.test/" {...handlers()} />)
     expect(screen.queryByRole('header', { name: /Seguir viendo/ })).toBeNull()
+  })
+
+  it('reaches Películas, Series and search from the navbar', async () => {
+    const h = handlers()
+    await render(<HomeView progress={{}} model={model()} imageBase="https://tv.test/" {...h} />)
+    const user = userEvent.setup()
+    await user.press(screen.getByRole('button', { name: 'Películas' }))
+    await user.press(screen.getByRole('button', { name: 'Buscar' }))
+    expect(h.onOpenSection).toHaveBeenCalledWith('movie')
+    expect(h.onSearch).toHaveBeenCalledTimes(1)
   })
 })
