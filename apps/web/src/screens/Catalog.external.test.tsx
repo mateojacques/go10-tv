@@ -43,7 +43,7 @@ afterEach(() => {
 })
 
 describe('Catalog with external titles', () => {
-  it('appends TMDB results after catalog matches, with the TMDB credit', async () => {
+  it('adds TMDB results after equally good catalog matches, with the TMDB credit', async () => {
     vi.stubGlobal('fetch', tmdbFetch({ ...GENRES, '/search/multi': { results: [DARK_KNIGHT, BREAKING_BAD] } }))
     renderSearch('batman')
 
@@ -53,6 +53,13 @@ describe('Catalog with external titles', () => {
     await screen.findByText('Batman: El caballero de la noche')
     expect(cardNames()).toEqual(['Batman Returns', 'Batman: El caballero de la noche', 'Breaking Bad'])
     expect(screen.getByText('Datos de títulos: TMDB')).not.toBeNull()
+  })
+
+  it('ranks a TMDB result that matches the query exactly above catalog matches', async () => {
+    vi.stubGlobal('fetch', tmdbFetch({ ...GENRES, '/search/multi': { results: [BREAKING_BAD, { id: 1, media_type: 'movie', title: 'Batman', poster_path: '/p1.jpg' }] } }))
+    renderSearch('batman')
+    await screen.findByText('Batman')
+    expect(cardNames()).toEqual(['Batman', 'Batman Returns', 'Breaking Bad'])
   })
 
   it('keeps focus on the catalog card when TMDB results arrive', async () => {

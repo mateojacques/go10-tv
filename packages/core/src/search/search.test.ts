@@ -31,7 +31,8 @@ describe('normalize', () => {
 })
 
 describe('scoreTitle', () => {
-  it('ranks title prefix > word prefix > substring > fuzzy', () => {
+  it('ranks exact > title prefix > word prefix > substring > fuzzy', () => {
+    expect(scoreTitle('toy story', 'Toy Story')).toBeGreaterThan(scoreTitle('toy story', 'Toy Story 5'))
     const prefix = scoreTitle('toy', 'Toy Story')
     const wordPrefix = scoreTitle('story', 'Toy Story')
     const substring = scoreTitle('tory', 'Toy Story')
@@ -77,6 +78,15 @@ describe('search', () => {
 
   it('matches every word of a multi-word query in any title position', () => {
     expect(titlesOf('pelicula')).toEqual(['Una película de huevos', 'Goofy: La Película'])
+  })
+
+  it('does not let a short word carry an unrelated rest of the query', () => {
+    expect(search('la odisea', CATALOG).fallback).toBe(true)
+    expect(search('hora de xqzvwk', CATALOG).fallback).toBe(true)
+  })
+
+  it('ignores an unmatched short word next to a matching one', () => {
+    expect(titlesOf('la castlevania')).toEqual(['Castlevania'])
   })
 
   it('falls back to the closest titles when nothing matches', () => {

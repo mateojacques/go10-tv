@@ -11,7 +11,7 @@ import { CatalogGrid } from './CatalogGrid'
 
 /**
  * Every title matching a section and/or a query (apps/web/src/screens/Catalog.tsx),
- * with TMDB hits appended when external titles are on: the same view serves Películas,
+ * with TMDB hits ranked in when external titles are on: the same view serves Películas,
  * Series and search results.
  */
 export function CatalogView({ titles, section, query, catalogOnly = false, imageBase, onSelect, top = 0, preferFirst }: {
@@ -28,7 +28,7 @@ export function CatalogView({ titles, section, query, catalogOnly = false, image
 }) {
   const selection = useMemo(() => selectTitles(titles, section, query), [titles, section, query])
   const tmdb = useTmdbSearch(query, section, externalTitlesEnabled() && !catalogOnly && selection.mode !== 'browse')
-  const shown = mergeSearch(selection, tmdb)
+  const shown = mergeSearch(selection, tmdb, query)
   const counted = shown.mode === 'results' || shown.mode === 'browse'
 
   const header = (

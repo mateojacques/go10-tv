@@ -59,7 +59,7 @@ describe('CatalogView', () => {
     expect(screen.queryByRole('button', { name: 'Película 299' })).toBeNull()
   })
 
-  it('appends TMDB hits after the catalog matches, with the credit', async () => {
+  it('adds TMDB hits after better catalog matches, with the credit', async () => {
     external(true)
     tmdb.mockReturnValue({ status: 'done', titles: [BATMAN] })
     await render(<CatalogView titles={titles} section="all" query="dig" imageBase={IMG} onSelect={jest.fn()} />)
@@ -67,6 +67,14 @@ describe('CatalogView', () => {
     expect(cards).toEqual(['Digimon', 'Batman'])
     expect(screen.getByText('Datos de títulos: TMDB')).toBeTruthy()
     expect(tmdb).toHaveBeenCalledWith('dig', 'all', true)
+  })
+
+  it('ranks a TMDB hit that matches the query exactly above catalog matches', async () => {
+    external(true)
+    tmdb.mockReturnValue({ status: 'done', titles: [{ ...t('tmdb-tv-1', 'Dragon', 'show'), external: true }] })
+    await render(<CatalogView titles={titles} section="all" query="dragon" imageBase={IMG} onSelect={jest.fn()} />)
+    const cards = screen.getAllByRole('button').map((b) => b.props.accessibilityLabel)
+    expect(cards).toEqual(['Dragon', 'Dragon Ball'])
   })
 
   it('waits for TMDB before suggesting near titles', async () => {

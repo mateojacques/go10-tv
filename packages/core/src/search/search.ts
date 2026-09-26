@@ -1,19 +1,26 @@
 /**
  * Title search for the catalog: partial, accent-insensitive and typo-tolerant.
  *
- * Scores are tiered so a clean match always outranks a fuzzy one: prefix >
- * word prefix > substring > fuzzy. Each substring tier also has a "compact"
+ * Scores are tiered so a clean match always outranks a fuzzy one: exact >
+ * prefix > word prefix > substring > fuzzy. Each substring tier also has a "compact"
  * variant, with spaces removed, so "yugioh" finds "Yu-Gi-Oh!".
  */
-
-/** Below this a title isn't a match. Deliberately low: we'd rather show too much. */
-export const MATCH_MIN = 0.42
 
 /** How many "Quizás te interese" titles to show when nothing matches. */
 export const FALLBACK_COUNT = 10
 
 /** Scales fuzzy similarity so it can never outrank a real substring hit. */
 const FUZZY_WEIGHT = 0.7
+
+/**
+ * How close every (3+ letter) query word must come to some title word for a
+ * fuzzy match: one typo in a short word, two in a longer one. A single
+ * matching word ("la") no longer carries an unrelated rest of the query.
+ */
+const WORD_MIN = 0.65
+
+/** Below this a title isn't a match: exactly the weakest passing fuzzy score. */
+export const MATCH_MIN = FUZZY_WEIGHT * WORD_MIN
 
 /** Shorter query words only count as a match on an exact prefix. */
 const FUZZY_MIN_LENGTH = 3
@@ -110,28 +117,38 @@ function wordSimilarity(queryWord: string, titleWord: string): number {
 function fuzzy(query: Prepared, title: Prepared): number {
   if (title.tokens.length === 0) return 0
   let total = 0
+  let counted = 0
+  let missed = false
   for (const queryWord of query.tokens) {
     let best = 0
     for (const titleWord of title.tokens) {
       best = Math.max(best, wordSimilarity(queryWord, titleWord))
       if (best === 1) break
     }
+    // An unmatched short word ("la", "de") is noise, not a miss.
+    if (best === 0 && queryWord.length < FUZZY_MIN_LENGTH) continue
+    if (best < WORD_MIN) missed = true
     total += best
+    counted++
   }
-  return total / query.tokens.length
+  if (counted === 0) return 0
+  const average = total / counted
+  // A near miss still ranks the "Quizás te interese" fallback, but under MATCH_MIN.
+  return missed ? average * MATCH_MIN : FUZZY_WEIGHT * average
 }
 
 function scorePrepared(query: Prepared, title: Prepared): number {
   if (!query.text) return 0
   const t = title.text
   const q = query.text
-  if (t.startsWith(q)) return 1
+  if (t === q || title.compact === query.compact) return 1
+  if (t.startsWith(q)) return 0.97
   if (title.compact.startsWith(query.compact)) return 0.95
   if (` ${t}`.includes(` ${q}`)) return 0.9
   if (title.wordCompacts.some((w) => w.startsWith(query.compact))) return 0.85
   if (t.includes(q)) return 0.8
   if (title.compact.includes(query.compact)) return 0.75
-  return FUZZY_WEIGHT * fuzzy(query, title)
+  return fuzzy(query, title)
 }
 
 export function scoreTitle(query: string, title: string): number {

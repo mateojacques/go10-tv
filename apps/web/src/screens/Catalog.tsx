@@ -35,7 +35,7 @@ export function Catalog({
 }) {
   const selection = useMemo(() => selectTitles(titles, section, query), [titles, section, query])
   const tmdb = useTmdbSearch(query, section, externalTitlesEnabled() && !catalogOnly && selection.mode !== 'browse')
-  const shown = mergeSearch(selection, tmdb)
+  const shown = mergeSearch(selection, tmdb, query)
 
   return (
     <div className="go-catalog">
