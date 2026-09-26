@@ -180,6 +180,17 @@ describe('catalogStore', () => {
     expect(titlesOf(store)).toEqual(['A', 'B'])
   })
 
+  it('keeps cached collections when only the catalog was missing from the cache and collections answer 304', async () => {
+    // e.g. first launch: the small index downloaded, the 1.3 MB catalog timed out; then Reintentar.
+    const { fetchText } = site({ [CATALOG]: { body: csv('A') }, [COLLECTIONS]: { body: JSON.stringify([collection('pixar', 1)]), etag: '"k1"' } })
+    const cache = memoryTextCache()
+    cache.write('collections.json', { body: JSON.stringify([collection('pixar', 1)]), etag: '"k1"' })
+    const store = createCatalogStore({ fetchText, cache, siteBase: BASE })
+    await store.start()
+    const state = store.getState()
+    expect(state.status === 'ready' && state.data.collections.map((c) => c.id)).toEqual(['pixar'])
+  })
+
   it('runs one load at a time', async () => {
     const server = site({ [CATALOG]: { body: csv('A') } })
     const store = createCatalogStore({ fetchText: server.fetchText, cache: memoryTextCache(), siteBase: BASE })

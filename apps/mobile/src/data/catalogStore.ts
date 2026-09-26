@@ -110,9 +110,10 @@ export function createCatalogStore(deps: Deps): CatalogStore {
 
   async function load(): Promise<void> {
     const rows = cached(CATALOG)?.value ?? null
-    const current: CatalogData | null = rows
-      ? { rows, titles: buildTitles(rows), collections: cached(COLLECTIONS)?.value ?? [] }
-      : null
+    // Read on its own: a valid collections cache must survive a missing or corrupt catalog
+    // cache, since its ETag is still sent and a 304 would otherwise leave no collections.
+    const cachedCollections = cached(COLLECTIONS)?.value ?? []
+    const current: CatalogData | null = rows ? { rows, titles: buildTitles(rows), collections: cachedCollections } : null
     set(current ? { status: 'ready', data: current } : { status: 'loading' })
 
     const [freshRows, freshCollections] = await Promise.all([refresh(CATALOG), refresh(COLLECTIONS)])
@@ -125,7 +126,7 @@ export function createCatalogStore(deps: Deps): CatalogStore {
     const next: CatalogData = {
       rows: nextRows,
       titles: freshRows ? buildTitles(freshRows) : current!.titles,
-      collections: freshCollections ?? current?.collections ?? [],
+      collections: freshCollections ?? cachedCollections,
     }
     if (current) pending = next
     else set({ status: 'ready', data: next })
