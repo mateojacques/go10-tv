@@ -1083,7 +1083,8 @@ describe('PlayerView', () => {
   })
 
   describe('when the embed never loads', () => {
-    beforeEach(() => jest.useFakeTimers())
+    // RNTL 14's async render and act settle through setImmediate/queueMicrotask; freezing them hangs.
+    beforeEach(() => jest.useFakeTimers({ doNotFake: ['setImmediate', 'queueMicrotask', 'nextTick'] }))
     afterEach(() => jest.useRealTimers())
 
     it('reconnects after 8 s, then offers the fallback link', async () => {
