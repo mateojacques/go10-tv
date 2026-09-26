@@ -1342,6 +1342,7 @@ export function CollectionView({ collection, titles, imageBase, onSelect, onBack
 
   const banner = (
     <View
+      accessible
       accessibilityRole="header"
       accessibilityLabel={collection.name}
       style={[styles.banner, { backgroundColor: color, marginTop: insets.top + (tv ? 24 : 64) }]}
