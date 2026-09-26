@@ -3,7 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "workspaces": ["packages/*", "apps/web"],
+  "workspaces": [
+    "packages/*",
+    "apps/web"
+  ],
   "scripts": {
     "dev": "npm run dev -w @go10/web",
     "build": "npm run build -w @go10/web",
@@ -15,5 +18,9 @@
     "jsdom": "^29.1.1",
     "typescript": "~6.0.2",
     "vitest": "^5.0.1"
+  },
+  "overrides": {
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
   }
 }
