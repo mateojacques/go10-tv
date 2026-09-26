@@ -87,6 +87,15 @@ prereleases (`0.86.3-0`) that never satisfy peer ranges, so peers are not
 auto-installed and must be declared explicitly. React is pinned to 19.2.3
 repo-wide, the exact version React Native's renderer requires.
 
+### Release APK (Android)
+
+One universal APK (phone + TV), signed with a local keystore that never enters the repo:
+
+- Keystore: `~/.config/go10-tv/go10-release.jks`; its alias and passwords are in `~/.gradle/gradle.properties` (`GO10_RELEASE_*`). **Back both up** — an APK signed with a different key can't update an installed one.
+- Build: `npm run build:release -w @go10/mobile` → `apps/mobile/android/app/build/outputs/apk/release/app-release.apk`.
+- Install: `adb install -r app-release.apk`. A debug build on the device must be uninstalled first (different signature), which clears its progress.
+- Brand images: `python3 apps/mobile/scripts/brand_images.py` regenerates `apps/mobile/assets/images/`.
+
 ## Controls
 
 Designed for a TV remote first. On a TV (detected from the browser's user
@@ -238,8 +247,8 @@ colour field and show the art crisp beside it at close to its native size.
 ## Tests
 
 ```bash
-python3 -m pytest tests/ -v   # 92 — parser, genres, merge, feed, chapters, output paths
-npm test                      # 593 — core (logic: 268) + web (components: 180) + mobile (145), every workspace
+python3 -m pytest tests/ -v   # 97 — parser, genres, merge, feed, chapters, output paths, brand images
+npm test                      # 602 — core (logic: 268) + web (components: 180) + mobile (154), every workspace
 ```
 
 ## Not in this MVP

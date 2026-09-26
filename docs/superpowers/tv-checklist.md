@@ -42,3 +42,8 @@ Deferred from the phone-only phases. Run with the remote on a Google TV / Androi
 - [ ] A TMDB result opens its Detail (Cargando título… first on a cold start); Back returns to the results with focus on that card.
 - [ ] A vidlove title plays on the TV's system WebView; FF/RW and Left/Right seek; the bar has no play/pause button.
 - [ ] A played TMDB title shows in Seguir viendo after a relaunch, and resumes where it stopped.
+
+## From Phase 7 (Polish)
+- [ ] Install `app-release.apk` on the TV: GO10 TV appears in the launcher's app row with its banner, and opens with the remote.
+- [ ] The player stays landscape with no change on TV (the phone-only orientation lock never runs).
+- [ ] Run every earlier section of this checklist on the release build.
