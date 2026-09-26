@@ -269,8 +269,9 @@ straight to the embed's own controls. The overlay bar behaves as on the web
 
 - `packages/core`: Vitest; today's logic tests move with their code. Each
   port has an in-memory fake.
-- `apps/web`: component tests stay. **Phase 1 gate: all 288 JS tests and
-  43 Python tests pass.**
+- `apps/web`: component tests stay. **Phase 1 gate: all 398 JS tests and
+  91 Python tests that existed at the start of Phase 1 pass** (the spec
+  originally quoted stale README counts).
 - `apps/mobile`: Jest + `@testing-library/react-native`:
   - player bridge: host-page messages → `parse` → progress writes; commands
     → `injectJavaScript` (mocked WebView)
@@ -308,7 +309,7 @@ after the previous phase is done.
 | # | Phase | Delivers | Done when |
 |---|---|---|---|
 | 0 | Spike (throwaway) | Expo TV dev build; one hard-coded ok.ru episode and one vidlove title in the WebView host page | ✅ Done 2026-09-26 on the phone (TV deferred to hardware). On the phone: autoplay; `timeupdate`/`ended` reach RN; seek and play/pause from remote keys; the embed can't navigate the host away. **Output: go/no-go on C.** Code discarded. |
-| 1 | Monorepo + core | npm workspaces; `packages/core` with ports; `apps/web` moved; collections JSON published | 288 + 43 tests pass; Netlify deploy unchanged; `/data/collections/index.json` served |
+| 1 | Monorepo + core | npm workspaces; `packages/core` with ports; `apps/web` moved; collections JSON published | ✅ Done 2026-09-26 (415 JS + 92 Python). 398 + 91 baseline tests pass; Netlify deploy unchanged; `/data/collections/index.json` served |
 | 2 | App skeleton + data | `apps/mobile` (Expo, tvos, router, MMKV, theme); SWR loader; error screen; a plain title list | Live catalog shown on both devices; cache works offline |
 | 3 | Home | Hero, collection strip, 28 rows, TV focus guides | Every Home item reachable by D-pad, focus never lost; phone touch scroll |
 | 4 | Detail + Player | Detail (seasons, episodes, Reanudar, progress bars); the real player from Phase 0's findings, with the full TV key map (D-pad + media keys) | Success flow end to end: play → Back → relaunch → resume; auto-advance |
