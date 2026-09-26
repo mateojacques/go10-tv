@@ -173,7 +173,7 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
           ref={webRef}
           testID="player-webview"
           style={styles.web}
-          source={{ html: hostHtml(src, provider.origin, provider.sandbox), baseUrl: siteUrl }}
+          source={{ html: hostHtml(src, provider.origin), baseUrl: siteUrl }}
           originWhitelist={['*']}
           onMessage={onMessage}
           onShouldStartLoadWithRequest={(request) => allowNavigation(request, siteUrl)}

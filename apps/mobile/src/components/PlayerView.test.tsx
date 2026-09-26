@@ -60,6 +60,16 @@ describe('PlayerView', () => {
     expect(webview().props.onShouldStartLoadWithRequest({ url: 'https://ads.example/', isTopFrame: true })).toBe(false)
   })
 
+  it('never sandboxes the embed: vidlove refuses to play sandboxed ("This site broke the player")', async () => {
+    const tmdb: CatalogRow = {
+      ...movie, video_id: 'tmdb-tv-1396-s1e1', type: 'episode', season_number: 1, episode_number: 1, external: true,
+      embed_url: 'https://player.vidlove.cc/embed/tv/1396/1/1', video_url: 'https://player.vidlove.cc/embed/tv/1396/1/1',
+    }
+    await render(<PlayerView row={tmdb} siteUrl={SITE} onClose={jest.fn()} />)
+    expect(webview().props.source.html).toContain('src="https://player.vidlove.cc/embed/tv/1396/1/1?')
+    expect(webview().props.source.html).not.toContain('sandbox')
+  })
+
   it('saves progress from the embed and on leaving with Back', async () => {
     const onClose = jest.fn()
     await render(<PlayerView row={movie} siteUrl={SITE} onClose={onClose} />)

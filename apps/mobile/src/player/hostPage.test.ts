@@ -9,10 +9,6 @@ describe('hostHtml', () => {
     expect(html).not.toContain('sandbox=')
   })
 
-  it('sandboxes the iframe when the provider asks', () => {
-    expect(hostHtml('https://player.vidlove.cc/embed/movie/1', 'https://player.vidlove.cc', 'allow-scripts allow-same-origin'))
-      .toContain('sandbox="allow-scripts allow-same-origin"')
-  })
 })
 
 describe('commandScript', () => {
