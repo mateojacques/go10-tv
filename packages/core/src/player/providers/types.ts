@@ -14,6 +14,9 @@ export interface EmbedProvider {
   /** `row` is what's playing now, so stale events can be dropped. */
   parse(data: unknown, row: CatalogRow): PlayerEvent | null
   seekMessage(time: number): unknown
+  /** Resume/pause commands; absent when the embed has none (vidlove). */
+  playMessage?: unknown
+  pauseMessage?: unknown
   /** true: resume via `src`'s start time; false: post `seekMessage` once playing. */
   resumesViaUrl: boolean
   /** Text of the fallback link to `row.video_url`. */

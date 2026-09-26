@@ -183,6 +183,7 @@ describe('createPlaybackSession', () => {
     session.select(chapter(2, 600, 1200))
     expect(readProgress('f9:1')?.time).toBe(300)
     expect(sent).toEqual([{ action: 'seek', time: 600 }])
+    clock += 5000
     session.handle(okTime(610, 1200))
     expect(readProgress('f9:2')?.time).toBe(610)
   })
