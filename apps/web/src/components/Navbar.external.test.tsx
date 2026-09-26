@@ -4,8 +4,8 @@ import { useState } from 'react'
 import { Navbar } from './Navbar'
 import { FocusProvider } from '../focus/FocusProvider'
 import { useFocusable } from '../focus/useFocusable'
-import type { Route } from '../router/route'
-import { enableExternalTitles } from '../external/testing'
+import type { Route } from '@go10/core/router/route'
+import { enableExternalTitles } from '@go10/core/external/testing'
 
 function Result() {
   const { ref, focused } = useFocusable('grid:a', 0, 0, () => {})

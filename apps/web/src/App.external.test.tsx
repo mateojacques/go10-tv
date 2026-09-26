@@ -1,12 +1,12 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { render, screen, fireEvent, waitFor } from '@testing-library/react'
 import App from './App'
-import { enableExternalTitles, tmdbFetch } from './external/testing'
-import { resetTmdbClientForTests } from './external/tmdb/client'
+import { enableExternalTitles, tmdbFetch } from '@go10/core/external/testing'
+import { resetTmdbClientForTests } from '@go10/core/external/tmdb/client'
 import { resetTmdbTitleCacheForTests } from './external/useTmdbTitle'
-import { listSnapshots, saveSnapshot } from './external/snapshots'
-import { mapMovie, type TmdbMovie } from './external/tmdb/map'
-import { writeProgress } from './progress/progressStore'
+import { listSnapshots, saveSnapshot } from '@go10/core/external/snapshots'
+import { mapMovie, type TmdbMovie } from '@go10/core/external/tmdb/map'
+import { writeProgress } from '@go10/core/progress/progressStore'
 
 const CSV = `catalog_index,video_id,type,title,title_raw,series_id,series_title,season_number,season_label,year,studio,genre,genre_secondary,quality,language,subtitled,duration_raw,duration_seconds,views,thumbnail,video_url,embed_url
 0,111,movie,Foo Movie,Foo Movie,,,,,2020,,Drama,,1080p,Español,false,1:00:00,3600,10,thumb.webp,https://ok.ru/video/111,https://ok.ru/videoembed/111

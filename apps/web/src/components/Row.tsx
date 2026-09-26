@@ -1,5 +1,5 @@
-import type { Title } from '../types'
-import type { CatalogRowGroup } from '../catalog/buildRows'
+import type { Title } from '@go10/core/types'
+import type { CatalogRowGroup } from '@go10/core/catalog/buildRows'
 import { Card, type CardProgress } from './Card'
 import './Row.css'
 

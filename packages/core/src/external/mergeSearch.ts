@@ -1,6 +1,10 @@
 import type { Title } from '../types'
 import type { CatalogMode } from '../catalog/selectTitles'
-import type { TmdbSearchState } from './useTmdbSearch'
+
+export interface TmdbSearchState {
+  status: 'off' | 'pending' | 'done' | 'failed'
+  titles: Title[]
+}
 
 /** `searching`: nothing in the catalog matched and TMDB hasn't answered yet. */
 export type SearchMode = CatalogMode | 'searching'

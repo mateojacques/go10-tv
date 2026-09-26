@@ -2,7 +2,7 @@ import { afterEach, describe, it, expect, vi } from 'vitest'
 import { render, screen, fireEvent } from '@testing-library/react'
 import { Detail } from './Detail'
 import { FocusProvider } from '../focus/FocusProvider'
-import type { CatalogRow, Title } from '../types'
+import type { CatalogRow, Title } from '@go10/core/types'
 
 function row(overrides: Partial<CatalogRow>): CatalogRow {
   return {

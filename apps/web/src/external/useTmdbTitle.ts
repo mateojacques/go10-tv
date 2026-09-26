@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
-import type { Title } from '../types'
-import { fetchTmdbTitle } from './tmdb/title'
-import { readSnapshot } from './snapshots'
+import type { Title } from '@go10/core/types'
+import { fetchTmdbTitle } from '@go10/core/external/tmdb/title'
+import { readSnapshot } from '@go10/core/external/snapshots'
 
 export type TmdbTitleState =
   | { status: 'idle' }

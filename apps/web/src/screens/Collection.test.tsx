@@ -2,8 +2,8 @@ import { describe, it, expect, vi } from 'vitest'
 import { render, screen, fireEvent } from '@testing-library/react'
 import { FocusProvider } from '../focus/FocusProvider'
 import { useFocusable } from '../focus/useFocusable'
-import type { Collection as CollectionData } from '../collections/types'
-import type { Title } from '../types'
+import type { Collection as CollectionData } from '@go10/core/collections/types'
+import type { Title } from '@go10/core/types'
 import { Collection } from './Collection'
 
 function title(key: string, name: string): Title {

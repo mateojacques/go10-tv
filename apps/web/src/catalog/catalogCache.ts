@@ -1,4 +1,4 @@
-import type { CatalogRow } from '../types'
+import type { CatalogRow } from '@go10/core/types'
 
 const CATALOG_CACHE_KEY = 'go10:catalog:v1'
 

@@ -1,4 +1,4 @@
-import type { Collection } from '../collections/types'
+import type { Collection } from '@go10/core/collections/types'
 import { CollectionTile } from './CollectionTile'
 import './Row.css'
 import './CollectionTile.css'

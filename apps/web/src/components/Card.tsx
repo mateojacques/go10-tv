@@ -1,7 +1,7 @@
-import type { Title } from '../types'
+import type { Title } from '@go10/core/types'
 import { useFocusable } from '../focus/useFocusable'
 import { ProgressBar } from './ProgressBar'
-import { imageSrc } from '../lib/imageSrc'
+import { imageSrc } from '@go10/core/lib/imageSrc'
 import './Card.css'
 
 /** Shown on "Seguir viendo" cards in place of the usual year/genre line. */

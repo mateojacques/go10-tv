@@ -1,8 +1,8 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { renderHook, waitFor } from '@testing-library/react'
 import { resetTmdbSearchForTests, useTmdbSearch } from './useTmdbSearch'
-import { resetTmdbClientForTests } from './tmdb/client'
-import { enableExternalTitles, tmdbFetch } from './testing'
+import { resetTmdbClientForTests } from '@go10/core/external/tmdb/client'
+import { enableExternalTitles, tmdbFetch } from '@go10/core/external/testing'
 
 const GENRES = {
   '/genre/movie/list': { genres: [{ id: 28, name: 'Acción' }] },

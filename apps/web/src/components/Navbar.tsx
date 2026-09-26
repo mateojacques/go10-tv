@@ -2,8 +2,8 @@ import { SearchBox } from './SearchBox'
 import { ScopeMenu, type ScopeGroup } from './ScopeMenu'
 import { useFocusable } from '../focus/useFocusable'
 import { useFocusState } from '../focus/FocusProvider'
-import { browseRoute, type Route, type Section } from '../router/route'
-import { externalTitlesEnabled } from '../external/config'
+import { browseRoute, type Route, type Section } from '@go10/core/router/route'
+import { externalTitlesEnabled } from '@go10/core/external/config'
 import './Navbar.css'
 
 /** The navbar sits above everything else on the screen in the focus grid. */

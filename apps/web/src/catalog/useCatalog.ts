@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
-import type { CatalogRow, Title } from '../types'
-import { parseCatalogCsv, buildTitles } from './loadCatalog'
+import type { CatalogRow, Title } from '@go10/core/types'
+import { parseCatalogCsv, buildTitles } from '@go10/core/catalog/loadCatalog'
 import { readCachedCatalog, writeCachedCatalog } from './catalogCache'
 
 interface CatalogState {

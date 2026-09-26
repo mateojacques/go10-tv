@@ -1,8 +1,8 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest'
 import { render, screen, fireEvent } from '@testing-library/react'
 import { FocusProvider } from '../focus/FocusProvider'
-import type { Collection } from '../collections/types'
-import type { CatalogRow, Title } from '../types'
+import type { Collection } from '@go10/core/collections/types'
+import type { CatalogRow, Title } from '@go10/core/types'
 import { Home } from './Home'
 
 function title(key: string, name: string): Title {

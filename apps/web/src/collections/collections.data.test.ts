@@ -3,9 +3,9 @@ import { describe, it, expect } from 'vitest'
 import { existsSync, readFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { buildTitles, parseCatalogCsv } from '../catalog/loadCatalog'
+import { buildTitles, parseCatalogCsv } from '@go10/core/catalog/loadCatalog'
 import { COLLECTION_FILES } from './collections'
-import { validateCollections } from './validateCollection'
+import { validateCollections } from '@go10/core/collections/validateCollection'
 
 // Relative to this file, so the suite passes from the repo root or apps/web.
 // (A string, not `new URL`: under jsdom that's jsdom's URL, which fileURLToPath rejects.)

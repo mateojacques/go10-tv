@@ -1,17 +1,15 @@
 import { useEffect, useState } from 'react'
-import type { Title } from '../types'
-import type { Section } from '../catalog/selectTitles'
-import { normalize } from '../search/search'
-import { tmdbAvailable } from './tmdb/client'
-import { resetGenresForTests, searchTmdb } from './tmdb/search'
+import type { Title } from '@go10/core/types'
+import type { Section } from '@go10/core/catalog/selectTitles'
+import { normalize } from '@go10/core/search/search'
+import { tmdbAvailable } from '@go10/core/external/tmdb/client'
+import { resetGenresForTests, searchTmdb } from '@go10/core/external/tmdb/search'
+import type { TmdbSearchState } from '@go10/core/external/mergeSearch'
+export type { TmdbSearchState }
 
 export const SEARCH_DEBOUNCE_MS = 400
 export const SEARCH_MIN_CHARS = 2
 
-export interface TmdbSearchState {
-  status: 'off' | 'pending' | 'done' | 'failed'
-  titles: Title[]
-}
 
 const OFF: TmdbSearchState = { status: 'off', titles: [] }
 const PENDING: TmdbSearchState = { status: 'pending', titles: [] }

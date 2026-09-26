@@ -3,7 +3,7 @@ import { render, screen, fireEvent } from '@testing-library/react'
 import { Catalog } from './Catalog'
 import { FocusProvider } from '../focus/FocusProvider'
 import { useFocusable } from '../focus/useFocusable'
-import type { Title } from '../types'
+import type { Title } from '@go10/core/types'
 
 function title(key: string, name: string, kind: Title['kind'] = 'movie'): Title {
   return {

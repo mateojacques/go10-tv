@@ -11,6 +11,7 @@
     "typecheck": "tsc -b"
   },
   "dependencies": {
+    "@go10/core": "*",
     "papaparse": "^5.7.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8"

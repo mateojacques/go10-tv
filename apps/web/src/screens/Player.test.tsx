@@ -1,7 +1,7 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
 import { render, screen, fireEvent, act } from '@testing-library/react'
 import { Player } from './Player'
-import type { CatalogRow } from '../types'
+import type { CatalogRow } from '@go10/core/types'
 
 function row(overrides: Partial<CatalogRow> = {}): CatalogRow {
   return {

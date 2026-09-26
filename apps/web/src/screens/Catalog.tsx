@@ -1,11 +1,11 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
-import type { Title } from '../types'
-import { selectTitles, type Section } from '../catalog/selectTitles'
+import type { Title } from '@go10/core/types'
+import { selectTitles, type Section } from '@go10/core/catalog/selectTitles'
 import { Card } from '../components/Card'
 import { useGridColumns } from './useGridColumns'
-import { externalTitlesEnabled } from '../external/config'
+import { externalTitlesEnabled } from '@go10/core/external/config'
 import { useTmdbSearch } from '../external/useTmdbSearch'
-import { mergeSearch, type SearchMode } from '../external/mergeSearch'
+import { mergeSearch, type SearchMode } from '@go10/core/external/mergeSearch'
 import './Catalog.css'
 
 /**

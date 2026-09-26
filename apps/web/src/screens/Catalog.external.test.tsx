@@ -2,11 +2,11 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { render, screen, waitFor } from '@testing-library/react'
 import { Catalog } from './Catalog'
 import { FocusProvider } from '../focus/FocusProvider'
-import type { Title } from '../types'
-import type { Section } from '../catalog/selectTitles'
-import { resetTmdbClientForTests } from '../external/tmdb/client'
+import type { Title } from '@go10/core/types'
+import type { Section } from '@go10/core/catalog/selectTitles'
+import { resetTmdbClientForTests } from '@go10/core/external/tmdb/client'
 import { resetTmdbSearchForTests } from '../external/useTmdbSearch'
-import { enableExternalTitles, tmdbFetch } from '../external/testing'
+import { enableExternalTitles, tmdbFetch } from '@go10/core/external/testing'
 
 function title(key: string, name: string): Title {
   return {

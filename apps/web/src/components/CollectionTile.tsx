@@ -1,4 +1,4 @@
-import type { Collection } from '../collections/types'
+import type { Collection } from '@go10/core/collections/types'
 import { useFocusable } from '../focus/useFocusable'
 import './CollectionTile.css'
 

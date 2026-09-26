@@ -1,8 +1,8 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { render, screen, fireEvent, act } from '@testing-library/react'
 import { Player } from './Player'
-import type { CatalogRow } from '../types'
-import { writeProgress } from '../progress/progressStore'
+import type { CatalogRow } from '@go10/core/types'
+import { writeProgress } from '@go10/core/progress/progressStore'
 
 const VIDLOVE = 'https://player.vidlove.cc'
 

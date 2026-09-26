@@ -1,4 +1,4 @@
-import { imageSrc } from '../lib/imageSrc'
+import { imageSrc } from '@go10/core/lib/imageSrc'
 import './Backdrop.css'
 
 /**

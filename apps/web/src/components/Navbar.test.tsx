@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { Navbar } from './Navbar'
 import { FocusProvider } from '../focus/FocusProvider'
 import { useFocusable } from '../focus/useFocusable'
-import type { Route } from '../router/route'
+import type { Route } from '@go10/core/router/route'
 
 function Result({ id = 'grid:a', col = 0 }: { id?: string; col?: number }) {
   const { ref, focused } = useFocusable(id, 0, col, () => {})

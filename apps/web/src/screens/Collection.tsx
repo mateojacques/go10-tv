@@ -1,5 +1,5 @@
-import type { Collection as CollectionData } from '../collections/types'
-import type { Title } from '../types'
+import type { Collection as CollectionData } from '@go10/core/collections/types'
+import type { Title } from '@go10/core/types'
 import { CatalogGrid } from './Catalog'
 import '../components/Row.css'
 import './Catalog.css'

@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { fromModules } from './collections'
+import { fromModules } from './fromModules'
 
 const raw = (id: string, order: number) => ({
   id,

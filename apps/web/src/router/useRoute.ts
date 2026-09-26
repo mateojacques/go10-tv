@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from 'react'
-import { parseRoute, routeToPath, type Route } from './route'
+import { parseRoute, routeToPath, type Route } from '@go10/core/router/route'
 
 export function useRoute(): {
   route: Route

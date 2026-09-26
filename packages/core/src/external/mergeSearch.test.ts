@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import { mergeSearch } from './mergeSearch'
 import type { Title } from '../types'
-import type { TmdbSearchState } from './useTmdbSearch'
+import type { TmdbSearchState } from './mergeSearch'
 
 const t = (key: string) => ({ key, title: key }) as Title
 const catalog = [t('c1'), t('c2')]

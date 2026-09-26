@@ -1,10 +1,10 @@
 import { useCallback, useEffect, useMemo, useReducer, useRef, useState } from 'react'
-import type { CatalogRow } from '../types'
-import { playerRetryReducer, initialPlayerRetryState, backoffMs } from './playerRetry'
-import { markWatched, readProgress, resumeFromTime, writeProgress } from '../progress/progressStore'
-import { providerFor } from './providers'
-import { rowKey } from '../catalog/rowKey'
-import { rowLabel } from '../progress/describe'
+import type { CatalogRow } from '@go10/core/types'
+import { playerRetryReducer, initialPlayerRetryState, backoffMs } from '@go10/core/player/playerRetry'
+import { markWatched, readProgress, resumeFromTime, writeProgress } from '@go10/core/progress/progressStore'
+import { providerFor } from '@go10/core/player/providers/index'
+import { rowKey } from '@go10/core/catalog/rowKey'
+import { rowLabel } from '@go10/core/progress/describe'
 import './Player.css'
 
 /** How long to wait for the embed before treating it as a load failure. */

@@ -1,7 +1,7 @@
 import { describe, it, expect, vi } from 'vitest'
 import { render, screen, fireEvent } from '@testing-library/react'
 import { FocusProvider } from '../focus/FocusProvider'
-import type { Collection } from '../collections/types'
+import type { Collection } from '@go10/core/collections/types'
 import { CollectionStrip } from './CollectionStrip'
 
 const collection = (id: string, name: string, extra: Partial<Collection> = {}): Collection => ({

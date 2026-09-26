@@ -1,10 +1,10 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { renderHook, waitFor } from '@testing-library/react'
 import { resetTmdbTitleCacheForTests, useTmdbTitle } from './useTmdbTitle'
-import { resetTmdbClientForTests } from './tmdb/client'
-import { saveSnapshot } from './snapshots'
-import { mapMovie, type TmdbMovie } from './tmdb/map'
-import { enableExternalTitles, tmdbFetch } from './testing'
+import { resetTmdbClientForTests } from '@go10/core/external/tmdb/client'
+import { saveSnapshot } from '@go10/core/external/snapshots'
+import { mapMovie, type TmdbMovie } from '@go10/core/external/tmdb/map'
+import { enableExternalTitles, tmdbFetch } from '@go10/core/external/testing'
 
 const MOVIE: TmdbMovie = { id: 155, title: 'Batman: El caballero de la noche', release_date: '2008-07-16', backdrop_path: '/b.jpg' }
 
