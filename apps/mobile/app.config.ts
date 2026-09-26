@@ -17,6 +17,7 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     plugins: [
       'expo-router',
       'expo-image',
+      'expo-font',
       ['@react-native-tvos/config-tv', { androidTVBanner: './assets/images/icon-400x240.png' }],
     ],
     // Real environment variables win over the file (CI, one-off overrides).
