@@ -2,6 +2,8 @@ import { useMemo } from 'react'
 import { FlatList, StyleSheet, View } from 'react-native'
 import { ROW_LIMIT, type CatalogRowGroup } from '@go10/core/catalog/buildRows'
 import type { Collection } from '@go10/core/collections/types'
+import { externalTitlesEnabled } from '@go10/core/external/config'
+import { listSnapshots } from '@go10/core/external/snapshots'
 import { continueCardProgress } from '@go10/core/progress/describe'
 import type { Progress } from '@go10/core/progress/progressStore'
 import { continueWatching, titleProgress } from '@go10/core/progress/titleProgress'
@@ -42,11 +44,13 @@ export function HomeView({ model, progress, imageBase, onSelectTitle, onPlayTitl
   onOpenSection: (section: 'movie' | 'show') => void
   onSearch: () => void
 }) {
-  // Re-read on arriving at Home (the screen passes fresh progress), like the web's per-mount read.
-  const continueItems = useMemo(
-    () => continueWatching(model.titles, progress).slice(0, ROW_LIMIT),
-    [model.titles, progress],
-  )
+  // Re-read on arriving at Home (the screen passes fresh progress), like the
+  // web's per-mount read. Played TMDB titles aren't in the catalog; their
+  // snapshots stand in for them here, and only here.
+  const continueItems = useMemo(() => {
+    const candidates = externalTitlesEnabled() ? [...model.titles, ...listSnapshots()] : model.titles
+    return continueWatching(candidates, progress).slice(0, ROW_LIMIT)
+  }, [model.titles, progress])
   const continueByKey = useMemo(() => new Map(continueItems.map((item) => [item.title.key, item])), [continueItems])
   const continueGroup: CatalogRowGroup = { id: 'seguir-viendo', label: 'Seguir viendo', titles: continueItems.map((item) => item.title) }
   const sections = homeSections(model, continueItems.length)

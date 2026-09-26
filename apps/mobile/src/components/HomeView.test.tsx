@@ -1,3 +1,6 @@
+import { setExternalConfigSource } from '@go10/core/external/config'
+import { saveSnapshot } from '@go10/core/external/snapshots'
+import { memoryStore, setKeyValueStore } from '@go10/core/ports/keyValueStore'
 import { render, screen, userEvent } from '@testing-library/react-native'
 import type { Collection } from '@go10/core/collections/types'
 import type { CatalogRow, Title } from '@go10/core/types'
@@ -85,5 +88,21 @@ describe('HomeView', () => {
     await user.press(screen.getByRole('button', { name: 'Buscar' }))
     expect(h.onOpenSection).toHaveBeenCalledWith('movie')
     expect(h.onSearch).toHaveBeenCalledTimes(1)
+  })
+
+  it('lists played TMDB titles in Seguir viendo from their snapshots, only with external titles on', async () => {
+    setKeyValueStore(memoryStore())
+    const batman: Title = { ...title('tmdb-movie-155'), title: 'Batman', external: true, seasons: [{ video_id: 'tmdb-movie-155', type: 'movie' } as CatalogRow] }
+    saveSnapshot(batman)
+    const progress: Record<string, Progress> = { 'tmdb-movie-155': { time: 600, duration: 1200, updatedAt: 5, watched: false } }
+
+    setExternalConfigSource(() => ({ externalTitles: 'on', tmdbToken: 'test' }))
+    const on = await render(<HomeView progress={progress} model={model()} imageBase="https://tv.test/" {...handlers()} />)
+    expect(screen.getByRole('button', { name: 'Batman' })).toBeTruthy()
+    await on.unmount()
+
+    setExternalConfigSource(() => ({ externalTitles: undefined, tmdbToken: undefined }))
+    await render(<HomeView progress={progress} model={model()} imageBase="https://tv.test/" {...handlers()} />)
+    expect(screen.queryByRole('button', { name: 'Batman' })).toBeNull()
   })
 })
