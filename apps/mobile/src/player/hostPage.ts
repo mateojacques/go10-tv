@@ -9,10 +9,10 @@ function attr(value: string): string {
  * to RN as {kind:'embed'}; everything else is dropped. RN sends commands by
  * injecting `window.go10Command(cmd)` (see commandScript).
  *
- * The iframe is never sandboxed, unlike the web's vidlove iframe: vidlove
- * detects a sandbox and replaces the player with "This site broke the
- * player". The WebView's navigation guard and single-window setting keep
- * its ads from redirecting or opening windows instead.
+ * The iframe is never sandboxed: vidlove detects a sandbox and replaces
+ * the player with "This site broke the player". The WebView's navigation
+ * guard and single-window setting keep its ads from redirecting or opening
+ * windows instead.
  */
 export function hostHtml(embedSrc: string, origin: string): string {
   return `<!doctype html>

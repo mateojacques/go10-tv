@@ -57,6 +57,6 @@ export const vidlove: EmbedProvider = {
   seekMessage: (time) => ({ type: 'seek', time }),
   resumesViaUrl: false,
   fallbackLabel: 'Abrir en una pestaña nueva',
-  // No allow-popups: aggregator players like to open ad tabs.
-  sandbox: 'allow-scripts allow-same-origin allow-presentation',
+  // Never sandboxed: vidlove detects a sandbox and swaps the player for
+  // "This site broke the player" (seen on the Android app, 2026-09-26).
 }

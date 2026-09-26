@@ -21,6 +21,4 @@ export interface EmbedProvider {
   resumesViaUrl: boolean
   /** Text of the fallback link to `row.video_url`. */
   fallbackLabel: string
-  /** iframe `sandbox`; undefined means no sandbox attribute at all. */
-  sandbox?: string
 }

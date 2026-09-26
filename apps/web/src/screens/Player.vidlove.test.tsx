@@ -43,10 +43,10 @@ afterEach(() => {
 })
 
 describe('Player with vidlove', () => {
-  it('embeds vidlove sandboxed, and leaves ok.ru unsandboxed', () => {
+  it('never sandboxes an embed: vidlove refuses to play sandboxed ("This site broke the player")', () => {
     const { unmount } = render(<Player row={row()} onClose={() => {}} />)
     expect(frame().src.startsWith('https://player.vidlove.cc/embed/tv/1396/1/2?autoplay=true')).toBe(true)
-    expect(frame().getAttribute('sandbox')).toBe('allow-scripts allow-same-origin allow-presentation')
+    expect(frame().getAttribute('sandbox')).toBeNull()
     unmount()
 
     render(<Player row={row({ external: undefined, embed_url: 'https://ok.ru/videoembed/1', video_url: 'https://ok.ru/video/1' })} onClose={() => {}} />)

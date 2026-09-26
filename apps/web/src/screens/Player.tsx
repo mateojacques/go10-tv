@@ -288,7 +288,6 @@ export function Player({
           title={row.title}
           allow="autoplay; fullscreen; encrypted-media"
           allowFullScreen
-          sandbox={provider.sandbox}
           onLoad={handleLoad}
         />
       )}
