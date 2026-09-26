@@ -1,6 +1,7 @@
 # Android app (TV + phone) — design
 
-Status: **approved design** (2026-09-26). Phase 0 not started.
+Status: **approved design** (2026-09-26). Phase 0 done: **GO with caveats**
+(findings: `docs/superpowers/spikes/2026-09-26-android-player-spike.md`).
 
 ## Problem
 
@@ -43,7 +44,7 @@ an explicit, if secondary, motive.
 
 ## Success criteria (v1)
 
-On the Android TV emulator (and later a real device): launch from the
+On a real Android TV device (once bought): launch from the
 launcher, browse with only the D-pad, search, open a series, play an episode,
 press Back mid-episode, relaunch, resume from Seguir viendo. Every web screen
 reachable; focus never lost. On the phone: the same flow by touch, with the
@@ -52,11 +53,13 @@ player in landscape fullscreen.
 ## Development constraints
 
 - No Android TV hardware yet (the user's TV runs Tizen). Development targets
-  the user's Android phone plus the **Android Studio Android TV emulator**
-  driven by keyboard arrows. Real-device TV testing comes later and is not a
-  blocker.
-- Focus/D-pad behaviour is verified **manually by the user** on the emulator
-  per phase (checklist), not by automated emulator or browser runs.
+  **the user's Android phone only**; the Android TV emulator is too slow on
+  the development machine and is not used. TV behaviour (D-pad focus, remote
+  keys, launcher) is built to the design and verified later on real hardware,
+  starting with the spike's *Deferred to TV hardware* list.
+- Verification is **manual by the user** on-device, per phase, not by
+  automated emulator or browser runs. TV focus checklists accumulate per phase
+  and are run once hardware is available.
 - No deadline; phased delivery, each phase installable.
 
 ## Architecture
@@ -204,9 +207,13 @@ RN Player screen
 - Commands: RN calls `injectJavaScript` →
   `iframe.contentWindow.postMessage(cmd, origin)`, with `cmd` from the
   provider (`seekMessage`, plus new `playMessage` / `pauseMessage`).
-- Host page origin — decided in Phase 0: (a) inline HTML with
-  `baseUrl: SITE_URL`, or (b) a real `player-host.html` served from Netlify,
-  if the embeds reject (a) on referrer/parent checks.
+- Host page origin (settled in Phase 0): inline HTML with
+  `baseUrl: SITE_URL` (`https://tv.go10.blog`). Both embeds accept it; no
+  served host page is needed.
+- The navigation guard is required: vidlove serves ads that redirect the top
+  frame. Allow sub-frame loads (`isTopFrame === false`); allow top-frame only
+  for `SITE_URL` / `about:blank`; `setSupportMultipleWindows={false}` so
+  `window.open` hits the guard.
 - WebView: `mediaPlaybackRequiresUserAction={false}`,
   `allowsFullscreenVideo`, and any top-level navigation away from the host
   page is cancelled.
@@ -232,9 +239,11 @@ unreachable on TV, so the overlay covers everything.
 | Select or Up, bar hidden | open the bar (back, prev, play/pause, next); focus moves into it |
 | Back | bar open → close bar; bar closed → leave player |
 
-ok.ru play/pause (`{action: 'play'|'pause'}`) is known. vidlove play/pause is
-unconfirmed; Phase 0 checks its bundle. If absent, play/pause is disabled for
-vidlove titles and seek still works.
+ok.ru play/pause is `{action: 'play'|'pause'}` (confirmed in Phase 0).
+vidlove has **no** play/pause command (bundle and live test agree), so
+play/pause is disabled for vidlove titles; seek (`{type:'seek', time}`) works.
+Back arrives via `BackHandler`, the other keys via `useTVEventHandler`
+(`right`, `left`, `select`, `playPause`, `fastForward`, `rewind`).
 
 ### Phone
 
@@ -268,13 +277,18 @@ straight to the embed's own controls. The overlay bar behaves as on the web
   - the player's key map (media keys and D-pad → commands and bar state)
   - the SWR loader: cache hit, `304`, `200` applied on next Home, failures
   - screens rendering from fixtures; back behaviour
-- TV focus: a manual checklist per phase, run by the user on the emulator
-  (every item reachable, focus restored after Back, never lost).
+- TV focus: a manual checklist per phase (every item reachable, focus
+  restored after Back, never lost), run by the user on TV hardware once
+  available.
 
 ## Builds
 
 - Dev: `npx expo start` with a development build (`expo-dev-client`), hot
-  reload on phone and TV emulator.
+  reload on the phone. Day-to-day builds use
+  `-PreactNativeArchitectures=arm64-v8a` (a 4-ABI cold build took ~11 min).
+- The tvos template nests a second, non-TV `react-native` under
+  `node_modules/react-native/`; pin resolution to the root copy in both
+  `tsconfig.json` (`paths`) and `metro.config.js` (`resolveRequest`).
 - Release: `npx expo prebuild` + `./gradlew assembleRelease` locally → one
   universal APK, sideloaded with `adb install`. A local keystore, kept out of
   git and stable across builds so updates install over the previous version.
@@ -283,8 +297,8 @@ straight to the embed's own controls. The overlay bar behaves as on the web
   match the Expo SDK's React Native version.
 - Config: `SITE_URL`, `EXTERNAL_TITLES`, `TMDB_TOKEN` from `.env` via
   `app.config.ts`, baked at build time.
-- Machine prerequisites: Android Studio (SDK, platform-tools, an Android TV
-  system image), JDK 17.
+- Machine prerequisites: Android SDK + platform-tools, JDK 17 (the machine
+  default is 25: set `JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64`).
 
 ## Phases
 
@@ -293,7 +307,7 @@ after the previous phase is done.
 
 | # | Phase | Delivers | Done when |
 |---|---|---|---|
-| 0 | Spike (throwaway) | Expo TV dev build; one hard-coded ok.ru episode and one vidlove title in the WebView host page | On the TV emulator **and** the phone: autoplay; `timeupdate`/`ended` reach RN; seek and play/pause from remote keys; the embed can't navigate the host away. **Output: go/no-go on C.** Code discarded. |
+| 0 | Spike (throwaway) | Expo TV dev build; one hard-coded ok.ru episode and one vidlove title in the WebView host page | ✅ Done 2026-09-26 on the phone (TV deferred to hardware). On the phone: autoplay; `timeupdate`/`ended` reach RN; seek and play/pause from remote keys; the embed can't navigate the host away. **Output: go/no-go on C.** Code discarded. |
 | 1 | Monorepo + core | npm workspaces; `packages/core` with ports; `apps/web` moved; collections JSON published | 288 + 43 tests pass; Netlify deploy unchanged; `/data/collections/index.json` served |
 | 2 | App skeleton + data | `apps/mobile` (Expo, tvos, router, MMKV, theme); SWR loader; error screen; a plain title list | Live catalog shown on both devices; cache works offline |
 | 3 | Home | Hero, collection strip, 28 rows, TV focus guides | Every Home item reachable by D-pad, focus never lost; phone touch scroll |
@@ -311,9 +325,10 @@ Kotlin app) and is dropped.
 - **Android TV focus is proximity-based** and can be lost across screen
   transitions (react-native-screens #1706). Mitigated by focus guides,
   explicit preferred focus per screen, and per-phase manual checks.
-- **Embeds may reject the WebView host** (referrer/origin checks, autoplay
-  policy). Phase 0 exists to find out; option (b) is the first fallback.
+- **Embeds may reject the WebView host.** Retired on the phone in Phase 0;
+  recheck on the TV's system WebView.
 - **react-native-tvos lags Expo SDKs** by roughly a release; pin matching
   versions and upgrade deliberately.
-- **No TV hardware:** emulator behaviour can differ from real devices
-  (performance, remote key codes). Accepted until a device is bought.
+- **No TV testing until hardware exists:** TV-specific bugs (WebView taking
+  focus from the remote, key codes, launcher) surface late. Accepted; the
+  spike's deferred list is the first thing to run on a device.
