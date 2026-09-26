@@ -26,7 +26,7 @@ export function fromModules(modules: Record<string, unknown>): {
 }
 
 const loaded = fromModules(
-  import.meta.glob<unknown>('../../data/collections/*.json', { eager: true, import: 'default' }),
+  import.meta.glob<unknown>('../../../../data/collections/*.json', { eager: true, import: 'default' }),
 )
 
 /** Every collection file as written, for validation. */

@@ -1,4 +1,4 @@
-"""Build the Aniyomi extension feed (public/data/aniyomi/) from public/data/catalog.csv.
+"""Build the Aniyomi extension feed (apps/web/public/data/aniyomi/) from apps/web/public/data/catalog.csv.
 
 The feed is the extension's stable contract with the site: titles are grouped
 exactly like `buildTitles` in src/catalog/loadCatalog.ts, and chapter-split
@@ -13,8 +13,8 @@ import sys
 from datetime import datetime, timezone
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
-CATALOG_CSV = os.path.join(ROOT, "public", "data", "catalog.csv")
-OUTPUT_DIR = os.path.join(ROOT, "public", "data", "aniyomi")
+CATALOG_CSV = os.path.join(ROOT, "apps", "web", "public", "data", "catalog.csv")
+OUTPUT_DIR = os.path.join(ROOT, "apps", "web", "public", "data", "aniyomi")
 SCHEMA_VERSION = 1
 
 

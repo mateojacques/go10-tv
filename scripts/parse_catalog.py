@@ -1,4 +1,4 @@
-"""Turn the scraped ok.ru catalog HTML into public/data/catalog.csv.
+"""Turn the scraped ok.ru catalog HTML into apps/web/public/data/catalog.csv.
 
 Run: python3 scripts/parse_catalog.py
 """
@@ -16,7 +16,7 @@ from title_parser import parse_title, parse_episode_title, slugify
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 SOURCE_HTML = os.path.join(ROOT, "catalogo-solo-videos.html")
 GENRES_CSV = os.path.join(ROOT, "data", "genres.csv")
-OUTPUT_CSV = os.path.join(ROOT, "public", "data", "catalog.csv")
+OUTPUT_CSV = os.path.join(ROOT, "apps", "web", "public", "data", "catalog.csv")
 SERIES_DIR = os.path.join(ROOT, "data", "series")
 ASSETS_DIR = os.path.join(ROOT, "assets")
 CHAPTERS_DIR = os.path.join(ROOT, "data", "chapters")

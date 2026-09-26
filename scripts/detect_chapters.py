@@ -24,7 +24,7 @@ import sys
 import tempfile
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
-OUTPUT_CSV = os.path.join(ROOT, "public", "data", "catalog.csv")
+OUTPUT_CSV = os.path.join(ROOT, "apps", "web", "public", "data", "catalog.csv")
 CHAPTERS_DIR = os.path.join(ROOT, "data", "chapters")
 
 SILENCE_START_RE = re.compile(r"silence_start:\s*([\d.]+)")

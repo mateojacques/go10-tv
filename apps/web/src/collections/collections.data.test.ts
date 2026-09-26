@@ -1,13 +1,15 @@
 /// <reference types="node" />
 import { describe, it, expect } from 'vitest'
 import { existsSync, readFileSync } from 'node:fs'
-import { join } from 'node:path'
+import { dirname, join } from 'node:path'
+import { fileURLToPath } from 'node:url'
 import { buildTitles, parseCatalogCsv } from '../catalog/loadCatalog'
 import { COLLECTION_FILES } from './collections'
 import { validateCollections } from './validateCollection'
 
-// Vitest runs from the repo root.
-const PUBLIC = join(process.cwd(), 'public')
+// Relative to this file, so the suite passes from the repo root or apps/web.
+// (A string, not `new URL`: under jsdom that's jsdom's URL, which fileURLToPath rejects.)
+const PUBLIC = join(dirname(fileURLToPath(import.meta.url)), '..', '..', 'public')
 
 describe('data/collections', () => {
   it('every collection file is valid against the real catalog and assets', () => {
