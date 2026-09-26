@@ -7,9 +7,8 @@ import { useFocusable } from '../focus/useFocusable'
 import { heroMeta } from '@go10/core/catalog/describeTitle'
 import { imageSrc } from '@go10/core/lib/imageSrc'
 import { listProgress } from '@go10/core/progress/progressStore'
-import { continueWatching, playedFraction, titleProgress, type ContinueItem } from '@go10/core/progress/titleProgress'
-import { remainingLabel, rowLabel } from '@go10/core/progress/describe'
-import type { CardProgress } from '../components/Card'
+import { continueWatching, playedFraction, titleProgress } from '@go10/core/progress/titleProgress'
+import { continueCardProgress, remainingLabel, rowLabel } from '@go10/core/progress/describe'
 import { ProgressBar } from '../components/ProgressBar'
 import type { Collection } from '@go10/core/collections/types'
 import { visibleCollections } from '@go10/core/collections/resolveCollection'
@@ -209,15 +208,4 @@ export function Home({
       </div>
     </div>
   )
-}
-
-function continueCardProgress({ progress }: ContinueItem): CardProgress {
-  const position = rowLabel(progress.row)
-  if (progress.mode === 'next' || !progress.progress) {
-    return { fraction: 0, label: `Siguiente${position ? `: ${position}` : ''}` }
-  }
-  return {
-    fraction: playedFraction(progress.progress),
-    label: [position, remainingLabel(progress.progress)].filter(Boolean).join(' · '),
-  }
 }

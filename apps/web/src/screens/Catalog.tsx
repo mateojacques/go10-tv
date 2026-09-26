@@ -5,7 +5,8 @@ import { Card } from '../components/Card'
 import { useGridColumns } from './useGridColumns'
 import { externalTitlesEnabled } from '@go10/core/external/config'
 import { useTmdbSearch } from '../external/useTmdbSearch'
-import { mergeSearch, type SearchMode } from '@go10/core/external/mergeSearch'
+import { mergeSearch } from '@go10/core/external/mergeSearch'
+import { catalogHeading } from '@go10/core/catalog/catalogHeading'
 import './Catalog.css'
 
 /**
@@ -13,18 +14,6 @@ import './Catalog.css'
  * which is a lot of DOM and focus registrations for a TV browser at once.
  */
 export const BATCH = 60
-
-const SECTION_LABELS: Record<Section, string> = {
-  all: 'Catálogo',
-  movie: 'Películas',
-  show: 'Series',
-}
-
-function heading(mode: SearchMode, section: Section, query: string) {
-  if (mode === 'results' || mode === 'searching') return `Resultados para "${query.trim()}"`
-  if (mode === 'suggestions') return `Sin resultados para "${query.trim()}"`
-  return SECTION_LABELS[section]
-}
 
 /**
  * Every title matching a section and/or a search query, as a focusable grid.
@@ -52,7 +41,7 @@ export function Catalog({
     <div className="go-catalog">
       <header className="go-catalog_head">
         <h1 className="go-catalog_title">
-          {heading(shown.mode, section, query)}
+          {catalogHeading(shown.mode, section, query)}
           {(shown.mode === 'results' || shown.mode === 'browse') && (
             <span className="go-row_count">{shown.titles.length}</span>
           )}

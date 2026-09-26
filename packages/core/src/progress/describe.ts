@@ -1,6 +1,7 @@
 import type { CatalogRow, Title } from '../types'
 import { resumeFromTime, type Progress } from './progressStore'
 import { formatDuration } from '../lib/format'
+import { playedFraction, type ContinueItem } from './titleProgress'
 
 /** Short position within a title, e.g. "T2 · E5" or "Temporada 3"; '' for a movie. */
 export function rowLabel(row: CatalogRow): string {
@@ -30,4 +31,22 @@ export function playMeta(title: Title, row: CatalogRow, progress: Progress | nul
   return [title.kind === 'show' ? rowLabel(row) : null, resuming ? remainingLabel(progress) : null]
     .filter(Boolean)
     .join(' · ')
+}
+
+/** Shown on "Seguir viendo" cards in place of the usual year/genre line. */
+export interface CardProgress {
+  fraction: number
+  label: string
+}
+
+/** A Seguir viendo card: the share played and what is left, or the episode that comes next. */
+export function continueCardProgress({ progress }: ContinueItem): CardProgress {
+  const position = rowLabel(progress.row)
+  if (progress.mode === 'next' || !progress.progress) {
+    return { fraction: 0, label: `Siguiente${position ? `: ${position}` : ''}` }
+  }
+  return {
+    fraction: playedFraction(progress.progress),
+    label: [position, remainingLabel(progress.progress)].filter(Boolean).join(' · '),
+  }
 }

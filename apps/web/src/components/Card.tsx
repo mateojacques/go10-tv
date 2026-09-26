@@ -5,11 +5,9 @@ import { imageSrc } from '@go10/core/lib/imageSrc'
 import { cardMeta, seasonCount } from '@go10/core/catalog/describeTitle'
 import './Card.css'
 
-/** Shown on "Seguir viendo" cards in place of the usual year/genre line. */
-export interface CardProgress {
-  fraction: number
-  label: string
-}
+import type { CardProgress } from '@go10/core/progress/describe'
+
+export type { CardProgress } from '@go10/core/progress/describe'
 
 export function Card({
   id,
