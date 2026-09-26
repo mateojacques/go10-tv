@@ -16,6 +16,8 @@ jest.mock('react-native-webview', () => {
   return { WebView }
 })
 
+jest.mock('../platform/playerChrome', () => ({ usePlayerChrome: jest.fn() }))
+
 const mockRemote: { key?: (key: string) => void; back?: () => boolean } = {}
 jest.mock('../platform/remote', () => ({
   useRemoteKeys: (onKey: (key: string) => void) => { mockRemote.key = onKey },

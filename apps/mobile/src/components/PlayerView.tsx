@@ -8,6 +8,7 @@ import { backoffMs, initialPlayerRetryState, playerRetryReducer } from '@go10/co
 import { providerFor } from '@go10/core/player/providers/index'
 import { rowLabel } from '@go10/core/progress/describe'
 import type { CatalogRow } from '@go10/core/types'
+import { usePlayerChrome } from '../platform/playerChrome'
 import { useBackPress, useRemoteKeys } from '../platform/remote'
 import { commandScript, hostHtml, parseHostMessage } from '../player/hostPage'
 import { allowNavigation } from '../player/navigationGuard'
@@ -52,6 +53,7 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
   /** The bar's next button, the remote's next key, and auto-advance at the end. */
   onNext?: () => void
 }) {
+  usePlayerChrome()
   const provider = providerFor(row)
   const [retry, dispatch] = useReducer(playerRetryReducer, initialPlayerRetryState)
   const [barOpen, setBarOpen] = useState(false)

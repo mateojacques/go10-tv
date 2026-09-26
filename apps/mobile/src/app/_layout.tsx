@@ -11,6 +11,7 @@ import { useFonts } from 'expo-font'
 import { Stack } from 'expo-router'
 import { StatusBar } from 'expo-status-bar'
 import { CatalogProvider } from '../data/CatalogProvider'
+import { usePortraitOnPhone } from '../platform/playerChrome'
 import { theme } from '../theme'
 
 export default function RootLayout() {
@@ -25,6 +26,7 @@ export default function RootLayout() {
     IBMPlexMono_500Medium,
     IBMPlexMono_600SemiBold,
   })
+  usePortraitOnPhone()
   if (!fontsLoaded && !fontError) return null
 
   return (
