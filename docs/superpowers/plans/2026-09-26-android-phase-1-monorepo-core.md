@@ -1061,7 +1061,7 @@ In `apps/web/src/test/setup.ts`, add `import { installWebPlatform } from '../pla
 - [ ] **Step 7: Run everything**
 
 Run: `npm run typecheck && npm test 2>&1 | grep -E "Test Files|Tests "`
-Expected: the typecheck exits 0, every test passes, and the total is **412** = 404 + 7 in core (2 progress, 1 snapshots, 1 config, 1 guard… plus any `it` you split) + 2 web `platform` tests. If your count differs from 412, recount the `it(` blocks you added rather than accepting the number: the gate is that nothing failed and no pre-existing test disappeared.
+Expected: the typecheck exits 0, every test passes, and the total is **411** = 404 + 5 in core (2 progress, 1 snapshots, 1 config, 1 guard) + 2 web `platform` tests. If your count differs from 411, recount the `it(` blocks you added rather than accepting the number: the gate is that nothing failed and no pre-existing test disappeared.
 
 - [ ] **Step 8: Commit**
 
@@ -1324,7 +1324,7 @@ npm test 2>&1 | grep -E "Test Files|Tests "
 npm run build > /tmp/build.log 2>&1; echo build=$?
 ls apps/web/dist/data/catalog.csv apps/web/dist/data/aniyomi/index.json apps/web/dist/data/collections/index.json
 ```
-Expected: Python `92 passed`, `typecheck=0`, every JS test passes (baseline 398, plus 6 + 9 + 1 + 3 new = 417; confirm by summing the two workspaces), `build=0`, and all three files listed.
+Expected: Python `92 passed`, `typecheck=0`, every JS test passes (baseline 398, plus 6 + 7 + 1 + 3 new = 415; confirm by summing the two workspaces), `build=0`, and all three files listed.
 
 - [ ] **Step 3: Correct the spec's gate numbers**
 
