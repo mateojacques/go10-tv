@@ -64,6 +64,29 @@ and the build is exactly the catalog-only app.
 - Titles in both the catalog and TMDB currently show twice in results.
 - This product uses the TMDB API but is not endorsed or certified by TMDB.
 
+## Android app (apps/mobile)
+
+An Expo + react-native-tvos app for Android TV and phones (one APK), built on
+the same `@go10/core`. It fetches the catalog and collections from the live
+site (`https://tv.go10.blog`, override with `GO10_SITE_URL`), caches them for
+offline use, and reads the external-titles switch from the same root
+`.env.local` as the web app. Needs the Android SDK and JDK 17.
+
+```bash
+cd apps/mobile
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+npm run prebuild          # EXPO_TV=1 expo prebuild: one APK for TV and phone
+cd android && ./gradlew app:assembleDebug -PreactNativeArchitectures=arm64-v8a && cd ..
+adb install -r android/app/build/outputs/apk/debug/app-debug.apk
+npx expo start            # the debug build loads its JS from Metro (adb reverse tcp:8081 tcp:8081)
+npm test                  # Jest
+```
+
+The repo's `.npmrc` sets `legacy-peer-deps`: react-native-tvos versions are
+prereleases (`0.86.3-0`) that never satisfy peer ranges, so peers are not
+auto-installed and must be declared explicitly. React is pinned to 19.2.3
+repo-wide, the exact version React Native's renderer requires.
+
 ## Controls
 
 Designed for a TV remote first. On a TV (detected from the browser's user
@@ -216,7 +239,7 @@ colour field and show the art crisp beside it at close to its native size.
 
 ```bash
 python3 -m pytest tests/ -v   # 92 — parser, genres, merge, feed, chapters, output paths
-npm test                      # 415 — core (logic: 236) + web (components: 179), every workspace
+npm test                      # 454 — core (logic: 237) + web (components: 180) + mobile (37), every workspace
 ```
 
 ## Not in this MVP
