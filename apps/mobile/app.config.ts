@@ -13,12 +13,17 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     name: 'GO10 TV',
     slug: 'go10-tv',
     scheme: 'go10',
-    android: { package: 'blog.go10.tv' },
+    icon: './assets/images/icon.png',
+    android: {
+      package: 'blog.go10.tv',
+      adaptiveIcon: { foregroundImage: './assets/images/adaptive-icon.png', backgroundColor: '#08090c' },
+    },
     plugins: [
       'expo-router',
       'expo-image',
       'expo-font',
-      ['@react-native-tvos/config-tv', { androidTVBanner: './assets/images/icon-400x240.png' }],
+      ['expo-splash-screen', { image: './assets/images/splash-icon.png', imageWidth: 180, backgroundColor: '#08090c' }],
+      ['@react-native-tvos/config-tv', { androidTVBanner: './assets/images/tv-banner.png' }],
     ],
     // Real environment variables win over the file (CI, one-off overrides).
     extra: mobileExtra({ ...fileEnv, ...process.env }),

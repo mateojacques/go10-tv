@@ -154,13 +154,17 @@ def draw_mark(image: Image.Image, lines: list[str], font_px: int) -> None:
     heights = [bottom - top for _, top, _, bottom in boxes]
     widths = [right - left for left, _, right, _ in boxes]
     y = (image.height - (sum(heights) + line_gap * (len(lines) - 1))) / 2
+    # One text column, the dot hanging in front of the first line: every line
+    # is centred on the column, and the block (dot included) on the image.
+    lead = dot + dot_gap
+    column = max(widths)
+    column_x = (image.width - (lead + column)) / 2 + lead
     for index, (line, (left, top, _, _)) in enumerate(zip(lines, boxes)):
-        lead = dot + dot_gap if index == 0 else 0
-        x = (image.width - (widths[index] + lead)) / 2
+        x = column_x + (column - widths[index]) / 2
         if index == 0:
             middle = y + heights[0] / 2
-            draw.ellipse([x, middle - dot / 2, x + dot, middle + dot / 2], fill=ACCENT)
-        draw.text((x + lead - left, y - top), line, font=font, fill=TEXT if index == 0 else ACCENT)
+            draw.ellipse([x - lead, middle - dot / 2, x - dot_gap, middle + dot / 2], fill=ACCENT)
+        draw.text((x - left, y - top), line, font=font, fill=TEXT if index == 0 else ACCENT)
         y += heights[index] + line_gap
 
 
