@@ -104,8 +104,8 @@ export function Navbar({
       label: 'Fuente',
       value: catalogOnly ? 'catalog' : 'everything',
       options: [
-        { value: 'everything', label: 'Todo' },
-        { value: 'catalog', label: 'Solo catálogo' },
+        { value: 'everything', label: 'Lenguaje original' },
+        { value: 'catalog', label: 'Doblaje latino' },
       ],
       onChange: (value) =>
         onNavigate(
@@ -188,7 +188,7 @@ export function Navbar({
               )
             }
           >
-            {catalogOnly ? 'Solo catálogo' : 'Todo'}
+            {catalogOnly ? 'Doblaje latino' : 'Lenguaje original'}
           </NavButton>
         )}
         {/* Phones only: the way out of the expanded search. Off the focus grid
