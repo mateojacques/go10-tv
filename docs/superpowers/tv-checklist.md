@@ -17,3 +17,14 @@ Deferred from the phone-only phases. Run with the remote on a Google TV / Androi
 - [ ] Scroll to the last row, then all the way back up: focus stays where you left it (the hero never re-takes it).
 - [ ] Select on a card opens its screen; Back returns to Home with focus on that same card.
 - [ ] Unfocused cards are dimmed; the focused one is at full brightness.
+
+## From Phase 4 (Detail + Player)
+- [ ] Opening a title puts focus on **Reproducir / Reanudar**.
+- [ ] Down from Play reaches the season tabs, then the episode grid; Up/Down/Left/Right move tile by tile and the caption follows the focused episode.
+- [ ] Leaving the grid and coming back returns to the last focused tile (focus guide).
+- [ ] Back from Detail returns to Home with focus on the card that opened it.
+- [ ] In the player, the WebView never takes focus: Left/Right seek 10 s, FF/RW seek 10 s, Play/Pause toggles (ok.ru), and **one press acts once** (key-down only).
+- [ ] Select or Up opens the bar with focus on play/pause; Left/Right move between its buttons; Back closes it; Back again leaves to Detail.
+- [ ] Back from the player returns focus to the Play button or the episode tile that started it.
+- [ ] Media next/previous keys step episodes.
+- [ ] The embed plays and reports progress on the TV's system WebView (Reanudar shows up afterwards).
