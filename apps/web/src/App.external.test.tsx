@@ -67,8 +67,12 @@ describe('App with external titles on', () => {
     render(<App />)
 
     await screen.findByText('Cargando título…')
-    fireEvent.keyDown(window, { key: 'Escape' })
-    await waitFor(() => expect(window.location.pathname).toBe('/'))
+    // Press until the Back listener (attached in an effect) has taken it: under a loaded
+    // test runner the first press can land before it exists. Escape on Home is a no-op.
+    await waitFor(() => {
+      fireEvent.keyDown(window, { key: 'Escape' })
+      expect(window.location.pathname).toBe('/')
+    })
   })
 
   it('bounces an unknown TMDB id home', async () => {
