@@ -312,7 +312,7 @@ after the previous phase is done.
 | 1 | Monorepo + core | npm workspaces; `packages/core` with ports; `apps/web` moved; collections JSON published | ✅ Done 2026-09-26 (415 JS + 92 Python). 398 + 91 baseline tests pass; Netlify deploy unchanged; `/data/collections/index.json` served |
 | 2 | App skeleton + data | `apps/mobile` (Expo, tvos, router, MMKV, theme); SWR loader; error screen; a plain title list | ✅ Done 2026-09-26 (phone): live catalog (858 títulos), offline from cache, Sin conexión → Reintentar. Live catalog shown on both devices; cache works offline |
 | 3 | Home | Hero, collection strip, 28 rows, TV focus guides | ✅ Done 2026-09-26 (phone; TV focus in docs/superpowers/tv-checklist.md). Every Home item reachable by D-pad, focus never lost; phone touch scroll |
-| 4 | Detail + Player | Detail (seasons, episodes, Reanudar, progress bars); the real player from Phase 0's findings, with the full TV key map (D-pad + media keys) | Success flow end to end: play → Back → relaunch → resume; auto-advance |
+| 4 | Detail + Player | Detail (seasons, episodes, Reanudar, progress bars); the real player from Phase 0's findings, with the full TV key map (D-pad + media keys) | ✅ Done 2026-09-26 (phone; TV items in docs/superpowers/tv-checklist.md). Success flow end to end: play → Back → relaunch → resume; auto-advance |
 | 5 | Seguir viendo, catalog, search, collections | The remaining screens | Every web screen has a counterpart |
 | 6 | External titles | TMDB search, detail, vidlove playback behind the switch | Parity with the web's external titles |
 | 7 | Polish | Launcher banner/icon, phone landscape + immersive player, signed release APK | v1 success criteria met on both devices |
