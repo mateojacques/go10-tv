@@ -36,3 +36,9 @@ Deferred from the phone-only phases. Run with the remote on a Google TV / Androi
 - [ ] Series from the Películas navbar swaps screens; Back from either goes to Home.
 - [ ] Buscar opens the IME on the input; results update after a pause; Down leaves the input for the section chips, then the first result.
 - [ ] A collection opens with focus on its first title; Back returns to Home with focus on its tile.
+
+## From Phase 6 (External titles)
+- [ ] With a query, Down from the section chips reaches Lenguaje original / Doblaje latino, then the first result.
+- [ ] A TMDB result opens its Detail (Cargando título… first on a cold start); Back returns to the results with focus on that card.
+- [ ] A vidlove title plays on the TV's system WebView; FF/RW and Left/Right seek; the bar has no play/pause button.
+- [ ] A played TMDB title shows in Seguir viendo after a relaunch, and resumes where it stopped.

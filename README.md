@@ -239,7 +239,7 @@ colour field and show the art crisp beside it at close to its native size.
 
 ```bash
 python3 -m pytest tests/ -v   # 92 — parser, genres, merge, feed, chapters, output paths
-npm test                      # 567 — core (logic: 268) + web (components: 180) + mobile (119), every workspace
+npm test                      # 593 — core (logic: 268) + web (components: 180) + mobile (145), every workspace
 ```
 
 ## Not in this MVP
