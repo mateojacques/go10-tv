@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
 import { FlatList, StyleSheet, View } from 'react-native'
+import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import { ROW_LIMIT, type CatalogRowGroup } from '@go10/core/catalog/buildRows'
 import type { Collection } from '@go10/core/collections/types'
 import { externalTitlesEnabled } from '@go10/core/external/config'
@@ -13,7 +14,7 @@ import { useListFill } from '../platform/listFill'
 import { theme } from '../theme'
 import { CollectionStrip } from './CollectionStrip'
 import { HeroCarousel } from './HeroCarousel'
-import { Navbar } from './Navbar'
+import { NAV_HEIGHT, Navbar } from './Navbar'
 import { Row } from './Row'
 
 type Section = { kind: 'strip' } | { kind: 'continue' } | { kind: 'row'; index: number }
@@ -56,6 +57,7 @@ export function HomeView({ model, progress, imageBase, onSelectTitle, onPlayTitl
   const continueGroup: CatalogRowGroup = { id: 'seguir-viendo', label: 'Seguir viendo', titles: continueItems.map((item) => item.title) }
   const sections = homeSections(model, continueItems.length)
   const fill = useListFill()
+  const insets = useSafeAreaInsets()
   return (
     <View style={styles.root} onLayout={fill.onLayout}>
     <FlatList
@@ -66,13 +68,18 @@ export function HomeView({ model, progress, imageBase, onSelectTitle, onPlayTitl
       windowSize={7}
       showsVerticalScrollIndicator={false}
       ListHeaderComponent={
-        <HeroCarousel
-          slides={model.slides}
-          imageBase={imageBase}
-          progress={progress}
-          onPlayTitle={onPlayTitle}
-          onSelectTitle={onSelectTitle}
-        />
+        model.slides.length > 0 ? (
+          <HeroCarousel
+            slides={model.slides}
+            imageBase={imageBase}
+            progress={progress}
+            onPlayTitle={onPlayTitle}
+            onSelectTitle={onSelectTitle}
+          />
+        ) : (
+          // Nothing with art to feature: no hero, just clearance for the navbar.
+          <View style={{ height: NAV_HEIGHT + insets.top + 16 }} />
+        )
       }
       renderItem={({ item }) => {
         if (item.kind === 'strip') return <CollectionStrip collections={model.strip} imageBase={imageBase} onSelect={onSelectCollection} />

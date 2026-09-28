@@ -16,33 +16,42 @@ function shuffle<T>(items: T[], random: () => number): T[] {
 
 /**
  * One random title per bucket (by genre or genre_secondary), in shuffled
- * bucket order, preferring titles that have art. With no bucket matched, the
- * first title alone, so an odd catalog still has a hero.
+ * bucket order. Only titles with art are featured: a bucket without any is
+ * left out, and with no art at all there is no hero.
  */
 export function pickHero(titles: Title[], index: HeroArtIndex, random: () => number = Math.random): HeroSlide[] {
   const picked = new Set<string>()
   const slides: HeroSlide[] = []
   for (const bucket of shuffle([...HERO_BUCKETS], random)) {
-    const candidates = titles.filter(
-      (t) => !t.external && !picked.has(t.key) && (t.genre === bucket || t.genre_secondary === bucket),
+    const pool = titles.filter(
+      (t) =>
+        !t.external &&
+        !picked.has(t.key) &&
+        (t.genre === bucket || t.genre_secondary === bucket) &&
+        resolveArt(t.key, index) !== null,
     )
-    if (candidates.length === 0) continue
-    const withArt = candidates.filter((t) => resolveArt(t.key, index) !== null)
-    const pool = withArt.length > 0 ? withArt : candidates
+    if (pool.length === 0) continue
     const choice = pool[Math.floor(random() * pool.length)]
     picked.add(choice.key)
     slides.push({ title: choice, art: resolveArt(choice.key, index) })
   }
-  if (slides.length === 0 && titles[0]) return [{ title: titles[0], art: resolveArt(titles[0].key, index) }]
   return slides
 }
 
 let launchPick: HeroSlide[] | null = null
 
-/** The pick for this launch: made on the first call with titles, then fixed, so Home never reshuffles mid-session. */
+/**
+ * The pick for this launch: made on the first call that yields slides, then
+ * fixed, so Home never reshuffles mid-session. An empty pick (no catalog, or
+ * no art yet) is not kept: art arriving later still gets a hero.
+ */
 export function pickHeroOnce(titles: Title[], index: HeroArtIndex): HeroSlide[] {
-  if (launchPick === null && titles.length > 0) launchPick = pickHero(titles, index)
-  return launchPick ?? []
+  if (launchPick === null) {
+    const slides = pickHero(titles, index)
+    if (slides.length === 0) return slides
+    launchPick = slides
+  }
+  return launchPick
 }
 
 export function resetHeroPickForTests(): void {

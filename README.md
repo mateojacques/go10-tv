@@ -241,8 +241,9 @@ which the Android app fetches.
 ### Hero carousel art
 
 The Home hero rotates through five titles picked at random per launch, one
-per genre bucket (Animación, Drama, Terror, Infantil, Anime), preferring
-titles with a TMDB backdrop. Backdrops come from an offline matcher:
+per genre bucket (Animación, Drama, Terror, Infantil, Anime), and only
+titles with a TMDB backdrop are ever featured. Backdrops come from an offline
+matcher:
 
     python3 scripts/fetch_hero_art.py
 
@@ -252,7 +253,8 @@ use a different one.
 It writes `apps/web/public/data/hero_art.json` (commit it) and prints the
 unmatched titles. Fix mismatches in `data/hero_art_overrides.json`
 (`{"pin": {"<title key>": "tv/123"}, "block": ["<title key>"]}`) and re-run.
-Without the file both apps fall back to the blurred-thumbnail hero.
+A title missing from the file is never featured; without the file, Home has
+no hero (only Spidey, whose key art ships with the app, can still appear).
 
 ## Design notes
 

@@ -52,6 +52,13 @@ describe('HomeView', () => {
     expect(h.onSelectTitle).toHaveBeenNthCalledWith(2, expect.objectContaining({ key: 'c' }))
   })
 
+  it('shows no hero at all when there are no slides', async () => {
+    await render(<HomeView progress={{}} model={model({ slides: [] })} imageBase="https://tv.test/" {...handlers()} />)
+    expect(screen.queryByTestId('hero-carousel')).toBeNull()
+    expect(screen.queryByRole('button', { name: 'Reproducir' })).toBeNull()
+    expect(screen.getByRole('header', { name: /Recién añadidos/ })).toBeTruthy()
+  })
+
   it('leaves the strip out when no collection is visible', async () => {
     await render(<HomeView progress={{}} model={model({ strip: [] })} imageBase="https://tv.test/" {...handlers()} />)
     expect(screen.queryByRole('button', { name: 'Pixar' })).toBeNull()

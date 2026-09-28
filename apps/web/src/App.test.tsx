@@ -1,6 +1,7 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
 import { render, screen, fireEvent, waitFor } from '@testing-library/react'
 import App from './App'
+import { siteFetch } from './test/site'
 
 const CSV = `catalog_index,video_id,type,title,title_raw,series_id,series_title,season_number,season_label,year,studio,genre,genre_secondary,quality,language,subtitled,duration_raw,duration_seconds,views,thumbnail,video_url,embed_url
 0,111,movie,Foo Movie,Foo Movie,,,,,2020,,Drama,,1080p,Español,false,1:00:00,3600,10,thumb.webp,https://ok.ru/video/111,https://ok.ru/videoembed/111
@@ -12,7 +13,7 @@ beforeEach(() => {
   localStorage.clear()
   vi.stubGlobal(
     'fetch',
-    vi.fn().mockResolvedValue({ ok: true, text: () => Promise.resolve(CSV) }),
+    siteFetch(CSV),
   )
 })
 
@@ -117,7 +118,7 @@ describe('App routing', () => {
   it('autoplays the next episode once the ok.ru embed reports "ended"', async () => {
     vi.stubGlobal(
       'fetch',
-      vi.fn().mockResolvedValue({ ok: true, text: () => Promise.resolve(EPISODIC_CSV) }),
+      siteFetch(EPISODIC_CSV),
     )
 
     render(<App />)
@@ -138,7 +139,7 @@ describe('App routing', () => {
   it('does not autoplay past the last episode', async () => {
     vi.stubGlobal(
       'fetch',
-      vi.fn().mockResolvedValue({ ok: true, text: () => Promise.resolve(SINGLE_EPISODE_CSV) }),
+      siteFetch(SINGLE_EPISODE_CSV),
     )
 
     render(<App />)
@@ -159,7 +160,7 @@ describe('App routing', () => {
   it('jumps to the next/previous episode on Shift+ArrowRight/ArrowLeft', async () => {
     vi.stubGlobal(
       'fetch',
-      vi.fn().mockResolvedValue({ ok: true, text: () => Promise.resolve(EPISODIC_CSV) }),
+      siteFetch(EPISODIC_CSV),
     )
 
     render(<App />)
@@ -188,7 +189,7 @@ describe('App routing', () => {
   it('lists an in-progress title under "Seguir viendo" and plays it from the saved spot', async () => {
     vi.stubGlobal(
       'fetch',
-      vi.fn().mockResolvedValue({ ok: true, text: () => Promise.resolve(EPISODIC_CSV) }),
+      siteFetch(EPISODIC_CSV),
     )
     storeProgress('201', { time: 1380, duration: 1380, updatedAt: 1, watched: true })
     storeProgress('202', { time: 600, duration: 1380, updatedAt: 2, watched: false })
@@ -211,7 +212,7 @@ describe('App routing', () => {
   it('offers the next episode once the last-watched one is finished', async () => {
     vi.stubGlobal(
       'fetch',
-      vi.fn().mockResolvedValue({ ok: true, text: () => Promise.resolve(EPISODIC_CSV) }),
+      siteFetch(EPISODIC_CSV),
     )
     storeProgress('201', { time: 1380, duration: 1380, updatedAt: 1, watched: true })
 
@@ -233,7 +234,7 @@ const CN_CSV = `catalog_index,video_id,type,title,title_raw,series_id,series_tit
 
 describe('App collections', () => {
   beforeEach(() => {
-    vi.stubGlobal('fetch', vi.fn().mockResolvedValue({ ok: true, text: () => Promise.resolve(CN_CSV) }))
+    vi.stubGlobal('fetch', siteFetch(CN_CSV))
   })
 
   it('opens a collection from its Home tile and backs out to Home', async () => {

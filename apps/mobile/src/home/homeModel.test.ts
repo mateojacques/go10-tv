@@ -18,22 +18,29 @@ const data = (titles: Title[], collections: Collection[] = [], heroArt = {}) => 
 beforeEach(() => resetHeroPickForTests())
 
 describe('buildHome', () => {
-  it('picks hero slides across the genre buckets, preferring art', () => {
+  it('picks hero slides across the genre buckets, only titles with art', () => {
     const titles = [title('d', { genre: 'Drama' }), title('t', { genre: 'Terror' }), title('t2', { genre: 'Terror' })]
     const home = buildHome(data(titles, [], { t2: { tmdb: 'movie/1', backdrop: '/t2.jpg' } }))!
-    expect(home.slides.map((s) => s.title.key).sort()).toEqual(['d', 't2'])
+    expect(home.slides.map((s) => s.title.key)).toEqual(['t2'])
     expect(home.slides.find((s) => s.title.key === 't2')!.art?.large).toBe('https://image.tmdb.org/t/p/w1280/t2.jpg')
   })
 
   it('keeps the launch pick when a refreshed catalog arrives', () => {
-    const first = buildHome(data([title('d', { genre: 'Drama' })]))!
-    const refreshed = buildHome(data([title('x', { genre: 'Drama' }), title('d', { genre: 'Drama' })]))!
+    const art = { d: { tmdb: 'movie/1', backdrop: '/d.jpg' }, x: { tmdb: 'movie/2', backdrop: '/x.jpg' } }
+    const first = buildHome(data([title('d', { genre: 'Drama' })], [], art))!
+    const refreshed = buildHome(data([title('x', { genre: 'Drama' }), title('d', { genre: 'Drama' })], [], art))!
     expect(refreshed.slides).toBe(first.slides)
     expect(refreshed.titles.map((t) => t.key)).toEqual(['x', 'd'])
   })
 
-  it('features the first title when no bucket matches', () => {
-    expect(buildHome(data([title('a'), title('b')]))!.slides.map((s) => s.title.key)).toEqual(['a'])
+  it('has no hero slides when no title has art', () => {
+    expect(buildHome(data([title('a', { genre: 'Drama' }), title('b')]))!.slides).toEqual([])
+  })
+
+  it('gets a hero once art arrives with a later refresh', () => {
+    const titles = [title('d', { genre: 'Drama' })]
+    expect(buildHome(data(titles))!.slides).toEqual([])
+    expect(buildHome(data(titles, [], { d: { tmdb: 'movie/1', backdrop: '/d.jpg' } }))!.slides.map((s) => s.title.key)).toEqual(['d'])
   })
 
   it('builds the same rows as the web Home', () => {

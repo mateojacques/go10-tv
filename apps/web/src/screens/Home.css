@@ -11,6 +11,11 @@
   display: none;
 }
 
+/* No hero (nothing with art to feature): the rows start below the navbar. */
+.go-home_top {
+  height: calc(var(--go-nav-h) + 1rem);
+}
+
 /* ---- Hero ---------------------------------------------------------------- */
 
 .go-hero {

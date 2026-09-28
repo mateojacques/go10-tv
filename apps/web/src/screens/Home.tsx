@@ -68,12 +68,16 @@ export function Home({
 
   return (
     <div className="go-home">
-      {slides ? (
-        <HeroCarousel slides={slides} onPlay={onResume} onInfo={onSelect} />
-      ) : (
+      {slides === null ? (
+        // The sidecar is still loading: hold the hero's space so the rows don't jump when it lands.
         <header className="go-hero go-hero--carousel has-art" aria-hidden="true">
           <div className="go-hero_stage is-active" />
         </header>
+      ) : slides.length > 0 ? (
+        <HeroCarousel slides={slides} onPlay={onResume} onInfo={onSelect} />
+      ) : (
+        // Nothing with art to feature: no hero, just clearance for the navbar.
+        <div className="go-home_top" aria-hidden="true" />
       )}
 
       <div className="go-rows">

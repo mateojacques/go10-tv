@@ -14,7 +14,9 @@ function title(key: string, name: string): Title {
   }
 }
 
-const TITLES = [title('m0', 'Movie 0'), title('m1', 'Movie 1'), title('m2', 'Movie 2')]
+const TITLES = [{ ...title('m0', 'Movie 0'), genre: 'Drama' }, title('m1', 'Movie 1'), title('m2', 'Movie 2')]
+// m0 has a backdrop, so it's the hero.
+const HERO_ART = { m0: { tmdb: 'movie/1', backdrop: '/m0.jpg' } }
 
 const collection = (id: string, name: string, titles: string[]): Collection => ({
   id, name, order: 1, logo: `assets/collections/${id}/logo.svg`, tile: { color: '#e4007c' }, titles,
@@ -26,7 +28,7 @@ const STALE = collection('stale', 'Stale', ['gone'])
 function renderHome(collections: Collection[], onOpenCollection = vi.fn()) {
   render(
     <FocusProvider onBack={() => {}}>
-      <Home titles={TITLES} heroArt={{}} onSelect={() => {}} onResume={() => {}} collections={collections} onOpenCollection={onOpenCollection} />
+      <Home titles={TITLES} heroArt={HERO_ART} onSelect={() => {}} onResume={() => {}} collections={collections} onOpenCollection={onOpenCollection} />
     </FocusProvider>,
   )
   return onOpenCollection
@@ -66,6 +68,18 @@ describe('Home collections strip', () => {
     renderHome([STALE])
     expect(screen.queryByRole('navigation', { name: 'Colecciones' })).toBeNull()
     press('ArrowDown')
+    expect(focusedLabel()).toBe('Movie 0')
+  })
+
+  it('shows no hero when no title has art, never a title without one', () => {
+    render(
+      <FocusProvider onBack={() => {}}>
+        <Home titles={TITLES} heroArt={{}} onSelect={() => {}} onResume={() => {}} collections={[]} onOpenCollection={vi.fn()} />
+      </FocusProvider>,
+    )
+    expect(document.querySelector('.go-hero')).toBeNull()
+    expect(screen.queryByRole('heading', { level: 1 })).toBeNull()
+    expect(document.querySelector('.go-home_top')).not.toBeNull()
     expect(focusedLabel()).toBe('Movie 0')
   })
 })

@@ -30,10 +30,12 @@ const CATALOG = [
   title('anm1', 'Anime'), title('anm2', 'Anime'),
 ]
 
+const ALL_ART = art(...CATALOG.map((t) => t.key))
+
 describe('pickHero', () => {
   it('picks one title per bucket, without duplicates', () => {
     for (let seed = 1; seed <= 50; seed++) {
-      const slides = pickHero(CATALOG, {}, seeded(seed))
+      const slides = pickHero(CATALOG, ALL_ART, seeded(seed))
       const keys = slides.map((s) => s.title.key)
       expect(new Set(keys).size).toBe(keys.length)
       expect(slides).toHaveLength(HERO_BUCKETS.length)
@@ -41,23 +43,27 @@ describe('pickHero', () => {
   })
 
   it('counts the secondary genre', () => {
-    const slides = pickHero([title('x', 'Comedia', 'Terror')], {}, seeded(1))
+    const slides = pickHero([title('x', 'Comedia', 'Terror')], art('x'), seeded(1))
     expect(slides.map((s) => s.title.key)).toEqual(['x'])
   })
 
-  it('prefers titles with art in every bucket', () => {
+  it('only features titles with art', () => {
     const index = art('ani2', 'dra2', 'anm1')
     for (let seed = 1; seed <= 50; seed++) {
-      const keys = pickHero(CATALOG, index, seeded(seed)).map((s) => s.title.key)
-      expect(keys).toEqual(expect.arrayContaining(['ani2', 'dra2', 'anm1']))
-      expect(keys).not.toContain('ani1')
-      expect(keys).not.toContain('anm2')
+      const slides = pickHero(CATALOG, index, seeded(seed))
+      expect(slides.map((s) => s.title.key).sort()).toEqual(['ani2', 'anm1', 'dra2'])
+      expect(slides.every((s) => s.art !== null)).toBe(true)
     }
   })
 
-  it('falls back to a title without art when a bucket has none, with art null', () => {
-    const slide = pickHero(CATALOG, {}, seeded(3)).find((s) => s.title.key === 'ter1')
-    expect(slide).toEqual({ title: expect.objectContaining({ key: 'ter1' }), art: null })
+  it('leaves out a bucket with no art rather than feature a title without it', () => {
+    const keys = pickHero(CATALOG, art('dra1'), seeded(3)).map((s) => s.title.key)
+    expect(keys).toEqual(['dra1'])
+  })
+
+  it('counts local key art as art', () => {
+    const spidey = title('spidey-y-sus-sorprendentes-amigos', 'Animación', 'Infantil')
+    expect(pickHero([spidey], {}, seeded(1)).map((s) => s.art?.large)).toEqual(['assets/spidey/spidey-hero-1920.webp'])
   })
 
   it('carries the resolved art', () => {
@@ -66,17 +72,18 @@ describe('pickHero', () => {
   })
 
   it('skips empty buckets and never picks external titles', () => {
-    const slides = pickHero([title('d', 'Drama'), title('ext', 'Terror', '', { external: true })], {}, seeded(1))
+    const slides = pickHero([title('d', 'Drama'), title('ext', 'Terror', '', { external: true })], art('d', 'ext'), seeded(1))
     expect(slides.map((s) => s.title.key)).toEqual(['d'])
   })
 
   it('shuffles the bucket order', () => {
-    const orders = new Set(Array.from({ length: 30 }, (_, i) => pickHero(CATALOG, {}, seeded(i + 1)).map((s) => s.title.genre + s.title.genre_secondary).join('|')))
+    const orders = new Set(Array.from({ length: 30 }, (_, i) => pickHero(CATALOG, ALL_ART, seeded(i + 1)).map((s) => s.title.genre + s.title.genre_secondary).join('|')))
     expect(orders.size).toBeGreaterThan(1)
   })
 
-  it('falls back to the first title when nothing matches a bucket', () => {
-    expect(pickHero([title('a', 'Comedia'), title('b', '')], {}, seeded(1)).map((s) => s.title.key)).toEqual(['a'])
+  it('is empty when no title has art, or none is in a bucket', () => {
+    expect(pickHero(CATALOG, {}, seeded(1))).toEqual([])
+    expect(pickHero([title('a', 'Comedia'), title('b', '')], art('a', 'b'), seeded(1))).toEqual([])
   })
 
   it('is empty for an empty catalog', () => {
@@ -88,12 +95,13 @@ describe('pickHeroOnce', () => {
   beforeEach(() => resetHeroPickForTests())
 
   it('keeps the first pick for the process', () => {
-    const first = pickHeroOnce(CATALOG, {})
+    const first = pickHeroOnce(CATALOG, ALL_ART)
     expect(pickHeroOnce([title('other', 'Drama')], art('other'))).toBe(first)
   })
 
-  it('does not lock in an empty catalog', () => {
+  it('does not lock in an empty pick, so art arriving later still gets a hero', () => {
     expect(pickHeroOnce([], {})).toEqual([])
-    expect(pickHeroOnce([title('d', 'Drama')], {}).map((s) => s.title.key)).toEqual(['d'])
+    expect(pickHeroOnce([title('d', 'Drama')], {})).toEqual([])
+    expect(pickHeroOnce([title('d', 'Drama')], art('d')).map((s) => s.title.key)).toEqual(['d'])
   })
 })

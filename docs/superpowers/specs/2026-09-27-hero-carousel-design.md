@@ -19,9 +19,10 @@ do it. The genre spread is how titles are *picked*; it is never shown.
 - **Art: TMDB backdrops, fetched offline** into a committed sidecar, with the
   existing blurred-thumbnail treatment as the fallback. Catalog thumbnails are
   368x210 and look weak full-bleed.
-- **The picker prefers titles with art.** Within each genre bucket it picks at
-  random among titles that have a backdrop; only a bucket with none falls back
-  to a thumbnail-only title.
+- **The hero only features titles with art** (amended after the first
+  sidecar run matched ~500 titles). Within each genre bucket it picks at random
+  among titles that have a backdrop (or local key art); a bucket with none is
+  left out, and with no art at all there is no hero.
 - **5 slides**, one per bucket: Animación, Drama, Terror, Infantil, Anime.
 - **8 s per slide**, crossfade, segment indicators.
 - Picked **once per launch**; a background catalog refresh does not reshuffle.
@@ -106,13 +107,14 @@ export function pickHero(titles: Title[], index: HeroArtIndex, random?: () => nu
   1. Shuffle `HERO_BUCKETS` with `random` (Fisher–Yates).
   2. For each bucket: candidates = titles whose `genre` or
      `genre_secondary` equals the bucket, not already picked, and not
-     `external`. Prefer the subset with `resolveArt(...) !== null`; if empty,
-     use all candidates; if still empty, skip the bucket.
+     `external`, and with `resolveArt(...) !== null`; if empty, skip the
+     bucket.
   3. Pick one uniformly with `random`.
   - Result: 0–5 slides, no duplicates, in shuffled bucket order.
-  - Empty result: the hero falls back to `titles[0]` with its art (one
-    slide), preserving today's behaviour on odd catalogs. No titles at all:
-    the existing empty-catalog state.
+  - Empty result: no hero; Home starts with the rows (below the navbar).
+    `pickHeroOnce` does not lock in an empty pick, so art arriving with a
+    later refresh still gets a hero. No titles at all: the existing
+    empty-catalog state.
 - `random` defaults to `Math.random`; tests inject a seeded generator.
 
 ### Once per launch
@@ -210,11 +212,11 @@ before each test.
 
 ## Error handling
 
-- Sidecar missing, 404, corrupt, or offline: `{}` → every slide uses the
-  blurred layout (or Spidey's local art). Never blocks Home.
+- Sidecar missing, 404, corrupt, or offline: `{}` → only titles with local
+  key art (Spidey) are featured; none → no hero. Never blocks Home.
 - TMDB image fails: that slide shows the blurred layout.
-- Catalog missing a bucket: fewer slides. Nothing matching any bucket:
-  one-slide fallback to `titles[0]`.
+- Catalog missing a bucket, or a bucket without art: fewer slides. Nothing
+  with art in any bucket: no hero.
 - Script: missing token → exit 1, nothing written; network error on a title
   → that title unmatched and listed in the report, run continues; overrides
   referencing unknown keys → warned in the report.
@@ -222,9 +224,9 @@ before each test.
 ## Testing
 
 - **Core (vitest):** `pickHero` with a seeded `random` — one per bucket,
-  primary or secondary genre qualifies, no duplicates, art preferred,
-  fallback to art-less candidates, empty bucket skipped, external titles
-  excluded, empty-result fallback; `resolveArt` precedence (local > TMDB >
+  primary or secondary genre qualifies, no duplicates, only titles
+  with art, art-less bucket skipped, empty bucket skipped, external titles
+  excluded, empty result → no hero; `resolveArt` precedence (local > TMDB >
   null) and URL sizes; `parseHeroArt` rejects bad shapes and drops bad
   entries.
 - **Web (vitest + RTL):** carousel advances after 8 s (fake timers); pauses
