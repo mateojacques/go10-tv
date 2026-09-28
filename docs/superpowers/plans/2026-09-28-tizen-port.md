@@ -741,6 +741,10 @@ In order, on the TV:
 4. Back navigates back through screens, and **exits the app from Home**. *No response here means the `tv.inputdevice` privilege or the `registerKey('Back')` call (Task 3/5) isn't wired correctly — check Web Inspector for a `WebAPIException`.*
 5. ok.ru and vidlove iframe playback works, with audio.
 6. Card/row spacing looks correct (not touching/overlapping). *If it doesn't, revisit Task 2's fallback values against what's actually rendering.*
+7. Hero and detail art render at a sensible size, not the browser's default sizing. *`clamp()`/`min()`/`max()` sizing and `aspect-ratio` (both used on hero/detail art) are untested against Chromium 69 — the final review flagged this as a real risk Task 1's audit didn't cover. A broken layout here means those declarations need plain-value fallbacks (declare the safe value first, the modern one second — Chromium 69 keeps the last one it understands).*
+8. Navigating a few screens deep and back doesn't throw or freeze. *`useRoute.ts` calls `history.pushState`/`replaceState` unconditionally; whether Tizen's runtime allows this for a packaged (non-`http`) app is unverified. A `SecurityError` in Web Inspector here means routing needs a `file://`-safe mode (e.g. hash-based navigation) — treat as a follow-up, not a quick fix.*
+
+Repeat this same checklist on the prod build in Step 5 below, since items 7 and 8 depend on things (CSS engine quirks, the packaged app's origin) that may differ from the dev shell's LAN-served origin.
 
 - [ ] **Step 5: Periodically, validate the full-fidelity prod build**
 
