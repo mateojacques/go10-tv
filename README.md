@@ -238,6 +238,19 @@ duplicates, missing images and clashing `order` values all fail the suite.
 The build also publishes every collection as `/data/collections/index.json`,
 which the Android app fetches.
 
+### Hero carousel art
+
+The Home hero rotates through five titles picked at random per launch, one
+per genre bucket (Animación, Drama, Terror, Infantil, Anime), preferring
+titles with a TMDB backdrop. Backdrops come from an offline matcher:
+
+    TMDB_TOKEN=<TMDB v4 read access token> python3 scripts/fetch_hero_art.py
+
+It writes `apps/web/public/data/hero_art.json` (commit it) and prints the
+unmatched titles. Fix mismatches in `data/hero_art_overrides.json`
+(`{"pin": {"<title key>": "tv/123"}, "block": ["<title key>"]}`) and re-run.
+Without the file both apps fall back to the blurred-thumbnail hero.
+
 ## Design notes
 
 The thumbnails are **368×210** — too small to fill a 1080p screen. Rather than
