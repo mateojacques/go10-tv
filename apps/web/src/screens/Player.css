@@ -7,6 +7,9 @@
   flex-direction: column;
   background: #000;
   animation: go-player-in var(--go-dur-slow) var(--go-ease);
+  /* Focused programmatically, to keep the iframe from taking it -- see
+     Player.tsx -- never by the user, so no ring should ever show. */
+  outline: none;
 }
 
 @keyframes go-player-in {

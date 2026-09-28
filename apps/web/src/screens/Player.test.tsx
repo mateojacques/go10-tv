@@ -42,6 +42,19 @@ describe('Player', () => {
     expect(onClose).toHaveBeenCalledTimes(2)
   })
 
+  it('focuses its own container, not the iframe, so the window keeps getting keydowns', () => {
+    render(<Player row={row()} onClose={() => {}} />)
+    expect(document.activeElement).toBe(document.querySelector('.go-player'))
+  })
+
+  it('reclaims focus from the embed the moment it takes it (a window blur)', () => {
+    render(<Player row={row()} onClose={() => {}} />)
+    getFrame().focus() // the embed taking focus, as ok.ru/vidlove do
+    fireEvent(window, new Event('blur'))
+    act(() => vi.advanceTimersByTime(0))
+    expect(document.activeElement).toBe(document.querySelector('.go-player'))
+  })
+
   it('shows a reconnecting indicator on load timeout, then recovers on load', () => {
     render(<Player row={row()} onClose={() => {}} />)
     expect(screen.queryByText('Reconectando…')).toBeNull()

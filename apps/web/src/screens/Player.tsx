@@ -193,6 +193,22 @@ export function Player({
     return () => window.removeEventListener('keydown', onKeyDown)
   }, [onClose])
 
+  // The ok.ru/vidlove embed is a cross-origin iframe: once it (or the click
+  // that opened it) hands it DOM focus, every key the remote sends -- Back
+  // included -- goes to the iframe's own document instead of this window,
+  // which never sees it. Nothing this page does needs that iframe focused
+  // (playback is driven entirely by postMessage), so focus is kept on the
+  // player container instead, and reclaimed the moment the iframe takes it
+  // (which surfaces here as this window blurring).
+  useEffect(() => {
+    containerRef.current?.focus({ preventScroll: true })
+    function onWindowBlur() {
+      setTimeout(() => containerRef.current?.focus({ preventScroll: true }), 0)
+    }
+    window.addEventListener('blur', onWindowBlur)
+    return () => window.removeEventListener('blur', onWindowBlur)
+  }, [])
+
   // Computed once per video and per reload — never per render. Progress is
   // saved during playback, and recomputing here would change the iframe
   // `src` and restart the video every few seconds.
@@ -222,7 +238,7 @@ export function Player({
   const embedSrc = provider.src(row, provider.resumesViaUrl ? fromTime : null)
 
   return (
-    <div className="go-player" ref={containerRef}>
+    <div className="go-player" ref={containerRef} tabIndex={-1}>
       <button
         type="button"
         className="go-player_handle"
