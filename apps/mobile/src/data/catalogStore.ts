@@ -1,6 +1,7 @@
 import { buildTitles, parseCatalogCsv } from '@go10/core/catalog/loadCatalog'
 import { fromModules } from '@go10/core/collections/fromModules'
 import type { Collection } from '@go10/core/collections/types'
+import { parseHeroArt, type HeroArtIndex } from '@go10/core/hero/art'
 import type { CatalogRow, Title } from '@go10/core/types'
 import type { FetchText } from './httpText'
 import type { CachedText, TextCache } from './textCache'
@@ -9,6 +10,8 @@ export interface CatalogData {
   rows: CatalogRow[]
   titles: Title[]
   collections: Collection[]
+  /** Hero backdrops (scripts/fetch_hero_art.py); {} when missing. */
+  heroArt: HeroArtIndex
 }
 
 export type CatalogState = { status: 'loading' } | { status: 'error' } | { status: 'ready'; data: CatalogData }
@@ -61,6 +64,7 @@ interface Resource<T> {
 
 const CATALOG: Resource<CatalogRow[]> = { name: 'catalog.csv', path: 'data/catalog.csv', parse: parseCatalog }
 const COLLECTIONS: Resource<Collection[]> = { name: 'collections.json', path: 'data/collections/index.json', parse: parseCollections }
+const HERO_ART: Resource<HeroArtIndex> = { name: 'hero_art.json', path: 'data/hero_art.json', parse: parseHeroArt }
 
 export function createCatalogStore(deps: Deps): CatalogStore {
   let state: CatalogState = { status: 'loading' }
@@ -113,20 +117,28 @@ export function createCatalogStore(deps: Deps): CatalogStore {
     // Read on its own: a valid collections cache must survive a missing or corrupt catalog
     // cache, since its ETag is still sent and a 304 would otherwise leave no collections.
     const cachedCollections = cached(COLLECTIONS)?.value ?? []
-    const current: CatalogData | null = rows ? { rows, titles: buildTitles(rows), collections: cachedCollections } : null
+    const cachedHeroArt = cached(HERO_ART)?.value ?? {}
+    const current: CatalogData | null = rows
+      ? { rows, titles: buildTitles(rows), collections: cachedCollections, heroArt: cachedHeroArt }
+      : null
     set(current ? { status: 'ready', data: current } : { status: 'loading' })
 
-    const [freshRows, freshCollections] = await Promise.all([refresh(CATALOG), refresh(COLLECTIONS)])
+    const [freshRows, freshCollections, freshHeroArt] = await Promise.all([
+      refresh(CATALOG),
+      refresh(COLLECTIONS),
+      refresh(HERO_ART),
+    ])
     const nextRows = freshRows ?? current?.rows ?? null
     if (!nextRows) {
       set({ status: 'error' })
       return
     }
-    if (!freshRows && !freshCollections) return // unchanged (or unreachable) with a cache showing
+    if (!freshRows && !freshCollections && !freshHeroArt) return // unchanged (or unreachable) with a cache showing
     const next: CatalogData = {
       rows: nextRows,
       titles: freshRows ? buildTitles(freshRows) : current!.titles,
       collections: freshCollections ?? cachedCollections,
+      heroArt: freshHeroArt ?? cachedHeroArt,
     }
     if (current) pending = next
     else set({ status: 'ready', data: next })

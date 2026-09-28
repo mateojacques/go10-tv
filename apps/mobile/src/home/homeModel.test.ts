@@ -13,7 +13,7 @@ function title(key: string, overrides: Partial<Title> = {}): Title {
 const collection = (id: string, titles: string[]): Collection => ({
   id, name: id, order: 1, logo: `assets/collections/${id}/logo.svg`, tile: { color: '#000000' }, titles,
 })
-const data = (titles: Title[], collections: Collection[] = []) => ({ rows: [], titles, collections })
+const data = (titles: Title[], collections: Collection[] = []) => ({ rows: [], titles, collections, heroArt: {} })
 
 describe('buildHome', () => {
   it('features the promo title with its key art', () => {

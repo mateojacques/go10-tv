@@ -20,12 +20,12 @@ describe('HomeContent', () => {
   })
 
   it('shows Home when ready', async () => {
-    await render(<HomeContent state={{ status: 'ready', data: { rows: [], collections: [], titles: [title] } }} {...props} />)
+    await render(<HomeContent state={{ status: 'ready', data: { rows: [], collections: [], titles: [title], heroArt: {} } }} {...props} />)
     expect(screen.getByRole('header', { name: 'Coraje' })).toBeTruthy()
   })
 
   it('says the catalog is empty instead of showing a blank Home', async () => {
-    await render(<HomeContent state={{ status: 'ready', data: { rows: [], collections: [], titles: [] } }} {...props} />)
+    await render(<HomeContent state={{ status: 'ready', data: { rows: [], collections: [], titles: [], heroArt: {} } }} {...props} />)
     expect(screen.getByText('El catálogo está vacío.')).toBeTruthy()
   })
 })

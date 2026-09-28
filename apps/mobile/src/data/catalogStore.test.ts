@@ -198,3 +198,51 @@ describe('catalogStore', () => {
     expect(server.calls.filter((c) => c.path === CATALOG)).toHaveLength(1)
   })
 })
+
+const HERO_ART = 'data/hero_art.json'
+const sidecar = (key: string) => JSON.stringify({ schema_version: 1, items: { [key]: { tmdb: 'movie/1', backdrop: `/${key}.jpg` } } })
+const heroArtOf = (store: ReturnType<typeof createCatalogStore>) => {
+  const state = store.getState()
+  return state.status === 'ready' ? state.data.heroArt : state.status
+}
+
+describe('hero art', () => {
+  it('loads hero_art.json alongside the catalog', async () => {
+    const s = site({ [CATALOG]: { body: csv('A') }, [COLLECTIONS]: { body: '[]' }, [HERO_ART]: { body: sidecar('100'), etag: '"h1"' } })
+    const store = createCatalogStore({ fetchText: s.fetchText, cache: memoryTextCache(), siteBase: BASE })
+    await store.start()
+    expect(heroArtOf(store)).toEqual({ '100': { tmdb: 'movie/1', backdrop: '/100.jpg' } })
+  })
+
+  it('is {} when the sidecar is missing, corrupt, or an HTML page — never an error', async () => {
+    for (const heroArt of ['down', { body: '<!doctype html>' }, { body: '{"schema_version":1' }] as const) {
+      const s = site({ [CATALOG]: { body: csv('A') }, [COLLECTIONS]: { body: '[]' }, [HERO_ART]: heroArt })
+      const store = createCatalogStore({ fetchText: s.fetchText, cache: memoryTextCache(), siteBase: BASE })
+      await store.start()
+      expect(heroArtOf(store)).toEqual({})
+    }
+  })
+
+  it('shows the cached sidecar at once and revalidates it with its ETag', async () => {
+    const cache = memoryTextCache()
+    cache.write('catalog.csv', { body: csv('A'), etag: '"c1"' })
+    cache.write('hero_art.json', { body: sidecar('100'), etag: '"h1"' })
+    const s = site({ [CATALOG]: { body: csv('A'), etag: '"c1"' }, [COLLECTIONS]: { body: '[]' }, [HERO_ART]: { body: sidecar('100'), etag: '"h1"' } })
+    const store = createCatalogStore({ fetchText: s.fetchText, cache, siteBase: BASE })
+    const started = store.start()
+    expect(heroArtOf(store)).toEqual({ '100': expect.anything() })
+    await started
+    expect(s.calls).toContainEqual({ path: HERO_ART, etag: '"h1"' })
+  })
+
+  it('a fresh sidecar alone is a pending refresh', async () => {
+    const cache = memoryTextCache()
+    cache.write('catalog.csv', { body: csv('A'), etag: '"c1"' })
+    const s = site({ [CATALOG]: { body: csv('A'), etag: '"c1"' }, [COLLECTIONS]: 'down', [HERO_ART]: { body: sidecar('100') } })
+    const store = createCatalogStore({ fetchText: s.fetchText, cache, siteBase: BASE })
+    await store.start()
+    expect(heroArtOf(store)).toEqual({})
+    store.applyPending()
+    expect(heroArtOf(store)).toEqual({ '100': expect.anything() })
+  })
+})
