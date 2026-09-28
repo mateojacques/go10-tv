@@ -19,6 +19,7 @@ import { externalTitlesEnabled } from '@go10/core/external/config'
 import { isTmdbKey } from '@go10/core/external/tmdb/keys'
 import { useTmdbTitle } from './external/useTmdbTitle'
 import { saveSnapshot } from '@go10/core/external/snapshots'
+import { exitAppIfTizen } from './platformTizen'
 import './styles/global.css'
 
 export default function App() {
@@ -43,6 +44,9 @@ export default function App() {
         break
       case 'catalog':
         navigate({ name: 'home' })
+        break
+      case 'home':
+        exitAppIfTizen()
         break
     }
   }, [route, navigate])

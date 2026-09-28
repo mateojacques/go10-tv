@@ -285,3 +285,29 @@ describe('App collections without matching titles', () => {
     expect(screen.queryByRole('navigation', { name: 'Colecciones' })).toBeNull()
   })
 })
+
+describe('Tizen back/exit', () => {
+  it('exits the app when Back is pressed at Home', async () => {
+    const exit = vi.fn()
+    vi.stubGlobal('tizen', { application: { getCurrentApplication: () => ({ exit }) } })
+
+    render(<App />)
+    await screen.findByRole('heading', { name: 'Foo Movie' })
+
+    fireEvent.keyDown(window, { key: 'Escape' })
+    expect(exit).toHaveBeenCalled()
+  })
+
+  it('does not exit the app when Back is pressed while the player is open', async () => {
+    const exit = vi.fn()
+    vi.stubGlobal('tizen', { application: { getCurrentApplication: () => ({ exit }) } })
+
+    window.history.replaceState({}, '', '/title/111/play/111')
+    render(<App />)
+    await waitFor(() => expect(document.querySelector('.go-player_frame')).not.toBeNull())
+
+    fireEvent.keyDown(window, { key: 'Escape' })
+    await waitFor(() => expect(window.location.pathname).toBe('/title/111'))
+    expect(exit).not.toHaveBeenCalled()
+  })
+})
