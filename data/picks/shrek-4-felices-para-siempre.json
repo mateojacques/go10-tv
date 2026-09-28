@@ -1,0 +1,18 @@
+{
+  "title": "Shrek 4: Felices para siempre",
+  "type": "movie",
+  "added": "2026-09-28",
+  "query": "shrek 4 latino",
+  "year": "2010",
+  "studio": "DreamWorks",
+  "source": "Peliculas",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {"video_id": "4658593663605", "title_raw": "Shrek 4 Felices Para Siempre [1080p] [Latino]", "duration_raw": "1:33:13",
+     "views": 15600, "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYNrPGkrxYkOEmtztg9LmshQihDXYFG6xE_J25qvSNKIA&fn=external_7"}
+  ]
+}
