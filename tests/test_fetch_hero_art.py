@@ -212,3 +212,35 @@ def test_main_rejects_a_token_with_invalid_characters_before_any_request(tmp_pat
     assert fha.main(["--catalog", _catalog(tmp_path), "--output", str(out), "--env-file", str(tmp_path / "missing.env")]) == 1
     assert not out.exists()
     assert "invalid characters" in capsys.readouterr().err
+
+
+def test_build_index_logs_every_title_as_it_goes():
+    titles = [
+        {"key": "a", "name": "A", "year": None, "kind": "movie"},
+        {"key": "b", "name": "B", "year": None, "kind": "movie"},
+        {"key": "c", "name": "C", "year": None, "kind": "movie"},
+        {"key": "d", "name": "D", "year": None, "kind": "movie"},
+    ]
+
+    def get(path, params):
+        if params.get("query") == "C":
+            raise OSError("timed out")
+        return {"results": [{"id": 5, "title": "A", "backdrop_path": "/a.jpg"}]}
+
+    lines = []
+    fha.build_index(titles, get, {"pin": {}, "block": ["d"]}, log=lines.append)
+    assert lines == [
+        "[1/4] a  A  →  movie/5",
+        "[2/4] b  B  →  unmatched",
+        "[3/4] c  C  →  error: timed out",
+        "[4/4] d  D  →  blocked",
+    ]
+
+
+def test_main_announces_the_run_before_the_first_request(tmp_path, monkeypatch, capsys):
+    monkeypatch.setenv("TMDB_TOKEN", "t")
+    monkeypatch.setattr(fha, "tmdb_getter", lambda token: lambda path, params: {"results": []})
+    fha.main(["--catalog", _catalog(tmp_path), "--output", str(tmp_path / "o.json"), "--overrides", str(tmp_path / "none.json")])
+    err = capsys.readouterr().err
+    assert err.startswith("Matching 2 titles against TMDB")
+    assert "[1/2] 10  Toy Story  →  unmatched" in err

@@ -74,41 +74,54 @@ def best_match(entry, results):
     return sorted(matches, key=lambda r: abs((_year(r) or 9999) - entry["year"]))[0]
 
 
-def build_index(titles, get, overrides):
+def build_index(titles, get, overrides, log=None):
+    """Match every title; `log`, if given, gets one progress line per title as it finishes."""
     pins = overrides.get("pin", {})
     blocks = set(overrides.get("block", []))
     known = {t["key"] for t in titles}
     items = {}
     report = {"matched": 0, "pinned": 0, "blocked": 0, "unmatched": [], "failed": 0,
               "unknown_overrides": sorted((set(pins) | blocks) - known)}
-    for entry in titles:
+    for number, entry in enumerate(titles, 1):
         key = entry["key"]
-        if key in blocks:
-            report["blocked"] += 1
-            continue
-        try:
-            if key in pins:
-                detail = get(f"/{pins[key]}", {})
-                if detail.get("backdrop_path"):
-                    items[key] = {"tmdb": pins[key], "backdrop": detail["backdrop_path"]}
-                    report["pinned"] += 1
-                    continue
-            else:
-                media = "movie" if entry["kind"] == "movie" else "tv"
-                found = get(f"/search/{media}", {"query": entry["name"], "language": "es-MX", "include_adult": "false"})
-                match = best_match(entry, found.get("results", []))
-                if match:
-                    items[key] = {"tmdb": f"{media}/{match['id']}", "backdrop": match["backdrop_path"]}
-                    report["matched"] += 1
-                    continue
-        except urllib.error.HTTPError as error:
-            if error.code == 401:
-                raise  # a rejected token fails every title: stop instead of reporting them all unmatched
-            report["failed"] += 1
-        except (OSError, ValueError, http.client.HTTPException):
-            report["failed"] += 1  # network or JSON trouble on one title: report it, keep going
-        report["unmatched"].append((key, entry["name"]))
+        outcome = _match_one(entry, get, pins, blocks, items, report)
+        if log:
+            log(f"[{number}/{len(titles)}] {key}  {entry['name']}  →  {outcome}")
     return items, report
+
+
+def _match_one(entry, get, pins, blocks, items, report):
+    """Match one title into `items`/`report`; returns what happened, for the progress log."""
+    key = entry["key"]
+    if key in blocks:
+        report["blocked"] += 1
+        return "blocked"
+    try:
+        if key in pins:
+            detail = get(f"/{pins[key]}", {})
+            if detail.get("backdrop_path"):
+                items[key] = {"tmdb": pins[key], "backdrop": detail["backdrop_path"]}
+                report["pinned"] += 1
+                return f"{pins[key]} (pinned)"
+        else:
+            media = "movie" if entry["kind"] == "movie" else "tv"
+            found = get(f"/search/{media}", {"query": entry["name"], "language": "es-MX", "include_adult": "false"})
+            match = best_match(entry, found.get("results", []))
+            if match:
+                items[key] = {"tmdb": f"{media}/{match['id']}", "backdrop": match["backdrop_path"]}
+                report["matched"] += 1
+                return f"{media}/{match['id']}"
+        outcome = "unmatched"
+    except urllib.error.HTTPError as error:
+        if error.code == 401:
+            raise  # a rejected token fails every title: stop instead of reporting them all unmatched
+        report["failed"] += 1
+        outcome = f"error: HTTP {error.code}"
+    except (OSError, ValueError, http.client.HTTPException) as error:
+        report["failed"] += 1  # network or JSON trouble on one title: report it, keep going
+        outcome = f"error: {error}"
+    report["unmatched"].append((key, entry["name"]))
+    return outcome
 
 
 def write_index(path, items):
@@ -170,8 +183,13 @@ def main(argv=None):
             overrides = json.load(handle)
 
     titles = load_titles(args.catalog)
+    print(f"Matching {len(titles)} titles against TMDB (one request each; a few minutes)…", file=sys.stderr, flush=True)
+
+    def progress(line):
+        print(line, file=sys.stderr, flush=True)
+
     try:
-        items, report = build_index(titles, tmdb_getter(token), overrides)
+        items, report = build_index(titles, tmdb_getter(token), overrides, log=progress)
     except urllib.error.HTTPError as error:
         print(f"TMDB rejected the token (HTTP {error.code}); {args.output} left as it was.", file=sys.stderr)
         return 1
