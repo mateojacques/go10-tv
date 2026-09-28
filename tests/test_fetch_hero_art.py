@@ -127,3 +127,51 @@ def test_main_without_a_token_exits_1_and_writes_nothing(tmp_path, monkeypatch, 
     assert fha.main(["--output", str(out)]) == 1
     assert not out.exists()
     assert "TMDB_TOKEN" in capsys.readouterr().err
+
+
+def _catalog(tmp_path):
+    path = tmp_path / "catalog.csv"
+    _csv(path, [
+        {"video_id": "10", "type": "movie", "title": "Toy Story", "year": "1995"},
+        {"video_id": "11", "type": "movie", "title": "Cars", "year": "2006"},
+    ])
+    return str(path)
+
+
+def test_main_keeps_the_committed_file_when_every_request_failed(tmp_path, monkeypatch):
+    def offline(path, params):
+        raise OSError("network unreachable")
+
+    monkeypatch.setenv("TMDB_TOKEN", "t")
+    monkeypatch.setattr(fha, "tmdb_getter", lambda token: offline)
+    out = tmp_path / "hero_art.json"
+    out.write_text("committed\n", encoding="utf-8")
+    assert fha.main(["--catalog", _catalog(tmp_path), "--output", str(out), "--overrides", str(tmp_path / "none.json")]) == 1
+    assert out.read_text(encoding="utf-8") == "committed\n"
+
+
+def test_main_stops_on_a_rejected_token(tmp_path, monkeypatch):
+    import urllib.error
+
+    def unauthorized(path, params):
+        raise urllib.error.HTTPError(path, 401, "Unauthorized", {}, None)
+
+    monkeypatch.setenv("TMDB_TOKEN", "bad")
+    monkeypatch.setattr(fha, "tmdb_getter", lambda token: unauthorized)
+    out = tmp_path / "hero_art.json"
+    assert fha.main(["--catalog", _catalog(tmp_path), "--output", str(out), "--overrides", str(tmp_path / "none.json")]) == 1
+    assert not out.exists()
+
+
+def test_build_index_treats_a_truncated_response_as_one_failed_title():
+    import http.client
+
+    def get(path, params):
+        if params.get("query") == "A":
+            raise http.client.IncompleteRead(b"")
+        return {"results": [{"id": 5, "title": "B", "backdrop_path": "/b.jpg"}]}
+
+    titles = [{"key": "a", "name": "A", "year": None, "kind": "movie"}, {"key": "b", "name": "B", "year": None, "kind": "movie"}]
+    items, report = fha.build_index(titles, get, {"pin": {}, "block": []})
+    assert items == {"b": {"tmdb": "movie/5", "backdrop": "/b.jpg"}}
+    assert report["unmatched"] == [("a", "A")]

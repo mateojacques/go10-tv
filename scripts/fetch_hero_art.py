@@ -7,6 +7,7 @@ token; the output is committed. Hand fixes go in data/hero_art_overrides.json:
 """
 import argparse
 import csv
+import http.client
 import json
 import os
 import sys
@@ -75,7 +76,7 @@ def build_index(titles, get, overrides):
     blocks = set(overrides.get("block", []))
     known = {t["key"] for t in titles}
     items = {}
-    report = {"matched": 0, "pinned": 0, "blocked": 0, "unmatched": [],
+    report = {"matched": 0, "pinned": 0, "blocked": 0, "unmatched": [], "failed": 0,
               "unknown_overrides": sorted((set(pins) | blocks) - known)}
     for entry in titles:
         key = entry["key"]
@@ -97,8 +98,12 @@ def build_index(titles, get, overrides):
                     items[key] = {"tmdb": f"{media}/{match['id']}", "backdrop": match["backdrop_path"]}
                     report["matched"] += 1
                     continue
-        except (OSError, ValueError):
-            pass  # network or JSON trouble on one title: report it, keep going
+        except urllib.error.HTTPError as error:
+            if error.code == 401:
+                raise  # a rejected token fails every title: stop instead of reporting them all unmatched
+            report["failed"] += 1
+        except (OSError, ValueError, http.client.HTTPException):
+            report["failed"] += 1  # network or JSON trouble on one title: report it, keep going
         report["unmatched"].append((key, entry["name"]))
     return items, report
 
@@ -142,10 +147,19 @@ def main(argv=None):
         with open(args.overrides, encoding="utf-8") as handle:
             overrides = json.load(handle)
 
-    items, report = build_index(load_titles(args.catalog), tmdb_getter(token), overrides)
+    titles = load_titles(args.catalog)
+    try:
+        items, report = build_index(titles, tmdb_getter(token), overrides)
+    except urllib.error.HTTPError as error:
+        print(f"TMDB rejected the token (HTTP {error.code}); {args.output} left as it was.", file=sys.stderr)
+        return 1
+    searched = len(titles) - report["blocked"]
+    if searched > 0 and report["failed"] == searched:
+        print(f"Every TMDB request failed (offline?); {args.output} left as it was.", file=sys.stderr)
+        return 1
     write_index(args.output, items)
 
-    print(f"matched {report['matched']} · pinned {report['pinned']} · blocked {report['blocked']} · unmatched {len(report['unmatched'])}")
+    print(f"matched {report['matched']} · pinned {report['pinned']} · blocked {report['blocked']} · unmatched {len(report['unmatched'])} (request errors {report['failed']})")
     for key, name in report["unmatched"]:
         print(f"  unmatched  {key}  {name}")
     for key in report["unknown_overrides"]:
