@@ -1,4 +1,4 @@
-import { render, screen, userEvent } from '@testing-library/react-native'
+import { fireEvent, render, screen, userEvent } from '@testing-library/react-native'
 import type { CatalogRow, Title } from '@go10/core/types'
 import { Hero } from './Hero'
 
@@ -21,6 +21,13 @@ describe('Hero', () => {
     expect(screen.getByText('Animación')).toBeTruthy()
     expect(screen.getByText('Infantil')).toBeTruthy()
     expect(screen.getByTestId('hero-art').props.source).toEqual([{ uri: 'https://tv.test/assets/spidey/spidey-hero-1920.webp' }])
+  })
+
+  it('reports a failed art load, so the carousel can fall back', async () => {
+    const onArtError = jest.fn()
+    await render(<Hero title={spidey} art={ART} imageBase={IMG} progress={null} onPlay={jest.fn()} onInfo={jest.fn()} onArtError={onArtError} />)
+    await fireEvent(screen.getByTestId('hero-art'), 'error', { nativeEvent: { error: '404' } })
+    expect(onArtError).toHaveBeenCalledTimes(1)
   })
 
   it('plays and opens the title from its two buttons, Reproducir taking focus first on TV', async () => {

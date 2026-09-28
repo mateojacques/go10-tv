@@ -1,6 +1,6 @@
 import type { Collection } from '@go10/core/collections/types'
 import type { Title } from '@go10/core/types'
-import { FEATURED_SERIES_ID } from '@go10/core/featured'
+import { resetHeroPickForTests } from '@go10/core/hero/pickHero'
 import { buildHome } from './homeModel'
 
 function title(key: string, overrides: Partial<Title> = {}): Title {
@@ -13,19 +13,27 @@ function title(key: string, overrides: Partial<Title> = {}): Title {
 const collection = (id: string, titles: string[]): Collection => ({
   id, name: id, order: 1, logo: `assets/collections/${id}/logo.svg`, tile: { color: '#000000' }, titles,
 })
-const data = (titles: Title[], collections: Collection[] = []) => ({ rows: [], titles, collections, heroArt: {} })
+const data = (titles: Title[], collections: Collection[] = [], heroArt = {}) => ({ rows: [], titles, collections, heroArt })
+
+beforeEach(() => resetHeroPickForTests())
 
 describe('buildHome', () => {
-  it('features the promo title with its key art', () => {
-    const home = buildHome(data([title('a'), title(FEATURED_SERIES_ID, { kind: 'show' })]))!
-    expect(home.featured.key).toBe(FEATURED_SERIES_ID)
-    expect(home.featuredArt?.large).toMatch(/spidey-hero-1920\.webp$/)
+  it('picks hero slides across the genre buckets, preferring art', () => {
+    const titles = [title('d', { genre: 'Drama' }), title('t', { genre: 'Terror' }), title('t2', { genre: 'Terror' })]
+    const home = buildHome(data(titles, [], { t2: { tmdb: 'movie/1', backdrop: '/t2.jpg' } }))!
+    expect(home.slides.map((s) => s.title.key).sort()).toEqual(['d', 't2'])
+    expect(home.slides.find((s) => s.title.key === 't2')!.art?.large).toBe('https://image.tmdb.org/t/p/w1280/t2.jpg')
   })
 
-  it('falls back to the first title, without key art, when the promo title is gone', () => {
-    const home = buildHome(data([title('a'), title('b')]))!
-    expect(home.featured.key).toBe('a')
-    expect(home.featuredArt).toBeNull()
+  it('keeps the launch pick when a refreshed catalog arrives', () => {
+    const first = buildHome(data([title('d', { genre: 'Drama' })]))!
+    const refreshed = buildHome(data([title('x', { genre: 'Drama' }), title('d', { genre: 'Drama' })]))!
+    expect(refreshed.slides).toBe(first.slides)
+    expect(refreshed.titles.map((t) => t.key)).toEqual(['x', 'd'])
+  })
+
+  it('features the first title when no bucket matches', () => {
+    expect(buildHome(data([title('a'), title('b')]))!.slides.map((s) => s.title.key)).toEqual(['a'])
   })
 
   it('builds the same rows as the web Home', () => {

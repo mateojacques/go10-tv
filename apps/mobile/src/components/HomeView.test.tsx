@@ -17,9 +17,8 @@ const pixar: Collection = { id: 'pixar', name: 'Pixar', order: 1, logo: 'assets/
 
 function model(overrides: Partial<HomeModel> = {}): HomeModel {
   return {
-    featured: title('a'),
+    slides: [{ title: title('a'), art: null }],
     titles: [title('a'), title('b'), title('c')],
-    featuredArt: null,
     strip: [pixar],
     rows: [
       { id: 'recientes', label: 'Recién añadidos', titles: [title('a'), title('b')] },

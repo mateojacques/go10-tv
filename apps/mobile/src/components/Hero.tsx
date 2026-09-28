@@ -1,7 +1,7 @@
 import { Image } from 'expo-image'
 import { LinearGradient } from 'expo-linear-gradient'
 import type { ReactNode } from 'react'
-import { PixelRatio, Platform, Pressable, StyleSheet, Text, View, useWindowDimensions } from 'react-native'
+import { PixelRatio, Platform, Pressable, StyleSheet, TVFocusGuideView, Text, View, useWindowDimensions } from 'react-native'
 import { heroMeta } from '@go10/core/catalog/describeTitle'
 import { imageSrc } from '@go10/core/lib/imageSrc'
 import { remainingLabel, rowLabel } from '@go10/core/progress/describe'
@@ -12,14 +12,27 @@ import { ProgressBar } from './ProgressBar'
 
 const BG = theme.color.bg
 const tv = Platform.isTV
+// TV: ← / → at the ends of the buttons stay here, where the carousel turns them into slide changes.
+const Actions = tv ? TVFocusGuideView : View
 
-function HeroButton({ label, note, primary, preferred, onPress, icon }: { label: string; note?: string; primary?: boolean; preferred?: boolean; onPress: () => void; icon: ReactNode }) {
+function HeroButton({ label, note, primary, preferred, onPress, onFocus, onBlur, icon }: {
+  label: string
+  note?: string
+  primary?: boolean
+  preferred?: boolean
+  onPress: () => void
+  onFocus?: () => void
+  onBlur?: () => void
+  icon: ReactNode
+}) {
   return (
     <Pressable
       accessibilityRole="button"
       accessibilityLabel={label}
       hasTVPreferredFocus={preferred}
       onPress={onPress}
+      onFocus={onFocus}
+      onBlur={onBlur}
       style={({ focused }) => [styles.button, primary ? styles.primary : styles.secondary, focused && styles.buttonFocused]}
     >
       {({ focused }) => (
@@ -34,7 +47,7 @@ function HeroButton({ label, note, primary, preferred, onPress, icon }: { label:
 }
 
 /** The Home hero (apps/web/src/screens/Home.tsx + Home.css): key art or a blurred backdrop, then the title block. */
-export function Hero({ title, art, imageBase, progress, onPlay, onInfo }: {
+export function Hero({ title, art, imageBase, progress, onPlay, onInfo, onArtError, onFocusButton }: {
   title: Title
   art: { small: string; large: string } | null
   imageBase: string
@@ -42,6 +55,10 @@ export function Hero({ title, art, imageBase, progress, onPlay, onInfo }: {
   progress: TitleProgress | null
   onPlay: () => void
   onInfo: () => void
+  /** The key art failed to load: the carousel drops this slide to the blurred layout. */
+  onArtError?: () => void
+  /** Which button holds focus (TV), for the carousel's edge navigation. */
+  onFocusButton?: (button: 'play' | 'info' | null) => void
 }) {
   const { width } = useWindowDimensions()
   const isShow = title.kind === 'show'
@@ -58,7 +75,7 @@ export function Hero({ title, art, imageBase, progress, onPlay, onInfo }: {
     <View style={[styles.hero, { minHeight: tv ? artHeight : undefined }]}>
       {art ? (
         <View style={[styles.stage, !tv && { height: artHeight, bottom: undefined }]} pointerEvents="none">
-          <Image testID="hero-art" source={{ uri: imageSrc(artPath!, imageBase) }} style={StyleSheet.absoluteFill} contentFit="cover" contentPosition={tv ? { top: '20%' } : 'center'} />
+          <Image testID="hero-art" source={{ uri: imageSrc(artPath!, imageBase) }} style={StyleSheet.absoluteFill} contentFit="cover" contentPosition={tv ? { top: '20%' } : 'center'} onError={onArtError} />
           {tv ? (
             <LinearGradient colors={['rgba(8,9,12,0.94)', 'rgba(8,9,12,0.82)', 'rgba(8,9,12,0.4)', 'rgba(8,9,12,0)']} locations={[0, 0.24, 0.44, 0.62]} start={{ x: 0, y: 0 }} end={{ x: 1, y: 0 }} style={StyleSheet.absoluteFill} />
           ) : null}
@@ -91,10 +108,25 @@ export function Hero({ title, art, imageBase, progress, onPlay, onInfo }: {
             <Text key={genre} style={styles.chip}>{genre}</Text>
           ))}
         </View>
-        <View style={styles.actions}>
-          <HeroButton label={resuming ? 'Reanudar' : 'Reproducir'} note={position} primary preferred onPress={onPlay} icon={<View style={styles.playIcon} />} />
-          <HeroButton label="Más información" onPress={onInfo} icon={<Text style={styles.infoIcon}>i</Text>} />
-        </View>
+        <Actions style={styles.actions} {...(tv ? { trapFocusLeft: true, trapFocusRight: true } : {})}>
+          <HeroButton
+            label={resuming ? 'Reanudar' : 'Reproducir'}
+            note={position}
+            primary
+            preferred
+            onPress={onPlay}
+            onFocus={() => onFocusButton?.('play')}
+            onBlur={() => onFocusButton?.(null)}
+            icon={<View style={styles.playIcon} />}
+          />
+          <HeroButton
+            label="Más información"
+            onPress={onInfo}
+            onFocus={() => onFocusButton?.('info')}
+            onBlur={() => onFocusButton?.(null)}
+            icon={<Text style={styles.infoIcon}>i</Text>}
+          />
+        </Actions>
         {resuming && progress?.progress && (
           <View style={styles.resume}>
             <ProgressBar fraction={playedFraction(progress.progress)} style={styles.resumeBar} />

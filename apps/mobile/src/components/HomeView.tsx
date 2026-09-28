@@ -6,13 +6,13 @@ import { externalTitlesEnabled } from '@go10/core/external/config'
 import { listSnapshots } from '@go10/core/external/snapshots'
 import { continueCardProgress } from '@go10/core/progress/describe'
 import type { Progress } from '@go10/core/progress/progressStore'
-import { continueWatching, titleProgress } from '@go10/core/progress/titleProgress'
+import { continueWatching } from '@go10/core/progress/titleProgress'
 import type { CatalogRow, Title } from '@go10/core/types'
 import type { HomeModel } from '../home/homeModel'
 import { useListFill } from '../platform/listFill'
 import { theme } from '../theme'
 import { CollectionStrip } from './CollectionStrip'
-import { Hero } from './Hero'
+import { HeroCarousel } from './HeroCarousel'
 import { Navbar } from './Navbar'
 import { Row } from './Row'
 
@@ -55,7 +55,6 @@ export function HomeView({ model, progress, imageBase, onSelectTitle, onPlayTitl
   const continueByKey = useMemo(() => new Map(continueItems.map((item) => [item.title.key, item])), [continueItems])
   const continueGroup: CatalogRowGroup = { id: 'seguir-viendo', label: 'Seguir viendo', titles: continueItems.map((item) => item.title) }
   const sections = homeSections(model, continueItems.length)
-  const heroProgress = useMemo(() => titleProgress(model.featured, progress), [model.featured, progress])
   const fill = useListFill()
   return (
     <View style={styles.root} onLayout={fill.onLayout}>
@@ -67,13 +66,12 @@ export function HomeView({ model, progress, imageBase, onSelectTitle, onPlayTitl
       windowSize={7}
       showsVerticalScrollIndicator={false}
       ListHeaderComponent={
-        <Hero
-          title={model.featured}
-          art={model.featuredArt}
+        <HeroCarousel
+          slides={model.slides}
           imageBase={imageBase}
-          progress={heroProgress}
-          onPlay={() => onPlayTitle(model.featured, heroProgress.row)}
-          onInfo={() => onSelectTitle(model.featured)}
+          progress={progress}
+          onPlayTitle={onPlayTitle}
+          onSelectTitle={onSelectTitle}
         />
       }
       renderItem={({ item }) => {
