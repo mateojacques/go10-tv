@@ -1,4 +1,4 @@
-import sys, os
+import json, sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "scripts"))
 
 import parse_catalog
@@ -407,3 +407,124 @@ def test_merge_update_sources_puts_new_cards_first_with_copied_thumbnails(tmp_pa
     assert [c["video_id"] for c in cards] == ["2", "1"]
     assert cards[0]["thumbnail"] == "assets/upd/a.webp"
     assert (tmp_path / "assets" / "upd" / "a.webp").read_bytes() == b"img"
+
+
+SHREK_PICK = {
+    "title": "Shrek 4: Felices para siempre",
+    "type": "movie",
+    "added": "2026-09-28",
+    "year": "2010",
+    "studio": "DreamWorks",
+    "source": "Peliculas",
+    "quality": "1080p",
+    "language": "Español Latino",
+    "genre": "Animación",
+    "genre_secondary": "Comedia",
+    "videos": [{
+        "video_id": "4658593663605",
+        "title_raw": "Shrek 4 Felices Para Siempre [1080p] [Latino]",
+        "duration_raw": "1:33:13",
+        "views": 15600,
+        "thumbnail_url": "",
+    }],
+}
+
+FUTURAMA_PICK = {
+    "title": "Futurama",
+    "type": "series",
+    "added": "2026-09-27",
+    "source": "Uploader",
+    "quality": "1080p",
+    "language": "Español Latino",
+    "genre": "Animación",
+    "genre_secondary": "Comedia",
+    "videos": [
+        {"video_id": "111", "title_raw": "Futurama T5 pack", "duration_raw": "2:00:00",
+         "views": 1, "thumbnail_url": "", "season_number": 5},
+        {"video_id": "222", "title_raw": "Futurama 6x01", "duration_raw": "22:00",
+         "views": 2, "thumbnail_url": "", "season_number": 6, "episode_number": 1,
+         "quality": "720p"},
+    ],
+}
+
+
+def test_build_pick_rows_turns_a_movie_pick_into_a_movie_row(tmp_path):
+    [row] = parse_catalog.build_pick_rows(SHREK_PICK, "shrek-4", assets_dir=str(tmp_path))
+    assert row["type"] == "movie"
+    assert row["title"] == "Shrek 4: Felices para siempre"
+    assert row["title_raw"] == "Shrek 4 Felices Para Siempre [1080p] [Latino]"
+    assert row["series_id"] == ""
+    assert row["year"] == "2010"
+    assert row["studio"] == "DreamWorks"
+    assert row["source"] == "Peliculas"
+    assert row["genre"] == "Animación"
+    assert row["genre_secondary"] == "Comedia"
+    assert row["quality"] == "1080p"
+    assert row["language"] == "Español Latino"
+    assert row["subtitled"] == "false"
+    assert row["duration_seconds"] == 5593
+    assert row["views"] == 15600
+    assert row["thumbnail"] == "assets/shrek-4/4658593663605.jpg"
+    assert row["embed_url"] == "https://ok.ru/videoembed/4658593663605"
+    assert set(row) == set(COLUMNS) - {"chapter_start_seconds", "chapter_end_seconds"}
+
+
+def test_build_pick_rows_makes_season_packs_and_episodes_for_a_series(tmp_path):
+    pack, episode = parse_catalog.build_pick_rows(FUTURAMA_PICK, "futurama", assets_dir=str(tmp_path))
+    assert pack["type"] == "season"
+    assert pack["series_id"] == "futurama"
+    assert pack["series_title"] == "Futurama"
+    assert pack["title"] == "Futurama"
+    assert pack["season_number"] == "5"
+    assert pack["episode_number"] == ""
+    assert episode["type"] == "episode"
+    assert episode["season_number"] == "6"
+    assert episode["episode_number"] == "1"
+    # A per-video field overrides the pick-wide one.
+    assert episode["quality"] == "720p"
+    assert pack["quality"] == "1080p"
+
+
+def test_build_pick_rows_season_packs_feed_explode_chapters(tmp_path):
+    rows = parse_catalog.build_pick_rows(FUTURAMA_PICK, "futurama", assets_dir=str(tmp_path))
+    chapters = {"111": [
+        {"episode_number": 1, "title": "Episodio 1", "start_seconds": 0, "end_seconds": 3600},
+        {"episode_number": 2, "title": "Episodio 2", "start_seconds": 3600, "end_seconds": None},
+    ]}
+    exploded = parse_catalog.explode_chapters(rows, chapters)
+    assert [(r["type"], r["season_number"], r["episode_number"]) for r in exploded] == [
+        ("episode", "5", "1"), ("episode", "5", "2"), ("episode", "6", "1"),
+    ]
+
+
+def test_build_pick_rows_downloads_each_thumbnail_once(tmp_path, monkeypatch):
+    calls = []
+
+    def fake_download(url, dest_path):
+        calls.append(url)
+        open(dest_path, "wb").close()
+
+    monkeypatch.setattr(parse_catalog, "download_thumbnail", fake_download)
+    pick = {**SHREK_PICK, "videos": [{**SHREK_PICK["videos"][0], "thumbnail_url": "https://x/1.jpg"}]}
+    parse_catalog.build_pick_rows(pick, "shrek-4", assets_dir=str(tmp_path))
+    parse_catalog.build_pick_rows(pick, "shrek-4", assets_dir=str(tmp_path))
+    assert calls == ["https://x/1.jpg"]
+    assert (tmp_path / "shrek-4" / "4658593663605.jpg").exists()
+
+
+def test_load_picks_orders_newest_added_first(tmp_path):
+    for slug, pick in (("futurama", FUTURAMA_PICK), ("shrek-4", SHREK_PICK)):
+        (tmp_path / f"{slug}.json").write_text(json.dumps(pick), encoding="utf-8")
+    assert [slug for slug, _ in parse_catalog.load_picks(str(tmp_path))] == ["shrek-4", "futurama"]
+
+
+def test_load_picks_returns_empty_list_when_dir_missing(tmp_path):
+    assert parse_catalog.load_picks(str(tmp_path / "missing")) == []
+
+
+def test_merge_pick_rows_leads_the_catalog_and_skips_known_videos(tmp_path, capsys):
+    base = [{"video_id": "4658593663605", "catalog_index": 0}, {"video_id": "9", "catalog_index": 1}]
+    picks = [("shrek-4", SHREK_PICK), ("futurama", FUTURAMA_PICK)]
+    rows = parse_catalog.merge_pick_rows(base, picks, assets_dir=str(tmp_path))
+    assert [r["video_id"] for r in rows] == ["111", "222", "4658593663605", "9"]
+    assert "4658593663605" in capsys.readouterr().out

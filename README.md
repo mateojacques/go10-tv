@@ -35,6 +35,13 @@ Recién añadidos; their thumbnails are copied into `assets/<slug>/`, so the
 `<slug>_files/` dump can be deleted afterwards. Each new video still needs
 its `data/genres.csv` row, and each season pack its `data/chapters/` entry.
 
+Titles found through ok.ru search are added as `data/picks/<slug>.json`
+files instead (the `/search-okru` Claude Code skill writes them, using
+`scripts/search_okru.py` to search and check uploads). Picks lead the
+catalog, newest `added` first; their thumbnails are downloaded into
+`assets/<slug>/`, and a picked season pack gets its `data/chapters/`
+entry from `scripts/make_chapters.py` (uploader timestamps or equal split).
+
 `build_aniyomi_feed.py` writes the static JSON feed the Go10 TV Aniyomi
 extension reads (`/data/aniyomi/index.json` plus `series/<series_id>.json`).
 **Never rename a `series_id` or re-upload a video under a new ok.ru id** for

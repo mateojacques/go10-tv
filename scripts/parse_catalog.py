@@ -21,6 +21,9 @@ SERIES_DIR = os.path.join(ROOT, "data", "series")
 ASSETS_DIR = os.path.join(ROOT, "assets")
 CHAPTERS_DIR = os.path.join(ROOT, "data", "chapters")
 RECLASSIFY_CSV = os.path.join(ROOT, "data", "reclassify.csv")
+# One data/picks/<slug>.json per title picked from an ok.ru search (see
+# scripts/search_okru.py and the /search-okru skill) -- see build_pick_rows.
+PICKS_DIR = os.path.join(ROOT, "data", "picks")
 # Later saves of the same ok.ru profile, newest first, each `<slug>.html`
 # with its `<slug>_files/` dump beside it. Only the cards above the first
 # video the catalog already has are ingested -- see take_new_cards.
@@ -428,6 +431,98 @@ def build_episode_rows(html_text, sidecar, slug, start_index, root=ROOT, assets_
     return rows
 
 
+def load_picks(picks_dir):
+    """Return [(slug, pick), ...] for every data/picks/<slug>.json, newest
+    `added` first (then by slug), the order they lead the catalog in.
+    """
+    if not os.path.isdir(picks_dir):
+        return []
+    picks = []
+    for name in sorted(os.listdir(picks_dir)):
+        if not name.endswith(".json"):
+            continue
+        with open(os.path.join(picks_dir, name), encoding="utf-8") as handle:
+            picks.append((name[: -len(".json")], json.load(handle)))
+    picks.sort(key=lambda item: item[1].get("added", ""), reverse=True)
+    return picks
+
+
+def build_pick_rows(pick, slug, assets_dir=None):
+    """Turn one picked title into catalog rows, one per picked video.
+
+    A `movie` pick makes movie rows. A `series` pick makes an `episode` row
+    for a video with an `episode_number`, and a `season` row for a season
+    pack (no `episode_number`), which explode_chapters splits via its
+    data/chapters/<series_id>.json entry. Metadata comes from the pick, and a
+    video's own `quality`/`language`/`subtitled` override the pick's. Each
+    thumbnail is downloaded once into `assets/<slug>/<video_id>.jpg`.
+    """
+    assets_dir = assets_dir or ASSETS_DIR
+    dest_dir = os.path.join(assets_dir, slug)
+    os.makedirs(dest_dir, exist_ok=True)
+    is_series = pick["type"] == "series"
+    series_id = slugify(pick["title"]) if is_series else ""
+
+    rows = []
+    for video in pick["videos"]:
+        video_id = video["video_id"]
+        filename = f"{video_id}.jpg"
+        dest_thumb = os.path.join(dest_dir, filename)
+        if video.get("thumbnail_url") and not os.path.exists(dest_thumb):
+            download_thumbnail(video["thumbnail_url"], dest_thumb)
+
+        episode_number = video.get("episode_number")
+        if not is_series:
+            row_type = "movie"
+        else:
+            row_type = "season" if episode_number in (None, "") else "episode"
+        field = lambda name: video.get(name, pick.get(name, ""))
+        rows.append({
+            "catalog_index": 0,
+            "video_id": video_id,
+            "type": row_type,
+            "title": pick["title"],
+            "title_raw": video["title_raw"],
+            "series_id": series_id,
+            "series_title": pick["title"] if is_series else "",
+            "season_number": str(video.get("season_number", "")) if is_series else "",
+            "season_label": "",
+            "episode_number": "" if episode_number in (None, "") else str(episode_number),
+            "year": pick.get("year", ""),
+            "studio": pick.get("studio", ""),
+            "source": pick.get("source", ""),
+            "genre": pick.get("genre", ""),
+            "genre_secondary": pick.get("genre_secondary", ""),
+            "quality": field("quality"),
+            "language": field("language"),
+            "subtitled": "true" if field("subtitled") is True else "false",
+            "duration_raw": video["duration_raw"],
+            "duration_seconds": parse_duration(video["duration_raw"]),
+            "views": video.get("views", 0),
+            "thumbnail": f"assets/{slug}/{filename}",
+            "video_url": f"https://ok.ru/video/{video_id}",
+            "embed_url": f"https://ok.ru/videoembed/{video_id}",
+        })
+    return rows
+
+
+def merge_pick_rows(rows, picks, assets_dir=None):
+    """Put every pick's rows ahead of `rows` (picks newest first), so picked
+    titles lead Recién añadidos. A picked video the catalog already has is
+    skipped and reported: the same ok.ru id must never be ingested twice.
+    """
+    known_ids = {row["video_id"] for row in rows}
+    picked = []
+    for slug, pick in picks:
+        for row in build_pick_rows(pick, slug, assets_dir):
+            if row["video_id"] in known_ids:
+                print(f"{slug}: skip {row['video_id']}, already in the catalog")
+                continue
+            known_ids.add(row["video_id"])
+            picked.append(row)
+    return picked + rows
+
+
 def report_coverage(rows):
     print(f"rows: {len(rows)}")
     for column in COLUMNS:
@@ -439,6 +534,7 @@ def main():
     html_text = open(SOURCE_HTML, encoding="utf-8").read()
     cards = merge_update_sources(extract_cards(html_text), UPDATE_SOURCES)
     rows = build_rows_from_cards(cards, load_genres(GENRES_CSV))
+    rows = merge_pick_rows(rows, load_picks(PICKS_DIR))
     rows = apply_reclassifications(rows, load_reclassifications(RECLASSIFY_CSV))
     rows = explode_chapters(rows, load_chapters(CHAPTERS_DIR))
 
