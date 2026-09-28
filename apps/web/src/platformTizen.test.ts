@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from 'vitest'
-import { installTizenPlatform, exitAppIfTizen } from './platformTizen'
+import { installTizenPlatform, exitAppIfTizen, fixTizenViewport } from './platformTizen'
 
 afterEach(() => {
   vi.unstubAllGlobals()
@@ -64,6 +64,44 @@ describe('installTizenPlatform', () => {
     window.dispatchEvent(backEvent)
 
     expect(onEscape).toHaveBeenCalled()
+  })
+})
+
+describe('fixTizenViewport', () => {
+  afterEach(() => {
+    document.querySelectorAll('meta[name="viewport"]').forEach((meta) => meta.remove())
+  })
+
+  it('does nothing outside a packaged Tizen app', () => {
+    expect(() => fixTizenViewport()).not.toThrow()
+  })
+
+  it('forces a fixed 1920x1080 viewport, overriding device-width', () => {
+    // device-width reports far narrower than 1920 on this engine (verified
+    // on real hardware: it triggers this app's max-width:720px mobile
+    // layout on an actual 1920x1080 TV), breaking every vw/vh-relative
+    // size in the app, not just that one breakpoint.
+    const meta = document.createElement('meta')
+    meta.setAttribute('name', 'viewport')
+    meta.setAttribute('content', 'width=device-width, initial-scale=1.0')
+    document.head.appendChild(meta)
+    vi.stubGlobal('tizen', {})
+
+    fixTizenViewport()
+
+    expect(document.querySelector('meta[name="viewport"]')?.getAttribute('content')).toBe(
+      'width=1920, height=1080, initial-scale=1.0, user-scalable=no',
+    )
+  })
+
+  it('creates the meta tag if none exists', () => {
+    vi.stubGlobal('tizen', {})
+
+    fixTizenViewport()
+
+    expect(document.querySelector('meta[name="viewport"]')?.getAttribute('content')).toBe(
+      'width=1920, height=1080, initial-scale=1.0, user-scalable=no',
+    )
   })
 })
 

@@ -38,6 +38,25 @@ export function installTizenPlatform(): void {
 }
 
 /**
+ * Forces a fixed 1920x1080 logical viewport, overriding `width=device-width`
+ * -- verified on real hardware (Samsung 2020 T5300, Tizen 5.5) that
+ * device-width computes far narrower than the TV's actual 1920x1080 panel,
+ * triggering this app's max-width:720px mobile layout and breaking every
+ * other vw/vh-relative size in the app. A no-op outside a packaged Tizen
+ * app.
+ */
+export function fixTizenViewport(): void {
+  if (typeof tizen === 'undefined') return
+  let meta = document.querySelector('meta[name="viewport"]')
+  if (!meta) {
+    meta = document.createElement('meta')
+    meta.setAttribute('name', 'viewport')
+    document.head.appendChild(meta)
+  }
+  meta.setAttribute('content', 'width=1920, height=1080, initial-scale=1.0, user-scalable=no')
+}
+
+/**
  * Exits the app -- called from App.tsx's back() when there's nowhere left to
  * navigate to (the Home route). A no-op outside a packaged Tizen app.
  */

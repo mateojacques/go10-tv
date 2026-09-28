@@ -2,8 +2,9 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App'
 import { installWebPlatform } from './platform'
-import { installTizenPlatform } from './platformTizen'
+import { installTizenPlatform, fixTizenViewport } from './platformTizen'
 
+fixTizenViewport()
 installWebPlatform()
 installTizenPlatform()
 
