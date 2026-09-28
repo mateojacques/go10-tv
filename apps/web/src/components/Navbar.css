@@ -4,11 +4,18 @@
   z-index: 3;
   display: flex;
   align-items: center;
-  gap: 2.5rem;
   height: var(--go-nav-h);
   padding: 0 var(--go-safe-x);
   /* Content scrolls up underneath; the fade keeps the bar legible over it. */
   background: linear-gradient(to bottom, var(--go-bg) 45%, rgba(8, 9, 12, 0.7) 75%, transparent);
+}
+
+/* Not flex `gap`: see the comment on .go-row_label in Row.css. Scoped to the
+   base rule only -- the @media (max-width: 720px) gap overrides below are
+   real, native flex gap, left as-is: a TV viewport never triggers them, and
+   real phones/browsers there are modern enough to support it natively. */
+.go-nav > * + * {
+  margin-left: 2.5rem;
 }
 
 /* ---- Wordmark ------------------------------------------------------------- */
@@ -16,7 +23,6 @@
 .go-wordmark {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
   padding: 0;
   font-family: var(--go-font-mono);
   font-size: var(--go-size-meta);
@@ -26,6 +32,10 @@
   color: var(--go-accent);
   white-space: nowrap;
   transition: opacity var(--go-dur) var(--go-ease);
+}
+
+.go-wordmark > * + * {
+  margin-left: 0.5rem;
 }
 
 .go-wordmark:focus-visible {
@@ -46,7 +56,10 @@
 
 .go-nav_links {
   display: flex;
-  gap: 0.5rem;
+}
+
+.go-nav_links > * + * {
+  margin-left: 0.5rem;
 }
 
 .go-nav_link {
@@ -117,14 +130,16 @@
 .go-nav_search {
   display: flex;
   align-items: center;
-  gap: 0.75rem;
   margin-left: auto;
+}
+
+.go-nav_search > * + * {
+  margin-left: 0.75rem;
 }
 
 .go-nav_scope {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
   padding: 0.375rem 0.875rem;
   border: 1px solid var(--go-accent-dim);
   border-radius: 999px;
@@ -137,6 +152,10 @@
     transform var(--go-dur) var(--go-ease);
 }
 
+.go-nav_scope > * + * {
+  margin-left: 0.5rem;
+}
+
 .go-nav_scope-x {
   font-size: 0.8125em;
   opacity: 0.8;
@@ -146,7 +165,6 @@
   position: relative;
   display: flex;
   align-items: center;
-  gap: 0.625rem;
   width: clamp(14rem, 22vw, 24rem);
   padding: 0.5rem 1rem;
   border-radius: 999px;
@@ -155,6 +173,10 @@
   transition:
     box-shadow var(--go-dur) var(--go-ease),
     background var(--go-dur) var(--go-ease);
+}
+
+.go-search > * + * {
+  margin-left: 0.625rem;
 }
 
 .go-search.is-focused {
@@ -392,16 +414,21 @@
  * give way to a single menu at the start of the field. */
 @media (max-width: 720px) {
   .go-nav {
-    gap: 0.5rem;
     padding: 0 1.25rem;
+  }
+
+  /* Overrides the base 2.5rem margin above -- see the comment there. */
+  .go-nav > * + * {
+    margin-left: 0.5rem;
   }
 
   .go-wordmark {
     letter-spacing: 0.12em;
   }
 
-  .go-nav_links {
-    gap: 0.25rem;
+  /* Overrides the base 0.5rem margin below -- see the comment there. */
+  .go-nav_links > * + * {
+    margin-left: 0.25rem;
   }
 
   .go-nav_link {
@@ -418,8 +445,12 @@
   }
 
   .go-nav_search {
-    gap: 0.5rem;
     min-width: 0;
+  }
+
+  /* Overrides the base 0.75rem margin above -- see the comment there. */
+  .go-nav_search > * + * {
+    margin-left: 0.5rem;
   }
 
   /* Collapsed: a 44px round button. The invisible input covers it, so the tap
@@ -463,9 +494,13 @@
     .go-search {
       flex: 1;
       justify-content: flex-start;
-      gap: 0.5rem;
       width: auto;
       padding: 0 0.75rem 0 0.375rem;
+    }
+
+    /* Overrides the base 0.625rem margin below -- see the comment there. */
+    .go-search > * + * {
+      margin-left: 0.5rem;
     }
 
     /* The scope chip leads the field, so the magnifier steps aside. */
@@ -505,42 +540,5 @@
 @media (max-width: 374px) {
   .go-nav .go-wordmark {
     display: none;
-  }
-}
-
-/* Chromium 69 (Tizen 5.5) doesn't support gap on flex containers -- fall back
-   to margins. The TV viewport never hits the mobile breakpoints above, so
-   only the base rules need a fallback. */
-@supports not (gap: 1rem) {
-  .go-nav > * + * {
-    margin-left: 2.5rem;
-  }
-
-  .go-wordmark > * + * {
-    margin-left: 0.5rem;
-  }
-
-  .go-nav_links > * + * {
-    margin-left: 0.5rem;
-  }
-
-  .go-nav_search > * + * {
-    margin-left: 0.75rem;
-  }
-
-  .go-nav_scope > * + * {
-    margin-left: 0.5rem;
-  }
-
-  .go-search > * + * {
-    margin-left: 0.625rem;
-  }
-
-  .go-scopemenu_trigger > * + * {
-    margin-left: 0.375rem;
-  }
-
-  .go-scopemenu_item > * + * {
-    margin-left: 1rem;
   }
 }

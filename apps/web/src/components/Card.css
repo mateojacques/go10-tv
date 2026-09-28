@@ -28,7 +28,11 @@
   top: 0.5rem;
   right: 0.5rem;
   display: flex;
-  gap: 0.375rem;
+}
+
+/* Not flex `gap`: see the comment on .go-row_label in Row.css. */
+.go-card_tags > * + * {
+  margin-left: 0.375rem;
 }
 
 .go-card_tag {
@@ -96,11 +100,5 @@
 
   .go-card:hover .go-card_frame {
     box-shadow: var(--go-focus-ring), var(--go-focus-lift);
-  }
-}
-
-@supports not (gap: 1rem) {
-  .go-card_tags > * + * {
-    margin-left: 0.375rem;
   }
 }

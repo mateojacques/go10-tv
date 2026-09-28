@@ -5,11 +5,18 @@
 .go-row_label {
   display: flex;
   align-items: baseline;
-  gap: 0.75rem;
   margin: 0 0 0.5rem var(--go-safe-x);
   font-size: var(--go-size-section);
   font-weight: 700;
   letter-spacing: -0.015em;
+}
+
+/* Not flex `gap`: unsupported before Chromium 84 (Tizen 5.5 is ~69), and
+   `@supports (gap: 1rem)` can't detect that -- grid-gap has shipped since
+   Chromium 66, so the feature query is true everywhere long before flex-gap
+   actually works. Margins render identically and need no detection. */
+.go-row_label > * + * {
+  margin-left: 0.75rem;
 }
 
 .go-row_count {
@@ -22,7 +29,6 @@
 
 .go-row_track {
   display: flex;
-  gap: var(--go-gap);
   /* Vertical padding leaves room for the focused card's scale-up to breathe. */
   padding: 1.25rem var(--go-safe-x) 1.5rem;
   overflow-x: auto;
@@ -30,19 +36,10 @@
   scrollbar-width: none;
 }
 
-.go-row_track::-webkit-scrollbar {
-  display: none;
+.go-row_track > * + * {
+  margin-left: var(--go-gap);
 }
 
-/* Chromium 69 (Tizen 5.5) doesn't support gap on flex containers -- fall back
-   to margins. The TV viewport never hits a mobile breakpoint, so only the
-   base rules need a fallback. */
-@supports not (gap: 1rem) {
-  .go-row_label > * + * {
-    margin-left: 0.75rem;
-  }
-
-  .go-row_track > * + * {
-    margin-left: var(--go-gap);
-  }
+.go-row_track::-webkit-scrollbar {
+  display: none;
 }
