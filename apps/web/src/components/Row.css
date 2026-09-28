@@ -33,3 +33,16 @@
 .go-row_track::-webkit-scrollbar {
   display: none;
 }
+
+/* Chromium 69 (Tizen 5.5) doesn't support gap on flex containers -- fall back
+   to margins. The TV viewport never hits a mobile breakpoint, so only the
+   base rules need a fallback. */
+@supports not (gap: 1rem) {
+  .go-row_label > * + * {
+    margin-left: 0.75rem;
+  }
+
+  .go-row_track > * + * {
+    margin-left: var(--go-gap);
+  }
+}

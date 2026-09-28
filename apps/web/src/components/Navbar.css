@@ -507,3 +507,40 @@
     display: none;
   }
 }
+
+/* Chromium 69 (Tizen 5.5) doesn't support gap on flex containers -- fall back
+   to margins. The TV viewport never hits the mobile breakpoints above, so
+   only the base rules need a fallback. */
+@supports not (gap: 1rem) {
+  .go-nav > * + * {
+    margin-left: 2.5rem;
+  }
+
+  .go-wordmark > * + * {
+    margin-left: 0.5rem;
+  }
+
+  .go-nav_links > * + * {
+    margin-left: 0.5rem;
+  }
+
+  .go-nav_search > * + * {
+    margin-left: 0.75rem;
+  }
+
+  .go-nav_scope > * + * {
+    margin-left: 0.5rem;
+  }
+
+  .go-search > * + * {
+    margin-left: 0.625rem;
+  }
+
+  .go-scopemenu_trigger > * + * {
+    margin-left: 0.375rem;
+  }
+
+  .go-scopemenu_item > * + * {
+    margin-left: 1rem;
+  }
+}
