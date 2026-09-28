@@ -135,7 +135,10 @@ export function FocusProvider({
       if (focusedRef.current === item.id) {
         reclaimRef.current = item.id
         // A re-register happens in the same commit; past that it really left.
-        queueMicrotask(() => {
+        // Promise.resolve().then(...) over queueMicrotask: the latter is
+        // missing (and unpolyfilled) on Chromium 69 (Tizen 5.5), this app's
+        // TV target.
+        Promise.resolve().then(() => {
           if (reclaimRef.current === item.id) reclaimRef.current = null
         })
       }
