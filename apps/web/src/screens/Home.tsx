@@ -1,50 +1,19 @@
-import { useMemo, type ReactNode } from 'react'
+import { useMemo } from 'react'
 import type { CatalogRow, Title } from '@go10/core/types'
 import { buildRows, ROW_LIMIT, type CatalogRowGroup } from '@go10/core/catalog/buildRows'
 import { Row } from '../components/Row'
-import { Backdrop } from '../components/Backdrop'
-import { useFocusable } from '../focus/useFocusable'
-import { heroMeta } from '@go10/core/catalog/describeTitle'
-import { imageSrc } from '@go10/core/lib/imageSrc'
 import { listProgress } from '@go10/core/progress/progressStore'
-import { continueWatching, playedFraction, titleProgress } from '@go10/core/progress/titleProgress'
-import { continueCardProgress, remainingLabel, rowLabel } from '@go10/core/progress/describe'
-import { ProgressBar } from '../components/ProgressBar'
+import { continueWatching } from '@go10/core/progress/titleProgress'
+import { continueCardProgress } from '@go10/core/progress/describe'
 import type { Collection } from '@go10/core/collections/types'
 import { visibleCollections } from '@go10/core/collections/resolveCollection'
 import { CollectionStrip } from '../components/CollectionStrip'
 import { externalTitlesEnabled } from '@go10/core/external/config'
 import { listSnapshots } from '@go10/core/external/snapshots'
-import { FEATURED_ART, FEATURED_SERIES_ID } from '@go10/core/featured'
+import type { HeroArtIndex } from '@go10/core/hero/art'
+import { pickHeroOnce } from '@go10/core/hero/pickHero'
+import { HeroCarousel } from './HeroCarousel'
 import './Home.css'
-
-function HeroButton({
-  id,
-  col,
-  onEnter,
-  variant,
-  children,
-}: {
-  id: string
-  col: number
-  onEnter: () => void
-  variant: 'primary' | 'secondary'
-  children: ReactNode
-}) {
-  const { ref, focused, activate, tabIndex } = useFocusable(id, -1, col, onEnter)
-  return (
-    <div
-      ref={ref}
-      tabIndex={tabIndex}
-      role="button"
-      className={`go-hero_cta go-hero_cta--${variant}${focused ? ' is-focused' : ''}`}
-      data-focused={focused}
-      onClick={activate}
-    >
-      {children}
-    </div>
-  )
-}
 
 export function Home({
   titles,
@@ -52,6 +21,7 @@ export function Home({
   onResume,
   collections,
   onOpenCollection,
+  heroArt,
 }: {
   titles: Title[]
   onSelect: (title: Title) => void
@@ -59,6 +29,8 @@ export function Home({
   onResume: (title: Title, row: CatalogRow) => void
   collections: Collection[]
   onOpenCollection: (collection: Collection) => void
+  /** The hero art sidecar; null while it loads. */
+  heroArt: HeroArtIndex | null
 }) {
   const groups = useMemo(() => buildRows(titles), [titles])
   // Home remounts each time it's navigated back to, so reading once per
@@ -79,10 +51,10 @@ export function Home({
     label: 'Seguir viendo',
     titles: [...continueItems.values()].map((item) => item.title),
   }
-  const featured = titles.find((t) => t.key === FEATURED_SERIES_ID) ?? titles[0]
-  const heroProgress = useMemo(() => featured && titleProgress(featured, listProgress()), [featured])
+  // Picked once the sidecar has settled, so the first pick already prefers art; fixed for the page.
+  const slides = useMemo(() => (heroArt ? pickHeroOnce(titles, heroArt) : null), [titles, heroArt])
 
-  if (!featured) {
+  if (titles.length === 0) {
     return (
       <div className="go-state">
         <span className="go-state_mark">GO10 TV</span>
@@ -91,95 +63,18 @@ export function Home({
     )
   }
 
-  const art = featured.key === FEATURED_SERIES_ID ? FEATURED_ART : null
-  const isShow = featured.kind === 'show'
-  const meta = heroMeta(featured)
-
-  const resuming = heroProgress?.mode === 'resume' ? heroProgress.progress : null
-  const position = heroProgress && heroProgress.mode !== 'start' ? rowLabel(heroProgress.row) : ''
   // The strip takes focus row 0 when present; every row below shifts down.
   const firstRow = strip.length > 0 ? 1 : 0
 
   return (
     <div className="go-home">
-      <header className={`go-hero${art ? ' has-art' : ''}`}>
-        {art ? (
-          <div className="go-hero_stage" aria-hidden="true">
-            <div className="go-hero_frame">
-              <img
-                className="go-hero_key"
-                src={`/${art.large}`}
-                srcSet={`/${art.small} 960w, /${art.large} 1920w`}
-                sizes="100vw"
-                alt=""
-                fetchPriority="high"
-              />
-            </div>
-          </div>
-        ) : (
-          <Backdrop thumbnail={featured.thumbnail} />
-        )}
-
-        <div className="go-hero_body">
-          <p className="go-hero_eyebrow">
-            <span className="go-hero_badge">Destacado</span>
-            {isShow ? 'Serie' : 'Película'}
-            {featured.studio && ` · ${featured.studio}`}
-          </p>
-          <h1 className="go-hero_title">{featured.title}</h1>
-
-          <p className="go-hero_meta">
-            {meta.map((item, index) => (
-              <span key={index}>
-                {index > 0 && <span className="go-hero_sep" aria-hidden="true" />}
-                {item}
-              </span>
-            ))}
-          </p>
-
-          <div className="go-hero_genres">
-            {[featured.genre, featured.genre_secondary].filter(Boolean).map((genre) => (
-              <span key={genre} className="go-chip">
-                {genre}
-              </span>
-            ))}
-          </div>
-
-          <div className="go-hero_actions">
-            {heroProgress && (
-              <HeroButton
-                id="hero:play"
-                col={0}
-                variant="primary"
-                onEnter={() => onResume(featured, heroProgress.row)}
-              >
-                <span className="go-hero_play" aria-hidden="true" />
-                {resuming ? 'Reanudar' : 'Reproducir'}
-                {position && <span className="go-hero_cta-note">{position}</span>}
-              </HeroButton>
-            )}
-            <HeroButton id="hero:select" col={1} variant="secondary" onEnter={() => onSelect(featured)}>
-              <span className="go-hero_info" aria-hidden="true" />
-              Más información
-            </HeroButton>
-          </div>
-
-          {resuming && (
-            <div className="go-hero_resume">
-              <ProgressBar fraction={playedFraction(resuming)} className="go-hero_progress" />
-              <span>{remainingLabel(resuming)}</span>
-            </div>
-          )}
-        </div>
-
-        {/* No key art: the thumbnail shown crisp, at close to its native
-            368x210, rather than upscaled into the blurred field behind it. */}
-        {!art && (
-          <figure className="go-hero_art">
-            <img src={imageSrc(featured.thumbnail)} alt="" />
-          </figure>
-        )}
-      </header>
+      {slides ? (
+        <HeroCarousel slides={slides} onPlay={onResume} onInfo={onSelect} />
+      ) : (
+        <header className="go-hero go-hero--carousel has-art" aria-hidden="true">
+          <div className="go-hero_stage is-active" />
+        </header>
+      )}
 
       <div className="go-rows">
         {strip.length > 0 && <CollectionStrip collections={strip} rowIndex={0} onSelect={onOpenCollection} />}

@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef } from 'react'
 import type { CatalogRow, Title } from '@go10/core/types'
 import { useCatalog } from './catalog/useCatalog'
+import { useHeroArt } from './catalog/useHeroArt'
 import { rowKey } from '@go10/core/catalog/rowKey'
 import { FocusProvider } from './focus/FocusProvider'
 import { Home } from './screens/Home'
@@ -22,6 +23,7 @@ import './styles/global.css'
 
 export default function App() {
   const { titles, loading, error } = useCatalog()
+  const heroArt = useHeroArt()
   const { route, navigate } = useRoute()
   // The Home or catalog page a title was opened from, so backing out of Detail
   // returns to that search or section rather than always to Home. Deep links
@@ -129,6 +131,7 @@ export default function App() {
           {resolved.name === 'home' ? (
             <Home
               titles={titles}
+              heroArt={heroArt}
               onSelect={openTitle}
               onResume={(title, row) => navigate({ name: 'play', key: title.key, videoId: rowKey(row) })}
               collections={COLLECTIONS}

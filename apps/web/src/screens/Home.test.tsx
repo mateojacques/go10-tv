@@ -26,7 +26,7 @@ const STALE = collection('stale', 'Stale', ['gone'])
 function renderHome(collections: Collection[], onOpenCollection = vi.fn()) {
   render(
     <FocusProvider onBack={() => {}}>
-      <Home titles={TITLES} onSelect={() => {}} onResume={() => {}} collections={collections} onOpenCollection={onOpenCollection} />
+      <Home titles={TITLES} heroArt={{}} onSelect={() => {}} onResume={() => {}} collections={collections} onOpenCollection={onOpenCollection} />
     </FocusProvider>,
   )
   return onOpenCollection

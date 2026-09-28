@@ -336,6 +336,136 @@
   margin-top: clamp(1.5rem, 4vh, 3rem);
 }
 
+/* ---- Carousel ------------------------------------------------------------ */
+
+/* Always the with-art height, whatever the slide, so the rows never jump. */
+.go-hero--carousel {
+  min-height: min(50vw, 80vh);
+}
+
+/* Every slide's stage stacked; only the active one shows, crossfading. */
+.go-hero--carousel .go-hero_stage {
+  opacity: 0;
+  transition: opacity var(--go-dur-slow) var(--go-ease);
+}
+
+.go-hero--carousel .go-hero_stage.is-active {
+  opacity: 1;
+}
+
+/* The thumbnail-as-art frame is for narrow screens only. */
+.go-hero_frame--thumb {
+  display: none;
+}
+
+/* All slide bodies share one grid cell: the hero is as tall as the tallest. */
+.go-hero_slides {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-column: 1 / -1;
+}
+
+.go-hero_slide {
+  grid-area: 1 / 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: var(--go-safe-x);
+  visibility: hidden;
+}
+
+.go-hero_slide.is-active {
+  visibility: visible;
+}
+
+/* Only the arriving slide replays the staggered reveal. */
+.go-hero_slide:not(.is-active) .go-hero_body > * {
+  animation: none;
+}
+
+.go-hero_arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 2;
+  width: 3rem;
+  height: 3rem;
+  margin-top: -1.5rem;
+  border: 1px solid rgba(242, 244, 240, 0.16);
+  border-radius: 999px;
+  background: rgba(8, 9, 12, 0.5);
+  color: var(--go-text);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity var(--go-dur) var(--go-ease);
+}
+
+.go-hero_arrow::before {
+  content: '‹';
+  font-size: 1.75rem;
+  line-height: 1;
+}
+
+.go-hero_arrow--next::before {
+  content: '›';
+}
+
+.go-hero_arrow--prev { left: 1rem; }
+.go-hero_arrow--next { right: 1rem; }
+
+@media (hover: hover) and (pointer: fine) {
+  .go-hero:hover .go-hero_arrow {
+    opacity: 1;
+  }
+}
+
+.go-hero_dots {
+  position: absolute;
+  z-index: 2;
+  right: var(--go-safe-x);
+  bottom: 1.25rem;
+  display: flex;
+  gap: 0.375rem;
+}
+
+.go-hero_dot {
+  position: relative;
+  width: 1.75rem;
+  height: 3px;
+  padding: 0;
+  border: 0;
+  border-radius: 2px;
+  overflow: hidden;
+  background: rgba(242, 244, 240, 0.25);
+  cursor: pointer;
+}
+
+.go-hero_dot.is-active::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: var(--go-accent);
+  transform-origin: left;
+  animation: go-dot-fill var(--go-slide-ms) linear both;
+}
+
+.go-hero_dot.is-paused::after {
+  animation-play-state: paused;
+}
+
+@keyframes go-dot-fill {
+  from { transform: scaleX(0); }
+  to { transform: none; }
+}
+
+/* No auto-advance with reduced motion, so no filling timer either. */
+@media (prefers-reduced-motion: reduce) {
+  .go-hero_dot.is-active::after {
+    animation: none;
+    transform: none;
+  }
+}
+
 /* A slow push-in as the art arrives, settling to rest. */
 @keyframes go-hero-settle {
   from {
@@ -400,5 +530,29 @@
 
   .go-hero.has-art + .go-rows {
     margin-top: 1.5rem;
+  }
+
+  .go-hero--carousel {
+    min-height: 0;
+  }
+
+  .go-hero_slide {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  /* No key art: the thumbnail fills the 16:9 frame — near its native 368px here. */
+  .go-hero--carousel .go-hero_frame--thumb {
+    display: block;
+  }
+
+  .go-hero--carousel:not(.has-art) {
+    --go-hero-h: 56.25vw;
+    --go-hero-top: calc(var(--go-nav-h) - 2.5rem);
+    padding-top: calc(var(--go-hero-top) + var(--go-hero-h) - 3rem);
+    padding-bottom: 3rem;
+  }
+
+  .go-hero_arrow {
+    display: none;
   }
 }
