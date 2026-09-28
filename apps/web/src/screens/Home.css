@@ -25,8 +25,11 @@
 }
 
 /* With full-resolution key art the hero goes cinematic: the art bleeds edge
- * to edge behind the whole hero, and a scrim darkens the side the text holds. */
-.go-hero.has-art {
+ * to edge behind the whole hero, and a scrim darkens the side the text holds.
+ * The carousel always takes this layout, art or not, so its slides never
+ * resize the hero or move the rows; there `has-art` only changes visuals. */
+.go-hero.has-art,
+.go-hero--carousel {
   /* Tall enough to keep the characters whole, capped so rows stay in reach. */
   --go-hero-h: min(50vw, 80vh);
   min-height: var(--go-hero-h);
@@ -81,7 +84,8 @@
   max-width: 44rem;
 }
 
-.go-hero.has-art .go-hero_body {
+.go-hero.has-art .go-hero_body,
+.go-hero--carousel .go-hero_body {
   max-width: min(36rem, 40vw);
 }
 
@@ -133,7 +137,8 @@
   text-wrap: balance;
 }
 
-.go-hero.has-art .go-hero_title {
+.go-hero.has-art .go-hero_title,
+.go-hero--carousel .go-hero_title {
   font-size: clamp(2.75rem, 4.4vw, 4.75rem);
   line-height: 0.96;
   /* Lifts the type off the spill without reading as a drop shadow. */
@@ -332,16 +337,12 @@
 }
 
 /* A clear breath between the hero and the first row. */
-.go-hero.has-art + .go-rows {
+.go-hero.has-art + .go-rows,
+.go-hero--carousel + .go-rows {
   margin-top: clamp(1.5rem, 4vh, 3rem);
 }
 
 /* ---- Carousel ------------------------------------------------------------ */
-
-/* Always the with-art height, whatever the slide, so the rows never jump. */
-.go-hero--carousel {
-  min-height: min(50vw, 80vh);
-}
 
 /* Every slide's stage stacked; only the active one shows, crossfading. */
 .go-hero--carousel .go-hero_stage {
@@ -500,7 +501,8 @@
   }
 
   /* Key art runs full width under the navbar; the text starts over its foot. */
-  .go-hero.has-art {
+  .go-hero.has-art,
+  .go-hero--carousel {
     --go-hero-h: 56.25vw;
     --go-hero-top: calc(var(--go-nav-h) - 2.5rem);
     min-height: 0;
@@ -524,16 +526,14 @@
       linear-gradient(0deg, var(--go-bg) 0%, rgba(8, 9, 12, 0.6) 22%, rgba(8, 9, 12, 0) 50%);
   }
 
-  .go-hero.has-art .go-hero_body {
+  .go-hero.has-art .go-hero_body,
+  .go-hero--carousel .go-hero_body {
     max-width: none;
   }
 
-  .go-hero.has-art + .go-rows {
+  .go-hero.has-art + .go-rows,
+  .go-hero--carousel + .go-rows {
     margin-top: 1.5rem;
-  }
-
-  .go-hero--carousel {
-    min-height: 0;
   }
 
   .go-hero_slide {
@@ -543,13 +543,6 @@
   /* No key art: the thumbnail fills the 16:9 frame — near its native 368px here. */
   .go-hero--carousel .go-hero_frame--thumb {
     display: block;
-  }
-
-  .go-hero--carousel:not(.has-art) {
-    --go-hero-h: 56.25vw;
-    --go-hero-top: calc(var(--go-nav-h) - 2.5rem);
-    padding-top: calc(var(--go-hero-top) + var(--go-hero-h) - 3rem);
-    padding-bottom: 3rem;
   }
 
   .go-hero_arrow {
