@@ -6,7 +6,10 @@ let request: Promise<HeroArtIndex> | null = null
 let settled: HeroArtIndex | null = null
 
 function load(): Promise<HeroArtIndex> {
-  request ??= fetch('/data/hero_art.json')
+  // BASE_URL-relative, not an absolute "/..." path: the Tizen prod build
+  // serves from a file:// origin, where an absolute path resolves to the
+  // filesystem root instead of the app's own directory.
+  request ??= fetch(`${import.meta.env.BASE_URL}data/hero_art.json`)
     .then((response) => (response.ok ? response.text() : ''))
     .then((text) => parseHeroArt(text) ?? {})
     .catch(() => ({}))

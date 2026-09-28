@@ -23,7 +23,10 @@ export function useCatalog(): CatalogState {
 
     let cancelled = false
 
-    fetch('/data/catalog.csv')
+    // BASE_URL-relative, not an absolute "/..." path: the Tizen prod build
+    // serves from a file:// origin, where an absolute path resolves to the
+    // filesystem root instead of the app's own directory.
+    fetch(`${import.meta.env.BASE_URL}data/catalog.csv`)
       .then((response) => {
         if (!response.ok) throw new Error(`catalog.csv: ${response.status}`)
         return response.text()
