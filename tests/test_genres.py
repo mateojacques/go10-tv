@@ -1,7 +1,7 @@
 import csv, os, sys
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "scripts"))
 
-from parse_catalog import extract_cards
+from parse_catalog import UPDATE_SOURCES, extract_cards, extract_feed_cards, take_new_cards
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
 GENRES = os.path.join(ROOT, "data", "genres.csv")
@@ -20,14 +20,18 @@ def load_genres():
 
 def corpus_ids():
     html_text = open(os.path.join(ROOT, "catalogo-solo-videos.html"), encoding="utf-8").read()
-    return {c["video_id"] for c in extract_cards(html_text)}
+    ids = {c["video_id"] for c in extract_cards(html_text)}
+    for slug in reversed(UPDATE_SOURCES):
+        update_html = open(os.path.join(ROOT, f"{slug}.html"), encoding="utf-8").read()
+        ids.update(c["video_id"] for c in take_new_cards(extract_feed_cards(update_html), ids))
+    return ids
 
 
 def test_every_video_has_exactly_one_genre_row():
     rows = load_genres()
     ids = [r["video_id"] for r in rows]
-    assert len(rows) == 907
-    assert len(set(ids)) == 907, "duplicate video_id in genres.csv"
+    assert len(rows) == 920
+    assert len(set(ids)) == 920, "duplicate video_id in genres.csv"
     assert set(ids) == corpus_ids()
 
 

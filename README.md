@@ -27,6 +27,14 @@ python3 scripts/parse_catalog.py
 python3 scripts/build_aniyomi_feed.py   # Aniyomi extension feed → apps/web/public/data/aniyomi/
 ```
 
+Newer uploads come from later saves of the profile's feed, listed newest
+first in `UPDATE_SOURCES` in `parse_catalog.py` (e.g.
+`catalogo-actualizacion-28-09.html`). Only the posts above the first video
+the catalog already has are ingested, ahead of the base scrape so they lead
+Recién añadidos; their thumbnails are copied into `assets/<slug>/`, so the
+`<slug>_files/` dump can be deleted afterwards. Each new video still needs
+its `data/genres.csv` row, and each season pack its `data/chapters/` entry.
+
 `build_aniyomi_feed.py` writes the static JSON feed the Go10 TV Aniyomi
 extension reads (`/data/aniyomi/index.json` plus `series/<series_id>.json`).
 **Never rename a `series_id` or re-upload a video under a new ok.ru id** for

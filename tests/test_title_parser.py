@@ -127,3 +127,11 @@ def test_parse_episode_title_extracts_season_and_episode_from_sxee_format():
     assert parse_episode_title(
         "068 - Yu-Gi-Oh! GX 2x16 (Duelo de Bienvenida, Parte 2) LAS dub"
     ) == (2, 16)
+
+
+def test_live_action_tag_stays_in_the_title():
+    live = parse_title("El libro de la selva (Live Action) [4K] [Español]")
+    animated = parse_title("El libro de la selva (Disney) [4K] [Español]")
+    assert live["title"] == "El libro de la selva (Live Action)"
+    assert live["studio"] == ""
+    assert animated["title"] == "El libro de la selva"

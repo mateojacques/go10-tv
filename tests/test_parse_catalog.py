@@ -357,3 +357,53 @@ def test_build_episode_rows_skips_titles_that_dont_match(tmp_path, capsys):
     )
     assert len(rows) == 48
     assert "skip" in capsys.readouterr().out.lower()
+
+
+UPDATE_HTML = os.path.join(ROOT, "catalogo-actualizacion-28-09.html")
+
+
+def test_extract_feed_cards_reads_every_post_once():
+    cards = parse_catalog.extract_feed_cards(open(UPDATE_HTML, encoding="utf-8").read())
+    # 24 posts, two of them re-posts of a video already above them.
+    assert len(cards) == 22
+    simpsons = next(c for c in cards if c["video_id"] == "15704565615342")
+    assert simpsons == {
+        "video_id": "15704565615342",
+        "title_raw": "Los Simpsons - Temporada 4 (20th Television) [1080p] [Español]",
+        "duration_raw": "8:26:06",
+        "views_raw": "982&nbsp;views",
+        "thumbnail": "catalogo-actualizacion-28-09_files/i_070_mSIU.webp",
+        "thumbnail_url": "",
+    }
+
+
+def test_take_new_cards_stops_at_the_first_known_video():
+    cards = [{"video_id": v} for v in ["3", "2", "1", "0"]]
+    assert parse_catalog.take_new_cards(cards, {"1", "0"}) == [{"video_id": "3"}, {"video_id": "2"}]
+
+
+def test_update_save_adds_only_the_posts_above_the_base_catalog():
+    base = extract_cards(open(os.path.join(ROOT, "catalogo-solo-videos.html"), encoding="utf-8").read())
+    feed = parse_catalog.extract_feed_cards(open(UPDATE_HTML, encoding="utf-8").read())
+    new = parse_catalog.take_new_cards(feed, {c["video_id"] for c in base})
+    assert len(new) == 13
+    assert new[-1]["title_raw"].startswith("Los Simpsons - Temporada 4")
+
+
+def test_merge_update_sources_puts_new_cards_first_with_copied_thumbnails(tmp_path):
+    (tmp_path / "upd_files").mkdir()
+    (tmp_path / "upd_files" / "a.webp").write_bytes(b"img")
+    card = ('<div data-module="OKVideo" data-movie-id="{id}"></div>'
+            '<img src="upd_files/a.webp" alt="{title}" class="vid-card_img">'
+            '<div class="vid-card_duration">1:00</div>'
+            '<span class="video-card_info_i">5&nbsp;views</span>')
+    (tmp_path / "upd.html").write_text(
+        card.format(id="2", title="New") + card.format(id="1", title="Old"), encoding="utf-8")
+    base = [{"video_id": "1", "thumbnail": "catalogo_files/x.webp"}]
+
+    cards = parse_catalog.merge_update_sources(base, ["upd"], root=str(tmp_path),
+                                               assets_dir=str(tmp_path / "assets"))
+
+    assert [c["video_id"] for c in cards] == ["2", "1"]
+    assert cards[0]["thumbnail"] == "assets/upd/a.webp"
+    assert (tmp_path / "assets" / "upd" / "a.webp").read_bytes() == b"img"

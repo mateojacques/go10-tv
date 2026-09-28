@@ -21,6 +21,12 @@ SERIES_DIR = os.path.join(ROOT, "data", "series")
 ASSETS_DIR = os.path.join(ROOT, "assets")
 CHAPTERS_DIR = os.path.join(ROOT, "data", "chapters")
 RECLASSIFY_CSV = os.path.join(ROOT, "data", "reclassify.csv")
+# Later saves of the same ok.ru profile, newest first, each `<slug>.html`
+# with its `<slug>_files/` dump beside it. Only the cards above the first
+# video the catalog already has are ingested -- see take_new_cards.
+UPDATE_SOURCES = [
+    "catalogo-actualizacion-28-09",
+]
 
 COLUMNS = [
     "catalog_index", "video_id", "type", "title", "title_raw",
@@ -44,6 +50,15 @@ THUMB_RE = re.compile(r'<img[^>]*src="([\w.-]+_files/[^"]+)"')
 # local `_files/` copy of its thumbnail exists -- the <img> still points at
 # ok.ru's live CDN, which build_episode_rows downloads directly instead.
 THUMB_URL_RE = re.compile(r'<img[^>]*src="(https://[^"]*videoPreview[^"]*)"')
+
+# A profile *feed* save (the "Video added" posts) marks each card up
+# differently from the videos tab: one OKVideo module per post, the title
+# in the player image's alt, and the same video posted twice shows up as
+# two cards.
+FEED_CARD_RE = re.compile(r'<div data-module="OKVideo"(.*?)(?=<div data-module="OKVideo"|\Z)', re.S)
+FEED_ID_RE = re.compile(r'data-movie-id="(\d+)"')
+FEED_IMG_RE = re.compile(r'<img src="([^"]+)" alt="([^"]*)"[^>]*class="vid-card_img"')
+FEED_DURATION_RE = re.compile(r'class="vid-card_duration">([^<]*)<')
 
 
 def parse_duration(text):
@@ -90,9 +105,81 @@ def extract_cards(html_text):
     return cards
 
 
+def extract_feed_cards(html_text):
+    """Cards from a profile feed save, in feed order, each video once."""
+    cards = []
+    seen = set()
+    for segment in FEED_CARD_RE.findall(html_text):
+        video_id = _search(FEED_ID_RE, segment)
+        image = FEED_IMG_RE.search(segment)
+        if not video_id or not image or video_id in seen:
+            continue
+        seen.add(video_id)
+        cards.append({
+            "video_id": video_id,
+            "title_raw": html.unescape(image.group(2)),
+            "duration_raw": _search(FEED_DURATION_RE, segment).strip(),
+            "views_raw": _search(VIEWS_RE, segment),
+            "thumbnail": image.group(1),
+            "thumbnail_url": "",
+        })
+    return cards
+
+
+def take_new_cards(cards, known_ids):
+    """The leading run of `cards` before the first video already in the
+    catalog: a newer save of the profile repeats everything ingested so
+    far below its new uploads, so that first known video marks the cut.
+    """
+    new = []
+    for card in cards:
+        if card["video_id"] in known_ids:
+            break
+        new.append(card)
+    return new
+
+
+def copy_update_thumbnails(cards, slug, root=ROOT, assets_dir=None):
+    """Point each card's thumbnail at `assets/<slug>/`, copying it there
+    from the `<slug>_files/` dump unless it's already been copied -- so a
+    rerun works after the dump is deleted.
+    """
+    assets_dir = assets_dir or ASSETS_DIR
+    dest_dir = os.path.join(assets_dir, slug)
+    os.makedirs(dest_dir, exist_ok=True)
+    result = []
+    for card in cards:
+        filename = os.path.basename(card["thumbnail"])
+        source_thumb = os.path.join(root, card["thumbnail"])
+        dest_thumb = os.path.join(dest_dir, filename)
+        if os.path.exists(source_thumb) and not os.path.exists(dest_thumb):
+            shutil.copy2(source_thumb, dest_thumb)
+        result.append({**card, "thumbnail": f"assets/{slug}/{filename}"})
+    return result
+
+
+def merge_update_sources(cards, slugs, root=ROOT, assets_dir=None):
+    """Put each update save's new cards ahead of `cards` (newest save
+    first in `slugs`), so new uploads lead the catalog order the way they
+    lead the profile.
+    """
+    known_ids = {card["video_id"] for card in cards}
+    for slug in reversed(slugs):
+        html_text = open(os.path.join(root, f"{slug}.html"), encoding="utf-8").read()
+        new = take_new_cards(extract_feed_cards(html_text), known_ids)
+        print(f"{slug}: {len(new)} new videos")
+        cards = copy_update_thumbnails(new, slug, root, assets_dir) + cards
+        known_ids.update(card["video_id"] for card in new)
+    return cards
+
+
 def build_rows(html_text, genres):
+    return build_rows_from_cards(extract_cards(html_text), genres)
+
+
+def build_rows_from_cards(cards, genres):
     rows = []
-    for index, card in enumerate(extract_cards(html_text)):
+    for index, card in enumerate(cards):
         parsed = parse_title(card["title_raw"])
         genre = genres.get(card["video_id"], {})
         rows.append({
@@ -350,7 +437,8 @@ def report_coverage(rows):
 
 def main():
     html_text = open(SOURCE_HTML, encoding="utf-8").read()
-    rows = build_rows(html_text, load_genres(GENRES_CSV))
+    cards = merge_update_sources(extract_cards(html_text), UPDATE_SOURCES)
+    rows = build_rows_from_cards(cards, load_genres(GENRES_CSV))
     rows = apply_reclassifications(rows, load_reclassifications(RECLASSIFY_CSV))
     rows = explode_chapters(rows, load_chapters(CHAPTERS_DIR))
 

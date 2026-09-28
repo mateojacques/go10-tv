@@ -26,6 +26,9 @@ STUDIOS = {
     "20th television": "20th Television", "dreamworks": "DreamWorks",
     "lucasfilm": "Lucasfilm", "comedy c.": "Comedy C.", "tim b.": "Tim B.",
 }
+# Parenthesised tags that tell apart two titles otherwise named the same
+# ("El libro de la selva (Disney)" vs "(Live Action)"), kept in the title.
+KEPT_PARENS = {"live action": "Live Action"}
 
 # Requiring the literal word "Temporada" is what stops movie titles containing
 # colons (e.g. "Batman: Knightfall Part 1: Knightfall") being read as seasons.
@@ -99,15 +102,19 @@ def parse_title(raw):
 
     rest = BRACKET.sub("", raw)
 
+    kept = []
     for token in PAREN.findall(rest):
         key = token.strip()
         if re.fullmatch(r"(19|20)\d\d", key):
             result["year"] = key
         elif key.lower() in STUDIOS:
             result["studio"] = result["studio"] or STUDIOS[key.lower()]
+        elif key.lower() in KEPT_PARENS:
+            kept.append(f"({KEPT_PARENS[key.lower()]})")
 
     rest = PAREN.sub("", rest)
     rest = re.sub(r"\s+", " ", rest).strip(" -–—")
+    rest = " ".join([rest, *kept])
 
     season = parse_seasons(rest)
     if season:
