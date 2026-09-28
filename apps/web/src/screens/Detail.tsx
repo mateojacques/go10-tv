@@ -23,6 +23,7 @@ function FocusButton({
   className,
   ariaLabel,
   ariaPressed,
+  claimsInitialFocus,
   children,
 }: {
   id: string
@@ -32,9 +33,11 @@ function FocusButton({
   className: string
   ariaLabel?: string
   ariaPressed?: boolean
+  /** See `FocusItem.claimsInitialFocus`. */
+  claimsInitialFocus?: boolean
   children: ReactNode
 }) {
-  const { ref, focused, activate, tabIndex } = useFocusable(id, row, col, onEnter)
+  const { ref, focused, activate, tabIndex } = useFocusable(id, row, col, onEnter, { claimsInitialFocus })
   return (
     <div
       ref={ref}
@@ -51,6 +54,8 @@ function FocusButton({
   )
 }
 
+/** Above Play, so Up from it reaches the corner where Back sits on screen. */
+const BACK_ROW = -1
 const SEASON_ROW = 1
 /** Episode tiles take every focus row from here down, one per grid line. */
 const FIRST_EPISODE_ROW = 2
@@ -132,9 +137,10 @@ export function Detail({
   title: Title
   onPlay: (row: CatalogRow) => void
   /**
-   * A remote/keyboard user backs out with Escape/Backspace (handled in
-   * FocusProvider); a phone has no such key, so touch needs a visible,
-   * tappable way back too.
+   * A remote/keyboard user can also back out with Escape/Backspace (handled
+   * in FocusProvider); the on-screen button below is what a phone taps, and
+   * what a remote reaches by steering to it, in case that key doesn't reach
+   * the app (e.g. an unregistered Tizen physical Back button).
    */
   onBack: () => void
   /**
@@ -189,9 +195,17 @@ export function Detail({
     <div className={`go-detail${artLayout ? ' has-art' : ''}`}>
       {!artLayout && <Backdrop thumbnail={title.thumbnail} />}
 
-      <button type="button" className="go-back" onClick={onBack} aria-label="Volver">
+      <FocusButton
+        id="detail:back"
+        row={BACK_ROW}
+        col={0}
+        onEnter={onBack}
+        claimsInitialFocus={false}
+        className="go-back"
+        ariaLabel="Volver"
+      >
         <span className="go-back_chevron" aria-hidden="true" />
-      </button>
+      </FocusButton>
 
       <div className="go-detail_body">
         {artLayout && (

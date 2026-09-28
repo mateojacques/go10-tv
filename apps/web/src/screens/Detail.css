@@ -9,7 +9,6 @@
   display: none;
 }
 
-/* Touch-only affordance: remote/keyboard already has Escape/Backspace. */
 .go-back {
   position: fixed;
   top: var(--go-safe-y);
@@ -27,6 +26,13 @@
 
 .go-back:active {
   transform: scale(0.92);
+}
+
+.go-back.is-focused {
+  background: var(--go-accent);
+  color: var(--go-bg);
+  transform: scale(1.08);
+  box-shadow: var(--go-focus-ring), var(--go-focus-lift);
 }
 
 @media (hover: hover) and (pointer: fine) {

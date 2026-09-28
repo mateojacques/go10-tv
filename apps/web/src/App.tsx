@@ -4,6 +4,7 @@ import { useCatalog } from './catalog/useCatalog'
 import { useHeroArt } from './catalog/useHeroArt'
 import { rowKey } from '@go10/core/catalog/rowKey'
 import { FocusProvider } from './focus/FocusProvider'
+import { useFocusable } from './focus/useFocusable'
 import { Home } from './screens/Home'
 import { Catalog } from './screens/Catalog'
 import { Navbar } from './components/Navbar'
@@ -21,6 +22,23 @@ import { useTmdbTitle } from './external/useTmdbTitle'
 import { saveSnapshot } from '@go10/core/external/snapshots'
 import { exitAppIfTizen } from './platformTizen'
 import './styles/global.css'
+
+/** The TMDB error state's only control, reachable by remote as well as touch. */
+function ErrorBackButton({ onBack }: { onBack: () => void }) {
+  const { ref, focused, activate } = useFocusable('external-error:back', 0, 0, onBack)
+  return (
+    <div
+      ref={ref}
+      tabIndex={-1}
+      role="button"
+      aria-label="Volver"
+      className={`go-back${focused ? ' is-focused' : ''}`}
+      onClick={activate}
+    >
+      <span className="go-back_chevron" aria-hidden="true" />
+    </div>
+  )
+}
 
 export default function App() {
   const { titles, loading, error } = useCatalog()
@@ -98,9 +116,7 @@ export default function App() {
     return (
       <FocusProvider key="external-error" onBack={back}>
         <div className="go-state">
-          <button type="button" className="go-back" onClick={back} aria-label="Volver">
-            <span className="go-back_chevron" aria-hidden="true" />
-          </button>
+          <ErrorBackButton onBack={back} />
           <span className="go-state_mark">GO10 TV</span>
           <p className="go-state_msg">No se pudo cargar el título.</p>
         </div>
