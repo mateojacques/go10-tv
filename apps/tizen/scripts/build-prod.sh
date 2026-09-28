@@ -4,9 +4,14 @@ set -euo pipefail
 # Builds apps/web for production, stages the output into
 # apps/tizen/prod/ (alongside its config.xml and icon.png), packages it as a
 # Tizen wgt, and installs it to the connected TV -- for periodic full-
-# fidelity, fully local/offline checks. Requires Tizen Studio's CLI tools
-# (tizen, sdb) on PATH, the "go10-tizen" security profile created (Task 7),
-# and the TV already `sdb connect`-ed (Task 7).
+# fidelity, fully local/offline checks. Tizen Studio is deprecated; this
+# uses the Tizen VS Code extension's bundled CLI tools instead. Requires
+# the "go10-tizen" security profile created (Task 7), and the TV already
+# `sdb connect`-ed (Task 7).
+
+TZ_TOOLS="$HOME/.tizen-extension-platform/server/sdktools/data/tools"
+TZ="$TZ_TOOLS/tizen-core/tz"
+SDB="$TZ_TOOLS/sdb"
 
 cd "$(dirname "$0")/../../.."
 
@@ -20,10 +25,10 @@ npx vite build --base ./
 cd ../..
 
 cd apps/tizen/prod
-rm -rf index.html assets data .buildResult
+rm -rf index.html assets data Debug tizen_web_project.yaml
 cp -r ../../web/dist/. .
 
-tizen build-web -- . -out .buildResult
-tizen package -t wgt -s go10-tizen -- .buildResult
-WGT=$(ls .buildResult/*.wgt | head -n1)
-tizen install -n "$WGT"
+"$TZ" build -w . -s go10-tizen
+"$TZ" pack -w . -s go10-tizen
+WGT=$(ls Debug/*.wgt | head -n1)
+"$SDB" install "$WGT"
