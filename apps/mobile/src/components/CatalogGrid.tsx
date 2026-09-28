@@ -1,7 +1,8 @@
 import type { ReactElement } from 'react'
-import { FlatList, Platform, StyleSheet, useWindowDimensions } from 'react-native'
+import { FlatList, Platform, StyleSheet, View, useWindowDimensions } from 'react-native'
 import type { Title } from '@go10/core/types'
 import { catalogGrid } from '../catalog/gridLayout'
+import { useListFill } from '../platform/listFill'
 import { theme } from '../theme'
 import { Card } from './Card'
 
@@ -22,11 +23,13 @@ export function CatalogGrid({ titles, imageBase, onSelect, header, empty, footer
 }) {
   const { width } = useWindowDimensions()
   const { columns, card } = catalogGrid(width - theme.space.safeX * 2, theme.card.width, theme.space.gap, !Platform.isTV)
+  const fill = useListFill()
   return (
+    <View style={styles.root} onLayout={fill.onLayout}>
     <FlatList
       // numColumns can't change on a mounted FlatList.
       key={columns}
-      style={styles.root}
+      style={fill.style}
       data={titles}
       numColumns={columns}
       keyExtractor={(title) => title.key}
@@ -44,6 +47,7 @@ export function CatalogGrid({ titles, imageBase, onSelect, header, empty, footer
         <Card title={item} imageBase={imageBase} onSelect={onSelect} width={card} preferred={preferFirst && index === 0} />
       )}
     />
+    </View>
   )
 }
 

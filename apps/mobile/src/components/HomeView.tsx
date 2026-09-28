@@ -9,6 +9,7 @@ import type { Progress } from '@go10/core/progress/progressStore'
 import { continueWatching, titleProgress } from '@go10/core/progress/titleProgress'
 import type { CatalogRow, Title } from '@go10/core/types'
 import type { HomeModel } from '../home/homeModel'
+import { useListFill } from '../platform/listFill'
 import { theme } from '../theme'
 import { CollectionStrip } from './CollectionStrip'
 import { Hero } from './Hero'
@@ -55,10 +56,11 @@ export function HomeView({ model, progress, imageBase, onSelectTitle, onPlayTitl
   const continueGroup: CatalogRowGroup = { id: 'seguir-viendo', label: 'Seguir viendo', titles: continueItems.map((item) => item.title) }
   const sections = homeSections(model, continueItems.length)
   const heroProgress = useMemo(() => titleProgress(model.featured, progress), [model.featured, progress])
+  const fill = useListFill()
   return (
-    <View style={styles.root}>
+    <View style={styles.root} onLayout={fill.onLayout}>
     <FlatList
-      style={styles.list}
+      style={fill.style}
       data={sections}
       keyExtractor={(s) => (s.kind === 'row' ? model.rows[s.index].id : s.kind)}
       initialNumToRender={4}
@@ -103,5 +105,4 @@ export function HomeView({ model, progress, imageBase, onSelectTitle, onPlayTitl
 
 const styles = StyleSheet.create({
   root: { flex: 1, backgroundColor: theme.color.bg },
-  list: { flex: 1 },
 })
