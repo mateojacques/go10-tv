@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets"
+        xmlns:tizen="http://tizen.org/ns/widgets"
+        id="http://go10.tv/GO10TVDev"
+        version="1.0.0"
+        viewmodes="maximized">
+    <!-- PKGID12345 is a placeholder: replace both occurrences (id and
+         package) with the 10-character package id Tizen Studio assigns you
+         in Task 7. -->
+    <tizen:application id="PKGID12345.GO10TVDev" package="PKGID12345" required_version="5.5"/>
+    <name>GO10 TV (Dev)</name>
+    <icon src="icon.png"/>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:privilege name="http://tizen.org/privilege/tv.inputdevice"/>
+    <tizen:setting screen-orientation="landscape" context-menu="disable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
+    <tizen:profile name="tv-samsung"/>
+</widget>

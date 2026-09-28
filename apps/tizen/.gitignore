@@ -1,0 +1,5 @@
+dev/.buildResult/
+prod/.buildResult/
+prod/index.html
+prod/assets/
+prod/data/
