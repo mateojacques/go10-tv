@@ -14,6 +14,13 @@
     <feature name="http://tizen.org/feature/screen.size.all"/>
     <tizen:privilege name="http://tizen.org/privilege/internet"/>
     <tizen:privilege name="http://tizen.org/privilege/tv.inputdevice"/>
+    <!-- Without these, Tizen's WARP security model blocks fetch/XHR to
+         external origins (catalog data, TMDB, ok.ru/vidlove, Google Fonts)
+         and blocks the top-level navigation to the LAN dev server below. A
+         wildcard is fine for a sideload-only app that never goes through
+         store review. -->
+    <access origin="*" subdomains="true"/>
+    <tizen:allow-navigation>*</tizen:allow-navigation>
     <tizen:setting screen-orientation="landscape" context-menu="disable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
     <tizen:profile name="tv-samsung"/>
 </widget>
