@@ -19,6 +19,12 @@ function collectionsIndex(): Plugin {
 
 export default defineConfig({
   plugins: [react(), collectionsIndex()],
+  // Chromium 69 (Tizen 5.5, this project's TV target) can't parse optional
+  // chaining or nullish coalescing at all -- an un-pinned build ships a
+  // blank screen on it, not just rough edges.
+  build: {
+    target: 'chrome69',
+  },
   // .env.local (the external-titles switch and TMDB token) lives at the repo root.
   envDir: fileURLToPath(new URL('../..', import.meta.url)),
   test: {
