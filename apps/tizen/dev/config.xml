@@ -4,25 +4,25 @@
         id="http://go10.tv/GO10TVDev"
         version="1.0.0"
         viewmodes="maximized">
-    <!-- PKGID12345 is a placeholder, already a valid 10-character
-         alphanumeric string, and packaged successfully as-is in testing.
-         Only replace both occurrences (id and package) if `sdb install`
-         rejects it on real hardware (Task 7/8), with any other 10-character
-         alphanumeric string. -->
-    <tizen:application id="PKGID12345.GO10TVDev" package="PKGID12345" required_version="5.5"/>
+    <tizen:application id="Go10TVdev1.GO10TVDev" package="Go10TVdev1" required_version="5.5"/>
     <name>GO10 TV (Dev)</name>
     <icon src="icon.png"/>
     <content src="index.html"/>
     <feature name="http://tizen.org/feature/screen.size.all"/>
     <tizen:privilege name="http://tizen.org/privilege/internet"/>
     <tizen:privilege name="http://tizen.org/privilege/tv.inputdevice"/>
-    <!-- Without these, Tizen's WARP security model blocks fetch/XHR to
+    <!-- Without this, Tizen's WARP security model blocks fetch/XHR to
          external origins (catalog data, TMDB, ok.ru/vidlove, Google Fonts)
-         and blocks the top-level navigation to the LAN dev server below. A
-         wildcard is fine for a sideload-only app that never goes through
-         store review. -->
+         and blocks the top-level navigation to the LAN dev server below,
+         verified on real hardware to cover both, no allow-navigation
+         needed. A wildcard is fine for a sideload-only app that never goes
+         through store review.
+
+         allow-navigation was tried and breaks the app on this real TV
+         (Tizen 5.5): it launches (a process starts) but nothing ever
+         renders, with or without a wildcard value. Do not re-add it without
+         testing on real hardware again. -->
     <access origin="*" subdomains="true"/>
-    <tizen:allow-navigation>*</tizen:allow-navigation>
     <tizen:setting screen-orientation="landscape" context-menu="disable" background-support="disable" encryption="disable" install-location="auto" hwkey-event="enable"/>
     <tizen:profile name="tv-samsung"/>
 </widget>
