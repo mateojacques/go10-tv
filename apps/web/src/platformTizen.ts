@@ -18,12 +18,23 @@ const TIZEN_BACK_KEYCODE = 10009
  */
 export function installTizenPlatform(): void {
   if (typeof tizen === 'undefined') return
-  tizen.tvinputdevice.registerKey('Back')
+
+  // Listen before registering: some Tizen versions/privilege configurations
+  // reject registerKey with a WebAPIException, but the key can still arrive
+  // if the platform delivers it anyway, and either way startup must not
+  // blank-screen over a rejected registration.
   window.addEventListener('keydown', (event) => {
     if (event.keyCode === TIZEN_BACK_KEYCODE) {
+      event.preventDefault()
       window.dispatchEvent(new KeyboardEvent('keydown', { key: 'Escape', bubbles: true }))
     }
   })
+
+  try {
+    tizen.tvinputdevice.registerKey('Back')
+  } catch {
+    // Not fatal -- see the comment above.
+  }
 }
 
 /**

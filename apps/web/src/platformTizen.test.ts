@@ -31,6 +31,40 @@ describe('installTizenPlatform', () => {
 
     expect(onEscape).toHaveBeenCalled()
   })
+
+  it('prevents the default on the original Back keydown', () => {
+    vi.stubGlobal('tizen', { tvinputdevice: { registerKey: vi.fn() } })
+    installTizenPlatform()
+
+    const backEvent = new KeyboardEvent('keydown', { cancelable: true })
+    Object.defineProperty(backEvent, 'keyCode', { value: 10009 })
+    window.dispatchEvent(backEvent)
+
+    expect(backEvent.defaultPrevented).toBe(true)
+  })
+
+  it('still forwards the Back key even if registerKey itself throws', () => {
+    // Some Tizen versions/privilege configurations reject registerKey with a
+    // WebAPIException; the app must not blank-screen at startup over it, and
+    // the key should still be forwarded if the platform delivers it anyway.
+    const registerKey = vi.fn(() => {
+      throw new Error('WebAPIException: NotSupportedError')
+    })
+    vi.stubGlobal('tizen', { tvinputdevice: { registerKey } })
+
+    expect(() => installTizenPlatform()).not.toThrow()
+
+    const onEscape = vi.fn()
+    window.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') onEscape()
+    })
+
+    const backEvent = new KeyboardEvent('keydown', {})
+    Object.defineProperty(backEvent, 'keyCode', { value: 10009 })
+    window.dispatchEvent(backEvent)
+
+    expect(onEscape).toHaveBeenCalled()
+  })
 })
 
 describe('exitAppIfTizen', () => {
