@@ -3,6 +3,7 @@ import { render, screen, fireEvent } from '@testing-library/react'
 import { Detail } from './Detail'
 import { FocusProvider } from '../focus/FocusProvider'
 import type { CatalogRow, Title } from '@go10/core/types'
+import type { HeroArtIndex } from '@go10/core/hero/art'
 
 function row(overrides: Partial<CatalogRow>): CatalogRow {
   return {
@@ -35,14 +36,14 @@ describe('Detail', () => {
     const onPlay = vi.fn()
     const { rerender } = render(
       <FocusProvider onBack={() => {}}>
-        <Detail title={title} onPlay={onPlay} onBack={() => {}} />
+        <Detail heroArt={{}} title={title} onPlay={onPlay} onBack={() => {}} />
       </FocusProvider>,
     )
 
     // Autoplay (not a click) has advanced playback to season 2, episode 1.
     rerender(
       <FocusProvider onBack={() => {}}>
-        <Detail title={title} onPlay={onPlay} onBack={() => {}} playingRow={season2Ep1} />
+        <Detail heroArt={{}} title={title} onPlay={onPlay} onBack={() => {}} playingRow={season2Ep1} />
       </FocusProvider>,
     )
 
@@ -62,7 +63,7 @@ describe('Detail with chaptered episodes', () => {
 
     render(
       <FocusProvider onBack={() => {}}>
-        <Detail title={title} onPlay={() => {}} onBack={() => {}} />
+        <Detail heroArt={{}} title={title} onPlay={() => {}} onBack={() => {}} />
       </FocusProvider>,
     )
 
@@ -80,7 +81,7 @@ describe('Detail play button', () => {
 
     render(
       <FocusProvider onBack={() => {}}>
-        <Detail title={makeTitle([ep1, ep2])} onPlay={() => {}} onBack={() => {}} />
+        <Detail heroArt={{}} title={makeTitle([ep1, ep2])} onPlay={() => {}} onBack={() => {}} />
       </FocusProvider>,
     )
 
@@ -99,7 +100,7 @@ describe('Detail episode grid', () => {
   it('switches seasons from the tab row', () => {
     render(
       <FocusProvider onBack={() => {}}>
-        <Detail title={makeTitle([...season(1, 3), ...season(2, 12)])} onPlay={() => {}} onBack={() => {}} />
+        <Detail heroArt={{}} title={makeTitle([...season(1, 3), ...season(2, 12)])} onPlay={() => {}} onBack={() => {}} />
       </FocusProvider>,
     )
     expect(screen.getAllByRole('button', { name: /^Episodio \d+/ })).toHaveLength(3)
@@ -111,7 +112,7 @@ describe('Detail episode grid', () => {
   it('has no tab row for a single season', () => {
     render(
       <FocusProvider onBack={() => {}}>
-        <Detail title={makeTitle(season(1, 8))} onPlay={() => {}} onBack={() => {}} />
+        <Detail heroArt={{}} title={makeTitle(season(1, 8))} onPlay={() => {}} onBack={() => {}} />
       </FocusProvider>,
     )
     expect(document.querySelector('.go-seasontabs')).toBeNull()
@@ -121,7 +122,7 @@ describe('Detail episode grid', () => {
     // jsdom can't measure the grid, so it falls back to five columns.
     render(
       <FocusProvider onBack={() => {}}>
-        <Detail title={makeTitle(season(1, 12))} onPlay={() => {}} onBack={() => {}} />
+        <Detail heroArt={{}} title={makeTitle(season(1, 12))} onPlay={() => {}} onBack={() => {}} />
       </FocusProvider>,
     )
     const press = (key: string) => fireEvent.keyDown(window, { key })
@@ -138,10 +139,41 @@ describe('Detail episode grid', () => {
     const rows = season(1, 6)
     render(
       <FocusProvider onBack={() => {}}>
-        <Detail title={makeTitle(rows)} onPlay={onPlay} onBack={() => {}} />
+        <Detail heroArt={{}} title={makeTitle(rows)} onPlay={onPlay} onBack={() => {}} />
       </FocusProvider>,
     )
     fireEvent.click(screen.getByRole('button', { name: /^Episodio 4\b/ }))
     expect(onPlay).toHaveBeenCalledWith(rows[3])
+  })
+})
+
+describe('Detail key art', () => {
+  const title = { ...makeTitle([row({})]), thumbnail: 'thumb.jpg' }
+  const renderWith = (heroArt: HeroArtIndex | null) =>
+    render(
+      <FocusProvider onBack={() => {}}>
+        <Detail heroArt={heroArt} title={title} onPlay={() => {}} onBack={() => {}} />
+      </FocusProvider>,
+    )
+
+  it('shows the hero art full bleed instead of the thumbnail when the title has some', () => {
+    const { container } = renderWith({ 'ep-show': { tmdb: 'tv/1', backdrop: '/art.jpg' } })
+    expect(container.querySelector('.go-detail.has-art')).not.toBeNull()
+    expect(container.querySelector<HTMLImageElement>('.go-detail_key')?.src).toContain('/w1280/art.jpg')
+    expect(container.querySelector('.go-detail_art')).toBeNull()
+  })
+
+  it('falls back to the thumbnail without hero art', () => {
+    const { container } = renderWith({})
+    expect(container.querySelector('.go-detail.has-art')).toBeNull()
+    expect(container.querySelector('.go-detail_key')).toBeNull()
+    expect(container.querySelector<HTMLImageElement>('.go-detail_art img')?.src).toContain('thumb.jpg')
+  })
+
+  it('falls back to the thumbnail when the art fails to load', () => {
+    const { container } = renderWith({ 'ep-show': { tmdb: 'tv/1', backdrop: '/art.jpg' } })
+    fireEvent.error(container.querySelector('.go-detail_key')!)
+    expect(container.querySelector('.go-detail.has-art')).toBeNull()
+    expect(container.querySelector('.go-detail_art img')).not.toBeNull()
   })
 })

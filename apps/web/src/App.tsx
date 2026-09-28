@@ -171,6 +171,7 @@ export default function App() {
           onPlay={(row) => navigate({ name: 'play', key: title.key, videoId: rowKey(row) })}
           onBack={back}
           playingRow={playingRow}
+          heroArt={heroArt}
         />
       </FocusProvider>
 

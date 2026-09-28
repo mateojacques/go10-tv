@@ -115,6 +115,66 @@
   object-fit: cover;
 }
 
+/* ---- Key art -------------------------------------------------------------
+ * With key art the top of the screen is Home's hero: the art bleeds edge to
+ * edge behind the text, under the same scrim, and the thumbnail steps aside. */
+
+.go-detail.has-art .go-detail_body {
+  --go-hero-h: min(50vw, 80vh);
+  min-height: var(--go-hero-h);
+  grid-template-columns: minmax(0, 1fr);
+  align-items: end;
+  padding-bottom: clamp(3rem, 6vh, 5rem);
+}
+
+.go-detail_stage {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  background: var(--go-bg);
+}
+
+.go-detail_frame {
+  position: absolute;
+  inset: 0;
+}
+
+.go-detail_key {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 20%;
+  animation: go-hero-settle calc(var(--go-dur-slow) * 4) var(--go-ease) both;
+}
+
+.go-detail_frame::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(8, 9, 12, 0.94) 0%,
+      rgba(8, 9, 12, 0.82) 24%,
+      rgba(8, 9, 12, 0.4) 44%,
+      rgba(8, 9, 12, 0) 62%
+    ),
+    linear-gradient(0deg, var(--go-bg) 0%, rgba(8, 9, 12, 0.7) 12%, rgba(8, 9, 12, 0) 38%);
+}
+
+.go-detail.has-art .go-detail_main {
+  position: relative;
+  z-index: 1;
+  max-width: min(36rem, 40vw);
+}
+
+.go-detail.has-art .go-chip {
+  border-color: rgba(242, 244, 240, 0.16);
+  background: rgba(8, 9, 12, 0.35);
+  color: #c3c8d1;
+}
+
 /* ---- Play ---------------------------------------------------------------- */
 
 .go-play {
@@ -377,6 +437,33 @@
 
   .go-detail_art {
     display: none;
+  }
+
+  /* Key art runs full width at the top; the text starts over its foot. */
+  .go-detail.has-art .go-detail_body {
+    --go-hero-h: 56.25vw;
+    min-height: 0;
+    padding-top: max(calc(var(--go-safe-y) + 3.5rem), calc(var(--go-hero-h) - 3rem));
+    padding-bottom: 3rem;
+  }
+
+  .go-detail_frame {
+    bottom: auto;
+    height: var(--go-hero-h);
+  }
+
+  .go-detail_key {
+    object-position: 50% 50%;
+  }
+
+  .go-detail_frame::after {
+    background:
+      linear-gradient(180deg, var(--go-bg) 0%, rgba(8, 9, 12, 0) 22%),
+      linear-gradient(0deg, var(--go-bg) 0%, rgba(8, 9, 12, 0.6) 22%, rgba(8, 9, 12, 0) 50%);
+  }
+
+  .go-detail.has-art .go-detail_main {
+    max-width: none;
   }
 }
 

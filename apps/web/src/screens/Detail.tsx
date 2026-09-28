@@ -12,6 +12,7 @@ import { playedFraction, titleProgress } from '@go10/core/progress/titleProgress
 import { playMeta, rowStatus } from '@go10/core/progress/describe'
 import { detailEyebrow, detailMeta } from '@go10/core/catalog/describeTitle'
 import { imageSrc } from '@go10/core/lib/imageSrc'
+import { resolveArt, type HeroArtIndex } from '@go10/core/hero/art'
 import './Detail.css'
 
 function FocusButton({
@@ -126,6 +127,7 @@ export function Detail({
   onPlay,
   onBack,
   playingRow,
+  heroArt,
 }: {
   title: Title
   onPlay: (row: CatalogRow) => void
@@ -141,6 +143,8 @@ export function Detail({
    * it's watched here to keep the active season/episode in sync.
    */
   playingRow?: CatalogRow
+  /** The hero art sidecar; null while it loads. */
+  heroArt: HeroArtIndex | null
 }) {
   // Re-read on every render: this screen stays mounted under the player, and
   // re-renders when playback closes, so bars reflect what was just watched.
@@ -164,6 +168,14 @@ export function Detail({
 
   const meta = detailMeta(title, activeRow)
 
+  // Key art goes full bleed like Home's hero; the thumbnail is the fallback
+  // for titles without any. While the sidecar loads the art layout holds with
+  // an empty stage, so a title that has art never flashes the thumbnail first.
+  const [artFailed, setArtFailed] = useState(false)
+  const localArt = resolveArt(title.key, {})
+  const art = artFailed ? null : (localArt ?? (heroArt ? resolveArt(title.key, heroArt) : null))
+  const artLayout = !artFailed && (art !== null || heroArt === null)
+
   // Which episode Play starts and how much of it is left: context under the
   // button, not part of its label.
   const playNote = playMeta(title, activeRow, activeProgress)
@@ -174,14 +186,32 @@ export function Detail({
   }
 
   return (
-    <div className="go-detail">
-      <Backdrop thumbnail={title.thumbnail} />
+    <div className={`go-detail${artLayout ? ' has-art' : ''}`}>
+      {!artLayout && <Backdrop thumbnail={title.thumbnail} />}
 
       <button type="button" className="go-back" onClick={onBack} aria-label="Volver">
         <span className="go-back_chevron" aria-hidden="true" />
       </button>
 
       <div className="go-detail_body">
+        {artLayout && (
+          <div className="go-detail_stage" aria-hidden="true">
+            {art && (
+              <div className="go-detail_frame">
+                <img
+                  className="go-detail_key"
+                  src={imageSrc(art.large)}
+                  srcSet={`${imageSrc(art.small)} 960w, ${imageSrc(art.large)} 1920w`}
+                  sizes="100vw"
+                  alt=""
+                  fetchPriority="high"
+                  onError={() => setArtFailed(true)}
+                />
+              </div>
+            )}
+          </div>
+        )}
+
         <div className="go-detail_main">
           <p className="go-detail_eyebrow">{detailEyebrow(title)}</p>
 
@@ -222,9 +252,11 @@ export function Detail({
           )}
         </div>
 
-        <figure className="go-detail_art">
-          <img src={imageSrc(title.thumbnail)} alt="" />
-        </figure>
+        {!artLayout && (
+          <figure className="go-detail_art">
+            <img src={imageSrc(title.thumbnail)} alt="" />
+          </figure>
+        )}
       </div>
 
       {isShow && (
