@@ -30,30 +30,37 @@ logic; `apps/tizen` only wraps its output for Tizen's packaging format.
 
 ```
 apps/tizen/
-  config.dev.xml      # content src = http://<dev-machine-ip>:5173 (apps/web's Vite dev server)
-  config.prod.xml     # content src = local bundled index.html
-  icon.png
+  dev/
+    config.xml        # content src = index.html, which redirects to
+                       # http://<dev-machine-ip>:4173 (a `vite preview` server)
+    index.html
+    icon.png
+  prod/
+    config.xml         # content src = the locally bundled index.html
+    icon.png
   scripts/
-    install-dev.sh     # tizen package + sdb install of the dev shell
-    build-prod.sh       # vite build (apps/web) -> stage into apps/tizen/prod -> tizen package -> sdb install
+    install-dev.sh      # tz build/pack + sdb install of the dev shell
+    build-prod.sh        # vite build (apps/web) -> stage into apps/tizen/prod -> tz build/pack -> sdb install
 ```
 
-Two build variants:
+Two build variants, packaged with the Tizen VS Code extension's bundled
+`tz`/`sdb` CLI tools (Tizen Studio is deprecated):
 
-- **Dev shell** (`config.dev.xml`): a native wrapper whose only job is loading
-  a build of `apps/web` served over the LAN. Sideloaded once; after that, the
-  day-to-day loop is `npx vite build --watch` + `npx vite preview --host` in
-  `apps/web` (two terminals) and a reload on the TV after each rebuild — no
-  repackage/reinstall of the Tizen app itself per change. Not the raw `vite
-  dev` server: it doesn't apply `build.target`, and its own HMR client uses
-  syntax Chromium 69 can't parse either, so it blank-screens this TV. This
-  costs true HMR (state-preserving hot reload) for a manual-reload watch
-  loop, which is still far faster than a full Tizen repackage per change.
-- **Prod bundle** (`config.prod.xml`): bundles `apps/web`'s real `vite build`
-  output, packaged fully local/offline. Used for periodic full-fidelity checks
-  so the fast dev loop's fidelity gap (a `.wgt` pointing at a remote URL runs
-  under different Tizen network/security policy than a fully local one) gets
-  caught before it matters.
+- **Dev shell** (`apps/tizen/dev/`): a native wrapper whose only job is
+  loading a build of `apps/web` served over the LAN. Sideloaded once; after
+  that, the day-to-day loop is `npx vite build --watch` + `npx vite preview
+  --host` in `apps/web` (two terminals) and a reload on the TV after each
+  rebuild — no repackage/reinstall of the Tizen app itself per change. Not
+  the raw `vite dev` server: it doesn't apply `build.target`, and its own
+  HMR client uses syntax Chromium 69 can't parse either, so it blank-screens
+  this TV. This costs true HMR (state-preserving hot reload) for a
+  manual-reload watch loop, which is still far faster than a full Tizen
+  repackage per change.
+- **Prod bundle** (`apps/tizen/prod/`): bundles `apps/web`'s real `vite
+  build` output, packaged fully local/offline. Used for periodic
+  full-fidelity checks so the fast dev loop's fidelity gap (a `.wgt`
+  pointing at a remote URL runs under different Tizen network/security
+  policy than a fully local one) gets caught before it matters.
 
 ## Changes inside `apps/web`
 
@@ -139,13 +146,16 @@ back-dispatch logic.
 
 1. Put the TV into Developer Mode: Apps screen → type `12345` → toggle
    Developer Mode → enter the dev machine's IP → restart the TV.
-2. Install Tizen Studio (with the TV Extension SDK) on the dev machine.
+2. Install the Tizen VS Code extension (Tizen Studio is deprecated) — it
+   bundles the `tz`/`sdb` CLI tools this project's scripts use.
 3. `sdb connect <TV_IP>:26101`.
-4. Generate a free author certificate once via Tizen Studio's Certificate
-   Manager (no Samsung approval needed for sideloading).
-5. `apps/tizen/scripts/install-dev.sh` — packages `config.dev.xml`, signs it,
-   `sdb install`s it to the TV. One-time (or whenever the dev-shell's own
-   config changes, not per app code change).
+4. Generate a free author certificate and a `go10-tizen` signing profile via
+   `tz cert` + `tz security-profiles add` (no Samsung approval needed for
+   sideloading — see Task 7 in the implementation plan for the exact
+   commands).
+5. `apps/tizen/scripts/install-dev.sh` — packages `apps/tizen/dev/config.xml`,
+   signs it, `sdb install`s it to the TV. One-time (or whenever the
+   dev-shell's own config changes, not per app code change).
 6. Day-to-day, in `apps/web` (two terminals): `npx vite build --watch` and
    `npx vite preview --host`, launch the sideloaded app on the TV, and
    reload it after each rebuild — no further packaging steps. (Not `npm run

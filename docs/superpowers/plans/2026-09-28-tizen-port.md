@@ -6,7 +6,7 @@
 
 **Architecture:** No new React app — `apps/web` is fixed up for Tizen's older engine (build target, CSS `gap` fallback, Back-key/exit wiring) and a new `apps/tizen` workspace wraps it for packaging only: a dev-shell `.wgt` that loads the LAN Vite dev server for fast iteration, and a prod-bundle `.wgt` that packages the real `vite build` output for full-fidelity checks.
 
-**Tech Stack:** Vite/React (`apps/web`, unchanged), Tizen Studio CLI (`tizen`, `sdb`), Tizen Web App packaging (`config.xml`/`.wgt`).
+**Tech Stack:** Vite/React (`apps/web`, unchanged), the Tizen VS Code extension's bundled CLI (`tz`, `sdb` — Tizen Studio is deprecated), Tizen Web App packaging (`config.xml`/`.wgt`).
 
 **Spec:** `docs/superpowers/specs/2026-09-28-tizen-port-design.md`
 
@@ -451,7 +451,7 @@ git commit -m "feat: exit on Back at Home, and register Tizen's Back key at star
 
 **Interfaces:** none — packaging only, consumed only by Task 7/8's manual steps.
 
-`PKGID12345` below is a placeholder: Tizen assigns a real 10-character package id when you create your author certificate/profile in Tizen Studio (Task 7) — replace every occurrence of `PKGID12345` in both `apps/tizen/dev/config.xml` and `apps/tizen/prod/config.xml` (Task 6) with that value once you have it. Likewise, `192.168.1.100` in `dev/index.html` is a placeholder for your dev machine's actual LAN IP.
+`PKGID12345` below is a placeholder — already a valid 10-character alphanumeric string, and it packaged successfully as-is in testing (Task 7 explains why: this toolchain doesn't assign one at certificate-creation time the way Tizen Studio's old wizard did). Only replace every occurrence of `PKGID12345` in both `apps/tizen/dev/config.xml` and `apps/tizen/prod/config.xml` (Task 6) if `sdb install` rejects it on real hardware. Likewise, `192.168.1.100` in `dev/index.html` is a placeholder for your dev machine's actual LAN IP.
 
 - [ ] **Step 1: Create `apps/tizen/dev/config.xml`**
 
@@ -462,9 +462,11 @@ git commit -m "feat: exit on Back at Home, and register Tizen's Back key at star
         id="http://go10.tv/GO10TVDev"
         version="1.0.0"
         viewmodes="maximized">
-    <!-- PKGID12345 is a placeholder: replace both occurrences (id and
-         package) with the 10-character package id Tizen Studio assigns you
-         in Task 7. -->
+    <!-- PKGID12345 is a placeholder, already a valid 10-character
+         alphanumeric string, and packaged successfully as-is in testing.
+         Only replace both occurrences (id and package) if `sdb install`
+         rejects it on real hardware (Task 7/8), with any other 10-character
+         alphanumeric string. -->
     <tizen:application id="PKGID12345.GO10TVDev" package="PKGID12345" required_version="5.5"/>
     <name>GO10 TV (Dev)</name>
     <icon src="icon.png"/>
@@ -528,17 +530,22 @@ cp apps/mobile/assets/images/icon.png apps/tizen/dev/icon.png
 set -euo pipefail
 
 # Packages and installs the dev-shell Tizen app, which just loads the LAN
-# Vite dev server -- run this once (or whenever apps/tizen/dev/ itself
-# changes, not per apps/web code change). Requires Tizen Studio's CLI tools
-# (tizen, sdb) on PATH, the "go10-tizen" security profile created (Task 7),
-# and the TV already `sdb connect`-ed (Task 7).
+# Vite preview server -- run this once (or whenever apps/tizen/dev/ itself
+# changes, not per apps/web code change). Tizen Studio is deprecated; this
+# uses the Tizen VS Code extension's bundled CLI tools instead. Requires
+# the "go10-tizen" security profile created (Task 7), and the TV already
+# `sdb connect`-ed (Task 7).
+
+TZ_TOOLS="$HOME/.tizen-extension-platform/server/sdktools/data/tools"
+TZ="$TZ_TOOLS/tizen-core/tz"
+SDB="$TZ_TOOLS/sdb"
 
 cd "$(dirname "$0")/../dev"
-rm -rf .buildResult
-tizen build-web -- . -out .buildResult
-tizen package -t wgt -s go10-tizen -- .buildResult
-WGT=$(ls .buildResult/*.wgt | head -n1)
-tizen install -n "$WGT"
+rm -rf Debug tizen_web_project.yaml
+"$TZ" build -w . -s go10-tizen
+"$TZ" pack -w . -s go10-tizen
+WGT=$(ls Debug/*.wgt | head -n1)
+"$SDB" install "$WGT"
 ```
 
 - [ ] **Step 5: Make the script executable**
@@ -550,8 +557,10 @@ chmod +x apps/tizen/scripts/install-dev.sh
 - [ ] **Step 6: Create `apps/tizen/.gitignore`**
 
 ```
-dev/.buildResult/
-prod/.buildResult/
+dev/Debug/
+dev/tizen_web_project.yaml
+prod/Debug/
+prod/tizen_web_project.yaml
 prod/index.html
 prod/assets/
 prod/data/
@@ -590,8 +599,8 @@ git commit -m "feat(tizen): scaffold the dev-shell Tizen packaging project"
         id="http://go10.tv/GO10TV"
         version="1.0.0"
         viewmodes="maximized">
-    <!-- PKGID12345 is the same placeholder as apps/tizen/dev/config.xml --
-         replace both occurrences with your real package id (Task 7). -->
+    <!-- PKGID12345 is the same placeholder as apps/tizen/dev/config.xml:
+         see the comment there. -->
     <tizen:application id="PKGID12345.GO10TV" package="PKGID12345" required_version="5.5"/>
     <name>GO10 TV</name>
     <icon src="icon.png"/>
@@ -624,9 +633,14 @@ set -euo pipefail
 # Builds apps/web for production, stages the output into
 # apps/tizen/prod/ (alongside its config.xml and icon.png), packages it as a
 # Tizen wgt, and installs it to the connected TV -- for periodic full-
-# fidelity, fully local/offline checks. Requires Tizen Studio's CLI tools
-# (tizen, sdb) on PATH, the "go10-tizen" security profile created (Task 7),
-# and the TV already `sdb connect`-ed (Task 7).
+# fidelity, fully local/offline checks. Tizen Studio is deprecated; this
+# uses the Tizen VS Code extension's bundled CLI tools instead. Requires
+# the "go10-tizen" security profile created (Task 7), and the TV already
+# `sdb connect`-ed (Task 7).
+
+TZ_TOOLS="$HOME/.tizen-extension-platform/server/sdktools/data/tools"
+TZ="$TZ_TOOLS/tizen-core/tz"
+SDB="$TZ_TOOLS/sdb"
 
 cd "$(dirname "$0")/../../.."
 
@@ -640,13 +654,13 @@ npx vite build --base ./
 cd ../..
 
 cd apps/tizen/prod
-rm -rf index.html assets data .buildResult
+rm -rf index.html assets data Debug tizen_web_project.yaml
 cp -r ../../web/dist/. .
 
-tizen build-web -- . -out .buildResult
-tizen package -t wgt -s go10-tizen -- .buildResult
-WGT=$(ls .buildResult/*.wgt | head -n1)
-tizen install -n "$WGT"
+"$TZ" build -w . -s go10-tizen
+"$TZ" pack -w . -s go10-tizen
+WGT=$(ls Debug/*.wgt | head -n1)
+"$SDB" install "$WGT"
 ```
 
 - [ ] **Step 4: Make the script executable**
@@ -669,34 +683,45 @@ git commit -m "feat(tizen): scaffold the prod-bundle Tizen packaging project"
 
 ---
 
-### Task 7 (manual, human-performed): Install Tizen Studio and pair the TV
+### Task 7 (manual, human-performed): Set up the Tizen toolchain and pair the TV
 
 No code in this task — it's interactive setup on your machine and your TV's remote, which nothing in this session can do for you. Come back to this plan once it's done.
+
+Tizen Studio is deprecated (per Samsung's current docs); this uses the Tizen VS Code extension's bundled CLI tools instead (`tz`, at `~/.tizen-extension-platform/server/sdktools/data/tools/tizen-core/tz`, and `sdb` alongside it — both verified working against this project's actual `apps/tizen/dev`/`prod` directories, up through packaging).
 
 - [ ] **Step 1: Put the TV into Developer Mode**
 
 On the TV: open the **Apps** screen, then type `12345` (on-screen number pad or a connected keyboard). A hidden **Developer mode** menu appears — toggle it on, enter your dev machine's IP address, and restart the TV.
 
-- [ ] **Step 2: Install Tizen Studio**
+- [ ] **Step 2: Install the Tizen VS Code extension**
 
-Download and install Tizen Studio (with the **TV Extension** package) from Samsung's developer site onto this dev machine.
+Install it from the VS Code marketplace, per Samsung's current docs (not Tizen Studio). It bundles the SDK tools referenced below the first time you use it.
 
-- [ ] **Step 3: Create an author certificate/profile**
+- [ ] **Step 3: Create an author certificate and signing profile**
 
-In Tizen Studio's **Certificate Manager**, create a new author certificate and a security profile named `go10-tizen` (matching the `-s go10-tizen` used by both scripts in Tasks 5/6). This is free and self-issued — no Samsung approval needed for sideloading. Note the **10-character package id** it assigns; you'll need it for Step 4.
+```bash
+TZ="$HOME/.tizen-extension-platform/server/sdktools/data/tools/tizen-core/tz"
+"$TZ" cert -n "<your name>" -p "<a password>" -f go10-tizen-cert
+"$TZ" security-profiles add -n go10-tizen \
+  -a "$HOME/.tizen-extension-platform/server/sdktools/sdk-data/keystore/author/go10-tizen-cert.p12" \
+  -p "<the same password>" -A
+```
 
-- [ ] **Step 4: Fill in the real package id**
+`-n go10-tizen` names the profile (matching the `-s go10-tizen` both scripts in Tasks 5/6 already use); `-A` sets it active. This is free and self-issued — no Samsung approval needed for sideloading. Verify with `"$TZ" security-profiles list`.
 
-Replace every occurrence of `PKGID12345` with that package id in:
+- [ ] **Step 4: `PKGID12345` in the config.xml files probably doesn't need changing**
+
+Unlike Tizen Studio's old project wizard, this toolchain doesn't generate or require a specific 10-character package id at certificate-creation time — packaging both projects as-is (with the literal placeholder `PKGID12345`, which is already a valid 10-character alphanumeric string) succeeded in this session. This is unverified at actual device-install time, though (no TV was available here) — if `sdb install` in Task 8 rejects it, replace every occurrence of `PKGID12345` with any other 10-character alphanumeric string of your choosing in:
 - `apps/tizen/dev/config.xml`
 - `apps/tizen/prod/config.xml`
 
 - [ ] **Step 5: Connect to the TV**
 
-With Tizen Studio's CLI tools on `PATH` and the TV on the same LAN:
+With the TV on the same LAN:
 
 ```bash
-sdb connect <TV_IP>:26101
+SDB="$HOME/.tizen-extension-platform/server/sdktools/data/tools/sdb"
+"$SDB" connect <TV_IP>:26101
 ```
 
 ---
@@ -735,7 +760,7 @@ Launch **GO10 TV (Dev)** from the TV's app list.
 
 In order, on the TV:
 
-1. The app launches at all. *A blank screen here means Task 1's build-target fix didn't fully resolve — check the browser console via Tizen Studio's Web Inspector for a syntax error.*
+1. The app launches at all. *A blank screen here means Task 1's build-target fix didn't fully resolve — check the browser console via the VS Code extension's device/remote inspector (or Chrome DevTools pointed at the device, if that's how it's exposed — unverified, no device was available in this session) for a syntax error.*
 2. D-pad navigation visibly moves focus between cards/rows.
 3. OK/Enter activates the focused item.
 4. Back navigates back through screens, and **exits the app from Home**. *No response here means the `tv.inputdevice` privilege or the `registerKey('Back')` call (Task 3/5) isn't wired correctly — check Web Inspector for a `WebAPIException`.*
