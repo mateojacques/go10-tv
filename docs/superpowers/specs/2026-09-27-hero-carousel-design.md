@@ -117,14 +117,14 @@ export function pickHero(titles: Title[], index: HeroArtIndex, random?: () => nu
 
 ### Once per launch
 
-- **Web:** a module-level memo in `apps/web/src/screens/heroSlides.ts`: the
-  first pick made with a non-empty catalog (after the art request settles)
-  sticks for the page's lifetime, so navigating back to Home shows the same
-  slides and the carousel restarts at slide 0. A test-only reset is exported.
-- **Mobile:** `buildHome` takes the art index; the picked slides live in the
-  `HomeModel`. The screen keeps the first model's `slides` across
-  `applyPending` refreshes (the refresh replaces rows/strip only), so the
-  hero never reshuffles mid-session.
+`pickHeroOnce(titles, index)` in `packages/core/src/hero/pickHero.ts` holds
+the pick in module state: the first call with a non-empty catalog picks, and
+every later call returns the same slides for the process lifetime (a page
+load on the web, an app launch on mobile). Navigating back to Home shows the
+same slides, restarting at slide 0; a mobile background refresh
+(`applyPending`) rebuilds rows and strip but not the hero.
+`resetHeroPickForTests()` is exported, and both apps' test setups call it
+before each test.
 
 ## Loading the sidecar
 
@@ -145,14 +145,24 @@ export function pickHero(titles: Title[], index: HeroArtIndex, random?: () => nu
 
 - One slide visible at a time, 8 s each, crossfade (web: CSS opacity
   transition on stacked slides; TV: `Animated` opacity).
-- **Fixed hero height** across slides: the carousel always uses the with-art
-  height, and a no-art slide lays out its blurred backdrop + crisp thumbnail
-  inside it, so the rows below never jump.
+- **Stable hero height** across slides, so the rows below never jump:
+  - Web: every slide's text block is stacked in one grid cell (inactive ones
+    `visibility: hidden`), so the hero is as tall as its tallest slide; the
+    header always has the with-art `min-height`. On wide screens a no-art
+    slide shows the blurred backdrop + crisp thumbnail; on narrow screens
+    (≤ 900px) it puts the thumbnail itself in the 16:9 art frame — at phone
+    widths that is close to its native 368px.
+  - Phone app: the horizontal pager is as tall as its tallest page.
+  - TV app: one `Hero` whose props swap, at the TV hero's fixed min-height.
 - Segment indicators at the foot of the hero; the active one fills over the
   8 s.
-- **Pauses** while the pointer hovers the hero, while a hero button holds
-  focus (remote/keyboard), while a finger is down on it (phone), and while
-  the document/app is hidden. Resuming restarts the current slide's 8 s.
+- **Pauses** while the pointer hovers the hero, while a finger is down on it
+  (phone), and while the document/app is hidden. Resuming restarts the
+  current slide's 8 s.
+- **Focus does not pause it.** Home opens with focus on the hero's Reproducir
+  button on TV, so pausing on focus would mean the carousel never moves
+  there. Instead any slide change (timer, remote, arrow, indicator, swipe)
+  restarts the 8 s, so a remote user who is navigating isn't raced.
 - **Reduced motion** (web `prefers-reduced-motion`, mobile
   `AccessibilityInfo.isReduceMotionEnabled`): no auto-advance, no crossfade;
   manual navigation only.
@@ -188,14 +198,15 @@ export function pickHero(titles: Title[], index: HeroArtIndex, random?: () => nu
   window width; swipe to change; the timer calls `scrollToIndex`; touch
   (`onScrollBeginDrag`/`onTouchStart`) pauses, `onMomentumScrollEnd` syncs
   the index and resumes.
-- **TV:** slides stacked with `Animated` opacity, one `Hero` interactive at a
-  time. Hero buttons get `nextFocusLeft`/`nextFocusRight` pointing at
-  themselves at the edges so native focus stays put, and `useRemoteKeys`
-  turns `left` while the Reproducir button is focused / `right` while Más
-  información is focused into prev/next. `hasTVPreferredFocus` stays only on
-  the first slide's primary button, on first mount.
-- Pause on hero-button focus (TV) via `onFocus`/`onBlur`; pause when
-  `AppState` isn't `active`.
+- **TV:** a single `Hero` stays mounted and its props swap to the next
+  slide behind a short `Animated` opacity dip (out 200 ms, in 300 ms), so the
+  focused button never unmounts and native focus stays put. The actions row
+  is wrapped in `TVFocusGuideView trapFocusLeft trapFocusRight` so focus
+  can't leave it sideways; `useRemoteKeys` turns `left` while Reproducir is
+  focused / `right` while Más información is focused into prev/next
+  (tracked with `onFocus`, read at key-down, before the native focus move
+  is reported). `hasTVPreferredFocus` stays on Reproducir as today.
+- Pause when `AppState` isn't `active`.
 
 ## Error handling
 
@@ -223,8 +234,9 @@ export function pickHero(titles: Title[], index: HeroArtIndex, random?: () => nu
   layout; `useHeroArt` failure → `{}`.
 - **Mobile (jest-expo):** `catalogStore` loads/caches/revalidates
   `hero_art.json` and tolerates its absence; `buildHome` returns slides;
-  refresh keeps slides; `HeroCarousel` advances, pauses on touch, remote
-  left/right at the edges; `Hero` art error fallback.
+  refresh keeps slides; `HeroCarousel` advances and pauses on touch (phone
+  branch); the TV edge rule as a pure function (`edgeStep`); `Hero` art
+  error fallback. The TV rendering branch waits for real hardware.
 - **Script (pytest):** `normalise`; match selection (localized vs original
   title, closest year, no backdrop → unmatched); overrides pin/block; output
   shape and sorting; missing token exits. HTTP stubbed — no live TMDB.
