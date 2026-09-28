@@ -95,13 +95,18 @@ data, TMDB, the ok.ru/vidlove iframes, Google Fonts) and
 
 ## Data flow
 
-Unchanged. Catalog/collections data, TMDB calls, and the ok.ru/vidlove
-`<iframe>` + `postMessage` player all already work over plain HTTP(S) from
-`apps/web` — Tizen's `internet` privilege is a coarse network allow, not a
-domain allowlist, so nothing here needs rework. The one open question is
-whether Tizen's browser policy allows the iframe embeds to autoplay with
-sound; this is unverified until tested live and is first on the validation
-checklist below rather than something to build a workaround for speculatively.
+Unchanged in `apps/web` itself — the catalog/collections data, TMDB calls,
+and the ok.ru/vidlove `<iframe>` + `postMessage` player all already work
+over plain HTTP(S). The `internet` privilege alone is not enough for Tizen
+to actually let those requests through, though: Tizen's WARP security model
+blocks `fetch`/XHR to external origins without an explicit `<access>`
+element in `config.xml` (and blocks top-level navigation without
+`<tizen:allow-navigation>`, which the dev shell's redirect to the LAN dev
+server needs) — both configs declare a wildcard `<access>` for this reason.
+The one open question is whether Tizen's browser policy allows the iframe
+embeds to autoplay with sound; this is unverified until tested live and is
+first on the validation checklist below rather than something to build a
+workaround for speculatively.
 
 ## Validation checklist (first sideload, before any polish)
 
