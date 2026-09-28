@@ -45,6 +45,8 @@ export function Player({
   const videoIdRef = useRef(rowKey(row))
   videoIdRef.current = rowKey(row)
   const containerRef = useRef<HTMLDivElement>(null)
+  const handleRef = useRef<HTMLButtonElement>(null)
+  const closeRef = useRef<HTMLButtonElement>(null)
   const frameRef = useRef<HTMLIFrameElement>(null)
   const provider = providerFor(row)
   // Kept in refs for the message listener, which never re-subscribes.
@@ -193,21 +195,27 @@ export function Player({
     return () => window.removeEventListener('keydown', onKeyDown)
   }, [onClose])
 
-  // The ok.ru/vidlove embed is a cross-origin iframe: once it (or the click
-  // that opened it) hands it DOM focus, every key the remote sends -- Back
-  // included -- goes to the iframe's own document instead of this window,
-  // which never sees it. Nothing this page does needs that iframe focused
-  // (playback is driven entirely by postMessage), so focus is kept on the
-  // player container instead, and reclaimed the moment the iframe takes it
-  // (which surfaces here as this window blurring).
+  // The player has no custom spatial-nav grid of its own (unlike every other
+  // screen -- see useFocusable.ts): its buttons are plain, natively
+  // focusable <button>s, and rely entirely on Tizen's own browser driving
+  // D-pad focus between them -- which it only does once one of them holds
+  // real DOM focus. The ok.ru/vidlove iframe can otherwise take that focus
+  // the moment it loads, and once it does, the remote's keys (Back
+  // included) go to the iframe's own document and never reach this page at
+  // all. Nothing here needs the iframe focused (playback is driven entirely
+  // by postMessage), so a real button is kept focused instead -- the handle
+  // while the bar is folded away, the close button once it's open -- and
+  // reclaimed the moment the iframe takes it (which surfaces here as this
+  // window blurring).
   useEffect(() => {
-    containerRef.current?.focus({ preventScroll: true })
+    const target = barOpen ? closeRef.current : handleRef.current
+    target?.focus({ preventScroll: true })
     function onWindowBlur() {
-      setTimeout(() => containerRef.current?.focus({ preventScroll: true }), 0)
+      setTimeout(() => target?.focus({ preventScroll: true }), 0)
     }
     window.addEventListener('blur', onWindowBlur)
     return () => window.removeEventListener('blur', onWindowBlur)
-  }, [])
+  }, [barOpen])
 
   // Computed once per video and per reload — never per render. Progress is
   // saved during playback, and recomputing here would change the iframe
@@ -238,8 +246,9 @@ export function Player({
   const embedSrc = provider.src(row, provider.resumesViaUrl ? fromTime : null)
 
   return (
-    <div className="go-player" ref={containerRef} tabIndex={-1}>
+    <div className="go-player" ref={containerRef}>
       <button
+        ref={handleRef}
         type="button"
         className="go-player_handle"
         aria-expanded={barOpen}
@@ -251,7 +260,7 @@ export function Player({
       </button>
 
       <div id="go-player-bar" className={`go-player_bar${barOpen ? ' is-open' : ''}`} inert={!barOpen}>
-        <button type="button" className="go-player_btn" onClick={onClose} aria-label="Volver">
+        <button ref={closeRef} type="button" className="go-player_btn" onClick={onClose} aria-label="Volver">
           <span className="go-back_chevron" aria-hidden="true" />
         </button>
         <div className="go-player_heading">

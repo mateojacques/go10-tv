@@ -42,9 +42,15 @@ describe('Player', () => {
     expect(onClose).toHaveBeenCalledTimes(2)
   })
 
-  it('focuses its own container, not the iframe, so the window keeps getting keydowns', () => {
+  it('focuses the handle, not the iframe, so Tizen keeps driving D-pad focus and the window keeps getting keydowns', () => {
     render(<Player row={row()} onClose={() => {}} />)
-    expect(document.activeElement).toBe(document.querySelector('.go-player'))
+    expect(document.activeElement).toBe(screen.getByRole('button', { name: 'Mostrar controles' }))
+  })
+
+  it('moves focus to the close button once the bar opens', () => {
+    render(<Player row={row()} onClose={() => {}} />)
+    fireEvent.click(screen.getByRole('button', { name: 'Mostrar controles' }))
+    expect(document.activeElement).toBe(screen.getByRole('button', { name: 'Volver' }))
   })
 
   it('reclaims focus from the embed the moment it takes it (a window blur)', () => {
@@ -52,7 +58,7 @@ describe('Player', () => {
     getFrame().focus() // the embed taking focus, as ok.ru/vidlove do
     fireEvent(window, new Event('blur'))
     act(() => vi.advanceTimersByTime(0))
-    expect(document.activeElement).toBe(document.querySelector('.go-player'))
+    expect(document.activeElement).toBe(screen.getByRole('button', { name: 'Mostrar controles' }))
   })
 
   it('shows a reconnecting indicator on load timeout, then recovers on load', () => {
