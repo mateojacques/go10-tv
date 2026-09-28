@@ -124,7 +124,7 @@ def test_write_index_is_sorted_and_versioned(tmp_path):
 def test_main_without_a_token_exits_1_and_writes_nothing(tmp_path, monkeypatch, capsys):
     monkeypatch.delenv("TMDB_TOKEN", raising=False)
     out = tmp_path / "hero_art.json"
-    assert fha.main(["--output", str(out)]) == 1
+    assert fha.main(["--output", str(out), "--env-file", str(tmp_path / "missing.env")]) == 1
     assert not out.exists()
     assert "TMDB_TOKEN" in capsys.readouterr().err
 
@@ -175,3 +175,40 @@ def test_build_index_treats_a_truncated_response_as_one_failed_title():
     items, report = fha.build_index(titles, get, {"pin": {}, "block": []})
     assert items == {"b": {"tmdb": "movie/5", "backdrop": "/b.jpg"}}
     assert report["unmatched"] == [("a", "A")]
+
+
+def test_main_reads_the_web_token_from_env_local(tmp_path, monkeypatch):
+    monkeypatch.delenv("TMDB_TOKEN", raising=False)
+    env = tmp_path / ".env.local"
+    env.write_text('VITE_EXTERNAL_TITLES=on\nVITE_TMDB_TOKEN="eyJhbGci.abc-_123"\n', encoding="utf-8")
+    seen = []
+
+    def getter(token):
+        seen.append(token)
+        return lambda path, params: {"results": [{"id": 1, "title": params.get("query"), "backdrop_path": "/x.jpg"}]}
+
+    monkeypatch.setattr(fha, "tmdb_getter", getter)
+    out = tmp_path / "hero_art.json"
+    assert fha.main(["--catalog", _catalog(tmp_path), "--output", str(out), "--overrides", str(tmp_path / "none.json"), "--env-file", str(env)]) == 0
+    assert seen == ["eyJhbGci.abc-_123"]
+    assert out.exists()
+
+
+def test_main_prefers_tmdb_token_over_env_local(tmp_path, monkeypatch):
+    monkeypatch.setenv("TMDB_TOKEN", "from.env-var")
+    env = tmp_path / ".env.local"
+    env.write_text("VITE_TMDB_TOKEN=from.file\n", encoding="utf-8")
+    seen = []
+    monkeypatch.setattr(fha, "tmdb_getter", lambda token: seen.append(token) or (lambda path, params: {"results": []}))
+    fha.main(["--catalog", _catalog(tmp_path), "--output", str(tmp_path / "o.json"), "--overrides", str(tmp_path / "none.json"), "--env-file", str(env)])
+    assert seen == ["from.env-var"]
+
+
+@pytest.mark.parametrize("token", ["…", "abc def", "tok\u00e9n"])
+def test_main_rejects_a_token_with_invalid_characters_before_any_request(tmp_path, monkeypatch, capsys, token):
+    monkeypatch.setenv("TMDB_TOKEN", token)
+    monkeypatch.setattr(fha, "tmdb_getter", lambda t: pytest.fail("no request with a malformed token"))
+    out = tmp_path / "hero_art.json"
+    assert fha.main(["--catalog", _catalog(tmp_path), "--output", str(out), "--env-file", str(tmp_path / "missing.env")]) == 1
+    assert not out.exists()
+    assert "invalid characters" in capsys.readouterr().err

@@ -244,7 +244,10 @@ The Home hero rotates through five titles picked at random per launch, one
 per genre bucket (Animación, Drama, Terror, Infantil, Anime), preferring
 titles with a TMDB backdrop. Backdrops come from an offline matcher:
 
-    TMDB_TOKEN=<TMDB v4 read access token> python3 scripts/fetch_hero_art.py
+    python3 scripts/fetch_hero_art.py
+
+It uses the web app's `VITE_TMDB_TOKEN` from `.env.local`; set `TMDB_TOKEN` to
+use a different one.
 
 It writes `apps/web/public/data/hero_art.json` (commit it) and prints the
 unmatched titles. Fix mismatches in `data/hero_art_overrides.json`

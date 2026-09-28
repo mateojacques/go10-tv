@@ -1,8 +1,9 @@
 """Match catalog titles to TMDB backdrops for the Home hero carousel.
 
 Writes apps/web/public/data/hero_art.json (title key -> TMDB backdrop). Run by
-hand when the catalog changes, with TMDB_TOKEN set to a TMDB v4 read access
-token; the output is committed. Hand fixes go in data/hero_art_overrides.json:
+hand when the catalog changes; the output is committed. The TMDB v4 read access
+token comes from TMDB_TOKEN, else from VITE_TMDB_TOKEN in .env.local (the web
+app's). Hand fixes go in data/hero_art_overrides.json:
 {"pin": {"<key>": "tv/123"}, "block": ["<key>"]}.
 """
 import argparse
@@ -10,6 +11,7 @@ import csv
 import http.client
 import json
 import os
+import re
 import sys
 import time
 import unicodedata
@@ -22,6 +24,7 @@ from parse_catalog import ROOT
 CATALOG_CSV = os.path.join(ROOT, "apps", "web", "public", "data", "catalog.csv")
 OUTPUT_JSON = os.path.join(ROOT, "apps", "web", "public", "data", "hero_art.json")
 OVERRIDES_JSON = os.path.join(ROOT, "data", "hero_art_overrides.json")
+ENV_LOCAL = os.path.join(ROOT, ".env.local")
 API = "https://api.themoviedb.org/3"
 
 
@@ -131,16 +134,35 @@ def tmdb_getter(token):
     return get
 
 
+def env_file_token(path):
+    """VITE_TMDB_TOKEN from a dotenv file, or None."""
+    try:
+        with open(path, encoding="utf-8") as handle:
+            for line in handle:
+                name, sep, value = line.strip().partition("=")
+                if sep and name.strip() == "VITE_TMDB_TOKEN":
+                    return value.strip().strip("'\"") or None
+    except OSError:
+        pass
+    return None
+
+
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--catalog", default=CATALOG_CSV)
     parser.add_argument("--output", default=OUTPUT_JSON)
     parser.add_argument("--overrides", default=OVERRIDES_JSON)
+    parser.add_argument("--env-file", default=ENV_LOCAL)
     args = parser.parse_args(argv)
 
-    token = os.environ.get("TMDB_TOKEN")
+    token = os.environ.get("TMDB_TOKEN") or env_file_token(args.env_file)
     if not token:
-        print("TMDB_TOKEN is not set (TMDB v4 read access token).", file=sys.stderr)
+        print(f"TMDB_TOKEN is not set, and {args.env_file} has no VITE_TMDB_TOKEN (TMDB v4 read access token).", file=sys.stderr)
+        return 1
+    # A v4 token is a JWT: base64url segments joined by dots. Anything else (a pasted "…",
+    # a stray space) can't go in an HTTP header and would fail every request.
+    if not re.fullmatch(r"[A-Za-z0-9._-]+", token):
+        print("The TMDB token contains invalid characters (expected a v4 read access token).", file=sys.stderr)
         return 1
     overrides = {"pin": {}, "block": []}
     if os.path.exists(args.overrides):
