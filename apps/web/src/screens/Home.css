@@ -554,3 +554,35 @@
     display: none;
   }
 }
+
+/* Chromium 69 (Tizen 5.5) doesn't support clamp()/min() -- see tokens.css. */
+@supports not (width: clamp(1px, 1px, 1px)) {
+  .go-hero.has-art,
+  .go-hero--carousel {
+    --go-hero-h: 54rem;
+    padding-bottom: 4.05rem;
+  }
+
+  .go-hero.has-art .go-hero_body,
+  .go-hero--carousel .go-hero_body {
+    max-width: 36rem;
+  }
+
+  .go-hero.has-art .go-hero_title,
+  .go-hero--carousel .go-hero_title {
+    font-size: 4.75rem;
+  }
+
+  .go-hero_progress {
+    width: 14rem;
+  }
+
+  .go-hero_art img {
+    width: 26rem;
+  }
+
+  .go-hero.has-art + .go-rows,
+  .go-hero--carousel + .go-rows {
+    margin-top: 2.7rem;
+  }
+}

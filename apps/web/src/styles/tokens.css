@@ -75,3 +75,23 @@
     --go-dur-slow: 0ms;
   }
 }
+
+/* Chromium 69 (Tizen 5.5) doesn't support clamp()/min()/max() at all --
+   confirmed on real hardware: an isolated `width: clamp(...)` probe computes
+   to 0px there. calc() and vw/vh alone work fine. Since this app forces a
+   fixed 1920x1080 viewport on Tizen (see fixTizenViewport in
+   platformTizen.ts), these are each token's value AT that exact viewport --
+   not a general clamp() polyfill, just the one number this fixed canvas
+   would have produced anyway. */
+@supports not (width: clamp(1px, 1px, 1px)) {
+  :root {
+    --go-size-hero: 5.25rem;
+    --go-size-section: 1.875rem;
+    --go-size-card: 1.1875rem;
+    --go-size-body: 1.3125rem;
+    --go-size-meta: 1.0625rem;
+    --go-card-w: 22rem;
+    --go-tile-w: 19.8rem;
+    --go-safe-x: 5rem;
+  }
+}

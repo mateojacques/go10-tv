@@ -501,3 +501,34 @@
     padding-bottom: 2rem;
   }
 }
+
+/* Chromium 69 (Tizen 5.5) doesn't support clamp()/min()/max() -- see
+   tokens.css. Scoped to the rules this app's TV viewport (1920px) actually
+   reaches -- the @media (max-width: 900px)/(max-width: 600px) blocks above
+   are phone-only and never match there, so they're left untouched. */
+@supports not (width: clamp(1px, 1px, 1px)) {
+  .go-detail_art img {
+    width: 26rem;
+  }
+
+  .go-detail.has-art .go-detail_body {
+    --go-hero-h: 54rem;
+    padding-bottom: 4.05rem;
+  }
+
+  .go-detail.has-art .go-detail_main {
+    max-width: 36rem;
+  }
+
+  .go-epgrid {
+    grid-template-columns: repeat(auto-fill, minmax(5.5rem, 1fr));
+  }
+
+  .go-ep {
+    height: 4.75rem;
+  }
+
+  .go-ep_n {
+    font-size: 1.5rem;
+  }
+}

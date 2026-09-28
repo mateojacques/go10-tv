@@ -247,3 +247,17 @@
   letter-spacing: 0.06em;
   color: var(--go-text-muted);
 }
+
+/* Chromium 69 (Tizen 5.5) doesn't support max() (and likely not env() either,
+   both irrelevant on a TV anyway -- there's no notch/inset to avoid). Same
+   fixed padding max()/env() would resolve to on any device with a zero
+   inset. */
+@supports not (width: clamp(1px, 1px, 1px)) {
+  .go-player {
+    --go-player-bar-h: 3.5rem;
+  }
+
+  .go-player_bar {
+    padding: 0 0.5rem 0 0.5rem;
+  }
+}

@@ -542,3 +542,10 @@
     display: none;
   }
 }
+
+/* Chromium 69 (Tizen 5.5) doesn't support clamp() -- see tokens.css. */
+@supports not (width: clamp(1px, 1px, 1px)) {
+  .go-search {
+    width: 24rem;
+  }
+}
