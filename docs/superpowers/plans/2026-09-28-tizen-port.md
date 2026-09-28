@@ -75,9 +75,9 @@ Expected: PASS, same as before this change (this step exists because a global `b
 Run:
 ```bash
 cd apps/web && npm run build
-grep -rlE "globalThis|matchAll|allSettled" dist/assets/*.js
+grep -rlE "queueMicrotask|globalThis|matchAll|allSettled|fromEntries|replaceAll|\.at\(|structuredClone|Object\.hasOwn|findLast|randomUUID|replaceChildren|Promise\.any" dist/assets/*.js
 ```
-Expected: no matches (exit code 1 from `grep -l` with nothing found). If it finds matches, note which file and leave a comment in this task's commit message — resolving it (e.g. adding a targeted polyfill) is deferred to the Task 8 hardware validation, since whether it's actually reached at runtime can only be confirmed there.
+Expected: no matches, or only matches already guarded by a `typeof X === 'function'` check (inspect each one — a raw string match can't tell guarded from unguarded on its own). If it finds an unguarded match, fix it (e.g. `Promise.resolve().then(...)` in place of a bare `queueMicrotask` call) before moving on; this list was widened after the final review found an unguarded `queueMicrotask` call in `FocusProvider.tsx` that this task's original narrower grep missed. Keep widening this list on future dependency bumps.
 
 - [ ] **Step 4: Commit**
 
@@ -462,7 +462,7 @@ git commit -m "feat: exit on Back at Home, and register Tizen's Back key at star
         id="http://go10.tv/GO10TVDev"
         version="1.0.0"
         viewmodes="maximized">
-    <!-- PKGID12345 is a placeholder -- replace both occurrences (id and
+    <!-- PKGID12345 is a placeholder: replace both occurrences (id and
          package) with the 10-character package id Tizen Studio assigns you
          in Task 7. -->
     <tizen:application id="PKGID12345.GO10TVDev" package="PKGID12345" required_version="5.5"/>
@@ -489,8 +489,20 @@ git commit -m "feat: exit on Back at Home, and register Tizen's Back key at star
   <body>
     <script>
       // Replace with your dev machine's LAN IP. The TV must be able to reach
-      // it, and `npm run dev -w @go10/web` must already be running.
-      window.location.replace('http://192.168.1.100:5173')
+      // it, and both of these must already be running in apps/web (two
+      // terminals):
+      //   npx vite build --watch          (rebuilds dist/ on save, with
+      //                                     build.target applied -- the raw
+      //                                     `vite dev` server does NOT apply
+      //                                     build.target, and its HMR client
+      //                                     itself uses syntax Chromium 69
+      //                                     can't parse, so it blank-screens
+      //                                     this TV)
+      //   npx vite preview --host         (serves dist/ on the LAN; --host
+      //                                     is required, it doesn't listen
+      //                                     on the LAN otherwise)
+      // There's no HMR this way -- reload the TV app after each rebuild.
+      window.location.replace('http://192.168.1.100:4173')
     </script>
   </body>
 </html>
@@ -677,13 +689,19 @@ No code in this task beyond filling in one placeholder — this is the hardware 
 
 In `apps/tizen/dev/index.html`, replace `192.168.1.100` with your dev machine's actual LAN IP (the same one the TV must reach).
 
-- [ ] **Step 2: Start the dev server**
+- [ ] **Step 2: Start the watch build and preview server**
+
+The raw `vite dev` server doesn't apply `build.target`, and its own HMR client uses syntax Chromium 69 can't parse either — both blank-screen this TV. Use the built, lowered output instead, in two terminals:
 
 ```bash
-cd apps/web && npm run dev
+cd apps/web && npx vite build --watch
 ```
 
-Leave this running.
+```bash
+cd apps/web && npx vite preview --host
+```
+
+Leave both running. There's no HMR this way — reload the TV app after each rebuild.
 
 - [ ] **Step 3: Install the dev shell**
 

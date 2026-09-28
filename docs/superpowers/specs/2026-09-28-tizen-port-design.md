@@ -41,10 +41,14 @@ apps/tizen/
 Two build variants:
 
 - **Dev shell** (`config.dev.xml`): a native wrapper whose only job is loading
-  `apps/web`'s Vite dev server over the LAN. Sideloaded once; after that, the
-  day-to-day loop is just `npm run dev -w @go10/web` — edits hot-reload live on
-  the TV screen the same as in a browser tab, no repackage/reinstall per
-  change.
+  a build of `apps/web` served over the LAN. Sideloaded once; after that, the
+  day-to-day loop is `npx vite build --watch` + `npx vite preview --host` in
+  `apps/web` (two terminals) and a reload on the TV after each rebuild — no
+  repackage/reinstall of the Tizen app itself per change. Not the raw `vite
+  dev` server: it doesn't apply `build.target`, and its own HMR client uses
+  syntax Chromium 69 can't parse either, so it blank-screens this TV. This
+  costs true HMR (state-preserving hot reload) for a manual-reload watch
+  loop, which is still far faster than a full Tizen repackage per change.
 - **Prod bundle** (`config.prod.xml`): bundles `apps/web`'s real `vite build`
   output, packaged fully local/offline. Used for periodic full-fidelity checks
   so the fast dev loop's fidelity gap (a `.wgt` pointing at a remote URL runs
@@ -137,7 +141,10 @@ back-dispatch logic.
 5. `apps/tizen/scripts/install-dev.sh` — packages `config.dev.xml`, signs it,
    `sdb install`s it to the TV. One-time (or whenever the dev-shell's own
    config changes, not per app code change).
-6. Day-to-day: `npm run dev -w @go10/web`, launch the sideloaded app on the
-   TV — edits hot-reload live, no further packaging steps.
+6. Day-to-day, in `apps/web` (two terminals): `npx vite build --watch` and
+   `npx vite preview --host`, launch the sideloaded app on the TV, and
+   reload it after each rebuild — no further packaging steps. (Not `npm run
+   dev`: see "Two build variants" above for why the raw dev server doesn't
+   work on this TV.)
 7. Periodically: `apps/tizen/scripts/build-prod.sh` for a full-fidelity,
    fully local/offline check.

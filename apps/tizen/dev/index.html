@@ -7,8 +7,20 @@
   <body>
     <script>
       // Replace with your dev machine's LAN IP. The TV must be able to reach
-      // it, and `npm run dev -w @go10/web` must already be running.
-      window.location.replace('http://192.168.1.100:5173')
+      // it, and both of these must already be running in apps/web (two
+      // terminals):
+      //   npx vite build --watch          (rebuilds dist/ on save, with
+      //                                     build.target applied -- the raw
+      //                                     `vite dev` server does NOT apply
+      //                                     build.target, and its HMR client
+      //                                     itself uses syntax Chromium 69
+      //                                     can't parse, so it blank-screens
+      //                                     this TV)
+      //   npx vite preview --host         (serves dist/ on the LAN; --host
+      //                                     is required, it doesn't listen
+      //                                     on the LAN otherwise)
+      // There's no HMR this way -- reload the TV app after each rebuild.
+      window.location.replace('http://192.168.1.100:4173')
     </script>
   </body>
 </html>
