@@ -1,5 +1,6 @@
 import type { Section } from '../catalog/selectTitles'
 import { externalTitlesEnabled } from '../external/config'
+import type { SearchSource } from '../external/mergeSearch'
 
 export type { Section }
 
@@ -7,8 +8,17 @@ export type Route =
   | { name: 'home' }
   | { name: 'title'; key: string }
   | { name: 'play'; key: string; videoId: string }
-  | { name: 'catalog'; section: Section; query: string; catalogOnly?: true }
+  | { name: 'catalog'; section: Section; query: string; source?: Exclude<SearchSource, 'all'> }
   | { name: 'collection'; id: string }
+
+/** `solo=` values; "Todas" is the default and has none. */
+const SOURCE_SLUGS: Record<Exclude<SearchSource, 'all'>, string> = { catalog: 'catalogo', tmdb: 'original' }
+
+function sourceFromSlug(slug: string | null): Exclude<SearchSource, 'all'> | null {
+  if (slug === SOURCE_SLUGS.catalog) return 'catalog'
+  if (slug === SOURCE_SLUGS.tmdb) return 'tmdb'
+  return null
+}
 
 const SECTION_SLUGS: Record<Exclude<Section, 'all'>, string> = { movie: 'peliculas', show: 'series' }
 
@@ -47,11 +57,11 @@ export function parseRoute(pathname: string, search = ''): Route {
     const params = new URLSearchParams(search)
     const section = sectionFromSlug(params.get('en'))
     const query = params.get('q') ?? ''
-    // "Solo catálogo" only means something while external titles exist.
-    const catalogOnly = externalTitlesEnabled() && params.get('solo') === 'catalogo'
+    // A source only means something while external titles exist.
+    const source = externalTitlesEnabled() ? sourceFromSlug(params.get('solo')) : null
     // A blank search is just the section it was scoped to.
     if (query.trim() === '') return browseRoute(section)
-    return catalogOnly ? { name: 'catalog', section, query, catalogOnly: true } : { name: 'catalog', section, query }
+    return source ? { name: 'catalog', section, query, source } : { name: 'catalog', section, query }
   }
 
   return { name: 'home' }
@@ -73,7 +83,7 @@ export function routeToPath(route: Route): string {
       }
       const params = new URLSearchParams({ q: route.query })
       if (route.section !== 'all') params.set('en', SECTION_SLUGS[route.section])
-      if (route.catalogOnly) params.set('solo', 'catalogo')
+      if (route.source) params.set('solo', SOURCE_SLUGS[route.source])
       return `/buscar?${params}`
     }
   }

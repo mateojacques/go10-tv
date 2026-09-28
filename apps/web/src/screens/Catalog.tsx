@@ -5,7 +5,7 @@ import { Card } from '../components/Card'
 import { useGridColumns } from './useGridColumns'
 import { externalTitlesEnabled } from '@go10/core/external/config'
 import { useTmdbSearch } from '../external/useTmdbSearch'
-import { mergeSearch } from '@go10/core/external/mergeSearch'
+import { mergeSearch, type SearchSource } from '@go10/core/external/mergeSearch'
 import { catalogHeading } from '@go10/core/catalog/catalogHeading'
 import './Catalog.css'
 
@@ -23,19 +23,19 @@ export function Catalog({
   titles,
   section,
   query,
-  catalogOnly = false,
+  source = 'all',
   onSelect,
 }: {
   titles: Title[]
   section: Section
   query: string
-  /** "Solo catálogo": skip TMDB for this search. */
-  catalogOnly?: boolean
+  /** "Doblaje latino" skips TMDB; "Lenguaje original" skips the catalog. */
+  source?: SearchSource
   onSelect: (title: Title) => void
 }) {
   const selection = useMemo(() => selectTitles(titles, section, query), [titles, section, query])
-  const tmdb = useTmdbSearch(query, section, externalTitlesEnabled() && !catalogOnly && selection.mode !== 'browse')
-  const shown = mergeSearch(selection, tmdb, query)
+  const tmdb = useTmdbSearch(query, section, externalTitlesEnabled() && source !== 'catalog' && selection.mode !== 'browse')
+  const shown = mergeSearch(selection, tmdb, query, source)
 
   return (
     <div className="go-catalog">

@@ -95,8 +95,24 @@ describe('CatalogView', () => {
 
   it('Doblaje latino searches the catalog only', async () => {
     external(true)
-    await render(<CatalogView titles={titles} section="all" query="dragon" catalogOnly imageBase={IMG} onSelect={jest.fn()} />)
+    await render(<CatalogView titles={titles} section="all" query="dragon" source="catalog" imageBase={IMG} onSelect={jest.fn()} />)
     expect(tmdb).toHaveBeenCalledWith('dragon', 'all', false)
+  })
+
+  it('Lenguaje original shows TMDB hits only', async () => {
+    external(true)
+    tmdb.mockReturnValue({ status: 'done', titles: [BATMAN] })
+    await render(<CatalogView titles={titles} section="all" query="dig" source="tmdb" imageBase={IMG} onSelect={jest.fn()} />)
+    expect(screen.getAllByRole('button').map((b) => b.props.accessibilityLabel)).toEqual(['Batman'])
+    expect(tmdb).toHaveBeenCalledWith('dig', 'all', true)
+  })
+
+  it('Lenguaje original never falls back to catalog suggestions', async () => {
+    external(true)
+    tmdb.mockReturnValue({ status: 'done', titles: [] })
+    await render(<CatalogView titles={titles} section="all" query="zzzz" source="tmdb" imageBase={IMG} onSelect={jest.fn()} />)
+    expect(screen.getByText('No hay títulos.')).toBeTruthy()
+    expect(screen.queryByText('Quizás te interese')).toBeNull()
   })
 
   it('never asks TMDB while browsing a section', async () => {

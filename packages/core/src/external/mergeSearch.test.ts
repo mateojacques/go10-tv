@@ -8,6 +8,13 @@ const catalog = [t('c1'), t('c2')]
 const tmdb = (status: TmdbSearchState['status'], titles: Title[] = []): TmdbSearchState => ({ status, titles })
 
 describe('mergeSearch', () => {
+  it('leaves the catalog out with source tmdb', () => {
+    expect(mergeSearch({ titles: catalog, mode: 'results' }, tmdb('done', [t('x')]), 'c', 'tmdb')).toEqual({ titles: [t('x')], mode: 'results', external: true })
+    expect(mergeSearch({ titles: catalog, mode: 'results' }, tmdb('pending'), 'c', 'tmdb')).toEqual({ titles: [], mode: 'searching', external: false })
+    expect(mergeSearch({ titles: catalog, mode: 'suggestions' }, tmdb('done'), 'c', 'tmdb')).toEqual({ titles: [], mode: 'results', external: false })
+    expect(mergeSearch({ titles: catalog, mode: 'results' }, tmdb('failed'), 'c', 'tmdb')).toEqual({ titles: [], mode: 'results', external: false })
+  })
+
   it('leaves browsing and switched-off searches alone', () => {
     expect(mergeSearch({ titles: catalog, mode: 'browse' }, tmdb('off'), 'c')).toEqual({ titles: catalog, mode: 'browse', external: false })
     expect(mergeSearch({ titles: catalog, mode: 'results' }, tmdb('off'), 'c')).toEqual({ titles: catalog, mode: 'results', external: false })

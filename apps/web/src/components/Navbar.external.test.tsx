@@ -33,27 +33,30 @@ afterEach(() => vi.unstubAllEnvs())
 describe('Navbar source chip (external titles on)', () => {
   beforeEach(() => enableExternalTitles())
 
-  it('toggles between Lenguaje original and Doblaje latino in place', () => {
+  it('cycles Todas → Doblaje latino → Lenguaje original in place', () => {
     const spy = vi.fn()
     render(<Harness initial={{ name: 'catalog', section: 'all', query: 'bat' }} spy={spy} />)
 
-    fireEvent.click(screen.getByText('Lenguaje original', { selector: '.go-nav_source' }))
-    expect(spy).toHaveBeenLastCalledWith({ name: 'catalog', section: 'all', query: 'bat', catalogOnly: true }, { replace: true })
+    fireEvent.click(screen.getByText('Todas', { selector: '.go-nav_source' }))
+    expect(spy).toHaveBeenLastCalledWith({ name: 'catalog', section: 'all', query: 'bat', source: 'catalog' }, { replace: true })
 
     fireEvent.click(screen.getByText('Doblaje latino', { selector: '.go-nav_source' }))
+    expect(spy).toHaveBeenLastCalledWith({ name: 'catalog', section: 'all', query: 'bat', source: 'tmdb' }, { replace: true })
+
+    fireEvent.click(screen.getByText('Lenguaje original', { selector: '.go-nav_source' }))
     expect(spy).toHaveBeenLastCalledWith({ name: 'catalog', section: 'all', query: 'bat' }, { replace: true })
   })
 
-  it('keeps catalog-only while typing and when the section chip is removed', () => {
+  it('keeps the source while typing and when the section chip is removed', () => {
     const spy = vi.fn()
-    render(<Harness initial={{ name: 'catalog', section: 'movie', query: 'bat', catalogOnly: true }} spy={spy} />)
+    render(<Harness initial={{ name: 'catalog', section: 'movie', query: 'bat', source: 'catalog' }} spy={spy} />)
 
     fireEvent.click(input())
     fireEvent.change(input(), { target: { value: 'batm' } })
-    expect(spy).toHaveBeenLastCalledWith({ name: 'catalog', section: 'movie', query: 'batm', catalogOnly: true }, { replace: true })
+    expect(spy).toHaveBeenLastCalledWith({ name: 'catalog', section: 'movie', query: 'batm', source: 'catalog' }, { replace: true })
 
     fireEvent.click(screen.getByLabelText('Quitar filtro Películas'))
-    expect(spy).toHaveBeenLastCalledWith({ name: 'catalog', section: 'all', query: 'batm', catalogOnly: true }, { replace: true })
+    expect(spy).toHaveBeenLastCalledWith({ name: 'catalog', section: 'all', query: 'batm', source: 'catalog' }, { replace: true })
   })
 
   it('still sends Enter from the search box to the first result, not the chip', () => {
@@ -65,15 +68,14 @@ describe('Navbar source chip (external titles on)', () => {
 
   it('has no chip without a query', () => {
     render(<Harness initial={{ name: 'catalog', section: 'movie', query: '' }} />)
-    expect(screen.queryByText('Lenguaje original', { selector: '.go-nav_source' })).toBeNull()
+    expect(screen.queryByText('Todas', { selector: '.go-nav_source' })).toBeNull()
   })
 })
 
 describe('Navbar source chip (external titles off)', () => {
   it('is never shown', () => {
     render(<Harness initial={{ name: 'catalog', section: 'all', query: 'bat' }} />)
-    expect(screen.queryByText('Lenguaje original', { selector: '.go-nav_source' })).toBeNull()
-    expect(screen.queryByText('Doblaje latino', { selector: '.go-nav_source' })).toBeNull()
+    expect(screen.queryByText('Todas', { selector: '.go-nav_source' })).toBeNull()
   })
 })
 
@@ -86,7 +88,7 @@ describe('Navbar phone scope menu (external titles on)', () => {
     fireEvent.click(screen.getByRole('button', { name: 'Buscar en: Series' }))
     fireEvent.click(screen.getByRole('menuitemradio', { name: 'Doblaje latino' }))
     expect(spy).toHaveBeenLastCalledWith(
-      { name: 'catalog', section: 'show', query: 'bat', catalogOnly: true },
+      { name: 'catalog', section: 'show', query: 'bat', source: 'catalog' },
       { replace: true },
     )
   })

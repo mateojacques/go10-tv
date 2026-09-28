@@ -4,6 +4,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context'
 import { SECTION_LABELS } from '@go10/core/catalog/catalogHeading'
 import type { Section } from '@go10/core/catalog/selectTitles'
 import { externalTitlesEnabled } from '@go10/core/external/config'
+import { SEARCH_SOURCES, type SearchSource } from '@go10/core/external/mergeSearch'
 import type { Title } from '@go10/core/types'
 import { SEARCH_DEBOUNCE_MS, useDebounced } from '../hooks/useDebounced'
 import { theme } from '../theme'
@@ -33,16 +34,16 @@ function Chip({ label, selected, onPress }: { label: string; selected: boolean; 
  * section chips replace the web's scope chip and phone menu; D-pad Down
  * from the input reaches them, then the first result.
  */
-export function SearchView({ titles, section, query, catalogOnly, imageBase, onQueryChange, onSectionChange, onCatalogOnlyChange, onSelect, onBack }: {
+export function SearchView({ titles, section, query, source, imageBase, onQueryChange, onSectionChange, onSourceChange, onSelect, onBack }: {
   titles: Title[]
   section: Section
   query: string
   imageBase: string
   onQueryChange: (query: string) => void
   onSectionChange: (section: Section) => void
-  /** The web's "Fuente": Doblaje latino searches the catalog only. */
-  catalogOnly: boolean
-  onCatalogOnlyChange: (catalogOnly: boolean) => void
+  /** The web's "Fuente": Todas, Doblaje latino (catalog only) or Lenguaje original (TMDB only). */
+  source: SearchSource
+  onSourceChange: (source: SearchSource) => void
   onSelect: (title: Title) => void
   onBack: () => void
 }) {
@@ -89,12 +90,13 @@ export function SearchView({ titles, section, query, catalogOnly, imageBase, onQ
         {/* The web's "Fuente": only while searching with external titles on. */}
         {externalTitlesEnabled() && query.trim() !== '' && (
           <TVFocusGuideView autoFocus style={styles.chips}>
-            <Chip label="Lenguaje original" selected={!catalogOnly} onPress={() => onCatalogOnlyChange(false)} />
-            <Chip label="Doblaje latino" selected={catalogOnly} onPress={() => onCatalogOnlyChange(true)} />
+            {SEARCH_SOURCES.map((option) => (
+              <Chip key={option.value} label={option.label} selected={option.value === source} onPress={() => onSourceChange(option.value)} />
+            ))}
           </TVFocusGuideView>
         )}
       </View>
-      <CatalogView titles={titles} section={section} query={shown} catalogOnly={catalogOnly} imageBase={imageBase} onSelect={onSelect} />
+      <CatalogView titles={titles} section={section} query={shown} source={source} imageBase={imageBase} onSelect={onSelect} />
     </View>
   )
 }
@@ -109,7 +111,7 @@ const styles = StyleSheet.create({
     borderRadius: 999, backgroundColor: theme.color.bgRaised, borderWidth: 1, borderColor: theme.color.hairline,
   },
   input: { flex: 1, padding: 0, color: theme.color.text, fontFamily: theme.font.display, fontSize: tv ? 11 : 17 },
-  chips: { flexDirection: 'row', gap: 8 },
+  chips: { flexDirection: 'row', flexWrap: 'wrap', gap: 8 },
   chip: { paddingHorizontal: tv ? 10 : 14, paddingVertical: tv ? 4 : 7, borderRadius: 999, backgroundColor: 'rgba(242, 244, 240, 0.07)', borderWidth: 2, borderColor: 'transparent' },
   chipActive: { backgroundColor: theme.color.text },
   chipFocused: { borderColor: theme.color.accent },

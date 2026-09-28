@@ -1,6 +1,7 @@
 import { Redirect, router, useLocalSearchParams } from 'expo-router'
 import { useState } from 'react'
 import type { Section } from '@go10/core/catalog/selectTitles'
+import type { SearchSource } from '@go10/core/external/mergeSearch'
 import { parseRoute } from '@go10/core/router/route'
 import { openTitle } from '../browse/navigate'
 import { LoadingScreen } from '../components/LoadingScreen'
@@ -23,7 +24,7 @@ export default function SearchScreen() {
     return parseRoute('/buscar', `?${search}`)
   })
   const [section, setSection] = useState<Section>(initialRoute.name === 'catalog' ? initialRoute.section : 'all')
-  const [catalogOnly, setCatalogOnly] = useState(initialRoute.name === 'catalog' && initialRoute.catalogOnly === true)
+  const [source, setSource] = useState<SearchSource>((initialRoute.name === 'catalog' && initialRoute.source) || 'all')
   const { state } = useCatalog()
 
   if (state.status === 'loading') return <LoadingScreen />
@@ -36,8 +37,8 @@ export default function SearchScreen() {
       imageBase={imageBase}
       onQueryChange={setQuery}
       onSectionChange={setSection}
-      catalogOnly={catalogOnly}
-      onCatalogOnlyChange={setCatalogOnly}
+      source={source}
+      onSourceChange={setSource}
       onSelect={openTitle}
       onBack={() => router.back()}
     />

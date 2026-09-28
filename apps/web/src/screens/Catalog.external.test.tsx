@@ -4,6 +4,7 @@ import { Catalog } from './Catalog'
 import { FocusProvider } from '../focus/FocusProvider'
 import type { Title } from '@go10/core/types'
 import type { Section } from '@go10/core/catalog/selectTitles'
+import type { SearchSource } from '@go10/core/external/mergeSearch'
 import { resetTmdbClientForTests } from '@go10/core/external/tmdb/client'
 import { resetTmdbSearchForTests } from '../external/useTmdbSearch'
 import { enableExternalTitles, tmdbFetch } from '@go10/core/external/testing'
@@ -21,10 +22,10 @@ const GENRES = { '/genre/movie/list': { genres: [] }, '/genre/tv/list': { genres
 const DARK_KNIGHT = { id: 155, media_type: 'movie', title: 'Batman: El caballero de la noche', backdrop_path: '/b.jpg' }
 const BREAKING_BAD = { id: 1396, media_type: 'tv', name: 'Breaking Bad', poster_path: '/p.jpg' }
 
-function renderSearch(query: string, { section = 'all' as Section, catalogOnly = false } = {}) {
+function renderSearch(query: string, { section = 'all' as Section, source = 'all' as SearchSource } = {}) {
   return render(
     <FocusProvider onBack={() => {}}>
-      <Catalog titles={CATALOG} section={section} query={query} catalogOnly={catalogOnly} onSelect={() => {}} />
+      <Catalog titles={CATALOG} section={section} query={query} source={source} onSelect={() => {}} />
     </FocusProvider>,
   )
 }
@@ -98,14 +99,23 @@ describe('Catalog with external titles', () => {
     await waitFor(() => expect(screen.getAllByText('Quizás te interese')).toHaveLength(2))
   })
 
-  it('makes no TMDB request with Solo catálogo', async () => {
+  it('makes no TMDB request with Doblaje latino', async () => {
     const fetch = tmdbFetch({ ...GENRES, '/search/multi': { results: [BREAKING_BAD] } })
     vi.stubGlobal('fetch', fetch)
-    renderSearch('breaking', { catalogOnly: true })
+    renderSearch('breaking', { source: 'catalog' })
 
     expect(screen.getByText('Quizás te interese')).not.toBeNull()
     await new Promise((resolve) => setTimeout(resolve, 450))
     expect(fetch).not.toHaveBeenCalled()
+  })
+
+  it('shows only TMDB results with Lenguaje original', async () => {
+    vi.stubGlobal('fetch', tmdbFetch({ ...GENRES, '/search/multi': { results: [DARK_KNIGHT] } }))
+    renderSearch('batman', { source: 'tmdb' })
+
+    expect(screen.getByText('Buscando…')).not.toBeNull()
+    await screen.findByText('Batman: El caballero de la noche')
+    expect(cardNames()).toEqual(['Batman: El caballero de la noche'])
   })
 
   it("searches the section's endpoint", async () => {

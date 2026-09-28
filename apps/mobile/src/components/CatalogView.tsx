@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native'
 import { catalogHeading } from '@go10/core/catalog/catalogHeading'
 import { selectTitles, type Section } from '@go10/core/catalog/selectTitles'
 import { externalTitlesEnabled } from '@go10/core/external/config'
-import { mergeSearch } from '@go10/core/external/mergeSearch'
+import { mergeSearch, type SearchSource } from '@go10/core/external/mergeSearch'
 import type { Title } from '@go10/core/types'
 import { useTmdbSearch } from '../external/useTmdbSearch'
 import { theme } from '../theme'
@@ -14,12 +14,12 @@ import { CatalogGrid } from './CatalogGrid'
  * with TMDB hits ranked in when external titles are on: the same view serves Películas,
  * Series and search results.
  */
-export function CatalogView({ titles, section, query, catalogOnly = false, imageBase, onSelect, top = 0, preferFirst }: {
+export function CatalogView({ titles, section, query, source = 'all', imageBase, onSelect, top = 0, preferFirst }: {
   titles: Title[]
   section: Section
   query: string
-  /** "Doblaje latino": skip TMDB for this search. */
-  catalogOnly?: boolean
+  /** "Doblaje latino" skips TMDB; "Lenguaje original" skips the catalog. */
+  source?: SearchSource
   imageBase: string
   onSelect: (title: Title) => void
   /** Room above the heading for an overlaid navbar. */
@@ -27,8 +27,8 @@ export function CatalogView({ titles, section, query, catalogOnly = false, image
   preferFirst?: boolean
 }) {
   const selection = useMemo(() => selectTitles(titles, section, query), [titles, section, query])
-  const tmdb = useTmdbSearch(query, section, externalTitlesEnabled() && !catalogOnly && selection.mode !== 'browse')
-  const shown = mergeSearch(selection, tmdb, query)
+  const tmdb = useTmdbSearch(query, section, externalTitlesEnabled() && source !== 'catalog' && selection.mode !== 'browse')
+  const shown = mergeSearch(selection, tmdb, query, source)
   const counted = shown.mode === 'results' || shown.mode === 'browse'
 
   const header = (

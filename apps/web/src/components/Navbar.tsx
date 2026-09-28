@@ -4,6 +4,7 @@ import { useFocusable } from '../focus/useFocusable'
 import { useFocusState } from '../focus/FocusProvider'
 import { browseRoute, type Route, type Section } from '@go10/core/router/route'
 import { externalTitlesEnabled } from '@go10/core/external/config'
+import { SEARCH_SOURCES, type SearchSource } from '@go10/core/external/mergeSearch'
 import './Navbar.css'
 
 /** The navbar sits above everything else on the screen in the focus grid. */
@@ -63,9 +64,16 @@ export function Navbar({
   const hasQuery = query.trim() !== ''
   const sectionLabel = section === 'all' ? null : SECTION_LABELS[section]
   const isBrowsing = (target: Section) => section === target && !hasQuery
-  const catalogOnly = route.name === 'catalog' && route.catalogOnly === true
+  const source: SearchSource = (route.name === 'catalog' && route.source) || 'all'
+  const sourceIndex = SEARCH_SOURCES.findIndex((option) => option.value === source)
+  const nextSource = SEARCH_SOURCES[(sourceIndex + 1) % SEARCH_SOURCES.length]
   // Carried through every search navigation, like the section scope.
-  const scope = catalogOnly ? { catalogOnly: true as const } : {}
+  const scope = source === 'all' ? {} : { source }
+  const chooseSource = (target: SearchSource) =>
+    onNavigate(
+      target === 'all' ? { name: 'catalog', section, query } : { name: 'catalog', section, query, source: target },
+      { replace: true },
+    )
 
   const openSection = (target: Exclude<Section, 'all'>) => {
     // Already there: don't stack a duplicate history entry.
@@ -102,16 +110,9 @@ export function Navbar({
   if (hasQuery && externalTitlesEnabled()) {
     scopeGroups.push({
       label: 'Fuente',
-      value: catalogOnly ? 'catalog' : 'everything',
-      options: [
-        { value: 'everything', label: 'Lenguaje original' },
-        { value: 'catalog', label: 'Doblaje latino' },
-      ],
-      onChange: (value) =>
-        onNavigate(
-          value === 'catalog' ? { name: 'catalog', section, query, catalogOnly: true } : { name: 'catalog', section, query },
-          { replace: true },
-        ),
+      value: source,
+      options: SEARCH_SOURCES,
+      onChange: (value) => chooseSource(value as SearchSource),
     })
   }
 
@@ -180,15 +181,12 @@ export function Navbar({
             id="nav:source"
             col={4}
             className="go-nav_scope go-nav_source"
-            ariaLabel={catalogOnly ? 'Buscar en todo' : 'Buscar solo en el catálogo'}
-            onSelect={() =>
-              onNavigate(
-                catalogOnly ? { name: 'catalog', section, query } : { name: 'catalog', section, query, catalogOnly: true },
-                { replace: true },
-              )
-            }
+            // One chip cycling through the sources: the remote's Left/Right
+            // stay free to move between the navbar's controls.
+            ariaLabel={`Fuente: ${SEARCH_SOURCES[sourceIndex].label}. Cambiar a ${nextSource.label}`}
+            onSelect={() => chooseSource(nextSource.value)}
           >
-            {catalogOnly ? 'Doblaje latino' : 'Lenguaje original'}
+            {SEARCH_SOURCES[sourceIndex].label}
           </NavButton>
         )}
         {/* Phones only: the way out of the expanded search. Off the focus grid

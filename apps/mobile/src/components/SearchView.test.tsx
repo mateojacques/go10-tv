@@ -2,6 +2,7 @@ import { setExternalConfigSource } from '@go10/core/external/config'
 import { act, render, screen, userEvent } from '@testing-library/react-native'
 import { useState } from 'react'
 import type { Section } from '@go10/core/catalog/selectTitles'
+import type { SearchSource } from '@go10/core/external/mergeSearch'
 import type { Title } from '@go10/core/types'
 import { SearchView } from './SearchView'
 
@@ -17,10 +18,10 @@ const titles = [t('a', 'Coraje'), t('b', 'Dragon Ball', 'show'), t('c', 'Digimon
 function Harness({ initialSection = 'all' as Section, onSelect = jest.fn(), onBack = jest.fn() }) {
   const [query, setQuery] = useState('')
   const [section, setSection] = useState<Section>(initialSection)
-  const [catalogOnly, setCatalogOnly] = useState(false)
+  const [source, setSource] = useState<SearchSource>('all')
   return (
     <SearchView titles={titles} section={section} query={query} imageBase="https://tv.test/"
-      onQueryChange={setQuery} onSectionChange={setSection} catalogOnly={catalogOnly} onCatalogOnlyChange={setCatalogOnly} onSelect={onSelect} onBack={onBack} />
+      onQueryChange={setQuery} onSectionChange={setSection} source={source} onSourceChange={setSource} onSelect={onSelect} onBack={onBack} />
   )
 }
 
@@ -79,15 +80,18 @@ describe('SearchView', () => {
     expect(screen.queryByRole('button', { name: 'Doblaje latino' })).toBeNull()
     const user = userEvent.setup({ advanceTimers: jest.advanceTimersByTime })
     await user.type(screen.getByPlaceholderText('Buscar'), 'dragon')
-    expect(screen.getByRole('button', { name: 'Lenguaje original' }).props.accessibilityState).toMatchObject({ selected: true })
+    expect(screen.getByRole('button', { name: 'Todas' }).props.accessibilityState).toMatchObject({ selected: true })
     await user.press(screen.getByRole('button', { name: 'Doblaje latino' }))
     expect(screen.getByRole('button', { name: 'Doblaje latino' }).props.accessibilityState).toMatchObject({ selected: true })
+    await user.press(screen.getByRole('button', { name: 'Lenguaje original' }))
+    expect(screen.getByRole('button', { name: 'Lenguaje original' }).props.accessibilityState).toMatchObject({ selected: true })
+    expect(screen.getByRole('button', { name: 'Todas' }).props.accessibilityState).toMatchObject({ selected: false })
   })
 
   it('hides the source choice while external titles are off', async () => {
     await render(<Harness />)
     const user = userEvent.setup({ advanceTimers: jest.advanceTimersByTime })
     await user.type(screen.getByPlaceholderText('Buscar'), 'dragon')
-    expect(screen.queryByRole('button', { name: 'Lenguaje original' })).toBeNull()
+    expect(screen.queryByRole('button', { name: 'Todas' })).toBeNull()
   })
 })
