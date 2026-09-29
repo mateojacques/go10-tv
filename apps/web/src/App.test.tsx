@@ -157,7 +157,7 @@ describe('App routing', () => {
     expect(window.location.pathname).toBe('/title/ep-show/play/201')
   })
 
-  it('jumps to the next/previous episode on Shift+ArrowRight/ArrowLeft', async () => {
+  it('jumps to the next/previous episode with the track keys', async () => {
     vi.stubGlobal(
       'fetch',
       siteFetch(EPISODIC_CSV),
@@ -171,14 +171,14 @@ describe('App routing', () => {
     fireEvent.click(screen.getByText('Reproducir'))
     await waitFor(() => expect(window.location.pathname).toBe('/title/ep-show/play/201'))
 
-    fireEvent.keyDown(window, { key: 'ArrowRight', shiftKey: true })
+    fireEvent.keyDown(window, { key: 'MediaTrackNext' })
     await waitFor(() => expect(window.location.pathname).toBe('/title/ep-show/play/202'))
 
-    fireEvent.keyDown(window, { key: 'ArrowLeft', shiftKey: true })
+    fireEvent.keyDown(window, { key: 'MediaTrackPrevious' })
     await waitFor(() => expect(window.location.pathname).toBe('/title/ep-show/play/201'))
 
     // No previous episode from the first one — nothing happens.
-    fireEvent.keyDown(window, { key: 'ArrowLeft', shiftKey: true })
+    fireEvent.keyDown(window, { key: 'MediaTrackPrevious' })
     expect(window.location.pathname).toBe('/title/ep-show/play/201')
   })
 

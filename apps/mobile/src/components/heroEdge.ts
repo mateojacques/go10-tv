@@ -1,4 +1,4 @@
-import type { RemoteKey } from '../player/playerKeys'
+import type { RemoteKey } from '@go10/core/player/playerKeys'
 
 /**
  * TV: which way a D-pad press moves the hero carousel. The actions row traps

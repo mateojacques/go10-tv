@@ -10,9 +10,23 @@ declare const tizen:
 const TIZEN_BACK_KEYCODE = 10009
 
 /**
- * Registers the physical Back/Return remote button -- Tizen doesn't deliver
- * it to the page at all otherwise -- and forwards it as the same synthetic
- * Escape keydown a real keyboard's Escape already produces, so
+ * The player's media keys (see player/remoteKey.ts). Tizen doesn't send
+ * unregistered media keys to the page at all.
+ */
+const MEDIA_KEYS = [
+  'MediaPlayPause',
+  'MediaPlay',
+  'MediaPause',
+  'MediaFastForward',
+  'MediaRewind',
+  'MediaTrackNext',
+  'MediaTrackPrevious',
+]
+
+/**
+ * Registers the physical Back/Return remote button and the media keys --
+ * Tizen doesn't deliver them to the page at all otherwise -- and forwards
+ * Back as the same synthetic Escape keydown a real keyboard's Escape already produces, so
  * FocusProvider's existing Escape handling needs no changes. A no-op outside
  * a packaged Tizen app (web, mobile-web, tests).
  */
@@ -31,10 +45,14 @@ export function installTizenPlatform(): void {
   })
 
   if (typeof tizen === 'undefined') return
-  try {
-    tizen.tvinputdevice.registerKey('Back')
-  } catch {
-    // Not fatal -- see the comment above.
+  // One at a time: a remote or firmware without one of these keys rejects
+  // just that key, not the rest.
+  for (const key of ['Back', ...MEDIA_KEYS]) {
+    try {
+      tizen.tvinputdevice.registerKey(key)
+    } catch {
+      // Not fatal -- see the comment above.
+    }
   }
 }
 

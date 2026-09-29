@@ -1,4 +1,4 @@
-import { beforeEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import type { CatalogRow } from '../types'
 import { readProgress, writeProgress, markWatched } from '../progress/progressStore'
 import { createPlaybackSession, playbackStart } from './playbackSession'
@@ -27,11 +27,11 @@ const vidTime = (currentTime: number) => ({
 })
 
 let clock = 0
-function setup() {
+function setup(seekCoalesceMs?: number) {
   const sent: unknown[] = []
   const onEnded = vi.fn()
   const onPlayingChange = vi.fn()
-  const session = createPlaybackSession({ send: (c) => sent.push(c), onEnded, onPlayingChange, now: () => clock })
+  const session = createPlaybackSession({ send: (c) => sent.push(c), onEnded, onPlayingChange, now: () => clock, seekCoalesceMs })
   return { session, sent, onEnded, onPlayingChange }
 }
 
@@ -151,6 +151,63 @@ describe('createPlaybackSession', () => {
     ])
   })
 
+  it('returns where each seek lands', () => {
+    const { session } = setup()
+    session.load(movie)
+    session.handle(okTime(100))
+    expect(session.seekBy(10)).toBe(110)
+    expect(session.seekBy(-500)).toBe(0)
+  })
+
+  it("keeps seeks within the chapter's own range", () => {
+    const { session, sent } = setup()
+    session.load(chapter(2, 600, 1200))
+    session.handle(okTime(605, 14000))
+    session.seekBy(-10)
+    session.handle(okTime(1195, 14000))
+    session.seekBy(10)
+    expect(sent).toEqual([{ action: 'seek', time: 600 }, { action: 'seek', time: 1199 }])
+  })
+
+  describe('with seekCoalesceMs', () => {
+    beforeEach(() => vi.useFakeTimers())
+    afterEach(() => vi.useRealTimers())
+
+    it('sends quick presses as one seek once the window closes', () => {
+      const { session, sent } = setup(400)
+      session.load(movie)
+      session.handle(okTime(100))
+      session.seekBy(10)
+      vi.advanceTimersByTime(150)
+      expect(session.seekBy(10)).toBe(120)
+      session.handle(okTime(101)) // a stale report while the seek waits
+      expect(session.seekBy(10)).toBe(130)
+      expect(sent).toEqual([])
+      vi.advanceTimersByTime(250)
+      expect(sent).toEqual([{ action: 'seek', time: 130 }])
+    })
+
+    it('a held key still seeks every window', () => {
+      const { session, sent } = setup(400)
+      session.load(movie)
+      session.handle(okTime(100))
+      for (let i = 0; i < 8; i++) {
+        session.seekBy(10)
+        vi.advanceTimersByTime(100)
+      }
+      expect(sent).toEqual([{ action: 'seek', time: 140 }, { action: 'seek', time: 180 }])
+    })
+
+    it('drops a waiting seek when another row loads', () => {
+      const { session, sent } = setup(400)
+      session.load(movie)
+      session.seekBy(10)
+      session.load(tmdb)
+      vi.advanceTimersByTime(400)
+      expect(sent).toEqual([])
+    })
+  })
+
   it('toggles ok.ru between pause and play, reporting the playing state', () => {
     const { session, sent, onPlayingChange } = setup()
     session.load(movie)
@@ -160,6 +217,16 @@ describe('createPlaybackSession', () => {
     session.togglePlay()
     expect(sent).toEqual([{ action: 'pause' }, { action: 'play' }])
     expect(onPlayingChange.mock.calls).toEqual([[true], [false], [true]])
+  })
+
+  it('plays and pauses outright, whatever the current state', () => {
+    const { session, sent } = setup()
+    session.load(movie)
+    session.handle(okTime(50))
+    session.setPlaying(true)
+    session.setPlaying(false)
+    session.setPlaying(false)
+    expect(sent).toEqual([{ action: 'play' }, { action: 'pause' }, { action: 'pause' }])
   })
 
   it('cannot toggle vidlove, which has no play/pause command', () => {

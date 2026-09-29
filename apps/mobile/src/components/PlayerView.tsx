@@ -12,7 +12,7 @@ import { usePlayerChrome } from '../platform/playerChrome'
 import { useBackPress, useRemoteKeys } from '../platform/remote'
 import { commandScript, hostHtml, parseHostMessage } from '../player/hostPage'
 import { allowNavigation } from '../player/navigationGuard'
-import { backAction, playerKeyAction } from '../player/playerKeys'
+import { backAction, playerKeyAction } from '@go10/core/player/playerKeys'
 import { theme } from '../theme'
 
 const tv = Platform.isTV
@@ -135,6 +135,7 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
     if (!action) return
     if (action.type === 'seekBy') session.seekBy(action.delta)
     else if (action.type === 'togglePlay') session.togglePlay()
+    else if (action.type === 'play' || action.type === 'pause') session.setPlaying(action.type === 'play')
     else if (action.type === 'openBar') setBarOpen(true)
     else if (action.type === 'next') onNext?.()
     else onPrev?.()

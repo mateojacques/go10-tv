@@ -1,22 +1,29 @@
 import { useCallback, useEffect, useMemo, useReducer, useRef, useState } from 'react'
 import type { CatalogRow } from '@go10/core/types'
 import { playerRetryReducer, initialPlayerRetryState, backoffMs } from '@go10/core/player/playerRetry'
-import { markWatched, readProgress, resumeFromTime, writeProgress } from '@go10/core/progress/progressStore'
+import { createPlaybackSession, LOAD_TIMEOUT_MS } from '@go10/core/player/playbackSession'
+import { backAction, playerKeyAction, type PlayerAction } from '@go10/core/player/playerKeys'
 import { providerFor } from '@go10/core/player/providers/index'
-import { rowKey } from '@go10/core/catalog/rowKey'
 import { rowLabel } from '@go10/core/progress/describe'
+import { remoteKeyFromEvent } from '../player/remoteKey'
 import './Player.css'
 
-/** How long to wait for the embed before treating it as a load failure. */
-const LOAD_TIMEOUT_MS = 8000
+/** Seek presses this close together go to the embed as one seek. */
+const SEEK_COALESCE_MS = 400
 
-/** `timeupdate` fires several times a second; storage only needs a few. */
-const PROGRESS_SAVE_INTERVAL_MS = 5000
+/** How long the on-screen feedback for a key stays up. */
+const FEEDBACK_MS = 1200
 
-interface Position {
-  videoId: string
-  time: number
-  duration: number
+/** What the last remote key did, shown on screen: the embed reacts late on a TV. */
+type Feedback = { kind: 'seek'; delta: number; target: number } | { kind: 'play' | 'pause' }
+
+/** 75 -> "1:15", 3725 -> "1:02:05". */
+function clock(seconds: number): string {
+  const total = Math.floor(seconds)
+  const h = Math.floor(total / 3600)
+  const m = Math.floor((total % 3600) / 60)
+  const s = String(total % 60).padStart(2, '0')
+  return h > 0 ? `${h}:${String(m).padStart(2, '0')}:${s}` : `${m}:${s}`
 }
 
 export function Player({
@@ -28,128 +35,88 @@ export function Player({
 }: {
   row: CatalogRow
   onClose: () => void
-  /** Fired when the ok.ru embed reports its "ended" playback event. */
+  /** Fired when the embed reports the end of the row (the file's, or its chapter's). */
   onEnded?: () => void
-  /** Jump to a sibling episode: the bar's buttons, or Shift+ArrowLeft / Shift+ArrowRight. */
+  /** Jump to a sibling episode: the bar's buttons, or the remote's previous/next track keys. */
   onPrev?: () => void
   onNext?: () => void
 }) {
   const [state, dispatch] = useReducer(playerRetryReducer, initialPlayerRetryState)
   // The bar overlays the video, folded away to a small handle until wanted.
   const [barOpen, setBarOpen] = useState(false)
+  const [playing, setPlaying] = useState(false)
+  const [feedback, setFeedback] = useState<Feedback | null>(null)
   const loaded = useRef(false)
-  // The latest position ok.ru reported, saved to storage at most every
-  // PROGRESS_SAVE_INTERVAL_MS — and always on pause, reload, and close.
-  const positionRef = useRef<Position | null>(null)
-  const lastSaveRef = useRef(0)
-  const videoIdRef = useRef(rowKey(row))
-  videoIdRef.current = rowKey(row)
   const containerRef = useRef<HTMLDivElement>(null)
+  const barRef = useRef<HTMLDivElement>(null)
   const handleRef = useRef<HTMLButtonElement>(null)
   const closeRef = useRef<HTMLButtonElement>(null)
+  const playRef = useRef<HTMLButtonElement>(null)
   const frameRef = useRef<HTMLIFrameElement>(null)
   const provider = providerFor(row)
-  // Kept in refs for the message listener, which never re-subscribes.
+  const canTogglePlay = Boolean(provider.playMessage && provider.pauseMessage)
+
+  // Kept in refs so the window listeners never need to re-subscribe when
+  // these change across renders.
   const providerRef = useRef(provider)
   providerRef.current = provider
-  const rowRef = useRef(row)
-  rowRef.current = row
-  // For providers that can't start mid-video from the URL: where to seek
-  // once the embed first reports playback.
-  const pendingSeekRef = useRef<number | null>(null)
-
-  // Kept in refs so the message/keydown listeners never need to re-subscribe
-  // when these callbacks change identity across renders.
   const onEndedRef = useRef(onEnded)
   onEndedRef.current = onEnded
   const onPrevRef = useRef(onPrev)
   onPrevRef.current = onPrev
   const onNextRef = useRef(onNext)
   onNextRef.current = onNext
-  const chapterEndRef = useRef(row.chapter_end_seconds)
-  chapterEndRef.current = row.chapter_end_seconds
-  const chapterDurationRef = useRef(row.duration_seconds)
-  chapterDurationRef.current = row.duration_seconds
+  const onCloseRef = useRef(onClose)
+  onCloseRef.current = onClose
+  const barOpenRef = useRef(barOpen)
+  barOpenRef.current = barOpen
+  const playingRef = useRef(playing)
+  playingRef.current = playing
 
-  const flushProgress = useCallback(() => {
-    const position = positionRef.current
-    if (!position) return
-    writeProgress(position.videoId, position)
-    lastSaveRef.current = Date.now()
-  }, [])
+  // One session for the player's life; it follows the row as episodes
+  // change. The embed's own reports drive progress (saved at most every few
+  // seconds, and always on pause, reload and close), never a clock.
+  const [session] = useState(() =>
+    createPlaybackSession({
+      send: (command) => frameRef.current?.contentWindow?.postMessage(command, providerRef.current.origin),
+      onEnded: () => onEndedRef.current?.(),
+      onPlayingChange: setPlaying,
+      seekCoalesceMs: SEEK_COALESCE_MS,
+    }),
+  )
 
+  // A new file starts over: fresh retry state and a reload (the reset bumps reloadToken).
+  const videoRef = useRef(row.video_id)
   useEffect(() => {
+    if (videoRef.current === row.video_id) return
+    videoRef.current = row.video_id
     loaded.current = false
     dispatch({ type: 'reset' })
   }, [row.video_id])
 
-  const prevRowRef = useRef(row)
+  // Computed once per load (a new file or a reload), never per render: a new
+  // src would restart the video. load() also saves the outgoing position, so
+  // a reload resumes from the very latest one.
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  const embedSrc = useMemo(() => session.load(row), [state.reloadToken])
 
-  // Two rows sharing a `video_id` are chapters of the *same* file: jumping
-  // between them should seek the already-loaded iframe, not remount it (the
-  // effect above only reloads when `video_id` itself changes).
+  // Two rows sharing a `video_id` are chapters of the same file: moving
+  // between them seeks the loaded embed instead of reloading it.
   useEffect(() => {
-    const prev = prevRowRef.current
-    prevRowRef.current = row
-    if (prev.video_id !== row.video_id) return // a different file -- the effect above handles reloading it
-    if (rowKey(prev) === rowKey(row)) return // same chapter -- nothing to do
+    session.select(row)
+  }, [row, session])
 
-    flushProgress() // save the outgoing chapter's position under its own key first
-    videoIdRef.current = rowKey(row)
-    positionRef.current = null
-    frameRef.current?.contentWindow?.postMessage(
-      providerRef.current.seekMessage(row.chapter_start_seconds ?? 0),
-      providerRef.current.origin,
-    )
-  }, [row, flushProgress])
+  useEffect(() => () => session.flush(), [session])
 
-  // Save where playback got to when switching video or closing the player.
-  useEffect(() => {
-    return () => {
-      flushProgress()
-      positionRef.current = null
-    }
-  }, [row.video_id, flushProgress])
-
-  // The embed posts its real playback state to this window (each provider
-  // parses its own format). Unlike a wall-clock guess from
-  // `duration_seconds`, it's immune to seeking, pausing, and buffering.
   useEffect(() => {
     function onMessage(event: MessageEvent) {
-      const current = providerRef.current
-      if (event.origin !== current.origin) return
+      if (event.origin !== providerRef.current.origin) return
       if (event.source !== frameRef.current?.contentWindow) return
-      const parsed = current.parse(event.data, rowRef.current)
-      if (!parsed) return
-      const videoId = videoIdRef.current
-
-      if (parsed.kind === 'time') {
-        const resumeAt = pendingSeekRef.current
-        if (resumeAt !== null) {
-          pendingSeekRef.current = null
-          frameRef.current?.contentWindow?.postMessage(current.seekMessage(resumeAt), current.origin)
-        }
-
-        positionRef.current = { videoId, time: parsed.time, duration: parsed.duration }
-        if (Date.now() - lastSaveRef.current >= PROGRESS_SAVE_INTERVAL_MS) flushProgress()
-
-        const chapterEnd = chapterEndRef.current
-        if (chapterEnd != null && parsed.time >= chapterEnd) {
-          markWatched(videoId, chapterDurationRef.current)
-          positionRef.current = null
-          onEndedRef.current?.()
-        }
-      } else if (parsed.kind === 'paused') {
-        flushProgress()
-      } else {
-        markWatched(videoId, positionRef.current?.duration || parsed.time || 0)
-        positionRef.current = null
-        onEndedRef.current?.()
-      }
+      session.handle(event.data)
     }
     window.addEventListener('message', onMessage)
     return () => window.removeEventListener('message', onMessage)
-  }, [flushProgress])
+  }, [session])
 
   useEffect(() => {
     if (state.status === 'loading') {
@@ -165,50 +132,112 @@ export function Player({
       }, backoffMs(state.attempt))
       return () => clearTimeout(timer)
     }
-  }, [state.status, state.attempt])
+  }, [state.status, state.attempt, state.reloadToken])
 
   useEffect(() => {
+    if (!feedback) return
+    const timer = setTimeout(() => setFeedback(null), FEEDBACK_MS)
+    return () => clearTimeout(timer)
+  }, [feedback])
+
+  // The remote (spec: docs/superpowers/specs/2026-09-29-tizen-remote-player-
+  // and-performance-design.md, 1A): the same key map as the Android app.
+  useEffect(() => {
+    function run(action: PlayerAction) {
+      switch (action.type) {
+        case 'seekBy': {
+          const target = session.seekBy(action.delta)
+          if (target === null) return
+          // Quick presses add up on screen, as they do in the one seek sent.
+          setFeedback((current) => ({
+            kind: 'seek',
+            delta: (current?.kind === 'seek' ? current.delta : 0) + action.delta,
+            target,
+          }))
+          return
+        }
+        case 'togglePlay':
+        case 'play':
+        case 'pause': {
+          if (!session.canTogglePlay()) return
+          const play = action.type === 'togglePlay' ? !playingRef.current : action.type === 'play'
+          playingRef.current = play // before the re-render: a second quick press toggles back
+          session.setPlaying(play)
+          setFeedback({ kind: play ? 'play' : 'pause' })
+          return
+        }
+        case 'openBar':
+          setBarOpen(true)
+          return
+        case 'next':
+          onNextRef.current?.()
+          return
+        case 'previous':
+          onPrevRef.current?.()
+      }
+    }
+
+    // Left/Right step through the open bar's buttons; the page has no
+    // spatial navigation of its own here, and Chromium's may be off.
+    function stepInBar(step: -1 | 1) {
+      const buttons = Array.from(barRef.current?.querySelectorAll<HTMLButtonElement>('button:not(:disabled)') ?? [])
+      const index = buttons.indexOf(document.activeElement as HTMLButtonElement)
+      const next = buttons[Math.min(buttons.length - 1, Math.max(0, index + step))]
+      next?.focus({ preventScroll: true })
+    }
+
     function onKeyDown(event: KeyboardEvent) {
       if (event.key === 'Escape' || event.key === 'Backspace') {
         event.preventDefault()
-        onClose()
-      } else if (event.key === 'f' || event.key === 'F') {
+        if (backAction(barOpenRef.current) === 'closeBar') setBarOpen(false)
+        else onCloseRef.current()
+        return
+      }
+      if (event.key === 'f' || event.key === 'F') {
         event.preventDefault()
         if (document.fullscreenElement) {
           document.exitFullscreen()
         } else {
           containerRef.current?.requestFullscreen().catch(() => {})
         }
-      } else if (event.key === 'r' || event.key === 'R') {
+        return
+      }
+      if (event.key === 'r' || event.key === 'R') {
         event.preventDefault()
         loaded.current = false
         dispatch({ type: 'manualReload' })
-      } else if (event.shiftKey && event.key === 'ArrowLeft') {
-        event.preventDefault()
-        onPrevRef.current?.()
-      } else if (event.shiftKey && event.key === 'ArrowRight') {
-        event.preventDefault()
-        onNextRef.current?.()
+        return
       }
+
+      const key = remoteKeyFromEvent(event)
+      if (!key) return
+      if (barOpenRef.current && (key === 'left' || key === 'right')) {
+        event.preventDefault()
+        stepInBar(key === 'left' ? -1 : 1)
+        return
+      }
+      const action = playerKeyAction(key, barOpenRef.current)
+      if (!action) return
+      // Also keeps OK on the handle from clicking it closed again.
+      event.preventDefault()
+      run(action)
     }
     window.addEventListener('keydown', onKeyDown)
     return () => window.removeEventListener('keydown', onKeyDown)
-  }, [onClose])
+  }, [session])
 
   // The player has no custom spatial-nav grid of its own (unlike every other
   // screen -- see useFocusable.ts): its buttons are plain, natively
-  // focusable <button>s, and rely entirely on Tizen's own browser driving
-  // D-pad focus between them -- which it only does once one of them holds
-  // real DOM focus. The ok.ru/vidlove iframe can otherwise take that focus
-  // the moment it loads, and once it does, the remote's keys (Back
-  // included) go to the iframe's own document and never reach this page at
-  // all. Nothing here needs the iframe focused (playback is driven entirely
-  // by postMessage), so a real button is kept focused instead -- the handle
-  // while the bar is folded away, the close button once it's open -- and
-  // reclaimed the moment the iframe takes it (which surfaces here as this
-  // window blurring).
+  // focusable <button>s. The ok.ru/vidlove iframe can take DOM focus the
+  // moment it loads, and once it does, the remote's keys (Back included) go
+  // to the iframe's own document and never reach this page at all. Nothing
+  // here needs the iframe focused (playback is driven entirely by
+  // postMessage), so a real button is kept focused instead -- the handle
+  // while the bar is folded away, play/pause (else the close button) once
+  // it's open -- and reclaimed the moment the iframe takes it (which
+  // surfaces here as this window blurring).
   useEffect(() => {
-    const target = barOpen ? closeRef.current : handleRef.current
+    const target = barOpen ? (playRef.current ?? closeRef.current) : handleRef.current
     target?.focus({ preventScroll: true })
     function onWindowBlur() {
       setTimeout(() => target?.focus({ preventScroll: true }), 0)
@@ -217,24 +246,6 @@ export function Player({
     return () => window.removeEventListener('blur', onWindowBlur)
   }, [barOpen])
 
-  // Computed once per video and per reload — never per render. Progress is
-  // saved during playback, and recomputing here would change the iframe
-  // `src` and restart the video every few seconds.
-  const fromTime = useMemo(() => {
-    flushProgress() // a reload should resume from the very latest position
-    const resumeAt = resumeFromTime(readProgress(rowKey(row)))
-    if (resumeAt !== null) return resumeAt
-    // A chapter's own beginning isn't the file's beginning. row.video_id is
-    // still the only thing gating recomputation (see the comment above) --
-    // this only takes effect the render a genuinely new video starts loading.
-    return row.chapter_start_seconds && row.chapter_start_seconds > 0 ? row.chapter_start_seconds : null
-  }, [row.video_id, state.reloadToken, flushProgress])
-
-  // Reloads restart the embed from zero too, so re-arm on each one.
-  useEffect(() => {
-    pendingSeekRef.current = provider.resumesViaUrl ? null : fromTime
-  }, [fromTime, state.reloadToken, provider])
-
   const handleLoad = useCallback(() => {
     loaded.current = true
     dispatch({ type: 'loaded' })
@@ -242,8 +253,6 @@ export function Player({
 
   const heading = row.series_title || row.title
   const position = rowLabel(row)
-
-  const embedSrc = provider.src(row, provider.resumesViaUrl ? fromTime : null)
 
   return (
     <div className="go-player" ref={containerRef}>
@@ -259,7 +268,12 @@ export function Player({
         <span className="go-player_handle-chevron" aria-hidden="true" />
       </button>
 
-      <div id="go-player-bar" className={`go-player_bar${barOpen ? ' is-open' : ''}`} inert={!barOpen}>
+      <div
+        ref={barRef}
+        id="go-player-bar"
+        className={`go-player_bar${barOpen ? ' is-open' : ''}`}
+        inert={!barOpen}
+      >
         <button ref={closeRef} type="button" className="go-player_btn" onClick={onClose} aria-label="Volver">
           <span className="go-back_chevron" aria-hidden="true" />
         </button>
@@ -267,29 +281,65 @@ export function Player({
           <span className="go-player_title">{heading}</span>
           {position && <span className="go-player_season">{position}</span>}
         </div>
-        {(onPrev || onNext) && (
-          <div className="go-player_steps">
-            <button
-              type="button"
-              className="go-player_btn"
-              onClick={onPrev}
-              disabled={!onPrev}
-              aria-label="Episodio anterior"
-            >
-              <span className="go-player_step go-player_step--prev" aria-hidden="true" />
-            </button>
-            <button
-              type="button"
-              className="go-player_btn"
-              onClick={onNext}
-              disabled={!onNext}
-              aria-label="Episodio siguiente"
-            >
-              <span className="go-player_step" aria-hidden="true" />
-            </button>
+        {(onPrev || onNext || canTogglePlay) && (
+          <div className="go-player_controls">
+            {(onPrev || onNext) && (
+              <button
+                type="button"
+                className="go-player_btn"
+                onClick={onPrev}
+                disabled={!onPrev}
+                aria-label="Episodio anterior"
+              >
+                <span className="go-player_step go-player_step--prev" aria-hidden="true" />
+              </button>
+            )}
+            {/* vidlove has no play/pause command: no button (as on Android). */}
+            {canTogglePlay && (
+              <button
+                ref={playRef}
+                type="button"
+                className="go-player_btn"
+                onClick={() => {
+                  const play = !playingRef.current
+                  playingRef.current = play
+                  session.setPlaying(play)
+                }}
+                aria-label={playing ? 'Pausar' : 'Reproducir'}
+              >
+                <span className={`go-player_glyph go-player_glyph--${playing ? 'pause' : 'play'}`} aria-hidden="true" />
+              </button>
+            )}
+            {(onPrev || onNext) && (
+              <button
+                type="button"
+                className="go-player_btn"
+                onClick={onNext}
+                disabled={!onNext}
+                aria-label="Episodio siguiente"
+              >
+                <span className="go-player_step" aria-hidden="true" />
+              </button>
+            )}
           </div>
         )}
       </div>
+
+      {feedback && (
+        <div className="go-player_feedback" role="status">
+          {feedback.kind === 'seek' ? (
+            <>
+              <span className="go-player_feedback-delta">
+                {feedback.delta < 0 ? '−' : '+'}
+                {Math.abs(feedback.delta)} s
+              </span>
+              <span className="go-player_feedback-time">{clock(feedback.target)}</span>
+            </>
+          ) : (
+            <span className={`go-player_glyph go-player_glyph--${feedback.kind}`} aria-label={feedback.kind === 'play' ? 'Reproduciendo' : 'En pausa'} />
+          )}
+        </div>
+      )}
 
       {state.status === 'retrying' && (
         <div className="go-player_reconnecting" role="status">

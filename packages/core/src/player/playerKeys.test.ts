@@ -1,3 +1,4 @@
+import { describe, expect, it } from 'vitest'
 import { backAction, playerKeyAction, remoteKey } from './playerKeys'
 
 describe('playerKeyAction', () => {
@@ -24,6 +25,8 @@ describe('playerKeyAction', () => {
     expect(playerKeyAction('playPause', false)).toEqual({ type: 'togglePlay' })
     expect(playerKeyAction('next', false)).toEqual({ type: 'next' })
     expect(playerKeyAction('previous', false)).toEqual({ type: 'previous' })
+    expect(playerKeyAction('play', true)).toEqual({ type: 'play' })
+    expect(playerKeyAction('pause', false)).toEqual({ type: 'pause' })
   })
 })
 

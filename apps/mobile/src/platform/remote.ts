@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 import { BackHandler, useTVEventHandler } from 'react-native'
-import { remoteKey, type RemoteKey } from '../player/playerKeys'
+import { remoteKey, type RemoteKey } from '@go10/core/player/playerKeys'
 
 /** Remote key presses (see remoteKey). The latest `onKey` is always used. */
 export function useRemoteKeys(onKey: (key: RemoteKey) => void): void {

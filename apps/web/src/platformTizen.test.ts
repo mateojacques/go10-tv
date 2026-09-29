@@ -47,6 +47,19 @@ describe('installTizenPlatform', () => {
     expect(onEscape).toHaveBeenCalled()
   })
 
+  it('registers each media key on its own, so one rejected key keeps the rest', () => {
+    const registerKey = vi.fn((key: string) => {
+      if (key === 'MediaPlay') throw new Error('WebAPIException: InvalidValuesError')
+    })
+    vi.stubGlobal('tizen', { tvinputdevice: { registerKey } })
+
+    expect(() => installTizenPlatform()).not.toThrow()
+    expect(registerKey.mock.calls.map(([key]) => key)).toEqual([
+      'Back', 'MediaPlayPause', 'MediaPlay', 'MediaPause', 'MediaFastForward', 'MediaRewind',
+      'MediaTrackNext', 'MediaTrackPrevious',
+    ])
+  })
+
   it('prevents the default on the original Back keydown', () => {
     vi.stubGlobal('tizen', { tvinputdevice: { registerKey: vi.fn() } })
     installTizenPlatform()

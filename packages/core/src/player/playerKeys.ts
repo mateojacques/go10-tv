@@ -1,25 +1,33 @@
-export type RemoteKey = 'up' | 'down' | 'left' | 'right' | 'select' | 'playPause' | 'fastForward' | 'rewind' | 'next' | 'previous'
+export type RemoteKey =
+  | 'up' | 'down' | 'left' | 'right' | 'select'
+  | 'playPause' | 'play' | 'pause' | 'fastForward' | 'rewind' | 'next' | 'previous'
 
 export type PlayerAction =
   | { type: 'seekBy'; delta: number }
   | { type: 'togglePlay' }
+  | { type: 'play' }
+  | { type: 'pause' }
   | { type: 'openBar' }
   | { type: 'next' }
   | { type: 'previous' }
 
 export const SEEK_STEP_SECONDS = 10
 
-const KEYS = new Set<string>(['up', 'down', 'left', 'right', 'select', 'playPause', 'fastForward', 'rewind', 'next', 'previous'])
+const KEYS = new Set<string>(['up', 'down', 'left', 'right', 'select', 'playPause', 'play', 'pause', 'fastForward', 'rewind', 'next', 'previous'])
 
 /**
  * The player's TV key map (spec: Player → TV remote). While the bar is open
- * the D-pad and Select belong to the bar's buttons (native focus); media
- * keys work either way.
+ * the D-pad and Select belong to the bar's buttons; media keys work either
+ * way. Shared by apps/web and apps/mobile, so both remotes act alike.
  */
 export function playerKeyAction(key: RemoteKey, barOpen: boolean): PlayerAction | null {
   switch (key) {
     case 'playPause':
       return { type: 'togglePlay' }
+    case 'play':
+      return { type: 'play' }
+    case 'pause':
+      return { type: 'pause' }
     case 'fastForward':
       return { type: 'seekBy', delta: SEEK_STEP_SECONDS }
     case 'rewind':

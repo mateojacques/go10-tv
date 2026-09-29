@@ -99,4 +99,25 @@ describe('Player with vidlove', () => {
     const link = screen.getByText('Abrir en una pestaña nueva')
     expect(link.getAttribute('href')).toBe('https://player.vidlove.cc/embed/tv/1396/1/2')
   })
+
+  it('has no play/pause: no button, and the key does nothing, while seeking still works', () => {
+    render(<Player row={row()} onClose={() => {}} />)
+    fireEvent.load(frame())
+    const postSpy = vi.spyOn(frame().contentWindow as Window, 'postMessage')
+    post(event('timeupdate', { currentTime: 100, duration: 2800 }))
+    expect(screen.queryByRole('button', { name: /Pausar|Reproducir/ })).toBeNull()
+
+    fireEvent.keyDown(window, { key: 'MediaPlayPause' })
+    expect(screen.queryByRole('status')).toBeNull()
+    fireEvent.keyDown(window, { key: 'MediaFastForward' })
+    act(() => vi.advanceTimersByTime(400))
+    expect(postSpy.mock.calls).toEqual([[{ type: 'seek', time: 110 }, VIDLOVE]])
+  })
+
+  it('focuses the close button when the bar opens', () => {
+    render(<Player row={row()} onClose={() => {}} />)
+    fireEvent.keyDown(window, { key: 'Enter' })
+    expect(document.activeElement).toBe(screen.getByRole('button', { name: 'Volver' }))
+  })
 })
+

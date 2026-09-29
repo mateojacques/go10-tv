@@ -47,10 +47,10 @@ describe('Player', () => {
     expect(document.activeElement).toBe(screen.getByRole('button', { name: 'Mostrar controles' }))
   })
 
-  it('moves focus to the close button once the bar opens', () => {
+  it('moves focus to play/pause once the bar opens', () => {
     render(<Player row={row()} onClose={() => {}} />)
     fireEvent.click(screen.getByRole('button', { name: 'Mostrar controles' }))
-    expect(document.activeElement).toBe(screen.getByRole('button', { name: 'Volver' }))
+    expect(document.activeElement).toBe(screen.getByRole('button', { name: 'Reproducir' }))
   })
 
   it('reclaims focus from the embed the moment it takes it (a window blur)', () => {
@@ -231,30 +231,6 @@ describe('Player', () => {
     expect(() => postFromEmbed(frame, { event: 'ended', time: 1412 })).not.toThrow()
   })
 
-  it('navigates to the previous/next episode on Shift+ArrowLeft/ArrowRight', () => {
-    const onPrev = vi.fn()
-    const onNext = vi.fn()
-    render(<Player row={row()} onClose={() => {}} onPrev={onPrev} onNext={onNext} />)
-
-    fireEvent.keyDown(window, { key: 'ArrowLeft', shiftKey: true })
-    fireEvent.keyDown(window, { key: 'ArrowRight', shiftKey: true })
-
-    expect(onPrev).toHaveBeenCalledTimes(1)
-    expect(onNext).toHaveBeenCalledTimes(1)
-  })
-
-  it('does not treat a plain arrow key (no Shift) as episode navigation', () => {
-    const onPrev = vi.fn()
-    const onNext = vi.fn()
-    render(<Player row={row()} onClose={() => {}} onPrev={onPrev} onNext={onNext} />)
-
-    fireEvent.keyDown(window, { key: 'ArrowLeft' })
-    fireEvent.keyDown(window, { key: 'ArrowRight' })
-
-    expect(onPrev).not.toHaveBeenCalled()
-    expect(onNext).not.toHaveBeenCalled()
-  })
-
   function chapterRow(overrides: Partial<CatalogRow> = {}): CatalogRow {
     return row({
       video_id: '9', type: 'episode', episode_number: 1,
@@ -403,5 +379,129 @@ describe('Player bar', () => {
   it('has no episode buttons for a movie', () => {
     render(<Player row={row()} onClose={() => {}} />)
     expect(screen.queryByRole('button', { name: 'Episodio siguiente' })).toBeNull()
+  })
+})
+
+describe('Player remote', () => {
+  function playing(overrides: Partial<CatalogRow> = {}) {
+    const utils = render(<Player row={row(overrides)} onClose={() => {}} />)
+    const frame = getFrame()
+    fireEvent.load(frame)
+    const post = vi.spyOn(frame.contentWindow as Window, 'postMessage')
+    const report = (data: unknown) =>
+      fireEvent(window, new MessageEvent('message', { data, origin: 'https://ok.ru', source: frame.contentWindow }))
+    return { ...utils, post, report }
+  }
+  const key = (init: KeyboardEventInit & { keyCode?: number }) => {
+    const event = new KeyboardEvent('keydown', { bubbles: true, cancelable: true, ...init })
+    if (init.keyCode) Object.defineProperty(event, 'keyCode', { value: init.keyCode })
+    fireEvent(window, event)
+    return event
+  }
+  const bar = () => document.getElementById('go-player-bar')!
+
+  it('toggles play with the Play/Pause key, from the state the embed reports', () => {
+    const { post, report } = playing()
+    report({ event: 'timeupdate', time: 60, duration: 700 })
+    key({ keyCode: 10252 }) // Tizen MediaPlayPause
+    expect(post).toHaveBeenLastCalledWith({ action: 'pause' }, 'https://ok.ru')
+    expect(screen.getByLabelText('En pausa')).not.toBeNull()
+    key({ key: 'MediaPlayPause' })
+    expect(post).toHaveBeenLastCalledWith({ action: 'play' }, 'https://ok.ru')
+
+    report({ event: 'paused' })
+    key({ keyCode: 415 }) // MediaPlay
+    key({ keyCode: 19 }) // MediaPause
+    expect(post.mock.calls.slice(-2).map(([message]) => message)).toEqual([{ action: 'play' }, { action: 'pause' }])
+  })
+
+  it('seeks ±10 s with FF/RW and the bare D-pad, sending quick presses as one seek', () => {
+    const { post, report } = playing()
+    report({ event: 'timeupdate', time: 60, duration: 700 })
+    key({ key: 'ArrowRight' })
+    key({ key: 'ArrowRight' })
+    key({ keyCode: 417 }) // FF
+    expect(post).not.toHaveBeenCalled()
+    expect(screen.getByRole('status').textContent).toBe('+30 s1:30')
+    act(() => vi.advanceTimersByTime(400))
+    expect(post.mock.calls).toEqual([[{ action: 'seek', time: 90 }, 'https://ok.ru']])
+
+    key({ key: 'ArrowLeft' })
+    key({ keyCode: 412 }) // RW
+    act(() => vi.advanceTimersByTime(400))
+    expect(post).toHaveBeenLastCalledWith({ action: 'seek', time: 70 }, 'https://ok.ru')
+  })
+
+  it("keeps seeks inside the chapter's range", () => {
+    const { post, report } = playing({
+      video_id: '9', type: 'episode', episode_number: 2, chapter_start_seconds: 600, chapter_end_seconds: 1200,
+      duration_seconds: 600, embed_url: 'https://ok.ru/videoembed/9',
+    })
+    report({ event: 'timeupdate', time: 1195, duration: 14000 })
+    key({ keyCode: 417 })
+    act(() => vi.advanceTimersByTime(400))
+    expect(post).toHaveBeenLastCalledWith({ action: 'seek', time: 1199 }, 'https://ok.ru')
+  })
+
+  it('clears the feedback after a moment', () => {
+    playing()
+    key({ keyCode: 417 })
+    expect(screen.queryByRole('status')).not.toBeNull()
+    act(() => vi.advanceTimersByTime(1200))
+    expect(screen.queryByRole('status')).toBeNull()
+  })
+
+  it('steps episodes with the track keys', () => {
+    const onPrev = vi.fn()
+    const onNext = vi.fn()
+    render(<Player row={row()} onClose={() => {}} onPrev={onPrev} onNext={onNext} />)
+    key({ keyCode: 10233 })
+    key({ keyCode: 10232 })
+    expect(onNext).toHaveBeenCalledTimes(1)
+    expect(onPrev).toHaveBeenCalledTimes(1)
+  })
+
+  it('opens the bar with OK or Up; there the D-pad moves between its buttons, not the video', () => {
+    const { post } = playing()
+    const ok = key({ key: 'Enter' })
+    expect(ok.defaultPrevented).toBe(true) // so OK doesn't also click the handle shut
+    expect(bar().className).toContain('is-open')
+    expect(document.activeElement).toBe(screen.getByRole('button', { name: 'Reproducir' }))
+
+    key({ key: 'ArrowLeft' })
+    expect(document.activeElement).toBe(screen.getByRole('button', { name: 'Volver' }))
+    key({ key: 'ArrowLeft' })
+    expect(document.activeElement).toBe(screen.getByRole('button', { name: 'Volver' }))
+    key({ key: 'ArrowRight' })
+    expect(document.activeElement).toBe(screen.getByRole('button', { name: 'Reproducir' }))
+    act(() => vi.advanceTimersByTime(400))
+    expect(post).not.toHaveBeenCalled()
+  })
+
+  it('Back closes the bar first, then leaves', () => {
+    const onClose = vi.fn()
+    render(<Player row={row()} onClose={onClose} />)
+    key({ key: 'ArrowUp' })
+    expect(bar().className).toContain('is-open')
+    key({ key: 'Escape' })
+    expect(bar().className).not.toContain('is-open')
+    expect(onClose).not.toHaveBeenCalled()
+    key({ key: 'Escape' })
+    expect(onClose).toHaveBeenCalledTimes(1)
+  })
+
+  it('plays and pauses from the bar button', () => {
+    const { post, report } = playing()
+    report({ event: 'timeupdate', time: 60, duration: 700 })
+    fireEvent.click(screen.getByRole('button', { name: 'Pausar' }))
+    expect(post).toHaveBeenLastCalledWith({ action: 'pause' }, 'https://ok.ru')
+    expect(screen.getByRole('button', { name: 'Reproducir' })).not.toBeNull()
+  })
+
+  it('leaves Shift+arrows to the browser', () => {
+    const { post } = playing()
+    key({ key: 'ArrowRight', shiftKey: true })
+    act(() => vi.advanceTimersByTime(400))
+    expect(post).not.toHaveBeenCalled()
   })
 })

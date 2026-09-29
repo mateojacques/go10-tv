@@ -24,22 +24,29 @@ export interface PlaybackSession {
   /** A raw message from the embed. */
   handle(data: unknown): void
   flush(): void
-  seekBy(delta: number): void
+  /** Seeks from the last known position; returns the target, or null before a load. */
+  seekBy(delta: number): number | null
   togglePlay(): void
+  /** Play or pause outright (the remote's own Play and Pause keys). */
+  setPlaying(playing: boolean): void
   canTogglePlay(): boolean
 }
 
 /**
- * The web Player's playback bookkeeping (apps/web/src/screens/Player.tsx),
- * free of any UI: the embed's own reports drive progress, never a clock.
- * `send` posts a command to the embed; `onEnded` fires once per row when it
- * finishes (the file's `ended`, or its chapter's end time).
+ * The Player's playback bookkeeping (apps/web/src/screens/Player.tsx and
+ * apps/mobile's PlayerView), free of any UI: the embed's own reports drive
+ * progress, never a clock. `send` posts a command to the embed; `onEnded`
+ * fires once per row when it finishes (the file's `ended`, or its chapter's
+ * end time). With `seekCoalesceMs`, seeks made within that window of the
+ * first one go out as a single seek at its end, so a slow embed isn't handed
+ * a queue of seeks to work through.
  */
-export function createPlaybackSession({ send, onEnded, onPlayingChange, now = Date.now }: {
+export function createPlaybackSession({ send, onEnded, onPlayingChange, now = Date.now, seekCoalesceMs = 0 }: {
   send: (command: unknown) => void
   onEnded: () => void
   onPlayingChange?: (playing: boolean) => void
   now?: () => number
+  seekCoalesceMs?: number
 }): PlaybackSession {
   let row: CatalogRow | null = null
   let provider: EmbedProvider | null = null
@@ -51,11 +58,25 @@ export function createPlaybackSession({ send, onEnded, onPlayingChange, now = Da
   let pendingSeek: number | null = null
   let playing = false
   let ended = false
+  // A coalesced seek waiting to go out; while it waits, the target (lastTime)
+  // is the position, not the embed's reports from before the seek.
+  let seekTimer: ReturnType<typeof setTimeout> | null = null
+
+  function cancelSeek() {
+    if (seekTimer !== null) clearTimeout(seekTimer)
+    seekTimer = null
+  }
 
   function setPlaying(value: boolean) {
     if (value === playing) return
     playing = value
     onPlayingChange?.(value)
+  }
+
+  function play(value: boolean) {
+    if (!provider?.playMessage || !provider.pauseMessage) return
+    send(value ? provider.playMessage : provider.pauseMessage)
+    setPlaying(value)
   }
 
   function flush() {
@@ -75,6 +96,7 @@ export function createPlaybackSession({ send, onEnded, onPlayingChange, now = Da
   return {
     load(next) {
       flush()
+      cancelSeek()
       row = next
       provider = providerFor(next)
       position = null
@@ -90,6 +112,7 @@ export function createPlaybackSession({ send, onEnded, onPlayingChange, now = Da
     select(next) {
       if (!row || !provider || next.video_id !== row.video_id || rowKey(next) === rowKey(row)) return
       flush()
+      cancelSeek()
       row = next
       position = null
       ended = false
@@ -104,7 +127,7 @@ export function createPlaybackSession({ send, onEnded, onPlayingChange, now = Da
 
       if (event.kind === 'time') {
         setPlaying(true)
-        lastTime = event.time
+        if (seekTimer === null) lastTime = event.time
         lastDuration = event.duration
         position = { key: rowKey(row), time: event.time, duration: event.duration }
         if (pendingSeek !== null) {
@@ -126,18 +149,27 @@ export function createPlaybackSession({ send, onEnded, onPlayingChange, now = Da
     flush,
 
     seekBy(delta) {
-      if (!provider) return
-      let target = Math.max(0, lastTime + delta)
-      if (lastDuration > 0) target = Math.min(target, Math.max(0, lastDuration - 1))
+      if (!row || !provider) return null
+      // A chapter's range, else the whole file (its end once reported).
+      const start = row.chapter_start_seconds ?? 0
+      const end = row.chapter_end_seconds ?? (lastDuration > 0 ? lastDuration : null)
+      let target = Math.max(start, lastTime + delta)
+      if (end !== null) target = Math.min(target, Math.max(start, end - 1))
       lastTime = target
-      send(provider.seekMessage(target))
+      if (seekCoalesceMs <= 0) {
+        send(provider.seekMessage(target))
+      } else if (seekTimer === null) {
+        const current = provider
+        seekTimer = setTimeout(() => {
+          seekTimer = null
+          send(current.seekMessage(lastTime))
+        }, seekCoalesceMs)
+      }
+      return target
     },
 
-    togglePlay() {
-      if (!provider?.playMessage || !provider.pauseMessage) return
-      send(playing ? provider.pauseMessage : provider.playMessage)
-      setPlaying(!playing)
-    },
+    togglePlay: () => play(!playing),
+    setPlaying: play,
 
     canTogglePlay: () => Boolean(provider?.playMessage && provider.pauseMessage),
   }
