@@ -1,7 +1,7 @@
 {
   "id": "warner-bros",
   "name": "Warner Bros.",
-  "order": 7,
+  "order": 8,
   "logo": "assets/collections/warner-bros/logo.svg",
   "tile": {
     "color": "#ffffff"

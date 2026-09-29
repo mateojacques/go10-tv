@@ -1,7 +1,7 @@
 {
   "id": "adult-swim",
   "name": "Adult Swim",
-  "order": 4,
+  "order": 5,
   "logo": "assets/collections/adult-swim/logo.svg",
   "tile": {
     "color": "#000000"

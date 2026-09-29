@@ -1,0 +1,17 @@
+{
+  "id": "nickelodeon",
+  "name": "Nickelodeon",
+  "order": 4,
+  "logo": "assets/collections/nickelodeon/logo.svg",
+  "tile": {
+    "color": "#ff6700"
+  },
+  "titles": [
+    "15103519689454",
+    "jimmy-neutron-el-nino-genio",
+    "bob-esponja",
+    "aaahh-monstruos-de-verdad",
+    "las-mascotas-maravilla",
+    "los-padrinos-magicos"
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "id": "pixar",
   "name": "Pixar",
-  "order": 5,
+  "order": 6,
   "logo": "assets/collections/pixar/logo.svg",
   "tile": {
     "color": "#0a3d62"

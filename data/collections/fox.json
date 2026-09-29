@@ -1,7 +1,7 @@
 {
   "id": "fox",
   "name": "FOX",
-  "order": 6,
+  "order": 7,
   "logo": "assets/collections/fox/logo.svg",
   "tile": {
     "color": "#003998"
