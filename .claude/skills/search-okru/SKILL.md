@@ -13,6 +13,14 @@ thing. The scripts fetch and measure; **you** decide.
 `latino` (default) or `original`, and `--html <path>` for a search or
 channel page the user saved from a browser (use it instead of a live search).
 
+**Links given → no search.** When the user passes ok.ru video links or ids,
+those are the picks: skip step 2 and the ranking in step 3, and don't look
+for alternatives. Still run step 1, and `check` the ids (title, duration,
+real resolution, playable) — if one doesn't play or is clearly the wrong
+work/language, tell the user instead of replacing it. For the pick's
+`thumbnail_url` and `views`, read the video's record from its uploader's
+`channel` listing.
+
 ## 1. Check what the catalog already has
 
 ```bash
@@ -138,13 +146,22 @@ add the title key (`series_id`, or `video_id` for a movie) to its `titles`.
 ```bash
 python3 scripts/parse_catalog.py        # downloads thumbnails into assets/<slug>/
 python3 scripts/build_aniyomi_feed.py
+python3 scripts/fetch_hero_art.py       # hero backdrops for the new titles only
 python3 -m pytest -q
 grep <video_id> apps/web/public/data/catalog.csv | head
 ```
 
 `parse_catalog.py` prints `skip <id>, already in the catalog` for a
-duplicate — remove it from the pick. If `.env.local` has `VITE_TMDB_TOKEN`,
-also run `python3 scripts/fetch_hero_art.py`.
+duplicate — remove it from the pick.
+
+`fetch_hero_art.py` is incremental: it only asks TMDB about titles it hasn't
+settled before (it needs `VITE_TMDB_TOKEN` in `.env.local`). It searches
+TMDB by the catalog title, so a new title can come back `unmatched` or
+match the wrong work (another version, a remake). For each new title, check
+the `→ tv/… | movie/…` line it printed against the real work (year,
+runtime, animated vs live action); fix a miss or mismatch with a pin in
+`data/hero_art_overrides.json` (`"<title key>": "movie/<id>"`) and re-run.
+Pinned title keys go in the report.
 
 ## 6. Report
 
