@@ -4,9 +4,7 @@
         id="http://go10.tv/GO10TV"
         version="1.0.0"
         viewmodes="maximized">
-    <!-- PKGID12345 is the same placeholder as apps/tizen/dev/config.xml:
-         see the comment there. -->
-    <tizen:application id="PKGID12345.GO10TV" package="PKGID12345" required_version="5.5"/>
+    <tizen:application id="Go10TVprd1.GO10TV" package="Go10TVprd1" required_version="5.5"/>
     <name>GO10 TV</name>
     <icon src="icon.png"/>
     <content src="index.html"/>

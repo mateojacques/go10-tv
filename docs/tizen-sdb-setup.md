@@ -58,20 +58,31 @@ sdb connect <TV_IP>
 
 ## 4. Install and run the app
 
-Build the app as a `.wgt` package (with a Samsung certificate profile), then:
-
 ```bash
-tizen install -n <app>.wgt -t <model_or_TV_IP>
-tizen run -p <package_id> -t <model_or_TV_IP>
+apps/tizen/scripts/build-prod.sh    # build, package and install the prod app
+apps/tizen/scripts/install-dev.sh   # package and install the dev shell
 ```
 
-`<model_or_TV_IP>` is the device name shown by `sdb devices`.
+Both install through `apps/tizen/scripts/install-wgt.sh`. Don't use
+`sdb install` on this TV: it uploads the package and exits without
+installing anything, and prints no error. The helper pushes the `.wgt` and runs the TV's
+installer itself:
+
+```bash
+sdb push <app>.wgt /home/owner/share/tmp/sdk_tools/tmp/<app>.wgt
+sdb shell 0 vd_appinstall <app_id> /home/owner/share/tmp/sdk_tools/tmp/<app>.wgt
+sdb shell 0 was_execute <app_id>    # launch
+```
+
+`<app_id>` is the `id` of `<tizen:application>` in the project's
+`config.xml` (e.g. `Go10TVprd1.GO10TV`).
 
 ## 5. Debug (optional)
 
 ```bash
-tizen run -p <package_id> -t <model_or_TV_IP> -d   # prints the debug port
+sdb shell 0 debug <app_id>    # launches the app, prints the debug port
 sdb forward tcp:9222 tcp:<debug_port>
 ```
 
-Then open `http://localhost:9222` in Chrome to inspect the app.
+Then open `chrome://inspect` in Chrome (add `localhost:9222` under
+**Configure…** if it isn't listed) and click **inspect** on the app.

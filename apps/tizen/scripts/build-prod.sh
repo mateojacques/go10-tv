@@ -11,17 +11,18 @@ set -euo pipefail
 
 TZ_TOOLS="$HOME/.tizen-extension-platform/server/sdktools/data/tools"
 TZ="$TZ_TOOLS/tizen-core/tz"
-SDB="$TZ_TOOLS/sdb"
 
 cd "$(dirname "$0")/../../.."
 
 # --base ./ (not the default "/"): a Tizen web app is served from a
 # file:// origin, where an absolute "/assets/..." path resolves to the
 # filesystem root instead of the app's own directory. This overrides only
-# this build, not apps/web's default (Netlify) build.
+# this build, not apps/web's default (Netlify) build. --mode tizen emits a
+# classic script instead of an ES module (see tizenClassicScript in
+# apps/web/vite.config.ts).
 cd apps/web
 npx tsc -b
-npx vite build --base ./
+npx vite build --base ./ --mode tizen
 cd ../..
 
 cd apps/tizen/prod
@@ -30,5 +31,4 @@ cp -r ../../web/dist/. .
 
 "$TZ" build -w . -s go10-tizen
 "$TZ" pack -w . -s go10-tizen
-WGT=$(ls Debug/*.wgt | head -n1)
-"$SDB" install "$WGT"
+../scripts/install-wgt.sh .

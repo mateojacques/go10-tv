@@ -17,8 +17,34 @@ function collectionsIndex(): Plugin {
   }
 }
 
+/**
+ * `vite build --mode tizen` only. A packaged Tizen app is served from
+ * file://, which gives scripts an empty MIME type -- and Chromium refuses to
+ * run a module script without a JavaScript one (verified on the TV: "Failed
+ * to load module script ... non-JavaScript MIME type", a black screen). So
+ * this build ships one classic IIFE bundle, loaded with defer (module scripts
+ * are deferred implicitly, so this keeps the same timing), and drops
+ * crossorigin, which a file:// page has no origin for.
+ */
+function tizenClassicScript(): Plugin {
+  return {
+    name: 'go10-tizen-classic-script',
+    apply: (_, env) => env.command === 'build' && env.mode === 'tizen',
+    config: () => ({
+      build: {
+        modulePreload: false,
+        rolldownOptions: { output: { format: 'iife' } },
+      },
+    }),
+    transformIndexHtml: {
+      order: 'post',
+      handler: (html) => html.replace(/<script type="module" crossorigin/g, '<script defer').replace(/ crossorigin/g, ''),
+    },
+  }
+}
+
 export default defineConfig({
-  plugins: [react(), collectionsIndex()],
+  plugins: [react(), collectionsIndex(), tizenClassicScript()],
   // Chromium 69 (Tizen 5.5, this project's TV target) can't parse optional
   // chaining or nullish coalescing at all -- an un-pinned build ships a
   // blank screen on it, not just rough edges.

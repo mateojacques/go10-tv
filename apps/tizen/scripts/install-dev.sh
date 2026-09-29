@@ -10,11 +10,9 @@ set -euo pipefail
 
 TZ_TOOLS="$HOME/.tizen-extension-platform/server/sdktools/data/tools"
 TZ="$TZ_TOOLS/tizen-core/tz"
-SDB="$TZ_TOOLS/sdb"
 
 cd "$(dirname "$0")/../dev"
 rm -rf Debug tizen_web_project.yaml
 "$TZ" build -w . -s go10-tizen
 "$TZ" pack -w . -s go10-tizen
-WGT=$(ls Debug/*.wgt | head -n1)
-"$SDB" install "$WGT"
+../scripts/install-wgt.sh .
