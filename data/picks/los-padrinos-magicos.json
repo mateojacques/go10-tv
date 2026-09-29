@@ -1,0 +1,24 @@
+{
+  "title": "Los Padrinos Mágicos",
+  "type": "series",
+  "added": "2026-09-28",
+  "query": "https://ok.ru/video/15782338693870",
+  "year": "2001",
+  "studio": "Nickelodeon",
+  "source": "Animax ㅤ",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "15782338693870",
+      "title_raw": "Los padrinos mágicos - Temporada 1 (Nickelodeon) [1080p] [Español]",
+      "duration_raw": "2:47:12",
+      "views": 99,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYujUaJG81xrryv0oaQFy3YsdiApUsKy3nPNyUt4tc444&fn=external_8",
+      "season_number": 1
+    }
+  ]
+}

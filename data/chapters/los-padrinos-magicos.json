@@ -1,0 +1,46 @@
+{
+  "15782338693870": [
+    {
+      "episode_number": 1,
+      "title": "Episodio 1",
+      "start_seconds": 0,
+      "end_seconds": 1422
+    },
+    {
+      "episode_number": 2,
+      "title": "Episodio 2",
+      "start_seconds": 1422,
+      "end_seconds": 2842
+    },
+    {
+      "episode_number": 3,
+      "title": "Episodio 3",
+      "start_seconds": 2842,
+      "end_seconds": 4262
+    },
+    {
+      "episode_number": 4,
+      "title": "Episodio 4",
+      "start_seconds": 4262,
+      "end_seconds": 5682
+    },
+    {
+      "episode_number": 5,
+      "title": "Episodio 5",
+      "start_seconds": 5682,
+      "end_seconds": 7102
+    },
+    {
+      "episode_number": 6,
+      "title": "Episodio 6",
+      "start_seconds": 7102,
+      "end_seconds": 8522
+    },
+    {
+      "episode_number": 7,
+      "title": "Especial de Navidad",
+      "start_seconds": 8522,
+      "end_seconds": null
+    }
+  ]
+}
