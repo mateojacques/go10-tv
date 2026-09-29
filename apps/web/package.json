@@ -11,6 +11,8 @@
     "typecheck": "tsc -b"
   },
   "dependencies": {
+    "@fontsource/bricolage-grotesque": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
     "@go10/core": "*",
     "papaparse": "^5.7.0",
     "react": "19.2.3",

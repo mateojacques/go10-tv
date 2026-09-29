@@ -66,6 +66,51 @@ describe('FocusProvider', () => {
     expect(focusedId()).toBe('b')
   })
 
+  it('drops a held key\'s auto-repeats until the last move has painted', () => {
+    // Frames are driven by hand: nothing paints until flushFrame() runs.
+    const frames: FrameRequestCallback[] = []
+    vi.stubGlobal('requestAnimationFrame', (callback: FrameRequestCallback) => frames.push(callback))
+    const flushFrame = () => frames.splice(0).forEach((callback) => callback(0))
+
+    render(
+      <FocusProvider onBack={() => {}}>
+        <Cell id="a" row={0} col={0} />
+        <Cell id="b" row={0} col={1} />
+        <Cell id="c" row={0} col={2} />
+      </FocusProvider>,
+    )
+    const repeat = () => fireEvent.keyDown(window, { key: 'ArrowRight', repeat: true })
+
+    press('ArrowRight')
+    repeat()
+    expect(focusedId()).toBe('b')
+
+    // Two frames: the move's frame, then the one after it has painted.
+    flushFrame()
+    flushFrame()
+    repeat()
+    expect(focusedId()).toBe('c')
+
+    vi.unstubAllGlobals()
+  })
+
+  it('never drops a fresh press, however fast', () => {
+    vi.stubGlobal('requestAnimationFrame', () => 0)
+    render(
+      <FocusProvider onBack={() => {}}>
+        <Cell id="a" row={0} col={0} />
+        <Cell id="b" row={0} col={1} />
+        <Cell id="c" row={0} col={2} />
+      </FocusProvider>,
+    )
+
+    press('ArrowRight')
+    press('ArrowRight')
+    expect(focusedId()).toBe('c')
+
+    vi.unstubAllGlobals()
+  })
+
   it('does not move past the edges', () => {
     render(<Grid />)
     press('ArrowLeft')

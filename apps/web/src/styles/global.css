@@ -138,3 +138,55 @@ img {
     animation: none;
   }
 }
+
+/* ---- TV lite mode ----------------------------------------------------------
+ * `go-tv` is set on <html> for TVs (see main.tsx). A TV's browser engine is
+ * old and its GPU weak: blurs, blend modes, `filter` and blurred shadows all
+ * repaint on the CPU, and full-screen ones do it for the whole panel. Here
+ * focus is instant and only `transform` ever animates, which the compositor
+ * handles without repainting. */
+.go-tv {
+  --go-dur: 0ms;
+  --go-dur-slow: 0ms;
+  /* The ring alone: spread-only shadows paint cheaply, blurred ones don't. */
+  --go-focus-lift: 0 0 0 0 transparent;
+}
+
+.go-tv * {
+  scroll-behavior: auto !important;
+}
+
+/* The full-screen vignette over everything. */
+.go-tv #root::after {
+  display: none;
+}
+
+/* The one motion kept: the focused card's lift, compositor-only. */
+.go-tv .go-card,
+.go-tv .go-tile {
+  transition: transform 120ms var(--go-ease);
+  filter: none;
+}
+
+/* Unfocused cards still sit back, dimmed by drawing the image translucent
+ * over the dark frame rather than filtering the whole card. */
+.go-tv .go-card:not(.is-focused) .go-card_img,
+.go-tv .go-tile:not(.is-focused) > img {
+  opacity: 0.6;
+}
+
+/* No 72px blur: the 368x210 thumbnail upscaled is soft enough on its own,
+ * and dimmed under the scrim it stays a colour field. */
+.go-tv .go-backdrop_img {
+  filter: none;
+  opacity: 0.45;
+}
+
+.go-tv .go-hero_cta--secondary {
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+
+.go-tv .go-hero_cta--secondary:not(.is-focused) {
+  background: rgba(242, 244, 240, 0.18);
+}

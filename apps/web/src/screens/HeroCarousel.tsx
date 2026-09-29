@@ -39,10 +39,21 @@ function StaticButton({ variant, children }: { variant: 'primary' | 'secondary';
   return <div className={`go-hero_cta go-hero_cta--${variant}`}>{children}</div>
 }
 
-function Stage({ slide, art, active, onArtError }: { slide: HeroSlide; art: HeroSlide['art']; active: boolean; onArtError: () => void }) {
+function Stage({ slide, art, active, near, onArtError }: {
+  slide: HeroSlide
+  art: HeroSlide['art']
+  active: boolean
+  /**
+   * Active or one step either side of it. Only these hold their full-screen
+   * art: enough to crossfade either way, without every slide's image
+   * decoded at once in a TV's small GPU memory.
+   */
+  near: boolean
+  onArtError: () => void
+}) {
   return (
     <div className={`go-hero_stage${active ? ' is-active' : ''}${art ? '' : ' is-blurred'}`} aria-hidden="true">
-      {art ? (
+      {!near ? null : art ? (
         <div className="go-hero_frame">
           <img
             className="go-hero_key"
@@ -79,6 +90,10 @@ export function HeroCarousel({ slides, onPlay, onInfo }: {
   const many = slides.length > 1
   const artOf = (i: number) => (failed.has(i) ? null : slides[i].art)
   const activeArt = artOf(index)
+  const isNear = (i: number) => {
+    const distance = Math.abs(i - index)
+    return Math.min(distance, slides.length - distance) <= 1
+  }
 
   const prev = () => go(index - 1)
   const next = () => go(index + 1)
@@ -91,7 +106,14 @@ export function HeroCarousel({ slides, onPlay, onInfo }: {
       onPointerLeave={() => setHovered(false)}
     >
       {slides.map((slide, i) => (
-        <Stage key={slide.title.key} slide={slide} art={artOf(i)} active={i === index} onArtError={() => setFailed((f) => new Set(f).add(i))} />
+        <Stage
+          key={slide.title.key}
+          slide={slide}
+          art={artOf(i)}
+          active={i === index}
+          near={isNear(i)}
+          onArtError={() => setFailed((f) => new Set(f).add(i))}
+        />
       ))}
 
       <div className="go-hero_slides">

@@ -38,6 +38,11 @@ function readTvOverride(): boolean | null {
 
 const isTv = readTvOverride() ?? isTvUserAgent(navigator.userAgent)
 
+/** True on a TV (or with `?tv=1`): the 10-foot, remote-only, low-power target. */
+export function isTvDevice(): boolean {
+  return isTv
+}
+
 let mode: InputMode = isTv ? 'keys' : 'pointer'
 const listeners = new Set<() => void>()
 

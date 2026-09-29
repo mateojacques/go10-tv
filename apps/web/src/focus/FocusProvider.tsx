@@ -8,7 +8,7 @@ import {
   useState,
   type ReactNode,
 } from 'react'
-import { getInputMode, setInputMode } from './inputMode'
+import { getInputMode, isTvDevice, setInputMode } from './inputMode'
 
 export interface FocusItem {
   id: string
@@ -158,6 +158,11 @@ export function FocusProvider({
     setFocusedId(id)
   }, [])
 
+  // True from a move until the frame showing it has painted. A held arrow
+  // key's auto-repeats arriving meanwhile are dropped: on a slow TV they'd
+  // otherwise queue up and keep the focus sliding long after the key is let go.
+  const busyRef = useRef(false)
+
   const move = useCallback((key: ArrowKey, options?: { alignStart?: boolean }) => {
     const all = [...items.current.values()]
     const current = focusedRef.current ? items.current.get(focusedRef.current) : undefined
@@ -173,18 +178,32 @@ export function FocusProvider({
 
     focusedRef.current = next.id
     setFocusedId(next.id)
-    // Not available in jsdom, and purely cosmetic either way.
+    if (typeof requestAnimationFrame === 'function') {
+      busyRef.current = true
+      // The second callback runs only once the first frame has painted.
+      requestAnimationFrame(() => requestAnimationFrame(() => {
+        busyRef.current = false
+      }))
+    }
+    // Not available in jsdom, and purely cosmetic either way. A TV scrolls
+    // instantly: a smooth scroll there is dozens of repainted frames per press.
     next.element?.scrollIntoView?.({
       block: 'nearest',
       inline: 'center',
-      behavior: 'smooth',
+      behavior: isTvDevice() ? 'auto' : 'smooth',
     })
   }, [focus])
+
+  // Kept in refs so the keydown listener below is attached once, not
+  // re-attached on every focus change.
+  const onBackRef = useRef(onBack)
+  onBackRef.current = onBack
 
   useEffect(() => {
     if (!enabled) return
 
     function onKeyDown(event: KeyboardEvent) {
+      const focusedId = focusedRef.current
       const steering = STEERING_KEYS.has(event.key)
       const wasHidden = getInputMode() === 'pointer'
       const current = focusedId ? items.current.get(focusedId) : undefined
@@ -211,6 +230,7 @@ export function FocusProvider({
         case 'ArrowLeft':
         case 'ArrowRight': {
           event.preventDefault()
+          if (event.repeat && busyRef.current) break
           move(event.key)
           break
         }
@@ -222,7 +242,7 @@ export function FocusProvider({
         case 'Escape':
         case 'Backspace': {
           event.preventDefault()
-          onBack()
+          onBackRef.current()
           break
         }
       }
@@ -230,7 +250,7 @@ export function FocusProvider({
 
     window.addEventListener('keydown', onKeyDown)
     return () => window.removeEventListener('keydown', onKeyDown)
-  }, [focusedId, onBack, enabled, move])
+  }, [enabled, move])
 
   const value = useMemo(
     () => ({ focusedId, focus, register, move }),
