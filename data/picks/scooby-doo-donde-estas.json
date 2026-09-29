@@ -1,0 +1,19 @@
+{
+  "title": "¡Scooby-Doo, dónde estás!",
+  "type": "series",
+  "added": "2026-09-29",
+  "query": "https://ok.ru/video/15773354298094",
+  "year": "1969",
+  "studio": "WarnerBros",
+  "source": "Animax ㅤ",
+  "quality": "1080p",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {"video_id": "15773354298094", "title_raw": "¡Scooby-Doo, dónde estás! - Temporada 1 y 2 [1080p] [Español]",
+     "duration_raw": "9:15:49", "season_number": 1, "views": 221,
+     "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYKkfIBxiLLBFh-6LgMw47I05Ju3iIA4PYc_pAjNXd-1E&fn=external_7"}
+  ]
+}
