@@ -265,9 +265,14 @@ matcher:
 It uses the web app's `VITE_TMDB_TOKEN` from `.env.local`; set `TMDB_TOKEN` to
 use a different one.
 
-It writes `apps/web/public/data/hero_art.json` (commit it) and prints the
-unmatched titles. Fix mismatches in `data/hero_art_overrides.json`
-(`{"pin": {"<title key>": "tv/123"}, "block": ["<title key>"]}`) and re-run.
+It writes `apps/web/public/data/hero_art.json` and `data/hero_art_misses.json`
+(commit both) and prints the unmatched titles. Runs are incremental: a title
+already matched, or searched without a match (the misses file), isn't asked
+about again, so a run after an ingest only searches the new titles. A request
+error is retried next run; `--all` re-searches the whole catalog. Fix
+mismatches in `data/hero_art_overrides.json`
+(`{"pin": {"<title key>": "tv/123"}, "block": ["<title key>"]}`) and re-run —
+a new or changed pin is searched again.
 A title missing from the file is never featured; without the file, Home has
 no hero (only Spidey, whose key art ships with the app, can still appear).
 

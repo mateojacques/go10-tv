@@ -1473,6 +1473,26 @@
       "tmdb": "movie/43625",
       "backdrop": "/1K0pL5vkGXHNz4KSgZzjkifQPkC.jpg"
     },
+    "15727014054638": {
+      "tmdb": "movie/9325",
+      "backdrop": "/3sbmRuIpYEH5dMvec4z4JxKQHoj.jpg"
+    },
+    "15728889694958": {
+      "tmdb": "movie/278927",
+      "backdrop": "/8oYykF1Qhrb8fC2qZqD71EzRywg.jpg"
+    },
+    "15728913550062": {
+      "tmdb": "movie/10530",
+      "backdrop": "/fDZ2DCKW2D7J0ABNr9EICdD2H1s.jpg"
+    },
+    "15759669463790": {
+      "tmdb": "movie/360404",
+      "backdrop": "/pOW1imSY2oW0nhgdZY0Uru3wAgw.jpg"
+    },
+    "4658593663605": {
+      "tmdb": "movie/10192",
+      "backdrop": "/uzzTystB8lL0mRDII5Sfs5HxgkI.jpg"
+    },
     "9758116416238": {
       "tmdb": "movie/13179",
       "backdrop": "/maeox8nZYIxAAE4SdyLA0VOXe1x.jpg"
@@ -1733,6 +1753,10 @@
       "tmdb": "tv/12609",
       "backdrop": "/30L49n4Dhn7dzuGG50GV3ybMhC3.jpg"
     },
+    "ed-edd-y-eddy": {
+      "tmdb": "tv/606",
+      "backdrop": "/iRbNLYmqlxbqkfCuAmHaFwZ9ocY.jpg"
+    },
     "el-ocaso-de-los-dioses": {
       "tmdb": "tv/97333",
       "backdrop": "/qSdvfhaDhFhNbfU3A6ukJgJrGLQ.jpg"
@@ -1809,6 +1833,10 @@
       "tmdb": "tv/255760",
       "backdrop": "/uTjjlqLdhRppddN4eCjMZlp387z.jpg"
     },
+    "kick-buttowski": {
+      "tmdb": "tv/17572",
+      "backdrop": "/gzoDeOxJ1mvtoBQdk94l5HzVil2.jpg"
+    },
     "kill-la-kill": {
       "tmdb": "tv/60728",
       "backdrop": "/hsmYzDPyfiv3IlkxZsbeO92C7mP.jpg"
@@ -1824,6 +1852,10 @@
     "la-casa-de-los-dibujos": {
       "tmdb": "tv/4336",
       "backdrop": "/3XnIGiGjXfhvWxmOUiu8NFwovCR.jpg"
+    },
+    "la-familia-del-barrio": {
+      "tmdb": "tv/92468",
+      "backdrop": "/aZ1bhzWcNLXCE20heOhCS8tcCsz.jpg"
     },
     "la-frecuencia-kirlian": {
       "tmdb": "tv/86825",
@@ -1856,6 +1888,10 @@
     "los-jovenes-titanes": {
       "tmdb": "tv/604",
       "backdrop": "/ilKbbbCYjerHXQr6NRuKPu9DBsJ.jpg"
+    },
+    "los-simpsons": {
+      "tmdb": "tv/456",
+      "backdrop": "/jIArNHIekrCSVgdMbKPAXpPY03Y.jpg"
     },
     "love-death-robots": {
       "tmdb": "tv/86831",
@@ -1912,6 +1948,10 @@
     "pucca": {
       "tmdb": "tv/6782",
       "backdrop": "/nfAUOxd3qeZZpfPESIivZOyvije.jpg"
+    },
+    "que-hay-de-nuevo-scooby-doo": {
+      "tmdb": "tv/652",
+      "backdrop": "/azYkdfJEkhn94jozR87t46LeCst.jpg"
     },
     "ranma-12": {
       "tmdb": "tv/57706",
@@ -2020,6 +2060,10 @@
     "undone": {
       "tmdb": "tv/86340",
       "backdrop": "/ua4rzxx9DB6xUVZ0cBX6SYZDUXs.jpg"
+    },
+    "yin-yang-yo": {
+      "tmdb": "tv/3809",
+      "backdrop": "/gT1XXAeTDS6Ni5Y3BxRWCbijrva.jpg"
     },
     "yu-gi-oh": {
       "tmdb": "tv/36406",

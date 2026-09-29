@@ -1,7 +1,11 @@
 """Match catalog titles to TMDB backdrops for the Home hero carousel.
 
 Writes apps/web/public/data/hero_art.json (title key -> TMDB backdrop). Run by
-hand when the catalog changes; the output is committed. The TMDB v4 read access
+hand when the catalog changes; the output is committed. Runs are incremental:
+titles already in hero_art.json, or searched without a match (listed in
+data/hero_art_misses.json, also committed), are not searched again, so a run
+after an ingest only asks TMDB about the new titles. A request error is not a
+miss: that title is retried next run. --all re-searches everything. The TMDB v4 read access
 token comes from TMDB_TOKEN, else from VITE_TMDB_TOKEN in .env.local (the web
 app's). Hand fixes go in data/hero_art_overrides.json:
 {"pin": {"<key>": "tv/123"}, "block": ["<key>"]}.
@@ -24,6 +28,7 @@ from parse_catalog import ROOT
 CATALOG_CSV = os.path.join(ROOT, "apps", "web", "public", "data", "catalog.csv")
 OUTPUT_JSON = os.path.join(ROOT, "apps", "web", "public", "data", "hero_art.json")
 OVERRIDES_JSON = os.path.join(ROOT, "data", "hero_art_overrides.json")
+MISSES_JSON = os.path.join(ROOT, "data", "hero_art_misses.json")
 ENV_LOCAL = os.path.join(ROOT, ".env.local")
 API = "https://api.themoviedb.org/3"
 
@@ -74,28 +79,57 @@ def best_match(entry, results):
     return sorted(matches, key=lambda r: abs((_year(r) or 9999) - entry["year"]))[0]
 
 
-def build_index(titles, get, overrides, log=None):
-    """Match every title; `log`, if given, gets one progress line per title as it finishes."""
+def build_index(titles, get, overrides, done=None, misses=(), log=None):
+    """Match the titles not settled by an earlier run; returns (items, misses, report).
+
+    `done` is the previous run's items and `misses` the keys it searched without a
+    match; both are carried over (dropping keys no longer in the catalog or now
+    blocked) and only the rest is searched. A pin that differs from the stored
+    match is searched again. `log`, if given, gets a line announcing the search,
+    then one progress line per searched title as it finishes.
+    """
     pins = overrides.get("pin", {})
     blocks = set(overrides.get("block", []))
     known = {t["key"] for t in titles}
+    done = done or {}
+    missed = set(misses)
     items = {}
-    report = {"matched": 0, "pinned": 0, "blocked": 0, "unmatched": [], "failed": 0,
-              "unknown_overrides": sorted((set(pins) | blocks) - known)}
-    for number, entry in enumerate(titles, 1):
+    new_misses = set()
+    todo = []
+    for entry in titles:
         key = entry["key"]
-        outcome = _match_one(entry, get, pins, blocks, items, report)
+        if key in blocks:
+            continue
+        previous = done.get(key)
+        if key in pins:
+            settled = previous is not None and previous.get("tmdb") == pins[key]
+        else:
+            settled = previous is not None or key in missed
+        if not settled:
+            todo.append(entry)
+        elif previous is not None:
+            items[key] = previous
+        else:
+            new_misses.add(key)
+    report = {"matched": 0, "pinned": 0, "blocked": len(blocks & known), "unmatched": [], "failed": 0,
+              "kept": len(titles) - len(blocks & known) - len(todo), "searched": len(todo),
+              "unknown_overrides": sorted((set(pins) | blocks) - known)}
+    if log and todo:
+        log(f"Matching {len(todo)} titles against TMDB (one request each; {report['kept']} settled by earlier runs)…")
+    for number, entry in enumerate(todo, 1):
+        key = entry["key"]
+        failed = report["failed"]
+        outcome = _match_one(entry, get, pins, items, report)
+        if key not in items and report["failed"] == failed:
+            new_misses.add(key)  # searched fine, nothing matched: don't ask again
         if log:
-            log(f"[{number}/{len(titles)}] {key}  {entry['name']}  →  {outcome}")
-    return items, report
+            log(f"[{number}/{len(todo)}] {key}  {entry['name']}  →  {outcome}")
+    return items, new_misses, report
 
 
-def _match_one(entry, get, pins, blocks, items, report):
+def _match_one(entry, get, pins, items, report):
     """Match one title into `items`/`report`; returns what happened, for the progress log."""
     key = entry["key"]
-    if key in blocks:
-        report["blocked"] += 1
-        return "blocked"
     try:
         if key in pins:
             detail = get(f"/{pins[key]}", {})
@@ -128,6 +162,19 @@ def write_index(path, items):
     data = {"schema_version": 1, "items": {k: items[k] for k in sorted(items)}}
     with open(path, "w", encoding="utf-8") as handle:
         json.dump(data, handle, ensure_ascii=False, indent=2)
+        handle.write("\n")
+
+
+def read_json(path, default):
+    if not os.path.exists(path):
+        return default
+    with open(path, encoding="utf-8") as handle:
+        return json.load(handle)
+
+
+def write_misses(path, misses):
+    with open(path, "w", encoding="utf-8") as handle:
+        json.dump(sorted(misses), handle, ensure_ascii=False, indent=2)
         handle.write("\n")
 
 
@@ -165,7 +212,9 @@ def main(argv=None):
     parser.add_argument("--catalog", default=CATALOG_CSV)
     parser.add_argument("--output", default=OUTPUT_JSON)
     parser.add_argument("--overrides", default=OVERRIDES_JSON)
+    parser.add_argument("--misses", default=MISSES_JSON)
     parser.add_argument("--env-file", default=ENV_LOCAL)
+    parser.add_argument("--all", action="store_true", help="re-search every title, ignoring earlier runs")
     args = parser.parse_args(argv)
 
     token = os.environ.get("TMDB_TOKEN") or env_file_token(args.env_file)
@@ -177,29 +226,31 @@ def main(argv=None):
     if not re.fullmatch(r"[A-Za-z0-9._-]+", token):
         print("The TMDB token contains invalid characters (expected a v4 read access token).", file=sys.stderr)
         return 1
-    overrides = {"pin": {}, "block": []}
-    if os.path.exists(args.overrides):
-        with open(args.overrides, encoding="utf-8") as handle:
-            overrides = json.load(handle)
+    overrides = read_json(args.overrides, {"pin": {}, "block": []})
+    done, misses = {}, []
+    if not args.all:
+        done = read_json(args.output, {}).get("items", {})
+        misses = read_json(args.misses, [])
 
     titles = load_titles(args.catalog)
-    print(f"Matching {len(titles)} titles against TMDB (one request each; a few minutes)…", file=sys.stderr, flush=True)
 
     def progress(line):
         print(line, file=sys.stderr, flush=True)
 
     try:
-        items, report = build_index(titles, tmdb_getter(token), overrides, log=progress)
+        items, new_misses, report = build_index(titles, tmdb_getter(token), overrides, done, misses, log=progress)
     except urllib.error.HTTPError as error:
         print(f"TMDB rejected the token (HTTP {error.code}); {args.output} left as it was.", file=sys.stderr)
         return 1
-    searched = len(titles) - report["blocked"]
-    if searched > 0 and report["failed"] == searched:
+    if report["searched"] > 0 and report["failed"] == report["searched"]:
         print(f"Every TMDB request failed (offline?); {args.output} left as it was.", file=sys.stderr)
         return 1
     write_index(args.output, items)
+    write_misses(args.misses, new_misses)
 
-    print(f"matched {report['matched']} · pinned {report['pinned']} · blocked {report['blocked']} · unmatched {len(report['unmatched'])} (request errors {report['failed']})")
+    print(f"searched {report['searched']} of {len(titles)} titles ({report['kept']} settled earlier) · "
+          f"matched {report['matched']} · pinned {report['pinned']} · blocked {report['blocked']} · "
+          f"unmatched {len(report['unmatched'])} (request errors {report['failed']})")
     for key, name in report["unmatched"]:
         print(f"  unmatched  {key}  {name}")
     for key in report["unknown_overrides"]:

@@ -81,13 +81,14 @@ def test_build_index_matches_pins_and_blocks():
         ("/tv/999", None): {"id": 999, "backdrop_path": "/pinned.jpg"},
     })
     overrides = {"pin": {"cast": "tv/999"}, "block": ["blk"]}
-    items, report = fha.build_index(titles, get, overrides)
+    items, _, report = fha.build_index(titles, get, overrides)
     assert items == {
         "10": {"tmdb": "movie/862", "backdrop": "/toy.jpg"},
         "cast": {"tmdb": "tv/999", "backdrop": "/pinned.jpg"},
     }
     assert report["matched"] == 1 and report["pinned"] == 1 and report["blocked"] == 1
     assert report["unmatched"] == [("zz", "Nada")]
+    assert not any(params.get("query") == "Toy Story" for path, params in get.calls[1:])  # blocked: not searched
     # A pinned title is not searched; the search uses es-MX.
     assert all(path != "/search/tv" for path, _ in get.calls)
     assert all(params.get("language") == "es-MX" for path, params in get.calls if path.startswith("/search"))
@@ -101,13 +102,13 @@ def test_build_index_survives_a_network_error_on_one_title():
             raise OSError("boom")
         return {"results": [{"id": 5, "title": "B", "backdrop_path": "/b.jpg"}]}
 
-    items, report = fha.build_index(titles, get, {"pin": {}, "block": []})
+    items, _, report = fha.build_index(titles, get, {"pin": {}, "block": []})
     assert items == {"b": {"tmdb": "movie/5", "backdrop": "/b.jpg"}}
     assert report["unmatched"] == [("a", "A")]
 
 
 def test_build_index_warns_about_unknown_override_keys():
-    _, report = fha.build_index([], _fake_get({}), {"pin": {"ghost": "movie/1"}, "block": ["ghost2"]})
+    _, _, report = fha.build_index([], _fake_get({}), {"pin": {"ghost": "movie/1"}, "block": ["ghost2"]})
     assert report["unknown_overrides"] == ["ghost", "ghost2"]
 
 
@@ -124,7 +125,7 @@ def test_write_index_is_sorted_and_versioned(tmp_path):
 def test_main_without_a_token_exits_1_and_writes_nothing(tmp_path, monkeypatch, capsys):
     monkeypatch.delenv("TMDB_TOKEN", raising=False)
     out = tmp_path / "hero_art.json"
-    assert fha.main(["--output", str(out), "--env-file", str(tmp_path / "missing.env")]) == 1
+    assert fha.main(["--output", str(out), "--misses", str(tmp_path / "misses.json"), "--env-file", str(tmp_path / "missing.env")]) == 1
     assert not out.exists()
     assert "TMDB_TOKEN" in capsys.readouterr().err
 
@@ -145,9 +146,11 @@ def test_main_keeps_the_committed_file_when_every_request_failed(tmp_path, monke
     monkeypatch.setenv("TMDB_TOKEN", "t")
     monkeypatch.setattr(fha, "tmdb_getter", lambda token: offline)
     out = tmp_path / "hero_art.json"
-    out.write_text("committed\n", encoding="utf-8")
-    assert fha.main(["--catalog", _catalog(tmp_path), "--output", str(out), "--overrides", str(tmp_path / "none.json")]) == 1
-    assert out.read_text(encoding="utf-8") == "committed\n"
+    committed = '{"schema_version": 1, "items": {}}\n'
+    out.write_text(committed, encoding="utf-8")
+    assert fha.main(["--catalog", _catalog(tmp_path), "--output", str(out), "--overrides", str(tmp_path / "none.json"), "--misses", str(tmp_path / "misses.json")]) == 1
+    assert out.read_text(encoding="utf-8") == committed
+    assert not (tmp_path / "misses.json").exists()
 
 
 def test_main_stops_on_a_rejected_token(tmp_path, monkeypatch):
@@ -159,7 +162,7 @@ def test_main_stops_on_a_rejected_token(tmp_path, monkeypatch):
     monkeypatch.setenv("TMDB_TOKEN", "bad")
     monkeypatch.setattr(fha, "tmdb_getter", lambda token: unauthorized)
     out = tmp_path / "hero_art.json"
-    assert fha.main(["--catalog", _catalog(tmp_path), "--output", str(out), "--overrides", str(tmp_path / "none.json")]) == 1
+    assert fha.main(["--catalog", _catalog(tmp_path), "--output", str(out), "--overrides", str(tmp_path / "none.json"), "--misses", str(tmp_path / "misses.json")]) == 1
     assert not out.exists()
 
 
@@ -172,7 +175,7 @@ def test_build_index_treats_a_truncated_response_as_one_failed_title():
         return {"results": [{"id": 5, "title": "B", "backdrop_path": "/b.jpg"}]}
 
     titles = [{"key": "a", "name": "A", "year": None, "kind": "movie"}, {"key": "b", "name": "B", "year": None, "kind": "movie"}]
-    items, report = fha.build_index(titles, get, {"pin": {}, "block": []})
+    items, _, report = fha.build_index(titles, get, {"pin": {}, "block": []})
     assert items == {"b": {"tmdb": "movie/5", "backdrop": "/b.jpg"}}
     assert report["unmatched"] == [("a", "A")]
 
@@ -189,7 +192,7 @@ def test_main_reads_the_web_token_from_env_local(tmp_path, monkeypatch):
 
     monkeypatch.setattr(fha, "tmdb_getter", getter)
     out = tmp_path / "hero_art.json"
-    assert fha.main(["--catalog", _catalog(tmp_path), "--output", str(out), "--overrides", str(tmp_path / "none.json"), "--env-file", str(env)]) == 0
+    assert fha.main(["--catalog", _catalog(tmp_path), "--output", str(out), "--overrides", str(tmp_path / "none.json"), "--misses", str(tmp_path / "misses.json"), "--env-file", str(env)]) == 0
     assert seen == ["eyJhbGci.abc-_123"]
     assert out.exists()
 
@@ -200,7 +203,7 @@ def test_main_prefers_tmdb_token_over_env_local(tmp_path, monkeypatch):
     env.write_text("VITE_TMDB_TOKEN=from.file\n", encoding="utf-8")
     seen = []
     monkeypatch.setattr(fha, "tmdb_getter", lambda token: seen.append(token) or (lambda path, params: {"results": []}))
-    fha.main(["--catalog", _catalog(tmp_path), "--output", str(tmp_path / "o.json"), "--overrides", str(tmp_path / "none.json"), "--env-file", str(env)])
+    fha.main(["--catalog", _catalog(tmp_path), "--output", str(tmp_path / "o.json"), "--overrides", str(tmp_path / "none.json"), "--misses", str(tmp_path / "misses.json"), "--env-file", str(env)])
     assert seen == ["from.env-var"]
 
 
@@ -209,7 +212,7 @@ def test_main_rejects_a_token_with_invalid_characters_before_any_request(tmp_pat
     monkeypatch.setenv("TMDB_TOKEN", token)
     monkeypatch.setattr(fha, "tmdb_getter", lambda t: pytest.fail("no request with a malformed token"))
     out = tmp_path / "hero_art.json"
-    assert fha.main(["--catalog", _catalog(tmp_path), "--output", str(out), "--env-file", str(tmp_path / "missing.env")]) == 1
+    assert fha.main(["--catalog", _catalog(tmp_path), "--output", str(out), "--misses", str(tmp_path / "misses.json"), "--env-file", str(tmp_path / "missing.env")]) == 1
     assert not out.exists()
     assert "invalid characters" in capsys.readouterr().err
 
@@ -230,17 +233,83 @@ def test_build_index_logs_every_title_as_it_goes():
     lines = []
     fha.build_index(titles, get, {"pin": {}, "block": ["d"]}, log=lines.append)
     assert lines == [
-        "[1/4] a  A  →  movie/5",
-        "[2/4] b  B  →  unmatched",
-        "[3/4] c  C  →  error: timed out",
-        "[4/4] d  D  →  blocked",
+        "Matching 3 titles against TMDB (one request each; 0 settled by earlier runs)…",
+        "[1/3] a  A  →  movie/5",
+        "[2/3] b  B  →  unmatched",
+        "[3/3] c  C  →  error: timed out",
     ]
 
 
 def test_main_announces_the_run_before_the_first_request(tmp_path, monkeypatch, capsys):
     monkeypatch.setenv("TMDB_TOKEN", "t")
     monkeypatch.setattr(fha, "tmdb_getter", lambda token: lambda path, params: {"results": []})
-    fha.main(["--catalog", _catalog(tmp_path), "--output", str(tmp_path / "o.json"), "--overrides", str(tmp_path / "none.json")])
+    fha.main(["--catalog", _catalog(tmp_path), "--output", str(tmp_path / "o.json"), "--overrides", str(tmp_path / "none.json"), "--misses", str(tmp_path / "misses.json")])
     err = capsys.readouterr().err
     assert err.startswith("Matching 2 titles against TMDB")
     assert "[1/2] 10  Toy Story  →  unmatched" in err
+
+
+def test_build_index_only_searches_titles_not_settled_by_an_earlier_run():
+    titles = [
+        {"key": "new", "name": "New", "year": None, "kind": "movie"},
+        {"key": "hit", "name": "Hit", "year": None, "kind": "movie"},
+        {"key": "miss", "name": "Miss", "year": None, "kind": "movie"},
+        {"key": "flaky", "name": "Flaky", "year": None, "kind": "movie"},
+    ]
+    done = {"hit": {"tmdb": "movie/1", "backdrop": "/hit.jpg"}, "gone": {"tmdb": "movie/9", "backdrop": "/gone.jpg"}}
+    get = _fake_get({("/search/movie", "New"): {"results": [{"id": 2, "title": "New", "backdrop_path": "/new.jpg"}]}})
+
+    def flaky_get(path, params):
+        if params.get("query") == "Flaky":
+            raise OSError("timed out")
+        return get(path, params)
+
+    items, misses, report = fha.build_index(titles, flaky_get, {"pin": {}, "block": []}, done, ["miss", "gone2"])
+    assert [params["query"] for _, params in get.calls] == ["New"]  # hit/miss not asked again
+    assert items == {"new": {"tmdb": "movie/2", "backdrop": "/new.jpg"}, "hit": done["hit"]}  # "gone" left the catalog
+    assert misses == {"miss"}  # a request error is retried next run, not recorded as a miss
+    assert report["searched"] == 2 and report["kept"] == 2
+
+
+def test_build_index_records_a_clean_no_match_as_a_miss():
+    titles = [{"key": "zz", "name": "Nada", "year": None, "kind": "movie"}]
+    _, misses, _ = fha.build_index(titles, _fake_get({("/search/movie", "Nada"): {"results": []}}), {"pin": {}, "block": []})
+    assert misses == {"zz"}
+
+
+def test_build_index_re_searches_a_changed_pin_and_drops_a_blocked_title():
+    titles = [
+        {"key": "p", "name": "P", "year": None, "kind": "show"},
+        {"key": "b", "name": "B", "year": None, "kind": "movie"},
+    ]
+    done = {"p": {"tmdb": "tv/1", "backdrop": "/old.jpg"}, "b": {"tmdb": "movie/3", "backdrop": "/b.jpg"}}
+    get = _fake_get({("/tv/2", None): {"id": 2, "backdrop_path": "/new.jpg"}})
+    items, _, _ = fha.build_index(titles, get, {"pin": {"p": "tv/2"}, "block": ["b"]}, done)
+    assert items == {"p": {"tmdb": "tv/2", "backdrop": "/new.jpg"}}
+    # Pin unchanged: settled, not asked again.
+    get = _fake_get({("/search/movie", "B"): {"results": []}})
+    fha.build_index(titles, get, {"pin": {"p": "tv/2"}, "block": []}, items)
+    assert [path for path, _ in get.calls] == ["/search/movie"]  # only "b", unblocked and unknown
+
+
+def _run(tmp_path, monkeypatch, get, *extra):
+    monkeypatch.setenv("TMDB_TOKEN", "t")
+    monkeypatch.setattr(fha, "tmdb_getter", lambda token: get)
+    return fha.main(["--catalog", _catalog(tmp_path), "--output", str(tmp_path / "o.json"),
+                     "--overrides", str(tmp_path / "none.json"), "--misses", str(tmp_path / "misses.json"), *extra])
+
+
+def test_main_second_run_asks_nothing_and_all_asks_everything(tmp_path, monkeypatch):
+    responses = {("/search/movie", "Toy Story"): {"results": [{"id": 862, "title": "Toy Story", "backdrop_path": "/toy.jpg"}]},
+                 ("/search/movie", "Cars"): {"results": []}}
+    first = _fake_get(responses)
+    assert _run(tmp_path, monkeypatch, first) == 0
+    assert len(first.calls) == 2
+    assert json.loads((tmp_path / "misses.json").read_text(encoding="utf-8")) == ["11"]
+    again = _fake_get(responses)
+    assert _run(tmp_path, monkeypatch, again) == 0
+    assert again.calls == []
+    assert json.loads((tmp_path / "o.json").read_text(encoding="utf-8"))["items"] == {"10": {"tmdb": "movie/862", "backdrop": "/toy.jpg"}}
+    everything = _fake_get(responses)
+    assert _run(tmp_path, monkeypatch, everything, "--all") == 0
+    assert len(everything.calls) == 2
