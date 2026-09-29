@@ -10,6 +10,21 @@ describe('installTizenPlatform', () => {
     expect(() => installTizenPlatform()).not.toThrow()
   })
 
+  it('forwards the Back key even without the tizen global (the LAN dev shell)', () => {
+    installTizenPlatform()
+
+    const onEscape = vi.fn()
+    window.addEventListener('keydown', (event) => {
+      if (event.key === 'Escape') onEscape()
+    })
+
+    const backEvent = new KeyboardEvent('keydown', {})
+    Object.defineProperty(backEvent, 'keyCode', { value: 10009 })
+    window.dispatchEvent(backEvent)
+
+    expect(onEscape).toHaveBeenCalled()
+  })
+
   it('registers the Back key and forwards it as an Escape keydown', () => {
     const registerKey = vi.fn()
     vi.stubGlobal('tizen', { tvinputdevice: { registerKey } })

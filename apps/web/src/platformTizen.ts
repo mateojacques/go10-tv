@@ -17,12 +17,12 @@ const TIZEN_BACK_KEYCODE = 10009
  * a packaged Tizen app (web, mobile-web, tests).
  */
 export function installTizenPlatform(): void {
-  if (typeof tizen === 'undefined') return
-
-  // Listen before registering: some Tizen versions/privilege configurations
-  // reject registerKey with a WebAPIException, but the key can still arrive
-  // if the platform delivers it anyway, and either way startup must not
-  // blank-screen over a rejected registration.
+  // Listen unconditionally, before registering: the dev shell loads the app
+  // from a LAN URL, where the `tizen` global isn't injected but the Back key
+  // still arrives. 10009 means nothing on any other platform. Listening
+  // first also covers Tizen versions/privilege configurations that reject
+  // registerKey with a WebAPIException but deliver the key anyway -- either
+  // way startup must not blank-screen over a rejected registration.
   window.addEventListener('keydown', (event) => {
     if (event.keyCode === TIZEN_BACK_KEYCODE) {
       event.preventDefault()
@@ -30,6 +30,7 @@ export function installTizenPlatform(): void {
     }
   })
 
+  if (typeof tizen === 'undefined') return
   try {
     tizen.tvinputdevice.registerKey('Back')
   } catch {
