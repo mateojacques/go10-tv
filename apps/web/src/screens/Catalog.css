@@ -33,7 +33,7 @@
    the gap before it -- a known limitation of the margin technique on a
    wrapping flex container. Accepted: this heading rarely wraps, and it's
    purely cosmetic when it does. */
-.go-catalog_title > * + * {
+.go-catalog_title > .go-row_count {
   margin-left: 0.875rem;
 }
 

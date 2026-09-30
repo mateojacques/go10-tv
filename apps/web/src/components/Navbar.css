@@ -34,10 +34,6 @@
   transition: opacity var(--go-dur) var(--go-ease);
 }
 
-.go-wordmark > * + * {
-  margin-left: 0.5rem;
-}
-
 .go-wordmark:focus-visible {
   outline: 2px solid var(--go-accent);
   outline-offset: 4px;
@@ -48,6 +44,9 @@
   width: 0.5rem;
   height: 0.5rem;
   border-radius: 50%;
+  /* Not `> * + *` on the wordmark: its label is a bare text node, which
+     sibling selectors skip. */
+  margin-right: 0.5rem;
   background: var(--go-accent);
   box-shadow: 0 0 14px 2px var(--go-accent-glow);
 }

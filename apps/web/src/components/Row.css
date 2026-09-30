@@ -15,7 +15,9 @@
    `@supports (gap: 1rem)` can't detect that -- grid-gap has shipped since
    Chromium 66, so the feature query is true everywhere long before flex-gap
    actually works. Margins render identically and need no detection. */
-.go-row_label > * + * {
+.go-row_label > .go-row_count {
+  /* Not `> * + *`: the label before it is a bare text node, which sibling
+     selectors skip. */
   margin-left: 0.75rem;
 }
 
