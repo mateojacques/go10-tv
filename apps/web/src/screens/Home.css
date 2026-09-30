@@ -553,6 +553,81 @@
   .go-hero_arrow {
     display: none;
   }
+
+  /* Horizontal drags are swipes between slides (HeroCarousel); vertical ones scroll. */
+  .go-hero--carousel {
+    touch-action: pan-y;
+  }
+}
+
+/* Phones: type sized for arm's length, buttons thumb-wide, dots centred. */
+@media (max-width: 600px) {
+  .go-hero.has-art,
+  .go-hero--carousel {
+    padding-bottom: 2.75rem;
+  }
+
+  .go-hero_eyebrow {
+    gap: 0.5rem;
+    margin-bottom: 0.625rem;
+    font-size: 0.6875rem;
+    letter-spacing: 0.12em;
+  }
+
+  .go-hero.has-art .go-hero_title,
+  .go-hero--carousel .go-hero_title {
+    margin-bottom: 0.625rem;
+    font-size: clamp(1.875rem, 8.5vw, 2.5rem);
+    line-height: 1.02;
+  }
+
+  .go-hero_meta {
+    margin-bottom: 0.75rem;
+    font-size: 0.8125rem;
+  }
+
+  .go-hero_sep {
+    margin: 0 0.5rem;
+  }
+
+  .go-hero_genres {
+    margin-bottom: 1.25rem;
+  }
+
+  .go-chip {
+    font-size: 0.75rem;
+  }
+
+  .go-hero_actions {
+    flex-wrap: nowrap;
+    gap: 0.625rem;
+  }
+
+  .go-hero_cta {
+    /* Shared by content width, not halves: the longer label needs more. */
+    flex: 1 1 auto;
+    justify-content: center;
+    gap: 0.5rem;
+    min-width: 0;
+    padding: 0.8125rem 0.75rem;
+    font-size: 0.9375rem;
+  }
+
+  .go-hero_play,
+  .go-hero_info {
+    flex-shrink: 0;
+  }
+
+  /* The season/episode note doesn't fit a half-width button. */
+  .go-hero_cta-note {
+    display: none;
+  }
+
+  .go-hero_dots {
+    right: 50%;
+    bottom: 1rem;
+    transform: translateX(50%);
+  }
 }
 
 /* Chromium 69 (Tizen 5.5) doesn't support clamp()/min() -- see tokens.css. */

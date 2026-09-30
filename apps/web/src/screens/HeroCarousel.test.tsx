@@ -80,6 +80,25 @@ describe('HeroCarousel', () => {
     expect(current()).toBe('Título c')
   })
 
+  it('changes slide on a horizontal swipe, not on a vertical scroll or a short drag', () => {
+    renderCarousel()
+    const hero = document.querySelector('.go-hero')!
+    const swipe = (from: [number, number], to: [number, number]) => {
+      fireEvent.touchStart(hero, { touches: [{ clientX: from[0], clientY: from[1] }] })
+      fireEvent.touchEnd(hero, { changedTouches: [{ clientX: to[0], clientY: to[1] }] })
+    }
+    swipe([300, 200], [100, 210])
+    expect(current()).toBe('Título b')
+    swipe([100, 200], [300, 190])
+    expect(current()).toBe('Título a')
+    swipe([100, 200], [300, 400])
+    expect(current()).toBe('Título a')
+    swipe([300, 200], [280, 200])
+    expect(current()).toBe('Título a')
+    swipe([100, 200], [300, 200])
+    expect(current()).toBe('Título c')
+  })
+
   it('changes slide with ← on Reproducir and → on Más información, keeping focus', () => {
     renderCarousel()
     const focused = () => document.querySelector('[data-focused="true"]')?.textContent

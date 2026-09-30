@@ -65,6 +65,8 @@
   :root {
     --go-safe-x: 1.25rem;
     --go-safe-y: 1.5rem;
+    /* A TV's tall bar would eat a sixth of a phone screen. */
+    --go-nav-h: 4.5rem;
   }
 }
 

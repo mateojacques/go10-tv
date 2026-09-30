@@ -1,4 +1,4 @@
-import { useMemo, useState, type ReactNode } from 'react'
+import { useMemo, useRef, useState, type ReactNode } from 'react'
 import type { CatalogRow, Title } from '@go10/core/types'
 import type { HeroSlide } from '@go10/core/hero/pickHero'
 import { heroMeta } from '@go10/core/catalog/describeTitle'
@@ -10,6 +10,9 @@ import { Backdrop } from '../components/Backdrop'
 import { ProgressBar } from '../components/ProgressBar'
 import { useFocusable } from '../focus/useFocusable'
 import { SLIDE_MS, useCarousel } from './useCarousel'
+
+/** How far a finger must travel sideways before the carousel treats it as a swipe. */
+const SWIPE_PX = 40
 
 function HeroButton({ id, col, onEnter, onKey, variant, children }: {
   id: string
@@ -98,12 +101,33 @@ export function HeroCarousel({ slides, onPlay, onInfo }: {
   const prev = () => go(index - 1)
   const next = () => go(index + 1)
 
+  // Touch screens: a horizontal swipe changes slide; vertical drags still scroll the page.
+  const swipeStart = useRef<{ x: number; y: number } | null>(null)
+  const onTouchStart = (event: React.TouchEvent) => {
+    const touch = event.touches[0]
+    swipeStart.current = event.touches.length === 1 ? { x: touch.clientX, y: touch.clientY } : null
+  }
+  const onTouchEnd = (event: React.TouchEvent) => {
+    const start = swipeStart.current
+    swipeStart.current = null
+    if (!many || !start) return
+    const touch = event.changedTouches[0]
+    const dx = touch.clientX - start.x
+    const dy = touch.clientY - start.y
+    if (Math.abs(dx) < SWIPE_PX || Math.abs(dx) < Math.abs(dy) * 1.5) return
+    if (dx < 0) next()
+    else prev()
+  }
+
   return (
     <header
       className={`go-hero go-hero--carousel${activeArt ? ' has-art' : ''}`}
       aria-roledescription="carousel"
       onPointerEnter={() => setHovered(true)}
       onPointerLeave={() => setHovered(false)}
+      onTouchStart={onTouchStart}
+      onTouchEnd={onTouchEnd}
+      onTouchCancel={() => (swipeStart.current = null)}
     >
       {slides.map((slide, i) => (
         <Stage
