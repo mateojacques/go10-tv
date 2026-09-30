@@ -1,0 +1,38 @@
+{
+  "id": "netflix",
+  "name": "Netflix",
+  "order": 12,
+  "logo": "assets/collections/netflix/logo.svg",
+  "tile": {
+    "color": "#141414"
+  },
+  "titles": [
+    "castlevania",
+    "arcane",
+    "baki-hanma",
+    "sangre-de-zeus",
+    "japon-se-hunde",
+    "terminator-zero",
+    "cyberpunk-edgerunners",
+    "devil-may-cry",
+    "samurai-de-ojos-azules",
+    "splinter-cell-deathwatch",
+    "isla-calavera",
+    "trese",
+    "amor-muerte-y-robots",
+    "love-death-robots",
+    "10183792462574",
+    "10015273650926",
+    "10173866773230",
+    "11030160804590",
+    "12005368072942",
+    "10460090927854",
+    "10147471362798",
+    "11177153006318",
+    "11177566800622",
+    "14698337667822",
+    "14698391145198",
+    "10099872893678",
+    "9955544337134"
+  ]
+}

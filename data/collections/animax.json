@@ -1,0 +1,36 @@
+{
+  "id": "animax",
+  "name": "Animax",
+  "order": 11,
+  "logo": "assets/collections/animax/logo.svg",
+  "tile": {
+    "color": "#007dc5"
+  },
+  "titles": [
+    "death-note",
+    "gto-great-teacher-onizuka",
+    "heroman",
+    "gantz",
+    "kenichi-el-discipulo-mas-fuerte",
+    "oruchuban-ebichu",
+    "high-school-dxd",
+    "ergo-proxy",
+    "highschool-of-the-dead",
+    "owari-no-seraph",
+    "claymore",
+    "toradora",
+    "air-master",
+    "air-gear",
+    "desert-punk",
+    "elfen-lied",
+    "suisei-no-gargantia",
+    "full-metal-panic-fumoffu",
+    "hellsing",
+    "another",
+    "prison-school",
+    "tetsuwan-birdy-decode",
+    "haibane-renmei",
+    "btooom",
+    "aika"
+  ]
+}

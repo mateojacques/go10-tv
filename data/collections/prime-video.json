@@ -1,0 +1,16 @@
+{
+  "id": "prime-video",
+  "name": "Prime Video",
+  "order": 13,
+  "logo": "assets/collections/prime-video/logo.svg",
+  "tile": {
+    "color": "#0f171e"
+  },
+  "titles": [
+    "invincible",
+    "hazbin-hotel",
+    "undone",
+    "hazbin-hotel-el-hotel-de-las-viejas-glorias",
+    "10081436306158"
+  ]
+}
