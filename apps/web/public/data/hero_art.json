@@ -1561,6 +1561,50 @@
       "tmdb": "movie/44251",
       "backdrop": "/2WTjYoswcKZTQrokeUOhY3Xb3mZ.jpg"
     },
+    "8813030607431": {
+      "tmdb": "movie/22582",
+      "backdrop": "/uDdt2h4Q1jZikmYphHRerKtjMgF.jpg"
+    },
+    "8813716376135": {
+      "tmdb": "movie/14787",
+      "backdrop": "/dS9wDDuVyiq5pQRD8ab4JcM6Doy.jpg"
+    },
+    "8813926681159": {
+      "tmdb": "movie/21078",
+      "backdrop": "/qKTyt2DTGVcx36nsD09h8mU8bqb.jpg"
+    },
+    "8815259028039": {
+      "tmdb": "movie/42246",
+      "backdrop": "/bXILbW1i0WRShd6s4LfLKdJM6zm.jpg"
+    },
+    "8819440224839": {
+      "tmdb": "movie/60293",
+      "backdrop": "/7tOpXxoPavzvkPz92JpnWl0uHet.jpg"
+    },
+    "8821574535751": {
+      "tmdb": "movie/24696",
+      "backdrop": "/7YbVGZaxJWipyqgPOzJxjtUrwLA.jpg"
+    },
+    "8822385412679": {
+      "tmdb": "movie/43956",
+      "backdrop": "/8rrUYhHEq3KKWP0kZjl0OaBm3D2.jpg"
+    },
+    "8831483316807": {
+      "tmdb": "movie/134623",
+      "backdrop": "/cXI35VgXZ0RtrNlnOnxp7wzXv1E.jpg"
+    },
+    "8833682442823": {
+      "tmdb": "movie/199753",
+      "backdrop": "/xXY4XV7hhOH7QDVLb7yGU9n0YiE.jpg"
+    },
+    "8833835534919": {
+      "tmdb": "movie/307650",
+      "backdrop": "/iqCwdyohykkfR0uy49bqySHLWeM.jpg"
+    },
+    "8834273315399": {
+      "tmdb": "movie/287233",
+      "backdrop": "/7Y2hqJteEvE5DD0j99QTXqF9MZ8.jpg"
+    },
     "92504918728": {
       "tmdb": "movie/126963",
       "backdrop": "/felXFRjJXF40NPzK1IPib8ojF2X.jpg"
@@ -1836,6 +1880,10 @@
     "ed-edd-y-eddy": {
       "tmdb": "tv/606",
       "backdrop": "/iRbNLYmqlxbqkfCuAmHaFwZ9ocY.jpg"
+    },
+    "el-nuevo-show-de-tom-y-jerry": {
+      "tmdb": "tv/14705",
+      "backdrop": "/40Or39OYHE2DVI5H5Nc99MrFtkD.jpg"
     },
     "el-ocaso-de-los-dioses": {
       "tmdb": "tv/97333",
@@ -2128,6 +2176,14 @@
     "terminator-zero": {
       "tmdb": "tv/239287",
       "backdrop": "/woH18JkZMYhMSWqtHkPA4F6Gd1z.jpg"
+    },
+    "tom-y-jerry": {
+      "tmdb": "tv/336531",
+      "backdrop": "/vBV8AGQ3zxtF3mW3ZYDEOh7RNsu.jpg"
+    },
+    "tom-y-jerry-redoblaje": {
+      "tmdb": "tv/336531",
+      "backdrop": "/vBV8AGQ3zxtF3mW3ZYDEOh7RNsu.jpg"
     },
     "toradora": {
       "tmdb": "tv/42916",

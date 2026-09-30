@@ -1,0 +1,24 @@
+{
+  "title": "Tom y Jerry: El anillo mágico",
+  "type": "movie",
+  "added": "2026-09-30",
+  "query": "https://ok.ru/video/8813716376135",
+  "year": "2002",
+  "studio": "WarnerBros",
+  "source": "PELICULAS DE TOM Y JERRY",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "8813716376135",
+      "title_raw": "3 / TOM Y JERRY / ANILLO MAGICO / 2002 / EN ESPAÑOL",
+      "duration_raw": "58:55",
+      "views": 605,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=5876310411847&type=32&idx=5&tkn=t_qlLzy-ZmNtH9s7hfqq6xUylJo&fn=external_8",
+      "quality": "480p"
+    }
+  ]
+}

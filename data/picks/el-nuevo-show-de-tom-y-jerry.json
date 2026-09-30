@@ -1,0 +1,426 @@
+{
+  "title": "El nuevo show de Tom y Jerry",
+  "type": "series",
+  "added": "2026-09-30",
+  "query": "https://ok.ru/video/c20592764",
+  "year": "1980",
+  "studio": "WarnerBros",
+  "source": "LAS NUEVAS AVENTURAS DE TOM Y JERRY - AUDIO LATINO",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "7209919318652",
+      "title_raw": "01a. Adiós dulce ratón (Con segmento)",
+      "duration_raw": "08:48",
+      "views": 147,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 1
+    },
+    {
+      "video_id": "7209915189884",
+      "title_raw": "01b. Droopy una noche de insomnio (sin segmento)",
+      "duration_raw": "07:55",
+      "views": 62,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 2
+    },
+    {
+      "video_id": "7209908767356",
+      "title_raw": "01c. Un nuevo ratón para la casa (Con segmento)",
+      "duration_raw": "08:45",
+      "views": 44,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 3
+    },
+    {
+      "video_id": "7209896184444",
+      "title_raw": "02a. El peso de la cultura (Con segmento)",
+      "duration_raw": "08:44",
+      "views": 42,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 4
+    },
+    {
+      "video_id": "7209890220668",
+      "title_raw": "02b. Droopy motita al rescate (Sin segmento)",
+      "duration_raw": "07:55",
+      "views": 36,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 5
+    },
+    {
+      "video_id": "7209879997052",
+      "title_raw": "02c. El niñero (Con segmento)",
+      "duration_raw": "08:46",
+      "views": 37,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 6
+    },
+    {
+      "video_id": "7209872788092",
+      "title_raw": "03a. El gato más codiciado (Con segmento)",
+      "duration_raw": "08:52",
+      "views": 30,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 7
+    },
+    {
+      "video_id": "7211212540540",
+      "title_raw": "03b. Droopy en la peste en el oeste (Con segmento)",
+      "duration_raw": "08:45",
+      "views": 55,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1440p",
+      "season_number": 1,
+      "episode_number": 8
+    },
+    {
+      "video_id": "7209871805052",
+      "title_raw": "03c. EL Gato violinista (Con segmento)",
+      "duration_raw": "08:45",
+      "views": 36,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 9
+    },
+    {
+      "video_id": "7209862171260",
+      "title_raw": "04a. La invasión del marciano (Con segmento)",
+      "duration_raw": "08:45",
+      "views": 29,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 10
+    },
+    {
+      "video_id": "7209854175868",
+      "title_raw": "04b. Droopy El increíble (Con segmento)",
+      "duration_raw": "08:46",
+      "views": 46,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 11
+    },
+    {
+      "video_id": "7209843886716",
+      "title_raw": "04c. El barón ataca de nuevo (Con segmento)",
+      "duration_raw": "08:48",
+      "views": 32,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 12
+    },
+    {
+      "video_id": "7209838512764",
+      "title_raw": "05a. El increíble gato que encoje (Con segmento)",
+      "duration_raw": "08:47",
+      "views": 26,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 13
+    },
+    {
+      "video_id": "7209832417916",
+      "title_raw": "05b. Droopy y el Oso asustado (Con segmento)",
+      "duration_raw": "08:42",
+      "views": 29,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 14
+    },
+    {
+      "video_id": "7209823832700",
+      "title_raw": "05c. Cuando el gallo cacarea (Con segmento)",
+      "duration_raw": "08:43",
+      "views": 23,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 15
+    },
+    {
+      "video_id": "7209816623740",
+      "title_raw": "06a. Escuela para gatos (Con segmento)",
+      "duration_raw": "08:43",
+      "views": 26,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 16
+    },
+    {
+      "video_id": "7209814395516",
+      "title_raw": "06b. Droopy bailarin (Con segmento)",
+      "duration_raw": "08:46",
+      "views": 27,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 17
+    },
+    {
+      "video_id": "7209800698492",
+      "title_raw": "06c. El flautista mágico (Con segmento)",
+      "duration_raw": "08:45",
+      "views": 26,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 18
+    },
+    {
+      "video_id": "7209798601340",
+      "title_raw": "07a. Dentro de la carpa (sin segmento)",
+      "duration_raw": "07:54",
+      "views": 26,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 19
+    },
+    {
+      "video_id": "7209796766332",
+      "title_raw": "07c. Tom y el topo (sin segmento)",
+      "duration_raw": "07:55",
+      "views": 38,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 21
+    },
+    {
+      "video_id": "7209787067004",
+      "title_raw": "08a. Lucha helada (sin segmento)",
+      "duration_raw": "07:58",
+      "views": 26,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 22
+    },
+    {
+      "video_id": "7209780775548",
+      "title_raw": "08b. Droopy en Atrapando el pie (sin segmento)",
+      "duration_raw": "07:54",
+      "views": 24,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 23
+    },
+    {
+      "video_id": "7209779071612",
+      "title_raw": "08c. El gatito volador (sin segmento)",
+      "duration_raw": "07:55",
+      "views": 18,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 24
+    },
+    {
+      "video_id": "7209775598204",
+      "title_raw": "09a. Diviertete Jerry (sin segmento)",
+      "duration_raw": "07:55",
+      "views": 25,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 25
+    },
+    {
+      "video_id": "7209765177980",
+      "title_raw": "09b. El cazador de autógrafos (Con segmento)",
+      "duration_raw": "08:46",
+      "views": 26,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 26
+    },
+    {
+      "video_id": "7209762294396",
+      "title_raw": "09c. El cumpleaños de Spike (sin segento)",
+      "duration_raw": "07:55",
+      "views": 20,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 27
+    },
+    {
+      "video_id": "7209760328316",
+      "title_raw": "10a. Un museo sin paz (Con segmento)",
+      "duration_raw": "08:23",
+      "views": 28,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 28
+    },
+    {
+      "video_id": "7211206183548",
+      "title_raw": "10b. Droopy Un día en la pastelería (Con segmento)",
+      "duration_raw": "08:28",
+      "views": 41,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1440p",
+      "season_number": 1,
+      "episode_number": 29
+    },
+    {
+      "video_id": "7209756396156",
+      "title_raw": "10c. Un ratón en Miami (Con segmento)",
+      "duration_raw": "08:24",
+      "views": 25,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 30
+    },
+    {
+      "video_id": "7209744665212",
+      "title_raw": "11a. El perro trojano (sin segmento)",
+      "duration_raw": "07:55",
+      "views": 29,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 31
+    },
+    {
+      "video_id": "7209742502524",
+      "title_raw": "11b. Droopy en la legión extranjera (sin segmento)",
+      "duration_raw": "07:57",
+      "views": 26,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 32
+    },
+    {
+      "video_id": "7209558805116",
+      "title_raw": "11c. Tarta en el cielo (sin segmento)",
+      "duration_raw": "07:53",
+      "views": 46,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 33
+    },
+    {
+      "video_id": "7209556183676",
+      "title_raw": "12a. Salven a ese ratón (sin segmento)",
+      "duration_raw": "07:55",
+      "views": 18,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 34
+    },
+    {
+      "video_id": "7209527216764",
+      "title_raw": "12c. Erasmo el perico (Con segmento)",
+      "duration_raw": "08:48",
+      "views": 26,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 36
+    },
+    {
+      "video_id": "7209521187452",
+      "title_raw": "13a. Super almacenista (sin segmento)",
+      "duration_raw": "08:01",
+      "views": 23,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 37
+    },
+    {
+      "video_id": "7209517058684",
+      "title_raw": "13b. Droopy El amuleto de Motita (Con segmento)",
+      "duration_raw": "08:27",
+      "views": 23,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 38
+    },
+    {
+      "video_id": "7209510177404",
+      "title_raw": "13c. El gran roedini (Con segmento)",
+      "duration_raw": "08:44",
+      "views": 47,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 39
+    },
+    {
+      "video_id": "7209507752572",
+      "title_raw": "14a. El primo campesino (sin segmento)",
+      "duration_raw": "07:57",
+      "views": 31,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 40
+    },
+    {
+      "video_id": "7209477933692",
+      "title_raw": "14c. Desastre mecánico (sin segmento)",
+      "duration_raw": "07:55",
+      "views": 26,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 42
+    },
+    {
+      "video_id": "7209439136380",
+      "title_raw": "15a. Un raton de connecticut en la corte del rey arturo (sin segmento)",
+      "duration_raw": "08:00",
+      "views": 27,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 43
+    },
+    {
+      "video_id": "7209413708412",
+      "title_raw": "15c. Estrategia en el escenario (sin segmento)",
+      "duration_raw": "07:55",
+      "views": 28,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYo0jF53vdePu8GRAfXrLAzPbYiUkk6lliOtwocqJcd_0&fn=external_8",
+      "quality": "1080p",
+      "season_number": 1,
+      "episode_number": 45
+    }
+  ]
+}
