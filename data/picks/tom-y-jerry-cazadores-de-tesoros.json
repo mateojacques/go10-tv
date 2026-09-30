@@ -1,0 +1,24 @@
+{
+  "title": "Tom y Jerry: Cazadores de tesoros",
+  "type": "movie",
+  "added": "2026-09-30",
+  "query": "https://ok.ru/video/14766664256102",
+  "year": "2006",
+  "studio": "WarnerBros",
+  "source": "animacion",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "14766664256102",
+      "title_raw": "Tom y Jerry- Cazadores de tesoros (2006) (Tom and Jerry- Shiver Me Whiskers)",
+      "duration_raw": "1:11:26",
+      "views": 322,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=15539257739878&type=32&idx=1&tkn=fctJkiRInGvW2XMTivgKNGCjtTI&fn=external_8",
+      "quality": "1080p"
+    }
+  ]
+}

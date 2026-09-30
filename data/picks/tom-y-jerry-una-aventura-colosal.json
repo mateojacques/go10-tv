@@ -1,0 +1,24 @@
+{
+  "title": "Tom y Jerry: Una aventura colosal",
+  "type": "movie",
+  "added": "2026-09-30",
+  "query": "https://ok.ru/video/7265551387238",
+  "year": "2013",
+  "studio": "WarnerBros",
+  "source": "animacion",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "7265551387238",
+      "title_raw": "Tom y Jerry- Una aventura colosal (2013) (Tom and Jerry's Giant  ...",
+      "duration_raw": "56:59",
+      "views": 780,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=5922442447462&type=32&idx=0&tkn=M_GLUVyPw7cjbG0CNzu5nIOxFHQ&fn=external_7",
+      "quality": "480p"
+    }
+  ]
+}
