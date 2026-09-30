@@ -1,0 +1,24 @@
+{
+  "title": "Tom y Jerry: Rápidos y furiosos",
+  "type": "movie",
+  "added": "2026-09-30",
+  "query": "tom y jerry rapidos y furiosos",
+  "year": "2005",
+  "studio": "WarnerBros",
+  "source": "animacion",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "14766802668134",
+      "title_raw": "Tom y Jerry- Rápidos y furiosos (2005) (Tom and Jerry- The Fast and the Furry)",
+      "duration_raw": "1:14:33",
+      "views": 1122,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=15539516148326&type=32&idx=1&tkn=hKE3YKWim2_qpIcmJZ23f5Lakww&fn=external_8",
+      "quality": "1080p"
+    }
+  ]
+}
