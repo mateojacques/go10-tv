@@ -1,0 +1,23 @@
+{
+  "title": "Dragon Ball Z: La galaxia corre peligro",
+  "type": "movie",
+  "added": "2026-09-29",
+  "query": "https://ok.ru/video/2808503995000",
+  "year": "1993",
+  "studio": "",
+  "source": "Películas-y-Especiales-Dragon-Bal",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "2808503995000",
+      "title_raw": "Pelicula 09 - Los guerreros de plata",
+      "duration_raw": "50:23",
+      "views": 1528,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1094593546872&type=32&idx=9&tkn=CUAlSzOeula35wfsN4yR59RQGLw&fn=external_8"
+    }
+  ]
+}

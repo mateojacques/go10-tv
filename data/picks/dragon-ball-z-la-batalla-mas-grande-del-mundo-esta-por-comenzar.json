@@ -1,0 +1,23 @@
+{
+  "title": "Dragon Ball Z: La batalla más grande del mundo está por comenzar",
+  "type": "movie",
+  "added": "2026-09-29",
+  "query": "https://ok.ru/video/2808061037176",
+  "year": "1990",
+  "studio": "",
+  "source": "Películas-y-Especiales-Dragon-Bal",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "2808061037176",
+      "title_raw": "Pelicula 03 - La super batalla",
+      "duration_raw": "1:01:04",
+      "views": 170,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1094312004216&type=32&idx=4&tkn=AnRXZ4rb0pkE4RVFcZ6oz7up5UA&fn=external_8"
+    }
+  ]
+}

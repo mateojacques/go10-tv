@@ -1,0 +1,23 @@
+{
+  "title": "Dragon Ball Z: El hombre más fuerte del mundo",
+  "type": "movie",
+  "added": "2026-09-29",
+  "query": "https://ok.ru/video/2808060906104",
+  "year": "1990",
+  "studio": "",
+  "source": "Películas-y-Especiales-Dragon-Bal",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "2808060906104",
+      "title_raw": "Pelicula 02 - El homber más fuerte del mundo",
+      "duration_raw": "59:40",
+      "views": 1419,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1094296210040&type=32&idx=3&tkn=Ga6Yx7HpLd1En-0YVGQh79aJmy4&fn=external_8"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Dragon Ball Z: La batalla de los dioses",
+  "type": "movie",
+  "added": "2026-09-29",
+  "query": "https://ok.ru/video/92504918728",
+  "year": "2013",
+  "studio": "",
+  "source": "Peliculas DBZ",
+  "quality": "720p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "92504918728",
+      "title_raw": "Dragon Ball Z Pelicula 14",
+      "duration_raw": "1:25:07",
+      "views": 1727,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=144750414536&type=32&idx=0&tkn=qSNIueM9VVmQiWmf-Zh42a9rBO4&fn=external_8"
+    }
+  ]
+}

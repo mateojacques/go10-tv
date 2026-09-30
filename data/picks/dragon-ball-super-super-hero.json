@@ -1,0 +1,18 @@
+{
+  "title": "Dragon Ball Super: Super Hero",
+  "type": "movie",
+  "added": "2026-09-29",
+  "query": "https://ok.ru/video/15686163630767",
+  "year": "2022",
+  "studio": "",
+  "source": "Vicente Rodriguez",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Acción",
+  "videos": [
+    {"video_id": "15686163630767", "title_raw": "26 Dragon Ball Z - Pelicula super hero", "duration_raw": "1:36:20",
+     "views": 0, "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17378758822575&type=37&idx=3&scl=4&tkn=hU9c4d5vnQ-P7XcNY5WA6RRuQpk&fn=external_8"}
+  ]
+}

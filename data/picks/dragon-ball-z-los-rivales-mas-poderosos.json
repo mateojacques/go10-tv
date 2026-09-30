@@ -1,0 +1,23 @@
+{
+  "title": "Dragon Ball Z: Los rivales más poderosos",
+  "type": "movie",
+  "added": "2026-09-29",
+  "query": "https://ok.ru/video/2808499604088",
+  "year": "1991",
+  "studio": "",
+  "source": "Películas-y-Especiales-Dragon-Bal",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "2808499604088",
+      "title_raw": "Pelicula 05 - La venganza de Cooler",
+      "duration_raw": "47:06",
+      "views": 1464,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1094587452024&type=32&idx=2&tkn=iaQu0djwYH1TxsmdBvNSnA4sxSs&fn=external_8"
+    }
+  ]
+}

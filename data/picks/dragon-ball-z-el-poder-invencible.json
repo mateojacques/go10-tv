@@ -1,0 +1,23 @@
+{
+  "title": "Dragon Ball Z: El poder invencible",
+  "type": "movie",
+  "added": "2026-09-29",
+  "query": "https://ok.ru/video/2057376893532",
+  "year": "1993",
+  "studio": "",
+  "source": "DBZS MOVIE",
+  "quality": "720p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "2057376893532",
+      "title_raw": "Dragon Ball Z- Pelicula 8",
+      "duration_raw": "1:11:56",
+      "views": 438,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=957566290524&type=32&idx=6&tkn=LzAa3nUsng_XElw7-07g58mead8&fn=external_8"
+    }
+  ]
+}

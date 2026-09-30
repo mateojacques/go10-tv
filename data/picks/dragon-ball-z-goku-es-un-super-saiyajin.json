@@ -1,0 +1,23 @@
+{
+  "title": "Dragon Ball Z: Goku es un Super Saiyajin",
+  "type": "movie",
+  "added": "2026-09-29",
+  "query": "https://ok.ru/video/2808060840568",
+  "year": "1991",
+  "studio": "",
+  "source": "Películas-y-Especiales-Dragon-Bal",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "2808060840568",
+      "title_raw": "Pelicula 04 - El super guerrero Son Goku",
+      "duration_raw": "52:00",
+      "views": 1219,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1094317640312&type=32&idx=6&tkn=UJTsmfQubXcLgJhMP6XhPqnT328&fn=external_8"
+    }
+  ]
+}

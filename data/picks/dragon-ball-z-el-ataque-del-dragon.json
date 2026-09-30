@@ -1,0 +1,23 @@
+{
+  "title": "Dragon Ball Z: El ataque del dragón",
+  "type": "movie",
+  "added": "2026-09-29",
+  "query": "https://ok.ru/video/2808504191608",
+  "year": "1995",
+  "studio": "",
+  "source": "Películas-y-Especiales-Dragon-Bal",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "2808504191608",
+      "title_raw": "Pelicula 13 - El ataque del dragón",
+      "duration_raw": "51:58",
+      "views": 141,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1094609930872&type=32&idx=13&tkn=i8URluqlS9ySLfWXvUuMBGq7Ux4&fn=external_8"
+    }
+  ]
+}

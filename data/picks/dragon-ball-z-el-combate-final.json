@@ -1,0 +1,23 @@
+{
+  "title": "Dragon Ball Z: El combate final",
+  "type": "movie",
+  "added": "2026-09-29",
+  "query": "https://ok.ru/video/2808504126072",
+  "year": "1994",
+  "studio": "",
+  "source": "Películas-y-Especiales-Dragon-Bal",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "2808504126072",
+      "title_raw": "Pelicula 11 - El combate definitivo",
+      "duration_raw": "46:36",
+      "views": 158,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1094605081208&type=32&idx=4&tkn=ZpoIp8Q4pYiYWQSqDnioTuB0XyI&fn=external_8"
+    }
+  ]
+}
