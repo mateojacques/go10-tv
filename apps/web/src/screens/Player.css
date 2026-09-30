@@ -7,6 +7,25 @@
   flex-direction: column;
   background: #000;
   animation: go-player-in var(--go-dur-slow) var(--go-ease);
+  /* Taps on a phone: no grey/blue tap flash, no long-press selection
+   * painting the whole player (Firefox), no callout menu. */
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* The embed holds focus while it's being used; a ring round the whole
+ * screen says nothing. */
+.go-player_frame:focus {
+  outline: none;
+}
+
+/* Answer the first tap at once: no double-tap-to-zoom wait. */
+.go-player_handle,
+.go-player_btn,
+.go-player_open {
+  touch-action: manipulation;
 }
 
 @keyframes go-player-in {
@@ -307,6 +326,24 @@
   font-size: 0.8125rem;
   letter-spacing: 0.06em;
   color: var(--go-text-muted);
+}
+
+/* Touch screens: a thumb-sized handle, visible enough to find over the video. */
+@media (pointer: coarse) {
+  .go-player_handle {
+    width: 4.5rem;
+    height: 2.75rem;
+    margin-left: -2.25rem;
+    opacity: 0.85;
+  }
+
+  .go-player_handle::before {
+    inset: 0.5rem 0.875rem;
+  }
+
+  .go-player_btn:focus:not(:focus-visible) {
+    outline: none;
+  }
 }
 
 /* Chromium 69 (Tizen 5.5) doesn't support max() (and likely not env() either,

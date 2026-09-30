@@ -6,6 +6,7 @@ import { backAction, playerKeyAction, type PlayerAction } from '@go10/core/playe
 import { providerFor } from '@go10/core/player/providers/index'
 import { rowLabel } from '@go10/core/progress/describe'
 import { remoteKeyFromEvent } from '../player/remoteKey'
+import { isTvDevice } from '../focus/inputMode'
 import './Player.css'
 
 /** Seek presses this close together go to the embed as one seek. */
@@ -13,6 +14,17 @@ const SEEK_COALESCE_MS = 400
 
 /** How long the on-screen feedback for a key stays up. */
 const FEEDBACK_MS = 1200
+
+/** On a touch screen the bar folds itself away after this long untouched. */
+const BAR_IDLE_MS = 4000
+
+/**
+ * Phones and tablets: taps go straight into the embed for its own controls,
+ * so the page must never pull focus back from it mid-gesture (see below).
+ */
+function isTouchScreen(): boolean {
+  return !isTvDevice() && typeof window.matchMedia === 'function' && window.matchMedia('(pointer: coarse)').matches
+}
 
 /** What the last remote key did, shown on screen: the embed reacts late on a TV. */
 type Feedback = { kind: 'seek'; delta: number; target: number } | { kind: 'play' | 'pause' }
@@ -42,8 +54,11 @@ export function Player({
   onNext?: () => void
 }) {
   const [state, dispatch] = useReducer(playerRetryReducer, initialPlayerRetryState)
+  const [touch] = useState(isTouchScreen)
   // The bar overlays the video, folded away to a small handle until wanted.
-  const [barOpen, setBarOpen] = useState(false)
+  // A touch screen shows it on arrival, so the way back is never hidden.
+  const [barOpen, setBarOpen] = useState(touch)
+  const [barActivity, bumpBarActivity] = useReducer((n: number) => n + 1, 0)
   const [playing, setPlaying] = useState(false)
   const [feedback, setFeedback] = useState<Feedback | null>(null)
   const loaded = useRef(false)
@@ -226,6 +241,12 @@ export function Player({
     return () => window.removeEventListener('keydown', onKeyDown)
   }, [session])
 
+  useEffect(() => {
+    if (!touch || !barOpen) return
+    const timer = setTimeout(() => setBarOpen(false), BAR_IDLE_MS)
+    return () => clearTimeout(timer)
+  }, [touch, barOpen, barActivity])
+
   // The player has no custom spatial-nav grid of its own (unlike every other
   // screen -- see useFocusable.ts): its buttons are plain, natively
   // focusable <button>s. The ok.ru/vidlove iframe can take DOM focus the
@@ -235,8 +256,11 @@ export function Player({
   // postMessage), so a real button is kept focused instead -- the handle
   // while the bar is folded away, play/pause (else the close button) once
   // it's open -- and reclaimed the moment the iframe takes it (which
-  // surfaces here as this window blurring).
+  // surfaces here as this window blurring). Not on a touch screen: a tap on
+  // the video focuses the iframe too, and snatching focus back mid-tap is
+  // what swallowed taps meant for the embed's own controls.
   useEffect(() => {
+    if (touch) return
     const target = barOpen ? (playRef.current ?? closeRef.current) : handleRef.current
     target?.focus({ preventScroll: true })
     function onWindowBlur() {
@@ -244,7 +268,7 @@ export function Player({
     }
     window.addEventListener('blur', onWindowBlur)
     return () => window.removeEventListener('blur', onWindowBlur)
-  }, [barOpen])
+  }, [barOpen, touch])
 
   const handleLoad = useCallback(() => {
     loaded.current = true
@@ -273,6 +297,7 @@ export function Player({
         id="go-player-bar"
         className={`go-player_bar${barOpen ? ' is-open' : ''}`}
         inert={!barOpen}
+        onPointerDown={bumpBarActivity}
       >
         <button ref={closeRef} type="button" className="go-player_btn" onClick={onClose} aria-label="Volver">
           <span className="go-back_chevron" aria-hidden="true" />

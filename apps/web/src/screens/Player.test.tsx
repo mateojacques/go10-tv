@@ -61,6 +61,32 @@ describe('Player', () => {
     expect(document.activeElement).toBe(screen.getByRole('button', { name: 'Mostrar controles' }))
   })
 
+  describe('on a touch screen', () => {
+    beforeEach(() => {
+      vi.stubGlobal('matchMedia', (query: string) => ({ matches: query.includes('coarse'), addEventListener() {}, removeEventListener() {} }))
+    })
+    afterEach(() => vi.unstubAllGlobals())
+
+    it('leaves focus with the embed, so taps reach its own controls', () => {
+      render(<Player row={row()} onClose={() => {}} />)
+      getFrame().focus()
+      fireEvent(window, new Event('blur'))
+      act(() => vi.advanceTimersByTime(0))
+      expect(document.activeElement).toBe(getFrame())
+    })
+
+    it('shows the bar on arrival and folds it away when left alone', () => {
+      render(<Player row={row()} onClose={() => {}} />)
+      expect(screen.getByRole('button', { name: 'Ocultar controles' })).not.toBeNull()
+      act(() => vi.advanceTimersByTime(3000))
+      fireEvent.pointerDown(document.getElementById('go-player-bar')!)
+      act(() => vi.advanceTimersByTime(3000))
+      expect(screen.getByRole('button', { name: 'Ocultar controles' })).not.toBeNull()
+      act(() => vi.advanceTimersByTime(1000))
+      expect(screen.getByRole('button', { name: 'Mostrar controles' })).not.toBeNull()
+    })
+  })
+
   it('shows a reconnecting indicator on load timeout, then recovers on load', () => {
     render(<Player row={row()} onClose={() => {}} />)
     expect(screen.queryByText('Reconectando…')).toBeNull()
