@@ -1,0 +1,18 @@
+{
+  "title": "Dragon Ball Z: El regreso del guerrero legendario",
+  "type": "movie",
+  "added": "2026-09-29",
+  "query": "https://ok.ru/video/6039184542418",
+  "year": "1994",
+  "studio": "",
+  "source": "PELICULAS",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Acción",
+  "videos": [
+    {"video_id": "6039184542418", "title_raw": "Dragon Ball Z El Regreso del Guerrero Legendario 1994", "duration_raw": "52:10",
+     "views": 625, "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYW3274XloIMKYe3pKuI7MGtV7O7V7HycT6tqZQ7wZsnU&fn=external_7"}
+  ]
+}
