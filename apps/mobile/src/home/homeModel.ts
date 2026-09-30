@@ -18,10 +18,11 @@ export interface HomeModel {
 /** The web Home's layout decisions (apps/web/src/screens/Home.tsx); Seguir viendo is built by HomeView from live progress. */
 export function buildHome(data: CatalogData): HomeModel | null {
   if (data.titles.length === 0) return null
+  const slides = pickHeroOnce(data.titles, data.heroArt)
   return {
-    slides: pickHeroOnce(data.titles, data.heroArt),
+    slides,
     strip: visibleCollections(data.collections, data.titles).map((resolved) => resolved.collection),
-    rows: buildRows(data.titles),
+    rows: buildRows(data.titles, { heroArt: data.heroArt, featured: slides.map((slide) => slide.title.key) }),
     titles: data.titles,
   }
 }

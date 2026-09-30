@@ -32,7 +32,6 @@ export function Home({
   /** The hero art sidecar; null while it loads. */
   heroArt: HeroArtIndex | null
 }) {
-  const groups = useMemo(() => buildRows(titles), [titles])
   // Home remounts each time it's navigated back to, so reading once per
   // mount picks up whatever was just watched. Played TMDB titles aren't in
   // the catalog; their snapshots stand in for them here, and only here.
@@ -53,6 +52,12 @@ export function Home({
   }
   // Picked once the sidecar has settled, so the first pick already prefers art; fixed for the page.
   const slides = useMemo(() => (heroArt ? pickHeroOnce(titles, heroArt) : null), [titles, heroArt])
+  // Ranked with the art once it lands (titles with a backdrop rank higher), and
+  // without the hero's titles, which are already on screen.
+  const groups = useMemo(
+    () => buildRows(titles, { heroArt: heroArt ?? {}, featured: slides?.map((slide) => slide.title.key) }),
+    [titles, heroArt, slides],
+  )
 
   if (titles.length === 0) {
     return (

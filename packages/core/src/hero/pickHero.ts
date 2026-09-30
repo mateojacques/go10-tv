@@ -1,8 +1,12 @@
 import type { Title } from '../types'
 import { resolveArt, type HeroArt, type HeroArtIndex } from './art'
+import { polishScore } from '../catalog/polish'
 
 /** How the hero spreads across the catalog. Never shown to the user. */
 export const HERO_BUCKETS = ['Animación', 'Drama', 'Terror', 'Infantil', 'Anime'] as const
+
+/** Each bucket's pick is drawn from this many of its most polished titles. */
+export const HERO_POOL = 8
 
 export interface HeroSlide { title: Title; art: HeroArt | null }
 
@@ -15,9 +19,10 @@ function shuffle<T>(items: T[], random: () => number): T[] {
 }
 
 /**
- * One random title per bucket (by genre or genre_secondary), in shuffled
- * bucket order. Only titles with art are featured: a bucket without any is
- * left out, and with no art at all there is no hero.
+ * One title per bucket (by genre or genre_secondary), in shuffled bucket
+ * order, drawn at random from the bucket's HERO_POOL most polished titles.
+ * Only titles with art are featured: a bucket without any is left out, and
+ * with no art at all there is no hero.
  */
 export function pickHero(titles: Title[], index: HeroArtIndex, random: () => number = Math.random): HeroSlide[] {
   const picked = new Set<string>()
@@ -31,7 +36,12 @@ export function pickHero(titles: Title[], index: HeroArtIndex, random: () => num
         resolveArt(t.key, index) !== null,
     )
     if (pool.length === 0) continue
-    const choice = pool[Math.floor(random() * pool.length)]
+    const best = pool
+      .map((t) => ({ t, s: polishScore(t, index) }))
+      .sort((a, b) => b.s - a.s)
+      .slice(0, HERO_POOL)
+      .map(({ t }) => t)
+    const choice = best[Math.floor(random() * best.length)]
     picked.add(choice.key)
     slides.push({ title: choice, art: resolveArt(choice.key, index) })
   }
