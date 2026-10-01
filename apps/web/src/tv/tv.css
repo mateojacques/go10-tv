@@ -310,11 +310,16 @@
   padding: 48px 24px 20px;
   background: linear-gradient(transparent, rgb(0 0 0 / 0.85) 45%);
   pointer-events: auto;
-  transform: translateY(calc(100% - 3.25rem));
-  transition: transform 220ms ease;
+  /* Hidden while watching: fully below the screen, and transparent so not
+   * even a focused card's lift peeks in. Not `visibility: hidden`: the
+   * focused card must keep DOM focus for the remote's keys to reach the app. */
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 220ms ease, opacity 220ms ease;
 }
 .go-tv_strip.is-open {
   transform: none;
+  opacity: 1;
 }
 .go-tv_track {
   display: flex;
@@ -324,11 +329,6 @@
 }
 .go-tv_track > * + * {
   margin-left: 12px;
-}
-/* Collapsed: only the badges' row peeks out, so channels are never out of sight. */
-.go-tv_strip:not(.is-open) .go-chtile_label,
-.go-tv_strip:not(.is-open) .go-chtile_progress {
-  visibility: hidden;
 }
 .go-tv_flash {
   position: absolute;
