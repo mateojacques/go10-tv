@@ -4,6 +4,7 @@ import { channelByNumber, stepChannel } from '@go10/core/tv/lineup'
 import { clockLabel, programLabel, progressOf } from '@go10/core/tv/describe'
 import { enterDigit, NUMBER_ENTRY_MS } from '@go10/core/tv/numberEntry'
 import { useFocusState } from '../focus/FocusProvider'
+import { setInputMode } from '../focus/inputMode'
 import { useTv } from './TvProvider'
 import { useLiveNow } from './useLiveNow'
 import { ChannelTile } from './ChannelTile'
@@ -34,7 +35,8 @@ export function TvScreen({
   const lineup = tv.lineup!
   const live = useLiveNow(lineup)
   const { focus } = useFocusState()
-  const [stripOpen, setStripOpen] = useState(true)
+  // Nothing over the picture until asked for: a hover, a tap, Left/Right.
+  const [stripOpen, setStripOpen] = useState(false)
   const [activity, bump] = useReducer((n: number) => n + 1, 0)
   const [flash, setFlash] = useState<number | null>(null)
   const press = useRef<{ x: number; y: number } | null>(null)
@@ -59,11 +61,9 @@ export function TvScreen({
     [watch],
   )
 
-  // Every arrival and every zap: tune in, open the strip, flash the number.
+  // Every arrival and every zap: tune in and flash the number.
   useEffect(() => {
     focus(`tv:${channel.id}`)
-    setStripOpen(true)
-    bump()
     const from = shown.current
     shown.current = channel.id
     if (from === null || from === channel.id) {
@@ -162,6 +162,7 @@ export function TvScreen({
         if (previous.current) onZap(previous.current)
         return
       case 'list':
+        wake()
         return focus(`tv:${channel.id}`)
       case 'sound':
         return setSound(!soundOn)
@@ -174,17 +175,31 @@ export function TvScreen({
   const onTvKeyRef = useRef(onTvKey)
   onTvKeyRef.current = onTvKey
 
-  // Any key wakes the strip. The TV's own keys are taken here, ahead of the
-  // focus grid; the arrows, OK and Back go on to it.
+  // The TV's own keys are taken here, ahead of the focus grid; the arrows, OK
+  // and Back go on to it. While the strip is hidden, Left/Right only reveal it
+  // and OK does nothing: nothing in view to act on.
   useEffect(() => {
     function onKeyDown(event: KeyboardEvent) {
-      wake()
       nudgeSound()
       const key = tvKeyFromEvent(event)
-      if (!key) return
+      if (key) {
+        event.preventDefault()
+        event.stopImmediatePropagation()
+        onTvKeyRef.current(key)
+        return
+      }
+      const sideways = event.key === 'ArrowLeft' || event.key === 'ArrowRight'
+      if (!sideways && event.key !== 'Enter') return
+      if (openRef.current) {
+        bump()
+        return
+      }
       event.preventDefault()
       event.stopImmediatePropagation()
-      onTvKeyRef.current(key)
+      if (sideways) {
+        setInputMode('keys')
+        wake()
+      }
     }
     window.addEventListener('keydown', onKeyDown, true)
     return () => window.removeEventListener('keydown', onKeyDown, true)
@@ -201,16 +216,16 @@ export function TvScreen({
     return () => window.removeEventListener('blur', onWindowBlur)
   }, [])
 
-  // OK on the channel already playing: its program's page, or, on a TV whose
-  // channel froze, the press the embed is waiting for.
+  // OK on the channel already playing: back to just the picture.
   const onTile = (picked: Channel) => {
     if (picked.id !== channel.id) onZap(picked.id)
-    else if (leanTv() && tv.mainStalled) tv.play()
-    else openInfo()
+    else setStripOpen(false)
   }
 
   // A dead signal keeps the channels in view: the way out is a zap.
   const open = stripOpen || tv.mainFailed
+  const openRef = useRef(open)
+  openRef.current = open
   const upNext = schedule?.next[0]
 
   return (
@@ -298,9 +313,10 @@ export function TvScreen({
         </div>
       </nav>
 
-      {tv.mainStalled && (
+      {/* A TV autoplays: nothing there waits for a press. */}
+      {tv.mainStalled && !leanTv() && (
         <div className="go-tv_tap" role="status">
-          {leanTv() ? 'Pulsá OK para ver' : 'Tocá para ver'}
+          Tocá para ver
         </div>
       )}
 

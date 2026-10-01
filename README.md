@@ -59,14 +59,17 @@ collection reshuffles its timeline from the next deploy. Channels rotate
 through their titles in ~30-minute blocks; a series airs its next episodes
 in order. `channels.data.test.ts` validates the file against the catalog.
 
-On the TV screen:
+On the TV screen nothing covers the picture while it plays: the channel strip
+and the program bar appear on a hover, a tap, or Left/Right (whose first press
+only reveals them), and hide again after 6 s idle.
 
 | Remote | Keyboard | Action |
 | --- | --- | --- |
 | Up / Down, CH+ / CH− | ↑ / ↓, PgUp / PgDn | Previous / next channel |
-| Left / Right | ← / → | Browse the channel strip |
+| Left / Right | ← / → | Show the channel strip, then browse it |
 | OK on another channel | Enter | Tune it |
-| OK on the playing channel, Info | Enter | The program's page ("Ver ficha") |
+| OK on the playing channel | Enter | Hide the strip |
+| Info | — | The program's page ("Ver ficha", also a button in the bar) |
 | 0–9 | 0–9 | Tune by number; a digit that could start a longer number waits 1.5 s for the next |
 | PRE-CH | — | Back to the last channel watched |
 | CH LIST | — | Show the strip, on the playing channel |
@@ -76,8 +79,9 @@ On the TV screen:
 Media keys do nothing: it's live. On a TV (`leanTv()`, the same detection as
 below), live TV runs one embed at a time: no preload, no previews, no
 mini-player (leaving `/tv` closes it), and a zap loads only once the zapping
-stops for 600 ms, black with the channel number meanwhile. When a channel
-stalls, OK asks the embed to play.
+stops for 600 ms, black with the channel number meanwhile. Elsewhere, a
+channel that stalls (Safari's autoplay block, an ok.ru ad) shows "Tocá para
+ver" and lets taps through to the embed.
 
 ### External titles (TMDB + vidlove) — optional
 

@@ -1,3 +1,6 @@
+/* No flex `gap` in this file: Tizen's Chromium 69 ignores it, so siblings
+ * are spaced with margins. */
+
 /* The persistent layer: slots are positioned here, never re-parented. */
 .go-tvslot {
   position: fixed;
@@ -66,7 +69,9 @@
   color: #fff;
   display: flex;
   flex-direction: column;
-  gap: 4px;
+}
+.go-tvslot_card > * + * {
+  margin-top: 4px;
 }
 .go-tvslot_card {
   inset: 0;
@@ -110,7 +115,9 @@
   pointer-events: none;
   display: flex;
   align-items: center;
-  gap: 6px;
+}
+.go-tvmini_live {
+  margin-right: 6px;
 }
 .go-tvmini_live {
   width: 8px;
@@ -165,12 +172,14 @@
   left: 6px;
   display: flex;
   align-items: center;
-  gap: 6px;
   padding: 2px 6px;
   border-radius: 4px;
   background: rgb(0 0 0 / 0.65);
   font-weight: 700;
   font-size: 0.75rem;
+}
+.go-chtile_badge > * + * {
+  margin-left: 6px;
 }
 .go-chtile_badge img {
   height: 1rem;
@@ -231,12 +240,14 @@
   right: 0;
   display: flex;
   align-items: center;
-  gap: 16px;
   padding: 20px 24px 40px;
   background: linear-gradient(rgb(0 0 0 / 0.75), transparent);
   pointer-events: auto;
   opacity: 0;
   transition: opacity 200ms ease;
+}
+.go-tv_now > * + * {
+  margin-left: 16px;
 }
 .go-tv_now.is-open {
   opacity: 1;
@@ -244,12 +255,14 @@
 .go-tv_chip {
   display: flex;
   align-items: center;
-  gap: 8px;
   padding: 4px 10px;
   border-radius: 6px;
   background: var(--go-accent, #e4007c);
   font-weight: 800;
   font-size: 1.25rem;
+}
+.go-tv_chip img {
+  margin-right: 8px;
 }
 .go-tv_chip img {
   height: 1.5rem;
@@ -258,9 +271,11 @@
 .go-tv_now-text {
   display: flex;
   flex-direction: column;
-  gap: 4px;
   min-width: 0;
   flex: 1;
+}
+.go-tv_now-text > * + * {
+  margin-top: 4px;
 }
 .go-tv_program {
   font-size: 1.25rem;
@@ -303,10 +318,12 @@
 }
 .go-tv_track {
   display: flex;
-  gap: 12px;
   overflow-x: auto;
   padding: 6px 4px;
   scrollbar-width: none;
+}
+.go-tv_track > * + * {
+  margin-left: 12px;
 }
 /* Collapsed: only the badges' row peeks out, so channels are never out of sight. */
 .go-tv_strip:not(.is-open) .go-chtile_label,
@@ -357,7 +374,9 @@
   }
   .go-tv_now {
     padding: 12px 12px 28px;
-    gap: 10px;
+  }
+  .go-tv_now > * + * {
+    margin-left: 10px;
   }
   .go-tv_program {
     font-size: 1rem;

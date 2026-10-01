@@ -100,23 +100,16 @@ describe('TvScreen on a TV', () => {
     expect(onZap).toHaveBeenCalledWith('cn')
   })
 
-  it('asks for OK, not a tap, when the channel stalls, and OK asks the embed to play', () => {
+  it('shows no tap hint when the channel stalls: a TV autoplays, nothing to press', () => {
     render(tree(lineup.channels[0]))
-    const frame = document.querySelector('[data-channel="cn"] iframe') as HTMLIFrameElement
-    const post = vi.spyOn(frame.contentWindow!, 'postMessage')
-    fireEvent.load(frame)
+    fireEvent.load(document.querySelector('[data-channel="cn"] iframe')!)
     act(() => vi.advanceTimersByTime(4000))
-    expect(screen.getByText('Pulsá OK para ver')).not.toBeNull()
-    post.mockClear()
-    press('ArrowRight')
-    press('ArrowLeft')
-    press('Enter')
-    expect(post).toHaveBeenCalledWith({ action: 'play' }, 'https://ok.ru')
-    expect(onOpenTitle).not.toHaveBeenCalled()
+    expect(document.querySelector('.go-tv_tap')).toBeNull()
   })
 
   it('takes focus back from the embed, so the remote keeps reaching the app', () => {
     render(tree(lineup.channels[0]))
+    press('ArrowRight')
     press('ArrowRight')
     const tile = document.querySelector('.go-chtile.is-focused') as HTMLElement
     expect(document.activeElement).toBe(tile)

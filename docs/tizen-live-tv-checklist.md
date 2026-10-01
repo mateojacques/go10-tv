@@ -13,7 +13,9 @@ Attach DevTools as in `tizen-sdb-setup.md` §5 to read key codes:
 ## Picture
 - [ ] No ok.ru title or control bar peeks out at 1080p (`--go-okru-chrome` in `tv.css`, 64px today).
 - [ ] A zap shows black with the number, then the new channel; holding Up loads only where it stops.
-- [ ] When a channel freezes (an ad, autoplay), "Pulsá OK para ver" shows, and OK gets it playing.
+- [ ] Nothing covers the picture while playing; Left/Right bring the strip, which hides after 6 s.
+- [ ] OK while watching does nothing; OK on the playing channel's tile hides the strip.
+- [ ] The strip's channel cards are spaced apart.
 
 ## Speed
 - [ ] Moving along the strip feels as quick as Home's rows.

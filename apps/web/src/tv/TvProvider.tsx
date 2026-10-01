@@ -32,8 +32,6 @@ export interface TvApi {
   watch(channelId: string): void
   /** Drops the playing channel while a zap settles (TV hardware loads only where the zapping stops). */
   hold(): void
-  /** OK on a stalled channel: a fresh user activation, so ask the embed to play. */
-  play(): void
   previewAt(channelId: string, rect: Rect): void
   endPreview(): void
   setScreen(screen: 'tv' | 'away'): void
@@ -253,10 +251,10 @@ export function TvProvider({ lineup, children }: { lineup: Lineup | null; childr
   const api = useMemo<TvApi>(
     () => ({
       lineup, mainChannel: main?.channelId ?? null, activated, promoted, mainFailed, mainStalled, soundOn, setSound, nudgeSound,
-      preload, watch, hold, play: playMain, previewAt, endPreview, setScreen, close,
+      preload, watch, hold, previewAt, endPreview, setScreen, close,
       slots, modeOf, previewRect, bindHandle, onSlotLoaded, onSlotFailed, onSlotStalled,
     }),
-    [lineup, main, activated, promoted, mainFailed, mainStalled, soundOn, setSound, nudgeSound, preload, watch, hold, playMain, previewAt, endPreview, setScreen, close, slots, modeOf, previewRect, bindHandle, onSlotLoaded, onSlotFailed, onSlotStalled],
+    [lineup, main, activated, promoted, mainFailed, mainStalled, soundOn, setSound, nudgeSound, preload, watch, hold, previewAt, endPreview, setScreen, close, slots, modeOf, previewRect, bindHandle, onSlotLoaded, onSlotFailed, onSlotStalled],
   )
 
   return <TvContext.Provider value={api}>{children}</TvContext.Provider>

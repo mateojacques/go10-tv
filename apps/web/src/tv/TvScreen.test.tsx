@@ -81,13 +81,41 @@ describe('TvScreen', () => {
     expect(tiles[0].getAttribute('aria-current')).toBe('true')
   })
 
-  it('opens the strip on arrival and collapses it after 6 s without input, never removing it', () => {
+  const nowBar = () => document.querySelector('.go-tv_now')!
+
+  it('shows nothing over the picture while playing; a hover brings the strip and the bar, 6 s idle hides them', () => {
     renderScreen()
-    expect(strip().classList.contains('is-open')).toBe(true)
-    act(() => vi.advanceTimersByTime(6000))
     expect(strip().classList.contains('is-open')).toBe(false)
+    expect(nowBar().classList.contains('is-open')).toBe(false)
     fireEvent.pointerMove(screen.getByRole('region', { name: 'TV en vivo' }))
     expect(strip().classList.contains('is-open')).toBe(true)
+    expect(nowBar().classList.contains('is-open')).toBe(true)
+    act(() => vi.advanceTimersByTime(6000))
+    expect(strip().classList.contains('is-open')).toBe(false)
+  })
+
+  it('keeps the picture clear on a zap and on other keys', () => {
+    const { rerender } = renderScreen()
+    press('ArrowDown')
+    press('m')
+    rerender(tree(lineup.channels[1]))
+    expect(strip().classList.contains('is-open')).toBe(false)
+  })
+
+  it('shows the strip on Left/Right, the first press only revealing it', () => {
+    renderScreen()
+    press('ArrowRight')
+    expect(strip().classList.contains('is-open')).toBe(true)
+    expect(document.querySelector('.go-chtile.is-focused')!.getAttribute('aria-current')).toBe('true')
+    press('ArrowRight')
+    expect(document.querySelector('.go-chtile.is-focused')!.getAttribute('aria-label')).toMatch(/^2 /)
+  })
+
+  it('does nothing on OK while the strip is hidden', () => {
+    renderScreen()
+    press('Enter')
+    expect(onOpenTitle).not.toHaveBeenCalled()
+    expect(onZap).not.toHaveBeenCalled()
   })
 
   it('zaps with Up/Down and PageUp/PageDown, wrapping', () => {
@@ -120,12 +148,12 @@ describe('TvScreen', () => {
     expect(onZap).not.toHaveBeenCalled()
   })
 
-  it('opens the program\'s title on OK over the channel already playing', () => {
+  it('hides the strip again on OK over the channel already playing', () => {
     renderScreen()
     press('ArrowRight')
-    press('ArrowLeft')
     press('Enter')
-    expect(onOpenTitle).toHaveBeenCalledWith('coraje')
+    expect(strip().classList.contains('is-open')).toBe(false)
+    expect(onOpenTitle).not.toHaveBeenCalled()
     expect(onZap).not.toHaveBeenCalled()
   })
 
@@ -139,12 +167,12 @@ describe('TvScreen', () => {
   it('opens the strip on the playing channel from the channel list key', () => {
     renderScreen()
     press('ArrowRight')
+    press('ArrowRight')
     act(() => vi.advanceTimersByTime(6000))
     expect(strip().classList.contains('is-open')).toBe(false)
     fireEvent.keyDown(window, { key: 'Unidentified', keyCode: 10073 })
     expect(strip().classList.contains('is-open')).toBe(true)
-    press('Enter')
-    expect(onOpenTitle).toHaveBeenCalledWith('coraje')
+    expect(document.querySelector('.go-chtile.is-focused')!.getAttribute('aria-current')).toBe('true')
   })
 
   describe('two-digit channel numbers', () => {
@@ -195,6 +223,7 @@ describe('TvScreen', () => {
   it('tunes a tile on Enter after moving along the strip', () => {
     renderScreen()
     press('ArrowRight')
+    press('ArrowRight')
     press('Enter')
     expect(onZap).toHaveBeenCalledWith('dis')
   })
@@ -216,7 +245,6 @@ describe('TvScreen', () => {
   it('zaps on a vertical swipe of the shield and toggles the strip on a tap', () => {
     renderScreen()
     const shield = document.querySelector('.go-tv_shield')!
-    act(() => vi.advanceTimersByTime(6000))
     fireEvent.pointerDown(shield, { clientX: 100, clientY: 400 })
     fireEvent.pointerUp(shield, { clientX: 100, clientY: 405 })
     expect(strip().classList.contains('is-open')).toBe(true)
