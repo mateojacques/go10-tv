@@ -3,16 +3,19 @@ import { defineConfig } from 'vitest/config'
 import type { Plugin } from 'vite'
 import react from '@vitejs/plugin-react'
 import { buildCollectionsIndex } from './build/collectionsIndex.ts'
+import { readChannelsFile } from './build/channelsFile.ts'
 
 const COLLECTIONS_DIR = fileURLToPath(new URL('../../data/collections', import.meta.url))
+const CHANNELS_FILE = fileURLToPath(new URL('../../data/channels.json', import.meta.url))
 
-/** Publishes data/collections/*.json as /data/collections/index.json for the mobile app. */
-function collectionsIndex(): Plugin {
+/** Publishes the data the mobile app fetches: /data/collections/index.json and /data/channels.json. */
+function mobileData(): Plugin {
   return {
-    name: 'go10-collections-index',
+    name: 'go10-mobile-data',
     apply: 'build',
     generateBundle() {
       this.emitFile({ type: 'asset', fileName: 'data/collections/index.json', source: buildCollectionsIndex(COLLECTIONS_DIR) })
+      this.emitFile({ type: 'asset', fileName: 'data/channels.json', source: readChannelsFile(CHANNELS_FILE) })
     },
   }
 }
@@ -44,7 +47,7 @@ function tizenClassicScript(): Plugin {
 }
 
 export default defineConfig({
-  plugins: [react(), collectionsIndex(), tizenClassicScript()],
+  plugins: [react(), mobileData(), tizenClassicScript()],
   // Chromium 69 (Tizen 5.5, this project's TV target) can't parse optional
   // chaining or nullish coalescing at all -- an un-pinned build ships a
   // blank screen on it, not just rough edges.
