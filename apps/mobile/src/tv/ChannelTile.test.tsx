@@ -26,7 +26,7 @@ describe('ChannelTile', () => {
   it('selects its channel', async () => {
     const onSelect = jest.fn()
     await render(<ChannelTile channel={channel} schedule={schedule} imageBase={BASE} onSelect={onSelect} />)
-    fireEvent.press(screen.getByRole('button'))
+    await fireEvent.press(screen.getByRole('button'))
     expect(onSelect).toHaveBeenCalledWith(channel)
   })
 
