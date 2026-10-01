@@ -8,7 +8,6 @@ describe('tvKeyFromEvent', () => {
   it("reads Tizen's keyCodes, which carry no useful key", () => {
     expect(press({ keyCode: 427 })).toEqual({ type: 'zap', step: 1 })
     expect(press({ keyCode: 428 })).toEqual({ type: 'zap', step: -1 })
-    expect(press({ keyCode: 457 })).toEqual({ type: 'info' })
     expect(press({ keyCode: 10190 })).toEqual({ type: 'previous' })
     expect(press({ keyCode: 10073 })).toEqual({ type: 'list' })
     expect(press({ keyCode: 55 })).toEqual({ type: 'digit', digit: '7' })
@@ -19,7 +18,6 @@ describe('tvKeyFromEvent', () => {
     expect(press({ key: 'ChannelDown' })).toEqual({ type: 'zap', step: -1 })
     expect(press({ key: 'PageUp' })).toEqual({ type: 'zap', step: -1 })
     expect(press({ key: 'PageDown' })).toEqual({ type: 'zap', step: 1 })
-    expect(press({ key: 'Info' })).toEqual({ type: 'info' })
     expect(press({ key: '0' })).toEqual({ type: 'digit', digit: '0' })
     expect(press({ key: 'm' })).toEqual({ type: 'sound' })
     expect(press({ key: 'F' })).toEqual({ type: 'fullscreen' })

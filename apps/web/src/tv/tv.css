@@ -295,7 +295,7 @@
   background: #fff;
 }
 .go-tv_sound,
-.go-tv_info,
+.go-tv_fullscreen,
 .go-tv_back {
   padding: 8px 14px;
   border-radius: 6px;
@@ -403,7 +403,8 @@
   animation: none;
 }
 
-.go-tv_sound {
+.go-tv_sound,
+.go-tv_fullscreen {
   display: flex;
   align-items: center;
   justify-content: center;

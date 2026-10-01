@@ -28,14 +28,13 @@ function Grab() {
   return null
 }
 const onZap = vi.fn()
-const onOpenTitle = vi.fn()
 
 function tree(channel: Channel) {
   return (
     <TvProvider lineup={lineup}>
       <Grab />
       <FocusProvider onBack={() => {}}>
-        <TvScreen channel={channel} onZap={onZap} onOpenTitle={onOpenTitle} onBack={() => {}} />
+        <TvScreen channel={channel} onZap={onZap} onBack={() => {}} />
       </FocusProvider>
       <TvLayer onOpen={() => {}} />
     </TvProvider>
@@ -52,7 +51,6 @@ beforeEach(() => {
 afterEach(() => {
   vi.useRealTimers()
   onZap.mockReset()
-  onOpenTitle.mockReset()
 })
 
 describe('TvScreen on a TV', () => {
@@ -61,9 +59,12 @@ describe('TvScreen on a TV', () => {
     expect(api.mainChannel).toBe('cn')
   })
 
-  it('has no sound button: the TV\'s own volume keys rule', () => {
+  it('has no sound or fullscreen button: the TV\'s own volume keys rule, and the app is already fullscreen', () => {
+    Object.defineProperty(document, 'fullscreenEnabled', { configurable: true, get: () => true })
     render(tree(lineup.channels[0]))
     expect(screen.queryByRole('button', { name: 'Silenciar' })).toBeNull()
+    expect(screen.queryByRole('button', { name: 'Pantalla completa' })).toBeNull()
+    delete (document as unknown as Record<string, unknown>).fullscreenEnabled
   })
 
   it('lets a zap settle before loading it, dropping the old channel meanwhile', () => {

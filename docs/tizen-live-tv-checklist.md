@@ -4,7 +4,7 @@ Attach DevTools as in `tizen-sdb-setup.md` §5 to read key codes:
 `addEventListener('keydown', (e) => console.log(e.key, e.keyCode), true)`.
 
 ## Remote
-- [ ] Which keys arrive at all: CH+ (427), CH− (428), 0–9 (48–57), Info (457), PRE-CH (10190), CH LIST (10073). Missing ones are fine: Up/Down, Left/Right, OK and Back cover everything.
+- [ ] Which keys arrive at all: CH+ (427), CH− (428), 0–9 (48–57), PRE-CH (10190), CH LIST (10073). Missing ones are fine: Up/Down, Left/Right, OK and Back cover everything.
 - [ ] Back leaves `/tv` even after the channel has loaded (the embed takes focus as it loads; the screen takes it back).
 - [ ] Back still works after zapping several times.
 - [ ] Play/Pause, FF/RW do nothing.

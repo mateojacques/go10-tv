@@ -27,7 +27,7 @@ const MEDIA_KEYS = [
  * Live TV's keys (see tv/tvKey.ts). Not the volume or mute keys: those stay
  * with the TV itself.
  */
-const LIVE_TV_KEYS = ['ChannelUp', 'ChannelDown', 'PreviousChannel', 'ChannelList', 'Info', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+const LIVE_TV_KEYS = ['ChannelUp', 'ChannelDown', 'PreviousChannel', 'ChannelList', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 
 /**
  * Registers the physical Back/Return remote button, the media keys and live TV's keys --

@@ -2,7 +2,6 @@
 export type TvKey =
   | { type: 'zap'; step: 1 | -1 }
   | { type: 'digit'; digit: string }
-  | { type: 'info' }
   | { type: 'previous' }
   | { type: 'list' }
   | { type: 'sound' }
@@ -15,7 +14,6 @@ export type TvKey =
 const BY_KEY_CODE: Record<number, TvKey> = {
   427: { type: 'zap', step: 1 }, // ChannelUp
   428: { type: 'zap', step: -1 }, // ChannelDown
-  457: { type: 'info' }, // Info
   10190: { type: 'previous' }, // PreviousChannel (PRE-CH)
   10073: { type: 'list' }, // ChannelList
 }
@@ -25,7 +23,6 @@ const BY_KEY: Record<string, TvKey> = {
   ChannelDown: { type: 'zap', step: -1 },
   PageUp: { type: 'zap', step: -1 },
   PageDown: { type: 'zap', step: 1 },
-  Info: { type: 'info' },
   m: { type: 'sound' },
   M: { type: 'sound' },
   f: { type: 'fullscreen' },

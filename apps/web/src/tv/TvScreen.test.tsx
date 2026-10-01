@@ -25,7 +25,6 @@ function Grab() {
   return null
 }
 const onZap = vi.fn()
-const onOpenTitle = vi.fn()
 const onBack = vi.fn()
 
 function tree(channel: Channel) {
@@ -33,7 +32,7 @@ function tree(channel: Channel) {
     <TvProvider lineup={lineup}>
       <Grab />
       <FocusProvider onBack={onBack}>
-        <TvScreen channel={channel} onZap={onZap} onOpenTitle={onOpenTitle} onBack={onBack} />
+        <TvScreen channel={channel} onZap={onZap} onBack={onBack} />
       </FocusProvider>
       <TvLayer onOpen={() => {}} />
     </TvProvider>
@@ -51,7 +50,7 @@ beforeEach(() => {
 afterEach(() => {
   vi.useRealTimers()
   vi.unstubAllGlobals()
-  for (const fn of [onZap, onOpenTitle, onBack]) fn.mockReset()
+  for (const fn of [onZap, onBack]) fn.mockReset()
 })
 
 describe('TvScreen', () => {
@@ -68,10 +67,54 @@ describe('TvScreen', () => {
     expect(now.textContent).toMatch(/A continuación: .+ · \d\d:\d\d/)
   })
 
-  it('opens the program\'s title from "Ver ficha"', () => {
-    renderScreen()
-    fireEvent.click(screen.getByRole('button', { name: 'Ver ficha' }))
-    expect(onOpenTitle).toHaveBeenCalledWith('coraje')
+  describe('fullscreen', () => {
+    const enter = () => screen.getByRole('button', { name: 'Pantalla completa' })
+    let requestFullscreen: ReturnType<typeof vi.fn>
+    let exitFullscreen: ReturnType<typeof vi.fn>
+    let current: Element | null
+    beforeEach(() => {
+      current = null
+      requestFullscreen = vi.fn(() => {
+        current = document.documentElement
+        document.dispatchEvent(new Event('fullscreenchange'))
+        return Promise.resolve()
+      })
+      exitFullscreen = vi.fn(() => {
+        current = null
+        document.dispatchEvent(new Event('fullscreenchange'))
+        return Promise.resolve()
+      })
+      Object.defineProperty(document, 'fullscreenEnabled', { configurable: true, get: () => true })
+      Object.defineProperty(document, 'fullscreenElement', { configurable: true, get: () => current })
+      Object.defineProperty(document, 'exitFullscreen', { configurable: true, value: exitFullscreen })
+      Object.defineProperty(document.documentElement, 'requestFullscreen', { configurable: true, value: requestFullscreen })
+    })
+    afterEach(() => {
+      for (const key of ['fullscreenEnabled', 'fullscreenElement', 'exitFullscreen']) delete (document as unknown as Record<string, unknown>)[key]
+      delete (document.documentElement as unknown as Record<string, unknown>).requestFullscreen
+    })
+
+    it('has a button in place of "Ver ficha" that enters and leaves fullscreen', () => {
+      renderScreen()
+      expect(screen.queryByRole('button', { name: 'Ver ficha' })).toBeNull()
+      act(() => fireEvent.click(enter()))
+      expect(requestFullscreen).toHaveBeenCalled()
+      act(() => fireEvent.click(screen.getByRole('button', { name: 'Salir de pantalla completa' })))
+      expect(exitFullscreen).toHaveBeenCalled()
+      expect(enter()).not.toBeNull()
+    })
+
+    it('toggles fullscreen with F too', () => {
+      renderScreen()
+      press('f')
+      expect(requestFullscreen).toHaveBeenCalled()
+    })
+
+    it('has no button where the browser cannot go fullscreen (an iPhone)', () => {
+      Object.defineProperty(document, 'fullscreenEnabled', { configurable: true, get: () => false })
+      renderScreen()
+      expect(screen.queryByRole('button', { name: 'Pantalla completa' })).toBeNull()
+    })
   })
 
   it('lists every channel in the strip, current one marked', () => {
@@ -114,7 +157,6 @@ describe('TvScreen', () => {
   it('does nothing on OK while the strip is hidden', () => {
     renderScreen()
     press('Enter')
-    expect(onOpenTitle).not.toHaveBeenCalled()
     expect(onZap).not.toHaveBeenCalled()
   })
 
@@ -141,19 +183,11 @@ describe('TvScreen', () => {
     expect(onZap.mock.calls.map((c) => c[0])).toEqual(['dis', 'dw'])
   })
 
-  it('opens the program\'s title from the Info key', () => {
-    renderScreen()
-    fireEvent.keyDown(window, { key: 'Unidentified', keyCode: 457 })
-    expect(onOpenTitle).toHaveBeenCalledWith('coraje')
-    expect(onZap).not.toHaveBeenCalled()
-  })
-
   it('hides the strip again on OK over the channel already playing', () => {
     renderScreen()
     press('ArrowRight')
     press('Enter')
     expect(strip().classList.contains('is-open')).toBe(false)
-    expect(onOpenTitle).not.toHaveBeenCalled()
     expect(onZap).not.toHaveBeenCalled()
   })
 
@@ -181,7 +215,7 @@ describe('TvScreen', () => {
       render(
         <TvProvider lineup={many}>
           <FocusProvider onBack={onBack}>
-            <TvScreen channel={many.channels[4]} onZap={onZap} onOpenTitle={onOpenTitle} onBack={onBack} />
+            <TvScreen channel={many.channels[4]} onZap={onZap} onBack={onBack} />
           </FocusProvider>
         </TvProvider>,
       )

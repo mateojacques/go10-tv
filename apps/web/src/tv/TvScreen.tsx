@@ -10,6 +10,7 @@ import { useLiveNow } from './useLiveNow'
 import { ChannelTile } from './ChannelTile'
 import { leanTv } from './leanTv'
 import { tvKeyFromEvent, type TvKey } from './tvKey'
+import { canFullscreen, toggleFullscreen, useFullscreen } from './fullscreen'
 import './tv.css'
 
 export const STRIP_IDLE_MS = 6000
@@ -23,12 +24,10 @@ const SWIPE_PX = 60
 export function TvScreen({
   channel,
   onZap,
-  onOpenTitle,
   onBack,
 }: {
   channel: Channel
   onZap: (channelId: string) => void
-  onOpenTitle: (titleKey: string) => void
   onBack: () => void
 }) {
   const tv = useTv()
@@ -120,9 +119,7 @@ export function TvScreen({
   )
 
   const schedule = live.get(channel.id)
-  const openInfo = () => {
-    if (schedule) onOpenTitle(schedule.current.titleKey)
-  }
+  const fullscreen = useFullscreen()
 
   // A half-typed channel number ("1–") tunes on its own after a pause.
   const [entry, setEntry] = useState('')
@@ -156,8 +153,6 @@ export function TvScreen({
         if (tune !== null) tuneNumber(tune)
         return
       }
-      case 'info':
-        return openInfo()
       case 'previous':
         if (previous.current) onZap(previous.current)
         return
@@ -167,9 +162,7 @@ export function TvScreen({
       case 'sound':
         return setSound(!soundOn)
       case 'fullscreen':
-        if (document.fullscreenElement) document.exitFullscreen().catch(() => {})
-        else document.documentElement.requestFullscreen?.().catch(() => {})
-        return
+        return toggleFullscreen()
     }
   }
   const onTvKeyRef = useRef(onTvKey)
@@ -283,9 +276,27 @@ export function TvScreen({
               </svg>
             </button>
           )}
-          <button type="button" className="go-tv_info" onClick={openInfo}>
-            Ver ficha
-          </button>
+          {/* A phone's browser keeps its bars even in landscape: this is the only way to the whole screen. A TV is fullscreen already. */}
+          {!leanTv() && canFullscreen() && (
+            <button
+              type="button"
+              className="go-tv_fullscreen"
+              aria-label={fullscreen ? 'Salir de pantalla completa' : 'Pantalla completa'}
+              aria-pressed={fullscreen}
+              onClick={toggleFullscreen}
+            >
+              <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+                <path
+                  d={fullscreen ? 'M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5' : 'M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5'}
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  fill="none"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          )}
           <button type="button" className="go-tv_back" aria-label="Volver" onClick={onBack}>
             <span className="go-back_chevron" aria-hidden="true" />
           </button>

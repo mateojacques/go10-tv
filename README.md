@@ -69,12 +69,12 @@ only reveals them), and hide again after 6 s idle.
 | Left / Right | ← / → | Show the channel strip, then browse it |
 | OK on another channel | Enter | Tune it |
 | OK on the playing channel | Enter | Hide the strip |
-| Info | — | The program's page ("Ver ficha", also a button in the bar) |
 | 0–9 | 0–9 | Tune by number; a digit that could start a longer number waits 1.5 s for the next |
 | PRE-CH | — | Back to the last channel watched |
 | CH LIST | — | Show the strip, on the playing channel |
 | Back | Escape | Leave |
 | TV volume / mute | M | Sound (the TV build leaves it to the TV's own keys) |
+| — | F | Fullscreen, also a button in the bar wherever the browser allows it (not an iPhone; not the TV build, fullscreen already) |
 
 Media keys do nothing: it's live. On a TV (`leanTv()`, the same detection as
 below), live TV runs one embed at a time: no preload, no previews, no

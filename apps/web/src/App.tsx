@@ -179,7 +179,6 @@ export default function App() {
           <TvScreen
             channel={channel}
             onZap={(id) => navigate({ name: 'tv', channel: id }, { replace: true })}
-            onOpenTitle={(key) => navigate({ name: 'title', key })}
             onBack={back}
           />
         </FocusProvider>
