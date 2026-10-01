@@ -1,0 +1,63 @@
+/* The persistent layer: slots are positioned here, never re-parented. */
+.go-tvslot {
+  position: fixed;
+  overflow: hidden;
+  background: #000;
+}
+.go-tvslot_frame,
+.go-tvslot_thumb {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  object-fit: cover;
+}
+.go-tvslot--staged {
+  inset: 0;
+  z-index: -1;
+  opacity: 0;
+  pointer-events: none;
+}
+.go-tvslot--full {
+  inset: 0;
+  z-index: 40;
+}
+.go-tvslot--tile {
+  z-index: 46;
+  border-radius: 6px;
+  pointer-events: none;
+}
+.go-tvslot--mini {
+  right: 16px;
+  bottom: 16px;
+  width: 320px;
+  height: 180px;
+  z-index: 60;
+  border-radius: 8px;
+  box-shadow: 0 8px 32px rgb(0 0 0 / 0.6);
+}
+@media (pointer: coarse) {
+  .go-tvslot--mini {
+    width: 45vw;
+    height: calc(45vw * 9 / 16);
+    right: 12px;
+    bottom: 12px;
+  }
+}
+.go-tvslot_reconnecting,
+.go-tvslot_card {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 12px 16px;
+  background: rgb(0 0 0 / 0.75);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.go-tvslot_card {
+  inset: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
