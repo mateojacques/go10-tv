@@ -5,6 +5,7 @@ import { useFocusState } from '../focus/FocusProvider'
 import { browseRoute, type Route, type Section } from '@go10/core/router/route'
 import { externalTitlesEnabled } from '@go10/core/external/config'
 import { SEARCH_SOURCES, type SearchSource } from '@go10/core/external/mergeSearch'
+import '../tv/tv.css'
 import './Navbar.css'
 
 /** The navbar sits above everything else on the screen in the focus grid. */
@@ -21,6 +22,7 @@ function NavButton({
   className,
   active = false,
   ariaLabel,
+  onIntent,
   onSelect,
   children,
 }: {
@@ -29,6 +31,8 @@ function NavButton({
   className: string
   active?: boolean
   ariaLabel?: string
+  /** Hover or focus: the user is probably about to pick this. */
+  onIntent?: () => void
   onSelect: () => void
   children: React.ReactNode
 }) {
@@ -45,6 +49,8 @@ function NavButton({
       className={`${className}${active ? ' is-active' : ''}${focused ? ' is-focused' : ''}`}
       data-focused={focused}
       onClick={activate}
+      onPointerEnter={onIntent}
+      onFocus={onIntent}
     >
       {children}
     </div>
@@ -54,9 +60,12 @@ function NavButton({
 export function Navbar({
   route,
   onNavigate,
+  onTvIntent,
 }: {
   route: Route
   onNavigate: (route: Route, options?: { replace?: boolean }) => void
+  /** Hovering or focusing "TV" starts loading the channel, so it's playing by the click. */
+  onTvIntent?: () => void
 }) {
   const { focus } = useFocusState()
   const section: Section = route.name === 'catalog' ? route.section : 'all'
@@ -129,6 +138,18 @@ export function Navbar({
       </button>
 
       <div className="go-nav_links">
+        <NavButton
+          id="nav:tv"
+          col={-1}
+          className="go-nav_link go-nav_tv"
+          active={route.name === 'tv'}
+          ariaLabel="TV en vivo"
+          onIntent={onTvIntent}
+          onSelect={() => onNavigate({ name: 'tv', channel: null })}
+        >
+          <span className="go-live-dot" aria-hidden="true" />
+          TV
+        </NavButton>
         <NavButton
           id="nav:peliculas"
           col={0}

@@ -32,6 +32,21 @@ const input = () => screen.getByRole('searchbox') as HTMLInputElement
 const route = () => JSON.parse(screen.getByTestId('route').textContent!)
 
 describe('Navbar', () => {
+  it('opens live TV from the "TV" item and preloads it on hover', () => {
+    const onNavigate = vi.fn()
+    const onTvIntent = vi.fn()
+    render(
+      <FocusProvider onBack={() => {}}>
+        <Navbar route={{ name: 'home' }} onNavigate={onNavigate} onTvIntent={onTvIntent} />
+      </FocusProvider>,
+    )
+    const tv = screen.getByRole('button', { name: 'TV en vivo' })
+    fireEvent.pointerEnter(tv)
+    expect(onTvIntent).toHaveBeenCalled()
+    fireEvent.click(tv)
+    expect(onNavigate).toHaveBeenCalledWith({ name: 'tv', channel: null })
+  })
+
   it('navigates to the section pages', () => {
     render(<Harness initial={{ name: 'home' }} />)
     fireEvent.click(screen.getByRole('button', { name: 'Películas' }))

@@ -25,6 +25,7 @@ import { useLineup } from './tv/useLineup'
 import { TvProvider, useTv } from './tv/TvProvider'
 import { TvLayer } from './tv/TvLayer'
 import { TvScreen } from './tv/TvScreen'
+import { LiveRow } from './tv/LiveRow'
 import { pickChannel } from '@go10/core/tv/lineup'
 import './styles/global.css'
 
@@ -52,6 +53,11 @@ function TvRouteSync({ isPlayer }: { isPlayer: boolean }) {
     if (isPlayer) close()
   }, [isPlayer, close])
   return null
+}
+
+/** Hands the browse screens the TV context: App itself sits outside the provider. */
+function BrowseTv({ children }: { children: (tv: ReturnType<typeof useTv>) => ReactNode }) {
+  return <>{children(useTv())}</>
 }
 
 export default function App() {
@@ -190,29 +196,38 @@ export default function App() {
         // the input has to survive that without losing focus (and the TV's
         // on-screen keyboard) after the first letter.
         <FocusProvider key="browse" onBack={back}>
-          <div className="go-browse">
-            <Navbar route={route} onNavigate={navigate} />
-            {resolved.name === 'home' ? (
-              <Home
-                titles={titles}
-                heroArt={heroArt}
-                onSelect={openTitle}
-                onResume={(title, row) => navigate({ name: 'play', key: title.key, videoId: rowKey(row) })}
-                collections={COLLECTIONS}
-                onOpenCollection={(collection) => navigate({ name: 'collection', id: collection.id })}
-              />
-            ) : resolved.name === 'catalog' ? (
-              <Catalog
-                titles={titles}
-                section={resolved.section}
-                query={resolved.query}
-                source={(route.name === 'catalog' && route.source) || 'all'}
-                onSelect={openTitle}
-              />
-            ) : (
-              <Collection collection={resolved.collection} titles={resolved.titles} onSelect={openTitle} />
+          <BrowseTv>
+            {(tv) => (
+              <div className="go-browse">
+                <Navbar route={route} onNavigate={navigate} onTvIntent={() => tv.preload()} />
+                {resolved.name === 'home' ? (
+                  <Home
+                    titles={titles}
+                    heroArt={heroArt}
+                    onSelect={openTitle}
+                    onResume={(title, row) => navigate({ name: 'play', key: title.key, videoId: rowKey(row) })}
+                    collections={COLLECTIONS}
+                    onOpenCollection={(collection) => navigate({ name: 'collection', id: collection.id })}
+                    liveRow={
+                      tv.lineup
+                        ? (rowIndex) => <LiveRow rowIndex={rowIndex} onWatch={(id) => navigate({ name: 'tv', channel: id })} />
+                        : undefined
+                    }
+                  />
+                ) : resolved.name === 'catalog' ? (
+                  <Catalog
+                    titles={titles}
+                    section={resolved.section}
+                    query={resolved.query}
+                    source={(route.name === 'catalog' && route.source) || 'all'}
+                    onSelect={openTitle}
+                  />
+                ) : (
+                  <Collection collection={resolved.collection} titles={resolved.titles} onSelect={openTitle} />
+                )}
+              </div>
             )}
-          </div>
+          </BrowseTv>
         </FocusProvider>
       )
     }

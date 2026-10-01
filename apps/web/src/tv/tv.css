@@ -317,3 +317,23 @@
     font-size: 1rem;
   }
 }
+
+.go-live-dot {
+  display: inline-block;
+  width: 0.55em;
+  height: 0.55em;
+  margin-right: 0.45em;
+  border-radius: 50%;
+  background: #e5262a;
+  vertical-align: 0.1em;
+  animation: go-live-pulse 1.6s ease-in-out infinite;
+}
+@keyframes go-live-pulse {
+  50% {
+    opacity: 0.35;
+  }
+}
+/* TV hardware: no endless animation. */
+.go-tv .go-live-dot {
+  animation: none;
+}

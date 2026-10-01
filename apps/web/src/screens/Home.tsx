@@ -1,4 +1,4 @@
-import { useMemo } from 'react'
+import { useMemo, type ReactNode } from 'react'
 import type { CatalogRow, Title } from '@go10/core/types'
 import { buildRows, ROW_LIMIT, type CatalogRowGroup } from '@go10/core/catalog/buildRows'
 import { Row } from '../components/Row'
@@ -22,6 +22,7 @@ export function Home({
   collections,
   onOpenCollection,
   heroArt,
+  liveRow,
 }: {
   titles: Title[]
   onSelect: (title: Title) => void
@@ -31,6 +32,8 @@ export function Home({
   onOpenCollection: (collection: Collection) => void
   /** The hero art sidecar; null while it loads. */
   heroArt: HeroArtIndex | null
+  /** Live TV's "En vivo ahora" row, rendered at the focus row it's given. */
+  liveRow?: (rowIndex: number) => ReactNode
 }) {
   // Home remounts each time it's navigated back to, so reading once per
   // mount picks up whatever was just watched. Played TMDB titles aren't in
@@ -68,8 +71,10 @@ export function Home({
     )
   }
 
-  // The strip takes focus row 0 when present; every row below shifts down.
-  const firstRow = strip.length > 0 ? 1 : 0
+  // Focus rows: collections strip, then the live row, then Seguir viendo, then the catalog rows.
+  const liveIndex = strip.length > 0 ? 1 : 0
+  const live = liveRow?.(liveIndex) ?? null
+  const firstRow = liveIndex + (live ? 1 : 0)
 
   return (
     <div className="go-home">
@@ -87,6 +92,7 @@ export function Home({
 
       <div className="go-rows">
         {strip.length > 0 && <CollectionStrip collections={strip} rowIndex={0} onSelect={onOpenCollection} />}
+        {live}
         {continueGroup.titles.length > 0 && (
           <Row
             group={continueGroup}

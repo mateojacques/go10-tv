@@ -551,3 +551,8 @@
     width: 24rem;
   }
 }
+
+.go-nav_tv {
+  display: inline-flex;
+  align-items: center;
+}
