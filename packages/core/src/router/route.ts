@@ -10,6 +10,7 @@ export type Route =
   | { name: 'play'; key: string; videoId: string }
   | { name: 'catalog'; section: Section; query: string; source?: Exclude<SearchSource, 'all'> }
   | { name: 'collection'; id: string }
+  | { name: 'tv'; channel: string | null }
 
 /** `solo=` values; "Todas" is the default and has none. */
 const SOURCE_SLUGS: Record<Exclude<SearchSource, 'all'>, string> = { catalog: 'catalogo', tmdb: 'original' }
@@ -50,6 +51,10 @@ export function parseRoute(pathname: string, search = ''): Route {
     return { name: 'collection', id: segments[1] }
   }
 
+  if (segments[0] === 'tv' && segments.length <= 2) {
+    return { name: 'tv', channel: segments[1] ?? null }
+  }
+
   if (segments.length === 1 && segments[0] === SECTION_SLUGS.movie) return browseRoute('movie')
   if (segments.length === 1 && segments[0] === SECTION_SLUGS.show) return browseRoute('show')
 
@@ -77,6 +82,8 @@ export function routeToPath(route: Route): string {
       return `/title/${encodeURIComponent(route.key)}/play/${encodeURIComponent(route.videoId)}`
     case 'collection':
       return `/coleccion/${encodeURIComponent(route.id)}`
+    case 'tv':
+      return route.channel ? `/tv/${encodeURIComponent(route.channel)}` : '/tv'
     case 'catalog': {
       if (route.query.trim() === '') {
         return route.section === 'all' ? '/' : `/${SECTION_SLUGS[route.section]}`

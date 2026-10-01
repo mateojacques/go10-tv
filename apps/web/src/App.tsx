@@ -136,6 +136,12 @@ export default function App() {
     return null
   }
 
+  if (resolved.name === 'tv') {
+    // Live TV lands with its screen; until then /tv goes Home.
+    navigate({ name: 'home' }, { replace: true })
+    return null
+  }
+
   if (resolved.name === 'home' || resolved.name === 'catalog' || resolved.name === 'collection') {
     lastBrowseRoute.current = route
     const openTitle = (title: Title) => navigate({ name: 'title', key: title.key })

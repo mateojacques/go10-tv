@@ -26,6 +26,10 @@ function title(overrides: Partial<Title> & { seasons?: CatalogRow[] }): Title {
 }
 
 describe('resolveRoute', () => {
+  it('passes the tv route through for the app to resolve against its lineup', () => {
+    expect(resolveRoute({ name: 'tv', channel: 'cn' }, [])).toEqual({ name: 'tv', channel: 'cn' })
+  })
+
   it('resolves the home route without needing titles', () => {
     expect(resolveRoute({ name: 'home' }, [])).toEqual({ name: 'home' })
   })

@@ -10,10 +10,13 @@ export type ResolvedView =
   | { name: 'player'; title: Title; row: CatalogRow }
   | { name: 'catalog'; section: Section; query: string }
   | { name: 'collection'; collection: Collection; titles: Title[] }
+  | { name: 'tv'; channel: string | null }
   | { name: 'not-found' }
 
 export function resolveRoute(route: Route, titles: Title[], collections: Collection[] = []): ResolvedView {
   if (route.name === 'home') return { name: 'home' }
+
+  if (route.name === 'tv') return { name: 'tv', channel: route.channel }
 
   if (route.name === 'catalog') {
     // There's no "browse everything" page; the whole catalog unfiltered is Home.

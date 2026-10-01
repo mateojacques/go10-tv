@@ -33,9 +33,22 @@ describe('parseRoute', () => {
   it('falls back to home for a malformed play path', () => {
     expect(parseRoute('/title/x/play')).toEqual({ name: 'home' })
   })
+
+  it('parses /tv with no channel', () => {
+    expect(parseRoute('/tv')).toEqual({ name: 'tv', channel: null })
+  })
+
+  it('parses /tv/<channel>', () => {
+    expect(parseRoute('/tv/cartoon-network')).toEqual({ name: 'tv', channel: 'cartoon-network' })
+  })
 })
 
 describe('routeToPath', () => {
+  it('serialises the tv routes', () => {
+    expect(routeToPath({ name: 'tv', channel: null })).toBe('/tv')
+    expect(routeToPath({ name: 'tv', channel: 'cartoon-network' })).toBe('/tv/cartoon-network')
+  })
+
   it('serialises home', () => {
     expect(routeToPath({ name: 'home' })).toBe('/')
   })
