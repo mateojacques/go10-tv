@@ -219,7 +219,8 @@ Preview slots get one retry, then the tile shows its static thumbnail.
 
 `{ name: 'tv'; channel: string | null }`: `/tv` (channel `null`) and
 `/tv/:channelId`. `/tv` resolves in the app to the last channel, else
-`defaultChannel`, via `replace`. An unknown channel id goes to `not-found`.
+`defaultChannel`, via `replace`. An unknown channel id is replaced with
+`/tv`, which then picks a channel the same way.
 Zapping navigates with `replace`, so Back leaves the TV screen instead of
 replaying every zap.
 
