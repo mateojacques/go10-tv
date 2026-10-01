@@ -27,7 +27,11 @@ export interface SlotHandle {
 /** How many retries a preview gets before it settles for the thumbnail. */
 const PREVIEW_RETRIES = 1
 
-/** Loaded but silent this long: the browser blocked autoplay (Safari), so the viewer must tap. */
+/**
+ * Loaded, but the position hasn't moved for this long: something in the embed
+ * waits for a real tap (Safari's autoplay block, or an ok.ru ad iOS won't
+ * start), so the viewer must be able to reach it.
+ */
 export const STALL_MS = 4000
 
 /**
@@ -57,7 +61,7 @@ export function TvSlot({
   onReady?: () => void
   /** True while the slot has given up ("Señal interrumpida"), false once it retunes. */
   onFailedChange?: (failed: boolean) => void
-  /** True while loaded but not playing (autoplay blocked), false once it plays. */
+  /** True while loaded but not moving (autoplay blocked, an ad waiting for a tap), false once it moves. */
   onStalledChange?: (stalled: boolean) => void
 }) {
   const [state, dispatch] = useReducer(playerRetryReducer, initialPlayerRetryState)
@@ -69,8 +73,10 @@ export function TvSlot({
   const onReadyRef = useRef(onReady)
   onReadyRef.current = onReady
   const heard = useRef(false)
-  const [playing, setPlaying] = useState(false)
   const [stalled, setStalled] = useState(false)
+  /** When the position last moved (or the frame loaded), and where it was. */
+  const lastProgressAt = useRef(0)
+  const lastTime = useRef<number | null>(null)
   const onStalledChangeRef = useRef(onStalledChange)
   onStalledChangeRef.current = onStalledChange
 
@@ -106,18 +112,18 @@ export function TvSlot({
   useEffect(() => tvDebug(channel.id, 'status', `${state.status} attempt=${state.attempt}`), [channel.id, state.status, state.attempt])
   useEffect(() => tvDebug(channel.id, 'mode', mode), [channel.id, mode])
 
-  // A fresh load hasn't played yet.
-  useEffect(() => setPlaying(false), [state.reloadToken])
-
-  // Loaded, yet no playback reports: autoplay was refused. Said once it lasts STALL_MS.
+  // Not moving for STALL_MS, at any point after loading: the viewer has to tap
+  // the embed. A program that ended early is waiting on purpose, not stalled.
   useEffect(() => {
-    if (playing || state.status !== 'ready') {
+    if (state.status !== 'ready') {
       setStalled(false)
       return
     }
-    const timer = setTimeout(() => setStalled(true), STALL_MS)
-    return () => clearTimeout(timer)
-  }, [playing, state.status, state.reloadToken])
+    const timer = setInterval(() => {
+      setStalled(!session.finishedEarly() && Date.now() - lastProgressAt.current >= STALL_MS)
+    }, 1000)
+    return () => clearInterval(timer)
+  }, [state.status, state.reloadToken, session])
 
   useEffect(() => {
     tvDebug(channel.id, 'stalled', String(stalled))
@@ -154,7 +160,12 @@ export function TvSlot({
         onReadyRef.current?.()
       }
       const row = session.current()?.unit.row
-      if (row && okru.parse(event.data, row)?.kind === 'time') setPlaying(true)
+      const report = row ? okru.parse(event.data, row) : null
+      if (report?.kind === 'time' && report.time !== lastTime.current) {
+        lastTime.current = report.time
+        lastProgressAt.current = Date.now()
+        setStalled(false)
+      }
       session.handle(event.data)
     }
     window.addEventListener('message', onMessage)
@@ -241,6 +252,8 @@ export function TvSlot({
           tabIndex={-1}
           onLoad={() => {
             tvDebug(channel.id, 'iframe load')
+            lastProgressAt.current = Date.now()
+            lastTime.current = null
             loaded.current = true
             dispatch({ type: 'loaded' })
             onLoadedRef.current?.()

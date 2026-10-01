@@ -121,14 +121,34 @@ describe('TvSlot', () => {
     expect(onStalledChange).toHaveBeenLastCalledWith(false)
   })
 
-  it('does not report a stall when playback starts in time', () => {
+  const report = (time: number) =>
+    act(() => {
+      window.dispatchEvent(new MessageEvent('message', { data: { event: 'timeupdate', time, duration: 600 }, origin: 'https://ok.ru', source: frame()!.contentWindow }))
+    })
+
+  it('does not report a stall while playback keeps moving', () => {
     const onStalledChange = vi.fn()
     render(<TvSlot channel={channel} epochMs={EPOCH} mode="full" onStalledChange={onStalledChange} />)
     fireEvent.load(frame()!)
-    act(() => {
-      window.dispatchEvent(new MessageEvent('message', { data: { event: 'timeupdate', time: 62, duration: 600 }, origin: 'https://ok.ru', source: frame()!.contentWindow }))
-    })
-    act(() => vi.advanceTimersByTime(10_000))
+    for (let t = 62; t < 72; t++) {
+      report(t)
+      act(() => vi.advanceTimersByTime(1000))
+    }
     expect(onStalledChange).not.toHaveBeenCalledWith(true)
+  })
+
+  it('reports a stall when playback freezes after it started (an ad Safari will not play)', () => {
+    const onStalledChange = vi.fn()
+    render(<TvSlot channel={channel} epochMs={EPOCH} mode="full" onStalledChange={onStalledChange} />)
+    fireEvent.load(frame()!)
+    report(62)
+    act(() => vi.advanceTimersByTime(1000))
+    report(63)
+    act(() => vi.advanceTimersByTime(3000))
+    expect(onStalledChange).not.toHaveBeenLastCalledWith(true)
+    act(() => vi.advanceTimersByTime(1500))
+    expect(onStalledChange).toHaveBeenLastCalledWith(true)
+    report(64)
+    expect(onStalledChange).toHaveBeenLastCalledWith(false)
   })
 })
