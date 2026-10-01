@@ -23,6 +23,8 @@ export const theme = {
     text: '#f2f4f0',
     textMuted: '#878d99',
     textMeta: '#aab0bb',
+    /** The red "en vivo" dot (the web's .go-live-dot). */
+    live: '#e5262a',
   },
   /** One family per weight: Android can't synthesise weights for custom fonts. */
   font: {

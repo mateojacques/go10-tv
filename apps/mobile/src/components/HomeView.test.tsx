@@ -6,6 +6,8 @@ import type { Collection } from '@go10/core/collections/types'
 import type { CatalogRow, Title } from '@go10/core/types'
 import type { Progress } from '@go10/core/progress/progressStore'
 import type { HomeModel } from '../home/homeModel'
+import { resolveLineup } from '@go10/core/tv/lineup'
+import { collectionOf, showTitle } from '@go10/core/tv/testing'
 import { HomeView, homeSections } from './HomeView'
 
 const title = (key: string): Title => ({
@@ -110,5 +112,38 @@ describe('HomeView', () => {
     setExternalConfigSource(() => ({ externalTitles: undefined, tmdbToken: undefined }))
     await render(<HomeView progress={progress} model={model()} imageBase="https://tv.test/" {...handlers()} />)
     expect(screen.queryByRole('button', { name: 'Batman' })).toBeNull()
+  })
+})
+
+describe('HomeView live TV', () => {
+  const lineup = resolveLineup(
+    { epoch: '2026-10-01T00:00:00Z', defaultChannel: 'cn', channels: [{ id: 'cn', number: 1, collection: 'cn' }] },
+    [collectionOf('cn', ['s1'])],
+    [showTitle('s1', 3, 600)],
+  )!
+
+  it('puts "En vivo ahora" right after the collection strip when channels are on the air', () => {
+    expect(homeSections(model(), 1, true).map((s) => s.kind)).toEqual(['strip', 'live', 'continue', 'row', 'row'])
+    expect(homeSections(model(), 0, false).some((s) => s.kind === 'live')).toBe(false)
+  })
+
+  it('shows the live row and the navbar TV item, both leading to TV', async () => {
+    const onWatchChannel = jest.fn()
+    const onOpenTv = jest.fn()
+    await render(
+      <HomeView progress={{}} model={model()} imageBase="https://tv.test/" {...handlers()} lineup={lineup} onWatchChannel={onWatchChannel} onOpenTv={onOpenTv} />,
+    )
+    expect(screen.getByText('En vivo ahora')).toBeTruthy()
+    const user = userEvent.setup()
+    await user.press(screen.getByLabelText(/^1 CN: /))
+    await user.press(screen.getByRole('button', { name: 'TV en vivo' }))
+    expect(onWatchChannel).toHaveBeenCalledWith('cn')
+    expect(onOpenTv).toHaveBeenCalledTimes(1)
+  })
+
+  it('without channels: no live row, no TV item', async () => {
+    await render(<HomeView progress={{}} model={model()} imageBase="https://tv.test/" {...handlers()} />)
+    expect(screen.queryByText('En vivo ahora')).toBeNull()
+    expect(screen.queryByRole('button', { name: 'TV en vivo' })).toBeNull()
   })
 })

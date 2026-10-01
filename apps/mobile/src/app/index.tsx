@@ -1,7 +1,7 @@
 import { useFocusEffect } from 'expo-router'
 import { useCallback, useState } from 'react'
 import { listProgress } from '@go10/core/progress/progressStore'
-import { openCollection, openSearch, openSection, openTitle, playTitle } from '../browse/navigate'
+import { openCollection, openSearch, openSection, openTitle, openTv, playTitle } from '../browse/navigate'
 import { HomeContent } from '../components/HomeContent'
 import { appExtra, siteBase } from '../config/appConfig'
 import { useCatalog } from '../data/CatalogProvider'
@@ -30,6 +30,8 @@ export default function Home() {
       onSelectCollection={openCollection}
       onOpenSection={(section) => openSection(section, false)}
       onSearch={() => openSearch('all')}
+      onWatchChannel={openTv}
+      onOpenTv={() => openTv()}
     />
   )
 }

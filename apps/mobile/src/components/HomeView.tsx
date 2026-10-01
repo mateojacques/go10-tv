@@ -8,21 +8,24 @@ import { listSnapshots } from '@go10/core/external/snapshots'
 import { continueCardProgress } from '@go10/core/progress/describe'
 import type { Progress } from '@go10/core/progress/progressStore'
 import { continueWatching } from '@go10/core/progress/titleProgress'
+import type { Lineup } from '@go10/core/tv/types'
 import type { CatalogRow, Title } from '@go10/core/types'
 import type { HomeModel } from '../home/homeModel'
 import { useListFill } from '../platform/listFill'
 import { theme } from '../theme'
+import { LiveRow } from '../tv/LiveRow'
 import { CollectionStrip } from './CollectionStrip'
 import { HeroCarousel } from './HeroCarousel'
 import { NAV_HEIGHT, Navbar } from './Navbar'
 import { Row } from './Row'
 
-type Section = { kind: 'strip' } | { kind: 'continue' } | { kind: 'row'; index: number }
+type Section = { kind: 'strip' } | { kind: 'live' } | { kind: 'continue' } | { kind: 'row'; index: number }
 
-/** The virtualised part of Home: the strip (when any collection shows), Seguir viendo (when anything is in progress), the rows. The hero is the list header. */
-export function homeSections(model: HomeModel, continueCount = 0): Section[] {
+/** The virtualised part of Home: the strip (when any collection shows), En vivo ahora (when channels are on the air), Seguir viendo (when anything is in progress), the rows. The hero is the list header. */
+export function homeSections(model: HomeModel, continueCount = 0, hasLive = false): Section[] {
   return [
     ...(model.strip.length > 0 ? [{ kind: 'strip' } as const] : []),
+    ...(hasLive ? [{ kind: 'live' } as const] : []),
     ...(continueCount > 0 ? [{ kind: 'continue' } as const] : []),
     ...model.rows.map((_, index) => ({ kind: 'row', index }) as const),
   ]
@@ -35,7 +38,7 @@ export function homeSections(model: HomeModel, continueCount = 0): Section[] {
  * hero is the list header, never virtualised: remounting it would re-apply
  * hasTVPreferredFocus and yank TV focus back to the top.
  */
-export function HomeView({ model, progress, imageBase, onSelectTitle, onPlayTitle, onSelectCollection, onOpenSection, onSearch }: {
+export function HomeView({ model, progress, imageBase, onSelectTitle, onPlayTitle, onSelectCollection, onOpenSection, onSearch, lineup = null, onWatchChannel, onOpenTv }: {
   model: HomeModel
   progress: Record<string, Progress>
   imageBase: string
@@ -45,6 +48,10 @@ export function HomeView({ model, progress, imageBase, onSelectTitle, onPlayTitl
   onSelectCollection: (collection: Collection) => void
   onOpenSection: (section: 'movie' | 'show') => void
   onSearch: () => void
+  /** Live TV's channels; null (no channels file on the site) hides En vivo ahora and the TV item. */
+  lineup?: Lineup | null
+  onWatchChannel?: (channelId: string) => void
+  onOpenTv?: () => void
 }) {
   // Re-read on arriving at Home (the screen passes fresh progress), like the
   // web's per-mount read. Played TMDB titles aren't in the catalog; their
@@ -55,7 +62,7 @@ export function HomeView({ model, progress, imageBase, onSelectTitle, onPlayTitl
   }, [model.titles, progress])
   const continueByKey = useMemo(() => new Map(continueItems.map((item) => [item.title.key, item])), [continueItems])
   const continueGroup: CatalogRowGroup = { id: 'seguir-viendo', label: 'Seguir viendo', titles: continueItems.map((item) => item.title) }
-  const sections = homeSections(model, continueItems.length)
+  const sections = homeSections(model, continueItems.length, lineup !== null)
   const fill = useListFill()
   const insets = useSafeAreaInsets()
   return (
@@ -83,6 +90,7 @@ export function HomeView({ model, progress, imageBase, onSelectTitle, onPlayTitl
       }
       renderItem={({ item }) => {
         if (item.kind === 'strip') return <CollectionStrip collections={model.strip} imageBase={imageBase} onSelect={onSelectCollection} />
+        if (item.kind === 'live') return lineup && <LiveRow lineup={lineup} imageBase={imageBase} onWatch={(id) => onWatchChannel?.(id)} />
         if (item.kind === 'continue') {
           return (
             <Row
@@ -103,7 +111,7 @@ export function HomeView({ model, progress, imageBase, onSelectTitle, onPlayTitl
         return <Row group={model.rows[item.index]} imageBase={imageBase} onSelect={onSelectTitle} />
       }}
     />
-      <Navbar section="all" onSection={onOpenSection} onSearch={onSearch} />
+      <Navbar section="all" onSection={onOpenSection} onSearch={onSearch} onTv={lineup ? onOpenTv : undefined} />
     </View>
   )
 }

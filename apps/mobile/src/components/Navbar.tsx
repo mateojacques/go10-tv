@@ -29,12 +29,14 @@ function NavLink({ label, active, onPress }: { label: string; active: boolean; o
  * button that opens the search screen (typing lives there, so the IME never
  * closes on a navigation).
  */
-export function Navbar({ section, onHome, onSection, onSearch }: {
+export function Navbar({ section, onHome, onSection, onSearch, onTv }: {
   section: Section
   /** Absent on Home itself, where the wordmark is just a mark. */
   onHome?: () => void
   onSection: (section: 'movie' | 'show') => void
   onSearch: () => void
+  /** Live TV; the item shows only when channels are on the air. */
+  onTv?: () => void
 }) {
   const insets = useSafeAreaInsets()
   const mark = (
@@ -57,6 +59,21 @@ export function Navbar({ section, onHome, onSection, onSearch }: {
         {(['movie', 'show'] as const).map((target) => (
           <NavLink key={target} label={SECTION_LABELS[target]} active={section === target} onPress={() => section !== target && onSection(target)} />
         ))}
+        {onTv && (
+          <Pressable
+            accessibilityRole="button"
+            accessibilityLabel="TV en vivo"
+            onPress={onTv}
+            style={({ focused }) => [styles.link, styles.tvLink, focused && styles.linkFocused]}
+          >
+            {({ focused }) => (
+              <>
+                <View style={styles.liveDot} />
+                <Text style={[styles.linkText, focused && styles.onAccent]}>TV</Text>
+              </>
+            )}
+          </Pressable>
+        )}
       </View>
       <Pressable accessibilityRole="button" accessibilityLabel="Buscar" onPress={onSearch} style={({ focused }) => [styles.search, focused && styles.linkFocused]}>
         {({ focused }) => (
@@ -82,5 +99,7 @@ const styles = StyleSheet.create({
   linkText: { color: theme.color.textMuted, fontFamily: theme.font.displayBold, fontSize: tv ? 9 : 15 },
   linkActive: { color: theme.color.text },
   onAccent: { color: theme.color.bg },
+  tvLink: { flexDirection: 'row', alignItems: 'center', gap: 6 },
+  liveDot: { width: tv ? 5 : 7, height: tv ? 5 : 7, borderRadius: 4, backgroundColor: theme.color.live },
   search: { flexDirection: 'row', alignItems: 'center', gap: 6, borderRadius: 999, paddingHorizontal: tv ? 10 : 10, paddingVertical: tv ? 4 : 8 },
 })

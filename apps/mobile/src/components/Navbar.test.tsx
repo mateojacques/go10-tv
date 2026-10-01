@@ -31,3 +31,17 @@ describe('Navbar', () => {
     expect(screen.getByText('GO10 TV')).toBeTruthy()
   })
 })
+
+describe('Navbar TV item', () => {
+  it('shows a TV item when channels are on the air', async () => {
+    const onTv = jest.fn()
+    await render(<Navbar section="all" onSection={jest.fn()} onSearch={jest.fn()} onTv={onTv} />)
+    await userEvent.setup().press(screen.getByRole('button', { name: 'TV en vivo' }))
+    expect(onTv).toHaveBeenCalledTimes(1)
+  })
+
+  it('has no TV item without channels', async () => {
+    await render(<Navbar section="all" onSection={jest.fn()} onSearch={jest.fn()} />)
+    expect(screen.queryByRole('button', { name: 'TV en vivo' })).toBeNull()
+  })
+})

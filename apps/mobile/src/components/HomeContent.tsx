@@ -6,11 +6,12 @@ import type { CatalogRow, Title } from '@go10/core/types'
 import type { CatalogState } from '../data/catalogStore'
 import { buildHome } from '../home/homeModel'
 import { theme } from '../theme'
+import { useLineup } from '../tv/useLineup'
 import { HomeView } from './HomeView'
 import { LoadingScreen } from './LoadingScreen'
 import { OfflineScreen } from './OfflineScreen'
 
-export function HomeContent({ state, progress, onRetry, imageBase, onSelectTitle, onPlayTitle, onSelectCollection, onOpenSection, onSearch }: {
+export function HomeContent({ state, progress, onRetry, imageBase, onSelectTitle, onPlayTitle, onSelectCollection, onOpenSection, onSearch, onWatchChannel, onOpenTv }: {
   state: CatalogState
   progress: Record<string, Progress>
   onRetry: () => void
@@ -20,9 +21,12 @@ export function HomeContent({ state, progress, onRetry, imageBase, onSelectTitle
   onSelectCollection: (collection: Collection) => void
   onOpenSection: (section: 'movie' | 'show') => void
   onSearch: () => void
+  onWatchChannel?: (channelId: string) => void
+  onOpenTv?: () => void
 }) {
   // Rebuilt only when the catalog changes (applyPending), not on every render.
   const model = useMemo(() => (state.status === 'ready' ? buildHome(state.data) : null), [state])
+  const lineup = useLineup(state.status === 'ready' ? state.data : null)
   if (state.status === 'loading') return <LoadingScreen />
   if (state.status === 'error') return <OfflineScreen onRetry={onRetry} />
   if (!model) {
@@ -33,7 +37,7 @@ export function HomeContent({ state, progress, onRetry, imageBase, onSelectTitle
       </View>
     )
   }
-  return <HomeView model={model} progress={progress} imageBase={imageBase} onSelectTitle={onSelectTitle} onPlayTitle={onPlayTitle} onSelectCollection={onSelectCollection} onOpenSection={onOpenSection} onSearch={onSearch} />
+  return <HomeView model={model} progress={progress} imageBase={imageBase} onSelectTitle={onSelectTitle} onPlayTitle={onPlayTitle} onSelectCollection={onSelectCollection} onOpenSection={onOpenSection} onSearch={onSearch} lineup={lineup} onWatchChannel={onWatchChannel} onOpenTv={onOpenTv} />
 }
 
 const styles = StyleSheet.create({
