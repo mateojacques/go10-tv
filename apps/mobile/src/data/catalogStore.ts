@@ -2,6 +2,7 @@ import { buildTitles, parseCatalogCsv } from '@go10/core/catalog/loadCatalog'
 import { fromModules } from '@go10/core/collections/fromModules'
 import type { Collection } from '@go10/core/collections/types'
 import { parseHeroArt, type HeroArtIndex } from '@go10/core/hero/art'
+import { validateChannelsTop } from '@go10/core/tv/validateChannels'
 import type { CatalogRow, Title } from '@go10/core/types'
 import type { FetchText } from './httpText'
 import type { CachedText, TextCache } from './textCache'
@@ -12,6 +13,8 @@ export interface CatalogData {
   collections: Collection[]
   /** Hero backdrops (scripts/fetch_hero_art.py); {} when missing. */
   heroArt: HeroArtIndex
+  /** data/channels.json as published (resolveLineup validates the entries); null when the site has none. */
+  channels: unknown | null
 }
 
 export type CatalogState = { status: 'loading' } | { status: 'error' } | { status: 'ready'; data: CatalogData }
@@ -56,6 +59,16 @@ export function parseCollections(json: string): Collection[] | null {
   }
 }
 
+/** A channels file whose top level is sound, or null (an HTML fallback page, a truncated download). */
+export function parseChannels(json: string): unknown | null {
+  try {
+    const raw: unknown = JSON.parse(json)
+    return validateChannelsTop(raw).length === 0 ? raw : null
+  } catch {
+    return null
+  }
+}
+
 interface Resource<T> {
   name: string
   path: string
@@ -65,6 +78,7 @@ interface Resource<T> {
 const CATALOG: Resource<CatalogRow[]> = { name: 'catalog.csv', path: 'data/catalog.csv', parse: parseCatalog }
 const COLLECTIONS: Resource<Collection[]> = { name: 'collections.json', path: 'data/collections/index.json', parse: parseCollections }
 const HERO_ART: Resource<HeroArtIndex> = { name: 'hero_art.json', path: 'data/hero_art.json', parse: parseHeroArt }
+const CHANNELS: Resource<unknown> = { name: 'channels.json', path: 'data/channels.json', parse: parseChannels }
 
 export function createCatalogStore(deps: Deps): CatalogStore {
   let state: CatalogState = { status: 'loading' }
@@ -118,27 +132,30 @@ export function createCatalogStore(deps: Deps): CatalogStore {
     // cache, since its ETag is still sent and a 304 would otherwise leave no collections.
     const cachedCollections = cached(COLLECTIONS)?.value ?? []
     const cachedHeroArt = cached(HERO_ART)?.value ?? {}
+    const cachedChannels = cached(CHANNELS)?.value ?? null
     const current: CatalogData | null = rows
-      ? { rows, titles: buildTitles(rows), collections: cachedCollections, heroArt: cachedHeroArt }
+      ? { rows, titles: buildTitles(rows), collections: cachedCollections, heroArt: cachedHeroArt, channels: cachedChannels }
       : null
     set(current ? { status: 'ready', data: current } : { status: 'loading' })
 
-    const [freshRows, freshCollections, freshHeroArt] = await Promise.all([
+    const [freshRows, freshCollections, freshHeroArt, freshChannels] = await Promise.all([
       refresh(CATALOG),
       refresh(COLLECTIONS),
       refresh(HERO_ART),
+      refresh(CHANNELS),
     ])
     const nextRows = freshRows ?? current?.rows ?? null
     if (!nextRows) {
       set({ status: 'error' })
       return
     }
-    if (!freshRows && !freshCollections && !freshHeroArt) return // unchanged (or unreachable) with a cache showing
+    if (!freshRows && !freshCollections && !freshHeroArt && freshChannels === null) return // unchanged (or unreachable) with a cache showing
     const next: CatalogData = {
       rows: nextRows,
       titles: freshRows ? buildTitles(freshRows) : current!.titles,
       collections: freshCollections ?? cachedCollections,
       heroArt: freshHeroArt ?? cachedHeroArt,
+      channels: freshChannels ?? cachedChannels,
     }
     if (current) pending = next
     else set({ status: 'ready', data: next })

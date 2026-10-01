@@ -4,7 +4,7 @@ import { titleSource } from './titleSource'
 
 const catalogTitle = { key: 'coraje' } as Title
 const tmdbTitle = { key: 'tmdb-movie-155', external: true } as Title
-const ready: CatalogState = { status: 'ready', data: { rows: [], collections: [], titles: [catalogTitle], heroArt: {} } }
+const ready: CatalogState = { status: 'ready', data: { rows: [], collections: [], titles: [catalogTitle], heroArt: {}, channels: null } }
 
 describe('titleSource', () => {
   it('waits for the catalog, and has nothing without one', () => {

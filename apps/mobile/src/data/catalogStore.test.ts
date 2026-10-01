@@ -1,6 +1,6 @@
 import type { FetchText } from './httpText'
 import { memoryTextCache, type TextCache } from './textCache'
-import { createCatalogStore, parseCatalog, parseCollections } from './catalogStore'
+import { createCatalogStore, parseCatalog, parseChannels, parseCollections } from './catalogStore'
 
 const BASE = 'https://tv.test/'
 const HEADER = 'catalog_index,video_id,type,title,title_raw,series_id,series_title,season_number,season_label,episode_number,chapter_start_seconds,chapter_end_seconds,year,studio,source,genre,genre_secondary,quality,language,subtitled,duration_raw,duration_seconds,views,thumbnail,video_url,embed_url'
@@ -244,5 +244,53 @@ describe('hero art', () => {
     expect(heroArtOf(store)).toEqual({})
     store.applyPending()
     expect(heroArtOf(store)).toEqual({ '100': expect.anything() })
+  })
+})
+
+const CHANNELS = 'data/channels.json'
+const channelsFile = (id: string) => ({ epoch: '2026-10-01T00:00:00Z', defaultChannel: id, channels: [{ id, number: 1, collection: 'pixar' }] })
+const channelsOf = (store: ReturnType<typeof createCatalogStore>) => {
+  const state = store.getState()
+  return state.status === 'ready' ? state.data.channels : state.status
+}
+
+describe('parseChannels', () => {
+  it('keeps a channels file', () => {
+    expect(parseChannels(JSON.stringify(channelsFile('a')))).toEqual(channelsFile('a'))
+  })
+
+  it('rejects what is not one', () => {
+    expect(parseChannels(HTML)).toBeNull()
+    expect(parseChannels('[]')).toBeNull()
+    expect(parseChannels('{"channels": 3}')).toBeNull()
+  })
+})
+
+describe('channels', () => {
+  it('loads channels.json alongside the catalog', async () => {
+    const s = site({ [CATALOG]: { body: csv('A') }, [COLLECTIONS]: { body: '[]' }, [CHANNELS]: { body: JSON.stringify(channelsFile('a')) } })
+    const store = createCatalogStore({ fetchText: s.fetchText, cache: memoryTextCache(), siteBase: BASE })
+    await store.start()
+    expect(channelsOf(store)).toEqual(channelsFile('a'))
+  })
+
+  it('is null when the site has none (deployed before live TV), and the catalog still loads', async () => {
+    const s = site({ [CATALOG]: { body: csv('A') }, [COLLECTIONS]: { body: '[]' }, [CHANNELS]: { body: HTML } })
+    const store = createCatalogStore({ fetchText: s.fetchText, cache: memoryTextCache(), siteBase: BASE })
+    await store.start()
+    expect(channelsOf(store)).toBeNull()
+    expect(titlesOf(store)).toEqual(['A'])
+  })
+
+  it('a changed channels file alone is a pending refresh', async () => {
+    const cache = memoryTextCache()
+    cache.write('catalog.csv', { body: csv('A'), etag: '"c1"' })
+    cache.write('channels.json', { body: JSON.stringify(channelsFile('old')), etag: '"t1"' })
+    const s = site({ [CATALOG]: { body: csv('A'), etag: '"c1"' }, [COLLECTIONS]: 'down', [CHANNELS]: { body: JSON.stringify(channelsFile('new')), etag: '"t2"' } })
+    const store = createCatalogStore({ fetchText: s.fetchText, cache, siteBase: BASE })
+    await store.start()
+    expect(channelsOf(store)).toEqual(channelsFile('old'))
+    store.applyPending()
+    expect(channelsOf(store)).toEqual(channelsFile('new'))
   })
 })
