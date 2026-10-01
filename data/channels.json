@@ -1,0 +1,21 @@
+{
+  "epoch": "2026-10-01T00:00:00Z",
+  "defaultChannel": "cartoon-network",
+  "channels": [
+    { "id": "cartoon-network", "number": 1, "collection": "cartoon-network" },
+    { "id": "jetix", "number": 2, "collection": "jetix" },
+    { "id": "disney", "number": 3, "collection": "disney" },
+    { "id": "nickelodeon", "number": 4, "collection": "nickelodeon" },
+    { "id": "adult-swim", "number": 5, "collection": "adult-swim" },
+    { "id": "pixar", "number": 6, "collection": "pixar" },
+    { "id": "fox", "number": 7, "collection": "fox" },
+    { "id": "warner-bros", "number": 8, "collection": "warner-bros" },
+    { "id": "dreamworks", "number": 9, "collection": "dreamworks" },
+    { "id": "toei", "number": 10, "collection": "toei" },
+    { "id": "animax", "number": 11, "collection": "animax" },
+    { "id": "netflix", "number": 12, "collection": "netflix" },
+    { "id": "prime-video", "number": 13, "collection": "prime-video" },
+    { "id": "barbie", "number": 14, "collection": "barbie" },
+    { "id": "monster-high", "number": 15, "collection": "monster-high" }
+  ]
+}
