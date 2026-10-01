@@ -20,6 +20,8 @@ export interface TvApi {
   promoted: boolean
   /** The channel on main has given up for now ("Señal interrumpida"). */
   mainFailed: boolean
+  /** The channel on main loaded but isn't playing: the browser blocked autoplay, a tap must reach the embed. */
+  mainStalled: boolean
   /** Whether the viewer wants sound. On by default: the embed starts muted, so it's asked for. */
   soundOn: boolean
   setSound(on: boolean): void
@@ -38,12 +40,22 @@ export interface TvApi {
   bindHandle(slotId: number, handle: SlotHandle | null): void
   onSlotLoaded(slotId: number): void
   onSlotFailed(slotId: number, failed: boolean): void
+  onSlotStalled(slotId: number, stalled: boolean): void
 }
 
 /** A preload the viewer never followed up on is dropped after this long: it streams for nothing. */
 export const STAGED_TTL_MS = 20_000
 
 const TvContext = createContext<TvApi | null>(null)
+
+/** `ids` with `id` in or out; the same set when nothing changes. */
+function toggled(ids: ReadonlySet<number>, id: number, on: boolean): ReadonlySet<number> {
+  if (ids.has(id) === on) return ids
+  const next = new Set(ids)
+  if (on) next.add(id)
+  else next.delete(id)
+  return next
+}
 
 export function useTv(): TvApi {
   const api = useContext(TvContext)
@@ -70,6 +82,7 @@ export function TvProvider({ lineup, children }: { lineup: Lineup | null; childr
   const [soundOn, setSoundOn] = useState(true)
   const soundRef = useRef(true)
   const [failedIds, setFailedIds] = useState<ReadonlySet<number>>(new Set())
+  const [stalledIds, setStalledIds] = useState<ReadonlySet<number>>(new Set())
   const [intent, renewIntent] = useReducer((n: number) => n + 1, 0)
 
   const commit = useCallback((next: SlotState[]) => {
@@ -219,24 +232,18 @@ export function TvProvider({ lineup, children }: { lineup: Lineup | null; childr
     [activated, mainId, playMain],
   )
 
-  const onSlotFailed = useCallback((slotId: number, failed: boolean) => {
-    setFailedIds((current) => {
-      if (current.has(slotId) === failed) return current
-      const next = new Set(current)
-      if (failed) next.add(slotId)
-      else next.delete(slotId)
-      return next
-    })
-  }, [])
+  const onSlotFailed = useCallback((slotId: number, failed: boolean) => setFailedIds((current) => toggled(current, slotId, failed)), [])
   const mainFailed = mainId !== null && failedIds.has(mainId)
+  const onSlotStalled = useCallback((slotId: number, stalled: boolean) => setStalledIds((current) => toggled(current, slotId, stalled)), [])
+  const mainStalled = mainId !== null && stalledIds.has(mainId)
 
   const api = useMemo<TvApi>(
     () => ({
-      lineup, mainChannel: main?.channelId ?? null, activated, promoted, mainFailed, soundOn, setSound, nudgeSound,
+      lineup, mainChannel: main?.channelId ?? null, activated, promoted, mainFailed, mainStalled, soundOn, setSound, nudgeSound,
       preload, watch, previewAt, endPreview, setScreen, close,
-      slots, modeOf, previewRect, bindHandle, onSlotLoaded, onSlotFailed,
+      slots, modeOf, previewRect, bindHandle, onSlotLoaded, onSlotFailed, onSlotStalled,
     }),
-    [lineup, main, activated, promoted, mainFailed, soundOn, setSound, nudgeSound, preload, watch, previewAt, endPreview, setScreen, close, slots, modeOf, previewRect, bindHandle, onSlotLoaded, onSlotFailed],
+    [lineup, main, activated, promoted, mainFailed, mainStalled, soundOn, setSound, nudgeSound, preload, watch, previewAt, endPreview, setScreen, close, slots, modeOf, previewRect, bindHandle, onSlotLoaded, onSlotFailed, onSlotStalled],
   )
 
   return <TvContext.Provider value={api}>{children}</TvContext.Provider>

@@ -7,6 +7,8 @@ import type { Airing, ChannelPlan } from './types'
 export const DRIFT_SECONDS = 20
 /** …on this many reports in a row seeks back to live. */
 export const DRIFT_STRIKES = 2
+/** A paused embed is told to play again at most this often, in case the browser keeps refusing. */
+export const RESUME_INTERVAL_MS = 3000
 
 export interface LiveSession {
   /** Joins the live second now; returns the embed src. Call on every load and every retry. */
@@ -40,6 +42,7 @@ export function createLiveSession({
   let airing: Airing | null = null
   let strikes = 0
   let early = false
+  let lastResume = -Infinity
 
   /** Moves to the airing at `at`; returns the position in its file, in seconds. */
   function settle(at: number): number {
@@ -77,6 +80,15 @@ export function createLiveSession({
       const event = okru.parse(data, airing.unit.row)
       if (!event) return
       if (event.kind === 'ended') return markEarly()
+      if (event.kind === 'paused') {
+        // Live TV can't be paused: back on air, at the live second.
+        const at = now()
+        if (early || at >= airing.endsAt || at - lastResume < RESUME_INTERVAL_MS) return
+        lastResume = at
+        send(okru.playMessage)
+        send(okru.seekMessage(Math.floor(airing.unit.start + (at - airing.startsAt) / 1000)))
+        return
+      }
       if (event.kind !== 'time') return
       if (event.time >= airing.unit.start + airing.unit.length) return markEarly()
       const expected = airing.unit.start + (now() - airing.startsAt) / 1000

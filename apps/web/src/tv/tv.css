@@ -3,8 +3,21 @@
   position: fixed;
   overflow: hidden;
   background: #000;
+  /* ok.ru draws its title (top) and control bar (bottom) in fixed-height
+   * strips. The frame is taller than the slot by this much on each side: the
+   * video, fit to the width, stays centred and fills the slot, while the
+   * strips land in the letterbox bands the slot cuts off. Tune it if ok.ru's
+   * chrome peeks through, or if the picture gets clipped. */
+  --go-okru-chrome: 64px;
 }
-.go-tvslot_frame,
+.go-tvslot_frame {
+  position: absolute;
+  left: 0;
+  top: calc(-1 * var(--go-okru-chrome));
+  width: 100%;
+  height: calc(100% + 2 * var(--go-okru-chrome));
+  border: 0;
+}
 .go-tvslot_thumb {
   display: block;
   width: 100%;
@@ -194,6 +207,21 @@
   inset: 0;
   pointer-events: auto;
   touch-action: none;
+}
+.go-tv_shield.is-pass-through {
+  pointer-events: none;
+}
+/* Beside the embed's play button, never on it: the tap must reach the embed. */
+.go-tv_tap {
+  position: absolute;
+  left: 50%;
+  top: calc(50% + 56px);
+  transform: translateX(-50%);
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: rgb(0 0 0 / 0.7);
+  font-weight: 700;
+  pointer-events: none;
 }
 .go-tv_now {
   position: absolute;

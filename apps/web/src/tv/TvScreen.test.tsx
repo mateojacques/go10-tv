@@ -183,4 +183,20 @@ describe('TvScreen', () => {
       expect(post).toHaveBeenCalledWith({ action: 'unmute' }, 'https://ok.ru')
     })
   })
+
+  it('lets a tap through to the embed, with a hint, while autoplay is blocked', () => {
+    renderScreen()
+    const frame = document.querySelector('[data-channel="cn"] iframe') as HTMLIFrameElement
+    fireEvent.load(frame)
+    const shield = document.querySelector('.go-tv_shield')!
+    expect(shield.classList.contains('is-pass-through')).toBe(false)
+    act(() => vi.advanceTimersByTime(4000))
+    expect(shield.classList.contains('is-pass-through')).toBe(true)
+    expect(screen.getByText('Tocá para ver')).not.toBeNull()
+    act(() => {
+      window.dispatchEvent(new MessageEvent('message', { data: { event: 'timeupdate', time: 64, duration: 600 }, origin: 'https://ok.ru', source: frame.contentWindow }))
+    })
+    expect(shield.classList.contains('is-pass-through')).toBe(false)
+    expect(screen.queryByText('Tocá para ver')).toBeNull()
+  })
 })

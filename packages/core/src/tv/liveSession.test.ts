@@ -128,4 +128,34 @@ describe('createLiveSession', () => {
     session.sync(first.endsAt)
     expect(session.current()).toEqual(scheduleAt(plan, EPOCH, later).current)
   })
+
+  it('resumes at the live position when the embed is paused mid-program', () => {
+    const { session, sent, at } = setup()
+    at(EPOCH + 100_000)
+    session.tune()
+    session.handle({ event: 'paused' })
+    expect(sent).toEqual([{ action: 'play' }, { action: 'seek', time: 100 }])
+  })
+
+  it('resumes at most once every 3 s, so a blocked embed is not hammered', () => {
+    const { session, sent, at } = setup()
+    at(EPOCH + 100_000)
+    session.tune()
+    session.handle({ event: 'paused' })
+    at(EPOCH + 101_000)
+    session.handle({ event: 'paused' })
+    expect(sent).toHaveLength(2)
+    at(EPOCH + 103_500)
+    session.handle({ event: 'paused' })
+    expect(sent).toHaveLength(4)
+  })
+
+  it('leaves a pause alone once the program has finished early', () => {
+    const { session, sent, at } = setup([showTitle('a', 4, 600)])
+    at(EPOCH + 1000)
+    session.tune()
+    session.handle({ event: 'ended', time: 590 })
+    session.handle({ event: 'paused' })
+    expect(sent).toEqual([])
+  })
 })

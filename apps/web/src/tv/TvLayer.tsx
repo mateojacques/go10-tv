@@ -44,12 +44,13 @@ export function TvLayer({ onOpen }: { onOpen: (channelId: string) => void }) {
   )
 }
 
-function BoundSlot({ slotId, ...props }: { slotId: number } & Omit<Parameters<typeof TvSlot>[0], 'bind' | 'onLoaded' | 'onReady' | 'onFailedChange'>) {
+function BoundSlot({ slotId, ...props }: { slotId: number } & Omit<Parameters<typeof TvSlot>[0], 'bind' | 'onLoaded' | 'onReady' | 'onFailedChange' | 'onStalledChange'>) {
   const tv = useTv()
-  const { bindHandle, onSlotLoaded, onSlotFailed } = tv
+  const { bindHandle, onSlotLoaded, onSlotFailed, onSlotStalled } = tv
   const bind = useCallback((handle: SlotHandle | null) => bindHandle(slotId, handle), [bindHandle, slotId])
   const onLoaded = useCallback(() => onSlotLoaded(slotId), [onSlotLoaded, slotId])
   const onFailedChange = useCallback((failed: boolean) => onSlotFailed(slotId, failed), [onSlotFailed, slotId])
+  const onStalledChange = useCallback((stalled: boolean) => onSlotStalled(slotId, stalled), [onSlotStalled, slotId])
   // The embed's first message is the surer moment to ask for sound than onLoad.
-  return <TvSlot {...props} bind={bind} onLoaded={onLoaded} onReady={onLoaded} onFailedChange={onFailedChange} />
+  return <TvSlot {...props} bind={bind} onLoaded={onLoaded} onReady={onLoaded} onFailedChange={onFailedChange} onStalledChange={onStalledChange} />
 }

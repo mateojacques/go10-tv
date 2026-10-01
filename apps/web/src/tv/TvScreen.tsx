@@ -119,8 +119,9 @@ export function TvScreen({
 
   return (
     <div className="go-tv" role="region" aria-label="TV en vivo" onPointerMove={wake}>
+      {/* Autoplay blocked (Safari): the tap has to land on the embed's own play button. */}
       <div
-        className="go-tv_shield"
+        className={`go-tv_shield${tv.mainStalled ? ' is-pass-through' : ''}`}
         onPointerDown={(event) => {
           press.current = { x: event.clientX, y: event.clientY }
           nudgeSound()
@@ -198,6 +199,12 @@ export function TvScreen({
           })}
         </div>
       </nav>
+
+      {tv.mainStalled && (
+        <div className="go-tv_tap" role="status">
+          Tocá para ver
+        </div>
+      )}
 
       {flash !== null && (
         <div className={`go-tv_flash${tv.promoted ? '' : ' has-static'}`} aria-hidden="true">

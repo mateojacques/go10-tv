@@ -101,4 +101,34 @@ describe('TvSlot', () => {
     say()
     expect(onReady).toHaveBeenCalledTimes(1)
   })
+
+  it('keeps the embed out of the tab order, so keys never reach its controls', () => {
+    render(<TvSlot channel={channel} epochMs={EPOCH} mode="full" />)
+    expect(frame()!.tabIndex).toBe(-1)
+  })
+
+  it('reports a stall when nothing plays 4 s after loading, and clears it once playback starts', () => {
+    const onStalledChange = vi.fn()
+    render(<TvSlot channel={channel} epochMs={EPOCH} mode="full" onStalledChange={onStalledChange} />)
+    fireEvent.load(frame()!)
+    act(() => vi.advanceTimersByTime(3999))
+    expect(onStalledChange).not.toHaveBeenLastCalledWith(true)
+    act(() => vi.advanceTimersByTime(1))
+    expect(onStalledChange).toHaveBeenLastCalledWith(true)
+    act(() => {
+      window.dispatchEvent(new MessageEvent('message', { data: { event: 'timeupdate', time: 70, duration: 600 }, origin: 'https://ok.ru', source: frame()!.contentWindow }))
+    })
+    expect(onStalledChange).toHaveBeenLastCalledWith(false)
+  })
+
+  it('does not report a stall when playback starts in time', () => {
+    const onStalledChange = vi.fn()
+    render(<TvSlot channel={channel} epochMs={EPOCH} mode="full" onStalledChange={onStalledChange} />)
+    fireEvent.load(frame()!)
+    act(() => {
+      window.dispatchEvent(new MessageEvent('message', { data: { event: 'timeupdate', time: 62, duration: 600 }, origin: 'https://ok.ru', source: frame()!.contentWindow }))
+    })
+    act(() => vi.advanceTimersByTime(10_000))
+    expect(onStalledChange).not.toHaveBeenCalledWith(true)
+  })
 })

@@ -26,6 +26,9 @@ export interface SlotHandle {
 /** How many retries a preview gets before it settles for the thumbnail. */
 const PREVIEW_RETRIES = 1
 
+/** Loaded but silent this long: the browser blocked autoplay (Safari), so the viewer must tap. */
+export const STALL_MS = 4000
+
 /**
  * One channel's embed, kept on the live schedule. It never moves in the DOM
  * (a moved iframe reloads); `mode` only changes where CSS puts it.
@@ -40,6 +43,7 @@ export function TvSlot({
   onLoaded,
   onReady,
   onFailedChange,
+  onStalledChange,
 }: {
   channel: Channel
   epochMs: number
@@ -52,6 +56,8 @@ export function TvSlot({
   onReady?: () => void
   /** True while the slot has given up ("Señal interrumpida"), false once it retunes. */
   onFailedChange?: (failed: boolean) => void
+  /** True while loaded but not playing (autoplay blocked), false once it plays. */
+  onStalledChange?: (stalled: boolean) => void
 }) {
   const [state, dispatch] = useReducer(playerRetryReducer, initialPlayerRetryState)
   const frameRef = useRef<HTMLIFrameElement>(null)
@@ -62,6 +68,10 @@ export function TvSlot({
   const onReadyRef = useRef(onReady)
   onReadyRef.current = onReady
   const heard = useRef(false)
+  const [playing, setPlaying] = useState(false)
+  const [stalled, setStalled] = useState(false)
+  const onStalledChangeRef = useRef(onStalledChange)
+  onStalledChangeRef.current = onStalledChange
 
   const [session] = useState(() =>
     createLiveSession({
@@ -78,6 +88,23 @@ export function TvSlot({
     heard.current = false
     return session.tune()
   }, [state.reloadToken])
+
+  // A fresh load hasn't played yet.
+  useEffect(() => setPlaying(false), [state.reloadToken])
+
+  // Loaded, yet no playback reports: autoplay was refused. Said once it lasts STALL_MS.
+  useEffect(() => {
+    if (playing || state.status !== 'ready') {
+      setStalled(false)
+      return
+    }
+    const timer = setTimeout(() => setStalled(true), STALL_MS)
+    return () => clearTimeout(timer)
+  }, [playing, state.status, state.reloadToken])
+
+  useEffect(() => {
+    onStalledChangeRef.current?.(stalled)
+  }, [stalled])
   const airing = session.current()
 
   const gaveUp = state.status === 'failed' || (preview && state.attempt > PREVIEW_RETRIES)
@@ -104,6 +131,8 @@ export function TvSlot({
         heard.current = true
         onReadyRef.current?.()
       }
+      const row = session.current()?.unit.row
+      if (row && okru.parse(event.data, row)?.kind === 'time') setPlaying(true)
       session.handle(event.data)
     }
     window.addEventListener('message', onMessage)
@@ -185,6 +214,8 @@ export function TvSlot({
           title={airing ? programLabel(airing.unit) : channel.name}
           allow="autoplay; fullscreen; encrypted-media"
           allowFullScreen
+          // Live TV: Space and the arrows must never reach the embed's own controls.
+          tabIndex={-1}
           onLoad={() => {
             loaded.current = true
             dispatch({ type: 'loaded' })
