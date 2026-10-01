@@ -373,3 +373,22 @@
   justify-content: center;
   padding: 6px 10px;
 }
+
+/* ?tvdebug=1 only. */
+.go-tvdebug {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  max-width: min(46rem, 100vw);
+  max-height: 45vh;
+  margin: 0;
+  padding: 6px 8px;
+  overflow: auto;
+  background: rgb(0 0 0 / 0.8);
+  color: #7f7;
+  font: 11px/1.35 ui-monospace, monospace;
+  white-space: pre-wrap;
+  word-break: break-all;
+  pointer-events: none;
+}
