@@ -17,6 +17,10 @@ export interface EmbedProvider {
   /** Resume/pause commands; absent when the embed has none (vidlove). */
   playMessage?: unknown
   pauseMessage?: unknown
+  /** Silence / restore, and set the volume 0..1 (ok.ru; found in the 2026-10-01 TV embed spike). */
+  muteMessage?: unknown
+  unmuteMessage?: unknown
+  volumeMessage?: (volume: number) => unknown
   /** true: resume via `src`'s start time; false: post `seekMessage` once playing. */
   resumesViaUrl: boolean
   /** Text of the fallback link to `row.video_url`. */

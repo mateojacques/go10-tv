@@ -38,6 +38,7 @@ export function TvSlot({
   preview = false,
   bind,
   onLoaded,
+  onReady,
   onFailedChange,
 }: {
   channel: Channel
@@ -47,6 +48,8 @@ export function TvSlot({
   preview?: boolean
   bind?: (handle: SlotHandle | null) => void
   onLoaded?: () => void
+  /** Fired once per load, on the embed's first message: its player is up and listening. */
+  onReady?: () => void
   /** True while the slot has given up ("Señal interrumpida"), false once it retunes. */
   onFailedChange?: (failed: boolean) => void
 }) {
@@ -56,6 +59,9 @@ export function TvSlot({
   const [, rerender] = useReducer((n: number) => n + 1, 0)
   const onLoadedRef = useRef(onLoaded)
   onLoadedRef.current = onLoaded
+  const onReadyRef = useRef(onReady)
+  onReadyRef.current = onReady
+  const heard = useRef(false)
 
   const [session] = useState(() =>
     createLiveSession({
@@ -68,7 +74,10 @@ export function TvSlot({
 
   // Every load and every retry rejoins the live second.
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  const src = useMemo(() => session.tune(), [state.reloadToken])
+  const src = useMemo(() => {
+    heard.current = false
+    return session.tune()
+  }, [state.reloadToken])
   const airing = session.current()
 
   const gaveUp = state.status === 'failed' || (preview && state.attempt > PREVIEW_RETRIES)
@@ -91,6 +100,10 @@ export function TvSlot({
   useEffect(() => {
     function onMessage(event: MessageEvent) {
       if (event.origin !== okru.origin || event.source !== frameRef.current?.contentWindow) return
+      if (!heard.current) {
+        heard.current = true
+        onReadyRef.current?.()
+      }
       session.handle(event.data)
     }
     window.addEventListener('message', onMessage)

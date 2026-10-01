@@ -67,11 +67,19 @@ export function TvScreen({
     bump()
   }, [])
 
+  // Every tap and key is a fresh user activation: the moment to ask the
+  // embed for sound again, since it autoplays muted.
+  const { nudgeSound, setSound, soundOn } = tv
+
   // Any key wakes the strip; the focus grid still handles the key itself.
   useEffect(() => {
-    window.addEventListener('keydown', wake, true)
-    return () => window.removeEventListener('keydown', wake, true)
-  }, [wake])
+    function onAnyKey() {
+      wake()
+      nudgeSound()
+    }
+    window.addEventListener('keydown', onAnyKey, true)
+    return () => window.removeEventListener('keydown', onAnyKey, true)
+  }, [wake, nudgeSound])
 
   const zap = useCallback((step: 1 | -1) => onZap(stepChannel(lineup, channel.id, step).id), [lineup, channel.id, onZap])
 
@@ -90,6 +98,10 @@ export function TvScreen({
         if (target) onZap(target.id)
         return true
       }
+      if (key === 'm' || key === 'M') {
+        setSound(!soundOn)
+        return true
+      }
       if (key === 'f' || key === 'F') {
         if (document.fullscreenElement) document.exitFullscreen().catch(() => {})
         else document.documentElement.requestFullscreen?.().catch(() => {})
@@ -97,7 +109,7 @@ export function TvScreen({
       }
       return false
     },
-    [zap, lineup, onZap],
+    [zap, lineup, onZap, setSound, soundOn],
   )
 
   // A dead signal keeps the channels in view: the way out is a zap.
@@ -109,7 +121,10 @@ export function TvScreen({
     <div className="go-tv" role="region" aria-label="TV en vivo" onPointerMove={wake}>
       <div
         className="go-tv_shield"
-        onPointerDown={(event) => (press.current = { x: event.clientX, y: event.clientY })}
+        onPointerDown={(event) => {
+          press.current = { x: event.clientX, y: event.clientY }
+          nudgeSound()
+        }}
         onPointerUp={(event) => {
           const start = press.current
           press.current = null
@@ -138,6 +153,22 @@ export function TvScreen({
               <i style={{ width: `${Math.round(progressOf(schedule) * 100)}%` }} />
             </span>
           </div>
+          <button
+            type="button"
+            className="go-tv_sound"
+            aria-label={soundOn ? 'Silenciar' : 'Activar sonido'}
+            aria-pressed={!soundOn}
+            onClick={() => setSound(!soundOn)}
+          >
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+              <path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor" />
+              {soundOn ? (
+                <path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" />
+              ) : (
+                <path d="M16 9l6 6M22 9l-6 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+              )}
+            </svg>
+          </button>
           <button type="button" className="go-tv_info" onClick={() => onOpenTitle(schedule.current.titleKey)}>
             Ver ficha
           </button>

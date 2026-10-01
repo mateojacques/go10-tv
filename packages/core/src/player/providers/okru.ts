@@ -4,7 +4,8 @@ import { buildEmbedSrc } from '../embedSrc'
 /**
  * ok.ru's /videoembed/ iframe posts `{event: 'timeupdate' | 'paused' |
  * 'ended', time, duration}` to the parent (confirmed on real traffic) and
- * accepts `{action: 'seek', time}` and `{action: 'play' | 'pause'}`.
+ * accepts `{action: 'seek', time}`, `{action: 'play' | 'pause' | 'mute' | 'unmute'}`
+ * and `{action: 'volume', value}` (0..1).
  */
 export const okru: EmbedProvider = {
   origin: 'https://ok.ru',
@@ -19,6 +20,9 @@ export const okru: EmbedProvider = {
   seekMessage: (time) => ({ action: 'seek', time }),
   playMessage: { action: 'play' },
   pauseMessage: { action: 'pause' },
+  muteMessage: { action: 'mute' },
+  unmuteMessage: { action: 'unmute' },
+  volumeMessage: (volume) => ({ action: 'volume', value: volume }),
   resumesViaUrl: true,
   fallbackLabel: 'Abrir en ok.ru',
 }

@@ -250,6 +250,7 @@
   height: 100%;
   background: #fff;
 }
+.go-tv_sound,
 .go-tv_info,
 .go-tv_back {
   padding: 8px 14px;
@@ -336,4 +337,11 @@
 /* TV hardware: no endless animation. */
 .go-tv .go-live-dot {
   animation: none;
+}
+
+.go-tv_sound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 10px;
 }

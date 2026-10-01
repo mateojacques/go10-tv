@@ -20,6 +20,11 @@ export interface TvApi {
   promoted: boolean
   /** The channel on main has given up for now ("Señal interrumpida"). */
   mainFailed: boolean
+  /** Whether the viewer wants sound. On by default: the embed starts muted, so it's asked for. */
+  soundOn: boolean
+  setSound(on: boolean): void
+  /** A tap or key on the TV screen: a fresh user activation, so ask for sound again. */
+  nudgeSound(): void
   preload(channelId?: string): void
   watch(channelId: string): void
   previewAt(channelId: string, rect: Rect): void
@@ -62,6 +67,8 @@ export function TvProvider({ lineup, children }: { lineup: Lineup | null; childr
   const [previewRect, setPreviewRect] = useState<Rect | null>(null)
   const nextId = useRef(1)
   const handles = useRef(new Map<number, SlotHandle>())
+  const [soundOn, setSoundOn] = useState(true)
+  const soundRef = useRef(true)
   const [failedIds, setFailedIds] = useState<ReadonlySet<number>>(new Set())
   const [intent, renewIntent] = useReducer((n: number) => n + 1, 0)
 
@@ -154,11 +161,43 @@ export function TvProvider({ lineup, children }: { lineup: Lineup | null; childr
 
   // The click into TV is a user activation: tell a loaded main embed to play,
   // in case it was staged before any click and the browser held it back.
-  const playMain = useCallback(() => {
-    if (mainId === null) return
-    const handle = handles.current.get(mainId)
-    if (handle?.isLoaded()) handle.post(okru.playMessage)
+  const loadedMain = useCallback(() => {
+    const handle = mainId === null ? undefined : handles.current.get(mainId)
+    return handle?.isLoaded() ? handle : null
   }, [mainId])
+
+  // ok.ru autoplays muted, and its own controls sit under the TV screen's
+  // shield: sound is always asked for explicitly.
+  const applySound = useCallback((handle: SlotHandle) => {
+    if (soundRef.current) {
+      handle.post(okru.unmuteMessage)
+      handle.post(okru.volumeMessage?.(1))
+    } else {
+      handle.post(okru.muteMessage)
+    }
+  }, [])
+
+  const playMain = useCallback(() => {
+    const handle = loadedMain()
+    if (!handle) return
+    handle.post(okru.playMessage)
+    applySound(handle)
+  }, [loadedMain, applySound])
+
+  const setSound = useCallback(
+    (on: boolean) => {
+      soundRef.current = on
+      setSoundOn(on)
+      const handle = loadedMain()
+      if (handle) applySound(handle)
+    },
+    [loadedMain, applySound],
+  )
+
+  const nudgeSound = useCallback(() => {
+    const handle = loadedMain()
+    if (handle && soundRef.current) applySound(handle)
+  }, [loadedMain, applySound])
   useEffect(() => {
     if (activated) playMain()
   }, [activated, playMain])
@@ -170,6 +209,11 @@ export function TvProvider({ lineup, children }: { lineup: Lineup | null; childr
 
   const onSlotLoaded = useCallback(
     (slotId: number) => {
+      // Previews are always silent; one gets its sound when promoted (main changes, see above).
+      if (slotsRef.current.some((s) => s.id === slotId && s.role === 'preview')) {
+        handles.current.get(slotId)?.post(okru.muteMessage)
+        return
+      }
       if (activated && slotId === mainId) playMain()
     },
     [activated, mainId, playMain],
@@ -188,11 +232,11 @@ export function TvProvider({ lineup, children }: { lineup: Lineup | null; childr
 
   const api = useMemo<TvApi>(
     () => ({
-      lineup, mainChannel: main?.channelId ?? null, activated, promoted, mainFailed,
+      lineup, mainChannel: main?.channelId ?? null, activated, promoted, mainFailed, soundOn, setSound, nudgeSound,
       preload, watch, previewAt, endPreview, setScreen, close,
       slots, modeOf, previewRect, bindHandle, onSlotLoaded, onSlotFailed,
     }),
-    [lineup, main, activated, promoted, mainFailed, preload, watch, previewAt, endPreview, setScreen, close, slots, modeOf, previewRect, bindHandle, onSlotLoaded, onSlotFailed],
+    [lineup, main, activated, promoted, mainFailed, soundOn, setSound, nudgeSound, preload, watch, previewAt, endPreview, setScreen, close, slots, modeOf, previewRect, bindHandle, onSlotLoaded, onSlotFailed],
   )
 
   return <TvContext.Provider value={api}>{children}</TvContext.Provider>

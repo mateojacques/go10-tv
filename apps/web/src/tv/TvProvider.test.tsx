@@ -185,4 +185,62 @@ describe('TvProvider + TvLayer', () => {
     act(() => vi.advanceTimersByTime(60_000))
     expect(slots()).toEqual([['a', 'mini']])
   })
+
+  describe('sound', () => {
+    const UNMUTE = [{ action: 'unmute' }, 'https://ok.ru']
+    const VOLUME_UP = [{ action: 'volume', value: 1 }, 'https://ok.ru']
+    const MUTE = [{ action: 'mute' }, 'https://ok.ru']
+
+    function watchLoaded(id: string) {
+      act(() => {
+        api.setScreen('tv')
+        api.watch(id)
+      })
+      const frame = document.querySelector(`[data-channel="${id}"] iframe`) as HTMLIFrameElement
+      const post = vi.spyOn(frame.contentWindow!, 'postMessage')
+      fireEvent.load(frame)
+      return post
+    }
+
+    it('turns the sound on for the channel being watched, once loaded', () => {
+      renderLayer()
+      const post = watchLoaded('a')
+      expect(post).toHaveBeenCalledWith(...UNMUTE)
+      expect(post).toHaveBeenCalledWith(...VOLUME_UP)
+      expect(api.soundOn).toBe(true)
+    })
+
+    it('turns the sound back on with every gesture on the TV screen', () => {
+      renderLayer()
+      const post = watchLoaded('a')
+      post.mockClear()
+      act(() => api.nudgeSound())
+      expect(post).toHaveBeenCalledWith(...UNMUTE)
+    })
+
+    it('mutes and unmutes on request, and gestures then leave it muted', () => {
+      renderLayer()
+      const post = watchLoaded('a')
+      act(() => api.setSound(false))
+      expect(post).toHaveBeenLastCalledWith(...MUTE)
+      post.mockClear()
+      act(() => api.nudgeSound())
+      expect(post).not.toHaveBeenCalled()
+      act(() => api.setSound(true))
+      expect(post).toHaveBeenCalledWith(...UNMUTE)
+    })
+
+    it('mutes a preview once loaded, and unmutes it when promoted', () => {
+      renderLayer()
+      watchLoaded('a')
+      act(() => api.previewAt('c', { top: 0, left: 0, width: 1, height: 1 }))
+      const frame = document.querySelector('[data-channel="c"] iframe') as HTMLIFrameElement
+      const post = vi.spyOn(frame.contentWindow!, 'postMessage')
+      fireEvent.load(frame)
+      expect(post).toHaveBeenCalledWith(...MUTE)
+      expect(post).not.toHaveBeenCalledWith(...UNMUTE)
+      act(() => api.watch('c'))
+      expect(post).toHaveBeenCalledWith(...UNMUTE)
+    })
+  })
 })

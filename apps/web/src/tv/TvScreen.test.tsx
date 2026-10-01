@@ -146,4 +146,41 @@ describe('TvScreen', () => {
     act(() => vi.advanceTimersByTime(10_000))
     expect(strip().classList.contains('is-open')).toBe(true)
   })
+
+  describe('sound', () => {
+    function loadedMain() {
+      const frame = document.querySelector('[data-channel="cn"] iframe') as HTMLIFrameElement
+      const post = vi.spyOn(frame.contentWindow!, 'postMessage')
+      fireEvent.load(frame)
+      post.mockClear()
+      return post
+    }
+
+    it('has a sound button that mutes and unmutes', () => {
+      renderScreen()
+      fireEvent.click(screen.getByRole('button', { name: 'Silenciar' }))
+      expect(api.soundOn).toBe(false)
+      fireEvent.click(screen.getByRole('button', { name: 'Activar sonido' }))
+      expect(api.soundOn).toBe(true)
+    })
+
+    it('toggles sound with M', () => {
+      renderScreen()
+      press('m')
+      expect(api.soundOn).toBe(false)
+      press('M')
+      expect(api.soundOn).toBe(true)
+    })
+
+    it('asks the embed for sound again on a tap or a key', () => {
+      renderScreen()
+      const post = loadedMain()
+      const shield = document.querySelector('.go-tv_shield')!
+      fireEvent.pointerDown(shield, { clientX: 1, clientY: 1 })
+      expect(post).toHaveBeenCalledWith({ action: 'unmute' }, 'https://ok.ru')
+      post.mockClear()
+      press('ArrowRight')
+      expect(post).toHaveBeenCalledWith({ action: 'unmute' }, 'https://ok.ru')
+    })
+  })
 })

@@ -87,4 +87,18 @@ describe('TvSlot', () => {
     handle!.post({ action: 'play' })
     expect(post).toHaveBeenCalledWith({ action: 'play' }, 'https://ok.ru')
   })
+
+  it("reports once per load when the embed's player first speaks", () => {
+    const onReady = vi.fn()
+    render(<TvSlot channel={channel} epochMs={EPOCH} mode="full" onReady={onReady} />)
+    const say = () =>
+      act(() => {
+        window.dispatchEvent(new MessageEvent('message', { data: { event: 'timeupdate', time: 61, duration: 600 }, origin: 'https://ok.ru', source: frame()!.contentWindow }))
+      })
+    fireEvent.load(frame()!)
+    expect(onReady).not.toHaveBeenCalled()
+    say()
+    say()
+    expect(onReady).toHaveBeenCalledTimes(1)
+  })
 })
