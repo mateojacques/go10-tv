@@ -30,6 +30,12 @@ export function openSearch(section: Section): void {
   else router.push({ pathname: '/buscar', params: { en: section === 'movie' ? 'peliculas' : 'series' } })
 }
 
+/** The live TV screen, on `channelId` or (without one) the last channel watched. */
+export function openTv(channelId?: string): void {
+  if (channelId) router.push({ pathname: '/tv/[channel]', params: { channel: channelId } })
+  else router.push('/tv')
+}
+
 /** Back to Home, dropping everything stacked above it. */
 export function goHome(): void {
   if (router.canDismiss()) router.dismissAll()

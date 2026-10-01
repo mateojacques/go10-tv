@@ -34,6 +34,7 @@ export default function RootLayout() {
       <StatusBar style="light" />
       <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: theme.color.bg } }}>
         <Stack.Screen name="title/[key]/play/[videoId]" options={{ animation: 'fade', contentStyle: { backgroundColor: '#000' } }} />
+        <Stack.Screen name="tv/[channel]" options={{ animation: 'fade', contentStyle: { backgroundColor: '#000' } }} />
       </Stack>
     </CatalogProvider>
   )
