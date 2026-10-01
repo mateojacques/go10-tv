@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
-import { render, screen, fireEvent, waitFor } from '@testing-library/react'
+import { render, screen, fireEvent, waitFor, act } from '@testing-library/react'
 import App from './App'
 import { siteFetch } from './test/site'
 
@@ -293,6 +293,8 @@ describe('Tizen back/exit', () => {
 
     render(<App />)
     await screen.findByRole('heading', { name: 'Foo Movie' })
+    // The key listeners attach in effects: let them run before pressing Back.
+    await act(async () => {})
 
     fireEvent.keyDown(window, { key: 'Escape' })
     expect(exit).toHaveBeenCalled()
@@ -305,6 +307,7 @@ describe('Tizen back/exit', () => {
     window.history.replaceState({}, '', '/title/111/play/111')
     render(<App />)
     await waitFor(() => expect(document.querySelector('.go-player_frame')).not.toBeNull())
+    await act(async () => {})
 
     fireEvent.keyDown(window, { key: 'Escape' })
     await waitFor(() => expect(window.location.pathname).toBe('/title/111'))
