@@ -1,7 +1,6 @@
 import { useCallback } from 'react'
 import { useTv } from './TvProvider'
 import { TvSlot, type SlotHandle } from './TvSlot'
-import { TvDebugPanel } from './debugLog'
 
 /** Every live slot, plus the mini-player's controls. Mounted once at the App root. */
 export function TvLayer({ onOpen }: { onOpen: (channelId: string) => void }) {
@@ -29,7 +28,6 @@ export function TvLayer({ onOpen }: { onOpen: (channelId: string) => void }) {
           />
         )
       })}
-      <TvDebugPanel />
       {mini && (
         <div className="go-tvmini">
           <button type="button" className="go-tvmini_open" aria-label={`Volver a ${mini.name} en TV`} onClick={() => onOpen(mini.id)} />

@@ -7,7 +7,6 @@ import { playerRetryReducer, initialPlayerRetryState, backoffMs } from '@go10/co
 import { LOAD_TIMEOUT_MS } from '@go10/core/player/playbackSession'
 import { okru } from '@go10/core/player/providers/okru'
 import { imageSrc } from '@go10/core/lib/imageSrc'
-import { tvDebug } from './debugLog'
 import './tv.css'
 
 export type SlotMode = 'staged' | 'full' | 'tile' | 'mini'
@@ -84,10 +83,7 @@ export function TvSlot({
     createLiveSession({
       plan: channel.plan,
       epochMs,
-      send: (command) => {
-        tvDebug(channel.id, 'send', command)
-        frameRef.current?.contentWindow?.postMessage(command, okru.origin)
-      },
+      send: (command) => frameRef.current?.contentWindow?.postMessage(command, okru.origin),
       onFinishedEarly: rerender,
     }),
   )
@@ -96,21 +92,8 @@ export function TvSlot({
   // eslint-disable-next-line react-hooks/exhaustive-deps
   const src = useMemo(() => {
     heard.current = false
-    const next = session.tune()
-    tvDebug(channel.id, 'tune', next)
-    return next
+    return session.tune()
   }, [state.reloadToken])
-
-  // ?tvdebug=1 only. Playback reports arrive several times a second: one line every 2 s.
-  const lastTimeLog = useRef(0)
-  function logMessage(event: MessageEvent) {
-    const isTime = /timeupdate/.test(JSON.stringify(event.data))
-    if (isTime && Date.now() - lastTimeLog.current < 2000) return
-    if (isTime) lastTimeLog.current = Date.now()
-    tvDebug(channel.id, `recv ${event.origin}`, event.data)
-  }
-  useEffect(() => tvDebug(channel.id, 'status', `${state.status} attempt=${state.attempt}`), [channel.id, state.status, state.attempt])
-  useEffect(() => tvDebug(channel.id, 'mode', mode), [channel.id, mode])
 
   // Not moving for STALL_MS, at any point after loading: the viewer has to tap
   // the embed. A program that ended early is waiting on purpose, not stalled.
@@ -126,9 +109,9 @@ export function TvSlot({
   }, [state.status, state.reloadToken, session])
 
   useEffect(() => {
-    tvDebug(channel.id, 'stalled', String(stalled))
     onStalledChangeRef.current?.(stalled)
-  }, [channel.id, stalled])
+  }, [stalled])
+
   const airing = session.current()
 
   const gaveUp = state.status === 'failed' || (preview && state.attempt > PREVIEW_RETRIES)
@@ -142,10 +125,7 @@ export function TvSlot({
   useEffect(() => {
     if (!bind) return
     bind({
-      post: (message) => {
-        tvDebug(channel.id, 'post', message)
-        frameRef.current?.contentWindow?.postMessage(message, okru.origin)
-      },
+      post: (message) => frameRef.current?.contentWindow?.postMessage(message, okru.origin),
       isLoaded: () => loaded.current,
     })
     return () => bind(null)
@@ -153,7 +133,6 @@ export function TvSlot({
 
   useEffect(() => {
     function onMessage(event: MessageEvent) {
-      if (event.source === frameRef.current?.contentWindow) logMessage(event)
       if (event.origin !== okru.origin || event.source !== frameRef.current?.contentWindow) return
       if (!heard.current) {
         heard.current = true
@@ -208,7 +187,6 @@ export function TvSlot({
   // Back from a hidden tab or a sleeping device: rejoin live.
   useEffect(() => {
     function onVisibility() {
-      tvDebug(channel.id, 'visibility', document.visibilityState)
       if (document.visibilityState !== 'visible') return
       if (gaveUp || session.sync() === 'load') {
         loaded.current = false
@@ -251,7 +229,6 @@ export function TvSlot({
           // Live TV: Space and the arrows must never reach the embed's own controls.
           tabIndex={-1}
           onLoad={() => {
-            tvDebug(channel.id, 'iframe load')
             lastProgressAt.current = Date.now()
             lastTime.current = null
             loaded.current = true
