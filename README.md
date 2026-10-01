@@ -136,6 +136,17 @@ prereleases (`0.86.3-0`) that never satisfy peer ranges, so peers are not
 auto-installed and must be declared explicitly. React is pinned to 19.2.3
 repo-wide, the exact version React Native's renderer requires.
 
+Live TV (`/tv`) is in the app too, reading the site's `data/channels.json`
+(the web build publishes it), so every device airs the same schedule. It runs
+the TV model on both TVs and phones: one embed, no previews, no mini-player,
+and a zap loads only once the zapping stops. Up/Down and CH+/CH− zap,
+Left/Right bring the channel strip, Info shows it, Back closes it, then
+leaves. Number keys, PRE-CH and CH LIST don't reach a React Native app
+(react-native-tvos forwards only the D-pad, media, Info, Menu and channel
+keys). On a phone, tap for the strip and swipe up/down to zap. Against a site
+deployed before `channels.json` was published, the app shows no TV at all.
+On-device checks: `docs/android-live-tv-checklist.md`.
+
 ### Release APK (Android)
 
 One universal APK (phone + TV), signed with a local keystore that never enters the repo:
