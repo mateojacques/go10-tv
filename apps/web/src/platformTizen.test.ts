@@ -47,7 +47,7 @@ describe('installTizenPlatform', () => {
     expect(onEscape).toHaveBeenCalled()
   })
 
-  it('registers each media key on its own, so one rejected key keeps the rest', () => {
+  it('registers each media and live TV key on its own, so one rejected key keeps the rest', () => {
     const registerKey = vi.fn((key: string) => {
       if (key === 'MediaPlay') throw new Error('WebAPIException: InvalidValuesError')
     })
@@ -57,6 +57,8 @@ describe('installTizenPlatform', () => {
     expect(registerKey.mock.calls.map(([key]) => key)).toEqual([
       'Back', 'MediaPlayPause', 'MediaPlay', 'MediaPause', 'MediaFastForward', 'MediaRewind',
       'MediaTrackNext', 'MediaTrackPrevious',
+      'ChannelUp', 'ChannelDown', 'PreviousChannel', 'ChannelList', 'Info',
+      '0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
     ])
   })
 

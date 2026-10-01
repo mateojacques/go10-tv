@@ -4,6 +4,7 @@ import { pickChannel, writeLastChannel } from '@go10/core/tv/lineup'
 import { okru } from '@go10/core/player/providers/okru'
 import type { Rect, SlotHandle, SlotMode } from './TvSlot'
 import { canPreview } from './canPreview'
+import { leanTv } from './leanTv'
 
 export interface SlotState {
   id: number
@@ -29,6 +30,10 @@ export interface TvApi {
   nudgeSound(): void
   preload(channelId?: string): void
   watch(channelId: string): void
+  /** Drops the playing channel while a zap settles (TV hardware loads only where the zapping stops). */
+  hold(): void
+  /** OK on a stalled channel: a fresh user activation, so ask the embed to play. */
+  play(): void
   previewAt(channelId: string, rect: Rect): void
   endPreview(): void
   setScreen(screen: 'tv' | 'away'): void
@@ -98,7 +103,8 @@ export function TvProvider({ lineup, children }: { lineup: Lineup | null; childr
 
   const preload = useCallback(
     (channelId?: string) => {
-      if (!lineup) return
+      // A TV can't afford a hidden embed for a channel nobody may open.
+      if (!lineup || leanTv()) return
       renewIntent()
       if (slotsRef.current.some((s) => s.role === 'main')) return
       const channel = pickChannel(lineup, channelId ?? null)
@@ -127,6 +133,10 @@ export function TvProvider({ lineup, children }: { lineup: Lineup | null; childr
     [commit, newSlot, without],
   )
 
+  const hold = useCallback(() => {
+    if (slotsRef.current.some((s) => s.role === 'main')) commit(without('main'))
+  }, [commit, without])
+
   const previewAt = useCallback(
     (channelId: string, rect: Rect) => {
       if (!canPreview()) return
@@ -151,9 +161,12 @@ export function TvProvider({ lineup, children }: { lineup: Lineup | null; childr
   const setScreen = useCallback(
     (next: 'tv' | 'away') => {
       setScreenState(next)
-      if (next === 'away') endPreview()
+      if (next !== 'away') return
+      endPreview()
+      // A TV has no mini-player: no remote key could reach it.
+      if (leanTv()) close()
     },
-    [endPreview],
+    [endPreview, close],
   )
 
   const modeOf = useCallback(
@@ -240,10 +253,10 @@ export function TvProvider({ lineup, children }: { lineup: Lineup | null; childr
   const api = useMemo<TvApi>(
     () => ({
       lineup, mainChannel: main?.channelId ?? null, activated, promoted, mainFailed, mainStalled, soundOn, setSound, nudgeSound,
-      preload, watch, previewAt, endPreview, setScreen, close,
+      preload, watch, hold, play: playMain, previewAt, endPreview, setScreen, close,
       slots, modeOf, previewRect, bindHandle, onSlotLoaded, onSlotFailed, onSlotStalled,
     }),
-    [lineup, main, activated, promoted, mainFailed, mainStalled, soundOn, setSound, nudgeSound, preload, watch, previewAt, endPreview, setScreen, close, slots, modeOf, previewRect, bindHandle, onSlotLoaded, onSlotFailed, onSlotStalled],
+    [lineup, main, activated, promoted, mainFailed, mainStalled, soundOn, setSound, nudgeSound, preload, watch, hold, playMain, previewAt, endPreview, setScreen, close, slots, modeOf, previewRect, bindHandle, onSlotLoaded, onSlotFailed, onSlotStalled],
   )
 
   return <TvContext.Provider value={api}>{children}</TvContext.Provider>

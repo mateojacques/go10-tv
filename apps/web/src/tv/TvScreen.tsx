@@ -2,14 +2,19 @@ import { useCallback, useEffect, useReducer, useRef, useState } from 'react'
 import type { Channel } from '@go10/core/tv/types'
 import { channelByNumber, stepChannel } from '@go10/core/tv/lineup'
 import { clockLabel, programLabel, progressOf } from '@go10/core/tv/describe'
+import { enterDigit, NUMBER_ENTRY_MS } from '@go10/core/tv/numberEntry'
 import { useFocusState } from '../focus/FocusProvider'
 import { useTv } from './TvProvider'
 import { useLiveNow } from './useLiveNow'
 import { ChannelTile } from './ChannelTile'
+import { leanTv } from './leanTv'
+import { tvKeyFromEvent, type TvKey } from './tvKey'
 import './tv.css'
 
 export const STRIP_IDLE_MS = 6000
 export const ZAP_FLASH_MS = 400
+/** TV hardware loads a channel only once the zapping has stopped this long: each ok.ru load is heavy there. */
+export const ZAP_SETTLE_MS = 600
 /** A shield gesture moving less than this is a tap; more, vertically, is a zap. */
 const SWIPE_PX = 60
 
@@ -32,29 +37,54 @@ export function TvScreen({
   const [stripOpen, setStripOpen] = useState(true)
   const [activity, bump] = useReducer((n: number) => n + 1, 0)
   const [flash, setFlash] = useState<number | null>(null)
-  const firstChannel = useRef(true)
   const press = useRef<{ x: number; y: number } | null>(null)
+  /** The channel this screen last showed, and the one actually watched before the current (PRE-CH). */
+  const shown = useRef<string | null>(null)
+  const watched = useRef<string | null>(null)
+  const previous = useRef<string | null>(null)
+  const stripRef = useRef<HTMLElement>(null)
 
-  const { watch, setScreen } = tv
+  const { watch, hold, setScreen } = tv
   useEffect(() => {
     setScreen('tv')
     return () => setScreen('away')
   }, [setScreen])
 
+  const tuneIn = useCallback(
+    (id: string) => {
+      if (watched.current && watched.current !== id) previous.current = watched.current
+      watched.current = id
+      watch(id)
+    },
+    [watch],
+  )
+
   // Every arrival and every zap: tune in, open the strip, flash the number.
   useEffect(() => {
-    watch(channel.id)
     focus(`tv:${channel.id}`)
     setStripOpen(true)
     bump()
-    if (firstChannel.current) {
-      firstChannel.current = false
+    const from = shown.current
+    shown.current = channel.id
+    if (from === null || from === channel.id) {
+      setFlash(null)
+      tuneIn(channel.id)
       return
     }
     setFlash(channel.number)
+    if (leanTv()) {
+      // Black, with the number, until the zapping stops: then one load.
+      hold()
+      const timer = setTimeout(() => {
+        tuneIn(channel.id)
+        setFlash(null)
+      }, ZAP_SETTLE_MS)
+      return () => clearTimeout(timer)
+    }
+    tuneIn(channel.id)
     const timer = setTimeout(() => setFlash(null), ZAP_FLASH_MS)
     return () => clearTimeout(timer)
-  }, [channel.id, channel.number, watch, focus])
+  }, [channel.id, channel.number, tuneIn, hold, focus])
 
   useEffect(() => {
     if (!stripOpen) return
@@ -71,54 +101,120 @@ export function TvScreen({
   // embed for sound again, since it autoplays muted.
   const { nudgeSound, setSound, soundOn } = tv
 
-  // Any key wakes the strip; the focus grid still handles the key itself.
-  useEffect(() => {
-    function onAnyKey() {
-      wake()
-      nudgeSound()
-    }
-    window.addEventListener('keydown', onAnyKey, true)
-    return () => window.removeEventListener('keydown', onAnyKey, true)
-  }, [wake, nudgeSound])
-
   const zap = useCallback((step: 1 | -1) => onZap(stepChannel(lineup, channel.id, step).id), [lineup, channel.id, onZap])
 
+  // The focus grid's arrows: Up/Down zap, Left/Right walk the strip.
   const onKey = useCallback(
     (key: string): boolean => {
-      if (key === 'ArrowUp' || key === 'PageUp') {
+      if (key === 'ArrowUp') {
         zap(-1)
         return true
       }
-      if (key === 'ArrowDown' || key === 'PageDown') {
+      if (key === 'ArrowDown') {
         zap(1)
-        return true
-      }
-      if (/^[1-9]$/.test(key)) {
-        const target = channelByNumber(lineup, Number(key))
-        if (target) onZap(target.id)
-        return true
-      }
-      if (key === 'm' || key === 'M') {
-        setSound(!soundOn)
-        return true
-      }
-      if (key === 'f' || key === 'F') {
-        if (document.fullscreenElement) document.exitFullscreen().catch(() => {})
-        else document.documentElement.requestFullscreen?.().catch(() => {})
         return true
       }
       return false
     },
-    [zap, lineup, onZap, setSound, soundOn],
+    [zap],
   )
+
+  const schedule = live.get(channel.id)
+  const openInfo = () => {
+    if (schedule) onOpenTitle(schedule.current.titleKey)
+  }
+
+  // A half-typed channel number ("1–") tunes on its own after a pause.
+  const [entry, setEntry] = useState('')
+  const entryRef = useRef('')
+  const setPending = (pending: string) => {
+    entryRef.current = pending
+    setEntry(pending)
+  }
+  const tuneNumber = (number: number) => {
+    const target = channelByNumber(lineup, number)
+    if (target && target.id !== channel.id) onZap(target.id)
+  }
+  useEffect(() => {
+    if (!entry) return
+    const timer = setTimeout(() => {
+      setPending('')
+      tuneNumber(Number(entry))
+    }, NUMBER_ENTRY_MS)
+    return () => clearTimeout(timer)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [entry])
+
+  // Every key but the focus grid's: kept in a ref, so the listener attaches once.
+  const onTvKey = (key: TvKey) => {
+    switch (key.type) {
+      case 'zap':
+        return zap(key.step)
+      case 'digit': {
+        const { pending, tune } = enterDigit(entryRef.current, key.digit, lineup.channels.map((c) => c.number))
+        setPending(pending)
+        if (tune !== null) tuneNumber(tune)
+        return
+      }
+      case 'info':
+        return openInfo()
+      case 'previous':
+        if (previous.current) onZap(previous.current)
+        return
+      case 'list':
+        return focus(`tv:${channel.id}`)
+      case 'sound':
+        return setSound(!soundOn)
+      case 'fullscreen':
+        if (document.fullscreenElement) document.exitFullscreen().catch(() => {})
+        else document.documentElement.requestFullscreen?.().catch(() => {})
+        return
+    }
+  }
+  const onTvKeyRef = useRef(onTvKey)
+  onTvKeyRef.current = onTvKey
+
+  // Any key wakes the strip. The TV's own keys are taken here, ahead of the
+  // focus grid; the arrows, OK and Back go on to it.
+  useEffect(() => {
+    function onKeyDown(event: KeyboardEvent) {
+      wake()
+      nudgeSound()
+      const key = tvKeyFromEvent(event)
+      if (!key) return
+      event.preventDefault()
+      event.stopImmediatePropagation()
+      onTvKeyRef.current(key)
+    }
+    window.addEventListener('keydown', onKeyDown, true)
+    return () => window.removeEventListener('keydown', onKeyDown, true)
+  }, [wake, nudgeSound])
+
+  // The embed takes DOM focus as it loads, and from then on the remote's keys
+  // (Back included) go to ok.ru, not here: hand focus straight back to the
+  // highlighted tile. Nothing is highlighted while a mouse or finger steers.
+  useEffect(() => {
+    function onWindowBlur() {
+      setTimeout(() => stripRef.current?.querySelector<HTMLElement>('.go-chtile.is-focused')?.focus({ preventScroll: true }), 0)
+    }
+    window.addEventListener('blur', onWindowBlur)
+    return () => window.removeEventListener('blur', onWindowBlur)
+  }, [])
+
+  // OK on the channel already playing: its program's page, or, on a TV whose
+  // channel froze, the press the embed is waiting for.
+  const onTile = (picked: Channel) => {
+    if (picked.id !== channel.id) onZap(picked.id)
+    else if (leanTv() && tv.mainStalled) tv.play()
+    else openInfo()
+  }
 
   // A dead signal keeps the channels in view: the way out is a zap.
   const open = stripOpen || tv.mainFailed
-  const schedule = live.get(channel.id)
   const upNext = schedule?.next[0]
 
   return (
-    <div className="go-tv" role="region" aria-label="TV en vivo" onPointerMove={wake}>
+    <div className="go-tvscreen" role="region" aria-label="TV en vivo" onPointerMove={wake}>
       {/* Autoplay blocked (Safari): the tap has to land on the embed's own play button. */}
       <div
         className={`go-tv_shield${tv.mainStalled ? ' is-pass-through' : ''}`}
@@ -154,23 +250,25 @@ export function TvScreen({
               <i style={{ width: `${Math.round(progressOf(schedule) * 100)}%` }} />
             </span>
           </div>
-          <button
-            type="button"
-            className="go-tv_sound"
-            aria-label={soundOn ? 'Silenciar' : 'Activar sonido'}
-            aria-pressed={!soundOn}
-            onClick={() => setSound(!soundOn)}
-          >
-            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
-              <path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor" />
-              {soundOn ? (
-                <path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" />
-              ) : (
-                <path d="M16 9l6 6M22 9l-6 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-              )}
-            </svg>
-          </button>
-          <button type="button" className="go-tv_info" onClick={() => onOpenTitle(schedule.current.titleKey)}>
+          {!leanTv() && (
+            <button
+              type="button"
+              className="go-tv_sound"
+              aria-label={soundOn ? 'Silenciar' : 'Activar sonido'}
+              aria-pressed={!soundOn}
+              onClick={() => setSound(!soundOn)}
+            >
+              <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+                <path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor" />
+                {soundOn ? (
+                  <path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" />
+                ) : (
+                  <path d="M16 9l6 6M22 9l-6 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+                )}
+              </svg>
+            </button>
+          )}
+          <button type="button" className="go-tv_info" onClick={openInfo}>
             Ver ficha
           </button>
           <button type="button" className="go-tv_back" aria-label="Volver" onClick={onBack}>
@@ -179,7 +277,7 @@ export function TvScreen({
         </div>
       )}
 
-      <nav className={`go-tv_strip${open ? ' is-open' : ''}`} aria-label="Canales" onPointerDown={wake}>
+      <nav ref={stripRef} className={`go-tv_strip${open ? ' is-open' : ''}`} aria-label="Canales" onPointerDown={wake}>
         <div className="go-tv_track">
           {lineup.channels.map((c, col) => {
             const s = live.get(c.id)
@@ -192,7 +290,7 @@ export function TvScreen({
                 col={col}
                 current={c.id === channel.id}
                 scope="tv"
-                onSelect={(picked) => onZap(picked.id)}
+                onSelect={onTile}
                 onKey={onKey}
               />
             ) : null
@@ -202,7 +300,13 @@ export function TvScreen({
 
       {tv.mainStalled && (
         <div className="go-tv_tap" role="status">
-          Tocá para ver
+          {leanTv() ? 'Pulsá OK para ver' : 'Tocá para ver'}
+        </div>
+      )}
+
+      {entry && (
+        <div className="go-tv_entry" aria-live="polite">
+          {entry}–
         </div>
       )}
 

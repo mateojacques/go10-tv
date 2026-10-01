@@ -106,6 +106,92 @@ describe('TvScreen', () => {
     expect(onZap.mock.calls).toEqual([['dw']])
   })
 
+  it('zaps with the remote\'s CH+ and CH− (Tizen keyCodes)', () => {
+    renderScreen()
+    fireEvent.keyDown(window, { key: 'Unidentified', keyCode: 427 })
+    fireEvent.keyDown(window, { key: 'Unidentified', keyCode: 428 })
+    expect(onZap.mock.calls.map((c) => c[0])).toEqual(['dis', 'dw'])
+  })
+
+  it('opens the program\'s title from the Info key', () => {
+    renderScreen()
+    fireEvent.keyDown(window, { key: 'Unidentified', keyCode: 457 })
+    expect(onOpenTitle).toHaveBeenCalledWith('coraje')
+    expect(onZap).not.toHaveBeenCalled()
+  })
+
+  it('opens the program\'s title on OK over the channel already playing', () => {
+    renderScreen()
+    press('ArrowRight')
+    press('ArrowLeft')
+    press('Enter')
+    expect(onOpenTitle).toHaveBeenCalledWith('coraje')
+    expect(onZap).not.toHaveBeenCalled()
+  })
+
+  it('goes back to the last channel watched on PRE-CH', () => {
+    const { rerender } = renderScreen()
+    rerender(tree(lineup.channels[2]))
+    fireEvent.keyDown(window, { key: 'Unidentified', keyCode: 10190 })
+    expect(onZap).toHaveBeenCalledWith('cn')
+  })
+
+  it('opens the strip on the playing channel from the channel list key', () => {
+    renderScreen()
+    press('ArrowRight')
+    act(() => vi.advanceTimersByTime(6000))
+    expect(strip().classList.contains('is-open')).toBe(false)
+    fireEvent.keyDown(window, { key: 'Unidentified', keyCode: 10073 })
+    expect(strip().classList.contains('is-open')).toBe(true)
+    press('Enter')
+    expect(onOpenTitle).toHaveBeenCalledWith('coraje')
+  })
+
+  describe('two-digit channel numbers', () => {
+    const many: Lineup = { ...lineup, channels: Array.from({ length: 12 }, (_, i) => channelOf(`c${i + 1}`, i + 1, ['shrek'])) }
+    const renderMany = () =>
+      render(
+        <TvProvider lineup={many}>
+          <FocusProvider onBack={onBack}>
+            <TvScreen channel={many.channels[4]} onZap={onZap} onOpenTitle={onOpenTitle} onBack={onBack} />
+          </FocusProvider>
+        </TvProvider>,
+      )
+    const entry = () => document.querySelector('.go-tv_entry')
+
+    it('waits for a second digit, showing the first', () => {
+      renderMany()
+      press('1')
+      expect(onZap).not.toHaveBeenCalled()
+      expect(entry()!.textContent).toBe('1–')
+      press('2')
+      expect(onZap).toHaveBeenCalledWith('c12')
+      expect(entry()).toBeNull()
+    })
+
+    it('tunes the first digit alone after a pause', () => {
+      renderMany()
+      press('1')
+      act(() => vi.advanceTimersByTime(1500))
+      expect(onZap).toHaveBeenCalledWith('c1')
+      expect(entry()).toBeNull()
+    })
+
+    it('tunes a digit no longer number starts with at once', () => {
+      renderMany()
+      press('7')
+      expect(onZap).toHaveBeenCalledWith('c7')
+    })
+
+    it('ignores a number with no channel', () => {
+      renderMany()
+      press('1')
+      press('9')
+      expect(onZap).not.toHaveBeenCalled()
+      expect(entry()).toBeNull()
+    })
+  })
+
   it('tunes a tile on Enter after moving along the strip', () => {
     renderScreen()
     press('ArrowRight')

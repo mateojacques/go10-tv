@@ -1,10 +1,10 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
-import { render, screen, waitFor } from '@testing-library/react'
+import { act, fireEvent, render, screen, waitFor } from '@testing-library/react'
 import App from './App'
 import { siteFetch } from './test/site'
 
-// A TV: live TV waits for its own spec (no mini-player reachable by remote yet).
-vi.mock('./tv/liveTvEnabled', () => ({ liveTvEnabled: () => false }))
+// A TV: live TV with one embed at a time.
+vi.mock('./tv/leanTv', () => ({ leanTv: () => true }))
 
 const CN_CSV = `catalog_index,video_id,type,title,title_raw,series_id,series_title,season_number,season_label,year,studio,genre,genre_secondary,quality,language,subtitled,duration_raw,duration_seconds,views,thumbnail,video_url,embed_url
 0,111,movie,Foo Movie,Foo Movie,,,,,2020,,Drama,,1080p,Español,false,1:00:00,3600,10,thumb.webp,https://ok.ru/video/111,https://ok.ru/videoembed/111
@@ -23,17 +23,34 @@ afterEach(() => {
 })
 
 describe('App on a TV device', () => {
-  it('offers no live TV entry points', async () => {
+  it('offers live TV', async () => {
     render(<App />)
     await screen.findByRole('navigation', { name: 'Principal' })
-    expect(screen.queryByRole('button', { name: 'TV en vivo' })).toBeNull()
-    expect(screen.queryByRole('heading', { name: /En vivo ahora/ })).toBeNull()
+    expect(screen.getByRole('button', { name: 'TV en vivo' })).toBeTruthy()
   })
 
-  it('sends /tv to Home', async () => {
+  it('loads nothing in the background while "TV en vivo" is merely focused', async () => {
+    render(<App />)
+    const item = await screen.findByRole('button', { name: 'TV en vivo' })
+    fireEvent.focus(item)
+    fireEvent.pointerEnter(item)
+    expect(document.querySelector('.go-tvslot')).toBeNull()
+  })
+
+  it('plays /tv full screen', async () => {
     window.history.replaceState({}, '', '/tv/cartoon-network')
     render(<App />)
-    await screen.findByRole('navigation', { name: 'Principal' })
+    await screen.findByRole('region', { name: 'TV en vivo' })
+    await waitFor(() => expect(document.querySelector('.go-tvslot--full[data-channel="cartoon-network"]')).not.toBeNull())
+  })
+
+  it('closes the TV on leaving it: no mini-player a remote could not reach', async () => {
+    window.history.replaceState({}, '', '/tv/cartoon-network')
+    render(<App />)
+    await screen.findByRole('region', { name: 'TV en vivo' })
+    await act(async () => {})
+
+    fireEvent.keyDown(window, { key: 'Escape' })
     await waitFor(() => expect(window.location.pathname).toBe('/'))
     expect(document.querySelector('.go-tvslot')).toBeNull()
   })

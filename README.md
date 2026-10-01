@@ -59,6 +59,26 @@ collection reshuffles its timeline from the next deploy. Channels rotate
 through their titles in ~30-minute blocks; a series airs its next episodes
 in order. `channels.data.test.ts` validates the file against the catalog.
 
+On the TV screen:
+
+| Remote | Keyboard | Action |
+| --- | --- | --- |
+| Up / Down, CH+ / CH− | ↑ / ↓, PgUp / PgDn | Previous / next channel |
+| Left / Right | ← / → | Browse the channel strip |
+| OK on another channel | Enter | Tune it |
+| OK on the playing channel, Info | Enter | The program's page ("Ver ficha") |
+| 0–9 | 0–9 | Tune by number; a digit that could start a longer number waits 1.5 s for the next |
+| PRE-CH | — | Back to the last channel watched |
+| CH LIST | — | Show the strip, on the playing channel |
+| Back | Escape | Leave |
+| TV volume / mute | M | Sound (the TV build leaves it to the TV's own keys) |
+
+Media keys do nothing: it's live. On a TV (`leanTv()`, the same detection as
+below), live TV runs one embed at a time: no preload, no previews, no
+mini-player (leaving `/tv` closes it), and a zap loads only once the zapping
+stops for 600 ms, black with the channel number meanwhile. When a channel
+stalls, OK asks the embed to play.
+
 ### External titles (TMDB + vidlove) — optional
 
 Search can reach beyond the catalog: with this on, results also include

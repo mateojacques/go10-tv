@@ -194,8 +194,9 @@
   text-overflow: ellipsis;
 }
 
-/* The screen sits above the full-mode slot (z-index 40) and below previews (46). */
-.go-tv {
+/* The screen sits above the full-mode slot (z-index 40) and below previews (46).
+ * Not `.go-tv`: that's <html>'s TV lite mode class (see global.css). */
+.go-tvscreen {
   position: fixed;
   inset: 0;
   z-index: 45;
@@ -328,6 +329,22 @@
   background: repeating-radial-gradient(circle at 17% 32%, #fff 0 1px, #000 1px 3px);
   opacity: 0.35;
   animation: go-tv-static 120ms steps(2) infinite;
+}
+/* TV hardware: no full-screen animated static. A zap there drops the old
+ * channel and loads the new one once the zapping stops: plain black meanwhile. */
+.go-tv .go-tv_flash.has-static::before {
+  background: #000;
+  opacity: 1;
+  animation: none;
+}
+/* A half-typed channel number, where the zap flash shows the whole one. */
+.go-tv_entry {
+  position: absolute;
+  top: 24px;
+  right: 32px;
+  font-size: 4rem;
+  font-weight: 800;
+  text-shadow: 0 2px 12px rgb(0 0 0 / 0.8);
 }
 @keyframes go-tv-static {
   to {

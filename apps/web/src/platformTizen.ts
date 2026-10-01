@@ -24,7 +24,13 @@ const MEDIA_KEYS = [
 ]
 
 /**
- * Registers the physical Back/Return remote button and the media keys --
+ * Live TV's keys (see tv/tvKey.ts). Not the volume or mute keys: those stay
+ * with the TV itself.
+ */
+const LIVE_TV_KEYS = ['ChannelUp', 'ChannelDown', 'PreviousChannel', 'ChannelList', 'Info', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+
+/**
+ * Registers the physical Back/Return remote button, the media keys and live TV's keys --
  * Tizen doesn't deliver them to the page at all otherwise -- and forwards
  * Back as the same synthetic Escape keydown a real keyboard's Escape already produces, so
  * FocusProvider's existing Escape handling needs no changes. A no-op outside
@@ -47,7 +53,7 @@ export function installTizenPlatform(): void {
   if (typeof tizen === 'undefined') return
   // One at a time: a remote or firmware without one of these keys rejects
   // just that key, not the rest.
-  for (const key of ['Back', ...MEDIA_KEYS]) {
+  for (const key of ['Back', ...MEDIA_KEYS, ...LIVE_TV_KEYS]) {
     try {
       tizen.tvinputdevice.registerKey(key)
     } catch {

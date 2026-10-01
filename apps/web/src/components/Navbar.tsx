@@ -5,7 +5,6 @@ import { useFocusState } from '../focus/FocusProvider'
 import { browseRoute, type Route, type Section } from '@go10/core/router/route'
 import { externalTitlesEnabled } from '@go10/core/external/config'
 import { SEARCH_SOURCES, type SearchSource } from '@go10/core/external/mergeSearch'
-import { liveTvEnabled } from '../tv/liveTvEnabled'
 import '../tv/tv.css'
 import './Navbar.css'
 
@@ -139,20 +138,18 @@ export function Navbar({
       </button>
 
       <div className="go-nav_links">
-        {liveTvEnabled() && (
-          <NavButton
-            id="nav:tv"
-            col={-1}
-            className="go-nav_link go-nav_tv"
-            active={route.name === 'tv'}
-            ariaLabel="TV en vivo"
-            onIntent={onTvIntent}
-            onSelect={() => onNavigate({ name: 'tv', channel: null })}
-          >
-            <span className="go-live-dot" aria-hidden="true" />
-            TV
-          </NavButton>
-        )}
+        <NavButton
+          id="nav:tv"
+          col={-1}
+          className="go-nav_link go-nav_tv"
+          active={route.name === 'tv'}
+          ariaLabel="TV en vivo"
+          onIntent={onTvIntent}
+          onSelect={() => onNavigate({ name: 'tv', channel: null })}
+        >
+          <span className="go-live-dot" aria-hidden="true" />
+          TV
+        </NavButton>
         <NavButton
           id="nav:peliculas"
           col={0}
