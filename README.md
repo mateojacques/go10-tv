@@ -49,6 +49,16 @@ an existing title: the feed's `s:<series_id>` / `m:<video_id>` ids and each
 episode's `video_id` are what Aniyomi stores in users' libraries and watch
 history, so changing them orphans those entries.
 
+### Live TV (`/tv`)
+
+Channels are listed in `data/channels.json`, one per collection (`id`,
+`number`, `collection`, optional `name`, `blockMinutes`, `exclude`;
+`defaultChannel`; `epoch`). Every device computes the same schedule from the
+catalog and the clock — there's no backend — so editing a channel's
+collection reshuffles its timeline from the next deploy. Channels rotate
+through their titles in ~30-minute blocks; a series airs its next episodes
+in order. `channels.data.test.ts` validates the file against the catalog.
+
 ### External titles (TMDB + vidlove) — optional
 
 Search can reach beyond the catalog: with this on, results also include
