@@ -25,7 +25,7 @@ build: `npm run build -w @go10/web && npx vite preview --host` in
 - [ ] `/tv` turns landscape and immersive; leaving restores portrait and the system bars.
 - [ ] A tap shows the strip and bar; another tap hides them; a vertical swipe zaps (up = next).
 - [ ] The sound button mutes and unmutes; the back button leaves.
-- [ ] Locking and unlocking the phone rejoins the live second.
+- [ ] Locking the phone, or the TV remote's Home key, stops the sound at once; coming back rejoins the live second.
 
 ## Failure paths
 - [ ] Airplane mode on a channel: "Reconectando…", then "Señal interrumpida" with the strip open; zapping still works.

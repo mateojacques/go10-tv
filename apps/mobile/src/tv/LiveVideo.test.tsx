@@ -121,6 +121,23 @@ describe('LiveVideo', () => {
     jest.restoreAllMocks()
   })
 
+  it('drops the embed in the background, so nothing plays behind the launcher, and rejoins live on return', async () => {
+    const listeners: Array<(state: string) => void> = []
+    jest.spyOn(AppState, 'addEventListener').mockImplementation((_, fn) => {
+      listeners.push(fn as (state: string) => void)
+      return { remove: jest.fn() } as never
+    })
+    await renderLive()
+    await host({ kind: 'loaded' })
+    await act(() => listeners.forEach((fn) => fn('background')))
+    expect(screen.queryByTestId('live-webview')).toBeNull()
+    jest.setSystemTime(Date.now() + 5000) // back a few seconds later, same file
+    await act(() => listeners.forEach((fn) => fn('active')))
+    const { current, offset } = scheduleAt(channel.plan, lineup.epochMs, Date.now(), 0)
+    expect(webview().props.source.html).toContain(`fromTime=${Math.floor(current.unit.start + offset)}`)
+    jest.restoreAllMocks()
+  })
+
   it('reports a stall when loaded but not moving, and clears it when the time moves', async () => {
     const onStalledChange = jest.fn()
     await renderLive({ onStalledChange })

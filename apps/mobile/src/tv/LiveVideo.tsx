@@ -117,28 +117,35 @@ export function LiveVideo({
     return () => clearTimeout(timer)
   }, [endsAt, gaveUp, session])
 
-  // Back from the background (phone locked, the TV's home key): rejoin live.
+  // Away (the TV's home key, a locked phone): the WebView is never paused
+  // (react-native-webview leaves onPause alone), so the embed goes, or the
+  // channel would play on behind the launcher. Back: a fresh load at the live second.
+  const [away, setAway] = useState(false)
   useEffect(() => {
     const subscription = AppState.addEventListener('change', (next) => {
-      if (next !== 'active') return
-      if (gaveUp || session.sync() === 'load') reload()
-      else rerender()
+      if (next !== 'active') {
+        loaded.current = false
+        setAway(true)
+        return
+      }
+      setAway(false)
+      reload()
     })
     return () => subscription.remove()
-  }, [gaveUp, session])
+  }, [])
 
   // A stall: loaded, not finished early, and the position frozen for STALL_MS.
   const [stalled, setStalled] = useState(false)
   const lastProgressAt = useRef(0)
   const lastTime = useRef<number | null>(null)
   useEffect(() => {
-    if (state.status !== 'ready') {
+    if (state.status !== 'ready' || away) {
       setStalled(false)
       return
     }
     const timer = setInterval(() => setStalled(!session.finishedEarly() && Date.now() - lastProgressAt.current >= STALL_MS), 1000)
     return () => clearInterval(timer)
-  }, [state.status, state.reloadToken, session])
+  }, [state.status, state.reloadToken, session, away])
   const onStalledRef = useRef(onStalledChange)
   onStalledRef.current = onStalledChange
   useEffect(() => {
@@ -178,6 +185,8 @@ export function LiveVideo({
     const after = scheduleAt(channel.plan, epochMs, endsAt, 1).current
     return `${programLabel(after.unit)} a las ${clockLabel(after.startsAt)}`
   }
+
+  if (away) return <View style={styles.root} />
 
   return (
     <View style={styles.root}>
