@@ -61,3 +61,58 @@
   align-items: center;
   text-align: center;
 }
+
+/* The mini-player's controls sit exactly over the mini slot. */
+.go-tvmini {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  width: 320px;
+  height: 180px;
+  z-index: 61;
+  border-radius: 8px;
+}
+@media (pointer: coarse) {
+  .go-tvmini {
+    width: 45vw;
+    height: calc(45vw * 9 / 16);
+    right: 12px;
+    bottom: 12px;
+  }
+}
+.go-tvmini_open {
+  position: absolute;
+  inset: 0;
+  cursor: pointer;
+}
+.go-tvmini_name {
+  position: absolute;
+  left: 8px;
+  bottom: 8px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: rgb(0 0 0 / 0.7);
+  color: #fff;
+  font-size: 0.8125rem;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.go-tvmini_live {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #e5262a;
+}
+.go-tvmini_close {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: rgb(0 0 0 / 0.7);
+  color: #fff;
+  cursor: pointer;
+}
