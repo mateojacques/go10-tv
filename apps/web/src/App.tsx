@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef } from 'react'
+import { useCallback, useEffect, useRef, type ReactNode } from 'react'
 import type { CatalogRow, Title } from '@go10/core/types'
 import { useCatalog } from './catalog/useCatalog'
 import { useHeroArt } from './catalog/useHeroArt'
@@ -21,6 +21,11 @@ import { isTmdbKey } from '@go10/core/external/tmdb/keys'
 import { useTmdbTitle } from './external/useTmdbTitle'
 import { saveSnapshot } from '@go10/core/external/snapshots'
 import { exitAppIfTizen } from './platformTizen'
+import { useLineup } from './tv/useLineup'
+import { TvProvider, useTv } from './tv/TvProvider'
+import { TvLayer } from './tv/TvLayer'
+import { TvScreen } from './tv/TvScreen'
+import { pickChannel } from '@go10/core/tv/lineup'
 import './styles/global.css'
 
 /** The TMDB error state's only control, reachable by remote as well as touch. */
@@ -40,10 +45,20 @@ function ErrorBackButton({ onBack }: { onBack: () => void }) {
   )
 }
 
+/** Opening on-demand playback ends live TV: two audio streams never play at once. */
+function TvRouteSync({ isPlayer }: { isPlayer: boolean }) {
+  const { close } = useTv()
+  useEffect(() => {
+    if (isPlayer) close()
+  }, [isPlayer, close])
+  return null
+}
+
 export default function App() {
   const { titles, loading, error } = useCatalog()
   const heroArt = useHeroArt()
   const { route, navigate } = useRoute()
+  const lineup = useLineup(titles)
   // The Home or catalog page a title was opened from, so backing out of Detail
   // returns to that search or section rather than always to Home. Deep links
   // have nowhere better to go than Home.
@@ -61,6 +76,9 @@ export default function App() {
         navigate({ name: 'home' })
         break
       case 'catalog':
+        navigate({ name: 'home' })
+        break
+      case 'tv':
         navigate({ name: 'home' })
         break
       case 'home':
@@ -100,116 +118,145 @@ export default function App() {
     )
   }
 
-  if (tmdbKey && tmdb.status === 'loading') {
+  // Every screen renders inside the TV provider, so a channel playing in the
+  // mini-player survives navigation, TMDB's loading screens included.
+  function screenFor(): ReactNode {
+    if (tmdbKey && tmdb.status === 'loading') {
+      return (
+        // A slow TMDB mustn't trap the remote: Back still leaves.
+        <FocusProvider key="external-loading" onBack={back}>
+          <div className="go-state">
+            <span className="go-state_mark is-loading">GO10 TV</span>
+            <p className="go-state_msg">Cargando título…</p>
+          </div>
+        </FocusProvider>
+      )
+    }
+
+    if (tmdbKey && tmdb.status === 'error') {
+      return (
+        <FocusProvider key="external-error" onBack={back}>
+          <div className="go-state">
+            <ErrorBackButton onBack={back} />
+            <span className="go-state_mark">GO10 TV</span>
+            <p className="go-state_msg">No se pudo cargar el título.</p>
+          </div>
+        </FocusProvider>
+      )
+    }
+
+    // A loaded TMDB title resolves exactly like a catalog one; `not-found`
+    // falls through to the usual bounce Home.
+    const available = tmdb.status === 'ready' ? [...titles, tmdb.title] : titles
+    const resolved = resolveRoute(route, available, COLLECTIONS)
+
+    if (resolved.name === 'not-found') {
+      // Stale or hand-typed URL — bounce to Home without leaving a broken
+      // history entry behind.
+      navigate({ name: 'home' }, { replace: true })
+      return null
+    }
+
+    if (resolved.name === 'tv') {
+      const channel = lineup ? pickChannel(lineup, resolved.channel) : null
+      if (!channel) {
+        // No lineup at all, or an unknown channel: /tv picks one, else Home.
+        navigate(lineup && resolved.channel ? { name: 'tv', channel: null } : { name: 'home' }, { replace: true })
+        return null
+      }
+      if (resolved.channel !== channel.id) {
+        navigate({ name: 'tv', channel: channel.id }, { replace: true })
+        return null
+      }
+      return (
+        <FocusProvider key="tv" onBack={back}>
+          <TvScreen
+            channel={channel}
+            onZap={(id) => navigate({ name: 'tv', channel: id }, { replace: true })}
+            onOpenTitle={(key) => navigate({ name: 'title', key })}
+            onBack={back}
+          />
+        </FocusProvider>
+      )
+    }
+
+    if (resolved.name === 'home' || resolved.name === 'catalog' || resolved.name === 'collection') {
+      lastBrowseRoute.current = route
+      const openTitle = (title: Title) => navigate({ name: 'title', key: title.key })
+
+      return (
+        // One provider for Home, the catalog and collection pages, with the navbar outside the
+        // screen that swaps beneath it: typing on Home navigates to /buscar, and
+        // the input has to survive that without losing focus (and the TV's
+        // on-screen keyboard) after the first letter.
+        <FocusProvider key="browse" onBack={back}>
+          <div className="go-browse">
+            <Navbar route={route} onNavigate={navigate} />
+            {resolved.name === 'home' ? (
+              <Home
+                titles={titles}
+                heroArt={heroArt}
+                onSelect={openTitle}
+                onResume={(title, row) => navigate({ name: 'play', key: title.key, videoId: rowKey(row) })}
+                collections={COLLECTIONS}
+                onOpenCollection={(collection) => navigate({ name: 'collection', id: collection.id })}
+              />
+            ) : resolved.name === 'catalog' ? (
+              <Catalog
+                titles={titles}
+                section={resolved.section}
+                query={resolved.query}
+                source={(route.name === 'catalog' && route.source) || 'all'}
+                onSelect={openTitle}
+              />
+            ) : (
+              <Collection collection={resolved.collection} titles={resolved.titles} onSelect={openTitle} />
+            )}
+          </div>
+        </FocusProvider>
+      )
+    }
+
+    const title = resolved.title
+    const playingRow = resolved.name === 'player' ? resolved.row : undefined
+    const nextRow = playingRow ? findNextEpisode(title.seasons, playingRow) : null
+    const prevRow = playingRow ? findPreviousEpisode(title.seasons, playingRow) : null
+    const goToEpisode = (episodeRow: CatalogRow) =>
+      navigate({ name: 'play', key: title.key, videoId: rowKey(episodeRow) })
+
     return (
-      // A slow TMDB mustn't trap the remote: Back still leaves.
-      <FocusProvider key="external-loading" onBack={back}>
-        <div className="go-state">
-          <span className="go-state_mark is-loading">GO10 TV</span>
-          <p className="go-state_msg">Cargando título…</p>
-        </div>
-      </FocusProvider>
+      <>
+        {/* The player is an overlay on top of the detail screen, so the screen
+            beneath keeps its identity — and its chosen season — while playback
+            is open. */}
+        <FocusProvider key="detail" onBack={back} enabled={resolved.name !== 'player'}>
+          <Detail
+            title={title}
+            onPlay={(row) => navigate({ name: 'play', key: title.key, videoId: rowKey(row) })}
+            onBack={back}
+            playingRow={playingRow}
+            heroArt={heroArt}
+          />
+        </FocusProvider>
+
+        {resolved.name === 'player' && (
+          <Player
+            row={resolved.row}
+            onClose={back}
+            onEnded={nextRow ? () => goToEpisode(nextRow) : undefined}
+            onPrev={prevRow ? () => goToEpisode(prevRow) : undefined}
+            onNext={nextRow ? () => goToEpisode(nextRow) : undefined}
+          />
+        )}
+      </>
     )
   }
-
-  if (tmdbKey && tmdb.status === 'error') {
-    return (
-      <FocusProvider key="external-error" onBack={back}>
-        <div className="go-state">
-          <ErrorBackButton onBack={back} />
-          <span className="go-state_mark">GO10 TV</span>
-          <p className="go-state_msg">No se pudo cargar el título.</p>
-        </div>
-      </FocusProvider>
-    )
-  }
-
-  // A loaded TMDB title resolves exactly like a catalog one; `not-found`
-  // falls through to the usual bounce Home.
-  const available = tmdb.status === 'ready' ? [...titles, tmdb.title] : titles
-  const resolved = resolveRoute(route, available, COLLECTIONS)
-
-  if (resolved.name === 'not-found') {
-    // Stale or hand-typed URL — bounce to Home without leaving a broken
-    // history entry behind.
-    navigate({ name: 'home' }, { replace: true })
-    return null
-  }
-
-  if (resolved.name === 'tv') {
-    // Live TV lands with its screen; until then /tv goes Home.
-    navigate({ name: 'home' }, { replace: true })
-    return null
-  }
-
-  if (resolved.name === 'home' || resolved.name === 'catalog' || resolved.name === 'collection') {
-    lastBrowseRoute.current = route
-    const openTitle = (title: Title) => navigate({ name: 'title', key: title.key })
-
-    return (
-      // One provider for Home, the catalog and collection pages, with the navbar outside the
-      // screen that swaps beneath it: typing on Home navigates to /buscar, and
-      // the input has to survive that without losing focus (and the TV's
-      // on-screen keyboard) after the first letter.
-      <FocusProvider key="browse" onBack={back}>
-        <div className="go-browse">
-          <Navbar route={route} onNavigate={navigate} />
-          {resolved.name === 'home' ? (
-            <Home
-              titles={titles}
-              heroArt={heroArt}
-              onSelect={openTitle}
-              onResume={(title, row) => navigate({ name: 'play', key: title.key, videoId: rowKey(row) })}
-              collections={COLLECTIONS}
-              onOpenCollection={(collection) => navigate({ name: 'collection', id: collection.id })}
-            />
-          ) : resolved.name === 'catalog' ? (
-            <Catalog
-              titles={titles}
-              section={resolved.section}
-              query={resolved.query}
-              source={(route.name === 'catalog' && route.source) || 'all'}
-              onSelect={openTitle}
-            />
-          ) : (
-            <Collection collection={resolved.collection} titles={resolved.titles} onSelect={openTitle} />
-          )}
-        </div>
-      </FocusProvider>
-    )
-  }
-
-  const title = resolved.title
-  const playingRow = resolved.name === 'player' ? resolved.row : undefined
-  const nextRow = playingRow ? findNextEpisode(title.seasons, playingRow) : null
-  const prevRow = playingRow ? findPreviousEpisode(title.seasons, playingRow) : null
-  const goToEpisode = (episodeRow: CatalogRow) =>
-    navigate({ name: 'play', key: title.key, videoId: rowKey(episodeRow) })
 
   return (
-    <>
-      {/* The player is an overlay on top of the detail screen, so the screen
-          beneath keeps its identity — and its chosen season — while playback
-          is open. */}
-      <FocusProvider key="detail" onBack={back} enabled={resolved.name !== 'player'}>
-        <Detail
-          title={title}
-          onPlay={(row) => navigate({ name: 'play', key: title.key, videoId: rowKey(row) })}
-          onBack={back}
-          playingRow={playingRow}
-          heroArt={heroArt}
-        />
-      </FocusProvider>
-
-      {resolved.name === 'player' && (
-        <Player
-          row={resolved.row}
-          onClose={back}
-          onEnded={nextRow ? () => goToEpisode(nextRow) : undefined}
-          onPrev={prevRow ? () => goToEpisode(prevRow) : undefined}
-          onNext={nextRow ? () => goToEpisode(nextRow) : undefined}
-        />
-      )}
-    </>
+    <TvProvider lineup={lineup}>
+      <TvRouteSync isPlayer={route.name === 'play'} />
+      {screenFor()}
+      <TvLayer onOpen={(id) => navigate({ name: 'tv', channel: id })} />
+    </TvProvider>
   )
 }

@@ -180,3 +180,140 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+/* The screen sits above the full-mode slot (z-index 40) and below previews (46). */
+.go-tv {
+  position: fixed;
+  inset: 0;
+  z-index: 45;
+  color: #fff;
+  pointer-events: none;
+}
+.go-tv_shield {
+  position: absolute;
+  inset: 0;
+  pointer-events: auto;
+  touch-action: none;
+}
+.go-tv_now {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 20px 24px 40px;
+  background: linear-gradient(rgb(0 0 0 / 0.75), transparent);
+  pointer-events: auto;
+  opacity: 0;
+  transition: opacity 200ms ease;
+}
+.go-tv_now.is-open {
+  opacity: 1;
+}
+.go-tv_chip {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: var(--go-accent, #e4007c);
+  font-weight: 800;
+  font-size: 1.25rem;
+}
+.go-tv_chip img {
+  height: 1.5rem;
+  width: auto;
+}
+.go-tv_now-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  flex: 1;
+}
+.go-tv_program {
+  font-size: 1.25rem;
+}
+.go-tv_next {
+  color: rgb(255 255 255 / 0.75);
+}
+.go-tv_progress {
+  display: block;
+  height: 3px;
+  max-width: 22rem;
+  background: rgb(255 255 255 / 0.25);
+}
+.go-tv_progress i {
+  display: block;
+  height: 100%;
+  background: #fff;
+}
+.go-tv_info,
+.go-tv_back {
+  padding: 8px 14px;
+  border-radius: 6px;
+  background: rgb(255 255 255 / 0.15);
+  cursor: pointer;
+}
+.go-tv_strip {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 48px 24px 20px;
+  background: linear-gradient(transparent, rgb(0 0 0 / 0.85) 45%);
+  pointer-events: auto;
+  transform: translateY(calc(100% - 3.25rem));
+  transition: transform 220ms ease;
+}
+.go-tv_strip.is-open {
+  transform: none;
+}
+.go-tv_track {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding: 6px 4px;
+  scrollbar-width: none;
+}
+/* Collapsed: only the badges' row peeks out, so channels are never out of sight. */
+.go-tv_strip:not(.is-open) .go-chtile_label,
+.go-tv_strip:not(.is-open) .go-chtile_progress {
+  visibility: hidden;
+}
+.go-tv_flash {
+  position: absolute;
+  top: 24px;
+  right: 32px;
+  font-size: 4rem;
+  font-weight: 800;
+  text-shadow: 0 2px 12px rgb(0 0 0 / 0.8);
+}
+.go-tv_flash.has-static::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: repeating-radial-gradient(circle at 17% 32%, #fff 0 1px, #000 1px 3px);
+  opacity: 0.35;
+  animation: go-tv-static 120ms steps(2) infinite;
+}
+@keyframes go-tv-static {
+  to {
+    background-position: 7px 3px;
+  }
+}
+@media (pointer: coarse) {
+  .go-chtile {
+    width: 10rem;
+  }
+  .go-tv_now {
+    padding: 12px 12px 28px;
+    gap: 10px;
+  }
+  .go-tv_program {
+    font-size: 1rem;
+  }
+}

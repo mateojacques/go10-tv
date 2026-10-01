@@ -276,6 +276,44 @@ describe('App collections', () => {
   })
 })
 
+describe('App live TV', () => {
+  beforeEach(() => {
+    vi.stubGlobal('fetch', siteFetch(CN_CSV))
+    vi.spyOn(console, 'warn').mockImplementation(() => {})
+  })
+  afterEach(() => vi.restoreAllMocks())
+
+  it('opens /tv on the default channel, full screen', async () => {
+    window.history.replaceState({}, '', '/tv')
+    render(<App />)
+    await screen.findByRole('region', { name: 'TV en vivo' })
+    expect(window.location.pathname).toBe('/tv/cartoon-network')
+    await waitFor(() => expect(document.querySelector('.go-tvslot--full[data-channel="cartoon-network"]')).not.toBeNull())
+  })
+
+  it('sends an unknown channel on to a real one', async () => {
+    window.history.replaceState({}, '', '/tv/does-not-exist')
+    render(<App />)
+    await screen.findByRole('region', { name: 'TV en vivo' })
+    expect(window.location.pathname).toBe('/tv/cartoon-network')
+  })
+
+  it('keeps the channel in a mini-player after leaving, and closes it for on-demand playback', async () => {
+    window.history.replaceState({}, '', '/tv/cartoon-network')
+    render(<App />)
+    await screen.findByRole('region', { name: 'TV en vivo' })
+    await act(async () => {})
+
+    fireEvent.keyDown(window, { key: 'Escape' })
+    await waitFor(() => expect(window.location.pathname).toBe('/'))
+    expect(document.querySelectorAll('.go-tvslot--mini')).toHaveLength(1)
+
+    fireEvent.click(screen.getAllByText('Reproducir')[0])
+    await waitFor(() => expect(window.location.pathname).toMatch(/\/play\//))
+    expect(document.querySelectorAll('.go-tvslot')).toHaveLength(0)
+  })
+})
+
 describe('App collections without matching titles', () => {
   it('redirects a collection with no titles in the catalog to Home and shows no strip', async () => {
     window.history.replaceState({}, '', '/coleccion/cartoon-network')
