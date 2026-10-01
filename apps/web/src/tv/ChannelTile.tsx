@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import type { Channel, Schedule } from '@go10/core/tv/types'
 import { programLabel, progressOf } from '@go10/core/tv/describe'
 import { imageSrc } from '@go10/core/lib/imageSrc'
@@ -35,18 +35,41 @@ export function ChannelTile({
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null)
   const label = programLabel(schedule.current.unit)
 
+  const [previewing, setPreviewing] = useState(false)
+  const tvRef = useRef(tv)
+  tvRef.current = tv
+
+  /** Puts the preview over this tile's thumbnail, wherever it is on screen now. */
+  const place = () => {
+    const box = thumbRef.current?.getBoundingClientRect()
+    if (box) tvRef.current.previewAt(channel.id, { top: box.top, left: box.left, width: box.width, height: box.height })
+  }
   const startPreview = () => {
     if (timer.current) clearTimeout(timer.current)
     timer.current = setTimeout(() => {
-      const box = thumbRef.current?.getBoundingClientRect()
-      if (box) tv.previewAt(channel.id, { top: box.top, left: box.left, width: box.width, height: box.height })
+      place()
+      setPreviewing(true)
     }, PREVIEW_DELAY_MS)
   }
   const stopPreview = () => {
     if (timer.current) clearTimeout(timer.current)
     timer.current = null
+    setPreviewing(false)
     tv.endPreview()
   }
+
+  // The preview is fixed-position: it follows the tile through scrolls (of the
+  // page or the strip) and resizes.
+  useEffect(() => {
+    if (!previewing) return
+    window.addEventListener('scroll', place, true)
+    window.addEventListener('resize', place)
+    return () => {
+      window.removeEventListener('scroll', place, true)
+      window.removeEventListener('resize', place)
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [previewing])
 
   // A remote resting on a tile previews it, like a mouse resting on it.
   useEffect(() => {

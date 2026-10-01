@@ -44,10 +44,11 @@ export function TvLayer({ onOpen }: { onOpen: (channelId: string) => void }) {
   )
 }
 
-function BoundSlot({ slotId, ...props }: { slotId: number } & Omit<Parameters<typeof TvSlot>[0], 'bind' | 'onLoaded'>) {
+function BoundSlot({ slotId, ...props }: { slotId: number } & Omit<Parameters<typeof TvSlot>[0], 'bind' | 'onLoaded' | 'onFailedChange'>) {
   const tv = useTv()
-  const { bindHandle, onSlotLoaded } = tv
+  const { bindHandle, onSlotLoaded, onSlotFailed } = tv
   const bind = useCallback((handle: SlotHandle | null) => bindHandle(slotId, handle), [bindHandle, slotId])
   const onLoaded = useCallback(() => onSlotLoaded(slotId), [onSlotLoaded, slotId])
-  return <TvSlot {...props} bind={bind} onLoaded={onLoaded} />
+  const onFailedChange = useCallback((failed: boolean) => onSlotFailed(slotId, failed), [onSlotFailed, slotId])
+  return <TvSlot {...props} bind={bind} onLoaded={onLoaded} onFailedChange={onFailedChange} />
 }

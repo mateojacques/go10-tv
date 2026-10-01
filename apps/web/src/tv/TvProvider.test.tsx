@@ -162,4 +162,27 @@ describe('TvProvider + TvLayer', () => {
     })
     expect(post).toHaveBeenCalledWith({ action: 'play' }, 'https://ok.ru')
   })
+
+  it('drops a preload nobody followed up on after 20 s, unless the intent is renewed', () => {
+    renderLayer()
+    act(() => api.preload('a'))
+    act(() => vi.advanceTimersByTime(15_000))
+    act(() => api.preload('a')) // hovered again: still wanted
+    act(() => vi.advanceTimersByTime(15_000))
+    expect(slots()).toEqual([['a', 'staged']])
+    act(() => vi.advanceTimersByTime(5_000))
+    expect(slots()).toEqual([])
+  })
+
+  it('never drops a channel the viewer opened', () => {
+    renderLayer()
+    act(() => api.preload('a'))
+    act(() => {
+      api.setScreen('tv')
+      api.watch('a')
+    })
+    act(() => api.setScreen('away'))
+    act(() => vi.advanceTimersByTime(60_000))
+    expect(slots()).toEqual([['a', 'mini']])
+  })
 })

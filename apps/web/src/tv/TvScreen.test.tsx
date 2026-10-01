@@ -3,6 +3,7 @@ import { act, fireEvent, render, screen } from '@testing-library/react'
 import { FocusProvider } from '../focus/FocusProvider'
 import { TvProvider, useTv, type TvApi } from './TvProvider'
 import { TvScreen } from './TvScreen'
+import { TvLayer } from './TvLayer'
 import { buildChannelPlan } from '@go10/core/tv/plan'
 import { collectionOf, movieTitle, showTitle } from '@go10/core/tv/testing'
 import type { Channel, Lineup } from '@go10/core/tv/types'
@@ -34,6 +35,7 @@ function tree(channel: Channel) {
       <FocusProvider onBack={onBack}>
         <TvScreen channel={channel} onZap={onZap} onOpenTitle={onOpenTitle} onBack={onBack} />
       </FocusProvider>
+      <TvLayer onOpen={() => {}} />
     </TvProvider>
   )
 }
@@ -135,5 +137,13 @@ describe('TvScreen', () => {
     fireEvent.pointerDown(shield, { clientX: 100, clientY: 400 })
     fireEvent.pointerUp(shield, { clientX: 100, clientY: 250 })
     expect(onZap).toHaveBeenCalledWith('dis')
+  })
+
+  it('holds the strip open while the channel is down, inviting a zap', () => {
+    renderScreen()
+    for (const wait of [8000, 1000, 8000, 2000, 8000, 3000, 8000]) act(() => vi.advanceTimersByTime(wait))
+    expect(screen.getByRole('status').textContent).toMatch(/^Señal interrumpida/)
+    act(() => vi.advanceTimersByTime(10_000))
+    expect(strip().classList.contains('is-open')).toBe(true)
   })
 })

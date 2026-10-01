@@ -38,6 +38,7 @@ export function TvSlot({
   preview = false,
   bind,
   onLoaded,
+  onFailedChange,
 }: {
   channel: Channel
   epochMs: number
@@ -46,6 +47,8 @@ export function TvSlot({
   preview?: boolean
   bind?: (handle: SlotHandle | null) => void
   onLoaded?: () => void
+  /** True while the slot has given up ("Señal interrumpida"), false once it retunes. */
+  onFailedChange?: (failed: boolean) => void
 }) {
   const [state, dispatch] = useReducer(playerRetryReducer, initialPlayerRetryState)
   const frameRef = useRef<HTMLIFrameElement>(null)
@@ -69,6 +72,12 @@ export function TvSlot({
   const airing = session.current()
 
   const gaveUp = state.status === 'failed' || (preview && state.attempt > PREVIEW_RETRIES)
+
+  const onFailedChangeRef = useRef(onFailedChange)
+  onFailedChangeRef.current = onFailedChange
+  useEffect(() => {
+    onFailedChangeRef.current?.(gaveUp)
+  }, [gaveUp])
 
   useEffect(() => {
     if (!bind) return

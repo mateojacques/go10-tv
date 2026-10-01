@@ -100,6 +100,8 @@ export function TvScreen({
     [zap, lineup, onZap],
   )
 
+  // A dead signal keeps the channels in view: the way out is a zap.
+  const open = stripOpen || tv.mainFailed
   const schedule = live.get(channel.id)
   const upNext = schedule?.next[0]
 
@@ -114,13 +116,13 @@ export function TvScreen({
           if (!start) return
           const dy = event.clientY - start.y
           if (Math.abs(dy) >= SWIPE_PX && Math.abs(dy) > Math.abs(event.clientX - start.x)) zap(dy < 0 ? 1 : -1)
-          else if (stripOpen) setStripOpen(false)
+          else if (open) setStripOpen(false)
           else wake()
         }}
       />
 
       {schedule && (
-        <div className={`go-tv_now${stripOpen ? ' is-open' : ''}`}>
+        <div className={`go-tv_now${open ? ' is-open' : ''}`}>
           <span className="go-tv_chip">
             <img src={`/${channel.collection.logo}`} alt="" />
             {channel.number}
@@ -145,7 +147,7 @@ export function TvScreen({
         </div>
       )}
 
-      <nav className={`go-tv_strip${stripOpen ? ' is-open' : ''}`} aria-label="Canales" onPointerDown={wake}>
+      <nav className={`go-tv_strip${open ? ' is-open' : ''}`} aria-label="Canales" onPointerDown={wake}>
         <div className="go-tv_track">
           {lineup.channels.map((c, col) => {
             const s = live.get(c.id)

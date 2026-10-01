@@ -26,6 +26,7 @@ import { TvProvider, useTv } from './tv/TvProvider'
 import { TvLayer } from './tv/TvLayer'
 import { TvScreen } from './tv/TvScreen'
 import { LiveRow } from './tv/LiveRow'
+import { liveTvEnabled } from './tv/liveTvEnabled'
 import { pickChannel } from '@go10/core/tv/lineup'
 import './styles/global.css'
 
@@ -164,10 +165,10 @@ export default function App() {
     }
 
     if (resolved.name === 'tv') {
-      const channel = lineup ? pickChannel(lineup, resolved.channel) : null
+      const channel = lineup && liveTvEnabled() ? pickChannel(lineup, resolved.channel) : null
       if (!channel) {
-        // No lineup at all, or an unknown channel: /tv picks one, else Home.
-        navigate(lineup && resolved.channel ? { name: 'tv', channel: null } : { name: 'home' }, { replace: true })
+        // No live TV here, or an unknown channel: /tv picks one, else Home.
+        navigate(lineup && liveTvEnabled() && resolved.channel ? { name: 'tv', channel: null } : { name: 'home' }, { replace: true })
         return null
       }
       if (resolved.channel !== channel.id) {
@@ -209,7 +210,7 @@ export default function App() {
                     collections={COLLECTIONS}
                     onOpenCollection={(collection) => navigate({ name: 'collection', id: collection.id })}
                     liveRow={
-                      tv.lineup
+                      tv.lineup && liveTvEnabled()
                         ? (rowIndex) => <LiveRow rowIndex={rowIndex} onWatch={(id) => navigate({ name: 'tv', channel: id })} />
                         : undefined
                     }

@@ -84,6 +84,29 @@ describe('ChannelTile', () => {
   })
 })
 
+describe('ChannelTile preview placement', () => {
+  it('keeps the preview on its tile when the page scrolls or resizes', () => {
+    let top = 100
+    vi.spyOn(HTMLElement.prototype, 'getBoundingClientRect').mockImplementation(() => ({ top, left: 10, width: 200, height: 112, right: 210, bottom: top + 112, x: 10, y: top, toJSON() {} }) as DOMRect)
+    renderTile()
+    act(() => api.watch('jx'))
+    fireEvent.pointerEnter(screen.getByRole('button'))
+    act(() => vi.advanceTimersByTime(600))
+    expect(api.previewRect?.top).toBe(100)
+    top = 40
+    act(() => {
+      fireEvent.scroll(window)
+    })
+    expect(api.previewRect?.top).toBe(40)
+    top = 70
+    act(() => {
+      fireEvent(window, new Event('resize'))
+    })
+    expect(api.previewRect?.top).toBe(70)
+    vi.restoreAllMocks()
+  })
+})
+
 describe('useLiveNow', () => {
   it('refreshes every 5 s and at the next boundary', () => {
     const { result } = renderHook(() => useLiveNow(lineup))

@@ -1,4 +1,4 @@
-import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState, type ReactNode } from 'react'
+import { createContext, useCallback, useContext, useEffect, useMemo, useReducer, useRef, useState, type ReactNode } from 'react'
 import type { Lineup } from '@go10/core/tv/types'
 import { pickChannel, writeLastChannel } from '@go10/core/tv/lineup'
 import { okru } from '@go10/core/player/providers/okru'
@@ -18,6 +18,8 @@ export interface TvApi {
   activated: boolean
   /** True when the last watch() promoted a preview (the zap was instant). */
   promoted: boolean
+  /** The channel on main has given up for now ("Señal interrumpida"). */
+  mainFailed: boolean
   preload(channelId?: string): void
   watch(channelId: string): void
   previewAt(channelId: string, rect: Rect): void
@@ -30,7 +32,11 @@ export interface TvApi {
   previewRect: Rect | null
   bindHandle(slotId: number, handle: SlotHandle | null): void
   onSlotLoaded(slotId: number): void
+  onSlotFailed(slotId: number, failed: boolean): void
 }
+
+/** A preload the viewer never followed up on is dropped after this long: it streams for nothing. */
+export const STAGED_TTL_MS = 20_000
 
 const TvContext = createContext<TvApi | null>(null)
 
@@ -56,6 +62,8 @@ export function TvProvider({ lineup, children }: { lineup: Lineup | null; childr
   const [previewRect, setPreviewRect] = useState<Rect | null>(null)
   const nextId = useRef(1)
   const handles = useRef(new Map<number, SlotHandle>())
+  const [failedIds, setFailedIds] = useState<ReadonlySet<number>>(new Set())
+  const [intent, renewIntent] = useReducer((n: number) => n + 1, 0)
 
   const commit = useCallback((next: SlotState[]) => {
     if (next === slotsRef.current) return
@@ -66,10 +74,13 @@ export function TvProvider({ lineup, children }: { lineup: Lineup | null; childr
   const without = useCallback((role: SlotState['role']) => slotsRef.current.filter((s) => s.role !== role), [])
 
   const main = slots.find((s) => s.role === 'main') ?? null
+  const mainId = main?.id ?? null
 
   const preload = useCallback(
     (channelId?: string) => {
-      if (!lineup || slotsRef.current.some((s) => s.role === 'main')) return
+      if (!lineup) return
+      renewIntent()
+      if (slotsRef.current.some((s) => s.role === 'main')) return
       const channel = pickChannel(lineup, channelId ?? null)
       if (channel) commit([...slotsRef.current, newSlot(channel.id, 'main')])
     },
@@ -134,9 +145,15 @@ export function TvProvider({ lineup, children }: { lineup: Lineup | null; childr
     [screen, activated],
   )
 
+  // A staged channel nobody opened goes away; each fresh intent (hover, focus) keeps it.
+  useEffect(() => {
+    if (mainId === null || activated) return
+    const timer = setTimeout(() => commit(without('main')), STAGED_TTL_MS)
+    return () => clearTimeout(timer)
+  }, [mainId, activated, intent, commit, without])
+
   // The click into TV is a user activation: tell a loaded main embed to play,
   // in case it was staged before any click and the browser held it back.
-  const mainId = main?.id ?? null
   const playMain = useCallback(() => {
     if (mainId === null) return
     const handle = handles.current.get(mainId)
@@ -158,13 +175,24 @@ export function TvProvider({ lineup, children }: { lineup: Lineup | null; childr
     [activated, mainId, playMain],
   )
 
+  const onSlotFailed = useCallback((slotId: number, failed: boolean) => {
+    setFailedIds((current) => {
+      if (current.has(slotId) === failed) return current
+      const next = new Set(current)
+      if (failed) next.add(slotId)
+      else next.delete(slotId)
+      return next
+    })
+  }, [])
+  const mainFailed = mainId !== null && failedIds.has(mainId)
+
   const api = useMemo<TvApi>(
     () => ({
-      lineup, mainChannel: main?.channelId ?? null, activated, promoted,
+      lineup, mainChannel: main?.channelId ?? null, activated, promoted, mainFailed,
       preload, watch, previewAt, endPreview, setScreen, close,
-      slots, modeOf, previewRect, bindHandle, onSlotLoaded,
+      slots, modeOf, previewRect, bindHandle, onSlotLoaded, onSlotFailed,
     }),
-    [lineup, main, activated, promoted, preload, watch, previewAt, endPreview, setScreen, close, slots, modeOf, previewRect, bindHandle, onSlotLoaded],
+    [lineup, main, activated, promoted, mainFailed, preload, watch, previewAt, endPreview, setScreen, close, slots, modeOf, previewRect, bindHandle, onSlotLoaded, onSlotFailed],
   )
 
   return <TvContext.Provider value={api}>{children}</TvContext.Provider>
