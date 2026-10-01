@@ -50,3 +50,16 @@ describe('remoteKey', () => {
     expect(remoteKey({})).toBeNull()
   })
 })
+
+describe('channel keys', () => {
+  it('passes CH+/CH− and Info through as remote keys', () => {
+    expect(remoteKey({ eventType: 'channelUp', eventKeyAction: 0 })).toBe('channelUp')
+    expect(remoteKey({ eventType: 'channelDown', eventKeyAction: 0 })).toBe('channelDown')
+    expect(remoteKey({ eventType: 'info', eventKeyAction: 0 })).toBe('info')
+  })
+
+  it('the on-demand player ignores them', () => {
+    expect(playerKeyAction('channelUp', false)).toBeNull()
+    expect(playerKeyAction('info', false)).toBeNull()
+  })
+})

@@ -29,3 +29,15 @@ describe('parseHostMessage', () => {
     expect(parseHostMessage('null')).toBeNull()
   })
 })
+
+describe('hostHtml crop', () => {
+  it('crops the embed chrome when asked', () => {
+    const html = hostHtml('https://ok.ru/videoembed/1', 'https://ok.ru', { cropPx: 64 })
+    expect(html).toContain('top:-64px')
+    expect(html).toContain('height:calc(100% + 128px)')
+  })
+
+  it('does not crop by default', () => {
+    expect(hostHtml('https://ok.ru/videoembed/1', 'https://ok.ru')).not.toContain('top:-')
+  })
+})

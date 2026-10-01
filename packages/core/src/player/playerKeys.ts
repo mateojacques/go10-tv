@@ -1,6 +1,7 @@
 export type RemoteKey =
   | 'up' | 'down' | 'left' | 'right' | 'select'
   | 'playPause' | 'play' | 'pause' | 'fastForward' | 'rewind' | 'next' | 'previous'
+  | 'channelUp' | 'channelDown' | 'info'
 
 export type PlayerAction =
   | { type: 'seekBy'; delta: number }
@@ -13,7 +14,10 @@ export type PlayerAction =
 
 export const SEEK_STEP_SECONDS = 10
 
-const KEYS = new Set<string>(['up', 'down', 'left', 'right', 'select', 'playPause', 'play', 'pause', 'fastForward', 'rewind', 'next', 'previous'])
+const KEYS = new Set<string>([
+  'up', 'down', 'left', 'right', 'select', 'playPause', 'play', 'pause', 'fastForward', 'rewind', 'next', 'previous',
+  'channelUp', 'channelDown', 'info',
+])
 
 /**
  * The player's TV key map (spec: Player → TV remote). While the bar is open

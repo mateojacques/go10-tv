@@ -3,6 +3,9 @@ function attr(value: string): string {
   return value.replace(/&/g, '&amp;').replace(/"/g, '&quot;')
 }
 
+/** ok.ru's title bar and control bar, cropped off live TV (the web's --go-okru-chrome). */
+export const OKRU_CHROME_PX = 64
+
 /**
  * The page the player's WebView loads (inline, with `baseUrl` = the site):
  * one iframe plus a relay. Messages the embed posts from its own origin go
@@ -14,11 +17,15 @@ function attr(value: string): string {
  * guard and single-window setting keep its ads from redirecting or opening
  * windows instead.
  */
-export function hostHtml(embedSrc: string, origin: string): string {
+export function hostHtml(embedSrc: string, origin: string, { cropPx = 0 }: { cropPx?: number } = {}): string {
+  const frame =
+    cropPx > 0
+      ? `iframe{border:0;position:absolute;left:0;top:-${cropPx}px;width:100%;height:calc(100% + ${2 * cropPx}px)}`
+      : 'iframe{border:0;width:100%;height:100%}'
   return `<!doctype html>
 <html><head>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<style>html,body{margin:0;height:100%;background:#000;overflow:hidden}iframe{border:0;width:100%;height:100%}</style>
+<style>html,body{margin:0;height:100%;background:#000;overflow:hidden;position:relative}${frame}</style>
 </head><body>
 <iframe id="f" src="${attr(embedSrc)}" allow="autoplay; fullscreen; encrypted-media" allowfullscreen></iframe>
 <script>
