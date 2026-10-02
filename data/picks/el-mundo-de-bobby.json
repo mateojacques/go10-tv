@@ -1,0 +1,416 @@
+{
+  "title": "El Mundo de Bobby",
+  "type": "series",
+  "added": "2026-10-02",
+  "query": "el mundo de bobby (lacartoons album c3390793)",
+  "year": "1990",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "1829431020105",
+      "title_raw": "S01E01 Visitando la Tia Ruth Web-DL",
+      "duration_raw": "22:11",
+      "season_number": 1,
+      "episode_number": 1,
+      "quality": "480p",
+      "views": 13132,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812685789769&type=32&idx=9&tkn=nCBDjsxanbEv1kMCeEgu1s6swvQ&fn=external_8"
+    },
+    {
+      "video_id": "1829430954569",
+      "title_raw": "S01E02 Las Increibles Aventuras del Tio Ted Web-DL",
+      "duration_raw": "22:14",
+      "season_number": 1,
+      "episode_number": 2,
+      "quality": "480p",
+      "views": 2363,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812683168329&type=32&idx=1&tkn=ADZnHiJ8DOo_Eq1fsB4vZTOH600&fn=external_8"
+    },
+    {
+      "video_id": "1829431741001",
+      "title_raw": "S01E03 Bobby y la Niñera Web-DL",
+      "duration_raw": "22:09",
+      "season_number": 1,
+      "episode_number": 3,
+      "quality": "480p",
+      "views": 1398,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812705188425&type=32&idx=14&tkn=dB3h-XjuSyCkv6i7HUppgBNz7Yg&fn=external_8"
+    },
+    {
+      "video_id": "1829432003145",
+      "title_raw": "S01E04 El Cumpleaños de Papa",
+      "duration_raw": "22:13",
+      "season_number": 1,
+      "episode_number": 4,
+      "quality": "480p",
+      "views": 1056,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812712200777&type=32&idx=1&tkn=4r0tC9yurfa2doovgXRcoW5QuQg&fn=external_8"
+    },
+    {
+      "video_id": "1829432265289",
+      "title_raw": "S01E05 Mi Papa lo arregla todo",
+      "duration_raw": "22:07",
+      "season_number": 1,
+      "episode_number": 5,
+      "quality": "480p",
+      "views": 878,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812717640265&type=32&idx=5&tkn=vKddEazzo4E3b4tnQI663cr914M&fn=external_8"
+    },
+    {
+      "video_id": "1829432855113",
+      "title_raw": "S01E06 Roger y Yo",
+      "duration_raw": "22:04",
+      "season_number": 1,
+      "episode_number": 6,
+      "quality": "480p",
+      "views": 788,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812732975689&type=32&idx=7&tkn=AhNjoMYJ9DBt7cYkPvo7EjXkieQ&fn=external_8"
+    },
+    {
+      "video_id": "1829433117257",
+      "title_raw": "S01E07 The Big Sweep",
+      "duration_raw": "22:12",
+      "season_number": 1,
+      "episode_number": 7,
+      "quality": "720p",
+      "views": 631,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812742019657&type=32&idx=3&tkn=Z44osNzliPGU1bHG0uRUWwrr4QI&fn=external_8"
+    },
+    {
+      "video_id": "1829431609929",
+      "title_raw": "S01E08 A noite do Dia das Bruxas",
+      "duration_raw": "22:15",
+      "season_number": 1,
+      "episode_number": 8,
+      "quality": "480p",
+      "views": 614,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812702239305&type=32&idx=3&tkn=sla1pYIewRo3by5W9TjQRWLJUMk&fn=external_8"
+    },
+    {
+      "video_id": "1829432134217",
+      "title_raw": "S01E09 Bobby va a la Playa (Latino)",
+      "duration_raw": "22:13",
+      "season_number": 1,
+      "episode_number": 9,
+      "quality": "480p",
+      "views": 705,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812715280969&type=32&idx=13&tkn=4E60SKVDGupPbCZAtoP60yIOVhA&fn=external_8"
+    },
+    {
+      "video_id": "1829433248329",
+      "title_raw": "S01E10 La Venganza del Dr. Noo (Latino)",
+      "duration_raw": "22:12",
+      "season_number": 1,
+      "episode_number": 10,
+      "quality": "480p",
+      "views": 596,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812745820745&type=32&idx=5&tkn=-dEj48bkNaw3ZbHnjVr-ScVh_Hc&fn=external_8"
+    },
+    {
+      "video_id": "1829432461897",
+      "title_raw": "S01E11 La Boda",
+      "duration_raw": "22:13",
+      "season_number": 1,
+      "episode_number": 11,
+      "quality": "480p",
+      "views": 550,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812722358857&type=32&idx=11&tkn=UABWXSMfw-zeoQmKV6oQcGl7LJM&fn=external_8"
+    },
+    {
+      "video_id": "1829431216713",
+      "title_raw": "S02E01Tres Chicos y un Bebe",
+      "duration_raw": "20:38",
+      "season_number": 2,
+      "episode_number": 1,
+      "quality": "480p",
+      "views": 505,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812692736585&type=32&idx=1&tkn=TPuBQVUZRstnh3Kjmyw6PfTg4RM&fn=external_8"
+    },
+    {
+      "video_id": "1829432396361",
+      "title_raw": "S02E02 La Mentira",
+      "duration_raw": "20:12",
+      "season_number": 2,
+      "episode_number": 2,
+      "quality": "480p",
+      "views": 592,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812721179209&type=32&idx=1&tkn=CQl5we0MlxRkJ6dvRI1N6Ap2fgo&fn=external_8"
+    },
+    {
+      "video_id": "1829432330825",
+      "title_raw": "S02E03 Caution Bobby´s",
+      "duration_raw": "20:48",
+      "season_number": 2,
+      "episode_number": 3,
+      "quality": "480p",
+      "views": 411,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812719409737&type=32&idx=13&tkn=T1GAMZD_au0Hujkf0-HlLehTebU&fn=external_8"
+    },
+    {
+      "video_id": "1829431085641",
+      "title_raw": "S02E04 Clubhouse de Bobby",
+      "duration_raw": "20:10",
+      "season_number": 2,
+      "episode_number": 4,
+      "quality": "480p",
+      "views": 414,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812687886921&type=32&idx=7&tkn=Bv2URmoBzGy47-KPxEoFvbZo4EE&fn=external_8"
+    },
+    {
+      "video_id": "1829432592969",
+      "title_raw": "S02E05 Chariots of Bobby",
+      "duration_raw": "20:08",
+      "season_number": 2,
+      "episode_number": 5,
+      "quality": "480p",
+      "views": 384,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812725963337&type=32&idx=5&tkn=xUWg7rVkvQqUTwyjE_EVTATfaXU&fn=external_8"
+    },
+    {
+      "video_id": "1829432199753",
+      "title_raw": "S02E06 Bobby va a la Escuela (Latino)",
+      "duration_raw": "20:14",
+      "season_number": 2,
+      "episode_number": 6,
+      "quality": "480p",
+      "views": 511,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812716132937&type=32&idx=5&tkn=pEHi9iv_jco3xy86IgTCHtmt89k&fn=external_8"
+    },
+    {
+      "video_id": "1829431282249",
+      "title_raw": "S02E07 La Pesadilla de Bobby",
+      "duration_raw": "20:22",
+      "season_number": 2,
+      "episode_number": 7,
+      "quality": "480p",
+      "views": 538,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812694309449&type=32&idx=5&tkn=kMmi_PwlqqRmfdxrQUgozybHOAU&fn=external_8"
+    },
+    {
+      "video_id": "1829431478857",
+      "title_raw": "S02E08 Bobby's Birthday Bash",
+      "duration_raw": "19:47",
+      "season_number": 2,
+      "episode_number": 8,
+      "quality": "480p",
+      "views": 398,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812699028041&type=32&idx=12&tkn=5HnGAfnZppa1XJlC6rkidOA-Lbk&fn=external_8"
+    },
+    {
+      "video_id": "1829431151177",
+      "title_raw": "S03E01 E Diente de Bobby´s",
+      "duration_raw": "21:15",
+      "season_number": 3,
+      "episode_number": 1,
+      "quality": "480p",
+      "views": 448,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812689918537&type=32&idx=14&tkn=9X4hwbS74zcFj5u-zzh4UPEl8FQ&fn=external_8"
+    },
+    {
+      "video_id": "1829432068681",
+      "title_raw": "S03E02 Bobby´s Big Move",
+      "duration_raw": "21:11",
+      "season_number": 3,
+      "episode_number": 2,
+      "quality": "480p",
+      "views": 395,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812713511497&type=32&idx=8&tkn=AQXvlkDeOc1FKxy3rzdIwQKd4tk&fn=external_8"
+    },
+    {
+      "video_id": "1829431347785",
+      "title_raw": "S03E03 Bad News Bobby´s",
+      "duration_raw": "21:19",
+      "season_number": 3,
+      "episode_number": 3,
+      "quality": "480p",
+      "views": 421,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812695489097&type=32&idx=10&tkn=ZQu3-dcIVKOQc_2LhqKpssNGgbI&fn=external_8"
+    },
+    {
+      "video_id": "1829431544393",
+      "title_raw": "S03E04 - Quem Quer Nadar Comigo",
+      "duration_raw": "21:15",
+      "season_number": 3,
+      "episode_number": 4,
+      "quality": "480p",
+      "views": 422,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812700797513&type=32&idx=3&tkn=PgN6OTVLLPmKYt5V65ZbzEOaz4E&fn=external_8"
+    },
+    {
+      "video_id": "1829432986185",
+      "title_raw": "S03E05 The Play's the Thing",
+      "duration_raw": "21:08",
+      "season_number": 3,
+      "episode_number": 5,
+      "quality": "480p",
+      "views": 387,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812737366601&type=32&idx=10&tkn=wOLIzal19UmMjDtEOwdW5OJiBjA&fn=external_8"
+    },
+    {
+      "video_id": "1829433379401",
+      "title_raw": "S03E06 Fish Tales",
+      "duration_raw": "21:11",
+      "season_number": 3,
+      "episode_number": 6,
+      "quality": "480p",
+      "views": 374,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812750015049&type=32&idx=2&tkn=BfJ20392OaVzDUyLGEtzieYuZn4&fn=external_8"
+    },
+    {
+      "video_id": "1829432724041",
+      "title_raw": "S03E07 The Music",
+      "duration_raw": "21:10",
+      "season_number": 3,
+      "episode_number": 7,
+      "quality": "480p",
+      "views": 363,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812730485321&type=32&idx=6&tkn=kZXNNP5FsF79ZheNhgPucK6vfEU&fn=external_8"
+    },
+    {
+      "video_id": "1829431413321",
+      "title_raw": "S03E08 Misery Loves Company",
+      "duration_raw": "21:08",
+      "season_number": 3,
+      "episode_number": 8,
+      "quality": "480p",
+      "views": 368,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812697848393&type=32&idx=4&tkn=j3jZ75RV3gey9YpYb150LPTqX-k&fn=external_8"
+    },
+    {
+      "video_id": "1829433182793",
+      "title_raw": "S03E09 Ill Effects",
+      "duration_raw": "21:16",
+      "season_number": 3,
+      "episode_number": 9,
+      "quality": "480p",
+      "views": 688,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812744247881&type=32&idx=2&tkn=wqHR79-53jZWH1foBaeRYFWfotE&fn=external_8"
+    },
+    {
+      "video_id": "1829431806537",
+      "title_raw": "S03E10 Bobby Phone Home",
+      "duration_raw": "21:17",
+      "season_number": 3,
+      "episode_number": 10,
+      "quality": "720p",
+      "views": 469,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812707285577&type=32&idx=4&tkn=TZXDg2N1oI-OLsJLIsshQwWd7H4&fn=external_8"
+    },
+    {
+      "video_id": "1829431937609",
+      "title_raw": "S03E11 Baby Brother Blues",
+      "duration_raw": "21:15",
+      "season_number": 3,
+      "episode_number": 11,
+      "quality": "480p",
+      "views": 424,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812711021129&type=32&idx=5&tkn=1CYDfGElzBU9EEOPqnBDK0edjl0&fn=external_8"
+    },
+    {
+      "video_id": "1829433051721",
+      "title_raw": "S03E12 Bobby's Girl",
+      "duration_raw": "21:12",
+      "season_number": 3,
+      "episode_number": 12,
+      "quality": "720p",
+      "views": 573,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812739529289&type=32&idx=9&tkn=q_BblFJvf-MI-yQ5IJ-b1ILvGzE&fn=external_8"
+    },
+    {
+      "video_id": "1829432527433",
+      "title_raw": "S04E02 Uncle Teds New Friend",
+      "duration_raw": "21:15",
+      "season_number": 4,
+      "episode_number": 2,
+      "quality": "720p",
+      "views": 363,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812723997257&type=32&idx=11&tkn=LU4jAdQ0X9r34y1UrCyrVQaI6aw&fn=external_8"
+    },
+    {
+      "video_id": "1829433510473",
+      "title_raw": "S04E03 The World Accordion to Bobby",
+      "duration_raw": "21:15",
+      "season_number": 4,
+      "episode_number": 3,
+      "quality": "720p",
+      "views": 468,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812754930249&type=32&idx=6&tkn=zBAB8UDyoVonVKm8KU5dUNEPRx0&fn=external_8"
+    },
+    {
+      "video_id": "1829431675465",
+      "title_raw": "S04E04 Bobby Ties the Knot",
+      "duration_raw": "21:12",
+      "season_number": 4,
+      "episode_number": 4,
+      "quality": "480p",
+      "views": 431,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812703681097&type=32&idx=2&tkn=PTrpd21CHBNC4e8H2EkA-lEiNGY&fn=external_8"
+    },
+    {
+      "video_id": "1829433444937",
+      "title_raw": "S04E05 Jets, Choo-Choos, and Cars",
+      "duration_raw": "21:14",
+      "season_number": 4,
+      "episode_number": 5,
+      "quality": "720p",
+      "views": 385,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812752636489&type=32&idx=4&tkn=dAmri_gPuh0aKilauxZ1Yhxy2xU&fn=external_8"
+    },
+    {
+      "video_id": "1829433313865",
+      "title_raw": "S04E06 Bobby Karate",
+      "duration_raw": "21:14",
+      "season_number": 4,
+      "episode_number": 6,
+      "quality": "720p",
+      "views": 583,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812748048969&type=32&idx=13&tkn=-zo_GDVGGmpIXlESNpVUWJkpCQc&fn=external_8"
+    },
+    {
+      "video_id": "1829432658505",
+      "title_raw": "S04E07 A Day With Dad",
+      "duration_raw": "21:12",
+      "season_number": 4,
+      "episode_number": 7,
+      "quality": "720p",
+      "views": 356,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812728257097&type=32&idx=6&tkn=7FUNq2d4eoT_Kl9t7eHo39_6PGM&fn=external_8"
+    },
+    {
+      "video_id": "1829432920649",
+      "title_raw": "S04E08 Psycho Bobby",
+      "duration_raw": "21:13",
+      "season_number": 4,
+      "episode_number": 8,
+      "quality": "720p",
+      "views": 456,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812734745161&type=32&idx=6&tkn=YNq7O5dak-WF2Q3KPfMhXHPT9CY&fn=external_8"
+    },
+    {
+      "video_id": "1829431872073",
+      "title_raw": "S04E09 The Smell of a Tattletales",
+      "duration_raw": "21:14",
+      "season_number": 4,
+      "episode_number": 9,
+      "quality": "720p",
+      "views": 383,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812708923977&type=32&idx=6&tkn=tCz6St0KMm8qxUM04AaDa2EY6y8&fn=external_8"
+    },
+    {
+      "video_id": "1829432789577",
+      "title_raw": "S04E11 One Clump or Two",
+      "duration_raw": "21:12",
+      "season_number": 4,
+      "episode_number": 11,
+      "quality": "720p",
+      "views": 670,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812731796041&type=32&idx=5&tkn=oJIiz1dyLhP6PT6Yv8pUqTGdn2g&fn=external_8"
+    }
+  ]
+}
