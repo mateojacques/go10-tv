@@ -1,0 +1,23 @@
+{
+  "title": "Inuyasha: El castillo de los sueños en el espejo",
+  "type": "movie",
+  "added": "2026-10-02",
+  "query": "inuyasha latino",
+  "year": "2002",
+  "studio": "",
+  "source": "Inuyasha",
+  "quality": "720p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Fantasía",
+  "videos": [
+    {
+      "video_id": "35391343225",
+      "title_raw": "Inuyasha Movie 2 Latino (1)",
+      "duration_raw": "1:39:04",
+      "views": 9694,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=64224955001&type=32&idx=3&tkn=WAcCNP2rYRUcWlfs8o6-QmrWgGU&fn=external_8"
+    }
+  ]
+}

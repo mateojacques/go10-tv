@@ -1,0 +1,23 @@
+{
+  "title": "Inuyasha: El amor que trasciende el tiempo",
+  "type": "movie",
+  "added": "2026-10-02",
+  "query": "inuyasha latino",
+  "year": "2001",
+  "studio": "",
+  "source": "Inuyasha",
+  "quality": "720p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Fantasía",
+  "videos": [
+    {
+      "video_id": "35372403321",
+      "title_raw": "Inuyasha Movie 1 Latino (1)",
+      "duration_raw": "1:40:02",
+      "views": 11819,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=64207391353&type=32&idx=13&tkn=llEbqwPWmnQFggpLgVsCT8wnATY&fn=external_8"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Inuyasha: La espada que domina el mundo",
+  "type": "movie",
+  "added": "2026-10-02",
+  "query": "inuyasha latino",
+  "year": "2003",
+  "studio": "",
+  "source": "Inuyasha",
+  "quality": "720p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Fantasía",
+  "videos": [
+    {
+      "video_id": "35372534393",
+      "title_raw": "Inuyasha Movie 3 Latino (1)",
+      "duration_raw": "1:39:07",
+      "views": 3139,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=64226790009&type=32&idx=8&tkn=4Y68Zg0ZSdCGcFMOjmYSXFkEWbo&fn=external_8"
+    }
+  ]
+}

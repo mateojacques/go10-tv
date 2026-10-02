@@ -1,0 +1,23 @@
+{
+  "title": "Inuyasha: Fuego en la isla mística",
+  "type": "movie",
+  "added": "2026-10-02",
+  "query": "inuyasha latino",
+  "year": "2004",
+  "studio": "",
+  "source": "Inuyasha",
+  "quality": "720p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Fantasía",
+  "videos": [
+    {
+      "video_id": "35411135097",
+      "title_raw": "Inuyasha Movie 4 Latino (1)",
+      "duration_raw": "1:28:07",
+      "views": 19662,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=64227838585&type=32&idx=5&tkn=jyiGPusdW3lwA3L1wQQgRNd52Cc&fn=external_8"
+    }
+  ]
+}
