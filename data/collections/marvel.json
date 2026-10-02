@@ -1,0 +1,15 @@
+{
+  "id": "marvel",
+  "name": "Marvel",
+  "order": 16,
+  "logo": "assets/collections/marvel/logo.svg",
+  "tile": {
+    "color": "#ed1d24"
+  },
+  "titles": [
+    "spider-man-la-serie-animada",
+    "15434395880174",
+    "15605367114478",
+    "spidey-y-sus-sorprendentes-amigos"
+  ]
+}

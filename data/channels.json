@@ -16,6 +16,7 @@
     { "id": "netflix", "number": 12, "collection": "netflix" },
     { "id": "prime-video", "number": 13, "collection": "prime-video" },
     { "id": "barbie", "number": 14, "collection": "barbie" },
-    { "id": "monster-high", "number": 15, "collection": "monster-high" }
+    { "id": "monster-high", "number": 15, "collection": "monster-high" },
+    { "id": "marvel", "number": 16, "collection": "marvel" }
   ]
 }
