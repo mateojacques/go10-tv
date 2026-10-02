@@ -6,7 +6,12 @@ export type PlayerEvent =
   | { kind: 'paused' }
   | { kind: 'ended'; time: number }
 
-/** Everything the Player needs to know about one embed provider. */
+/**
+ * Everything the Player needs to know about one embed provider.
+ *
+ * Never add a provider whose player shows pop-up ads (new tabs or windows,
+ * ad overlays). See "Player providers: no pop-up ads, ever" in the README.
+ */
 export interface EmbedProvider {
   /** The only origin whose messages are trusted, and the target for commands. */
   origin: string

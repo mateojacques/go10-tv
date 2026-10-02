@@ -83,6 +83,26 @@ stops for 600 ms, black with the channel number meanwhile. Elsewhere, a
 channel that stalls (Safari's autoplay block, an ok.ru ad) shows "Tocá para
 ver" and lets taps through to the embed.
 
+### Player providers: no pop-up ads, ever
+
+**No player that contains pop-up ads is ever allowed in this app.** That
+covers ads that open new tabs or windows, click-hijacking overlays and
+"Close Ad" interstitials. It applies to every platform (web, Tizen,
+Android, Aniyomi) and to every source a title is ingested from. The ok.ru
+embed has never shown an ad on any device we've tested; a new provider has
+to meet that bar.
+
+Rejected for this reason:
+
+- **rpmvid** (`cubeembed.rpmvid.com`, the player lacartoons.com uses): on
+  2026-10-02, a single test embed opened two pop-up ads. Its bundle also
+  carries `playerAds` / `Push Ads` code.
+- **filemoon**: an ad-driven host, ruled out for the same reason.
+
+Before adding a provider to `packages/core/src/player/providers/`, load its
+embed in a real browser and confirm that no pop-ups or ad overlays appear.
+If it shows any, drop the provider. Don't try to block or hide the ads.
+
 ### External titles (TMDB + vidlove) — optional
 
 Search can reach beyond the catalog: with this on, results also include
