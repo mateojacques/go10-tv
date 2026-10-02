@@ -1,0 +1,23 @@
+{
+  "title": "Los Superamigos",
+  "type": "movie",
+  "added": "2026-10-02",
+  "query": "link: ok.ru/video/2016043207229",
+  "year": "1978",
+  "studio": "DC",
+  "source": "Películas y Sagas Dibujos-Infantil-Familiar",
+  "quality": "720p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Superhéroes",
+  "videos": [
+    {
+      "video_id": "2016043207229",
+      "title_raw": "1978-los superamigos (La liga de la justicia)",
+      "duration_raw": "2:47:03",
+      "views": 1300,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1070965393981&type=37&idx=11&tkn=uxikto7LYg2eROCgsZuRIzprL-k&fn=external_7"
+    }
+  ]
+}

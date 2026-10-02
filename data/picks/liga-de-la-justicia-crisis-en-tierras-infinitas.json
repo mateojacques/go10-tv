@@ -1,0 +1,23 @@
+{
+  "title": "Liga de la Justicia: Crisis en Tierras Infinitas",
+  "type": "movie",
+  "added": "2026-10-02",
+  "query": "link: ok.ru/video/7237452368581",
+  "year": "2024",
+  "studio": "DC",
+  "source": "Pelismas",
+  "quality": "720p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Superhéroes",
+  "videos": [
+    {
+      "video_id": "7237452368581",
+      "title_raw": "Liga de la Justicia - Crisis en Tierras Infinitas",
+      "duration_raw": "4:37:31",
+      "views": 5900,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8005982554821&type=37&idx=2&tkn=LBSDclNdhGGAZ6sH4NRuAx2VID8&fn=external_7"
+    }
+  ]
+}

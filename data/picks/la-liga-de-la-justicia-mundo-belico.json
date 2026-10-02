@@ -1,0 +1,23 @@
+{
+  "title": "La Liga de la Justicia: Mundo Bélico",
+  "type": "movie",
+  "added": "2026-10-02",
+  "query": "link: ok.ru/video/16572229814880",
+  "year": "2023",
+  "studio": "DC",
+  "source": "BOB ESPONJA",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Superhéroes",
+  "videos": [
+    {
+      "video_id": "16572229814880",
+      "title_raw": "La Liga de la Justicia - Mundo Bélico (2023)  [1080P][Dual-Audio][BD]",
+      "duration_raw": "1:29:28",
+      "views": 369,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20066337884768&type=37&idx=1&scl=4&tkn=qNZM9EMT3lzYXPwYFuKylMrGV1E&fn=external_8"
+    }
+  ]
+}
