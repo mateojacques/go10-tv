@@ -1,0 +1,23 @@
+{
+  "title": "Nacho Libre",
+  "type": "movie",
+  "added": "2026-10-02",
+  "query": "nacho libre 2006",
+  "year": "2006",
+  "studio": "Nickelodeon",
+  "source": "cine comedia",
+  "quality": "720p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Comedia",
+  "genre_secondary": "",
+  "videos": [
+    {
+      "video_id": "6516217612927",
+      "title_raw": "Nacho Libre (2006)",
+      "duration_raw": "1:32:08",
+      "views": 18200,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7130848955007&type=37&idx=3&tkn=0Z3D-50qXPrGtbAVteGMdL0OrEM&fn=external_7"
+    }
+  ]
+}
