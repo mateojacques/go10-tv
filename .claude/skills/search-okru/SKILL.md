@@ -76,7 +76,9 @@ Rank candidates by, in order:
 2. **Right language.** Title tags (`language_hints`) are strong evidence;
    `description_hints` are weak (uploaders list every language they post).
    `latino` ≠ `castellano`: reject Spain dubs for `latino`. For `original`,
-   prefer Spanish subtitles.
+   prefer Spanish subtitles. **Never analyze a video's audio** (samples,
+   loudness comparisons, speech recognition) to work out its language: it's
+   complex and unreliable. If the tags don't settle it, stop and ask (below).
 3. **Quality** from `check`: 4K > 1440p > 1080p > 720p > rest. Reject CAM/TS.
 4. **Series consistency.** One source for the whole show beats mixing
    uploaders; never mix dubs within a series. Build a season × episode
@@ -84,8 +86,11 @@ Rank candidates by, in order:
 5. **Tiebreaks:** views, uploader with many matching uploads.
 
 Stop and ask the user only when the choice isn't yours: two different works
-match, the requested language doesn't exist, or a series can't be covered
-without mixing dubs. Otherwise pick and keep going.
+match, the requested language doesn't exist, a series can't be covered
+without mixing dubs, or the best candidates' language is unclear. For unclear
+language, list the candidates as `https://ok.ru/video/<id>` links with
+uploader, duration and resolution, and let the user check them by hand.
+Otherwise pick and keep going.
 
 ## 4. Ingest
 
