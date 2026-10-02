@@ -1,0 +1,320 @@
+{
+  "title": "Drake y Josh",
+  "type": "series",
+  "added": "2026-10-02",
+  "query": "https://ok.ru/video/c72258430",
+  "year": "2004",
+  "studio": "Nickelodeon",
+  "source": "Goten Bel",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Comedia",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "16874989488766",
+      "title_raw": "Drake y Josh S02E02 La Guitarra",
+      "duration_raw": "24:32",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224256445054&type=32&idx=2&scl=4&tkn=M6l76GY5iMJzVVzmOn8-Lrjpi8I&fn=external_8",
+      "season_number": 2,
+      "episode_number": 2
+    },
+    {
+      "video_id": "16874989685374",
+      "title_raw": "Drake y Josh S02E03 Empleo De Pelicula",
+      "duration_raw": "24:10",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224282790526&type=32&idx=2&scl=4&tkn=vS0BTroe9u5iTVGPR2Rz5qNB_JY&fn=external_8",
+      "season_number": 2,
+      "episode_number": 3
+    },
+    {
+      "video_id": "16874992634494",
+      "title_raw": "Drake y Josh S02E04 Futbol",
+      "duration_raw": "24:35",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224563087998&type=32&idx=0&scl=4&tkn=HZvdBYMBl1cS2UoHn4ImhKWTHBM&fn=external_8",
+      "season_number": 2,
+      "episode_number": 4
+    },
+    {
+      "video_id": "16874992700030",
+      "title_raw": "Drake y Josh S02E07 Pequena Diva",
+      "duration_raw": "24:36",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224573770366&type=32&idx=0&scl=4&tkn=f2yIYdXIISrer_i2Qx-rT4IhLOg&fn=external_8",
+      "season_number": 2,
+      "episode_number": 7
+    },
+    {
+      "video_id": "16874993945214",
+      "title_raw": "Drake y Josh S02E09 Los Hermanos Caradura",
+      "duration_raw": "24:35",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224741345918&type=32&idx=3&scl=4&tkn=Kdoz1ztMnFs2NnvWcrmUxp46QVY&fn=external_8",
+      "season_number": 2,
+      "episode_number": 9
+    },
+    {
+      "video_id": "16874992503422",
+      "title_raw": "Drake y Josh S02E13 Drew Y Jerry",
+      "duration_raw": "24:36",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224550636158&type=32&idx=3&scl=4&tkn=QkLtgE3D57nIgeyvzXi7gsS46dg&fn=external_8",
+      "season_number": 2,
+      "episode_number": 13
+    },
+    {
+      "video_id": "16874992110206",
+      "title_raw": "Drake y Josh S02E14 El Consejo De Honor",
+      "duration_raw": "24:36",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224514263678&type=32&idx=0&scl=4&tkn=SVq8hAnA9fLgRWJ23cnMWfzCjVo&fn=external_8",
+      "season_number": 2,
+      "episode_number": 14
+    },
+    {
+      "video_id": "16874988833406",
+      "title_raw": "Drake y Josh S03E05 La Aventura",
+      "duration_raw": "24:35",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224227412606&type=32&idx=2&scl=4&tkn=wF7c1uRki9iRW6AtD6KqsORVscY&fn=external_8",
+      "season_number": 3,
+      "episode_number": 5
+    },
+    {
+      "video_id": "16874990275198",
+      "title_raw": "Drake y Josh S03E06 De Caceria",
+      "duration_raw": "24:36",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224335284862&type=32&idx=0&scl=4&tkn=WIMlYVpk_0SZ03SDclxTkSk1KM4&fn=external_8",
+      "season_number": 3,
+      "episode_number": 6
+    },
+    {
+      "video_id": "16874992896638",
+      "title_raw": "Drake y Josh S03E09 El Dedo De Espuma",
+      "duration_raw": "24:36",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224602540670&type=32&idx=1&scl=4&tkn=iM8PwTJ7Jh6Ih3RVj0hg_5W_UsY&fn=external_8",
+      "season_number": 3,
+      "episode_number": 9
+    },
+    {
+      "video_id": "16874990406270",
+      "title_raw": "Drake y Josh S03E11 Suerte Ovejuna",
+      "duration_raw": "24:36",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224364579454&type=32&idx=0&scl=4&tkn=09rNEM50fNZrtVJ-98Wm-7ixqVQ&fn=external_8",
+      "season_number": 3,
+      "episode_number": 11
+    },
+    {
+      "video_id": "16874993617534",
+      "title_raw": "Drake y Josh S03E13 El Pupilo",
+      "duration_raw": "23:48",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224684788350&type=32&idx=2&scl=4&tkn=uHtiOxSasBtpZhqGaVXUDjbRhDo&fn=external_8",
+      "season_number": 3,
+      "episode_number": 13
+    },
+    {
+      "video_id": "16874991979134",
+      "title_raw": "Drake y Josh S03E14 El Ladron Del Cine",
+      "duration_raw": "23:46",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224492309118&type=32&idx=2&scl=4&tkn=AOK9c76l0WcmKchnGxnZV4qiNBk&fn=external_8",
+      "season_number": 3,
+      "episode_number": 14
+    },
+    {
+      "video_id": "16874990013054",
+      "title_raw": "Drake y Josh S03E15 El Demonizador",
+      "duration_raw": "23:46",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224315886206&type=32&idx=2&scl=4&tkn=quMB73s8EAwSKnZDjyLcLH2WN1Q&fn=external_8",
+      "season_number": 3,
+      "episode_number": 15
+    },
+    {
+      "video_id": "16874990668414",
+      "title_raw": "Drake y Josh S03E16 Invasion Extraterrestre",
+      "duration_raw": "23:46",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224360581758&type=32&idx=2&scl=4&tkn=reFL6LThXV5tBRfJRg4oh2igJjs&fn=external_8",
+      "season_number": 3,
+      "episode_number": 16
+    },
+    {
+      "video_id": "16874993748606",
+      "title_raw": "Drake y Josh S03E20 Drake Y Josh Van A Hollywood",
+      "duration_raw": "23:45",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224723061374&type=32&idx=2&scl=4&tkn=iBlQ6BovvLN5uhTi4RQ8e17lENY&fn=external_8",
+      "season_number": 3,
+      "episode_number": 20
+    },
+    {
+      "video_id": "16874990865022",
+      "title_raw": "Drake y Josh S04E01",
+      "duration_raw": "23:29",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224380897918&type=32&idx=2&scl=4&tkn=5QpOSEUywGOej0tg27IM5rFl4kI&fn=external_8",
+      "season_number": 4,
+      "episode_number": 1,
+      "quality": "360p"
+    },
+    {
+      "video_id": "16874992765566",
+      "title_raw": "Drake y Josh S04E02",
+      "duration_raw": "22:21",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224584256126&type=32&idx=2&scl=4&tkn=0VlyTnTtSyFFu5TZnmlxGzWwOFw&fn=external_8",
+      "season_number": 4,
+      "episode_number": 2,
+      "quality": "360p"
+    },
+    {
+      "video_id": "16874993027710",
+      "title_raw": "Drake y Josh S04E03",
+      "duration_raw": "23:30",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224614009470&type=32&idx=1&scl=4&tkn=9nqLzA2b1E0JaZ35k2HTJSj5BKw&fn=external_8",
+      "season_number": 4,
+      "episode_number": 3,
+      "quality": "480p"
+    },
+    {
+      "video_id": "16874990930558",
+      "title_raw": "Drake y Josh S04E05",
+      "duration_raw": "23:29",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224393218686&type=32&idx=2&scl=4&tkn=M_A1Z2dcgHc6hjzUmSjlIY6AEBw&fn=external_8",
+      "season_number": 4,
+      "episode_number": 5,
+      "quality": "360p"
+    },
+    {
+      "video_id": "16874991127166",
+      "title_raw": "Drake y Josh S04E06",
+      "duration_raw": "23:28",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224415042174&type=32&idx=2&scl=4&tkn=PQlm7CmebgVsN91ving4mCUmJUw&fn=external_8",
+      "season_number": 4,
+      "episode_number": 6,
+      "quality": "360p"
+    },
+    {
+      "video_id": "16874991258238",
+      "title_raw": "Drake y Josh S04E07",
+      "duration_raw": "23:29",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224426773118&type=32&idx=3&scl=4&tkn=ph2CwHHgvXLOa4nJ4FzgTNz5PkM&fn=external_8",
+      "season_number": 4,
+      "episode_number": 7,
+      "quality": "360p"
+    },
+    {
+      "video_id": "16874991454846",
+      "title_raw": "Drake y Josh S04E08",
+      "duration_raw": "23:34",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224438307454&type=32&idx=0&scl=4&tkn=LY5CghLHoBz3P9pIiQ-LaFD1WvQ&fn=external_8",
+      "season_number": 4,
+      "episode_number": 8,
+      "quality": "480p"
+    },
+    {
+      "video_id": "16874992175742",
+      "title_raw": "Drake y Josh S04E09",
+      "duration_raw": "23:30",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224527239806&type=32&idx=1&scl=4&tkn=Hu7zItImaMqtcAHxbf58Py40-dI&fn=external_8",
+      "season_number": 4,
+      "episode_number": 9,
+      "quality": "360p"
+    },
+    {
+      "video_id": "16874991520382",
+      "title_raw": "Drake y Josh S04E10",
+      "duration_raw": "22:03",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224453118590&type=32&idx=0&scl=4&tkn=jTUzXo63ctKXe3OdrbJ4q3Gf_VI&fn=external_8",
+      "season_number": 4,
+      "episode_number": 10,
+      "quality": "360p"
+    },
+    {
+      "video_id": "16874992831102",
+      "title_raw": "Drake y Josh S04E11",
+      "duration_raw": "23:28",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224595593854&type=32&idx=3&scl=4&tkn=j93vMsZ8eNzKOMARkbcDmJj1dTQ&fn=external_8",
+      "season_number": 4,
+      "episode_number": 11,
+      "quality": "360p"
+    },
+    {
+      "video_id": "16874993093246",
+      "title_raw": "Drake y Josh S04E12",
+      "duration_raw": "23:29",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224621283966&type=32&idx=1&scl=4&tkn=sMtlDBgqoGfn8NCy1eTNkLJU1ak&fn=external_8",
+      "season_number": 4,
+      "episode_number": 12,
+      "quality": "360p"
+    },
+    {
+      "video_id": "16874989423230",
+      "title_raw": "Drake y Josh S04E13",
+      "duration_raw": "23:30",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224249170558&type=32&idx=3&scl=4&tkn=Y19g4R-GD9y2UF1R2h3Ter0pTr4&fn=external_8",
+      "season_number": 4,
+      "episode_number": 13,
+      "quality": "360p"
+    },
+    {
+      "video_id": "16874988964478",
+      "title_raw": "Drake y Josh S04E14",
+      "duration_raw": "23:29",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224233245310&type=32&idx=0&scl=4&tkn=vBwPMR6ZXRSI9PLrzR04zGFAAuU&fn=external_8",
+      "season_number": 4,
+      "episode_number": 14,
+      "quality": "360p"
+    },
+    {
+      "video_id": "16874993158782",
+      "title_raw": "Drake y Josh S04E15",
+      "duration_raw": "23:29",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224631704190&type=32&idx=0&scl=4&tkn=ur082WwcprTs9E-nXrqK-FmXkGQ&fn=external_8",
+      "season_number": 4,
+      "episode_number": 15,
+      "quality": "360p"
+    },
+    {
+      "video_id": "16874994272894",
+      "title_raw": "Drake y Josh S04E17-E18",
+      "duration_raw": "23:28",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224802753150&type=32&idx=2&scl=4&tkn=O-y9jH2OAVMtfq0Njhg9pxMux1g&fn=external_8",
+      "season_number": 4,
+      "episode_number": 17,
+      "quality": "360p"
+    },
+    {
+      "video_id": "16874994469502",
+      "title_raw": "Drake y Josh S04E20",
+      "duration_raw": "23:35",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20224829819518&type=32&idx=2&scl=4&tkn=HC4MmOkysaywtmGPhOgYle1yCKM&fn=external_8",
+      "season_number": 4,
+      "episode_number": 20,
+      "quality": "480p"
+    }
+  ]
+}
