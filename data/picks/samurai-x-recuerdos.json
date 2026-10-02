@@ -1,0 +1,23 @@
+{
+  "title": "Samurai X: Recuerdos",
+  "type": "movie",
+  "added": "2026-10-02",
+  "query": "user links",
+  "year": "1999",
+  "studio": "",
+  "source": "Dabi 1Destroy",
+  "quality": "720p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "13088573885110",
+      "title_raw": "SAMURAI X - TSUIOKUHEN (PELICULA)",
+      "duration_raw": "1:57:44",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYmoZEWtqcNudfU4u94pKkO90AMnyaDy1XvSQxdFYgYKU&fn=external_8"
+    }
+  ]
+}

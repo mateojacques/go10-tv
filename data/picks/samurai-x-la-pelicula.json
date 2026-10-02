@@ -1,0 +1,23 @@
+{
+  "title": "Samurai X: La película",
+  "type": "movie",
+  "added": "2026-10-02",
+  "query": "user links",
+  "year": "1997",
+  "studio": "",
+  "source": "TV CLASICOS",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "3579916126870",
+      "title_raw": "Samurai x- La pelicula",
+      "duration_raw": "1:30:48",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYX83trfDyJHUyjQIT6yMWXpL88Xqnspskm0c9F4I1BnE&fn=external_8"
+    }
+  ]
+}
