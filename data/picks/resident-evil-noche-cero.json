@@ -1,0 +1,23 @@
+{
+  "title": "Resident Evil: Noche Cero",
+  "type": "movie",
+  "added": "2026-10-03",
+  "query": "https://ok.ru/video/17358359366176",
+  "year": "2026",
+  "studio": "",
+  "source": "Peliculas :)",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Terror",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "17358359366176",
+      "title_raw": "Resident Evil Noche Cero (2026)",
+      "duration_raw": "1:26:29",
+      "views": 1129,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYWkXLsaqDwJeOWcRLQwEWl_V7aRZsQNqOGQ2LUpsFIC0&fn=external_7"
+    }
+  ]
+}
