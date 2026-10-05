@@ -144,6 +144,13 @@ def test_explode_season_row_computes_per_chapter_duration_including_open_ended_l
     assert rows[2]["duration_seconds"] == 14909 - 2815  # open-ended: parent's total duration
 
 
+def test_explode_season_row_takes_a_chapters_own_season_number():
+    # One video holding two seasons: its chapters say which season they're in.
+    chapters = [{**THREE_CHAPTERS[0]}, {**THREE_CHAPTERS[1], "season_number": 2}]
+    rows = parse_catalog.explode_season_row(SEASON_ROW, {"111": chapters})
+    assert [r["season_number"] for r in rows] == ["1", "2"]
+
+
 def test_explode_season_row_ignores_a_non_season_row():
     episode_row = {**SEASON_ROW, "type": "episode", "video_id": "111"}
     assert parse_catalog.explode_season_row(episode_row, {"111": THREE_CHAPTERS}) == [episode_row]

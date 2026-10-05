@@ -125,6 +125,14 @@ def test_pack_title_prefers_season_label():
     assert build_episodes(group)[0]["title"] == "Parte final"
 
 
+def test_pack_spanning_seasons_is_titled_with_all_of_them():
+    group = group_rows([
+        chapter("900", 1, 1, 0, 100),
+        chapter("900", 2, 2, 100, 100),
+    ])["s"]
+    assert [(e["season"], e["title"]) for e in build_episodes(group)] == [(1, "Temporadas 1 y 2")]
+
+
 def test_season_row_without_chapters_is_one_pack_episode():
     group = group_rows([
         row(video_id="31", type="season", series_id="ldr", series_title="LDR",

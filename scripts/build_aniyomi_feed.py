@@ -80,9 +80,13 @@ def _full_duration(rows):
     return max(chapter_ends) if chapter_ends else _int(rows[0]["duration_seconds"])
 
 
-def _pack_title(first, season):
+def _pack_title(rows, season):
+    first = rows[0]
     if first["season_label"]:
         return first["season_label"]
+    seasons = sorted({_int(r["season_number"]) for r in rows} - {None})
+    if len(seasons) > 1:
+        return f"Temporadas {', '.join(map(str, seasons[:-1]))} y {seasons[-1]}"
     if season is not None:
         return f"Temporada {season}"
     return first["series_title"] or first["title"]
@@ -104,7 +108,7 @@ def build_episodes(group):
         if _is_pack(rows):
             packs_per_season[season] = packs_per_season.get(season, 0) + 1
             number = packs_per_season[season]
-            title = _pack_title(first, season)
+            title = _pack_title(rows, season)
             pack = True
         else:
             number = _int(first["episode_number"])

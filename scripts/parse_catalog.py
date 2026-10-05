@@ -300,6 +300,8 @@ def explode_season_row(row, chapters):
     All chapters of one video share its `video_id`/`embed_url`/`video_url`/
     `thumbnail`; only `episode_number`, `chapter_start_seconds`,
     `chapter_end_seconds`, `duration_seconds`, and `title` vary per chapter.
+    A chapter's own `season_number`, when set, overrides the row's (one
+    video holding several seasons).
     The final chapter's `end_seconds` may be `None` (open-ended, plays out
     to ok.ru's real `ended` event) -- its duration is computed against the
     parent row's own total `duration_seconds`.
@@ -317,6 +319,7 @@ def explode_season_row(row, chapters):
         new_row.update({
             "type": "episode",
             "episode_number": str(chapter["episode_number"]),
+            "season_number": str(chapter.get("season_number", row["season_number"])),
             "chapter_start_seconds": str(start),
             "chapter_end_seconds": "" if end is None else str(end),
             "duration_seconds": (end if end is not None else total_duration) - start,
