@@ -1549,6 +1549,10 @@
       "tmdb": "movie/43956",
       "backdrop": "/8rrUYhHEq3KKWP0kZjl0OaBm3D2.jpg"
     },
+    "17358359366176": {
+      "tmdb": "movie/1423191",
+      "backdrop": "/3icyRAqgakNcQn6aDVz9libFmBA.jpg"
+    },
     "2016043207229": {
       "tmdb": "tv/10610",
       "backdrop": "/imjpzPXwiCSNCuJESfjMDZiYfjp.jpg"
@@ -2240,6 +2244,10 @@
     "supercampeones": {
       "tmdb": "tv/25707",
       "backdrop": "/bwQHVs25LNYpPzfvDIYdVJjk2fW.jpg"
+    },
+    "terminator-las-cronicas-de-sarah-connor": {
+      "tmdb": "tv/433",
+      "backdrop": "/dyJVcCJnONxLlFpTVwUE2gA12FX.jpg"
     },
     "terminator-zero": {
       "tmdb": "tv/239287",

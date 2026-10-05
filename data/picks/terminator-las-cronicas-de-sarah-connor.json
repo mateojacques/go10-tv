@@ -1,0 +1,20 @@
+{
+  "title": "Terminator: Las crónicas de Sarah Connor",
+  "type": "series",
+  "added": "2026-10-05",
+  "query": "https://ok.ru/video/15789302549230",
+  "year": "2008",
+  "studio": "WarnerBros",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Ciencia Ficción",
+  "genre_secondary": "Acción",
+  "videos": [
+    {"video_id": "15789302549230", "season_number": 1,
+     "title_raw": "Terminator: Las crónicas de Sarah Connor - Temporada 1 y 2 [1080p] [Español]",
+     "duration_raw": "22:40:03", "views": 1500,
+     "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYYHs1lu_ZE4kRCsR1XRdWRVgrdtTjMMSamTzwLpWDh_o&fn=external_8"}
+  ]
+}
