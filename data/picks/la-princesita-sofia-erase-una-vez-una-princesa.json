@@ -1,0 +1,23 @@
+{
+  "title": "La princesita Sofía: Érase una vez una princesa",
+  "type": "movie",
+  "added": "2026-10-05",
+  "query": "https://ok.ru/video/c60112541",
+  "year": "2012",
+  "studio": "Disney",
+  "source": "princesita sofia español latino",
+  "quality": "360p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Infantil",
+  "genre_secondary": "Animación",
+  "videos": [
+    {
+      "video_id": "15724021353117",
+      "title_raw": "La Princesa Sofía Érase una vez una princesa 2012 Pelixia",
+      "duration_raw": "47:35",
+      "views": 115,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17770407529117&type=32&idx=2&tkn=udwzJN6F-fwy27mCf07Z5nSbCzw&fn=external_8"
+    }
+  ]
+}

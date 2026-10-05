@@ -1,0 +1,298 @@
+{
+  "title": "El Principito",
+  "type": "series",
+  "added": "2026-10-05",
+  "query": "https://ok.ru/video/c22763956",
+  "year": "2010",
+  "studio": "",
+  "source": "El Principito Capítulos Completos en Español 🇲🇽",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Aventura",
+  "videos": [
+    {
+      "video_id": "9356631411380",
+      "season_number": 1,
+      "episode_number": 2,
+      "title_raw": "El Principito | Episodio 2 | El Planeta Del Tiempo Parte 2 | Capítulos Completos",
+      "duration_raw": "21:33",
+      "views": 143,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7598347258548&type=32&idx=9&tkn=0DcDY5dwh_m00yz86G2VYgjJqm4&fn=external_8"
+    },
+    {
+      "video_id": "9356673878708",
+      "season_number": 1,
+      "episode_number": 3,
+      "title_raw": "El Principito | Episodio 3 | El Planeta Del Pájaro De Fuego Parte 1 | Capítulos Completos",
+      "duration_raw": "22:47",
+      "views": 77,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7598356236980&type=32&idx=10&tkn=AN0l2fcxdcYntzD5HRP5HW-BNQQ&fn=external_8"
+    },
+    {
+      "video_id": "9399153265332",
+      "season_number": 1,
+      "episode_number": 4,
+      "title_raw": "El Principito | Episodio 4 | El Planeta Del Pájaro De Fuego Parte 2 | Capítulos Completos",
+      "duration_raw": "22:47",
+      "views": 68,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7606181825204&type=32&idx=8&tkn=bHdVPonB7j9y33QOrZILZn9nBmY&fn=external_8"
+    },
+    {
+      "video_id": "9399189637812",
+      "season_number": 1,
+      "episode_number": 5,
+      "title_raw": "El Principito | Episodio 5 | El Planeta De Los Vientos Parte 1 | Capítulos Completos",
+      "duration_raw": "21:39",
+      "views": 58,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7606184643252&type=32&idx=8&tkn=GbfuuaeGm2W1zpw_i6K-L1ueyOo&fn=external_8"
+    },
+    {
+      "video_id": "9430040644276",
+      "season_number": 1,
+      "episode_number": 6,
+      "title_raw": "El Principito | Episodio 6 | El Planeta De Los Vientos Parte 2 | Capítulos Completos",
+      "duration_raw": "22:30",
+      "views": 63,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7611336100532&type=32&idx=12&tkn=2khMBycAaAAb1R9XIewZIplIXR0&fn=external_8"
+    },
+    {
+      "video_id": "9430064564916",
+      "season_number": 1,
+      "episode_number": 7,
+      "title_raw": "El Principito | Episodio 7 | El Planeta De La Música Parte 1 | Capítulos Completos",
+      "duration_raw": "22:47",
+      "views": 79,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7611337345716&type=32&idx=14&tkn=f8C_pnD8DkSkWg7Fi0jAn5muYFo&fn=external_8"
+    },
+    {
+      "video_id": "9448870447796",
+      "season_number": 1,
+      "episode_number": 8,
+      "title_raw": "El Principito | Episodio 8 | El Planeta De La Música Parte 2 | Capítulos Completos",
+      "duration_raw": "22:46",
+      "views": 62,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7630564821684&type=32&idx=6&tkn=8OWFnd0NTala2V3kWTUpXFs2WVM&fn=external_8"
+    },
+    {
+      "video_id": "9448900135604",
+      "season_number": 1,
+      "episode_number": 9,
+      "title_raw": "El Principito | Episodio 9 | El Planeta Del Astrónomo Parte 1 | Capítulos Completos",
+      "duration_raw": "22:47",
+      "views": 58,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7630608730804&type=32&idx=4&tkn=jV-IR_rfjfVYV4itAtfl93C8T10&fn=external_8"
+    },
+    {
+      "video_id": "9453448268468",
+      "season_number": 1,
+      "episode_number": 10,
+      "title_raw": "El Principito | Episodio 10 | El Planeta Del Astrónomo Parte 2 | Capítulos Completos",
+      "duration_raw": "22:46",
+      "views": 68,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7636528138932&type=32&idx=14&tkn=Zt8MDlKMxZ4t6Vcpou9E2d1SDjs&fn=external_8"
+    },
+    {
+      "video_id": "9453449185972",
+      "season_number": 1,
+      "episode_number": 11,
+      "title_raw": "El Principito | Episodio 11 | El Planeta De Jade Parte 1 | Capítulos Completos",
+      "duration_raw": "22:47",
+      "views": 56,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7636531677876&type=32&idx=11&tkn=QqgFZR-_jHOBwrhDNWMKpQu8cNQ&fn=external_8"
+    },
+    {
+      "video_id": "9458167974580",
+      "season_number": 1,
+      "episode_number": 12,
+      "title_raw": "El Principito | Episodio 12 | El Planeta De Jade Parte 2 | Capítulos Completos",
+      "duration_raw": "22:47",
+      "views": 60,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7642450234036&type=32&idx=10&tkn=QGFzjbJA6DJJVgO_-aciXNwvklc&fn=external_8"
+    },
+    {
+      "video_id": "9458169678516",
+      "season_number": 1,
+      "episode_number": 13,
+      "title_raw": "El Principito | Episodio 13 | El Planeta De Los Ojos Parte 1 | Capítulos Completos",
+      "duration_raw": "22:47",
+      "views": 68,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7642456197812&type=32&idx=4&tkn=OhqJjfYUmYncCZczgI3Q4jR1CsQ&fn=external_8"
+    },
+    {
+      "video_id": "9462124120756",
+      "season_number": 1,
+      "episode_number": 14,
+      "title_raw": "El Principito | Episodio 14 | El Planeta De Los Ojos Parte 2 | Capítulos Completos",
+      "duration_raw": "22:47",
+      "views": 67,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7647338957492&type=32&idx=8&tkn=6fqG6I8SKI3HVwbe3jcN3cUZFsc&fn=external_8"
+    },
+    {
+      "video_id": "9462127266484",
+      "season_number": 1,
+      "episode_number": 15,
+      "title_raw": "El Principito | Episodio 15 | El Planeta De Los Amicopes Parte 1 | Capítulos Completos",
+      "duration_raw": "22:47",
+      "views": 71,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7647342889652&type=32&idx=6&tkn=Bsl0HqiCEleEh3NC5A6Rh9SFQVA&fn=external_8"
+    },
+    {
+      "video_id": "9462129887924",
+      "season_number": 1,
+      "episode_number": 16,
+      "title_raw": "El Principito | Episodio 16 | El Planeta De Los Amicopes Parte 2 | Capítulos Completos",
+      "duration_raw": "22:47",
+      "views": 64,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7647346428596&type=32&idx=14&tkn=JjpmAy_K17LKhGw2RwR9KeUJum0&fn=external_8"
+    },
+    {
+      "video_id": "9462134278836",
+      "season_number": 1,
+      "episode_number": 17,
+      "title_raw": "El Principito | Episodio 17 | El Planeta De Los Cubos Parte 1 | Capítulos Completos",
+      "duration_raw": "22:47",
+      "views": 71,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7647353244340&type=32&idx=14&tkn=rYGxgbHYNACdmUu0GxDda6yndNA&fn=external_8"
+    },
+    {
+      "video_id": "9474403011252",
+      "season_number": 1,
+      "episode_number": 18,
+      "title_raw": "El Principito | Episodio 18 | El Planeta De Los Cubos Parte 2 | Capítulos Completos",
+      "duration_raw": "22:47",
+      "views": 62,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7662872955572&type=32&idx=14&tkn=qiB-YIJ5iAZ4M-3TArwOst5hu3E&fn=external_8"
+    },
+    {
+      "video_id": "9474405763764",
+      "season_number": 1,
+      "episode_number": 19,
+      "title_raw": "El Principito | Episodio 19 | El Planeta De Los Vagoneros Parte 1 | Capítulos Completos",
+      "duration_raw": "22:47",
+      "views": 61,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7662875314868&type=32&idx=12&tkn=4OGUZRZ9KoGgaykVLszCuTrqmo8&fn=external_8"
+    },
+    {
+      "video_id": "9474408778420",
+      "season_number": 1,
+      "episode_number": 20,
+      "title_raw": "El Principito | Episodio 20 | El Planeta De Los Vagoneros Parte 2 | Capítulos Completos",
+      "duration_raw": "22:47",
+      "views": 67,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7662876035764&type=32&idx=11&tkn=gyPaMiOQ9pfcbw2NyNfu0TKl2kQ&fn=external_8"
+    },
+    {
+      "video_id": "9478470830772",
+      "season_number": 1,
+      "episode_number": 21,
+      "title_raw": "El Principito | Episodio 21 | El Planeta De Los Carapodos Parte 1 | Capítulos Completos",
+      "duration_raw": "22:47",
+      "views": 70,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7668069436084&type=32&idx=2&tkn=4Xdz8bIjib81FFd83H3ogOj-Up0&fn=external_8"
+    },
+    {
+      "video_id": "9478472993460",
+      "season_number": 1,
+      "episode_number": 22,
+      "title_raw": "El Principito | Episodio 22 | El Planeta De Los Carapodos Parte 2 | Capítulos Completos",
+      "duration_raw": "22:46",
+      "views": 63,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7668072712884&type=32&idx=4&tkn=lOVbow7rtnPwz3UWVTZI7IrJBTI&fn=external_8"
+    },
+    {
+      "video_id": "9478475549364",
+      "season_number": 1,
+      "episode_number": 23,
+      "title_raw": "El Principito | Episodio 23 | El Planeta Del Gigante Parte 1 | Capítulos Completos",
+      "duration_raw": "22:47",
+      "views": 109,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7668077234868&type=32&idx=11&tkn=qE3axFv7PtZW7gVmIZbwv3_Yk8M&fn=external_8"
+    },
+    {
+      "video_id": "9478476597940",
+      "season_number": 1,
+      "episode_number": 24,
+      "title_raw": "El Principito | Episodio 24 | El Planeta Del Gigante Parte 2 | Capítulos Completos",
+      "duration_raw": "22:46",
+      "views": 65,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7668078545588&type=32&idx=7&tkn=PDNPVXr_666lQZ6W4yncxZEsPEU&fn=external_8"
+    },
+    {
+      "video_id": "9478479022772",
+      "season_number": 1,
+      "episode_number": 25,
+      "title_raw": "El Principito | Episodio 25 | El Planeta De Ludoka Parte 1 | Capítulos Completos",
+      "duration_raw": "22:47",
+      "views": 79,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7668081429172&type=32&idx=8&tkn=iRs63rm8hsF11lck_R7RgksW5uk&fn=external_8"
+    },
+    {
+      "video_id": "9478480988852",
+      "season_number": 1,
+      "episode_number": 26,
+      "title_raw": "El Principito | Episodio 26 | El Planeta De Ludoka Parte 2 | Capítulos Completos",
+      "duration_raw": "22:46",
+      "views": 109,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7668082608820&type=32&idx=10&tkn=-AJ-h2fZvCGHLmTeDoaLymKa-aM&fn=external_8"
+    },
+    {
+      "video_id": "9479991462580",
+      "season_number": 1,
+      "episode_number": 27,
+      "title_raw": "El Principito | Episodio 27 | El Planeta De Las Bambalias Parte 1 | Capítulos Completos",
+      "duration_raw": "22:47",
+      "views": 87,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7670048295604&type=32&idx=8&tkn=3EDXTKkfwlZj0iI3Uc9mzLqtCnA&fn=external_8",
+      "quality": "720p"
+    },
+    {
+      "video_id": "9479993756340",
+      "season_number": 1,
+      "episode_number": 28,
+      "title_raw": "El Principito | Episodio 28 | El Planeta De Las Bambalias Parte 2 | Capítulos Completos",
+      "duration_raw": "22:47",
+      "views": 87,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7670049475252&type=32&idx=2&tkn=S79PrbpQ_ua_fkHoK8UM-nNyhsI&fn=external_8",
+      "quality": "720p"
+    },
+    {
+      "video_id": "9479994935988",
+      "season_number": 1,
+      "episode_number": 29,
+      "title_raw": "El Principito | Episodio 29 | El Planeta De Las Bambalias Parte 3 | Capítulos Completos",
+      "duration_raw": "22:47",
+      "views": 74,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7670051965620&type=32&idx=4&tkn=jPPoYKvabhaKAtIxzLxvQLv2pLE&fn=external_8",
+      "quality": "720p"
+    },
+    {
+      "video_id": "9479998802612",
+      "season_number": 1,
+      "episode_number": 30,
+      "title_raw": "El Principito | Episodio 30 | El Planeta De Los Gargand Parte 1 | Capítulos Completos",
+      "duration_raw": "22:47",
+      "views": 90,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7670069856948&type=32&idx=1&tkn=rRUS6ptkrlyX82-sarvePcROad4&fn=external_8"
+    },
+    {
+      "video_id": "9480001292980",
+      "season_number": 1,
+      "episode_number": 31,
+      "title_raw": "El Principito | Episodio 31 | El Planeta De Los Gargand Parte 2 | Capítulos Completos",
+      "duration_raw": "22:47",
+      "views": 97,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7670076082868&type=32&idx=11&tkn=LnAs0MToGP_rdLMB9u2UdmUB2W8&fn=external_8"
+    },
+    {
+      "video_id": "9480003062452",
+      "season_number": 1,
+      "episode_number": 32,
+      "title_raw": "El Principito | Episodio 32 | El Planeta De Los Gargand Parte 3 | Capítulos Completos",
+      "duration_raw": "22:46",
+      "views": 64,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7670078376628&type=32&idx=4&tkn=3U_6ByBFA0qSOg6dxptGgQIdH10&fn=external_8"
+    }
+  ]
+}

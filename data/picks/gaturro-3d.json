@@ -1,0 +1,196 @@
+{
+  "title": "Gaturro 3D",
+  "type": "series",
+  "added": "2026-10-05",
+  "query": "https://ok.ru/video/c31129780",
+  "year": "2014",
+  "studio": "",
+  "source": "Gaturro Capítulos Completos en Español 🇲🇽",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "10054558681780",
+      "season_number": 1,
+      "episode_number": 1,
+      "title_raw": "Gaturro 3D | Episodio 1 | S.O.S Emilio | Capítulos Completos",
+      "duration_raw": "02:59",
+      "views": 95,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8515527838388&type=32&idx=5&tkn=AyDVrk_Z9GYRHG0_AXYVY9D8YJc&fn=external_8"
+    },
+    {
+      "video_id": "10054561893044",
+      "season_number": 1,
+      "episode_number": 2,
+      "title_raw": "Gaturro 3D | Episodio 2 | El Gran Seductor | Capítulos Completos",
+      "duration_raw": "03:00",
+      "views": 151,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8515532032692&type=32&idx=4&tkn=qUH1F9jF45endg79kj13EoRLF3k&fn=external_8"
+    },
+    {
+      "video_id": "10054562810548",
+      "season_number": 1,
+      "episode_number": 3,
+      "title_raw": "Gaturro 3D | Episodio 3 | En El Blanco | Capítulos Completos",
+      "duration_raw": "03:00",
+      "views": 93,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8515534850740&type=32&idx=2&tkn=q2OzPbwOdhfYt7PvM86x9NYdw-Q&fn=external_8"
+    },
+    {
+      "video_id": "10054563662516",
+      "season_number": 1,
+      "episode_number": 4,
+      "title_raw": "Gaturro 3D | Episodio 4 | Deber De Gato | Capítulos Completos",
+      "duration_raw": "03:00",
+      "views": 61,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8515536882356&type=32&idx=6&tkn=KMroPZKCkEHED50f7TYk1O1zIYI&fn=external_8"
+    },
+    {
+      "video_id": "10054573820596",
+      "season_number": 1,
+      "episode_number": 5,
+      "title_raw": "Gaturro 3D | Episodio 5 | Amor De Película | Capítulos Completos",
+      "duration_raw": "03:00",
+      "views": 124,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8515553266356&type=32&idx=11&tkn=5dzFLUyomtmFeRC5uE4-qNq9BZ0&fn=external_8"
+    },
+    {
+      "video_id": "10054570281652",
+      "season_number": 1,
+      "episode_number": 6,
+      "title_raw": "Gaturro 3D | Episodio 6 | Dienturro | Capítulos Completos",
+      "duration_raw": "03:00",
+      "views": 50,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8515544812212&type=32&idx=5&tkn=i9KPdsVKCKKAWR1XgShXshIc490&fn=external_8"
+    },
+    {
+      "video_id": "10054593612468",
+      "season_number": 1,
+      "episode_number": 7,
+      "title_raw": "Gaturro 3D | Episodio 7 | Noche De Espanto | Capítulos Completos",
+      "duration_raw": "03:00",
+      "views": 41,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8515581184692&type=32&idx=1&tkn=nfB75mwwKxKYwIvsVcuK0gMH5z0&fn=external_8"
+    },
+    {
+      "video_id": "10054580505268",
+      "season_number": 1,
+      "episode_number": 8,
+      "title_raw": "Gaturro 3D | Episodio 8 | Ocupado | Capítulos Completos",
+      "duration_raw": "03:00",
+      "views": 51,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8515561261748&type=32&idx=9&tkn=9U9Hvi-xhHuBXW2EdHFcb8SRn7Q&fn=external_8"
+    },
+    {
+      "video_id": "10054579915444",
+      "season_number": 1,
+      "episode_number": 9,
+      "title_raw": "Gaturro 3D | Episodio 9 | Fiebre De Domingo Por La Mañana | Capítulos Completos",
+      "duration_raw": "03:00",
+      "views": 52,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8515560213172&type=32&idx=10&tkn=_sfiLca8IPfdNBjfg23-y7OxjkQ&fn=external_8"
+    },
+    {
+      "video_id": "10054594857652",
+      "season_number": 1,
+      "episode_number": 10,
+      "title_raw": "Gaturro 3D | Episodio 10 | Noche De Paz Y Amor | Capítulos Completos",
+      "duration_raw": "03:00",
+      "views": 79,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8515583609524&type=32&idx=5&tkn=OkPLFiFcGTVWxzpZogM3Je7kOTE&fn=external_8"
+    },
+    {
+      "video_id": "10054583323316",
+      "season_number": 1,
+      "episode_number": 11,
+      "title_raw": "Gaturro 3D | Episodio 11 | Mesa Para Uno | Capítulos Completos",
+      "duration_raw": "03:00",
+      "views": 43,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8515565587124&type=32&idx=6&tkn=QKdXOnhsyjRPpFJqLKWEpecCtaA&fn=external_8"
+    },
+    {
+      "video_id": "10054586665652",
+      "season_number": 1,
+      "episode_number": 12,
+      "title_raw": "Gaturro 3D | Episodio 12 | Problema De Mujeres | Capítulos Completos",
+      "duration_raw": "03:00",
+      "views": 64,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8515571354292&type=32&idx=6&tkn=g2JpBzY1MCYf7F9whP99S_Org9w&fn=external_8"
+    },
+    {
+      "video_id": "10056791689908",
+      "season_number": 1,
+      "episode_number": 13,
+      "title_raw": "Gaturro 3D | Episodio 13 | Una De Misterio | Capítulos Completos",
+      "duration_raw": "03:00",
+      "views": 59,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8519081724596&type=32&idx=6&tkn=hDs8wyCDnFFckIQxWL0xfnLlH8A&fn=external_8"
+    },
+    {
+      "video_id": "10056803748532",
+      "season_number": 1,
+      "episode_number": 14,
+      "title_raw": "Gaturro 3D | Episodio 14 | Gato Al Natural | Capítulos Completos",
+      "duration_raw": "03:00",
+      "views": 69,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8519101123252&type=32&idx=3&tkn=wzOGqSp7b8zDibW7tPla7K2R3NY&fn=external_8"
+    },
+    {
+      "video_id": "10056797457076",
+      "season_number": 1,
+      "episode_number": 15,
+      "title_raw": "Gaturro 3D | Episodio 15 | El Futuro Es Hoy | Capítulos Completos",
+      "duration_raw": "03:00",
+      "views": 192,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8519093062324&type=32&idx=6&tkn=_koRuCGqwxMJbj6vW-g_xMYR3iE&fn=external_8"
+    },
+    {
+      "video_id": "10056809384628",
+      "season_number": 1,
+      "episode_number": 16,
+      "title_raw": "Gaturro 3D | Episodio 16 | Agatha Y Mi Otro Yo | Capítulos Completos",
+      "duration_raw": "03:00",
+      "views": 156,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8519108135604&type=32&idx=14&tkn=tuTFDIBaeSYmMCYJkqB-5ip4DxQ&fn=external_8"
+    },
+    {
+      "video_id": "10056820984500",
+      "season_number": 1,
+      "episode_number": 17,
+      "title_raw": "Gaturro 3D | Episodio 17 | Tierra Encantada | Capítulos Completos",
+      "duration_raw": "03:00",
+      "views": 72,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8519126420148&type=32&idx=8&tkn=FTgmeoFEnkeIIGdL52UniUX4ezI&fn=external_8"
+    },
+    {
+      "video_id": "10056830945972",
+      "season_number": 1,
+      "episode_number": 18,
+      "title_raw": "Gaturro 3D | Episodio 18 | Ni Lo Sueñes | Capítulos Completos",
+      "duration_raw": "03:00",
+      "views": 56,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8519149161140&type=32&idx=5&tkn=pZBHaPDGd2hP05Sh7ksIjSVkWWc&fn=external_8"
+    },
+    {
+      "video_id": "10056837958324",
+      "season_number": 1,
+      "episode_number": 19,
+      "title_raw": "Gaturro 3D | Episodio 19 | Odisea Virtual | Capítulos Completos",
+      "duration_raw": "03:00",
+      "views": 69,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8519159974580&type=32&idx=7&tkn=5H4bB5rCqAZ-wea93beuOLKs8zg&fn=external_8"
+    },
+    {
+      "video_id": "10056840710836",
+      "season_number": 1,
+      "episode_number": 20,
+      "title_raw": "Gaturro 3D | Episodio 20 | R.I.P Emilio | Capítulos Completos",
+      "duration_raw": "03:00",
+      "views": 92,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8519162530484&type=32&idx=8&tkn=pidk9Hurtqo3Syf0fbbseEOw_-k&fn=external_8"
+    }
+  ]
+}

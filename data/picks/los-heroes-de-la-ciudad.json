@@ -1,0 +1,43 @@
+{
+  "title": "Los héroes de la ciudad",
+  "type": "series",
+  "added": "2026-10-05",
+  "query": "https://ok.ru/video/10035869190861",
+  "year": "2004",
+  "studio": "Disney",
+  "source": "",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Infantil",
+  "genre_secondary": "Animación",
+  "videos": [
+    {
+      "video_id": "10035869190861",
+      "season_number": 1,
+      "episode_number": 1,
+      "title_raw": "Los Héroes De La Ciudad - El Primo De Eubie (Español Latino)",
+      "duration_raw": "11:51",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8207792999117&type=32&idx=3&tkn=C4YZJnyuvUqXm5aJpeU-eeYA-ps&fn=external_8"
+    },
+    {
+      "video_id": "8530919885517",
+      "season_number": 1,
+      "episode_number": 2,
+      "title_raw": "Los Héroes De La Ciudad - Fran Va De Excursión (Episodio Completo)",
+      "duration_raw": "11:15",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7430253972173&type=32&idx=12&tkn=AcCtcWvWkL47aGUgjJujF1WnRAU&fn=external_8"
+    },
+    {
+      "video_id": "8531054299853",
+      "season_number": 1,
+      "episode_number": 3,
+      "title_raw": "Los Héroes De La Ciudad - Kip Se Une Al Circo (Episodio Completo)",
+      "duration_raw": "11:15",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7430307777229&type=32&idx=12&tkn=Z_bL8hhXDQWBnJgaTwwHAqV0Dco&fn=external_8"
+    }
+  ]
+}

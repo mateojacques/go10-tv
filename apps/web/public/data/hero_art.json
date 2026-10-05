@@ -1525,6 +1525,10 @@
       "tmdb": "movie/610150",
       "backdrop": "/uR0FopHrAjDlG5q6PZB07a1JOva.jpg"
     },
+    "15724021353117": {
+      "tmdb": "movie/144616",
+      "backdrop": "/8iu0KWr3g1RD4lkJrIKMI6ssIFp.jpg"
+    },
     "15727014054638": {
       "tmdb": "movie/9325",
       "backdrop": "/3sbmRuIpYEH5dMvec4z4JxKQHoj.jpg"
@@ -1981,6 +1985,10 @@
       "tmdb": "tv/97333",
       "backdrop": "/qSdvfhaDhFhNbfU3A6ukJgJrGLQ.jpg"
     },
+    "el-principito": {
+      "tmdb": "tv/61483",
+      "backdrop": "/fkHMiqUT0AQTXGUyaCA99p39LHx.jpg"
+    },
     "elfen-lied": {
       "tmdb": "tv/42671",
       "backdrop": "/1g7fMpp0c5tOlHoLMABx6LI7gMu.jpg"
@@ -2008,6 +2016,10 @@
     "gargolas": {
       "tmdb": "tv/1719",
       "backdrop": "/2HZuIQfSTcay8eoVIqeaGEwUWaB.jpg"
+    },
+    "gaturro-3d": {
+      "tmdb": "tv/93836",
+      "backdrop": "/cADldbInPxOxIIsPZT3zCf8IFTE.jpg"
     },
     "gravity-falls": {
       "tmdb": "tv/40075",
@@ -2057,6 +2069,10 @@
       "tmdb": "tv/95557",
       "backdrop": "/9qrroces8C6R9aKr08hACNPVXdZ.jpg"
     },
+    "jake-y-los-piratas-del-pais-de-nunca-jamas": {
+      "tmdb": "tv/34891",
+      "backdrop": "/vV1EQ1zLuZ5yPL7LaBqPayVsggC.jpg"
+    },
     "kevin": {
       "tmdb": "tv/255760",
       "backdrop": "/uTjjlqLdhRppddN4eCjMZlp387z.jpg"
@@ -2089,6 +2105,10 @@
       "tmdb": "tv/298343",
       "backdrop": "/jH1vBLHxp7E2AZGdhvjnxA96mJh.jpg"
     },
+    "la-princesita-sofia": {
+      "tmdb": "tv/46928",
+      "backdrop": "/5tLsZoolMwqkCMUwEXYfh61Pajn.jpg"
+    },
     "la-vaca-y-el-pollito": {
       "tmdb": "tv/3611",
       "backdrop": "/iohe4KtMpFKYzuA3QIBRrcbJIbz.jpg"
@@ -2109,6 +2129,10 @@
       "tmdb": "tv/6673",
       "backdrop": "/80KgNNF0bpoDvU5iNXT07Lgb2wL.jpg"
     },
+    "las-nuevas-aventuras-de-peter-pan": {
+      "tmdb": "tv/53113",
+      "backdrop": "/olOGyGEOpv3d1011RLoD8cmFaEp.jpg"
+    },
     "las-sombrias-aventuras-de-billy-y-mandy": {
       "tmdb": "tv/897",
       "backdrop": "/7aWytAE9Gcf6UZXcS6ejJEdEhEb.jpg"
@@ -2116,6 +2140,10 @@
     "los-caballeros-del-zodiaco": {
       "tmdb": "tv/42444",
       "backdrop": "/xqi7xzgzed2TyVuoXBmm6neYGee.jpg"
+    },
+    "los-heroes-de-la-ciudad": {
+      "tmdb": "tv/552",
+      "backdrop": "/56KZQ81O7oBTIaJeIkBdGDlJtXq.jpg"
     },
     "los-jovenes-titanes": {
       "tmdb": "tv/604",
@@ -2137,9 +2165,17 @@
       "tmdb": "tv/2004",
       "backdrop": "/si3OheCrSpEyK2JUtZOThsZPUR4.jpg"
     },
+    "martha-habla": {
+      "tmdb": "tv/7736",
+      "backdrop": "/vt9dDUZljz10svcGQT7flF4kCH0.jpg"
+    },
     "mas-alla-del-jardin": {
       "tmdb": "tv/61617",
       "backdrop": "/hozufHEzqIRpqJrlyGDqnsyFrAQ.jpg"
+    },
+    "mini-einsteins": {
+      "tmdb": "tv/3090",
+      "backdrop": "/7PASkiQ1H5nik9PSerbmU7b4MiJ.jpg"
     },
     "mobile-suit-gundam-iron-blooded-orphans": {
       "tmdb": "tv/64375",
@@ -2156,6 +2192,10 @@
     "one-piece": {
       "tmdb": "tv/37854",
       "backdrop": "/2rmK7mnchw9Xr3XdiTFSxTTLXqv.jpg"
+    },
+    "ositos-carinositos-bienvenidos-a-quiereme-mucho": {
+      "tmdb": "tv/65268",
+      "backdrop": "/8W2ySNKVNodQGcvWxonjWlhLagB.jpg"
     },
     "padre-de-familia": {
       "tmdb": "tv/1434",
@@ -2209,6 +2249,10 @@
       "tmdb": "tv/605",
       "backdrop": "/4PhaaA593zHfAyYUIXVWTih3qcD.jpg"
     },
+    "sabrina-secretos-de-una-bruja-adolescente": {
+      "tmdb": "tv/46432",
+      "backdrop": "/3tR5R1HrvU1St3HfSE8SqR1EIVu.jpg"
+    },
     "sailor-moon": {
       "tmdb": "tv/3570",
       "backdrop": "/sNCpbcCcRadDBMTh6An1dBMakqr.jpg"
@@ -2244,6 +2288,10 @@
     "shigurui-death-frenzy": {
       "tmdb": "tv/34144",
       "backdrop": "/gojctO0VsadPKjWz3fQVTL67QzZ.jpg"
+    },
+    "sid-el-nino-cientifico": {
+      "tmdb": "tv/7744",
+      "backdrop": "/8bqTCdrWUw9jfnyaIEtQ0STGNB0.jpg"
     },
     "smallville": {
       "tmdb": "tv/4604",
@@ -2284,6 +2332,10 @@
     "suisei-no-gargantia": {
       "tmdb": "tv/55011",
       "backdrop": "/fyyJSBWbBZT1faAQ2djemYziJYk.jpg"
+    },
+    "super-why": {
+      "tmdb": "tv/14766",
+      "backdrop": "/U9VKLLo9IeQU1aQAOA6s4Na5Pc.jpg"
     },
     "supercampeones": {
       "tmdb": "tv/25707",

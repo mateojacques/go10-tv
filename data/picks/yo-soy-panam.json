@@ -1,0 +1,23 @@
+{
+  "title": "Yo soy Panam",
+  "type": "movie",
+  "added": "2026-10-05",
+  "query": "https://ok.ru/video/14730969483981",
+  "year": "",
+  "studio": "",
+  "source": "",
+  "quality": "360p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Infantil",
+  "genre_secondary": "",
+  "videos": [
+    {
+      "video_id": "14730969483981",
+      "title_raw": "Yo Soy Panam - DVD (Español Latino)",
+      "duration_raw": "28:41",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYfKMp8nTvvdz8aY8UwXJR32OjweqPGIZxsnzgL_Td-yg&fn=external_8"
+    }
+  ]
+}

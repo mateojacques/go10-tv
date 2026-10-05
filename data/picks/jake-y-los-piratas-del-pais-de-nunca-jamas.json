@@ -1,0 +1,83 @@
+{
+  "title": "Jake y los piratas del País de Nunca Jamás",
+  "type": "series",
+  "added": "2026-10-05",
+  "query": "https://ok.ru/video/c2044024",
+  "year": "2011",
+  "studio": "Disney",
+  "source": "",
+  "quality": "360p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Infantil",
+  "genre_secondary": "Animación",
+  "videos": [
+    {
+      "video_id": "15800082827918",
+      "season_number": 0,
+      "episode_number": 1,
+      "title_raw": "Jake y los piratas del País de nunca jamás la batalla por el libro",
+      "duration_raw": "44:30",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17025150618254&type=32&idx=1&scl=4&tkn=3ypzPcoYxtV1WnJDtYWh7tuqu2g&fn=external_8"
+    },
+    {
+      "video_id": "15807699552910",
+      "season_number": 0,
+      "episode_number": 2,
+      "title_raw": "Capitán Jake y los piratas del País de nunca jamás la gran conquista de mar nunca",
+      "duration_raw": "46:00",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17038460258958&type=32&idx=1&scl=4&tkn=j6zsdV3uk_oSfyKWynfh8k7iGQM&fn=external_8",
+      "quality": "144p"
+    },
+    {
+      "video_id": "11443047238176",
+      "season_number": 0,
+      "episode_number": 3,
+      "title_raw": "Jake y los piratas del país de Nunca Jamás: ¡Peter Pan Regresa! (2012) Película Completa Español Latino.mp4",
+      "duration_raw": "49:30",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10767204157984&type=37&idx=5&tkn=0kLCy3RvIPrBbxufbwo6I1EYqDQ&fn=external_8",
+      "quality": "1080p"
+    },
+    {
+      "video_id": "10702510557901",
+      "season_number": 1,
+      "episode_number": 1,
+      "title_raw": "Jake y Los Piratas Del País De Nunca Jamás - Esconde El Escondite (Episodio Completo)",
+      "duration_raw": "12:10",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=9175729834701&type=37&idx=3&tkn=1JD0Q9paBImK-H7pTTLDDXcPp3U&fn=external_8",
+      "quality": "720p"
+    },
+    {
+      "video_id": "10702669810381",
+      "season_number": 1,
+      "episode_number": 2,
+      "title_raw": "Jake y Los Piratas Del País De Nunca Jamás - El Juego De Los Caracoles (Episodio Completo)",
+      "duration_raw": "11:57",
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=9175971072717&type=37&idx=9&tkn=wD0sWW4Qmm0Co2xyKFoFs-nzqaE&fn=external_8",
+      "quality": "720p"
+    },
+    {
+      "video_id": "1279824104056",
+      "season_number": 1,
+      "episode_number": 16,
+      "title_raw": "Jake y los Piratas de Nunca Jamas 1x16 El huevo de Oro",
+      "duration_raw": "23:11",
+      "views": 289,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=458739747448&type=32&idx=3&tkn=tHkXYM0_FqgRYWzukpHlVJkccTU&fn=external_8"
+    },
+    {
+      "video_id": "1279824169592",
+      "season_number": 1,
+      "episode_number": 18,
+      "title_raw": "Jake y los Piratas de Nunca Jamas 1x18 Cosas de aves",
+      "duration_raw": "23:11",
+      "views": 334,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=458740271736&type=32&idx=3&tkn=NM7BqJpzQvRNzQZS0s3lijQqJi0&fn=external_8"
+    }
+  ]
+}

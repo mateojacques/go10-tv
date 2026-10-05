@@ -1,0 +1,182 @@
+{
+  "title": "Mini Einsteins",
+  "type": "series",
+  "added": "2026-10-05",
+  "query": "https://ok.ru/profile/910090760871/video/all",
+  "year": "2005",
+  "studio": "Disney",
+  "source": "constanza agurto",
+  "quality": "720p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Infantil",
+  "genre_secondary": "Animación",
+  "videos": [
+    {
+      "video_id": "9751235005095",
+      "season_number": 1,
+      "episode_number": 1,
+      "title_raw": "Mini einsteins la canción del unicornio",
+      "duration_raw": "24:02",
+      "views": 792,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8091937606311&type=38&idx=10&tkn=m0NvmQgvaVbpkyQpVJ2-vSIYBiE&fn=external_7"
+    },
+    {
+      "video_id": "9976802183847",
+      "season_number": 1,
+      "episode_number": 2,
+      "title_raw": "Mini Einsteins el Rompecabezas de la esfinge",
+      "duration_raw": "22:29",
+      "views": 1300,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8438477294247&type=38&idx=6&tkn=oW77PqKcyAan0cx_rghrVlZTi78&fn=external_7"
+    },
+    {
+      "video_id": "9979574553255",
+      "season_number": 1,
+      "episode_number": 3,
+      "title_raw": "Mini einsteins El premio misterioso",
+      "duration_raw": "23:29",
+      "views": 801,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8442743294631&type=38&idx=10&tkn=QlAVjsMKEUICIqZJbBsg2MPapcI&fn=external_7"
+    },
+    {
+      "video_id": "9980157692583",
+      "season_number": 1,
+      "episode_number": 4,
+      "title_raw": "Mini einsteins Monstruos musicales",
+      "duration_raw": "23:57",
+      "views": 838,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8443722205863&type=38&idx=9&tkn=wlyM_VsPbvLkTbkmEK6Vw0H9dFc&fn=external_7"
+    },
+    {
+      "video_id": "9985850804903",
+      "season_number": 1,
+      "episode_number": 5,
+      "title_raw": "Mini einsteins El príncipe de juguete de cuerda",
+      "duration_raw": "22:32",
+      "views": 2000,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8451677555367&type=38&idx=12&tkn=uHillR06QGB5W30E0ZWf6sPM_sg&fn=external_7"
+    },
+    {
+      "video_id": "9989303569063",
+      "season_number": 1,
+      "episode_number": 6,
+      "title_raw": "Mini einsteins Rocket el insecto",
+      "duration_raw": "23:30",
+      "views": 867,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8456256555687&type=38&idx=3&tkn=WyeAJ2w7qs_t8Mnl7K42h08HcTA&fn=external_7"
+    },
+    {
+      "video_id": "10008885004967",
+      "season_number": 1,
+      "episode_number": 7,
+      "title_raw": "Mini einsteins La Revancha de la gran carrera aérea",
+      "duration_raw": "24:01",
+      "views": 844,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8483492268711&type=38&idx=6&tkn=L4BcqTyR-vUzizndGdxw08oNwdc&fn=external_7"
+    },
+    {
+      "video_id": "10038773287591",
+      "season_number": 1,
+      "episode_number": 8,
+      "title_raw": "Mini Einstein quincy los instrumentos mágicos",
+      "duration_raw": "23:30",
+      "views": 906,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8523313121959&type=38&idx=9&tkn=wKP-yOKCo7_H6ALrBovrExF0xxI&fn=external_7"
+    },
+    {
+      "video_id": "10062860389031",
+      "season_number": 1,
+      "episode_number": 9,
+      "title_raw": "Mini einsteins el gran desfile de la pequeña elefanta",
+      "duration_raw": "24:03",
+      "views": 812,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8556093770407&type=38&idx=9&tkn=fQrtZBzyycCHHmVl76JH2TXh2Ho&fn=external_7"
+    },
+    {
+      "video_id": "10067063999143",
+      "season_number": 1,
+      "episode_number": 10,
+      "title_raw": "Mini einsteins La princesa títere",
+      "duration_raw": "24:04",
+      "views": 748,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8562225711783&type=32&idx=4&tkn=e2fRY5sLCu7nz0o-M11J3m0rSjA&fn=external_7",
+      "quality": "360p"
+    },
+    {
+      "video_id": "10070292892327",
+      "season_number": 1,
+      "episode_number": 11,
+      "title_raw": "Mini einsteins El pequeño caperuRocket rojo",
+      "duration_raw": "24:04",
+      "views": 775,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8566932769447&type=32&idx=3&tkn=7cGmaRkLzriWpqrIwOqCvBTuA-o&fn=external_7",
+      "quality": "360p"
+    },
+    {
+      "video_id": "10072949197479",
+      "season_number": 1,
+      "episode_number": 12,
+      "title_raw": "Mini einsteins El robot musical del espacio exterior",
+      "duration_raw": "22:27",
+      "views": 984,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8532885244583&type=38&idx=6&tkn=TQo7Vts0mtNT9I0YXo1dtuYRWUw&fn=external_7"
+    },
+    {
+      "video_id": "10080250366631",
+      "season_number": 1,
+      "episode_number": 13,
+      "title_raw": "Mini Einstein la aventura del helado del señor pingüino",
+      "duration_raw": "23:30",
+      "views": 863,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8581052828327&type=38&idx=9&tkn=MaWK4jsglE-pwKqLelZ-YbhMUw8&fn=external_7"
+    },
+    {
+      "video_id": "10090061171367",
+      "season_number": 1,
+      "episode_number": 14,
+      "title_raw": "Mini einsteins La gran carrera de carmine",
+      "duration_raw": "24:02",
+      "views": 1400,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8594803788455&type=38&idx=14&tkn=QllMFmF-LCgU_Uzv4LMTZ16SEYA&fn=external_7"
+    },
+    {
+      "video_id": "10167383427751",
+      "season_number": 1,
+      "episode_number": 15,
+      "title_raw": "Mini Einsteins Calcetín gracioso salva el circo",
+      "duration_raw": "22:32",
+      "views": 1100,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8707387361959&type=38&idx=7&tkn=oBmaYd4IftGuJmoWI8MqxtB9Xbs&fn=external_7"
+    },
+    {
+      "video_id": "10260757154471",
+      "season_number": 1,
+      "episode_number": 16,
+      "title_raw": "Mini einsteins super rápido",
+      "duration_raw": "22:20",
+      "views": 1100,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8838844713639&type=38&idx=6&tkn=bSJdjufuys6tmUiLCQySkUTZWmM&fn=external_7"
+    },
+    {
+      "video_id": "11338346203815",
+      "season_number": 1,
+      "episode_number": 17,
+      "title_raw": "Mini einsteins El habla con música",
+      "duration_raw": "23:30",
+      "views": 886,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10226391780007&type=37&idx=7&tkn=lbKxOCwqtPrg7eVwVgNTclgsox8&fn=external_7",
+      "quality": "1080p"
+    },
+    {
+      "video_id": "11482728893095",
+      "season_number": 1,
+      "episode_number": 18,
+      "title_raw": "Mini einsteins Los gansos salvajes.",
+      "duration_raw": "23:57",
+      "views": 1100,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10403571960487&type=37&idx=8&tkn=fG3vizJqCIYBRV598ADBvMi3vks&fn=external_7",
+      "quality": "1080p"
+    }
+  ]
+}
