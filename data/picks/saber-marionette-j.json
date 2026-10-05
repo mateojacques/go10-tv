@@ -1,0 +1,24 @@
+{
+  "title": "Saber Marionette J",
+  "type": "series",
+  "added": "2026-10-05",
+  "query": "https://ok.ru/video/15817881357038",
+  "year": "1996",
+  "studio": "",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Ciencia Ficción",
+  "videos": [
+    {
+      "video_id": "15817881357038",
+      "season_number": 1,
+      "title_raw": "Saber Marionette J - Temporada 1 (1996) [1080p] [Español]",
+      "duration_raw": "9:58:26",
+      "views": 479,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgY7jbW_-rkk4ave81p3XdI19pMaBL3EAWGIYA1X1bFWFA&fn=external_8"
+    }
+  ]
+}

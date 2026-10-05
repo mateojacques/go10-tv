@@ -1,0 +1,24 @@
+{
+  "title": "La vaca y el pollito",
+  "type": "series",
+  "added": "2026-10-05",
+  "query": "https://ok.ru/video/15839006886638",
+  "year": "1997",
+  "studio": "Cartoon N.",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "15839006886638",
+      "season_number": 1,
+      "title_raw": "La vaca y el pollito - Temporada 1, 2, 3 y 4 (Cartoon N.) [1080p] [Español]",
+      "duration_raw": "19:31:56",
+      "views": 303,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYUctyPnm_qCJK8GE6sXHk_-OOsDNtAhh1n-276lR8zHU&fn=external_8"
+    }
+  ]
+}

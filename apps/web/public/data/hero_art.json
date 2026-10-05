@@ -1541,6 +1541,30 @@
       "tmdb": "movie/360404",
       "backdrop": "/pOW1imSY2oW0nhgdZY0Uru3wAgw.jpg"
     },
+    "15778478885614": {
+      "tmdb": "movie/40205",
+      "backdrop": "/53gLUhvVffVXSXOPAuXPeHkqEe9.jpg"
+    },
+    "15806908795630": {
+      "tmdb": "movie/1322562",
+      "backdrop": "/5bMDrznr5P9GcClJF0OeE4NxZn9.jpg"
+    },
+    "15806908992238": {
+      "tmdb": "movie/1679730",
+      "backdrop": "/8SEb8rEZ9DYqBT7U3FI5nBOS1lV.jpg"
+    },
+    "15816377502446": {
+      "tmdb": "movie/1530941",
+      "backdrop": "/8qSFFK9AcMl2Ecp249f5J3Nr8MK.jpg"
+    },
+    "15829704641262": {
+      "tmdb": "movie/1204680",
+      "backdrop": "/viZqGq9TNvQ5uXSD4ahg2RpRONT.jpg"
+    },
+    "15850137651950": {
+      "tmdb": "movie/9986",
+      "backdrop": "/x7B2zT2OL8fKM53Wgzqz6nc7r02.jpg"
+    },
     "16572229814880": {
       "tmdb": "movie/1003581",
       "backdrop": "/soRpXRJOYqBBsDYuH3mLYSIeufk.jpg"
@@ -1849,6 +1873,10 @@
       "tmdb": "tv/34109",
       "backdrop": "/fI3m5UjTMyigglkFeQWkPJgFLSC.jpg"
     },
+    "berserk": {
+      "tmdb": "tv/35935",
+      "backdrop": "/99Y64VK0KwyRWfaW6VdpDfPKNMo.jpg"
+    },
     "beyblade-metal-fusion": {
       "tmdb": "tv/37807",
       "backdrop": "/dHQ6u5nRMCHGHLCl220iCah6jX0.jpg"
@@ -1872,6 +1900,10 @@
     "castlevania": {
       "tmdb": "tv/71024",
       "backdrop": "/jLE5bsPA9xOKzBWOaOmKbp1DWQS.jpg"
+    },
+    "catdog": {
+      "tmdb": "tv/1567",
+      "backdrop": "/ujmeZPV9A5AdwfTEuRWR1eqOMDR.jpg"
     },
     "chowder": {
       "tmdb": "tv/9907",
@@ -2057,6 +2089,14 @@
       "tmdb": "tv/298343",
       "backdrop": "/jH1vBLHxp7E2AZGdhvjnxA96mJh.jpg"
     },
+    "la-vaca-y-el-pollito": {
+      "tmdb": "tv/3611",
+      "backdrop": "/iohe4KtMpFKYzuA3QIBRrcbJIbz.jpg"
+    },
+    "las-aventuras-de-tintin-la-serie-animada": {
+      "tmdb": "tv/1570",
+      "backdrop": "/e9pwnvHUVtP7jg4icWXYRWF2uc9.jpg"
+    },
     "las-chicas-superpoderosas": {
       "tmdb": "tv/607",
       "backdrop": "/gnK2nptRXra4RnKgGqAWFSqP5aG.jpg"
@@ -2161,6 +2201,10 @@
       "tmdb": "tv/60625",
       "backdrop": "/5BDNWWHweQL0q1fmTv7gmRXfnl4.jpg"
     },
+    "saber-marionette-j": {
+      "tmdb": "tv/25850",
+      "backdrop": "/rSQ14CqSVOvtHA3vnR3YJjzNLCz.jpg"
+    },
     "sabrina-la-bruja-adolescente": {
       "tmdb": "tv/605",
       "backdrop": "/4PhaaA593zHfAyYUIXVWTih3qcD.jpg"
@@ -2252,6 +2296,10 @@
     "terminator-zero": {
       "tmdb": "tv/239287",
       "backdrop": "/woH18JkZMYhMSWqtHkPA4F6Gd1z.jpg"
+    },
+    "thomas-y-sus-amigos": {
+      "tmdb": "tv/2304",
+      "backdrop": "/wIe1HL7oMNwyltsqqx2sCPwNl4w.jpg"
     },
     "tom-y-jerry": {
       "tmdb": "tv/336531",

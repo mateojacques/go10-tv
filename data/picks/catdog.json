@@ -1,0 +1,24 @@
+{
+  "title": "CatDog",
+  "type": "series",
+  "added": "2026-10-05",
+  "query": "https://ok.ru/video/15828043369198",
+  "year": "1998",
+  "studio": "Nickelodeon",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "15828043369198",
+      "season_number": 1,
+      "title_raw": "CatDog - Temporada 1 (Nickelodeon) [1080p] [Español]",
+      "duration_raw": "9:06:56",
+      "views": 420,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYI3-IPKZQEbl_F1qpBDKfIahwQ6Sqqpj2QsbgoLFsXDA&fn=external_8"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "title": "La telaraña de Charlotte (Live Action)",
+  "type": "movie",
+  "added": "2026-10-05",
+  "query": "https://ok.ru/video/15850137651950",
+  "year": "2006",
+  "studio": "",
+  "source": "Animax",
+  "quality": "4K",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Infantil",
+  "genre_secondary": "Fantasía",
+  "videos": [
+    {
+      "video_id": "15850137651950",
+      "title_raw": "Charlotte's Web (Live Action) [4K] [Español]",
+      "duration_raw": "1:36:59",
+      "views": 22,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYUIRG8E-jo0rUvSJB1JfJzkMzP4IhKLmPeqaypc0EETs&fn=external_8"
+    }
+  ]
+}

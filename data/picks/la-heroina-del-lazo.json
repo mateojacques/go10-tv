@@ -1,0 +1,23 @@
+{
+  "title": "La heroína del lazo",
+  "type": "movie",
+  "added": "2026-10-05",
+  "query": "https://ok.ru/video/15806908992238",
+  "year": "2026",
+  "studio": "",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Japonés",
+  "subtitled": true,
+  "genre": "Anime",
+  "genre_secondary": "Fantasía",
+  "videos": [
+    {
+      "video_id": "15806908992238",
+      "title_raw": "La heroína del lazo (2026) [1080p] [Sub Español]",
+      "duration_raw": "1:51:07",
+      "views": 499,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgY2LN5RqbafAK9AZEIltsNt6KZgLpSJwLvGjDJkGzQY9E&fn=external_8"
+    }
+  ]
+}

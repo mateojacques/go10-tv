@@ -1,0 +1,24 @@
+{
+  "title": "Thomas y sus amigos",
+  "type": "series",
+  "added": "2026-10-05",
+  "query": "https://ok.ru/video/15839679220462",
+  "year": "1984",
+  "studio": "",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Inglés",
+  "subtitled": true,
+  "genre": "Infantil",
+  "genre_secondary": "Animación",
+  "videos": [
+    {
+      "video_id": "15839679220462",
+      "season_number": 1,
+      "title_raw": "Thomas y sus amigos - Temporada 1 [1080p] [Sub Español]",
+      "duration_raw": "2:10:47",
+      "views": 212,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYegARqAo9zGi0fMS5iMFB17ZiGGoVs65b7y-YHtg-ApY&fn=external_8"
+    }
+  ]
+}

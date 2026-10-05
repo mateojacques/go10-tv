@@ -1,0 +1,23 @@
+{
+  "title": "Mononoke III: La maldición de la serpiente",
+  "type": "movie",
+  "added": "2026-10-05",
+  "query": "https://ok.ru/video/15806908795630",
+  "year": "2026",
+  "studio": "",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Japonés",
+  "subtitled": true,
+  "genre": "Anime",
+  "genre_secondary": "Fantasía",
+  "videos": [
+    {
+      "video_id": "15806908795630",
+      "title_raw": "Mononoke III: La maldición de la serpiente (2026) [1080p] [Sub Español]",
+      "duration_raw": "1:28:58",
+      "views": 533,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgY90znGnFO8eRuWPrIqM8bz4-Lst1C4AjdFRqPiv8ntO0&fn=external_8"
+    }
+  ]
+}

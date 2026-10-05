@@ -1,0 +1,23 @@
+{
+  "title": "Coyote vs. Acme",
+  "type": "movie",
+  "added": "2026-10-05",
+  "query": "https://ok.ru/video/15829704641262",
+  "year": "2026",
+  "studio": "WarnerBros",
+  "source": "Animax",
+  "quality": "4K",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Comedia",
+  "genre_secondary": "Animación",
+  "videos": [
+    {
+      "video_id": "15829704641262",
+      "title_raw": "Coyote vs. Acme (WarnerBros) [4K] [Español]",
+      "duration_raw": "1:42:55",
+      "views": 753,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYny__I6vhE8Xg_4B8yLYyD29Mmr1i_Z7Ad0_pB1IBF5Q&fn=external_8"
+    }
+  ]
+}
