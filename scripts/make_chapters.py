@@ -11,8 +11,9 @@ Run:
 00:19:07 - Ep 2 ..."), one timestamp per chapter. --equal splits the
 runtime into N same-length chapters -- right when the pack holds N episodes
 of one runtime; check the count against the show's real episode list. When
-neither fits, scripts/detect_chapters.py proposes cut points from the video
-itself. The entry is merged into the series' file, keeping other videos'.
+episodes vary in length, build the chapters from each episode's published
+runtime instead (see the search-okru skill). The entry is merged into the
+series' file, keeping other videos'.
 """
 import argparse
 import re

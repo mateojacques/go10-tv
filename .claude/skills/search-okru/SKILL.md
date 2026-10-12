@@ -141,7 +141,17 @@ method that applies:
 2. You know the season's official episode count and episodes run the same
    length (duration ÷ count ≈ normal episode length) →
    `python3 scripts/make_chapters.py <series_id> <video_id> --equal <N> --duration <H:MM:SS>`
-3. Neither → after step 5's rebuild, `python3 scripts/detect_chapters.py <video_id> --episodes <N>`, and tell the user the draft needs review.
+3. Episodes vary in length (live action, streaming shows) → look up each
+   episode's runtime online (TVDB, TMDB, news lists), scale the cumulative
+   runtimes to the pack's real duration, and write one chapter per episode
+   (with `season_number` when the pack spans seasons). The sum of runtimes
+   should land within a few percent of the pack's duration.
+
+The episode count and runtimes always come from the internet. If they
+can't be found, or duration ÷ count doesn't match a real episode length
+(the pack is likely a subset), ask the user. **Never** download a video or
+run `scripts/detect_chapters.py` / silence or black-frame detection: it
+takes hours and gives wrong cuts.
 
 If the studio has a collection in `data/collections/` (Disney, Pixar, …),
 add the title key (`series_id`, or `video_id` for a movie) to its `titles`.
