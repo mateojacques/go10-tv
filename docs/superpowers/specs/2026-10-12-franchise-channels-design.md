@@ -17,7 +17,7 @@ same "the schedule is math, not state" engine, same live session and UI.
 |---|---|
 | How a franchise channel picks what airs | **Short random runs:** a random point anywhere in the franchise, 2–3 consecutive units from there, then a new random point. |
 | How franchise channels sit next to networks | **Two labeled groups** in the TV strip and the "En vivo ahora" row: "Canales" and "24/7". One zap order across both. |
-| Numbering | Networks keep 1–16; franchises are **101+**. |
+| Numbering | Networks keep 1–13 (Barbie, Monster High and Marvel leave 14–16); franchises are **101+**. |
 | Launch lineup | **Tier 1** (9 new) + Barbie, Monster High and Marvel (renamed Spider-Man) moved into the group: **12 channels**. |
 | On-demand Home | A **second collection strip** below the networks strip, with franchise tiles. **No heading**, exactly like the networks strip. |
 
@@ -72,8 +72,9 @@ Hielo* (Bakshi's *Fire and Ice*, not ThunderCats).
 
 ### `channels.json`
 
-The network entries keep their numbers 1–15; the `marvel` entry is removed
-and these are added:
+The network entries keep their numbers 1–13; the `barbie` (14),
+`monster-high` (15) and `marvel` (16) entries are removed and these are
+added:
 
 ```json
 { "id": "dragon-ball", "number": 101, "collection": "dragon-ball" },
@@ -158,7 +159,7 @@ no collections isn't rendered.
   the section's first tile, in the same row, so D-pad/arrow movement across
   tiles is unchanged.
 - **Zapping** (↑/↓, swipe, PgUp/PgDn) walks the single lineup in number
-  order: 15 → 101 going up, 112 → 1 wrapping.
+  order: 13 → 101 going up, 112 → 1 wrapping.
 - **Number entry:** with 3-digit numbers, `1`, `10` and `11` now wait
   `NUMBER_ENTRY_MS` for a possible next digit unless one is typed.
   `enterDigit` already handles this; no change.
@@ -182,9 +183,9 @@ no collections isn't rendered.
   the real catalog; every franchise collection resolves all of its keys.
 - **Web and mobile (RTL):** both Home strips render without headings; the
   LiveRow / channel strip render the "Canales" and "24/7" labels with the
-  right channels under each; ↑ from 15 tunes 101.
+  right channels under each; ↑ from 13 tunes 101.
 - **Manual:** on a real TV after the build (the user runs the install):
-  tune 101–112, watch a run boundary, zap across the 15 ↔ 101 seam.
+  tune 101–112, watch a run boundary, zap across the 13 ↔ 101 seam.
 
 ## 6. Out of scope (later)
 
