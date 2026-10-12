@@ -16,6 +16,8 @@ export function playbackStart(row: CatalogRow): number | null {
   return row.chapter_start_seconds && row.chapter_start_seconds > 0 ? row.chapter_start_seconds : null
 }
 
+export interface Timeline { time: number; start: number; end: number | null }
+
 export interface PlaybackSession {
   /** Start `row`'s file: saves where the previous one got to, returns the embed src. */
   load(row: CatalogRow): string
@@ -26,6 +28,10 @@ export interface PlaybackSession {
   flush(): void
   /** Seeks from the last known position; returns the target, or null before a load. */
   seekBy(delta: number): number | null
+  /** Seeks to `time`, kept inside the chapter (else the file); returns the target, or null before a load. */
+  seekTo(time: number): number | null
+  /** The last known position and the range seeks stay in (end null until the embed reports a duration). */
+  timeline(): Timeline
   togglePlay(): void
   /** Play or pause outright (the remote's own Play and Pause keys). */
   setPlaying(playing: boolean): void
@@ -93,6 +99,31 @@ export function createPlaybackSession({ send, onEnded, onPlayingChange, now = Da
     onEnded()
   }
 
+  function range(current: CatalogRow): { start: number; end: number | null } {
+    // A chapter's range, else the whole file (its end once reported).
+    const start = current.chapter_start_seconds ?? 0
+    const end = current.chapter_end_seconds ?? (lastDuration > 0 ? lastDuration : null)
+    return { start, end }
+  }
+
+  function seekTo(time: number): number | null {
+    if (!row || !provider) return null
+    const { start, end } = range(row)
+    let target = Math.max(start, time)
+    if (end !== null) target = Math.min(target, Math.max(start, end - 1))
+    lastTime = target
+    if (seekCoalesceMs <= 0) {
+      send(provider.seekMessage(target))
+    } else if (seekTimer === null) {
+      const current = provider
+      seekTimer = setTimeout(() => {
+        seekTimer = null
+        send(current.seekMessage(lastTime))
+      }, seekCoalesceMs)
+    }
+    return target
+  }
+
   return {
     load(next) {
       flush()
@@ -148,25 +179,9 @@ export function createPlaybackSession({ send, onEnded, onPlayingChange, now = Da
 
     flush,
 
-    seekBy(delta) {
-      if (!row || !provider) return null
-      // A chapter's range, else the whole file (its end once reported).
-      const start = row.chapter_start_seconds ?? 0
-      const end = row.chapter_end_seconds ?? (lastDuration > 0 ? lastDuration : null)
-      let target = Math.max(start, lastTime + delta)
-      if (end !== null) target = Math.min(target, Math.max(start, end - 1))
-      lastTime = target
-      if (seekCoalesceMs <= 0) {
-        send(provider.seekMessage(target))
-      } else if (seekTimer === null) {
-        const current = provider
-        seekTimer = setTimeout(() => {
-          seekTimer = null
-          send(current.seekMessage(lastTime))
-        }, seekCoalesceMs)
-      }
-      return target
-    },
+    seekBy: (delta) => seekTo(lastTime + delta),
+    seekTo,
+    timeline: () => (row ? { time: lastTime, ...range(row) } : { time: 0, start: 0, end: null }),
 
     togglePlay: () => play(!playing),
     setPlaying: play,

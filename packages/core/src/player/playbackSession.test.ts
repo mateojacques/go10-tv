@@ -247,3 +247,35 @@ describe('createPlaybackSession', () => {
     expect(onEnded).not.toHaveBeenCalled()
   })
 })
+
+describe('seekTo and timeline', () => {
+  it('reports the position and the seekable range of the file', () => {
+    const { session } = setup()
+    expect(session.timeline()).toEqual({ time: 0, start: 0, end: null })
+    session.load(movie)
+    session.handle(okTime(42, 700))
+    expect(session.timeline()).toEqual({ time: 42, start: 0, end: 700 })
+  })
+
+  it("uses a chapter's own range", () => {
+    const { session } = setup()
+    session.load(chapter(2, 600, 1200))
+    session.handle(okTime(650, 3000))
+    expect(session.timeline()).toEqual({ time: 650, start: 600, end: 1200 })
+  })
+
+  it('seeks to an absolute time, clamped like seekBy', () => {
+    const { session, sent } = setup()
+    session.load(chapter(2, 600, 1200))
+    session.handle(okTime(650, 3000))
+    expect(session.seekTo(900)).toBe(900)
+    expect(session.seekTo(5000)).toBe(1199)
+    expect(session.seekTo(10)).toBe(600)
+    expect(sent.slice(-3)).toEqual([{ action: 'seek', time: 900 }, { action: 'seek', time: 1199 }, { action: 'seek', time: 600 }])
+    expect(session.timeline().time).toBe(600)
+  })
+
+  it('returns null before a load', () => {
+    expect(setup().session.seekTo(5)).toBeNull()
+  })
+})
