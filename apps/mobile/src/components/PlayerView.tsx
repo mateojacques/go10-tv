@@ -17,6 +17,9 @@ import { BRIDGE_ORIGINS, SETTING_LABELS, type BridgeSetting } from '@go10/core/p
 import { initialTvControls, OVERLAY_IDLE_MS, tvControls, type TvEffect, type TvInput } from '@go10/core/player/tvControls'
 import { isTvUi } from '../platform/tvUi'
 import { PickerPanel } from '../player/tv/PickerPanel'
+import { PointerLayer } from '../player/tv/PointerLayer'
+import { centerPointer, movePointer, type PointerState } from '../player/tv/pointerMove'
+import { tapWebView } from '../player/embedBridge'
 import { TvPlayerOverlay } from '../player/tv/TvPlayerOverlay'
 import { useEmbedBridge } from '../player/useEmbedBridge'
 import { theme } from '../theme'
@@ -104,6 +107,10 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
   const [toast, setToast] = useState<{ target: number; at: number } | null>(null)
   const [menu, setMenu] = useState<BridgeSetting | null>(null)
   const [notice, setNotice] = useState<string | null>(null)
+  // Pointer mode: the screen size (the WebView fills it) and the cursor.
+  const sizeRef = useRef({ width: 0, height: 0 })
+  const pointerRef = useRef<PointerState | null>(null)
+  const [pointer, setPointer] = useState<PointerState | null>(null)
 
   // A new file starts over: fresh retry state and a reload (the reset bumps reloadToken).
   const videoRef = useRef(row.video_id)
@@ -205,8 +212,17 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
       case 'leave':
         leave()
         break
-      case 'pointerKey':
+      case 'pointerKey': {
+        const current = pointerRef.current
+        if (!current) break
+        if (effect.key === 'select') {
+          tapWebView(findNodeHandle(webBoxRef.current), current.x, current.y)
+        } else {
+          pointerRef.current = movePointer(current, effect.key, Date.now(), sizeRef.current)
+          setPointer(pointerRef.current)
+        }
         break
+      }
     }
   }
 
@@ -216,6 +232,9 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
     controlsRef.current = state
     setControls(state)
     if (state.mode !== 'menu') setMenu(null)
+    if (state.mode === 'pointer' && !pointerRef.current) pointerRef.current = centerPointer(sizeRef.current)
+    if (state.mode !== 'pointer') pointerRef.current = null
+    setPointer(pointerRef.current)
     if (effect) run(effect)
   }
 
@@ -270,7 +289,11 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
   const position = rowLabel(row)
 
   return (
-    <View style={styles.root}>
+    <View
+      testID="player-root"
+      style={styles.root}
+      onLayout={(e) => { sizeRef.current = { width: e.nativeEvent.layout.width, height: e.nativeEvent.layout.height } }}
+    >
       <StatusBar hidden />
       {retry.status === 'failed' ? (
         <View style={styles.fallback}>
@@ -336,6 +359,8 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
       {tvUi && controls.mode === 'menu' && menu && bridge.caps[menu] && (
         <PickerPanel setting={menu} choice={bridge.caps[menu]} onPick={(value) => pick(menu, value)} />
       )}
+
+      {pointer && <PointerLayer x={pointer.x} y={pointer.y} />}
 
       {notice !== null && (
         <View style={styles.reconnecting} pointerEvents="none">
