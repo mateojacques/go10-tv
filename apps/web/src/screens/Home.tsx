@@ -5,6 +5,7 @@ import { Row } from '../components/Row'
 import { listProgress } from '@go10/core/progress/progressStore'
 import { continueWatching } from '@go10/core/progress/titleProgress'
 import { continueCardProgress } from '@go10/core/progress/describe'
+import { collectionGroup, splitByGroup } from '@go10/core/collections/groups'
 import type { Collection } from '@go10/core/collections/types'
 import { visibleCollections } from '@go10/core/collections/resolveCollection'
 import { CollectionStrip } from '../components/CollectionStrip'
@@ -44,8 +45,8 @@ export function Home({
       continueWatching(candidates, listProgress()).slice(0, ROW_LIMIT).map((item) => [item.title.key, item]),
     )
   }, [titles])
-  const strip = useMemo(
-    () => visibleCollections(collections, titles).map((resolved) => resolved.collection),
+  const strips = useMemo(
+    () => splitByGroup(visibleCollections(collections, titles).map((resolved) => resolved.collection), collectionGroup),
     [collections, titles],
   )
   const continueGroup: CatalogRowGroup = {
@@ -71,8 +72,9 @@ export function Home({
     )
   }
 
-  // Focus rows: collections strip, then the live row, then Seguir viendo, then the catalog rows.
-  const liveIndex = strip.length > 0 ? 1 : 0
+  // Focus rows: networks strip, franchises strip, then the live row, then Seguir viendo, then the catalog rows.
+  const stripRows = (strips.network.length > 0 ? 1 : 0) + (strips.franchise.length > 0 ? 1 : 0)
+  const liveIndex = stripRows
   const live = liveRow?.(liveIndex) ?? null
   const firstRow = liveIndex + (live ? 1 : 0)
 
@@ -91,7 +93,15 @@ export function Home({
       )}
 
       <div className="go-rows">
-        {strip.length > 0 && <CollectionStrip collections={strip} rowIndex={0} onSelect={onOpenCollection} />}
+        {strips.network.length > 0 && <CollectionStrip collections={strips.network} rowIndex={0} onSelect={onOpenCollection} />}
+        {strips.franchise.length > 0 && (
+          <CollectionStrip
+            collections={strips.franchise}
+            rowIndex={strips.network.length > 0 ? 1 : 0}
+            label="Franquicias"
+            onSelect={onOpenCollection}
+          />
+        )}
         {live}
         {continueGroup.titles.length > 0 && (
           <Row

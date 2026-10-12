@@ -1,3 +1,5 @@
+import { Fragment } from 'react'
+import { channelGroups } from '@go10/core/tv/groups'
 import { useTv } from './TvProvider'
 import { useLiveNow } from './useLiveNow'
 import { ChannelTile } from './ChannelTile'
@@ -16,12 +18,20 @@ export function LiveRow({ rowIndex, onWatch }: { rowIndex: number; onWatch: (cha
         En vivo ahora
       </h2>
       <div className="go-row_track">
-        {lineup.channels.map((channel, col) => {
-          const schedule = live.get(channel.id)
-          return schedule ? (
-            <ChannelTile key={channel.id} channel={channel} schedule={schedule} row={rowIndex} col={col} scope="live" onSelect={(c) => onWatch(c.id)} />
-          ) : null
-        })}
+        {(() => {
+          let col = 0
+          return channelGroups(lineup.channels).map((group) => (
+            <Fragment key={group.group}>
+              <span className="go-channel-group">{group.label}</span>
+              {group.channels.map((channel) => {
+                const schedule = live.get(channel.id)
+                return schedule ? (
+                  <ChannelTile key={channel.id} channel={channel} schedule={schedule} row={rowIndex} col={col++} scope="live" onSelect={(c) => onWatch(c.id)} />
+                ) : null
+              })}
+            </Fragment>
+          ))
+        })()}
       </div>
     </section>
   )

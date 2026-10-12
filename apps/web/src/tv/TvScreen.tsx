@@ -1,7 +1,8 @@
-import { useCallback, useEffect, useReducer, useRef, useState } from 'react'
+import { Fragment, useCallback, useEffect, useReducer, useRef, useState } from 'react'
 import type { Channel } from '@go10/core/tv/types'
 import { channelByNumber, stepChannel } from '@go10/core/tv/lineup'
 import { clockLabel, programLabel, progressOf } from '@go10/core/tv/describe'
+import { channelGroups } from '@go10/core/tv/groups'
 import { enterDigit, NUMBER_ENTRY_MS } from '@go10/core/tv/numberEntry'
 import { useFocusState } from '../focus/FocusProvider'
 import { setInputMode } from '../focus/inputMode'
@@ -305,22 +306,30 @@ export function TvScreen({
 
       <nav ref={stripRef} className={`go-tv_strip${open ? ' is-open' : ''}`} aria-label="Canales" onPointerDown={wake}>
         <div className="go-tv_track">
-          {lineup.channels.map((c, col) => {
-            const s = live.get(c.id)
-            return s ? (
-              <ChannelTile
-                key={c.id}
-                channel={c}
-                schedule={s}
-                row={0}
-                col={col}
-                current={c.id === channel.id}
-                scope="tv"
-                onSelect={onTile}
-                onKey={onKey}
-              />
-            ) : null
-          })}
+          {(() => {
+            let col = 0
+            return channelGroups(lineup.channels).map((group) => (
+              <Fragment key={group.group}>
+                <span className="go-channel-group">{group.label}</span>
+                {group.channels.map((c) => {
+                  const s = live.get(c.id)
+                  return s ? (
+                    <ChannelTile
+                      key={c.id}
+                      channel={c}
+                      schedule={s}
+                      row={0}
+                      col={col++}
+                      current={c.id === channel.id}
+                      scope="tv"
+                      onSelect={onTile}
+                      onKey={onKey}
+                    />
+                  ) : null
+                })}
+              </Fragment>
+            ))
+          })()}
         </div>
       </nav>
 

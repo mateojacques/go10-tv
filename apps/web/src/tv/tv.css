@@ -410,3 +410,16 @@
   justify-content: center;
   padding: 6px 10px;
 }
+
+/* "Canales" / "24/7": a label in the track, before its group's first tile. */
+.go-channel-group {
+  flex: none;
+  align-self: center;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}

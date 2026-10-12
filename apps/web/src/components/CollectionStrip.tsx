@@ -7,14 +7,16 @@ import './CollectionTile.css'
 export function CollectionStrip({
   collections,
   rowIndex,
+  label = 'Colecciones',
   onSelect,
 }: {
   collections: Collection[]
   rowIndex: number
+  label?: string
   onSelect: (collection: Collection) => void
 }) {
   return (
-    <nav className="go-strip" aria-label="Colecciones">
+    <nav className="go-strip" aria-label={label}>
       <div className="go-row_track">
         {collections.map((collection, col) => (
           <CollectionTile

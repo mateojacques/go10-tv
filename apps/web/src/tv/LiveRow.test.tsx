@@ -34,4 +34,34 @@ describe('LiveRow', () => {
     fireEvent.click(screen.getByRole('button', { name: '1 Cartoon Network: m' }))
     expect(onWatch).toHaveBeenCalledWith('cn')
   })
+
+  const franchise = collectionOf('dbz', ['m'])
+  const mixedLineup: Lineup = {
+    ...lineup,
+    channels: [
+      ...lineup.channels,
+      { id: 'dbz', number: 101, name: 'Dragon Ball', collection: franchise, group: 'franchise', plan: buildChannelPlan({ id: 'dbz', number: 101, collection: 'dbz' }, franchise, [movieTitle('m', 3000)]) },
+    ],
+  }
+  const renderLiveRow = (l: Lineup) =>
+    render(
+      <TvProvider lineup={l}>
+        <FocusProvider onBack={() => {}}>
+          <LiveRow rowIndex={1} onWatch={() => {}} />
+        </FocusProvider>
+      </TvProvider>,
+    )
+
+  it('shows networks under "Canales" and franchises under "24/7"', () => {
+    renderLiveRow(mixedLineup)
+    const canales = screen.getByText('Canales')
+    const franquicias = screen.getByText('24/7')
+    expect(canales.compareDocumentPosition(franquicias) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy()
+    expect(screen.getAllByRole('button').map((b) => b.getAttribute('aria-label')?.split(' ')[0])).toEqual(['1', '101'])
+  })
+
+  it('shows no "24/7" label when there are no franchise channels', () => {
+    renderLiveRow(lineup)
+    expect(screen.queryByText('24/7')).toBeNull()
+  })
 })

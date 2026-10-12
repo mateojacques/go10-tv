@@ -1,5 +1,5 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
-import { act, fireEvent, render, screen } from '@testing-library/react'
+import { act, fireEvent, render, screen, within } from '@testing-library/react'
 import { FocusProvider } from '../focus/FocusProvider'
 import { TvProvider, useTv, type TvApi } from './TvProvider'
 import { TvScreen } from './TvScreen'
@@ -27,9 +27,9 @@ function Grab() {
 const onZap = vi.fn()
 const onBack = vi.fn()
 
-function tree(channel: Channel) {
+function tree(channel: Channel, l: Lineup = lineup) {
   return (
-    <TvProvider lineup={lineup}>
+    <TvProvider lineup={l}>
       <Grab />
       <FocusProvider onBack={onBack}>
         <TvScreen channel={channel} onZap={onZap} onBack={onBack} />
@@ -38,7 +38,7 @@ function tree(channel: Channel) {
     </TvProvider>
   )
 }
-const renderScreen = (channel = lineup.channels[0]) => render(tree(channel))
+const renderScreen = (channel = lineup.channels[0], l: Lineup = lineup) => render(tree(channel, l))
 const press = (key: string) => fireEvent.keyDown(window, { key })
 const strip = () => screen.getByRole('navigation', { name: 'Canales' })
 
@@ -54,6 +54,25 @@ afterEach(() => {
 })
 
 describe('TvScreen', () => {
+  describe('channel groups', () => {
+    const dbz: Channel = { ...channelOf('dbz', 101, ['shrek']), group: 'franchise' }
+    const mixedLineup: Lineup = { ...lineup, channels: [...lineup.channels, dbz] }
+
+    it('shows networks under "Canales" and franchises under "24/7"', () => {
+      renderScreen(lineup.channels[0], mixedLineup)
+      const nav = within(screen.getByRole('navigation', { name: 'Canales' }))
+      const canales = nav.getByText('Canales')
+      const franquicias = nav.getByText('24/7')
+      expect(canales.compareDocumentPosition(franquicias) & Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy()
+      expect(nav.getAllByRole('button').map((b) => b.getAttribute('aria-label')?.split(' ')[0])).toEqual(['1', '2', '3', '101'])
+    })
+
+    it('shows no "24/7" label when there are no franchise channels', () => {
+      renderScreen()
+      expect(within(screen.getByRole('navigation', { name: 'Canales' })).queryByText('24/7')).toBeNull()
+    })
+  })
+
   it('watches its channel on the TV screen', () => {
     renderScreen()
     expect(api.mainChannel).toBe('cn')

@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest'
-import { render, screen, fireEvent } from '@testing-library/react'
+import { render, screen, fireEvent, within } from '@testing-library/react'
 import { FocusProvider } from '../focus/FocusProvider'
 import type { Collection } from '@go10/core/collections/types'
 import type { CatalogRow, Title } from '@go10/core/types'
@@ -23,6 +23,7 @@ const collection = (id: string, name: string, titles: string[]): Collection => (
 })
 
 const CN = collection('cartoon-network', 'Cartoon Network', ['m1'])
+const DB: Collection = { ...collection('dragon-ball', 'Dragon Ball', ['m2']), order: 101, group: 'franchise' }
 const STALE = collection('stale', 'Stale', ['gone'])
 
 function renderHome(collections: Collection[], onOpenCollection = vi.fn()) {
@@ -40,6 +41,18 @@ const focusedLabel = () => document.querySelector('[data-focused="true"]')?.getA
 beforeEach(() => localStorage.clear())
 
 describe('Home collections strip', () => {
+  it('renders franchises in a second strip, with no heading', () => {
+    renderHome([CN, DB])
+    const strips = screen.getAllByRole('navigation', { name: /Colecciones|Franquicias/ })
+    expect(strips.map((s) => within(s).getAllByRole('button').length)).toEqual([1, 1])
+    expect(screen.queryByRole('heading', { name: 'Franquicias' })).toBeNull()
+  })
+
+  it('renders one strip when no franchise collection is visible', () => {
+    renderHome([CN])
+    expect(screen.getAllByRole('navigation', { name: /Colecciones|Franquicias/ })).toHaveLength(1)
+  })
+
   it('sits between the hero and the first row', () => {
     renderHome([CN])
     const nav = screen.getByRole('navigation', { name: 'Colecciones' })
