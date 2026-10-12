@@ -1,5 +1,6 @@
 import type { Title } from '../types'
 import type { Collection } from '../collections/types'
+import { collectionGroup } from '../collections/groups'
 import { buildChannelPlan } from './plan'
 import type { ChannelConfig } from './types'
 
@@ -57,6 +58,11 @@ export function validateChannelEntry(entry: unknown, index: number, ctx: Channel
   const named = `${FILE}: channels[${index}] (${config.id})`
   const collection = ctx.collections.find((c) => c.id === config.collection)
   if (!collection) return [`${named}: unknown collection "${config.collection}"`]
+  if (collectionGroup(collection) === 'franchise') {
+    if (config.number < 101) errors.push(`${named}: a franchise channel's number must be 101 or more`)
+  } else if (config.number > 99) {
+    errors.push(`${named}: a network channel's number must be 99 or less`)
+  }
   for (const key of config.exclude ?? []) {
     if (!collection.titles.includes(key)) errors.push(`${named}: exclude key "${key}" is not in collection "${collection.id}"`)
   }

@@ -132,6 +132,6 @@ describe('scheduleAt', () => {
   })
 
   it('refuses an empty plan', () => {
-    expect(() => scheduleAt({ channelId: 'x', seed: 1, blockSeconds: 1800, titles: [] }, EPOCH, EPOCH)).toThrow(/nothing to air/)
+    expect(() => scheduleAt({ channelId: 'x', seed: 1, blockSeconds: 1800, mode: 'blocks', titles: [] }, EPOCH, EPOCH)).toThrow(/nothing to air/)
   })
 })

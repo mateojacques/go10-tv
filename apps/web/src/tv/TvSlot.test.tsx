@@ -10,7 +10,7 @@ const EPOCH = Date.UTC(2026, 9, 1)
 const titles = [showTitle('a', 3, 600), movieTitle('m', 3000)]
 const collection = collectionOf('cn', ['a', 'm'])
 const channel: Channel = {
-  id: 'cn', number: 1, name: 'CN', collection,
+  id: 'cn', number: 1, name: 'CN', collection, group: 'network',
   plan: buildChannelPlan({ id: 'cn', number: 1, collection: 'cn' }, collection, titles),
 }
 

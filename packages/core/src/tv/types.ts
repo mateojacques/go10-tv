@@ -1,7 +1,10 @@
 import type { CatalogRow } from '../types'
-import type { Collection } from '../collections/types'
+import type { Collection, CollectionGroup } from '../collections/types'
 
 export const DEFAULT_BLOCK_MINUTES = 30
+
+/** `blocks`: rotating turns of consecutive episodes (networks). `runs`: 2–3 episodes from a random point (franchises). */
+export type ScheduleMode = 'blocks' | 'runs'
 
 /** One entry of `data/channels.json` as written. */
 export interface ChannelConfig {
@@ -47,6 +50,7 @@ export interface ChannelPlan {
   channelId: string
   seed: number
   blockSeconds: number
+  mode: ScheduleMode
   titles: PlanTitle[]
 }
 
@@ -55,6 +59,7 @@ export interface Channel {
   id: string
   number: number
   name: string
+  group: CollectionGroup
   collection: Collection
   plan: ChannelPlan
 }

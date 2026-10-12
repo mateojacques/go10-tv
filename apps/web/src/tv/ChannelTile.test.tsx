@@ -12,12 +12,12 @@ import type { Channel, Lineup } from '@go10/core/tv/types'
 const EPOCH = Date.UTC(2026, 9, 1)
 const collection = collectionOf('cn', ['coraje'])
 const channel: Channel = {
-  id: 'cn', number: 1, name: 'Cartoon Network', collection,
+  id: 'cn', number: 1, name: 'Cartoon Network', collection, group: 'network',
   plan: buildChannelPlan({ id: 'cn', number: 1, collection: 'cn' }, collection, [showTitle('coraje', 4, 600)]),
 }
 const otherCollection = collectionOf('jx', ['mulan'])
 const other: Channel = {
-  id: 'jx', number: 2, name: 'Jetix', collection: otherCollection,
+  id: 'jx', number: 2, name: 'Jetix', collection: otherCollection, group: 'network',
   plan: buildChannelPlan({ id: 'jx', number: 2, collection: 'jx' }, otherCollection, [movieTitle('mulan', 5280)]),
 }
 const lineup: Lineup = { epochMs: EPOCH, defaultChannel: 'cn', channels: [channel, other] }

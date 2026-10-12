@@ -1,7 +1,7 @@
 import { afterEach, describe, expect, it, vi } from 'vitest'
 import { channelByNumber, pickChannel, readLastChannel, resolveLineup, stepChannel, writeLastChannel } from './lineup'
 import { keyValueStore } from '../ports/keyValueStore'
-import { collectionOf, movieTitle } from './testing'
+import { collectionOf, movieTitle, showTitle } from './testing'
 
 const collections = [collectionOf('cn', ['m1']), collectionOf('jx', ['m2']), collectionOf('empty', ['m0'])]
 const titles = [movieTitle('m1', 600), movieTitle('m2', 600), movieTitle('m0', 0)]
@@ -76,5 +76,39 @@ describe('channel picking', () => {
   it('finds a channel by number', () => {
     expect(channelByNumber(lineup(), 2)!.id).toBe('jx')
     expect(channelByNumber(lineup(), 9)).toBeNull()
+  })
+})
+
+describe('franchise channels in the lineup', () => {
+  const titles = [showTitle('s', 3, 600)]
+  const fr = { ...collectionOf('fr', ['s']), group: 'franchise' as const }
+  const lineup = resolveLineup(
+    {
+      epoch: '2026-10-01T00:00:00Z',
+      defaultChannel: 'n1',
+      channels: [
+        { id: 'f2', number: 102, collection: 'fr' },
+        { id: 'n1', number: 1, collection: 'net' },
+        { id: 'n15', number: 15, collection: 'net' },
+        { id: 'f1', number: 101, collection: 'fr' },
+      ],
+    },
+    [collectionOf('net', ['s']), fr],
+    titles,
+  )!
+
+  it('takes the group from the collection', () => {
+    expect(lineup.channels.map((c) => [c.id, c.group])).toEqual([['n1', 'network'], ['n15', 'network'], ['f1', 'franchise'], ['f2', 'franchise']])
+  })
+
+  it('zaps across the seam and wraps', () => {
+    expect(stepChannel(lineup, 'n15', 1).id).toBe('f1')
+    expect(stepChannel(lineup, 'f1', -1).id).toBe('n15')
+    expect(stepChannel(lineup, 'f2', 1).id).toBe('n1')
+  })
+
+  it('falls back to the default when the last channel no longer exists (marvel → spider-man)', () => {
+    writeLastChannel('marvel')
+    expect(pickChannel(lineup, null)?.id).toBe('n1')
   })
 })

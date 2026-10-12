@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { validateChannels } from './validateChannels'
-import { collectionOf, movieTitle } from './testing'
+import { collectionOf, movieTitle, showTitle } from './testing'
 
 const collections = [collectionOf('cn', ['m1', 'm2']), collectionOf('empty', ['m0'])]
 const titles = [movieTitle('m1', 600), movieTitle('m2', 600), movieTitle('m0', 0)]
@@ -60,6 +60,24 @@ describe('validateChannels', () => {
       'channels.json: channels[0] (cn): exclude key "m9" is not in collection "cn"',
       'channels.json: channels[1] (gone): unknown collection "nope"',
       'channels.json: channels[2] (dead): nothing in collection "empty" can air',
+    ])
+  })
+})
+
+describe('number ranges', () => {
+  const titles = [showTitle('s', 3, 600)]
+  const collections = [collectionOf('net', ['s']), { ...collectionOf('fr', ['s']), group: 'franchise' as const }]
+  const file = (channels: unknown[]) => ({ epoch: '2026-10-01T00:00:00Z', defaultChannel: 'n', channels })
+
+  it('accepts a network at 1–99 and a franchise at 101+', () => {
+    expect(validateChannels(file([{ id: 'n', number: 99, collection: 'net' }, { id: 'f', number: 101, collection: 'fr' }]), { collections, titles })).toEqual([])
+  })
+
+  it('rejects a network above 99 and a franchise below 101', () => {
+    expect(validateChannels(file([{ id: 'n', number: 100, collection: 'net' }, { id: 'f', number: 100, collection: 'fr' }]), { collections, titles })).toEqual([
+      'channels.json: channels[0] (n): a network channel\'s number must be 99 or less',
+      'channels.json: channels[1] (f): a franchise channel\'s number must be 101 or more',
+      'channels.json: number 100 is used by more than one channel',
     ])
   })
 })

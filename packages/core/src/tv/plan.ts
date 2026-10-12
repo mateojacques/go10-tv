@@ -1,5 +1,6 @@
 import type { Title } from '../types'
 import type { Collection } from '../collections/types'
+import { collectionGroup } from '../collections/groups'
 import { resolveCollection } from '../collections/resolveCollection'
 import { rowKey } from '../catalog/rowKey'
 import { hash01 } from '../lib/hash'
@@ -24,6 +25,7 @@ export function buildChannelPlan(config: ChannelConfig, collection: Collection, 
     channelId: config.id,
     seed: channelSeed(config.id),
     blockSeconds: (config.blockMinutes ?? DEFAULT_BLOCK_MINUTES) * 60,
+    mode: collectionGroup(collection) === 'franchise' ? 'runs' : 'blocks',
     titles: resolveCollection(collection, titles)
       .filter((title) => !excluded.has(title.key))
       .map((title) => ({ key: title.key, units: unitsOf(title) }))

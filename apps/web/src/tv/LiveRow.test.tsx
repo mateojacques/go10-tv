@@ -11,7 +11,7 @@ const EPOCH = Date.UTC(2026, 9, 1)
 const collection = collectionOf('cn', ['m'])
 const lineup: Lineup = {
   epochMs: EPOCH, defaultChannel: 'cn',
-  channels: [{ id: 'cn', number: 1, name: 'Cartoon Network', collection, plan: buildChannelPlan({ id: 'cn', number: 1, collection: 'cn' }, collection, [movieTitle('m', 3000)]) }],
+  channels: [{ id: 'cn', number: 1, name: 'Cartoon Network', collection, group: 'network', plan: buildChannelPlan({ id: 'cn', number: 1, collection: 'cn' }, collection, [movieTitle('m', 3000)]) }],
 }
 
 beforeEach(() => {

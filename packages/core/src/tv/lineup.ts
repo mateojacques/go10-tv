@@ -1,5 +1,6 @@
 import type { Title } from '../types'
 import type { Collection } from '../collections/types'
+import { collectionGroup } from '../collections/groups'
 import { keyValueStore } from '../ports/keyValueStore'
 import { buildChannelPlan } from './plan'
 import { validateChannelEntry, validateChannelsTop } from './validateChannels'
@@ -39,6 +40,7 @@ export function resolveLineup(raw: unknown, collections: Collection[], titles: T
       id: config.id,
       number: config.number,
       name: config.name ?? collection.name,
+      group: collectionGroup(collection),
       collection,
       plan: buildChannelPlan(config, collection, titles),
     })

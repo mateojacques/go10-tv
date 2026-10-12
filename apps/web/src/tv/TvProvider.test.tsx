@@ -11,7 +11,7 @@ const EPOCH = Date.UTC(2026, 9, 1)
 const titles = [movieTitle('m1', 3000), movieTitle('m2', 3000), movieTitle('m3', 3000)]
 const channelOf = (id: string, number: number, key: string): Channel => {
   const collection = collectionOf(id, [key])
-  return { id, number, name: id.toUpperCase(), collection, plan: buildChannelPlan({ id, number, collection: id }, collection, titles) }
+  return { id, number, name: id.toUpperCase(), group: 'network', collection, plan: buildChannelPlan({ id, number, collection: id }, collection, titles) }
 }
 const lineup: Lineup = { epochMs: EPOCH, defaultChannel: 'b', channels: [channelOf('a', 1, 'm1'), channelOf('b', 2, 'm2'), channelOf('c', 3, 'm3')] }
 
