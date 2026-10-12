@@ -47,6 +47,9 @@ export function validateCollection(file: CollectionFile, ctx: ValidationContext)
   if (typeof c.name !== 'string' || c.name.trim() === '') fail('name must be a non-empty string')
 
   if (!Number.isInteger(c.order)) fail('order must be an integer')
+  if (c.group !== undefined && c.group !== 'network' && c.group !== 'franchise') {
+    fail('group must be "network" or "franchise" when present')
+  }
 
   checkAsset('logo', c.logo)
 
