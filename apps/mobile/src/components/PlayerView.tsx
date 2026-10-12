@@ -1,7 +1,7 @@
 import { Ionicons } from '@expo/vector-icons'
 import { StatusBar } from 'expo-status-bar'
 import { useEffect, useMemo, useReducer, useRef, useState, type ComponentProps } from 'react'
-import { AppState, Linking, Platform, Pressable, StyleSheet, Text, View } from 'react-native'
+import { AppState, findNodeHandle, Linking, Platform, Pressable, StyleSheet, Text, View } from 'react-native'
 import { WebView, type WebViewMessageEvent } from 'react-native-webview'
 import { createPlaybackSession, LOAD_TIMEOUT_MS } from '@go10/core/player/playbackSession'
 import { backoffMs, initialPlayerRetryState, playerRetryReducer } from '@go10/core/player/playerRetry'
@@ -13,9 +13,19 @@ import { useBackPress, useRemoteKeys } from '../platform/remote'
 import { commandScript, hostHtml, parseHostMessage } from '../player/hostPage'
 import { allowNavigation } from '../player/navigationGuard'
 import { backAction, playerKeyAction } from '@go10/core/player/playerKeys'
+import { BRIDGE_ORIGINS } from '@go10/core/player/bridge/protocol'
+import { initialTvControls, OVERLAY_IDLE_MS, tvControls, type TvEffect, type TvInput } from '@go10/core/player/tvControls'
+import { isTvUi } from '../platform/tvUi'
+import { TvPlayerOverlay } from '../player/tv/TvPlayerOverlay'
+import { useEmbedBridge } from '../player/useEmbedBridge'
 import { theme } from '../theme'
 
 const tv = Platform.isTV
+/** Quick seeks on TV go out as one (the web player's SEEK_COALESCE_MS). */
+const SEEK_COALESCE_MS = 400
+const TOAST_MS = 1500
+/** What the WebView shows while the bridge script is being installed. */
+const BLANK_PAGE = '<html><body style="background:#000"></body></html>'
 
 function BarButton({ label, icon, onPress, disabled, preferred }: {
   label: string
@@ -43,7 +53,9 @@ function BarButton({ label, icon, onPress, disabled, preferred }: {
  * The player (apps/web/src/screens/Player.tsx) on a WebView: the embed runs
  * in an inline host page on the site's origin, its messages drive a core
  * playback session, and commands go back through injected script. On TV the
- * WebView never takes focus, so every remote key reaches us.
+ * WebView never takes focus, so every remote key reaches us; core's
+ * tvControls turns them into the TV overlay's states and actions, and the
+ * embed bridge exposes the embed's own settings (spec: Android TV player controls).
  */
 export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
   row: CatalogRow
@@ -54,11 +66,14 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
   onNext?: () => void
 }) {
   usePlayerChrome()
+  const [tvUi] = useState(isTvUi)
   const provider = providerFor(row)
   const [retry, dispatch] = useReducer(playerRetryReducer, initialPlayerRetryState)
   const [barOpen, setBarOpen] = useState(false)
   const [playing, setPlaying] = useState(false)
   const webRef = useRef<WebView>(null)
+  // The WebView's ref has no native tag; the native bridge finds it under this container.
+  const webBoxRef = useRef<View>(null)
   const loadedRef = useRef(false)
   const onNextRef = useRef(onNext)
   onNextRef.current = onNext
@@ -69,8 +84,22 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
       send: (command) => webRef.current?.injectJavaScript(commandScript(command)),
       onEnded: () => onNextRef.current?.(),
       onPlayingChange: setPlaying,
+      seekCoalesceMs: tvUi ? SEEK_COALESCE_MS : 0,
     }),
   )
+
+  const bridge = useEmbedBridge({
+    enabled: tvUi,
+    webRef,
+    viewTag: () => findNodeHandle(webBoxRef.current),
+    reloadToken: retry.reloadToken,
+  })
+
+  // TV overlay state (core's tvControls); the ref keeps key handlers current.
+  const [controls, setControls] = useState(initialTvControls)
+  const controlsRef = useRef(controls)
+  const [timeline, setTimeline] = useState(() => session.timeline())
+  const [toast, setToast] = useState<{ target: number; at: number } | null>(null)
 
   // A new file starts over: fresh retry state and a reload (the reset bumps reloadToken).
   const videoRef = useRef(row.video_id)
@@ -104,7 +133,7 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
   }, [session])
 
   useEffect(() => {
-    if (retry.status === 'loading') {
+    if (retry.status === 'loading' && bridge.ready) {
       const timer = setTimeout(() => {
         if (!loadedRef.current) dispatch({ type: 'timeout' })
       }, LOAD_TIMEOUT_MS)
@@ -117,20 +146,80 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
       }, backoffMs(retry.attempt))
       return () => clearTimeout(timer)
     }
-  }, [retry.status, retry.attempt, retry.reloadToken])
+  }, [retry.status, retry.attempt, retry.reloadToken, bridge.ready])
+
+  useEffect(() => {
+    if (!toast) return
+    const timer = setTimeout(() => setToast(null), TOAST_MS)
+    return () => clearTimeout(timer)
+  }, [toast])
+
+  // Every input restarts the overlay's idle timer.
+  useEffect(() => {
+    if (controls.mode !== 'open' && controls.mode !== 'scrubbing') return
+    const timer = setTimeout(() => dispatch_({ type: 'idle' }), OVERLAY_IDLE_MS)
+    return () => clearTimeout(timer)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [controls])
 
   const leave = () => {
     session.flush()
     onClose()
   }
 
+  function run(effect: TvEffect) {
+    switch (effect.type) {
+      case 'seekBy': {
+        const target = session.seekBy(effect.delta)
+        if (target !== null) setToast({ target, at: Date.now() })
+        setTimeline(session.timeline())
+        break
+      }
+      case 'seekTo':
+        session.seekTo(effect.time)
+        setTimeline(session.timeline())
+        break
+      case 'togglePlay':
+        session.togglePlay()
+        break
+      case 'play':
+      case 'pause':
+        session.setPlaying(effect.type === 'play')
+        break
+      case 'next':
+        onNext?.()
+        break
+      case 'previous':
+        onPrev?.()
+        break
+      case 'leave':
+        leave()
+        break
+      case 'pointerKey':
+        break
+    }
+  }
+
+  // Named with a trailing underscore: `dispatch` is the retry reducer's.
+  function dispatch_(input: TvInput) {
+    const { state, effect } = tvControls(controlsRef.current, input)
+    controlsRef.current = state
+    setControls(state)
+    if (effect) run(effect)
+  }
+
   useBackPress(() => {
-    if (backAction(barOpen) === 'closeBar') setBarOpen(false)
+    if (tvUi) dispatch_({ type: 'back' })
+    else if (backAction(barOpen) === 'closeBar') setBarOpen(false)
     else leave()
     return true
   })
 
   useRemoteKeys((key) => {
+    if (tvUi) {
+      dispatch_({ type: 'key', key, now: Date.now() })
+      return
+    }
     const action = playerKeyAction(key, barOpen)
     if (!action) return
     if (action.type === 'seekBy') session.seekBy(action.delta)
@@ -146,8 +235,11 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
     if (message?.kind === 'loaded') {
       loadedRef.current = true
       dispatch({ type: 'loaded' })
+    } else if (message?.kind === 'bridge') {
+      bridge.handle(message.data)
     } else if (message) {
       session.handle(message.data)
+      if (tvUi) setTimeline(session.timeline())
     }
   }
 
@@ -171,20 +263,25 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
           </Pressable>
         </View>
       ) : (
-        <WebView
-          key={retry.reloadToken}
-          ref={webRef}
-          testID="player-webview"
-          style={styles.web}
-          source={{ html: hostHtml(src, provider.origin), baseUrl: siteUrl }}
-          originWhitelist={['*']}
-          onMessage={onMessage}
-          onShouldStartLoadWithRequest={(request) => allowNavigation(request, siteUrl)}
-          mediaPlaybackRequiresUserAction={false}
-          allowsFullscreenVideo
-          setSupportMultipleWindows={false}
-          focusable={!tv}
-        />
+        <View ref={webBoxRef} collapsable={false} style={styles.web}>
+          <WebView
+            key={retry.reloadToken}
+            ref={webRef}
+            testID="player-webview"
+            style={styles.web}
+            source={{
+              html: bridge.ready ? hostHtml(src, provider.origin, { bridgeOrigins: tvUi ? BRIDGE_ORIGINS : [] }) : BLANK_PAGE,
+              baseUrl: siteUrl,
+            }}
+            originWhitelist={['*']}
+            onMessage={onMessage}
+            onShouldStartLoadWithRequest={(request) => allowNavigation(request, siteUrl)}
+            mediaPlaybackRequiresUserAction={false}
+            allowsFullscreenVideo
+            setSupportMultipleWindows={false}
+            focusable={!tvUi}
+          />
+        </View>
       )}
 
       {retry.status === 'retrying' && (
@@ -193,7 +290,27 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
         </View>
       )}
 
-      {barOpen && (
+      {tvUi && (
+        <TvPlayerOverlay
+          title={row.series_title || row.title}
+          position={position}
+          controls={controls}
+          timeline={timeline}
+          playing={playing}
+          canToggle={canToggle}
+          hasPrev={!!onPrev}
+          hasNext={!!onNext}
+          caps={bridge.caps}
+          toast={toast}
+          dispatch={dispatch_}
+          onTogglePlay={() => session.togglePlay()}
+          onPrev={() => onPrev?.()}
+          onNext={() => onNext?.()}
+          onSetting={() => dispatch_({ type: 'openMenu' })}
+        />
+      )}
+
+      {!tvUi && barOpen && (
         <View style={styles.bar}>
           <BarButton label="Volver" icon="chevron-back" onPress={leave} preferred={!canToggle} />
           <View style={styles.heading}>
@@ -213,7 +330,7 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
       )}
 
       {/* Touch: a small tab at the top edge drops the bar down (TV opens it from the remote). */}
-      {!tv && (
+      {!tvUi && (
         <Pressable
           accessibilityRole="button"
           accessibilityLabel={barOpen ? 'Ocultar controles' : 'Mostrar controles'}

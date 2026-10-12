@@ -18,6 +18,14 @@ jest.mock('react-native-webview', () => {
 
 jest.mock('../platform/playerChrome', () => ({ usePlayerChrome: jest.fn() }))
 
+const mockTv = { value: false }
+jest.mock('../platform/tvUi', () => ({ isTvUi: () => mockTv.value }))
+jest.mock('../player/embedBridge', () => ({
+  installBridge: jest.fn(async () => 'installed'),
+  tapWebView: jest.fn(),
+  webViewVersion: () => '129',
+}))
+
 const mockRemote: { key?: (key: string) => void; back?: () => boolean } = {}
 jest.mock('../platform/remote', () => ({
   useRemoteKeys: (onKey: (key: string) => void) => { mockRemote.key = onKey },
@@ -49,6 +57,7 @@ const injected = () => mockInject.mock.calls.map(([script]) => script as string)
 beforeEach(() => {
   setKeyValueStore(memoryStore())
   mockInject.mockClear()
+  mockTv.value = false
 })
 
 describe('PlayerView', () => {
@@ -157,5 +166,74 @@ describe('PlayerView', () => {
       await act(() => { jest.advanceTimersByTime(9000) })
       expect(screen.queryByText('Reconectando…')).toBeNull()
     })
+  })
+})
+
+describe('PlayerView on TV', () => {
+  beforeEach(() => { mockTv.value = true })
+  const okQuality = { options: [{ value: 'sd', label: '480p' }, { value: 'hd', label: '720p' }], current: 'hd' }
+  const caps = (quality: object = okQuality) => post({ kind: 'bridge', data: { go10Bridge: 'caps', source: 'okru', frame: 'f', caps: { quality } } })
+  const start = async (onClose = jest.fn()) => {
+    await render(<PlayerView row={movie} siteUrl={SITE} onClose={onClose} />)
+    await act(async () => {})
+  }
+
+  it('holds the embed until the bridge is installed, then loads it unfocusable', async () => {
+    let installed!: (result: string) => void
+    jest.requireMock('../player/embedBridge').installBridge.mockReturnValueOnce(new Promise((r) => { installed = r }))
+    await render(<PlayerView row={movie} siteUrl={SITE} onClose={jest.fn()} />)
+    expect(webview().props.source.html).not.toContain('videoembed')
+    await act(async () => installed('installed'))
+    expect(webview().props.source.html).toContain('https://ok.ru/videoembed/1')
+    expect(webview().props.source.html).toContain('var BRIDGE = ["https://ok.ru"')
+    expect(webview().props.focusable).toBe(false)
+  })
+
+  it('seeks ±10 s and shows the toast with the overlay hidden; Select opens it', async () => {
+    await start()
+    await embed({ event: 'timeupdate', time: 100, duration: 700 })
+    await act(() => mockRemote.key!('right'))
+    expect(screen.getByText('1:50 / 11:40')).toBeTruthy()
+    await act(() => mockRemote.key!('select'))
+    expect(screen.getByLabelText('Línea de tiempo')).toBeTruthy()
+  })
+
+  it('scrubs and commits a single seek', async () => {
+    jest.useFakeTimers({ doNotFake: ['setImmediate', 'queueMicrotask', 'nextTick'] })
+    try {
+      await start()
+      await embed({ event: 'timeupdate', time: 100, duration: 700 })
+      await act(() => mockRemote.key!('select'))
+      await fireEvent(screen.getByLabelText('Línea de tiempo'), 'focus')
+      mockInject.mockClear()
+      await act(() => mockRemote.key!('right'))
+      await act(() => mockRemote.key!('right'))
+      expect(screen.getByText('2:00 / 11:40')).toBeTruthy()
+      expect(injected().some((s) => s.includes('seek'))).toBe(false)
+      await act(() => mockRemote.key!('select')) // ignored while scrubbing…
+      await fireEvent.press(screen.getByLabelText('Línea de tiempo')) // …the timeline's onPress commits
+      await act(async () => { jest.advanceTimersByTime(500) })
+      expect(injected().filter((s) => s.includes('"seek"'))).toEqual(['window.go10Command({"action":"seek","time":120}); true;'])
+    } finally {
+      jest.useRealTimers()
+    }
+  })
+
+  it('Back closes the overlay before leaving', async () => {
+    const onClose = jest.fn()
+    await start(onClose)
+    await act(() => mockRemote.key!('select'))
+    await act(() => { mockRemote.back!() })
+    expect(onClose).not.toHaveBeenCalled()
+    expect(screen.queryByLabelText('Línea de tiempo')).toBeNull()
+    await act(() => { mockRemote.back!() })
+    expect(onClose).toHaveBeenCalled()
+  })
+
+  it('shows a quality button once the embed reports qualities', async () => {
+    await start()
+    await caps()
+    await act(() => mockRemote.key!('select'))
+    expect(screen.getByLabelText('Calidad: 720p')).toBeTruthy()
   })
 })
