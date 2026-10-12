@@ -1,4 +1,4 @@
-import { commandScript, hostHtml, parseHostMessage } from './hostPage'
+import { bridgeScript, commandScript, hostHtml, parseHostMessage } from './hostPage'
 
 describe('hostHtml', () => {
   it('embeds the src attribute-escaped and relays only the embed origin', () => {
@@ -39,5 +39,22 @@ describe('hostHtml crop', () => {
 
   it('does not crop by default', () => {
     expect(hostHtml('https://ok.ru/videoembed/1', 'https://ok.ru')).not.toContain('top:-')
+  })
+})
+
+describe('bridge relay', () => {
+  it('relays go10Bridge messages from bridge origins only, and broadcasts commands to every frame', () => {
+    const html = hostHtml('https://ok.ru/videoembed/1', 'https://ok.ru', { bridgeOrigins: ['https://ok.ru', 'https://player.vidlove.cc'] })
+    expect(html).toContain('var BRIDGE = ["https://ok.ru","https://player.vidlove.cc"]')
+    expect(html).toContain('window.go10Bridge = function')
+    expect(bridgeScript({ go10Bridge: 'set', id: 1 })).toBe('window.go10Bridge({"go10Bridge":"set","id":1}); true;')
+  })
+
+  it('has no bridge relay unless asked (live TV)', () => {
+    expect(hostHtml('https://ok.ru/videoembed/1', 'https://ok.ru')).toContain('var BRIDGE = []')
+  })
+
+  it('parses bridge messages', () => {
+    expect(parseHostMessage(JSON.stringify({ kind: 'bridge', data: { go10Bridge: 'caps' } }))).toEqual({ kind: 'bridge', data: { go10Bridge: 'caps' } })
   })
 })
