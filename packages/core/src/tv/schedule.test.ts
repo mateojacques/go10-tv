@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { buildChannelPlan } from './plan'
-import { originOf, playRound, roundOrder, scheduleAt } from './schedule'
+import { originOf, playNext, playRound, playRun, roundOrder, scheduleAt } from './schedule'
 import type { Airing, ChannelPlan } from './types'
 import { collectionOf, movieTitle, showTitle } from './testing'
 
@@ -133,5 +133,110 @@ describe('scheduleAt', () => {
 
   it('refuses an empty plan', () => {
     expect(() => scheduleAt({ channelId: 'x', seed: 1, blockSeconds: 1800, mode: 'blocks', titles: [] }, EPOCH, EPOCH)).toThrow(/nothing to air/)
+  })
+})
+
+function runsPlan(titles = [showTitle('big', 90, 600), showTitle('small', 9, 600), movieTitle('m', 5400)]): ChannelPlan {
+  const collection = { ...collectionOf('fr', titles.map((t) => t.key)), group: 'franchise' as const }
+  return buildChannelPlan({ id: 'fr', number: 101, collection: 'fr' }, collection, titles)
+}
+
+function naiveRuns(p: ChannelPlan, runs: number): Airing[] {
+  let cp = originOf(p, EPOCH)
+  const all: Airing[] = []
+  for (let i = 0; i < runs; i++) {
+    const r = playRun(p, cp)
+    all.push(...r.airings)
+    cp = r.next
+  }
+  return all
+}
+
+describe('playRun', () => {
+  it('is deterministic and contiguous from the epoch', () => {
+    const p = runsPlan()
+    expect(naiveRuns(p, 50)).toEqual(naiveRuns(p, 50))
+    const all = naiveRuns(p, 50)
+    expect(all[0].startsAt).toBe(EPOCH)
+    for (let i = 1; i < all.length; i++) expect(all[i].startsAt).toBe(all[i - 1].endsAt)
+  })
+
+  it('airs 1–3 consecutive units of one title, never wrapping past its end', () => {
+    const p = runsPlan()
+    let cp = originOf(p, EPOCH)
+    for (let i = 0; i < 300; i++) {
+      const { airings, next } = playRun(p, cp)
+      expect(airings.length).toBeGreaterThanOrEqual(1)
+      expect(airings.length).toBeLessThanOrEqual(3)
+      expect(new Set(airings.map((a) => a.titleKey)).size).toBe(1)
+      const units = p.titles.find((t) => t.key === airings[0].titleKey)!.units
+      const first = units.findIndex((u) => u.key === airings[0].unit.key)
+      expect(airings.map((a) => a.unit.key)).toEqual(units.slice(first, first + airings.length).map((u) => u.key))
+      if (airings.length < 2) expect(first === units.length - 1).toBe(true)
+      cp = next
+    }
+  })
+
+  it('airs a movie alone', () => {
+    const p = runsPlan()
+    const movieRuns = Array.from({ length: 400 }, (_, round) => playRun(p, { ...originOf(p, EPOCH), round }).airings).filter((a) => a[0].titleKey === 'm')
+    expect(movieRuns.length).toBeGreaterThan(0)
+    for (const run of movieRuns) expect(run.map((a) => a.unit.key)).toEqual(['m'])
+  })
+
+  it('picks by unit, so a long series wins most runs', () => {
+    const p = runsPlan() // 90 + 9 + 1 units
+    const firsts = Array.from({ length: 4000 }, (_, round) => playRun(p, { ...originOf(p, EPOCH), round }).airings[0].titleKey)
+    const share = (key: string) => firsts.filter((k) => k === key).length / firsts.length
+    expect(share('big')).toBeGreaterThan(0.85)
+    expect(share('big')).toBeLessThan(0.95)
+    expect(share('m')).toBeLessThan(0.03)
+  })
+
+  it('never airs the same title twice in a row when there are several', () => {
+    const p = runsPlan()
+    const runTitles: string[] = []
+    let cp = originOf(p, EPOCH)
+    for (let i = 0; i < 500; i++) {
+      const r = playRun(p, cp)
+      runTitles.push(r.airings[0].titleKey)
+      cp = r.next
+    }
+    for (let i = 1; i < runTitles.length; i++) expect(runTitles[i]).not.toBe(runTitles[i - 1])
+  })
+
+  it('repeats freely on a single-title channel', () => {
+    const p = runsPlan([showTitle('simpsons', 81, 1320)])
+    const all = naiveRuns(p, 100)
+    expect(new Set(all.map((a) => a.titleKey))).toEqual(new Set(['simpsons']))
+  })
+})
+
+describe('playNext', () => {
+  it('dispatches on the plan mode', () => {
+    const blocks = plan()
+    const runs = runsPlan()
+    expect(playNext(blocks, originOf(blocks, EPOCH))).toEqual(playRound(blocks, originOf(blocks, EPOCH)))
+    expect(playNext(runs, originOf(runs, EPOCH))).toEqual(playRun(runs, originOf(runs, EPOCH)))
+  })
+})
+
+describe('scheduleAt in runs mode', () => {
+  it('matches a naïve run-by-run simulation, through the checkpoint cache', () => {
+    const p = runsPlan()
+    const all = naiveRuns(p, 2000)
+    const end = all[all.length - 1].endsAt
+    for (let i = 0; i < 300; i++) {
+      const t = EPOCH + Math.floor(((i * 7919) % 1000) / 1000 * (end - EPOCH - 1))
+      const expected = all.find((a) => a.startsAt <= t && t < a.endsAt)!
+      expect(scheduleAt(p, EPOCH, t).current).toEqual(expected)
+    }
+  })
+
+  it('answers boundary instants with the airing that starts there', () => {
+    const p = runsPlan()
+    const all = naiveRuns(p, 20)
+    expect(scheduleAt(p, EPOCH, all[5].startsAt).current).toEqual(all[5])
+    expect(scheduleAt(p, EPOCH, all[5].startsAt).offset).toBe(0)
   })
 })

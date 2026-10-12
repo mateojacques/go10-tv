@@ -6,6 +6,7 @@ const CHECKPOINT_EVERY = 32
 
 /** Where a round starts: its index, start time, every title's cursor, and the title that aired last. */
 export interface Checkpoint {
+  /** The round index, or the run index in runs mode. */
   round: number
   startsAt: number
   cursors: number[]
@@ -55,6 +56,46 @@ export function playRound(plan: ChannelPlan, cp: Checkpoint): { airings: Airing[
   return { airings, next: { round: cp.round + 1, startsAt: t, cursors, lastTitle: order[order.length - 1] } }
 }
 
+/** Pick attempts that may land on the title that just aired before falling back. */
+const REPICKS = 8
+
+/**
+ * One run (franchise channels): a unit picked uniformly over every unit of
+ * every title, so a long series outweighs a single movie, then 2 or 3
+ * consecutive units of that title from there, cut at the title's end. Never
+ * the title the previous run aired, unless the plan has only one.
+ */
+export function playRun(plan: ChannelPlan, cp: Checkpoint): { airings: Airing[]; next: Checkpoint } {
+  const seed = (plan.seed + cp.round) >>> 0
+  const total = plan.titles.reduce((sum, title) => sum + title.units.length, 0)
+  const locate = (key: string) => {
+    let flat = Math.min(total - 1, Math.floor(hash01(seed, key) * total))
+    let title = 0
+    while (flat >= plan.titles[title].units.length) flat -= plan.titles[title++].units.length
+    return { title, unit: flat }
+  }
+  let pick = locate('pick')
+  if (plan.titles.length > 1) {
+    for (let k = 1; pick.title === cp.lastTitle && k <= REPICKS; k++) pick = locate(`pick#${k}`)
+    if (pick.title === cp.lastTitle) pick = { title: (cp.lastTitle + 1) % plan.titles.length, unit: 0 }
+  }
+  const { key, units } = plan.titles[pick.title]
+  const count = Math.min(2 + Math.floor(hash01(seed, 'len') * 2), units.length - pick.unit)
+  const airings: Airing[] = []
+  let t = cp.startsAt
+  for (const unit of units.slice(pick.unit, pick.unit + count)) {
+    const endsAt = t + unit.length * 1000
+    airings.push({ unit, titleKey: key, startsAt: t, endsAt })
+    t = endsAt
+  }
+  return { airings, next: { round: cp.round + 1, startsAt: t, cursors: cp.cursors, lastTitle: pick.title } }
+}
+
+/** The next round (block channels) or run (franchise channels). */
+export function playNext(plan: ChannelPlan, cp: Checkpoint): { airings: Airing[]; next: Checkpoint } {
+  return plan.mode === 'runs' ? playRun(plan, cp) : playRound(plan, cp)
+}
+
 interface Memo {
   checkpoints: Checkpoint[]
   /** The last round looked up: live tiles ask about the same round every few seconds. */
@@ -82,7 +123,7 @@ function checkpointBefore(plan: ChannelPlan, memo: Memo, at: number): Checkpoint
   const list = memo.checkpoints
   while (list[list.length - 1].startsAt <= at) {
     let cp = list[list.length - 1]
-    for (let i = 0; i < CHECKPOINT_EVERY; i++) cp = playRound(plan, cp).next
+    for (let i = 0; i < CHECKPOINT_EVERY; i++) cp = playNext(plan, cp).next
     list.push(cp)
   }
   let lo = 0
@@ -101,7 +142,7 @@ function roundAt(plan: ChannelPlan, memo: Memo, at: number): { start: Checkpoint
   if (recent && recent.start.startsAt <= at && at < recent.next.startsAt) return recent
   let cp = checkpointBefore(plan, memo, at)
   for (;;) {
-    const { airings, next } = playRound(plan, cp)
+    const { airings, next } = playNext(plan, cp)
     if (next.startsAt > at) {
       memo.recent = { start: cp, airings, next }
       return memo.recent
@@ -125,7 +166,7 @@ export function scheduleAt(plan: ChannelPlan, epochMs: number, t: number, upcomi
   const next = round.airings.slice(index + 1, index + 1 + upcoming)
   let cp = round.next
   while (next.length < upcoming) {
-    const r = playRound(plan, cp)
+    const r = playNext(plan, cp)
     next.push(...r.airings.slice(0, upcoming - next.length))
     cp = r.next
   }
