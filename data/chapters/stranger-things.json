@@ -1,59 +1,51 @@
 {
   "15905136577262": [
     {
-      "season_number": 1,
       "episode_number": 1,
       "title": "Episodio 1",
       "start_seconds": 0,
-      "end_seconds": 2981
+      "end_seconds": 2977
     },
     {
-      "season_number": 1,
       "episode_number": 2,
       "title": "Episodio 2",
-      "start_seconds": 2981,
-      "end_seconds": 6388
+      "start_seconds": 2977,
+      "end_seconds": 6361
     },
     {
-      "season_number": 1,
       "episode_number": 3,
       "title": "Episodio 3",
-      "start_seconds": 6388,
-      "end_seconds": 9552
+      "start_seconds": 6361,
+      "end_seconds": 9532
     },
     {
-      "season_number": 1,
       "episode_number": 4,
       "title": "Episodio 4",
-      "start_seconds": 9552,
-      "end_seconds": 12655
+      "start_seconds": 9532,
+      "end_seconds": 12617
     },
     {
-      "season_number": 1,
       "episode_number": 5,
       "title": "Episodio 5",
-      "start_seconds": 12655,
-      "end_seconds": 15879
+      "start_seconds": 12617,
+      "end_seconds": 15853
     },
     {
-      "season_number": 1,
       "episode_number": 6,
       "title": "Episodio 6",
-      "start_seconds": 15879,
-      "end_seconds": 18739
+      "start_seconds": 15853,
+      "end_seconds": 18714
     },
     {
-      "season_number": 1,
       "episode_number": 7,
       "title": "Episodio 7",
-      "start_seconds": 18739,
-      "end_seconds": 21294
+      "start_seconds": 18714,
+      "end_seconds": 21295
     },
     {
-      "season_number": 1,
       "episode_number": 8,
       "title": "Episodio 8",
-      "start_seconds": 21294,
+      "start_seconds": 21295,
       "end_seconds": null
     }
   ]
