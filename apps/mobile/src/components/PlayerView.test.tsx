@@ -299,4 +299,20 @@ describe('PlayerView on TV', () => {
     await act(() => { mockRemote.back!() })
     expect(screen.queryByText('Puente: installed')).toBeNull()
   })
+
+  it('stays open while the user moves through the buttons; hides 5 s after the last key', async () => {
+    jest.useFakeTimers({ doNotFake: ['setImmediate', 'queueMicrotask', 'nextTick'] })
+    try {
+      await start()
+      await act(() => mockRemote.key!('select'))
+      await act(async () => { jest.advanceTimersByTime(3000) })
+      await act(() => mockRemote.key!('right')) // native focus moves; the reducer state does not change
+      await act(async () => { jest.advanceTimersByTime(3000) })
+      expect(screen.getByLabelText('Línea de tiempo')).toBeTruthy()
+      await act(async () => { jest.advanceTimersByTime(2100) })
+      expect(screen.queryByLabelText('Línea de tiempo')).toBeNull()
+    } finally {
+      jest.useRealTimers()
+    }
+  })
 })

@@ -3,7 +3,9 @@ import { PROVIDER_ADAPTERS } from './adapters'
 /**
  * The script the embed bridge injects at document start into every frame on
  * BRIDGE_ORIGINS (spec: Android TV player controls → 2). Each adapter is
- * `{name, read() → caps, set(setting, value) → boolean}`; every call is
+ * `{name, read() → caps, set(setting, value) → boolean, check?(setting, value)
+ * → boolean}`; with `check`, the answer waits CHECK_MS and reports whether
+ * the change took (an embed may undo it). Every call is
  * guarded, so a broken adapter only loses its own settings. Reports go to the
  * top window (our host page) whenever they change; the host relays them to RN.
  *
@@ -62,6 +64,20 @@ export function frameScript(providerAdapters: string[] = PROVIDER_ADAPTERS): str
         return true;
       }
       return false;
+    },
+    check: function (setting, value) {
+      var v = document.querySelector('video');
+      if (!v) return false;
+      if (setting === 'speed') return String(v.playbackRate) === value;
+      if (setting === 'subtitles') {
+        var showing = 'off';
+        subs(v).forEach(function (t, i) { if (t.mode === 'showing') showing = String(i); });
+        return showing === value;
+      }
+      if (setting === 'audio' && v.audioTracks) {
+        for (var i = 0; i < v.audioTracks.length; i++) if (v.audioTracks[i].enabled) return String(i) === value;
+      }
+      return false;
     }
   };
   var adapters = [
@@ -85,9 +101,18 @@ ${providers}html5];
     if (!a) return;
     var result = { go10Bridge: 'result', id: d.id, ok: false };
     try { result.ok = a.set(d.setting, d.value) === true; } catch (err) { result.error = String(err); }
-    post(result);
-    setTimeout(report, 300);
+    if (!result.ok || !a.check) {
+      post(result);
+      setTimeout(report, 300);
+      return;
+    }
+    setTimeout(function () {
+      try { result.ok = a.check(d.setting, d.value) === true; } catch (err) { result.ok = false; result.error = String(err); }
+      post(result);
+      report();
+    }, 300);
   });
+  window.addEventListener('pagehide', function () { post({ go10Bridge: 'bye', frame: frame }); });
   setInterval(report, 1000);
 })();`
 }

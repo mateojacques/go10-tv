@@ -116,6 +116,8 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
   const [pointer, setPointer] = useState<PointerState | null>(null)
   // The last keys and what they did, for the diagnostics panel.
   const [keyLog, setKeyLog] = useState<{ key: string; effect: string }[]>([])
+  // Bumped by every input, even one the reducer ignores (native focus moves): restarts the idle timer.
+  const [inputCount, setInputCount] = useState(0)
 
   // A new file starts over: fresh retry state and a reload (the reset bumps reloadToken).
   const videoRef = useRef(row.video_id)
@@ -182,7 +184,7 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
     const timer = setTimeout(() => dispatch_({ type: 'idle' }), OVERLAY_IDLE_MS)
     return () => clearTimeout(timer)
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [controls])
+  }, [controls, inputCount])
 
   const leave = () => {
     session.flush()
@@ -234,6 +236,7 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
   // Named with a trailing underscore: `dispatch` is the retry reducer's.
   function dispatch_(input: TvInput) {
     const { state, effect } = tvControls(controlsRef.current, input)
+    if (input.type !== 'idle') setInputCount((n) => n + 1)
     if (input.type === 'key') {
       setKeyLog((log) => [...log, { key: input.key, effect: effect?.type ?? '—' }].slice(-KEY_LOG_SIZE))
     }

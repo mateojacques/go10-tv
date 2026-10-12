@@ -127,9 +127,10 @@ function onKey(
     return none
   }
 
-  if (state.mode === 'open' && key === 'up') {
+  // Scrubbing too: the first Up from the buttons moves focus onto the timeline.
+  if ((state.mode === 'open' || state.mode === 'scrubbing') && key === 'up') {
     const ups = [...state.ups.filter((t) => now - t < DIAGNOSTICS_WINDOW_MS), now]
-    return ups.length >= DIAGNOSTICS_TAPS ? to({ mode: 'diagnostics', ups: [] }) : to({ ups })
+    return ups.length >= DIAGNOSTICS_TAPS ? to({ mode: 'diagnostics', scrub: null, run: null, ups: [] }) : to({ ups })
   }
   return none
 }

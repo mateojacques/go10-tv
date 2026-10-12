@@ -41,6 +41,11 @@ describe('tvControls — open', () => {
     expect(slow.state.mode).toBe('open')
   })
 
+  it('keeps counting Ups when the first one lands focus on the timeline', () => {
+    const { state } = run([key('select', 0), key('up', 100), scrubAt(100), ...[200, 300, 400, 500].map((t) => key('up', t))])
+    expect(state.mode).toBe('diagnostics')
+  })
+
   it('hides on idle', () => {
     expect(run([key('select'), { type: 'idle' }]).state.mode).toBe('hidden')
   })

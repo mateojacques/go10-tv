@@ -81,8 +81,17 @@ export function useEmbedBridge({ enabled, webRef, viewTag, reloadToken }: {
     if (!message) return
     if (message.kind === 'caps') {
       const { report } = message
-      setReports((current) => new Map(current).set(`${report.source}@${report.frame}`, report))
+      const key = `${report.source}@${report.frame}`
+      setReports((current) => {
+        // Re-inserted, so the latest report sits last (mergeCaps prefers it).
+        const next = new Map(current)
+        next.delete(key)
+        return next.set(key, report)
+      })
       note(`caps ${report.source}: ${Object.keys(report.caps).join(', ') || '—'}`)
+    } else if (message.kind === 'bye') {
+      setReports((current) => new Map([...current].filter(([, r]) => r.frame !== message.frame)))
+      note(`frame ${message.frame} cerrado`)
     } else {
       pending.current.get(message.id)?.(message.ok)
       pending.current.delete(message.id)

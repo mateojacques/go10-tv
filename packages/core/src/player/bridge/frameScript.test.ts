@@ -55,7 +55,21 @@ describe('frameScript — html5 adapter', () => {
     send({ go10Bridge: 'set', id: 2, source: 'html5', frame, setting: 'subtitles', value: '0' })
     expect(video.playbackRate).toBe(1.5)
     expect(tracks[0].mode).toBe('showing')
+    // The answer waits a moment, to see whether the change took.
+    expect(results()).toEqual([])
+    vi.advanceTimersByTime(300)
     expect(results()).toEqual([{ go10Bridge: 'result', id: 1, ok: true }, { go10Bridge: 'result', id: 2, ok: true }])
+  })
+
+  it('answers ok:false when the embed undoes the change', () => {
+    start()
+    const video = addVideo()
+    let rate = 1
+    Object.defineProperty(video, 'playbackRate', { get: () => rate, set: () => { rate = 1 } })
+    vi.advanceTimersByTime(1000)
+    send({ go10Bridge: 'set', id: 4, source: 'html5', frame: caps('html5')!.frame, setting: 'speed', value: '2' })
+    vi.advanceTimersByTime(300)
+    expect(results()).toEqual([{ go10Bridge: 'result', id: 4, ok: false }])
   })
 
   it('ignores sets for another frame or adapter, and messages not from the top window', () => {
@@ -76,6 +90,14 @@ describe('frameScript — html5 adapter', () => {
     expect(caps('html5')).toBeDefined()
     send({ go10Bridge: 'set', id: 9, source: 'boom', frame: caps('html5')!.frame, setting: 'quality', value: 'hd' })
     expect(results()).toEqual([{ go10Bridge: 'result', id: 9, ok: false, error: 'Error: y' }])
+  })
+
+  it('says goodbye when its page goes away', () => {
+    start()
+    addVideo()
+    vi.advanceTimersByTime(1000)
+    window.dispatchEvent(new Event('pagehide'))
+    expect(posted.at(-1)).toEqual({ go10Bridge: 'bye', frame: caps('html5')!.frame })
   })
 
   it('runs once per frame even if injected twice', () => {

@@ -27,6 +27,8 @@ export interface CapsReport { source: string; frame: string; caps: BridgeCaps }
 export type BridgeMessage =
   | { kind: 'caps'; report: CapsReport }
   | { kind: 'result'; id: number; ok: boolean; error?: string }
+  /** The frame's page went away (navigation, reload): forget its reports. */
+  | { kind: 'bye'; frame: string }
 
 export type MergedChoice = BridgeChoice & { source: string; frame: string }
 export type MergedCaps = Partial<Record<BridgeSetting, MergedChoice>>
@@ -54,6 +56,7 @@ export function parseBridgeMessage(data: unknown): BridgeMessage | null {
     }
     return { kind: 'caps', report: { source: data.source, frame: data.frame, caps } }
   }
+  if (data.go10Bridge === 'bye' && typeof data.frame === 'string') return { kind: 'bye', frame: data.frame }
   if (data.go10Bridge === 'result' && typeof data.id === 'number' && typeof data.ok === 'boolean') {
     return typeof data.error === 'string'
       ? { kind: 'result', id: data.id, ok: data.ok, error: data.error }
@@ -62,9 +65,13 @@ export function parseBridgeMessage(data: unknown): BridgeMessage | null {
   return null
 }
 
-/** One choice per setting: a provider adapter's first, else the html5 adapter's. */
+/**
+ * One choice per setting: a provider adapter's first, else the html5
+ * adapter's; among the same kind, the latest report (a frame that replaced
+ * another reports after it).
+ */
 export function mergeCaps(reports: Iterable<CapsReport>): MergedCaps {
-  const ordered = [...reports].sort((a, b) => Number(a.source === HTML5_SOURCE) - Number(b.source === HTML5_SOURCE))
+  const ordered = [...reports].reverse().sort((a, b) => Number(a.source === HTML5_SOURCE) - Number(b.source === HTML5_SOURCE))
   const merged: MergedCaps = {}
   for (const { source, frame, caps } of ordered) {
     for (const setting of BRIDGE_SETTINGS) {

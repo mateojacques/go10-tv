@@ -112,3 +112,24 @@ it('logs install status, caps and results for diagnostics', async () => {
   await act(() => result.current.handle({ go10Bridge: 'caps', source: 'html5', frame: 'f', caps: { speed } }))
   expect(result.current.log.at(-1)?.text).toBe('caps html5: speed')
 })
+
+it('drops a frame that said goodbye, so settings go to the live frame', async () => {
+  install.mockResolvedValue('installed')
+  const { result } = await mount()
+  await act(async () => {})
+  await act(() => result.current.handle({ go10Bridge: 'caps', source: 'html5', frame: 'old', caps: { speed } }))
+  await act(() => result.current.handle({ go10Bridge: 'bye', frame: 'old' }))
+  expect(result.current.caps).toEqual({})
+  await act(() => result.current.handle({ go10Bridge: 'caps', source: 'html5', frame: 'new', caps: { speed } }))
+  expect(result.current.caps.speed).toMatchObject({ frame: 'new' })
+})
+
+it('a frame that reports again becomes the latest', async () => {
+  install.mockResolvedValue('installed')
+  const { result } = await mount()
+  await act(async () => {})
+  await act(() => result.current.handle({ go10Bridge: 'caps', source: 'html5', frame: 'a', caps: { speed } }))
+  await act(() => result.current.handle({ go10Bridge: 'caps', source: 'html5', frame: 'b', caps: { speed } }))
+  await act(() => result.current.handle({ go10Bridge: 'caps', source: 'html5', frame: 'a', caps: { speed: { ...speed, current: '2' } } }))
+  expect(result.current.caps.speed).toMatchObject({ frame: 'a', current: '2' })
+})

@@ -45,6 +45,21 @@ describe('mergeCaps', () => {
   })
 })
 
+describe('stale frames', () => {
+  it('prefers the most recent report among adapters of the same kind', () => {
+    const merged = mergeCaps([
+      { source: 'html5', frame: 'old', caps: { speed: choice('1', '1', '2') } },
+      { source: 'html5', frame: 'new', caps: { speed: choice('2', '1', '2') } },
+    ])
+    expect(merged.speed).toMatchObject({ frame: 'new', current: '2' })
+  })
+
+  it("reads a frame's goodbye", () => {
+    expect(parseBridgeMessage({ go10Bridge: 'bye', frame: 'f1' })).toEqual({ kind: 'bye', frame: 'f1' })
+    expect(parseBridgeMessage({ go10Bridge: 'bye' })).toBeNull()
+  })
+})
+
 describe('setCommand', () => {
   it('addresses the frame and adapter that reported the choice', () => {
     const merged = mergeCaps([{ source: 'okru', frame: 'f2', caps: { quality: choice('hd', 'sd', 'hd') } }])
