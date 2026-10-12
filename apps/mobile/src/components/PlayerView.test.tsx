@@ -236,4 +236,42 @@ describe('PlayerView on TV', () => {
     await act(() => mockRemote.key!('select'))
     expect(screen.getByLabelText('Calidad: 720p')).toBeTruthy()
   })
+
+  it('applies a quality from the panel and confirms it', async () => {
+    await start()
+    await caps()
+    await act(() => mockRemote.key!('select'))
+    await fireEvent.press(screen.getByLabelText('Calidad: 720p'))
+    await fireEvent.press(screen.getByLabelText('480p'))
+    expect(injected().at(-1)).toContain('"setting":"quality","value":"sd"')
+    expect(screen.queryByLabelText('480p')).toBeNull()
+    await post({ kind: 'bridge', data: { go10Bridge: 'result', id: 1, ok: true } })
+    expect(screen.getByText('Calidad: 480p')).toBeTruthy()
+  })
+
+  it('offers the pointer when the embed does not confirm', async () => {
+    jest.useFakeTimers({ doNotFake: ['setImmediate', 'queueMicrotask', 'nextTick'] })
+    try {
+      await start()
+      await caps()
+      await act(() => mockRemote.key!('select'))
+      await fireEvent.press(screen.getByLabelText('Calidad: 720p'))
+      await fireEvent.press(screen.getByLabelText('480p'))
+      await act(async () => { jest.advanceTimersByTime(3000) })
+      expect(screen.getByText('No se pudo cambiar Calidad — probar con Modo puntero')).toBeTruthy()
+    } finally {
+      jest.useRealTimers()
+    }
+  })
+
+  it('Back closes the panel and keeps the overlay', async () => {
+    await start()
+    await caps()
+    await act(() => mockRemote.key!('select'))
+    await fireEvent.press(screen.getByLabelText('Calidad: 720p'))
+    expect(screen.getByLabelText('480p')).toBeTruthy()
+    await act(() => { mockRemote.back!() })
+    expect(screen.queryByLabelText('480p')).toBeNull()
+    expect(screen.getByLabelText('Línea de tiempo')).toBeTruthy()
+  })
 })

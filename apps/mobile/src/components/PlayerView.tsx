@@ -13,9 +13,10 @@ import { useBackPress, useRemoteKeys } from '../platform/remote'
 import { commandScript, hostHtml, parseHostMessage } from '../player/hostPage'
 import { allowNavigation } from '../player/navigationGuard'
 import { backAction, playerKeyAction } from '@go10/core/player/playerKeys'
-import { BRIDGE_ORIGINS } from '@go10/core/player/bridge/protocol'
+import { BRIDGE_ORIGINS, SETTING_LABELS, type BridgeSetting } from '@go10/core/player/bridge/protocol'
 import { initialTvControls, OVERLAY_IDLE_MS, tvControls, type TvEffect, type TvInput } from '@go10/core/player/tvControls'
 import { isTvUi } from '../platform/tvUi'
+import { PickerPanel } from '../player/tv/PickerPanel'
 import { TvPlayerOverlay } from '../player/tv/TvPlayerOverlay'
 import { useEmbedBridge } from '../player/useEmbedBridge'
 import { theme } from '../theme'
@@ -24,6 +25,7 @@ const tv = Platform.isTV
 /** Quick seeks on TV go out as one (the web player's SEEK_COALESCE_MS). */
 const SEEK_COALESCE_MS = 400
 const TOAST_MS = 1500
+const NOTICE_MS = 2500
 /** What the WebView shows while the bridge script is being installed. */
 const BLANK_PAGE = '<html><body style="background:#000"></body></html>'
 
@@ -100,6 +102,8 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
   const controlsRef = useRef(controls)
   const [timeline, setTimeline] = useState(() => session.timeline())
   const [toast, setToast] = useState<{ target: number; at: number } | null>(null)
+  const [menu, setMenu] = useState<BridgeSetting | null>(null)
+  const [notice, setNotice] = useState<string | null>(null)
 
   // A new file starts over: fresh retry state and a reload (the reset bumps reloadToken).
   const videoRef = useRef(row.video_id)
@@ -154,6 +158,12 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
     return () => clearTimeout(timer)
   }, [toast])
 
+  useEffect(() => {
+    if (!notice) return
+    const timer = setTimeout(() => setNotice(null), NOTICE_MS)
+    return () => clearTimeout(timer)
+  }, [notice])
+
   // Every input restarts the overlay's idle timer.
   useEffect(() => {
     if (controls.mode !== 'open' && controls.mode !== 'scrubbing') return
@@ -205,7 +215,20 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
     const { state, effect } = tvControls(controlsRef.current, input)
     controlsRef.current = state
     setControls(state)
+    if (state.mode !== 'menu') setMenu(null)
     if (effect) run(effect)
+  }
+
+  function openSetting(setting: BridgeSetting) {
+    dispatch_({ type: 'openMenu' })
+    setMenu(setting)
+  }
+
+  function pick(setting: BridgeSetting, value: string) {
+    const label = bridge.caps[setting]?.options.find((o) => o.value === value)?.label ?? value
+    dispatch_({ type: 'closeMenu' })
+    void bridge.set(setting, value).then((ok) =>
+      setNotice(ok ? `${SETTING_LABELS[setting]}: ${label}` : `No se pudo cambiar ${SETTING_LABELS[setting]} — probar con Modo puntero`))
   }
 
   useBackPress(() => {
@@ -306,8 +329,18 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
           onTogglePlay={() => session.togglePlay()}
           onPrev={() => onPrev?.()}
           onNext={() => onNext?.()}
-          onSetting={() => dispatch_({ type: 'openMenu' })}
+          onSetting={openSetting}
         />
+      )}
+
+      {tvUi && controls.mode === 'menu' && menu && bridge.caps[menu] && (
+        <PickerPanel setting={menu} choice={bridge.caps[menu]} onPick={(value) => pick(menu, value)} />
+      )}
+
+      {notice !== null && (
+        <View style={styles.reconnecting} pointerEvents="none">
+          <Text style={styles.reconnectingText}>{notice}</Text>
+        </View>
       )}
 
       {!tvUi && barOpen && (
