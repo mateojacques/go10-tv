@@ -1,0 +1,6 @@
+{
+  "platforms": ["android"],
+  "android": {
+    "modules": ["blog.go10.embedbridge.EmbedBridgeModule"]
+  }
+}

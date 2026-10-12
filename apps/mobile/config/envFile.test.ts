@@ -19,6 +19,7 @@ describe('mobileExtra', () => {
       siteUrl: DEFAULT_SITE_URL,
       externalTitles: 'on',
       tmdbToken: 't',
+      forceTvUi: false,
     })
   })
 
@@ -26,7 +27,12 @@ describe('mobileExtra', () => {
     expect(mobileExtra({ GO10_SITE_URL: 'https://preview.example' }).siteUrl).toBe('https://preview.example')
   })
 
+  it('forces the TV player UI on a phone build with GO10_FORCE_TV_UI=1 (testing only)', () => {
+    expect(mobileExtra({ GO10_FORCE_TV_UI: '1' }).forceTvUi).toBe(true)
+    expect(mobileExtra({}).forceTvUi).toBe(false)
+  })
+
   it('is catalog-only on the live site when nothing is set', () => {
-    expect(mobileExtra({})).toEqual({ siteUrl: 'https://tv.go10.blog', externalTitles: undefined, tmdbToken: undefined })
+    expect(mobileExtra({})).toEqual({ siteUrl: 'https://tv.go10.blog', externalTitles: undefined, tmdbToken: undefined, forceTvUi: false })
   })
 })

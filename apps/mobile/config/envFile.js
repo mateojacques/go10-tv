@@ -33,6 +33,8 @@ function mobileExtra(env) {
     siteUrl: env.GO10_SITE_URL || DEFAULT_SITE_URL,
     externalTitles: env.VITE_EXTERNAL_TITLES,
     tmdbToken: env.VITE_TMDB_TOKEN,
+    // Testing only: the TV player UI on a phone, driven over adb.
+    forceTvUi: env.GO10_FORCE_TV_UI === '1',
   }
 }
 
