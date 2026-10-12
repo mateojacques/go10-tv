@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { formatDuration, formatViews } from './format'
+import { formatDuration, formatViews, formatClock } from './format'
 
 describe('formatDuration', () => {
   it('formats hours and minutes', () => {
@@ -41,5 +41,14 @@ describe('formatViews', () => {
 
   it('handles zero', () => {
     expect(formatViews(0)).toBe('0 vistas')
+  })
+})
+
+describe('formatClock', () => {
+  it('shows m:ss, or h:mm:ss from an hour', () => {
+    expect(formatClock(0)).toBe('0:00')
+    expect(formatClock(75.9)).toBe('1:15')
+    expect(formatClock(3725)).toBe('1:02:05')
+    expect(formatClock(-3)).toBe('0:00')
   })
 })
