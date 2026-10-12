@@ -22,6 +22,7 @@ function model(overrides: Partial<HomeModel> = {}): HomeModel {
     slides: [{ title: title('a'), art: null }],
     titles: [title('a'), title('b'), title('c')],
     strip: [pixar],
+    franchiseStrip: [],
     rows: [
       { id: 'recientes', label: 'Recién añadidos', titles: [title('a'), title('b')] },
       { id: 'series', label: 'Series', titles: [title('c')] },
@@ -121,6 +122,14 @@ describe('HomeView live TV', () => {
     [collectionOf('cn', ['s1'])],
     [showTitle('s1', 3, 600)],
   )!
+
+  it('puts the franchise strip right after the networks strip, only when it has collections', () => {
+    const cn = collectionOf('cn', ['s1'])
+    const db = { ...collectionOf('db', ['s1']), group: 'franchise' as const }
+    const base = { ...model(), strip: [cn], franchiseStrip: [db] }
+    expect(homeSections(base, 0, true).slice(0, 3)).toEqual([{ kind: 'strip' }, { kind: 'franchises' }, { kind: 'live' }])
+    expect(homeSections({ ...base, franchiseStrip: [] }, 0, true).slice(0, 2)).toEqual([{ kind: 'strip' }, { kind: 'live' }])
+  })
 
   it('puts "En vivo ahora" right after the collection strip when channels are on the air', () => {
     expect(homeSections(model(), 1, true).map((s) => s.kind)).toEqual(['strip', 'live', 'continue', 'row', 'row'])

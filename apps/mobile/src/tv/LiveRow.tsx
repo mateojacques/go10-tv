@@ -1,5 +1,7 @@
+import { Fragment } from 'react'
 import { ScrollView, StyleSheet, Text, TVFocusGuideView, View } from 'react-native'
 import type { Lineup } from '@go10/core/tv/types'
+import { channelGroups } from '@go10/core/tv/groups'
 import { theme } from '../theme'
 import { ChannelTile } from './ChannelTile'
 import { useLiveNow } from './useLiveNow'
@@ -17,10 +19,15 @@ export function LiveRow({ lineup, imageBase, onWatch }: { lineup: Lineup; imageB
       </View>
       <TVFocusGuideView autoFocus>
         <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.track}>
-          {lineup.channels.map((channel) => {
-            const schedule = live.get(channel.id)
-            return schedule ? <ChannelTile key={channel.id} channel={channel} schedule={schedule} imageBase={imageBase} onSelect={(c) => onWatch(c.id)} /> : null
-          })}
+          {channelGroups(lineup.channels).map((group) => (
+            <Fragment key={group.group}>
+              <Text style={styles.group}>{group.label}</Text>
+              {group.channels.map((channel) => {
+                const schedule = live.get(channel.id)
+                return schedule ? <ChannelTile key={channel.id} channel={channel} schedule={schedule} imageBase={imageBase} onSelect={(c) => onWatch(c.id)} /> : null
+              })}
+            </Fragment>
+          ))}
         </ScrollView>
       </TVFocusGuideView>
     </View>
@@ -32,6 +39,8 @@ const styles = StyleSheet.create({
   heading: { flexDirection: 'row', alignItems: 'center', gap: 8, marginLeft: theme.space.safeX, marginBottom: 8 },
   dot: { width: 8, height: 8, borderRadius: 4, backgroundColor: theme.color.live },
   label: { color: theme.color.text, fontFamily: theme.font.displayBold, fontSize: theme.size.section },
+  // "Canales" / "24/7": not focusable, so the D-pad moves tile to tile across groups.
+  group: { alignSelf: 'center', color: theme.color.text, opacity: 0.7, fontFamily: theme.font.displayBold, fontSize: theme.size.section * 0.6, textTransform: 'uppercase' },
   // Vertical padding leaves room for the focused tile's scale.
   track: { paddingHorizontal: theme.space.safeX, paddingVertical: 10, gap: theme.space.gap },
 })

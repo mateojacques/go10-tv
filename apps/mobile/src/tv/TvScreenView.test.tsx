@@ -39,6 +39,18 @@ const lineup = resolveLineup(
   [collectionOf('a', ['s1']), collectionOf('b', ['m1']), collectionOf('c', ['s2'])],
   [showTitle('s1', 6, 600), movieTitle('m1', 5400), showTitle('s2', 6, 900)],
 )!
+const mixed = resolveLineup(
+  {
+    epoch: '2026-10-01T00:00:00Z',
+    defaultChannel: 'a',
+    channels: [
+      { id: 'a', number: 1, collection: 'a' },
+      { id: 'b', number: 101, collection: 'b' },
+    ],
+  },
+  [collectionOf('a', ['s1']), { ...collectionOf('b', ['s2']), group: 'franchise' as const }],
+  [showTitle('s1', 3, 600), showTitle('s2', 3, 600)],
+)!
 const byId = (id: string) => lineup.channels.find((c) => c.id === id)!
 
 function Harness({ initial, onBack = jest.fn() }: { initial: string; onBack?: () => void }) {
@@ -119,6 +131,20 @@ describe('TvScreenView', () => {
     expect(strip()).toBeTruthy()
     await advance(1000)
     expect(strip()).toBeNull()
+  })
+
+  it('groups the strip: networks under "Canales", franchises under "24/7"', async () => {
+    await render(<TvScreenView lineup={mixed} channel={mixed.channels[0]} siteUrl="https://tv.test/" imageBase="https://tv.test/" onZap={jest.fn()} onBack={jest.fn()} />)
+    await press('right')
+    expect(screen.getByText('Canales')).toBeTruthy()
+    expect(screen.getByText('24/7')).toBeTruthy()
+    expect(screen.getByLabelText(/^101 /)).toBeTruthy()
+  })
+
+  it('shows no "24/7" label without franchise channels', async () => {
+    await render(<Harness initial="a" />)
+    await press('right')
+    expect(screen.queryByText('24/7')).toBeNull()
   })
 
   it('OK over the bare picture does nothing', async () => {

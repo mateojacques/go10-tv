@@ -1,11 +1,12 @@
 import { Ionicons } from '@expo/vector-icons'
 import { Image } from 'expo-image'
 import { StatusBar } from 'expo-status-bar'
-import { useCallback, useEffect, useReducer, useRef, useState } from 'react'
+import { Fragment, useCallback, useEffect, useReducer, useRef, useState } from 'react'
 import { Platform, Pressable, ScrollView, StyleSheet, Text, View, type GestureResponderEvent } from 'react-native'
 import { imageSrc } from '@go10/core/lib/imageSrc'
 import { backAction } from '@go10/core/player/playerKeys'
 import { clockLabel, programLabel, progressOf } from '@go10/core/tv/describe'
+import { channelGroups } from '@go10/core/tv/groups'
 import { stepChannel, writeLastChannel } from '@go10/core/tv/lineup'
 import type { Channel, Lineup } from '@go10/core/tv/types'
 import { usePlayerChrome } from '../platform/playerChrome'
@@ -185,20 +186,25 @@ export function TvScreenView({ lineup, channel, siteUrl, imageBase, onZap, onBac
       {open && (
         <View style={styles.strip} accessibilityLabel="Canales" onTouchStart={bump}>
           <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={styles.track}>
-            {lineup.channels.map((c) => {
-              const s = live.get(c.id)
-              return s ? (
-                <ChannelTile
-                  key={c.id}
-                  channel={c}
-                  schedule={s}
-                  imageBase={imageBase}
-                  current={c.id === channel.id}
-                  preferred={c.id === channel.id}
-                  onSelect={onTile}
-                />
-              ) : null
-            })}
+            {channelGroups(lineup.channels).map((group) => (
+              <Fragment key={group.group}>
+                <Text style={styles.group}>{group.label}</Text>
+                {group.channels.map((c) => {
+                  const s = live.get(c.id)
+                  return s ? (
+                    <ChannelTile
+                      key={c.id}
+                      channel={c}
+                      schedule={s}
+                      imageBase={imageBase}
+                      current={c.id === channel.id}
+                      preferred={c.id === channel.id}
+                      onSelect={onTile}
+                    />
+                  ) : null
+                })}
+              </Fragment>
+            ))}
           </ScrollView>
         </View>
       )}
@@ -214,6 +220,8 @@ export function TvScreenView({ lineup, channel, siteUrl, imageBase, onZap, onBac
 
 const styles = StyleSheet.create({
   root: { flex: 1, backgroundColor: '#000' },
+  // "Canales" / "24/7": not focusable, so the D-pad moves tile to tile across groups.
+  group: { alignSelf: 'center', color: theme.color.text, opacity: 0.7, fontFamily: theme.font.displayBold, fontSize: theme.size.section * 0.6, textTransform: 'uppercase' },
   flash: { ...StyleSheet.absoluteFill, alignItems: 'flex-end', justifyContent: 'flex-start', padding: 32, backgroundColor: '#000' },
   flashText: { color: theme.color.text, fontFamily: theme.font.displayBold, fontSize: 64 },
   now: {
