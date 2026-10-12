@@ -1,0 +1,24 @@
+{
+  "title": "Mad",
+  "type": "series",
+  "added": "2026-10-12",
+  "query": "https://ok.ru/video/15899705543406",
+  "year": "2010",
+  "studio": "Cartoon N.",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "15899705543406",
+      "season_number": 1,
+      "title_raw": "Mad - Temporada 1 (Cartoon N.) [1080p] [Español]",
+      "duration_raw": "4:54:07",
+      "views": 598,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgY0rZc-Drij9AXALYWPRPP25ER58Vhe9i-bdVtG40EKMA&fn=external_8"
+    }
+  ]
+}

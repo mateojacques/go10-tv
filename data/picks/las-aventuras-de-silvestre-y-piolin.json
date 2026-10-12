@@ -1,0 +1,24 @@
+{
+  "title": "Las Aventuras de Silvestre y Piolín",
+  "type": "series",
+  "added": "2026-10-12",
+  "query": "https://ok.ru/video/15849969421038",
+  "year": "1995",
+  "studio": "WarnerBros",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "15849969421038",
+      "season_number": 1,
+      "title_raw": "Las Aventuras de Silvestre y Piolín - Temporada 1, 2, 3, 4 y 5 (WarnerBros) [1080p] [Español]",
+      "duration_raw": "19:12:02",
+      "views": 956,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYbbiAXfDrIPa2cpkwCwYEJOSNu-cRTuDK3_bx1cqvm38&fn=external_8"
+    }
+  ]
+}

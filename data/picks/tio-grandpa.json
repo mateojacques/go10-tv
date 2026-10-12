@@ -1,0 +1,24 @@
+{
+  "title": "Tío Grandpa",
+  "type": "series",
+  "added": "2026-10-12",
+  "query": "https://ok.ru/video/15891017501422",
+  "year": "2013",
+  "studio": "Cartoon N.",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "15891017501422",
+      "season_number": 1,
+      "title_raw": "Tío Grandpa - Temporada 1 (Cartoon N) [1080p] [Español]",
+      "duration_raw": "10:06:08",
+      "views": 512,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYWw_ikHrjUmw8NmcMUiO7ICsawyMdzmlJXU5K3OAFO0Y&fn=external_8"
+    }
+  ]
+}

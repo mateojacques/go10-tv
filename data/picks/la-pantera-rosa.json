@@ -1,0 +1,24 @@
+{
+  "title": "La Pantera Rosa",
+  "type": "series",
+  "added": "2026-10-12",
+  "query": "https://ok.ru/video/15914072148718",
+  "year": "1964",
+  "studio": "",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "15914072148718",
+      "season_number": 1,
+      "title_raw": "La Pantera Rosa - Temporada 1 - 15 (1964) [1080p] [Español]",
+      "duration_raw": "13:11:11",
+      "views": 624,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYRTh4MitLiEZSi7BwlaEN-jLtivrAba1Qd8cFN6sV8ag&fn=external_8"
+    }
+  ]
+}

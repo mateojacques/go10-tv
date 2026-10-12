@@ -1,0 +1,23 @@
+{
+  "title": "Poder sin límites",
+  "type": "movie",
+  "added": "2026-10-12",
+  "query": "https://ok.ru/video/15910790302446",
+  "year": "2012",
+  "studio": "",
+  "source": "Animax",
+  "quality": "4K",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Ciencia Ficción",
+  "genre_secondary": "Drama",
+  "videos": [
+    {
+      "video_id": "15910790302446",
+      "title_raw": "Poder sin límites (2012) [4K] [Español]",
+      "duration_raw": "1:29:36",
+      "views": 497,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYOS4F6C1g8mWvX5tRkmyW-Wo95SM1nYJ7dztL3a5DpQY&fn=external_8"
+    }
+  ]
+}

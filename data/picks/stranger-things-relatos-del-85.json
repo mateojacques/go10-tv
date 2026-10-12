@@ -1,0 +1,24 @@
+{
+  "title": "Stranger Things: Relatos del 85",
+  "type": "series",
+  "added": "2026-10-12",
+  "query": "https://ok.ru/video/15884581079790",
+  "year": "2026",
+  "studio": "",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Ciencia Ficción",
+  "videos": [
+    {
+      "video_id": "15884581079790",
+      "season_number": 1,
+      "title_raw": "Stranger Things relatos del 85 - Temporada 1 y 2 [1080p] [Español]",
+      "duration_raw": "8:41:56",
+      "views": 846,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYnrmSN7Mschw-2NE8QjWmLWLWdfQEFfa62BV3VG7xFY0&fn=external_8"
+    }
+  ]
+}

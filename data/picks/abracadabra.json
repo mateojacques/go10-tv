@@ -1,0 +1,23 @@
+{
+  "title": "Abracadabra",
+  "type": "movie",
+  "added": "2026-10-12",
+  "query": "https://ok.ru/video/15848425392878",
+  "year": "1993",
+  "studio": "Disney",
+  "source": "Animax",
+  "quality": "4K",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Comedia",
+  "genre_secondary": "Fantasía",
+  "videos": [
+    {
+      "video_id": "15848425392878",
+      "title_raw": "Abracadabra (Disney) [4K] [Español]",
+      "duration_raw": "1:36:07",
+      "views": 1057,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYuwvwWO6JLBUWZqJN5NjdptyJNmIq1ROMkw2AYBBkJts&fn=external_8"
+    }
+  ]
+}

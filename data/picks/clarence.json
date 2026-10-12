@@ -1,0 +1,24 @@
+{
+  "title": "Clarence",
+  "type": "series",
+  "added": "2026-10-12",
+  "query": "https://ok.ru/video/15564097850094",
+  "year": "2014",
+  "studio": "Cartoon N.",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "15564097850094",
+      "season_number": 1,
+      "title_raw": "Clarence - Temporada 1 (Cartoon N.) [1080p] [Español]",
+      "duration_raw": "9:43:02",
+      "views": 814,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgY0sJLYwDoilMLbJlMxCwV1DrV6o1ZFyb6r77Y9_L7xPg&fn=external_8"
+    }
+  ]
+}

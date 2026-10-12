@@ -1,0 +1,24 @@
+{
+  "title": "Rick y Morty",
+  "type": "series",
+  "added": "2026-10-12",
+  "query": "https://ok.ru/video/15881698544366",
+  "year": "2017",
+  "studio": "Adult Swim",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "15881698544366",
+      "season_number": 3,
+      "title_raw": "Rick y Morty - Temporada 3 (Adult Swim) [1080p] [Español]",
+      "duration_raw": "3:38:01",
+      "views": 698,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYH7-jI75s3inHPtnmCFpjJJvN2xkIP-L81PGKH170BKY&fn=external_8"
+    }
+  ]
+}

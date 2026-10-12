@@ -44,7 +44,13 @@
     "las-nuevas-aventuras-de-peter-pan": "tv/53113",
     "ositos-carinositos-bienvenidos-a-quiereme-mucho": "tv/65268",
     "12972502616686": "movie/110043",
-    "15724021353117": "movie/144616"
+    "15724021353117": "movie/144616",
+    "el-chavo-del-8": "tv/47",
+    "heidi-3d": "tv/62475",
+    "las-aventuras-de-silvestre-y-piolin": "tv/9867",
+    "looney-tunes-speedy-gonzales": "tv/333432"
   },
-  "block": []
+  "block": [
+    "la-pantera-rosa"
+  ]
 }

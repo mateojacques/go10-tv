@@ -1,0 +1,24 @@
+{
+  "title": "Ben 10",
+  "type": "series",
+  "added": "2026-10-12",
+  "query": "https://ok.ru/video/15862110554862",
+  "year": "2005",
+  "studio": "Cartoon N.",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "15862110554862",
+      "season_number": 1,
+      "title_raw": "Ben 10 - Temporada 1, 2, 3 y 4 (Cartoon N.) [1080p] [Español]",
+      "duration_raw": "18:42:05",
+      "views": 834,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYKoFw4MRoMR3poKyRvjYssIA0BONZ6hIgSGoPtBFRMg0&fn=external_8"
+    }
+  ]
+}

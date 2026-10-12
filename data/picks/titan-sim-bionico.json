@@ -1,0 +1,24 @@
+{
+  "title": "Titán Sim-Biónico",
+  "type": "series",
+  "added": "2026-10-12",
+  "query": "https://ok.ru/video/15858642258670",
+  "year": "2010",
+  "studio": "Cartoon N.",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "15858642258670",
+      "season_number": 1,
+      "title_raw": "Titán Sim-Biónico - Temporada 1 (Cartoon N.) [1080p] [Español]",
+      "duration_raw": "7:29:56",
+      "views": 849,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYt6pUXxfZCJJnOjudyMbeuEWwevosbJbEktWWG3_Oty8&fn=external_8"
+    }
+  ]
+}

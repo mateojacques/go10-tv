@@ -1,0 +1,24 @@
+{
+  "title": "El Chavo del 8",
+  "type": "series",
+  "added": "2026-10-12",
+  "query": "https://ok.ru/video/15905037880046",
+  "year": "1973",
+  "studio": "",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Comedia",
+  "genre_secondary": "Clásicos",
+  "videos": [
+    {
+      "video_id": "15905037880046",
+      "season_number": 1,
+      "title_raw": "El Chavo del 8 - Temporada 1 (Serie) [1080p] [Español]",
+      "duration_raw": "13:17:09",
+      "views": 564,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYI5eWjCiz9e8OF8290JJPM1K9ktz8Gw-rH0ba0LE_D10&fn=external_8"
+    }
+  ]
+}

@@ -1565,9 +1565,21 @@
       "tmdb": "movie/1204680",
       "backdrop": "/viZqGq9TNvQ5uXSD4ahg2RpRONT.jpg"
     },
+    "15848425392878": {
+      "tmdb": "movie/10439",
+      "backdrop": "/ncr6KR7bBF8cps6yZKiTAwClpn1.jpg"
+    },
     "15850137651950": {
       "tmdb": "movie/9986",
       "backdrop": "/x7B2zT2OL8fKM53Wgzqz6nc7r02.jpg"
+    },
+    "15883368860398": {
+      "tmdb": "movie/969681",
+      "backdrop": "/subj7knTn4DeS6KS7qI66EQKe9i.jpg"
+    },
+    "15910790302446": {
+      "tmdb": "movie/76726",
+      "backdrop": "/rgNzvSagnlc32TuMEBa529QFIig.jpg"
     },
     "16572229814880": {
       "tmdb": "movie/1003581",
@@ -1877,6 +1889,10 @@
       "tmdb": "tv/34109",
       "backdrop": "/fI3m5UjTMyigglkFeQWkPJgFLSC.jpg"
     },
+    "ben-10": {
+      "tmdb": "tv/4686",
+      "backdrop": "/v5hLUEpbn3G3oLXLdF7lFikDivb.jpg"
+    },
     "berserk": {
       "tmdb": "tv/35935",
       "backdrop": "/99Y64VK0KwyRWfaW6VdpDfPKNMo.jpg"
@@ -1901,6 +1917,10 @@
       "tmdb": "tv/9542",
       "backdrop": "/3nmwKiDhF3daBoGPO3BlUumxcIt.jpg"
     },
+    "carrie": {
+      "tmdb": "tv/288673",
+      "backdrop": "/9yCJtipMeDe8uAdSJKvw8BnYfRz.jpg"
+    },
     "castlevania": {
       "tmdb": "tv/71024",
       "backdrop": "/jLE5bsPA9xOKzBWOaOmKbp1DWQS.jpg"
@@ -1912,6 +1932,10 @@
     "chowder": {
       "tmdb": "tv/9907",
       "backdrop": "/zzaV28kJHg87Gw0aWHmYy5qjnXC.jpg"
+    },
+    "clarence": {
+      "tmdb": "tv/50035",
+      "backdrop": "/1kTVbczFhMDA2dyJO4GvoMwWu38.jpg"
     },
     "claymore": {
       "tmdb": "tv/34791",
@@ -1973,9 +1997,21 @@
       "tmdb": "tv/2038",
       "backdrop": "/kxo1T84BTJESTtIw80N984EbmWu.jpg"
     },
+    "duck-dodgers": {
+      "tmdb": "tv/216",
+      "backdrop": "/q8Eiw6XBQ9urbaKmP9ChxkjOZmw.jpg"
+    },
     "ed-edd-y-eddy": {
       "tmdb": "tv/606",
       "backdrop": "/iRbNLYmqlxbqkfCuAmHaFwZ9ocY.jpg"
+    },
+    "efectos-colaterales": {
+      "tmdb": "tv/228878",
+      "backdrop": "/4drV6iluttgjZmU1Q0xDqjrBQ1.jpg"
+    },
+    "el-chavo-del-8": {
+      "tmdb": "tv/47",
+      "backdrop": "/6zzyWTu3p2Diztotbnb0kf128uo.jpg"
     },
     "el-mundo-de-bobby": {
       "tmdb": "tv/1767",
@@ -2025,6 +2061,10 @@
       "tmdb": "tv/93836",
       "backdrop": "/cADldbInPxOxIIsPZT3zCf8IFTE.jpg"
     },
+    "generador-rex": {
+      "tmdb": "tv/32118",
+      "backdrop": "/jXiKtz7PPWOI4zKl5CdtrKyLUh8.jpg"
+    },
     "gravity-falls": {
       "tmdb": "tv/40075",
       "backdrop": "/lhg7eA6CTOCL10QNVdKiyxkgPsL.jpg"
@@ -2044,6 +2084,14 @@
     "hazbin-hotel": {
       "tmdb": "tv/94954",
       "backdrop": "/9K6QtLqyocVHgIZe4yqCIl1q2ZR.jpg"
+    },
+    "heidi": {
+      "tmdb": "tv/29452",
+      "backdrop": "/cafsMt9cQlaRCNVqf5KXtTUQP6V.jpg"
+    },
+    "heidi-3d": {
+      "tmdb": "tv/62475",
+      "backdrop": "/8Z4Z5Nep20ZGZFJyRB0tuPk9Mta.jpg"
     },
     "hellsing": {
       "tmdb": "tv/16830",
@@ -2117,6 +2165,10 @@
       "tmdb": "tv/3611",
       "backdrop": "/iohe4KtMpFKYzuA3QIBRrcbJIbz.jpg"
     },
+    "las-aventuras-de-silvestre-y-piolin": {
+      "tmdb": "tv/9867",
+      "backdrop": "/37NKej5mfqvTxvJVoADfRaVVl6h.jpg"
+    },
     "las-aventuras-de-tintin-la-serie-animada": {
       "tmdb": "tv/1570",
       "backdrop": "/e9pwnvHUVtP7jg4icWXYRWF2uc9.jpg"
@@ -2141,6 +2193,10 @@
       "tmdb": "tv/897",
       "backdrop": "/7aWytAE9Gcf6UZXcS6ejJEdEhEb.jpg"
     },
+    "looney-tunes-speedy-gonzales": {
+      "tmdb": "tv/333432",
+      "backdrop": "/34Tq9DVH9cTMRLBJqsDEovZuRlT.jpg"
+    },
     "los-caballeros-del-zodiaco": {
       "tmdb": "tv/42444",
       "backdrop": "/xqi7xzgzed2TyVuoXBmm6neYGee.jpg"
@@ -2164,6 +2220,10 @@
     "love-death-robots": {
       "tmdb": "tv/86831",
       "backdrop": "/nBrkOZyI75artyizuBFeya48KbO.jpg"
+    },
+    "mad": {
+      "tmdb": "tv/33428",
+      "backdrop": "/pb1LLQKETjejzCrlCvrXuI3bEty.jpg"
     },
     "malcolm-el-de-en-medio": {
       "tmdb": "tv/2004",
@@ -2329,6 +2389,18 @@
       "tmdb": "tv/114478",
       "backdrop": "/m2QTmJhe36uKrkQjC1MsNV7Dcqp.jpg"
     },
+    "steven-universe": {
+      "tmdb": "tv/61175",
+      "backdrop": "/e5YSF0Inv9eL77jv2WQtNOOB3Bg.jpg"
+    },
+    "stranger-things": {
+      "tmdb": "tv/66732",
+      "backdrop": "/9P4IIMYY3HifqeruZq0ZZ9g7YUi.jpg"
+    },
+    "stranger-things-relatos-del-85": {
+      "tmdb": "tv/224263",
+      "backdrop": "/ulBGaxq9GmJexyEOi4Xci74g6Vt.jpg"
+    },
     "stripperella": {
       "tmdb": "tv/3072",
       "backdrop": "/46k6zZvUCWEm1SrZOWGLSVb9YxK.jpg"
@@ -2356,6 +2428,18 @@
     "thomas-y-sus-amigos": {
       "tmdb": "tv/2304",
       "backdrop": "/wIe1HL7oMNwyltsqqx2sCPwNl4w.jpg"
+    },
+    "thundercats": {
+      "tmdb": "tv/1988",
+      "backdrop": "/lWsof34OJY8VV691mZxNq97cKkX.jpg"
+    },
+    "tio-grandpa": {
+      "tmdb": "tv/47035",
+      "backdrop": "/cyH8Ni1OSMtBbloEmI9eE69Xi7j.jpg"
+    },
+    "titan-sim-bionico": {
+      "tmdb": "tv/32315",
+      "backdrop": "/t90PlosoEJY442x8JbCdYs768bx.jpg"
     },
     "tom-y-jerry": {
       "tmdb": "tv/336531",

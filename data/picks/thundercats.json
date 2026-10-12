@@ -1,0 +1,24 @@
+{
+  "title": "ThunderCats",
+  "type": "series",
+  "added": "2026-10-12",
+  "query": "https://ok.ru/video/15873534003950",
+  "year": "1985",
+  "studio": "WarnerBros",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "15873534003950",
+      "season_number": 1,
+      "title_raw": "ThunderCats - Temporada 1, 2, 3 y 4 (WarnerBros) [1080p] [Español]",
+      "duration_raw": "46:28:31",
+      "views": 461,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYnR_HC3Esaj5YjqTW1CvG9DrKznMAQP_PXqlaxoYriEM&fn=external_8"
+    }
+  ]
+}

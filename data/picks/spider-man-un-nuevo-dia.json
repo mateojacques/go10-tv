@@ -1,0 +1,23 @@
+{
+  "title": "Spider-Man: Un nuevo día",
+  "type": "movie",
+  "added": "2026-10-12",
+  "query": "https://ok.ru/video/15883368860398",
+  "year": "2026",
+  "studio": "Marvel",
+  "source": "Animax",
+  "quality": "1440p",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Superhéroes",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "15883368860398",
+      "title_raw": "Spider-Man: Brand New Day (Marvel) [2K] [Español]",
+      "duration_raw": "2:25:00",
+      "views": 2212,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYUvZATpKKJAVX696fAuHk3zM5xX4XwwLAGwf3yJqXr6w&fn=external_8"
+    }
+  ]
+}

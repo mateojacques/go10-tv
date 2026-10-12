@@ -1,0 +1,24 @@
+{
+  "title": "Stranger Things",
+  "type": "series",
+  "added": "2026-10-12",
+  "query": "https://ok.ru/video/15905136577262",
+  "year": "2016",
+  "studio": "",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Ciencia Ficción",
+  "genre_secondary": "Terror",
+  "videos": [
+    {
+      "video_id": "15905136577262",
+      "season_number": 1,
+      "title_raw": "Stranger Things - Temporada 1 (Netflix) [1080p] [Español]",
+      "duration_raw": "6:50:40",
+      "views": 567,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYKOBFrto-nlMnXkFCKEOvMJnfGtb3i9hnsqQiz9YvFOs&fn=external_8"
+    }
+  ]
+}
