@@ -1,0 +1,13 @@
+{
+  "id": "thundercats",
+  "name": "ThunderCats",
+  "order": 109,
+  "group": "franchise",
+  "logo": "assets/collections/thundercats/logo.svg",
+  "tile": {
+    "color": "#b5121b"
+  },
+  "titles": [
+    "thundercats"
+  ]
+}

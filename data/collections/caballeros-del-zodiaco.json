@@ -1,0 +1,13 @@
+{
+  "id": "caballeros-del-zodiaco",
+  "name": "Los Caballeros del Zodiaco",
+  "order": 106,
+  "group": "franchise",
+  "logo": "assets/collections/caballeros-del-zodiaco/logo.svg",
+  "tile": {
+    "color": "#ffffff"
+  },
+  "titles": [
+    "los-caballeros-del-zodiaco"
+  ]
+}

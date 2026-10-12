@@ -1,7 +1,8 @@
 {
   "id": "barbie",
   "name": "Barbie",
-  "order": 14,
+  "order": 111,
+  "group": "franchise",
   "logo": "assets/collections/barbie/logo.svg",
   "tile": {
     "color": "#e0218a"

@@ -1,7 +1,8 @@
 {
   "id": "monster-high",
   "name": "Monster High",
-  "order": 15,
+  "order": 112,
+  "group": "franchise",
   "logo": "assets/collections/monster-high/logo.svg",
   "tile": {
     "color": "#5b1a6e"

@@ -1,0 +1,26 @@
+{
+  "id": "tom-y-jerry",
+  "name": "Tom y Jerry",
+  "order": 103,
+  "group": "franchise",
+  "logo": "assets/collections/tom-y-jerry/logo.svg",
+  "tile": {
+    "color": "#fff3d1"
+  },
+  "titles": [
+    "tom-y-jerry",
+    "tom-y-jerry-redoblaje",
+    "el-nuevo-show-de-tom-y-jerry",
+    "14766751287910",
+    "16936861501958",
+    "13310400858878",
+    "14766664256102",
+    "8813716376135",
+    "8821574535751",
+    "7265551256166",
+    "8833835534919",
+    "14766848412262",
+    "14766802668134",
+    "7265551387238"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "yu-gi-oh",
+  "name": "Yu-Gi-Oh!",
+  "order": 102,
+  "group": "franchise",
+  "logo": "assets/collections/yu-gi-oh/logo.svg",
+  "tile": {
+    "color": "#ffffff"
+  },
+  "titles": [
+    "yu-gi-oh",
+    "yu-gi-oh-gx",
+    "15015012338364",
+    "15030031485628",
+    "15029787298492"
+  ]
+}

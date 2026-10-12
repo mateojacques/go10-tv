@@ -1,0 +1,13 @@
+{
+  "id": "los-simpsons",
+  "name": "Los Simpsons",
+  "order": 105,
+  "group": "franchise",
+  "logo": "assets/collections/los-simpsons/logo.svg",
+  "tile": {
+    "color": "#3a9ad9"
+  },
+  "titles": [
+    "los-simpsons"
+  ]
+}

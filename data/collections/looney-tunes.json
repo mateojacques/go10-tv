@@ -1,0 +1,16 @@
+{
+  "id": "looney-tunes",
+  "name": "Looney Tunes",
+  "order": 104,
+  "group": "franchise",
+  "logo": "assets/collections/looney-tunes/logo.svg",
+  "tile": {
+    "color": "#1d4ea1"
+  },
+  "titles": [
+    "las-aventuras-de-silvestre-y-piolin",
+    "duck-dodgers",
+    "looney-tunes-speedy-gonzales",
+    "looney-tunes-el-correcaminos"
+  ]
+}

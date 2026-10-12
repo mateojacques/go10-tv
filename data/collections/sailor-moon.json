@@ -1,0 +1,14 @@
+{
+  "id": "sailor-moon",
+  "name": "Sailor Moon",
+  "order": 107,
+  "group": "franchise",
+  "logo": "assets/collections/sailor-moon/logo.svg",
+  "tile": {
+    "color": "#f6ecff"
+  },
+  "titles": [
+    "sailor-moon",
+    "sailor-moon-r"
+  ]
+}

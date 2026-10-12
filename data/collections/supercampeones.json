@@ -1,0 +1,13 @@
+{
+  "id": "supercampeones",
+  "name": "Supercampeones",
+  "order": 108,
+  "group": "franchise",
+  "logo": "assets/collections/supercampeones/logo.svg",
+  "tile": {
+    "color": "#0b8a3e"
+  },
+  "titles": [
+    "supercampeones"
+  ]
+}

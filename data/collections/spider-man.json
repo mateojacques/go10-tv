@@ -1,8 +1,9 @@
 {
-  "id": "marvel",
-  "name": "Marvel",
-  "order": 16,
-  "logo": "assets/collections/marvel/logo.svg",
+  "id": "spider-man",
+  "name": "Spider-Man",
+  "order": 110,
+  "group": "franchise",
+  "logo": "assets/collections/spider-man/logo.svg",
   "tile": {
     "color": "#ed1d24"
   },

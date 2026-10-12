@@ -15,8 +15,17 @@
     { "id": "animax", "number": 11, "collection": "animax" },
     { "id": "netflix", "number": 12, "collection": "netflix" },
     { "id": "prime-video", "number": 13, "collection": "prime-video" },
-    { "id": "barbie", "number": 14, "collection": "barbie" },
-    { "id": "monster-high", "number": 15, "collection": "monster-high" },
-    { "id": "marvel", "number": 16, "collection": "marvel" }
+    { "id": "dragon-ball", "number": 101, "collection": "dragon-ball" },
+    { "id": "yu-gi-oh", "number": 102, "collection": "yu-gi-oh" },
+    { "id": "tom-y-jerry", "number": 103, "collection": "tom-y-jerry" },
+    { "id": "looney-tunes", "number": 104, "collection": "looney-tunes", "exclude": ["looney-tunes-el-correcaminos"] },
+    { "id": "los-simpsons", "number": 105, "collection": "los-simpsons" },
+    { "id": "caballeros-del-zodiaco", "number": 106, "collection": "caballeros-del-zodiaco" },
+    { "id": "sailor-moon", "number": 107, "collection": "sailor-moon" },
+    { "id": "supercampeones", "number": 108, "collection": "supercampeones" },
+    { "id": "thundercats", "number": 109, "collection": "thundercats" },
+    { "id": "spider-man", "number": 110, "collection": "spider-man" },
+    { "id": "barbie", "number": 111, "collection": "barbie" },
+    { "id": "monster-high", "number": 112, "collection": "monster-high" }
   ]
 }
