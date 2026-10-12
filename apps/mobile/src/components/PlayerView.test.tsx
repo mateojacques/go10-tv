@@ -315,4 +315,14 @@ describe('PlayerView on TV', () => {
       jest.useRealTimers()
     }
   })
+
+  it('keeps a focusable key catcher while no overlay button can hold focus (keys only reach JS through focus)', async () => {
+    await start()
+    const catcher = () => screen.queryByTestId('key-catcher')
+    expect(catcher()?.props).toMatchObject({ focusable: true, hasTVPreferredFocus: true })
+    await act(() => mockRemote.key!('select'))
+    expect(catcher()).toBeNull()
+    await fireEvent.press(screen.getByLabelText('Modo puntero'))
+    expect(catcher()).not.toBeNull()
+  })
 })

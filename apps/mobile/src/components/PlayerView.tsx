@@ -347,6 +347,13 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
         </View>
       )}
 
+      {/* Android delivers remote keys down the focus chain only: with no overlay
+          button on screen (and the WebView unfocusable), this holds focus so
+          every key still reaches useRemoteKeys. Touch passes through it. */}
+      {tvUi && (controls.mode === 'hidden' || controls.mode === 'pointer' || controls.mode === 'diagnostics') && (
+        <View testID="key-catcher" focusable hasTVPreferredFocus pointerEvents="none" style={StyleSheet.absoluteFill} />
+      )}
+
       {tvUi && (
         <TvPlayerOverlay
           title={row.series_title || row.title}

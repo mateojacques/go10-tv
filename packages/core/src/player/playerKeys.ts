@@ -64,3 +64,26 @@ export function remoteKey(event: { eventType?: string; eventKeyAction?: string |
   if (Number(event.eventKeyAction) !== 0 || !event.eventType || !KEYS.has(event.eventType)) return null
   return event.eventType as RemoteKey
 }
+
+/**
+ * remoteKey for a stream of events: a press acts on its key-down (a held key
+ * repeats it), and its key-up is dropped — unless no down came for that key,
+ * as on a phone driven over adb, where only ups reach JS. Then the up acts.
+ */
+export function createRemoteKeyFilter(): (event: { eventType?: string; eventKeyAction?: string | number }) => RemoteKey | null {
+  const pressed = new Set<string>()
+  return (event) => {
+    const type = event.eventType
+    if (!type || !KEYS.has(type)) return null
+    const action = Number(event.eventKeyAction)
+    if (action === 0) {
+      pressed.add(type)
+      return type as RemoteKey
+    }
+    if (action === 1) {
+      if (pressed.delete(type)) return null
+      return type as RemoteKey
+    }
+    return null
+  }
+}

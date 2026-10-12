@@ -1,13 +1,14 @@
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { BackHandler, useTVEventHandler } from 'react-native'
-import { remoteKey, type RemoteKey } from '@go10/core/player/playerKeys'
+import { createRemoteKeyFilter, type RemoteKey } from '@go10/core/player/playerKeys'
 
-/** Remote key presses (see remoteKey). The latest `onKey` is always used. */
+/** Remote key presses (see createRemoteKeyFilter). The latest `onKey` is always used. */
 export function useRemoteKeys(onKey: (key: RemoteKey) => void): void {
   const handler = useRef(onKey)
   handler.current = onKey
+  const [filter] = useState(createRemoteKeyFilter)
   useTVEventHandler((event) => {
-    const key = remoteKey(event)
+    const key = filter(event)
     if (key) handler.current(key)
   })
 }

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { backAction, playerKeyAction, remoteKey } from './playerKeys'
+import { backAction, createRemoteKeyFilter, playerKeyAction, remoteKey } from './playerKeys'
 
 describe('playerKeyAction', () => {
   it('seeks with the D-pad and media keys while the bar is hidden', () => {
@@ -48,6 +48,31 @@ describe('remoteKey', () => {
     expect(remoteKey({ eventType: 'focus', eventKeyAction: -1 })).toBeNull()
     expect(remoteKey({ eventType: 'menu', eventKeyAction: 0 })).toBeNull()
     expect(remoteKey({})).toBeNull()
+  })
+})
+
+describe('createRemoteKeyFilter', () => {
+  const down = (eventType: string) => ({ eventType, eventKeyAction: 0 })
+  const up = (eventType: string) => ({ eventType, eventKeyAction: 1 })
+
+  it('one press is one key: the down acts, its up does not', () => {
+    const filter = createRemoteKeyFilter()
+    expect([filter(down('right')), filter(up('right'))]).toEqual(['right', null])
+  })
+
+  it('a held key repeats its down', () => {
+    const filter = createRemoteKeyFilter()
+    expect([down('right'), down('right'), down('right'), up('right')].map(filter)).toEqual(['right', 'right', 'right', null])
+  })
+
+  it('acts on an up whose down never arrived (a phone driven over adb only reports ups)', () => {
+    const filter = createRemoteKeyFilter()
+    expect([up('select'), up('select'), up('right')].map(filter)).toEqual(['select', 'select', 'right'])
+  })
+
+  it('ignores focus events and unknown keys', () => {
+    const filter = createRemoteKeyFilter()
+    expect([{ eventType: 'focus', eventKeyAction: -1 }, up('menu'), {}].map(filter)).toEqual([null, null, null])
   })
 })
 

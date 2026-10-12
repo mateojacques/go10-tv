@@ -35,6 +35,12 @@ class EmbedBridgeModule : Module() {
 
     AsyncFunction("install") { viewTag: Int, script: String, origins: List<String> ->
       val web = webView(viewTag) ?: return@AsyncFunction "noView"
+      // RN's focusable={false} only reaches react-native-webview's wrapper: the
+      // WebView itself would still take focus (on a touch, or by default) and
+      // swallow the remote's keys. The TV player needs every key in RN.
+      web.isFocusable = false
+      web.isFocusableInTouchMode = false
+      web.clearFocus()
       if (!WebViewFeature.isFeatureSupported(WebViewFeature.DOCUMENT_START_SCRIPT)) return@AsyncFunction "unsupported"
       try {
         WebViewCompat.addDocumentStartJavaScript(web, script, origins.toSet())
