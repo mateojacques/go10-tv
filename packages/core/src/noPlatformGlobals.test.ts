@@ -17,6 +17,9 @@ const FORBIDDEN: [string, RegExp][] = [
   ['react', /from ['"]react(-dom)?['"]/],
 ]
 
+/** Source text of scripts injected into embed frames: they run in the browser, never in core. */
+const INJECTED = new Set(['player/bridge/frameScript.ts', 'player/bridge/adapters.ts'])
+
 function sources(dir: string): string[] {
   return readdirSync(dir).flatMap((name) => {
     const path = join(dir, name)
@@ -30,7 +33,7 @@ const stripComments = (text: string) => text.replace(/\/\*[\s\S]*?\*\//g, '').re
 
 describe('core source', () => {
   it('uses no browser, bundler or React globals', () => {
-    const violations = sources(SRC).flatMap((file) => {
+    const violations = sources(SRC).filter((file) => !INJECTED.has(relative(SRC, file))).flatMap((file) => {
       const code = stripComments(readFileSync(file, 'utf8'))
       return FORBIDDEN.filter(([, pattern]) => pattern.test(code)).map(([name]) => `${relative(SRC, file)}: ${name}`)
     })
