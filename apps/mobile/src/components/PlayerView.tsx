@@ -16,10 +16,12 @@ import { backAction, playerKeyAction } from '@go10/core/player/playerKeys'
 import { BRIDGE_ORIGINS, SETTING_LABELS, type BridgeSetting } from '@go10/core/player/bridge/protocol'
 import { initialTvControls, OVERLAY_IDLE_MS, tvControls, type TvEffect, type TvInput } from '@go10/core/player/tvControls'
 import { isTvUi } from '../platform/tvUi'
+import Constants from 'expo-constants'
+import { DiagnosticsPanel } from '../player/tv/DiagnosticsPanel'
 import { PickerPanel } from '../player/tv/PickerPanel'
 import { PointerLayer } from '../player/tv/PointerLayer'
 import { centerPointer, movePointer, type PointerState } from '../player/tv/pointerMove'
-import { tapWebView } from '../player/embedBridge'
+import { tapWebView, webViewVersion } from '../player/embedBridge'
 import { TvPlayerOverlay } from '../player/tv/TvPlayerOverlay'
 import { useEmbedBridge } from '../player/useEmbedBridge'
 import { theme } from '../theme'
@@ -29,6 +31,7 @@ const tv = Platform.isTV
 const SEEK_COALESCE_MS = 400
 const TOAST_MS = 1500
 const NOTICE_MS = 2500
+const KEY_LOG_SIZE = 10
 /** What the WebView shows while the bridge script is being installed. */
 const BLANK_PAGE = '<html><body style="background:#000"></body></html>'
 
@@ -111,6 +114,8 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
   const sizeRef = useRef({ width: 0, height: 0 })
   const pointerRef = useRef<PointerState | null>(null)
   const [pointer, setPointer] = useState<PointerState | null>(null)
+  // The last keys and what they did, for the diagnostics panel.
+  const [keyLog, setKeyLog] = useState<{ key: string; effect: string }[]>([])
 
   // A new file starts over: fresh retry state and a reload (the reset bumps reloadToken).
   const videoRef = useRef(row.video_id)
@@ -229,6 +234,9 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
   // Named with a trailing underscore: `dispatch` is the retry reducer's.
   function dispatch_(input: TvInput) {
     const { state, effect } = tvControls(controlsRef.current, input)
+    if (input.type === 'key') {
+      setKeyLog((log) => [...log, { key: input.key, effect: effect?.type ?? '—' }].slice(-KEY_LOG_SIZE))
+    }
     controlsRef.current = state
     setControls(state)
     if (state.mode !== 'menu') setMenu(null)
@@ -361,6 +369,19 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
       )}
 
       {pointer && <PointerLayer x={pointer.x} y={pointer.y} />}
+
+      {tvUi && controls.mode === 'diagnostics' && (
+        <DiagnosticsPanel
+          appVersion={Constants.expoConfig?.version ?? '?'}
+          android={String(Platform.Version)}
+          webView={webViewVersion()}
+          provider={provider.origin}
+          status={bridge.status}
+          caps={bridge.caps}
+          keys={keyLog}
+          log={bridge.log}
+        />
+      )}
 
       {notice !== null && (
         <View style={styles.reconnecting} pointerEvents="none">

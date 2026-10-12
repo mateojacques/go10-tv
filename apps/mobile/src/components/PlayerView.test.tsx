@@ -289,4 +289,14 @@ describe('PlayerView on TV', () => {
     await act(() => { mockRemote.back!() })
     expect(screen.queryByTestId('pointer')).toBeNull()
   })
+
+  it('five quick Ups in the overlay show diagnostics with the keys received; Back closes them', async () => {
+    await start()
+    await act(() => mockRemote.key!('select'))
+    for (let i = 0; i < 5; i++) await act(() => mockRemote.key!('up'))
+    expect(screen.getByText('Puente: installed')).toBeTruthy()
+    expect(screen.getByText('select → —')).toBeTruthy()
+    await act(() => { mockRemote.back!() })
+    expect(screen.queryByText('Puente: installed')).toBeNull()
+  })
 })
