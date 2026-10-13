@@ -119,7 +119,8 @@ title; see `build_pick_rows` in `scripts/parse_catalog.py`):
 ```
 
 - `type`: `movie` or `series`. Series videos add `season_number`; an
-  episode adds `episode_number`, a season pack omits it.
+  episode adds `episode_number`, a season pack omits it. An optional
+  per-video `season_label` (e.g. a saga name) replaces "Temporada N" in the app.
 - `title`: the canonical Spanish title as the catalog names things, not the
   uploader's title. For an existing series, its exact `series_title`.
 - `quality`: from `check`, not the title. Per-video `quality`/`language`

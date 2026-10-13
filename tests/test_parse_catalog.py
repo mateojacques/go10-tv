@@ -450,7 +450,7 @@ FUTURAMA_PICK = {
          "views": 1, "thumbnail_url": "", "season_number": 5},
         {"video_id": "222", "title_raw": "Futurama 6x01", "duration_raw": "22:00",
          "views": 2, "thumbnail_url": "", "season_number": 6, "episode_number": 1,
-         "quality": "720p"},
+         "quality": "720p", "source": "Otro"},
     ],
 }
 
@@ -490,6 +490,15 @@ def test_build_pick_rows_makes_season_packs_and_episodes_for_a_series(tmp_path):
     # A per-video field overrides the pick-wide one.
     assert episode["quality"] == "720p"
     assert pack["quality"] == "1080p"
+    assert episode["source"] == "Otro"
+    assert pack["source"] == "Uploader"
+    assert pack["season_label"] == ""
+
+
+def test_build_pick_rows_keeps_a_videos_season_label(tmp_path):
+    pick = {**FUTURAMA_PICK, "videos": [{**FUTURAMA_PICK["videos"][0], "season_label": "Saga de Freezer"}]}
+    [pack] = parse_catalog.build_pick_rows(pick, "futurama", assets_dir=str(tmp_path))
+    assert pack["season_label"] == "Saga de Freezer"
 
 
 def test_build_pick_rows_season_packs_feed_explode_chapters(tmp_path):
