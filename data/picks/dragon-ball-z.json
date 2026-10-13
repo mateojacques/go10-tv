@@ -1,0 +1,297 @@
+{
+  "title": "Dragon Ball Z",
+  "type": "series",
+  "added": "2026-10-13",
+  "query": "https://ok.ru/guilleparrales/video/c61405383",
+  "year": "1989",
+  "studio": "",
+  "source": "guilleparrales",
+  "quality": "4K",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "15250642307783",
+      "season_number": 2,
+      "season_label": "Saga de Freezer",
+      "title_raw": "Dbz 36-40",
+      "duration_raw": "2:01:00",
+      "views": 72,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17353783249607&type=37&idx=1&tkn=nw4CiK0imYoowNGh_W8fSvTW7o4&fn=external_8"
+    },
+    {
+      "video_id": "15250650630855",
+      "season_number": 2,
+      "season_label": "Saga de Freezer",
+      "title_raw": "Dbz 41-45",
+      "duration_raw": "2:00:57",
+      "views": 59,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17353795832519&type=37&idx=2&tkn=oB6G4OV7AOSGudlMmCodPMqtSwU&fn=external_8"
+    },
+    {
+      "video_id": "15250701028039",
+      "season_number": 2,
+      "season_label": "Saga de Freezer",
+      "title_raw": "Dbz 46-50",
+      "duration_raw": "2:00:58",
+      "views": 43,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17353841511111&type=37&idx=0&tkn=bEkjNvQwy_3A4HQ0C7O52VNH1Xw&fn=external_8"
+    },
+    {
+      "video_id": "15250723703495",
+      "season_number": 2,
+      "season_label": "Saga de Freezer",
+      "title_raw": "Dbz 51-55",
+      "duration_raw": "2:01:24",
+      "views": 66,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17353875262151&type=37&idx=2&tkn=ONlfotGxe3Aoke1TQpaLYfaZ_pg&fn=external_8"
+    },
+    {
+      "video_id": "15250745395911",
+      "season_number": 2,
+      "season_label": "Saga de Freezer",
+      "title_raw": "Dbz 56-60",
+      "duration_raw": "2:00:57",
+      "views": 56,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17353956854471&type=37&idx=0&tkn=coyCpW9u72CgnZV3i4wiirWnpwk&fn=external_8"
+    },
+    {
+      "video_id": "15250750900935",
+      "season_number": 2,
+      "season_label": "Saga de Freezer",
+      "title_raw": "Dbz 61-65",
+      "duration_raw": "2:03:17",
+      "views": 42,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17353963014855&type=37&idx=2&tkn=haPTwp8ECGJnXcX-7TJBdTrRVIM&fn=external_8"
+    },
+    {
+      "video_id": "15250803002055",
+      "season_number": 2,
+      "season_label": "Saga de Freezer",
+      "title_raw": "Dbz 66-70",
+      "duration_raw": "2:03:17",
+      "views": 41,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17354012232391&type=37&idx=2&tkn=S7X1d3OnK_xWeH_GBKHk7s6JIBM&fn=external_8"
+    },
+    {
+      "video_id": "15250832558791",
+      "season_number": 2,
+      "season_label": "Saga de Freezer",
+      "title_raw": "Dbz 71-75",
+      "duration_raw": "2:03:27",
+      "views": 41,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17354062105287&type=37&idx=2&tkn=F4ziehMdxr8XMpQXfR_Pk0L-0tI&fn=external_8"
+    },
+    {
+      "video_id": "15250860083911",
+      "season_number": 2,
+      "season_label": "Saga de Freezer",
+      "title_raw": "Dbz 76-80",
+      "duration_raw": "2:03:26",
+      "views": 43,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17354129083079&type=37&idx=2&tkn=u5BFBRdoK3ZWd67xUDGBzT6UP9I&fn=external_8"
+    },
+    {
+      "video_id": "15250901764807",
+      "season_number": 2,
+      "season_label": "Saga de Freezer",
+      "title_raw": "Dbz 81-85",
+      "duration_raw": "2:03:28",
+      "views": 48,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17354180004551&type=37&idx=2&tkn=FT9T00v-B06ZWZnkWnVru7vI33s&fn=external_8"
+    },
+    {
+      "video_id": "15250956683975",
+      "season_number": 2,
+      "season_label": "Saga de Freezer",
+      "title_raw": "Dbz 86-90",
+      "duration_raw": "0:49:18",
+      "views": 47,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17354284731079&type=37&idx=1&tkn=Urb4ihJntwUNrnP84_SDuZlaD_A&fn=external_8"
+    },
+    {
+      "video_id": "15250994694855",
+      "season_number": 2,
+      "season_label": "Saga de Freezer",
+      "title_raw": "Dbz 91-95",
+      "duration_raw": "2:03:28",
+      "views": 48,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17354351577799&type=37&idx=2&tkn=cwbv7kOUiA3j_zjIxHb3dthrGtI&fn=external_8"
+    },
+    {
+      "video_id": "15251042273991",
+      "season_number": 2,
+      "season_label": "Saga de Freezer",
+      "title_raw": "Dbz 96-100",
+      "duration_raw": "2:03:27",
+      "views": 49,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17354426813127&type=37&idx=2&tkn=dzQVsEWB2l0YONr3jU9ufjNeaQw&fn=external_8"
+    },
+    {
+      "video_id": "15251082775239",
+      "season_number": 2,
+      "season_label": "Saga de Freezer",
+      "title_raw": "Dbz 101-105",
+      "duration_raw": "2:03:17",
+      "views": 49,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17354481601223&type=37&idx=2&tkn=eR0UYOIuetH6uebGtaIlQMocXVM&fn=external_8"
+    },
+    {
+      "video_id": "15285499071175",
+      "season_number": 3,
+      "season_label": "Saga de Garlic Jr.",
+      "title_raw": "Dbz 110-113",
+      "duration_raw": "1:38:37",
+      "views": 60,
+      "thumbnail_url": ""
+    },
+    {
+      "video_id": "15251607980743",
+      "season_number": 3,
+      "season_label": "Saga de Garlic Jr.",
+      "title_raw": "Dbz 114-117",
+      "duration_raw": "1:38:38",
+      "views": 67,
+      "thumbnail_url": ""
+    },
+    {
+      "video_id": "15251256904391",
+      "season_number": 4,
+      "season_label": "Saga de los Androides y Cell",
+      "title_raw": "Dbz 121-125",
+      "duration_raw": "2:03:17",
+      "views": 51,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17354775726791&type=37&idx=1&tkn=7f8zP7iMobalEesVV6tuPKWPwl0&fn=external_8"
+    },
+    {
+      "video_id": "15251320474311",
+      "season_number": 4,
+      "season_label": "Saga de los Androides y Cell",
+      "title_raw": "Dbz 126-130",
+      "duration_raw": "2:03:16",
+      "views": 55,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17354884844231&type=37&idx=0&tkn=Cdr2pfW2U7EB0Dl4868cE4KSWiI&fn=external_8"
+    },
+    {
+      "video_id": "15251661195975",
+      "season_number": 4,
+      "season_label": "Saga de los Androides y Cell",
+      "title_raw": "Dbz 131-135",
+      "duration_raw": "2:03:18",
+      "views": 757,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17355471981255&type=37&idx=2&tkn=qkrKTq5dLYn0dj2LVuXQwui7oHo&fn=external_8"
+    },
+    {
+      "video_id": "15285276183239",
+      "season_number": 4,
+      "season_label": "Saga de los Androides y Cell",
+      "title_raw": "Dbz 136-140",
+      "duration_raw": "2:03:16",
+      "views": 46,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17413569317575&type=37&idx=2&tkn=xmNSW2DxcJ-PMSV_APsYlKpU5TU&fn=external_8"
+    },
+    {
+      "video_id": "15285280508615",
+      "season_number": 4,
+      "season_label": "Saga de los Androides y Cell",
+      "title_raw": "Dbz 141-145",
+      "duration_raw": "2:03:16",
+      "views": 48,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17413599201991&type=37&idx=2&tkn=pWKYSNXb1bvb6SyFwSSbtXvELZI&fn=external_8"
+    },
+    {
+      "video_id": "15285284113095",
+      "season_number": 4,
+      "season_label": "Saga de los Androides y Cell",
+      "title_raw": "Dbz 146-150",
+      "duration_raw": "2:03:16",
+      "views": 61,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17413600905927&type=37&idx=1&tkn=-LIRMedl1g9n1pLHwjbaDGdF7f8&fn=external_8"
+    },
+    {
+      "video_id": "15285343488711",
+      "season_number": 4,
+      "season_label": "Saga de los Androides y Cell",
+      "title_raw": "Dbz 151-155",
+      "duration_raw": "2:02:01",
+      "views": 55,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17413669391047&type=37&idx=2&tkn=XlbtAdWkBkRApD-YmDA9CwIQC14&fn=external_8"
+    },
+    {
+      "video_id": "15285347093191",
+      "season_number": 4,
+      "season_label": "Saga de los Androides y Cell",
+      "title_raw": "Dbz 156-160",
+      "duration_raw": "2:02:19",
+      "views": 61,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17413676403399&type=37&idx=2&tkn=oKUqsKe6KvHhEJFimvhZmiyIv1E&fn=external_8"
+    },
+    {
+      "video_id": "15285353908935",
+      "season_number": 4,
+      "season_label": "Saga de los Androides y Cell",
+      "title_raw": "Dbz 161-165",
+      "duration_raw": "2:03:16",
+      "views": 60,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17413681908423&type=37&idx=3&tkn=oGkc9NmazsI0jdR0KVJZI7YRn0o&fn=external_8"
+    },
+    {
+      "video_id": "15285426784967",
+      "season_number": 4,
+      "season_label": "Saga de los Androides y Cell",
+      "title_raw": "Dbz 166-170",
+      "duration_raw": "2:03:17",
+      "views": 63,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17413765728967&type=37&idx=2&tkn=plw1FUfwmcJqEVD5argrwCo-Bys&fn=external_8"
+    },
+    {
+      "video_id": "15285450115783",
+      "season_number": 4,
+      "season_label": "Saga de los Androides y Cell",
+      "title_raw": "Dbz 171-175",
+      "duration_raw": "1:38:38",
+      "views": 60,
+      "thumbnail_url": ""
+    },
+    {
+      "video_id": "15285634861767",
+      "season_number": 4,
+      "season_label": "Saga de los Androides y Cell",
+      "title_raw": "Dbz 176-180",
+      "duration_raw": "2:03:17",
+      "views": 65,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17414065621703&type=37&idx=1&tkn=cH5r5j2QFgj84wPTY6ORHs9mdpk&fn=external_8"
+    },
+    {
+      "video_id": "15418232801991",
+      "season_number": 4,
+      "season_label": "Saga de los Androides y Cell",
+      "title_raw": "Dbz 186-190",
+      "duration_raw": "2:03:16",
+      "views": 74,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17649188735687&type=37&idx=2&tkn=cobor3xnq-gjlSdU1PTr_IbQzys&fn=external_8"
+    },
+    {
+      "video_id": "15418272713415",
+      "season_number": 4,
+      "season_label": "Saga de los Androides y Cell",
+      "title_raw": "Dbz 191-194",
+      "duration_raw": "1:38:39",
+      "views": 68,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17649235266247&type=37&idx=3&tkn=DuIxtTHOSuKelMk4aaX99Q9Xg_I&fn=external_8"
+    },
+    {
+      "video_id": "9112735517311",
+      "season_number": 5,
+      "season_label": "Saga de Majin Boo",
+      "title_raw": "Dragon Ball Z TODA La Saga de Majin Boo",
+      "duration_raw": "8:21:41",
+      "views": 320,
+      "quality": "480p",
+      "source": "horas",
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8161701923455&type=32&idx=13&tkn=FHt2xAXklHXU780GYigl4c07VmQ&fn=external_7"
+    }
+  ]
+}
