@@ -1,0 +1,241 @@
+{
+  "title": "El Lagartijo de Ned",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c5073481",
+  "year": "1997",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "720p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "2601416526409",
+      "title_raw": "01 lagartija de ned (byamenophis)",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 5388,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1420650351177&type=37&idx=9&tkn=bLrzwFmwb8dQTcIDQHHoCDr3Yfc&fn=external_8"
+    },
+    {
+      "video_id": "2601416198729",
+      "title_raw": "02 Lagartijo De Ned(byamenophis)",
+      "duration_raw": "22:55",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 1373,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1420581734985&type=38&idx=0&tkn=RqvM5thMsttiSdbiMONUIYE5YRM&fn=external_8"
+    },
+    {
+      "video_id": "2601416985161",
+      "title_raw": "03 Lagartijo De Ned(byamenophis)",
+      "duration_raw": "22:50",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 778,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1420748851785&type=38&idx=0&tkn=NxDwYzzctbIWT1Ms0NONIq1XUxA&fn=external_8"
+    },
+    {
+      "video_id": "2601416919625",
+      "title_raw": "04 lagartijo de ned (byamenophis)",
+      "duration_raw": "22:49",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 621,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1420731943497&type=38&idx=7&tkn=FGk2IdwGCx8P8kbZN661BoV2Soo&fn=external_8"
+    },
+    {
+      "video_id": "2601417378377",
+      "title_raw": "05 el lagarto de ned (byamenophis)",
+      "duration_raw": "22:54",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 538,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1420833327689&type=38&idx=1&tkn=6GXZfF_IVmb6lmjwQZcnfdZZhN4&fn=external_8"
+    },
+    {
+      "video_id": "2628547119689",
+      "title_raw": "06 Lagartijo De Ned(byamenophis)",
+      "duration_raw": "22:53",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 531,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1452286609993&type=38&idx=9&tkn=2GA_URUAvgJPqeFjZtIlBa7PZxw&fn=external_8"
+    },
+    {
+      "video_id": "2601416788553",
+      "title_raw": "07 Lagartijo De Ned(byamenophis)",
+      "duration_raw": "22:51",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 389,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1420703107657&type=38&idx=0&tkn=A9T3eZj4cAeIFYxDsNQavZFClD8&fn=external_8"
+    },
+    {
+      "video_id": "2601416657481",
+      "title_raw": "08 Lagartijo De Ned(byamenophis)",
+      "duration_raw": "22:54",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 366,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1420678597193&type=38&idx=1&tkn=RneKlxnV8dt80rubLABWif-No14&fn=external_8"
+    },
+    {
+      "video_id": "2601417509449",
+      "title_raw": "09 Lagartijo De Ned(byamenophis)",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 404,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1422401079881&type=38&idx=5&tkn=zOCYT9rrnHiJlDuJiYFhU1xhJK8&fn=external_8"
+    },
+    {
+      "video_id": "2601417312841",
+      "title_raw": "10 el lagartijo de ned (byamenophis)",
+      "duration_raw": "23:30",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 320,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1420818254409&type=38&idx=6&tkn=rtkIJ0ABiLWHposlUcPRvTV6PiM&fn=external_8"
+    },
+    {
+      "video_id": "2601417050697",
+      "title_raw": "11 Lagartijo De Ned (byamenophis)",
+      "duration_raw": "23:19",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 319,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1420763335241&type=38&idx=1&tkn=wgTCKF8kBVGUEOGRvZo4hAzUnCs&fn=external_8"
+    },
+    {
+      "video_id": "2604132600393",
+      "title_raw": "El Lagartijo De Ned - S01E12a - 23 - Newton Falls in Love - Newton se enamora_join_871",
+      "duration_raw": "22:03",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 384,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1423746075209&type=32&idx=6&tkn=ONuv4GOCrYEZ0nWeXParW8bbilU&fn=external_8"
+    },
+    {
+      "video_id": "2601416395337",
+      "title_raw": "13 Lagartijo De Ned (byamenophis)",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 305,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1420624136777&type=38&idx=15&tkn=iF6Npi9mxlQoT_7_nH54Z9qpQtw&fn=external_8"
+    },
+    {
+      "video_id": "2601416133193",
+      "title_raw": "2x01 lagartijo de ned",
+      "duration_raw": "22:51",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 442,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1420569217609&type=38&idx=3&tkn=LL32MrSrvAlDrw6iRLmxNmx_G_w&fn=external_8"
+    },
+    {
+      "video_id": "2601416264265",
+      "title_raw": "2x02 lagartijo de ned",
+      "duration_raw": "22:35",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 282,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1420596021833&type=38&idx=14&tkn=uFkESjPsnvH5FYE1-sr65jWVuYw&fn=external_8"
+    },
+    {
+      "video_id": "2601416460873",
+      "title_raw": "2x03 lagartijo de ned",
+      "duration_raw": "22:35",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 291,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1420636523081&type=38&idx=14&tkn=eePQ-LQjEb4DBg-QSgOpHgEmctU&fn=external_8"
+    },
+    {
+      "video_id": "2601417116233",
+      "title_raw": "2x04 lagartijo de ned",
+      "duration_raw": "22:38",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 272,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1420774672969&type=38&idx=4&tkn=sfq-nSxM0GgAl4FHhAR_P5Qewo8&fn=external_8"
+    },
+    {
+      "video_id": "2601416854089",
+      "title_raw": "2x05 lagarto de ned",
+      "duration_raw": "22:28",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 245,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1420717656649&type=38&idx=2&tkn=JB8DgMfd2d-NUYN3Z8A8xBZ-Nrk&fn=external_8"
+    },
+    {
+      "video_id": "2601416591945",
+      "title_raw": "2x06 lagarto de ned",
+      "duration_raw": "23:35",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 262,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1420662934089&type=38&idx=13&tkn=_XxGZfFOSTNk_AfxwH-KVfwkTYw&fn=external_8"
+    },
+    {
+      "video_id": "2601417181769",
+      "title_raw": "2x07 lagarto de nd",
+      "duration_raw": "21:55",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 226,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1420789221961&type=38&idx=4&tkn=a7wdKAxsbSvArmdZvAkzoAfCrNQ&fn=external_8"
+    },
+    {
+      "video_id": "2601417247305",
+      "title_raw": "2x08 lagarto de ned",
+      "duration_raw": "22:28",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 226,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1420803246665&type=38&idx=1&tkn=s9MZat6mBOVJ-pzdgm-INjI9oY8&fn=external_8"
+    },
+    {
+      "video_id": "2601416329801",
+      "title_raw": "2x09 lagarto de ned",
+      "duration_raw": "22:38",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 252,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1420609129033&type=38&idx=10&tkn=nbcc2QLHrYduKJbqMFr0QvM1Mmw&fn=external_8"
+    },
+    {
+      "video_id": "2601416723017",
+      "title_raw": "2x10 lagarto de ned",
+      "duration_raw": "22:37",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 239,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1420689607241&type=38&idx=4&tkn=lKvH_qHFn6ZJWYgKidU1KBrOYHI&fn=external_8"
+    },
+    {
+      "video_id": "2604132731465",
+      "title_raw": "El Lagartijo De Ned - S02E11a - 47 - Fantastic Neddage - El viaje fantastico de Ned_join_3752",
+      "duration_raw": "21:53",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 244,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1423766653513&type=32&idx=13&tkn=jBAAfzR8vH-KgOlRWHLJOYiGEWI&fn=external_8"
+    },
+    {
+      "video_id": "2604132797001",
+      "title_raw": "El Lagartijo De Ned - S02E12a - 49 - Newt York Newt York - Ned y Newton en Nueva York_join_164",
+      "duration_raw": "21:53",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 252,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1423777073737&type=32&idx=14&tkn=Gx77lveu9OU8O8fiQ506NLJgZ7Q&fn=external_8"
+    }
+  ]
+}

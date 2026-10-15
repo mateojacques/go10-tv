@@ -1,0 +1,592 @@
+{
+  "title": "Sabrina: La Serie Animada",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c3365705",
+  "year": "1999",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "1823799380553",
+      "title_raw": "Sabrina La Brujita - 01.- Shrink to Fit",
+      "duration_raw": "20:36",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 10115,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809216772681&type=32&idx=11&tkn=rqIft5efa9U1sEfS9-QNGuy8Vis&fn=external_8"
+    },
+    {
+      "video_id": "1823799118409",
+      "title_raw": "Sabrina La Brujita - 02.- Boy Meets Bike",
+      "duration_raw": "22:18",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 2606,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809213299273&type=32&idx=11&tkn=HYSzfJ8bptHBaqplXaNut35pm98&fn=external_8"
+    },
+    {
+      "video_id": "1823799446089",
+      "title_raw": "Sabrina La Brujita - 03.- The Importance Of Beign Normal",
+      "duration_raw": "22:24",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1379,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809217362505&type=32&idx=12&tkn=gmZ7D6PTawXaC3JKKSGhNtMQmFI&fn=external_8"
+    },
+    {
+      "video_id": "1823798921801",
+      "title_raw": "Sabrina La Brujita - 04.- You Said A Mouse-ful",
+      "duration_raw": "22:16",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 994,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809209367113&type=32&idx=7&tkn=0EYe_39JrBJIYmGoB3YPtAFFfn0&fn=external_8"
+    },
+    {
+      "video_id": "1823798790729",
+      "title_raw": "Sabrina La Brujita - 05.- Boogie Shoes",
+      "duration_raw": "22:23",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 952,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809205893705&type=32&idx=8&tkn=61vRNP1D0ZOmT3R2U1fs2a8RJYQ&fn=external_8"
+    },
+    {
+      "video_id": "1823799904841",
+      "title_raw": "Sabrina La Brujita - 06.- The Witch Switch",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 964,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809224112713&type=32&idx=4&tkn=limRz0hcVHpHDNtAxKGMmpWoXHU&fn=external_8"
+    },
+    {
+      "video_id": "1823800298057",
+      "title_raw": "Sabrina La Brujita - 07.- Anywhere But Here",
+      "duration_raw": "22:22",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 742,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809232239177&type=32&idx=8&tkn=kST8xhOBwMMeT4kzQwQnPJf_fUs&fn=external_8"
+    },
+    {
+      "video_id": "1823799970377",
+      "title_raw": "Sabrina La Brujita - 08.- Nothin' Says Lovin' Like Somethin'...",
+      "duration_raw": "22:24",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 718,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809226996297&type=32&idx=14&tkn=G25_M4zn10Ui_1v46rNCgTMgeF4&fn=external_8"
+    },
+    {
+      "video_id": "1823799183945",
+      "title_raw": "Sabrina La Brujita - 09.- I've Got Glue Babe",
+      "duration_raw": "22:25",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 769,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809213954633&type=32&idx=9&tkn=TF2xCaGGWgahJVO154RODQ5Pkd0&fn=external_8"
+    },
+    {
+      "video_id": "1823799315017",
+      "title_raw": "Sabrina La Brujita - 10.- Wag The Witch",
+      "duration_raw": "22:24",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 657,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809215855177&type=32&idx=9&tkn=Sfk8bl2fUTx8fyvd8ru66bwnFmc&fn=external_8"
+    },
+    {
+      "video_id": "1823800101449",
+      "title_raw": "Sabrina La Brujita - 11.- The Most Dangerous Witch",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 818,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809228175945&type=32&idx=1&tkn=4jnt0gvg6e78NlcQAcUnAAJjRBE&fn=external_8"
+    },
+    {
+      "video_id": "1823798856265",
+      "title_raw": "Sabrina La Brujita - 12.- Picture Perfect",
+      "duration_raw": "22:29",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 705,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809207925321&type=32&idx=9&tkn=LvauZ-Ry3xw5t2hAZ3YEk18pfqk&fn=external_8"
+    },
+    {
+      "video_id": "1823798659657",
+      "title_raw": "Sabrina La Brujita - 13.- Has Anybody Seen My Quigley",
+      "duration_raw": "23:22",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 623,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809204779593&type=32&idx=1&tkn=WseL0G0CwhPqUx7zbnyUoobwV6I&fn=external_8"
+    },
+    {
+      "video_id": "1823798463049",
+      "title_raw": "Sabrina La Brujita - 14.- Extreme Harvey",
+      "duration_raw": "22:24",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 571,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809201568329&type=32&idx=0&tkn=9rwkdVyg5YiWMKQYDuRj2FTb7cc&fn=external_8"
+    },
+    {
+      "video_id": "1823798725193",
+      "title_raw": "Sabrina La Brujita - 15.- Stage Fright",
+      "duration_raw": "22:23",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 715,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809205107273&type=32&idx=6&tkn=_aDA-cIrkyXU6Ulvyarfut0GahU&fn=external_8"
+    },
+    {
+      "video_id": "1823798987337",
+      "title_raw": "Sabrina La Brujita - 16.- The Senses Shattering Adventures Of Captain Harvtastic",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 481,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809211005513&type=32&idx=13&tkn=oKIh7nZbx5Wfk43zZUV0sM_ugpU&fn=external_8"
+    },
+    {
+      "video_id": "1823798594121",
+      "title_raw": "Sabrina La Brujita - 17.- Once Upon A Whine",
+      "duration_raw": "19:40",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 480,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809202944585&type=32&idx=12&tkn=jT2Vgnrw-8UGZPbNqGawzLA-r0o&fn=external_8"
+    },
+    {
+      "video_id": "1823800232521",
+      "title_raw": "Sabrina La Brujita - 18.- Field Trippin",
+      "duration_raw": "22:24",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 470,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809230862921&type=32&idx=6&tkn=CFxRa8talQy87XoQ7ouRt0ObAzw&fn=external_8"
+    },
+    {
+      "video_id": "1823798528585",
+      "title_raw": "Sabrina La Brujita - 19.- Witchy Girls",
+      "duration_raw": "22:22",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 608,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809203468873&type=32&idx=5&tkn=wfXLt7vbxk3mFp7Gi8V4pFh0-LQ&fn=external_8"
+    },
+    {
+      "video_id": "1823799577161",
+      "title_raw": "Sabrina La Brujita - 20.- My Step Mother The Babe",
+      "duration_raw": "22:19",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 659,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809219197513&type=32&idx=14&tkn=IaJvNuJB7hviDTuGQGkm6h05Y_w&fn=external_8"
+    },
+    {
+      "video_id": "1823798397513",
+      "title_raw": "Sabrina La Brujita - 21.- Documagicary",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 437,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809200912969&type=32&idx=5&tkn=F8628k-fsDWeiULXKJh1EQBIXq0&fn=external_8"
+    },
+    {
+      "video_id": "1823799773769",
+      "title_raw": "Sabrina La Brujita - 22.- The Grand Parent Trap",
+      "duration_raw": "22:25",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 404,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809222146633&type=32&idx=4&tkn=3oHeLMkwu7TN6StOrOERj9HWUik&fn=external_8"
+    },
+    {
+      "video_id": "1823799708233",
+      "title_raw": "Sabrina La Brujita - 23.- Upside Down Town",
+      "duration_raw": "22:43",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 465,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809221425737&type=32&idx=3&tkn=OlkCmPJyPLhor4eafwy_HF3mMdI&fn=external_8"
+    },
+    {
+      "video_id": "1823800166985",
+      "title_raw": "Sabrina La Brujita - 24.- Para Normal-pi",
+      "duration_raw": "22:45",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 459,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809229552201&type=32&idx=8&tkn=Mwx5fciQN3eamL8J5CxzerQXXLw&fn=external_8"
+    },
+    {
+      "video_id": "1823800035913",
+      "title_raw": "Sabrina La Brujita - 25.- This Is Your Nine Lives",
+      "duration_raw": "22:24",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 408,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809225620041&type=32&idx=8&tkn=QuL3yozdSnKzWmPcgymk7xAfAy0&fn=external_8"
+    },
+    {
+      "video_id": "1823799511625",
+      "title_raw": "Sabrina La Brujita - 26.- No Time To Be A Hero",
+      "duration_raw": "22:25",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 412,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809218411081&type=32&idx=1&tkn=u9uZ1kXQHc_0GT4ILb6ZrNiQ5WI&fn=external_8"
+    },
+    {
+      "video_id": "1823799839305",
+      "title_raw": "Sabrina La Brujita - 27.- Absence Of Malissa",
+      "duration_raw": "22:10",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 434,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809223391817&type=32&idx=7&tkn=6AuxdvYdTu4s6qvnTqdYQBjm2r8&fn=external_8"
+    },
+    {
+      "video_id": "1823799642697",
+      "title_raw": "Sabrina La Brujita - 28.- A Tail Of Two Kitties",
+      "duration_raw": "21:58",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 489,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809220508233&type=32&idx=2&tkn=iCf3RCM4ZgREohabmVM_2L8ZHew&fn=external_8"
+    },
+    {
+      "video_id": "1823799249481",
+      "title_raw": "Sabrina La Brujita - 29.- The Hex Files",
+      "duration_raw": "22:48",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 353,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809215003209&type=32&idx=4&tkn=t5oEiHSZXMNk4qMwnRmn1PIzfY0&fn=external_8"
+    },
+    {
+      "video_id": "1823799052873",
+      "title_raw": "Sabrina La Brujita - 30.- Planet Of -the Dogs",
+      "duration_raw": "22:45",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 344,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809212250697&type=32&idx=7&tkn=PtJWJi1PZrijl6HgWEnqA8I9A9U&fn=external_8"
+    },
+    {
+      "video_id": "1823882152521",
+      "title_raw": "Sabrina La Brujita - 31.- Witchitis",
+      "duration_raw": "22:24",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 488,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809274903113&type=32&idx=11&tkn=v2LKNOV1VdFKrsSc3QFExqAi4Eg&fn=external_8"
+    },
+    {
+      "video_id": "1823882480201",
+      "title_raw": "Sabrina La Brujita - 32.- Harvzilla",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 657,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809284405833&type=32&idx=8&tkn=0Zc8T0CssNDNhLdBxEU7vr1yprQ&fn=external_8"
+    },
+    {
+      "video_id": "1823882349129",
+      "title_raw": "Sabrina La Brujita - 33.- Stone Broke",
+      "duration_raw": "20:23",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 486,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809280735817&type=32&idx=8&tkn=Ofp_HrX2nwmCrwiLKa8LfhHPg_w&fn=external_8"
+    },
+    {
+      "video_id": "1823882218057",
+      "title_raw": "Sabrina La Brujita - 34.- Saturday Night Furor",
+      "duration_raw": "22:21",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 372,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809276607049&type=32&idx=13&tkn=GPCsei1zLxlNPQGjn9dW2xN5tt4&fn=external_8"
+    },
+    {
+      "video_id": "1823882086985",
+      "title_raw": "Sabrina La Brujita - 35.- What Becomes Of The Broken Hearted",
+      "duration_raw": "22:10",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 362,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809273002569&type=32&idx=2&tkn=gUxXxxROcXnFr2gPXHBk1r528CA&fn=external_8"
+    },
+    {
+      "video_id": "1823882283593",
+      "title_raw": "Sabrina La Brujita - 36.- Hex-change Students",
+      "duration_raw": "22:25",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 359,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809278704201&type=32&idx=10&tkn=TLU6bjtwcAbQdEjEovmPs37cNdg&fn=external_8"
+    },
+    {
+      "video_id": "1823882414665",
+      "title_raw": "Sabrina La Brujita - 37.- Feats Of Clay",
+      "duration_raw": "22:20",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 315,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809282439753&type=32&idx=8&tkn=W0MjVy43kGYy3QUwOrFxWWQx0lA&fn=external_8"
+    },
+    {
+      "video_id": "1823882807881",
+      "title_raw": "Sabrina La Brujita - 38.- Salem's Plot",
+      "duration_raw": "22:25",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 328,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809295940169&type=32&idx=6&tkn=nLdXYbAi9rVq5SMJMS1lnIgMSy8&fn=external_8"
+    },
+    {
+      "video_id": "1823881431625",
+      "title_raw": "Sabrina La Brujita - 39.- When In Rome",
+      "duration_raw": "22:24",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 320,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809252817481&type=32&idx=11&tkn=fD0NACEQRnNSvcf8CjseWmoPHoo&fn=external_8"
+    },
+    {
+      "video_id": "1823881366089",
+      "title_raw": "Sabrina La Brujita - 40.- Send In The Clones",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 389,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809251244617&type=32&idx=2&tkn=w9b2cZWbQ8ecTMejPFieUyFpfg8&fn=external_8"
+    },
+    {
+      "video_id": "1823882938953",
+      "title_raw": "Sabrina La Brujita - 41.- Scare Apparent",
+      "duration_raw": "22:04",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 477,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809301183049&type=32&idx=2&tkn=ahfSwIQi9EpBveFy9W7j7WsG_gE&fn=external_8"
+    },
+    {
+      "video_id": "1823883135561",
+      "title_raw": "Sabrina La Brujita - 42.- Driver Ed",
+      "duration_raw": "22:23",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 461,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809308457545&type=32&idx=10&tkn=afLfKP3JxlWkiasgPtJlXJN0d3M&fn=external_8"
+    },
+    {
+      "video_id": "1823881759305",
+      "title_raw": "Sabrina La Brujita - 43.- Molar Molar",
+      "duration_raw": "22:25",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 410,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809263499849&type=32&idx=2&tkn=UZ5AjUJAalUQA4naXOdlX9X4A-g&fn=external_8"
+    },
+    {
+      "video_id": "1823881693769",
+      "title_raw": "Sabrina La Brujita - 44.- You've Got A Friend",
+      "duration_raw": "22:25",
+      "season_number": 1,
+      "episode_number": 44,
+      "views": 394,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809261599305&type=32&idx=13&tkn=3CZnbVDYz8oUALtE84h32QE4jbg&fn=external_8"
+    },
+    {
+      "video_id": "1823881562697",
+      "title_raw": "Sabrina La Brujita - 45.- The Generation Zap",
+      "duration_raw": "22:22",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 802,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809256880713&type=32&idx=9&tkn=wOvk_zqpItouS2WviL5zUPCRHLQ&fn=external_8"
+    },
+    {
+      "video_id": "1823881497161",
+      "title_raw": "Sabrina La Brujita - 46.- Field Of Screams",
+      "duration_raw": "22:21",
+      "season_number": 1,
+      "episode_number": 46,
+      "views": 341,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809254849097&type=32&idx=0&tkn=AqRhmEKqRUbOMd_3v9lf9O2gPLM&fn=external_8"
+    },
+    {
+      "video_id": "1823883070025",
+      "title_raw": "Sabrina La Brujita - 47.- The Bat Pack",
+      "duration_raw": "22:25",
+      "season_number": 1,
+      "episode_number": 47,
+      "views": 416,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809306688073&type=32&idx=10&tkn=_FLewxcfCrzg4D4YEjrm_JWEivE&fn=external_8"
+    },
+    {
+      "video_id": "1823883201097",
+      "title_raw": "Sabrina La Brujita - 48.- Enchanted Vacation",
+      "duration_raw": "22:23",
+      "season_number": 1,
+      "episode_number": 48,
+      "views": 370,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809310227017&type=32&idx=12&tkn=QUJJQ1AQ_wNRsEBT3wn33nMK-qM&fn=external_8"
+    },
+    {
+      "video_id": "1823882873417",
+      "title_raw": "Sabrina La Brujita - 49.- Moldy Oldie",
+      "duration_raw": "24:23",
+      "season_number": 1,
+      "episode_number": 49,
+      "views": 411,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809298692681&type=32&idx=8&tkn=xxG2EKD6HwqPtE-kkq9U6sLMz98&fn=external_8"
+    },
+    {
+      "video_id": "1823882676809",
+      "title_raw": "Sabrina La Brujita - 50.- Witchery Science Theater",
+      "duration_raw": "22:23",
+      "season_number": 1,
+      "episode_number": 50,
+      "views": 312,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809290304073&type=32&idx=0&tkn=5ceumaiPf6uv9yUkCYz7kaAVwbM&fn=external_8"
+    },
+    {
+      "video_id": "1823882545737",
+      "title_raw": "Sabrina La Brujita - 51.- Strange New World",
+      "duration_raw": "22:21",
+      "season_number": 1,
+      "episode_number": 51,
+      "views": 286,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809285782089&type=32&idx=6&tkn=BREieuKYkdWaaHtjQ-Y8K2Kpmmc&fn=external_8"
+    },
+    {
+      "video_id": "1823882611273",
+      "title_raw": "Sabrina La Brujita - 52.- Xabrina Warrior Witch",
+      "duration_raw": "22:45",
+      "season_number": 1,
+      "episode_number": 52,
+      "views": 406,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809288272457&type=32&idx=10&tkn=B0oYypc0mAAkEM0Q6JFScceWic4&fn=external_8"
+    },
+    {
+      "video_id": "1823882742345",
+      "title_raw": "Sabrina La Brujita - 53.- Hexcalibur",
+      "duration_raw": "22:23",
+      "season_number": 1,
+      "episode_number": 53,
+      "views": 320,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809293122121&type=32&idx=6&tkn=_0xo8ESazd_InV47JI1o-QZsyJg&fn=external_8"
+    },
+    {
+      "video_id": "1823883004489",
+      "title_raw": "Sabrina La Brujita - 54.- Straight Outta Paris",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 54,
+      "views": 596,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809304001097&type=32&idx=2&tkn=PkbkhgWbEQrTK4hliydO6_ZMCg8&fn=external_8"
+    },
+    {
+      "video_id": "1823882021449",
+      "title_raw": "Sabrina La Brujita - 55.- Board & Sorcery",
+      "duration_raw": "22:24",
+      "season_number": 1,
+      "episode_number": 55,
+      "views": 304,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809271364169&type=32&idx=7&tkn=VERW5na9MNOepMtSYkJKnCBIeRs&fn=external_8"
+    },
+    {
+      "video_id": "1823881955913",
+      "title_raw": "Sabrina La Brujita - 56.- La Femme Sabrina",
+      "duration_raw": "22:13",
+      "season_number": 1,
+      "episode_number": 56,
+      "views": 338,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809270053449&type=32&idx=9&tkn=g8wnO3grWlQsQEkjqV7oQbfSKnM&fn=external_8"
+    },
+    {
+      "video_id": "1823881824841",
+      "title_raw": "Sabrina La Brujita - 57.- Brina Baby",
+      "duration_raw": "22:16",
+      "season_number": 1,
+      "episode_number": 57,
+      "views": 551,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809265859145&type=32&idx=1&tkn=9L9KLnMahGVyn_hHokUgRYA-EvQ&fn=external_8"
+    },
+    {
+      "video_id": "1823881890377",
+      "title_raw": "Sabrina La Brujita - 58.- Key To My Heart",
+      "duration_raw": "22:21",
+      "season_number": 1,
+      "episode_number": 58,
+      "views": 338,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809267694153&type=32&idx=12&tkn=1mbon98ic2tpaBbNCQTVKWO7X6Y&fn=external_8"
+    },
+    {
+      "video_id": "1823881628233",
+      "title_raw": "Sabrina La Brujita - 60.- Fish Schtick",
+      "duration_raw": "22:25",
+      "season_number": 1,
+      "episode_number": 60,
+      "views": 584,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809258846793&type=32&idx=0&tkn=J81-m36jnp5oBa4-DhGIf912n-k&fn=external_8"
+    },
+    {
+      "video_id": "1823961451081",
+      "title_raw": "Sabrina La Brujita - 61.- Generation Hex",
+      "duration_raw": "22:19",
+      "season_number": 1,
+      "episode_number": 61,
+      "views": 353,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809317042761&type=32&idx=7&tkn=ZGQyx0ntz2H6jP-sQkeGL2EYelg&fn=external_8"
+    },
+    {
+      "video_id": "1823961713225",
+      "title_raw": "Sabrina La Brujita - 62.- Truth Or Scare",
+      "duration_raw": "22:15",
+      "season_number": 1,
+      "episode_number": 62,
+      "views": 337,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809329887817&type=32&idx=1&tkn=bm7C965SL1JVPrNH6npoE-eiToE&fn=external_8"
+    },
+    {
+      "video_id": "1823961582153",
+      "title_raw": "Sabrina La Brujita - 63.- Witchwrecked",
+      "duration_raw": "22:21",
+      "season_number": 1,
+      "episode_number": 63,
+      "views": 394,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809323268681&type=32&idx=14&tkn=0hYcK4hL8Og1vZD9caqUiyixCZI&fn=external_8"
+    },
+    {
+      "video_id": "1823961516617",
+      "title_raw": "Sabrina La Brujita - 64.- Working Witches",
+      "duration_raw": "22:19",
+      "season_number": 1,
+      "episode_number": 64,
+      "views": 317,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809319860809&type=32&idx=8&tkn=8Ylap8ci_-t9P1rJCKSJ9p2JJQ0&fn=external_8"
+    },
+    {
+      "video_id": "1823961647689",
+      "title_raw": "Sabrina La Brujita - 65.- Wiccan Of The Sea",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 65,
+      "views": 884,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809326152265&type=32&idx=14&tkn=l7V8beoNQ_p0xTH0PXvRf2B6H2M&fn=external_8"
+    }
+  ]
+}

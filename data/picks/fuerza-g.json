@@ -1,0 +1,961 @@
+{
+  "title": "Fuerza G",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2342473",
+  "year": "1978",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Ciencia Ficción",
+  "videos": [
+    {
+      "video_id": "1447412828745",
+      "title_raw": "001 Gatchaman contra el rey tortuga",
+      "duration_raw": "25:02",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 19268,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797350103582&type=32&idx=0&tkn=kjFoo0oQaedlDh2rltsF5YqGdbQ&fn=external_8"
+    },
+    {
+      "video_id": "1447449659977",
+      "title_raw": "002 La maléfica nave fantasma demoníaca",
+      "duration_raw": "22:00",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 3909,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797350300190&type=32&idx=4&tkn=6boFFS6Bb52tGjQK6_TybZkyWKY&fn=external_8"
+    },
+    {
+      "video_id": "1447415056969",
+      "title_raw": "003 La momia gigante que provoca tormentas",
+      "duration_raw": "21:59",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 2186,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797350496798&type=32&idx=9&tkn=fUycO0F3CbSILF6be8AJV1JJdjs&fn=external_8"
+    },
+    {
+      "video_id": "1447412304457",
+      "title_raw": "004 El retorno de Mechadegon, el animal de hierro",
+      "duration_raw": "22:01",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1669,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797350955550&type=32&idx=5&tkn=0R-ljqPorXI-oCiHjiIS5BFky-0&fn=external_8"
+    },
+    {
+      "video_id": "1447412107849",
+      "title_raw": "005 El fantasma flotante del infierno",
+      "duration_raw": "21:49",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1358,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797351021086&type=32&idx=11&tkn=2JqNuxSwhDIwg4B8eUZulFAKc-c&fn=external_8"
+    },
+    {
+      "video_id": "1447412894281",
+      "title_raw": "006 El gran plan de los minirobots",
+      "duration_raw": "21:33",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 1092,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797351676446&type=32&idx=1&tkn=oD_LjXdK8paTAd1ma3h7lCYJWLI&fn=external_8"
+    },
+    {
+      "video_id": "1447413090889",
+      "title_raw": "007 El gran espectáculo aeronáutico de Galactor",
+      "duration_raw": "22:00",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 931,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797352200734&type=32&idx=1&tkn=jBZ3CVf__rypAAdCorhIshiOHk4&fn=external_8"
+    },
+    {
+      "video_id": "1447413942857",
+      "title_raw": "008 El secreto del arrecife de coral creciente",
+      "duration_raw": "22:00",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 832,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797352266270&type=32&idx=1&tkn=nWAVzQqE_6Hvw2Do-fjDu24EEjQ&fn=external_8"
+    },
+    {
+      "video_id": "1447414270537",
+      "title_raw": "009 El diablo de la luna",
+      "duration_raw": "22:01",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 903,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797352528414&type=32&idx=3&tkn=MpTyfT4QVvSSQ_Enu5yS-ay6iqY&fn=external_8"
+    },
+    {
+      "video_id": "1447413680713",
+      "title_raw": "010 La gran batalla con el monstruo",
+      "duration_raw": "22:00",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 808,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797352790558&type=32&idx=4&tkn=jG1xvBxKZwt14ZURu6cPMqzOJ5w&fn=external_8"
+    },
+    {
+      "video_id": "1447414925897",
+      "title_raw": "011 El misterioso impulso rojo",
+      "duration_raw": "22:00",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 796,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797373041182&type=32&idx=4&tkn=1VLVB0wRE9LXyjKEfqu35SMtUE4&fn=external_8"
+    },
+    {
+      "video_id": "1447411976777",
+      "title_raw": "012 Ibukurón, el gran monstruo glotón",
+      "duration_raw": "22:00",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 642,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797374679582&type=32&idx=1&tkn=b_2lyrbOp5XC92t-r49r2plUpuU&fn=external_8"
+    },
+    {
+      "video_id": "1447413877321",
+      "title_raw": "013 La misteriosa arena roja",
+      "duration_raw": "22:01",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 692,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797380839966&type=32&idx=9&tkn=A0iqpY4zReCNc24ignz6KIZ8C1I&fn=external_8"
+    },
+    {
+      "video_id": "1447414401609",
+      "title_raw": "014 Kyander, hielo de terror",
+      "duration_raw": "22:01",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 622,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797377890846&type=32&idx=2&tkn=8-qOYfoPXNc_a7kmrKIIkmPHsLA&fn=external_8"
+    },
+    {
+      "video_id": "1447413418569",
+      "title_raw": "015 La terrible medusa cristalina",
+      "duration_raw": "22:00",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 640,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797370354206&type=32&idx=4&tkn=sXM_KOftpUuTMMf8PT50m_6_hLA&fn=external_8"
+    },
+    {
+      "video_id": "1447414139465",
+      "title_raw": "016 La invencible máquina mecánica",
+      "duration_raw": "22:01",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 540,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797381429790&type=32&idx=12&tkn=qXQvpwpRDJVuDMEyi_gTkwRBuuE&fn=external_8"
+    },
+    {
+      "video_id": "1447413484105",
+      "title_raw": "017 Gran operación insecto",
+      "duration_raw": "22:00",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 549,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797371927070&type=32&idx=9&tkn=yPFB8ICooyg6iQXUBaeagKutWq4&fn=external_8"
+    },
+    {
+      "video_id": "1447413287497",
+      "title_raw": "018 Venganza! Operación ballena",
+      "duration_raw": "22:02",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 501,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797379332638&type=32&idx=6&tkn=_UxrKT7Q-Q_ab-ue5hWfIdp7EKc&fn=external_8"
+    },
+    {
+      "video_id": "1447413615177",
+      "title_raw": "019 La carrera veloz del infiero",
+      "duration_raw": "22:01",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 649,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797378546206&type=32&idx=6&tkn=bKK4VbkgI5RQWk5RxBD8tsTcJXo&fn=external_8"
+    },
+    {
+      "video_id": "1447413353033",
+      "title_raw": "020 El equípo científico ninja en peligro",
+      "duration_raw": "22:01",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 646,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7336485915342&type=32&idx=0&tkn=WchiXg0dhN9qo10QLlDI5_VLIw8&fn=external_8"
+    },
+    {
+      "video_id": "1447412959817",
+      "title_raw": "021 Quien es Sosai X",
+      "duration_raw": "22:01",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 577,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797373565470&type=32&idx=1&tkn=RlPIszrnDQNBTDK-FROF-nAxZbI&fn=external_8"
+    },
+    {
+      "video_id": "1447412369993",
+      "title_raw": "022 Ave de fuego contra Dragón de fuego",
+      "duration_raw": "22:01",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 616,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797374089758&type=32&idx=7&tkn=ViCiyVC772MEqTEtTHEmlIh90UU&fn=external_8"
+    },
+    {
+      "video_id": "1447412042313",
+      "title_raw": "023 Gran caos, Mechaball",
+      "duration_raw": "22:01",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 466,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797380053534&type=32&idx=6&tkn=qdOcrkY0fA34axW4gu3u2sagEAw&fn=external_8"
+    },
+    {
+      "video_id": "1447412632137",
+      "title_raw": "024 El gigante de Neón rie en la oscuridad",
+      "duration_raw": "22:00",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 475,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797374417438&type=32&idx=13&tkn=Du8MGleL9Ts9xVhd5DzMhZ4wl2I&fn=external_8"
+    },
+    {
+      "video_id": "1447413025353",
+      "title_raw": "025 Gigante Magma, el monarca del infierno",
+      "duration_raw": "22:01",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 3604,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797375531550&type=32&idx=1&tkn=x1g7bDmreGYr4CUMEO5EtSr1OgA&fn=external_8"
+    },
+    {
+      "video_id": "1447414073929",
+      "title_raw": "026 El Dios Fénix regresa",
+      "duration_raw": "22:00",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 481,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797391915550&type=32&idx=14&tkn=A-Y3loqK9qa3jcUvbPZKnBDJE6Q&fn=external_8"
+    },
+    {
+      "video_id": "1447412697673",
+      "title_raw": "027 La carrera de la bruja de Galactor",
+      "duration_raw": "22:02",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 549,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784024668792&type=32&idx=4&tkn=GmAT_otzqHpKLGQDq-ofc9Tmiq0&fn=external_8"
+    },
+    {
+      "video_id": "1447413156425",
+      "title_raw": "028 El diablo invisible",
+      "duration_raw": "22:02",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 458,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7335960054478&type=32&idx=2&tkn=AcIvkPsdJHNq77RGPUA_7SkGcuM&fn=external_8"
+    },
+    {
+      "video_id": "1447414205001",
+      "title_raw": "029 El malvado Galack X",
+      "duration_raw": "21:59",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 472,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784024734328&type=32&idx=9&tkn=67tSkVPVPGR6lvaXhw34PkA71kM&fn=external_8"
+    },
+    {
+      "video_id": "1447414532681",
+      "title_raw": "030 Kamisasoll, la bestia guillotina",
+      "duration_raw": "22:02",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 465,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784024799864&type=32&idx=13&tkn=9_Anos4Jx8mCFrYc_SiqMJj9mKc&fn=external_8"
+    },
+    {
+      "video_id": "1447412566601",
+      "title_raw": "031 El plan para asesinar al Dr Nambu",
+      "duration_raw": "22:02",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 510,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784025979512&type=32&idx=2&tkn=cS9FVwn9Ui1vvNC_JAsH9QCq9jU&fn=external_8"
+    },
+    {
+      "video_id": "1447414336073",
+      "title_raw": "032 Operación Gezora 1",
+      "duration_raw": "21:59",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 493,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7335391070926&type=32&idx=11&tkn=4jEkT5FZVrCQizwXGQmoMYyKNR0&fn=external_8"
+    },
+    {
+      "video_id": "1447413549641",
+      "title_raw": "033 Operación Gezora 2",
+      "duration_raw": "22:00",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 477,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784023161464&type=32&idx=14&tkn=h4zJkKVZKxpn5yXE9RvAp8RPjUU&fn=external_8"
+    },
+    {
+      "video_id": "1447413746249",
+      "title_raw": "034 El plan de la malvada Aurora",
+      "duration_raw": "21:58",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 483,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784023620216&type=32&idx=0&tkn=eXzXkSbLRlkKD4P4V61aawsGAxE&fn=external_8"
+    },
+    {
+      "video_id": "1447412501065",
+      "title_raw": "035 Arden las llamas del desierto",
+      "duration_raw": "22:01",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 477,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2717425928910&type=32&idx=0&tkn=iWmmgFMavbyIz5zdLCBIpXHV-Zc&fn=external_8"
+    },
+    {
+      "video_id": "1447413811785",
+      "title_raw": "036 Los pequeños Gatchaman",
+      "duration_raw": "22:01",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 470,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784023751288&type=32&idx=6&tkn=NZ5dWhYBjy_cib2QZ1f2z-m_fyQ&fn=external_8"
+    },
+    {
+      "video_id": "1447414598217",
+      "title_raw": "037 Renjira, la bestia eléctrica",
+      "duration_raw": "22:00",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 435,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784023227000&type=32&idx=10&tkn=gKCAAIcZe2GO44bA9ve0qdas7Yo&fn=external_8"
+    },
+    {
+      "video_id": "1447413221961",
+      "title_raw": "038 La misteriosa selva mecánica",
+      "duration_raw": "22:02",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 443,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784024078968&type=32&idx=5&tkn=BCFTR1Cyt21cnSa1GTRCYUSHU00&fn=external_8"
+    },
+    {
+      "video_id": "1447411911241",
+      "title_raw": "039 Jigokiller, las flores come hombres",
+      "duration_raw": "22:00",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 462,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784023423608&type=32&idx=1&tkn=HBmWMDH13ttIWHWIiL6XLogOJro&fn=external_8"
+    },
+    {
+      "video_id": "1447414663753",
+      "title_raw": "040 Jigokiller, las flores come hombres 2",
+      "duration_raw": "22:02",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 522,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784023358072&type=32&idx=9&tkn=1nZg5T5ijRDCXVFKR1NGpDZTnoE&fn=external_8"
+    },
+    {
+      "video_id": "1447414008393",
+      "title_raw": "041 La musica asesina",
+      "duration_raw": "22:00",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 527,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784020998776&type=32&idx=14&tkn=D-ldoa2fGvVYKuRQ1i9BGQJwE0Q&fn=external_8"
+    },
+    {
+      "video_id": "1447412173385",
+      "title_raw": "042 Gran Truco para Fugarse",
+      "duration_raw": "22:01",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 384,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784021260920&type=32&idx=2&tkn=FBjIskGNAL8mRubYp5mL1ek0wh4&fn=external_8"
+    },
+    {
+      "video_id": "1447414991433",
+      "title_raw": "043 El romance desaparece con el diablo",
+      "duration_raw": "22:00",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 536,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784020933240&type=32&idx=9&tkn=FA1ean45uRtXhYkDjs0HjvNKtZE&fn=external_8"
+    },
+    {
+      "video_id": "1447412435529",
+      "title_raw": "044 El desafío de Galactor",
+      "duration_raw": "22:02",
+      "season_number": 1,
+      "episode_number": 44,
+      "views": 533,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784021064312&type=32&idx=14&tkn=crlw6ZbzoWNGNGU1gNpmmW-g2lI&fn=external_8"
+    },
+    {
+      "video_id": "1447414467145",
+      "title_raw": "045 Equipo Ninja León Marino en una noche nublada",
+      "duration_raw": "21:59",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 449,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784021457528&type=32&idx=3&tkn=vzPZw_fbZ3MvTqTiKCKkmgvJ9as&fn=external_8"
+    },
+    {
+      "video_id": "1447412238921",
+      "title_raw": "046 Gatchaman en el valle de la muerte",
+      "duration_raw": "22:01",
+      "season_number": 1,
+      "episode_number": 46,
+      "views": 486,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7332691315406&type=32&idx=0&tkn=YcrBvRxRMV7bwqcksdOMy8dJkp0&fn=external_8"
+    },
+    {
+      "video_id": "1447414729289",
+      "title_raw": "047 La linea aerea del diablo",
+      "duration_raw": "22:00",
+      "season_number": 1,
+      "episode_number": 47,
+      "views": 505,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784020867704&type=32&idx=11&tkn=I3zDO0IGio4SrWgDaNNfDV6jDu4&fn=external_8"
+    },
+    {
+      "video_id": "1447414794825",
+      "title_raw": "048 Shutterkiller, la bestia de hierro de la cámara",
+      "duration_raw": "21:59",
+      "season_number": 1,
+      "episode_number": 48,
+      "views": 482,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784021523064&type=32&idx=13&tkn=75ir22pHB-5xir2C-L-wNRjOB-k&fn=external_8"
+    },
+    {
+      "video_id": "1447414860361",
+      "title_raw": "049 El terrible Mechadokuga",
+      "duration_raw": "22:02",
+      "season_number": 1,
+      "episode_number": 49,
+      "views": 498,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784016673400&type=32&idx=11&tkn=BmsFu-qwKDj1dFa41Ln86VllYOU&fn=external_8"
+    },
+    {
+      "video_id": "1447412763209",
+      "title_raw": "050 Torakodon, huesos de dinosaurio",
+      "duration_raw": "22:01",
+      "season_number": 1,
+      "episode_number": 50,
+      "views": 489,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784017263224&type=32&idx=9&tkn=1ZuYQLq4fVvFcUDWai0A1fAAegM&fn=external_8"
+    },
+    {
+      "video_id": "1447454181961",
+      "title_raw": "051 La bestia Cateroller",
+      "duration_raw": "22:01",
+      "season_number": 1,
+      "episode_number": 51,
+      "views": 489,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7342136888014&type=32&idx=1&tkn=D20qH3QUGCmdPvpgT1ENXh-2tyQ&fn=external_8"
+    },
+    {
+      "video_id": "1447452805705",
+      "title_raw": "052 El secreto del impuso rojo",
+      "duration_raw": "22:02",
+      "season_number": 1,
+      "episode_number": 52,
+      "views": 523,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784016804472&type=32&idx=1&tkn=r5q8Ygco3K8MIarGOR8IDTbnli0&fn=external_8"
+    },
+    {
+      "video_id": "1447454313033",
+      "title_raw": "053 Hasta siempre Impulso Rojo",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 53,
+      "views": 4784,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7342391036622&type=32&idx=13&tkn=VEvzdYwkUk1p8SdWO8t_WMv5E-A&fn=external_8"
+    },
+    {
+      "video_id": "1447455099465",
+      "title_raw": "054 Gatchaman arde entre la ira",
+      "duration_raw": "24:01",
+      "season_number": 1,
+      "episode_number": 54,
+      "views": 812,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784017328760&type=32&idx=10&tkn=vlDk7UyI6JM9QuAM_JkukStG4hk&fn=external_8"
+    },
+    {
+      "video_id": "1447453329993",
+      "title_raw": "055. El submarino de la desesperación",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 55,
+      "views": 498,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7342756596430&type=32&idx=11&tkn=2vElHhb4Z3w9i5ZmIKbWaL7BpvY&fn=external_8"
+    },
+    {
+      "video_id": "1447453264457",
+      "title_raw": "056. El Bird Missil del odio",
+      "duration_raw": "23:39",
+      "season_number": 1,
+      "episode_number": 56,
+      "views": 546,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784016607864&type=32&idx=3&tkn=eSeRkjPiRjVLeT9z7sP7R22AKAU&fn=external_8"
+    },
+    {
+      "video_id": "1447455033929",
+      "title_raw": "057. El maléfico mar blanco",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 57,
+      "views": 522,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784016149112&type=32&idx=0&tkn=IuARBl1JYkWw7SZiGAs24q7iD4w&fn=external_8"
+    },
+    {
+      "video_id": "1447453067849",
+      "title_raw": "058. El terrible Mecha Cerdo",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 58,
+      "views": 538,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784016411256&type=32&idx=5&tkn=lUZIrmFV-cnjpj6SArvnfieFTRI&fn=external_8"
+    },
+    {
+      "video_id": "1447454050889",
+      "title_raw": "059. La bestia Mecha secreta",
+      "duration_raw": "23:39",
+      "season_number": 1,
+      "episode_number": 59,
+      "views": 563,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784015886968&type=32&idx=1&tkn=N9qRgWMmk4SdACAqGJoXYoZeVsE&fn=external_8"
+    },
+    {
+      "video_id": "1447454706249",
+      "title_raw": "060. Equipo Científico Ninja G-6",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 60,
+      "views": 513,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784015493752&type=32&idx=3&tkn=3__d4TMvfxw5wqApRKx8okelCDk&fn=external_8"
+    },
+    {
+      "video_id": "1447454575177",
+      "title_raw": "061. El Impulso Rojo fantasmal",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 61,
+      "views": 592,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7342309182158&type=32&idx=1&tkn=7mvG1IhT73Gz80Qf3NfQ-S0jIow&fn=external_8"
+    },
+    {
+      "video_id": "1447455361609",
+      "title_raw": "062. Blizzarder, el diablo de la nieve",
+      "duration_raw": "25:47",
+      "season_number": 1,
+      "episode_number": 62,
+      "views": 485,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784015297144&type=32&idx=2&tkn=hnFirtleYYW4os8EXqUKnxGPo8g&fn=external_8"
+    },
+    {
+      "video_id": "1447452674633",
+      "title_raw": "063. La masacre del Mecha esférico",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 63,
+      "views": 508,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7337157724878&type=32&idx=1&tkn=GEU5PzPgujbeHrmUf-Wp9BIJ-NQ&fn=external_8"
+    },
+    {
+      "video_id": "1447452543561",
+      "title_raw": "064. Un regalo de navidad mortal",
+      "duration_raw": "24:38",
+      "season_number": 1,
+      "episode_number": 64,
+      "views": 560,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7335230966478&type=32&idx=1&tkn=iT4YK3BJtPPyfDNpwzS2_QqRdD8&fn=external_8"
+    },
+    {
+      "video_id": "1447455230537",
+      "title_raw": "065. Súper Bem, la bestia de hierro sintético",
+      "duration_raw": "25:44",
+      "season_number": 1,
+      "episode_number": 65,
+      "views": 525,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784012741240&type=32&idx=14&tkn=gY9BNocP6gxtpo3IfRPsuhBBDtM&fn=external_8"
+    },
+    {
+      "video_id": "1447452609097",
+      "title_raw": "066. La actuación fasshion del diablo",
+      "duration_raw": "25:47",
+      "season_number": 1,
+      "episode_number": 66,
+      "views": 499,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784011758200&type=32&idx=14&tkn=7eCuC0PLeRUwcnv9YWsz0AAx99o&fn=external_8"
+    },
+    {
+      "video_id": "1447453198921",
+      "title_raw": "067. Técnica devastadora! Gatchaman de fuego",
+      "duration_raw": "23:39",
+      "season_number": 1,
+      "episode_number": 67,
+      "views": 505,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784012216952&type=32&idx=0&tkn=85pzIkBis23q8hKxdmUJ0C2xYSM&fn=external_8"
+    },
+    {
+      "video_id": "1447452871241",
+      "title_raw": "068. Micro Saturn! La bestia de partículas de hierro",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 68,
+      "views": 501,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784013396600&type=32&idx=0&tkn=S5qP03_67UH9nKLP9dZTGMdVgKw&fn=external_8"
+    },
+    {
+      "video_id": "1447453985353",
+      "title_raw": "069. Un cementerio bajo la luz de la Luna",
+      "duration_raw": "23:39",
+      "season_number": 1,
+      "episode_number": 69,
+      "views": 496,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784012348024&type=32&idx=0&tkn=Dw1cy8HdJQ9YXMvTGnsPFGGtH0o&fn=external_8"
+    },
+    {
+      "video_id": "1447453919817",
+      "title_raw": "070. Reunión! Las mensajeras de la muerte",
+      "duration_raw": "25:48",
+      "season_number": 1,
+      "episode_number": 70,
+      "views": 474,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784013134456&type=32&idx=14&tkn=2xTADg7XpaHFljDJl45pguTUGqo&fn=external_8"
+    },
+    {
+      "video_id": "1447455296073",
+      "title_raw": "071. El inmortal Sosai X",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 71,
+      "views": 497,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784012085880&type=32&idx=1&tkn=nQ-51hYMyL-yUgdYzkZFJYRrVwY&fn=external_8"
+    },
+    {
+      "video_id": "1447453461065",
+      "title_raw": "072. Acorralados! La invasión de las minibestias de hierro",
+      "duration_raw": "23:49",
+      "season_number": 1,
+      "episode_number": 72,
+      "views": 462,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7336388856526&type=32&idx=13&tkn=g3y8Fh8Pg48XnYokp-pgtUhrvLY&fn=external_8"
+    },
+    {
+      "video_id": "1447454902857",
+      "title_raw": "073 La perseccución de Katse",
+      "duration_raw": "23:49",
+      "season_number": 1,
+      "episode_number": 73,
+      "views": 473,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784008809080&type=32&idx=8&tkn=WrJOHKXixiXTyftAdOUE-abP5eM&fn=external_8"
+    },
+    {
+      "video_id": "1447454968393",
+      "title_raw": "074. El secreto del Birdstyle",
+      "duration_raw": "25:48",
+      "season_number": 1,
+      "episode_number": 74,
+      "views": 504,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784008940152&type=32&idx=2&tkn=JAsJREELbwGLglsdCVJjJlmFqV4&fn=external_8"
+    },
+    {
+      "video_id": "1447453657673",
+      "title_raw": "075. Jumbo Shakora, el satanas de la mar",
+      "duration_raw": "21:59",
+      "season_number": 1,
+      "episode_number": 75,
+      "views": 490,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784008743544&type=32&idx=5&tkn=CcQED0IhpPrJTLpu2YaYc74yGNA&fn=external_8"
+    },
+    {
+      "video_id": "1447452412489",
+      "title_raw": "076-El brazalete desprotegido",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 76,
+      "views": 468,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784009398904&type=32&idx=2&tkn=edIMw6_uNPTdW4veVEmsNTdb3Yk&fn=external_8"
+    },
+    {
+      "video_id": "1447455492681",
+      "title_raw": "077-El triunfo de Berg Katse",
+      "duration_raw": "22:07",
+      "season_number": 1,
+      "episode_number": 77,
+      "views": 472,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784009136760&type=32&idx=9&tkn=pOSu75YnjrNA_js8TCnoXKucBUI&fn=external_8"
+    },
+    {
+      "video_id": "1447455427145",
+      "title_raw": "078. Combate a muerte! 10 mil metros bajo el mar",
+      "duration_raw": "25:42",
+      "season_number": 1,
+      "episode_number": 78,
+      "views": 436,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784009595512&type=32&idx=14&tkn=Vrw9kP01HhfZH_rUysN25xY0MEs&fn=external_8"
+    },
+    {
+      "video_id": "1447453526601",
+      "title_raw": "079.Identidad Robada",
+      "duration_raw": "22:07",
+      "season_number": 1,
+      "episode_number": 79,
+      "views": 438,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784009529976&type=32&idx=14&tkn=rCpXaYnBbVNiaut71Y9-Jp4Jlug&fn=external_8"
+    },
+    {
+      "video_id": "1447454247497",
+      "title_raw": "080. Regresa! Boomerang",
+      "duration_raw": "24:38",
+      "season_number": 1,
+      "episode_number": 80,
+      "views": 436,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784009333368&type=32&idx=2&tkn=_W3XATDlcgJ8deSPpab8tQpWN-M&fn=external_8"
+    },
+    {
+      "video_id": "1447452740169",
+      "title_raw": "081. Duelo en la isla de Galactor",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 81,
+      "views": 460,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784007498360&type=32&idx=0&tkn=3wsehMh33kV9X9ihFuXzpopv_hM&fn=external_8"
+    },
+    {
+      "video_id": "1447454378569",
+      "title_raw": "082. A por el arrecife de coral creciente",
+      "duration_raw": "24:27",
+      "season_number": 1,
+      "episode_number": 82,
+      "views": 445,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7335705971406&type=32&idx=1&tkn=eCWYJBCK6-4V3TfNfpIkk_Grt-E&fn=external_8"
+    },
+    {
+      "video_id": "1447454509641",
+      "title_raw": "083. Un desesperante anillo de llamas",
+      "duration_raw": "23:52",
+      "season_number": 1,
+      "episode_number": 83,
+      "views": 458,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784007694968&type=32&idx=0&tkn=uRePHBOP6u98ug4zRIn_N-BnhfA&fn=external_8"
+    },
+    {
+      "video_id": "1447453723209",
+      "title_raw": "084. Smong Fiber, una bestia de hierro con telas de araña",
+      "duration_raw": "25:46",
+      "season_number": 1,
+      "episode_number": 84,
+      "views": 438,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784008088184&type=32&idx=14&tkn=wkRpmO9ybiAmVd3o5xhXdsjMyAI&fn=external_8"
+    },
+    {
+      "video_id": "1447454640713",
+      "title_raw": "085. Ese es el G-4",
+      "duration_raw": "25:47",
+      "season_number": 1,
+      "episode_number": 85,
+      "views": 474,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784008350328&type=32&idx=14&tkn=RINanqby2ALqRxiKIOxd7PHsm-g&fn=external_8"
+    },
+    {
+      "video_id": "1447452346953",
+      "title_raw": "086. El plan de Galactor",
+      "duration_raw": "25:48",
+      "season_number": 1,
+      "episode_number": 86,
+      "views": 419,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784007301752&type=32&idx=6&tkn=CwSAj8wmqXL7FSJhCQzOXr4OcNc&fn=external_8"
+    },
+    {
+      "video_id": "1447452478025",
+      "title_raw": "087. Patogiller, la unión de tres bestias",
+      "duration_raw": "25:47",
+      "season_number": 1,
+      "episode_number": 87,
+      "views": 483,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784007105144&type=32&idx=14&tkn=xFgSZAWwxdVsUIuvyeAeIYbttV4&fn=external_8"
+    },
+    {
+      "video_id": "1447455165001",
+      "title_raw": "088. La bestia de hierro Serpiente 828",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 88,
+      "views": 459,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784006908536&type=32&idx=0&tkn=B3Kmtd0-6dzc2Zxtd0XuWD3MNbc&fn=external_8"
+    },
+    {
+      "video_id": "1447452281417",
+      "title_raw": "089. Una trampa bajo la Base Creciente",
+      "duration_raw": "23:38",
+      "season_number": 1,
+      "episode_number": 89,
+      "views": 416,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784003959416&type=32&idx=3&tkn=UVaZj3iTdE_jjeP54Dm1XKlY-do&fn=external_8"
+    },
+    {
+      "video_id": "1447453002313",
+      "title_raw": "090. Matangar, la bestia de hierro armada",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 90,
+      "views": 432,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784004614776&type=32&idx=0&tkn=hV1klQzyXZoZ8HowKYHqR897eRU&fn=external_8"
+    },
+    {
+      "video_id": "1447453133385",
+      "title_raw": "091. El plan para acabar con la base creciente",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 91,
+      "views": 420,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784004680312&type=32&idx=0&tkn=9ClYTcoi1b6el8tSCLyNEBBnDV8&fn=external_8"
+    },
+    {
+      "video_id": "1447452936777",
+      "title_raw": "092. El final de la base Creciente",
+      "duration_raw": "25:47",
+      "season_number": 1,
+      "episode_number": 92,
+      "views": 420,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7335188499150&type=32&idx=15&tkn=laO3jOS95QgHdRo3Df876-mFogA&fn=external_8"
+    },
+    {
+      "video_id": "1447454837321",
+      "title_raw": "093. Contraataque! La operación de torpedos subterráneos",
+      "duration_raw": "23:39",
+      "season_number": 1,
+      "episode_number": 93,
+      "views": 413,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784005007992&type=32&idx=0&tkn=aX9VgD-OVR_GdVglLiYARUktmD4&fn=external_8"
+    },
+    {
+      "video_id": "1447453854281",
+      "title_raw": "094. Angler, la bestia demoníaca eléctrica",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 94,
+      "views": 422,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784004876920&type=32&idx=0&tkn=I1KQwOJaCA5Ao6jeuFiXoiCo4eU&fn=external_8"
+    },
+    {
+      "video_id": "1447454771785",
+      "title_raw": "095. Los diabólicos demonios gigantes, la reunión de los ninjas",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 95,
+      "views": 419,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784002910840&type=32&idx=0&tkn=2TxUQCwWcl3Qh2kDmXUWLFJ9bJY&fn=external_8"
+    },
+    {
+      "video_id": "1447453788745",
+      "title_raw": "096. La invasión de la sede de Galactor",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 96,
+      "views": 440,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784002714232&type=32&idx=0&tkn=KDA7AtsVJbnIy4gDK6-qW3Zhmo8&fn=external_8"
+    },
+    {
+      "video_id": "1447453395529",
+      "title_raw": "097. Leona 3, la nave privada de un mañana",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 97,
+      "views": 412,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7337262516942&type=32&idx=1&tkn=ynXUe2OdIpRm95YQmIiWg5sLUzY&fn=external_8"
+    },
+    {
+      "video_id": "1447454444105",
+      "title_raw": "098. Graper Bomber, la bestia de hierro esférica",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 98,
+      "views": 402,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784002321016&type=32&idx=0&tkn=AwVAd1kRSsO90G1YFI8v5tckXI4&fn=external_8"
+    },
+    {
+      "video_id": "1447454116425",
+      "title_raw": "099. Las heridas del G-2",
+      "duration_raw": "23:39",
+      "season_number": 1,
+      "episode_number": 99,
+      "views": 457,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784001862264&type=32&idx=0&tkn=kMzVTN3SnKxP3CBOppktapauvCY&fn=external_8"
+    },
+    {
+      "video_id": "1447453592137",
+      "title_raw": "100. Gatchaman 20 años después",
+      "duration_raw": "25:48",
+      "season_number": 1,
+      "episode_number": 100,
+      "views": 565,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784001993336&type=32&idx=14&tkn=WsSmc9tMaz12L2DgoqQCSFtZt8s&fn=external_8"
+    },
+    {
+      "video_id": "1447742343753",
+      "title_raw": "101. Heavy Cobra, los francotiradores",
+      "duration_raw": "25:47",
+      "season_number": 1,
+      "episode_number": 101,
+      "views": 462,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784002124408&type=32&idx=14&tkn=XnDEEdRSRHg-XzvO_rro3f1L34g&fn=external_8"
+    },
+    {
+      "video_id": "1447742409289",
+      "title_raw": "102. Contraataque! Jaque mate X",
+      "duration_raw": "25:47",
+      "season_number": 1,
+      "episode_number": 102,
+      "views": 504,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784001534584&type=32&idx=14&tkn=u3-4b53rN4tOOGff6k0JwbIPUY4&fn=external_8"
+    },
+    {
+      "video_id": "1447742671433",
+      "title_raw": "103. G-2 en peligro de muerte",
+      "duration_raw": "25:47",
+      "season_number": 1,
+      "episode_number": 103,
+      "views": 842,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784001403512&type=32&idx=14&tkn=HJxxtYpN0lZUGaQo3bx62N86oqI&fn=external_8"
+    },
+    {
+      "video_id": "1447742474825",
+      "title_raw": "104. La gran operación del maléfico agujero negro",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 104,
+      "views": 687,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=784000944760&type=32&idx=0&tkn=w4n6ODyStDBcKAGXV6ZhBVHOFik&fn=external_8"
+    },
+    {
+      "video_id": "1447742605897",
+      "title_raw": "105. El apocalípsis de la Tierra! 0002",
+      "duration_raw": "25:16",
+      "season_number": 1,
+      "episode_number": 105,
+      "views": 2228,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7342548781774&type=32&idx=11&tkn=eIP9vLV16SzzNV40lrIMhXVQqDI&fn=external_8"
+    }
+  ]
+}

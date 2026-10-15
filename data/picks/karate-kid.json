@@ -1,0 +1,124 @@
+{
+  "title": "Karate Kid",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c3366729",
+  "year": "1989",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "1824028363337",
+      "title_raw": "KK S1E2 La Victoria Mas Grande [Van07]",
+      "duration_raw": "23:16",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 3404,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=13442752383694&type=32&idx=1&tkn=dxWb331d3FVYwtNwAtg1GYO2-BE&fn=external_8"
+    },
+    {
+      "video_id": "1824027904585",
+      "title_raw": "KK S1E3 Regreso [Van07]",
+      "duration_raw": "23:16",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 877,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809379236425&type=32&idx=1&tkn=0jv0e3aHBRGOCeacv0EJBL4FfbM&fn=external_8"
+    },
+    {
+      "video_id": "1824028559945",
+      "title_raw": "KK S1E4 El hombre del mañana [Van07]",
+      "duration_raw": "23:18",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 663,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809421965897&type=32&idx=11&tkn=9XkkRAaeDljeXiFMSDUr_7Wnd0o&fn=external_8"
+    },
+    {
+      "video_id": "1824028428873",
+      "title_raw": "KK S1E5 Papel de héroe [Van07]",
+      "duration_raw": "23:15",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 507,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809413118537&type=32&idx=1&tkn=GqsqF9SUwxXg0tus0F6qmz4DLtY&fn=external_8"
+    },
+    {
+      "video_id": "1824027970121",
+      "title_raw": "KK S1E6 Todo el mundo es su escenario [Van07]",
+      "duration_raw": "23:16",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 416,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=13442896693966&type=32&idx=1&tkn=2BYMW-NXJGpgEtELDvvj9Wa_Nyg&fn=external_8"
+    },
+    {
+      "video_id": "1824028494409",
+      "title_raw": "KK S1E7 Sobre el arco Iris [Van07]",
+      "duration_raw": "23:16",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 469,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809418099273&type=32&idx=6&tkn=5I3S3d586h4c00sQsvF_8-5y38U&fn=external_8"
+    },
+    {
+      "video_id": "1824028101193",
+      "title_raw": "KK S1E8 El regreso de la ermita [Van07]",
+      "duration_raw": "22:45",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 387,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809392343625&type=32&idx=2&tkn=sIC7IYIRTChjg3jiCrFzBM1DFQw&fn=external_8"
+    },
+    {
+      "video_id": "1824028166729",
+      "title_raw": "KK S1E9 El ritual [Van07]",
+      "duration_raw": "23:16",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 351,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809396275785&type=32&idx=9&tkn=cDilFBt-1a7qdwLwuGjmTKAfpgM&fn=external_8"
+    },
+    {
+      "video_id": "1824028035657",
+      "title_raw": "KK S1E10 Oriente y Occidente [Van07]",
+      "duration_raw": "23:16",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 357,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809388804681&type=32&idx=11&tkn=dpLoqdjf57kvDhr7_ozN9vy73a8&fn=external_8"
+    },
+    {
+      "video_id": "1824028232265",
+      "title_raw": "KK S1E11 La caza [Van07]",
+      "duration_raw": "23:17",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 325,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809399683657&type=32&idx=8&tkn=yTo4tUjaIvtBIOkUQyeSa1VFSwU&fn=external_8"
+    },
+    {
+      "video_id": "1824028297801",
+      "title_raw": "KK S1E12 Los Fantasmas Grises [Van07]",
+      "duration_raw": "23:16",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 351,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809404598857&type=32&idx=0&tkn=cSECS_GPNSr4Wq-ife2718ETZT8&fn=external_8"
+    },
+    {
+      "video_id": "1824027773513",
+      "title_raw": "KK S1E13 Su Pequeño Mundo [Van07]",
+      "duration_raw": "23:15",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 634,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809369209417&type=32&idx=0&tkn=Wyqc224AJ7EC8HkUX2x2Z_O1lQw&fn=external_8"
+    }
+  ]
+}

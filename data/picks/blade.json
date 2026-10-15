@@ -1,0 +1,124 @@
+{
+  "title": "Blade",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2278473",
+  "year": "2011",
+  "studio": "Marvel",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Superhéroes",
+  "videos": [
+    {
+      "video_id": "1430278441545",
+      "title_raw": "BA - 01x01 - Su Nombre es Blade",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 24197,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8271522171473&type=32&idx=15&tkn=vnd2q3jOWhmM1uktQuwB7FHeG-Q&fn=external_8"
+    },
+    {
+      "video_id": "1430278048329",
+      "title_raw": "BA - 01x02 - Noche para los vivos... Duelo para los muertos",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 8800,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8271521450577&type=32&idx=15&tkn=HShC_JMthXa5BD5snPsnKrox0ro&fn=external_8"
+    },
+    {
+      "video_id": "1430278179401",
+      "title_raw": "BA - 01x03 - Muerto al Llegar",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 6269,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8271520467537&type=32&idx=15&tkn=xB9AS86aA4fv7XSEZ5mw-nClmwI&fn=external_8"
+    },
+    {
+      "video_id": "1430278769225",
+      "title_raw": "BA - 01x04 - Los Demonios del Pasado",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 5442,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8271519746641&type=32&idx=15&tkn=ss5cdyEPBYnsoMkmMKScYknOI-U&fn=external_8"
+    },
+    {
+      "video_id": "1430278572617",
+      "title_raw": "BA - 01x05 - La Isla de Fuego",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 4545,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=148873874048&type=32&idx=14&tkn=CtIUk4pA2GdVlmlKjU16m94vWMw&fn=external_8"
+    },
+    {
+      "video_id": "1430278703689",
+      "title_raw": "BA - 01x06 – Mala Sangre",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 3838,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=148876888704&type=32&idx=14&tkn=WL0_doebc9AwDAbU6X3kO1wv4eA&fn=external_8"
+    },
+    {
+      "video_id": "1430278113865",
+      "title_raw": "BA - 01x07 – Garras y Filos",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 3623,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=148880231040&type=32&idx=14&tkn=PwzWYn1OIsJazB_Uws3NMGfMrWc&fn=external_8"
+    },
+    {
+      "video_id": "1430278507081",
+      "title_raw": "BA - 01x08 – Viejas heridas, sangre fresca",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 3409,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=148883638912&type=32&idx=14&tkn=Ok06g_-ltntW0agu6nLxyRdXxNk&fn=external_8"
+    },
+    {
+      "video_id": "1430278376009",
+      "title_raw": "BA - 01x09 - Lazos de Sangre",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 3235,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=148887308928&type=32&idx=14&tkn=gm-2fwP9mvzpwh56riQv1Q1Awo0&fn=external_8"
+    },
+    {
+      "video_id": "1430278244937",
+      "title_raw": "BA - 01x10 - Pecados del Padre",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 3026,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=148890258048&type=32&idx=14&tkn=P_gRy3JY6iU2n86QMo78bqJY18o&fn=external_8"
+    },
+    {
+      "video_id": "1430278310473",
+      "title_raw": "BA - 01x11 - El Ultimo Atardecer",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 2961,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=148893272704&type=32&idx=14&tkn=Nf-MR7mWoTY0cY6vpayfkqDEQ90&fn=external_8"
+    },
+    {
+      "video_id": "1430278638153",
+      "title_raw": "BA - 01x12 - La Gloria Final de Deacon Frost",
+      "duration_raw": "22:33",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 3501,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=148897991296&type=32&idx=14&tkn=OnXgJjZVCH5aNm0e_VzkpweE0ho&fn=external_8"
+    }
+  ]
+}

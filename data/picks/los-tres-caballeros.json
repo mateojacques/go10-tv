@@ -1,0 +1,23 @@
+{
+  "title": "Los Tres Caballeros",
+  "type": "movie",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial album c2263881 (50 Clasicos de Disney)",
+  "year": "1944",
+  "studio": "Disney",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Clásicos",
+  "videos": [
+    {
+      "video_id": "1417894300233",
+      "title_raw": "07 - Los Tres Caballeros",
+      "duration_raw": "1:11:38",
+      "views": 2195,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7372348721797&type=32&idx=11&tkn=euwyCfRHLp-PMZws4vi684t5gfA&fn=external_8"
+    }
+  ]
+}

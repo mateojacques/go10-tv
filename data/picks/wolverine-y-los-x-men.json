@@ -1,0 +1,250 @@
+{
+  "title": "Wolverine y los X-Men",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2469961 c2160457",
+  "year": "2009",
+  "studio": "Marvel",
+  "source": "lacartoons Oficial",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Superhéroes",
+  "videos": [
+    {
+      "video_id": "1502492953161",
+      "title_raw": "01x01 - Retrospectiva Parte 1_x264",
+      "duration_raw": "22:48",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 52444,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=641141836361&type=37&idx=4&tkn=gLwRPMZ57uvv8JOkSKm16hr5sJc&fn=external_8"
+    },
+    {
+      "video_id": "1502494329417",
+      "title_raw": "01x02 - Retrospectiva Parte 2_x264",
+      "duration_raw": "22:49",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 18824,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=641160186441&type=37&idx=0&tkn=UdpvprALSRvMwwzYRPYJMZptzhU&fn=external_8"
+    },
+    {
+      "video_id": "1502494001737",
+      "title_raw": "01x03 - Retrospectiva Parte 3_x264",
+      "duration_raw": "22:48",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 14691,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=641157171785&type=37&idx=4&tkn=ExCdQNiIiXLDNPwmjw_GI2eHa7w&fn=external_8"
+    },
+    {
+      "video_id": "1502492822089",
+      "title_raw": "01x04 - Desbordamiento_x264",
+      "duration_raw": "22:48",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 12242,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=641140394569&type=37&idx=6&tkn=yXSh87fKpSWiC5Us9a2dVcDwE9o&fn=external_8"
+    },
+    {
+      "video_id": "1502493936201",
+      "title_raw": "01x05 - Ladrones y Gambitos_x264",
+      "duration_raw": "22:48",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 11905,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=641156713033&type=37&idx=5&tkn=zr6CWOrja08oKbylhXNzYmLjJbE&fn=external_8"
+    },
+    {
+      "video_id": "1502494067273",
+      "title_raw": "01x06 - Calibre-X_x264",
+      "duration_raw": "22:48",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 10206,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=641157892681&type=37&idx=14&tkn=sbdwuVC4lm_nsllxADan3jcahOY&fn=external_8"
+    },
+    {
+      "video_id": "1502493739593",
+      "title_raw": "01x07 - Wolverine Vs. Hulk_x264",
+      "duration_raw": "22:48",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 12273,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=641154419273&type=37&idx=5&tkn=4IEJW68uHQWOpzRnE1044sgQNOo&fn=external_8"
+    },
+    {
+      "video_id": "1502493346377",
+      "title_raw": "01x08 - Bomba de Tiempo_x264",
+      "duration_raw": "22:48",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 9206,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=641147734601&type=37&idx=12&tkn=oRPWapmtkVWBSiYxb3JXV2Eun8Q&fn=external_8"
+    },
+    {
+      "video_id": "1502494460489",
+      "title_raw": "01x09 - Futuro X_x264",
+      "duration_raw": "22:48",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 10027,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=641160972873&type=37&idx=14&tkn=nvM1cIxR5GfoOKctpENnh3fdWqw&fn=external_8"
+    },
+    {
+      "video_id": "1502494394953",
+      "title_raw": "01x10 - Saludos Desde Genosha_x264",
+      "duration_raw": "22:49",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 8541,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=641160383049&type=37&idx=14&tkn=fVoyqtdSGuvTqXVlDhEms7X1EpA&fn=external_8"
+    },
+    {
+      "video_id": "1502493280841",
+      "title_raw": "01x11 - Imágenes del Pasado_x264",
+      "duration_raw": "22:49",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 8347,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=641147210313&type=37&idx=5&tkn=aHswrJvi0fZg6fCxJbFYT9IrghY&fn=external_8"
+    },
+    {
+      "video_id": "1502494263881",
+      "title_raw": "01x12 - Fuerza eXcesiva_x264",
+      "duration_raw": "22:51",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 8171,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=641159334473&type=37&idx=6&tkn=jAL_uTOEYM-inG58upBqPpNrcXU&fn=external_8"
+    },
+    {
+      "video_id": "1502494198345",
+      "title_raw": "01x13 - Líneas de Batalla_x264",
+      "duration_raw": "22:49",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 8623,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=641159006793&type=37&idx=7&tkn=KkMEqxDWOlRIi2DLdMQuyk8FWRM&fn=external_8"
+    },
+    {
+      "video_id": "1502493477449",
+      "title_raw": "01x14 - Vidas Robadas_x264",
+      "duration_raw": "22:49",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 7189,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=641149241929&type=37&idx=9&tkn=EWfMJrkVuy-XNgkioFPHEhyfksc&fn=external_8"
+    },
+    {
+      "video_id": "1502493608521",
+      "title_raw": "01x15 - Campos de Caza_x264",
+      "duration_raw": "22:49",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 8755,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=641151732297&type=37&idx=3&tkn=DiOaUWxXosQL_tNXbfarJCmpBtc&fn=external_8"
+    },
+    {
+      "video_id": "1502492887625",
+      "title_raw": "01x16 - Tierras Baldías_x264",
+      "duration_raw": "22:49",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 7501,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=641141312073&type=37&idx=1&tkn=Me0CeqaY2ZUnB_0anQHvjx8p5p8&fn=external_8"
+    },
+    {
+      "video_id": "1502493542985",
+      "title_raw": "01x17 - Código de Conducta_x264",
+      "duration_raw": "22:51",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 7431,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=641150814793&type=37&idx=9&tkn=jtTerCAHAQ1dg5pY3JFo5vIf2_4&fn=external_8"
+    },
+    {
+      "video_id": "1502494132809",
+      "title_raw": "01x18 - Reacción_x264",
+      "duration_raw": "22:49",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 7159,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=641158416969&type=37&idx=1&tkn=317iPxGakiSUh3SjsQINg7mGoGk&fn=external_8"
+    },
+    {
+      "video_id": "1502493149769",
+      "title_raw": "01x19 - Ángel de la Guarda_x264",
+      "duration_raw": "22:50",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 7186,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=641145571913&type=37&idx=14&tkn=_7OFExNOe4cq5DZ5wKLEgkZy0Bk&fn=external_8"
+    },
+    {
+      "video_id": "1502493215305",
+      "title_raw": "01x20 - Depresión_x264",
+      "duration_raw": "22:50",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 7010,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=641146554953&type=37&idx=14&tkn=2bZmr2qho2fy1CTvRpZOZF3sxcE&fn=external_8"
+    },
+    {
+      "video_id": "1502493411913",
+      "title_raw": "01x21 - Rover_x264",
+      "duration_raw": "22:50",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 6247,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=641148652105&type=37&idx=8&tkn=_C82wSLmkPOMya5O4bO4hLqhZMA&fn=external_8"
+    },
+    {
+      "video_id": "1502493674057",
+      "title_raw": "01x22 - Ases y Ochos_x264",
+      "duration_raw": "22:50",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 6425,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=641153305161&type=37&idx=9&tkn=b7QFoVhriZkl6GFGxQtqAy6OlEk&fn=external_8"
+    },
+    {
+      "video_id": "1502493870665",
+      "title_raw": "01x23 - Sombras Grises_x264",
+      "duration_raw": "22:50",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 6837,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=641156254281&type=37&idx=5&tkn=YioYECePoZPikdf5hZtlcWIilQY&fn=external_8"
+    },
+    {
+      "video_id": "1502493018697",
+      "title_raw": "01x24 - Prospectiva Parte 1_x264",
+      "duration_raw": "22:50",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 7670,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=641142884937&type=37&idx=14&tkn=XPZsk3LpWuqGCGXlsu1_yMybQ90&fn=external_8"
+    },
+    {
+      "video_id": "1502493805129",
+      "title_raw": "01x25 - Prospectiva Parte 2_x264",
+      "duration_raw": "22:50",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 7095,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=641155205705&type=37&idx=4&tkn=dhaj1rtQRy_dgp2hfNj1OGxm40E&fn=external_8"
+    },
+    {
+      "video_id": "1502493084233",
+      "title_raw": "01x26 - Prospectiva Parte 3_x264",
+      "duration_raw": "22:50",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 8745,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=641144588873&type=37&idx=10&tkn=jGfp1nJ4sZwVgvj1BK3MFNgkOIg&fn=external_8"
+    }
+  ]
+}

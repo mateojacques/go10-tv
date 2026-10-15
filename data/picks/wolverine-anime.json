@@ -1,0 +1,115 @@
+{
+  "title": "Wolverine (Anime)",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2277705",
+  "year": "2011",
+  "studio": "Marvel",
+  "source": "lacartoons Oficial",
+  "quality": "360p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Superhéroes",
+  "videos": [
+    {
+      "video_id": "1429797603913",
+      "title_raw": "Wolverine.2011.S01E02",
+      "duration_raw": "23:43",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 8534,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1235321948906&type=32&idx=9&tkn=azfhdcTceJzm89L-N2KHnyaOU58&fn=external_8"
+    },
+    {
+      "video_id": "1429797538377",
+      "title_raw": "Wolverine.2011.S01E03",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 3444,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1235321162474&type=32&idx=0&tkn=HU1Ebz4dTC_VDSqaGZEVYfBNTyE&fn=external_8"
+    },
+    {
+      "video_id": "1429797210697",
+      "title_raw": "Wolverine.2011.S01E04",
+      "duration_raw": "23:43",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 3003,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1235319720682&type=32&idx=2&tkn=pVgrDA8TIZO5a0aRpVX19S9N1Jc&fn=external_8"
+    },
+    {
+      "video_id": "1429797800521",
+      "title_raw": "Wolverine.2011.S01E05",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 2473,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1235318672106&type=32&idx=0&tkn=mJIA203feczkPUsBpsmogEshlTM&fn=external_8"
+    },
+    {
+      "video_id": "1429797407305",
+      "title_raw": "Wolverine.2011.S01E06",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 2011,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1235317033706&type=32&idx=0&tkn=lJJQGnA4dkCnst4MqxaDroa1Jog&fn=external_8"
+    },
+    {
+      "video_id": "1429797341769",
+      "title_raw": "Wolverine.2011.S01E07",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1904,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1235315526378&type=32&idx=14&tkn=bYVOBmXQG-HpmzoCcqOuj8p6gwc&fn=external_8"
+    },
+    {
+      "video_id": "1429797472841",
+      "title_raw": "Wolverine.2011.S01E08",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1687,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1235314674410&type=32&idx=12&tkn=jDFczdD2XwMHeenhXKLGalpHwn8&fn=external_8"
+    },
+    {
+      "video_id": "1429797079625",
+      "title_raw": "Wolverine.2011.S01E09",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 1707,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1235314019050&type=32&idx=2&tkn=hSDynLxpuPyjuMgBN2FvX2wL0UU&fn=external_8"
+    },
+    {
+      "video_id": "1429797276233",
+      "title_raw": "Wolverine.2011.S01E010",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 1569,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1235313167082&type=32&idx=9&tkn=9aiHIngB0GLPvW6KRLKvJywxUN4&fn=external_8"
+    },
+    {
+      "video_id": "1429797734985",
+      "title_raw": "Wolverine.2011.S01E011",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 1481,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1235311856362&type=32&idx=11&tkn=-zNm49daI6ovJDh9JdWdqyey2jA&fn=external_8"
+    },
+    {
+      "video_id": "1429797669449",
+      "title_raw": "Wolverine.2011.S01E012",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 2396,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1235311135466&type=32&idx=14&tkn=JQNXDvmnBdmi2cxEtlkSpe5G1Eg&fn=external_8"
+    }
+  ]
+}

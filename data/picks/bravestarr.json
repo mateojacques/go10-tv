@@ -1,0 +1,160 @@
+{
+  "title": "BraveStarr",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c45501001 c2229833",
+  "year": "1987",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Ciencia Ficción",
+  "videos": [
+    {
+      "video_id": "10873813404233",
+      "title_raw": "Www.Serieslandia.ComT1E01",
+      "duration_raw": "21:41",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 148,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10145723386441&type=37&idx=10&tkn=M6rXcrEAi0uv7NUiLVg6j8_KK3c&fn=external_8"
+    },
+    {
+      "video_id": "10873813273161",
+      "title_raw": "Www.Serieslandia.ComT1E02",
+      "duration_raw": "21:41",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 80,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10145621477961&type=37&idx=12&tkn=9EaBN1dGGl6APqNCKZf4s02h-KM&fn=external_8"
+    },
+    {
+      "video_id": "10873814452809",
+      "title_raw": "Www.Serieslandia.ComT1E03",
+      "duration_raw": "21:36",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 99,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146356464201&type=37&idx=15&tkn=jEAiKA66cuTdAGBXTkUPadmBfFU&fn=external_8"
+    },
+    {
+      "video_id": "10873813666377",
+      "title_raw": "Www.Serieslandia.ComT1E04",
+      "duration_raw": "21:37",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 60,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10145910557257&type=37&idx=15&tkn=Mkatm_9leL3uLCXOTz08aQ8my8Y&fn=external_8"
+    },
+    {
+      "video_id": "10873813731913",
+      "title_raw": "Www.Serieslandia.ComT1E05",
+      "duration_raw": "21:38",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 66,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10145956956745&type=37&idx=11&tkn=Y6O5ltRPrrkHeuox2UGaLHdyT3c&fn=external_8"
+    },
+    {
+      "video_id": "10873814059593",
+      "title_raw": "Www.Serieslandia.ComT1E06",
+      "duration_raw": "21:40",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 60,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146115947081&type=37&idx=13&tkn=TKEg2C1atmWLfK-gj07pqZpdI2w&fn=external_8"
+    },
+    {
+      "video_id": "10873813142089",
+      "title_raw": "Www.Serieslandia.ComT1E07",
+      "duration_raw": "21:39",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 75,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10145583008329&type=37&idx=12&tkn=L5tvp04Y2DcEKStXnYg_BXDAYq0&fn=external_8"
+    },
+    {
+      "video_id": "10873813338697",
+      "title_raw": "Www.Serieslandia.ComT1E08",
+      "duration_raw": "21:09",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 60,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10145668401737&type=37&idx=12&tkn=dXBcxddpY5gQnOuOUysXaEc2w7I&fn=external_8"
+    },
+    {
+      "video_id": "10873814125129",
+      "title_raw": "Www.Serieslandia.ComT1E09",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 77,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146190658121&type=37&idx=3&tkn=QsdL48wVhfEBBsWyMHYYas4IS2k&fn=external_8"
+    },
+    {
+      "video_id": "10873813928521",
+      "title_raw": "Www.Serieslandia.ComT1E10",
+      "duration_raw": "21:37",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 54,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146050411081&type=37&idx=4&tkn=mxkFtZElspDad25N9RswGDLaapQ&fn=external_8"
+    },
+    {
+      "video_id": "10873814321737",
+      "title_raw": "Www.Serieslandia.ComT1E11",
+      "duration_raw": "21:39",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 75,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146312555081&type=37&idx=14&tkn=y7KI_F2nua6qfvGc5bPBlzS2wV0&fn=external_8"
+    },
+    {
+      "video_id": "10873813862985",
+      "title_raw": "Www.Serieslandia.ComT1E12",
+      "duration_raw": "21:38",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 61,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146011941449&type=37&idx=10&tkn=KdPCWqxYKcbDQum-uMxHLHcTDzY&fn=external_8"
+    },
+    {
+      "video_id": "10873814256201",
+      "title_raw": "Www.Serieslandia.ComT1E13",
+      "duration_raw": "21:40",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 57,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146277034569&type=37&idx=4&tkn=w2Au2YdiKCWHkxYswndR_0zFHpc&fn=external_8"
+    },
+    {
+      "video_id": "10873813469769",
+      "title_raw": "Www.Serieslandia.ComT1E14",
+      "duration_raw": "21:41",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 61,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10145792526921&type=37&idx=8&tkn=eizB7XSrc3RqV102PAAvI-u6e4o&fn=external_8"
+    },
+    {
+      "video_id": "10873814190665",
+      "title_raw": "Www.Serieslandia.ComT1E15",
+      "duration_raw": "21:37",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 90,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146244069961&type=37&idx=12&tkn=I7d2Xc61DJ-4ewP7EO9GuMyCE4A&fn=external_8"
+    },
+    {
+      "video_id": "10873813535305",
+      "title_raw": "Www.Serieslandia.ComT1E16",
+      "duration_raw": "21:38",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 61,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10145850919497&type=37&idx=7&tkn=S_XPqyWHNHwQpHRJ-V83xgON4ZY&fn=external_8"
+    }
+  ]
+}

@@ -1,0 +1,412 @@
+{
+  "title": "Power Rangers Beast Morphers",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c5421385 c5421641",
+  "year": "2019",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Acción",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "2816708512329",
+      "title_raw": "[SR] Power Rangers Beast Morphers - 01_x264",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 14207,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1672669039177&type=37&idx=10&tkn=OXEMZZDMCCNUM9O9Z0DiMDYwdtM&fn=external_8"
+    },
+    {
+      "video_id": "2816707398217",
+      "title_raw": "[SR] Power Rangers Beast Morphers - 02_x264",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 9549,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1672283425353&type=37&idx=2&tkn=VzbxbC4UTv2rm8DzOUS-rCu98Dg&fn=external_8"
+    },
+    {
+      "video_id": "2816708381257",
+      "title_raw": "[SR] Power Rangers Beast Morphers - 03_x264",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 4358,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1672648788553&type=37&idx=1&tkn=iiBfZsr46KIEE-P1gY-N9ITZsV4&fn=external_8"
+    },
+    {
+      "video_id": "2816708315721",
+      "title_raw": "[SR] Power Rangers Beast Morphers - 04_x264",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 3644,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1672636140105&type=37&idx=3&tkn=ZL7G7UNfEH2fnq4ym9oVhEZsbP8&fn=external_8"
+    },
+    {
+      "video_id": "2816708184649",
+      "title_raw": "[SR] Power Rangers Beast Morphers - 05_x264",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 3142,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1672610187849&type=37&idx=13&tkn=CTwAwY29cckFIWuouxy557pwnok&fn=external_8"
+    },
+    {
+      "video_id": "2816708053577",
+      "title_raw": "[SR] Power Rangers Beast Morphers - 06_x264",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 2861,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1672573225545&type=37&idx=5&tkn=4swHyAaVr_aTvVrkGNLa5RxoEYo&fn=external_8"
+    },
+    {
+      "video_id": "2816708250185",
+      "title_raw": "[SR] Power Rangers Beast Morphers - 07_x264",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 2881,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1672622115401&type=37&idx=4&tkn=bHBTMN-rqzGtVS_tN2JJcivCUdY&fn=external_8"
+    },
+    {
+      "video_id": "2816707988041",
+      "title_raw": "[SR] Power Rangers Beast Morphers - 08_x264",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 3687,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1672554678857&type=37&idx=3&tkn=fb7Wlh45YR8MEdrf4CIFf6puuw8&fn=external_8"
+    },
+    {
+      "video_id": "2816708708937",
+      "title_raw": "[SR] Power Rangers Beast Morphers - 09_x264",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 2947,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1672695515721&type=37&idx=5&tkn=lUfJkrzchX7hrh4LDb2Sp2ABjHc&fn=external_8"
+    },
+    {
+      "video_id": "2816707463753",
+      "title_raw": "[SR] Power Rangers Beast Morphers - 10_x264",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 2365,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1672328186441&type=37&idx=14&tkn=Stf5wUXI5-IXx-y5kmC8uBdfZUQ&fn=external_8"
+    },
+    {
+      "video_id": "2816707725897",
+      "title_raw": "[SR] Power Rangers Beast Morphers - 11_x264",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 2242,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1672455719497&type=37&idx=15&tkn=BSt2_6OAQdoBCydKHiOdTnYtqA8&fn=external_8"
+    },
+    {
+      "video_id": "2816708446793",
+      "title_raw": "[SR] Power Rangers Beast Morphers - 12_x264",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 2322,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1672660781641&type=37&idx=11&tkn=vpa36EqWGYO5MCbEL54AnuOg__M&fn=external_8"
+    },
+    {
+      "video_id": "2816708577865",
+      "title_raw": "[SR] Power Rangers Beast Morphers - 13_x264",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 2106,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1672679656009&type=37&idx=1&tkn=8yJORUwHKzE0qEeMM6ybA3vc64E&fn=external_8"
+    },
+    {
+      "video_id": "2816707791433",
+      "title_raw": "[SR] Power Rangers Beast Morphers - 14_x264",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 2430,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1672478067273&type=37&idx=3&tkn=Y-3VdiCBDUg2O3BPOMqxH4JY_J4&fn=external_8"
+    },
+    {
+      "video_id": "2816707660361",
+      "title_raw": "[SR] Power Rangers Beast Morphers - 15_x264",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 2299,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1672426883657&type=37&idx=5&tkn=prRli4rC4G23rUYigNXJEWGrnqE&fn=external_8"
+    },
+    {
+      "video_id": "3460334488137",
+      "title_raw": "[SR] Power Rangers Beast Morphers - 16 Arte de Gorila_x264",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 2427,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2238553852489&type=37&idx=4&tkn=LgJb39wdEpI3l4VliiI8Hd8ee2o&fn=external_8"
+    },
+    {
+      "video_id": "2816707856969",
+      "title_raw": "[SR] Power Rangers Beast Morphers - 17_x264",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 2502,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1672506640969&type=37&idx=9&tkn=RcK-SThJO-uC8QB0afMCUAspvDE&fn=external_8"
+    },
+    {
+      "video_id": "2816708119113",
+      "title_raw": "[SR] Power Rangers Beast Morphers - 18_x264",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 2290,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1672590985801&type=37&idx=15&tkn=w4lhDumT0owcDP7QwBztdFkZcYY&fn=external_8"
+    },
+    {
+      "video_id": "2816707922505",
+      "title_raw": "[SR] Power Rangers Beast Morphers - 19_x264",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 2539,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1672530758217&type=37&idx=8&tkn=JtQG2p9dQUxvFQ2ELSJ6blWGWA4&fn=external_8"
+    },
+    {
+      "video_id": "2816708774473",
+      "title_raw": "[SR] Power Rangers Beast Morphers - 20_x264",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 2812,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1672702790217&type=37&idx=9&tkn=kZaO4r1YGcUyKhn7BJ2v9kBUufY&fn=external_8"
+    },
+    {
+      "video_id": "2816707594825",
+      "title_raw": "[SR] Power Rangers Beast Morphers - 21_x264",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 1923,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1672396474953&type=37&idx=15&tkn=Ov398gJ4ZTu8dadEDgxIjXhjgg8&fn=external_8"
+    },
+    {
+      "video_id": "2816708643401",
+      "title_raw": "[SR] Power Rangers Beast Morphers - 22_x264",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 2502,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1672689158729&type=37&idx=6&tkn=3up1L0haUNAMkW8Jt6MEAXV2yTA&fn=external_8"
+    },
+    {
+      "video_id": "2821769464393",
+      "title_raw": "[SR] Power Rangers Beast Morphers - T2 - 01_x264",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 3631,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1678376569417&type=37&idx=5&tkn=qk0v9plEtPwOY8vCQNXRpnEptQI&fn=external_8"
+    },
+    {
+      "video_id": "2821770185289",
+      "title_raw": "[SR] Power Rangers Beast Morphers - T2 - 02_x264",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 2582,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1678432537161&type=37&idx=2&tkn=QPNkrY5fps8kNxX699jytXK5enw&fn=external_8"
+    },
+    {
+      "video_id": "2821769988681",
+      "title_raw": "[SR] Power Rangers Beast Morphers - T2 - 03_x264",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 2148,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1678413859401&type=37&idx=5&tkn=3Tbb870GpHnf_s4Gv7WDE-vU1zw&fn=external_8"
+    },
+    {
+      "video_id": "2821770119753",
+      "title_raw": "[SR] Power Rangers Beast Morphers - T2 - 04_x264",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 2119,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1678424410697&type=37&idx=7&tkn=jYrFey4voknWCZO1SuuWRVZdJa4&fn=external_8"
+    },
+    {
+      "video_id": "2821769267785",
+      "title_raw": "[SR] Power Rangers Beast Morphers - T2 - 05_x264",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 2189,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1678356384329&type=37&idx=15&tkn=hgAKffexK8pnlcv5xETTDaNOIws&fn=external_8"
+    },
+    {
+      "video_id": "2821769792073",
+      "title_raw": "[SR] Power Rangers Beast Morphers - T2 - 06_x264",
+      "duration_raw": "22:33",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 1873,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1678398392905&type=37&idx=6&tkn=W1kDsCDcQuEK9_YECShkezkZAA4&fn=external_8"
+    },
+    {
+      "video_id": "2821769923145",
+      "title_raw": "[SR] Power Rangers Beast Morphers - T2 - 07_x264",
+      "duration_raw": "22:33",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 2236,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1678407305801&type=37&idx=12&tkn=yg6FD63QoicxwTZzYGNVS8z9SRk&fn=external_8"
+    },
+    {
+      "video_id": "2821769333321",
+      "title_raw": "[SR] Power Rangers Beast Morphers - T2 - 08_x264",
+      "duration_raw": "22:33",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 1836,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1678363986505&type=37&idx=10&tkn=eUIKIs-mVToZwZyPwJboPSQt4Ag&fn=external_8"
+    },
+    {
+      "video_id": "2821769857609",
+      "title_raw": "[SR] Power Rangers Beast Morphers - T2 - 09_x264",
+      "duration_raw": "22:33",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 2284,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1678401407561&type=37&idx=3&tkn=J9sxbaEHwNnNRWB0U10y5DTgKRk&fn=external_8"
+    },
+    {
+      "video_id": "2821770054217",
+      "title_raw": "[SR] Power Rangers Beast Morphers - T2 - 10_x264",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 2175,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1678418250313&type=37&idx=6&tkn=EaXZgVQjtcSw2ZfzmsZM_f9ilT4&fn=external_8"
+    },
+    {
+      "video_id": "2821769595465",
+      "title_raw": "[SR] Power Rangers Beast Morphers - T2 - 11_x264",
+      "duration_raw": "22:37",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 2301,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1678383778377&type=37&idx=6&tkn=zEM5JOJzV0xOQTZaEc2JbQZbEbw&fn=external_8"
+    },
+    {
+      "video_id": "2821769661001",
+      "title_raw": "[SR] Power Rangers Beast Morphers - T2 - 12_x264",
+      "duration_raw": "22:35",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 2209,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1678390987337&type=37&idx=5&tkn=xZJ87F4DQDwnlI5QJ98jkfWM2Hw&fn=external_8"
+    },
+    {
+      "video_id": "2821769726537",
+      "title_raw": "[SR] Power Rangers Beast Morphers - T2 - 13_x264",
+      "duration_raw": "22:33",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 2420,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1678395378249&type=37&idx=2&tkn=sR-Nxs6fuBIUQk6bwvOp5IyjL04&fn=external_8"
+    },
+    {
+      "video_id": "2821769529929",
+      "title_raw": "[SR] Power Rangers Beast Morphers - T2 - 14_x264",
+      "duration_raw": "22:33",
+      "season_number": 2,
+      "episode_number": 14,
+      "views": 2609,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1678378928713&type=37&idx=11&tkn=nvKMskgpXy2qpnOXIIsuyIUW5ow&fn=external_8"
+    },
+    {
+      "video_id": "2821769398857",
+      "title_raw": "[SR] Power Rangers Beast Morphers - T2 - 15_x264",
+      "duration_raw": "22:35",
+      "season_number": 2,
+      "episode_number": 15,
+      "views": 3268,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1678373227081&type=37&idx=13&tkn=IQwsVzLKkusbim1SPJTCKTmO8Vc&fn=external_8"
+    },
+    {
+      "video_id": "3415638542921",
+      "title_raw": "[SR] Power Rangers Beast Morphers - T2 - 16",
+      "duration_raw": "22:33",
+      "season_number": 2,
+      "episode_number": 16,
+      "views": 2080,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2180151904841&type=37&idx=10&tkn=Fjm97p956ZVprshF6MyNt9izZqY&fn=external_8"
+    },
+    {
+      "video_id": "3415638411849",
+      "title_raw": "[SR] Power Rangers Beast Morphers - T2 - 17",
+      "duration_raw": "22:33",
+      "season_number": 2,
+      "episode_number": 17,
+      "views": 1875,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2180146268745&type=37&idx=11&tkn=UP7a3TU6KFbjXNgaugJDKNDL-Yw&fn=external_8"
+    },
+    {
+      "video_id": "3415638608457",
+      "title_raw": "[SR] Power Rangers Beast Morphers - T2 - 18",
+      "duration_raw": "22:33",
+      "season_number": 2,
+      "episode_number": 18,
+      "views": 1886,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2180156492361&type=37&idx=5&tkn=m50G_8jVupuFaelK8z7n4QcXQTU&fn=external_8"
+    },
+    {
+      "video_id": "3415638673993",
+      "title_raw": "[SR] Power Rangers Beast Morphers - T2 - 19",
+      "duration_raw": "22:33",
+      "season_number": 2,
+      "episode_number": 19,
+      "views": 2232,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2180161079881&type=37&idx=8&tkn=wvmowz1EI7Fzj4eO95xZ540ptkM&fn=external_8"
+    },
+    {
+      "video_id": "3415638739529",
+      "title_raw": "[SR] Power Rangers Beast Morphers - T2 - 20",
+      "duration_raw": "22:33",
+      "season_number": 2,
+      "episode_number": 20,
+      "views": 2090,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2180164749897&type=37&idx=9&tkn=9KbDVxpRhUnLL0X4JU-b9kdBVzk&fn=external_8"
+    },
+    {
+      "video_id": "3415638477385",
+      "title_raw": "[SR] Power Rangers Beast Morphers - T2 - 21",
+      "duration_raw": "22:33",
+      "season_number": 2,
+      "episode_number": 21,
+      "views": 2799,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2180148496969&type=37&idx=12&tkn=TcXHWYGJl7Mk64IN9zWSWhc_ADE&fn=external_8"
+    },
+    {
+      "video_id": "3415638805065",
+      "title_raw": "[SR] Power Rangers Beast Morphers - T2 - 22",
+      "duration_raw": "22:33",
+      "season_number": 2,
+      "episode_number": 22,
+      "views": 4059,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2180166978121&type=37&idx=3&tkn=0jQnVcG_rWRbut0tBGpp1_gmwVA&fn=external_8"
+    }
+  ]
+}

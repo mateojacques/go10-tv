@@ -1,0 +1,236 @@
+{
+  "title": "El Galáctico",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c49568841 c2339913",
+  "year": "1980",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "720p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Ciencia Ficción",
+  "videos": [
+    {
+      "video_id": "11774878550601",
+      "title_raw": "01 HACIA EL GRAN PLANETA - LATINO",
+      "duration_raw": "24:57",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 162,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7767435971074&type=37&idx=6&tkn=QkhTSWTCvbjHQZG6VcQMOdzfDPw&fn=external_8"
+    },
+    {
+      "video_id": "11774878485065",
+      "title_raw": "02 UN CIBERNETICO INDOMABLE - LATINO",
+      "duration_raw": "23:17",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 129,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7767435512322&type=37&idx=8&tkn=cxSuCq4mkGWbq3YSMXgRIp6K-Fk&fn=external_8"
+    },
+    {
+      "video_id": "11774882417225",
+      "title_raw": "03 EL GUERRERO DEL PLANETA DE BARRO - LATINO",
+      "duration_raw": "23:07",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 174,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7767434660354&type=37&idx=6&tkn=85h9rq5qFhR8RZQJWN5vOFoY14s&fn=external_8"
+    },
+    {
+      "video_id": "11774878616137",
+      "title_raw": "04 EL DEFENSOR DEL MUNDO ACUATICO - LATINO",
+      "duration_raw": "22:54",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 196,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7767433808386&type=37&idx=14&tkn=Br2r5YDM2oT2-FCrjIcyUqHnf44&fn=external_8"
+    },
+    {
+      "video_id": "11774882482761",
+      "title_raw": "05 BAJO EL SIGNO DE AURORA - LATINO",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 189,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7767433087490&type=37&idx=11&tkn=QAVq7dW980YXbuiv926BUFk822Q&fn=external_8"
+    },
+    {
+      "video_id": "11774882744905",
+      "title_raw": "06 INVENCIBLE - LATINO",
+      "duration_raw": "23:39",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 172,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7767432497666&type=37&idx=13&tkn=LrhnCPUODWvb5iWkaiSdQ8dEahc&fn=external_8"
+    },
+    {
+      "video_id": "1446953355849",
+      "title_raw": "El Galactico E07",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 2875,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812603411064&type=32&idx=10&tkn=dnTkJEEW-cR_pT6xeh5mMH98sPI&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "11774882548297",
+      "title_raw": "08 AL RESCATE - LATINO",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 213,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7767430597122&type=37&idx=15&tkn=4zaV8l7AcXHs8sp3AnBXWaH2TBk&fn=external_8"
+    },
+    {
+      "video_id": "11774882875977",
+      "title_raw": "09 EL CIENTIFICO LOCO - LATINO",
+      "duration_raw": "23:35",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 160,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7767429810690&type=37&idx=3&tkn=Z3wYzDN_0KEt5f5CYpNh3VsjJK0&fn=external_8"
+    },
+    {
+      "video_id": "11774882351689",
+      "title_raw": "10 UNA ESTRELLA LLAMADA MARINA - LATINO",
+      "duration_raw": "23:47",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 137,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7767428565506&type=37&idx=5&tkn=exHzLqXKTb11fEVqzt7ANqkBCKQ&fn=external_8"
+    },
+    {
+      "video_id": "1446952438345",
+      "title_raw": "El Galactico E11",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 2262,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812603083384&type=32&idx=11&tkn=6QU_fBtDhw-dwMLbWncrSAmca9k&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "11774883072585",
+      "title_raw": "12 EL SACRIFICIO DE LA DONCELLA - LATINO",
+      "duration_raw": "23:49",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 393,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7767425812994&type=37&idx=7&tkn=7xpLXPdn_BHvuqf12Lw2-_vFkes&fn=external_8"
+    },
+    {
+      "video_id": "11774879205961",
+      "title_raw": "13 MUMPHER EL COBARDE - LATINO",
+      "duration_raw": "23:13",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 126,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7767424764418&type=37&idx=6&tkn=BPhFuSYQS0RTnrdP_sOBQWcn-7c&fn=external_8"
+    },
+    {
+      "video_id": "11774882613833",
+      "title_raw": "14 UN HEROE LLAMADO MARTHIN - LATINO",
+      "duration_raw": "23:17",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 157,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7767422142978&type=37&idx=6&tkn=EJGzvbZ7d8UB38tA--wAe2HsXWw&fn=external_8"
+    },
+    {
+      "video_id": "11774881172041",
+      "title_raw": "15 SPACE PANZERS - LATINO",
+      "duration_raw": "23:20",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 165,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7767421159938&type=37&idx=2&tkn=zn0Bpna5ELXwr_TvJvVZ5Y-qyek&fn=external_8"
+    },
+    {
+      "video_id": "11774879926857",
+      "title_raw": "16 LA TRAMPA - LATINO",
+      "duration_raw": "22:55",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 180,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7767420570114&type=37&idx=10&tkn=W8akDd9lqxsbLLtvGiGKW43L9-4&fn=external_8"
+    },
+    {
+      "video_id": "11774880516681",
+      "title_raw": "17 LA LLAMADA DE AURORA - LATINO",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 115,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7767420111362&type=37&idx=15&tkn=CXdkw-w_n21KzgdOZMJT6VSltfs&fn=external_8"
+    },
+    {
+      "video_id": "1446952372809",
+      "title_raw": "El Galactico E18",
+      "duration_raw": "23:31",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 1974,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812599151224&type=32&idx=11&tkn=iIz5jJy8bIGWR94sLwwA2WTC09M&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "11774883007049",
+      "title_raw": "19 LA LLEGADA DE GUINGUIRIANO - LATINO",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 264,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7767417489922&type=37&idx=10&tkn=uJum1eMRU4p6FGQomyqyh5n7Oas&fn=external_8"
+    },
+    {
+      "video_id": "11774882941513",
+      "title_raw": "20 ASESINO DESPIADADO - LATINO",
+      "duration_raw": "23:10",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 154,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7767418538498&type=37&idx=6&tkn=g0PEo_kZYj2fu1J5iQh9Tt4RYO0&fn=external_8"
+    },
+    {
+      "video_id": "1446952634953",
+      "title_raw": "El Galactico E21",
+      "duration_raw": "23:45",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 1822,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=812597840504&type=32&idx=10&tkn=Bw0HiE8iL53o-Cxw5J9LX-41uM8&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "11774881958473",
+      "title_raw": "22 LA HERIDA DE UN HEROE - LATINO",
+      "duration_raw": "23:48",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 190,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7767414999554&type=37&idx=10&tkn=gOIzQj-b5zZRDJJ-WzPE0n9aN-A&fn=external_8"
+    },
+    {
+      "video_id": "11774882810441",
+      "title_raw": "23 AGUILAS DEL ESPACIO - LATINO",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 191,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7767149840898&type=37&idx=5&tkn=XPwNymIwYWnp0Fam3vK2Vfp-wLw&fn=external_8"
+    },
+    {
+      "video_id": "11774882679369",
+      "title_raw": "24 EL FIN DE GUINGUIRIANO - LATINO",
+      "duration_raw": "23:37",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 137,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7767146367490&type=37&idx=6&tkn=4LMeRlkVynKU7_FuNwyRj0ItQzk&fn=external_8"
+    }
+  ]
+}

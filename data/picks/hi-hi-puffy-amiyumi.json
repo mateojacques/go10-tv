@@ -1,0 +1,367 @@
+{
+  "title": "Hi Hi Puffy AmiYumi",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c6217033",
+  "year": "2004",
+  "studio": "Cartoon N.",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "3492574595657",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S01E01_Dis-Harmony-Collect All 5-Ninjcompoop",
+      "duration_raw": "22:32",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 20137,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276129704521&type=38&idx=6&tkn=oYeuBvmvAe941KlDkw5b5gK8Z_4&fn=external_8"
+    },
+    {
+      "video_id": "3492574399049",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S01E02_Talent Suckers-Ole!-Mini-Puffs",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 6167,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276092021321&type=38&idx=7&tkn=eWNpwbuyeuwNzFxKY0nPpczXLOk&fn=external_8"
+    },
+    {
+      "video_id": "3492575447625",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S01E03_Amis Secret-Taffy Trouble-Dance a Go-Go",
+      "duration_raw": "22:32",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 4389,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276258679369&type=38&idx=12&tkn=dzpzjX4nuQJ3DS8oB27K3LMtgZg&fn=external_8"
+    },
+    {
+      "video_id": "3492575382089",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S01E04_Ami Goes Bad-Robo-Pop-Metal Mental",
+      "duration_raw": "22:31",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 4090,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276252322377&type=38&idx=13&tkn=s3NgJgj36UPGYS3tShFNFOQcswQ&fn=external_8"
+    },
+    {
+      "video_id": "3492575119945",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S01E05_Showdown-In the Cards-Team Teen",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 4199,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276217391689&type=38&idx=12&tkn=aKNKTTnvP9eHDNvalPC36_jGlZM&fn=external_8"
+    },
+    {
+      "video_id": "3492574988873",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S01E06_Opera Yumi-Save the Farm-Pen Pal",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 4287,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276195371593&type=38&idx=2&tkn=_3MKKL36ce36SPXt41Il9JkYJpg&fn=external_8"
+    },
+    {
+      "video_id": "3492574792265",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S01E07_Surfs Up-Stupid Cupids-Brat Attack",
+      "duration_raw": "22:29",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 4281,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276170795593&type=38&idx=1&tkn=52huW9UrQjtXNZbUNe1A3y8mlWk&fn=external_8"
+    },
+    {
+      "video_id": "3492574464585",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S01E08_Kaz Almighty-Allergic-Spaced Out",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 4356,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276103227977&type=38&idx=4&tkn=OffLAPbxyrnYAIOj0G7z-p-NsL4&fn=external_8"
+    },
+    {
+      "video_id": "3492574202441",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S01E09_Yumi Saves Kaz-Rock N Roe-Scowlitis",
+      "duration_raw": "23:02",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 3015,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276056369737&type=38&idx=1&tkn=xiP-v0nDqy-iKx0saIGrJoq1wws&fn=external_8"
+    },
+    {
+      "video_id": "3492575251017",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S01E10_Treasure Map-Kaz vs. Katz-Bad Manager",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 2630,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276235741769&type=38&idx=15&tkn=HVWHTKYz0mJ--20gGIHtTdLY8vI&fn=external_8"
+    },
+    {
+      "video_id": "3492574267977",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S01E11_The Amazing Kaz-am-Puffylicious-Lights Camera Danger",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 2780,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276075440713&type=38&idx=7&tkn=loNEl4rpXB4PTk7Ypckg1UP0U10&fn=external_8"
+    },
+    {
+      "video_id": "3492729260617",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S01E12_Fan Clubs-Cat Nap-Cursed!",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 3063,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276265101897&type=38&idx=13&tkn=xry7yaOkNHB2y2IOxjcMfF_IKZ4&fn=external_8"
+    },
+    {
+      "video_id": "3492575316553",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S01E13_Eye Sore-Mean Machine-Sea Sick",
+      "duration_raw": "23:02",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 2097,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276244589129&type=38&idx=7&tkn=6cSDI-0cRfWJmR9c_ZBleun47gc&fn=external_8"
+    },
+    {
+      "video_id": "3492574726729",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S02E01_Koi Fish-Arbor Day-Ami Ami",
+      "duration_raw": "23:00",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 3384,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276155066953&type=38&idx=15&tkn=B7qyawXO53CrucxCGdM1who6ALw&fn=external_8"
+    },
+    {
+      "video_id": "3492574923337",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S02E02_Visiting Hours-Kitty Kontest-Chow Down",
+      "duration_raw": "22:45",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 2482,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276187048521&type=38&idx=1&tkn=nnm6GNVsggsi1EiGc4q1FtZMA6A&fn=external_8"
+    },
+    {
+      "video_id": "3492574857801",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S02E03_Hungry Yumi-The Oddyguard-Song Sung Bad",
+      "duration_raw": "22:42",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 3544,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276179446345&type=38&idx=1&tkn=VrU6T3d72DRs3BAGI3PyWIoIKYA&fn=external_8"
+    },
+    {
+      "video_id": "3492575054409",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S02E04_Helping Hand-Neat Freak-Hypno-Kaz",
+      "duration_raw": "23:05",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 3089,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276209199689&type=38&idx=13&tkn=5smrQO-jcqXY6Q_-zjixW3yiOfA&fn=external_8"
+    },
+    {
+      "video_id": "3492574661193",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S02E05_In Harmonys Way-Time Off-Home Insecurity",
+      "duration_raw": "22:33",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 2599,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276140059209&type=38&idx=6&tkn=ucCmFks2oRZXXfAgFT7a1jYdTHc&fn=external_8"
+    },
+    {
+      "video_id": "3492574530121",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S02E06_Uninvited-Camping Caper-Cell Block Rock",
+      "duration_raw": "22:33",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 2473,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276116204105&type=38&idx=14&tkn=0mWMGVw0gF7FF7ZoQX09_-zpHvc&fn=external_8"
+    },
+    {
+      "video_id": "3492575185481",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S02E07_Ami Yumi 3000-The Ride Stuff-Were-Kaz",
+      "duration_raw": "22:49",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 2542,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276229777993&type=38&idx=10&tkn=_SvnPwntS4aFoq0fjKuHsYx4Meg&fn=external_8"
+    },
+    {
+      "video_id": "3492766419529",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S02E08_Ski Sick-Claw and Order-Janice Jealous",
+      "duration_raw": "22:50",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 2709,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276294593097&type=38&idx=11&tkn=P_0PL2MzlwlE83cpB-oXmHEhiWs&fn=external_8"
+    },
+    {
+      "video_id": "3492766485065",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S02E09_Domo-Yumi Goes Solo-Cat Feud",
+      "duration_raw": "22:31",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 2086,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276300819017&type=38&idx=1&tkn=2srEHXkqAUvCpVKUXum25bq_RfY&fn=external_8"
+    },
+    {
+      "video_id": "3492767074889",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S02E10_Super Zero-Artist Ami-Ikkakujuu",
+      "duration_raw": "22:36",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 2090,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276346759753&type=38&idx=15&tkn=ec0jDMDGGuo8A_5Jf6NNdB4yXps&fn=external_8"
+    },
+    {
+      "video_id": "3492767205961",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S02E11_Run Cat Run-Driving School-Record Breakers",
+      "duration_raw": "22:35",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 1947,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276353575497&type=38&idx=12&tkn=fLeqYqM1uNaRqRL9BIYFcbQvcuo&fn=external_8"
+    },
+    {
+      "video_id": "3492767271497",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S02E12_Rock Lobsters-Phantom of Rock-Fungus",
+      "duration_raw": "22:54",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 2278,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276357573193&type=38&idx=11&tkn=HJq5eXWR6m9oFmY21PADJ9HaSgY&fn=external_8"
+    },
+    {
+      "video_id": "3492767468105",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S02E13_Soap Box Derby-Talent Suckers Return-Prisoners of Yoyovia",
+      "duration_raw": "23:06",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 1836,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276367469129&type=38&idx=6&tkn=qv7WR8MJHE3AHXQmB1ssemLN9gM&fn=external_8"
+    },
+    {
+      "video_id": "3492766943817",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S03E01_Puffy BC-Duplicats-Agent Y",
+      "duration_raw": "22:50",
+      "season_number": 3,
+      "episode_number": 1,
+      "views": 1922,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276338174537&type=38&idx=12&tkn=mU-cVnzp7bwRd6i3HTTq9XvOVXw&fn=external_8"
+    },
+    {
+      "video_id": "3492767140425",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S03E02_Secret Origin-Legend of Mei Pie-Under the Hood",
+      "duration_raw": "22:34",
+      "season_number": 3,
+      "episode_number": 2,
+      "views": 1757,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276350822985&type=38&idx=3&tkn=PM0FnGy-dUYHQGdhKP-3B3WNuV4&fn=external_8"
+    },
+    {
+      "video_id": "3492845193801",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S03E03_Movie Madness-Stop the Presses-Hired Help",
+      "duration_raw": "22:24",
+      "season_number": 3,
+      "episode_number": 3,
+      "views": 1897,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276387064393&type=38&idx=1&tkn=WGq1bbZMVAN_ssW-JuBcoxPDo_8&fn=external_8"
+    },
+    {
+      "video_id": "3492766878281",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S03E04_Manga Madness-Junior Tapeworm-Kazalot",
+      "duration_raw": "22:47",
+      "season_number": 3,
+      "episode_number": 4,
+      "views": 1800,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276332669513&type=38&idx=10&tkn=1m-vraXo5sMskzVchMafG19Ece4&fn=external_8"
+    },
+    {
+      "video_id": "3492766681673",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S03E05_Golden Fleas The (Part 1)-Golden Fleas The (Part 2)-Sitcomi Yumi",
+      "duration_raw": "22:29",
+      "season_number": 3,
+      "episode_number": 5,
+      "views": 1750,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276319234633&type=38&idx=1&tkn=DAU2pqfFhAYaD6e1w2_ee9E12nc&fn=external_8"
+    },
+    {
+      "video_id": "3492767533641",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S03E06_Spree-Granny-A Grave Mistake",
+      "duration_raw": "22:29",
+      "season_number": 3,
+      "episode_number": 6,
+      "views": 2123,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276371794505&type=38&idx=8&tkn=MWbjcWNfiaggPltpScRQwbyvis4&fn=external_8"
+    },
+    {
+      "video_id": "3492767402569",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S03E07_Motor Psycho Mamas-Oldie Ami Yumi-Trouble With Mimes",
+      "duration_raw": "22:29",
+      "season_number": 3,
+      "episode_number": 7,
+      "views": 1887,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276363864649&type=38&idx=6&tkn=Zn94yOshiSeyRxyqOhv1IIRn7fc&fn=external_8"
+    },
+    {
+      "video_id": "3492766616137",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S03E08_Tooth Decay-Gridiron Maidens-Sound Off",
+      "duration_raw": "22:38",
+      "season_number": 3,
+      "episode_number": 8,
+      "views": 1835,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276313860681&type=38&idx=8&tkn=VPsR1iOhacvNFjvktPZ_gAtPMDA&fn=external_8"
+    },
+    {
+      "video_id": "3492767009353",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S03E09_Jungle Prom-Truth or Dare-Sumo Kaz",
+      "duration_raw": "22:39",
+      "season_number": 3,
+      "episode_number": 9,
+      "views": 2427,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276342368841&type=38&idx=2&tkn=nI-9WCLQMvEmZyARr7G1uIjQWIo&fn=external_8"
+    },
+    {
+      "video_id": "3492766812745",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S03E10_Small Stuff-BC Road Trip-Puffynauts",
+      "duration_raw": "22:46",
+      "season_number": 3,
+      "episode_number": 10,
+      "views": 1975,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276328213065&type=38&idx=14&tkn=AZXpKi0NQ-MvMbF50LCj87A72eA&fn=external_8"
+    },
+    {
+      "video_id": "3492766747209",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S03E11_Evil AmiYumi-Butterscotch-Big Waldo",
+      "duration_raw": "22:16",
+      "season_number": 3,
+      "episode_number": 11,
+      "views": 1947,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276324018761&type=38&idx=7&tkn=a4P5wG3Ct-xik-29uiYRks_ohg8&fn=external_8"
+    },
+    {
+      "video_id": "3492767337033",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S03E12_Disco Caper-House Un-Keeping-Number Please!",
+      "duration_raw": "22:56",
+      "season_number": 3,
+      "episode_number": 12,
+      "views": 1782,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276360981065&type=38&idx=4&tkn=utwF3wfEl68L_qnPzJx7gYaErh8&fn=external_8"
+    },
+    {
+      "video_id": "3492766550601",
+      "title_raw": "Hi Hi Puffy Ami Yumi_S03E13_Manga Madness Part II-Julie Ami Yumi-Its Alive",
+      "duration_raw": "23:00",
+      "season_number": 3,
+      "episode_number": 13,
+      "views": 2789,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2276308617801&type=38&idx=8&tkn=1CXCLXza6JwQmkv8L5cFaBLHJ58&fn=external_8"
+    }
+  ]
+}

@@ -1,0 +1,601 @@
+{
+  "title": "El Capitán Planeta y los Planetarios",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2127433",
+  "year": "1990",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Aventura",
+  "videos": [
+    {
+      "video_id": "1335175023177",
+      "title_raw": "01x01 - El Capitan Planeta - Un heroe para la tierra_x264",
+      "duration_raw": "22:58",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 108446,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578406451785&type=32&idx=5&tkn=lTMVPVUIUeBS7PTtz1CvUsxcIK8&fn=external_8"
+    },
+    {
+      "video_id": "1335175416393",
+      "title_raw": "01x02 - El Capitan Planeta - Lluvia de terror_x264",
+      "duration_raw": "22:59",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 17996,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578409597513&type=32&idx=13&tkn=YZ39ehXfq_-I5thqiAMoXWFftQs&fn=external_8"
+    },
+    {
+      "video_id": "1335175547465",
+      "title_raw": "01x03 - El Capitan Planeta - La bestia del Templo_x264",
+      "duration_raw": "22:58",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 8345,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578411760201&type=32&idx=12&tkn=AVGosbLteYhJesxlE7t31GQYcp8&fn=external_8"
+    },
+    {
+      "video_id": "1335176333897",
+      "title_raw": "01x04 - El Capitan Planeta - La ratamania de escoria_x264",
+      "duration_raw": "22:58",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 4623,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578424998473&type=32&idx=7&tkn=QTPHo9yVOTDx0wELHMszBgy5TDE&fn=external_8"
+    },
+    {
+      "video_id": "1335177316937",
+      "title_raw": "01x05 - El Capitan Planeta - Rescate mortal_x264",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 4555,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578443348553&type=32&idx=2&tkn=vCI0rwOIpK74EG1jSlaZ_UO8qts&fn=external_8"
+    },
+    {
+      "video_id": "1335173384777",
+      "title_raw": "01x06 - El Capitan Planeta - El Conquistador_x264",
+      "duration_raw": "23:04",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 3696,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578455538249&type=32&idx=10&tkn=q0qCblyHgWEy3CffE5d9iEdHHZ8&fn=external_8"
+    },
+    {
+      "video_id": "1335177775689",
+      "title_raw": "01x07 - El Capitan Planeta - El Ultimo de su clase_x264",
+      "duration_raw": "22:58",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 3155,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578453834313&type=32&idx=6&tkn=0w42Jhp0AhBux7tlVJ10qAzQejE&fn=external_8"
+    },
+    {
+      "video_id": "1335176596041",
+      "title_raw": "01x08 - El Capitan Planeta - Los mares muertos_x264",
+      "duration_raw": "22:56",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 2916,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578430372425&type=32&idx=1&tkn=TpvHBp-hQHnlbC5YRrZQ6Gl09Ms&fn=external_8"
+    },
+    {
+      "video_id": "1335176399433",
+      "title_raw": "01x09 - El Capitan Planeta - El arbol de la vida_x264",
+      "duration_raw": "22:56",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 2844,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578426833481&type=32&idx=2&tkn=gjj5NeT2k8QTbutLdLG8Yl54r9M&fn=external_8"
+    },
+    {
+      "video_id": "1335173712457",
+      "title_raw": "01x10 - El Capitan Planeta - La ira de vulcano_x264",
+      "duration_raw": "22:54",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 2440,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578461043273&type=32&idx=14&tkn=y9zggjeKSZdXusz7KRSAOo8bNno&fn=external_8"
+    },
+    {
+      "video_id": "1335173581385",
+      "title_raw": "01x11 - El Capitan Planeta - El planetario mas pequeño_x264",
+      "duration_raw": "22:55",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 2218,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578456848969&type=32&idx=14&tkn=XL-U7KvTK5q_BhZioWKFZ0FoYgE&fn=external_8"
+    },
+    {
+      "video_id": "1335173646921",
+      "title_raw": "01x12 - El Capitan Planeta - Un mundo bajo el nuestro_x264",
+      "duration_raw": "22:55",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 1990,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578459273801&type=32&idx=12&tkn=MDL8kJg0fCuhMZBv9TQAzi78Uvs&fn=external_8"
+    },
+    {
+      "video_id": "1335175613001",
+      "title_raw": "01x13 - El Capitan Planeta - La presa de clepto boraz_x264",
+      "duration_raw": "22:59",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 1704,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578412481097&type=32&idx=4&tkn=tYE8ba_x0r8heNz7M-qOO6EpXUY&fn=external_8"
+    },
+    {
+      "video_id": "1335173777993",
+      "title_raw": "01x14 - El Capitan Planeta - El sindrome de las filtraciones de energia nuclear_x264",
+      "duration_raw": "22:58",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 1709,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578387249737&type=32&idx=14&tkn=fQF3dwQAJOJ_Lb20ooWctqDnAH4&fn=external_8"
+    },
+    {
+      "video_id": "1335173843529",
+      "title_raw": "01x15 - El Capitan Planeta - Cuidado con el smog_x264",
+      "duration_raw": "22:56",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 1623,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578388757065&type=32&idx=2&tkn=CTHPInA4SqByb3hTF3lDaHtpn4Y&fn=external_8"
+    },
+    {
+      "video_id": "1335173909065",
+      "title_raw": "01x16 - El Capitan Planeta - Contaminacion por computadora_x264",
+      "duration_raw": "22:45",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 1643,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578390264393&type=32&idx=11&tkn=QdWhZz0qG9bt6NBLDAnDfGLNUDk&fn=external_8"
+    },
+    {
+      "video_id": "1335175744073",
+      "title_raw": "01x17 - El Capitan Planeta - No beban el Agua_x264",
+      "duration_raw": "22:56",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 1713,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578415561289&type=32&idx=8&tkn=-osF3_H01Uxn_QWZoaZ1ho2dEd4&fn=external_8"
+    },
+    {
+      "video_id": "1335177644617",
+      "title_raw": "01x18 - El Capitan Planeta - La crisis de kwame_x264",
+      "duration_raw": "22:59",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 1287,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578449640009&type=32&idx=14&tkn=S6F_N9lBu3GCpoYvw84oKroAjPw&fn=external_8"
+    },
+    {
+      "video_id": "1335174957641",
+      "title_raw": "01x19 - El Capitan Planeta - El agujero de ozono_x264",
+      "duration_raw": "23:01",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 1316,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578405665353&type=32&idx=6&tkn=_ljyS51XCDBG4RfEf9R2XSSjuro&fn=external_8"
+    },
+    {
+      "video_id": "1335176071753",
+      "title_raw": "01x20 - El Capitan Planeta - La destruccion final_x264",
+      "duration_raw": "22:59",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 1409,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578419755593&type=32&idx=11&tkn=nTJHXB5n540MdKbNvambmqcY6bA&fn=external_8"
+    },
+    {
+      "video_id": "1335176006217",
+      "title_raw": "01x21 - El Capitan Planeta - Lleno completo_x264",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 1348,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578419034697&type=32&idx=3&tkn=Cmyt-nfTm4qkfg9A4QqR9wOMkmI&fn=external_8"
+    },
+    {
+      "video_id": "1335173974601",
+      "title_raw": "01x22 - El Capitan Planeta - Mision para salvar a la tierra primera parte_x264",
+      "duration_raw": "23:01",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 2748,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578391050825&type=32&idx=11&tkn=Upoiqlq_j5fjndfQlgtpbuP0gEM&fn=external_8"
+    },
+    {
+      "video_id": "1335174040137",
+      "title_raw": "01x23 - El Capitan Planeta - Mision para salvar a la tierra segunda parte_x264",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 2717,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578391444041&type=32&idx=5&tkn=54PD6XiGpf-fWs92y0DtV1vpL-M&fn=external_8"
+    },
+    {
+      "video_id": "1335174761033",
+      "title_raw": "01x24 - El Capitan Planeta - Dos Futuros primera parte_x264",
+      "duration_raw": "23:00",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 1681,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578401667657&type=32&idx=14&tkn=2FE7OXKSy0UOnGqt4tZDvtx6Ej8&fn=external_8"
+    },
+    {
+      "video_id": "1335174826569",
+      "title_raw": "01x25 - El Capitan Planeta - Dos futuros segunda parte_x264",
+      "duration_raw": "22:58",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 1543,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578402912841&type=32&idx=11&tkn=OdB9A5QKApk1xWRdpd8TWAGWtok&fn=external_8"
+    },
+    {
+      "video_id": "1335177710153",
+      "title_raw": "01x26 - El Capitan Planeta - Ola de Calor_x264",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 1825,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578451475017&type=32&idx=7&tkn=Wuk2MkdGm9jh0YjMMzIFe9kpYe8&fn=external_8"
+    },
+    {
+      "video_id": "1335176727113",
+      "title_raw": "02x01 - El Capitan Planeta - Contaminacion mental_x264",
+      "duration_raw": "22:23",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 3904,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578432469577&type=32&idx=2&tkn=OcjiTI8xHhZ-74Ewlx0-8MwcQic&fn=external_8"
+    },
+    {
+      "video_id": "1335177513545",
+      "title_raw": "02x02 - El Capitan Planeta - El ataque de la basura_x264",
+      "duration_raw": "22:24",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 3034,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578447280713&type=32&idx=0&tkn=CfUcvYbxrguNuZzW-IYTVHPA-vg&fn=external_8"
+    },
+    {
+      "video_id": "1335175350857",
+      "title_raw": "02x03 - El Capitan Planeta - Los domos de la Muerte_x264",
+      "duration_raw": "22:23",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 2837,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578409007689&type=32&idx=14&tkn=-82iieVhKQsN8jRXhlsxvywS69I&fn=external_8"
+    },
+    {
+      "video_id": "1335177579081",
+      "title_raw": "02x04 - El Capitan Planeta - Vico duplicado_x264",
+      "duration_raw": "21:37",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 1525,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578448591433&type=32&idx=1&tkn=Qm0IbLcfAHYU1nfQmRTQjxNFj34&fn=external_8"
+    },
+    {
+      "video_id": "1335175481929",
+      "title_raw": "02x05 - El Capitan Planeta - El depredador_x264",
+      "duration_raw": "22:25",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 1883,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578410646089&type=32&idx=8&tkn=L5aulJLmOq3Wu9dyw58jGMGiP2o&fn=external_8"
+    },
+    {
+      "video_id": "1335177185865",
+      "title_raw": "02x06 - El Capitan Planeta - El arca_x264",
+      "duration_raw": "22:30",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 1350,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578440727113&type=32&idx=0&tkn=Dx4hC10R-pgD5YJcQXiVj5GJlgs&fn=external_8"
+    },
+    {
+      "video_id": "1335177841225",
+      "title_raw": "02x07 - El Capitan Planeta - La isla de la energia solar_x264",
+      "duration_raw": "22:26",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 1407,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578455210569&type=32&idx=8&tkn=uhXC_Q_7XXIiIcufATyYaeoMNa4&fn=external_8"
+    },
+    {
+      "video_id": "1335174105673",
+      "title_raw": "02x08 - El Capitan Planeta - El Destrucctor de Coral_x264",
+      "duration_raw": "22:39",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 1429,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578392164937&type=32&idx=14&tkn=rw2CawAYPHK8aJZlD_S7hB41Diw&fn=external_8"
+    },
+    {
+      "video_id": "1335175875145",
+      "title_raw": "02x09 - El Capitan Planeta - El gran misterio_x264",
+      "duration_raw": "22:13",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 1133,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578417527369&type=32&idx=4&tkn=nn7dY8a_IEXvn8JWveop8ufMx4g&fn=external_8"
+    },
+    {
+      "video_id": "1335177448009",
+      "title_raw": "02x10 - El Capitan Planeta - Un trabajo interno_x264",
+      "duration_raw": "22:22",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 1182,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578446166601&type=32&idx=8&tkn=lwIcKVaHOy4tj4FhSlYgVcStjDI&fn=external_8"
+    },
+    {
+      "video_id": "1335175940681",
+      "title_raw": "02x11 - El Capitan Planeta - Aprendiendo a Leer_x264",
+      "duration_raw": "22:24",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 1448,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578418379337&type=32&idx=2&tkn=Abd2UtcBnR3mjJAqbw2wWbIUnXM&fn=external_8"
+    },
+    {
+      "video_id": "1335174171209",
+      "title_raw": "02x12 - El Capitan Planeta - La gran carrera del desierto_x264",
+      "duration_raw": "22:25",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 1054,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578393410121&type=32&idx=14&tkn=FlGVLOQgvP3L6WD1zvD-rCpGsUM&fn=external_8"
+    },
+    {
+      "video_id": "1335177054793",
+      "title_raw": "02x13 - El Capitan Planeta - Salvando la vida_x264",
+      "duration_raw": "22:23",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 1368,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578438629961&type=32&idx=5&tkn=jdrz0xkC_n8RgJ_VqgcjPhNtFw4&fn=external_8"
+    },
+    {
+      "video_id": "1335176202825",
+      "title_raw": "02x14 - El Capitan Planeta - Polvo estelar_x264",
+      "duration_raw": "22:21",
+      "season_number": 2,
+      "episode_number": 14,
+      "views": 1159,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578421590601&type=32&idx=6&tkn=rLT8dPQ8LBAPDLHWuGzn4RqNyCU&fn=external_8"
+    },
+    {
+      "video_id": "1335175088713",
+      "title_raw": "02x15 - El Capitan Planeta - La linea del auto azul_x264",
+      "duration_raw": "22:14",
+      "season_number": 2,
+      "episode_number": 15,
+      "views": 1499,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578407303753&type=32&idx=10&tkn=TWl9KZ4nVC9iRaEm6B31qp2rhNI&fn=external_8"
+    },
+    {
+      "video_id": "1335176268361",
+      "title_raw": "02x16 - El Capitan Planeta - Aves del Paraiso_x264",
+      "duration_raw": "22:19",
+      "season_number": 2,
+      "episode_number": 16,
+      "views": 993,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578423163465&type=32&idx=4&tkn=Bqs_D1Wa2YCiF53nzGIJfHDVGAs&fn=external_8"
+    },
+    {
+      "video_id": "1335174302281",
+      "title_raw": "02x17 - El Capitan Planeta - Cumbre para salvar a la tierra primera parte_x264",
+      "duration_raw": "22:28",
+      "season_number": 2,
+      "episode_number": 17,
+      "views": 1331,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578394393161&type=32&idx=12&tkn=aB-xftEuV4DyT1uTu4ZTl3Y_V04&fn=external_8"
+    },
+    {
+      "video_id": "1335176792649",
+      "title_raw": "02x18 - El Capitan Planeta - Cumbre para salvar a la tierra segunda parte_x264",
+      "duration_raw": "21:48",
+      "season_number": 2,
+      "episode_number": 18,
+      "views": 1384,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578433714761&type=32&idx=3&tkn=VNvlhNxcCMp1hQ6k_EEgoq52Se0&fn=external_8"
+    },
+    {
+      "video_id": "1335175154249",
+      "title_raw": "02x19 - El Capitan Planeta - Comida Peligrosa_x264",
+      "duration_raw": "22:22",
+      "season_number": 2,
+      "episode_number": 19,
+      "views": 1198,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578407893577&type=32&idx=1&tkn=G7Xk44aTkC-eIC_6w2ke-Ow7EcE&fn=external_8"
+    },
+    {
+      "video_id": "1335175809609",
+      "title_raw": "02x20 - El Capitan Planeta - A twist a fate_x264",
+      "duration_raw": "22:28",
+      "season_number": 2,
+      "episode_number": 20,
+      "views": 971,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578416609865&type=32&idx=6&tkn=lAUZmV9m2YtrJIMHZxryjFiJsd0&fn=external_8"
+    },
+    {
+      "video_id": "1335177382473",
+      "title_raw": "02x21 - El Capitan Planeta - El robo del Arbol_x264",
+      "duration_raw": "22:22",
+      "season_number": 2,
+      "episode_number": 21,
+      "views": 1204,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578444855881&type=32&idx=13&tkn=TZN3tv7UKet3sOf6NjD0jX7wiWw&fn=external_8"
+    },
+    {
+      "video_id": "1335176464969",
+      "title_raw": "02x22 - El Capitan Planeta - La Amazona resplandeciente_x264",
+      "duration_raw": "22:23",
+      "season_number": 2,
+      "episode_number": 22,
+      "views": 1159,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578428537417&type=32&idx=7&tkn=LRKIURD9rREOs3PfB5IW3iP2XCU&fn=external_8"
+    },
+    {
+      "video_id": "1335176661577",
+      "title_raw": "02x23 - El Capitan Planeta - Fuego en el mar_x264",
+      "duration_raw": "22:33",
+      "season_number": 2,
+      "episode_number": 23,
+      "views": 1162,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578431552073&type=32&idx=13&tkn=nvubWtC4X4IzNfaKZD4ZTeLGhd8&fn=external_8"
+    },
+    {
+      "video_id": "1335177251401",
+      "title_raw": "02x24 - El Capitan Planeta - El canal del odio_x264",
+      "duration_raw": "22:24",
+      "season_number": 2,
+      "episode_number": 24,
+      "views": 1047,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578442431049&type=32&idx=9&tkn=M-Fd0W05NWkTXhc8nVCxrr_u6dw&fn=external_8"
+    },
+    {
+      "video_id": "1335174433353",
+      "title_raw": "02x25 - El Capitan Planeta - Salvemos a las Ballenas_x264",
+      "duration_raw": "22:20",
+      "season_number": 2,
+      "episode_number": 25,
+      "views": 1114,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578395769417&type=32&idx=2&tkn=uhyKGflDLjq8MHuP8jjxmtxPNJ4&fn=external_8"
+    },
+    {
+      "video_id": "1335176530505",
+      "title_raw": "02x26 - El Capitan Planeta - Utopia_x264",
+      "duration_raw": "22:30",
+      "season_number": 2,
+      "episode_number": 26,
+      "views": 1108,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578429585993&type=32&idx=11&tkn=nDIMD_HNiibT9HOlUsT6nl2bqoo&fn=external_8"
+    },
+    {
+      "video_id": "1335174498889",
+      "title_raw": "03x01 - El Capitan Planeta - El planeta de la casa verde_x264",
+      "duration_raw": "22:24",
+      "season_number": 3,
+      "episode_number": 1,
+      "views": 2411,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578396752457&type=32&idx=14&tkn=32IB5vb0tNbIPkwXn06-CHCNS7w&fn=external_8"
+    },
+    {
+      "video_id": "1335177120329",
+      "title_raw": "03x02 - El Capitan Planeta - A creep from the deep_x264",
+      "duration_raw": "22:26",
+      "season_number": 3,
+      "episode_number": 2,
+      "views": 1247,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578439481929&type=32&idx=3&tkn=-20xbjeNBSTivURs6_eZUSVW-x4&fn=external_8"
+    },
+    {
+      "video_id": "1335174367817",
+      "title_raw": "03x03 - El Capitan Planeta - El Fulgor Mortal_x264",
+      "duration_raw": "22:22",
+      "season_number": 3,
+      "episode_number": 3,
+      "views": 1470,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578395179593&type=32&idx=6&tkn=7jPexSpw_bm-BXQpyfjht6Sb_JU&fn=external_8"
+    },
+    {
+      "video_id": "1335174892105",
+      "title_raw": "03x04 - El Capitan Planeta - Un mundo perfecto_x264",
+      "duration_raw": "19:21",
+      "season_number": 3,
+      "episode_number": 4,
+      "views": 1432,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578404223561&type=32&idx=12&tkn=IRTD3I4p-molMznNZYD8amPi-wY&fn=external_8"
+    },
+    {
+      "video_id": "1335176137289",
+      "title_raw": "03x05 - El Capitan Planeta - La Maquina de los sueños_x264",
+      "duration_raw": "22:21",
+      "season_number": 3,
+      "episode_number": 5,
+      "views": 1663,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578420804169&type=32&idx=11&tkn=cRDEazI0kcGLE9ZFTfgJEk0iyo4&fn=external_8"
+    },
+    {
+      "video_id": "1335176989257",
+      "title_raw": "03x06 - El Capitan Planeta - Aguas Amargas_x264",
+      "duration_raw": "22:25",
+      "season_number": 3,
+      "episode_number": 6,
+      "views": 1161,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578437646921&type=32&idx=11&tkn=h5ZGzb3ns6Tbw_3ztSOJjCvYqKc&fn=external_8"
+    },
+    {
+      "video_id": "1335174695497",
+      "title_raw": "03x07 - El Capitan Planeta - Animales en experimento_x264",
+      "duration_raw": "21:40",
+      "season_number": 3,
+      "episode_number": 7,
+      "views": 2029,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578401339977&type=32&idx=9&tkn=X4-byiHdt7gMXKIzIcB1ox-E98k&fn=external_8"
+    },
+    {
+      "video_id": "1335174564425",
+      "title_raw": "03x08 - El Capitan Planeta - La maquina del tiempo_x264",
+      "duration_raw": "22:23",
+      "season_number": 3,
+      "episode_number": 8,
+      "views": 1321,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578397669961&type=32&idx=13&tkn=Y_eSF-RSWvK9vn_wY45IQhs35y4&fn=external_8"
+    },
+    {
+      "video_id": "1335174629961",
+      "title_raw": "03x09 - El Capitan Planeta - Caseria Enlatada_x264",
+      "duration_raw": "22:25",
+      "season_number": 3,
+      "episode_number": 9,
+      "views": 947,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578398784073&type=32&idx=6&tkn=BFo38F6NneDWaD25VxL1tRDgd0k&fn=external_8"
+    },
+    {
+      "video_id": "1335175285321",
+      "title_raw": "03x10 - El Capitan Planeta - Casas en la playa_x264",
+      "duration_raw": "22:28",
+      "season_number": 3,
+      "episode_number": 10,
+      "views": 953,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578408483401&type=32&idx=5&tkn=v5FG73WAQUxmJgjg680vBUG116s&fn=external_8"
+    },
+    {
+      "video_id": "1335176923721",
+      "title_raw": "03x11 - El Capitan Planeta - Formula de odio_x264",
+      "duration_raw": "22:22",
+      "season_number": 3,
+      "episode_number": 11,
+      "views": 1374,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578436008521&type=32&idx=8&tkn=ybLCwDR1Ffkvz4ylnQ6BFLDr5sw&fn=external_8"
+    },
+    {
+      "video_id": "1335175678537",
+      "title_raw": "03x12 - El Capitan Planeta - Las 3 bombas_x264",
+      "duration_raw": "22:26",
+      "season_number": 3,
+      "episode_number": 12,
+      "views": 1385,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578413988425&type=32&idx=9&tkn=IBwyFLshbULGKjq9AEMClvMASv4&fn=external_8"
+    },
+    {
+      "video_id": "1335176858185",
+      "title_raw": "03x13 - El Capitan Planeta - La Noche del Lobo_x264",
+      "duration_raw": "22:27",
+      "season_number": 3,
+      "episode_number": 13,
+      "views": 2995,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578434632265&type=32&idx=9&tkn=7YgZvlFjwh9Ql2ew_UPcvdD71eg&fn=external_8"
+    }
+  ]
+}

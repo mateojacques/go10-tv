@@ -1,0 +1,61 @@
+{
+  "title": "Drama Total",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c5051209 c5051465 c5051721 c5051977 c5053257 c5053513",
+  "year": "2007",
+  "studio": "Cartoon N.",
+  "source": "lacartoons Oficial",
+  "quality": "360p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "2587707181641",
+      "title_raw": "23 - Luz, Drama, Acción - [RetroCanal.Net]",
+      "duration_raw": "20:59",
+      "season_number": 2,
+      "episode_number": 23,
+      "views": 766,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8678431066796&type=32&idx=6&tkn=T6y-5OCHlWTPeYEFnAum_Kb-V5o&fn=external_8"
+    },
+    {
+      "video_id": "2587706657353",
+      "title_raw": "26 - Luz, Drama, Acción - [RetroCanal.Net]",
+      "duration_raw": "20:31",
+      "season_number": 2,
+      "episode_number": 26,
+      "views": 1003,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8678430804652&type=32&idx=7&tkn=V4GGOU0WckkxfqWT2bjN-xnXNn0&fn=external_8"
+    },
+    {
+      "video_id": "2588645001801",
+      "title_raw": "04 - Drama Total Todos Estrellas - [RetroCanal.Net]",
+      "duration_raw": "20:29",
+      "season_number": 5,
+      "episode_number": 4,
+      "views": 464,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679217498796&type=32&idx=6&tkn=hvwzvxShVR2U-A46CZEjfYXxziI&fn=external_8"
+    },
+    {
+      "video_id": "2588643756617",
+      "title_raw": "08 - Drama Total Todos Estrellas - [RetroCanal.Net]",
+      "duration_raw": "20:28",
+      "season_number": 5,
+      "episode_number": 8,
+      "views": 480,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679217564332&type=32&idx=7&tkn=1JDgOHnSXmzlXjhCiMkSUx2LU_Y&fn=external_8"
+    },
+    {
+      "video_id": "2588644215369",
+      "title_raw": "09 - Drama Total Isla Pahkitew - [RetroCanal.Net]",
+      "duration_raw": "20:47",
+      "season_number": 6,
+      "episode_number": 1,
+      "views": 443,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679213763244&type=32&idx=11&tkn=RrH10BPr8X3B_BQw1RnY_nEv8Ic&fn=external_8"
+    }
+  ]
+}

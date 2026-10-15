@@ -1,0 +1,835 @@
+{
+  "title": "¿Le Temes a la Oscuridad?",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2258505",
+  "year": "1990",
+  "studio": "Nickelodeon",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Terror",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "1416042187337",
+      "title_raw": "1x01LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 58457,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456986135061&type=32&idx=1&tkn=NiX1okcnS3iMfY0d4IYTIccDGnk&fn=external_8"
+    },
+    {
+      "video_id": "1416042056265",
+      "title_raw": "1x02LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:06",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 21717,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456987118101&type=32&idx=2&tkn=1WtF2wIhg56od69fsg1dPs_mfaw&fn=external_8"
+    },
+    {
+      "video_id": "1416044743241",
+      "title_raw": "1x03LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:06",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 13279,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456987380245&type=32&idx=8&tkn=JSu9GagaRdNNhQ2SljKZ8fS28ZU&fn=external_8"
+    },
+    {
+      "video_id": "1416044874313",
+      "title_raw": "1x04LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "23:37",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 10427,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456985152021&type=32&idx=8&tkn=VF8TuAqdbiLIs-tF3YSMQydgzB4&fn=external_8"
+    },
+    {
+      "video_id": "1416044481097",
+      "title_raw": "1x05LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:02",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 8532,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456987511317&type=32&idx=2&tkn=8zGDEcdHTkVjzR5lDkmAWpYbTfk&fn=external_8"
+    },
+    {
+      "video_id": "1416044350025",
+      "title_raw": "1x06LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "23:47",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 8457,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456988101141&type=32&idx=6&tkn=Ojsrwf4Dw8qMo9yLcSGCogULq0c&fn=external_8"
+    },
+    {
+      "video_id": "1416044087881",
+      "title_raw": "1x07LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:06",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 7338,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456988297749&type=32&idx=3&tkn=QAPDlTxDyA-WyWvHpcFWFZ0bnDw&fn=external_8"
+    },
+    {
+      "video_id": "1416043956809",
+      "title_raw": "1x08LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:06",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 6498,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456986069525&type=32&idx=2&tkn=nIzfEcQ-XutPpHBpFWhmcdHBSjk&fn=external_8"
+    },
+    {
+      "video_id": "1416043825737",
+      "title_raw": "1x09LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:06",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 6106,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456987773461&type=32&idx=8&tkn=00HBaglDE61auY3BjunXUiSvkNs&fn=external_8"
+    },
+    {
+      "video_id": "1416043694665",
+      "title_raw": "1x10LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:06",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 6008,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456987707925&type=32&idx=5&tkn=XNkXxgmQtIteZ6sa07zTgnIkCUc&fn=external_8"
+    },
+    {
+      "video_id": "1416043563593",
+      "title_raw": "1x11LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:07",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 5349,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456988363285&type=32&idx=3&tkn=Pk2AHwz9sF4DWBKJ-YLx9CDYiCs&fn=external_8"
+    },
+    {
+      "video_id": "1416043432521",
+      "title_raw": "1x12LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:37",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 5826,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456986200597&type=32&idx=0&tkn=kySBVDN7iyT7idMDkxiOQCpAlZU&fn=external_8"
+    },
+    {
+      "video_id": "1416044612169",
+      "title_raw": "1x13LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:27",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 5201,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456987249173&type=32&idx=13&tkn=bRg3Yn1Cg97Zjs4kNVedFCvcWJo&fn=external_8"
+    },
+    {
+      "video_id": "1416043301449",
+      "title_raw": "2x01LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "23:52",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 6164,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456988166677&type=32&idx=8&tkn=-rCKyyAHc8ndDkmewnRMXDuReyE&fn=external_8"
+    },
+    {
+      "video_id": "1416043170377",
+      "title_raw": "2x02LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:21",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 4756,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456985479701&type=32&idx=7&tkn=3cA45Ih2AhFzMpqcNBv04glLLJE&fn=external_8"
+    },
+    {
+      "video_id": "1416045005385",
+      "title_raw": "2x03LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:19",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 4866,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456986593813&type=32&idx=3&tkn=kwol2tZe4if6cUsIj1AwQgaVHEc&fn=external_8"
+    },
+    {
+      "video_id": "1416043039305",
+      "title_raw": "2x04LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:19",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 3791,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456986790421&type=32&idx=1&tkn=bjB3_dt9BCN1ozT2R5uHYerAH7M&fn=external_8"
+    },
+    {
+      "video_id": "1416042908233",
+      "title_raw": "2x05LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:20",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 3650,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456988428821&type=32&idx=1&tkn=ezfZpbB2j30WCcLUQE7k2CER-y0&fn=external_8"
+    },
+    {
+      "video_id": "1416042252873",
+      "title_raw": "2x06LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:20",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 3263,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456988035605&type=32&idx=1&tkn=DjSMjgSXir3ATiTZM-gVmma77Js&fn=external_8"
+    },
+    {
+      "video_id": "1416043629129",
+      "title_raw": "2x07LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:20",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 3476,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456988625429&type=32&idx=10&tkn=IPYI73Z0-VgFztUrLNLBXp5ov0Y&fn=external_8"
+    },
+    {
+      "video_id": "1416042121801",
+      "title_raw": "2x08LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:19",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 3214,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456988690965&type=32&idx=8&tkn=iwsdKsW6OVPqNlfuGIxQ2ihhmGg&fn=external_8"
+    },
+    {
+      "video_id": "1416044939849",
+      "title_raw": "2x09LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:19",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 3125,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456987183637&type=32&idx=6&tkn=mVPOvDBBC-TAL-PApaapdKV8Th4&fn=external_8"
+    },
+    {
+      "video_id": "1416043498057",
+      "title_raw": "2x10LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:21",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 3199,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456987642389&type=32&idx=13&tkn=gL9TjB38IKhHEQqvjkVHMgBp5Ng&fn=external_8"
+    },
+    {
+      "video_id": "1416044415561",
+      "title_raw": "2x11LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:23",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 2440,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456988494357&type=32&idx=5&tkn=JbPqg-iui4Iv6ZkEGpr6h-Hnjfg&fn=external_8"
+    },
+    {
+      "video_id": "1416044808777",
+      "title_raw": "2x12LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:19",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 2473,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456985741845&type=32&idx=1&tkn=Nluownkvocm2tl8hTBwAd_KTGts&fn=external_8"
+    },
+    {
+      "video_id": "1416045070921",
+      "title_raw": "2x13LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:19",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 2552,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456986921493&type=32&idx=1&tkn=h7KvSLxEQKoXTBjb3Rf5UG8Bzbk&fn=external_8"
+    },
+    {
+      "video_id": "1416044022345",
+      "title_raw": "3x01LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:22",
+      "season_number": 3,
+      "episode_number": 1,
+      "views": 3715,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456987904533&type=32&idx=2&tkn=PutZ4ov4RlPH7CEJeYvbetL-8pU&fn=external_8"
+    },
+    {
+      "video_id": "1416043891273",
+      "title_raw": "3x02LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:22",
+      "season_number": 3,
+      "episode_number": 2,
+      "views": 3512,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456985938453&type=32&idx=5&tkn=WkH8MCR79CKrYu6Wc1lj-7k4oP0&fn=external_8"
+    },
+    {
+      "video_id": "1416043104841",
+      "title_raw": "3x03LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:22",
+      "season_number": 3,
+      "episode_number": 3,
+      "views": 2790,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456986659349&type=32&idx=5&tkn=EgdyRFL4R2dAM4WP6r80qnj3HUw&fn=external_8"
+    },
+    {
+      "video_id": "1416043235913",
+      "title_raw": "3x04LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:22",
+      "season_number": 3,
+      "episode_number": 4,
+      "views": 2797,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456988822037&type=32&idx=5&tkn=3k5tZ4HTGf9zvHeoGlQ663QkUhk&fn=external_8"
+    },
+    {
+      "video_id": "1416042711625",
+      "title_raw": "3x05LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:19",
+      "season_number": 3,
+      "episode_number": 5,
+      "views": 3560,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456988756501&type=32&idx=3&tkn=-c_F-Msr3FC6ldThnuvf0YiRhz4&fn=external_8"
+    },
+    {
+      "video_id": "1416044153417",
+      "title_raw": "3x06LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:22",
+      "season_number": 3,
+      "episode_number": 6,
+      "views": 2378,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456986266133&type=32&idx=1&tkn=yrFE_D50Y90V5oAPcO1TdLWH0Jc&fn=external_8"
+    },
+    {
+      "video_id": "1416042580553",
+      "title_raw": "3x07LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:20",
+      "season_number": 3,
+      "episode_number": 7,
+      "views": 2421,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456985545237&type=32&idx=6&tkn=srg-DZ5hsGmyuSNjhWk6MFpZW4Y&fn=external_8"
+    },
+    {
+      "video_id": "1416044677705",
+      "title_raw": "3x08LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:22",
+      "season_number": 3,
+      "episode_number": 8,
+      "views": 2409,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456985283093&type=32&idx=4&tkn=4kk0IOUyxH-5xS4EIs4AkrIiH8U&fn=external_8"
+    },
+    {
+      "video_id": "1416044546633",
+      "title_raw": "3x09LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:20",
+      "season_number": 3,
+      "episode_number": 9,
+      "views": 2229,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456986331669&type=32&idx=2&tkn=e9A3KE8-9SzIr1vHpcK05e5U5gM&fn=external_8"
+    },
+    {
+      "video_id": "1416042973769",
+      "title_raw": "3x10LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:20",
+      "season_number": 3,
+      "episode_number": 10,
+      "views": 2566,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456988232213&type=32&idx=11&tkn=YQE8lZLMOtaeaWHr48m9-8RGrSs&fn=external_8"
+    },
+    {
+      "video_id": "1416042449481",
+      "title_raw": "3x11LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:18",
+      "season_number": 3,
+      "episode_number": 11,
+      "views": 2255,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456985348629&type=32&idx=12&tkn=QmkNvYsiw4CJlgy6Eo06X8-cvXw&fn=external_8"
+    },
+    {
+      "video_id": "1416043760201",
+      "title_raw": "3x12LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:20",
+      "season_number": 3,
+      "episode_number": 12,
+      "views": 2799,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456985872917&type=32&idx=13&tkn=E3NTs4_AXVw3jSa5j68lYe1QJtE&fn=external_8"
+    },
+    {
+      "video_id": "1416043366985",
+      "title_raw": "3x13LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:19",
+      "season_number": 3,
+      "episode_number": 13,
+      "views": 1971,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456985414165&type=32&idx=2&tkn=GGHC0lQKcofGl5w5T1KMRQsCfag&fn=external_8"
+    },
+    {
+      "video_id": "1416041925193",
+      "title_raw": "4x01LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:34",
+      "season_number": 4,
+      "episode_number": 1,
+      "views": 2755,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456985217557&type=32&idx=0&tkn=NX5LcxyQmvVXlprHjfCNy_kUxBs&fn=external_8"
+    },
+    {
+      "video_id": "1416041794121",
+      "title_raw": "4x02LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:30",
+      "season_number": 4,
+      "episode_number": 2,
+      "views": 1922,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456997538325&type=32&idx=14&tkn=O7MMC6Aj6g-oaQN7mCn1afFY3sA&fn=external_8"
+    },
+    {
+      "video_id": "1416041990729",
+      "title_raw": "4x03LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:30",
+      "season_number": 4,
+      "episode_number": 3,
+      "views": 2235,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456996162069&type=32&idx=9&tkn=eEHMV2OhjK-NRMCvNcRuS0wWayg&fn=external_8"
+    },
+    {
+      "video_id": "1416041859657",
+      "title_raw": "4x04LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:30",
+      "season_number": 4,
+      "episode_number": 4,
+      "views": 2294,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456997276181&type=32&idx=5&tkn=DDGPw4zubXWvEr1Alm16dF5Yamo&fn=external_8"
+    },
+    {
+      "video_id": "1416042842697",
+      "title_raw": "4x05LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:30",
+      "season_number": 4,
+      "episode_number": 5,
+      "views": 2267,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456996686357&type=32&idx=2&tkn=nkxQB_v2lMtQymD-gWiHGTsv6tM&fn=external_8"
+    },
+    {
+      "video_id": "1416044218953",
+      "title_raw": "4x06LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:31",
+      "season_number": 4,
+      "episode_number": 6,
+      "views": 1803,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456995113493&type=32&idx=7&tkn=RmGH3ryl7HOsUk33DcYJ6iNf3iU&fn=external_8"
+    },
+    {
+      "video_id": "1416042318409",
+      "title_raw": "4x07LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:31",
+      "season_number": 4,
+      "episode_number": 7,
+      "views": 1850,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456996882965&type=32&idx=10&tkn=I679Gu8FIETWjE5bSwtGRzY0DUk&fn=external_8"
+    },
+    {
+      "video_id": "1416042777161",
+      "title_raw": "4x08LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:31",
+      "season_number": 4,
+      "episode_number": 8,
+      "views": 2027,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456995047957&type=32&idx=6&tkn=gOE1RLIjZ9iFJ0jNbX-rnrj8VwY&fn=external_8"
+    },
+    {
+      "video_id": "1416042646089",
+      "title_raw": "4x09LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:30",
+      "season_number": 4,
+      "episode_number": 9,
+      "views": 2369,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456998193685&type=32&idx=7&tkn=WUUVpzF_rSy4j3Fck2LCL4NJqh4&fn=external_8"
+    },
+    {
+      "video_id": "1416042383945",
+      "title_raw": "4x10LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:31",
+      "season_number": 4,
+      "episode_number": 10,
+      "views": 1736,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456997931541&type=32&idx=9&tkn=VkShvYqNN5s12hWGKl4XKWm1JjM&fn=external_8"
+    },
+    {
+      "video_id": "1416042515017",
+      "title_raw": "4x11LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:31",
+      "season_number": 4,
+      "episode_number": 11,
+      "views": 1717,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456995375637&type=32&idx=6&tkn=jEgABkL4NDesX146RvLAO2RO234&fn=external_8"
+    },
+    {
+      "video_id": "1419520510537",
+      "title_raw": "4x12LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:31",
+      "season_number": 4,
+      "episode_number": 12,
+      "views": 1636,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456996948501&type=32&idx=1&tkn=4xjpT5StiWh_gxozwWmRuRPvZk4&fn=external_8"
+    },
+    {
+      "video_id": "1419520379465",
+      "title_raw": "4x13LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:31",
+      "season_number": 4,
+      "episode_number": 13,
+      "views": 1729,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456995637781&type=32&idx=7&tkn=pV-PgqGWbhLq8eah4gSB20AcA0s&fn=external_8"
+    },
+    {
+      "video_id": "1419520641609",
+      "title_raw": "5x01LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:31",
+      "season_number": 5,
+      "episode_number": 1,
+      "views": 2748,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456997669397&type=32&idx=2&tkn=qNrexLzk2r0_rPL5itKxfBwWFK8&fn=external_8"
+    },
+    {
+      "video_id": "1419520576073",
+      "title_raw": "5x02LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:31",
+      "season_number": 5,
+      "episode_number": 2,
+      "views": 1966,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456996030997&type=32&idx=5&tkn=MGLZIm4mUfqDQMpMIKgUwmNlFzY&fn=external_8"
+    },
+    {
+      "video_id": "1419520445001",
+      "title_raw": "5x03LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:31",
+      "season_number": 5,
+      "episode_number": 3,
+      "views": 2093,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456995703317&type=32&idx=13&tkn=m1GUzvDG66fWCij1v2UTZ5LYsoA&fn=external_8"
+    },
+    {
+      "video_id": "1416336837193",
+      "title_raw": "5x04LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:31",
+      "season_number": 5,
+      "episode_number": 4,
+      "views": 1973,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456994720277&type=32&idx=1&tkn=QQ0WEyM5aSmAgILnxCEfCA1u-7Y&fn=external_8"
+    },
+    {
+      "video_id": "1416335788617",
+      "title_raw": "5x05LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:31",
+      "season_number": 5,
+      "episode_number": 5,
+      "views": 1731,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456998128149&type=32&idx=8&tkn=_8-u7KQJjPBA6EswhInM2t3OZKk&fn=external_8"
+    },
+    {
+      "video_id": "1416335854153",
+      "title_raw": "5x06LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:31",
+      "season_number": 5,
+      "episode_number": 6,
+      "views": 1743,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456995965461&type=32&idx=8&tkn=ZuFoClUmtScFBzscpJQYf98HVjk&fn=external_8"
+    },
+    {
+      "video_id": "1416338016841",
+      "title_raw": "5x07LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:31",
+      "season_number": 5,
+      "episode_number": 7,
+      "views": 1559,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456996555285&type=32&idx=11&tkn=2G-a5ARreBtR7Q5kPrFh-nPZi9g&fn=external_8"
+    },
+    {
+      "video_id": "1416337295945",
+      "title_raw": "5x08LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:31",
+      "season_number": 5,
+      "episode_number": 8,
+      "views": 1539,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456996489749&type=32&idx=8&tkn=30ijHs7r7fSDX1tLkBdRVbfBkg8&fn=external_8"
+    },
+    {
+      "video_id": "1416336378441",
+      "title_raw": "5x09LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:31",
+      "season_number": 5,
+      "episode_number": 9,
+      "views": 1560,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456996293141&type=32&idx=6&tkn=1Ic4zMIobCiWDLMDgL9kj09fTXI&fn=external_8"
+    },
+    {
+      "video_id": "1416337099337",
+      "title_raw": "5x10LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:31",
+      "season_number": 5,
+      "episode_number": 10,
+      "views": 1425,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456998324757&type=32&idx=13&tkn=INka_TA-kuHvkuUwFPxbLSA-T5Y&fn=external_8"
+    },
+    {
+      "video_id": "1416336575049",
+      "title_raw": "5x11LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:31",
+      "season_number": 5,
+      "episode_number": 11,
+      "views": 1616,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456998259221&type=32&idx=14&tkn=W7OOCIEVqOULksiQJFr5ls6ZbCg&fn=external_8"
+    },
+    {
+      "video_id": "1416338278985",
+      "title_raw": "5x12LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:31",
+      "season_number": 5,
+      "episode_number": 12,
+      "views": 1514,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456996358677&type=32&idx=11&tkn=y3jf9WuBLRAWrI9rZ5FprqCbu30&fn=external_8"
+    },
+    {
+      "video_id": "1416337754697",
+      "title_raw": "5x13LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:31",
+      "season_number": 5,
+      "episode_number": 13,
+      "views": 1990,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456997407253&type=32&idx=9&tkn=Q20P5Q2cuGMy4i7rAI2Q-Uat5Ss&fn=external_8"
+    },
+    {
+      "video_id": "1416338147913",
+      "title_raw": "6x01LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:20",
+      "season_number": 6,
+      "episode_number": 1,
+      "views": 2178,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456997866005&type=32&idx=3&tkn=aNAe3qYyoxj2U6ZoTCwGPGNAorA&fn=external_8"
+    },
+    {
+      "video_id": "1416336116297",
+      "title_raw": "6x02LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "23:24",
+      "season_number": 6,
+      "episode_number": 2,
+      "views": 1571,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456997603861&type=32&idx=9&tkn=NQZ2mUPSWAaNF4-VTpjsx_jWauY&fn=external_8"
+    },
+    {
+      "video_id": "1416337164873",
+      "title_raw": "6x03LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:21",
+      "season_number": 6,
+      "episode_number": 3,
+      "views": 1413,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456994851349&type=32&idx=7&tkn=aVyQbJYIEBmPpl7w9mCJK8MHNLY&fn=external_8"
+    },
+    {
+      "video_id": "1416337427017",
+      "title_raw": "6x04LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:21",
+      "season_number": 6,
+      "episode_number": 4,
+      "views": 1456,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456995834389&type=32&idx=13&tkn=mqRUWt-Nx5ZETu1I2xGjFpzbYrk&fn=external_8"
+    },
+    {
+      "video_id": "1416338410057",
+      "title_raw": "6x05LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:25",
+      "season_number": 6,
+      "episode_number": 5,
+      "views": 1405,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456998455829&type=32&idx=0&tkn=2lV20Y9FZHJkVxS5K4trRM47J30&fn=external_8"
+    },
+    {
+      "video_id": "1416335985225",
+      "title_raw": "6x06LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:25",
+      "season_number": 6,
+      "episode_number": 6,
+      "views": 1361,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456994982421&type=32&idx=3&tkn=Zl9S1aQcd0Yv2sgZwgGqvyQ-7G8&fn=external_8"
+    },
+    {
+      "video_id": "1416336968265",
+      "title_raw": "6x07LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:25",
+      "season_number": 6,
+      "episode_number": 7,
+      "views": 1312,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456996751893&type=32&idx=6&tkn=gcfEVkXvc170jxXaqlHdcVctgG4&fn=external_8"
+    },
+    {
+      "video_id": "1416337820233",
+      "title_raw": "6x08LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:25",
+      "season_number": 6,
+      "episode_number": 8,
+      "views": 1452,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456997800469&type=32&idx=3&tkn=ym5XAx9cPIMWJv735-hmRinLSqw&fn=external_8"
+    },
+    {
+      "video_id": "1416337558089",
+      "title_raw": "6x09LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:25",
+      "season_number": 6,
+      "episode_number": 9,
+      "views": 1218,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456997145109&type=32&idx=6&tkn=73lsb_U9No1umOi8u0jJE0gNb2I&fn=external_8"
+    },
+    {
+      "video_id": "1416336902729",
+      "title_raw": "6x10LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:25",
+      "season_number": 6,
+      "episode_number": 10,
+      "views": 1259,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456995899925&type=32&idx=11&tkn=exnHw5uJ9B0H4Luv4w4Ci1D3uyg&fn=external_8"
+    },
+    {
+      "video_id": "1416337689161",
+      "title_raw": "6x11LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:25",
+      "season_number": 6,
+      "episode_number": 11,
+      "views": 1257,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456994785813&type=32&idx=8&tkn=5GKsmSbUGMFnZQ65JQ-4VmjTV84&fn=external_8"
+    },
+    {
+      "video_id": "1416337230409",
+      "title_raw": "6x12LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "25:21",
+      "season_number": 6,
+      "episode_number": 12,
+      "views": 1642,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456996817429&type=32&idx=2&tkn=etAAyt_b4ox3VKFFPHpfriEOiMo&fn=external_8"
+    },
+    {
+      "video_id": "1416337951305",
+      "title_raw": "6x13LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:24",
+      "season_number": 6,
+      "episode_number": 13,
+      "views": 1261,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=456995310101&type=32&idx=4&tkn=pGuKtBxi6dWCoU0MIepCF4Z9gFA&fn=external_8"
+    },
+    {
+      "video_id": "1416337623625",
+      "title_raw": "7x01LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:21",
+      "season_number": 7,
+      "episode_number": 1,
+      "views": 2476,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17966519159509&type=32&idx=1&scl=4&tkn=JTjWbYXANm_3dW8NBvUwJ8R-aI8&fn=external_8"
+    },
+    {
+      "video_id": "1416337885769",
+      "title_raw": "7x02LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:21",
+      "season_number": 7,
+      "episode_number": 2,
+      "views": 1644,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17966521125589&type=32&idx=1&scl=4&tkn=IF09lnUqi9FV53gTc8yrbpI5mIE&fn=external_8"
+    },
+    {
+      "video_id": "1416336640585",
+      "title_raw": "7x03LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:21",
+      "season_number": 7,
+      "episode_number": 3,
+      "views": 1491,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17966525188821&type=32&idx=2&scl=4&tkn=KEUnep8615MkK7OJYTcQGNZ8pO8&fn=external_8"
+    },
+    {
+      "video_id": "1416336509513",
+      "title_raw": "7x04LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:21",
+      "season_number": 7,
+      "episode_number": 4,
+      "views": 1579,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17966531742421&type=32&idx=2&scl=4&tkn=eMvvdQRJ6g92CSUxCGjNx5tPiwg&fn=external_8"
+    },
+    {
+      "video_id": "1416336050761",
+      "title_raw": "7x05LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:16",
+      "season_number": 7,
+      "episode_number": 5,
+      "views": 1497,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17966534757077&type=32&idx=2&scl=4&tkn=yNtmIL_c36kSBjP0jzCe3ln5Dgs&fn=external_8"
+    },
+    {
+      "video_id": "1416337492553",
+      "title_raw": "7x06LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:21",
+      "season_number": 7,
+      "episode_number": 6,
+      "views": 1559,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17966541769429&type=32&idx=1&scl=4&tkn=yufUZ0299R7zUqQ7kzG7GWQt5H4&fn=external_8"
+    },
+    {
+      "video_id": "1416336247369",
+      "title_raw": "7x07LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:21",
+      "season_number": 7,
+      "episode_number": 7,
+      "views": 1336,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17966558677717&type=32&idx=2&scl=4&tkn=ew1fZpel0-6M148Pm6KpMdWwDRQ&fn=external_8"
+    },
+    {
+      "video_id": "1416336181833",
+      "title_raw": "7x08LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:21",
+      "season_number": 7,
+      "episode_number": 8,
+      "views": 1337,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17966560381653&type=32&idx=2&scl=4&tkn=XZ0ltPG8FfshDnkQ87nCJuiCRt4&fn=external_8"
+    },
+    {
+      "video_id": "1416338082377",
+      "title_raw": "7x09LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:21",
+      "season_number": 7,
+      "episode_number": 9,
+      "views": 1308,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17966564313813&type=32&idx=1&scl=4&tkn=lXZg6yhFyUDsqTA54nNXOHQvuz4&fn=external_8"
+    },
+    {
+      "video_id": "1416336771657",
+      "title_raw": "7x10LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:16",
+      "season_number": 7,
+      "episode_number": 10,
+      "views": 1309,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17966566410965&type=32&idx=2&scl=4&tkn=iL9kbFUnjx6s_FD5kn9fdeB9m30&fn=external_8"
+    },
+    {
+      "video_id": "1416336706121",
+      "title_raw": "7x11LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:21",
+      "season_number": 7,
+      "episode_number": 11,
+      "views": 1208,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17966570080981&type=32&idx=2&scl=4&tkn=W9DyNvsI1N9-V3qUCcxebw3YLBo&fn=external_8"
+    },
+    {
+      "video_id": "1416337033801",
+      "title_raw": "7x12LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:17",
+      "season_number": 7,
+      "episode_number": 12,
+      "views": 1248,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17966572767957&type=32&idx=2&scl=4&tkn=_gf1826ks9ez0fbB0dmMFyfOSaI&fn=external_8"
+    },
+    {
+      "video_id": "1416335919689",
+      "title_raw": "7x13LTALO-ByMrPunkskap [www.seriesdeMrPunkskap.Blogspot.mx]",
+      "duration_raw": "24:21",
+      "season_number": 7,
+      "episode_number": 13,
+      "views": 2125,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17966575782613&type=32&idx=1&scl=4&tkn=3RX8oyQZ9koIvJgttHpua6fabjY&fn=external_8"
+    }
+  ]
+}

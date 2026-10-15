@@ -1,0 +1,898 @@
+{
+  "title": "Mucha Lucha",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2559305 c2668873",
+  "year": "2002",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "360p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "1547210263113",
+      "title_raw": "1x1 Back To School",
+      "duration_raw": "10:01",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 97785,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663884991049&type=37&idx=2&tkn=5HgF309cr36HHTe2WMpg6BfjbUk&fn=external_8"
+    },
+    {
+      "video_id": "1604277176905",
+      "title_raw": "1x2 Weight Gaining",
+      "duration_raw": "10:32",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 3999,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690706516553&type=32&idx=2&tkn=ucswmNJjuMcYwM76vNJIB19-u8w&fn=external_8"
+    },
+    {
+      "video_id": "1547210394185",
+      "title_raw": "2x1 How Rikochet Got His Move Back",
+      "duration_raw": "11:08",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 39671,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663886105161&type=32&idx=0&tkn=aOZYf-I2-SL5wD6pTZgxzcxK4tQ&fn=external_8"
+    },
+    {
+      "video_id": "1604274424393",
+      "title_raw": "2x2 Heart of Lucha (also known as Big Bad Flea)",
+      "duration_raw": "10:05",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 2796,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690662214217&type=32&idx=7&tkn=jW2ihNFjAMFKKqVSsyzZB3FklzI&fn=external_8"
+    },
+    {
+      "video_id": "1547212425801",
+      "title_raw": "3x1 Woulda Coulda Hasbeena",
+      "duration_raw": "11:08",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 25165,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663911926345&type=32&idx=0&tkn=xS_yYZl7KYR5M0s23CYNK3Mf9rA&fn=external_8"
+    },
+    {
+      "video_id": "1604276914761",
+      "title_raw": "3x2 The Anger of Cindy Slam v2",
+      "duration_raw": "10:01",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 138,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690704026185&type=32&idx=5&tkn=be-kJluv3Ok5-thW8rSPzUNI9C8&fn=external_8"
+    },
+    {
+      "video_id": "1547210656329",
+      "title_raw": "4x1 The Fantastic Backpack v2",
+      "duration_raw": "09:59",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 19404,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663887940169&type=32&idx=2&tkn=vN7s_8marG6cnw34QYmGS5Ep1NQ&fn=external_8"
+    },
+    {
+      "video_id": "1604277373513",
+      "title_raw": "4x2 The Naked and the Masked v2",
+      "duration_raw": "10:00",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 2897,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690708482633&type=32&idx=9&tkn=G-kcslX1PytnKXqOnYW9UJf13v4&fn=external_8"
+    },
+    {
+      "video_id": "1547210525257",
+      "title_raw": "5x1 The Curse of the Masked Toilet v2",
+      "duration_raw": "10:01",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 14995,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663887153737&type=32&idx=5&tkn=cf7zWqAq1koLDdWhGDVLLFlNqD4&fn=external_8"
+    },
+    {
+      "video_id": "1604274883145",
+      "title_raw": "5x2 The Mummy with The Golden Mask v2",
+      "duration_raw": "09:56",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 2399,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690669685321&type=32&idx=3&tkn=SBz3oWI_CyT-sh8hijHu13Qjl9Y&fn=external_8"
+    },
+    {
+      "video_id": "1547212884553",
+      "title_raw": "6x1 Bring Your Dad to Lucha Day",
+      "duration_raw": "09:53",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 12779,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663919004233&type=32&idx=10&tkn=ovWOIS3T46N2G9RvZU78laAZXlU&fn=external_8"
+    },
+    {
+      "video_id": "1604277439049",
+      "title_raw": "6x2 Our Founder v2",
+      "duration_raw": "10:01",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 2439,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690709596745&type=32&idx=6&tkn=JZMQZWkGFKM2lZOkJ528WLcSCg8&fn=external_8"
+    },
+    {
+      "video_id": "1547210787401",
+      "title_raw": "7x1 Tooth or Dare",
+      "duration_raw": "09:55",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 10348,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663889054281&type=32&idx=5&tkn=ke5kozAEax07jj8eqo2i3SN_14w&fn=external_8"
+    },
+    {
+      "video_id": "1604274555465",
+      "title_raw": "7x2 Mask Mitzvah v2",
+      "duration_raw": "09:54",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 2061,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690664311369&type=32&idx=1&tkn=BogoXdo1hlcLWxfTtn_6bhgj0g0&fn=external_8"
+    },
+    {
+      "video_id": "1547210918473",
+      "title_raw": "8x1 Flea's Fighting Fish (also known as A Little Fishy) v2",
+      "duration_raw": "09:55",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 9629,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663890823753&type=32&idx=10&tkn=ns97MSBOnerbR2jRQjfrOwEABhE&fn=external_8"
+    },
+    {
+      "video_id": "1604275538505",
+      "title_raw": "8x2 La Flamencita",
+      "duration_raw": "09:55",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 33,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690680433225&type=32&idx=8&tkn=GgXEeygZ_R-lkUU0uFw3RUGxLQ4&fn=external_8"
+    },
+    {
+      "video_id": "1547212360265",
+      "title_raw": "9x1 Will the Real El Rey Please Stand Up",
+      "duration_raw": "09:54",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 8725,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663911336521&type=32&idx=10&tkn=6OslEXf89JmVwrFlPOTNrVS7-Bo&fn=external_8"
+    },
+    {
+      "video_id": "1604274686537",
+      "title_raw": "9x2 The Musica Man",
+      "duration_raw": "10:04",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 1943,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690666277449&type=32&idx=5&tkn=cE9v1bibxTvOYDdmq54p_9h2SuY&fn=external_8"
+    },
+    {
+      "video_id": "1547212556873",
+      "title_raw": "10x1 Pinball Wizard",
+      "duration_raw": "09:39",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 7835,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663914351177&type=32&idx=5&tkn=iQb2kzV85czbm_7ZPGhs4EbGiOc&fn=external_8"
+    },
+    {
+      "video_id": "1604274358857",
+      "title_raw": "10x2 Not So Buena Girl",
+      "duration_raw": "10:02",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 1893,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690661755465&type=32&idx=9&tkn=ks8TZImwrHzj_-YyTCS11-msSPg&fn=external_8"
+    },
+    {
+      "video_id": "1547212622409",
+      "title_raw": "11x1 Honor Thy Lucha",
+      "duration_raw": "09:54",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 7094,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663915399753&type=32&idx=4&tkn=ed_hDJMTYupRNDBZssz6aRUdAR4&fn=external_8"
+    },
+    {
+      "video_id": "1604273965641",
+      "title_raw": "11x2 Chinche",
+      "duration_raw": "09:53",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 1942,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690653629001&type=32&idx=4&tkn=3BlY4BDL7Wmie4ZIRu3T0mBoR2k&fn=external_8"
+    },
+    {
+      "video_id": "1547213212233",
+      "title_raw": "12x1 Timmy of a Thousand Masks",
+      "duration_raw": "09:53",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 6792,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663923919433&type=32&idx=6&tkn=DRgaIbaSqMERIvh_8C5Atz5fhLA&fn=external_8"
+    },
+    {
+      "video_id": "1604274621001",
+      "title_raw": "12x2 All Creatures Masked and Small",
+      "duration_raw": "09:52",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 1672,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690665294409&type=32&idx=8&tkn=IudwjgEkw43jrWkTdLjYQTWu5jw&fn=external_8"
+    },
+    {
+      "video_id": "1547213015625",
+      "title_raw": "13 Mask Away 480",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 8168,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663921166921&type=32&idx=14&tkn=nFyqXUMcPHPtSppx4PLCH4zTnjU&fn=external_8"
+    },
+    {
+      "video_id": "1547210590793",
+      "title_raw": "14x1 The Man from M.A.S.K",
+      "duration_raw": "09:41",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 5389,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663887350345&type=32&idx=6&tkn=6Cq6SjH-Ac0vkMQe8v7m63gFHSU&fn=external_8"
+    },
+    {
+      "video_id": "1604276390473",
+      "title_raw": "14x2 The Flea's Bueno Twin",
+      "duration_raw": "09:51",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 1687,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690695899721&type=32&idx=5&tkn=LbYB6605IV_pIUORCngIKslNvj0&fn=external_8"
+    },
+    {
+      "video_id": "1547211967049",
+      "title_raw": "15x1 Nightmare on Lucha Street",
+      "duration_raw": "09:46",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 6426,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663906552393&type=32&idx=2&tkn=qqfXLejISVLvGSgij1HxPeSQAqc&fn=external_8"
+    },
+    {
+      "video_id": "1604274162249",
+      "title_raw": "15x2 Revenge of the Masked Toilet",
+      "duration_raw": "09:48",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 1747,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690663262793&type=32&idx=3&tkn=wbi8JoxqeWijKHD14YGhmim659M&fn=external_8"
+    },
+    {
+      "video_id": "1547212294729",
+      "title_raw": "16x1 Calling All Monsters v2",
+      "duration_raw": "09:33",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 4864,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663910877769&type=32&idx=2&tkn=7poCax9ld8byOU0XD0Vuw2DR_i0&fn=external_8"
+    },
+    {
+      "video_id": "1604277045833",
+      "title_raw": "16x2 Pig Out",
+      "duration_raw": "09:33",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 1475,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690705599049&type=32&idx=11&tkn=s9nC-t86AUuIlYkJIl5jO0xJyS4&fn=external_8"
+    },
+    {
+      "video_id": "1547212163657",
+      "title_raw": "17x1 Lone Stars",
+      "duration_raw": "09:36",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 4154,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663908321865&type=32&idx=3&tkn=PCJGrmW0HvgH3Tfm4M64tlL10yI&fn=external_8"
+    },
+    {
+      "video_id": "1604276783689",
+      "title_raw": "17x2 The Littlest Luchadora",
+      "duration_raw": "10:06",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 1739,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690702256713&type=32&idx=6&tkn=zbp08eYeCNQmybEWeP6NmVD9gpc&fn=external_8"
+    },
+    {
+      "video_id": "1547212950089",
+      "title_raw": "18x1 Thrills and Skills (1)",
+      "duration_raw": "09:35",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 5049,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663920380489&type=32&idx=1&tkn=BxPhAFrmG8s6FLxe9EgsgS6Ohag&fn=external_8"
+    },
+    {
+      "video_id": "1604276521545",
+      "title_raw": "18x2 Party Animal (1)",
+      "duration_raw": "09:34",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 2141,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690697275977&type=32&idx=6&tkn=1YbFcZDIM5zVBJKEs__JPWz-4m8&fn=external_8"
+    },
+    {
+      "video_id": "1547212687945",
+      "title_raw": "19x1 Chain of Fools v2",
+      "duration_raw": "09:36",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 4224,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663916513865&type=32&idx=5&tkn=UsghZX4pSGva5jM3QCfwFw62ceY&fn=external_8"
+    },
+    {
+      "video_id": "1604276062793",
+      "title_raw": "19x2 Dances with Bugs v2",
+      "duration_raw": "09:36",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 1589,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690690591305&type=32&idx=14&tkn=SMvv0r-mV2mpPFOEy4IJmdTxOAo&fn=external_8"
+    },
+    {
+      "video_id": "1547210459721",
+      "title_raw": "20x1 Thief of Radishes (a.k.a. You Look Radishing)",
+      "duration_raw": "09:50",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 3426,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663886563913&type=32&idx=3&tkn=wsXZ7aJTcdFdUcQTBm_DhUXeTiE&fn=external_8"
+    },
+    {
+      "video_id": "1604274293321",
+      "title_raw": "20x2 Lucha, Rinse, and Repeat 720",
+      "duration_raw": "09:49",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 1277,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690660706889&type=37&idx=9&tkn=Vv3Dy79Caqif8CHZ3fuSHqOAPnQ&fn=external_8"
+    },
+    {
+      "video_id": "1547210852937",
+      "title_raw": "21x1 French Twisted",
+      "duration_raw": "09:39",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 3694,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663889775177&type=32&idx=0&tkn=NU72xjkDy1jFENlB-B7mGvgTHcQ&fn=external_8"
+    },
+    {
+      "video_id": "1604277242441",
+      "title_raw": "21x2 Hungry Like Los Lobos (a.k.a. Los Lobos de Lucha) v2",
+      "duration_raw": "09:30",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 1602,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690707630665&type=32&idx=5&tkn=060kxJmyQ8FVDk9bqpWJ8PSq-qM&fn=external_8"
+    },
+    {
+      "video_id": "1547213343305",
+      "title_raw": "22x1 War of the Donuts (1)",
+      "duration_raw": "09:45",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 3329,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663926213193&type=32&idx=5&tkn=GIo2kqbyWHZuCpe1GIiwfLWMxNA&fn=external_8"
+    },
+    {
+      "video_id": "1604276128329",
+      "title_raw": "22x2 Show Me the Funny",
+      "duration_raw": "09:33",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 1218,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690691574345&type=32&idx=5&tkn=OaZ06m_UP-v7rK7bdUXFxe53p3k&fn=external_8"
+    },
+    {
+      "video_id": "1547211704905",
+      "title_raw": "23x1 Getting Ahead v2",
+      "duration_raw": "09:36",
+      "season_number": 1,
+      "episode_number": 44,
+      "views": 2790,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663902161481&type=32&idx=14&tkn=7XIBWOc80KhiGxfUMMD26wPK8t4&fn=external_8"
+    },
+    {
+      "video_id": "1604276980297",
+      "title_raw": "23x2 Los Fabulosos",
+      "duration_raw": "09:42",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 1159,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690705074761&type=32&idx=13&tkn=a_xh0o8Qo3SGo9iYLEYCtzwMHgY&fn=external_8"
+    },
+    {
+      "video_id": "1547211115081",
+      "title_raw": "24x1 Meet the muertos 720",
+      "duration_raw": "09:34",
+      "season_number": 1,
+      "episode_number": 46,
+      "views": 3341,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663893838409&type=37&idx=2&tkn=qgNdy_J_0jv3MUASZ0rgtojK_Hs&fn=external_8"
+    },
+    {
+      "video_id": "1604274031177",
+      "title_raw": "24x2 Mask Maker v2",
+      "duration_raw": "09:40",
+      "season_number": 1,
+      "episode_number": 47,
+      "views": 1396,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690655660617&type=32&idx=5&tkn=CtWbsCCsLzuW6zrIAc1XyuNuEow&fn=external_8"
+    },
+    {
+      "video_id": "1547212819017",
+      "title_raw": "25x1 Big Buena Sellout v2",
+      "duration_raw": "09:40",
+      "season_number": 1,
+      "episode_number": 48,
+      "views": 2829,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663917955657&type=32&idx=1&tkn=a0LnqHxUY6u08hicxdC6893EW7M&fn=external_8"
+    },
+    {
+      "video_id": "1604277307977",
+      "title_raw": "25x2 Laying in Ruins v2",
+      "duration_raw": "09:37",
+      "season_number": 1,
+      "episode_number": 49,
+      "views": 1332,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690707892809&type=32&idx=13&tkn=x8_-lafsmP2EKayVjaxgHoUhOik&fn=external_8"
+    },
+    {
+      "video_id": "1547212491337",
+      "title_raw": "26x1 Undercover Flea v2",
+      "duration_raw": "09:25",
+      "season_number": 1,
+      "episode_number": 50,
+      "views": 2677,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663913433673&type=32&idx=11&tkn=mybterrHTJr1U0J26OV-6Ms7Q0g&fn=external_8"
+    },
+    {
+      "video_id": "1604275800649",
+      "title_raw": "26x2 Kid Wombat v2",
+      "duration_raw": "10:01",
+      "season_number": 1,
+      "episode_number": 51,
+      "views": 1277,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690686069321&type=32&idx=11&tkn=XLI_5DBwYzzXgpikiiWE3qslhQg&fn=external_8"
+    },
+    {
+      "video_id": "1547211901513",
+      "title_raw": "27x1 Churro Overload 480x270",
+      "duration_raw": "10:07",
+      "season_number": 1,
+      "episode_number": 52,
+      "views": 3343,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663905372745&type=32&idx=11&tkn=b_5NQYxVJmb_acV2RnbEVyCHoFo&fn=external_8"
+    },
+    {
+      "video_id": "1604276324937",
+      "title_raw": "27x2 Mini Mercado of Doom v2",
+      "duration_raw": "09:31",
+      "season_number": 1,
+      "episode_number": 53,
+      "views": 1257,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690694064713&type=32&idx=5&tkn=ze2JNZ7bH52rB3PI3gzrRtcus_o&fn=external_8"
+    },
+    {
+      "video_id": "1547213539913",
+      "title_raw": "28x1 La Bruja",
+      "duration_raw": "10:19",
+      "season_number": 1,
+      "episode_number": 54,
+      "views": 3139,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663929621065&type=32&idx=2&tkn=_AmKv2zRULdaRslfr01ZMhht9sI&fn=external_8"
+    },
+    {
+      "video_id": "1604276718153",
+      "title_raw": "28x2 El Niño Loco",
+      "duration_raw": "09:17",
+      "season_number": 1,
+      "episode_number": 55,
+      "views": 1215,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690701601353&type=32&idx=14&tkn=W0b52Fi09EHnS-0oIVRzH9HZXGI&fn=external_8"
+    },
+    {
+      "video_id": "1547211835977",
+      "title_raw": "29x1 The Collector Parte 1",
+      "duration_raw": "09:33",
+      "season_number": 1,
+      "episode_number": 56,
+      "views": 2486,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663904848457&type=32&idx=7&tkn=VvIdSi6rENqmJzmEmOJsaQt4iLI&fn=external_8"
+    },
+    {
+      "video_id": "1604276259401",
+      "title_raw": "29x2 The Collector",
+      "duration_raw": "09:30",
+      "season_number": 1,
+      "episode_number": 57,
+      "views": 1144,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690692360777&type=32&idx=7&tkn=hL06ihU1Ny-qS47fZvftBGnDWjU&fn=external_8"
+    },
+    {
+      "video_id": "1547211377225",
+      "title_raw": "30x1 Los Pantalones (a.k.a. The Brat in the Hat)",
+      "duration_raw": "09:45",
+      "season_number": 1,
+      "episode_number": 58,
+      "views": 2709,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663897508425&type=32&idx=13&tkn=xs2T-kf76iTPfZ1hydH0qdtINs0&fn=external_8"
+    },
+    {
+      "video_id": "1604274227785",
+      "title_raw": "30x2 Election Daze",
+      "duration_raw": "09:45",
+      "season_number": 1,
+      "episode_number": 59,
+      "views": 1428,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690659199561&type=32&idx=5&tkn=KjtFsA9X4x1mrQhYntBI-mDqnrg&fn=external_8"
+    },
+    {
+      "video_id": "1547211246153",
+      "title_raw": "31x1 Late Night Lucha",
+      "duration_raw": "10:04",
+      "season_number": 1,
+      "episode_number": 60,
+      "views": 2413,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663895083593&type=32&idx=1&tkn=qXNwBS2WBgZrUYVJ2SwqvqvAxFY&fn=external_8"
+    },
+    {
+      "video_id": "1604276849225",
+      "title_raw": "31x2 Flea al Last",
+      "duration_raw": "09:30",
+      "season_number": 1,
+      "episode_number": 61,
+      "views": 1299,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690703436361&type=32&idx=14&tkn=fA11ifZrOC3G1AoQ0cmV-0FJdhI&fn=external_8"
+    },
+    {
+      "video_id": "1547211573833",
+      "title_raw": "32x1 Flea's Personal Demons",
+      "duration_raw": "10:44",
+      "season_number": 1,
+      "episode_number": 62,
+      "views": 2391,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663900392009&type=32&idx=0&tkn=yHtGBD9Dd1jVAQlUgBWHtvUGT6M&fn=external_8"
+    },
+    {
+      "video_id": "1604274096713",
+      "title_raw": "32x2 Virtual Luchadores",
+      "duration_raw": "10:31",
+      "season_number": 1,
+      "episode_number": 63,
+      "views": 1294,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690658478665&type=32&idx=14&tkn=rOXL-5y3ExrOzOCSi6EMexFRqyY&fn=external_8"
+    },
+    {
+      "video_id": "1547211770441",
+      "title_raw": "33x1 Day of the piñata 720",
+      "duration_raw": "10:11",
+      "season_number": 1,
+      "episode_number": 64,
+      "views": 2452,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663903930953&type=37&idx=14&tkn=-SE1A-UCeUUSyjJeuuJD1WWOwvw&fn=external_8"
+    },
+    {
+      "video_id": "1604274817609",
+      "title_raw": "33x2 Poocha Lucha",
+      "duration_raw": "09:35",
+      "season_number": 1,
+      "episode_number": 65,
+      "views": 1375,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690668898889&type=32&idx=9&tkn=pm-_KL0xel7KIASY-5ys9Zkgbfo&fn=external_8"
+    },
+    {
+      "video_id": "1547211180617",
+      "title_raw": "34x1 Run, Lucha, Run v2",
+      "duration_raw": "10:01",
+      "season_number": 1,
+      "episode_number": 66,
+      "views": 2138,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663894428233&type=32&idx=4&tkn=vKnXdIPnR9XbP75_XdUC-D0LeJI&fn=external_8"
+    },
+    {
+      "video_id": "1604274752073",
+      "title_raw": "34x2 An Epic Tale of Heroes and Donuts",
+      "duration_raw": "09:40",
+      "season_number": 1,
+      "episode_number": 67,
+      "views": 1133,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690668505673&type=32&idx=13&tkn=GPjkj7y3TE8Aefx7wqyqBIMT_KY&fn=external_8"
+    },
+    {
+      "video_id": "1547211049545",
+      "title_raw": "35x1 Attack of the Luchabots-Parte 1",
+      "duration_raw": "10:22",
+      "season_number": 1,
+      "episode_number": 68,
+      "views": 2237,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663892789833&type=32&idx=12&tkn=K5DuA1JIN0q5SnjcRW9dNfu3dlc&fn=external_8"
+    },
+    {
+      "video_id": "1547211508297",
+      "title_raw": "36x1 Buena Basura",
+      "duration_raw": "09:51",
+      "season_number": 1,
+      "episode_number": 69,
+      "views": 2249,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663899408969&type=32&idx=11&tkn=fkks9KI0EF72OrpHlw2tXiC4Ul8&fn=external_8"
+    },
+    {
+      "video_id": "1604275931721",
+      "title_raw": "36x2 Shamrock and Roll",
+      "duration_raw": "09:50",
+      "season_number": 1,
+      "episode_number": 70,
+      "views": 97,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690687576649&type=32&idx=0&tkn=aUjIdv9PcEJT02u8DAkr1DDO9zU&fn=external_8"
+    },
+    {
+      "video_id": "1547213408841",
+      "title_raw": "37x1 The Spider and the Flea",
+      "duration_raw": "09:46",
+      "season_number": 1,
+      "episode_number": 71,
+      "views": 2528,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663927720521&type=32&idx=12&tkn=GE9Qk2K6Jl-jIEkV1oiYlnanAiM&fn=external_8"
+    },
+    {
+      "video_id": "1604275669577",
+      "title_raw": "37x2 The Incredible Penny Plutonium",
+      "duration_raw": "09:47",
+      "season_number": 1,
+      "episode_number": 72,
+      "views": 1428,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690683054665&type=32&idx=3&tkn=PjhXNFX7Qp9FWbI0b_BRqYqwYIY&fn=external_8"
+    },
+    {
+      "video_id": "1547213146697",
+      "title_raw": "38x1 Dare to Lucha",
+      "duration_raw": "09:50",
+      "season_number": 1,
+      "episode_number": 73,
+      "views": 2279,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663922936393&type=37&idx=5&tkn=OV4LK1m3EWTExIIn-9gxFwe7UBU&fn=external_8"
+    },
+    {
+      "video_id": "1604275145289",
+      "title_raw": "38x2 Monkey Business",
+      "duration_raw": "09:50",
+      "season_number": 1,
+      "episode_number": 74,
+      "views": 950,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690673093193&type=32&idx=3&tkn=k-YOoYWD6qhHlr0C0w7O0LrTZJ0&fn=external_8"
+    },
+    {
+      "video_id": "1547210328649",
+      "title_raw": "39x1 Dawn of the. Donuts",
+      "duration_raw": "09:53",
+      "season_number": 1,
+      "episode_number": 75,
+      "views": 2001,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663885384265&type=32&idx=8&tkn=dprzM_lNk6RGdtahnfLMfNmnPnk&fn=external_8"
+    },
+    {
+      "video_id": "1604275014217",
+      "title_raw": "39x2 Yo ho ho and a bottle of horchata",
+      "duration_raw": "09:52",
+      "season_number": 1,
+      "episode_number": 76,
+      "views": 1001,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690670930505&type=32&idx=6&tkn=CZ-BzS0iN8r3HKsG33h3CQbA-WI&fn=external_8"
+    },
+    {
+      "video_id": "1547211311689",
+      "title_raw": "40x1 Banditos de los Muertos 720",
+      "duration_raw": "09:47",
+      "season_number": 1,
+      "episode_number": 77,
+      "views": 3154,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663896656457&type=37&idx=3&tkn=x6N7zucUkLe9WrOXLaaGJ1QWNV4&fn=external_8"
+    },
+    {
+      "video_id": "1604276652617",
+      "title_raw": "40x2 Field of Screams",
+      "duration_raw": "09:47",
+      "season_number": 1,
+      "episode_number": 78,
+      "views": 1253,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690699438665&type=32&idx=3&tkn=yEGp7rOkeTGIXE0tu1uQwF5YgF8&fn=external_8"
+    },
+    {
+      "video_id": "1547212753481",
+      "title_raw": "41x1 Medico Mayhem v2",
+      "duration_raw": "09:51",
+      "season_number": 1,
+      "episode_number": 79,
+      "views": 2029,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663917365833&type=32&idx=3&tkn=G7hhPC65bQCW-SvCi4hrC64KXNU&fn=external_8"
+    },
+    {
+      "video_id": "1604275276361",
+      "title_raw": "41x2 Big Worm",
+      "duration_raw": "09:27",
+      "season_number": 1,
+      "episode_number": 80,
+      "views": 1071,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690674272841&type=32&idx=6&tkn=eaXK86D_QfgjQuHIT8RaMAH_xPs&fn=external_8"
+    },
+    {
+      "video_id": "1547212229193",
+      "title_raw": "42x1 Slamazon and on 720",
+      "duration_raw": "09:44",
+      "season_number": 1,
+      "episode_number": 81,
+      "views": 1927,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663909567049&type=37&idx=4&tkn=Ya-AIwHtpsu9tUyeGvw0W-Mz_wA&fn=external_8"
+    },
+    {
+      "video_id": "1604277111369",
+      "title_raw": "42x2 Buena on Wheels 720",
+      "duration_raw": "09:49",
+      "season_number": 1,
+      "episode_number": 82,
+      "views": 1185,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690706385481&type=37&idx=3&tkn=dn9htiT-3yd_UrbI2qQDATsJ2Ao&fn=external_8"
+    },
+    {
+      "video_id": "1547210721865",
+      "title_raw": "43 A Whole Lotta El Reys-Doomien",
+      "duration_raw": "19:37",
+      "season_number": 1,
+      "episode_number": 83,
+      "views": 1929,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663888529993&type=32&idx=6&tkn=7Ntt_ixt4G4Jo436rhj3asnqZfk&fn=external_8"
+    },
+    {
+      "video_id": "1547211639369",
+      "title_raw": "44x1 I Was a Pre-Teenage Chupacabra v3",
+      "duration_raw": "09:37",
+      "season_number": 1,
+      "episode_number": 84,
+      "views": 1869,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663901571657&type=32&idx=3&tkn=isz-8cvDo_1TN6tzD2OTvFAKZxY&fn=external_8"
+    },
+    {
+      "video_id": "1604275210825",
+      "title_raw": "44x2 Carnival of Masked Terror (1)",
+      "duration_raw": "09:58",
+      "season_number": 1,
+      "episode_number": 85,
+      "views": 69,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690670406217&type=32&idx=0&tkn=GI3bKsAVoXfiq7n4Yr3Jxl-X5Nk&fn=external_8"
+    },
+    {
+      "video_id": "1547213474377",
+      "title_raw": "45x1 My Hairy Knuckles",
+      "duration_raw": "09:49",
+      "season_number": 1,
+      "episode_number": 86,
+      "views": 2024,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663928703561&type=32&idx=9&tkn=jTz1E_Eh77QcyEw0wkG-X79TPnQ&fn=external_8"
+    },
+    {
+      "video_id": "1604275604041",
+      "title_raw": "45x2 Brains Meets Brawn v2",
+      "duration_raw": "09:29",
+      "season_number": 1,
+      "episode_number": 87,
+      "views": 1128,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690682661449&type=32&idx=10&tkn=r9DHMvl8xpOmphW6DVhqOAStwYY&fn=external_8"
+    },
+    {
+      "video_id": "1547212032585",
+      "title_raw": "46 A ¡Mucha Lucha! Christmas (a.k.a. The Match Before Xmas)",
+      "duration_raw": "19:37",
+      "season_number": 1,
+      "episode_number": 88,
+      "views": 2168,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663906945609&type=32&idx=1&tkn=2VL__jpGGRyus1_vDdel2oPM0tU&fn=external_8"
+    },
+    {
+      "video_id": "1547212098121",
+      "title_raw": "47x1 Asphalt of Doom",
+      "duration_raw": "09:39",
+      "season_number": 1,
+      "episode_number": 89,
+      "views": 1915,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663908059721&type=32&idx=13&tkn=M-dY4Dh_cedjXW9iLGNfwY4kft8&fn=external_8"
+    },
+    {
+      "video_id": "1604275735113",
+      "title_raw": "47x2 Hot, Hot, Hot",
+      "duration_raw": "09:56",
+      "season_number": 1,
+      "episode_number": 90,
+      "views": 1297,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690683775561&type=32&idx=8&tkn=vDpdAmglacnmfee5vNg6al1-2h0&fn=external_8"
+    },
+    {
+      "video_id": "1547210984009",
+      "title_raw": "48x1 Getting His Goat",
+      "duration_raw": "09:56",
+      "season_number": 1,
+      "episode_number": 91,
+      "views": 1733,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663891741257&type=32&idx=7&tkn=dpoCbEzFO0lYdnll5pK82reJep4&fn=external_8"
+    },
+    {
+      "video_id": "1604275472969",
+      "title_raw": "48x2 10 rounds of trouble 720",
+      "duration_raw": "09:47",
+      "season_number": 1,
+      "episode_number": 92,
+      "views": 1188,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690679974473&type=37&idx=9&tkn=Z-PiL_Y35nP0Abskvrye4uDBZ7I&fn=external_8"
+    },
+    {
+      "video_id": "1547211442761",
+      "title_raw": "49 The Call of the Mild",
+      "duration_raw": "19:34",
+      "season_number": 1,
+      "episode_number": 93,
+      "views": 1753,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663898163785&type=32&idx=3&tkn=3LM2uOYb6Zidfkj06UtCbkqwy6c&fn=external_8"
+    },
+    {
+      "video_id": "1547213277769",
+      "title_raw": "50x1 Smarticus",
+      "duration_raw": "09:57",
+      "season_number": 1,
+      "episode_number": 94,
+      "views": 1732,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=663925623369&type=32&idx=0&tkn=FJ-_OoPa-I2b2FbP0-5yvOxwcFg&fn=external_8"
+    },
+    {
+      "video_id": "1604275341897",
+      "title_raw": "50x2 Niko Sushi's Happy Battle Funtime Dome 3000!",
+      "duration_raw": "09:41",
+      "season_number": 1,
+      "episode_number": 95,
+      "views": 1158,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690674862665&type=32&idx=3&tkn=4coVdtnVx838-yjOWnk43OiLSOQ&fn=external_8"
+    },
+    {
+      "video_id": "1548418943561",
+      "title_raw": "51x1 Mars Madness",
+      "duration_raw": "09:58",
+      "season_number": 1,
+      "episode_number": 96,
+      "views": 1818,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=664458103369&type=32&idx=13&tkn=fneB-WobSa5zJIJD2jQQFnbUi2k&fn=external_8"
+    },
+    {
+      "video_id": "1604275079753",
+      "title_raw": "51x2 Fears of a Clown 720",
+      "duration_raw": "09:28",
+      "season_number": 1,
+      "episode_number": 97,
+      "views": 2247,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=690671913545&type=37&idx=5&tkn=noQqo0CGzMHYlhbLgQo_QzUciG4&fn=external_8"
+    },
+    {
+      "video_id": "1548418812489",
+      "title_raw": "52 Blue Demon (a.k.a. The Magnificent Three)",
+      "duration_raw": "19:12",
+      "season_number": 1,
+      "episode_number": 98,
+      "views": 2592,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=664456858185&type=32&idx=12&tkn=PsE7DA-cytk6Gjh8nw175pulZD4&fn=external_8"
+    }
+  ]
+}

@@ -1,0 +1,601 @@
+{
+  "title": "Los Cazafantasmas",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2231881",
+  "year": "1986",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "1425396140617",
+      "title_raw": "Episodio 01 - Los Hijos de Los Cazafantasmas (Parte 1).",
+      "duration_raw": "22:28",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 24522,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179318545046&type=32&idx=7&tkn=LfTQBSvjAkTzBuPK5iQpgyJrTCI&fn=external_8"
+    },
+    {
+      "video_id": "1425396861513",
+      "title_raw": "Episodio 02 - Los Hijos de Los Cazafantasmas (Parte 2).",
+      "duration_raw": "22:28",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 4655,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179321756310&type=32&idx=7&tkn=hAuB9fS3hL2Wf_aEus08wktMJTk&fn=external_8"
+    },
+    {
+      "video_id": "1425398696521",
+      "title_raw": "Episodio 03 - Los Hijos de Los Cazafantasmas (Parte 3).",
+      "duration_raw": "22:24",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 2451,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179324443286&type=32&idx=12&tkn=oyTiIsIyl7xAHa3cSu4eNaQlcE8&fn=external_8"
+    },
+    {
+      "video_id": "1425397516873",
+      "title_raw": "Episodio 04 - Los Hijos de Los Cazafantasmas (Parte 4).",
+      "duration_raw": "22:27",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1719,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179325295254&type=32&idx=3&tkn=U1C8TDOzJiKAvneYQXYVxwgX8AM&fn=external_8"
+    },
+    {
+      "video_id": "1425395681865",
+      "title_raw": "Episodio 05 - Los Hijos de Los Cazafantasmas (Parte 5).",
+      "duration_raw": "22:29",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1435,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179326212758&type=32&idx=15&tkn=nD9i2jclQ83t0t1FSYCdQIXv9G0&fn=external_8"
+    },
+    {
+      "video_id": "1425396206153",
+      "title_raw": "Episodio 06 - Estofado de Brujas.",
+      "duration_raw": "22:30",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 2304,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179327392406&type=32&idx=14&tkn=eO2DVVxJtysxHJQZKi_1XEAdfMg&fn=external_8"
+    },
+    {
+      "video_id": "1425396664905",
+      "title_raw": "Episodio 07 - Momia Adorada",
+      "duration_raw": "22:29",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1353,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179327916694&type=32&idx=10&tkn=ryqAkFVfEnAiAFKkfttFtRoGOSA&fn=external_8"
+    },
+    {
+      "video_id": "1425397844553",
+      "title_raw": "Episodio 08 - El Museo de Cera",
+      "duration_raw": "22:28",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1149,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179329424022&type=32&idx=3&tkn=hlQdQt46ENOQAcn4vNwNOaYHkaM&fn=external_8"
+    },
+    {
+      "video_id": "1425396730441",
+      "title_raw": "Episodio 09 - La Estatua de la Libertad",
+      "duration_raw": "22:28",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 853,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179331783318&type=32&idx=8&tkn=pCgWpABG_Dqhq3bNpMKd7l18l58&fn=external_8"
+    },
+    {
+      "video_id": "1425398762057",
+      "title_raw": "Episodio 10 - El Rescate de Eddie Spenser",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 767,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179335256726&type=32&idx=8&tkn=uY81bgY-L7_vMG3Lq6aRPpPEVo4&fn=external_8"
+    },
+    {
+      "video_id": "1425398827593",
+      "title_raw": "Episodio 11 - Eddie Toma el Mando",
+      "duration_raw": "22:27",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 636,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179337484950&type=32&idx=4&tkn=GG32z4acwsmfmY_5fdkyEnCuJwE&fn=external_8"
+    },
+    {
+      "video_id": "1425396992585",
+      "title_raw": "Episodio 12 - El Gran Fastama Gorila",
+      "duration_raw": "22:30",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 780,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179338992278&type=32&idx=9&tkn=3tnwUtReGTUIcLPnkYHR5WXF_Us&fn=external_8"
+    },
+    {
+      "video_id": "1425396271689",
+      "title_raw": "Episodio 13 - Un Amigo en Necesidad",
+      "duration_raw": "22:28",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 620,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179340696214&type=32&idx=6&tkn=TaddOFsAeWhLUudihK8RqX9R0E8&fn=external_8"
+    },
+    {
+      "video_id": "1425398106697",
+      "title_raw": "Episodio 14 - Todos a Nadar.",
+      "duration_raw": "22:27",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 530,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179344431766&type=32&idx=12&tkn=mCQLwoSIioiQUoqAAyPhQKBFEHY&fn=external_8"
+    },
+    {
+      "video_id": "1425395747401",
+      "title_raw": "Episodio 15 - La Buena Accion de Premier el Malvado",
+      "duration_raw": "22:28",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 527,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179347315350&type=32&idx=15&tkn=u7FtLn6SMmEglGCuMLc2ZORAHOg&fn=external_8"
+    },
+    {
+      "video_id": "1425397582409",
+      "title_raw": "Episodio 16 - La Venganza de Cyman",
+      "duration_raw": "22:28",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 513,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179353737878&type=32&idx=4&tkn=sHSFdZh-GLGwxeF63g1mRn6qv9c&fn=external_8"
+    },
+    {
+      "video_id": "1425398565449",
+      "title_raw": "Episodio 17 - El Jinete sin Cabeza",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 691,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179354262166&type=32&idx=9&tkn=xWTa5E2Pto7Ku17THrDHyzEFfqs&fn=external_8"
+    },
+    {
+      "video_id": "1425397254729",
+      "title_raw": "Episodio 18 - Hadas que Ondan",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 432,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179357801110&type=32&idx=9&tkn=68FKE6MkCt3P4mNzeVdHTNZSnu0&fn=external_8"
+    },
+    {
+      "video_id": "1425398630985",
+      "title_raw": "Episodio 19 - Montaña Trufa",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 464,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179361471126&type=32&idx=4&tkn=-_ZxmJHxAPe0yGkG51HXpdgizyc&fn=external_8"
+    },
+    {
+      "video_id": "1425397975625",
+      "title_raw": "Episodio 20 - VampiRata que Lata",
+      "duration_raw": "22:27",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 537,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179363240598&type=32&idx=11&tkn=CXVnJjuVn-T28LgOAqF0lc3802g&fn=external_8"
+    },
+    {
+      "video_id": "1425397058121",
+      "title_raw": "Episodio 21 - El Guerrero del Espejo",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 563,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179364878998&type=32&idx=5&tkn=ZXVz0GV5esIMpu5w1zHlcnrDVsQ&fn=external_8"
+    },
+    {
+      "video_id": "1425397320265",
+      "title_raw": "Episodio 22 - Laser y el Rock del Futuro",
+      "duration_raw": "22:28",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 411,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179366386326&type=32&idx=11&tkn=iPNS431gAFi6Hz1qwCC43fUFvkk&fn=external_8"
+    },
+    {
+      "video_id": "1425397451337",
+      "title_raw": "Episodio 23 - El Tren de la Muerte",
+      "duration_raw": "22:27",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 413,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179367565974&type=32&idx=9&tkn=FDrzMbwTaVEWWb3XQQmaXNNTDPA&fn=external_8"
+    },
+    {
+      "video_id": "1425396337225",
+      "title_raw": "Episodio 24 - Dinosaurios Dinamita",
+      "duration_raw": "22:28",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 457,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179369138838&type=32&idx=4&tkn=WPN67dJ6DpG-UxWc9jE5_UklpYk&fn=external_8"
+    },
+    {
+      "video_id": "1425398368841",
+      "title_raw": "Episodio 25 - Los Cazabobanicones",
+      "duration_raw": "22:27",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 432,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179399678614&type=32&idx=11&tkn=RYNWsCfN9HtxobishKBBAPEHFvA&fn=external_8"
+    },
+    {
+      "video_id": "1425396402761",
+      "title_raw": "Episodio 26 - Mi Presente para el Futuro",
+      "duration_raw": "22:28",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 367,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179400727190&type=32&idx=8&tkn=ESj_JW7M0YVBN003yvRg-HvoAs4&fn=external_8"
+    },
+    {
+      "video_id": "1425396009545",
+      "title_raw": "Episodio 27 -  La Carcacha Malvada",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 412,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179371498134&type=32&idx=2&tkn=9wkiAyIXKi9yWHZcAutL3Sj3ILk&fn=external_8"
+    },
+    {
+      "video_id": "1425396795977",
+      "title_raw": "Episodio 28 - Gracias Vampirin",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 348,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179373857430&type=32&idx=6&tkn=vvq1TKsjhO4rgAGBAJM3pH3qffM&fn=external_8"
+    },
+    {
+      "video_id": "1425398499913",
+      "title_raw": "Episodio 29 - La Batalla del Comando Fantasma",
+      "duration_raw": "22:28",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 321,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179376347798&type=32&idx=15&tkn=cwWs33Oz7RZxXYIBVBOsrd6kkbw&fn=external_8"
+    },
+    {
+      "video_id": "1425395944009",
+      "title_raw": "Episodio 30 - El Conde y el Orangutan",
+      "duration_raw": "22:29",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 333,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179377461910&type=32&idx=7&tkn=3UemKQMVuhg9nsDiZQbpeJ-iQZE&fn=external_8"
+    },
+    {
+      "video_id": "1425398958665",
+      "title_raw": "Episodio 31 - Cazando a Gizmo",
+      "duration_raw": "22:27",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 350,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179378576022&type=32&idx=13&tkn=pcA581AF9baYq_OXJtt91hXFK0A&fn=external_8"
+    },
+    {
+      "video_id": "1425398303305",
+      "title_raw": "Episodio 32 - El Secuestro de Madam Porque",
+      "duration_raw": "22:27",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 307,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179379755670&type=32&idx=12&tkn=NmnQAzEif-O4OMkqdNgU87GbAdA&fn=external_8"
+    },
+    {
+      "video_id": "1425397123657",
+      "title_raw": "Episodio 33 - El Centro de la Tierra",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 301,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179381721750&type=32&idx=15&tkn=DnpoubuMDUSOX9NeN0INMw5qhWQ&fn=external_8"
+    },
+    {
+      "video_id": "1425398041161",
+      "title_raw": "Episodio 34 - El Dragon Durmiente",
+      "duration_raw": "22:27",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 356,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179384343190&type=32&idx=5&tkn=kHz97PLcFP6a68elNsuscWAXEBs&fn=external_8"
+    },
+    {
+      "video_id": "1425397910089",
+      "title_raw": "Episodio 35 - El Fantasma de Nueva York",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 350,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179386374806&type=32&idx=4&tkn=-XPkVFBMH23KSkwequ7_sOxaJ-s&fn=external_8"
+    },
+    {
+      "video_id": "1425395812937",
+      "title_raw": "Episodio 36 - Sombras de Dracula",
+      "duration_raw": "22:27",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 585,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179389848214&type=32&idx=5&tkn=YmWVWr_aeSBvsic8rt_zvQhZA2A&fn=external_8"
+    },
+    {
+      "video_id": "1425396468297",
+      "title_raw": "Episodio 37 - Fugitivo Cautivo",
+      "duration_raw": "22:29",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 372,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179390765718&type=32&idx=15&tkn=ga2mpHwCJGbeawoVUaXtjjgaTHM&fn=external_8"
+    },
+    {
+      "video_id": "1425398434377",
+      "title_raw": "Episodio 38 - Nuestro Amigo Rico",
+      "duration_raw": "22:29",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 291,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179391421078&type=32&idx=14&tkn=y1vN-MKD53vyA6BAXlEHnboaDxw&fn=external_8"
+    },
+    {
+      "video_id": "1425395878473",
+      "title_raw": "Episodio 39 - El Expreso de Oriente A Petronia",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 305,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179392666262&type=32&idx=6&tkn=6W2f5UvW23SY3HIQnpnFkqKsnjA&fn=external_8"
+    },
+    {
+      "video_id": "1425397779017",
+      "title_raw": "Episodio 40 - La Princesa y el Nomo",
+      "duration_raw": "22:27",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 303,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179394239126&type=32&idx=7&tkn=zYW_g_Xe1qxRO0JYHN8vubcSM2Y&fn=external_8"
+    },
+    {
+      "video_id": "1425397647945",
+      "title_raw": "Episodio 41 - Segunda Oportunidad",
+      "duration_raw": "22:28",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 286,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179411344022&type=32&idx=10&tkn=qhNMhOwFohIGd3t_v_O8wp5dyxI&fn=external_8"
+    },
+    {
+      "video_id": "1425397385801",
+      "title_raw": "Episodio 42 - Tracy Vuelve",
+      "duration_raw": "21:29",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 291,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179413965462&type=32&idx=9&tkn=ljofHN_hjUa6uWb32Va_fSZ5A7w&fn=external_8"
+    },
+    {
+      "video_id": "1425398172233",
+      "title_raw": "Episodio 43 - Loberto se Independiza",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 319,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179415734934&type=32&idx=2&tkn=J_AtcGj1vKxn29RUb0Eth2wyP6k&fn=external_8"
+    },
+    {
+      "video_id": "1425396599369",
+      "title_raw": "Episodio 44 - Esto no es Alien",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 44,
+      "views": 295,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179417569942&type=32&idx=15&tkn=XMavvfKl48Pc3IB54zFFjOUvpps&fn=external_8"
+    },
+    {
+      "video_id": "1425398893129",
+      "title_raw": "Episodio 45 - La Nave Espantano",
+      "duration_raw": "22:29",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 291,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179418946198&type=32&idx=15&tkn=mW6NtisPIzannMvVL-IUalan7lA&fn=external_8"
+    },
+    {
+      "video_id": "1425396927049",
+      "title_raw": "Episodio 46 - El Fantasma de Don Quijote",
+      "duration_raw": "22:31",
+      "season_number": 1,
+      "episode_number": 46,
+      "views": 356,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179421436566&type=32&idx=6&tkn=pdYmWr4rlesHeLNIUpdhDC8Qc7g&fn=external_8"
+    },
+    {
+      "video_id": "1425396075081",
+      "title_raw": "Episodio 47 - La Ballena Blanca",
+      "duration_raw": "22:27",
+      "season_number": 1,
+      "episode_number": 47,
+      "views": 379,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179422681750&type=32&idx=14&tkn=ertrf7mEdnQW58f74cA9I491G_Q&fn=external_8"
+    },
+    {
+      "video_id": "1425397713481",
+      "title_raw": "Episodio 48 - El Primo de Vampirin",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 48,
+      "views": 472,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179425303190&type=32&idx=12&tkn=xCuMg8I6yU22mYu6znau58nYjS4&fn=external_8"
+    },
+    {
+      "video_id": "1425398237769",
+      "title_raw": "Episodio 49 - El Caballero del Terror",
+      "duration_raw": "22:27",
+      "season_number": 1,
+      "episode_number": 49,
+      "views": 286,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179427138198&type=32&idx=13&tkn=Og5u5rZFXdtJEpqYyw4206hblAg&fn=external_8"
+    },
+    {
+      "video_id": "1425397189193",
+      "title_raw": "Episodio 50 - Los Vampiros",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 50,
+      "views": 303,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179428186774&type=32&idx=6&tkn=pxRjyJuaXI3V2NAgiux8SFOZ950&fn=external_8"
+    },
+    {
+      "video_id": "1425430415945",
+      "title_raw": "Episodio 51 - El Pequeño Gran Martin",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 51,
+      "views": 321,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179428907670&type=32&idx=8&tkn=vFlc4lcvTsfi2YN9QDRZOcOQFk4&fn=external_8"
+    },
+    {
+      "video_id": "1425431005769",
+      "title_raw": "Episodio 52 - El Molino Embrujado",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 52,
+      "views": 326,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179430546070&type=32&idx=2&tkn=yl66316e4k23RlOGokn7SRN28gU&fn=external_8"
+    },
+    {
+      "video_id": "1425431333449",
+      "title_raw": "Episodio 53 - Los Malos Dias de Ayer",
+      "duration_raw": "22:28",
+      "season_number": 1,
+      "episode_number": 53,
+      "views": 301,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179432774294&type=32&idx=2&tkn=wO-MVYEUFyDGo_Qgw9-WyOwMj6k&fn=external_8"
+    },
+    {
+      "video_id": "1425431071305",
+      "title_raw": "Episodio 54 - La Maldicion del Diamante Gloom",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 54,
+      "views": 299,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179434871446&type=32&idx=2&tkn=mnl2QutO2qtXgEUVN9giBPUf4YI&fn=external_8"
+    },
+    {
+      "video_id": "1425431398985",
+      "title_raw": "Episodio 55 - El Lazo que Ata",
+      "duration_raw": "22:27",
+      "season_number": 1,
+      "episode_number": 55,
+      "views": 367,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179436706454&type=32&idx=6&tkn=zmOO706kYTL9mpy3d82bpbsjyME&fn=external_8"
+    },
+    {
+      "video_id": "1425431267913",
+      "title_raw": "Episodio 56 - De Tal Padre, Tal Hijo",
+      "duration_raw": "21:29",
+      "season_number": 1,
+      "episode_number": 56,
+      "views": 318,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179438017174&type=32&idx=9&tkn=iu4gp58KNyp6juKeYwDsx6Bt8g8&fn=external_8"
+    },
+    {
+      "video_id": "1425430612553",
+      "title_raw": "Episodio 57 - El Cuarto Cazafantasma",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 57,
+      "views": 313,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179439131286&type=32&idx=12&tkn=qEmg5wtIC3eEvMlpUzNekoXV8Is&fn=external_8"
+    },
+    {
+      "video_id": "1425431202377",
+      "title_raw": "Episodio 58 - A donde, Porqueo",
+      "duration_raw": "22:27",
+      "season_number": 1,
+      "episode_number": 58,
+      "views": 316,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179440310934&type=32&idx=11&tkn=ffvnKhQIf8C-Ur-sC4xMKs-FpJc&fn=external_8"
+    },
+    {
+      "video_id": "1425430678089",
+      "title_raw": "Episodio 59 - Una Noche Fria Invernal",
+      "duration_raw": "22:27",
+      "season_number": 1,
+      "episode_number": 59,
+      "views": 322,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179441293974&type=32&idx=8&tkn=G3TxxTWTovkTGzllxVBLXjmdEKE&fn=external_8"
+    },
+    {
+      "video_id": "1425430940233",
+      "title_raw": "Episodio 60 - Dos Generaciones Pueden Mas que Una",
+      "duration_raw": "22:27",
+      "season_number": 1,
+      "episode_number": 60,
+      "views": 350,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179444112022&type=32&idx=5&tkn=SW65Bsd47ljcWiXn_yzYKplPMMg&fn=external_8"
+    },
+    {
+      "video_id": "1425430481481",
+      "title_raw": "Episodio 61 - Regreso Al Pasado",
+      "duration_raw": "22:28",
+      "season_number": 1,
+      "episode_number": 61,
+      "views": 359,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179446209174&type=32&idx=15&tkn=h2WxwKbkgyMbvvzIxKFdgGHedJo&fn=external_8"
+    },
+    {
+      "video_id": "1425430547017",
+      "title_raw": "Episodio 62 - Amigos Imaginarios",
+      "duration_raw": "22:27",
+      "season_number": 1,
+      "episode_number": 62,
+      "views": 315,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179448371862&type=32&idx=5&tkn=NTa0ydOVi0wrDCCUC7eHndAcpOA&fn=external_8"
+    },
+    {
+      "video_id": "1425430874697",
+      "title_raw": "Episodio 63 - La Pintura Embrujada",
+      "duration_raw": "22:27",
+      "season_number": 1,
+      "episode_number": 63,
+      "views": 313,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179449485974&type=32&idx=9&tkn=ag77ra6r72RjqD2aTnRQoBd5RIo&fn=external_8"
+    },
+    {
+      "video_id": "1425431136841",
+      "title_raw": "Episodio 64 - Las Cuevas Malignas",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 64,
+      "views": 352,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179449879190&type=32&idx=3&tkn=QHtA9bXSSl9CUOz165wJPNuCAFo&fn=external_8"
+    },
+    {
+      "video_id": "1425430809161",
+      "title_raw": "Episodio 65 - Me Gustas Como Eres",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 65,
+      "views": 862,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3179450337942&type=32&idx=3&tkn=50jEpHy0haaBFz78khKfomxjEDI&fn=external_8"
+    }
+  ]
+}

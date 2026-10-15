@@ -1,0 +1,700 @@
+{
+  "title": "Kid Músculo",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2268489",
+  "year": "1977",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Superhéroes",
+  "videos": [
+    {
+      "video_id": "1425121086025",
+      "title_raw": "KidMus_001[AnimeMF.net]-angelord",
+      "duration_raw": "23:03",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 20345,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3616393071227&type=32&idx=3&tkn=6m4whl9YYXQmSBYYUGKkJKn5t_Q&fn=external_8"
+    },
+    {
+      "video_id": "1425122200137",
+      "title_raw": "KidMus_002[AnimeMF.net]-angelord",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 7612,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3616395823739&type=32&idx=1&tkn=UZB4y3zuDX3j4XECMu8GfmMpqq8&fn=external_8"
+    },
+    {
+      "video_id": "1425121937993",
+      "title_raw": "KidMus_003[AnimeMF.net]-angelord",
+      "duration_raw": "23:04",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 5800,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932864694923&type=32&idx=6&tkn=jOgLy5xEgjugWtSymP1Wm_RWPJU&fn=external_8"
+    },
+    {
+      "video_id": "1425119906377",
+      "title_raw": "KidMus_004[AnimeMF.net]-angelord",
+      "duration_raw": "22:23",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 5601,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3616442944123&type=32&idx=14&tkn=vtSBqhC-vG3J4uI4dmToU9CRiAc&fn=external_8"
+    },
+    {
+      "video_id": "1425121413705",
+      "title_raw": "KidMus_005[AnimeMF.net]-angelord",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 4854,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3616412928635&type=32&idx=1&tkn=v5P3Z5nCNEWN-CSb2BULCIP-YR0&fn=external_8"
+    },
+    {
+      "video_id": "1425122921033",
+      "title_raw": "KidMus_006[AnimeMF.net]-angelord",
+      "duration_raw": "22:19",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 4035,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932901460619&type=32&idx=4&tkn=ChwuQqpp0K8NHMIDWNVE8DVVbbw&fn=external_8"
+    },
+    {
+      "video_id": "1425123117641",
+      "title_raw": "KidMus_007[AnimeMF.net]-angelord",
+      "duration_raw": "22:12",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 4273,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3616426887803&type=32&idx=4&tkn=sWHRgpcGua_pkIj-pNekQmiMAs0&fn=external_8"
+    },
+    {
+      "video_id": "1425122724425",
+      "title_raw": "KidMus_008[AnimeMF.net]-angelord",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 3849,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3616423021179&type=32&idx=7&tkn=UAzLdcaRe_2_MPkPRo0MhxNFjNQ&fn=external_8"
+    },
+    {
+      "video_id": "1425119775305",
+      "title_raw": "KidMus_009[AnimeMF.net]-angelord",
+      "duration_raw": "22:54",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 3901,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932903557771&type=32&idx=10&tkn=8xsj_1YvghRa1jsBcFcX_prLmco&fn=external_8"
+    },
+    {
+      "video_id": "1425120365129",
+      "title_raw": "KidMus_010[AnimeMF.net]-angelord",
+      "duration_raw": "22:29",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 3884,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3616405850747&type=32&idx=3&tkn=kbWmBoJ8VluYljSBK9vUrHqE-5o&fn=external_8"
+    },
+    {
+      "video_id": "1425122003529",
+      "title_raw": "KidMus_011[AnimeMF.net]-angelord",
+      "duration_raw": "23:37",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 3310,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3616432720507&type=32&idx=15&tkn=LGJJBhXkOxm4JclnyKCh242SFT4&fn=external_8"
+    },
+    {
+      "video_id": "1425122462281",
+      "title_raw": "KidMus_012[AnimeMF.net]-angelord",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 3090,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3616399821435&type=32&idx=9&tkn=WC_DbfgqnKNa9nT6FqCAZ2n7W1Y&fn=external_8"
+    },
+    {
+      "video_id": "1425122789961",
+      "title_raw": "KidMus_013[AnimeMF.net]-angelord",
+      "duration_raw": "23:38",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 3315,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3616421382779&type=32&idx=1&tkn=5sULPucZ6Mp2oorRp12Po1mUAZU&fn=external_8"
+    },
+    {
+      "video_id": "1425121151561",
+      "title_raw": "KidMus_014[AnimeMF.net]-angelord",
+      "duration_raw": "23:38",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 3013,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932918041227&type=32&idx=15&tkn=sGd2LAft0od39dYZXDh835FsvF4&fn=external_8"
+    },
+    {
+      "video_id": "1425120234057",
+      "title_raw": "KidMus_015[AnimeMF.net]-angelord",
+      "duration_raw": "23:38",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 2948,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932831795851&type=32&idx=15&tkn=Kt1D9f0k_tRCkE7zaWz6G1c6tqo&fn=external_8"
+    },
+    {
+      "video_id": "1425122396745",
+      "title_raw": "KidMus_016[AnimeMF.net]-angelord",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 3138,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932800469643&type=32&idx=15&tkn=iAJx26nUOrQ-ggUOHAF0klns9wA&fn=external_8"
+    },
+    {
+      "video_id": "1425120561737",
+      "title_raw": "KidMus_017[AnimeMF.net]-angelord",
+      "duration_raw": "23:38",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 2914,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3616415419003&type=32&idx=15&tkn=E8JKsxLewQl9wzkoApV0p8bNiM4&fn=external_8"
+    },
+    {
+      "video_id": "1425120889417",
+      "title_raw": "KidMus_018[AnimeMF.net]-angelord",
+      "duration_raw": "23:38",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 2775,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932836514443&type=32&idx=15&tkn=Wjr8ZCyQMGOK7buGRzet7ayQ7io&fn=external_8"
+    },
+    {
+      "video_id": "1425121610313",
+      "title_raw": "KidMus_019[AnimeMF.net]-angelord",
+      "duration_raw": "23:38",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 2915,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932806040203&type=32&idx=3&tkn=ePOSIaOSuoxabNgowNqDfUyqPJE&fn=external_8"
+    },
+    {
+      "video_id": "1425121282633",
+      "title_raw": "KidMus_020[AnimeMF.net]-angelord",
+      "duration_raw": "20:54",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 2538,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932812593803&type=32&idx=1&tkn=-L0sVbQnCvWaJpvU_yFlWCxP1Bs&fn=external_8"
+    },
+    {
+      "video_id": "1425122527817",
+      "title_raw": "KidMus_021[AnimeMF.net]-angelord",
+      "duration_raw": "23:38",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 2496,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3616435079803&type=32&idx=15&tkn=ELWoIHrRy8DK9CQBPGpBUgR2Vao&fn=external_8"
+    },
+    {
+      "video_id": "1425122134601",
+      "title_raw": "KidMus_022[AnimeMF.net]-angelord",
+      "duration_raw": "23:38",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 2340,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932820327051&type=32&idx=4&tkn=yJWoibjnfIXLY41HKbpU-JwpEdk&fn=external_8"
+    },
+    {
+      "video_id": "1425121675849",
+      "title_raw": "KidMus_023[AnimeMF.net]-angelord",
+      "duration_raw": "23:38",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 2544,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932921776779&type=32&idx=15&tkn=2t57o0ES-W5OCakjhjShxVAI5Rg&fn=external_8"
+    },
+    {
+      "video_id": "1425121544777",
+      "title_raw": "KidMus_024[AnimeMF.net]-angelord",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 2335,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932923677323&type=32&idx=5&tkn=5kjCaXVfF_SjFpE7o1G9OKA0v8w&fn=external_8"
+    },
+    {
+      "video_id": "1425121741385",
+      "title_raw": "KidMus_025[AnimeMF.net]-angelord",
+      "duration_raw": "23:38",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 2250,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932925381259&type=32&idx=6&tkn=lZngFl9qtMpQw0g1J2EviuIURb0&fn=external_8"
+    },
+    {
+      "video_id": "1425122593353",
+      "title_raw": "KidMus_026[AnimeMF.net]-angelord",
+      "duration_raw": "23:38",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 2629,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3616430361211&type=32&idx=15&tkn=NUrLpQO6MKKWUdr5TLdPT1HvG7M&fn=external_8"
+    },
+    {
+      "video_id": "1425122331209",
+      "title_raw": "KidMus_027[AnimeMF.net]-angelord",
+      "duration_raw": "23:38",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 2555,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932929444491&type=32&idx=6&tkn=it08hSnNcD3XfumvRpUi9FJPLww&fn=external_8"
+    },
+    {
+      "video_id": "1425121217097",
+      "title_raw": "KidMus_028[AnimeMF.net]-angelord",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 2346,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932854864523&type=32&idx=6&tkn=eqhFhCB88CuffoGkAg1aKLVHdAw&fn=external_8"
+    },
+    {
+      "video_id": "1425120823881",
+      "title_raw": "KidMus_029[AnimeMF.net]-angelord",
+      "duration_raw": "23:38",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 2754,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932848966283&type=32&idx=9&tkn=cTFhTquMMsovh_7Cy1DdBJMzatE&fn=external_8"
+    },
+    {
+      "video_id": "1425122658889",
+      "title_raw": "KidMus_030[AnimeMF.net]-angelord",
+      "duration_raw": "23:38",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 2643,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932931476107&type=32&idx=13&tkn=swUOKTExh1Uu4eJ5LnMYzK4Cmcg&fn=external_8"
+    },
+    {
+      "video_id": "1425119971913",
+      "title_raw": "KidMus_031[AnimeMF.net]-angelord",
+      "duration_raw": "23:38",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 2601,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3616440126075&type=32&idx=7&tkn=XVbNh7LSx-1bne0TzJtbMf02uQk&fn=external_8"
+    },
+    {
+      "video_id": "1425120168521",
+      "title_raw": "KidMus_032[AnimeMF.net]-angelord",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 2934,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3616437111419&type=32&idx=7&tkn=sc2PgiAr9lhW5IR79P1FEXRnWSg&fn=external_8"
+    },
+    {
+      "video_id": "1425120692809",
+      "title_raw": "KidMus_033[AnimeMF.net]-angelord",
+      "duration_raw": "23:38",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 2532,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932937702027&type=32&idx=9&tkn=tEaicGxWsNw6hiNLUg9HZ9V1Sq4&fn=external_8"
+    },
+    {
+      "video_id": "1425121479241",
+      "title_raw": "KidMus_034[AnimeMF.net]-angelord",
+      "duration_raw": "23:38",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 2151,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3616418105979&type=32&idx=6&tkn=8n9elxiIp4v62svNYCozgZG8Xwo&fn=external_8"
+    },
+    {
+      "video_id": "1425121020489",
+      "title_raw": "KidMus_035[AnimeMF.net]-angelord",
+      "duration_raw": "21:10",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 2215,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932945631883&type=32&idx=3&tkn=IYQnNeCHRMjE2iNbzH9YXyAkjT8&fn=external_8"
+    },
+    {
+      "video_id": "1425122986569",
+      "title_raw": "KidMus_036[AnimeMF.net]-angelord",
+      "duration_raw": "21:54",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 1939,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3616408930939&type=32&idx=0&tkn=xuAnPJESS4t5TX8H0qs--Fx7i2U&fn=external_8"
+    },
+    {
+      "video_id": "1425120299593",
+      "title_raw": "KidMus_037[AnimeMF.net]-angelord",
+      "duration_raw": "21:16",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 1764,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932940257931&type=32&idx=4&tkn=w0DYAnYx0fUY9NVW851Sk1du7KY&fn=external_8"
+    },
+    {
+      "video_id": "1425119840841",
+      "title_raw": "KidMus_038[AnimeMF.net]-angelord",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 2023,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932940978827&type=32&idx=3&tkn=uBhVMdImJzrJvVdSz6976LhM-No&fn=external_8"
+    },
+    {
+      "video_id": "1425120627273",
+      "title_raw": "KidMus_039[AnimeMF.net]-angelord",
+      "duration_raw": "21:49",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 1692,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932942617227&type=32&idx=11&tkn=J_PMam4fubAuv55CtejWJM_Afmk&fn=external_8"
+    },
+    {
+      "video_id": "1425122069065",
+      "title_raw": "KidMus_040[AnimeMF.net]-angelord",
+      "duration_raw": "21:29",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 1985,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3616427281019&type=32&idx=12&tkn=db3JmRmfh3wHpajOy7Bd69CEMB8&fn=external_8"
+    },
+    {
+      "video_id": "1425120430665",
+      "title_raw": "KidMus_041[AnimeMF.net]-angelord",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 1995,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932868233867&type=32&idx=4&tkn=JhomXaM1RoEILac10UdpnEK8QUM&fn=external_8"
+    },
+    {
+      "video_id": "1425123052105",
+      "title_raw": "KidMus_042[AnimeMF.net]-angelord",
+      "duration_raw": "23:38",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 1968,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932816263819&type=32&idx=3&tkn=yHaC-gfi7_hcmVpLBswspOerrc0&fn=external_8"
+    },
+    {
+      "video_id": "1425120954953",
+      "title_raw": "KidMus_043[AnimeMF.net]-angelord",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 2041,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932951464587&type=32&idx=4&tkn=fKse-AHFsfsmoTbrFbDD8F7WSXs&fn=external_8"
+    },
+    {
+      "video_id": "1425121348169",
+      "title_raw": "KidMus_044[AnimeMF.net]-angelord",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 44,
+      "views": 1951,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932847000203&type=32&idx=8&tkn=geLlY_2b8dqJVZ_gWZmUNs0YihM&fn=external_8"
+    },
+    {
+      "video_id": "1425122855497",
+      "title_raw": "KidMus_045[AnimeMF.net]-angelord",
+      "duration_raw": "23:38",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 1718,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932954086027&type=32&idx=6&tkn=1Brp8p0eLUldHZ09-ejBxfxHaUA&fn=external_8"
+    },
+    {
+      "video_id": "1425122265673",
+      "title_raw": "KidMus_046[AnimeMF.net]-angelord",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 46,
+      "views": 1628,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932958935691&type=32&idx=11&tkn=5IQXUu4NRIOxC6RnmnpTZ5Wl_GE&fn=external_8"
+    },
+    {
+      "video_id": "1425120758345",
+      "title_raw": "KidMus_047[AnimeMF.net]-angelord",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 47,
+      "views": 1975,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932964113035&type=32&idx=15&tkn=cZyjI0pNczk_JYrU6-3mhbX7Bb8&fn=external_8"
+    },
+    {
+      "video_id": "1425120102985",
+      "title_raw": "KidMus_048[AnimeMF.net]-angelord",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 48,
+      "views": 1897,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932962474635&type=32&idx=2&tkn=EeUEseL111oNbBQdR7uUvnY-3Ns&fn=external_8"
+    },
+    {
+      "video_id": "1425121872457",
+      "title_raw": "KidMus_049[AnimeMF.net]-angelord",
+      "duration_raw": "20:56",
+      "season_number": 1,
+      "episode_number": 49,
+      "views": 1774,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932956904075&type=32&idx=4&tkn=mBoIE5Yc7VI9BeFYPQByK16HO8k&fn=external_8"
+    },
+    {
+      "video_id": "1425121806921",
+      "title_raw": "KidMus_050[AnimeMF.net]-angelord",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 50,
+      "views": 1938,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3616410765947&type=32&idx=3&tkn=DGTyq88VA2VGbfQc-DE1F2f10vc&fn=external_8"
+    },
+    {
+      "video_id": "1425314482761",
+      "title_raw": "KidMus_051[AnimeMF.net]-angelord",
+      "duration_raw": "21:30",
+      "season_number": 1,
+      "episode_number": 51,
+      "views": 2094,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932966210187&type=32&idx=11&tkn=vIok48H7yZcURT7UQKAaf5M7Eq4&fn=external_8"
+    },
+    {
+      "video_id": "1425315531337",
+      "title_raw": "KidMus_052[AnimeMF.net]-angelord",
+      "duration_raw": "21:56",
+      "season_number": 1,
+      "episode_number": 52,
+      "views": 1747,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3616409913979&type=32&idx=10&tkn=buQXSLuNxdW8r63ZmqH8OI28v9U&fn=external_8"
+    },
+    {
+      "video_id": "1425314417225",
+      "title_raw": "KidMus_053[AnimeMF.net]-angelord",
+      "duration_raw": "23:39",
+      "season_number": 1,
+      "episode_number": 53,
+      "views": 1552,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932843920011&type=32&idx=9&tkn=OiuVYeDDJZBo5heYcafn_4cCckw&fn=external_8"
+    },
+    {
+      "video_id": "1425315662409",
+      "title_raw": "KidMus_054[AnimeMF.net]-angelord",
+      "duration_raw": "23:39",
+      "season_number": 1,
+      "episode_number": 54,
+      "views": 1523,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932969421451&type=32&idx=15&tkn=cEjoPU90l9_EshlKc7JOQrh_98I&fn=external_8"
+    },
+    {
+      "video_id": "1425314679369",
+      "title_raw": "KidMus_055[AnimeMF.net]-angelord",
+      "duration_raw": "23:37",
+      "season_number": 1,
+      "episode_number": 55,
+      "views": 1446,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932972239499&type=32&idx=6&tkn=JGjx6R-bQ2VJUF5AZT0tE2mNFTI&fn=external_8"
+    },
+    {
+      "video_id": "1425315727945",
+      "title_raw": "KidMus_056[AnimeMF.net]-angelord",
+      "duration_raw": "23:35",
+      "season_number": 1,
+      "episode_number": 56,
+      "views": 1488,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932976761483&type=32&idx=8&tkn=yZL6bVQtfShlLpikL4GhRn0MIBo&fn=external_8"
+    },
+    {
+      "video_id": "1425315334729",
+      "title_raw": "KidMus_057[AnimeMF.net]-angelord",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 57,
+      "views": 1365,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932984822411&type=32&idx=10&tkn=FG_6ZdSL73Igrm1a3FsVvzd4fOw&fn=external_8"
+    },
+    {
+      "video_id": "1425314613833",
+      "title_raw": "KidMus_058[AnimeMF.net]-angelord",
+      "duration_raw": "23:37",
+      "season_number": 1,
+      "episode_number": 58,
+      "views": 1324,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932980562571&type=32&idx=5&tkn=EkF6yOUAEkTfI5hWPcv8TMU-_Zk&fn=external_8"
+    },
+    {
+      "video_id": "1425314810441",
+      "title_raw": "KidMus_059[AnimeMF.net]-angelord",
+      "duration_raw": "23:39",
+      "season_number": 1,
+      "episode_number": 59,
+      "views": 1248,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932974533259&type=32&idx=5&tkn=h--vl_ElP7vdRfngifMZkfad1mA&fn=external_8"
+    },
+    {
+      "video_id": "1425315007049",
+      "title_raw": "KidMus_060[AnimeMF.net]-angelord",
+      "duration_raw": "23:35",
+      "season_number": 1,
+      "episode_number": 60,
+      "views": 1345,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932987509387&type=32&idx=2&tkn=GjUQJc8SqIw4UtGBBucKBc629rM&fn=external_8"
+    },
+    {
+      "video_id": "1425315400265",
+      "title_raw": "KidMus_061[AnimeMF.net]-angelord",
+      "duration_raw": "23:37",
+      "season_number": 1,
+      "episode_number": 61,
+      "views": 1309,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932839987851&type=32&idx=15&tkn=_0TvHLCbD2vGyKFhppYUk5dXgwc&fn=external_8"
+    },
+    {
+      "video_id": "1425315138121",
+      "title_raw": "KidMus_062[AnimeMF.net]-angelord",
+      "duration_raw": "23:37",
+      "season_number": 1,
+      "episode_number": 62,
+      "views": 1251,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3616404081275&type=32&idx=6&tkn=2nYsa1i5ZC_Is8-BzpJj03salDo&fn=external_8"
+    },
+    {
+      "video_id": "1425314286153",
+      "title_raw": "KidMus_063[AnimeMF.net]-angelord",
+      "duration_raw": "23:37",
+      "season_number": 1,
+      "episode_number": 63,
+      "views": 1310,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932989999755&type=32&idx=15&tkn=WLGacbBjK-Dfomts-g-0si3S6GQ&fn=external_8"
+    },
+    {
+      "video_id": "1425314875977",
+      "title_raw": "KidMus_064[AnimeMF.net]-angelord",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 64,
+      "views": 1339,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932863384203&type=32&idx=12&tkn=s6Ly7KFmn27hfhTuxbYKapEjds8&fn=external_8"
+    },
+    {
+      "video_id": "1425315596873",
+      "title_raw": "KidMus_065[AnimeMF.net]-angelord",
+      "duration_raw": "23:37",
+      "season_number": 1,
+      "episode_number": 65,
+      "views": 1231,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932996618891&type=32&idx=8&tkn=4oUeIrpeYAPDOYU0TGMxvfV-bZM&fn=external_8"
+    },
+    {
+      "video_id": "1425315465801",
+      "title_raw": "KidMus_066[AnimeMF.net]-angelord",
+      "duration_raw": "23:39",
+      "season_number": 1,
+      "episode_number": 66,
+      "views": 1158,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7933018049163&type=32&idx=3&tkn=f1Q4w2IZ_k2Jg3BtuByNZxoFIR4&fn=external_8"
+    },
+    {
+      "video_id": "1425314220617",
+      "title_raw": "KidMus_067[AnimeMF.net]-angelord",
+      "duration_raw": "23:39",
+      "season_number": 1,
+      "episode_number": 67,
+      "views": 1403,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7933011692171&type=32&idx=7&tkn=SSUxixFcPJP_RQnsNj57hjuUJ-w&fn=external_8"
+    },
+    {
+      "video_id": "1425315269193",
+      "title_raw": "KidMus_069[AnimeMF.net]-angelord",
+      "duration_raw": "23:39",
+      "season_number": 1,
+      "episode_number": 69,
+      "views": 1391,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7933015165579&type=32&idx=1&tkn=5Cey_Ngb1oX5i6LUJtRgF4t0h0I&fn=external_8"
+    },
+    {
+      "video_id": "1425314744905",
+      "title_raw": "KidMus_070[AnimeMF.net]-angelord",
+      "duration_raw": "23:39",
+      "season_number": 1,
+      "episode_number": 70,
+      "views": 1430,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7933009332875&type=32&idx=15&tkn=W2lgGuewel-HMhzN7IwTLCEwkOE&fn=external_8"
+    },
+    {
+      "video_id": "1425315203657",
+      "title_raw": "KidMus_071[AnimeMF.net]-angelord",
+      "duration_raw": "23:39",
+      "season_number": 1,
+      "episode_number": 71,
+      "views": 1326,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932851587723&type=32&idx=5&tkn=SttOyIhTH8Vz8FpJ49d07WnP1F8&fn=external_8"
+    },
+    {
+      "video_id": "1425314024009",
+      "title_raw": "KidMus_072[AnimeMF.net]-angelord",
+      "duration_raw": "23:38",
+      "season_number": 1,
+      "episode_number": 72,
+      "views": 1799,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7933021391499&type=32&idx=12&tkn=eUIDrpzsHm7LhUSyLjYBiM4MHMA&fn=external_8"
+    },
+    {
+      "video_id": "1425314548297",
+      "title_raw": "KidMus_073[AnimeMF.net]-angelord",
+      "duration_raw": "23:39",
+      "season_number": 1,
+      "episode_number": 73,
+      "views": 1714,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7932858075787&type=32&idx=10&tkn=y8UHer6pNejexDv9_PhAn7ewKSc&fn=external_8"
+    },
+    {
+      "video_id": "1425314351689",
+      "title_raw": "KidMus_074[AnimeMF.net]-angelord",
+      "duration_raw": "21:50",
+      "season_number": 1,
+      "episode_number": 74,
+      "views": 1683,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7933023423115&type=32&idx=13&tkn=p4VWLAcyAfqNCwwopQMnVWvAX2U&fn=external_8"
+    },
+    {
+      "video_id": "1425315072585",
+      "title_raw": "KidMus_075[AnimeMF.net]-angelord",
+      "duration_raw": "23:39",
+      "season_number": 1,
+      "episode_number": 75,
+      "views": 1616,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3616431344251&type=32&idx=1&tkn=GxL_GCKmLiOQFLKkw4CEx4QVO08&fn=external_8"
+    },
+    {
+      "video_id": "1425314941513",
+      "title_raw": "KidMus_076[AnimeMF.net]-angelord",
+      "duration_raw": "20:36",
+      "season_number": 1,
+      "episode_number": 76,
+      "views": 1799,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3616435735163&type=32&idx=4&tkn=fK_pjPhRNJXOP_g8zF3mvsAZKPA&fn=external_8"
+    },
+    {
+      "video_id": "1425314089545",
+      "title_raw": "KidMus_077[AnimeMF.net]-angelord",
+      "duration_raw": "21:24",
+      "season_number": 1,
+      "episode_number": 77,
+      "views": 3869,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7933027617419&type=32&idx=3&tkn=HtY4Xvjhw6dd37HHwWVWd9cl038&fn=external_8"
+    }
+  ]
+}

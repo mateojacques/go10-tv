@@ -1,0 +1,250 @@
+{
+  "title": "Las Aventuras de Pippi Calzaslargas",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c3325001",
+  "year": "1997",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "1814009154121",
+      "title_raw": "Pippi Longstocking - S01E01 - Pippi Returns to Villa Villekulla_mpeg4",
+      "duration_raw": "24:17",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 5476,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=803115829833&type=32&idx=7&tkn=_thoRY1ff7FH2Bi1IS2chA6NWPk&fn=external_8"
+    },
+    {
+      "video_id": "1814010858057",
+      "title_raw": "Pippi Longstocking - S01E02 - Pippi Entertains Two Burglars_mpeg4",
+      "duration_raw": "24:17",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 1752,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=803203385929&type=32&idx=5&tkn=v7qvpEPlFGS91tWyIax_rhD6-9M&fn=external_8"
+    },
+    {
+      "video_id": "1814010792521",
+      "title_raw": "Pippi Longstocking - S01E03 - Pippi Doesn-t Sell Her House_mpeg4",
+      "duration_raw": "24:17",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1048,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=803199584841&type=32&idx=6&tkn=lRvqr0coQeZQuYqFy9RTG01P6Qc&fn=external_8"
+    },
+    {
+      "video_id": "1814010137161",
+      "title_raw": "Pippi Longstocking - S01E04 - Pippi Goes Up in a Balloon _mpeg4",
+      "duration_raw": "24:17",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 977,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=803169110601&type=32&idx=14&tkn=1ZqD9GBccXgrQmDJy9z5G5eItv8&fn=external_8"
+    },
+    {
+      "video_id": "1814010268233",
+      "title_raw": "Pippi Longstocking - S01E05 - Pippi Goes to the South Seas_mpeg4",
+      "duration_raw": "24:17",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 659,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=803176254025&type=32&idx=8&tkn=eR_aM7wB83MsDCQXV-FfBQkmgJ4&fn=external_8"
+    },
+    {
+      "video_id": "1814009678409",
+      "title_raw": "Pippi Longstocking - S01E06 - Pippi Meets Some Pearl Poachers _mpeg4",
+      "duration_raw": "24:17",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 639,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=803140143689&type=32&idx=10&tkn=9x6pWTaSLzGf1t72IJkhpo3Hvs4&fn=external_8"
+    },
+    {
+      "video_id": "1814010661449",
+      "title_raw": "Pippi Longstocking - S01E07 - Pippi Goes Home _mpeg4",
+      "duration_raw": "24:17",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 596,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=803187329609&type=32&idx=8&tkn=wms9c3WNXogJjEiOUPi_81-pmZY&fn=external_8"
+    },
+    {
+      "video_id": "1814009743945",
+      "title_raw": "Pippi Longstocking - S01E08 - Pippi Enters the Big Race _mpeg4",
+      "duration_raw": "24:17",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 536,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=803143748169&type=32&idx=1&tkn=yQtwrvptzsOaB0QKLXHnpyAD-ec&fn=external_8"
+    },
+    {
+      "video_id": "1814009481801",
+      "title_raw": "Pippi Longstocking - S01E09 - Pippi Enters a Horse Show_mpeg4",
+      "duration_raw": "24:17",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 690,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=803129461321&type=32&idx=7&tkn=nXr_xjs0F4k8cMBJqLIsRcblKFM&fn=external_8"
+    },
+    {
+      "video_id": "1814010464841",
+      "title_raw": "Pippi Longstocking - S01E10 - Pippi Meets a Master Criminal _mpeg4",
+      "duration_raw": "24:17",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 491,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=803182938697&type=32&idx=8&tkn=tUR_iACIlxidxYUQN0yZlLo5SEQ&fn=external_8"
+    },
+    {
+      "video_id": "1814010006089",
+      "title_raw": "Pippi Longstocking - S01E11 - Pippi Is Shipwrecked _mpeg4",
+      "duration_raw": "24:16",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 553,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=803160459849&type=32&idx=10&tkn=PuCazhTv6foeXY1JvcLANLGGgBo&fn=external_8"
+    },
+    {
+      "video_id": "1814009219657",
+      "title_raw": "Pippi Longstocking - S01E12 - Pippi Saves the Old Folks Home _mpeg4",
+      "duration_raw": "24:17",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 505,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=803119303241&type=32&idx=0&tkn=gSmPv1h5uPi8-1c32oCJB3oGFwQ&fn=external_8"
+    },
+    {
+      "video_id": "1814009875017",
+      "title_raw": "Pippi Longstocking - S01E13 - Pippi Goes to the Fair _mpeg4",
+      "duration_raw": "24:16",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 557,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=803152136777&type=32&idx=14&tkn=9fR6MjDwK9bW1g7BsOP_R_OrouI&fn=external_8"
+    },
+    {
+      "video_id": "1814009547337",
+      "title_raw": "Pippi Longstocking - S02E01 - Pippi-s Christmas _mpeg4",
+      "duration_raw": "24:16",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 636,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=803132672585&type=32&idx=10&tkn=9zM47BQgSnu17ywZaB19kPgKg6A&fn=external_8"
+    },
+    {
+      "video_id": "1814009809481",
+      "title_raw": "Pippi Longstocking - S02E02 - Pippi Doesn-t Want to Grow Up _mpeg4",
+      "duration_raw": "24:16",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 547,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=803147352649&type=32&idx=11&tkn=99bxts6M3YNZ2x0Ff7U34RpNj-Q&fn=external_8"
+    },
+    {
+      "video_id": "1814009350729",
+      "title_raw": "Pippi Longstocking - S02E03 - Pippi Doesn-t Go to School _mpeg4",
+      "duration_raw": "24:17",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 534,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=803123235401&type=32&idx=3&tkn=HGvvVzQkr_Y9mUI9GH7K96WWSok&fn=external_8"
+    },
+    {
+      "video_id": "1814009416265",
+      "title_raw": "Pippi Longstocking - S02E04 - Pippi Goes Up North _mpeg4",
+      "duration_raw": "24:16",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 614,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=803126708809&type=32&idx=10&tkn=SmayP9twU69vPboGCouJ1JY3DNU&fn=external_8"
+    },
+    {
+      "video_id": "1814009940553",
+      "title_raw": "Pippi Longstocking - S02E05 - Pippi Saves the Whales... Again _mpeg4",
+      "duration_raw": "24:16",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 478,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=803155741257&type=32&idx=5&tkn=Za5Hmt6krEA4y9i8AgTgIulRNV0&fn=external_8"
+    },
+    {
+      "video_id": "1814010071625",
+      "title_raw": "Pippi Longstocking - S02E06 - Pippi Goes to School... Or Does She_mpeg4",
+      "duration_raw": "24:16",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 437,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=803164850761&type=32&idx=12&tkn=ScV2d4PJdNqFOSIo7WSFFPuR5co&fn=external_8"
+    },
+    {
+      "video_id": "1814010202697",
+      "title_raw": "Pippi Longstocking - S02E07 - Pippi Trains Some Animals... and Their Owner _mpeg4",
+      "duration_raw": "24:16",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 511,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=803172846153&type=32&idx=10&tkn=8-0_7gRMP_KUxPzVgkPQ9M_ydyU&fn=external_8"
+    },
+    {
+      "video_id": "1814010333769",
+      "title_raw": "Pippi Longstocking - S02E08 - Pippi Meets the White Lady _mpeg4",
+      "duration_raw": "24:16",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 446,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=803179792969&type=32&idx=0&tkn=uRXF9BT8yFVFUycxHjoAhEZop1I&fn=external_8"
+    },
+    {
+      "video_id": "1814010595913",
+      "title_raw": "Pippi Longstocking - S02E09 - Pippi Finds a Mysterious Footprint _mpeg4",
+      "duration_raw": "24:16",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 483,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=803191196233&type=32&idx=13&tkn=HtTxu8j1V-0zO26xUSgIDakVG7E&fn=external_8"
+    },
+    {
+      "video_id": "1814010726985",
+      "title_raw": "Pippi Longstocking - S02E10 - Pippi Enters a Flower Show _mpeg4",
+      "duration_raw": "24:16",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 456,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=803195390537&type=32&idx=4&tkn=7RZqeX26Yn5FOCORikKuIMMOk_Y&fn=external_8"
+    },
+    {
+      "video_id": "1814010923593",
+      "title_raw": "Pippi Longstocking - S02E11 - Pippi Visits Aunt Matilda _mpeg4",
+      "duration_raw": "24:16",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 439,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=803207252553&type=32&idx=12&tkn=PGEIis_2_BGIdhRg3zSnjQNmJl4&fn=external_8"
+    },
+    {
+      "video_id": "1814010989129",
+      "title_raw": "Pippi Longstocking - S02E12 - Pippi and the Carpenter_mpeg4",
+      "duration_raw": "24:16",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 700,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=803210332745&type=32&idx=5&tkn=UAiuO1JzfLy053Vfm046uw2GNok&fn=external_8"
+    },
+    {
+      "video_id": "1814009612873",
+      "title_raw": "Pippi Longstocking - S02E13 - Pippi Takes a Train Ride _mpeg4",
+      "duration_raw": "24:16",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 803,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=803136080457&type=32&idx=12&tkn=BsPuvMYOQXR90a-uVCvU2ty2Ujk&fn=external_8"
+    }
+  ]
+}

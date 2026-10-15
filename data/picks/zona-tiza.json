@@ -1,0 +1,322 @@
+{
+  "title": "Zona Tiza",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c3541577",
+  "year": "2000",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "720p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Infantil",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "1868587928137",
+      "title_raw": "1x5_5 Snap en el Mundo Real_Dos Pies Izquierdo_Rudus Tabootus_All Day Jam #5",
+      "duration_raw": "23:26",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 14206,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835484715593&type=37&idx=6&tkn=rb8xpAnyTa5aAMGmnA_tS6udBhY&fn=external_8"
+    },
+    {
+      "video_id": "1868588059209",
+      "title_raw": "2x1_7_Un Intruso en Zona Tiza_Una Niña Traviesa_Snap Super Heroe_I'm Back & Bluer Than Ever #7",
+      "duration_raw": "23:36",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 4329,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835491924553&type=37&idx=11&tkn=b5U2nmWfCucW-CY9_LGvjj96QNg&fn=external_8"
+    },
+    {
+      "video_id": "1868587993673",
+      "title_raw": "2x2_8_Truco de Magia_Portal Portatil_Snap, el guia_Making Faces #8",
+      "duration_raw": "23:36",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 2807,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835488778825&type=37&idx=12&tkn=NYNFWFCS0MuWSLr6I_cRicaOh5s&fn=external_8"
+    },
+    {
+      "video_id": "1868586355273",
+      "title_raw": "2x3_9_Desechos en Zona Tiza_El Alocado Snap_Cual es mi linea_Putting on the Dog #9",
+      "duration_raw": "23:36",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 1795,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835410528841&type=37&idx=11&tkn=LqcRz44grkfRjY4-VfRUoMBwG3Q&fn=external_8"
+    },
+    {
+      "video_id": "1868587600457",
+      "title_raw": "2x4_10_Un Corazon Roto_La Casa soñada de Snap_El Baile de las Tomas de Agua_There You Are #10",
+      "duration_raw": "23:36",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 2044,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835470756425&type=37&idx=8&tkn=xZehIHw2WVJzkrJmq7DZ2DcuMGw&fn=external_8"
+    },
+    {
+      "video_id": "1868587469385",
+      "title_raw": "2x5_11_Un Corazon Roto_La Casa soñada de Snap_El Baile de las Tomas de Agua_There You Are #10",
+      "duration_raw": "23:36",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 2003,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835463088713&type=37&idx=8&tkn=htc6-eHPNl6-39tg_bnuoV7jjGs&fn=external_8"
+    },
+    {
+      "video_id": "1868586224201",
+      "title_raw": "2x7_13_Amor de Calabaza_Galletas Locas_Irresistible_Please Let Me In #13",
+      "duration_raw": "23:36",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 2863,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835406727753&type=37&idx=8&tkn=5vNppAMRiVpmHit3MC44oyMSzOY&fn=external_8"
+    },
+    {
+      "video_id": "1868586945097",
+      "title_raw": "2x8_14_Reina de la Tiza_El Secreto de Cleo_Los Deseos de Snap_Chunky #14",
+      "duration_raw": "23:31",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 1285,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835434777161&type=37&idx=9&tkn=0nqN4-47qe1mBrPnw8QbSvW5BQc&fn=external_8"
+    },
+    {
+      "video_id": "1868587731529",
+      "title_raw": "3x1_15_Dibuja y Deja Diujar_La Torre Wilter_El Estreno de Rapsheeba_Flashlight #15",
+      "duration_raw": "23:31",
+      "season_number": 3,
+      "episode_number": 1,
+      "views": 1356,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835476195913&type=37&idx=13&tkn=tDQHcir953gbkuAwR_qbWqH8Fzc&fn=external_8"
+    },
+    {
+      "video_id": "1868588190281",
+      "title_raw": "3x2_16_Glaciar de Goma de Mascar_Siguiendo la Mochila_Notas Nocturnas_Dream a Lotta Dreams #16",
+      "duration_raw": "23:31",
+      "season_number": 3,
+      "episode_number": 2,
+      "views": 1665,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835497495113&type=37&idx=13&tkn=er8nolifMrbnB-KATLpzlA4HKEU&fn=external_8"
+    },
+    {
+      "video_id": "1868588321353",
+      "title_raw": "3x3_17_Perdido en la Zona Tiza_Dormido en la Zona Tiza_Si No Puedes Contra Ellos, Cometelos_Scat #17",
+      "duration_raw": "23:32",
+      "season_number": 3,
+      "episode_number": 3,
+      "views": 1510,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835502410313&type=37&idx=10&tkn=HBx0_YvdrmZp_Hdu13JEl43cuO8&fn=external_8"
+    },
+    {
+      "video_id": "1868586814025",
+      "title_raw": "3x4_18_Agua, Agua por Doquier_Te Estas Divirtiendo_Los Dobles_Lollypoppian Rhapsody #18",
+      "duration_raw": "23:32",
+      "season_number": 3,
+      "episode_number": 4,
+      "views": 1432,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835428223561&type=37&idx=11&tkn=o1omqcG_sjdZiaVEkuVyxOsYrdY&fn=external_8"
+    },
+    {
+      "video_id": "1868588255817",
+      "title_raw": "3x5_19_Esa cosa que dibujaste_Siento que me hundo_Mo, el insecto",
+      "duration_raw": "23:32",
+      "season_number": 3,
+      "episode_number": 5,
+      "views": 1025,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835500116553&type=37&idx=13&tkn=xG18dIse8mkGjP1dumOjD983AOQ&fn=external_8"
+    },
+    {
+      "video_id": "1868586682953",
+      "title_raw": "3x6_20_Tornados_La Leyenda de los Gusanos de Oro_Los Beanie Boys_Good To Go #19",
+      "duration_raw": "23:32",
+      "season_number": 3,
+      "episode_number": 6,
+      "views": 1059,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835422390857&type=37&idx=8&tkn=Y5eM6szDYZc374_a82tTLaDdEwI&fn=external_8"
+    },
+    {
+      "video_id": "1868587797065",
+      "title_raw": "3x7_21_Lengua Enredada_Donde los Ojos te Lleven_La Balada de Toe Fu_Golden Thumb #20",
+      "duration_raw": "23:32",
+      "season_number": 3,
+      "episode_number": 7,
+      "views": 938,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835479013961&type=37&idx=12&tkn=CU8H22kj0TyQsgXyw4wvcrTkei0&fn=external_8"
+    },
+    {
+      "video_id": "1868586617417",
+      "title_raw": "3x8_22_Secreto Expuesto_Mi Boda de Tiza_Regalos Peligrosos_Greetings From Greenland #21",
+      "duration_raw": "23:32",
+      "season_number": 3,
+      "episode_number": 8,
+      "views": 1565,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835420359241&type=37&idx=12&tkn=be3iKE_SKpqLDg7IwT14SIHs77Q&fn=external_8"
+    },
+    {
+      "video_id": "1868587665993",
+      "title_raw": "3x9_23_El Cerebro de Skrawl_Big Loo_Dale Pato Dale_The Happiest Song in the World #22",
+      "duration_raw": "23:32",
+      "season_number": 3,
+      "episode_number": 9,
+      "views": 902,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835473181257&type=37&idx=7&tkn=VtJBxW9ul5owcI67cXVm7hR7ci4&fn=external_8"
+    },
+    {
+      "video_id": "1868586486345",
+      "title_raw": "3x10_24_Doble Problema_Midnight Train #23",
+      "duration_raw": "23:33",
+      "season_number": 3,
+      "episode_number": 10,
+      "views": 870,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835415444041&type=37&idx=0&tkn=41ICqKSAhe5Bo3-8tY-MhjAX5LI&fn=external_8"
+    },
+    {
+      "video_id": "1868587534921",
+      "title_raw": "3x11_25_Inflados en Zona Tiza Primera Parte",
+      "duration_raw": "23:34",
+      "season_number": 3,
+      "episode_number": 11,
+      "views": 886,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835466824265&type=37&idx=7&tkn=lJ5hpnwR-LHgc01luBd647oGTFI&fn=external_8"
+    },
+    {
+      "video_id": "1868587403849",
+      "title_raw": "3x12_26_Inflados en Zona Tiza Segunda Parte",
+      "duration_raw": "23:32",
+      "season_number": 3,
+      "episode_number": 12,
+      "views": 1043,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835460598345&type=37&idx=5&tkn=RIu-xVBFzjmKeNeR7AAt8SHIaDM&fn=external_8"
+    },
+    {
+      "video_id": "1868587272777",
+      "title_raw": "3x13_27_Las Sombras_Pequeño Problema de Piratas_La Maldicion de la Rana Encantada_Magic Carpet Ride #24",
+      "duration_raw": "23:32",
+      "season_number": 3,
+      "episode_number": 13,
+      "views": 2119,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835453323849&type=37&idx=9&tkn=NxSz83094AvzHyGtl4BL9ZhuSQc&fn=external_8"
+    },
+    {
+      "video_id": "1868587141705",
+      "title_raw": "3x14_28_Howdy Rudy_El Ataque de Rudysaurio_Gran Busqueda de Talentos_Livin' It Up #25",
+      "duration_raw": "23:32",
+      "season_number": 3,
+      "episode_number": 14,
+      "views": 1157,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835446966857&type=37&idx=12&tkn=ntH9OrwdmJaIYe9QhEj6yrSeQqs&fn=external_8"
+    },
+    {
+      "video_id": "1868587010633",
+      "title_raw": "3x15_29_Espiritu Navideño",
+      "duration_raw": "23:24",
+      "season_number": 3,
+      "episode_number": 15,
+      "views": 908,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835438971465&type=37&idx=2&tkn=kJRdY_7XvVbEC6RHZw4b5eoFtsQ&fn=external_8"
+    },
+    {
+      "video_id": "1868588386889",
+      "title_raw": "4x1_30_Niebla Purpura_No Hay Nada Mejor Que el Hogar_Parque de Desastres_I Need a Song #26",
+      "duration_raw": "23:32",
+      "season_number": 4,
+      "episode_number": 1,
+      "views": 1020,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835506014793&type=37&idx=11&tkn=7UMWomLF_FCQG6jSC6LnJNh1rCo&fn=external_8"
+    },
+    {
+      "video_id": "1868586879561",
+      "title_raw": "4x2_31_A Bailar_El Día del Centro Comercial Viviente_Blocky Musculos_Piece O' Cake #27_RVL",
+      "duration_raw": "23:32",
+      "season_number": 4,
+      "episode_number": 2,
+      "views": 2272,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835431828041&type=37&idx=1&tkn=dIW_GCaSoGGyl2g_BswCoKj9kdI&fn=external_8"
+    },
+    {
+      "video_id": "1868588124745",
+      "title_raw": "4x3_32_Escuela de la Destruccion_La Familia Von Snap_Enredo de Caballeros_Earthmover #28",
+      "duration_raw": "23:32",
+      "season_number": 4,
+      "episode_number": 3,
+      "views": 1551,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835494939209&type=37&idx=10&tkn=DKBobwgQNOh36WzpzQb2ecwMbn4&fn=external_8"
+    },
+    {
+      "video_id": "1868587207241",
+      "title_raw": "4x4_33El Problema de Rudy_La Carta Venenosa_Policia de Etiquetas_Too Much To Do #29",
+      "duration_raw": "23:32",
+      "season_number": 4,
+      "episode_number": 4,
+      "views": 1097,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835450374729&type=37&idx=2&tkn=kVD8COcS4QY1xyxZ43r4E4LW2Ng&fn=external_8"
+    },
+    {
+      "video_id": "1868586551881",
+      "title_raw": "4x5_34_El Flechazo_El Regalo Perfecto_Bomba Snap 2_Go Pop #30",
+      "duration_raw": "23:32",
+      "season_number": 4,
+      "episode_number": 5,
+      "views": 1423,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835418131017&type=37&idx=10&tkn=x7o3OaQ7VlAXIMZeNuKKCyCEA5k&fn=external_8"
+    },
+    {
+      "video_id": "1868586420809",
+      "title_raw": "4x6_35_El Hombre Arena Movediza_Vampiros Canibales en Nueva York_Un Aliento Fatal_Time To Go Home #31",
+      "duration_raw": "23:32",
+      "season_number": 4,
+      "episode_number": 6,
+      "views": 1047,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835413084745&type=37&idx=4&tkn=kOBypSyZWCfvXfSeYSNbrOqk1Fs&fn=external_8"
+    },
+    {
+      "video_id": "1868586289737",
+      "title_raw": "4x7_36_Reggie el Rojo_Vincent Van Nogo_Las Aventuras del Super Heroe Snap_It Is To Laugh #32",
+      "duration_raw": "23:32",
+      "season_number": 4,
+      "episode_number": 7,
+      "views": 908,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835409218121&type=37&idx=9&tkn=Br_AnO2Cki5VWJaoM_bUWJdY4y0&fn=external_8"
+    },
+    {
+      "video_id": "1868587862601",
+      "title_raw": "4x8_37_El Pueblo Melodrama_El Viaje al Centro de la Tierra Yeti_La Pizarra Blanca_Penny, la Cientifica",
+      "duration_raw": "23:32",
+      "season_number": 4,
+      "episode_number": 8,
+      "views": 738,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835482421833&type=37&idx=5&tkn=VfjBuornzgntV56aVKziBnsKEpM&fn=external_8"
+    },
+    {
+      "video_id": "1868587076169",
+      "title_raw": "4x9_38_Bitsy Genio_El Salon de Profesores_2 Minutos 40 Segundos_Mosquito #33",
+      "duration_raw": "23:32",
+      "season_number": 4,
+      "episode_number": 9,
+      "views": 774,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835442772553&type=37&idx=14&tkn=UFOmSKSkKrb5tBNz8sivYzXPj3I&fn=external_8"
+    },
+    {
+      "video_id": "1868586748489",
+      "title_raw": "4x10_39_Snap Vs BooRat_Urgente, el Doctor Memoria_Snapsodia en Blue_Let's Go Wandering #34",
+      "duration_raw": "23:32",
+      "season_number": 4,
+      "episode_number": 10,
+      "views": 1393,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835425012297&type=37&idx=8&tkn=oHB78IbDKF3q6WNUjqbt4xEiPqI&fn=external_8"
+    },
+    {
+      "video_id": "1868587338313",
+      "title_raw": "4x11_40_Cuando el tiempo se detuvo en Zona Tiza_Toro Snap_Seguridad en la Mina_Let It Blow My Way #35",
+      "duration_raw": "23:32",
+      "season_number": 4,
+      "episode_number": 11,
+      "views": 1336,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=835457059401&type=37&idx=1&tkn=NDz8tT5Ye4llO6m1DDl7zMX5rwQ&fn=external_8"
+    }
+  ]
+}

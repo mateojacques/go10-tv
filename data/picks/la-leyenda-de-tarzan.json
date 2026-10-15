@@ -1,0 +1,349 @@
+{
+  "title": "La Leyenda de Tarzán",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c3024201",
+  "year": "2001",
+  "studio": "Disney",
+  "source": "lacartoons Oficial",
+  "quality": "720p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Aventura",
+  "videos": [
+    {
+      "video_id": "1750774843977",
+      "title_raw": "LLT - 1",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 28556,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936060512825&type=37&idx=10&tkn=iU0mrPmO3BLmv_b7a1gp6LQGrM4&fn=external_8"
+    },
+    {
+      "video_id": "1750772288073",
+      "title_raw": "LLT - 2",
+      "duration_raw": "22:48",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 7789,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936064838201&type=37&idx=2&tkn=eV6w7vlaQXRUzLFxcy5s4udywh8&fn=external_8"
+    },
+    {
+      "video_id": "1750772812361",
+      "title_raw": "LLT - 3",
+      "duration_raw": "22:48",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 5735,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936069360185&type=37&idx=12&tkn=bjL2xpw4lnCzEWlTrOK557iRMYI&fn=external_8"
+    },
+    {
+      "video_id": "1750772746825",
+      "title_raw": "LLT - 4",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 6604,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936073685561&type=37&idx=3&tkn=G3jwRfExYHwKhqY_aiA1zvqmimE&fn=external_8"
+    },
+    {
+      "video_id": "1750772484681",
+      "title_raw": "LLT - 5",
+      "duration_raw": "22:49",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 3474,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936078142009&type=37&idx=5&tkn=qUqxN6-4P10q8SEOpxwUxDnJPuU&fn=external_8"
+    },
+    {
+      "video_id": "1750773860937",
+      "title_raw": "LLT - 6",
+      "duration_raw": "22:49",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 3653,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936083581497&type=37&idx=4&tkn=bcmFj6okWw9ufWY8TzADfun6wJM&fn=external_8"
+    },
+    {
+      "video_id": "1750774188617",
+      "title_raw": "LLT - 7",
+      "duration_raw": "22:48",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 3346,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936087120441&type=37&idx=3&tkn=A1qhnaYFRTC0pgJwk0OUcSDrG6E&fn=external_8"
+    },
+    {
+      "video_id": "1750774581833",
+      "title_raw": "LLT - 8",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 2861,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936092297785&type=37&idx=3&tkn=sx6Z6p5WuaQU3zpSrMsroF63FQ0&fn=external_8"
+    },
+    {
+      "video_id": "1750772353609",
+      "title_raw": "LLT - 9",
+      "duration_raw": "22:49",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 3620,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936096492089&type=37&idx=5&tkn=_ZowxWYiKSCCZmLbog-jkB3fbvU&fn=external_8"
+    },
+    {
+      "video_id": "1750773402185",
+      "title_raw": "LLT - 10",
+      "duration_raw": "22:49",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 2660,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936101145145&type=37&idx=3&tkn=NwGamN3StKuSRBG7qe1ACCW3lz4&fn=external_8"
+    },
+    {
+      "video_id": "1750773336649",
+      "title_raw": "LLT - 11",
+      "duration_raw": "22:49",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 3382,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936108681785&type=37&idx=4&tkn=-q1C9Mz9rt8P69z5Bp_5-Rb3aIU&fn=external_8"
+    },
+    {
+      "video_id": "1750774254153",
+      "title_raw": "LLT - 12",
+      "duration_raw": "21:45",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 3117,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936113334841&type=37&idx=10&tkn=81_MJb20dHbUnKHdz6oASFsX2eE&fn=external_8"
+    },
+    {
+      "video_id": "1750774647369",
+      "title_raw": "LLT - 13",
+      "duration_raw": "22:48",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 2965,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936117398073&type=37&idx=8&tkn=jeiXOyYFVLImln4L3EFzpNIPNWA&fn=external_8"
+    },
+    {
+      "video_id": "1750773140041",
+      "title_raw": "LLT - 14",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 3016,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936120478265&type=37&idx=10&tkn=5R3Munbo2Jqs5DPpfng_bnhZbhk&fn=external_8"
+    },
+    {
+      "video_id": "1750772419145",
+      "title_raw": "LLT - 15",
+      "duration_raw": "22:48",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 2968,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936124541497&type=37&idx=1&tkn=RjTWTUBG-d5BXf_Q_zPqpz1AodA&fn=external_8"
+    },
+    {
+      "video_id": "1750772550217",
+      "title_raw": "LLT - 16",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 2769,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936129325625&type=37&idx=15&tkn=jN8Q7qv_OmBuhmij7_RQn8qHcxo&fn=external_8"
+    },
+    {
+      "video_id": "1750774319689",
+      "title_raw": "LLT - 17",
+      "duration_raw": "22:50",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 2511,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936132995641&type=37&idx=7&tkn=m7XAnIxDRnH0QH8rmksNtm20s64&fn=external_8"
+    },
+    {
+      "video_id": "1750773205577",
+      "title_raw": "LLT - 18",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 2879,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936137386553&type=37&idx=4&tkn=wea8hnUxHe9VIXn7Ipge1_tyJcE&fn=external_8"
+    },
+    {
+      "video_id": "1750774450761",
+      "title_raw": "LLT - 19",
+      "duration_raw": "21:59",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 2852,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2545573890706&type=32&idx=3&tkn=Y_3NpDLnN237EBnZJEu2xXs08qc&fn=external_8"
+    },
+    {
+      "video_id": "1750774385225",
+      "title_raw": "LLT - 20",
+      "duration_raw": "22:48",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 2704,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936142891577&type=37&idx=7&tkn=lAC0_bofNvfVhEcDBxx_HdrnZfo&fn=external_8"
+    },
+    {
+      "video_id": "1750772615753",
+      "title_raw": "LLT - 21",
+      "duration_raw": "22:49",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 2549,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936147151417&type=37&idx=10&tkn=q3Ca8lv9k53PJMqRNlU5qLzaDik&fn=external_8"
+    },
+    {
+      "video_id": "1750773992009",
+      "title_raw": "LLT - 22",
+      "duration_raw": "21:44",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 2217,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936151607865&type=37&idx=8&tkn=PZRbKtOT2MwNDn1KZ_hGg3u5ZI0&fn=external_8"
+    },
+    {
+      "video_id": "1750774516297",
+      "title_raw": "LLT - 23",
+      "duration_raw": "21:45",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 2612,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936156981817&type=37&idx=12&tkn=sOHvV1rydQcdcUSHrP5ooihcQ8g&fn=external_8"
+    },
+    {
+      "video_id": "1750773729865",
+      "title_raw": "LLT - 24",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 2297,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936160193081&type=37&idx=1&tkn=XbIdLBUp9V3g3yXkFvQwbjS3W5Q&fn=external_8"
+    },
+    {
+      "video_id": "1750774057545",
+      "title_raw": "LLT - 25",
+      "duration_raw": "22:48",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 2541,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936164780601&type=37&idx=11&tkn=-VV38CYIL6WzYfIaHeFvUKOpB8w&fn=external_8"
+    },
+    {
+      "video_id": "1750774712905",
+      "title_raw": "LLT - 26",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 2296,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936168254009&type=37&idx=12&tkn=x0SMTjdMMBfsqJJtikgQanuL4Yw&fn=external_8"
+    },
+    {
+      "video_id": "1750773795401",
+      "title_raw": "LLT - 27",
+      "duration_raw": "21:45",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 2515,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936171727417&type=37&idx=3&tkn=ukmAa3QJ0U-f9xSPTgMwvD1l6_8&fn=external_8"
+    },
+    {
+      "video_id": "1750773926473",
+      "title_raw": "LLT - 29",
+      "duration_raw": "21:47",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 1947,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936180902457&type=37&idx=12&tkn=BPsx90eDX00ZtugTBmzo0kcE5sU&fn=external_8"
+    },
+    {
+      "video_id": "1750772943433",
+      "title_raw": "LLT - 30",
+      "duration_raw": "22:19",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 2008,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936184244793&type=32&idx=3&tkn=BCDLzO6pAFa6Ua9AqwW5TDWrR4o&fn=external_8"
+    },
+    {
+      "video_id": "1750773074505",
+      "title_raw": "LLT - 31",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 1740,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936189094457&type=37&idx=9&tkn=r3fCGupQqL9fdNVGI-bWflIoUmw&fn=external_8"
+    },
+    {
+      "video_id": "1750774123081",
+      "title_raw": "LLT - 32",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 1937,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936193681977&type=37&idx=8&tkn=BUv0vuzY0NB0JBOr770fSyIAf1c&fn=external_8"
+    },
+    {
+      "video_id": "1750773598793",
+      "title_raw": "LLT - 33",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 2374,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936198990393&type=37&idx=13&tkn=J5mBoS5WhyURS55eSxxGJfh271g&fn=external_8"
+    },
+    {
+      "video_id": "1750772877897",
+      "title_raw": "LLT - 34",
+      "duration_raw": "22:48",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 1752,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936203577913&type=37&idx=6&tkn=3k-tBXyVRb_PnR4iFl0iACmiKd8&fn=external_8"
+    },
+    {
+      "video_id": "1750773271113",
+      "title_raw": "LLT - 35",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 2269,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936210590265&type=37&idx=1&tkn=FLtKTqZ5buE1W7CLCxgeGep21Tw&fn=external_8"
+    },
+    {
+      "video_id": "1750774778441",
+      "title_raw": "LLT - 36",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 2039,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936214653497&type=37&idx=3&tkn=X0eloht8JtIFdBfpRiGZhRYwF7w&fn=external_8"
+    },
+    {
+      "video_id": "1750773533257",
+      "title_raw": "LLT - 37",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 1696,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936219044409&type=37&idx=15&tkn=Nc-Goa_EwwXCsfe8DPf7p3qR7dk&fn=external_8"
+    },
+    {
+      "video_id": "1750773008969",
+      "title_raw": "LLT - 38",
+      "duration_raw": "22:49",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 2682,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2936223697465&type=37&idx=2&tkn=dlMNsb4Y2kLkHnGbuif12FoA4-E&fn=external_8"
+    }
+  ]
+}

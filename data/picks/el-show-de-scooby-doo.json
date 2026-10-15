@@ -1,0 +1,367 @@
+{
+  "title": "El Show de Scooby-Doo",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2357577",
+  "year": "1976",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "1454487308873",
+      "title_raw": "1x01 - La alta subida de Hair-Raiser_x264",
+      "duration_raw": "23:21",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 37821,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616651885129&type=32&idx=2&tkn=D3SadP_uBaSwy-WfK9F-T77yhxs&fn=external_8"
+    },
+    {
+      "video_id": "1454488816201",
+      "title_raw": "1x02 - El anfitrión de la fiesta es un fantasma_x264",
+      "duration_raw": "23:12",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 18189,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616680655433&type=32&idx=2&tkn=sD3OxV-rSvDskVe4GyaGa6a4NXQ&fn=external_8"
+    },
+    {
+      "video_id": "1454486981193",
+      "title_raw": "1x03 - El fantástico juego del cocodrilo fantasma_x264",
+      "duration_raw": "23:15",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 14929,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616641923657&type=32&idx=2&tkn=dTL3A23hoFkp0GNVxEVUBihXPVM&fn=external_8"
+    },
+    {
+      "video_id": "1454486915657",
+      "title_raw": "1x04 - El fantasma eléctrico_x264",
+      "duration_raw": "23:12",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 12871,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616640744009&type=32&idx=2&tkn=_TEeIdFvHZRKNf7hemAUuqvfqbw&fn=external_8"
+    },
+    {
+      "video_id": "1454488750665",
+      "title_raw": "1x05 - El jinete sin cabeza_x264",
+      "duration_raw": "23:19",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 14603,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616679475785&type=32&idx=11&tkn=9fewC4kgmdAVMD4Ym9SgkfnRfss&fn=external_8"
+    },
+    {
+      "video_id": "1454486456905",
+      "title_raw": "1x06 - Como asustan en Camelot_x264",
+      "duration_raw": "23:17",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 10590,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616633141833&type=32&idx=6&tkn=28s8n5NcBmeBdfMnbQhZ0wS2GEg&fn=external_8"
+    },
+    {
+      "video_id": "1454487374409",
+      "title_raw": "1x07 - El sanatorio de Harum-Scarum_x264",
+      "duration_raw": "23:07",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 11425,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616653982281&type=32&idx=12&tkn=sP6ZpcqoPDVSl1NR2dOEUMouDMY&fn=external_8"
+    },
+    {
+      "video_id": "1454488160841",
+      "title_raw": "1x08 - La leyenda del Galeón de Oro_x264",
+      "duration_raw": "23:14",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 10070,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616672201289&type=32&idx=13&tkn=hT7uBbrnqtnueEWlLST4Kxuid7I&fn=external_8"
+    },
+    {
+      "video_id": "1454488291913",
+      "title_raw": "1x09 - Mamba Wamba y el pergamino sagrado_x264",
+      "duration_raw": "28:07",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 8861,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616674232905&type=32&idx=3&tkn=KVCHXXWt1MKnwe6WB1alEHRszwY&fn=external_8"
+    },
+    {
+      "video_id": "1454486719049",
+      "title_raw": "1x10 - El monstruo subterráneo_x264",
+      "duration_raw": "23:21",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 8950,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616636222025&type=32&idx=1&tkn=kKQu7a9dEtVfiaMyV22CtCFZ8_g&fn=external_8"
+    },
+    {
+      "video_id": "1454489209417",
+      "title_raw": "1x11 - Un buey vago para Scooby_x264",
+      "duration_raw": "23:13",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 9294,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616687733321&type=32&idx=10&tkn=e1hiWUuVg-WqphylhiRsujeXgXI&fn=external_8"
+    },
+    {
+      "video_id": "1454487767625",
+      "title_raw": "1x12 - Un tiburón en un día de niebla_x264",
+      "duration_raw": "23:17",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 8013,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616664468041&type=32&idx=0&tkn=4vLhqOwwTZGKeQEUtHj_3CXxtmQ&fn=external_8"
+    },
+    {
+      "video_id": "1454488422985",
+      "title_raw": "1x13 - El tesoro del diablo de Oz_x264",
+      "duration_raw": "23:09",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 8814,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616676592201&type=32&idx=12&tkn=GfUUe8-2C0aVs2jVsBorADwzA8c&fn=external_8"
+    },
+    {
+      "video_id": "1454488685129",
+      "title_raw": "1x14 - El fantasma es el Quaterback_x264",
+      "duration_raw": "23:02",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 9274,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616678689353&type=32&idx=10&tkn=RaYfSr7Sdk8xulMUFHa87_c8wwk&fn=external_8"
+    },
+    {
+      "video_id": "1454487964233",
+      "title_raw": "1x15 - El truco de los carros de helado_x264",
+      "duration_raw": "23:11",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 8110,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616667744841&type=32&idx=1&tkn=x3YK_YMQCl1ImW1vKGXZaHo4n28&fn=external_8"
+    },
+    {
+      "video_id": "1454489143881",
+      "title_raw": "1x16 - El espíritu del 76_x264",
+      "duration_raw": "23:15",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 9664,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616686225993&type=32&idx=3&tkn=mZHR6ARqy1wFpYO4mpSXGzrjxWw&fn=external_8"
+    },
+    {
+      "video_id": "1454486522441",
+      "title_raw": "2x01 - El lago vikingo_x264",
+      "duration_raw": "23:41",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 11060,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616634124873&type=32&idx=5&tkn=lMGwjzIO47BmBCtFNUJiUcNCYZU&fn=external_8"
+    },
+    {
+      "video_id": "1454486850121",
+      "title_raw": "2x02 - Entre vampiros te veas_x264",
+      "duration_raw": "23:21",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 9947,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616638909001&type=32&idx=2&tkn=ZHaJeWddhxPR2nvO3sUm8ImLS2U&fn=external_8"
+    },
+    {
+      "video_id": "1454487177801",
+      "title_raw": "2x03 - Los falsos terodáctilos_x264",
+      "duration_raw": "23:11",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 7305,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616647887433&type=32&idx=12&tkn=3TqXsuaxl-xge3nflnjL0v9E-iQ&fn=external_8"
+    },
+    {
+      "video_id": "1454489012809",
+      "title_raw": "2x04 - El robo de la gran estrella_x264",
+      "duration_raw": "23:21",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 8347,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616683997769&type=32&idx=0&tkn=fQfe0cJ0ZZOK3F_uECKjpxLoL4M&fn=external_8"
+    },
+    {
+      "video_id": "1454489078345",
+      "title_raw": "2x05 - Otra historia de fantasmas_x264",
+      "duration_raw": "23:20",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 7949,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616685242953&type=32&idx=11&tkn=MIvzUYr3qB0WIF_blC7eJqpavvU&fn=external_8"
+    },
+    {
+      "video_id": "1454487702089",
+      "title_raw": "2x06 - Brujas a mí_x264",
+      "duration_raw": "23:11",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 7762,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616663485001&type=32&idx=14&tkn=bCO1XojKzdon6BJWNAokwpO_6oo&fn=external_8"
+    },
+    {
+      "video_id": "1454487112265",
+      "title_raw": "2x07 - El crucero espeluznante_x264",
+      "duration_raw": "23:16",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 6807,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616645397065&type=32&idx=13&tkn=CYVswuRqMCtb8JgKoSm4xl9Ynac&fn=external_8"
+    },
+    {
+      "video_id": "1454488947273",
+      "title_raw": "2x08 - La espeluznante criatura de las profundidades_x264",
+      "duration_raw": "23:22",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 7294,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616683080265&type=32&idx=9&tkn=2JYuyvarIRDvPv7W-GCcB6e-Zow&fn=external_8"
+    },
+    {
+      "video_id": "1454488881737",
+      "title_raw": "3x02 - Un enredo morrocotudo en el triángulo de las Bermudas_x264",
+      "duration_raw": "21:34",
+      "season_number": 3,
+      "episode_number": 2,
+      "views": 6887,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616681572937&type=32&idx=2&tkn=xcHGfLpy-PCZV23rht3VCaZoifI&fn=external_8"
+    },
+    {
+      "video_id": "1454487636553",
+      "title_raw": "3x03 - La abominable bestia de las nieves_x264",
+      "duration_raw": "21:35",
+      "season_number": 3,
+      "episode_number": 3,
+      "views": 6006,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616661977673&type=32&idx=1&tkn=tkD7MABnWE2nqIFvQRPDsVuM_Ms&fn=external_8"
+    },
+    {
+      "video_id": "1454488095305",
+      "title_raw": "3x04 - La bruja de Salem_x264",
+      "duration_raw": "21:35",
+      "season_number": 3,
+      "episode_number": 4,
+      "views": 8131,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616671021641&type=32&idx=14&tkn=ocwgFwYScHXq4Zv9HwlIjs2TjYw&fn=external_8"
+    },
+    {
+      "video_id": "1454487571017",
+      "title_raw": "3x05 - El monstruo de brea_x264",
+      "duration_raw": "21:02",
+      "season_number": 3,
+      "episode_number": 5,
+      "views": 6499,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616660208201&type=32&idx=11&tkn=YHzYNH8k3zg9MLXyl680sobGxUI&fn=external_8"
+    },
+    {
+      "video_id": "1454488357449",
+      "title_raw": "3x06 - El monstruo del Lago Ness_x264",
+      "duration_raw": "21:40",
+      "season_number": 3,
+      "episode_number": 6,
+      "views": 6158,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616675543625&type=32&idx=10&tkn=3VHHJsLreuFUwjBHxoOqkv0rj30&fn=external_8"
+    },
+    {
+      "video_id": "1454486784585",
+      "title_raw": "3x07 - El pavoroso caso del hombre de cara de hierro_x264",
+      "duration_raw": "21:35",
+      "season_number": 3,
+      "episode_number": 7,
+      "views": 5683,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616637532745&type=32&idx=9&tkn=o1Eqd_VDMaY_d_Rj2rIYbLN6kt8&fn=external_8"
+    },
+    {
+      "video_id": "1454487243337",
+      "title_raw": "3x08 - El misterio del Jaguaro_x264",
+      "duration_raw": "21:32",
+      "season_number": 3,
+      "episode_number": 8,
+      "views": 6438,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616649525833&type=32&idx=8&tkn=F4m-MqIdwoM5L3K7WtW-CJXnAMo&fn=external_8"
+    },
+    {
+      "video_id": "1454487833161",
+      "title_raw": "3x09 - ¿Quién era esa criatura gato¿_x264",
+      "duration_raw": "21:33",
+      "season_number": 3,
+      "episode_number": 9,
+      "views": 6425,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616666303049&type=32&idx=5&tkn=PzpIjmdOS0l-YIAHcpIm_LEVS6E&fn=external_8"
+    },
+    {
+      "video_id": "1454488488521",
+      "title_raw": "3x10 - La criatura del jardín botánico_x264",
+      "duration_raw": "21:33",
+      "season_number": 3,
+      "episode_number": 10,
+      "views": 5922,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616677050953&type=32&idx=10&tkn=L7LXbG5wFvtvLdMICCjC_7m7bFQ&fn=external_8"
+    },
+    {
+      "video_id": "1454487046729",
+      "title_raw": "3x11 - El diabólico demonio_x264",
+      "duration_raw": "21:34",
+      "season_number": 3,
+      "episode_number": 11,
+      "views": 6237,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616643365449&type=32&idx=13&tkn=jQ0q4KZUOGL_cT17aJm1oA4XrQw&fn=external_8"
+    },
+    {
+      "video_id": "1454486587977",
+      "title_raw": "3x12 - El monstruo ladrón_x264",
+      "duration_raw": "21:33",
+      "season_number": 3,
+      "episode_number": 12,
+      "views": 5538,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616634845769&type=32&idx=14&tkn=VG3gbGTvttGhOWdzck-CU0edy4U&fn=external_8"
+    },
+    {
+      "video_id": "1454488226377",
+      "title_raw": "3x13 - La amenaza en Venecia_x264",
+      "duration_raw": "21:35",
+      "season_number": 3,
+      "episode_number": 13,
+      "views": 6031,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616673249865&type=32&idx=7&tkn=xm2ZyZh1jNZxaqfYSWSSh_vt7aI&fn=external_8"
+    },
+    {
+      "video_id": "1454488029769",
+      "title_raw": "3x14 - No se acerquen a la fortaleza del terror_x264",
+      "duration_raw": "21:38",
+      "season_number": 3,
+      "episode_number": 14,
+      "views": 5724,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616669186633&type=32&idx=6&tkn=X5mD-eQcLkC2tKcK5B0ZiguNbJQ&fn=external_8"
+    },
+    {
+      "video_id": "1454487439945",
+      "title_raw": "3x15 - El brujo de Wimbledon_x264",
+      "duration_raw": "22:26",
+      "season_number": 3,
+      "episode_number": 15,
+      "views": 5171,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616656276041&type=32&idx=10&tkn=1_pbaGVUQ5fF-gw6rrDUEqnSh4k&fn=external_8"
+    },
+    {
+      "video_id": "1454488619593",
+      "title_raw": "3x16 - La bestia del Lago_x264",
+      "duration_raw": "21:38",
+      "season_number": 3,
+      "episode_number": 16,
+      "views": 5544,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=616677771849&type=32&idx=13&tkn=kSXiaU4sUqnn9UAjX5LR6g6cYOs&fn=external_8"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "title": "Fabulman y Dinamita",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2161993",
+  "year": "1976",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Superhéroes",
+  "videos": [
+    {
+      "video_id": "1351486081609",
+      "title_raw": "Fabulman y Dinamita - Cap 1_x264",
+      "duration_raw": "21:57",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 14515,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584462699081&type=32&idx=14&tkn=_CKLSJ_toVpS_muQ9KfogscgxfM&fn=external_8"
+    },
+    {
+      "video_id": "1351486147145",
+      "title_raw": "Fabulman y Dinamita - Cap 2_x264",
+      "duration_raw": "21:54",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 3756,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584464075337&type=32&idx=10&tkn=_anRwAwj-r3OdTusOhPy_u4vWS0&fn=external_8"
+    },
+    {
+      "video_id": "1351485819465",
+      "title_raw": "Fabulman y Dinamita - Cap 3_x264",
+      "duration_raw": "21:54",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 2626,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584456276553&type=32&idx=1&tkn=TV52DeMv383eamBY9Ug0UZeuWJI&fn=external_8"
+    },
+    {
+      "video_id": "1351485885001",
+      "title_raw": "Fabulman y Dinamita - Cap 4_x264",
+      "duration_raw": "21:59",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 2819,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584458242633&type=32&idx=3&tkn=GjDc7q_AXdRogC-K3HxXkDj42aw&fn=external_8"
+    },
+    {
+      "video_id": "1351485950537",
+      "title_raw": "Fabulman y Dinamita - Cap 5_x264",
+      "duration_raw": "21:50",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1754,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584459815497&type=32&idx=10&tkn=VnruWIK8-O-EwtJBpDtfwv8bg6M&fn=external_8"
+    },
+    {
+      "video_id": "1351486016073",
+      "title_raw": "Fabulman y Dinamita - Cap 6_x264",
+      "duration_raw": "21:54",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 1692,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584461388361&type=32&idx=13&tkn=V-j_lMMLNx1kgKdu47F6R4GvD1E&fn=external_8"
+    },
+    {
+      "video_id": "1351486474825",
+      "title_raw": "Fabulman y Dinamita - Cap 7",
+      "duration_raw": "22:04",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1599,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=447719082616&type=32&idx=7&tkn=FXOzl9MMHM6ep1AYtsrL-xDeNA0&fn=external_8"
+    },
+    {
+      "video_id": "1351486736969",
+      "title_raw": "Fabulman y Dinamita - Cap 8",
+      "duration_raw": "21:56",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1590,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=447717706360&type=32&idx=10&tkn=kmKLe9_R4RueMjbDYNTiWwJK6cQ&fn=external_8"
+    },
+    {
+      "video_id": "1351486409289",
+      "title_raw": "Fabulman y Dinamita - Cap 9",
+      "duration_raw": "21:15",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 1671,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=447724063352&type=32&idx=7&tkn=VP-kS33YPYc5S6F4MbhhbDiDwGY&fn=external_8"
+    },
+    {
+      "video_id": "1351486671433",
+      "title_raw": "Fabulman y Dinamita - Cap 10",
+      "duration_raw": "22:20",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 2860,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=447719869048&type=32&idx=12&tkn=rwxIPWVS8yMw4PMMQNnjU0iY0vo&fn=external_8"
+    },
+    {
+      "video_id": "1351486999113",
+      "title_raw": "Fabulman y Dinamita - Cap 11",
+      "duration_raw": "22:08",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 1213,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=447715674744&type=32&idx=9&tkn=IaDDjalo0jPEwqzBKyYQL431taI&fn=external_8"
+    },
+    {
+      "video_id": "1351486605897",
+      "title_raw": "Fabulman y Dinamita - Cap 12",
+      "duration_raw": "21:56",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 1425,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=447716330104&type=32&idx=7&tkn=rS3oQfb-5mVE7z7Wn39GjBx1-YI&fn=external_8"
+    },
+    {
+      "video_id": "1351486933577",
+      "title_raw": "Fabulman y Dinamita - Cap 13",
+      "duration_raw": "22:00",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 1446,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=447710628472&type=32&idx=11&tkn=gfJpNY1OEUWtuRIveMYs9xME3ac&fn=external_8"
+    },
+    {
+      "video_id": "1351486540361",
+      "title_raw": "Fabulman y Dinamita - Cap 14",
+      "duration_raw": "22:03",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 1652,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=447712070264&type=32&idx=4&tkn=LlaR9uMehP_igQF4FalcB4vfIK8&fn=external_8"
+    },
+    {
+      "video_id": "1351486868041",
+      "title_raw": "Fabulman y Dinamita - Cap 15",
+      "duration_raw": "22:08",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 1305,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=447709252216&type=32&idx=6&tkn=JfHWyiN5n1YbP3JswIHbeThkw8o&fn=external_8"
+    },
+    {
+      "video_id": "1351486802505",
+      "title_raw": "Fabulman y Dinamita - Cap 16",
+      "duration_raw": "21:59",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 1844,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=447713446520&type=32&idx=5&tkn=fuNIgQl9rqI1Lse7Dr0QjSr6Pcw&fn=external_8"
+    }
+  ]
+}

@@ -1,0 +1,457 @@
+{
+  "title": "Gundam Wing",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c8289865 c2152265",
+  "year": "1995",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Ciencia Ficción",
+  "videos": [
+    {
+      "video_id": "3682675001929",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 01",
+      "duration_raw": "23:28",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 23917,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511612676681&type=37&idx=10&tkn=qf6AYtUQhLr4MqnpFgI1MtGnP2A&fn=external_8"
+    },
+    {
+      "video_id": "3682675526217",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 02",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 11299,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511703444041&type=37&idx=1&tkn=gXASJY12OThmbiqajLdwdgR6aes&fn=external_8"
+    },
+    {
+      "video_id": "3682676312649",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 03",
+      "duration_raw": "23:28",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 7807,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511836678729&type=37&idx=12&tkn=KiFN-b2VoEMLXeWeb6CsX2Qbzh0&fn=external_8"
+    },
+    {
+      "video_id": "3682675067465",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 04",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 6502,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511626242633&type=37&idx=12&tkn=aCGkVhO22wlkXY51xtyAhPmN1C0&fn=external_8"
+    },
+    {
+      "video_id": "3682675133001",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 05",
+      "duration_raw": "23:28",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 5766,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511636138569&type=37&idx=9&tkn=hi_JFyaS1V6Z-8ZTDLK85HDh8I4&fn=external_8"
+    },
+    {
+      "video_id": "3682675198537",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 06",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 5541,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511646689865&type=37&idx=3&tkn=iJ86I2QLxka9Ek7L1lVT_CXJIWE&fn=external_8"
+    },
+    {
+      "video_id": "3682676378185",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 07",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 5320,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511846050377&type=37&idx=14&tkn=0I7U8qvy07EgDSNbUBBU0aeTc_g&fn=external_8"
+    },
+    {
+      "video_id": "3682675984969",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 08",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 4846,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511777892937&type=37&idx=14&tkn=SgQP5CoPH6VTw1byT1j66aOBgqw&fn=external_8"
+    },
+    {
+      "video_id": "3682675329609",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 09",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 4678,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511671724617&type=37&idx=5&tkn=rmepZRev4lWfcWt3Mq7Vwr3b4z0&fn=external_8"
+    },
+    {
+      "video_id": "3682675395145",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 10",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 4890,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511679720009&type=37&idx=8&tkn=Q09-i_22ROBkwJODdb4Un2wQqaM&fn=external_8"
+    },
+    {
+      "video_id": "3682676050505",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 11",
+      "duration_raw": "23:28",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 4207,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511789034057&type=37&idx=10&tkn=5iK2h9lrjcSVu2sHv_0muZsBXaE&fn=external_8"
+    },
+    {
+      "video_id": "3682675722825",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 12",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 4175,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511733459529&type=37&idx=4&tkn=BC1av9XuzglR6XTrRvp1PZG2IiU&fn=external_8"
+    },
+    {
+      "video_id": "3682675591753",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 13",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 3890,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511712094793&type=37&idx=5&tkn=v_WfNZQ9kDQD-0OOqx9GsCEZNoM&fn=external_8"
+    },
+    {
+      "video_id": "3682675264073",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 14",
+      "duration_raw": "23:28",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 4057,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511661238857&type=37&idx=2&tkn=lk_lDSwo1knvE4uSw-35lkXGpUM&fn=external_8"
+    },
+    {
+      "video_id": "3682676181577",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 15",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 3872,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511812168265&type=37&idx=13&tkn=cIvv01iqY0bEzqycGF-P9lXlc_k&fn=external_8"
+    },
+    {
+      "video_id": "3682675788361",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 16",
+      "duration_raw": "23:28",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 3790,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511746501193&type=37&idx=12&tkn=yJcl79KUZhqjA6Ci1BWXBK2A5Ck&fn=external_8"
+    },
+    {
+      "video_id": "3682675657289",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 17",
+      "duration_raw": "23:28",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 3803,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511722646089&type=37&idx=6&tkn=y6Z54ESlrVBrVIucq4kNPrVY1eQ&fn=external_8"
+    },
+    {
+      "video_id": "3682676116041",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 18",
+      "duration_raw": "23:28",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 3562,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511801027145&type=37&idx=14&tkn=CEpDbEIh7h_aeh8ldAcI50tReQo&fn=external_8"
+    },
+    {
+      "video_id": "3682675460681",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 19",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 3379,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511690664521&type=37&idx=15&tkn=tt9t9XQxV6brmc4qYuNjBIbetCw&fn=external_8"
+    },
+    {
+      "video_id": "3682676247113",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 20",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 3302,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511824095817&type=37&idx=15&tkn=TGzD2a5f-O8Vyum95XqCnmEZdNI&fn=external_8"
+    },
+    {
+      "video_id": "3682675853897",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 21",
+      "duration_raw": "23:28",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 3195,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511756134985&type=37&idx=8&tkn=_Az2XLmD4WoyZIuMpT_S7u7BW0k&fn=external_8"
+    },
+    {
+      "video_id": "3682675919433",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 22",
+      "duration_raw": "23:28",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 3581,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511766489673&type=37&idx=8&tkn=k2huJqYa9n8biKndHz7TeXyZuw0&fn=external_8"
+    },
+    {
+      "video_id": "3682724350537",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 23",
+      "duration_raw": "23:28",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 3175,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511950383689&type=37&idx=10&tkn=l5jh7Ht6p_lL1WvpVojNDtOPHJQ&fn=external_8"
+    },
+    {
+      "video_id": "3682724153929",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 24",
+      "duration_raw": "23:28",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 3442,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511915059785&type=37&idx=4&tkn=syJHJfEjsvtEk65PyU5pXIwLplw&fn=external_8"
+    },
+    {
+      "video_id": "3682724219465",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 25",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 3262,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511927708233&type=37&idx=8&tkn=3mIdth1tY8wTysyLtOiaqlRVMaI&fn=external_8"
+    },
+    {
+      "video_id": "3682723957321",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 26",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 3227,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511880129097&type=37&idx=13&tkn=HHHm6rlfGrr-7IYo7tC_EPThtZ0&fn=external_8"
+    },
+    {
+      "video_id": "3682724416073",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 27",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 4076,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2512842721865&type=37&idx=9&tkn=wKLn3ltufRd3G19xkytKOXZawHw&fn=external_8"
+    },
+    {
+      "video_id": "3682724022857",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 28",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 2807,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511891663433&type=37&idx=3&tkn=SWG6riI8w7Rh9ffRmorr3BelV5Q&fn=external_8"
+    },
+    {
+      "video_id": "3682723826249",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 29",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 2856,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511857846857&type=37&idx=2&tkn=csfz7pfIWgESApkWkGhA5FqGMqw&fn=external_8"
+    },
+    {
+      "video_id": "3682724285001",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 30",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 3066,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511940094537&type=37&idx=3&tkn=R7mIUtnpND9b7lVF1Ty53UA1skI&fn=external_8"
+    },
+    {
+      "video_id": "3682724481609",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 31",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 2831,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2512875162185&type=37&idx=12&tkn=bdzoVv_exUAPiwa5irBmSS1JEv4&fn=external_8"
+    },
+    {
+      "video_id": "3682723891785",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 32",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 3157,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511870954057&type=37&idx=9&tkn=oDNybUpdN5v11AbBKD48wYWxI88&fn=external_8"
+    },
+    {
+      "video_id": "3682724088393",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 33",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 2742,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2511902542409&type=37&idx=10&tkn=8LIUtxnqrzrzTp9PiLtu41WwZTw&fn=external_8"
+    },
+    {
+      "video_id": "3682843888201",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 34",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 2855,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2512977136201&type=37&idx=7&tkn=B3Xcz2bpAfP5s4Z-k9WvbD9zxv4&fn=external_8"
+    },
+    {
+      "video_id": "3682844150345",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 35",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 2674,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2512828172873&type=37&idx=9&tkn=Oph_bXWJxPKg5JxWWlODRqY89Nc&fn=external_8"
+    },
+    {
+      "video_id": "3682844084809",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 36",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 2550,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2512928705097&type=37&idx=14&tkn=VAFzm1FUKZoUcACkV0Ot17WHOYU&fn=external_8"
+    },
+    {
+      "video_id": "3682844346953",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 37",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 2993,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2512854846025&type=37&idx=8&tkn=N5lMd8ep9RJbvgaCaVlePmxKtnE&fn=external_8"
+    },
+    {
+      "video_id": "3682843691593",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 38",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 2535,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2512806611529&type=37&idx=15&tkn=Mb1-9nqiEQ106KS222qO7KYk9PY&fn=external_8"
+    },
+    {
+      "video_id": "3682844215881",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 39",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 2702,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2512838068809&type=37&idx=10&tkn=PnDaVUkVyO_HZ5NT0UhDpC0A3Cg&fn=external_8"
+    },
+    {
+      "video_id": "3682843101769",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 40",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 2757,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2512916712009&type=37&idx=11&tkn=KE9xaGV8mmZzhHHFQ_7ixqH_mtA&fn=external_8"
+    },
+    {
+      "video_id": "3682843822665",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 41",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 2628,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2512896133705&type=37&idx=15&tkn=G-oYqe5U3uvB3xnwRn4E7uCXdbU&fn=external_8"
+    },
+    {
+      "video_id": "3682843167305",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 42",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 2632,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2512865266249&type=37&idx=11&tkn=luBB2r-4agJCDALWtCTOyoMUeCc&fn=external_8"
+    },
+    {
+      "video_id": "3682844019273",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 43",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 2518,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2512817490505&type=37&idx=1&tkn=7xafSmlxEFqIixNDBio02ywZsGc&fn=external_8"
+    },
+    {
+      "video_id": "3682843298377",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 44",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 44,
+      "views": 2688,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2512940370505&type=37&idx=12&tkn=wGwjNuLmpIbjckuQ0mtNWsjTjnk&fn=external_8"
+    },
+    {
+      "video_id": "3682843363913",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 45",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 2570,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2512885254729&type=37&idx=15&tkn=O3X0eIxgLGitPmOWhfsO2xgA8QU&fn=external_8"
+    },
+    {
+      "video_id": "3682843560521",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 46",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 46,
+      "views": 2501,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1443142568552&type=37&idx=13&tkn=b0Vi1CdeHNxSSe0-0Cutujk55MQ&fn=external_8"
+    },
+    {
+      "video_id": "3682843757129",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 47",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 47,
+      "views": 2544,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1443125463656&type=37&idx=5&tkn=T25s5Er09rQkPazR1bO1BmzIO-U&fn=external_8"
+    },
+    {
+      "video_id": "3682843429449",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 48",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 48,
+      "views": 2805,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1443220556392&type=37&idx=2&tkn=ptenMLTapQJAXJOvTR6XbNVnPII&fn=external_8"
+    },
+    {
+      "video_id": "3682843626057",
+      "title_raw": "[HTGF] Gundam Wing Blu-Ray (Latino) - 49",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 49,
+      "views": 3714,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1474829355624&type=37&idx=8&tkn=tIwQwg7TsfnfGWZxM978uyjpiHg&fn=external_8"
+    }
+  ]
+}

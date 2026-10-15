@@ -1,0 +1,250 @@
+{
+  "title": "Stargate Infinity",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c3394377",
+  "year": "2002",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Ciencia Ficción",
+  "videos": [
+    {
+      "video_id": "1830262934089",
+      "title_raw": "Stargate_Infinity_1x01_Decision",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 4744,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=813215255113&type=32&idx=10&tkn=WesR3EqslVqEvJHneudOO9uVAOQ&fn=external_8"
+    },
+    {
+      "video_id": "1830262147657",
+      "title_raw": "Stargate_Infinity_1x02_Doble_Deber",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 1316,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=813203786313&type=32&idx=14&tkn=R6ZMQ49gQybHCRN5TLl93sIcdM0&fn=external_8"
+    },
+    {
+      "video_id": "1830262737481",
+      "title_raw": "Stargate_Infinity_1x03_El_Mejor_Mundo",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 866,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=813213092425&type=32&idx=2&tkn=mslY0vwOqhz9iTJd67QGVr5LByU&fn=external_8"
+    },
+    {
+      "video_id": "1830262671945",
+      "title_raw": "Stargate_Infinity_1x04_Regreso_A_Casa",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 733,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=813212502601&type=32&idx=14&tkn=ByxahcuLBraJDNpScscoAR2AMsc&fn=external_8"
+    },
+    {
+      "video_id": "1830262606409",
+      "title_raw": "Stargate_Infinity_1x05_Mentor",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 671,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=813211650633&type=32&idx=11&tkn=lhI8RK_UVMPcL9D2dVwhBUwpCtU&fn=external_8"
+    },
+    {
+      "video_id": "1830262475337",
+      "title_raw": "Stargate_Infinity_1x06_Fobia",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 604,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=813210143305&type=32&idx=14&tkn=iUoBIdsAWTcxdcYqWq6awCbNHxg&fn=external_8"
+    },
+    {
+      "video_id": "1830263065161",
+      "title_raw": "Stargate_Infinity_1x07_Aguas_Turbulentas",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 561,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=813216959049&type=32&idx=4&tkn=-ut1xul3BXD3simIXpl_rYFBX4U&fn=external_8"
+    },
+    {
+      "video_id": "1830263261769",
+      "title_raw": "Stargate_Infinity_1x08_Quien_Eres",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 522,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=813219318345&type=32&idx=11&tkn=1rUd-Lo9ap676LBkUNEVTEiQtV4&fn=external_8"
+    },
+    {
+      "video_id": "1830262540873",
+      "title_raw": "Stargate_Infinity_1x09_Puedo_Quedarmelo",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 466,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=813210929737&type=32&idx=14&tkn=q20pJ8Rqaze7u33T3w5JZr8uGpg&fn=external_8"
+    },
+    {
+      "video_id": "1830263327305",
+      "title_raw": "Stargate_Infinity_1x10_Piedras",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 470,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=813220104777&type=32&idx=6&tkn=9VigNk_7H3bi1k0WdDKpBBGs_b0&fn=external_8"
+    },
+    {
+      "video_id": "1830263523913",
+      "title_raw": "Stargate_Infinity_1x11_Iniciacion",
+      "duration_raw": "21:17",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 464,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=813224102473&type=32&idx=11&tkn=YhyZgW-ta6HoOviSr0u8Drq3tpg&fn=external_8"
+    },
+    {
+      "video_id": "1830262278729",
+      "title_raw": "Stargate_Infinity_1x12_La_Gran_Inventora",
+      "duration_raw": "21:17",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 421,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=813205883465&type=32&idx=2&tkn=lNfpfPAnBCQV2ZNe9DPofi6T-so&fn=external_8"
+    },
+    {
+      "video_id": "1830263130697",
+      "title_raw": "Stargate_Infinity_1x13_Codicia",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 373,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=813217745481&type=32&idx=3&tkn=DKN69Vnq-qZxC9KjDHt2XEjuzJQ&fn=external_8"
+    },
+    {
+      "video_id": "1830262344265",
+      "title_raw": "Stargate_Infinity_1x14_Realidad",
+      "duration_raw": "21:17",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 401,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=813207390793&type=32&idx=9&tkn=8koo7MTMip8fTla9winKY53SzJA&fn=external_8"
+    },
+    {
+      "video_id": "1830263392841",
+      "title_raw": "Stargate_Infinity_1x15_El_Museo",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 395,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=813220956745&type=32&idx=5&tkn=V5LNXUahpBQx1qHhS-nK0_IUZbQ&fn=external_8"
+    },
+    {
+      "video_id": "1830262803017",
+      "title_raw": "Stargate_Infinity_1x16_Nosotros_Y_Ellos",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 364,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=813213682249&type=32&idx=14&tkn=LOm-5lPjqqafkwu8ZX7ANf1P_O8&fn=external_8"
+    },
+    {
+      "video_id": "1830263458377",
+      "title_raw": "Stargate_Infinity_1x17_El_Rostro_Del_Mal",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 432,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=813222398537&type=32&idx=0&tkn=Rs_1GYo6mUNqqLG6P0vRDIbLKzM&fn=external_8"
+    },
+    {
+      "video_id": "1830262868553",
+      "title_raw": "Stargate_Infinity_1x18_La_Clave",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 389,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=813214665289&type=32&idx=9&tkn=G9SNzJXC2GSf5RJEoq5f8uSpYwo&fn=external_8"
+    },
+    {
+      "video_id": "1830263196233",
+      "title_raw": "Stargate_Infinity_1x19_El_Carro_Del_Sol",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 381,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=813218728521&type=32&idx=0&tkn=QFymFmaY1japeBNETBhnCG7A064&fn=external_8"
+    },
+    {
+      "video_id": "1830262999625",
+      "title_raw": "Stargate_Infinity_1x20_La_Respuesta",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 375,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=813216238153&type=32&idx=6&tkn=Xpf51KkWiMCmVzBWYCUxFjxM-wo&fn=external_8"
+    },
+    {
+      "video_id": "1830262409801",
+      "title_raw": "Stargate_Infinity_1x21_La_Imagen",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 357,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=813209225801&type=32&idx=8&tkn=k5Qccpi7qNBDxeZdmECRntzr3E0&fn=external_8"
+    },
+    {
+      "video_id": "1830262082121",
+      "title_raw": "Stargate_Infinity_1x22_Pies_De_Barro",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 368,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=813202016841&type=32&idx=10&tkn=kA4eIlaDiwclQLSDZB0tR0gtd7Y&fn=external_8"
+    },
+    {
+      "video_id": "1830261951049",
+      "title_raw": "Stargate_Infinity_1x23_Talento_Natural",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 348,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=813198936649&type=32&idx=8&tkn=t-JO1RUBZQjn4JShiz64LrqHbGg&fn=external_8"
+    },
+    {
+      "video_id": "1830261885513",
+      "title_raw": "Stargate_Infinity_1x24_Un_Gran_Error",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 346,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=813195594313&type=32&idx=12&tkn=tjjvATw4uSaxsQP8tQVXhSLrJRo&fn=external_8"
+    },
+    {
+      "video_id": "1830262016585",
+      "title_raw": "Stargate_Infinity_1x25_La_Ilustrada_Stacey",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 348,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=813200902729&type=32&idx=2&tkn=0dPtqzAOut1baNXRNxHRyvTBUAg&fn=external_8"
+    },
+    {
+      "video_id": "1830262213193",
+      "title_raw": "Stargate_Infinity_1x26_Un_Largo_Trayecto",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 546,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=813205162569&type=32&idx=3&tkn=o4HJbSgFKOvdm1NKSO34uYVKdnM&fn=external_8"
+    }
+  ]
+}

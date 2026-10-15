@@ -1,0 +1,376 @@
+{
+  "title": "Sonic Underground",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c45030217 c12052041 c2335049",
+  "year": "1999",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "720p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Aventura",
+  "videos": [
+    {
+      "video_id": "10763641621065",
+      "title_raw": "Sonic Underground - 1x01 - Beginnings (Origins, Part 1)",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 778,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10003909315145&type=37&idx=9&tkn=WjrXVk22WaeN_xybqtXMtrUeNJU&fn=external_8"
+    },
+    {
+      "video_id": "10763642997321",
+      "title_raw": "Sonic Underground - 1x02 - To Catch a Queen",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 276,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10004017777225&type=37&idx=3&tkn=ulMMxqlDwurMVfsC0t-Pud16IbY&fn=external_8"
+    },
+    {
+      "video_id": "10763642014281",
+      "title_raw": "Sonic Underground - 1x03 - Mobodoon",
+      "duration_raw": "21:52",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 165,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10003930417737&type=37&idx=2&tkn=aPj48Kx3V-_grMl52WdiwD4jLqg&fn=external_8"
+    },
+    {
+      "video_id": "10763641489993",
+      "title_raw": "Sonic Underground - 1x04 - The Price of Freedom",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 123,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10003894176329&type=37&idx=9&tkn=a4gM2mq8h6dG1nVNU0X97-Anrrs&fn=external_8"
+    },
+    {
+      "video_id": "10763641555529",
+      "title_raw": "Sonic Underground - 1x05 - Underground Masquerade",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 119,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10003901319753&type=37&idx=5&tkn=GN43uGE_SKtB8Nj5FPms5BlhHRI&fn=external_8"
+    },
+    {
+      "video_id": "10763641424457",
+      "title_raw": "Sonic Underground - 1x06 - Tangled Webs",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 99,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10003888015945&type=37&idx=7&tkn=tLoRZZNtEb2bJG5E-QD9jzllot4&fn=external_8"
+    },
+    {
+      "video_id": "10763641948745",
+      "title_raw": "Sonic Underground - 1x07 - The Deepest Fear",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 98,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10003924257353&type=37&idx=6&tkn=G0MmldLa4NUlOvBgOpsmB6k9dhI&fn=external_8"
+    },
+    {
+      "video_id": "10763642079817",
+      "title_raw": "Sonic Underground - 1x08 - Who Do You Think You Are",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 92,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10003936971337&type=37&idx=12&tkn=8T5NoSbWiKt08b8sJgVl7xd7Bcs&fn=external_8"
+    },
+    {
+      "video_id": "10763762534985",
+      "title_raw": "Sonic Underground - 1x09 - The Last Resort",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 95,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10004072761929&type=37&idx=15&tkn=X_6FcGnDcLw0ZDmEtFOFPEHIN-0&fn=external_8"
+    },
+    {
+      "video_id": "10763642604105",
+      "title_raw": "Sonic Underground - 1x10 - Come Out Wherever You Are",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 78,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10003989924425&type=37&idx=10&tkn=kFKkqzMk8Xdp4PGUDp17rT9WC9k&fn=external_8"
+    },
+    {
+      "video_id": "10763641883209",
+      "title_raw": "Sonic Underground - 1x11 - Winner Fakes All",
+      "duration_raw": "21:49",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 142,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10003916851785&type=37&idx=13&tkn=3K4t1ljh2TNwxPyLNVKZyU-YnIo&fn=external_8"
+    },
+    {
+      "video_id": "10763643128393",
+      "title_raw": "Sonic Underground - 1x12 - A Hedgehog's Home is Her Castle",
+      "duration_raw": "21:49",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 82,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10004024920649&type=37&idx=4&tkn=NT1n3yLd27Hw4-wg4long90_LT4&fn=external_8"
+    },
+    {
+      "video_id": "10763762469449",
+      "title_raw": "Sonic Underground - 1x13 - Artifact",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 72,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10004066863689&type=37&idx=2&tkn=6W5aSqP9fs0slrjzuotet_4Gimk&fn=external_8"
+    },
+    {
+      "video_id": "10763642341961",
+      "title_raw": "Sonic Underground - 1x14 - Bug!",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 68,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10003962726985&type=37&idx=15&tkn=wWWncgC-iSMlBoL6z1TRcZNkO_g&fn=external_8"
+    },
+    {
+      "video_id": "10763763649097",
+      "title_raw": "Sonic Underground - 1x15 - Sonic Tonic",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 70,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10004163660361&type=37&idx=9&tkn=zJSQt3ZZgvAvbEwV0v8KyTf10hs&fn=external_8"
+    },
+    {
+      "video_id": "10763762666057",
+      "title_raw": "Sonic Underground - 1x16 - Friend or Foe",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 73,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10004078725705&type=37&idx=7&tkn=dO5Ude3bUGL50Y66wXSeJEvr50s&fn=external_8"
+    },
+    {
+      "video_id": "10763762731593",
+      "title_raw": "Sonic Underground - 1x17 - Head Games",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 76,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10004085738057&type=37&idx=7&tkn=NAuTxofqJGVBx4DJVl6lfX-DtC4&fn=external_8"
+    },
+    {
+      "video_id": "10763642145353",
+      "title_raw": "Sonic Underground - 1x18 - When in Rome...",
+      "duration_raw": "21:52",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 65,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10003943262793&type=37&idx=12&tkn=le-ZCMfKg20RrvrUHiwzkOrx5ao&fn=external_8"
+    },
+    {
+      "video_id": "10763643193929",
+      "title_raw": "Sonic Underground - 1x19 - The Jewel in the Crown",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 64,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10004032195145&type=37&idx=4&tkn=Mm_wE8Ef0FA0DmZQY-yG42cryT8&fn=external_8"
+    },
+    {
+      "video_id": "10763762928201",
+      "title_raw": "Sonic Underground - 1x20 - Three Hedgehogs and a Baby",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 70,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10004100745801&type=37&idx=8&tkn=3yGNezhH7BXLUHr2QNF22dc0cCM&fn=external_8"
+    },
+    {
+      "video_id": "10763762797129",
+      "title_raw": "Sonic Underground - 1x21 - Dunes Day",
+      "duration_raw": "21:52",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 66,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10004093078089&type=37&idx=12&tkn=ykNrVugDBa9Nm0cle8z0krw0W_Q&fn=external_8"
+    },
+    {
+      "video_id": "10763763714633",
+      "title_raw": "Sonic Underground - 1x22 - Mummy Dearest",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 63,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10004171590217&type=37&idx=8&tkn=lyPB157N42wEDAor0Q6uoob-F7g&fn=external_8"
+    },
+    {
+      "video_id": "10763763780169",
+      "title_raw": "Sonic Underground - 1x23 - The Hedgehog in the Iron Mask",
+      "duration_raw": "21:52",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 68,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10004177488457&type=37&idx=8&tkn=EJK1ZbeyvFB_8gY9Fio9uCtDBSA&fn=external_8"
+    },
+    {
+      "video_id": "10763762993737",
+      "title_raw": "Sonic Underground - 1x24 - Six is a Crowd",
+      "duration_raw": "21:50",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 73,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10004107364937&type=37&idx=7&tkn=EQJAznOJx1Xh9zA9Efask6T0bLQ&fn=external_8"
+    },
+    {
+      "video_id": "10763642735177",
+      "title_raw": "Sonic Underground - 1x25 - Flying Fortress (Chaos Emerald Crisis, Part 1)",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 66,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10003997133385&type=37&idx=3&tkn=o7UYd1-aoVBpFX7lBrVlldwFKrY&fn=external_8"
+    },
+    {
+      "video_id": "10763642931785",
+      "title_raw": "Sonic Underground - 1x26 - Wedding Bell Blues",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 67,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10004011813449&type=37&idx=14&tkn=8lz8Pt-V775gKVyGgePdgh4fWEQ&fn=external_8"
+    },
+    {
+      "video_id": "10763763518025",
+      "title_raw": "Sonic Underground - 1x27 - No Hedgehog is an Island (Chaos Emerald Crisis, Part 2)",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 73,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10004150946377&type=37&idx=8&tkn=esnfHl3Xaa2LhdJrzOOo9cGkKf0&fn=external_8"
+    },
+    {
+      "video_id": "10763642538569",
+      "title_raw": "Sonic Underground - 1x28 - Getting to Know You (Origins, Part 2)",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 71,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10003982518857&type=37&idx=8&tkn=Kq30VBBN9evF9xE_TaGlg-HMLc0&fn=external_8"
+    },
+    {
+      "video_id": "10763763321417",
+      "title_raw": "Sonic Underground - 1x29 - New Echidna in Town (Chaos Emerald Crisis, Part 3)",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 65,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10004143934025&type=37&idx=6&tkn=D8_RSfZn0Fsti3FlrgoQ3SA1-RM&fn=external_8"
+    },
+    {
+      "video_id": "10763642276425",
+      "title_raw": "Sonic Underground - 1x30 - Harmony or Something (Origins, Part 3)",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 74,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10003956697673&type=37&idx=10&tkn=zZeMwRLj9l5FRpQO5PsYfpBGi9M&fn=external_8"
+    },
+    {
+      "video_id": "10763642210889",
+      "title_raw": "Sonic Underground - 1x31 - Country Crisis",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 63,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10003951192649&type=37&idx=7&tkn=WLdLbTRhxzhQy4aMZEMRVWW2VYU&fn=external_8"
+    },
+    {
+      "video_id": "10763763583561",
+      "title_raw": "Sonic Underground - 1x32 - Haircraft in Space",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 127,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10004156451401&type=37&idx=5&tkn=RpZZJe8UAjnORSLZa2pBC1LwSZA&fn=external_8"
+    },
+    {
+      "video_id": "10763763911241",
+      "title_raw": "Sonic Underground - 1x33 - Healer",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 91,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10004182600265&type=37&idx=5&tkn=_SSuMVK6clQaWQpn27ybUrVwTmM&fn=external_8"
+    },
+    {
+      "video_id": "10763642866249",
+      "title_raw": "Sonic Underground - 1x34 - Sonia's Choice",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 58,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10004004670025&type=37&idx=10&tkn=dEcxr0MDCLNVLB1G03WWD2bI5WQ&fn=external_8"
+    },
+    {
+      "video_id": "10763642473033",
+      "title_raw": "Sonic Underground - 1x35 - The Big Melt",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 60,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10003971574345&type=37&idx=12&tkn=QYdxDLRPBi1Bm1QaTj9YRRpwwic&fn=external_8"
+    },
+    {
+      "video_id": "10763763190345",
+      "title_raw": "Sonic Underground - 1x36 - Sleepers",
+      "duration_raw": "21:49",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 57,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10004127615561&type=37&idx=7&tkn=vdQBKX2gVCX93HTXy-bE_STJjk0&fn=external_8"
+    },
+    {
+      "video_id": "10763857300041",
+      "title_raw": "Sonic Underground - 1x37 - Bartleby the Prisoner",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 69,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10004202457673&type=37&idx=2&tkn=Ypjf-HOHsKgdeEh7DduuZGo5gzk&fn=external_8"
+    },
+    {
+      "video_id": "10763763255881",
+      "title_raw": "Sonic Underground - 1x38 - The Art of Destruction",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 61,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10004135873097&type=37&idx=8&tkn=iMbKnOLQKoCZeHy3vABWfubh3KI&fn=external_8"
+    },
+    {
+      "video_id": "10763763059273",
+      "title_raw": "Sonic Underground - 1x39 - The Pendant",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 68,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10004113525321&type=37&idx=8&tkn=P2xUxAt9f8YYhajLkPcm9u9mn9Y&fn=external_8"
+    },
+    {
+      "video_id": "10763763124809",
+      "title_raw": "Sonic Underground - 1x40 - Virtual Danger",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 119,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10004121258569&type=37&idx=14&tkn=2rFSXE9RgqypC2fcR485toTGu60&fn=external_8"
+    }
+  ]
+}

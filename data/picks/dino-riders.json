@@ -1,0 +1,133 @@
+{
+  "title": "Dino Riders",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c3393865",
+  "year": "1988",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "1830213388873",
+      "title_raw": "Dino-Riders - 01 - La aventura se inicia",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 6567,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679429835436&type=32&idx=10&tkn=YjowI1rqeYKBKKBlLYavATUwsPo&fn=external_8"
+    },
+    {
+      "video_id": "1830213519945",
+      "title_raw": "Dino-Riders - 02 - La venganza de los rulons",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 1275,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679421512364&type=32&idx=1&tkn=Xdxkl_-ZBsWkICneCe4wOMMiLJY&fn=external_8"
+    },
+    {
+      "video_id": "1830213782089",
+      "title_raw": "Dino-Riders - 03 - La estampida",
+      "duration_raw": "21:20",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 742,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679419611820&type=32&idx=15&tkn=OSe8HKepY3Q1OHB_aXVSTAsBilc&fn=external_8"
+    },
+    {
+      "video_id": "1830212930121",
+      "title_raw": "Dino-Riders - 04 - La batalla Aerea",
+      "duration_raw": "21:22",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 557,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679420267180&type=32&idx=10&tkn=-JhIrfTJcy2cYb5_9fMZT_oCkwk&fn=external_8"
+    },
+    {
+      "video_id": "1830213126729",
+      "title_raw": "Dino-Riders - 05 - Toro,toro,torosaurio",
+      "duration_raw": "21:22",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 447,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679419808428&type=32&idx=15&tkn=P5YKn6o5XxpB7eVSU8Tf5gZuM5M&fn=external_8"
+    },
+    {
+      "video_id": "1830212995657",
+      "title_raw": "Dino-Riders - 06 - Tiranosaurus Rex",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 519,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679420725932&type=32&idx=11&tkn=F5lj3e2G8GFmBCbvtDkwmi4E0U4&fn=external_8"
+    },
+    {
+      "video_id": "1830213323337",
+      "title_raw": "Dino-Riders - 07 - El poder de krutalo",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 339,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679420201644&type=32&idx=12&tkn=07Qo49Ds3wcz3uCuMWKhkf1ubVg&fn=external_8"
+    },
+    {
+      "video_id": "1830213192265",
+      "title_raw": "Dino-Riders - 08 - Los tuneles de lava",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 288,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679420463788&type=32&idx=12&tkn=U7HnO0Ar3eF1bCIm3AU7GzYdp94&fn=external_8"
+    },
+    {
+      "video_id": "1830213585481",
+      "title_raw": "Dino-Riders - 09 - Dia de accion de gracias",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 292,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679420594860&type=32&idx=6&tkn=pnfsU-CSI3wdZ79GsPB8R8okjrM&fn=external_8"
+    },
+    {
+      "video_id": "1830213257801",
+      "title_raw": "Dino-Riders - 10 - Titar pierde los estribos",
+      "duration_raw": "21:22",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 269,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679420005036&type=32&idx=14&tkn=SdvQ3ppg47u_QNb6Bm4wi_dpD0M&fn=external_8"
+    },
+    {
+      "video_id": "1830213454409",
+      "title_raw": "Dino-Riders - 11 - Comandos en accion",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 250,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679420988076&type=32&idx=7&tkn=QQ89chyb73urOnogn3jVgPtJ4WY&fn=external_8"
+    },
+    {
+      "video_id": "1830213716553",
+      "title_raw": "Dino-Riders - 12 - La batalla de los brontosaurios",
+      "duration_raw": "21:22",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 274,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679420529324&type=32&idx=6&tkn=H_e_5P43OBVfECmDPg9Y9TlkSnU&fn=external_8"
+    },
+    {
+      "video_id": "1830213651017",
+      "title_raw": "Dino-Riders - 13 - Pelea por el liderazgo",
+      "duration_raw": "21:22",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 427,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679420791468&type=32&idx=6&tkn=aHYf7dS4yamr7kYlZKxjxtrSgbs&fn=external_8"
+    }
+  ]
+}

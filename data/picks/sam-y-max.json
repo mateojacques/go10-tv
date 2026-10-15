@@ -1,0 +1,133 @@
+{
+  "title": "Sam y Max",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c5998665",
+  "year": "1997",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "3397654612553",
+      "title_raw": "Ep01 La Cosa Que Molestaba",
+      "duration_raw": "21:02",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 3254,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2158030686793&type=32&idx=5&tkn=EGoFaSJ0RQjMNIlQOTfknPlb9Bo&fn=external_8"
+    },
+    {
+      "video_id": "3397655267913",
+      "title_raw": "Ep02 El Segundo Programa - Ep03 El Gran Día De Max",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 1096,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2158067386953&type=32&idx=9&tkn=w7GLFRhR9J_kobsfJ6XPuScp_hI&fn=external_8"
+    },
+    {
+      "video_id": "3397655333449",
+      "title_raw": "Ep04 Un Mal Día En La Luna  Ep05 Vinieron De Allá Abajo",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 654,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2158071122505&type=32&idx=11&tkn=bTBVIkM73HGr3ilHEjCzASYXFy0&fn=external_8"
+    },
+    {
+      "video_id": "3397655202377",
+      "title_raw": "Ep06 Amigo De Por Vida La - Ep07 Disfunción De Los Dioses",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 497,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2158062864969&type=32&idx=7&tkn=cERc12dlR8T1CRaiuLKmo0d-jBs&fn=external_8"
+    },
+    {
+      "video_id": "3397655136841",
+      "title_raw": "Ep08 Problemas En La Corteza Terrestre - Ep09 Un Desperfecto En El Tiempo",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 394,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2158059129417&type=32&idx=10&tkn=Tpt41ULyh9F3ZmfaBU8K6Xqy4vU&fn=external_8"
+    },
+    {
+      "video_id": "3397654940233",
+      "title_raw": "Ep10 Ese Malvado Caimán - Ep11 Las Llaves Del Comisionado",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 377,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2158049299017&type=32&idx=10&tkn=MctC5_twJL6ff7Cadhn6xxghbYM&fn=external_8"
+    },
+    {
+      "video_id": "3397654874697",
+      "title_raw": "Ep12 Navidad Sangrienta Navidad - Ep13 El Payaso Dangly",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 367,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2158046415433&type=32&idx=7&tkn=UwQPg0H25GyE9n845Xmkbo9d3Zo&fn=external_8"
+    },
+    {
+      "video_id": "3397654678089",
+      "title_raw": "Ep14 Aayyyy Robot  - Ep15 El Caso De Los McGuffins Glaseados",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 300,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2158034291273&type=32&idx=9&tkn=aSBjQDh50mqz4-2NvyXnyr-ynD8&fn=external_8"
+    },
+    {
+      "video_id": "3397655005769",
+      "title_raw": "Ep16 El Caso Del Raro Revivido - Ep17 El Problema Con Gary",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 321,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2158052969033&type=32&idx=14&tkn=luSg0Q2nWcyCzQcBD6c4WPQ_mXY&fn=external_8"
+    },
+    {
+      "video_id": "3397654743625",
+      "title_raw": "Ep18 Esta Noche Amamos- Ep19 Los Invasores",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 302,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2158038223433&type=32&idx=8&tkn=rIiDU-R399fh93mUKZvjRCt7HB0&fn=external_8"
+    },
+    {
+      "video_id": "3397654809161",
+      "title_raw": "Ep20 Beso Beso, Bang Bang - Ep21 Pequeño Pie Grande",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 306,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2158042352201&type=32&idx=1&tkn=0KJNagfKTh8lU8_MTNysz4Rekfk&fn=external_8"
+    },
+    {
+      "video_id": "3397655398985",
+      "title_raw": "Ep22 Los Tontos Mueren En Viernes - Ep23 Sam y Max Vs Los Feorines",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 268,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2158074530377&type=32&idx=14&tkn=5enb3-YXeyhjDpQs6UlgEkkdbwU&fn=external_8"
+    },
+    {
+      "video_id": "3397655071305",
+      "title_raw": "Ep24 El Episodio Final",
+      "duration_raw": "21:17",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 287,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2158055721545&type=32&idx=13&tkn=Tb2qQsUiKe_5XwnzBJ-rUPw-F5U&fn=external_8"
+    }
+  ]
+}

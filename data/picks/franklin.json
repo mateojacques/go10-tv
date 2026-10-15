@@ -1,0 +1,718 @@
+{
+  "title": "Franklin",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c5685065 c5685321 c5685577 c5685833 c5686089",
+  "year": "1997",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Infantil",
+  "genre_secondary": "Animación",
+  "videos": [
+    {
+      "video_id": "2978379860553",
+      "title_raw": "01.Franklin Plays the Game-Franklin Wants a Pet_x264",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 11335,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845424884297&type=32&idx=12&tkn=TkApLmVhI5lEcBO8qNKQvsTlMj4&fn=external_8"
+    },
+    {
+      "video_id": "2978379205193",
+      "title_raw": "02.Hurry Up Franklin-Franklin's Bad Day_x264",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 2221,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845364853321&type=32&idx=7&tkn=2DC6oeRrD84tqzgzR6cF5tDVBuo&fn=external_8"
+    },
+    {
+      "video_id": "2978379139657",
+      "title_raw": "03.Franklin Goes to School-Franklin Is Lost_x264",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1506,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845359741513&type=32&idx=8&tkn=1H0BWY0HVXBjPdxR--LT27_cllo&fn=external_8"
+    },
+    {
+      "video_id": "2978379336265",
+      "title_raw": "04.Franklin Has a Sleepover-Franklin's Halloween_x264",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 939,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845377108553&type=32&idx=1&tkn=njbuqt8niu7cy4mjdvfRskrl2hM&fn=external_8"
+    },
+    {
+      "video_id": "2978379729481",
+      "title_raw": "05.Franklin Rides a Bike-Franklin Is Messy_x264",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 757,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845409090121&type=32&idx=11&tkn=gQPvnmeYpMTJQtyD0Pzz7F7sTNo&fn=external_8"
+    },
+    {
+      "video_id": "2978379270729",
+      "title_raw": "06.Franklin Fibs-Franklin's Blanket_x264",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 610,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845370292809&type=32&idx=12&tkn=NnX-_HSDeHeFdcBiKoadyiFtgKY&fn=external_8"
+    },
+    {
+      "video_id": "2978379401801",
+      "title_raw": "07.Franklin Is Bossy-Franklin's Fort_x264",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 585,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845384251977&type=32&idx=3&tkn=nZuW_1zktF3MRVvAj1MiB2LD7wM&fn=external_8"
+    },
+    {
+      "video_id": "2978379467337",
+      "title_raw": "08.Finder's Keepers for Franklin-Franklin's New Friend_x264",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 536,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845390543433&type=32&idx=9&tkn=1FOyptgvwDsYr4Imi0YLUyw7pqA&fn=external_8"
+    },
+    {
+      "video_id": "2978379074121",
+      "title_raw": "09.Franklin's School Play-Franklin and the Secret Club_x264",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 511,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845351680585&type=32&idx=7&tkn=n_lbw-pMpdy-AgH5b6pWPdQenSA&fn=external_8"
+    },
+    {
+      "video_id": "2978379926089",
+      "title_raw": "10.Franklin and the Red Scooter-Franklin in the Dark_x264",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 538,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845433076297&type=32&idx=14&tkn=QqfqFTvwj-eRbE7-hXp5NGrn1Tk&fn=external_8"
+    },
+    {
+      "video_id": "2978379532873",
+      "title_raw": "11.Franklin and the Tooth Fairy-Franklin Takes the Blame_x264",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 489,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845395393097&type=32&idx=12&tkn=hI8P9lmr6VrJo1Hx9Ibo6yHGdtk&fn=external_8"
+    },
+    {
+      "video_id": "2978379795017",
+      "title_raw": "12.Franklin's Christmas Gift-Franklin's Granny_x264",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 548,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845416561225&type=32&idx=1&tkn=HIdxyCyVl0aAm5P7zMl1WJVv8RY&fn=external_8"
+    },
+    {
+      "video_id": "2978379663945",
+      "title_raw": "13.Franklin and the Baby-Franklin Goes to Day Camp_x264",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 635,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845402995273&type=32&idx=10&tkn=_sOiDBbgGGhvut1xR6QcTvd3W8g&fn=external_8"
+    },
+    {
+      "video_id": "2978467088969",
+      "title_raw": "01.Franklin's Visitor-Franklin's Not-So-Broken Bone_x264",
+      "duration_raw": "22:57",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 715,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845508704841&type=32&idx=11&tkn=0j3PWVdQCt5rCjBoKdDB1MTwz1g&fn=external_8"
+    },
+    {
+      "video_id": "2978466826825",
+      "title_raw": "02.Franklin's Gift-Franklin Growing Up Fast_x264",
+      "duration_raw": "22:57",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 438,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845468203593&type=32&idx=4&tkn=2tOr1GnHMXDSoR5VP6gk-WVw1dQ&fn=external_8"
+    },
+    {
+      "video_id": "2978467613257",
+      "title_raw": "03.Franklin the Spy-Franklin's Library Book_x264",
+      "duration_raw": "22:57",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 385,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845579942473&type=32&idx=10&tkn=Noe5-vjDrD3py_H9szepLuT3kAY&fn=external_8"
+    },
+    {
+      "video_id": "2978467547721",
+      "title_raw": "04.Franklin's Kite-Franklin and the Babysitter_x264",
+      "duration_raw": "22:57",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 694,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845567556169&type=32&idx=4&tkn=AE1B0CsghiUZQ2V7jWkxQkntAII&fn=external_8"
+    },
+    {
+      "video_id": "2978467678793",
+      "title_raw": "05.Franklin and the Broken Globe-Franklin's Valentines_x264",
+      "duration_raw": "22:57",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 390,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845590493769&type=32&idx=5&tkn=9iyM-v7HlC7Q7MvKzhIuNC4dY_0&fn=external_8"
+    },
+    {
+      "video_id": "2978466892361",
+      "title_raw": "06.Franklin's Family Treasure-Franklin's Music Lessons_x264",
+      "duration_raw": "22:57",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 288,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845478165065&type=32&idx=10&tkn=JJGmWgBIRCU4a6j-d65JJwqIdGM&fn=external_8"
+    },
+    {
+      "video_id": "2978467482185",
+      "title_raw": "07.Franklin Takes a Trip-Franklin's Bicycle Helmet_x264",
+      "duration_raw": "22:57",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 368,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845557791305&type=32&idx=15&tkn=vMZV0vO00AD3hKE2tPlAb7qiZKk&fn=external_8"
+    },
+    {
+      "video_id": "2978467416649",
+      "title_raw": "08.Franklin's Birthday Party-Franklin's Nickname_x264",
+      "duration_raw": "22:57",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 375,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845545667145&type=32&idx=5&tkn=kWQNGeXxOcDByvEcojlWEdadbac&fn=external_8"
+    },
+    {
+      "video_id": "2978466957897",
+      "title_raw": "09.Franklin and Otter's Visit-Franklin's Collection_x264",
+      "duration_raw": "22:57",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 295,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845485701705&type=32&idx=14&tkn=JL36yfx5Agk5np69_viStfW7SC0&fn=external_8"
+    },
+    {
+      "video_id": "2978466761289",
+      "title_raw": "10.Franklin Says Sorry-Franklin and the Fire_x264",
+      "duration_raw": "22:57",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 255,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845457783369&type=32&idx=10&tkn=Q28vRc1n8iSWYBfhcvsRPfzZu8A&fn=external_8"
+    },
+    {
+      "video_id": "2978467023433",
+      "title_raw": "11.Franklin's Garden-Franklin Runs Away_x264",
+      "duration_raw": "22:57",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 255,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845497236041&type=32&idx=9&tkn=veshAVCdqbc3m7jNh0fiO1HeyAs&fn=external_8"
+    },
+    {
+      "video_id": "2978467220041",
+      "title_raw": "12.Franklin's Gloomy Day-Franklin Tells Time_x264",
+      "duration_raw": "22:57",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 218,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845520304713&type=32&idx=2&tkn=1pT_ORrXuXWlq6WVX6T0rp36VYU&fn=external_8"
+    },
+    {
+      "video_id": "2978467285577",
+      "title_raw": "13.Franklin's Test-Franklin and the Duckling_x264",
+      "duration_raw": "22:57",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 263,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845531183689&type=32&idx=1&tkn=XgVFQbpIsO-oDOZi8tSg3ifsZqA&fn=external_8"
+    },
+    {
+      "video_id": "3001613683273",
+      "title_raw": "01.Franklin and His Night Friend-Franklin and the Two Henrys_x264",
+      "duration_raw": "22:57",
+      "season_number": 3,
+      "episode_number": 1,
+      "views": 537,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1869316491849&type=32&idx=14&tkn=7jbDVltDWSaocA9N70zzjh9Yr3M&fn=external_8"
+    },
+    {
+      "video_id": "3001612831305",
+      "title_raw": "02.Frankin's Nature Hike-Franklin's Starring Role_x264",
+      "duration_raw": "22:57",
+      "season_number": 3,
+      "episode_number": 2,
+      "views": 346,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1869204818505&type=32&idx=6&tkn=o3n3L3_l9_XYdp1Tzqsb2XaM4_w&fn=external_8"
+    },
+    {
+      "video_id": "3001613617737",
+      "title_raw": "03.Franklin's Masterpiece-Franklin and the Computer_x264",
+      "duration_raw": "22:57",
+      "season_number": 3,
+      "episode_number": 3,
+      "views": 304,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1869306923593&type=32&idx=11&tkn=IcG7MSjIn34s8fP9unKkWgGWa1U&fn=external_8"
+    },
+    {
+      "video_id": "3001613027913",
+      "title_raw": "04.Franklin the Trooper-Franklin's Fossil_x264",
+      "duration_raw": "22:57",
+      "season_number": 3,
+      "episode_number": 4,
+      "views": 237,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1869220022857&type=32&idx=1&tkn=zEeOvoLUVkn0p2a2-M24EQOByME&fn=external_8"
+    },
+    {
+      "video_id": "3001613421129",
+      "title_raw": "05.Franklin and the Fortune Teller-Franklin's Cellar_x264",
+      "duration_raw": "22:57",
+      "season_number": 3,
+      "episode_number": 5,
+      "views": 243,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1869276383817&type=32&idx=1&tkn=jsY7D410x9YoX3wQxZMIA4opfJI&fn=external_8"
+    },
+    {
+      "video_id": "3001613355593",
+      "title_raw": "06.Franklin Plants a Tree-Franklin the Hero_x264",
+      "duration_raw": "22:57",
+      "season_number": 3,
+      "episode_number": 6,
+      "views": 228,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1869267012169&type=32&idx=12&tkn=Jv8Yjc0AW1WGJzqraO1GIG7BlFc&fn=external_8"
+    },
+    {
+      "video_id": "3001613552201",
+      "title_raw": "07.Franklin's Day Off-Franklin's Homemade Cookies_x264",
+      "duration_raw": "22:57",
+      "season_number": 3,
+      "episode_number": 7,
+      "views": 237,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1869296765513&type=32&idx=3&tkn=2yRJFvg0lI_8jqmcZ6lto_4Nl2c&fn=external_8"
+    },
+    {
+      "video_id": "3001613093449",
+      "title_raw": "08.Franklin the Fabulous-Franklin Camps Out_x264",
+      "duration_raw": "22:57",
+      "season_number": 3,
+      "episode_number": 8,
+      "views": 164,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1869228870217&type=32&idx=10&tkn=uEWZJz_VXwiuayq_GdlAhc5Zm2I&fn=external_8"
+    },
+    {
+      "video_id": "3001613290057",
+      "title_raw": "09.Franklin and the Puppy-Franklin Takes the Bus_x264",
+      "duration_raw": "22:57",
+      "season_number": 3,
+      "episode_number": 9,
+      "views": 212,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1869256985161&type=32&idx=5&tkn=9AH1FaY2kp3wE8s-8SjVU15wCzA&fn=external_8"
+    },
+    {
+      "video_id": "3001612896841",
+      "title_raw": "10.Franklin and the Copycat-Big Brother Franklin_x264",
+      "duration_raw": "22:57",
+      "season_number": 3,
+      "episode_number": 10,
+      "views": 191,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1869213600329&type=32&idx=12&tkn=ZoCJmkWbbl0QaRhWf-wsHuMpET4&fn=external_8"
+    },
+    {
+      "video_id": "3001613486665",
+      "title_raw": "11.Franklin and the Grump-Franklin's Promise_x264",
+      "duration_raw": "22:57",
+      "season_number": 3,
+      "episode_number": 11,
+      "views": 168,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1869285362249&type=32&idx=13&tkn=MA0fJqRTYwpj2Eg9m189Ysx0oVA&fn=external_8"
+    },
+    {
+      "video_id": "3001613224521",
+      "title_raw": "12.Franklin and the Thunderstorm-Franklin's Maple Syrup_x264",
+      "duration_raw": "22:57",
+      "season_number": 3,
+      "episode_number": 12,
+      "views": 144,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1869248465481&type=32&idx=13&tkn=XNJvODGlRukTk2-umw9rWQDcpyM&fn=external_8"
+    },
+    {
+      "video_id": "3001613158985",
+      "title_raw": "13.Franklin Helps Out-Franklin's Missing Snacks_x264",
+      "duration_raw": "22:57",
+      "season_number": 3,
+      "episode_number": 13,
+      "views": 176,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1869238110793&type=32&idx=2&tkn=lXCfr0aQdBPTsJ3elQpJPNVWeS0&fn=external_8"
+    },
+    {
+      "video_id": "3001819400777",
+      "title_raw": "01.Franklin's Good Deeds-Franklin's Submarine_x264",
+      "duration_raw": "22:57",
+      "season_number": 4,
+      "episode_number": 1,
+      "views": 307,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1869418859081&type=32&idx=1&tkn=TfL_YEg0AYaT6VcdzwcMc_qlQkQ&fn=external_8"
+    },
+    {
+      "video_id": "3001819597385",
+      "title_raw": "02.Mr. Fix It Franklin-Franklin Has the Hiccups_x264",
+      "duration_raw": "22:57",
+      "season_number": 4,
+      "episode_number": 2,
+      "views": 247,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1869455559241&type=32&idx=4&tkn=mOivO3cJCikMH7BUtmyQI2MgQGI&fn=external_8"
+    },
+    {
+      "video_id": "3001819531849",
+      "title_raw": "03.Franklin Delivers-Franklin's Shell Trouble_x264",
+      "duration_raw": "22:57",
+      "season_number": 4,
+      "episode_number": 3,
+      "views": 216,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1869442779721&type=32&idx=2&tkn=itESCMYDT1bQQEQshfeo5hRgicw&fn=external_8"
+    },
+    {
+      "video_id": "3001819466313",
+      "title_raw": "04.Franklin's Sailboat-Franklin Snoops_x264",
+      "duration_raw": "22:57",
+      "season_number": 4,
+      "episode_number": 4,
+      "views": 244,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1869428427337&type=32&idx=13&tkn=QKdU9MnQO2HMk9PpRs5hrZ9Pp0c&fn=external_8"
+    },
+    {
+      "video_id": "3001819662921",
+      "title_raw": "05.Franklin's Father-Franklin Plays Hockey_x264",
+      "duration_raw": "22:57",
+      "season_number": 4,
+      "episode_number": 5,
+      "views": 155,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1869468731977&type=32&idx=14&tkn=V1NUgUl0JyIx0ltum3PBZfErBsk&fn=external_8"
+    },
+    {
+      "video_id": "3001819728457",
+      "title_raw": "06.Franklin and the Puppet Play-Franklin's Stopwatch_x264",
+      "duration_raw": "22:57",
+      "season_number": 4,
+      "episode_number": 6,
+      "views": 176,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1869480069705&type=32&idx=11&tkn=oBYPRz74vXvEJijZnxi4muokKdA&fn=external_8"
+    },
+    {
+      "video_id": "2978609302089",
+      "title_raw": "Franklin - 46 - Franklin Conoce A Armiño _ Franklin El Bromista (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:57",
+      "season_number": 4,
+      "episode_number": 7,
+      "views": 285,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845687224905&type=32&idx=14&tkn=zi6Y_hHoKHi-8PnFjFb6NnKIoKU&fn=external_8"
+    },
+    {
+      "video_id": "2978608712265",
+      "title_raw": "Franklin - 47 - Franklin Y Sam _ El Huerto De Moras De Franklin (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:57",
+      "season_number": 4,
+      "episode_number": 8,
+      "views": 225,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845612251721&type=32&idx=1&tkn=6YAEIHmCXavR1GOFoyLrzwF8G_o&fn=external_8"
+    },
+    {
+      "video_id": "2978609957449",
+      "title_raw": "Franklin - 48 - El Rival De Franklin _ Franklin Y El Intercambio De Estampas (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:57",
+      "season_number": 4,
+      "episode_number": 9,
+      "views": 275,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845764164169&type=32&idx=10&tkn=TKqB1_PubTFCR0nxC751sgILtKU&fn=external_8"
+    },
+    {
+      "video_id": "2978610285129",
+      "title_raw": "Franklin - 49 - El Robot De Franklin _ Franklin El Detective (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:57",
+      "season_number": 4,
+      "episode_number": 10,
+      "views": 158,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845813185097&type=32&idx=6&tkn=9_VeQ3UlBLkXFQB1XQsdvUnCzNY&fn=external_8"
+    },
+    {
+      "video_id": "2978608843337",
+      "title_raw": "Franklin - 50 - Franklin El Audaz _ El Amuleto De Franklin (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:57",
+      "season_number": 4,
+      "episode_number": 11,
+      "views": 177,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845631715913&type=32&idx=7&tkn=Zkw0bU7n4gSbV6ySwX0vSUJ012Y&fn=external_8"
+    },
+    {
+      "video_id": "2978609236553",
+      "title_raw": "Franklin - 51 - Franklin A La Orilla Del Mar _ Franklin Y El Sueño Del Caracol (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:57",
+      "season_number": 4,
+      "episode_number": 12,
+      "views": 184,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845679753801&type=32&idx=13&tkn=7uxrvpl1M_DSZkIKgyg0E_ELEo0&fn=external_8"
+    },
+    {
+      "video_id": "2978610481737",
+      "title_raw": "Franklin - 52 - Mi Franklin _ La Mamá De Franklin (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:57",
+      "season_number": 4,
+      "episode_number": 13,
+      "views": 173,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845844576841&type=32&idx=7&tkn=BGlzATOWHGDxFsZpKnnRQ0YnUy0&fn=external_8"
+    },
+    {
+      "video_id": "2978609171017",
+      "title_raw": "Franklin - 53 - Franklin se queda despierto _ El Pacto de Franklin (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:57",
+      "season_number": 5,
+      "episode_number": 1,
+      "views": 152,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845669268041&type=32&idx=10&tkn=1qdKeCxab8VgCHQW9ygYfGIILhw&fn=external_8"
+    },
+    {
+      "video_id": "2978609891913",
+      "title_raw": "Franklin - 54 - Franklin y la patrula del autobus _ Franklin y Gloton (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:57",
+      "season_number": 5,
+      "episode_number": 2,
+      "views": 282,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845757086281&type=32&idx=3&tkn=3M2Bi4p25vOmf16kgnuy_33VYFM&fn=external_8"
+    },
+    {
+      "video_id": "2978610809417",
+      "title_raw": "Franklin - 55 - La Calabaza de Franklin _ La Banda Musical de Franklin (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:57",
+      "season_number": 5,
+      "episode_number": 3,
+      "views": 171,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845909588553&type=32&idx=14&tkn=VZCJS7fiMPJd4eZTkc3SySVrzqc&fn=external_8"
+    },
+    {
+      "video_id": "2978610416201",
+      "title_raw": "Franklin - 56 - El Gran Juego de Franklin _ El Club de Lectura de Franklin (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:57",
+      "season_number": 5,
+      "episode_number": 4,
+      "views": 155,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845838416457&type=32&idx=7&tkn=DPT_sQNB6rZQzL1cmQTOte8-wbE&fn=external_8"
+    },
+    {
+      "video_id": "2978610547273",
+      "title_raw": "Franklin - 57 - Franklin en dos lugares _ Franklin la primera estrella (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:57",
+      "season_number": 5,
+      "episode_number": 5,
+      "views": 132,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845853751881&type=32&idx=15&tkn=h5HQLpAU_tTN9zzTZHbIOMzTogI&fn=external_8"
+    },
+    {
+      "video_id": "2978610350665",
+      "title_raw": "Franklin - 58 - Franklin pierde un libro _ Franklin y Betty (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:57",
+      "season_number": 5,
+      "episode_number": 6,
+      "views": 155,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845824588361&type=32&idx=6&tkn=-uRhXhfIjEgvpF_ZRHrfT3vAOBI&fn=external_8"
+    },
+    {
+      "video_id": "2978610678345",
+      "title_raw": "Franklin - 59 - Franklin el maestro _ La alergia de Franklin (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:57",
+      "season_number": 5,
+      "episode_number": 7,
+      "views": 243,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845870922313&type=32&idx=4&tkn=iZZV9nFTYs-bWEFRj2ZHKMD50Rg&fn=external_8"
+    },
+    {
+      "video_id": "2978609826377",
+      "title_raw": "Franklin - 60 - La nave de Franklin _ Los planes festivos de Franklin (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:57",
+      "season_number": 5,
+      "episode_number": 8,
+      "views": 220,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845751777865&type=32&idx=6&tkn=-krvWPuJySNyDLGIfMQxA1rT71E&fn=external_8"
+    },
+    {
+      "video_id": "2978610022985",
+      "title_raw": "Franklin - 61 - El desafio de Franklin _ Franklin el impaciente (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:57",
+      "season_number": 5,
+      "episode_number": 9,
+      "views": 154,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845771438665&type=32&idx=5&tkn=4qa2JCRfOFgZLzGmGsJkLGrKhy8&fn=external_8"
+    },
+    {
+      "video_id": "2978610743881",
+      "title_raw": "Franklin - 62 - Primera primavera de Franklin _ Franklin juega golf (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:57",
+      "season_number": 5,
+      "episode_number": 10,
+      "views": 157,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845902707273&type=32&idx=2&tkn=gR2yv_ZcSdzOB44UtLxMEadt7S0&fn=external_8"
+    },
+    {
+      "video_id": "2978609039945",
+      "title_raw": "Franklin - 63 - El viaje en canoa de Franklin _ La entrevista de Franklin (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:57",
+      "season_number": 5,
+      "episode_number": 11,
+      "views": 149,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845656881737&type=32&idx=3&tkn=t_FDYwrj9cet0N5QaM4Ka88yRk0&fn=external_8"
+    },
+    {
+      "video_id": "2978608777801",
+      "title_raw": "Franklin - 64 - El crystal de Franklin _ El consejo de Franklin (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:57",
+      "season_number": 5,
+      "episode_number": 12,
+      "views": 167,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845620902473&type=32&idx=4&tkn=Dy3f_b9DX7_azf38BBqq24bI1nA&fn=external_8"
+    },
+    {
+      "video_id": "2978608974409",
+      "title_raw": "Franklin - 65 - Franklin y un asunto de galletas _ El dia de campo de Franklin (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:57",
+      "season_number": 5,
+      "episode_number": 13,
+      "views": 145,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845649017417&type=32&idx=1&tkn=_1zRrAL_NRsP0U0Ar1zFKYfcptk&fn=external_8"
+    },
+    {
+      "video_id": "2978609695305",
+      "title_raw": "Franklin - 66 - La Picazón _ Franklin Perdona (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:56",
+      "season_number": 6,
+      "episode_number": 1,
+      "views": 158,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845737359945&type=32&idx=15&tkn=rl8PIYQn38Fz3to48GorkN6pD8s&fn=external_8"
+    },
+    {
+      "video_id": "2978609105481",
+      "title_raw": "Franklin - 67 - Franklin, El Fanático Del Hockey _ Franklin, Mamá Gallina (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:55",
+      "season_number": 6,
+      "episode_number": 2,
+      "views": 136,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845663238729&type=32&idx=10&tkn=rR5JYygGl9ttSrEz80WotXgSHqk&fn=external_8"
+    },
+    {
+      "video_id": "2978610219593",
+      "title_raw": "Franklin - 68 - La Insignia De Franklin _ Franklin Mira Las Estrellas (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:56",
+      "season_number": 6,
+      "episode_number": 3,
+      "views": 148,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845803289161&type=32&idx=13&tkn=Gx8C-CblFx5NIGPJ9THztr_mnPM&fn=external_8"
+    },
+    {
+      "video_id": "2978610154057",
+      "title_raw": "Franklin - 69 - Franklin, La Tortuga Del Tiempo _ Franklin Futbolista (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:57",
+      "season_number": 6,
+      "episode_number": 4,
+      "views": 181,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845787888201&type=32&idx=12&tkn=Kq8-PKKD3mQuEkVWyUQ9WVYtg6g&fn=external_8"
+    },
+    {
+      "video_id": "2978609367625",
+      "title_raw": "Franklin - 70 - La Fiesta De Natación De Franklin _ Las Clases De Baile De Franklin (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:56",
+      "season_number": 6,
+      "episode_number": 5,
+      "views": 135,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845695941193&type=32&idx=2&tkn=TPSo3RTEXrvlXWap5tHbsUc1QwI&fn=external_8"
+    },
+    {
+      "video_id": "2978610088521",
+      "title_raw": "Franklin - 71 - Franklin Se Hace Cargo _ El Ovni De Franklin (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:55",
+      "season_number": 6,
+      "episode_number": 6,
+      "views": 141,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845780286025&type=32&idx=5&tkn=a50zvZCRBwS_1J1WmtG5lgsYV2w&fn=external_8"
+    },
+    {
+      "video_id": "2978609498697",
+      "title_raw": "Franklin - 72 - La Migración De Franklin _ Franklin Fotógrafo (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:56",
+      "season_number": 6,
+      "episode_number": 7,
+      "views": 338,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845709572681&type=32&idx=7&tkn=i5-L8zx7MCfAL0RoYkcB30mOXYI&fn=external_8"
+    },
+    {
+      "video_id": "2978609760841",
+      "title_raw": "Franklin - 73 - La Palabra De Franklin _ Franklin Y El Fantasma En La Laguna (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:56",
+      "season_number": 6,
+      "episode_number": 8,
+      "views": 221,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845746797129&type=32&idx=5&tkn=MgndVNJnZ-3HG5GWacDUZqvWzvg&fn=external_8"
+    },
+    {
+      "video_id": "2978610612809",
+      "title_raw": "Franklin - 74 - Franklin El Entrenador _ Franklin Juega Seguro (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:56",
+      "season_number": 6,
+      "episode_number": 9,
+      "views": 201,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845862861385&type=32&idx=3&tkn=lvNp_d7Qt9HtdwzGio18S56a2xk&fn=external_8"
+    },
+    {
+      "video_id": "2978609564233",
+      "title_raw": "Franklin - 75 - El Cromo Favorito De Franklin _ La Expedición De Franklin (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:56",
+      "season_number": 6,
+      "episode_number": 10,
+      "views": 155,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845722745417&type=32&idx=12&tkn=FeqjoTMCzINTR2S_j1rSdDFYNhE&fn=external_8"
+    },
+    {
+      "video_id": "2978608908873",
+      "title_raw": "Franklin - 76 - El Bicimaratón De Franklin _ Franklin Y La Máquina De Caramelos (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:56",
+      "season_number": 6,
+      "episode_number": 11,
+      "views": 156,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845640825417&type=32&idx=6&tkn=jll-tvA2WhApa4GqMkXPmIJPwyU&fn=external_8"
+    },
+    {
+      "video_id": "2978609629769",
+      "title_raw": "Franklin - 77 - La Carrera De Carritos De Franklin _ El Escudero De Franklin (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:56",
+      "season_number": 6,
+      "episode_number": 12,
+      "views": 169,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845729102409&type=32&idx=6&tkn=oIFBcp9gwzeLjFmck4gqTQKpphA&fn=external_8"
+    },
+    {
+      "video_id": "2978609433161",
+      "title_raw": "Franklin - 78 - Franklin Y La Fiesta Del Libro _ Franklin, Patinador Artístico (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:56",
+      "season_number": 6,
+      "episode_number": 13,
+      "views": 327,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1845703150153&type=32&idx=5&tkn=uq3nofvbxlxtKXI3rTGg1ETavGk&fn=external_8"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Xena: La Princesa Guerrera",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c5436745",
+  "year": "1995",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Acción",
+  "genre_secondary": "Fantasía",
+  "videos": [
+    {
+      "video_id": "2824544782921",
+      "title_raw": "Xena- Warrior Princess - S05E11 - Punch Lines_x264",
+      "duration_raw": "41:37",
+      "season_number": 5,
+      "episode_number": 11,
+      "views": 390,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1682095016521&type=32&idx=3&tkn=4oCEg0nIaqjbrKqYa5ZZl7uKbsA&fn=external_8"
+    }
+  ]
+}

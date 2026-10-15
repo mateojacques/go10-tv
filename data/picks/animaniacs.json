@@ -1,0 +1,25 @@
+{
+  "title": "Animaniacs",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2264393",
+  "year": "1993",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "360p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "1418120596041",
+      "title_raw": "ANM 30 _ GianmarcoJoseth.com",
+      "duration_raw": "22:17",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 285,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=70115265145&type=32&idx=3&tkn=zVk6GbZvRvmhiwFXuFpruLblTnM&fn=external_8"
+    }
+  ]
+}

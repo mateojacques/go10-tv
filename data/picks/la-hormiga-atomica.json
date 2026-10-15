@@ -1,0 +1,250 @@
+{
+  "title": "La Hormiga Atómica",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2227273",
+  "year": "1965",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Superhéroes",
+  "videos": [
+    {
+      "video_id": "1388476566089",
+      "title_raw": "01 - Una Fuga muy Fugaz ~ Up and Atom",
+      "duration_raw": "06:30",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 30978,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595386960457&type=32&idx=0&tkn=Rvj6D91FAZZreHg8nlgxhZ5U8Gs&fn=external_8"
+    },
+    {
+      "video_id": "1388476500553",
+      "title_raw": "02 - El monstruo de Crankenshaft ~ Crankenshaft's Monster",
+      "duration_raw": "06:29",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 8068,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595386829385&type=32&idx=0&tkn=eGFyHSaFOWieDl9niy6EK_r1Vsg&fn=external_8"
+    },
+    {
+      "video_id": "1388476041801",
+      "title_raw": "03 - Brillante a go-go ~ Gem-A-Go-Go",
+      "duration_raw": "06:29",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 4571,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595386239561&type=32&idx=4&tkn=pQHCOxwInzwRYOg7VmxE56d9HM8&fn=external_8"
+    },
+    {
+      "video_id": "1388476238409",
+      "title_raw": "04 - La pulga feroz ~ Ferocious Flea",
+      "duration_raw": "06:25",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 4358,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595386501705&type=32&idx=14&tkn=NIUhUUm1b-8rWAGqB1Q-pKVz_XU&fn=external_8"
+    },
+    {
+      "video_id": "1388476172873",
+      "title_raw": "05 - El Robot Destructor ~ Rambling Robot",
+      "duration_raw": "06:30",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 3157,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595386436169&type=32&idx=11&tkn=iGcsoQsnJgyud_cW842zTKFS61g&fn=external_8"
+    },
+    {
+      "video_id": "1388476828233",
+      "title_raw": "06 - Tonto de nadie ~ Nobody´s Fool",
+      "duration_raw": "06:30",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 2451,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595387222601&type=32&idx=6&tkn=J_yEc4hHKCj8EUf9yyKujo9vqdU&fn=external_8"
+    },
+    {
+      "video_id": "1388476435017",
+      "title_raw": "07 - La hormiga atomica vs la hormiga karatista ~ Atom Ant Meets Karate Ant",
+      "duration_raw": "06:29",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 2545,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595386763849&type=32&idx=0&tkn=hhW811Ir-dlNDDia9DX5O364VnU&fn=external_8"
+    },
+    {
+      "video_id": "1388476631625",
+      "title_raw": "08 - La hormiga mas rapida del oeste ~ Fastest Ant in the West",
+      "duration_raw": "06:32",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1909,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595387091529&type=32&idx=4&tkn=nModdNV587Cpqo18NtHRdpS8MkY&fn=external_8"
+    },
+    {
+      "video_id": "1388476762697",
+      "title_raw": "09 - Confusion de identidades ~ Mistaken Identity",
+      "duration_raw": "06:29",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 1777,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595387157065&type=32&idx=14&tkn=njLBxdvNIUQe2v8lyuhONV_QY-E&fn=external_8"
+    },
+    {
+      "video_id": "1388476107337",
+      "title_raw": "10 - Y ahora que ~ How Now Bow Wow",
+      "duration_raw": "06:29",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 1523,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595386305097&type=32&idx=3&tkn=bD7NjOuyHtbfsaqo_pwBjbcsvoY&fn=external_8"
+    },
+    {
+      "video_id": "1388475779657",
+      "title_raw": "11 - Dragon amaestrado ~ Dragon Master",
+      "duration_raw": "06:29",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 1445,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595385780809&type=32&idx=7&tkn=Tr7A6-QuwaPP9eILAnD2vRwOtz0&fn=external_8"
+    },
+    {
+      "video_id": "1388475910729",
+      "title_raw": "12 - El gran enredo ~ The Big Gimmick",
+      "duration_raw": "06:29",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 1265,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595385977417&type=32&idx=14&tkn=lO1AOvG93TwvdqW0x_c1awJSKWM&fn=external_8"
+    },
+    {
+      "video_id": "1388476959305",
+      "title_raw": "13 - El super tonto ~ Super Blooper",
+      "duration_raw": "06:30",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 1519,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595387615817&type=32&idx=11&tkn=Gk1t1IxM1ZmvDZz8KpgAQQabY1Y&fn=external_8"
+    },
+    {
+      "video_id": "1388475845193",
+      "title_raw": "14 - Hormigas locas, pero locas ~ Wild, Wild Ants",
+      "duration_raw": "06:31",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 1474,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595385846345&type=32&idx=14&tkn=EzUbcwp_awjuzx_io-0Rdllk_vQ&fn=external_8"
+    },
+    {
+      "video_id": "1388476697161",
+      "title_raw": "15 - Dinosaurio ~ Dina-Sore",
+      "duration_raw": "06:29",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 1186,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=480059853398&type=32&idx=3&tkn=W6oihCXtob6bQYwef5-47NDVHkM&fn=external_8"
+    },
+    {
+      "video_id": "1388475976265",
+      "title_raw": "16 - Las maravillas del parque de diversion ~ Amusement Park Amazement",
+      "duration_raw": "06:30",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 1106,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595386108489&type=32&idx=6&tkn=zFkZHtRSQxtP0YVaGFgkqzjooaE&fn=external_8"
+    },
+    {
+      "video_id": "1388476303945",
+      "title_raw": "17 - Que viva la hormiga atomica ~ Bully for Atom Ant",
+      "duration_raw": "06:29",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 1165,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595386567241&type=32&idx=6&tkn=p2q50D3IxzBS-QAu9nWX6N1sG7E&fn=external_8"
+    },
+    {
+      "video_id": "1388476369481",
+      "title_raw": "18 - La termita peligrosa ~ Termighty Mean",
+      "duration_raw": "06:30",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 1222,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595386698313&type=32&idx=4&tkn=1NPLYVXkVebGdr2eaXszPgO0vqo&fn=external_8"
+    },
+    {
+      "video_id": "1388475714121",
+      "title_raw": "19 - Nueve contra uno ~ Nine Strikes You're Out",
+      "duration_raw": "06:30",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 1133,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595385715273&type=32&idx=8&tkn=M7xIr7l6dFGV3jux4WNnTPl5Cz4&fn=external_8"
+    },
+    {
+      "video_id": "1388476893769",
+      "title_raw": "20 - Viaja al Oeste joven hormiga ~ Go West Young Ant",
+      "duration_raw": "06:29",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 1239,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595387419209&type=32&idx=3&tkn=NdPo1qezfxUPorsjjbS71yOyac0&fn=external_8"
+    },
+    {
+      "video_id": "1388477024841",
+      "title_raw": "21 - Torneo de caballeros ~ Knight Fight",
+      "duration_raw": "06:31",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 1971,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595387681353&type=32&idx=14&tkn=kqnvzpcRlMcfEDoxmW1yKf0qPkg&fn=external_8"
+    },
+    {
+      "video_id": "1388477352521",
+      "title_raw": "22 - El pelicanodactilus bu ~ Pteraducktyl Soup",
+      "duration_raw": "06:29",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 1427,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595388336713&type=32&idx=5&tkn=dn_KQwgCGfzEaoNEUeQgl3lctzQ&fn=external_8"
+    },
+    {
+      "video_id": "1388477221449",
+      "title_raw": "23 - Un ladron de edificios ~ Up in the Air Squares",
+      "duration_raw": "06:29",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 1319,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595388009033&type=32&idx=4&tkn=gSLPSsMoKLvkyJ9oA7ckU6KiwgI&fn=external_8"
+    },
+    {
+      "video_id": "1388477090377",
+      "title_raw": "24 - La ley del mas fuerte ~ Mouser-Rouser",
+      "duration_raw": "06:30",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 1580,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595387746889&type=32&idx=6&tkn=eJxp6vzPXIzGTeeRWn0LG-WOrO8&fn=external_8"
+    },
+    {
+      "video_id": "1388477155913",
+      "title_raw": "25 - El regreso de King-Kong ~ Killer Diller Gorilla",
+      "duration_raw": "06:29",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 1323,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595387877961&type=32&idx=13&tkn=PsTp7h4RsmHE0v8yySGkCz9au7g&fn=external_8"
+    },
+    {
+      "video_id": "1388477286985",
+      "title_raw": "26 - El buitre prehistorico ~ Rock-a-Bye Boo-Boo",
+      "duration_raw": "06:29",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 1289,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595388140105&type=32&idx=0&tkn=5eN-aOozvXJ6JatleZ3gCcobsxk&fn=external_8"
+    }
+  ]
+}

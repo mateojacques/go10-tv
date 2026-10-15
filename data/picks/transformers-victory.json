@@ -1,0 +1,358 @@
+{
+  "title": "Transformers: Victory",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2438217",
+  "year": "1989",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Ciencia Ficción",
+  "videos": [
+    {
+      "video_id": "1482712025673",
+      "title_raw": "01 - Star Saber, El Guerrero Interestelar",
+      "duration_raw": "20:13",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 7417,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833696365302&type=32&idx=0&scl=4&tkn=l-42n7nCPKyUBpBqZe1JLRN_QtU&fn=external_8"
+    },
+    {
+      "video_id": "1482712156745",
+      "title_raw": "02 - El Nacimiento De Un Monstruo",
+      "duration_raw": "20:10",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 1899,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833698265846&type=32&idx=2&scl=4&tkn=x3kwkM2uWiIZ8lvAWt42TCYlMXY&fn=external_8"
+    },
+    {
+      "video_id": "1482712287817",
+      "title_raw": "03 - El Ataque De Leozack",
+      "duration_raw": "20:11",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1021,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833701346038&type=32&idx=1&scl=4&tkn=tYgFMI59vwTpziesuGMstoW-o9o&fn=external_8"
+    },
+    {
+      "video_id": "1482712418889",
+      "title_raw": "04 - Fusión Especial Landcross",
+      "duration_raw": "20:11",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 880,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833703770870&type=32&idx=1&scl=4&tkn=18XY-8kVFiCNz-Ivg-_xG-R1asc&fn=external_8"
+    },
+    {
+      "video_id": "1482712549961",
+      "title_raw": "05 - La Nueva Unidad De Rescate",
+      "duration_raw": "20:11",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 696,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833706916598&type=32&idx=1&scl=4&tkn=fX_LK5TbllDny6ShoR70kO31NeU&fn=external_8"
+    },
+    {
+      "video_id": "1482710714953",
+      "title_raw": "06 - ¡Salven La Mina!",
+      "duration_raw": "20:11",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 565,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833714780918&type=32&idx=2&scl=4&tkn=X-C28Zhbwz69u5js7bVnhEkJQNw&fn=external_8"
+    },
+    {
+      "video_id": "1482712812105",
+      "title_raw": "07 - Atacan La Planta De Energía",
+      "duration_raw": "20:11",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 521,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833716353782&type=32&idx=2&scl=4&tkn=5qPjeVY31lib8ugSU3Qg456nN1k&fn=external_8"
+    },
+    {
+      "video_id": "1482711370313",
+      "title_raw": "08 - Terror En El Subterráneo",
+      "duration_raw": "20:10",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 528,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833725004534&type=32&idx=1&scl=4&tkn=HoASGxTA2MDRHbjS5PZ97kgnAjU&fn=external_8"
+    },
+    {
+      "video_id": "1482712746569",
+      "title_raw": "09 - Resumen De La Batalla Por La Paz",
+      "duration_raw": "20:11",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 517,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833728019190&type=32&idx=2&scl=4&tkn=pk90gaqFA6p2wj6jYzCxVOXmSx4&fn=external_8"
+    },
+    {
+      "video_id": "1482712681033",
+      "title_raw": "10 - Hellbat, El Nuevo Decepticon",
+      "duration_raw": "20:11",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 581,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833736473334&type=32&idx=0&scl=4&tkn=PkFPLRpBwv2AhWX53IgEpAuv0RY&fn=external_8"
+    },
+    {
+      "video_id": "1482711108169",
+      "title_raw": "11 - Batalla En El Transbordador",
+      "duration_raw": "20:11",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 536,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833743616758&type=32&idx=1&scl=4&tkn=4Sm_e17On8bRY7T8-JVlGAHmO_A&fn=external_8"
+    },
+    {
+      "video_id": "1482711501385",
+      "title_raw": "12 - Batalla Peligrosa",
+      "duration_raw": "20:11",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 490,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833749449462&type=32&idx=1&scl=4&tkn=_IFFeDaI-p_kLpmhy-MMouRjnSo&fn=external_8"
+    },
+    {
+      "video_id": "1482712484425",
+      "title_raw": "13 - El Plan Maligno De Los Decepticons",
+      "duration_raw": "20:11",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 474,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833752070902&type=32&idx=2&scl=4&tkn=MO4644v3YRikIPFvszaTgNwCFl4&fn=external_8"
+    },
+    {
+      "video_id": "1482710977097",
+      "title_raw": "14 - ¡Hay Que Rescatar a Marcos!",
+      "duration_raw": "20:10",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 522,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833754561270&type=32&idx=2&scl=4&tkn=PTWpqlZBh90UFY_MSH4IxgTnKMQ&fn=external_8"
+    },
+    {
+      "video_id": "1482710452809",
+      "title_raw": "15 - La Planta Hidroeléctrica Subterránea",
+      "duration_raw": "20:10",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 433,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833756461814&type=32&idx=2&scl=4&tkn=BohVsPB_UhdGMC_-2bPXnS9orUM&fn=external_8"
+    },
+    {
+      "video_id": "1482710518345",
+      "title_raw": "16 - La Zona De Los Meteoritos",
+      "duration_raw": "20:11",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 416,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833757969142&type=32&idx=1&scl=4&tkn=LStHNdkB2lt4x6fPzKlUSoSuaZ4&fn=external_8"
+    },
+    {
+      "video_id": "1482712615497",
+      "title_raw": "17 - La Batalla En El Planeta Micro",
+      "duration_raw": "20:11",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 429,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833766750966&type=32&idx=0&scl=4&tkn=WrUl9rmawt5LyTshzu__B_YghVw&fn=external_8"
+    },
+    {
+      "video_id": "1482710387273",
+      "title_raw": "18 - El Rescate De Gaihawk",
+      "duration_raw": "20:10",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 421,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833771862774&type=32&idx=1&scl=4&tkn=vcgDzW0gBhLB46RNjQ8vdMaEaQY&fn=external_8"
+    },
+    {
+      "video_id": "1482712222281",
+      "title_raw": "19 - El Nuevo Robot Destructor",
+      "duration_raw": "20:11",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 512,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833776909046&type=32&idx=2&scl=4&tkn=ElKdFAZVXk8H93LroXV7_7lDVqs&fn=external_8"
+    },
+    {
+      "video_id": "1482712353353",
+      "title_raw": "20 - La Dura Lucha Por La Paz",
+      "duration_raw": "20:10",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 410,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833778744054&type=32&idx=1&scl=4&tkn=wHn5D5KA8Kh6Xrdwt7eZQ7biT5Q&fn=external_8"
+    },
+    {
+      "video_id": "1482711239241",
+      "title_raw": "21 - La Reactivación De La Base Maléfica",
+      "duration_raw": "20:10",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 436,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833780710134&type=32&idx=1&scl=4&tkn=NiR2KIyXDmM6UzBVHhd_30L4XoE&fn=external_8"
+    },
+    {
+      "video_id": "1482711632457",
+      "title_raw": "22 - El Poder Del Odio",
+      "duration_raw": "20:10",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 421,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833782872822&type=32&idx=1&scl=4&tkn=kPVNkwWe21uf09iH8trdeGcO7yI&fn=external_8"
+    },
+    {
+      "video_id": "1482711763529",
+      "title_raw": "23 - Batalla En La Antártida",
+      "duration_raw": "20:11",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 425,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833785363190&type=32&idx=0&scl=4&tkn=gALNqZKZtZaRtfWtyuOaYB0uGs4&fn=external_8"
+    },
+    {
+      "video_id": "1482711435849",
+      "title_raw": "24 - Emboscada En El Desierto",
+      "duration_raw": "20:11",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 412,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833790540534&type=32&idx=1&scl=4&tkn=XYrcrXxzaMv6YO5tbqjrqB8hzBQ&fn=external_8"
+    },
+    {
+      "video_id": "1482711960137",
+      "title_raw": "25 - La Batalla De Vida o Muerte",
+      "duration_raw": "20:11",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 500,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833797880566&type=32&idx=1&scl=4&tkn=YpMfeO5suifwRnv0jcQuoQzdAZs&fn=external_8"
+    },
+    {
+      "video_id": "1482712091209",
+      "title_raw": "26 - Adiós Optimus Prime",
+      "duration_raw": "20:11",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 791,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833804761846&type=32&idx=2&scl=4&tkn=1qjbfK-6kd7EbfuM5blf8fdWw7Y&fn=external_8"
+    },
+    {
+      "video_id": "1482710583881",
+      "title_raw": "27 - ¡Adelante Victory Leo!",
+      "duration_raw": "20:10",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 791,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833806269174&type=32&idx=0&scl=4&tkn=RxGzvLRSeAHTBRJel1r5zGpX4o8&fn=external_8"
+    },
+    {
+      "video_id": "1482711697993",
+      "title_raw": "28 - La Crisis De Los Autobots",
+      "duration_raw": "20:11",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 518,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833807252214&type=32&idx=0&scl=4&tkn=7WYBJEnqooG5oKFLFBecdY_aRRc&fn=external_8"
+    },
+    {
+      "video_id": "1482710649417",
+      "title_raw": "29 - ¡Despierta Victory Leo!",
+      "duration_raw": "20:10",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 596,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833814002422&type=32&idx=1&scl=4&tkn=VviWZf9aIc-3goPbO_5o_MMwaek&fn=external_8"
+    },
+    {
+      "video_id": "1482711829065",
+      "title_raw": "30 - ¡Una Combinación Indestructible!",
+      "duration_raw": "20:10",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 665,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833819900662&type=32&idx=1&scl=4&tkn=jMwPvkvlm2q8nEfMSvM96isG7EY&fn=external_8"
+    },
+    {
+      "video_id": "1482711566921",
+      "title_raw": "31 - Marcos Salva La Escuela",
+      "duration_raw": "20:11",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 405,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833826192118&type=32&idx=1&scl=4&tkn=7IMSfjsfgPZ4fN-EQaZ_sSgWDAE&fn=external_8"
+    },
+    {
+      "video_id": "1482711304777",
+      "title_raw": "32 - Crisis En La Base",
+      "duration_raw": "20:10",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 420,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833830779638&type=32&idx=2&scl=4&tkn=MUZCcACcPFXC9q6JEdcFAy4SXsg&fn=external_8"
+    },
+    {
+      "video_id": "1482711894601",
+      "title_raw": "33 - Los Insectos Asesinos",
+      "duration_raw": "20:10",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 5989,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833831893750&type=32&idx=1&scl=4&tkn=LfqodxhirK6P6aJ2qwg4bncU-8k&fn=external_8"
+    },
+    {
+      "video_id": "1482711173705",
+      "title_raw": "34 - Victory Saber, El Guerrero Más Poderoso Del Universo",
+      "duration_raw": "20:10",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 547,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833833663222&type=32&idx=2&scl=4&tkn=yLsBzjyR752ESCmqq1Uf07-fl-M&fn=external_8"
+    },
+    {
+      "video_id": "1482710846025",
+      "title_raw": "35 - La Ola Gigante",
+      "duration_raw": "20:11",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 410,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833835236086&type=32&idx=2&scl=4&tkn=KQLa3o_ZtCz3PsR2ybyiF7YVNac&fn=external_8"
+    },
+    {
+      "video_id": "1482710911561",
+      "title_raw": "36 - La Ciudad De Deszaras Vuelve a La Vida",
+      "duration_raw": "20:11",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 427,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=575591746109&type=32&idx=0&tkn=wFj3y6TJJXlBA-5eYbH_33Qajig&fn=external_8"
+    },
+    {
+      "video_id": "1482711042633",
+      "title_raw": "37 - La Destrucción De La Ciudad De Deszaras",
+      "duration_raw": "20:11",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 703,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833843428086&type=32&idx=1&scl=4&tkn=hIxPnrlrxCcJ14x879PEuVysopg&fn=external_8"
+    },
+    {
+      "video_id": "1482710780489",
+      "title_raw": "38 - La Historia Completa",
+      "duration_raw": "20:51",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 763,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=17833844607734&type=32&idx=2&scl=4&tkn=reKjgJQTU1vir_t1tkV-TW30hyE&fn=external_8"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "title": "Mandibulín",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2138185",
+  "year": "1977",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "1341078112841",
+      "title_raw": "Mandibulin01_x264",
+      "duration_raw": "20:55",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 12561,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580354705993&type=32&idx=10&tkn=UjotHVhYZH6xI0CuInuBGvUnwOI&fn=external_8"
+    },
+    {
+      "video_id": "1341077523017",
+      "title_raw": "Mandibulin02_x264",
+      "duration_raw": "20:50",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 2818,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580350839369&type=32&idx=2&tkn=xd3KkF06vcIa0AOZveBX5GSzkKE&fn=external_8"
+    },
+    {
+      "video_id": "1341078178377",
+      "title_raw": "Mandibulin03_x264",
+      "duration_raw": "20:40",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1888,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580355033673&type=32&idx=12&tkn=qBYl-dRuQFgNVhYzv7IYsQd52Yo&fn=external_8"
+    },
+    {
+      "video_id": "1341077457481",
+      "title_raw": "Mandibulin04_x264",
+      "duration_raw": "20:49",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1863,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580350380617&type=32&idx=1&tkn=MirWEPxsl8QFurYx663TzWwmR84&fn=external_8"
+    },
+    {
+      "video_id": "1341077981769",
+      "title_raw": "Mandibulin05_x264",
+      "duration_raw": "20:51",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1192,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580354574921&type=32&idx=9&tkn=rvGJwObWyq7ez9WVErBzcGp31F8&fn=external_8"
+    },
+    {
+      "video_id": "1341078440521",
+      "title_raw": "Mandibulin06_x264",
+      "duration_raw": "20:53",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 1146,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580356016713&type=32&idx=13&tkn=Flc7SqkjXro4zEfpx93O2cod1AQ&fn=external_8"
+    },
+    {
+      "video_id": "1341078047305",
+      "title_raw": "Mandibulin07_x264",
+      "duration_raw": "20:39",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1112,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580354640457&type=32&idx=13&tkn=F5omK5yDUocbQ_C-P2Ka9RJhods&fn=external_8"
+    },
+    {
+      "video_id": "1341077785161",
+      "title_raw": "Mandibulin08_x264",
+      "duration_raw": "20:45",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 884,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580353591881&type=32&idx=10&tkn=8KpnBNBs0igXR5NwFLrLqH4sisk&fn=external_8"
+    },
+    {
+      "video_id": "1341078374985",
+      "title_raw": "Mandibulin09_x264",
+      "duration_raw": "20:45",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 930,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580355689033&type=32&idx=12&tkn=CA9IKgFSeYvUkaN9Or5gB7Wy2bc&fn=external_8"
+    },
+    {
+      "video_id": "1341078309449",
+      "title_raw": "Mandibulin10_x264",
+      "duration_raw": "20:46",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 790,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580355557961&type=32&idx=4&tkn=IZha-TQ_IlxPtyDPrB4Zx80-RNo&fn=external_8"
+    },
+    {
+      "video_id": "1341077850697",
+      "title_raw": "Mandibulin11_x264",
+      "duration_raw": "20:49",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 635,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580354247241&type=32&idx=3&tkn=JVL6AdlQ2EvgP5bLO_DgeJaQUDA&fn=external_8"
+    },
+    {
+      "video_id": "1341077719625",
+      "title_raw": "Mandibulin12_x264",
+      "duration_raw": "20:45",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 801,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580352936521&type=32&idx=12&tkn=VF_RA5x0YIlLeculOkbLJvqJ_3o&fn=external_8"
+    },
+    {
+      "video_id": "1341077916233",
+      "title_raw": "Mandibulin13_x264",
+      "duration_raw": "20:48",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 665,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580354509385&type=32&idx=14&tkn=Cj0sQNqrjGUnCHBAB-YDrBpNsmE&fn=external_8"
+    },
+    {
+      "video_id": "1341077588553",
+      "title_raw": "Mandibulin14_x264",
+      "duration_raw": "20:51",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 667,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580351298121&type=32&idx=8&tkn=JFu8e4FSU4eBE8SqhXmaRe3Kcq0&fn=external_8"
+    },
+    {
+      "video_id": "1341078243913",
+      "title_raw": "Mandibulin15_x264",
+      "duration_raw": "20:37",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 687,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580355295817&type=32&idx=13&tkn=eFsDv9hhlxpVgmX2qjXX48rNG8k&fn=external_8"
+    },
+    {
+      "video_id": "1341077654089",
+      "title_raw": "Mandibulin16_x264",
+      "duration_raw": "20:32",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 702,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580351756873&type=32&idx=7&tkn=C-qTkIh_0WLp-ZLe8tejSatXjFI&fn=external_8"
+    }
+  ]
+}

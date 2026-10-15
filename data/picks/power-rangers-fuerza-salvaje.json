@@ -1,0 +1,376 @@
+{
+  "title": "Power Rangers: Fuerza Salvaje",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c5417289 c4845641",
+  "year": "2002",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Acción",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "2798543112777",
+      "title_raw": "[T1.Ep1] Power Rangers Wild Force - Corazón de león_x264",
+      "duration_raw": "20:54",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 44399,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651416435273&type=32&idx=1&tkn=PphPYMinTidb5XJroLZMtqcyOss&fn=external_8"
+    },
+    {
+      "video_id": "2798542850633",
+      "title_raw": "[T1.Ep2] Power Rangers Wild Force - El despertar de la oscuridad_x264",
+      "duration_raw": "20:55",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 21737,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651394284105&type=32&idx=15&tkn=JFOsmCcro6TRYCTgL2fsJRaOnrk&fn=external_8"
+    },
+    {
+      "video_id": "2798543833673",
+      "title_raw": "[T1.Ep3] Power Rangers Wild Force - Sonrían para la foto_x264",
+      "duration_raw": "20:53",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 15642,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651453069897&type=32&idx=5&tkn=Mb_WHIg4_tJl_F0nQPN1O-d9jkc&fn=external_8"
+    },
+    {
+      "video_id": "2798543768137",
+      "title_raw": "[T1.Ep4] Power Rangers Wild Force - Nunca te rindas_x264",
+      "duration_raw": "20:56",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 12144,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651449989705&type=32&idx=5&tkn=uPN1bf2oQ_W4DquHIK3nkxxxAHY&fn=external_8"
+    },
+    {
+      "video_id": "2798543178313",
+      "title_raw": "[T1.Ep5] Power Rangers Wild Force - El descubrimiento_x264",
+      "duration_raw": "20:57",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 12013,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651421350473&type=32&idx=1&tkn=we3VoD55rrFTB1eko-FkTQdtRew&fn=external_8"
+    },
+    {
+      "video_id": "2798543047241",
+      "title_raw": "[T1.Ep6] Power Rangers Wild Force - Deseos en el agua_x264",
+      "duration_raw": "20:57",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 10717,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651411257929&type=32&idx=1&tkn=an6dtgGjGrPx0qY32E17sUnxgUU&fn=external_8"
+    },
+    {
+      "video_id": "2798542916169",
+      "title_raw": "[T1.Ep7] Power Rangers Wild Force - La llegada de los Osos_x264",
+      "duration_raw": "20:57",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 11278,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651400313417&type=32&idx=15&tkn=gsOva1SCfUeCvQIFA1corWBxR7Q&fn=external_8"
+    },
+    {
+      "video_id": "2798543505993",
+      "title_raw": "[T1.Ep8] Power Rangers Wild Force - Buscando al Soul Bird_x264",
+      "duration_raw": "20:57",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 11129,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651436227145&type=32&idx=12&tkn=zOHLV37VaskGWcPOHKfbKvu3CVU&fn=external_8"
+    },
+    {
+      "video_id": "2798543309385",
+      "title_raw": "[T1.Ep9] Power Rangers Wild Force - Soul Bird al rescate_x264",
+      "duration_raw": "20:56",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 10586,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651424102985&type=32&idx=8&tkn=KpFbczxCoSijHl9Q8oU4bcc_b2M&fn=external_8"
+    },
+    {
+      "video_id": "2798543637065",
+      "title_raw": "[T1.Ep10] Power Rangers Wild Force - La maldición del lobo_x264",
+      "duration_raw": "20:57",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 13327,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651442059849&type=32&idx=7&tkn=dVhPOlMygZ2p1X0HerthoAQA_wI&fn=external_8"
+    },
+    {
+      "video_id": "2798543440457",
+      "title_raw": "[T1.Ep11] Power Rangers Wild Force - La batalla de los Zords_x264",
+      "duration_raw": "20:57",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 12653,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651431901769&type=32&idx=4&tkn=ZjrQWLrl4aayEuNhG4dKqtKwYb4&fn=external_8"
+    },
+    {
+      "video_id": "2798541539913",
+      "title_raw": "[T1.Ep12] Power Rangers Wild Force - El despertar del Predazord_x264",
+      "duration_raw": "20:56",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 12584,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651272518217&type=32&idx=2&tkn=3AUdovzgN7ztbLI-CFlOJzrq0a4&fn=external_8"
+    },
+    {
+      "video_id": "2798542981705",
+      "title_raw": "[T1.Ep13] Power Rangers Wild Force - La venganza de Zen-Aku_x264",
+      "duration_raw": "20:56",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 11158,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651407325769&type=32&idx=8&tkn=714Skjqk8_iYGGpT0RUpy-PlZko&fn=external_8"
+    },
+    {
+      "video_id": "2798541670985",
+      "title_raw": "[T1.Ep14] Power Rangers Wild Force - Crisis de identidad_x264",
+      "duration_raw": "20:56",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 10751,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651290409545&type=32&idx=12&tkn=UsHhwcQ_BVvoOe4dHX7Go0XAafs&fn=external_8"
+    },
+    {
+      "video_id": "2798542785097",
+      "title_raw": "[T1.Ep15] Power Rangers Wild Force - El guerrero legendario_x264",
+      "duration_raw": "20:58",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 13155,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651388254793&type=32&idx=12&tkn=SSQ6F6HcrWSjSMuYk7zWS9j4PN0&fn=external_8"
+    },
+    {
+      "video_id": "2798542654025",
+      "title_raw": "[T1.Ep16] Power Rangers Wild Force - El lobo solitario_x264",
+      "duration_raw": "20:24",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 12512,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651373312585&type=32&idx=2&tkn=JG2q0kI7FyfRCzJxiVwZNuopBmQ&fn=external_8"
+    },
+    {
+      "video_id": "2798541736521",
+      "title_raw": "[T1.Ep17] Power Rangers Wild Force - La fuerza de un equipo_x264",
+      "duration_raw": "20:57",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 11079,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651297356361&type=32&idx=8&tkn=u9rHbh96VphPTl-9tProaEr5rLk&fn=external_8"
+    },
+    {
+      "video_id": "2798543571529",
+      "title_raw": "[T1.Ep18] Power Rangers Wild Force - Secretos y mentiras_x264",
+      "duration_raw": "20:56",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 8872,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651439372873&type=32&idx=9&tkn=KczjXXWu90pOEzusnvF1lbtbx1o&fn=external_8"
+    },
+    {
+      "video_id": "2798543374921",
+      "title_raw": "[T1.Ep19] Power Rangers Wild Force - El giro del tornado_x264",
+      "duration_raw": "20:55",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 8104,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651427773001&type=32&idx=4&tkn=h7yUBdAKHadO2_3tHB6lSpzBrU8&fn=external_8"
+    },
+    {
+      "video_id": "2798542522953",
+      "title_raw": "[T1.Ep20] Power Rangers Wild Force - Tres es multitud_x264",
+      "duration_raw": "20:55",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 8917,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651359156809&type=32&idx=7&tkn=08yFigGodUCeEqqXTRzlNYkdmUM&fn=external_8"
+    },
+    {
+      "video_id": "2798542195273",
+      "title_raw": "[T1.Ep21] Power Rangers Wild Force - Los pasos de mi padre_x264",
+      "duration_raw": "20:55",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 7941,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651332352585&type=32&idx=7&tkn=0-I06BLT3SEEhHxRlpbeuTZF-kQ&fn=external_8"
+    },
+    {
+      "video_id": "2798541867593",
+      "title_raw": "[T1.Ep22] Power Rangers Wild Force - Cantando_x264",
+      "duration_raw": "21:00",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 8487,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651302206025&type=32&idx=6&tkn=mPPlMCL1sdJwWKQYxhJUyjAv8W0&fn=external_8"
+    },
+    {
+      "video_id": "2798541998665",
+      "title_raw": "[T1.Ep23] Power Rangers Wild Force - Las alas de Animaria_x264",
+      "duration_raw": "20:57",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 9200,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651316689481&type=32&idx=4&tkn=rG6-AM5K-3GQ14ZPOElH9L8Zcek&fn=external_8"
+    },
+    {
+      "video_id": "2798542260809",
+      "title_raw": "[T1.Ep24] Power Rangers Wild Force - Reinforcements from the Future - Parte 1_x264",
+      "duration_raw": "20:57",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 13158,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651338185289&type=32&idx=9&tkn=Zqvy9NeBSKkLK9fmNFee289es54&fn=external_8"
+    },
+    {
+      "video_id": "2798542391881",
+      "title_raw": "[T1.Ep25] Power Rangers Wild Force - Reinforcements from the Future - Parte 2_x264",
+      "duration_raw": "20:22",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 11921,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651346180681&type=32&idx=15&tkn=Sy510VY1NBTbCDGcN31UqNmX8ao&fn=external_8"
+    },
+    {
+      "video_id": "2798542719561",
+      "title_raw": "[T1.Ep26] Power Rangers Wild Force - La verdad sobre el amo_x264",
+      "duration_raw": "20:57",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 8245,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651380324937&type=32&idx=2&tkn=gK9zsPFSOnYLsGzGfPyCnEU2V8o&fn=external_8"
+    },
+    {
+      "video_id": "2798542588489",
+      "title_raw": "[T1.Ep27] Power Rangers Wild Force - Asuntos inconclusos_x264",
+      "duration_raw": "20:57",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 7862,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651366038089&type=32&idx=15&tkn=Z7oSxYRRzo0RrNygy7moeHgl2nE&fn=external_8"
+    },
+    {
+      "video_id": "2798541343305",
+      "title_raw": "[T1.Ep28] Power Rangers Wild Force - De vuelta a casa_x264",
+      "duration_raw": "20:56",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 7207,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651237325385&type=32&idx=7&tkn=R2xgo4NhpcG4Gx9dLpJrZvhVL1w&fn=external_8"
+    },
+    {
+      "video_id": "2798542457417",
+      "title_raw": "[T1.Ep29] Power Rangers Wild Force - La flauta_x264",
+      "duration_raw": "20:56",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 7202,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651351423561&type=32&idx=7&tkn=3a2lrJtNrCg1XsF2ITVrcYQ7klU&fn=external_8"
+    },
+    {
+      "video_id": "2798541408841",
+      "title_raw": "[T1.Ep30] Power Rangers Wild Force - El equipo Carnaval_x264",
+      "duration_raw": "20:56",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 6672,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651249777225&type=32&idx=11&tkn=TKkxNMcF7XvNMrwlKFAwApkKIlc&fn=external_8"
+    },
+    {
+      "video_id": "2798542129737",
+      "title_raw": "[T1.Ep31] Power Rangers Wild Force - La doma de los Zords_x264",
+      "duration_raw": "20:58",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 7126,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651326192201&type=32&idx=4&tkn=kNbRGItLZrG7DabLu0R-Qklyw6E&fn=external_8"
+    },
+    {
+      "video_id": "2798541277769",
+      "title_raw": "[T1.Ep32] Power Rangers Wild Force - Monitoreando la Tierra_x264",
+      "duration_raw": "20:58",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 6972,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651226118729&type=32&idx=3&tkn=MB6ThvjnDEF-ku_uHOlRHqtGkDQ&fn=external_8"
+    },
+    {
+      "video_id": "2798541015625",
+      "title_raw": "[T1.Ep33] Power Rangers Wild Force - El alma de la humanidad_x264",
+      "duration_raw": "20:57",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 7129,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651169561161&type=32&idx=11&tkn=GDHvQj7X1hdzTN8TkEmAW6Oq7dI&fn=external_8"
+    },
+    {
+      "video_id": "2798541081161",
+      "title_raw": "[T1.Ep34] Power Rangers Wild Force - Rojo por siempre_x264",
+      "duration_raw": "20:57",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 13551,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651182537289&type=32&idx=14&tkn=lC_n7jvquK8fCO-8AZY1lT4wlMI&fn=external_8"
+    },
+    {
+      "video_id": "2798541474377",
+      "title_raw": "[T1.Ep35] Power Rangers Wild Force - The Master's Herald - Parte 1_x264",
+      "duration_raw": "20:57",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 7882,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651262818889&type=32&idx=8&tkn=WUdHcP16YuIPvWLO7I_5dDUjOEw&fn=external_8"
+    },
+    {
+      "video_id": "2798541212233",
+      "title_raw": "[T1.Ep36] Power Rangers Wild Force - The Master's Herald - Parte 2_x264",
+      "duration_raw": "20:56",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 7657,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651213404745&type=32&idx=11&tkn=Y20a7RNLj2lVmYuMTipxrH8YP_o&fn=external_8"
+    },
+    {
+      "video_id": "2798541146697",
+      "title_raw": "[T1.Ep37] Power Rangers Wild Force - Al rescate de un amigo_x264",
+      "duration_raw": "20:58",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 7338,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651192302153&type=32&idx=8&tkn=io1dVxqouglwDxAF8VE3tMRX1Xg&fn=external_8"
+    },
+    {
+      "video_id": "2798541933129",
+      "title_raw": "[T1.Ep38] Power Rangers Wild Force - El fin del Nexus_x264",
+      "duration_raw": "20:56",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 8362,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651308956233&type=32&idx=5&tkn=mofe3Sx0otKfTFEAEPhegol7GXE&fn=external_8"
+    },
+    {
+      "video_id": "2798543702601",
+      "title_raw": "[T1.Ep39] Power Rangers Wild Force - The End of the Power Rangers - Parte 1_x264",
+      "duration_raw": "20:57",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 10050,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651446188617&type=32&idx=1&tkn=-0fg0hfVVXWAouxqJIc7JtaOceI&fn=external_8"
+    },
+    {
+      "video_id": "2798541605449",
+      "title_raw": "[T1.Ep40] Power Rangers Wild Force - The End of the Power Rangers - Parte 2_x264",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 10336,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651283266121&type=32&idx=10&tkn=0IseaZ6pF5X6Zh1I69yRicIlxfM&fn=external_8"
+    }
+  ]
+}

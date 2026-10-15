@@ -1,0 +1,250 @@
+{
+  "title": "Elliot el Alce",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c5904201",
+  "year": "1999",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "3344555838025",
+      "title_raw": "Elliot El Alce (Doblado) S01-E01 - El Extraterrestre_x264",
+      "duration_raw": "22:23",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 1565,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2096320416329&type=32&idx=1&tkn=agmXZACsqNLTu2rWTgq0fZ_od0k&fn=external_8"
+    },
+    {
+      "video_id": "3344556427849",
+      "title_raw": "Elliot El Alce (Doblado) S01-E02 - Una Cola O Dos_Un L _x264",
+      "duration_raw": "22:23",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 272,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2096351873609&type=32&idx=14&tkn=KNWmkiHhDhM6TlSU8sTPpuOrf2c&fn=external_8"
+    },
+    {
+      "video_id": "3344556231241",
+      "title_raw": "Elliot El Alce (Doblado) S01-E03 - Lionel Y Los Ataque _x264",
+      "duration_raw": "22:23",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 142,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2096337652297&type=32&idx=9&tkn=nwdRgkYV9q884cx_EyaeWC9RNHA&fn=external_8"
+    },
+    {
+      "video_id": "3344555248201",
+      "title_raw": "Elliot El Alce (Doblado) S01-E04 - Aventón_Un Montón D _x264",
+      "duration_raw": "22:24",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 136,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2096283257417&type=32&idx=4&tkn=3XVA4rVjOWCv19guqmbS2AW8v0U&fn=external_8"
+    },
+    {
+      "video_id": "3344555969097",
+      "title_raw": "Elliot El Alce (Doblado) S01-E05 - El Cariño Al Oso_El _x264",
+      "duration_raw": "22:23",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 128,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2096323693129&type=32&idx=2&tkn=T5cbcCSHSokbCulkWu2hdVv-jbc&fn=external_8"
+    },
+    {
+      "video_id": "3344556034633",
+      "title_raw": "Elliot El Alce (Doblado) S01-E06 - ¡Toletero Al Alza!, _x264",
+      "duration_raw": "22:23",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 94,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2096328280649&type=32&idx=3&tkn=ZiN30xOT0SlzC9-t38yBGyzLnGs&fn=external_8"
+    },
+    {
+      "video_id": "3344554789449",
+      "title_raw": "Elliot El Alce (Doblado) S01-E07 - La Montaña_La Reina _x264",
+      "duration_raw": "22:23",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 102,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2096265038409&type=32&idx=12&tkn=ETcwsXOSvHRJvb83oEwDE5BhQkU&fn=external_8"
+    },
+    {
+      "video_id": "3344556558921",
+      "title_raw": "Elliot El Alce (Doblado) S01-E08 - La Patineta Trompet _x264",
+      "duration_raw": "22:23",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 108,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2096363276873&type=32&idx=12&tkn=Vg3fjLajzC_diFfOZYZeYXHeP4g&fn=external_8"
+    },
+    {
+      "video_id": "3344556493385",
+      "title_raw": "Elliot El Alce (Doblado) S01-E09 - La Piscina Sin Agua _x264",
+      "duration_raw": "22:22",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 115,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2096357378633&type=32&idx=13&tkn=DHpfTtNLlQ1ousBL7aXFICaYz9w&fn=external_8"
+    },
+    {
+      "video_id": "3344554854985",
+      "title_raw": "Elliot El Alce (Doblado) S01-E10 - Juguetes De Playa _ _x264",
+      "duration_raw": "22:22",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 87,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2096267594313&type=32&idx=12&tkn=_7gJOiTjm-TMMrbsShZJEU7EE0A&fn=external_8"
+    },
+    {
+      "video_id": "3344555772489",
+      "title_raw": "Elliot El Alce (Doblado) S01-E11 - ¡Despierta Elliot! _x264",
+      "duration_raw": "22:22",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 71,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2096317008457&type=32&idx=15&tkn=74t9lP6gtsSSAGCvl2TnF9hgxHU&fn=external_8"
+    },
+    {
+      "video_id": "3344555641417",
+      "title_raw": "Elliot El Alce (Doblado) S01-E12 - La Siesta Del Gato _x264",
+      "duration_raw": "22:23",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 70,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2096308685385&type=32&idx=1&tkn=RLxD7hToOzif9oRR2IZ0dqd-Nlo&fn=external_8"
+    },
+    {
+      "video_id": "3344555117129",
+      "title_raw": "Elliot El Alce (Doblado) S01-E13 - Felices Amas De Cas _x264",
+      "duration_raw": "22:23",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 70,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2096277949001&type=32&idx=13&tkn=R-3U5PCvaQL2aZS3OQq7NMDzX1A&fn=external_8"
+    },
+    {
+      "video_id": "3344555510345",
+      "title_raw": "Elliot El Alce (Doblado) S02-E01 - Sí, Nosotros Tenemo _x264",
+      "duration_raw": "22:22",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 147,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2096301148745&type=32&idx=3&tkn=vug2vBSGWCqucNTHjvT3hj0wVb0&fn=external_8"
+    },
+    {
+      "video_id": "3344555444809",
+      "title_raw": "Elliot El Alce (Doblado) S02-E02 - La Fiesta Sorpresa _x264",
+      "duration_raw": "22:23",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 106,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2096296692297&type=32&idx=4&tkn=pc1yFJclEacr2loDhIeSik6J9P0&fn=external_8"
+    },
+    {
+      "video_id": "3344554986057",
+      "title_raw": "Elliot El Alce (Doblado) S02-E03 - La Vida De La Natur _x264",
+      "duration_raw": "22:23",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 79,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2096272968265&type=32&idx=2&tkn=rPic2H0B61oQSEOSNZL7B9RcoIg&fn=external_8"
+    },
+    {
+      "video_id": "3344555379273",
+      "title_raw": "Elliot El Alce (Doblado) S02-E04 - La Presa De Beavert _x264",
+      "duration_raw": "22:23",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 85,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2096292497993&type=32&idx=2&tkn=9eSp1d4atBKbEpLL51werX9wTt0&fn=external_8"
+    },
+    {
+      "video_id": "3344555313737",
+      "title_raw": "Elliot El Alce (Doblado) S02-E05 - Concurso De Canto _ _x264",
+      "duration_raw": "22:22",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 79,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2096287124041&type=32&idx=12&tkn=5WzDR6kCitxbrqX-vJwRXWms_MM&fn=external_8"
+    },
+    {
+      "video_id": "3344554920521",
+      "title_raw": "Elliot El Alce (Doblado) S02-E06 - La Excursión _ La S _x264",
+      "duration_raw": "22:22",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 78,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2096269888073&type=32&idx=3&tkn=_XoopMK7ngmE8RK8GIe2AJ4ZRGk&fn=external_8"
+    },
+    {
+      "video_id": "3344555051593",
+      "title_raw": "Elliot El Alce (Doblado) S02-E07 - Solo Soy Yo _ Socks _x264",
+      "duration_raw": "22:23",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 65,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2096275917385&type=32&idx=3&tkn=KJRd_IBE4PoX45EelV_wSXGtDjg&fn=external_8"
+    },
+    {
+      "video_id": "3344555182665",
+      "title_raw": "Elliot El Alce (Doblado) S02-E08 - El Robot Descompues _x264",
+      "duration_raw": "22:23",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 72,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2096280242761&type=32&idx=14&tkn=rjs9SHfZvo6nN_lrLO8iNkS-ycE&fn=external_8"
+    },
+    {
+      "video_id": "3344556362313",
+      "title_raw": "Elliot El Alce (Doblado) S02-E09 - El Todo Poderoso Fa _x264",
+      "duration_raw": "22:23",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 61,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2096346696265&type=32&idx=3&tkn=01z2zI4r98GgyjJi6RWE4G_grpo&fn=external_8"
+    },
+    {
+      "video_id": "3344555706953",
+      "title_raw": "Elliot El Alce (Doblado) S02-E10 - Dolor De Estómago_x264",
+      "duration_raw": "22:22",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 62,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2096312486473&type=32&idx=1&tkn=AO2Lrq9ujwQ4UkezeNvz8bD5Aqk&fn=external_8"
+    },
+    {
+      "video_id": "3344556100169",
+      "title_raw": "Elliot El Alce (Doblado) S02-E11 - Los Globos De Beave_x264",
+      "duration_raw": "22:22",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 62,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2096332933705&type=32&idx=1&tkn=qJaxg35RAndulCNG1niPVhEMehU&fn=external_8"
+    },
+    {
+      "video_id": "3344555575881",
+      "title_raw": "Elliot El Alce (Doblado) S02-E12 - Amigos en La Tristei_x264",
+      "duration_raw": "22:23",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 58,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2096305867337&type=32&idx=2&tkn=LN7MJPIkqSdXzpwlFMv7pchdrBc&fn=external_8"
+    },
+    {
+      "video_id": "3344556296777",
+      "title_raw": "Elliot El Alce (Doblado) S02-E13 - ¡Sonríe! _ El Caso_x264",
+      "duration_raw": "22:23",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 343,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2096341584457&type=32&idx=3&tkn=zaCO-MMbIjCwDOJwJwu2BECohAE&fn=external_8"
+    }
+  ]
+}

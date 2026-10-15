@@ -1,0 +1,801 @@
+{
+  "title": "El Conde Pátula",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c45504329 c2457929",
+  "year": "1988",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "10874314951241",
+      "title_raw": "Count Duckula S01E01 En Dónde Está Mi Saxofón Que No Lo Veo En El Rincón",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 1847,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146758658633&type=37&idx=3&tkn=G28sHJfgQbFt_Pc5gSA28JQR0IM&fn=external_8"
+    },
+    {
+      "video_id": "10874313574985",
+      "title_raw": "Count Duckula S01E02 Olé Por Mi Primo",
+      "duration_raw": "21:29",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 717,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146494679625&type=37&idx=4&tkn=5LT8YV8TTXWrk7A5SjsUf8FQGr8&fn=external_8"
+    },
+    {
+      "video_id": "10874314623561",
+      "title_raw": "Count Duckula S01E03 Una Noche De Tormenta",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 464,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146712717897&type=37&idx=7&tkn=7mJd5xr0VYDrMx0_bmXJTrLfZl8&fn=external_8"
+    },
+    {
+      "video_id": "10874314033737",
+      "title_raw": "Count Duckula S01E04 Un Viaje A Través Del Tiempo",
+      "duration_raw": "19:56",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 337,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146597374537&type=37&idx=1&tkn=emSzo74sYQ-g9g0LL9J9qNtxsFQ&fn=external_8"
+    },
+    {
+      "video_id": "10874314230345",
+      "title_raw": "Count Duckula S01E05 La Restauración",
+      "duration_raw": "22:59",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 287,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146642332233&type=37&idx=3&tkn=tZ6WFyuFfsXwIlDQjs6Sv1C_PW8&fn=external_8"
+    },
+    {
+      "video_id": "10874313837129",
+      "title_raw": "Count Duckula S01E06 El Motín De Los Pingüinos",
+      "duration_raw": "22:45",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 294,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146553137737&type=37&idx=9&tkn=zkI5Wux0SMUf2Lsln-P1BYErSjY&fn=external_8"
+    },
+    {
+      "video_id": "10874315016777",
+      "title_raw": "Count Duckula S01E07 El Rayo Invisible",
+      "duration_raw": "22:25",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 235,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146781071945&type=37&idx=7&tkn=42UhfFE5dv5XrTzZTorgVT0SakY&fn=external_8"
+    },
+    {
+      "video_id": "10874314754633",
+      "title_raw": "Count Duckula S01E08 Un Vampiro Australiano",
+      "duration_raw": "22:31",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 312,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146734017097&type=37&idx=15&tkn=9I1-rHqgtolwy_marRLo9UkHSu0&fn=external_8"
+    },
+    {
+      "video_id": "10874313706057",
+      "title_raw": "Count Duckula S01E09 Vampiro En La Niebla",
+      "duration_raw": "22:51",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 226,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146525940297&type=37&idx=13&tkn=VgqHUNbjZBphCXKJv31P-6tpmXM&fn=external_8"
+    },
+    {
+      "video_id": "10874314361417",
+      "title_raw": "Count Duckula S01E10 Abierto Al Público",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 234,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146667104841&type=37&idx=15&tkn=gp5Q6cDkjbpfl48yB1g_niBGkXs&fn=external_8"
+    },
+    {
+      "video_id": "10874313443913",
+      "title_raw": "Count Duckula S01E11 El Fantasma Del Castillo McPátula",
+      "duration_raw": "22:33",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 213,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146461190729&type=37&idx=4&tkn=umlfHieW8P6T-euiVxqyQeWoxX8&fn=external_8"
+    },
+    {
+      "video_id": "10874314558025",
+      "title_raw": "Count Duckula S01E12 Pobre Igor",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 232,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146690894409&type=37&idx=3&tkn=ZaiSCzhgRdEE5YboXl_dsrw4U2Q&fn=external_8"
+    },
+    {
+      "video_id": "10874314099273",
+      "title_raw": "Count Duckula S01E13 Pato Al Volante",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 231,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146618804809&type=37&idx=12&tkn=6-0vGJgOZkU9xO-1kK7Q9Lklbw8&fn=external_8"
+    },
+    {
+      "video_id": "10874313312841",
+      "title_raw": "Count Duckula S01E14 El Vampiro Contraataca",
+      "duration_raw": "22:43",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 203,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146391198281&type=37&idx=2&tkn=bADDkA5rkFkdGZwDB-nQWfFUb5s&fn=external_8"
+    },
+    {
+      "video_id": "10874313181769",
+      "title_raw": "Count Duckula S01E15 Hotel Cinco Estrellas",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 158,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146329004617&type=37&idx=13&tkn=RLU3evf53QBP20GUVb6IB0FUdfM&fn=external_8"
+    },
+    {
+      "video_id": "10874313247305",
+      "title_raw": "Count Duckula S01E16 El Lorobado De Nuestra Señora De París",
+      "duration_raw": "22:35",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 193,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146360724041&type=37&idx=3&tkn=eBV0znzkIIaox4Vf8OSv8TvCxHo&fn=external_8"
+    },
+    {
+      "video_id": "10874313378377",
+      "title_raw": "Count Duckula S01E17 Querido Diario",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 219,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146429667913&type=37&idx=11&tkn=IZlgrZ5bjUWy3OVcMOOgNrm8a0E&fn=external_8"
+    },
+    {
+      "video_id": "10874313968201",
+      "title_raw": "Count Duckula S01E18 Mayordomo A La Puerta",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 148,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146577975881&type=37&idx=9&tkn=6omXZFYb85eNa3aRoufxgYM73Pc&fn=external_8"
+    },
+    {
+      "video_id": "10874681821769",
+      "title_raw": "Count Duckula S01E19 En Busca Del Pato Perdido",
+      "duration_raw": "22:31",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 150,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146889402953&type=37&idx=1&tkn=d1KxzYOIpAGdmNlkw9pkHtqcD64&fn=external_8"
+    },
+    {
+      "video_id": "10874682018377",
+      "title_raw": "Count Duckula S01E20 Un Castillo Viajero",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 138,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146929314377&type=37&idx=2&tkn=Lkh207h3RjnENbwYrqBQLKQnbiw&fn=external_8"
+    },
+    {
+      "video_id": "10874681887305",
+      "title_raw": "Count Duckula S01E21 El Patasma De La Ópera",
+      "duration_raw": "22:33",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 135,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146910571081&type=37&idx=3&tkn=e4bJVvFt80eJAQVeYLRcOvBW8n4&fn=external_8"
+    },
+    {
+      "video_id": "10874683066953",
+      "title_raw": "Count Duckula S01E22 El Monstruo Que Llevamos Dentro",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 181,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147018312265&type=37&idx=15&tkn=IOoT7zkDqTkOrP7Pd6e5coSi2dQ&fn=external_8"
+    },
+    {
+      "video_id": "10874684901961",
+      "title_raw": "Count Duckula S01E23 El Ayuntamiento De Los Horrores",
+      "duration_raw": "22:25",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 148,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147068578377&type=37&idx=8&tkn=_5gDXR13El5Gmz_8nKCW0AGSct0&fn=external_8"
+    },
+    {
+      "video_id": "10874684836425",
+      "title_raw": "Count Duckula S01E24 La Función Debe Continuar",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 140,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147052063305&type=37&idx=1&tkn=krOv6wV61-ns3RzLPc6o8r_9glk&fn=external_8"
+    },
+    {
+      "video_id": "10874684770889",
+      "title_raw": "Count Duckula S01E25 Patolín Y El Brócoli Mágico",
+      "duration_raw": "22:31",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 144,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147032533577&type=37&idx=2&tkn=GcIQCvZLdgg1gEwY90_n8EG0yqU&fn=external_8"
+    },
+    {
+      "video_id": "10874684967497",
+      "title_raw": "Count Duckula S01E26 Reunión Familiar",
+      "duration_raw": "22:38",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 146,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147083782729&type=37&idx=6&tkn=5M1x6-uvgQk3zkrdG8eSqTyIZMM&fn=external_8"
+    },
+    {
+      "video_id": "1489454434889",
+      "title_raw": "El Conde Pátula - T01E27 - Oro fantasma",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 968,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1915933297269&type=32&idx=6&tkn=l2gMaXcyEDhe3A-3iEramB2dE8k&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1489453517385",
+      "title_raw": "El Conde Pátula - T01E28 - El rescate",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 723,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1915935787637&type=32&idx=13&tkn=dvOvGRCG2Dn0gdKm9AfkVItT-wE&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1489452993097",
+      "title_raw": "El Conde Pátula - T01E29 - El valle perdido",
+      "duration_raw": "22:45",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 872,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1915938867829&type=32&idx=13&tkn=21NIKVvrNK8nobzkuXcu9xPUldM&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1489454107209",
+      "title_raw": "El Conde Pátula - T01E30 - Pequeñeces de la vida",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 1051,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1917499148917&type=32&idx=11&tkn=Hv0PVd7y6uDy24GSh9wQBR9thDM&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "10874682149449",
+      "title_raw": "Count Duckula S02E01 Oro Fantasma",
+      "duration_raw": "22:46",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 183,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146941307465&type=37&idx=3&tkn=g7zZ7uCO17KGRpG97uZ6NTvxlLI&fn=external_8"
+    },
+    {
+      "video_id": "10874682870345",
+      "title_raw": "Count Duckula S02E02 El Rescate",
+      "duration_raw": "22:39",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 171,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146995702345&type=37&idx=5&tkn=3L_pwcv0xVq7beWA6H6cZPgDJ04&fn=external_8"
+    },
+    {
+      "video_id": "10874682346057",
+      "title_raw": "Count Duckula S02E03 El Valle Perdido",
+      "duration_raw": "22:45",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 119,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146950285897&type=37&idx=13&tkn=yOJ7dMs5Q0XAkJw_G4VWS9OI0FY&fn=external_8"
+    },
+    {
+      "video_id": "10874682804809",
+      "title_raw": "Count Duckula S02E04 Pequeñeces De La Vida",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 123,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146986723913&type=37&idx=11&tkn=AILD2YBPvpLv5B_UoN5t-hqUPfI&fn=external_8"
+    },
+    {
+      "video_id": "10874682083913",
+      "title_raw": "Count Duckula S02E05 El Héroe",
+      "duration_raw": "22:42",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 186,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146935343689&type=37&idx=8&tkn=AevtNKScmwi5FHKUQTCAg0UrLSI&fn=external_8"
+    },
+    {
+      "video_id": "10874682935881",
+      "title_raw": "Count Duckula S02E06 Grandes Castillos Del Mundo",
+      "duration_raw": "21:35",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 158,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147002780233&type=37&idx=8&tkn=g_cfLGVyNy7HYftEYlRDesiqHqY&fn=external_8"
+    },
+    {
+      "video_id": "10874682411593",
+      "title_raw": "Count Duckula S02E07 Si A Tu Ventana Llega Un Vampirito",
+      "duration_raw": "22:43",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 154,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146956839497&type=37&idx=10&tkn=uxl276KkgiRdqmXIl8IUI8PEqY0&fn=external_8"
+    },
+    {
+      "video_id": "10874682477129",
+      "title_raw": "Count Duckula S02E08 El Vizconde Y El Mendigo (O Cuidado Con Los Gemelos)",
+      "duration_raw": "22:28",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 155,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146963982921&type=37&idx=8&tkn=uOM6NC_lVmagg3jRKZfdCLLhmK4&fn=external_8"
+    },
+    {
+      "video_id": "10874682673737",
+      "title_raw": "Count Duckula S02E09 Cuando Los Ánimos Se Enfrían",
+      "duration_raw": "22:57",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 136,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146979514953&type=37&idx=15&tkn=TasEgZ_CbrFpP6x7bMCGu72xQUw&fn=external_8"
+    },
+    {
+      "video_id": "10874682542665",
+      "title_raw": "Count Duckula S02E10 Las Tribulaciones De Un Pato En China",
+      "duration_raw": "22:43",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 113,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10146973026889&type=37&idx=7&tkn=lTx0lsdzTvxn0m-WlrS8c5ds2Z0&fn=external_8"
+    },
+    {
+      "video_id": "10874847431241",
+      "title_raw": "Count Duckula S02E11 Quién Fue",
+      "duration_raw": "22:42",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 198,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147236350537&type=37&idx=2&tkn=mIHYUpLg8UBQ5f2B_NEKsKRIwjQ&fn=external_8"
+    },
+    {
+      "video_id": "10874846186057",
+      "title_raw": "Count Duckula S02E12 Entre Tibetanos Te Veas",
+      "duration_raw": "21:35",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 244,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147107310153&type=37&idx=8&tkn=oysM8VlU49rUTMhtPGQCSH99ryw&fn=external_8"
+    },
+    {
+      "video_id": "10874847300169",
+      "title_raw": "Count Duckula S02E13 Desertor Del Desierto",
+      "duration_raw": "22:43",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 377,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147224095305&type=37&idx=13&tkn=y2WLM1cb-2qDjAgUX7p7Nd5kAyk&fn=external_8"
+    },
+    {
+      "video_id": "10874846317129",
+      "title_raw": "Count Duckula S02E14 Banduck Elenton",
+      "duration_raw": "22:28",
+      "season_number": 2,
+      "episode_number": 14,
+      "views": 150,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147118975561&type=37&idx=6&tkn=TcP_kZ3MhmCCoJ4U5XQbZT4gcxU&fn=external_8"
+    },
+    {
+      "video_id": "10874846448201",
+      "title_raw": "Count Duckula S02E15 Amnesia",
+      "duration_raw": "22:57",
+      "season_number": 2,
+      "episode_number": 15,
+      "views": 124,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147133983305&type=37&idx=14&tkn=aXpNOyxphviEWYWooLG9FgdP644&fn=external_8"
+    },
+    {
+      "video_id": "10874846251593",
+      "title_raw": "Count Duckula S02E16 Los Misterios Del Museo De Cera",
+      "duration_raw": "22:43",
+      "season_number": 2,
+      "episode_number": 16,
+      "views": 114,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147114191433&type=37&idx=8&tkn=n3pr1BU4VZL9b8UZqkY5LI8Y1Mo&fn=external_8"
+    },
+    {
+      "video_id": "10874846775881",
+      "title_raw": "Count Duckula S02E17 El Regreso De La Maldición Del Secreto De La Tumba De La Momia, Del Monstruo Frankenpátula, Del Hombre Lobo Y De La Col Intergaláctica",
+      "duration_raw": "22:42",
+      "season_number": 2,
+      "episode_number": 17,
+      "views": 126,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147163605577&type=37&idx=4&tkn=HsgB84cIgMUHoLGP1vzNelKm6rw&fn=external_8"
+    },
+    {
+      "video_id": "10874846513737",
+      "title_raw": "Count Duckula S02E18 La Ciudad Perdida De La Atlántida",
+      "duration_raw": "21:35",
+      "season_number": 2,
+      "episode_number": 18,
+      "views": 113,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147143486025&type=37&idx=8&tkn=SGC1rs9xx3FeBQt26mVzHtmWwl4&fn=external_8"
+    },
+    {
+      "video_id": "10874846579273",
+      "title_raw": "Count Duckula S02E19 Plaga De Mala Suerte",
+      "duration_raw": "22:43",
+      "season_number": 2,
+      "episode_number": 19,
+      "views": 130,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147152792137&type=37&idx=3&tkn=soxQyBa_TysMS6-5T8jcl3dn5LM&fn=external_8"
+    },
+    {
+      "video_id": "1489453255241",
+      "title_raw": "El Conde Pátula - T02E20 - Hay hombres lobo en el interior de nuestro jardín",
+      "duration_raw": "21:35",
+      "season_number": 2,
+      "episode_number": 20,
+      "views": 694,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1923127708277&type=32&idx=10&tkn=HOM1euymCpuTl3EO5E-l1gohYDc&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1490432625225",
+      "title_raw": "El Conde Pátula - T02E21 - Un pato marinero",
+      "duration_raw": "22:43",
+      "season_number": 2,
+      "episode_number": 21,
+      "views": 603,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1923191016053&type=32&idx=5&tkn=0ALIY7B1ZdewuxVVbXp9THaZZt4&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1490432690761",
+      "title_raw": "El Conde Pátula - T02E22 - El gran pato detective",
+      "duration_raw": "22:28",
+      "season_number": 2,
+      "episode_number": 22,
+      "views": 598,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1923186494069&type=32&idx=5&tkn=59wCAwODc9KhMyXVSyjjAHwup-E&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1490432232009",
+      "title_raw": "El Conde Pátula - T02E23 - Pátula en Barback",
+      "duration_raw": "22:57",
+      "season_number": 2,
+      "episode_number": 23,
+      "views": 632,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1923195079285&type=32&idx=3&tkn=G-hbl7g5pbceVoS1nOcHnqkD4rg&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1490433149513",
+      "title_raw": "El Conde Pátula - T02E24 - El espectáculo debe continuar",
+      "duration_raw": "22:43",
+      "season_number": 2,
+      "episode_number": 24,
+      "views": 825,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1923203664501&type=32&idx=1&tkn=tQgUbME3VlcUgdaiy4umX2wnQk8&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1490432363081",
+      "title_raw": "El Conde Pátula - T02E25 - Una Navidad temblorosa",
+      "duration_raw": "21:35",
+      "season_number": 2,
+      "episode_number": 25,
+      "views": 736,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1925033233013&type=32&idx=2&tkn=7c6dGsQB8jkTAQMO3_70lNDJd8I&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1490432494153",
+      "title_raw": "El Conde Pátula - T02E26 - Lo demás es historia",
+      "duration_raw": "22:42",
+      "season_number": 2,
+      "episode_number": 26,
+      "views": 672,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1923213953653&type=32&idx=11&tkn=JuYppi2sLKZw-V4MXCQROwZKFxQ&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1490433018441",
+      "title_raw": "El Conde Pátula - T02E27 - Invasión ovoide",
+      "duration_raw": "21:35",
+      "season_number": 2,
+      "episode_number": 27,
+      "views": 611,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1923220114037&type=32&idx=11&tkn=u92xTMYys-zjaYEuzls7qmDs5M0&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1490432887369",
+      "title_raw": "El Conde Pátula - T02E28 - Travesía misteriosa",
+      "duration_raw": "22:43",
+      "season_number": 2,
+      "episode_number": 28,
+      "views": 696,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1923227322997&type=32&idx=10&tkn=-XRb6SkPth0Vi69JAL4me4z-BCs&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1490432297545",
+      "title_raw": "El Conde Pátula - T02E29 - Una vuelta al mundo muy precipitada",
+      "duration_raw": "22:28",
+      "season_number": 2,
+      "episode_number": 29,
+      "views": 565,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1923237939829&type=32&idx=1&tkn=_lkCx7E5bCBRnHZM_Ups73a7itE&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1490432756297",
+      "title_raw": "El Conde Pátula - T02E30 - Pátula en Manhattan",
+      "duration_raw": "22:57",
+      "season_number": 2,
+      "episode_number": 30,
+      "views": 675,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1924958390901&type=32&idx=13&tkn=HdpvbK0fS7Ysk0SnAlI00Ut5xPk&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1490432952905",
+      "title_raw": "El Conde Pátula - T02E31 - El club de Nanny",
+      "duration_raw": "22:43",
+      "season_number": 2,
+      "episode_number": 31,
+      "views": 596,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1924974774901&type=32&idx=4&tkn=1tIzEiN29SfnbNvDf74405QTajY&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1490432821833",
+      "title_raw": "El Conde Pátula - T02E32 - El príncipe Pátula",
+      "duration_raw": "22:42",
+      "season_number": 2,
+      "episode_number": 32,
+      "views": 576,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1925010164341&type=32&idx=8&tkn=Q8OHnedE6XXqZyjBRu6FQGx7fSk&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1490432428617",
+      "title_raw": "El Conde Pátula - T02E33 - Pato veneciano",
+      "duration_raw": "22:43",
+      "season_number": 2,
+      "episode_number": 33,
+      "views": 596,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1925041687157&type=32&idx=1&tkn=q7aq0I8aqGbPsVk3ooGO3Pf9bDY&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1490432559689",
+      "title_raw": "El Conde Pátula - T02E34 - La Policía Montada siempre atrapa a su presa",
+      "duration_raw": "22:28",
+      "season_number": 2,
+      "episode_number": 34,
+      "views": 612,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1925059840629&type=32&idx=12&tkn=ofqWA_oEzt039VKB_UBAOpqRxhA&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1490433083977",
+      "title_raw": "El Conde Pátula - T02E35 - Los zombies avispados",
+      "duration_raw": "22:57",
+      "season_number": 2,
+      "episode_number": 35,
+      "views": 1200,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1925071112821&type=32&idx=15&tkn=8nfKd4HyUR-W2SubPfKIj3rEw10&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "10874846841417",
+      "title_raw": "Count Duckula S03E01 Pátula Detective",
+      "duration_raw": "22:28",
+      "season_number": 3,
+      "episode_number": 1,
+      "views": 124,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147175795273&type=37&idx=15&tkn=x5hbCWsTdQ_UVRyRN-ADMPmX2oU&fn=external_8"
+    },
+    {
+      "video_id": "10874847496777",
+      "title_raw": "Count Duckula S03E02 Un Pato Espacial",
+      "duration_raw": "22:57",
+      "season_number": 3,
+      "episode_number": 2,
+      "views": 126,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147245525577&type=37&idx=6&tkn=Th9DGPt9M-5YikxyH0FLBq0mqag&fn=external_8"
+    },
+    {
+      "video_id": "10874846382665",
+      "title_raw": "Count Duckula S03E03 Un Castillo En Venta",
+      "duration_raw": "22:43",
+      "season_number": 3,
+      "episode_number": 3,
+      "views": 117,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147124808265&type=37&idx=3&tkn=OJTaQpZu2lHxg_A1jCXfij13Two&fn=external_8"
+    },
+    {
+      "video_id": "10874847234633",
+      "title_raw": "Count Duckula S03E04 El Genio De La Lámpara (O Las 1001 Noches Transilvanas)",
+      "duration_raw": "22:42",
+      "season_number": 3,
+      "episode_number": 4,
+      "views": 122,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147218983497&type=37&idx=4&tkn=C0Wu5_FiKPr9Hwif3dDJtvOnRgc&fn=external_8"
+    },
+    {
+      "video_id": "10874846644809",
+      "title_raw": "Count Duckula S03E05 Hay Hombres Lobo En El Interior De Nuestro Jardín",
+      "duration_raw": "21:35",
+      "season_number": 3,
+      "episode_number": 5,
+      "views": 121,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147157772873&type=37&idx=8&tkn=KJ2Dcdh3-IoYWH3vmYlvujK8lhc&fn=external_8"
+    },
+    {
+      "video_id": "10874847169097",
+      "title_raw": "Count Duckula S03E06 Un Pato Marinero",
+      "duration_raw": "22:43",
+      "season_number": 3,
+      "episode_number": 6,
+      "views": 102,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147210791497&type=37&idx=5&tkn=oducIeMxL2dpr29QWYjSKanfZvw&fn=external_8"
+    },
+    {
+      "video_id": "10874847038025",
+      "title_raw": "Count Duckula S03E07 El Gran Pato Detective",
+      "duration_raw": "22:28",
+      "season_number": 3,
+      "episode_number": 7,
+      "views": 114,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147201092169&type=37&idx=5&tkn=KJK_itSiemgp4SRVPwTCpXWYDtQ&fn=external_8"
+    },
+    {
+      "video_id": "10874846906953",
+      "title_raw": "Count Duckula S03E08 Pátula En Barback",
+      "duration_raw": "22:57",
+      "season_number": 3,
+      "episode_number": 8,
+      "views": 131,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147185232457&type=37&idx=3&tkn=NwZII0Tz2x_U0bm9p8fPMpkC9oc&fn=external_8"
+    },
+    {
+      "video_id": "10874846972489",
+      "title_raw": "Count Duckula S03E09 El Espectáculo Debe Continuar",
+      "duration_raw": "22:43",
+      "season_number": 3,
+      "episode_number": 9,
+      "views": 124,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147195718217&type=37&idx=9&tkn=rQ9iXwtKiONRQzV8L0meK18qiCM&fn=external_8"
+    },
+    {
+      "video_id": "10874941999689",
+      "title_raw": "Count Duckula S03E10 Una Navidad Temblorosa",
+      "duration_raw": "21:35",
+      "season_number": 3,
+      "episode_number": 10,
+      "views": 138,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147281963593&type=37&idx=7&tkn=cTQVZRtEPIdUcHCU5NEvc8gnh7s&fn=external_8"
+    },
+    {
+      "video_id": "10874942261833",
+      "title_raw": "Count Duckula S03E11 Lo Demás, Es Historia",
+      "duration_raw": "22:42",
+      "season_number": 3,
+      "episode_number": 11,
+      "views": 131,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147318139465&type=37&idx=11&tkn=fHeFt1I67isgDMmi4P5z5_bmC9A&fn=external_8"
+    },
+    {
+      "video_id": "10874942065225",
+      "title_raw": "Count Duckula S03E12 Invasión Ovoide",
+      "duration_raw": "21:35",
+      "season_number": 3,
+      "episode_number": 12,
+      "views": 138,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147290548809&type=37&idx=11&tkn=77Wxp4w-3TOaXiH_mDGgV6C0bIQ&fn=external_8"
+    },
+    {
+      "video_id": "10874941803081",
+      "title_raw": "Count Duckula S03E13 Travesía Misteriosa",
+      "duration_raw": "22:43",
+      "season_number": 3,
+      "episode_number": 13,
+      "views": 137,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147261385289&type=37&idx=15&tkn=HkkF6Mx-EJyEPWKdnOAZueuCt0Q&fn=external_8"
+    },
+    {
+      "video_id": "10874942130761",
+      "title_raw": "Count Duckula S04E01 Una Vuelta Al Mundo Muy Precipitada",
+      "duration_raw": "22:28",
+      "season_number": 4,
+      "episode_number": 1,
+      "views": 145,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147298609737&type=37&idx=1&tkn=kWb0aHeeh5HFsRVLc28BX2VoNUU&fn=external_8"
+    },
+    {
+      "video_id": "10874942523977",
+      "title_raw": "Count Duckula S04E02 Pátula En Manhattan",
+      "duration_raw": "22:57",
+      "season_number": 4,
+      "episode_number": 2,
+      "views": 140,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147336817225&type=37&idx=13&tkn=908FOWL3llwSt_uRoXKa0NsBfNU&fn=external_8"
+    },
+    {
+      "video_id": "10874941672009",
+      "title_raw": "Count Duckula S04E03 El Club De Nanny",
+      "duration_raw": "22:43",
+      "season_number": 4,
+      "episode_number": 3,
+      "views": 118,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147256666697&type=37&idx=4&tkn=fRAj5Y2AOPv7FNKyE0WMH4AA7-c&fn=external_8"
+    },
+    {
+      "video_id": "10874942392905",
+      "title_raw": "Count Duckula S04E04 Príncipe Pátula",
+      "duration_raw": "22:42",
+      "season_number": 4,
+      "episode_number": 4,
+      "views": 124,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147323841097&type=37&idx=10&tkn=yBaxGEcGBm_PjNRyi6dZs2OFe-0&fn=external_8"
+    },
+    {
+      "video_id": "10874942196297",
+      "title_raw": "Count Duckula S04E05 Pato Veneciano",
+      "duration_raw": "22:43",
+      "season_number": 4,
+      "episode_number": 5,
+      "views": 118,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147309554249&type=37&idx=9&tkn=LufSBoVR-vkzztcPvc0bBjhSPz8&fn=external_8"
+    },
+    {
+      "video_id": "10874942458441",
+      "title_raw": "Count Duckula S04E06 La Policía Montada Siempre Atrapa A Su Presa",
+      "duration_raw": "22:28",
+      "season_number": 4,
+      "episode_number": 6,
+      "views": 117,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147331181129&type=37&idx=10&tkn=a8q3aWSK1PW8Wi-Zxht-YnZKOp4&fn=external_8"
+    },
+    {
+      "video_id": "10874941934153",
+      "title_raw": "Count Duckula S04E07 Los Zombis Avispados",
+      "duration_raw": "22:57",
+      "season_number": 4,
+      "episode_number": 7,
+      "views": 130,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10147269315145&type=37&idx=15&tkn=WwHrA8Phl7vTjpgwi849_QzL9vU&fn=external_8"
+    }
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "title": "El Lagarto Juancho",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2232393",
+  "year": "1962",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Clásicos",
+  "videos": [
+    {
+      "video_id": "1395919686217",
+      "title_raw": "1",
+      "duration_raw": "04:53",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 23719,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995577014807&type=32&idx=8&tkn=qWXthGje4mbICD_4gFYJOOqbRnA&fn=external_8"
+    },
+    {
+      "video_id": "1395917261385",
+      "title_raw": "2",
+      "duration_raw": "04:52",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 6964,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995559057943&type=32&idx=1&tkn=oqieWv-upJt9rBF_F8VbMjgTusw&fn=external_8"
+    },
+    {
+      "video_id": "1395919948361",
+      "title_raw": "3",
+      "duration_raw": "05:05",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 3731,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995579570711&type=32&idx=9&tkn=FTaDH_t7y8EsXeidBmaODkrl908&fn=external_8"
+    },
+    {
+      "video_id": "1395917064777",
+      "title_raw": "4",
+      "duration_raw": "04:52",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 3109,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995583371799&type=32&idx=1&tkn=0bzF1U4HGcl054kFnW0uxkwiIaM&fn=external_8"
+    },
+    {
+      "video_id": "1395918441033",
+      "title_raw": "5",
+      "duration_raw": "04:53",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 2124,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995562924567&type=32&idx=5&tkn=zeqlf1Tdea0GuJWaaEuXmlujlK4&fn=external_8"
+    },
+    {
+      "video_id": "1395918899785",
+      "title_raw": "6",
+      "duration_raw": "04:54",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 1914,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995567839767&type=32&idx=2&tkn=T05kP-t_w8iq2l1JY-wNoyPNY8E&fn=external_8"
+    },
+    {
+      "video_id": "1395920210505",
+      "title_raw": "7",
+      "duration_raw": "04:53",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1646,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995572165143&type=32&idx=1&tkn=2VO22Er3yBw_g5g0EyCxiPlxRHw&fn=external_8"
+    },
+    {
+      "video_id": "1395918703177",
+      "title_raw": "8",
+      "duration_raw": "04:53",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1330,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995596151319&type=32&idx=13&tkn=Ga6ZKF1EoEpEJjPaMdMEIb8sv8g&fn=external_8"
+    },
+    {
+      "video_id": "1395917589065",
+      "title_raw": "9",
+      "duration_raw": "04:52",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 1262,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995553749527&type=32&idx=3&tkn=LvqLUrnGpFdF-84OB6L4Vsako4Q&fn=external_8"
+    },
+    {
+      "video_id": "1395919096393",
+      "title_raw": "10",
+      "duration_raw": "04:52",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 1318,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995585337879&type=32&idx=1&tkn=XMvNxLcr5MIzbogt6NbWPBR0r74&fn=external_8"
+    },
+    {
+      "video_id": "1395920407113",
+      "title_raw": "11",
+      "duration_raw": "04:52",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 1179,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995588811287&type=32&idx=5&tkn=1dnES-GTUT5Ila0as9LNO7TesC0&fn=external_8"
+    },
+    {
+      "video_id": "1395919882825",
+      "title_raw": "12",
+      "duration_raw": "04:52",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 1056,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995592415767&type=32&idx=4&tkn=Bg97jkQTk5208Nh1qd8622c60X8&fn=external_8"
+    },
+    {
+      "video_id": "1395920144969",
+      "title_raw": "13",
+      "duration_raw": "05:04",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 1045,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995547982359&type=32&idx=5&tkn=v_DP12LKhlPn6oOjuOh0jX5NPew&fn=external_8"
+    },
+    {
+      "video_id": "1395917523529",
+      "title_raw": "14",
+      "duration_raw": "05:05",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 946,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995602901527&type=32&idx=1&tkn=tMdgKW-xZ1Qt0OlGaaiJqTxWDi8&fn=external_8"
+    },
+    {
+      "video_id": "1395918768713",
+      "title_raw": "15",
+      "duration_raw": "05:05",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 936,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995550603799&type=32&idx=1&tkn=VRGY04L6zPIQwAR_NCAeymy4frs&fn=external_8"
+    },
+    {
+      "video_id": "1395918506569",
+      "title_raw": "16",
+      "duration_raw": "05:04",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 875,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995607489047&type=32&idx=11&tkn=Lm6gSaZBHnDBd0x84LTxmLCHXok&fn=external_8"
+    },
+    {
+      "video_id": "1395920013897",
+      "title_raw": "17",
+      "duration_raw": "05:04",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 873,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995662735895&type=32&idx=2&tkn=AajbjVJss9sOdZw5KX9A0s-TP7s&fn=external_8"
+    },
+    {
+      "video_id": "1395917785673",
+      "title_raw": "18",
+      "duration_raw": "05:04",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 779,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995638159895&type=32&idx=6&tkn=mU2laP2Qm2t-0CEqWdvGK9BkKIs&fn=external_8"
+    },
+    {
+      "video_id": "1395919620681",
+      "title_raw": "19",
+      "duration_raw": "05:04",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 764,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995610962455&type=32&idx=6&tkn=gjS-GgjKwQyEviW-tT2CbhAb1GE&fn=external_8"
+    },
+    {
+      "video_id": "1395917851209",
+      "title_raw": "20",
+      "duration_raw": "05:06",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 756,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995659000343&type=32&idx=15&tkn=TfEhQ6k5t7ub5wUudq4noRAnpFI&fn=external_8"
+    },
+    {
+      "video_id": "1395917392457",
+      "title_raw": "21",
+      "duration_raw": "05:06",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 725,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995616401943&type=32&idx=4&tkn=DUFHgeI_76AJUmuL9ajQB7avmXA&fn=external_8"
+    },
+    {
+      "video_id": "1395919489609",
+      "title_raw": "22",
+      "duration_raw": "05:05",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 808,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995623479831&type=32&idx=15&tkn=FYbuTg4-WzDdIYVacpFKd1eyQOs&fn=external_8"
+    },
+    {
+      "video_id": "1395919161929",
+      "title_raw": "23",
+      "duration_raw": "05:05",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 796,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995665816087&type=32&idx=4&tkn=T07-Bspo_cYKMOTEW1TP-1aUOHc&fn=external_8"
+    },
+    {
+      "video_id": "1395920341577",
+      "title_raw": "24",
+      "duration_raw": "05:05",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 848,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995619285527&type=32&idx=14&tkn=RRrv2azz-dp4qO73bzWuiNhfE6M&fn=external_8"
+    },
+    {
+      "video_id": "1395918375497",
+      "title_raw": "25",
+      "duration_raw": "05:05",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 758,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995643337239&type=32&idx=14&tkn=3SwDT7D8Dys0Gwx79hZUCRSBa3M&fn=external_8"
+    },
+    {
+      "video_id": "1395920472649",
+      "title_raw": "26",
+      "duration_raw": "05:05",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 864,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995634162199&type=32&idx=6&tkn=0-Gq2C7nQwIcWKLOHlnaL6xVGOI&fn=external_8"
+    },
+    {
+      "video_id": "1395918572105",
+      "title_raw": "27",
+      "duration_raw": "04:53",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 1117,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995628984855&type=32&idx=12&tkn=EVhQcCGwNBPp2lllDuwU0p218QA&fn=external_8"
+    },
+    {
+      "video_id": "1395917654601",
+      "title_raw": "28",
+      "duration_raw": "04:53",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 973,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995655854615&type=32&idx=9&tkn=h6XP1UFVLoHTQI7g8WAZ1PsXEsU&fn=external_8"
+    },
+    {
+      "video_id": "1395919358537",
+      "title_raw": "29",
+      "duration_raw": "04:53",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 1021,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995647466007&type=32&idx=13&tkn=7WeWGzkyNl9r_zQjj8qjkgjiGEk&fn=external_8"
+    },
+    {
+      "video_id": "1395919227465",
+      "title_raw": "30",
+      "duration_raw": "04:54",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 785,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995652446743&type=32&idx=5&tkn=dl6lMMFTFdrwHksBsfOifj0j5hk&fn=external_8"
+    },
+    {
+      "video_id": "1395918637641",
+      "title_raw": "31",
+      "duration_raw": "04:52",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 776,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995679513111&type=32&idx=2&tkn=TeiZgHKofzpbWxZ8MJ4MqMjD0lU&fn=external_8"
+    },
+    {
+      "video_id": "1395917916745",
+      "title_raw": "32",
+      "duration_raw": "04:53",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 860,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995669879319&type=32&idx=1&tkn=yPkJyHQq7hYNxtnH1VLoZkHh5cQ&fn=external_8"
+    },
+    {
+      "video_id": "1395917130313",
+      "title_raw": "33",
+      "duration_raw": "04:52",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 825,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995724929559&type=32&idx=1&tkn=SyVhTMNk3uiD-20SgWUNKk1Votc&fn=external_8"
+    },
+    {
+      "video_id": "1395919424073",
+      "title_raw": "35",
+      "duration_raw": "04:39",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 821,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995682658839&type=32&idx=1&tkn=DOSf7SvYHc6JNy10qB6UWcKnuDA&fn=external_8"
+    },
+    {
+      "video_id": "1395918834249",
+      "title_raw": "36",
+      "duration_raw": "05:04",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 804,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995692620311&type=32&idx=1&tkn=ItuZsmHb0J-0kWNN9nFdxkjwHJo&fn=external_8"
+    },
+    {
+      "video_id": "1395918965321",
+      "title_raw": "37",
+      "duration_raw": "05:04",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 721,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995729779223&type=32&idx=11&tkn=Y2mmEM9u3MGFjZxGgf_sCzRbsGU&fn=external_8"
+    },
+    {
+      "video_id": "1395919293001",
+      "title_raw": "38",
+      "duration_raw": "05:04",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 711,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995720276503&type=32&idx=14&tkn=7_k2lWl0mqAYfzoCKkM5wi1BjiY&fn=external_8"
+    },
+    {
+      "video_id": "1395918244425",
+      "title_raw": "39",
+      "duration_raw": "05:05",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 729,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995703106071&type=32&idx=1&tkn=lMJZOCqlmwNNvdablaZqzm0HIhw&fn=external_8"
+    },
+    {
+      "video_id": "1395918309961",
+      "title_raw": "40",
+      "duration_raw": "04:53",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 722,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995714247191&type=32&idx=1&tkn=bBpxR971pPtpoAGg0Or1wXnQYrk&fn=external_8"
+    },
+    {
+      "video_id": "1395919817289",
+      "title_raw": "41",
+      "duration_raw": "04:54",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 6329,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995708676631&type=32&idx=2&tkn=RDt7wZWy_QqgTr6F_iCSs3fM2iA&fn=external_8"
+    },
+    {
+      "video_id": "1395919751753",
+      "title_raw": "42",
+      "duration_raw": "04:54",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 708,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995696618007&type=32&idx=12&tkn=gI7ohcPMiezoZbajbCT3mb41mns&fn=external_8"
+    },
+    {
+      "video_id": "1395920079433",
+      "title_raw": "43",
+      "duration_raw": "05:04",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 716,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995673614871&type=32&idx=11&tkn=5J7poBasKYm8FWI1p3HvWW9QSB4&fn=external_8"
+    },
+    {
+      "video_id": "1395920538185",
+      "title_raw": "44",
+      "duration_raw": "04:53",
+      "season_number": 1,
+      "episode_number": 44,
+      "views": 731,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995688426007&type=32&idx=3&tkn=fdr2scfS4-GKYSBYiRVffFxDX5w&fn=external_8"
+    },
+    {
+      "video_id": "1395917457993",
+      "title_raw": "45",
+      "duration_raw": "04:52",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 698,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995711232535&type=32&idx=2&tkn=9AMwSQVIb3Qp-TGdfpsSFniCPzo&fn=external_8"
+    },
+    {
+      "video_id": "1395919030857",
+      "title_raw": "46",
+      "duration_raw": "04:52",
+      "season_number": 1,
+      "episode_number": 46,
+      "views": 708,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995737709079&type=32&idx=15&tkn=qmXmo7AY30sYdYTZJ8fcODYUZG4&fn=external_8"
+    },
+    {
+      "video_id": "1395917326921",
+      "title_raw": "47",
+      "duration_raw": "04:52",
+      "season_number": 1,
+      "episode_number": 47,
+      "views": 670,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995748325911&type=32&idx=10&tkn=54Hvvkq2dsWzzMZZVvHiheeBoZo&fn=external_8"
+    },
+    {
+      "video_id": "1395917720137",
+      "title_raw": "48",
+      "duration_raw": "05:05",
+      "season_number": 1,
+      "episode_number": 48,
+      "views": 678,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995752716823&type=32&idx=2&tkn=qBfmrkZzOOL5CqBjWcT9Ub_Fx4w&fn=external_8"
+    },
+    {
+      "video_id": "1395920276041",
+      "title_raw": "49",
+      "duration_raw": "05:03",
+      "season_number": 1,
+      "episode_number": 49,
+      "views": 705,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995750750743&type=32&idx=15&tkn=WsWLct8oFAk0Aaphe3ZX5bemClE&fn=external_8"
+    },
+    {
+      "video_id": "1395917982281",
+      "title_raw": "50",
+      "duration_raw": "05:05",
+      "season_number": 1,
+      "episode_number": 50,
+      "views": 701,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995741641239&type=32&idx=1&tkn=NHZHytq1NODIlLdFCU84Wo5aM5Y&fn=external_8"
+    },
+    {
+      "video_id": "1395918047817",
+      "title_raw": "51",
+      "duration_raw": "05:05",
+      "season_number": 1,
+      "episode_number": 51,
+      "views": 762,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995746490903&type=32&idx=1&tkn=ZXZTr1wgTTvj8rb4td3-mxLDn9s&fn=external_8"
+    },
+    {
+      "video_id": "1395918178889",
+      "title_raw": "52",
+      "duration_raw": "05:04",
+      "season_number": 1,
+      "episode_number": 52,
+      "views": 907,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6995734301207&type=32&idx=9&tkn=eDd7VqWNZrO2CP3BXqOUcyFwC6c&fn=external_8"
+    }
+  ]
+}

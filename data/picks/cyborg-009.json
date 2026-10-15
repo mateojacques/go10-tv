@@ -1,0 +1,475 @@
+{
+  "title": "Cyborg 009",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c45572681 c2350665",
+  "year": "2001",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "720p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "10887272991305",
+      "title_raw": "Cy009 Ep 01",
+      "duration_raw": "23:31",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 772,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10163877644873&type=37&idx=10&tkn=nVFr-0FPK88QW05gh9JAkgWN_YE&fn=external_8"
+    },
+    {
+      "video_id": "10887274826313",
+      "title_raw": "Cy009 Ep 02",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 353,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10164321192521&type=37&idx=8&tkn=K59RNTdVrK7sQYGB_l4te9N0vvg&fn=external_8"
+    },
+    {
+      "video_id": "10887274170953",
+      "title_raw": "Cy009 Ep 03",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 294,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10164181535305&type=37&idx=1&tkn=1xsLOIBxmYOI8iEEGpgYamiBYEk&fn=external_8"
+    },
+    {
+      "video_id": "10887273253449",
+      "title_raw": "Cy009 Ep 04",
+      "duration_raw": "20:23",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 235,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10163962055241&type=37&idx=6&tkn=9btHPVLXeEL2nGH-beDlQCksxFQ&fn=external_8"
+    },
+    {
+      "video_id": "10887274629705",
+      "title_raw": "Cy009 Ep 05",
+      "duration_raw": "18:55",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 178,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10164258605641&type=37&idx=14&tkn=VVHFXMdvfKwuLEn-EmrFFelt5d8&fn=external_8"
+    },
+    {
+      "video_id": "10887274236489",
+      "title_raw": "Cy009 Ep 06",
+      "duration_raw": "20:33",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 201,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10164185926217&type=37&idx=14&tkn=32Pc7qwHMOGFyJhZQ1cPo4d-hdk&fn=external_8"
+    },
+    {
+      "video_id": "10887274564169",
+      "title_raw": "Cy009 Ep 07",
+      "duration_raw": "18:49",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 149,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10164254018121&type=37&idx=6&tkn=PPLRlPau5ezGCQ6BqlRYe7CwdmU&fn=external_8"
+    },
+    {
+      "video_id": "10887274105417",
+      "title_raw": "Cy009 Ep 08",
+      "duration_raw": "20:32",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 160,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10164147653193&type=37&idx=6&tkn=YSpQuba9STHM6JAcg5Ulpc12zcU&fn=external_8"
+    },
+    {
+      "video_id": "10887274433097",
+      "title_raw": "Cy009 Ep 09",
+      "duration_raw": "20:35",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 195,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10164249496137&type=37&idx=8&tkn=L9ClI9Zm2HGyyydiDic48VK46ls&fn=external_8"
+    },
+    {
+      "video_id": "10887274695241",
+      "title_raw": "Cy009 Ep 10",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 147,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10164273678921&type=37&idx=3&tkn=TQ_J9XuQrCrVru4ZZg0Jggl0gZc&fn=external_8"
+    },
+    {
+      "video_id": "10887273318985",
+      "title_raw": "Cy009 Ep 11",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 134,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10164005702217&type=37&idx=5&tkn=j_NWD6UNK1_YNl_NKHXTw6syjdA&fn=external_8"
+    },
+    {
+      "video_id": "10887274760777",
+      "title_raw": "Cy009 Ep 12",
+      "duration_raw": "23:30",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 148,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10164294388297&type=37&idx=11&tkn=vOgFLsfLRfWr_OSP1m3i4ryXV58&fn=external_8"
+    },
+    {
+      "video_id": "10887273908809",
+      "title_raw": "Cy009 Ep 13",
+      "duration_raw": "24:00",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 132,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10164138936905&type=37&idx=3&tkn=tGlrCXCHemJVMngeluwXSnfIwxw&fn=external_8"
+    },
+    {
+      "video_id": "10887273646665",
+      "title_raw": "Cy009 Ep 14",
+      "duration_raw": "22:59",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 141,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10164114819657&type=37&idx=2&tkn=5c4ujOMAhDCHWoHQN5zrXkiyBXs&fn=external_8"
+    },
+    {
+      "video_id": "10887274891849",
+      "title_raw": "Cy009 Ep 15",
+      "duration_raw": "24:00",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 149,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10164337052233&type=37&idx=1&tkn=pdgA5YPp5UPXUbpbmXUi1TWnIUI&fn=external_8"
+    },
+    {
+      "video_id": "10887273450057",
+      "title_raw": "Cy009 Ep 16",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 143,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10164053346889&type=37&idx=7&tkn=aNueCVI1LgBF467BfFEXcbUN01U&fn=external_8"
+    },
+    {
+      "video_id": "10887274302025",
+      "title_raw": "Cy009 Ep 17",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 128,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10164243794505&type=37&idx=4&tkn=5SeCdVQbibZbcDIFVdRw_tB41Fc&fn=external_8"
+    },
+    {
+      "video_id": "10887273122377",
+      "title_raw": "Cy009 Ep 18",
+      "duration_raw": "24:30",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 128,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10163944426057&type=37&idx=7&tkn=UQdsvZ4S9VElCfTIZQO62HVytBE&fn=external_8"
+    },
+    {
+      "video_id": "10888105429577",
+      "title_raw": "Cy009 Ep 19",
+      "duration_raw": "23:59",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 109,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10164942146121&type=37&idx=4&tkn=SkOkAa5XVAdPnkf_H_zPPZgFosc&fn=external_8"
+    },
+    {
+      "video_id": "10888105888329",
+      "title_raw": "Cy009 Ep 20",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 140,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10165455686217&type=37&idx=2&tkn=OV7rzTVbVJvEu2F_YVpng2oDxwQ&fn=external_8"
+    },
+    {
+      "video_id": "10888106084937",
+      "title_raw": "Cy009 Ep 21",
+      "duration_raw": "23:15",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 162,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10165687093833&type=37&idx=2&tkn=wR1Kp6nIMACbf5uwRAXJZ3kQ2fU&fn=external_8"
+    },
+    {
+      "video_id": "10888105495113",
+      "title_raw": "Cy009 Ep 22",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 119,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10165000997449&type=37&idx=5&tkn=MOmBw9B-CAWN4WPRm4ueqavFwvg&fn=external_8"
+    },
+    {
+      "video_id": "10888105560649",
+      "title_raw": "Cy009 Ep 23",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 144,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10165090388553&type=37&idx=8&tkn=2MyIO-DP16gUP_pN6rMHgYMxAlI&fn=external_8"
+    },
+    {
+      "video_id": "10888106019401",
+      "title_raw": "Cy009 Ep 24",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 122,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10165632764489&type=37&idx=4&tkn=wudJwviJW3Bgit_-ps-aRVpTKC0&fn=external_8"
+    },
+    {
+      "video_id": "10888106674761",
+      "title_raw": "Cy009 Ep 25",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 150,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10165947402825&type=37&idx=3&tkn=Gb6oSwqUWZG_TBNzZdTA9HroQHM&fn=external_8"
+    },
+    {
+      "video_id": "10888106871369",
+      "title_raw": "Cy009 Ep 26",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 134,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10166052063817&type=37&idx=15&tkn=gnKm-08Sh-UeDXV0OAX3fo9HDfA&fn=external_8"
+    },
+    {
+      "video_id": "10888106805833",
+      "title_raw": "Cy009 Ep 27",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 166,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10166011497033&type=37&idx=3&tkn=4Wq9Cef_6DH7WMI4Gmgg52vmaoY&fn=external_8"
+    },
+    {
+      "video_id": "10888106478153",
+      "title_raw": "Cy009 Ep 28",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 126,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10165870987849&type=37&idx=7&tkn=ZXAlclro8MbkKy69CZhxfHQmcCw&fn=external_8"
+    },
+    {
+      "video_id": "10888105626185",
+      "title_raw": "Cy009 Ep 29",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 136,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10165209074249&type=37&idx=2&tkn=8itA0156btlThTRXBcC2I-879uQ&fn=external_8"
+    },
+    {
+      "video_id": "10888105822793",
+      "title_raw": "Cy009 Ep 30",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 156,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10165382810185&type=37&idx=5&tkn=O_Fg7qXecKrgQF6PXKE0pmTD0w0&fn=external_8"
+    },
+    {
+      "video_id": "10888106609225",
+      "title_raw": "Cy009 Ep 31",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 145,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10165921843785&type=37&idx=10&tkn=jIZIhH1dspi18abGHwjGEl7WolQ&fn=external_8"
+    },
+    {
+      "video_id": "10888106216009",
+      "title_raw": "Cy009 Ep 32",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 142,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10165750139465&type=37&idx=14&tkn=9Qu7GuZPkRpUFMTjjKwf8308-rA&fn=external_8"
+    },
+    {
+      "video_id": "10888106740297",
+      "title_raw": "Cy009 Ep 33",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 151,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10165979974217&type=37&idx=4&tkn=7-Kpt_jtSRpZCMnfPA_xtr0PdS4&fn=external_8"
+    },
+    {
+      "video_id": "10888105953865",
+      "title_raw": "Cy009 Ep 34",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 130,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10165550058057&type=37&idx=5&tkn=Q8VvLfh28Cxj3demxpyXRNAvn_k&fn=external_8"
+    },
+    {
+      "video_id": "10888105757257",
+      "title_raw": "Cy009 Ep 35",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 137,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10165303839305&type=37&idx=13&tkn=9Ebsj589k0y4wjphwsAPsM6OCyA&fn=external_8"
+    },
+    {
+      "video_id": "10888106347081",
+      "title_raw": "Cy009 Ep 36",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 134,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10165797718601&type=37&idx=7&tkn=bOt8PlRaEOmsP1K6NhhrWC9SEks&fn=external_8"
+    },
+    {
+      "video_id": "10889488697929",
+      "title_raw": "Cy009 Ep 37",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 261,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10166978480713&type=37&idx=8&tkn=OxMJXze-nluGMzpw9uKc7nCmtWA&fn=external_8"
+    },
+    {
+      "video_id": "10889488173641",
+      "title_raw": "Cy009 Ep 38",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 147,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10166947023433&type=37&idx=1&tkn=iGtictMjwzHmAK6QH1FXP0G2OMs&fn=external_8"
+    },
+    {
+      "video_id": "10889488239177",
+      "title_raw": "Cy009 Ep 39",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 145,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10166949317193&type=37&idx=3&tkn=6HUFVpKRYDAMAIeB5Q2gy_R_GvE&fn=external_8"
+    },
+    {
+      "video_id": "10889488304713",
+      "title_raw": "Cy009 Ep 40",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 163,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10166951807561&type=37&idx=11&tkn=I_AnIO9zeDCmTEo9ceB8hQLIqyA&fn=external_8"
+    },
+    {
+      "video_id": "10889488566857",
+      "title_raw": "Cy009 Ep 41",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 150,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10166970747465&type=37&idx=2&tkn=nD4IjzTjuFV3kFZlFSheP-RQNmw&fn=external_8"
+    },
+    {
+      "video_id": "10889488632393",
+      "title_raw": "Cy009 Ep 42",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 200,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10166975138377&type=37&idx=2&tkn=Y3DnLmk_KJfSLt9myV5KIRV-NRk&fn=external_8"
+    },
+    {
+      "video_id": "10889488829001",
+      "title_raw": "Cy009 Ep 43",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 158,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10166985493065&type=37&idx=8&tkn=S8l5K_hjlX8R0WyKNlKJb3NfRNA&fn=external_8"
+    },
+    {
+      "video_id": "10889488763465",
+      "title_raw": "Cy009 Ep 44",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 44,
+      "views": 283,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10166982806089&type=37&idx=7&tkn=p7WTyPuPouMSTzyhbhfNeCbGsoI&fn=external_8"
+    },
+    {
+      "video_id": "10889489091145",
+      "title_raw": "Cy009 Ep 45",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 177,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10166994340425&type=37&idx=14&tkn=SXQ_Dez4tG2b4qvgszqDVqtl1Po&fn=external_8"
+    },
+    {
+      "video_id": "10889488960073",
+      "title_raw": "Cy009 Ep 46",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 46,
+      "views": 166,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10166990998089&type=37&idx=9&tkn=6cbRBtygCu72E49KqAuQlhW1FvE&fn=external_8"
+    },
+    {
+      "video_id": "10889488370249",
+      "title_raw": "Cy009 Ep 47",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 47,
+      "views": 146,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10166956198473&type=37&idx=6&tkn=IMH3OpxdDy9kj302WC2__UJ6jfY&fn=external_8"
+    },
+    {
+      "video_id": "10889488435785",
+      "title_raw": "Cy009 Ep 48",
+      "duration_raw": "24:06",
+      "season_number": 1,
+      "episode_number": 48,
+      "views": 175,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10166960196169&type=37&idx=4&tkn=g_EhPCrpKAf2_S1eEvSFBd0JzmU&fn=external_8"
+    },
+    {
+      "video_id": "10889488894537",
+      "title_raw": "Cy009 Ep 49",
+      "duration_raw": "24:04",
+      "season_number": 1,
+      "episode_number": 49,
+      "views": 168,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10166988376649&type=37&idx=15&tkn=j7Xqo23gNj7t-kt-wBiVTKsYBTU&fn=external_8"
+    },
+    {
+      "video_id": "10889488501321",
+      "title_raw": "Cy009 Ep 50",
+      "duration_raw": "24:04",
+      "season_number": 1,
+      "episode_number": 50,
+      "views": 191,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10166965897801&type=37&idx=4&tkn=UR9YRtlV_DOMuPRuraULCijbZmM&fn=external_8"
+    },
+    {
+      "video_id": "10889489025609",
+      "title_raw": "Cy009 Ep 51",
+      "duration_raw": "23:34",
+      "season_number": 1,
+      "episode_number": 51,
+      "views": 300,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10166992570953&type=37&idx=14&tkn=dCKbTcch3wJmyNbgCM4W6_cw-cE&fn=external_8"
+    }
+  ]
+}

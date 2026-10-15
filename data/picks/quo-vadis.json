@@ -1,0 +1,133 @@
+{
+  "title": "Quo Vadis",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c13103689",
+  "year": "",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "5099899325001",
+      "title_raw": "001 Quo Vadis-En Nombre de Jesús",
+      "duration_raw": "25:26",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 160,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4235157441097&type=32&idx=12&tkn=Fw-Ke5xjakaR5nM9mllpNHaszq0&fn=external_8"
+    },
+    {
+      "video_id": "5099899521609",
+      "title_raw": "002 Quo Vadis-En Nombre de Jesús",
+      "duration_raw": "25:21",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 208,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4235204758089&type=32&idx=12&tkn=02K_H_XLpogSeONmK9IHIR2qNmI&fn=external_8"
+    },
+    {
+      "video_id": "5099899456073",
+      "title_raw": "003 Quo Vadis-En Nombre de Jesús",
+      "duration_raw": "25:25",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 140,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4235190078025&type=32&idx=2&tkn=4zn9Iok9AdHwyDjQZ4_SL3mb08E&fn=external_8"
+    },
+    {
+      "video_id": "5099899390537",
+      "title_raw": "004 Quo Vadis-En Nombre de Jesús",
+      "duration_raw": "25:25",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 155,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4235172579913&type=32&idx=14&tkn=sWZ0JxJaxMCkR58lasmaFi9-spQ&fn=external_8"
+    },
+    {
+      "video_id": "5099900373577",
+      "title_raw": "005 Quo Vadis-En Nombre de Jesús",
+      "duration_raw": "25:24",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 251,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4235351558729&type=32&idx=8&tkn=InrJECsEdIS1b_gBKeTulHjzsvA&fn=external_8"
+    },
+    {
+      "video_id": "5099900308041",
+      "title_raw": "006 Quo Vadis-En Nombre de Jesús",
+      "duration_raw": "25:30",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 193,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4235332684361&type=32&idx=12&tkn=XDKtX5tRK1Ydklw9VFkQRtW2pbU&fn=external_8"
+    },
+    {
+      "video_id": "5099900176969",
+      "title_raw": "007 Quo Vadis-En Nombre de Jesús",
+      "duration_raw": "26:51",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 173,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4235315841609&type=32&idx=10&tkn=FI-eNVQd8tlPHLwm0RYkDQg7hVA&fn=external_8"
+    },
+    {
+      "video_id": "5099899914825",
+      "title_raw": "008 Quo Vadis-En Nombre de Jesús",
+      "duration_raw": "25:15",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 203,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4235252468297&type=32&idx=1&tkn=R3ghrgAXtGFmRdqTaOnzCEIuFTs&fn=external_8"
+    },
+    {
+      "video_id": "5099899849289",
+      "title_raw": "009 Quo Vadis-En Nombre de Jesús",
+      "duration_raw": "25:24",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 139,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4235234773577&type=32&idx=4&tkn=EuPiB7zJAggzTxeqxx3hrnJM4aw&fn=external_8"
+    },
+    {
+      "video_id": "5099900111433",
+      "title_raw": "010 Quo Vadis-En Nombre de Jesús",
+      "duration_raw": "26:06",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 187,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4235298343497&type=32&idx=2&tkn=M7aD9e_DfJGWNnT8y7WFXqAV9aY&fn=external_8"
+    },
+    {
+      "video_id": "5099900045897",
+      "title_raw": "011 Quo Vadis-En Nombre de Jesús",
+      "duration_raw": "25:31",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 238,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4235282614857&type=32&idx=9&tkn=XplQkeQCCbALyf7of4lJ4hXZBig&fn=external_8"
+    },
+    {
+      "video_id": "5099899652681",
+      "title_raw": "012 Quo Vadis-En Nombre de Jesús",
+      "duration_raw": "25:10",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 141,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4235220224585&type=32&idx=12&tkn=rvF0nvARD_8asKnIXHC021f3b8o&fn=external_8"
+    },
+    {
+      "video_id": "5099899980361",
+      "title_raw": "013 Quo Vadis-En Nombre de Jesús",
+      "duration_raw": "25:13",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 174,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4235265575497&type=32&idx=10&tkn=d82clyC5rI8K6V0H301piAmfmL4&fn=external_8"
+    }
+  ]
+}

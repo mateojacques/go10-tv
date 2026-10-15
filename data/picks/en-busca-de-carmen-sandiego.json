@@ -1,0 +1,376 @@
+{
+  "title": "En Busca de Carmen Sandiego",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2151753",
+  "year": "1994",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Aventura",
+  "videos": [
+    {
+      "video_id": "1341844359753",
+      "title_raw": "01x01 - La sonrisa robada",
+      "duration_raw": "20:49",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 16459,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580552624713&type=32&idx=7&tkn=rTX8VcRcgegi4kZKHIiv1-G86pE&fn=external_8"
+    },
+    {
+      "video_id": "1341844228681",
+      "title_raw": "01x02 - La llamada del espacio",
+      "duration_raw": "20:43",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 4149,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580550068809&type=32&idx=5&tkn=LgAXRlcbIFDByVGftJOQKbwn1pg&fn=external_8"
+    },
+    {
+      "video_id": "1341845801545",
+      "title_raw": "01x03 - Obsesión por los dinosaurios",
+      "duration_raw": "20:52",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1625,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580584344137&type=32&idx=7&tkn=k6Td8DO5HvdsbaQdIZiCyA-oePI&fn=external_8"
+    },
+    {
+      "video_id": "1341846194761",
+      "title_raw": "01x04 - Sueños de la Luna",
+      "duration_raw": "20:15",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1333,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580593912393&type=32&idx=4&tkn=JB_5Hw1CJ_zQOd0bk8sWrv8-6Uw&fn=external_8"
+    },
+    {
+      "video_id": "1341846063689",
+      "title_raw": "01x05 - Por Unos Gatitos",
+      "duration_raw": "21:04",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1057,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580591422025&type=32&idx=6&tkn=HGaoZoV20fgdVdQdsFId7JPjO08&fn=external_8"
+    },
+    {
+      "video_id": "1341844949577",
+      "title_raw": "01x06 - Los buenos viejos malos tiempos",
+      "duration_raw": "20:44",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 864,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580566256201&type=32&idx=10&tkn=2suEBos-ekOkMMyNtn9RMkF6LgA&fn=external_8"
+    },
+    {
+      "video_id": "1341845867081",
+      "title_raw": "01x07 - Las reglas del juego",
+      "duration_raw": "20:43",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 825,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580585917001&type=32&idx=12&tkn=MEkpGC3d71nAQk1uFP5Vk8TXJwo&fn=external_8"
+    },
+    {
+      "video_id": "1341844163145",
+      "title_raw": "01x08  - Información detallada",
+      "duration_raw": "20:50",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 632,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580548627017&type=32&idx=10&tkn=qaWaTy2a_59jERvfLMkz9jDBGKo&fn=external_8"
+    },
+    {
+      "video_id": "1341843901001",
+      "title_raw": "01x09 - Música para mis oídos",
+      "duration_raw": "20:22",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 549,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580543449673&type=32&idx=11&tkn=-I6E4AOYJ1tdMJx5R8h6ngTHFJA&fn=external_8"
+    },
+    {
+      "video_id": "1341845539401",
+      "title_raw": "01x10 - Lo importante es actuar",
+      "duration_raw": "19:48",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 553,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580577659465&type=32&idx=12&tkn=gelYjsnm60aXeqhB78jTMdOpgTQ&fn=external_8"
+    },
+    {
+      "video_id": "1341845998153",
+      "title_raw": "01x11- La separación",
+      "duration_raw": "20:48",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 770,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580589521481&type=32&idx=2&tkn=-NGGdmhSTb1BM8-I4KmxPrG7V4M&fn=external_8"
+    },
+    {
+      "video_id": "1341845670473",
+      "title_raw": "01x12 - Una cita con Carmen - Parte 1",
+      "duration_raw": "20:14",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 617,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580582050377&type=32&idx=10&tkn=leEfzWFGIuIGKVnP20BCDb2krII&fn=external_8"
+    },
+    {
+      "video_id": "1341845604937",
+      "title_raw": "01x13 -  Una cita con Carmen - Parte 2",
+      "duration_raw": "20:17",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 515,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580579494473&type=32&idx=10&tkn=cww3GStaiFF1FAIzzK9zMcqWQcA&fn=external_8"
+    },
+    {
+      "video_id": "1341845932617",
+      "title_raw": "02x01 - Calavera y doble tibias cruzadas",
+      "duration_raw": "20:34",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 704,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580587686473&type=32&idx=4&tkn=qHv_eyBg0bgIWIw9-2sYwUHA6T0&fn=external_8"
+    },
+    {
+      "video_id": "1341844294217",
+      "title_raw": "02x02 - Hielo caliente",
+      "duration_raw": "20:33",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 1010,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580550855241&type=32&idx=0&tkn=muSb-oJbv4IbcGYBXZw1rBk54RA&fn=external_8"
+    },
+    {
+      "video_id": "1341844556361",
+      "title_raw": "02x03  - Todos para uno",
+      "duration_raw": "20:49",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 642,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580557670985&type=32&idx=8&tkn=fqKUvqYGtjHhZHeVcDT2i6zA8rA&fn=external_8"
+    },
+    {
+      "video_id": "1341843769929",
+      "title_raw": "02x04 - Scavenger Hunt",
+      "duration_raw": "20:56",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 483,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580540041801&type=32&idx=14&tkn=sAZCofModTinnJzxVZuV0blEMSw&fn=external_8"
+    },
+    {
+      "video_id": "1341845408329",
+      "title_raw": "02x05 - Cuando llueve",
+      "duration_raw": "20:57",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 463,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580574382665&type=32&idx=6&tkn=-Dyz_swf_sxmOdcvQeADzxbNs5g&fn=external_8"
+    },
+    {
+      "video_id": "1341845146185",
+      "title_raw": "02x06 - Deja Vu",
+      "duration_raw": "20:58",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 402,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580569926217&type=32&idx=4&tkn=kcvQ3reiugairdVDN7DEXQP790Q&fn=external_8"
+    },
+    {
+      "video_id": "1341844621897",
+      "title_raw": "02x07 - Fin de la adolescencia - Parte 1",
+      "duration_raw": "20:55",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 468,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580558850633&type=32&idx=7&tkn=7KCfz7nDk84IyuM_1KqBx6OseKo&fn=external_8"
+    },
+    {
+      "video_id": "1341845015113",
+      "title_raw": "02x08 - Fin de la adolescencia - Parte 2",
+      "duration_raw": "20:58",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 419,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580567239241&type=32&idx=4&tkn=3-mL_UZgrgB26fSYDzTZSb8ee_M&fn=external_8"
+    },
+    {
+      "video_id": "1341844032073",
+      "title_raw": "03x01 - La Tigresa",
+      "duration_raw": "20:48",
+      "season_number": 3,
+      "episode_number": 1,
+      "views": 508,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580545022537&type=32&idx=6&tkn=NNdnuiWx1XFfH8nL4rmJLZ3fJ1c&fn=external_8"
+    },
+    {
+      "video_id": "1341844687433",
+      "title_raw": "03x02 - Recuerdos",
+      "duration_raw": "20:22",
+      "season_number": 3,
+      "episode_number": 2,
+      "views": 396,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580560751177&type=32&idx=7&tkn=0ZN8JayRxtNeon84ZH1kx0jDNkg&fn=external_8"
+    },
+    {
+      "video_id": "1341845342793",
+      "title_raw": "03x03 - Laberinto, Parte 1",
+      "duration_raw": "19:48",
+      "season_number": 3,
+      "episode_number": 3,
+      "views": 408,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580572678729&type=32&idx=8&tkn=eEJ3306CmhT__h7sKaDg1ZLe5bc&fn=external_8"
+    },
+    {
+      "video_id": "1341845277257",
+      "title_raw": "03x04 - Laberinto, Parte 2",
+      "duration_raw": "20:17",
+      "season_number": 3,
+      "episode_number": 4,
+      "views": 332,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580571368009&type=32&idx=11&tkn=_w9Ak5AK1YIsH3VWTSohNnohK8U&fn=external_8"
+    },
+    {
+      "video_id": "1341843835465",
+      "title_raw": "03x05 - Laberinto, Parte 3",
+      "duration_raw": "20:48",
+      "season_number": 3,
+      "episode_number": 5,
+      "views": 348,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580541745737&type=32&idx=9&tkn=6Jb-AKLmB1YjkKpFSsdM53zOJmI&fn=external_8"
+    },
+    {
+      "video_id": "1341845473865",
+      "title_raw": "03x06 - Aves de un plumaje",
+      "duration_raw": "20:53",
+      "season_number": 3,
+      "episode_number": 6,
+      "views": 363,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580575627849&type=32&idx=11&tkn=6Slw6z0DCafm7XMEaFkacDEfblk&fn=external_8"
+    },
+    {
+      "video_id": "1341843966537",
+      "title_raw": "03x07 - Espíritus de chamán",
+      "duration_raw": "20:51",
+      "season_number": 3,
+      "episode_number": 7,
+      "views": 620,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580544367177&type=32&idx=2&tkn=V4Hu7OQkxlaMAdz3G2EdKGWtEhc&fn=external_8"
+    },
+    {
+      "video_id": "1341844752969",
+      "title_raw": "03x08 - Espíritus de chamán",
+      "duration_raw": "20:53",
+      "season_number": 3,
+      "episode_number": 8,
+      "views": 339,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580561865289&type=32&idx=11&tkn=xv1kkQSOzVsz0D10_-SNg9iTG6E&fn=external_8"
+    },
+    {
+      "video_id": "1341844490825",
+      "title_raw": "03x09 - Las maldiciones actúan de nuevo",
+      "duration_raw": "20:48",
+      "season_number": 3,
+      "episode_number": 9,
+      "views": 375,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580556294729&type=32&idx=2&tkn=g112kAMU3KY765ww1t2KYYnhcaE&fn=external_8"
+    },
+    {
+      "video_id": "1341844425289",
+      "title_raw": "03x10 - Como en los viejos tiempos",
+      "duration_raw": "21:20",
+      "season_number": 3,
+      "episode_number": 10,
+      "views": 378,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580554394185&type=32&idx=13&tkn=BQzWvYbo3_UmmUJS5HxD3TLEAaM&fn=external_8"
+    },
+    {
+      "video_id": "1341845080649",
+      "title_raw": "En busca de Carmen Sandiego 4x01 - El juicio de Carmen Sandiego",
+      "duration_raw": "20:11",
+      "season_number": 4,
+      "episode_number": 1,
+      "views": 743,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580568549961&type=32&idx=1&tkn=uWMLMuyHR93b7OnWG9uq8eeZRug&fn=external_8"
+    },
+    {
+      "video_id": "1341843638857",
+      "title_raw": "En busca de Carmen Sandiego 4x02 - Truco o Trato",
+      "duration_raw": "20:48",
+      "season_number": 4,
+      "episode_number": 2,
+      "views": 356,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580537420361&type=32&idx=4&tkn=tQeRLloWUbuC63HI3iY7kU5nG6I&fn=external_8"
+    },
+    {
+      "video_id": "1341844097609",
+      "title_raw": "En busca de Carmen Sandiego 4x03 - Carmen Sandiego, la insumergible (La venganza, primera parte)",
+      "duration_raw": "20:50",
+      "season_number": 4,
+      "episode_number": 3,
+      "views": 356,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580546660937&type=32&idx=12&tkn=BJYfTn-TOPgS7Uk3D5Y-q71CHlg&fn=external_8"
+    },
+    {
+      "video_id": "1341846260297",
+      "title_raw": "En busca de Carmen Sandiego 4x04 - El funera -l La venganza - segunda parte",
+      "duration_raw": "20:10",
+      "season_number": 4,
+      "episode_number": 4,
+      "views": 353,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580595157577&type=32&idx=11&tkn=qM6AP2nnvTtgRKP8zl9mBN86fOk&fn=external_8"
+    },
+    {
+      "video_id": "1341843573321",
+      "title_raw": "En busca de Carmen Sandiego 4x05 - La venganza de Maelstrom - La venganza - tercera parte",
+      "duration_raw": "20:30",
+      "season_number": 4,
+      "episode_number": 5,
+      "views": 338,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580536371785&type=32&idx=4&tkn=jdLkDJyaB4prdcjU6c5KtTt-6SM&fn=external_8"
+    },
+    {
+      "video_id": "1341843704393",
+      "title_raw": "En busca de Carmen Sandiego 4x06 - El tiempo es oro",
+      "duration_raw": "20:09",
+      "season_number": 4,
+      "episode_number": 6,
+      "views": 297,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580538403401&type=32&idx=3&tkn=qr4_xBovKrMYUEUBN5a8HIxm_0U&fn=external_8"
+    },
+    {
+      "video_id": "1341844818505",
+      "title_raw": "En busca de Carmen Sandiego 4x07 - Cupido Sandiego",
+      "duration_raw": "20:09",
+      "season_number": 4,
+      "episode_number": 7,
+      "views": 340,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580563372617&type=32&idx=0&tkn=dWru-AqApVZnXZvSj20EAZqXYso&fn=external_8"
+    },
+    {
+      "video_id": "1341844884041",
+      "title_raw": "En busca de Carmen Sandiego 4x08 - Podras volver a casa algun dia - primera parte",
+      "duration_raw": "20:43",
+      "season_number": 4,
+      "episode_number": 8,
+      "views": 446,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580564879945&type=32&idx=4&tkn=ZEQSrgF8JYiGprUc0xb9ys4WOtU&fn=external_8"
+    },
+    {
+      "video_id": "1341846129225",
+      "title_raw": "En busca de Carmen Sandiego 4x09 - Podras volver a casa algun dia, segunda parte",
+      "duration_raw": "20:05",
+      "season_number": 4,
+      "episode_number": 9,
+      "views": 964,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=580592732745&type=32&idx=5&tkn=JIh6EB8TWGEi-8ey4wwlva1CSbc&fn=external_8"
+    }
+  ]
+}

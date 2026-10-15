@@ -1,0 +1,34 @@
+{
+  "title": "Dragon Ball GT",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2257737",
+  "year": "1996",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "1419482237513",
+      "title_raw": "DBGT Remast By Themanking - 10 - El Baile Bon-pa-ppa_x264",
+      "duration_raw": "20:44",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 16035,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=601251973705&type=32&idx=5&tkn=isoTEZwzxQZIr7ONPtdWWz4s9qA&fn=external_8"
+    },
+    {
+      "video_id": "1415954827849",
+      "title_raw": "DBGT Remast By Themanking - 22 - El Maligno Bebi_x264",
+      "duration_raw": "20:44",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 17700,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=599629433417&type=32&idx=0&tkn=I_lO8YBRKauXwzicJOU9UGq8MTc&fn=external_8"
+    }
+  ]
+}

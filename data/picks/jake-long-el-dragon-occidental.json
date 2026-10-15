@@ -1,0 +1,475 @@
+{
+  "title": "Jake Long: El Dragón Occidental",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c3014985",
+  "year": "2005",
+  "studio": "Disney",
+  "source": "lacartoons Oficial",
+  "quality": "360p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Aventura",
+  "videos": [
+    {
+      "video_id": "1738414295625",
+      "title_raw": "1x01.Entrenamiento.a.la.antigua",
+      "duration_raw": "22:13",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 82389,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3338680208018&type=37&idx=9&tkn=X8OFEZI7x5zAVedSEpizzMGVTV4&fn=external_8"
+    },
+    {
+      "video_id": "1738415344201",
+      "title_raw": "1x02.El.Cambiaformas",
+      "duration_raw": "22:13",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 31336,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3338517088914&type=37&idx=11&tkn=u4HpxnpGAt81FR0MGMwZViol5jo&fn=external_8"
+    },
+    {
+      "video_id": "1738415737417",
+      "title_raw": "1x03.Aliento.de.dragon",
+      "duration_raw": "22:11",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 22435,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3338413738642&type=37&idx=9&tkn=T9BD86oRb4IuNEP0GauBJi3_9uI&fn=external_8"
+    },
+    {
+      "video_id": "1738417048137",
+      "title_raw": "1x04.La.aventura.de.ubicar.a.un.troll & Perro.Fu.da.un.paseo",
+      "duration_raw": "21:52",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 18723,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3338108930706&type=37&idx=0&tkn=StA0Aokj9QJawr-zxRjbnvAK9i8&fn=external_8"
+    },
+    {
+      "video_id": "1738415999561",
+      "title_raw": "1x05.La.leyenda.del.diente.de.dragon",
+      "duration_raw": "22:24",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 17316,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3338065218194&type=37&idx=3&tkn=NhqbmYmP57itBNXmVDX_ysbqxcc&fn=external_8"
+    },
+    {
+      "video_id": "1738416982601",
+      "title_raw": "1x06.Trabajo de guardaespaldas",
+      "duration_raw": "22:08",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 16833,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3338017442450&type=37&idx=6&tkn=QnWiWKqlSKUi6MUK11bmkaqcLVw&fn=external_8"
+    },
+    {
+      "video_id": "1738415606345",
+      "title_raw": "1x07.El talentoso Sr. Long",
+      "duration_raw": "22:09",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 15653,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3337961605778&type=37&idx=9&tkn=_kMKww7rC02VtTkT5YbXfL0bbVU&fn=external_8"
+    },
+    {
+      "video_id": "1738415213129",
+      "title_raw": "1x08.Acto 4, Escena 15",
+      "duration_raw": "22:13",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 13447,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3337917368978&type=37&idx=1&tkn=2znkybCrb6Wf_HbaJkFXP7Gh63I&fn=external_8"
+    },
+    {
+      "video_id": "1738416851529",
+      "title_raw": "1x09.La tesis del profesor Rotwood",
+      "duration_raw": "22:19",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 14250,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3337874246290&type=37&idx=2&tkn=ZEv3-Gl1K6Ugc-pWBj4HxewHO84&fn=external_8"
+    },
+    {
+      "video_id": "1738416065097",
+      "title_raw": "1x10.El huevo.El robo",
+      "duration_raw": "22:03",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 14051,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3337828567698&type=37&idx=3&tkn=RAcHCWYKBm0WNBtX6L5qjN92mXU&fn=external_8"
+    },
+    {
+      "video_id": "1738415934025",
+      "title_raw": "1x11.Cumbre Dragon",
+      "duration_raw": "22:03",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 13521,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3337784527506&type=37&idx=15&tkn=xwcL2ktx9HR3u0-2OqTXZ261n-4&fn=external_8"
+    },
+    {
+      "video_id": "1738416523849",
+      "title_raw": "1x12.El fin de semana de los Long Invictus",
+      "duration_raw": "21:50",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 13524,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3337723447954&type=37&idx=6&tkn=oubMu25bjWjCtRfyOXg2FfDQpn8&fn=external_8"
+    },
+    {
+      "video_id": "1738416327241",
+      "title_raw": "1x13.Fu y cuenta.El vuelo del unicornio Invictus",
+      "duration_raw": "22:01",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 12884,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3337670363794&type=37&idx=0&tkn=SDwJvdpWs1DI6skytVISuwdL4SM&fn=external_8"
+    },
+    {
+      "video_id": "1738415802953",
+      "title_raw": "1x14.El ojo del observador Invictus",
+      "duration_raw": "22:13",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 11761,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3337607252626&type=37&idx=2&tkn=5udi3pz5lIzvqeS0llerwhZuUDE&fn=external_8"
+    },
+    {
+      "video_id": "1738416589385",
+      "title_raw": "1x15.El viaje de esqui Invictus",
+      "duration_raw": "22:13",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 11932,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3337562360466&type=37&idx=1&tkn=FC4OvxVEVBkoY8q6yb8dG7JDFhU&fn=external_8"
+    },
+    {
+      "video_id": "1738416720457",
+      "title_raw": "1x16.Jake recoge el pastel Invictus",
+      "duration_raw": "22:11",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 11176,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3337491778194&type=37&idx=10&tkn=wjiCpQDi6cZ5mdu6Fy4KYNGD9Cw&fn=external_8"
+    },
+    {
+      "video_id": "1738415475273",
+      "title_raw": "1x17.Cuadrilatero alrededor del dragon",
+      "duration_raw": "22:03",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 11161,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3337444723346&type=37&idx=7&tkn=CpX4KfjlmfU5zGnO40TTyg1Zf1g&fn=external_8"
+    },
+    {
+      "video_id": "1738415671881",
+      "title_raw": "1x18.La fiesta de noche de brujas",
+      "duration_raw": "22:12",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 11386,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3337395571346&type=37&idx=8&tkn=5A7dsSvy799Uow_NaACGVYXg9O4&fn=external_8"
+    },
+    {
+      "video_id": "1738416785993",
+      "title_raw": "1x19.Cuidando la tienda",
+      "duration_raw": "22:20",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 10136,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3337135065746&type=37&idx=6&tkn=QxddL6F19LGAyET6qwbuyCzBZGw&fn=external_8"
+    },
+    {
+      "video_id": "1738415868489",
+      "title_raw": "1x20.Cazado",
+      "duration_raw": "22:16",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 12680,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3337072741010&type=37&idx=2&tkn=LFL-HRwZZpmG3Vi4elxI9Pjzf7s&fn=external_8"
+    },
+    {
+      "video_id": "1738414623305",
+      "title_raw": "1x21.Noches de Hong Kong",
+      "duration_raw": "22:11",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 11689,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3336945470098&type=37&idx=5&tkn=rLlaavhdT7LFY4Dqpj5DTxR_IPM&fn=external_8"
+    },
+    {
+      "video_id": "1738414950985",
+      "title_raw": "2x01.Medio horneado",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 13575,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3323493026450&type=32&idx=2&tkn=Fa6HUep4Y2jEO-lmOKMDtf-mUYY&fn=external_8"
+    },
+    {
+      "video_id": "1738416917065",
+      "title_raw": "2x02.Heroe del eucrono",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 10108,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3323479067282&type=32&idx=6&tkn=FSL9S4eQiNr29dnnwiSiP9rh9m0&fn=external_8"
+    },
+    {
+      "video_id": "1738416196169",
+      "title_raw": "2x03.Ponlo en",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 11352,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3323458947730&type=32&idx=2&tkn=_pVZk4-vRfM8gjpwMIs6EAWlmJ8&fn=external_8"
+    },
+    {
+      "video_id": "1738414557769",
+      "title_raw": "2x04.La academia",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 13643,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3323445381778&type=32&idx=1&tkn=H2FwntVep0y9AJI89FEJRHQemgM&fn=external_8"
+    },
+    {
+      "video_id": "1738416654921",
+      "title_raw": "2x05.Negocio familiar",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 10154,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3323430308498&type=32&idx=10&tkn=oeLm1opiWTWwEG2Eo_YTAICa76Q&fn=external_8"
+    },
+    {
+      "video_id": "1738416392777",
+      "title_raw": "2x06.Se viene algo escamoso",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 10291,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3323413531282&type=32&idx=2&tkn=Z4TdQhuSxMWhI3WMRwSJMHRLr5U&fn=external_8"
+    },
+    {
+      "video_id": "1738415278665",
+      "title_raw": "2x07.Navidad peluda",
+      "duration_raw": "22:21",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 8882,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3323397474962&type=32&idx=4&tkn=cBgaIFPkhPXgx6x05irKMtkjXaQ&fn=external_8"
+    },
+    {
+      "video_id": "1738415016521",
+      "title_raw": "2x08.A escondidas",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 9004,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3323381549714&type=32&idx=15&tkn=mh2A2gIkoEsTXcd-qVE8HmDvrBE&fn=external_8"
+    },
+    {
+      "video_id": "1738414426697",
+      "title_raw": "2x09.La pesadilla de dobles",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 9380,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3323364575890&type=32&idx=12&tkn=MVRy_TPY3lzHdnV7yC9EvRm0g08&fn=external_8"
+    },
+    {
+      "video_id": "1738414754377",
+      "title_raw": "2x10.Sueñoscape",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 8834,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3323348781714&type=32&idx=2&tkn=YAcommdzKAGmdveMe7prALGxrws&fn=external_8"
+    },
+    {
+      "video_id": "1738414492233",
+      "title_raw": "2x11.El oro del tonto",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 7479,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3323333511826&type=32&idx=6&tkn=d5xvGcjJL-AXTOekcbQcQCO3ZlM&fn=external_8"
+    },
+    {
+      "video_id": "1738414688841",
+      "title_raw": "2x12.El crucero del amor",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 8568,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3323317848722&type=32&idx=2&tkn=jY0_ra4rnvjtrDAQOqktvGExaQU&fn=external_8"
+    },
+    {
+      "video_id": "1738414885449",
+      "title_raw": "2x13.Alimentando a frenesi",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 7607,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3323299170962&type=32&idx=6&tkn=d0u0F0nGOm02OcxJb7c4CL0qenU&fn=external_8"
+    },
+    {
+      "video_id": "1738417113673",
+      "title_raw": "2x14.Una mente confundida",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 14,
+      "views": 8395,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3323282721426&type=32&idx=4&tkn=FxEDuJ1pd9osqjtTndJOL1a63eE&fn=external_8"
+    },
+    {
+      "video_id": "1738414361161",
+      "title_raw": "2x15.Los expedientes de Rotwood",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 15,
+      "views": 7843,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3323189529234&type=32&idx=9&tkn=MS7P4Rs6iI7cR7SAwp2YsDYHSNE&fn=external_8"
+    },
+    {
+      "video_id": "1738416458313",
+      "title_raw": "2x16.Haley se revela",
+      "duration_raw": "22:08",
+      "season_number": 2,
+      "episode_number": 16,
+      "views": 8107,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3323174652562&type=32&idx=5&tkn=dAIHBHyZ11mW_KJcUj2C0RENEZQ&fn=external_8"
+    },
+    {
+      "video_id": "1738415540809",
+      "title_raw": "2x17.Un cambio inesperado",
+      "duration_raw": "22:33",
+      "season_number": 2,
+      "episode_number": 17,
+      "views": 7775,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3323155057298&type=32&idx=15&tkn=dorJYPC9WzMeb0jQVPAHxeZiw8c&fn=external_8"
+    },
+    {
+      "video_id": "1738415409737",
+      "title_raw": "2x18.La fiesta de bienvenida",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 18,
+      "views": 9096,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3323137493650&type=32&idx=2&tkn=rxQOEB2MDjz9LNGXIObkIs0nomk&fn=external_8"
+    },
+    {
+      "video_id": "1738415082057",
+      "title_raw": "2x19.Una historia de fantasmas",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 19,
+      "views": 7129,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3323117636242&type=32&idx=2&tkn=RwSLR84b5qe7wXZrNNwuC1Z3smw&fn=external_8"
+    },
+    {
+      "video_id": "1738416261705",
+      "title_raw": "2x20.Joven de corazon",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 20,
+      "views": 7996,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3323100203666&type=32&idx=13&tkn=nTHqdYJm5rRDIGvLhSo9kUyIag0&fn=external_8"
+    },
+    {
+      "video_id": "1738416130633",
+      "title_raw": "2x21.Martes supernatural",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 21,
+      "views": 6865,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3323083033234&type=32&idx=5&tkn=UzpFf8QwK_B7djCQQ1XWYfFPx0o&fn=external_8"
+    },
+    {
+      "video_id": "1738414819913",
+      "title_raw": "2x22.La sirena dice",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 22,
+      "views": 7834,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3323066518162&type=32&idx=2&tkn=j5NRb6Lv556E3WT_SokHVEhM6Ms&fn=external_8"
+    },
+    {
+      "video_id": "1738415147593",
+      "title_raw": "2x23.La rana desgreada",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 23,
+      "views": 6045,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3323050134162&type=32&idx=10&tkn=IRU58bkDS1i_7e29HyTel3lzk2U&fn=external_8"
+    },
+    {
+      "video_id": "1738492349001",
+      "title_raw": "2x24.El año de Jake",
+      "duration_raw": "22:33",
+      "season_number": 2,
+      "episode_number": 24,
+      "views": 7243,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3323019201170&type=32&idx=11&tkn=Z-GzEPa_50bjK0FfjuD-bPkKnbc&fn=external_8"
+    },
+    {
+      "video_id": "1738492414537",
+      "title_raw": "2x26.A jugar",
+      "duration_raw": "22:29",
+      "season_number": 2,
+      "episode_number": 26,
+      "views": 7082,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3322982959762&type=32&idx=9&tkn=EWB_yhucLkbid65SKO86oPi86Ls&fn=external_8"
+    },
+    {
+      "video_id": "1738492217929",
+      "title_raw": "2x27.Muerde al padre muerde al hijo",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 27,
+      "views": 6628,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3322966706834&type=32&idx=3&tkn=Ek-vtWSB3oP2G_ZeEf6LNyF71HI&fn=external_8"
+    },
+    {
+      "video_id": "1738492283465",
+      "title_raw": "2x28.Enemigo magico",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 28,
+      "views": 7197,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3322945800850&type=32&idx=2&tkn=iVXgFXuDXZHTda8V5f_Yr9UlnHU&fn=external_8"
+    },
+    {
+      "video_id": "1738492086857",
+      "title_raw": "2x29.Celos de furia",
+      "duration_raw": "22:27",
+      "season_number": 2,
+      "episode_number": 29,
+      "views": 7934,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3322925484690&type=32&idx=9&tkn=mXz7RXPe5aj7UGb6fr414ckCWo0&fn=external_8"
+    },
+    {
+      "video_id": "1738491955785",
+      "title_raw": "2x30.Siendo humano",
+      "duration_raw": "22:29",
+      "season_number": 2,
+      "episode_number": 30,
+      "views": 9406,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3322889570962&type=32&idx=2&tkn=kqb_cGFxzmz-rgqOsbOmU9FZx-g&fn=external_8"
+    },
+    {
+      "video_id": "1738492152393",
+      "title_raw": "2x31.Los Long van a Hong Kong",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 31,
+      "views": 15843,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3322775997074&type=32&idx=2&tkn=vu9Db5FwMd1HXVTZkgTYRtAvYGI&fn=external_8"
+    }
+  ]
+}

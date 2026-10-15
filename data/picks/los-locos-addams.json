@@ -1,0 +1,583 @@
+{
+  "title": "Los Locos Addams",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2213705",
+  "year": "1964",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Comedia",
+  "genre_secondary": "Terror",
+  "videos": [
+    {
+      "video_id": "1373767469641",
+      "title_raw": "1x01 Los Addams van a la escuela_x264",
+      "duration_raw": "24:37",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 41767,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593070525001&type=32&idx=2&tkn=QNk1J3gJpO4y2bErizkfV6bMObs&fn=external_8"
+    },
+    {
+      "video_id": "1373766224457",
+      "title_raw": "1x02 Morticia y el psiquiatra_x264",
+      "duration_raw": "24:37",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 15305,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593032907337&type=32&idx=12&tkn=5vE_Wfw8qM4LO3QUhNO_1rjcViQ&fn=external_8"
+    },
+    {
+      "video_id": "1373768125001",
+      "title_raw": "1x03 Morticia se une a la Liga de Damas_x264",
+      "duration_raw": "24:35",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 9245,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593088088649&type=32&idx=6&tkn=Gh-CBuiBsPS0dzkLi6r7WuoAx-E&fn=external_8"
+    },
+    {
+      "video_id": "1373768059465",
+      "title_raw": "1x04 Apasionado romance de Tio Lucas_x264",
+      "duration_raw": "24:38",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 6974,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593085991497&type=32&idx=1&tkn=RGtUYVF5TD-TT2TyWMeL6inktdc&fn=external_8"
+    },
+    {
+      "video_id": "1373767076425",
+      "title_raw": "1x05 El arbol genealogico de la Familia Addams_x264",
+      "duration_raw": "24:29",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 5915,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593057679945&type=32&idx=4&tkn=8eCbmaIvfrfukpfOPXHGWcek_SU&fn=external_8"
+    },
+    {
+      "video_id": "1373765634633",
+      "title_raw": "1x06 Homero, el politico_x264",
+      "duration_raw": "24:37",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 4930,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593014622793&type=32&idx=11&tkn=GPsXbwiSDlhII5pIFQoPNhHrX9A&fn=external_8"
+    },
+    {
+      "video_id": "1373767338569",
+      "title_raw": "1x07 Halloween con la Familia Addams_x264",
+      "duration_raw": "24:34",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 5397,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593066134089&type=32&idx=14&tkn=VGRzOmVc1so_3ckElwUgxoaqWwU&fn=external_8"
+    },
+    {
+      "video_id": "1373767862857",
+      "title_raw": "1x08 Homero, ojos verdes_x264",
+      "duration_raw": "24:37",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 4640,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593080814153&type=32&idx=14&tkn=xXWx4BzBCAtsQsDZ_E9s-KlrJ2U&fn=external_8"
+    },
+    {
+      "video_id": "1373766027849",
+      "title_raw": "1x09 Los nuevos Inquilinos_x264",
+      "duration_raw": "24:39",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 4030,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593027598921&type=32&idx=2&tkn=aw8s6KOw4M5UaWhgnGa5GlCjYVg&fn=external_8"
+    },
+    {
+      "video_id": "1373764520521",
+      "title_raw": "1x10 Morticia, la Casamentera_x264",
+      "duration_raw": "24:38",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 4196,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=592988539465&type=32&idx=14&tkn=ssF2EDJvt6PwYW4W4BmEBnvjvzc&fn=external_8"
+    },
+    {
+      "video_id": "1373765569097",
+      "title_raw": "1x11 Merlina se va de casa_x264",
+      "duration_raw": "24:28",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 3887,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593013508681&type=32&idx=14&tkn=vdThc8O4EEQiuthHAqtY3AbKsps&fn=external_8"
+    },
+    {
+      "video_id": "1373764586057",
+      "title_raw": "1x12 La Familia Addams conoce a los VIP_x264",
+      "duration_raw": "24:38",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 3470,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=592990243401&type=32&idx=4&tkn=vspnExVQ8BtxyfecEeUG6wlRIgg&fn=external_8"
+    },
+    {
+      "video_id": "1373768190537",
+      "title_raw": "1x13 Largo aprende a bailar_x264",
+      "duration_raw": "24:39",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 3679,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593090185801&type=32&idx=14&tkn=Pmq_PslMvEwoa_x-vri94OwpFUM&fn=external_8"
+    },
+    {
+      "video_id": "1373767010889",
+      "title_raw": "1x14 La Familia Addams conocen a Beatnik_x264",
+      "duration_raw": "24:19",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 3139,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593054272073&type=32&idx=6&tkn=jzvZm-vByDak8uTG6tDy2kiW2WQ&fn=external_8"
+    },
+    {
+      "video_id": "1373767141961",
+      "title_raw": "1x15 El arte y la Familia Addams_x264",
+      "duration_raw": "24:38",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 2894,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593060039241&type=32&idx=13&tkn=4HiNFUBFk4XCcmJywfH4dlo_iLY&fn=external_8"
+    },
+    {
+      "video_id": "1373765241417",
+      "title_raw": "1x16 La Familia Addams conoce al Agente Secreto_x264",
+      "duration_raw": "24:30",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 2795,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593004399177&type=32&idx=14&tkn=0zN239-ZXLMT-JvIknl8xO1PUrI&fn=external_8"
+    },
+    {
+      "video_id": "1373767993929",
+      "title_raw": "1x17 La madre de Largo visita a la Familia Addams_x264",
+      "duration_raw": "24:38",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 2720,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593082518089&type=32&idx=7&tkn=SGYO7R8JugfJqW4s2YNc2QfIMi8&fn=external_8"
+    },
+    {
+      "video_id": "1373764323913",
+      "title_raw": "1x18 La enfermedad de Tio Lucas_x264",
+      "duration_raw": "24:38",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 2888,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=592984410697&type=32&idx=7&tkn=29hU0DGW0w_W_myvE6zxelmX8Hg&fn=external_8"
+    },
+    {
+      "video_id": "1373765438025",
+      "title_raw": "1x19 La derrochadora Familia Addams_x264",
+      "duration_raw": "24:36",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 2591,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593009183305&type=32&idx=10&tkn=3GsYN2x8VJXaSFCJXCK_EMl6P4E&fn=external_8"
+    },
+    {
+      "video_id": "1373764782665",
+      "title_raw": "1x20 El tio Cosa visita la Familia Addams_x264",
+      "duration_raw": "24:33",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 2778,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=592993913417&type=32&idx=5&tkn=20fEB0hDsJKUrYD3VVTyh3tOpNI&fn=external_8"
+    },
+    {
+      "video_id": "1373766748745",
+      "title_raw": "1x21 La Familia Addams en los tribunales_x264",
+      "duration_raw": "24:28",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 2431,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593046604361&type=32&idx=3&tkn=Eb6MSIdBlqn1AnOLUBk9IQBOfUU&fn=external_8"
+    },
+    {
+      "video_id": "1373765503561",
+      "title_raw": "1x22 Amnesia en la Familia Addams_x264",
+      "duration_raw": "24:41",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 2674,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593011083849&type=32&idx=14&tkn=QLPBba-empgKRXykuqHCcl-TWXM&fn=external_8"
+    },
+    {
+      "video_id": "1373764389449",
+      "title_raw": "2x01 Dedos esta perdido_x264",
+      "duration_raw": "24:35",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 3392,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=592986901065&type=32&idx=0&tkn=0Guq7h6SCgo8Z6eg7b12hsK4R-w&fn=external_8"
+    },
+    {
+      "video_id": "1373767404105",
+      "title_raw": "2x02 Crisis en la Familia Addams_x264",
+      "duration_raw": "24:35",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 3113,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593068296777&type=32&idx=3&tkn=X0Wd0hgmaB54SuW-apcKrlMtKSg&fn=external_8"
+    },
+    {
+      "video_id": "1373767535177",
+      "title_raw": "2x03 Largo y su clavecin_x264",
+      "duration_raw": "24:48",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 2526,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593072360009&type=32&idx=7&tkn=H2RDiiL5WSqNNCZisfUnCJtKC1M&fn=external_8"
+    },
+    {
+      "video_id": "1373766486601",
+      "title_raw": "2x04 Morticia mantiene a la familia_x264",
+      "duration_raw": "24:42",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 2438,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593037822537&type=32&idx=0&tkn=bZct00pVfNBj0PCit2v2yI6rMO4&fn=external_8"
+    },
+    {
+      "video_id": "1373766093385",
+      "title_raw": "2x05 La Familia Addams y el hombre del espacio_x264",
+      "duration_raw": "24:36",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 2359,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593029696073&type=32&idx=0&tkn=P9cNXcZRwzpMGhb5Hd4l7TUDkGg&fn=external_8"
+    },
+    {
+      "video_id": "1373765831241",
+      "title_raw": "2x06 Mi hijo, el chimpance_x264",
+      "duration_raw": "24:13",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 1882,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593019931209&type=32&idx=8&tkn=xcMobj8XChJk-dy7i_5TDySelOg&fn=external_8"
+    },
+    {
+      "video_id": "1373767600713",
+      "title_raw": "2x07 La caridad favorita de Morticia_x264",
+      "duration_raw": "24:37",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 2052,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593074719305&type=32&idx=2&tkn=L_44g_J2yiM4tb89FPEFUAUfLEg&fn=external_8"
+    },
+    {
+      "video_id": "1373765896777",
+      "title_raw": "2x08 El progreso y la familia Addams_x264",
+      "duration_raw": "24:25",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 1989,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593023011401&type=32&idx=1&tkn=_OFQ_ufvUEnHSBc420UpPXbsGl8&fn=external_8"
+    },
+    {
+      "video_id": "1373767797321",
+      "title_raw": "2x09 El peluquin del tio Lucas_x264",
+      "duration_raw": "24:23",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 1956,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593078848073&type=32&idx=7&tkn=LdvOY0Re07inu5ORpqHlUSx07Po&fn=external_8"
+    },
+    {
+      "video_id": "1373765044809",
+      "title_raw": "2x10 El tio Cosa y su vocacion de asesor_x264",
+      "duration_raw": "24:43",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 1899,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593000860233&type=32&idx=6&tkn=00t5taB3XoE73LBgI7i6rUz7Sfc&fn=external_8"
+    },
+    {
+      "video_id": "1373766552137",
+      "title_raw": "2x11 Largo, idolo de las adolescentes_x264",
+      "duration_raw": "24:41",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 1965,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593039919689&type=32&idx=3&tkn=tymZrIVr_sJWP1-jCU-uj9t-New&fn=external_8"
+    },
+    {
+      "video_id": "1373764979273",
+      "title_raw": "2x12 El ganador de Morticia_x264",
+      "duration_raw": "24:29",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 2002,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=592998238793&type=32&idx=0&tkn=d4gw-CGRjtYmPyiiKeM-em0qDLw&fn=external_8"
+    },
+    {
+      "video_id": "1373766617673",
+      "title_raw": "2x13 Mi bello tio Cosa_x264",
+      "duration_raw": "24:34",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 1798,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593042082377&type=32&idx=1&tkn=JmN3KapISWNnTLx242RpNz_CC40&fn=external_8"
+    },
+    {
+      "video_id": "1373764913737",
+      "title_raw": "2x14 El romance de Morticia 1° parte_x264",
+      "duration_raw": "24:40",
+      "season_number": 2,
+      "episode_number": 14,
+      "views": 2706,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=592996338249&type=32&idx=0&tkn=ieUr5ohVLwVZbGH_tQjNyEkLezc&fn=external_8"
+    },
+    {
+      "video_id": "1373766158921",
+      "title_raw": "2x15 El romance de Morticia 2° parte_x264",
+      "duration_raw": "24:40",
+      "season_number": 2,
+      "episode_number": 15,
+      "views": 1795,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593031400009&type=32&idx=8&tkn=u4_qjqYaLbRN2gUO19WqGEAvxpI&fn=external_8"
+    },
+    {
+      "video_id": "1373766814281",
+      "title_raw": "2x16 Morticia conoce a la realeza_x264",
+      "duration_raw": "24:29",
+      "season_number": 2,
+      "episode_number": 16,
+      "views": 1512,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593049487945&type=32&idx=12&tkn=e8qQm1o8mgoflcFX9SsPM5yajUI&fn=external_8"
+    },
+    {
+      "video_id": "1373765175881",
+      "title_raw": "2x17 Homero, la eleccion de la gente_x264",
+      "duration_raw": "25:38",
+      "season_number": 2,
+      "episode_number": 17,
+      "views": 1553,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593002760777&type=32&idx=7&tkn=AZcpFxWzZx1GQZuYeoPveAsGWn4&fn=external_8"
+    },
+    {
+      "video_id": "1373767207497",
+      "title_raw": "2x18 Tio Cosa es un problema_x264",
+      "duration_raw": "24:41",
+      "season_number": 2,
+      "episode_number": 18,
+      "views": 1515,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593063578185&type=32&idx=14&tkn=bHKDZZpHcUw7My_4iBZoMhtCXvM&fn=external_8"
+    },
+    {
+      "video_id": "1373765765705",
+      "title_raw": "2x19 Noche de brujas estilo Addams_x264",
+      "duration_raw": "24:37",
+      "season_number": 2,
+      "episode_number": 19,
+      "views": 1690,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593017440841&type=32&idx=12&tkn=CqF_mljm6FJQMwW5-w5GCZGiqdU&fn=external_8"
+    },
+    {
+      "video_id": "1373766355529",
+      "title_raw": "2X20 Morticia, la escritora_x264",
+      "duration_raw": "24:39",
+      "season_number": 2,
+      "episode_number": 20,
+      "views": 1514,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593036118601&type=32&idx=1&tkn=Ry5w6VQvd5FTONVFhFKgY-60GNg&fn=external_8"
+    },
+    {
+      "video_id": "1373764717129",
+      "title_raw": "2X21 Morticia, la escultora_x264",
+      "duration_raw": "24:33",
+      "season_number": 2,
+      "episode_number": 21,
+      "views": 1265,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=592992012873&type=32&idx=12&tkn=5Dz3aB7ngVRP63mrd3BfsSG3ghk&fn=external_8"
+    },
+    {
+      "video_id": "1373765306953",
+      "title_raw": "3x01 Homero, amante reluciente_x264",
+      "duration_raw": "24:32",
+      "season_number": 3,
+      "episode_number": 1,
+      "views": 2614,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593006234185&type=32&idx=14&tkn=XVbUqv7wA_ohgLQWWB9vXZQK5Jc&fn=external_8"
+    },
+    {
+      "video_id": "1373765372489",
+      "title_raw": "3x02 Querella en la familia Addams1_x264",
+      "duration_raw": "24:36",
+      "season_number": 3,
+      "episode_number": 2,
+      "views": 1703,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593007610441&type=32&idx=6&tkn=8UlJVwRl0ysSmmnx8WetxRU_6qs&fn=external_8"
+    },
+    {
+      "video_id": "1373766945353",
+      "title_raw": "3x03 Homero, el ladron de gatos_x264",
+      "duration_raw": "24:41",
+      "season_number": 3,
+      "episode_number": 3,
+      "views": 1666,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593052109385&type=32&idx=0&tkn=1MWMNRuAxIO17e37ONKSJA6KDLU&fn=external_8"
+    },
+    {
+      "video_id": "1373766683209",
+      "title_raw": "3x04 Retrato de Homero_x264",
+      "duration_raw": "24:03",
+      "season_number": 3,
+      "episode_number": 4,
+      "views": 1477,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593044507209&type=32&idx=11&tkn=FePfLK9uahxf4vJY8r3QEZn2WqA&fn=external_8"
+    },
+    {
+      "video_id": "1373765962313",
+      "title_raw": "3x05 El dilema de Morticia_x264",
+      "duration_raw": "24:07",
+      "season_number": 3,
+      "episode_number": 5,
+      "views": 1493,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593025239625&type=32&idx=14&tkn=udRVDz7AZPyuLEF427fKUsgVlp0&fn=external_8"
+    },
+    {
+      "video_id": "1373767731785",
+      "title_raw": "3x06 Navidad con La Familia Addams_x264",
+      "duration_raw": "24:37",
+      "season_number": 3,
+      "episode_number": 6,
+      "views": 1893,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593077209673&type=32&idx=7&tkn=QKO1A-vpSqSFyVqUKv7JQxkQ7oE&fn=external_8"
+    },
+    {
+      "video_id": "1373766289993",
+      "title_raw": "3x07 Tio Lucas, Magnate_x264",
+      "duration_raw": "24:36",
+      "season_number": 3,
+      "episode_number": 7,
+      "views": 1419,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593034218057&type=32&idx=9&tkn=i28vQp6tng0xWlB7toaxqYWHOZI&fn=external_8"
+    },
+    {
+      "video_id": "1374023977545",
+      "title_raw": "3x08 Morticia y Homero vs. Lucas y abuela_x264",
+      "duration_raw": "24:37",
+      "season_number": 3,
+      "episode_number": 8,
+      "views": 1455,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593096804937&type=32&idx=5&tkn=5byf74UO9g8I7N7EHcgRdhyPP6A&fn=external_8"
+    },
+    {
+      "video_id": "1374024174153",
+      "title_raw": "3x09 Tio Lucas a dieta_x264",
+      "duration_raw": "24:34",
+      "season_number": 3,
+      "episode_number": 9,
+      "views": 1417,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593101785673&type=32&idx=14&tkn=L3Nuggkvv6FysBz6VB16wsn5GwA&fn=external_8"
+    },
+    {
+      "video_id": "1374024763977",
+      "title_raw": "3x10 El gran tesoro encantado_x264",
+      "duration_raw": "24:36",
+      "season_number": 3,
+      "episode_number": 10,
+      "views": 1807,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593120594505&type=32&idx=2&tkn=XaL6opx0TbCnllyvFuXGu4ntDrg&fn=external_8"
+    },
+    {
+      "video_id": "1374024501833",
+      "title_raw": "3x11 Ofelia halla un romance_x264",
+      "duration_raw": "24:37",
+      "season_number": 3,
+      "episode_number": 11,
+      "views": 1403,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593112074825&type=32&idx=1&tkn=2foqwaPRmfV99u8XxjR6p42sztc&fn=external_8"
+    },
+    {
+      "video_id": "1374024436297",
+      "title_raw": "3x12 Permiso de Pericles_x264",
+      "duration_raw": "24:35",
+      "season_number": 3,
+      "episode_number": 12,
+      "views": 1341,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593110043209&type=32&idx=14&tkn=XPOWxfmSqE8FQ9RyrBzCagy6PWw&fn=external_8"
+    },
+    {
+      "video_id": "1374024305225",
+      "title_raw": "3x14 Morticia, la decoradora_x264",
+      "duration_raw": "24:36",
+      "season_number": 3,
+      "episode_number": 14,
+      "views": 1367,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593104472649&type=32&idx=7&tkn=S31jNXZFPRQXIuMc23eAoOykCNE&fn=external_8"
+    },
+    {
+      "video_id": "1374024567369",
+      "title_raw": "3x15 Ofelia visita a Morticia_x264",
+      "duration_raw": "24:27",
+      "season_number": 3,
+      "episode_number": 15,
+      "views": 1341,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593114696265&type=32&idx=11&tkn=hEZMsZJKktTfZtzXC67qcBO1rAs&fn=external_8"
+    },
+    {
+      "video_id": "1374023846473",
+      "title_raw": "3x16 Addams distinguidos_x264",
+      "duration_raw": "24:28",
+      "season_number": 3,
+      "episode_number": 16,
+      "views": 1324,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593092741705&type=32&idx=6&tkn=KoZyD1he_xEh32RYJMeJcspMBuU&fn=external_8"
+    },
+    {
+      "video_id": "1374024698441",
+      "title_raw": "3x17 El Gatito de los Addams_x264",
+      "duration_raw": "24:37",
+      "season_number": 3,
+      "episode_number": 17,
+      "views": 1577,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593118235209&type=32&idx=14&tkn=BTfyQ1Z83zspd1NqEAGv5nUZUN8&fn=external_8"
+    },
+    {
+      "video_id": "1374023912009",
+      "title_raw": "3x18 El pequeño ayudante de Largo_x264",
+      "duration_raw": "23:38",
+      "season_number": 3,
+      "episode_number": 18,
+      "views": 1252,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593094773321&type=32&idx=8&tkn=rOCTyCwKQxEAJEc6fYdvbsoS2SY&fn=external_8"
+    },
+    {
+      "video_id": "1374024632905",
+      "title_raw": "3x19 Politica de los Addams_x264",
+      "duration_raw": "24:38",
+      "season_number": 3,
+      "episode_number": 19,
+      "views": 1299,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593116662345&type=32&idx=3&tkn=_bx6G_Upye2vZp5dXKp7iGNUMOk&fn=external_8"
+    },
+    {
+      "video_id": "1374024108617",
+      "title_raw": "3x20  El Gran romance de Largo_x264",
+      "duration_raw": "24:38",
+      "season_number": 3,
+      "episode_number": 20,
+      "views": 1418,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593100147273&type=32&idx=14&tkn=cYuSFnK_cKT98SW0KGHrY90-jc8&fn=external_8"
+    },
+    {
+      "video_id": "1374024043081",
+      "title_raw": "3x21 La carrera de Ofelia_x264",
+      "duration_raw": "24:37",
+      "season_number": 3,
+      "episode_number": 21,
+      "views": 1465,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593098705481&type=32&idx=8&tkn=099RLnF99AbjTVMt3PK7Yef9iAY&fn=external_8"
+    }
+  ]
+}

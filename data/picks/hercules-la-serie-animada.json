@@ -1,0 +1,592 @@
+{
+  "title": "Hércules: La Serie Animada",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c3099721",
+  "year": "1998",
+  "studio": "Disney",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Aventura",
+  "videos": [
+    {
+      "video_id": "1766661294665",
+      "title_raw": "Hercules 01 - la misión Apolo_x264",
+      "duration_raw": "23:26",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 37863,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772643031625&type=32&idx=1&tkn=l9Tdu5_xxZJcY141JkQCq6__SMY&fn=external_8"
+    },
+    {
+      "video_id": "1766661163593",
+      "title_raw": "Hercules 02 - el rey de Tesalia_x264",
+      "duration_raw": "23:26",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 10615,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772632808009&type=32&idx=8&tkn=Hz0DODfVZh4LlvyLyrHsJIoY1ok&fn=external_8"
+    },
+    {
+      "video_id": "1766663260745",
+      "title_raw": "Hercules 03 - el arma secreta_x264",
+      "duration_raw": "23:26",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 7628,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772734061129&type=32&idx=5&tkn=K_DCj4bbEjU_LdZwvpqfPwPdXGE&fn=external_8"
+    },
+    {
+      "video_id": "1766662998601",
+      "title_raw": "Hercules 04 - el asesino_x264",
+      "duration_raw": "23:22",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 6023,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772727704137&type=32&idx=5&tkn=53EOzkv5eJMC0mlsLs44q6IvN-c&fn=external_8"
+    },
+    {
+      "video_id": "1766662474313",
+      "title_raw": "Hercules 05 - el gran beso_x264",
+      "duration_raw": "23:26",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 7143,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772708764233&type=32&idx=10&tkn=bh4-IZAaX65nijfTH1LKeK7tTmg&fn=external_8"
+    },
+    {
+      "video_id": "1766662081097",
+      "title_raw": "Hercules 06 - la laguna Estigia_x264",
+      "duration_raw": "23:26",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 5420,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772691593801&type=32&idx=8&tkn=NvLCaCCb7788VDZJBMEDukcxZxQ&fn=external_8"
+    },
+    {
+      "video_id": "1766661818953",
+      "title_raw": "Hercules 07 - los tecnogriegos_x264",
+      "duration_raw": "23:26",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 4415,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772679404105&type=32&idx=5&tkn=cJjjwVggP95dZNsoOl0kq2OUgBw&fn=external_8"
+    },
+    {
+      "video_id": "1766661687881",
+      "title_raw": "Hercules 08 - el primer médico del mundo_x264",
+      "duration_raw": "23:22",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 4538,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772674095689&type=32&idx=1&tkn=u7OJZ43POzil4xcc6vnDH7PL7ro&fn=external_8"
+    },
+    {
+      "video_id": "1766661360201",
+      "title_raw": "Hercules 09 - la fiesta de la piscina_x264",
+      "duration_raw": "23:26",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 5128,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772648733257&type=32&idx=9&tkn=ovlAnDz8ZiYLbtsjpEKZ2xiUo3Y&fn=external_8"
+    },
+    {
+      "video_id": "1766661556809",
+      "title_raw": "Hercules 10 - el príncipe de Tracia_x264",
+      "duration_raw": "23:22",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 5695,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772659939913&type=32&idx=0&tkn=irgoUbaG9-BgSrRCiAQj8gBYp8o&fn=external_8"
+    },
+    {
+      "video_id": "1766661950025",
+      "title_raw": "Hercules 11 - el primer día de escuela_x264",
+      "duration_raw": "23:22",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 4126,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772685498953&type=32&idx=1&tkn=VZHSv6kRefKa5pJMWNrUrmy0ZHw&fn=external_8"
+    },
+    {
+      "video_id": "1766662212169",
+      "title_raw": "Hercules 12 - el tapiz del destino_x264",
+      "duration_raw": "23:23",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 4460,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772697426505&type=32&idx=14&tkn=dJK2Ae4skYCtB2q9B43NOuFQHCE&fn=external_8"
+    },
+    {
+      "video_id": "1766662343241",
+      "title_raw": "Hercules 13 - la auténtica leyenda_x264",
+      "duration_raw": "23:19",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 3698,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772704307785&type=32&idx=1&tkn=2_a-_qIaD0oFkPG9bEUFAdHmDFE&fn=external_8"
+    },
+    {
+      "video_id": "1766662605385",
+      "title_raw": "Hercules 14 - el retorno de Tifón_x264",
+      "duration_raw": "23:25",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 4207,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772716038729&type=32&idx=2&tkn=AEVBJtTtD9gG95fiFlNPJU_6wUY&fn=external_8"
+    },
+    {
+      "video_id": "1766662801993",
+      "title_raw": "Hercules 15 - el búho de Atenea_x264",
+      "duration_raw": "23:19",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 3965,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772721478217&type=32&idx=4&tkn=C61VaDx_X20V-w0NSsh8gVPbH3A&fn=external_8"
+    },
+    {
+      "video_id": "1766663195209",
+      "title_raw": "Hercules 16 - la faja de Hipólita_x264",
+      "duration_raw": "23:23",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 3169,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772732095049&type=32&idx=7&tkn=veW5-YuBiVr1FsWEkQeXdkSswhk&fn=external_8"
+    },
+    {
+      "video_id": "1766663326281",
+      "title_raw": "Hercules 17 - la visita de Zeus_x264",
+      "duration_raw": "23:14",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 3831,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772736092745&type=32&idx=8&tkn=kfrjJw-ipvgllpxrTDYlslZ2edA&fn=external_8"
+    },
+    {
+      "video_id": "1766663064137",
+      "title_raw": "Hercules 18 - la bacanal_x264",
+      "duration_raw": "23:23",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 3488,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772729342537&type=32&idx=4&tkn=reWwD8-I-zETvAzTb7_J_MwGw4U&fn=external_8"
+    },
+    {
+      "video_id": "1766662933065",
+      "title_raw": "Hercules 19 - la toma del inframundo_x264",
+      "duration_raw": "23:22",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 3568,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772725148233&type=32&idx=12&tkn=TADj-kC5LnqOL9jhDyx8F5Z-qOE&fn=external_8"
+    },
+    {
+      "video_id": "1766662670921",
+      "title_raw": "Hercules 20 - la comedia de las flechas_x264",
+      "duration_raw": "23:14",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 2851,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772718856777&type=32&idx=5&tkn=dXl73kUNS-y-lBhM9m3WTEmCC7I&fn=external_8"
+    },
+    {
+      "video_id": "1766662539849",
+      "title_raw": "Hercules 21 - el examen de conducir_x264",
+      "duration_raw": "23:26",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 2875,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772712368713&type=32&idx=12&tkn=gJefmT7mWqScDuxOUkxPOzMrZqA&fn=external_8"
+    },
+    {
+      "video_id": "1766662408777",
+      "title_raw": "Hercules 22 - la crisis de los rehenes_x264",
+      "duration_raw": "23:16",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 2764,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772706404937&type=32&idx=0&tkn=ARIn4ArYBDhG2-G7-KOUF7z61sU&fn=external_8"
+    },
+    {
+      "video_id": "1766662277705",
+      "title_raw": "Hercules 23 - el fin de semana con los padres_x264",
+      "duration_raw": "23:15",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 2834,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772700768841&type=32&idx=4&tkn=EoJkO-W-rczWJxh6Zucfa-ohUWg&fn=external_8"
+    },
+    {
+      "video_id": "1766662146633",
+      "title_raw": "Hercules 24 - los héroes desaparecidos_x264",
+      "duration_raw": "23:17",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 2491,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772694280777&type=32&idx=14&tkn=38G5z-17IwYdB4YONqIPqlVp8_8&fn=external_8"
+    },
+    {
+      "video_id": "1766662015561",
+      "title_raw": "Hercules 25 - los argonautas_x264",
+      "duration_raw": "23:20",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 2450,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772688513609&type=32&idx=8&tkn=5oju6xNyAyPgtmGOfLXkswWKP_c&fn=external_8"
+    },
+    {
+      "video_id": "1766661884489",
+      "title_raw": "Hercules 26 - el affaire Prometeo_x264",
+      "duration_raw": "23:25",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 3795,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772682287689&type=32&idx=3&tkn=rgfj1HPyO4pwo6pC5G8Uoh7m6oE&fn=external_8"
+    },
+    {
+      "video_id": "1766661753417",
+      "title_raw": "Hercules 27 - el festival de teatro_x264",
+      "duration_raw": "23:23",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 6795,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772678289993&type=32&idx=14&tkn=NECGBtvdLcKW5SieibXe73Vy9OE&fn=external_8"
+    },
+    {
+      "video_id": "1766661622345",
+      "title_raw": "Hercules 28 - el factor Fil_x264",
+      "duration_raw": "23:20",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 2366,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772667607625&type=32&idx=14&tkn=DMwNM_OU_BMgk-KmIciFlamaHXY&fn=external_8"
+    },
+    {
+      "video_id": "1766661425737",
+      "title_raw": "Hercules 29 - el héroe de Atenas_x264",
+      "duration_raw": "23:20",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 2400,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772655090249&type=32&idx=7&tkn=_aj1YSVWA5tRTJ_OGDchRadM01c&fn=external_8"
+    },
+    {
+      "video_id": "1766661229129",
+      "title_raw": "Hercules 30 - el insomnio_x264",
+      "duration_raw": "23:13",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 3111,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772638050889&type=32&idx=7&tkn=Rbwzmxosp-bX0bKmJOnn7BKv9PY&fn=external_8"
+    },
+    {
+      "video_id": "1766818515529",
+      "title_raw": "Hercules 31 - la canción de Circe_x264",
+      "duration_raw": "23:21",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 3087,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772788193865&type=32&idx=0&tkn=rcsdPTAdZunfRVeVL4bg4ytGA5c&fn=external_8"
+    },
+    {
+      "video_id": "1766818384457",
+      "title_raw": "Hercules 32 - la guerra de Troya_x264",
+      "duration_raw": "23:17",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 2533,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772782819913&type=32&idx=10&tkn=QhVJ3khGU18s-Xf-Xus4LfMy0tA&fn=external_8"
+    },
+    {
+      "video_id": "1766817860169",
+      "title_raw": "Hercules 33 - el jabalí de Calidón_x264",
+      "duration_raw": "23:13",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 2412,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772761061961&type=32&idx=12&tkn=yPoE0J2VBeh62wWFsRA_TMNK3bc&fn=external_8"
+    },
+    {
+      "video_id": "1766817991241",
+      "title_raw": "Hercules 34 - la pareja ideal_x264",
+      "duration_raw": "23:24",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 3633,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772767156809&type=32&idx=8&tkn=4tnA7VBBYNmWGj55xkK0JfMMHsY&fn=external_8"
+    },
+    {
+      "video_id": "1766817925705",
+      "title_raw": "Hercules 35 - los Grandes Juegos_x264",
+      "duration_raw": "23:23",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 4376,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772764666441&type=32&idx=2&tkn=Qy5cDCnKHoMwYIvoL9E2ceP2buQ&fn=external_8"
+    },
+    {
+      "video_id": "1766818843209",
+      "title_raw": "Hercules 36 - el plantón_x264",
+      "duration_raw": "23:16",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 2382,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772798089801&type=32&idx=5&tkn=z9ephK7P1mtzHWNHhDVlxFlJTVU&fn=external_8"
+    },
+    {
+      "video_id": "1766818187849",
+      "title_raw": "Hercules 37 - la aventura épica_x264",
+      "duration_raw": "23:16",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 1990,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772775545417&type=32&idx=4&tkn=ig9u2R051J262ry48dObHj0Dt4w&fn=external_8"
+    },
+    {
+      "video_id": "1766817532489",
+      "title_raw": "Hercules 38 - las estrellas fugaces_x264",
+      "duration_raw": "23:14",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 2218,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772746512969&type=32&idx=8&tkn=p9dxwDr-cCB8WFj8JRbum1Uc5VM&fn=external_8"
+    },
+    {
+      "video_id": "1766818122313",
+      "title_raw": "Hercules 39 - el toque dorado_x264",
+      "duration_raw": "23:14",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 2084,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772772661833&type=32&idx=10&tkn=1fmg087qMy6VcZm0Km2VWc3jAAM&fn=external_8"
+    },
+    {
+      "video_id": "1766818253385",
+      "title_raw": "Hercules 40 - el minotauro_x264",
+      "duration_raw": "23:21",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 2213,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772778035785&type=32&idx=6&tkn=DF0M6RtYVLpMUlBn6nVCzY1KTz0&fn=external_8"
+    },
+    {
+      "video_id": "1766819564105",
+      "title_raw": "Hercules 41 - la aventura de la Copa de Poseidón_x264",
+      "duration_raw": "23:23",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 2392,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772822993481&type=32&idx=5&tkn=dS795bN_gcNfc-dUgqHIrsSiWTM&fn=external_8"
+    },
+    {
+      "video_id": "1766817401417",
+      "title_raw": "Hercules 42 - el hijo de Poseidón_x264",
+      "duration_raw": "23:14",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 2236,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772740221513&type=32&idx=5&tkn=iCl1oY-qWuvPtc-q1eoJRmDxibs&fn=external_8"
+    },
+    {
+      "video_id": "1766819105353",
+      "title_raw": "Hercules 43 - el ocaso de los dioses_x264",
+      "duration_raw": "23:20",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 2340,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772808903241&type=32&idx=9&tkn=biZAkdWm2a7-1Ooe_x1wWxHixUg&fn=external_8"
+    },
+    {
+      "video_id": "1766819301961",
+      "title_raw": "Hercules 44 - el grifo_x264",
+      "duration_raw": "23:22",
+      "season_number": 1,
+      "episode_number": 44,
+      "views": 1853,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772815522377&type=32&idx=5&tkn=Y31-LUbv73hDUBT5rHGQdHhjmQM&fn=external_8"
+    },
+    {
+      "video_id": "1766818908745",
+      "title_raw": "Hercules 45 - la musa de la danza_x264",
+      "duration_raw": "23:24",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 2480,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772801038921&type=32&idx=4&tkn=M0ufXxLtBUlWPUtd4PiHAjA5n_g&fn=external_8"
+    },
+    {
+      "video_id": "1766818449993",
+      "title_raw": "Hercules 46 - el rey por un día_x264",
+      "duration_raw": "23:10",
+      "season_number": 1,
+      "episode_number": 46,
+      "views": 1986,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772785769033&type=32&idx=1&tkn=d1iYU6v-WEpJGSSw05l6bMWA-kE&fn=external_8"
+    },
+    {
+      "video_id": "1766817466953",
+      "title_raw": "Hercules 47 - el incidente de Pegaso_x264",
+      "duration_raw": "23:22",
+      "season_number": 1,
+      "episode_number": 47,
+      "views": 1650,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772742777417&type=32&idx=1&tkn=KYhR00WsQA60B209EMrDgEJb_cw&fn=external_8"
+    },
+    {
+      "video_id": "1766819236425",
+      "title_raw": "Hercules 48 - los niños_x264",
+      "duration_raw": "23:20",
+      "season_number": 1,
+      "episode_number": 48,
+      "views": 2261,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772813359689&type=32&idx=12&tkn=EbRg7r5EkhnAckRoMFr7ZHIifjY&fn=external_8"
+    },
+    {
+      "video_id": "1766817598025",
+      "title_raw": "Hercules 49 - el gran hundimiento_x264",
+      "duration_raw": "23:26",
+      "season_number": 1,
+      "episode_number": 49,
+      "views": 2159,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772749003337&type=32&idx=14&tkn=IH8H_h8NOo44SSn1L3F3uF8AU1Q&fn=external_8"
+    },
+    {
+      "video_id": "1766818712137",
+      "title_raw": "Hercules 50 - la gran mentira_x264",
+      "duration_raw": "23:21",
+      "season_number": 1,
+      "episode_number": 50,
+      "views": 2005,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772795533897&type=32&idx=4&tkn=S956xYfYxyxGB2tUNMRRn1vHOqk&fn=external_8"
+    },
+    {
+      "video_id": "1766819039817",
+      "title_raw": "Hercules 52 - la experiencia espartana_x264",
+      "duration_raw": "23:19",
+      "season_number": 1,
+      "episode_number": 52,
+      "views": 2164,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772806543945&type=32&idx=0&tkn=nL8W6w7XKwcxcORd8E66D4AQ0Nk&fn=external_8"
+    },
+    {
+      "video_id": "1766817729097",
+      "title_raw": "Hercules 53 - la gorgona_x264",
+      "duration_raw": "23:22",
+      "season_number": 1,
+      "episode_number": 53,
+      "views": 3707,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772755753545&type=32&idx=2&tkn=bcjMcGt5i5KbbUZPFHJvSF656Hc&fn=external_8"
+    },
+    {
+      "video_id": "1766817794633",
+      "title_raw": "Hercules 54 - la complicada Electra_x264",
+      "duration_raw": "23:20",
+      "season_number": 1,
+      "episode_number": 54,
+      "views": 2092,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772758833737&type=32&idx=8&tkn=HI5n83GVGqqxwVpT3i_nZFOzU_A&fn=external_8"
+    },
+    {
+      "video_id": "1766818581065",
+      "title_raw": "Hercules 55 - el monstruo de los ojos verdes_x264",
+      "duration_raw": "23:21",
+      "season_number": 1,
+      "episode_number": 55,
+      "views": 2262,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772790422089&type=32&idx=2&tkn=fmqDRDZYIaufTphi--uFOkKZVKc&fn=external_8"
+    },
+    {
+      "video_id": "1766819695177",
+      "title_raw": "Hercules 56 - la larga pesadilla_x264",
+      "duration_raw": "23:20",
+      "season_number": 1,
+      "episode_number": 56,
+      "views": 2653,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772827581001&type=32&idx=0&tkn=1jhTss0gUlg8L7SzicXtE8md2_E&fn=external_8"
+    },
+    {
+      "video_id": "1766818318921",
+      "title_raw": "Hercules 57 - la noche de Arabia_x264",
+      "duration_raw": "23:19",
+      "season_number": 1,
+      "episode_number": 57,
+      "views": 5084,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772780526153&type=32&idx=6&tkn=U8qXFeNjt7zUHwWrzm1ZJhMnfLI&fn=external_8"
+    },
+    {
+      "video_id": "1766818056777",
+      "title_raw": "Hercules 58 - el ánfora de Etolia_x264",
+      "duration_raw": "23:09",
+      "season_number": 1,
+      "episode_number": 58,
+      "views": 3292,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772770105929&type=32&idx=13&tkn=tRH2y_aWSE30VUnz8HlfeMQ6I4E&fn=external_8"
+    },
+    {
+      "video_id": "1766819170889",
+      "title_raw": "Hercules 59 - los romanos_x264",
+      "duration_raw": "23:21",
+      "season_number": 1,
+      "episode_number": 59,
+      "views": 2003,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772811131465&type=32&idx=14&tkn=USjgH-8pJ2uab9AFVPD_RGMdI64&fn=external_8"
+    },
+    {
+      "video_id": "1766817663561",
+      "title_raw": "Hercules 60 - el anuario_x264",
+      "duration_raw": "23:25",
+      "season_number": 1,
+      "episode_number": 60,
+      "views": 3586,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772752411209&type=32&idx=5&tkn=wYq0V4uosQDHE9DRjPIlOsFhPtg&fn=external_8"
+    },
+    {
+      "video_id": "1766819629641",
+      "title_raw": "Hercules 61 - la experiencia de la Odisea_x264",
+      "duration_raw": "23:15",
+      "season_number": 1,
+      "episode_number": 61,
+      "views": 2006,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772825156169&type=32&idx=10&tkn=Yh20RIbRdPhMpFp33WkYY2t0zhQ&fn=external_8"
+    },
+    {
+      "video_id": "1766819367497",
+      "title_raw": "Hercules 62 - el lúgubre vengador_x264",
+      "duration_raw": "23:00",
+      "season_number": 1,
+      "episode_number": 62,
+      "views": 1712,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772818471497&type=32&idx=5&tkn=xgNULmwU59RO7lh7CEUkqtao9-M&fn=external_8"
+    },
+    {
+      "video_id": "1766819498569",
+      "title_raw": "Hercules 63 - la fuente de Canato_x264",
+      "duration_raw": "23:14",
+      "season_number": 1,
+      "episode_number": 63,
+      "views": 1977,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772821551689&type=32&idx=10&tkn=i-f59xg8_m-PmNwIDyZHv_I_IBg&fn=external_8"
+    },
+    {
+      "video_id": "1766818646601",
+      "title_raw": "Hercules 64 - el gran show_x264",
+      "duration_raw": "23:22",
+      "season_number": 1,
+      "episode_number": 64,
+      "views": 1917,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772792126025&type=32&idx=6&tkn=q26FReVe4yq2UO2gsIds_JnozTc&fn=external_8"
+    },
+    {
+      "video_id": "1766818974281",
+      "title_raw": "Hercules 65 - la riña en el Olimpo_x264",
+      "duration_raw": "23:19",
+      "season_number": 1,
+      "episode_number": 65,
+      "views": 5122,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=772803725897&type=32&idx=1&tkn=pO_eMrtjBNI_BvoK9zdBdgG18vs&fn=external_8"
+    }
+  ]
+}

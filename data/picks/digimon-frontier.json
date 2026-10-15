@@ -1,0 +1,467 @@
+{
+  "title": "Digimon Frontier",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2496073 c2206793",
+  "year": "2002",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Aventura",
+  "videos": [
+    {
+      "video_id": "1514450127433",
+      "title_raw": "[SR] Digimon Frontier - 01_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 30996,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647205947977&type=37&idx=14&tkn=-UNzEVbGT32dostTE7ycHdMrQrs&fn=external_8"
+    },
+    {
+      "video_id": "1514450717257",
+      "title_raw": "[SR] Digimon Frontier - 02_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 13825,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647247235657&type=37&idx=12&tkn=AzIM5a-PeLeuA8-SI8uB-bqGlio&fn=external_8"
+    },
+    {
+      "video_id": "1370694355529",
+      "title_raw": "D_T_4 03 [www.animemf.net] Seba_767",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 35,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1559040363125&type=32&idx=15&tkn=HtverEV628S_R7ppR0W6Au06f1A&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1514450848329",
+      "title_raw": "[SR] Digimon Frontier - 04_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 9213,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647257197129&type=37&idx=4&tkn=3ge9WGNjUNZ-femY1DGmtAjbtWI&fn=external_8"
+    },
+    {
+      "video_id": "1514449209929",
+      "title_raw": "[SR] Digimon Frontier - 05_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 7909,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647147293257&type=37&idx=14&tkn=fsb3VCGocuxtRfGHX8z1EHh6W9c&fn=external_8"
+    },
+    {
+      "video_id": "1514451372617",
+      "title_raw": "[SR] Digimon Frontier - 06_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 7342,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647298353737&type=37&idx=11&tkn=fwMilgxRV526Ma01DKJLH1gOLPA&fn=external_8"
+    },
+    {
+      "video_id": "1514450520649",
+      "title_raw": "[SR] Digimon Frontier - 07_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 6274,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647234128457&type=37&idx=5&tkn=mp0KnDQs0vIHztxnSoShzzuMZOA&fn=external_8"
+    },
+    {
+      "video_id": "1514451634761",
+      "title_raw": "[SR] Digimon Frontier - 08_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 5671,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647314999881&type=37&idx=4&tkn=ZyLkmsLewv46kIOVDZ4AFtrMu6U&fn=external_8"
+    },
+    {
+      "video_id": "1514451569225",
+      "title_raw": "[SR] Digimon Frontier - 09_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 5780,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647312181833&type=37&idx=14&tkn=QQYafNeghUHt7k5PAqIFO7wYJ2A&fn=external_8"
+    },
+    {
+      "video_id": "1514451241545",
+      "title_raw": "[SR] Digimon Frontier - 10_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 6610,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647285508681&type=37&idx=14&tkn=nMEBTTjo1shFztx2EnzcU-cBFxU&fn=external_8"
+    },
+    {
+      "video_id": "1514449341001",
+      "title_raw": "[SR] Digimon Frontier - 11_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 6485,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647153519177&type=37&idx=1&tkn=0OqOobmejVw82qjQuyyjDI8pGrk&fn=external_8"
+    },
+    {
+      "video_id": "1514449275465",
+      "title_raw": "[SR] Digimon Frontier - 12_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 6652,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647150570057&type=37&idx=1&tkn=fNrFvVNzlltyzNWEXQ9ff-vMbeg&fn=external_8"
+    },
+    {
+      "video_id": "1514449013321",
+      "title_raw": "[SR] Digimon Frontier - 13_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 5770,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647138249289&type=37&idx=7&tkn=Wyk3hKJk1jzJuNkjKUWqIYRwwPU&fn=external_8"
+    },
+    {
+      "video_id": "1514450651721",
+      "title_raw": "[SR] Digimon Frontier - 14_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 5568,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647240550985&type=37&idx=14&tkn=FTLNtLiRESZlAWEYockOaI7uOm8&fn=external_8"
+    },
+    {
+      "video_id": "1514450782793",
+      "title_raw": "[SR] Digimon Frontier - 15_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 5682,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647253133897&type=37&idx=14&tkn=cwTrtTf0ND0k5DlVcqQZhpVa_W4&fn=external_8"
+    },
+    {
+      "video_id": "1514450258505",
+      "title_raw": "[SR] Digimon Frontier - 16_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 6167,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647216826953&type=37&idx=13&tkn=kR39wjfW7lS5BVc1MtPVCPJGryc&fn=external_8"
+    },
+    {
+      "video_id": "1514448685641",
+      "title_raw": "[SR] Digimon Frontier - 17_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 5654,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647121472073&type=37&idx=1&tkn=qjXD9MQ4lSUqBdrZ7PX6gJv-gGc&fn=external_8"
+    },
+    {
+      "video_id": "1514450192969",
+      "title_raw": "[SR] Digimon Frontier - 18_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 4801,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647211321929&type=37&idx=14&tkn=slvo7N3MRjyq0teamLNmJhiQfds&fn=external_8"
+    },
+    {
+      "video_id": "1514449537609",
+      "title_raw": "[SR] Digimon Frontier - 19_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 4712,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647165774409&type=37&idx=14&tkn=UWA3cKFzrKXOYEexejWSFCdsDHA&fn=external_8"
+    },
+    {
+      "video_id": "1514448947785",
+      "title_raw": "[SR] Digimon Frontier - 20_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 5222,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647134579273&type=37&idx=14&tkn=4HgCratzAunMdww-7IZgxOKZOZQ&fn=external_8"
+    },
+    {
+      "video_id": "1514449930825",
+      "title_raw": "[SR] Digimon Frontier - 21_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 4637,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647192971849&type=37&idx=14&tkn=g_bbSIJvcB_UFXFfYvmLMcbp4U0&fn=external_8"
+    },
+    {
+      "video_id": "1514449865289",
+      "title_raw": "[SR] Digimon Frontier - 22_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 4286,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647189105225&type=37&idx=14&tkn=gwFREj7FxFbjDLxdbDP9XMVTDUA&fn=external_8"
+    },
+    {
+      "video_id": "1514449799753",
+      "title_raw": "[SR] Digimon Frontier - 23_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 4858,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647185500745&type=37&idx=12&tkn=3D6GCR-G4gvrVKnlroKFC1kNJd8&fn=external_8"
+    },
+    {
+      "video_id": "1514450324041",
+      "title_raw": "[SR] Digimon Frontier - 24_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 3908,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647221152329&type=37&idx=11&tkn=ejKfW6wJ873ig2fMz7nux24hsXM&fn=external_8"
+    },
+    {
+      "video_id": "1514448816713",
+      "title_raw": "[SR] Digimon Frontier - 25_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 3975,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647126387273&type=37&idx=14&tkn=DPEedSJUSOpqdcqMry0QuG83jg0&fn=external_8"
+    },
+    {
+      "video_id": "1514449406537",
+      "title_raw": "[SR] Digimon Frontier - 26_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 4109,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647157713481&type=37&idx=2&tkn=jKeQXjymvaaE0m51LfPHB25jiJM&fn=external_8"
+    },
+    {
+      "video_id": "1514450913865",
+      "title_raw": "[SR] Digimon Frontier - 27_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 4858,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647262636617&type=37&idx=0&tkn=oZfG24R1JGa98vsjg7XPaWOy758&fn=external_8"
+    },
+    {
+      "video_id": "1514448489033",
+      "title_raw": "[SR] Digimon Frontier - 28_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 4842,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647112755785&type=37&idx=4&tkn=xniAe1K3kd7uKU1TIGY5qOjq8LY&fn=external_8"
+    },
+    {
+      "video_id": "1514448554569",
+      "title_raw": "[SR] Digimon Frontier - 29_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 4143,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647115311689&type=37&idx=0&tkn=Lm0M3Jp-iouqj53EhCKWFocPROg&fn=external_8"
+    },
+    {
+      "video_id": "1514448751177",
+      "title_raw": "[SR] Digimon Frontier - 30_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 4299,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647124552265&type=37&idx=0&tkn=FWtO9KqjMRdfxgDtjqebKkKDIL8&fn=external_8"
+    },
+    {
+      "video_id": "1514451044937",
+      "title_raw": "[SR] Digimon Frontier - 31_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 3643,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647271877193&type=37&idx=0&tkn=X9eYqYbCFgoGovsMWOVEtmqstNo&fn=external_8"
+    },
+    {
+      "video_id": "1514450455113",
+      "title_raw": "[SR] Digimon Frontier - 32_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 4203,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647230196297&type=37&idx=7&tkn=DMVvRw3BC12lOaFPp84zEjY4QfI&fn=external_8"
+    },
+    {
+      "video_id": "1514451176009",
+      "title_raw": "[SR] Digimon Frontier - 33_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 6453,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647280790089&type=37&idx=4&tkn=yxH502Jf4xQxZwFxchoAOMTknr4&fn=external_8"
+    },
+    {
+      "video_id": "1514451307081",
+      "title_raw": "[SR] Digimon Frontier - 34_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 5040,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647291079241&type=37&idx=0&tkn=JU9Oihh_-YsIeqNCgMUkD0Vhd2o&fn=external_8"
+    },
+    {
+      "video_id": "1514449996361",
+      "title_raw": "[SR] Digimon Frontier - 35_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 4948,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647197100617&type=37&idx=0&tkn=xWV0wIbZvExSpeUdcw3x4uzZcW4&fn=external_8"
+    },
+    {
+      "video_id": "1514451438153",
+      "title_raw": "[SR] Digimon Frontier - 36_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 6265,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647304251977&type=37&idx=1&tkn=dy6mx_TfxSHoBQNZJLW-rEMgCXs&fn=external_8"
+    },
+    {
+      "video_id": "1514448423497",
+      "title_raw": "[SR] Digimon Frontier - 37_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 5024,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647109347913&type=37&idx=0&tkn=LXdv5pUPcH4IaynOW102jRFEOkQ&fn=external_8"
+    },
+    {
+      "video_id": "1514451700297",
+      "title_raw": "[SR] Digimon Frontier - 38_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 3763,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647318604361&type=37&idx=11&tkn=73Mm0EhUG_IoDmxdYVikoYPe_RM&fn=external_8"
+    },
+    {
+      "video_id": "1514449078857",
+      "title_raw": "[SR] Digimon Frontier - 39_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 3225,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647140149833&type=37&idx=5&tkn=mbENKCtYeHbV5R_ksnwITpJdRuY&fn=external_8"
+    },
+    {
+      "video_id": "1514450389577",
+      "title_raw": "[SR] Digimon Frontier - 40_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 3713,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647225215561&type=37&idx=4&tkn=qYV1uf3ixQM8fSOXNYN9d-UWb9A&fn=external_8"
+    },
+    {
+      "video_id": "1514448620105",
+      "title_raw": "[SR] Digimon Frontier - 41_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 3063,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647118457417&type=37&idx=8&tkn=_sttVErcGhwnwPK8q_thhjNy5Xg&fn=external_8"
+    },
+    {
+      "video_id": "1514450979401",
+      "title_raw": "[SR] Digimon Frontier - 42_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 3224,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647267224137&type=37&idx=4&tkn=HDSU9FTbW23oTTx7RUx70WtnOMo&fn=external_8"
+    },
+    {
+      "video_id": "1514451503689",
+      "title_raw": "[SR] Digimon Frontier - 43_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 2950,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647307725385&type=37&idx=0&tkn=Zp_HmN-XBL3MHejJE0OLUYC31ck&fn=external_8"
+    },
+    {
+      "video_id": "1514448882249",
+      "title_raw": "[SR] Digimon Frontier - 44_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 44,
+      "views": 3665,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647131368009&type=37&idx=0&tkn=ItFjRxUNYYJ4F1Q00LAGganoIkY&fn=external_8"
+    },
+    {
+      "video_id": "1514449603145",
+      "title_raw": "[SR] Digimon Frontier - 45_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 2819,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647170099785&type=37&idx=3&tkn=blRCy8eVzQNyLtX7yahK8IVtZLI&fn=external_8"
+    },
+    {
+      "video_id": "1514449472073",
+      "title_raw": "[SR] Digimon Frontier - 46_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 46,
+      "views": 4293,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647161121353&type=37&idx=9&tkn=B5H_ot5Y5lvDW3CAfRdhfef1kdg&fn=external_8"
+    },
+    {
+      "video_id": "1514449668681",
+      "title_raw": "[SR] Digimon Frontier - 47_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 47,
+      "views": 3913,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647175539273&type=37&idx=4&tkn=mQwjfSTptOOebTdbJfkrXp2JYo4&fn=external_8"
+    },
+    {
+      "video_id": "1514449144393",
+      "title_raw": "[SR] Digimon Frontier - 48_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 48,
+      "views": 3925,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647143426633&type=37&idx=3&tkn=tS0Nw7vLLT8DsBhNu7qLBRNjmKc&fn=external_8"
+    },
+    {
+      "video_id": "1514450061897",
+      "title_raw": "[SR] Digimon Frontier - 49_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 49,
+      "views": 5219,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647200442953&type=37&idx=11&tkn=usX1BayraBIdFGOcISKP0bsumn4&fn=external_8"
+    },
+    {
+      "video_id": "1514449734217",
+      "title_raw": "[SR] Digimon Frontier - 50_x264",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 50,
+      "views": 6207,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=647180192329&type=37&idx=8&tkn=Yb0W_sUQwvptFul5qh1THfrXEwI&fn=external_8"
+    }
+  ]
+}

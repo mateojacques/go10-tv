@@ -1,0 +1,223 @@
+{
+  "title": "Punkin Puss y Mush Mouse",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2225737",
+  "year": "1964",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Clásicos",
+  "videos": [
+    {
+      "video_id": "1387983997513",
+      "title_raw": "01 Llamando a todos",
+      "duration_raw": "13:33",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 4736,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=12607440357893&type=32&idx=7&tkn=YzytutBNv7_nEA4_iGkYjqJ3kLs&fn=external_8"
+    },
+    {
+      "video_id": "1387983800905",
+      "title_raw": "02 Pequeño cambio",
+      "duration_raw": "13:33",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 1243,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=12458237430490&type=32&idx=3&tkn=NJUy-FjD2TIpJ945GmDNCFQ8TNY&fn=external_8"
+    },
+    {
+      "video_id": "1387983669833",
+      "title_raw": "03 Engañados",
+      "duration_raw": "13:32",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 802,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1041229875738&type=32&idx=3&tkn=ufFB9DMuPJJ7TeJxNgVCvp0thLY&fn=external_8"
+    },
+    {
+      "video_id": "1387982686793",
+      "title_raw": "04 Raton megaton",
+      "duration_raw": "13:32",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 632,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1041210280474&type=32&idx=2&tkn=BWBCZRXpgvAL5GWE_RH1yZMkBAc&fn=external_8"
+    },
+    {
+      "video_id": "1387982621257",
+      "title_raw": "05 Mata-gatos",
+      "duration_raw": "13:33",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 615,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=12278873131658&type=32&idx=7&tkn=tJgS9IBZZE_UNNC7Nd6ZUqod5cI&fn=external_8"
+    },
+    {
+      "video_id": "1387983145545",
+      "title_raw": "06 El ejercito en maniobras",
+      "duration_raw": "13:25",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 1043,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=12474859784872&type=32&idx=3&tkn=nBSg7JNZvviZ7gWUDzRNqGGBmBU&fn=external_8"
+    },
+    {
+      "video_id": "1387982817865",
+      "title_raw": "07 Ver es creer",
+      "duration_raw": "13:34",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 757,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=12517788355289&type=32&idx=1&tkn=zA8T53fOumNuQQjcLwr8pckGLTM&fn=external_8"
+    },
+    {
+      "video_id": "1387983931977",
+      "title_raw": "08 Novios frustrados",
+      "duration_raw": "13:33",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 625,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=12110979336879&type=32&idx=6&tkn=nEsPyJUJYgrJTfPCnx_eP8rI8tc&fn=external_8"
+    },
+    {
+      "video_id": "1387983014473",
+      "title_raw": "09 Historia de dos gatitos",
+      "duration_raw": "13:33",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 544,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1041227057690&type=32&idx=5&tkn=qkFbyEKR5fJxPS8bOWDjSEUzTwo&fn=external_8"
+    },
+    {
+      "video_id": "1387984063049",
+      "title_raw": "10 El muelitas",
+      "duration_raw": "13:31",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 676,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=12647372687910&type=32&idx=1&tkn=YNgvv-vm99qARJ2R_PoRpg0cXxw&fn=external_8"
+    },
+    {
+      "video_id": "1387983538761",
+      "title_raw": "11 Año biciesto",
+      "duration_raw": "13:33",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 633,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1041213032986&type=32&idx=10&tkn=SC-ck4QwXKEbLjmpve3AKf16Qfw&fn=external_8"
+    },
+    {
+      "video_id": "1387983276617",
+      "title_raw": "12 El atleta",
+      "duration_raw": "13:33",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 395,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=12775358532133&type=32&idx=5&tkn=OpGDyMRjLB-wHAGCO5ItzUALVEw&fn=external_8"
+    },
+    {
+      "video_id": "1387983407689",
+      "title_raw": "13 Oso peresozo",
+      "duration_raw": "13:29",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 504,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=12132334963380&type=32&idx=4&tkn=lbGBwXEQnItb7OaM4L6e76mdkmc&fn=external_8"
+    },
+    {
+      "video_id": "1387983473225",
+      "title_raw": "14 La leyenda de bat mouseterson",
+      "duration_raw": "13:31",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 407,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=12163160738383&type=32&idx=6&tkn=PjdxY_gsZmvdxvZXNub2tVHKtzo&fn=external_8"
+    },
+    {
+      "video_id": "1387983342153",
+      "title_raw": "15 Super-duper gato",
+      "duration_raw": "13:34",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 376,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=12378491587320&type=32&idx=7&tkn=WFAsWsPXQzASzvCmXsgDT85jFlI&fn=external_8"
+    },
+    {
+      "video_id": "1387983866441",
+      "title_raw": "16 Super veloz",
+      "duration_raw": "13:32",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 487,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=12137725626900&type=32&idx=6&tkn=m8oZZA3gS8woh9gZbgW8LbsI7h8&fn=external_8"
+    },
+    {
+      "video_id": "1387983735369",
+      "title_raw": "17 El gato popof",
+      "duration_raw": "13:29",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 354,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=12393977154185&type=32&idx=4&tkn=OrsMah35KLNco3tkFUvflpZflZY&fn=external_8"
+    },
+    {
+      "video_id": "1387983211081",
+      "title_raw": "18 El raton de somp",
+      "duration_raw": "13:35",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 394,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=12354923137619&type=32&idx=3&tkn=9vjrIMYgQGU0IknSTRXhPsFvj5E&fn=external_8"
+    },
+    {
+      "video_id": "1387983080009",
+      "title_raw": "19 Fantasmas a mi",
+      "duration_raw": "13:34",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 481,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=12122178718258&type=32&idx=5&tkn=Oz-o3iCvcoANwpL0f3mg55By1j8&fn=external_8"
+    },
+    {
+      "video_id": "1387983604297",
+      "title_raw": "20 El sueño imposible",
+      "duration_raw": "13:37",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 352,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=12157252340340&type=32&idx=0&tkn=wmd33XLCcp1gWr0C2oCT8rfuALQ&fn=external_8"
+    },
+    {
+      "video_id": "1387982948937",
+      "title_raw": "21 La herencia",
+      "duration_raw": "13:34",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 451,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=12489634744986&type=32&idx=4&tkn=Uua_zjnhvxOk7mxrqpB3Q92U3j8&fn=external_8"
+    },
+    {
+      "video_id": "1387982752329",
+      "title_raw": "22 La formula maligna",
+      "duration_raw": "13:32",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 367,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1041214540314&type=32&idx=5&tkn=Misapc3j8Zte83g-hCEDegwJhfY&fn=external_8"
+    },
+    {
+      "video_id": "1387982883401",
+      "title_raw": "23 El dia afortunado",
+      "duration_raw": "13:34",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 389,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=12181291404013&type=32&idx=1&tkn=c7Tz08gK3hbzGXN96UKR6hfyjpo&fn=external_8"
+    }
+  ]
+}

@@ -1,0 +1,601 @@
+{
+  "title": "Los Centuriones",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2376777",
+  "year": "1986",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "1464989059657",
+      "title_raw": "01 El cantar de las ballenas Subido por refulerosweb.com_x264",
+      "duration_raw": "21:06",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 16278,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621932972617&type=32&idx=13&tkn=Opb7kp8cMfrwQgECJejd9GLMeh0&fn=external_8"
+    },
+    {
+      "video_id": "1464987486793",
+      "title_raw": "02 El control meteoro Subido por refulerosweb.com_x264",
+      "duration_raw": "21:00",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 4088,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621876546121&type=32&idx=12&tkn=S_jZpCEZ5O3e4z3dhso1rCP-iXo&fn=external_8"
+    },
+    {
+      "video_id": "1464989125193",
+      "title_raw": "03 La caída de denver Subido por refulerosweb.com_x264",
+      "duration_raw": "21:03",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 2244,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621934676553&type=32&idx=1&tkn=XXSzwq6miZ74VPA1hAJv3n82OHk&fn=external_8"
+    },
+    {
+      "video_id": "1464987617865",
+      "title_raw": "04 Amenaza espacial Subido por refulerosweb.com_x264",
+      "duration_raw": "21:00",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1755,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621878315593&type=32&idx=1&tkn=B9HnT7El0Q53FwPH_27aZYp5_jI&fn=external_8"
+    },
+    {
+      "video_id": "1464987814473",
+      "title_raw": "05 El ataque de las plantas robot Subido por refulerosweb.com_x264",
+      "duration_raw": "21:08",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1381,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621885459017&type=32&idx=8&tkn=s_fOiLNx8i8th9aJSnTlz-NuWKw&fn=external_8"
+    },
+    {
+      "video_id": "1464987224649",
+      "title_raw": "06 Enfrentamiento en el hielo Subido por refulerosweb.com_x264",
+      "duration_raw": "21:14",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 1228,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621870713417&type=32&idx=10&tkn=PoWwvMZfCPotv8zQxdXA5HGtmCo&fn=external_8"
+    },
+    {
+      "video_id": "1464989387337",
+      "title_raw": "07 Operación satélite Subido por refulerosweb.com_x264",
+      "duration_raw": "20:56",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1263,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621940574793&type=32&idx=8&tkn=foacyKqxMA9VN1KNiNI6ghblL0U&fn=external_8"
+    },
+    {
+      "video_id": "1464989452873",
+      "title_raw": "08 El juego debe comenzar Subido por refulerosweb.com_x264",
+      "duration_raw": "21:06",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1134,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621942213193&type=32&idx=1&tkn=02CVzd2qSx7_xk80_hWJXtZnKvQ&fn=external_8"
+    },
+    {
+      "video_id": "1464987355721",
+      "title_raw": "09 El oropéndola Subido por refulerosweb.com_x264",
+      "duration_raw": "20:53",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 881,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621874186825&type=32&idx=1&tkn=BIkv8rECOeLXda9yOmPA_wytlqo&fn=external_8"
+    },
+    {
+      "video_id": "1464988469833",
+      "title_raw": "10 Persecución en la nieve Subido por refulerosweb.com_x264",
+      "duration_raw": "20:52",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 969,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621909641801&type=32&idx=1&tkn=696nn6mLsq6xIejeUF0bt1jHmuE&fn=external_8"
+    },
+    {
+      "video_id": "1464989256265",
+      "title_raw": "11 El regreso del capitán acero Subido por refulerosweb.com_x264",
+      "duration_raw": "21:11",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 938,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621936839241&type=32&idx=3&tkn=i5vPRIrP10mq1Cz2OO_88i6_yuI&fn=external_8"
+    },
+    {
+      "video_id": "1464988731977",
+      "title_raw": "12 El tercer strike Subido por refulerosweb.com_x264",
+      "duration_raw": "20:57",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 715,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621917571657&type=32&idx=13&tkn=J_tAfIaoYIlD_P4b3QO22mL2s2k&fn=external_8"
+    },
+    {
+      "video_id": "1464988142153",
+      "title_raw": "13 Doble identidad Subido por refulerosweb.com_x264",
+      "duration_raw": "20:43",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 1110,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621894568521&type=32&idx=12&tkn=zzQU4g3gLeAqMZ9tTBCSbqKSb_o&fn=external_8"
+    },
+    {
+      "video_id": "1464989321801",
+      "title_raw": "14 Juego de niños Subido por refulerosweb.com_x264",
+      "duration_raw": "20:54",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 730,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621938805321&type=32&idx=11&tkn=FbdnCmg_Ju6NAOSkjKv6UOq1rZk&fn=external_8"
+    },
+    {
+      "video_id": "1464989583945",
+      "title_raw": "15 Terror en el hielo Subido por refulerosweb.com_x264",
+      "duration_raw": "21:12",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 689,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621945358921&type=32&idx=10&tkn=GjiZws6UBMusnEk6uyetYt0J4p0&fn=external_8"
+    },
+    {
+      "video_id": "1464988076617",
+      "title_raw": "16 La magia negra Subido por refulerosweb.com_x264",
+      "duration_raw": "20:54",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 717,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621892536905&type=32&idx=9&tkn=UMVWDibxmXpqA1E0NYSHGjy7nNE&fn=external_8"
+    },
+    {
+      "video_id": "1464989518409",
+      "title_raw": "17 Max ray, traidor Subido por refulerosweb.com_x264",
+      "duration_raw": "21:09",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 619,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621943065161&type=32&idx=5&tkn=hPrie_karXLhymPDk0fbJKsq7mE&fn=external_8"
+    },
+    {
+      "video_id": "1464987421257",
+      "title_raw": "18 Destruyan al mundo Subido por refulerosweb.com_x264",
+      "duration_raw": "21:03",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 740,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621875694153&type=32&idx=12&tkn=y8H6U66D8m7ZbBxUhQh_HfNw1r4&fn=external_8"
+    },
+    {
+      "video_id": "1464986962505",
+      "title_raw": "19 Los increíbles centuriones miniaturizados Subido por refulerosweb.com_x264",
+      "duration_raw": "21:04",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 637,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621864946249&type=32&idx=10&tkn=eRBsId2hEEL1D3BoXgrm1ldJVrE&fn=external_8"
+    },
+    {
+      "video_id": "1464987028041",
+      "title_raw": "20 Mala información Subido por refulerosweb.com_x264",
+      "duration_raw": "20:52",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 627,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621866715721&type=32&idx=13&tkn=AD9qg3gfoydFuRNdnzOD4lJuja0&fn=external_8"
+    },
+    {
+      "video_id": "1464988994121",
+      "title_raw": "21 La maldición de la momia Subido por refulerosweb.com_x264",
+      "duration_raw": "21:13",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 573,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621931006537&type=32&idx=6&tkn=NDXO4FJtxtaKNFdjfOwILm1q19A&fn=external_8"
+    },
+    {
+      "video_id": "1464988600905",
+      "title_raw": "22 Viaje al futuro Subido por refulerosweb.com_x264",
+      "duration_raw": "21:02",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 879,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621913115209&type=32&idx=1&tkn=HtBFs4Lcluq0Jqb5E_fGwMXDWAs&fn=external_8"
+    },
+    {
+      "video_id": "1464988207689",
+      "title_raw": "23 El amo de los zombies Subido por refulerosweb.com_x264",
+      "duration_raw": "20:35",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 588,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621897910857&type=32&idx=14&tkn=ppszyX6_XjXDAV6RN_k6dUBnYbs&fn=external_8"
+    },
+    {
+      "video_id": "1464988863049",
+      "title_raw": "24 Problemas de control Subido por refulerosweb.com_x264",
+      "duration_raw": "21:11",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 657,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621927467593&type=32&idx=4&tkn=dRH9116RCJCJS50eO4fmRlM6JOU&fn=external_8"
+    },
+    {
+      "video_id": "1464988338761",
+      "title_raw": "25 Problemas de transmisión Subido por refulerosweb.com_x264",
+      "duration_raw": "21:06",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 654,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621904136777&type=32&idx=1&tkn=wQ37MEZTSa9LxvpXKWOGTbDP1cE&fn=external_8"
+    },
+    {
+      "video_id": "1464988535369",
+      "title_raw": "26 El ataque del camaleón Subido por refulerosweb.com_x264",
+      "duration_raw": "21:08",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 567,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621911083593&type=32&idx=13&tkn=eRPgkaHZoYUgJ28al3ECCdyjE4Q&fn=external_8"
+    },
+    {
+      "video_id": "1464988666441",
+      "title_raw": "27 El ejército del doctor terror Subido por refulerosweb.com_x264",
+      "duration_raw": "21:07",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 565,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621915802185&type=32&idx=0&tkn=UDfRT_bPZtb__TeMJl1QYejDIUE&fn=external_8"
+    },
+    {
+      "video_id": "1464988273225",
+      "title_raw": "28 Hacker debe ser destruido Subido por refulerosweb.com_x264",
+      "duration_raw": "20:59",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 563,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621900597833&type=32&idx=7&tkn=8XIzo6t4JTFH3s6go3Bg96UXbB0&fn=external_8"
+    },
+    {
+      "video_id": "1464987093577",
+      "title_raw": "29 La estrella de la alegría Subido por refulerosweb.com_x264",
+      "duration_raw": "20:58",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 547,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621868026441&type=32&idx=9&tkn=ols0FWwpYsPEfgVB6IXiCguk5sY&fn=external_8"
+    },
+    {
+      "video_id": "1464987945545",
+      "title_raw": "30 El guerrero Subido por refulerosweb.com_x264",
+      "duration_raw": "21:10",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 540,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621888408137&type=32&idx=2&tkn=PseGVjSihfubO63Iay6SmVKAGOY&fn=external_8"
+    },
+    {
+      "video_id": "1464987159113",
+      "title_raw": "31 El regreso de cassandra Subido por refulerosweb.com_x264",
+      "duration_raw": "21:02",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 548,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621869271625&type=32&idx=13&tkn=IIi5a_U40hAePw3y2Igm-p2iYQ0&fn=external_8"
+    },
+    {
+      "video_id": "1464988797513",
+      "title_raw": "32 La montaña del terror Subido por refulerosweb.com_x264",
+      "duration_raw": "20:50",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 490,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621924715081&type=32&idx=8&tkn=rYxlkxPKZXeWtXFJWBQLl0jSiWk&fn=external_8"
+    },
+    {
+      "video_id": "1464988404297",
+      "title_raw": "33 El mago merlín Subido por refulerosweb.com_x264",
+      "duration_raw": "21:01",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 606,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621907085897&type=32&idx=12&tkn=z3YJFyjHOitMseiCSzZFeqnBZsI&fn=external_8"
+    },
+    {
+      "video_id": "1464987552329",
+      "title_raw": "34 Los humanoides del doctor romulus Subido por refulerosweb.com_x264",
+      "duration_raw": "21:14",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 758,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621877267017&type=32&idx=13&tkn=1NeFa0EVfcT5y54cSEJl3LG7WTY&fn=external_8"
+    },
+    {
+      "video_id": "1464988011081",
+      "title_raw": "35 Los demonios del camino Subido por refulerosweb.com_x264",
+      "duration_raw": "21:08",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 513,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621890374217&type=32&idx=3&tkn=ejTZguC5XP2rhb6bITEctBwZdhE&fn=external_8"
+    },
+    {
+      "video_id": "1464987880009",
+      "title_raw": "36 El engaño Subido por refulerosweb.com_x264",
+      "duration_raw": "21:48",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 525,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621887294025&type=32&idx=3&tkn=UBxzciGX3IedN2uppgK4LbjfnoM&fn=external_8"
+    },
+    {
+      "video_id": "1464987748937",
+      "title_raw": "37 Operación petardo Subido por refulerosweb.com_x264",
+      "duration_raw": "21:48",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 511,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621883165257&type=32&idx=7&tkn=hQZN1Zm5WTTAcBSNowsLCVsnnDs&fn=external_8"
+    },
+    {
+      "video_id": "1464987290185",
+      "title_raw": "38 Traidor en el skydome Subido por refulerosweb.com_x264",
+      "duration_raw": "21:46",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 526,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621872417353&type=32&idx=3&tkn=079N9Xb0F1p7spfJ5RgrvzIETe0&fn=external_8"
+    },
+    {
+      "video_id": "1464987683401",
+      "title_raw": "39 Solo se ama dos veces Subido por refulerosweb.com_x264",
+      "duration_raw": "21:17",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 506,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621880740425&type=32&idx=13&tkn=JBvHy0foNrz1nYbUXLiD2Il5q0I&fn=external_8"
+    },
+    {
+      "video_id": "1464988928585",
+      "title_raw": "40 Trayectoria suicida Subido por refulerosweb.com_x264",
+      "duration_raw": "21:50",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 5311,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621929105993&type=32&idx=1&tkn=j-klzToJ-mYE30YH13_d79W2lKo&fn=external_8"
+    },
+    {
+      "video_id": "1465176689225",
+      "title_raw": "41 Errores de principiantes Subido por refulerosweb.com_x264",
+      "duration_raw": "21:45",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 815,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621958728265&type=32&idx=9&tkn=OoJkFJHjniMbZE7ZfTOeGhM7VUo&fn=external_8"
+    },
+    {
+      "video_id": "1465177737801",
+      "title_raw": "42 La destrucción de la presa Subido por refulerosweb.com_x264",
+      "duration_raw": "21:06",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 498,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621988219465&type=32&idx=4&tkn=6-eN7JEDkgyjQoX1irzvtQ-nOlI&fn=external_8"
+    },
+    {
+      "video_id": "1465176951369",
+      "title_raw": "43 Aventura en la atlántida primera parte Subido por refulerosweb.com_x264",
+      "duration_raw": "21:02",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 594,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621966330441&type=32&idx=12&tkn=inbvDrj5fK2VmusR0H1fveCw8_U&fn=external_8"
+    },
+    {
+      "video_id": "1465177475657",
+      "title_raw": "44 Aventura en la atlántida segunda parte Subido por refulerosweb.com_x264",
+      "duration_raw": "21:03",
+      "season_number": 1,
+      "episode_number": 44,
+      "views": 486,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621981141577&type=32&idx=6&tkn=6bAJRBBGQtUemf-WWwf1oObtsbE&fn=external_8"
+    },
+    {
+      "video_id": "1465177606729",
+      "title_raw": "45 El guerrero anónimo Subido por refulerosweb.com_x264",
+      "duration_raw": "21:43",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 488,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621984942665&type=32&idx=2&tkn=HHdChJcwEjh1wyOKFIopMygU7fI&fn=external_8"
+    },
+    {
+      "video_id": "1465176820297",
+      "title_raw": "46 Una tormenta eléctrica Subido por refulerosweb.com_x264",
+      "duration_raw": "21:48",
+      "season_number": 1,
+      "episode_number": 46,
+      "views": 523,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621961611849&type=32&idx=6&tkn=l6LieDVKjPxqmIgL_6DxlZGRJJ0&fn=external_8"
+    },
+    {
+      "video_id": "1465176754761",
+      "title_raw": "47 Un centurión robot Subido por refulerosweb.com_x264",
+      "duration_raw": "20:46",
+      "season_number": 1,
+      "episode_number": 47,
+      "views": 648,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621959580233&type=32&idx=1&tkn=sqL8t07EWuB44DYXFDFS8_YwSQI&fn=external_8"
+    },
+    {
+      "video_id": "1465177934409",
+      "title_raw": "48 El ataque de los animales Subido por refulerosweb.com_x264",
+      "duration_raw": "21:48",
+      "season_number": 1,
+      "episode_number": 48,
+      "views": 942,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621994707529&type=32&idx=3&tkn=N53qT6f-h0kJnsVnIG2Lr9FWBTc&fn=external_8"
+    },
+    {
+      "video_id": "1465177541193",
+      "title_raw": "49 La destrucción de dominio primera parte Subido por refulerosweb.com_x264",
+      "duration_raw": "21:04",
+      "season_number": 1,
+      "episode_number": 49,
+      "views": 629,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621982911049&type=32&idx=11&tkn=EAQXsZSmGiXvpRFDNFlRYt907JA&fn=external_8"
+    },
+    {
+      "video_id": "1465177672265",
+      "title_raw": "50 La destrucción de dominio segunda parte Subido por refulerosweb.com_x264",
+      "duration_raw": "21:43",
+      "season_number": 1,
+      "episode_number": 50,
+      "views": 596,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621986384457&type=32&idx=14&tkn=iJna4WjKNNvnjWl-Y_5wOi-Vh74&fn=external_8"
+    },
+    {
+      "video_id": "1465177213513",
+      "title_raw": "51 Una puerta en el océano primera parte Subido por refulerosweb.com_x264",
+      "duration_raw": "21:48",
+      "season_number": 1,
+      "episode_number": 51,
+      "views": 491,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621972621897&type=32&idx=12&tkn=d9llE0nnUGkdocv2zo5LdSeWxc8&fn=external_8"
+    },
+    {
+      "video_id": "1465176885833",
+      "title_raw": "52 Una puerta en el océano segunda parte Subido por refulerosweb.com_x264",
+      "duration_raw": "21:48",
+      "season_number": 1,
+      "episode_number": 52,
+      "views": 487,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621964429897&type=32&idx=8&tkn=aoRZZoDsMFtjdEJ8ekXxdC0N6fw&fn=external_8"
+    },
+    {
+      "video_id": "1465177082441",
+      "title_raw": "53 Una mitad poderosa primera parte Subido por refulerosweb.com_x264",
+      "duration_raw": "21:50",
+      "season_number": 1,
+      "episode_number": 53,
+      "views": 515,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621969541705&type=32&idx=4&tkn=IDtaLRNMYKIXwdnb6Ud3IMk7hGE&fn=external_8"
+    },
+    {
+      "video_id": "1465177803337",
+      "title_raw": "54 Una mitad poderosa segunda parte Subido por refulerosweb.com_x264",
+      "duration_raw": "21:46",
+      "season_number": 1,
+      "episode_number": 54,
+      "views": 707,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621990578761&type=32&idx=8&tkn=at1NX7ifAZbs9kZjkhkyoyBVKDo&fn=external_8"
+    },
+    {
+      "video_id": "1465177344585",
+      "title_raw": "55 La venganza Subido por refulerosweb.com_x264",
+      "duration_raw": "21:45",
+      "season_number": 1,
+      "episode_number": 55,
+      "views": 493,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621977012809&type=32&idx=13&tkn=zBzGV1Xu7FRQE4f9Sci9O9mdCyM&fn=external_8"
+    },
+    {
+      "video_id": "1465177868873",
+      "title_raw": "56 Hombre o máquina primera parte Subido por refulerosweb.com_x264",
+      "duration_raw": "21:49",
+      "season_number": 1,
+      "episode_number": 56,
+      "views": 660,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621992741449&type=32&idx=13&tkn=GT7YTXJAwgatK2JEiom-sWlDg7w&fn=external_8"
+    },
+    {
+      "video_id": "1465177279049",
+      "title_raw": "57 Hombre o máquina segunda parte Subido por refulerosweb.com_x264",
+      "duration_raw": "21:45",
+      "season_number": 1,
+      "episode_number": 57,
+      "views": 597,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621974587977&type=32&idx=1&tkn=ZkX48Dl_7yxOtEnjRtePCNeMqmU&fn=external_8"
+    },
+    {
+      "video_id": "1465177147977",
+      "title_raw": "58 Hombre o máquina tercera parte Subido por refulerosweb.com_x264",
+      "duration_raw": "21:49",
+      "season_number": 1,
+      "episode_number": 58,
+      "views": 580,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621971245641&type=32&idx=12&tkn=-f6N6_kevN2cxq0Yg60E_n8A7iY&fn=external_8"
+    },
+    {
+      "video_id": "1465177016905",
+      "title_raw": "59 Hombre o máquina cuarta parte Subido por refulerosweb.com_x264",
+      "duration_raw": "21:45",
+      "season_number": 1,
+      "episode_number": 59,
+      "views": 523,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621968362057&type=32&idx=2&tkn=Dpzc5-IF2lH6ZO4h2n437rk7CgE&fn=external_8"
+    },
+    {
+      "video_id": "1465177410121",
+      "title_raw": "60 Hombre o máquina quinta parte Subido por refulerosweb.com_x264",
+      "duration_raw": "21:48",
+      "season_number": 1,
+      "episode_number": 60,
+      "views": 580,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=621979503177&type=32&idx=1&tkn=oMwiSXEbINdbwK46dmWoQnU8qXk&fn=external_8"
+    },
+    {
+      "video_id": "1480521943625",
+      "title_raw": "Centuriones Miniseries Ep 61 The Sky is on Fire [DVD+TV][Latino]",
+      "duration_raw": "21:36",
+      "season_number": 1,
+      "episode_number": 61,
+      "views": 589,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3632517876347&type=32&idx=3&tkn=Qx4789b9ewYBHN9eOUML77zbCTY&fn=external_8"
+    },
+    {
+      "video_id": "1480521747017",
+      "title_raw": "Centuriones Miniseries Ep 62 Battle Beneath the Sea [DVD+TV][Latino]",
+      "duration_raw": "21:32",
+      "season_number": 1,
+      "episode_number": 62,
+      "views": 539,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3632519252603&type=32&idx=1&tkn=tsw5AVegbdEkYcT7JttEtwzYDcc&fn=external_8"
+    },
+    {
+      "video_id": "1480521878089",
+      "title_raw": "Centuriones Miniseries Ep 63 An Alien Affair [DVD+TV][Latino]",
+      "duration_raw": "21:24",
+      "season_number": 1,
+      "episode_number": 63,
+      "views": 585,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3632518662779&type=32&idx=6&tkn=DgaAuxUhRkl-nywGbKeAYvJkTVY&fn=external_8"
+    },
+    {
+      "video_id": "1480522009161",
+      "title_raw": "Centuriones Miniseries Ep 64 Found One Lost World [DVD+TV][Latino]",
+      "duration_raw": "20:54",
+      "season_number": 1,
+      "episode_number": 64,
+      "views": 629,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=630030600777&type=32&idx=6&tkn=Yr9Svsn9VAG6Iw3H08b4XN57wSs&fn=external_8"
+    },
+    {
+      "video_id": "1480521812553",
+      "title_raw": "Centuriones Miniseries Ep 65 Sand Doom [DVD+TV][Latino]",
+      "duration_raw": "21:33",
+      "season_number": 1,
+      "episode_number": 65,
+      "views": 1024,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=630019131977&type=32&idx=10&tkn=YN07fytPgxfiaXYnSKSA12dBphQ&fn=external_8"
+    }
+  ]
+}

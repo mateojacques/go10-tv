@@ -1,0 +1,250 @@
+{
+  "title": "Policía de Cuentos de Hadas",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c4840265",
+  "year": "1999",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "2481316825673",
+      "title_raw": "FTPD Policia de Cuentos EP01 Pinocchio Puppet in Peril [granclaudio]",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 3012,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281481771593&type=32&idx=10&tkn=TFXOUOlMXDuB1MbCmqsY0YTiRDw&fn=external_8"
+    },
+    {
+      "video_id": "2481316956745",
+      "title_raw": "FTPD Policia de Cuentos EP02 The Frog Prince Riddle [granclaudio]",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 835,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281506085449&type=32&idx=5&tkn=nZFzIclD8hOWUAAgmdc-lXy-no8&fn=external_8"
+    },
+    {
+      "video_id": "2481317546569",
+      "title_raw": "FTPD Policia de Cuentos EP03 Black Day for Snow White [granclaudio]",
+      "duration_raw": "23:43",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 684,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281613171273&type=32&idx=11&tkn=Fw-i1HbUNuVAPuHh_Sn00nauePI&fn=external_8"
+    },
+    {
+      "video_id": "2481316432457",
+      "title_raw": "FTPD Policia de Cuentos EP04 No Kiss for Sleeping Beauty [granclaudio]",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 582,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281420495433&type=32&idx=2&tkn=u74tHxiAmssd12fhhzhju84Zr0E&fn=external_8"
+    },
+    {
+      "video_id": "2481316104777",
+      "title_raw": "FTPD Policia de Cuentos EP05 Little Pigs' House of Trouble [granclaudio]",
+      "duration_raw": "22:29",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 476,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281390217801&type=32&idx=5&tkn=9Cahtqlfvl0ZmHdaV8jLuJOrq_o&fn=external_8"
+    },
+    {
+      "video_id": "2481317087817",
+      "title_raw": "FTPD Policia de Cuentos EP06 The Emperor's New Clues [by granclaudio]",
+      "duration_raw": "23:37",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 450,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281529088585&type=32&idx=9&tkn=aXIScZDu1_Vp4mAOm6YXnRtFRuM&fn=external_8"
+    },
+    {
+      "video_id": "2481315973705",
+      "title_raw": "FTPD Policia de Cuentos EP07 Big Trouble for the Little Tailor (The Brave Little Tailor) [by granclaudio]",
+      "duration_raw": "22:37",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 390,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281366428233&type=32&idx=5&tkn=M4Vr7Tv_OgoDqcCR-9uKH3DviAM&fn=external_8"
+    },
+    {
+      "video_id": "2481317415497",
+      "title_raw": "FTPD Policia de Cuentos EP08 The Good, The Bad, and the Ugly Duckling (The Ugly Duckling) [by granclaudio]",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 359,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281584597577&type=32&idx=4&tkn=NNYUFLXiSEiWtRH_PfxoP92KGNI&fn=external_8"
+    },
+    {
+      "video_id": "2481315908169",
+      "title_raw": "F.T.P.D. -  Capítulo 9 - The Beauty & The Beast Bungle",
+      "duration_raw": "25:17",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 392,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281356270153&type=32&idx=7&tkn=dGukYRaRf9XQEQII7sZQ9mKfG4M&fn=external_8"
+    },
+    {
+      "video_id": "2481316039241",
+      "title_raw": "F.T.P.D. -  Capítulo 10 - Última paja de Rumpelstiltskin",
+      "duration_raw": "25:17",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 426,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281376848457&type=32&idx=3&tkn=dMLIWoPswbZ9i6Ij92Gp6kD1q8g&fn=external_8"
+    },
+    {
+      "video_id": "2481317284425",
+      "title_raw": "FTPD Policia de Cuentos EP11 The Glass Slipper Caper (Cinderella) [by granclaudio]",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 538,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281562577481&type=32&idx=8&tkn=8iPX9rFmXo8pQtTiNyw0pCK8fnE&fn=external_8"
+    },
+    {
+      "video_id": "2481316563529",
+      "title_raw": "FTPD Policia de Cuentos EP12 The Trials of The Tin Soldier (The Steadfast Tin Soldier) [by granclaudio]",
+      "duration_raw": "22:48",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 344,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281445726793&type=32&idx=13&tkn=iaXc5DKSxT_Hb7Qv1W-7CkEowkE&fn=external_8"
+    },
+    {
+      "video_id": "2481317808713",
+      "title_raw": "FTPD Policia de Cuentos EP13 Musicians of Bremen Mystery (Town Musicians of Bremen) [by granclaudio]",
+      "duration_raw": "23:24",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 423,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281646791241&type=32&idx=0&tkn=EbaUcdSyEn5xDXM3K-60G9WUdBU&fn=external_8"
+    },
+    {
+      "video_id": "2481316694601",
+      "title_raw": "FTPD Policia de Cuentos EP14 No Pea for A Princess (The Princess and the Pea) [by granclaudio]",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 313,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281455622729&type=32&idx=4&tkn=3C4QfSObkmIdUv4pmqIC6QjGVVM&fn=external_8"
+    },
+    {
+      "video_id": "2481316891209",
+      "title_raw": "FTPD Policia de Cuentos EP15 Who'll Help Hansel and Gretel (Hansel and Gretel) [by granclaudio]",
+      "duration_raw": "23:33",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 315,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281492781641&type=32&idx=6&tkn=YMkMgTEmpzKX4h8V_256EfxxZ5s&fn=external_8"
+    },
+    {
+      "video_id": "2481317022281",
+      "title_raw": "FTPD Policia de Cuentos EP16 The Sorcerer's Apprentice Spells Trouble (The Sorcerer's Apprentice) [by granclaudio]",
+      "duration_raw": "23:33",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 311,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281518537289&type=32&idx=14&tkn=WcEB2cQfXTR29wy7PqoFCRujX5w&fn=external_8"
+    },
+    {
+      "video_id": "2481316235849",
+      "title_raw": "FTPD Policia de Cuentos EP17 The Hair-Raising Rapunzel Case (Rapunzel) [by granclaudio]",
+      "duration_raw": "23:25",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 367,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281399589449&type=32&idx=14&tkn=Xw6nvjXenRp-jv-2fF-_ZmXAMC4&fn=external_8"
+    },
+    {
+      "video_id": "2481317612105",
+      "title_raw": "FTPD Policia de Cuentos EP18 The Big Beanstalk Break-In (Jack and the Beanstalk) [by granclaudio]",
+      "duration_raw": "23:34",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 303,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281623460425&type=32&idx=8&tkn=hKK4jfP0d6JUj0VANcrYfjb_q1o&fn=external_8"
+    },
+    {
+      "video_id": "2481317481033",
+      "title_raw": "FTPD Policia de Cuentos EP19 The Pied Piper Puzzle (The Pied Piper) [by granclaudio]",
+      "duration_raw": "23:31",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 304,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281596066377&type=32&idx=12&tkn=825U3KQlyn_FcdWub4ADUqhacgM&fn=external_8"
+    },
+    {
+      "video_id": "2481316497993",
+      "title_raw": "FTPD Policia de Cuentos EP20 Trouble Afoot for Puss in Boots (Puss in Boots) [by granclaudio]",
+      "duration_raw": "23:32",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 285,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281434847817&type=32&idx=2&tkn=TbH4MNu-CPjzz2aixT3XD1ikgxg&fn=external_8"
+    },
+    {
+      "video_id": "2481316366921",
+      "title_raw": "FTPD Policia de Cuentos EP21 Aladdin and the Lost Lamp (Aladdin) [by granclaudio]",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 324,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281410140745&type=32&idx=11&tkn=i2ORpusq72oW5WiTZheMji43nFk&fn=external_8"
+    },
+    {
+      "video_id": "2481317677641",
+      "title_raw": "FTPD Policia de Cuentos EP22 Wrong Way For Little Red Riding Hood (Red Riding Hood) [by granclaudio]",
+      "duration_raw": "23:34",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 283,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281636043337&type=32&idx=0&tkn=dMW1G7Bz_fnvRbzVfkKjhie2yDg&fn=external_8"
+    },
+    {
+      "video_id": "2481316760137",
+      "title_raw": "FTPD Policia de Cuentos EP23 Ali Baba and The Faulty Thieves (Ali Baba and the Forty Thieves) [by granclaudio]",
+      "duration_raw": "23:28",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 266,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281467091529&type=32&idx=2&tkn=obgOBLdz3In70oXverCwUDrvzUA&fn=external_8"
+    },
+    {
+      "video_id": "2481317349961",
+      "title_raw": "FTPD Policia de Cuentos EP24 The Curious Kidnapping of Thumbelina (Thumbelina) [by granclaudio]",
+      "duration_raw": "23:43",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 271,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281574242889&type=32&idx=1&tkn=81wLYLI9H3SqQPPh-anQJIMcquw&fn=external_8"
+    },
+    {
+      "video_id": "2481317153353",
+      "title_raw": "FTPD Policia de Cuentos EP25 The Fishy Tale of The Little Mermaid (The Little Mermaid) [by granclaudio]",
+      "duration_raw": "23:32",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 416,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281539902025&type=32&idx=8&tkn=y8mqotZBLfHfkjD9wJB1_5sK7Nc&fn=external_8"
+    },
+    {
+      "video_id": "2481317218889",
+      "title_raw": "FTPD Policia de Cuentos EP26 A Fairy Tale Ending [by granclaudio]",
+      "duration_raw": "23:39",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 492,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281551043145&type=32&idx=12&tkn=iVBQ_h9-7if7hMpHCEvGLWzO5dU&fn=external_8"
+    }
+  ]
+}

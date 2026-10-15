@@ -1,0 +1,484 @@
+{
+  "title": "El Autobús Mágico",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2868553 c2380617",
+  "year": "1994",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Infantil",
+  "genre_secondary": "Animación",
+  "videos": [
+    {
+      "video_id": "1635251915337",
+      "title_raw": "1x01 Espacio exterior",
+      "duration_raw": "25:58",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 9958,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705096125001&type=32&idx=1&tkn=mMxCUvS2nIn7RExkxDFQyGxLjmM&fn=external_8"
+    },
+    {
+      "video_id": "1635252046409",
+      "title_raw": "1x02 Sistema digestivo",
+      "duration_raw": "25:59",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 3505,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705105496649&type=32&idx=11&tkn=AfTzSU7xfEJRR25kqSZy9HuhgBs&fn=external_8"
+    },
+    {
+      "video_id": "1635251980873",
+      "title_raw": "1x03 Sistema inmunológico",
+      "duration_raw": "25:59",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1741,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705101433417&type=32&idx=1&tkn=FdSySopll6_fPfDnbHaFmDy1jBY&fn=external_8"
+    },
+    {
+      "video_id": "1635252177481",
+      "title_raw": "1x04 El océano",
+      "duration_raw": "25:58",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1292,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705108773449&type=32&idx=3&tkn=87xIMeVhRyfnCvPQvNu84dJafu0&fn=external_8"
+    },
+    {
+      "video_id": "1635253750345",
+      "title_raw": "1x05 Hábitats",
+      "duration_raw": "26:01",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1027,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705171360329&type=32&idx=0&tkn=ZmV-4WCVBloO3Fa9Mn9ZJvQYRZc&fn=external_8"
+    },
+    {
+      "video_id": "1635253881417",
+      "title_raw": "1x06 Alimentos podridos",
+      "duration_raw": "25:59",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 824,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705174506057&type=32&idx=11&tkn=XqzTNVHiqZ1_L3NT7DvXAeCN8SA&fn=external_8"
+    },
+    {
+      "video_id": "1635254405705",
+      "title_raw": "1x07 El desierto",
+      "duration_raw": "25:59",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 797,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705192790601&type=32&idx=14&tkn=s2XJTf5s2VJNm07dcp9QdRlvo54&fn=external_8"
+    },
+    {
+      "video_id": "1635254012489",
+      "title_raw": "1x08 El sonido",
+      "duration_raw": "25:59",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 939,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705178307145&type=32&idx=2&tkn=q5yBp3yBJEigeQjZhJTf0nWJbwQ&fn=external_8"
+    },
+    {
+      "video_id": "1635254143561",
+      "title_raw": "1x09 El pan",
+      "duration_raw": "26:01",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 1036,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705183025737&type=32&idx=13&tkn=YZm0TBGRTs1v7UwzeU3XQcTjJWk&fn=external_8"
+    },
+    {
+      "video_id": "1635254274633",
+      "title_raw": "1x10 Teorías físicas en béisbol",
+      "duration_raw": "26:03",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 514,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705187416649&type=32&idx=0&tkn=Fs8mMzoyPbczLN-2ON_A4brCOW8&fn=external_8"
+    },
+    {
+      "video_id": "1635254602313",
+      "title_raw": "1x11 Semillas",
+      "duration_raw": "26:01",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 607,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705202424393&type=32&idx=7&tkn=5gkeIT3XxpYeycaH7roFNaghmlM&fn=external_8"
+    },
+    {
+      "video_id": "1635254536777",
+      "title_raw": "1x12 Las hormigas",
+      "duration_raw": "26:01",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 664,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705199540809&type=32&idx=2&tkn=bEkh5izvgC8qkareCtUk8Fa-xMs&fn=external_8"
+    },
+    {
+      "video_id": "1635254929993",
+      "title_raw": "1x13 Meteorología",
+      "duration_raw": "26:01",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 697,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705217169993&type=32&idx=3&tkn=J4tZA1owoLDqYTKqMUDh9sqggmY&fn=external_8"
+    },
+    {
+      "video_id": "1635254995529",
+      "title_raw": "2x01 Las islas",
+      "duration_raw": "25:55",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 867,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705218873929&type=32&idx=3&tkn=FIb3e9RWEt2Ya-_M3ZRmcyrV4ME&fn=external_8"
+    },
+    {
+      "video_id": "1635254864457",
+      "title_raw": "2x02 Huesos, músculos y articulaciones",
+      "duration_raw": "25:55",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 765,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705214679625&type=32&idx=2&tkn=CKDWTL5vnDDObljkDK3AVZaKOpw&fn=external_8"
+    },
+    {
+      "video_id": "1635254667849",
+      "title_raw": "2x03 Mariposas",
+      "duration_raw": "25:55",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 744,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705206880841&type=32&idx=7&tkn=eZUlNYBFTSBkSBYjQmYhd4cGmpA&fn=external_8"
+    },
+    {
+      "video_id": "1635254471241",
+      "title_raw": "2x04 Dinosaurios",
+      "duration_raw": "25:56",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 795,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705196853833&type=32&idx=4&tkn=KIKw5EziJGRF_LdBu0HzGLZg3sQ&fn=external_8"
+    },
+    {
+      "video_id": "1635254733385",
+      "title_raw": "2x05 Ciclo del agua",
+      "duration_raw": "25:56",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 454,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705210485321&type=32&idx=1&tkn=moqaArFZq_FK3ZnGshFvQ5yhWbU&fn=external_8"
+    },
+    {
+      "video_id": "1635252243017",
+      "title_raw": "2x06 Pepinillos",
+      "duration_raw": "25:56",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 522,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705112640073&type=32&idx=3&tkn=ehaMPhvbP410uMTj65fLi8uljpU&fn=external_8"
+    },
+    {
+      "video_id": "1635253226057",
+      "title_raw": "2x07 Vehículos",
+      "duration_raw": "25:56",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 512,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705145604681&type=32&idx=2&tkn=hGM8iNCj35ti5D8_jDLVumrX_ow&fn=external_8"
+    },
+    {
+      "video_id": "1635253094985",
+      "title_raw": "2x08 Cómo vuelan las cosas",
+      "duration_raw": "25:56",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 413,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705138985545&type=32&idx=4&tkn=6n5LuziG5-itM13feiezHHzagDs&fn=external_8"
+    },
+    {
+      "video_id": "1635252767305",
+      "title_raw": "2x09 Murciélagos",
+      "duration_raw": "25:56",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 549,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705129417289&type=32&idx=4&tkn=eLQGm3319L-Safmz9ZV_UcjyJs4&fn=external_8"
+    },
+    {
+      "video_id": "1635252898377",
+      "title_raw": "2x10 Energía",
+      "duration_raw": "25:55",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 377,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705133414985&type=32&idx=2&tkn=KbKGCZSj1LRIFrcsMqoqwtRac0c&fn=external_8"
+    },
+    {
+      "video_id": "1635252636233",
+      "title_raw": "2x11 Asteroides",
+      "duration_raw": "25:55",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 386,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705126468169&type=32&idx=2&tkn=EDXuqWRA6fmInf515Nb7DiO0f-Y&fn=external_8"
+    },
+    {
+      "video_id": "1635252439625",
+      "title_raw": "2x12 Reptiles",
+      "duration_raw": "25:56",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 450,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705122011721&type=32&idx=0&tkn=Q47va9eAjD-JqLz1LVbgxXevZBk&fn=external_8"
+    },
+    {
+      "video_id": "1635252308553",
+      "title_raw": "2x13 Lago y monstruos",
+      "duration_raw": "25:56",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 397,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705116244553&type=32&idx=0&tkn=RGoB9IBECa47vg7w3tXOAy-K-V0&fn=external_8"
+    },
+    {
+      "video_id": "1635254340169",
+      "title_raw": "3x01 El ártico",
+      "duration_raw": "25:56",
+      "season_number": 3,
+      "episode_number": 1,
+      "views": 541,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705190431305&type=32&idx=6&tkn=_ffc_yCyyAPti5AWw14VgARU7LQ&fn=external_8"
+    },
+    {
+      "video_id": "1635253291593",
+      "title_raw": "3x02 Mantis religiosa",
+      "duration_raw": "25:57",
+      "season_number": 3,
+      "episode_number": 2,
+      "views": 473,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705149340233&type=32&idx=7&tkn=DU8951mdgNXjHfx0w9MXo7amdr4&fn=external_8"
+    },
+    {
+      "video_id": "1635254209097",
+      "title_raw": "3x03 Estructuras-Inodoro",
+      "duration_raw": "25:54",
+      "season_number": 3,
+      "episode_number": 3,
+      "views": 405,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705184926281&type=32&idx=1&tkn=Dczupt5w6F7A0_nvQHQK8vCBLFM&fn=external_8"
+    },
+    {
+      "video_id": "1635253160521",
+      "title_raw": "3x04 Las abejas",
+      "duration_raw": "25:56",
+      "season_number": 3,
+      "episode_number": 4,
+      "views": 415,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705141082697&type=32&idx=0&tkn=Md--Gt5WqpWdRefy66J2UGh1_Qo&fn=external_8"
+    },
+    {
+      "video_id": "1635252963913",
+      "title_raw": "3x05 La luz",
+      "duration_raw": "25:56",
+      "season_number": 3,
+      "episode_number": 5,
+      "views": 396,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705136167497&type=32&idx=12&tkn=RT4ZnkFX-5Q-7nuyDYVTB49D7hw&fn=external_8"
+    },
+    {
+      "video_id": "1635252832841",
+      "title_raw": "3x06 Arqueología",
+      "duration_raw": "25:56",
+      "season_number": 3,
+      "episode_number": 6,
+      "views": 330,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705131645513&type=32&idx=14&tkn=qGrQ1WVTktLxur_kcy6w2Ftgko8&fn=external_8"
+    },
+    {
+      "video_id": "1635252701769",
+      "title_raw": "3x07 Colores, haces de luz, reflejo y refracción",
+      "duration_raw": "25:55",
+      "season_number": 3,
+      "episode_number": 7,
+      "views": 382,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705127909961&type=32&idx=12&tkn=PfpY9YbOrWGhaUiw-XkHEai9dfc&fn=external_8"
+    },
+    {
+      "video_id": "1635252505161",
+      "title_raw": "3x08 Natación",
+      "duration_raw": "25:56",
+      "season_number": 3,
+      "episode_number": 8,
+      "views": 364,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705124764233&type=32&idx=10&tkn=wmdzs248DH_ihjRSSGogFl7Utv0&fn=external_8"
+    },
+    {
+      "video_id": "1635252374089",
+      "title_raw": "3x09 Ejercicio",
+      "duration_raw": "25:56",
+      "season_number": 3,
+      "episode_number": 9,
+      "views": 424,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705118669385&type=32&idx=2&tkn=8h163pPH3Tv5_wwlF_jFhDxBM-8&fn=external_8"
+    },
+    {
+      "video_id": "1635253488201",
+      "title_raw": "3x10 Reciclaje",
+      "duration_raw": "25:55",
+      "season_number": 3,
+      "episode_number": 10,
+      "views": 365,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705155500617&type=32&idx=7&tkn=jxBuI59u8plxXywTrAFBba4wGVo&fn=external_8"
+    },
+    {
+      "video_id": "1635253619273",
+      "title_raw": "3x11 Autoalimentación de plantas",
+      "duration_raw": "25:56",
+      "season_number": 3,
+      "episode_number": 11,
+      "views": 396,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4647778847446&type=32&idx=2&tkn=9OOeq2WhKs_SMHo-nPIN5p_XjQk&fn=external_8"
+    },
+    {
+      "video_id": "1635253357129",
+      "title_raw": "3x12 Selva tropical",
+      "duration_raw": "25:55",
+      "season_number": 3,
+      "episode_number": 12,
+      "views": 290,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705151044169&type=32&idx=12&tkn=qByVnOIW_-xHLfs9D9Jc3TzL3Cs&fn=external_8"
+    },
+    {
+      "video_id": "1635253946953",
+      "title_raw": "3x13 Esculpir piedra",
+      "duration_raw": "25:56",
+      "season_number": 3,
+      "episode_number": 13,
+      "views": 347,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705176603209&type=32&idx=12&tkn=QfdBKdtmXB_DnF3Hf7nfRLac4qo&fn=external_8"
+    },
+    {
+      "video_id": "1635254078025",
+      "title_raw": "4x01 Cómo se hacen los huevos",
+      "duration_raw": "25:56",
+      "season_number": 4,
+      "episode_number": 1,
+      "views": 504,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705180142153&type=32&idx=2&tkn=cLeRT7q0BynU2u42yqJXpXLGuRA&fn=external_8"
+    },
+    {
+      "video_id": "1635253815881",
+      "title_raw": "4x02 La vida en la costa",
+      "duration_raw": "25:56",
+      "season_number": 4,
+      "episode_number": 2,
+      "views": 462,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705173195337&type=32&idx=6&tkn=ia2K2wE1m3wGpZEz9OxhrtdlgC4&fn=external_8"
+    },
+    {
+      "video_id": "1635253684809",
+      "title_raw": "4x03 Presión atmosférica",
+      "duration_raw": "25:54",
+      "season_number": 4,
+      "episode_number": 3,
+      "views": 373,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705169394249&type=32&idx=3&tkn=LkPudK1gqo3jeXrjweoerOybDHg&fn=external_8"
+    },
+    {
+      "video_id": "1635253553737",
+      "title_raw": "4x04 Pantano como hábitat",
+      "duration_raw": "25:56",
+      "season_number": 4,
+      "episode_number": 4,
+      "views": 311,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705158908489&type=32&idx=3&tkn=iBGH-DrtI6LoPzsbW1CvMRqbi3w&fn=external_8"
+    },
+    {
+      "video_id": "1635253422665",
+      "title_raw": "4x05 Células",
+      "duration_raw": "25:56",
+      "season_number": 4,
+      "episode_number": 5,
+      "views": 344,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705153337929&type=32&idx=4&tkn=-ompQo4cef6Yutix4Uvw6a2wwXg&fn=external_8"
+    },
+    {
+      "video_id": "1635255257673",
+      "title_raw": "4x06 Moléculas",
+      "duration_raw": "25:56",
+      "season_number": 4,
+      "episode_number": 6,
+      "views": 1210,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705223068233&type=32&idx=11&tkn=FFr-Wcb2StuU6lD4J_B5a0lXrV4&fn=external_8"
+    },
+    {
+      "video_id": "1635255192137",
+      "title_raw": "4x07 Estrellas",
+      "duration_raw": "25:55",
+      "season_number": 4,
+      "episode_number": 7,
+      "views": 329,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705220184649&type=32&idx=0&tkn=EcVLJtZnwING7xI-Qb5iKbA9q_k&fn=external_8"
+    },
+    {
+      "video_id": "1635255323209",
+      "title_raw": "4x08 Gravedad",
+      "duration_raw": "25:55",
+      "season_number": 4,
+      "episode_number": 8,
+      "views": 342,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705225099849&type=32&idx=9&tkn=8BCIw8dEc8-3kjtBgep9LNLnNAU&fn=external_8"
+    },
+    {
+      "video_id": "1635625863753",
+      "title_raw": "4x09 Batería de pilas",
+      "duration_raw": "25:55",
+      "season_number": 4,
+      "episode_number": 9,
+      "views": 365,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705243384393&type=32&idx=10&tkn=PuHYw1o0qYzzHMvKvHY62GjpKr4&fn=external_8"
+    },
+    {
+      "video_id": "1635625994825",
+      "title_raw": "4x10 Aromas",
+      "duration_raw": "25:56",
+      "season_number": 4,
+      "episode_number": 10,
+      "views": 359,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705247251017&type=32&idx=4&tkn=cb758xq4zFmjlZrcYuohwSQJ_Ss&fn=external_8"
+    },
+    {
+      "video_id": "1635626125897",
+      "title_raw": "4x11 Mapa de tesoro",
+      "duration_raw": "25:56",
+      "season_number": 4,
+      "episode_number": 11,
+      "views": 353,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705250593353&type=32&idx=3&tkn=Bbb_ikRLMnQaSzQiZ75x7si5yP0&fn=external_8"
+    },
+    {
+      "video_id": "1635626060361",
+      "title_raw": "4x12 Animales salvajes",
+      "duration_raw": "25:56",
+      "season_number": 4,
+      "episode_number": 12,
+      "views": 446,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705248954953&type=32&idx=0&tkn=KFtAngIZIBZqX0dIGXanlw5ZV8c&fn=external_8"
+    },
+    {
+      "video_id": "1635625929289",
+      "title_raw": "4x13 La computadora",
+      "duration_raw": "25:56",
+      "season_number": 4,
+      "episode_number": 13,
+      "views": 677,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=705245350473&type=32&idx=6&tkn=2ucbAsd9FEL376-EoK2_JZKPCWc&fn=external_8"
+    }
+  ]
+}

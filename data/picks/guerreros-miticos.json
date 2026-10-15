@@ -1,0 +1,232 @@
+{
+  "title": "Guerreros Míticos",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c4791369",
+  "year": "1998",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Aventura",
+  "videos": [
+    {
+      "video_id": "2458747931209",
+      "title_raw": "S01E01 Andromeda, La Princesa Guerrera",
+      "duration_raw": "22:35",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 7420,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1256788462153&type=32&idx=11&tkn=1kNEYVNnQUokpvA_UVwK-sDC8dQ&fn=external_8"
+    },
+    {
+      "video_id": "2458748848713",
+      "title_raw": "S01E02 Teseo Y El Minotauro",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 3058,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1256838203977&type=32&idx=8&tkn=jFrm2-2LGWPCtI4tw-dSZvEhpkU&fn=external_8"
+    },
+    {
+      "video_id": "2458748324425",
+      "title_raw": "S01E03 Prometeo La Caja De Pandora",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 2165,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1256801831497&type=32&idx=2&tkn=SdZy8PFcRI0p3ptKC2w1dwU1ztQ&fn=external_8"
+    },
+    {
+      "video_id": "2458748521033",
+      "title_raw": "S01E04 Atlanta, La Chica Salvaje",
+      "duration_raw": "22:37",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1838,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1256817887817&type=32&idx=0&tkn=l4lYXpUyUkVvW5rJsVqDnJdISQ8&fn=external_8"
+    },
+    {
+      "video_id": "2458749504073",
+      "title_raw": "S01E05 Belerofonte Y Pegaso",
+      "duration_raw": "22:37",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1574,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1256890698313&type=32&idx=5&tkn=nYCy03-xQs1NHvnCfMlKtCpfR5g&fn=external_8"
+    },
+    {
+      "video_id": "2458748652105",
+      "title_raw": "S01E07 Ulises",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1358,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1256825293385&type=32&idx=13&tkn=duFIXvnhRimdqlsIh6Bici5lRFo&fn=external_8"
+    },
+    {
+      "video_id": "2458748062281",
+      "title_raw": "S01E08 Persefone",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1636,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1256789641801&type=32&idx=2&tkn=vMdul_jLfu68h4UUbou5aKOM1Mg&fn=external_8"
+    },
+    {
+      "video_id": "2458748914249",
+      "title_raw": "S01E09 Hercules Y Iolas",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 1187,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1256842398281&type=32&idx=4&tkn=zD7YA3m3qM_KRyE6pTTnon8Snh4&fn=external_8"
+    },
+    {
+      "video_id": "2458748193353",
+      "title_raw": "S01E10 Ulises y el viaje a Casa",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 1079,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1256793442889&type=32&idx=13&tkn=Pq67jJodA9dNXegcFlsYeIswa2g&fn=external_8"
+    },
+    {
+      "video_id": "2458749438537",
+      "title_raw": "S01E11 Perseo",
+      "duration_raw": "22:37",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 1168,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1256885062217&type=32&idx=14&tkn=CgL1jmXD0vWxsM9qbgMF8iIuOOY&fn=external_8"
+    },
+    {
+      "video_id": "2458749176393",
+      "title_raw": "S01E12 Jason Y Los Argonautas",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 978,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1256860027465&type=32&idx=5&tkn=7Y9U8ywB1TZD5LUF7FbxwYdZNtc&fn=external_8"
+    },
+    {
+      "video_id": "2458749110857",
+      "title_raw": "S01E13 Daedalo E Icaro El Niño Que Cayo Del Cielo",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 998,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1256854850121&type=32&idx=7&tkn=S5f1c36TYBjtrCvvih8s1NrApxo&fn=external_8"
+    },
+    {
+      "video_id": "2458749307465",
+      "title_raw": "S02E01 Psiquis Y Eros",
+      "duration_raw": "22:36",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 1265,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1256872872521&type=32&idx=9&tkn=fjbXvK7e7Cksa9q5ADkzEwU_ZYI&fn=external_8"
+    },
+    {
+      "video_id": "2458748586569",
+      "title_raw": "S02E02 Jason y Medea",
+      "duration_raw": "22:36",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 862,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1256822082121&type=32&idx=12&tkn=X7w80T0ToobtC2gzlp99wdDrp7Q&fn=external_8"
+    },
+    {
+      "video_id": "2458748455497",
+      "title_raw": "S02E03 Ulises y Penelope",
+      "duration_raw": "22:36",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 972,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1256812907081&type=32&idx=12&tkn=DQanxBTURNVycESAZ3fwgutP4P8&fn=external_8"
+    },
+    {
+      "video_id": "2458748258889",
+      "title_raw": "S02E05 Cadmo Y Europa",
+      "duration_raw": "22:36",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 837,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1256795867721&type=32&idx=14&tkn=irv4Bc9yBrMhAdNubIV17aE9AlM&fn=external_8"
+    },
+    {
+      "video_id": "2458749241929",
+      "title_raw": "S02E06 Damon Y Pitias",
+      "duration_raw": "22:36",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 708,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1256865925705&type=32&idx=5&tkn=sKUvaPdSJMYziVM607ji8blLQfQ&fn=external_8"
+    },
+    {
+      "video_id": "2458747865673",
+      "title_raw": "S02E07 Castor Y Polux",
+      "duration_raw": "22:37",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 801,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1256786365001&type=32&idx=4&tkn=nMBOVKR8qeNI3Keop0tzkCXfzJQ&fn=external_8"
+    },
+    {
+      "video_id": "2458749373001",
+      "title_raw": "S02E08 Los Sabuesos De Acteon",
+      "duration_raw": "22:36",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 690,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1256879950409&type=32&idx=7&tkn=KNJLk9V7oI5oa6wdMWCOPx5f_K0&fn=external_8"
+    },
+    {
+      "video_id": "2458748389961",
+      "title_raw": "S02E09 Faeton Y Carroza De Fuego",
+      "duration_raw": "22:36",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 638,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1256808385097&type=32&idx=1&tkn=TVEvw6VFR9qtGqsGes3kGTYDxc4&fn=external_8"
+    },
+    {
+      "video_id": "2458749045321",
+      "title_raw": "S02E10 Ulises Y El Caballo De Troya",
+      "duration_raw": "22:36",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 1399,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1256849803849&type=32&idx=5&tkn=C2T3lymyx7IWdj3wrCfYYgblcq4&fn=external_8"
+    },
+    {
+      "video_id": "2458748979785",
+      "title_raw": "S02E11 Androcles Y El Leon",
+      "duration_raw": "22:36",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 674,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1256845347401&type=32&idx=0&tkn=uG1QA2zYqg60wOPsnJY7LJfbLoo&fn=external_8"
+    },
+    {
+      "video_id": "2458748783177",
+      "title_raw": "S02E12 El Rey Midas El Toque De Oro",
+      "duration_raw": "22:37",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 879,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1256834665033&type=32&idx=6&tkn=YQz8zS87uH2czyJ7BGvvFyAkXJs&fn=external_8"
+    },
+    {
+      "video_id": "2458748127817",
+      "title_raw": "S02E13 Hercules Y Los Titanes La Ultima Batall",
+      "duration_raw": "22:36",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 1046,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1256791411273&type=32&idx=5&tkn=BK0f4QXYcnn7mRqtMMgXATDXn4Q&fn=external_8"
+    }
+  ]
+}

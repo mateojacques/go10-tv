@@ -1,0 +1,340 @@
+{
+  "title": "Los Imposibles",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2228553",
+  "year": "1966",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Superhéroes",
+  "videos": [
+    {
+      "video_id": "1389500107337",
+      "title_raw": "01 El Tejedor",
+      "duration_raw": "06:19",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 11257,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208185125610&type=32&idx=15&tkn=tq8XBL1hTDoIsdqK9bd8URPIMJg&fn=external_8"
+    },
+    {
+      "video_id": "1389498665545",
+      "title_raw": "02 El Muneco de Papel",
+      "duration_raw": "06:18",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 3047,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208185518826&type=32&idx=3&tkn=uXWqxVZyzFUY0GH23bIvgTqYcqg&fn=external_8"
+    },
+    {
+      "video_id": "1389498534473",
+      "title_raw": "03 Beamatron",
+      "duration_raw": "06:18",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1916,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208190434026&type=32&idx=11&tkn=CzQnYhKSCSH11pTx5IN0KrO49wo&fn=external_8"
+    },
+    {
+      "video_id": "1389498337865",
+      "title_raw": "04 El Burbujero",
+      "duration_raw": "06:19",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1455,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208185780970&type=32&idx=15&tkn=20dUEE05NtQFwGWQlfS5DZ6Y8H8&fn=external_8"
+    },
+    {
+      "video_id": "1389499451977",
+      "title_raw": "05 El Topo",
+      "duration_raw": "06:18",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1190,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208189385450&type=32&idx=1&tkn=Tc5MTTYY-fiu-9A6nEppwVImIUY&fn=external_8"
+    },
+    {
+      "video_id": "1389499583049",
+      "title_raw": "06 Timeatron",
+      "duration_raw": "06:18",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 1138,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208186108650&type=32&idx=3&tkn=TkLX7pI-l9ZaYgvTUmq6FR3B7_4&fn=external_8"
+    },
+    {
+      "video_id": "1389499648585",
+      "title_raw": "07 El conde Bruma",
+      "duration_raw": "06:18",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 870,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208189713130&type=32&idx=7&tkn=5BWDqjH1Y11PoVh_mKettzMdQqI&fn=external_8"
+    },
+    {
+      "video_id": "1389497813577",
+      "title_raw": "08 El siniestro Boscon",
+      "duration_raw": "06:19",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1149,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208186501866&type=32&idx=15&tkn=bM2lfhWBWV1oO9vA0fkI4rl5Cuk&fn=external_8"
+    },
+    {
+      "video_id": "1389498403401",
+      "title_raw": "09 Mama Panza",
+      "duration_raw": "06:18",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 763,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208188992234&type=32&idx=15&tkn=ACykcjwqPYUgaJKwejqqlh13Zqk&fn=external_8"
+    },
+    {
+      "video_id": "1389499320905",
+      "title_raw": "10 Feron el violinista feroz",
+      "duration_raw": "06:19",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 691,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208186632938&type=32&idx=12&tkn=J49Dj9JmopH8PS7I2m1XbPvAq7w&fn=external_8"
+    },
+    {
+      "video_id": "1389499714121",
+      "title_raw": "11 El diabolico dibujante",
+      "duration_raw": "06:18",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 780,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208186829546&type=32&idx=15&tkn=-u-XSL2l3psHjBGN_ICZFMiAklE&fn=external_8"
+    },
+    {
+      "video_id": "1389498468937",
+      "title_raw": "12 Televisatron",
+      "duration_raw": "06:18",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 667,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208186960618&type=32&idx=4&tkn=P-0_CINCFkyBiSB4_AyiE_jvwbE&fn=external_8"
+    },
+    {
+      "video_id": "1389498272329",
+      "title_raw": "13 El Prodigioso Profesor Gomoso",
+      "duration_raw": "06:18",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 694,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208187157226&type=32&idx=0&tkn=iiaWQbZzcq3OuHzVufCOeql8m9A&fn=external_8"
+    },
+    {
+      "video_id": "1389500041801",
+      "title_raw": "14 Aquator",
+      "duration_raw": "06:19",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 639,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208187878122&type=32&idx=1&tkn=0z5vIGlIwF1BOnE9YNs57_2AeMk&fn=external_8"
+    },
+    {
+      "video_id": "1389498075721",
+      "title_raw": "15 El volante endemoniado",
+      "duration_raw": "06:19",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 719,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208188533482&type=32&idx=3&tkn=LCwfJoX732ommvngV2o-bpLGUk4&fn=external_8"
+    },
+    {
+      "video_id": "1389499517513",
+      "title_raw": "16 El Regreso del tejedor",
+      "duration_raw": "06:17",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 577,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208188795626&type=32&idx=0&tkn=vxv0FgqrIZDtBD01PC6ZZ33B2YE&fn=external_8"
+    },
+    {
+      "video_id": "1389499189833",
+      "title_raw": "17 El satanico deslizador",
+      "duration_raw": "06:19",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 563,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208184929002&type=32&idx=15&tkn=57GrDnjndk12C6vR4-_qdaGNowQ&fn=external_8"
+    },
+    {
+      "video_id": "1389498010185",
+      "title_raw": "18 El rompecabezas viviente",
+      "duration_raw": "06:18",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 559,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208190237418&type=32&idx=4&tkn=rqTp33IRla10LBIcWweltWyQTsc&fn=external_8"
+    },
+    {
+      "video_id": "1389499124297",
+      "title_raw": "19 El escultor escurridiso",
+      "duration_raw": "06:18",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 570,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3637220936315&type=32&idx=2&tkn=GhaShjF4iuJnteL6CrQMhCFBNqs&fn=external_8"
+    },
+    {
+      "video_id": "1389499058761",
+      "title_raw": "20 El funesto fumigador",
+      "duration_raw": "06:18",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 543,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208193317610&type=32&idx=0&tkn=7TS14IUmJebOXkWPtyDypJsNMe8&fn=external_8"
+    },
+    {
+      "video_id": "1389497682505",
+      "title_raw": "21 El artero arquero",
+      "duration_raw": "06:18",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 513,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208193776362&type=32&idx=6&tkn=FMo7lmYun1B3kCfY07oPIZ9LjX8&fn=external_8"
+    },
+    {
+      "video_id": "1389497944649",
+      "title_raw": "22 El inflador incidioso",
+      "duration_raw": "06:18",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 479,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208193907434&type=32&idx=4&tkn=1UIcCuufBbH2bx6xprmXGAZlzH0&fn=external_8"
+    },
+    {
+      "video_id": "1389499976265",
+      "title_raw": "23 El endiablado diamantino",
+      "duration_raw": "06:18",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 626,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208194431722&type=32&idx=13&tkn=IRAg42VSwjHo0QF-UJkchVZb2pY&fn=external_8"
+    },
+    {
+      "video_id": "1389498141257",
+      "title_raw": "24 El regreso del muneco de papel",
+      "duration_raw": "06:19",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 493,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208194824938&type=32&idx=2&tkn=a2kfvqIyKtXPXIpfzLYzmf9P6BY&fn=external_8"
+    },
+    {
+      "video_id": "1389498796617",
+      "title_raw": "25 Cronella La bruja traviesa",
+      "duration_raw": "06:18",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 479,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595666864713&type=32&idx=14&tkn=UPYteDdxlZPUDcxNHdhtOo1b7i0&fn=external_8"
+    },
+    {
+      "video_id": "1389499779657",
+      "title_raw": "26 El terrible ciclon",
+      "duration_raw": "06:15",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 556,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208195349226&type=32&idx=10&tkn=wEETbArH4KZ4tpPPtvvEuN-VcSc&fn=external_8"
+    },
+    {
+      "video_id": "1389499255369",
+      "title_raw": "27 Vuelve el profesor gomoso",
+      "duration_raw": "06:18",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 495,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208195742442&type=32&idx=0&tkn=w-YyJWzupo6ovd1o1kxIzzLP_Hw&fn=external_8"
+    },
+    {
+      "video_id": "1389498862153",
+      "title_raw": "28 El intrepido interceptor",
+      "duration_raw": "06:18",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 473,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208196004586&type=32&idx=4&tkn=MxvJGtDU9bzvJQooTLJKNtuBBJ4&fn=external_8"
+    },
+    {
+      "video_id": "1389497879113",
+      "title_raw": "29 El perverso pescador",
+      "duration_raw": "06:18",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 450,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208196659946&type=32&idx=11&tkn=UYFuUuI7fUovs_Y6774MSR_dwuY&fn=external_8"
+    },
+    {
+      "video_id": "1389499386441",
+      "title_raw": "30 El picaro del circo",
+      "duration_raw": "06:19",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 507,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208197053162&type=32&idx=3&tkn=wPDNtB3r-wG93Yari7MxAhuAyrw&fn=external_8"
+    },
+    {
+      "video_id": "1389499910729",
+      "title_raw": "31 Billy el Bandido Divertido",
+      "duration_raw": "06:18",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 489,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208190630634&type=32&idx=2&tkn=BMe1_pufabdX1KBY6hcLvJJeUUs&fn=external_8"
+    },
+    {
+      "video_id": "1389498993225",
+      "title_raw": "32 El funesto Dr. Futuro",
+      "duration_raw": "06:18",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 542,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208191220458&type=32&idx=0&tkn=xYTcUZhKsxL0kFNo4bevNjgfmLs&fn=external_8"
+    },
+    {
+      "video_id": "1389499845193",
+      "title_raw": "33 El manoso manos largas",
+      "duration_raw": "06:17",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 494,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208191679210&type=32&idx=0&tkn=PEyOfb-Mdomp5K1FtR2TUadBb-Q&fn=external_8"
+    },
+    {
+      "video_id": "1389498731081",
+      "title_raw": "34 El infame senor instante",
+      "duration_raw": "06:19",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 466,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208192072426&type=32&idx=8&tkn=HUsYK5Tns_-GpZ6Z4_ieF_5fZzI&fn=external_8"
+    },
+    {
+      "video_id": "1389498206793",
+      "title_raw": "35 El bizarro beisbolista",
+      "duration_raw": "06:18",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 468,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208192596714&type=32&idx=2&tkn=lVshny4AcL5gGM7Y4v5pJYMtyME&fn=external_8"
+    },
+    {
+      "video_id": "1389498927689",
+      "title_raw": "36 El bribonsuelo senor hielo",
+      "duration_raw": "06:18",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 609,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2208193121002&type=32&idx=12&tkn=Yxk7ib2dpciTSsL7lFyATOOCuo8&fn=external_8"
+    }
+  ]
+}

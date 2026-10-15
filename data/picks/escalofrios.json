@@ -1,0 +1,637 @@
+{
+  "title": "Escalofríos",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2443081",
+  "year": "1995",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Terror",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "1488014805577",
+      "title_raw": "1 -2 - La Mascara encantada (Español)",
+      "duration_raw": "43:09",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 1145,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158066539057&type=32&idx=4&tkn=EQYfjasZCr9MAj1__w-tGq1rE5U&fn=external_8"
+    },
+    {
+      "video_id": "1488013953609",
+      "title_raw": "3 - El Reloj Cucú (Latino)",
+      "duration_raw": "21:56",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1033,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158070143537&type=32&idx=5&tkn=G8VPTjwZqE5CcRtaHiGQ0inTnoE&fn=external_8"
+    },
+    {
+      "video_id": "1488014543433",
+      "title_raw": "4 - Terror en la biblioteca (Latino)",
+      "duration_raw": "21:29",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 412,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158117067313&type=32&idx=0&tkn=gGEn8GR3H0PXKLnxIBUHR3wYKWw&fn=external_8"
+    },
+    {
+      "video_id": "1488014084681",
+      "title_raw": "5 - Bienvenido al Campamento de las Pesadillas - (Primera Parte) (Latino)",
+      "duration_raw": "22:00",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 429,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158074665521&type=32&idx=9&tkn=nJLy3zHKiWPend1bAX9WRdKYM2A&fn=external_8"
+    },
+    {
+      "video_id": "1488014019145",
+      "title_raw": "6 - Bienvenido al Campamento de las Pesadillas - (Segunda Parte) (Latino)",
+      "duration_raw": "22:00",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 324,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158079318577&type=32&idx=9&tkn=F6CRqoyYa6_3C4ssK9FpPa9zPq8&fn=external_8"
+    },
+    {
+      "video_id": "1488015002185",
+      "title_raw": "7 - El Fantasma del Auditorio (Latino)",
+      "duration_raw": "21:52",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 202,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158144723505&type=32&idx=9&tkn=uBkV_wgN3BtkwYy0xRIXyyhaLdo&fn=external_8"
+    },
+    {
+      "video_id": "1488014740041",
+      "title_raw": "8 - Las lecciones de piano pueden ser mortales (Latino)",
+      "duration_raw": "21:55",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 202,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158083316273&type=32&idx=4&tkn=s2Vajrfsb7vri3wKx2fSFUsUFI0&fn=external_8"
+    },
+    {
+      "video_id": "1488014346825",
+      "title_raw": "9 - El regreso de la momia (Latino)",
+      "duration_raw": "21:56",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 446,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158088100401&type=32&idx=9&tkn=A7REv2CHqPMcz0r_QMY0mT4E7AE&fn=external_8"
+    },
+    {
+      "video_id": "1488014215753",
+      "title_raw": "10 - La noche del muñeco vivente - (Segunda Parte) (Latino)",
+      "duration_raw": "21:52",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 203,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158091246129&type=32&idx=11&tkn=bggvG_Tro5vNIsh4i1uZj12c9DI&fn=external_8"
+    },
+    {
+      "video_id": "1488014871113",
+      "title_raw": "11 - No bajes al zótano - (Primera Parte) (Latino)",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 176,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158120933937&type=32&idx=14&tkn=X5L5MWNm-8BeCfy95r7iPgG76UQ&fn=external_8"
+    },
+    {
+      "video_id": "1488014936649",
+      "title_raw": "12 - No bajes al zótano - (Segunda Parte) (Latino)",
+      "duration_raw": "21:52",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 149,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158094981681&type=32&idx=14&tkn=oxGgnxr70-vomgi6is0ogTd_g0s&fn=external_8"
+    },
+    {
+      "video_id": "1488015067721",
+      "title_raw": "13 - Una Aventura Espeluznante (Latino)",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 162,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158125586993&type=32&idx=14&tkn=DpLsXDqv0aD1k6xIHd7fLVA3xkc&fn=external_8"
+    },
+    {
+      "video_id": "1488014150217",
+      "title_raw": "14 - Lo Encontramos bajo el Fregadero (Latino)",
+      "duration_raw": "21:52",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 183,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158130371121&type=32&idx=4&tkn=CqVfPvP_RJlokuw3d4PhFtlEh1M&fn=external_8"
+    },
+    {
+      "video_id": "1488014674505",
+      "title_raw": "15 - Sonríe y Muere (Latino)",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 500,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158133975601&type=32&idx=5&tkn=cglbifn2zfr5i27LAISrlHPH37w&fn=external_8"
+    },
+    {
+      "video_id": "1488014412361",
+      "title_raw": "16-17 - Una Noche en la Torre del Terror (Latino)",
+      "duration_raw": "44:11",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 294,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158141970993&type=32&idx=13&tkn=4ycYa0xLf8sYFs7SKVuwttnQAZs&fn=external_8"
+    },
+    {
+      "video_id": "1488014281289",
+      "title_raw": "18-19 - El Lobo de Fever Swamp (Latino)",
+      "duration_raw": "44:53",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 198,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158102714929&type=32&idx=5&tkn=97EthpzgGsX0dj2k3FEWHVEpLr0&fn=external_8"
+    },
+    {
+      "video_id": "1488136505929",
+      "title_raw": "20 - Ten cuidado con lo que deseas (Latino)",
+      "duration_raw": "21:54",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 211,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158246631985&type=32&idx=2&tkn=4V3RnpBdNxHN_qPIWxv-yP2jLXE&fn=external_8"
+    },
+    {
+      "video_id": "1488137685577",
+      "title_raw": "21 - El Ataque del Mutante - (Primera Parte) (Latino)",
+      "duration_raw": "21:11",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 143,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158249843249&type=32&idx=2&tkn=W8nbpgHw9TRXObj-a2uv2Cv7ESA&fn=external_8"
+    },
+    {
+      "video_id": "1488137161289",
+      "title_raw": "22 - El Ataque del Mutante - (Segunda Parte) (Latino)",
+      "duration_raw": "21:11",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 130,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158252792369&type=32&idx=12&tkn=WOcP-dLhuIpNeQ1zpsOaGL1YoHk&fn=external_8"
+    },
+    {
+      "video_id": "1488137357897",
+      "title_raw": "23 - Aprendíz de Mago (Latino)",
+      "duration_raw": "22:19",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 140,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158255282737&type=32&idx=14&tkn=Vrcflfo5AJNITUI9ssLlXrBnqu8&fn=external_8"
+    },
+    {
+      "video_id": "1488137095753",
+      "title_raw": "24 - El Fantasma sin Cabeza (Latino)",
+      "duration_raw": "21:55",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 146,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158259477041&type=32&idx=13&tkn=piZwYF8DOZtb-f7o3RVsEfLDMHo&fn=external_8"
+    },
+    {
+      "video_id": "1488137292361",
+      "title_raw": "25 - Ven a Comer Lombrices (Latino)",
+      "duration_raw": "21:53",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 127,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158263409201&type=32&idx=6&tkn=6i-Qomx1eHs6jMm0e_-9ibGn9Jw&fn=external_8"
+    },
+    {
+      "video_id": "1488137423433",
+      "title_raw": "26 - A Mi no me Asustas (Latino)",
+      "duration_raw": "21:25",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 181,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158266292785&type=32&idx=9&tkn=GL_-POVzWuX3PRZnZYBc08-95fY&fn=external_8"
+    },
+    {
+      "video_id": "1488137226825",
+      "title_raw": "27 - La Venganza de los Gñomos del Jardín (Latino)",
+      "duration_raw": "21:54",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 171,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158270028337&type=32&idx=14&tkn=qZ22cmTpoFUEW-ZA57qs4tcxtaU&fn=external_8"
+    },
+    {
+      "video_id": "1488546761289",
+      "title_raw": "28 - Playa Fantasma (Latino)",
+      "duration_raw": "21:55",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 121,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158273370673&type=32&idx=1&tkn=qmmMV0P90oOCutcwub21O1aKMOQ&fn=external_8"
+    },
+    {
+      "video_id": "1488137488969",
+      "title_raw": "29 - El Ataque de las Calabazas (Latino)",
+      "duration_raw": "21:54",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 154,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158277171761&type=32&idx=14&tkn=khjhTLCCNnFQXFR4g1kzJOhXSjU&fn=external_8"
+    },
+    {
+      "video_id": "1488137554505",
+      "title_raw": "30 - La Máscara Encantada 2 - (Primera Parte) (Español)",
+      "duration_raw": "22:00",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 162,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158282938929&type=32&idx=7&tkn=OwWwD7_TS8kjaRwzGY1sJ7MuWXk&fn=external_8"
+    },
+    {
+      "video_id": "1488546826825",
+      "title_raw": "31 - La Máscara Encantada 2 - (Segunda Parte) (Español)",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 121,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158287526449&type=32&idx=13&tkn=p8ObCgzcjbpKSZftb8Rtede0tgw&fn=external_8"
+    },
+    {
+      "video_id": "1488137620041",
+      "title_raw": "32 - Hagámosnos Invisibles (Latino)",
+      "duration_raw": "21:54",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 118,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158291655217&type=32&idx=14&tkn=qR_DSmcLHA9DGN2FVeqkiGh9qSc&fn=external_8"
+    },
+    {
+      "video_id": "1488547351113",
+      "title_raw": "33 - Espantapájaros a la Medianoche (Latino)",
+      "duration_raw": "21:56",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 269,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158294342193&type=32&idx=3&tkn=jR5zAM9H3tJF5OIiTCsU1r5zXL8&fn=external_8"
+    },
+    {
+      "video_id": "1488546695753",
+      "title_raw": "34 - Sangre de Monstruo (Español)",
+      "duration_raw": "20:51",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 114,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158297684529&type=32&idx=0&tkn=Y57UwvkRjj_2HzXFpmbQgcOUEeA&fn=external_8"
+    },
+    {
+      "video_id": "1488137030217",
+      "title_raw": "36 - Aliento de Vampiro (Latino)",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 153,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158304303665&type=32&idx=14&tkn=BCwCN0ZXE9HX9jr-r59ykHRFZhQ&fn=external_8"
+    },
+    {
+      "video_id": "1488547088969",
+      "title_raw": "37 - Como matar a un monstruo (Español)",
+      "duration_raw": "20:52",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 115,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158307514929&type=32&idx=0&tkn=M4V3sR-niREgxq3tXdqe1r4VRw4&fn=external_8"
+    },
+    {
+      "video_id": "1488547023433",
+      "title_raw": "38 - Llamando a todos los Reptiles (Latino)",
+      "duration_raw": "21:53",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 160,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158312167985&type=32&idx=7&tkn=MxMnVC09Youxylrstxbewdg-NtE&fn=external_8"
+    },
+    {
+      "video_id": "1488546892361",
+      "title_raw": "39 - Bienvenidos a la casa de la muerte - (Primera Parte) (Español)",
+      "duration_raw": "23:04",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 125,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158317410865&type=32&idx=14&tkn=c0Rym1xN3u7_17uv9YHfQbMrqjk&fn=external_8"
+    },
+    {
+      "video_id": "1488546957897",
+      "title_raw": "40 - Bienvenidos a la casa de la muerte - (Segunda Parte) (Español)",
+      "duration_raw": "21:49",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 117,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158321146417&type=32&idx=5&tkn=Rm8vi2JzCxbjmp60-xyXK64GvIY&fn=external_8"
+    },
+    {
+      "video_id": "1488547416649",
+      "title_raw": "41 - No Despiertes a la Momia (Latino)",
+      "duration_raw": "21:45",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 129,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158325996081&type=32&idx=14&tkn=p4DWQEgjVU1h5tSxrtar40NmUyQ&fn=external_8"
+    },
+    {
+      "video_id": "1488547154505",
+      "title_raw": "42 - La Masa que se Comía a Todos (Latino)",
+      "duration_raw": "21:44",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 128,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7211634985560&type=32&idx=6&tkn=TdnbaSWriGC9ch_YrccnQsY3l0k&fn=external_8"
+    },
+    {
+      "video_id": "1488547285577",
+      "title_raw": "43-44 - La Noche del Muñeco Viviente 3 (Latino)",
+      "duration_raw": "44:32",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 204,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158334253617&type=32&idx=2&tkn=QXbxVppYtPA5Wkf2pGGF5Zkmqcc&fn=external_8"
+    },
+    {
+      "video_id": "1488646441545",
+      "title_raw": "45 - Susto en la Calle del Espanto (Latino)",
+      "duration_raw": "21:24",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 147,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158360992305&type=32&idx=12&tkn=trN4yoscb2RpCDkZXn1C-Lqx0_s&fn=external_8"
+    },
+    {
+      "video_id": "1488646965833",
+      "title_raw": "46 - Mi Mejor Amigo es Invisible (Español)",
+      "duration_raw": "20:53",
+      "season_number": 1,
+      "episode_number": 46,
+      "views": 129,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158364858929&type=32&idx=0&tkn=GG4Xw_-jCXdTFNPoGHUr01m36mQ&fn=external_8"
+    },
+    {
+      "video_id": "1488645917257",
+      "title_raw": "47 - La casa del nunca retorno (Español)",
+      "duration_raw": "20:53",
+      "season_number": 1,
+      "episode_number": 47,
+      "views": 119,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158366825009&type=32&idx=4&tkn=bR33mbMTmA5V2FXQW0T64ib9kvw&fn=external_8"
+    },
+    {
+      "video_id": "1488646179401",
+      "title_raw": "48 - No Te Duermas (Latino)",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 48,
+      "views": 146,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158368791089&type=32&idx=9&tkn=7ImtLmXza5OXAiGb7U5feOMCzHs&fn=external_8"
+    },
+    {
+      "video_id": "1488646900297",
+      "title_raw": "49 - Click (Latino)",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 49,
+      "views": 138,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158370495025&type=32&idx=0&tkn=K_YaCBMUqLn6zN44RdtqmPojM0o&fn=external_8"
+    },
+    {
+      "video_id": "1488647293513",
+      "title_raw": "50 - Una Vieja Historia",
+      "duration_raw": "19:51",
+      "season_number": 1,
+      "episode_number": 50,
+      "views": 150,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158370822705&type=32&idx=1&tkn=8VksH7WMaOxQWlndIi-y_tjTMCc&fn=external_8"
+    },
+    {
+      "video_id": "1488646507081",
+      "title_raw": "51 - El Aullido del Fantasma (Latino)",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 51,
+      "views": 130,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158373509681&type=32&idx=5&tkn=f_FHV1_iK2oKUyJvO3UBsy91nzs&fn=external_8"
+    },
+    {
+      "video_id": "1488647359049",
+      "title_raw": "52 - Un Día en Horrorlandia - (Primera Parte) (Español)",
+      "duration_raw": "20:53",
+      "season_number": 1,
+      "episode_number": 52,
+      "views": 162,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158376852017&type=32&idx=5&tkn=wIaEW5-ZstdnCjkbzQAz5brV6Ys&fn=external_8"
+    },
+    {
+      "video_id": "1488646638153",
+      "title_raw": "53 - Un Día en Horrorlandia - (Segunda Parte) (Español)",
+      "duration_raw": "20:53",
+      "season_number": 1,
+      "episode_number": 53,
+      "views": 124,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158379145777&type=32&idx=14&tkn=BIWTsvDrmOhDIXTXMD1FlkVfyZw&fn=external_8"
+    },
+    {
+      "video_id": "1488647424585",
+      "title_raw": "54 - El Juego de la Casa Encantada (Español)",
+      "duration_raw": "20:52",
+      "season_number": 1,
+      "episode_number": 54,
+      "views": 268,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158382422577&type=32&idx=2&tkn=_H-UVyAqTSsDzJFncDGYY3H-NJs&fn=external_8"
+    },
+    {
+      "video_id": "1488647096905",
+      "title_raw": "55 - La Escuela Perfecta - (Primera Parte) (Latino)",
+      "duration_raw": "21:22",
+      "season_number": 1,
+      "episode_number": 55,
+      "views": 169,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158384912945&type=32&idx=2&tkn=_-_YzKBMoaV50fBAZAkwVx-AL8o&fn=external_8"
+    },
+    {
+      "video_id": "1488647162441",
+      "title_raw": "56 - La Escuela Perfecta - (Segunda Parte)",
+      "duration_raw": "21:20",
+      "season_number": 1,
+      "episode_number": 56,
+      "views": 137,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158387796529&type=32&idx=7&tkn=0s5mmfd_2fQR6mW3Ykgu0fzjqBs&fn=external_8"
+    },
+    {
+      "video_id": "1488646113865",
+      "title_raw": "57 - La Piel de Hombre Lobo - (Primera Parte) (Español)",
+      "duration_raw": "20:52",
+      "season_number": 1,
+      "episode_number": 57,
+      "views": 117,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158391138865&type=32&idx=2&tkn=yLGpfWYM07CUh3mdo32eoS7Iios&fn=external_8"
+    },
+    {
+      "video_id": "1488646244937",
+      "title_raw": "03x58 - La Piel de Hombre Lobo - (Segunda Parte) (Español)",
+      "duration_raw": "20:15",
+      "season_number": 1,
+      "episode_number": 58,
+      "views": 142,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158393498161&type=32&idx=9&tkn=8soyT7HHtIwOHTbStmxsrF1VQRE&fn=external_8"
+    },
+    {
+      "video_id": "1488647227977",
+      "title_raw": "03x59 - Hormígas Increíbles (Latino)",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 59,
+      "views": 163,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158395857457&type=32&idx=2&tkn=PZcqmwE58Fpcozk7Ibg0Osylbqw&fn=external_8"
+    },
+    {
+      "video_id": "1488646769225",
+      "title_raw": "03x60 - La novia del muñeco viviente (Español)",
+      "duration_raw": "20:53",
+      "season_number": 1,
+      "episode_number": 60,
+      "views": 147,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158398282289&type=32&idx=6&tkn=Boz4f1u587pXZcsGAgTGmnAlbf4&fn=external_8"
+    },
+    {
+      "video_id": "1488646310473",
+      "title_raw": "03x61 - El bebé (Español)",
+      "duration_raw": "20:52",
+      "season_number": 1,
+      "episode_number": 61,
+      "views": 129,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158401690161&type=32&idx=6&tkn=Oh0kdI6QP5ubf_yc_AmgdsUiEQ4&fn=external_8"
+    },
+    {
+      "video_id": "1488646834761",
+      "title_raw": "03x62 - Sonríe y Muere... Otra Vez (Latino)",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 62,
+      "views": 445,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158404770353&type=32&idx=7&tkn=f2ULE8q0E-01cLxYU0ylf2ODJyY&fn=external_8"
+    },
+    {
+      "video_id": "1488645982793",
+      "title_raw": "03x63 - La Rueda del Infortunio - (Primera Parte) (Español)",
+      "duration_raw": "20:54",
+      "season_number": 1,
+      "episode_number": 63,
+      "views": 131,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158407588401&type=32&idx=14&tkn=aD3mvsNMBR2u8_IlzYpZbltzAaY&fn=external_8"
+    },
+    {
+      "video_id": "1488646376009",
+      "title_raw": "64 - La Rueda Del Infortunio (Segunda Parte) (Youtube) (Español)",
+      "duration_raw": "17:41",
+      "season_number": 1,
+      "episode_number": 64,
+      "views": 131,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158408768049&type=32&idx=14&tkn=X7zAH5s1HNrCx930K5JtRExyPi8&fn=external_8"
+    },
+    {
+      "video_id": "1488647031369",
+      "title_raw": "03x65 - La Rueda del Infortunio - (Tercera Parte) (Español)",
+      "duration_raw": "19:13",
+      "season_number": 1,
+      "episode_number": 65,
+      "views": 150,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158411389489&type=32&idx=3&tkn=S2VIM9dfJLmehnUY3ZT6ztUEhLk&fn=external_8"
+    },
+    {
+      "video_id": "1488646572617",
+      "title_raw": "03x66 - La Mascota del Profesor (Latino)",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 66,
+      "views": 134,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158413355569&type=32&idx=3&tkn=LeAUNfmKkVZJf413n52NhF480Fc&fn=external_8"
+    },
+    {
+      "video_id": "1488648276553",
+      "title_raw": "67 - Cómo conseguí mi cabeza humana reducida - (Primera Parte) (Español)",
+      "duration_raw": "20:58",
+      "season_number": 1,
+      "episode_number": 67,
+      "views": 260,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158416108081&type=32&idx=10&tkn=CBEiCx2yGbD86qYhB7LnK4dB-rA&fn=external_8"
+    },
+    {
+      "video_id": "1488648145481",
+      "title_raw": "68 - Cómo conseguí mi cabeza humana reducida - (Segunda Parte) (Español)",
+      "duration_raw": "19:43",
+      "season_number": 1,
+      "episode_number": 68,
+      "views": 171,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158419253809&type=32&idx=5&tkn=ZFPlzWNI869dXOnDi2XKi-7QWE0&fn=external_8"
+    },
+    {
+      "video_id": "1488648014409",
+      "title_raw": "69 - Mi Vecino es un Fantasma - (Primera Parte) (Latino)",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 69,
+      "views": 264,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158421940785&type=32&idx=7&tkn=kpGMrIXD1U3nQ9H98jEzLwtWdGE&fn=external_8"
+    },
+    {
+      "video_id": "1488647883337",
+      "title_raw": "70 - Mi Vecino es un Fantasma - (Segunda Parte) (Latino)",
+      "duration_raw": "21:29",
+      "season_number": 1,
+      "episode_number": 70,
+      "views": 241,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158425414193&type=32&idx=12&tkn=z2WOnfrl18OME7FL9ANhGBk7ddM&fn=external_8"
+    },
+    {
+      "video_id": "1488647948873",
+      "title_raw": "71 - El Maullido del Gato - (Primera Parte) (Español)",
+      "duration_raw": "21:30",
+      "season_number": 1,
+      "episode_number": 71,
+      "views": 172,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158429215281&type=32&idx=4&tkn=zDztX_LQAGs4NGOkvmUiaQ3f6sg&fn=external_8"
+    },
+    {
+      "video_id": "1488648342089",
+      "title_raw": "72 - El Maullido del Gato - (Segunda Parte) (Español)",
+      "duration_raw": "19:40",
+      "season_number": 1,
+      "episode_number": 72,
+      "views": 303,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158432033329&type=32&idx=11&tkn=c_UBoY1ENU5raCdG2eLgIF9aD3k&fn=external_8"
+    },
+    {
+      "video_id": "1488648211017",
+      "title_raw": "73 - Mutantes en las Profundidades - (Primera Parte) (Español)",
+      "duration_raw": "20:58",
+      "season_number": 1,
+      "episode_number": 73,
+      "views": 185,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158434720305&type=32&idx=2&tkn=jldQFGyA-mwr9eQlj8iM8eLgY_I&fn=external_8"
+    },
+    {
+      "video_id": "1488648079945",
+      "title_raw": "74 - Mutantes en las Profundidades - (Segunda Parte) (Español)",
+      "duration_raw": "18:25",
+      "season_number": 1,
+      "episode_number": 74,
+      "views": 167,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1158438259249&type=32&idx=6&tkn=Bfo2XquNqqz9A2bdaDkW6bb--t4&fn=external_8"
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "title": "Los Herculoides",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2407753",
+  "year": "1967",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Ciencia Ficción",
+  "videos": [
+    {
+      "video_id": "1476447439433",
+      "title_raw": "1- herculodes the beaked people",
+      "duration_raw": "10:35",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 10217,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043405081114&type=32&idx=0&tkn=-9PDMDH71DAiulH1i6CLnq_bAZs&fn=external_8"
+    },
+    {
+      "video_id": "1476447504969",
+      "title_raw": "2-herculodes the raiders",
+      "duration_raw": "10:18",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 3448,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043415960090&type=32&idx=9&tkn=KIOfyRjs62kdQHIVVfOWb4ux-KE&fn=external_8"
+    },
+    {
+      "video_id": "1476447832649",
+      "title_raw": "3-the pod creatures",
+      "duration_raw": "09:01",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 2248,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043418384922&type=32&idx=5&tkn=cEZDmcncUJaJmk6PsO-NDCLIViM&fn=external_8"
+    },
+    {
+      "video_id": "1476447767113",
+      "title_raw": "4-sarko the arkman",
+      "duration_raw": "10:14",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 2323,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043415239194&type=32&idx=6&tkn=XL4VRckxImw7UzyKBOeH4Uo-4lo&fn=external_8"
+    },
+    {
+      "video_id": "1476448029257",
+      "title_raw": "5-the mole men",
+      "duration_raw": "09:59",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1752,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043414714906&type=32&idx=4&tkn=uvNiCpNZi40jHfqKbNjtt0BQpjY&fn=external_8"
+    },
+    {
+      "video_id": "1476449143369",
+      "title_raw": "6-the pirates",
+      "duration_raw": "09:41",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 1416,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043409603098&type=32&idx=4&tkn=u5GXViSQvZGBX38gAqAanAiAFbE&fn=external_8"
+    },
+    {
+      "video_id": "1476447963721",
+      "title_raw": "7-The spider man",
+      "duration_raw": "11:10",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1491,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043391646234&type=32&idx=14&tkn=PKVY6CXHQmaxZiq8yACTmSXuTGc&fn=external_8"
+    },
+    {
+      "video_id": "1476449012297",
+      "title_raw": "8-mekkor",
+      "duration_raw": "10:10",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1245,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043394333210&type=32&idx=1&tkn=t7z6hY-IO7dMwxqrnlMt_AbXctk&fn=external_8"
+    },
+    {
+      "video_id": "1476448750153",
+      "title_raw": "9-the lost dargyte",
+      "duration_raw": "10:07",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 1129,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043394988570&type=32&idx=7&tkn=DLU0wj7DtGbAKSSmd27vcdBXQhk&fn=external_8"
+    },
+    {
+      "video_id": "1476447570505",
+      "title_raw": "10-herculoides- destroyer ants",
+      "duration_raw": "10:33",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 1143,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043398527514&type=32&idx=0&tkn=uhrWJiXqXm9VhxhgbUlvyavGIy0&fn=external_8"
+    },
+    {
+      "video_id": "1476447701577",
+      "title_raw": "11-herculides-Defeat of Ogron",
+      "duration_raw": "10:40",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 1116,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043410455066&type=32&idx=6&tkn=R9ca9nRE_EQsqmmbl1g9P2ttIgU&fn=external_8"
+    },
+    {
+      "video_id": "1476448291401",
+      "title_raw": "12-herculoides- The android people",
+      "duration_raw": "10:16",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 932,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043403967002&type=32&idx=5&tkn=BUp426VIRZNpFM9ariqUBVDtPJc&fn=external_8"
+    },
+    {
+      "video_id": "1476448160329",
+      "title_raw": "13-herculoides- temple of trax",
+      "duration_raw": "10:12",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 897,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043401476634&type=32&idx=2&tkn=oaJ14YocSmTSLE6hix9xyu-1s8U&fn=external_8"
+    },
+    {
+      "video_id": "1476447636041",
+      "title_raw": "14-herculoides swamp monster",
+      "duration_raw": "10:13",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 1078,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043393022490&type=32&idx=7&tkn=X1BndNsIxfw8C6KUivH_5KAeG-k&fn=external_8"
+    },
+    {
+      "video_id": "1476449602121",
+      "title_raw": "15-herculoides- laser lancers",
+      "duration_raw": "09:22",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 1012,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043419761178&type=32&idx=4&tkn=5BCHQccM76lsJA-XVyUxocgeqdM&fn=external_8"
+    },
+    {
+      "video_id": "1476449077833",
+      "title_raw": "16-herculoides-the raider apes",
+      "duration_raw": "10:08",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 816,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043413207578&type=32&idx=12&tkn=TVYGz0myyiKCrDBLwxu8v-FINhI&fn=external_8"
+    },
+    {
+      "video_id": "1476448946761",
+      "title_raw": "17-herculoides-Tiny world of terror",
+      "duration_raw": "10:06",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 1125,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043397413402&type=32&idx=14&tkn=dcyXpmCucZUBwpG0Kd2uTRcEdkc&fn=external_8"
+    },
+    {
+      "video_id": "1476448422473",
+      "title_raw": "18-herculoides- Prisoners of the bubblemen",
+      "duration_raw": "10:13",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 963,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043416746522&type=32&idx=14&tkn=pL4qgcsrNvxhhBz2Sn1pTRezaVM&fn=external_8"
+    },
+    {
+      "video_id": "1476448094793",
+      "title_raw": "19-herculoides- the time creatures",
+      "duration_raw": "09:36",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 795,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043411438106&type=32&idx=0&tkn=lql1zS5m9yMf1Uew5xPKG8yRFz0&fn=external_8"
+    },
+    {
+      "video_id": "1476448619081",
+      "title_raw": "20-herculoides- the gladiators of kyanite",
+      "duration_raw": "09:15",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 873,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043393808922&type=32&idx=3&tkn=lQUJOfR54GqSZah2MRYJheCbJVw&fn=external_8"
+    },
+    {
+      "video_id": "1476448881225",
+      "title_raw": "21-herculoides- Mekkano the machine master",
+      "duration_raw": "10:43",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 906,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043417926170&type=32&idx=0&tkn=Lj7cKCqFPXNROTOTh2RyjiJjxmI&fn=external_8"
+    },
+    {
+      "video_id": "1476449274441",
+      "title_raw": "22-herculoides- the invasion of the electrode men",
+      "duration_raw": "10:08",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 850,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043414321690&type=32&idx=1&tkn=U6g6Bh3c1oExFoSJVVfr9aMwZh8&fn=external_8"
+    },
+    {
+      "video_id": "1476449536585",
+      "title_raw": "23-herculoides- mission of the amatons",
+      "duration_raw": "09:47",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 768,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043399182874&type=32&idx=11&tkn=FpjQO_JgbRQot_VRj1Sj-mY_cas&fn=external_8"
+    },
+    {
+      "video_id": "1476448225865",
+      "title_raw": "24-herculoides- queen skorra",
+      "duration_raw": "10:10",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 861,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043418778138&type=32&idx=1&tkn=vhMBYKUzh5wQdpFX4uQMdE4zCdc&fn=external_8"
+    },
+    {
+      "video_id": "1476448488009",
+      "title_raw": "25-herculoides- attack of the faceless people",
+      "duration_raw": "09:32",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 780,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043419171354&type=32&idx=9&tkn=wTsAIPhwPodKUanHuY32kbRrmSE&fn=external_8"
+    },
+    {
+      "video_id": "1476448815689",
+      "title_raw": "26-herculoides- the zorbots",
+      "duration_raw": "10:00",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 763,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043396430362&type=32&idx=1&tkn=D_pK88v_BHzMzcUf0EQ1GSoZUsQ&fn=external_8"
+    },
+    {
+      "video_id": "1476448684617",
+      "title_raw": "27- Return of Sta-Lak",
+      "duration_raw": "10:06",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 778,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043399838234&type=32&idx=13&tkn=f5zI2G8q_UjD058lInVuNVy5fII&fn=external_8"
+    },
+    {
+      "video_id": "1476449208905",
+      "title_raw": "28- Herculoides Revenge of the Pirates",
+      "duration_raw": "09:34",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 767,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043406129690&type=32&idx=12&tkn=CPc7qegIKuGvijaWx_VpJJGwLAA&fn=external_8"
+    },
+    {
+      "video_id": "1476448553545",
+      "title_raw": "29- herculoides Ruler of the reptons",
+      "duration_raw": "09:32",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 786,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043407440410&type=32&idx=12&tkn=NVUoJKi7_AnBiOAXdfKRPBDyTV0&fn=external_8"
+    },
+    {
+      "video_id": "1476449405513",
+      "title_raw": "30-herculoides-the island of the gravites",
+      "duration_raw": "09:36",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 774,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043402721818&type=32&idx=6&tkn=A_y_QQTl1APew8yBFWUzmtAZxXg&fn=external_8"
+    },
+    {
+      "video_id": "1476447898185",
+      "title_raw": "31-herculoides- malak and the metal apes",
+      "duration_raw": "10:13",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 762,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043402000922&type=32&idx=13&tkn=pPOzRd140R-LeMWor7Z3df3Zuy8&fn=external_8"
+    },
+    {
+      "video_id": "1476449667657",
+      "title_raw": "32-The return of Torrak",
+      "duration_raw": "09:30",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 788,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043409013274&type=32&idx=3&tkn=OJ0PTEZkDeCwj5kAZhHwYdvBTm0&fn=external_8"
+    },
+    {
+      "video_id": "1476449471049",
+      "title_raw": "33- herculoides The antidote",
+      "duration_raw": "10:14",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 770,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043411896858&type=32&idx=7&tkn=8qya_paZYfKcDP4E1C-RwnGnhD8&fn=external_8"
+    },
+    {
+      "video_id": "1478916835913",
+      "title_raw": "34LH---CiRuJiTaxD-SERIESDELOS90.NET",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 863,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=629198555721&type=32&idx=14&tkn=oXFTMY12O4eMh1ET2vw0n9ApcFs&fn=external_8"
+    },
+    {
+      "video_id": "1476448356937",
+      "title_raw": "35-the mutoids",
+      "duration_raw": "09:44",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 801,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043417270810&type=32&idx=7&tkn=Y6Q2L4atnbs68Kee1TZyvCVDBlk&fn=external_8"
+    },
+    {
+      "video_id": "1476449339977",
+      "title_raw": "36-the crystalites",
+      "duration_raw": "10:07",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 1446,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1043408095770&type=32&idx=10&tkn=EgD02rAVbjLijtCaeZWS7BomZW4&fn=external_8"
+    }
+  ]
+}

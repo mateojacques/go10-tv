@@ -1,0 +1,196 @@
+{
+  "title": "Protagonistas de la Historia",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c4835913",
+  "year": "1991",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "2478967425609",
+      "title_raw": "01-Alexander Graham Bell",
+      "duration_raw": "26:11",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 5376,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279361092169&type=32&idx=5&tkn=wCwNaUIFUqjR1YVXE9x1kDRSiVg&fn=external_8"
+    },
+    {
+      "video_id": "2478966835785",
+      "title_raw": "02-George Washington",
+      "duration_raw": "28:58",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 2030,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279332059721&type=32&idx=11&tkn=8QoMUbwz7VbHBVPqJpquldO8v9w&fn=external_8"
+    },
+    {
+      "video_id": "2478966966857",
+      "title_raw": "03-Los Macabeos",
+      "duration_raw": "27:52",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1309,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279343856201&type=32&idx=6&tkn=3LAJ7_tSgIynWpp3USTGrumO_RQ&fn=external_8"
+    },
+    {
+      "video_id": "2478967556681",
+      "title_raw": "04-Cristobal Colon",
+      "duration_raw": "27:15",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1574,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279366138441&type=32&idx=0&tkn=gnh__YTdfZ2gwekpRQCB9rZxtf0&fn=external_8"
+    },
+    {
+      "video_id": "2478967360073",
+      "title_raw": "05-Los hermanos Wright",
+      "duration_raw": "26:47",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 774,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279358208585&type=32&idx=8&tkn=goEvHRRVpTa3b7hzTNuo0WH6mlk&fn=external_8"
+    },
+    {
+      "video_id": "2478967687753",
+      "title_raw": "06-Helen Keller",
+      "duration_raw": "27:47",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 742,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279370529353&type=32&idx=8&tkn=CsIX2vw3Ue2ANmdmcQq_nFMeUmM&fn=external_8"
+    },
+    {
+      "video_id": "2478967097929",
+      "title_raw": "07-Abrahan Lincoln",
+      "duration_raw": "28:45",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 806,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279348705865&type=32&idx=0&tkn=5xhv92wqHVOny2AittWvTFFHmJc&fn=external_8"
+    },
+    {
+      "video_id": "2478967229001",
+      "title_raw": "08-Leonardo da Vinci",
+      "duration_raw": "29:04",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1136,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279353817673&type=32&idx=7&tkn=kQToHR46Qti9lI5L6pyI9TGKr4Y&fn=external_8"
+    },
+    {
+      "video_id": "2478967491145",
+      "title_raw": "09-Juana de Arco",
+      "duration_raw": "27:15",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 975,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279363320393&type=32&idx=4&tkn=Ot3AXH9CIpuTQcNcSM-U7GrZVbE&fn=external_8"
+    },
+    {
+      "video_id": "2478967753289",
+      "title_raw": "10-Marie Curie",
+      "duration_raw": "25:50",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 881,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279372495433&type=32&idx=1&tkn=aN76A-1vZMp_T4wr3rWOWlhYnu4&fn=external_8"
+    },
+    {
+      "video_id": "2478967622217",
+      "title_raw": "11-Benjamin Franklin",
+      "duration_raw": "24:36",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 555,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279367514697&type=32&idx=13&tkn=fYrVfltgiBtwTItZ1WvqUZMPZBA&fn=external_8"
+    },
+    {
+      "video_id": "2478967294537",
+      "title_raw": "12-Marco Polo",
+      "duration_raw": "27:20",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 640,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279355325001&type=32&idx=10&tkn=2TxVgmv6xMNUMLS3OZzhG_bdfGc&fn=external_8"
+    },
+    {
+      "video_id": "2478966639177",
+      "title_raw": "13-Pocahontas",
+      "duration_raw": "25:42",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 678,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279317707337&type=32&idx=12&tkn=OxEbw0MqwYX21oNT1X78gm3L7XM&fn=external_8"
+    },
+    {
+      "video_id": "2478966508105",
+      "title_raw": "14-William Bradford",
+      "duration_raw": "25:55",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 466,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279310301769&type=32&idx=7&tkn=DdjdUuaRZouSc_4MkTBMxa7-x8s&fn=external_8"
+    },
+    {
+      "video_id": "2478966704713",
+      "title_raw": "15-Louis Pasteur",
+      "duration_raw": "24:19",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 597,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279322294857&type=32&idx=0&tkn=6ReUwQONLhJ4wOgGwzf9ZrJFMoQ&fn=external_8"
+    },
+    {
+      "video_id": "2478966573641",
+      "title_raw": "16-Galileo",
+      "duration_raw": "27:23",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 673,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279314430537&type=32&idx=7&tkn=4dqAsavndUjSI5Oj0w4YWVsQFuE&fn=external_8"
+    },
+    {
+      "video_id": "2478966901321",
+      "title_raw": "17-Thomas Edison",
+      "duration_raw": "21:14",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 607,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279335926345&type=32&idx=12&tkn=XJmdZjKZ481Z8-I3UDLA9xQ83ik&fn=external_8"
+    },
+    {
+      "video_id": "2478966770249",
+      "title_raw": "18-Florence Nightingale",
+      "duration_raw": "24:32",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 536,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279327406665&type=32&idx=8&tkn=GxTbqWC2IxH-XJwaN-Jjsg2FUJM&fn=external_8"
+    },
+    {
+      "video_id": "2478967163465",
+      "title_raw": "19-Beethoven",
+      "duration_raw": "27:47",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 1035,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279351917129&type=32&idx=9&tkn=Y6wSHHQktQf0Qin3UdL-_4-bfsM&fn=external_8"
+    },
+    {
+      "video_id": "2478967032393",
+      "title_raw": "20-Harriet Tubman",
+      "duration_raw": "27:14",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 583,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279346215497&type=32&idx=7&tkn=_hkbLHN7Qg_PaUuTrtGsAJPMcqI&fn=external_8"
+    }
+  ]
+}

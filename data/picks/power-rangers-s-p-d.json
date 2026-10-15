@@ -1,0 +1,358 @@
+{
+  "title": "Power Rangers S.P.D.",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c5418057",
+  "year": "2005",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "720p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Acción",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "2800789097033",
+      "title_raw": "[SR] Power Rangers S.P.D - 01_x264",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 39384,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654281144905&type=38&idx=1&tkn=TIcdOCYLjWoksgoLpfh92c_Swcc&fn=external_8"
+    },
+    {
+      "video_id": "2800789228105",
+      "title_raw": "[SR] Power Rangers S.P.D - 02_x264",
+      "duration_raw": "23:13",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 24778,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654292154953&type=38&idx=15&tkn=92YZ5YVm6LsBMm5mspMcXHRq62Q&fn=external_8"
+    },
+    {
+      "video_id": "2800788376137",
+      "title_raw": "[SR] Power Rangers S.P.D - 03_x264",
+      "duration_raw": "23:22",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 18188,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654200470089&type=38&idx=7&tkn=vsKKtvlBPkLihEB8yDuDn4asRPQ&fn=external_8"
+    },
+    {
+      "video_id": "2800788179529",
+      "title_raw": "[SR] Power Rangers S.P.D - 04_x264",
+      "duration_raw": "22:45",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 15375,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654171306569&type=38&idx=9&tkn=D3YtnQrL5saEpk75JvmqDcfBUU0&fn=external_8"
+    },
+    {
+      "video_id": "2800787720777",
+      "title_raw": "[SR] Power Rangers S.P.D - 05_x264",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 13086,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654087617097&type=38&idx=11&tkn=kh9ZZxfw5nJMYuSFjUCqUlSw18U&fn=external_8"
+    },
+    {
+      "video_id": "2800789031497",
+      "title_raw": "[SR] Power Rangers S.P.D - 06_x264",
+      "duration_raw": "23:25",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 10903,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654274722377&type=38&idx=7&tkn=bjBxSajJvCAM2S7q503LSFNRaP4&fn=external_8"
+    },
+    {
+      "video_id": "2800788703817",
+      "title_raw": "[SR] Power Rangers S.P.D - 07_x264",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 10553,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654241299017&type=38&idx=1&tkn=FDUcZ9MhLRCDZRMA6y5UhFYCcSI&fn=external_8"
+    },
+    {
+      "video_id": "2800788245065",
+      "title_raw": "[SR] Power Rangers S.P.D - 08_x264",
+      "duration_raw": "22:51",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 9420,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654184544841&type=38&idx=12&tkn=Dj7O_9yD2PLHLhabyhD3W3drQRo&fn=external_8"
+    },
+    {
+      "video_id": "2800789359177",
+      "title_raw": "[SR] Power Rangers S.P.D - 09_x264",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 9792,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654301919817&type=38&idx=10&tkn=3RDo1K3nH5s1UK5MFUIShrJ7NRM&fn=external_8"
+    },
+    {
+      "video_id": "2800788113993",
+      "title_raw": "[SR] Power Rangers S.P.D - 10_x264",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 9625,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654160493129&type=38&idx=9&tkn=SzBFTQuTz3GF7hUIEgOHKVnLs2U&fn=external_8"
+    },
+    {
+      "video_id": "2800787065417",
+      "title_raw": "[SR] Power Rangers S.P.D - 11_x264",
+      "duration_raw": "22:38",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 10202,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1653955365449&type=38&idx=15&tkn=js43cL_pNPo4rn4wE_bk2iKklbM&fn=external_8"
+    },
+    {
+      "video_id": "2800788900425",
+      "title_raw": "[SR] Power Rangers S.P.D - 12_x264",
+      "duration_raw": "22:37",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 9615,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654261746249&type=38&idx=3&tkn=sQdXdBfCFwb9BwWFyjJ3i5qt6Sk&fn=external_8"
+    },
+    {
+      "video_id": "2800787917385",
+      "title_raw": "[SR] Power Rangers S.P.D - 13_x264",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 9058,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654134082121&type=38&idx=6&tkn=sWVnwh_LJHs2sisLFHUaLRIqgIg&fn=external_8"
+    },
+    {
+      "video_id": "2800787786313",
+      "title_raw": "[SR] Power Rangers S.P.D - 14_x264",
+      "duration_raw": "22:35",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 14697,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654100658761&type=38&idx=5&tkn=SJnCSh5twRTSD29t8m5IwumIIn8&fn=external_8"
+    },
+    {
+      "video_id": "2800788834889",
+      "title_raw": "[SR] Power Rangers S.P.D - 15_x264",
+      "duration_raw": "22:35",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 9622,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654254864969&type=38&idx=7&tkn=PfAlJsuMgGGe_7qFc3QE_AbiSHE&fn=external_8"
+    },
+    {
+      "video_id": "2800788965961",
+      "title_raw": "[SR] Power Rangers S.P.D - 16_x264",
+      "duration_raw": "22:35",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 7147,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654267906633&type=38&idx=9&tkn=4Hx3-1yAo9JHZ_ogDFKSkp2VHz8&fn=external_8"
+    },
+    {
+      "video_id": "2800788769353",
+      "title_raw": "[SR] Power Rangers S.P.D - 17_x264",
+      "duration_raw": "22:35",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 7563,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654247000649&type=38&idx=4&tkn=TC6Y4Yil8J64VxDs7muXIDXNZXY&fn=external_8"
+    },
+    {
+      "video_id": "2800789293641",
+      "title_raw": "[SR] Power Rangers S.P.D - 18_x264",
+      "duration_raw": "22:38",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 8059,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654297463369&type=38&idx=12&tkn=-r965DciEF2zNp1rdgiV9D04sZ4&fn=external_8"
+    },
+    {
+      "video_id": "2800788310601",
+      "title_raw": "[SR] Power Rangers S.P.D - 19_x264",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 7938,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654193523273&type=38&idx=4&tkn=xlZDChCQ5WP8pix794C7AEL-nqc&fn=external_8"
+    },
+    {
+      "video_id": "2800786672201",
+      "title_raw": "[SR] Power Rangers S.P.D - 20_x264",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 7159,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1653811972681&type=38&idx=6&tkn=j9jK0oV3ofD2rdAY_aswqzL5fZY&fn=external_8"
+    },
+    {
+      "video_id": "2800786999881",
+      "title_raw": "[SR] Power Rangers S.P.D - 21_x264",
+      "duration_raw": "22:38",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 9005,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1653937736265&type=38&idx=1&tkn=QQXh8bjRgAnTV7wQoF7ugEiQxEE&fn=external_8"
+    },
+    {
+      "video_id": "2800786737737",
+      "title_raw": "[SR] Power Rangers S.P.D - 22_x264",
+      "duration_raw": "22:38",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 9148,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1653840415305&type=38&idx=5&tkn=7Xc_oyNM91ubIkCXMQ80LASTetM&fn=external_8"
+    },
+    {
+      "video_id": "2800786803273",
+      "title_raw": "[SR] Power Rangers S.P.D - 23_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 7760,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1653860993609&type=38&idx=11&tkn=oqaIqBRLgJSZwWbbSONfHMAbxFg&fn=external_8"
+    },
+    {
+      "video_id": "2800787655241",
+      "title_raw": "[SR] Power Rangers S.P.D - 24_x264",
+      "duration_raw": "22:38",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 8023,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654069594697&type=38&idx=14&tkn=LmIY-h8AhsYChH5ZAy7VdcaCeP4&fn=external_8"
+    },
+    {
+      "video_id": "2800787458633",
+      "title_raw": "[SR] Power Rangers S.P.D - 25_x264",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 7813,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654019590729&type=38&idx=9&tkn=mUse2DvAfFQJidtm6nzZVElN8Os&fn=external_8"
+    },
+    {
+      "video_id": "2800787982921",
+      "title_raw": "[SR] Power Rangers S.P.D - 26_x264",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 9465,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654150597193&type=38&idx=11&tkn=riaPxjPd-R2Z3arIh2zTzY1nvoc&fn=external_8"
+    },
+    {
+      "video_id": "2800786868809",
+      "title_raw": "[SR] Power Rangers S.P.D - 27_x264",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 8630,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1653888059977&type=38&idx=4&tkn=H7qfk9eD4k-J6nhg1e_km7-GjMQ&fn=external_8"
+    },
+    {
+      "video_id": "2800787589705",
+      "title_raw": "[SR] Power Rangers S.P.D - 28_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 8026,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654055766601&type=38&idx=1&tkn=LHFeuAp4CtcEqqaNia6BHWMRlvg&fn=external_8"
+    },
+    {
+      "video_id": "2800788638281",
+      "title_raw": "[SR] Power Rangers S.P.D - 29_x264",
+      "duration_raw": "22:37",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 9753,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654234548809&type=38&idx=15&tkn=Jkxj_B4hpxWg2WyHRHb7ojgKN90&fn=external_8"
+    },
+    {
+      "video_id": "2800787851849",
+      "title_raw": "[SR] Power Rangers S.P.D - 30_x264",
+      "duration_raw": "22:37",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 8532,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654113897033&type=38&idx=2&tkn=flMWEYKiMOO1mQLT0FCqXvgGnoQ&fn=external_8"
+    },
+    {
+      "video_id": "2800787524169",
+      "title_raw": "[SR] Power Rangers S.P.D - 31_x264",
+      "duration_raw": "22:37",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 10413,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654035909193&type=38&idx=4&tkn=OUNlEzqyt5c9_6RcUaUAA2S4nro&fn=external_8"
+    },
+    {
+      "video_id": "2800788507209",
+      "title_raw": "[SR] Power Rangers S.P.D - 32_x264",
+      "duration_raw": "22:37",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 9619,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654216657481&type=38&idx=12&tkn=5HGtTA0q9meY6P5zVitdCGdrvtY&fn=external_8"
+    },
+    {
+      "video_id": "2800786934345",
+      "title_raw": "[SR] Power Rangers S.P.D - 33_x264",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 8166,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1653913225801&type=38&idx=9&tkn=IiZopuEE7UL7cJSceCrY7r7ZCmc&fn=external_8"
+    },
+    {
+      "video_id": "2800787196489",
+      "title_raw": "[SR] Power Rangers S.P.D - 34_x264",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 7580,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654002223689&type=38&idx=3&tkn=aQ1H6jOwaSPRw9QsgK6DV6HFvww&fn=external_8"
+    },
+    {
+      "video_id": "2800788441673",
+      "title_raw": "[SR] Power Rangers S.P.D - 35_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 8403,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654207547977&type=38&idx=10&tkn=xVOuL3WTeOOmdhXmFq9Ri_7P2Ew&fn=external_8"
+    },
+    {
+      "video_id": "2800788572745",
+      "title_raw": "[SR] Power Rangers S.P.D - 36_x264",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 8553,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654225766985&type=38&idx=3&tkn=F7W4GKEi-aTkiLLn0gzbpLc4GLQ&fn=external_8"
+    },
+    {
+      "video_id": "2800787130953",
+      "title_raw": "[SR] Power Rangers S.P.D - 37_x264",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 10880,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1653982890569&type=38&idx=15&tkn=XUr5l_RW05pfuXW7FnUWqjbhWJQ&fn=external_8"
+    },
+    {
+      "video_id": "2800789162569",
+      "title_raw": "[SR] Power Rangers S.P.D - 38_x264",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 11071,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1654286256713&type=38&idx=11&tkn=mROaYfm43b0OhOeIm3YmYyLlh0U&fn=external_8"
+    }
+  ]
+}

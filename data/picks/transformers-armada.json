@@ -1,0 +1,484 @@
+{
+  "title": "Transformers: Armada",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2204489",
+  "year": "2002",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Ciencia Ficción",
+  "videos": [
+    {
+      "video_id": "1369441962569",
+      "title_raw": "01 - Primer Encuentro_x264",
+      "duration_raw": "21:26",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 25172,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591202093641&type=32&idx=3&tkn=SVoRNX3VoexZwzsjU4CJET0y1Bw&fn=external_8"
+    },
+    {
+      "video_id": "1369440258633",
+      "title_raw": "02 - Metamorfosis_x264",
+      "duration_raw": "19:39",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 10562,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591154252361&type=32&idx=9&tkn=qIhJ6ba2gkq27rFNz7mytpg5iTg&fn=external_8"
+    },
+    {
+      "video_id": "1369440127561",
+      "title_raw": "03 - Base_x264",
+      "duration_raw": "20:45",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 6877,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591150189129&type=32&idx=14&tkn=QyvCgTpMicj3OGNDqFhbfR6Vve8&fn=external_8"
+    },
+    {
+      "video_id": "1369443535433",
+      "title_raw": "04 - Camarada_x264",
+      "duration_raw": "20:47",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 5379,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591245281865&type=32&idx=6&tkn=nv6YtEf7FyO_sIQ7khmtYIKB7DU&fn=external_8"
+    },
+    {
+      "video_id": "1369442224713",
+      "title_raw": "05 - Soldado_x264",
+      "duration_raw": "21:07",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 4114,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591212120649&type=32&idx=12&tkn=YaDCo0T1ZfV-JnxKlRd9pm6ZT3E&fn=external_8"
+    },
+    {
+      "video_id": "1369441372745",
+      "title_raw": "06 - Jungla_x264",
+      "duration_raw": "21:07",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 3722,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591185644105&type=32&idx=3&tkn=EiCDFA7l9SdD6K_plKIfKR6yCvY&fn=external_8"
+    },
+    {
+      "video_id": "1369442683465",
+      "title_raw": "07 - Feria_x264",
+      "duration_raw": "21:06",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 3071,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591223917129&type=32&idx=7&tkn=OwsWL8k_e2MM4qDFJX-07gb9Ejw&fn=external_8"
+    },
+    {
+      "video_id": "1369441045065",
+      "title_raw": "08 - Palacio_x264",
+      "duration_raw": "21:06",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 2885,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591172536905&type=32&idx=13&tkn=I1351_tBiuCBonv5SCA4Ll_1QeM&fn=external_8"
+    },
+    {
+      "video_id": "1369440586313",
+      "title_raw": "09 - Confrontación_x264",
+      "duration_raw": "21:07",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 2897,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591160347209&type=32&idx=13&tkn=sFMBE26ndjDhZ7yhJRShdP9iLeE&fn=external_8"
+    },
+    {
+      "video_id": "1369443666505",
+      "title_raw": "10 - Subterráneo_x264",
+      "duration_raw": "21:08",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 2820,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591248362057&type=32&idx=0&tkn=5M1YxEYpauc0nZwUd6EGUXm8isg&fn=external_8"
+    },
+    {
+      "video_id": "1369442093641",
+      "title_raw": "11 - Ruinas_x264",
+      "duration_raw": "21:06",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 2572,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591207664201&type=32&idx=13&tkn=FHN_SlxDine4tcAynkrv-H5anEk&fn=external_8"
+    },
+    {
+      "video_id": "1369441831497",
+      "title_raw": "12 - Prehistoria_x264",
+      "duration_raw": "21:08",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 2729,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591198358089&type=32&idx=10&tkn=nUM-tqwxB9HD40byRcVm8JdjCus&fn=external_8"
+    },
+    {
+      "video_id": "1369442880073",
+      "title_raw": "13 - Ataque Sorpresa_x264",
+      "duration_raw": "21:04",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 2435,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591227193929&type=32&idx=13&tkn=40RloHsmB_qZu4_DgTgYtyetmqQ&fn=external_8"
+    },
+    {
+      "video_id": "1369442028105",
+      "title_raw": "14 - En Desventaja_x264",
+      "duration_raw": "21:01",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 2373,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591205239369&type=32&idx=4&tkn=pzwOmw4Q5uiY70OfV2VrqU995tk&fn=external_8"
+    },
+    {
+      "video_id": "1369440717385",
+      "title_raw": "15 - Tempestad_x264",
+      "duration_raw": "21:07",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 2180,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591163558473&type=32&idx=2&tkn=l-8118NwOflz3FCu31RcrnPN5F8&fn=external_8"
+    },
+    {
+      "video_id": "1369440389705",
+      "title_raw": "16 - Crédulo_x264",
+      "duration_raw": "21:06",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 2098,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591157529161&type=32&idx=8&tkn=0HLGxmg7jWfZU0c13thS5ssjt3s&fn=external_8"
+    },
+    {
+      "video_id": "1369440651849",
+      "title_raw": "17 - Conspiración_x264",
+      "duration_raw": "21:07",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 2119,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591162051145&type=32&idx=0&tkn=AMUCBwbpsv-AreJd-brWnT2Fko8&fn=external_8"
+    },
+    {
+      "video_id": "1369443142217",
+      "title_raw": "18 - Confianza_x264",
+      "duration_raw": "21:07",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 2128,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591234402889&type=32&idx=13&tkn=rnMcF7Xmsh_gz-iorxrC7eeqRao&fn=external_8"
+    },
+    {
+      "video_id": "1369441503817",
+      "title_raw": "19 - Vacaciones_x264",
+      "duration_raw": "21:09",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 2036,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591190428233&type=32&idx=9&tkn=jT3h18m8t7IA5HHu4_9wZSINhjo&fn=external_8"
+    },
+    {
+      "video_id": "1369440193097",
+      "title_raw": "20 - Refuerzo_x264",
+      "duration_raw": "21:09",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 2260,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591151827529&type=32&idx=6&tkn=xv-1MIAlOzgHte98SvLMawTc0x0&fn=external_8"
+    },
+    {
+      "video_id": "1369442617929",
+      "title_raw": "21 - Batalla Decisiva_x264",
+      "duration_raw": "21:06",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 2197,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591222278729&type=32&idx=5&tkn=O6DghvI7uNebsmtOi75k0Fd7fXc&fn=external_8"
+    },
+    {
+      "video_id": "1369441307209",
+      "title_raw": "22 - Promesa_x264",
+      "duration_raw": "21:08",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 2126,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591182563913&type=32&idx=12&tkn=RxIK5-q7Tfv_UeFCzOk7_6-TR3E&fn=external_8"
+    },
+    {
+      "video_id": "1369442486857",
+      "title_raw": "23 - Rebelión_x264",
+      "duration_raw": "21:06",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 1953,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591218608713&type=32&idx=12&tkn=o9hlGdZsHSaSgQotSZIIGzTTprY&fn=external_8"
+    },
+    {
+      "video_id": "1369443338825",
+      "title_raw": "24 - Persecución_x264",
+      "duration_raw": "21:07",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 2055,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591240104521&type=32&idx=0&tkn=HD75tnVPepPZZnTiJ_fYRUPvR2s&fn=external_8"
+    },
+    {
+      "video_id": "1369442421321",
+      "title_raw": "25 - Estratega_x264",
+      "duration_raw": "21:07",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 2108,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591217101385&type=32&idx=11&tkn=Ixn8NKOTmyzuiDKordkF_jHKmno&fn=external_8"
+    },
+    {
+      "video_id": "1369441569353",
+      "title_raw": "26 - Conexión_x264",
+      "duration_raw": "21:06",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 2276,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591192197705&type=32&idx=14&tkn=83ELd5WzHY57SFPOPf0MjerdDsk&fn=external_8"
+    },
+    {
+      "video_id": "1369443076681",
+      "title_raw": "27 - Detección_x264",
+      "duration_raw": "20:59",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 1965,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591232240201&type=32&idx=6&tkn=a2Popr3yU93YgrBo2Z-mCHw468w&fn=external_8"
+    },
+    {
+      "video_id": "1369441897033",
+      "title_raw": "28 - Despertar_x264",
+      "duration_raw": "21:00",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 2059,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591200520777&type=32&idx=11&tkn=MTJSyva6ZVauI5R6mcAB_LxW3Yo&fn=external_8"
+    },
+    {
+      "video_id": "1369443273289",
+      "title_raw": "29 - Desesperado_x264",
+      "duration_raw": "20:59",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 1907,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591237941833&type=32&idx=8&tkn=-XdzovlZDXoQCpxM2hYmnHyW7DU&fn=external_8"
+    },
+    {
+      "video_id": "1369442552393",
+      "title_raw": "30 - Fugitivo_x264",
+      "duration_raw": "20:57",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 1912,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591220443721&type=32&idx=7&tkn=Pct3wQ5g5TlerRjOw95O8Ihfwak&fn=external_8"
+    },
+    {
+      "video_id": "1369440324169",
+      "title_raw": "31 - Pasado, Parte I_x264",
+      "duration_raw": "20:57",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 2023,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591156349513&type=32&idx=13&tkn=1DD9XEEFhCqLWLaqO28mdwcVWaE&fn=external_8"
+    },
+    {
+      "video_id": "1369443600969",
+      "title_raw": "32 - Pasado, Parte II_x264",
+      "duration_raw": "20:58",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 1872,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591246920265&type=32&idx=7&tkn=5_4Ot6dXSLqclyNKRlJ8gYYwmVU&fn=external_8"
+    },
+    {
+      "video_id": "1369442290249",
+      "title_raw": "33 - Sacrificio_x264",
+      "duration_raw": "21:00",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 2077,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591213693513&type=32&idx=4&tkn=s3BsFaB7Pn23wJv4d2ILBkOCky4&fn=external_8"
+    },
+    {
+      "video_id": "1369441110601",
+      "title_raw": "34 - Regeneración_x264",
+      "duration_raw": "20:59",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 2185,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591174699593&type=32&idx=12&tkn=HK4qFD2R7hj7q4HReVDt9rVi5r4&fn=external_8"
+    },
+    {
+      "video_id": "1369441241673",
+      "title_raw": "35 - Rescate_x264",
+      "duration_raw": "21:00",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 1939,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591180073545&type=32&idx=1&tkn=EGxS_feFvYG24eKPIyseC4l_Qzk&fn=external_8"
+    },
+    {
+      "video_id": "1369441438281",
+      "title_raw": "36 - Marte_x264",
+      "duration_raw": "20:58",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 1982,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591188396617&type=32&idx=7&tkn=TsQFiB8ZZDKrLxsz60JexklKdLY&fn=external_8"
+    },
+    {
+      "video_id": "1369440520777",
+      "title_raw": "37 - Ruptura_x264",
+      "duration_raw": "20:59",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 2152,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591159167561&type=32&idx=8&tkn=QjbVp-zO4B0uvX3gFpsVNTSr8jE&fn=external_8"
+    },
+    {
+      "video_id": "1369442814537",
+      "title_raw": "38 - Amenaza_x264",
+      "duration_raw": "20:58",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 1879,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591225555529&type=32&idx=12&tkn=SK5r__Qh_sADlt6SqawtYp39H8Y&fn=external_8"
+    },
+    {
+      "video_id": "1369443404361",
+      "title_raw": "39 - Crisis_x264",
+      "duration_raw": "20:58",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 1884,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591242070601&type=32&idx=13&tkn=YScz_6YSua2LN_KK7CguHyu6VLs&fn=external_8"
+    },
+    {
+      "video_id": "1369443011145",
+      "title_raw": "40 - Remordimientos_x264",
+      "duration_raw": "21:00",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 1929,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591230798409&type=32&idx=5&tkn=Nqc8taqONOQ5D5A2SRnu6nvomwI&fn=external_8"
+    },
+    {
+      "video_id": "1369442945609",
+      "title_raw": "41 - Partida_x264",
+      "duration_raw": "21:25",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 1820,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591228963401&type=32&idx=11&tkn=Jnm8Ad9G39xPZaVJHFVIYVlPEK0&fn=external_8"
+    },
+    {
+      "video_id": "1369442159177",
+      "title_raw": "42 - Milagro_x264",
+      "duration_raw": "20:45",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 1928,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591209695817&type=32&idx=0&tkn=Cxeaxz33DLark5--FmR3FO9TtQQ&fn=external_8"
+    },
+    {
+      "video_id": "1369441634889",
+      "title_raw": "43 - Marioneta_x264",
+      "duration_raw": "20:58",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 2103,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591193836105&type=32&idx=4&tkn=EIBgRE1_z8awq1S9cRb5wthg4CM&fn=external_8"
+    },
+    {
+      "video_id": "1369442355785",
+      "title_raw": "44 - Sublevación_x264",
+      "duration_raw": "21:01",
+      "season_number": 1,
+      "episode_number": 44,
+      "views": 2033,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591215331913&type=32&idx=5&tkn=8gyQEPag5-t8mkDB387JHF8t2A4&fn=external_8"
+    },
+    {
+      "video_id": "1369441176137",
+      "title_raw": "45 - Huida_x264",
+      "duration_raw": "20:59",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 1909,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591176665673&type=32&idx=1&tkn=ug8KFsios-QzddE3sN3I15Ot-UM&fn=external_8"
+    },
+    {
+      "video_id": "1369443469897",
+      "title_raw": "46 - A La Deriva_x264",
+      "duration_raw": "20:50",
+      "season_number": 1,
+      "episode_number": 46,
+      "views": 1958,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591243840073&type=32&idx=5&tkn=OKiD4SiRrPZh6OaWxFSdIF6kNps&fn=external_8"
+    },
+    {
+      "video_id": "1369441700425",
+      "title_raw": "47 - Portento_x264",
+      "duration_raw": "21:01",
+      "season_number": 1,
+      "episode_number": 47,
+      "views": 1887,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591195540041&type=32&idx=6&tkn=N0MfYgzFdz4WHhPavcmgf78ocNI&fn=external_8"
+    },
+    {
+      "video_id": "1369440979529",
+      "title_raw": "48 - Obstáculo_x264",
+      "duration_raw": "21:01",
+      "season_number": 1,
+      "episode_number": 48,
+      "views": 2265,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591170636361&type=32&idx=0&tkn=_PARiFXWLOOm-jUq8J-tmy74zIg&fn=external_8"
+    },
+    {
+      "video_id": "1369440848457",
+      "title_raw": "49 - Alianza_x264",
+      "duration_raw": "20:57",
+      "season_number": 1,
+      "episode_number": 49,
+      "views": 2167,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591167097417&type=32&idx=5&tkn=Vgq6a9s9qjaKQ2Xpq457haiIhiE&fn=external_8"
+    },
+    {
+      "video_id": "1369440913993",
+      "title_raw": "50 - Unión_x264",
+      "duration_raw": "21:01",
+      "season_number": 1,
+      "episode_number": 50,
+      "views": 1954,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591168997961&type=32&idx=5&tkn=lB2tYvpkj-WFoquEh4Qvuwj7e6w&fn=external_8"
+    },
+    {
+      "video_id": "1369440782921",
+      "title_raw": "51 - Origen_x264",
+      "duration_raw": "22:35",
+      "season_number": 1,
+      "episode_number": 51,
+      "views": 2685,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591165524553&type=32&idx=0&tkn=qYmcIHffgPJBFzU_KCmWBFtXS_w&fn=external_8"
+    },
+    {
+      "video_id": "1369443207753",
+      "title_raw": "52 - Combate Mortal_x264",
+      "duration_raw": "23:09",
+      "season_number": 1,
+      "episode_number": 52,
+      "views": 3552,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591236565577&type=32&idx=0&tkn=sivvSL5oUXbvhTq8Ki1t8pytKg4&fn=external_8"
+    }
+  ]
+}

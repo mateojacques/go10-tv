@@ -1,0 +1,367 @@
+{
+  "title": "Los Cuentos de la Cripta: La Serie Animada",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c3394633",
+  "year": "1993",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Terror",
+  "videos": [
+    {
+      "video_id": "1830350162505",
+      "title_raw": "CDC-01",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 25506,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7111473957384&type=32&idx=9&tkn=EkpXyhnRuqKpkYvl34BTtb8Zp38&fn=external_8"
+    },
+    {
+      "video_id": "1830350228041",
+      "title_raw": "CDC-02",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 4693,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7111475071496&type=32&idx=10&tkn=SjrOfVbrqGzphQyXM6Hi2cdBiIc&fn=external_8"
+    },
+    {
+      "video_id": "1830350293577",
+      "title_raw": "CDC-03",
+      "duration_raw": "22:45",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 3332,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7111475857928&type=32&idx=2&tkn=_1pjQER2VHJHRg5xpib3zKwe3sk&fn=external_8"
+    },
+    {
+      "video_id": "1830350490185",
+      "title_raw": "CDC-04",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 2334,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7111476775432&type=32&idx=7&tkn=WBS2zJDfLfgSxke0NLGhSfeKXck&fn=external_8"
+    },
+    {
+      "video_id": "1830350424649",
+      "title_raw": "CDC-05",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 2112,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7111477955080&type=32&idx=7&tkn=YiXJZvgvektkQ9QuJQ2qGaU0oUM&fn=external_8"
+    },
+    {
+      "video_id": "1830350359113",
+      "title_raw": "CDC-06",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 1830,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7111478413832&type=32&idx=2&tkn=hnLspsrTOlt-d7PQeiS1ewzgF9k&fn=external_8"
+    },
+    {
+      "video_id": "1830350883401",
+      "title_raw": "CDC-07",
+      "duration_raw": "22:45",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1472,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7111479134728&type=32&idx=3&tkn=w9-VmfIK4-6eYQwQlhhOCKoDATY&fn=external_8"
+    },
+    {
+      "video_id": "1830350686793",
+      "title_raw": "CDC-08",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1730,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7111480248840&type=32&idx=1&tkn=Ro0ffc-8jMnDigtsuRPN6mLXxLc&fn=external_8"
+    },
+    {
+      "video_id": "1830350817865",
+      "title_raw": "CDC-09",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 1544,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7111481035272&type=32&idx=10&tkn=V16UkaTFWKXVRMJKQymFxFGYc0g&fn=external_8"
+    },
+    {
+      "video_id": "1830350948937",
+      "title_raw": "CDC-10",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 1368,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7902233299607&type=32&idx=5&tkn=pMqWtvDc7QXXuyaIOKg_JkGrzew&fn=external_8"
+    },
+    {
+      "video_id": "1830350555721",
+      "title_raw": "CDC-11",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 1008,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7902233496215&type=32&idx=4&tkn=kzzLDPER9bbQpjLI47RTD9dazMo&fn=external_8"
+    },
+    {
+      "video_id": "1830350621257",
+      "title_raw": "CDC-12",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 1004,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7902234020503&type=32&idx=5&tkn=2s0R7w0A3WGOwNODfYCtSW7xcas&fn=external_8"
+    },
+    {
+      "video_id": "1830350752329",
+      "title_raw": "CDC-13",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 1211,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7902234479255&type=32&idx=15&tkn=tOLFy75TwNu-2HAtrfwl5Jn-2w0&fn=external_8"
+    },
+    {
+      "video_id": "1830351080009",
+      "title_raw": "CDC-14",
+      "duration_raw": "22:28",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 1196,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7911661963927&type=32&idx=5&tkn=uY-A0fATZDv_qeZrLdmvqUZRw5o&fn=external_8"
+    },
+    {
+      "video_id": "1830351211081",
+      "title_raw": "CDC-15",
+      "duration_raw": "22:45",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 974,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7911662619287&type=32&idx=5&tkn=WB-3VoepBC_CfN9wPkYpvZc415U&fn=external_8"
+    },
+    {
+      "video_id": "1830351342153",
+      "title_raw": "CDC-16",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 1088,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7911663209111&type=32&idx=13&tkn=-0C8j74nMsspoqgvXLjQdwk9vEU&fn=external_8"
+    },
+    {
+      "video_id": "1830351473225",
+      "title_raw": "CDC-17",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 972,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7911663667863&type=32&idx=1&tkn=gEHOjvIxf0LX6eLlzEY1skJLBWU&fn=external_8"
+    },
+    {
+      "video_id": "1830351604297",
+      "title_raw": "CDC-18",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 1815,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7911664716439&type=32&idx=8&tkn=eGZGeu6oaCfpgRRuoKffi8Kbl5I&fn=external_8"
+    },
+    {
+      "video_id": "1830351735369",
+      "title_raw": "CDC-19",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 898,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7911665306263&type=32&idx=7&tkn=3iIGjZuBiqlYa8j_FxPA9CuRo2I&fn=external_8"
+    },
+    {
+      "video_id": "1830351866441",
+      "title_raw": "CDC-20",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 822,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7911666092695&type=32&idx=2&tkn=XmrnShEz1B_9LPXSuUKLMNYYjgs&fn=external_8"
+    },
+    {
+      "video_id": "1830351800905",
+      "title_raw": "CDC-21",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 718,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7911667337879&type=32&idx=11&tkn=q-eg5N5YiVhzcc5mfqDQ0JhJ31U&fn=external_8"
+    },
+    {
+      "video_id": "1830351669833",
+      "title_raw": "CDC-22",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 756,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7911668058775&type=32&idx=8&tkn=FVbffvFb1nTPeYWT1lhL4PFz5PY&fn=external_8"
+    },
+    {
+      "video_id": "1830351276617",
+      "title_raw": "CDC-23",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 812,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7911668845207&type=32&idx=5&tkn=XW72XfnBxto0tmpb_IKnkjCuRTU&fn=external_8"
+    },
+    {
+      "video_id": "1830351538761",
+      "title_raw": "CDC-24",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 808,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7911670090391&type=32&idx=14&tkn=_px2zRhaJhxv7Id9L4loIT5fYQc&fn=external_8"
+    },
+    {
+      "video_id": "1830351407689",
+      "title_raw": "CDC-25",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 695,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7911670942359&type=32&idx=2&tkn=jZXnO41QwUYe5D_-j-iylsZB51U&fn=external_8"
+    },
+    {
+      "video_id": "1830351145545",
+      "title_raw": "CDC-26",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 947,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7911671270039&type=32&idx=1&tkn=xPonsm6KTLR75Np3UykGn__N394&fn=external_8"
+    },
+    {
+      "video_id": "1830352325193",
+      "title_raw": "CDC-27",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 707,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7931660405399&type=32&idx=15&tkn=wXHfKdZHncRteyGtnmwe1QuZ6wg&fn=external_8"
+    },
+    {
+      "video_id": "1830352587337",
+      "title_raw": "CDC-28",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 721,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7931662699159&type=32&idx=3&tkn=OwNIioCKhG6diHNJAAJUWPKdnm4&fn=external_8"
+    },
+    {
+      "video_id": "1830351997513",
+      "title_raw": "CDC-29",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 668,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7931664927383&type=32&idx=9&tkn=cB-7RwZbHfvvd4ZczJ7vPBO95nc&fn=external_8"
+    },
+    {
+      "video_id": "1830352652873",
+      "title_raw": "CDC-30",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 584,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=813271616073&type=32&idx=12&tkn=9tWo0sCgkqy3opRxls5mJWMg1WM&fn=external_8"
+    },
+    {
+      "video_id": "1830352849481",
+      "title_raw": "CDC-31",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 716,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7111502596616&type=32&idx=1&tkn=KdbvbrGxJ4aHp69dm_1_4m0F8XE&fn=external_8"
+    },
+    {
+      "video_id": "1830352063049",
+      "title_raw": "CDC-32",
+      "duration_raw": "22:05",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 652,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7111503055368&type=32&idx=2&tkn=D0x9WYK9dtbtd1tdeZOeUPgNM5E&fn=external_8"
+    },
+    {
+      "video_id": "1830352718409",
+      "title_raw": "CDC-33",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 742,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7111503579656&type=32&idx=15&tkn=pOSu5_ZHvNT9E1EJbl3X8m5Oj0w&fn=external_8"
+    },
+    {
+      "video_id": "1830352128585",
+      "title_raw": "CDC-34",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 616,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7111503776264&type=32&idx=6&tkn=VTha1Ra9QkhhFV22jmosbRIz1DA&fn=external_8"
+    },
+    {
+      "video_id": "1830352783945",
+      "title_raw": "CDC-35",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 612,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7111504562696&type=32&idx=5&tkn=QMI2ZlkCyTQ1C1r9QYAsC3fBg4Y&fn=external_8"
+    },
+    {
+      "video_id": "1830352390729",
+      "title_raw": "CDC-36",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 627,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7111505742344&type=32&idx=9&tkn=i3JS0ABXeP6h9Tjzg1nJHD8ys_Y&fn=external_8"
+    },
+    {
+      "video_id": "1830352456265",
+      "title_raw": "CDC-37",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 623,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=821095828088&type=32&idx=1&tkn=x3Ph_j2jVjWlYz6W629VKXBFvn0&fn=external_8"
+    },
+    {
+      "video_id": "1830352194121",
+      "title_raw": "CDC-38",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 606,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=821098318456&type=32&idx=6&tkn=-UQTFKqCt4XkyiS57fCFXpf4j4o&fn=external_8"
+    },
+    {
+      "video_id": "1830352259657",
+      "title_raw": "CDC-39",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 990,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7111507905032&type=32&idx=6&tkn=Y3EOLx1G8qhftc2sZSai7InzmW0&fn=external_8"
+    }
+  ]
+}

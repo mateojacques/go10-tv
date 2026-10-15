@@ -1,0 +1,601 @@
+{
+  "title": "Aventureros del Aire",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c3315785",
+  "year": "1990",
+  "studio": "Disney",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Aventura",
+  "videos": [
+    {
+      "video_id": "1811110038089",
+      "title_raw": "[RS]Los aventureros del aire 01 - Aquí a la maquinaria_mpeg4",
+      "duration_raw": "22:50",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 12669,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801378339401&type=32&idx=14&tkn=2QY07WPNaZdfYg9DbVtPOhgmBko&fn=external_8"
+    },
+    {
+      "video_id": "1811111807561",
+      "title_raw": "[RS]Los aventureros del aire 02 - El monstruo marino_mpeg4",
+      "duration_raw": "22:53",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 3631,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801512819273&type=32&idx=9&tkn=DakF5So7uI5nxjsI7FVxweO3ogo&fn=external_8"
+    },
+    {
+      "video_id": "1811110103625",
+      "title_raw": "[RS]Los aventureros del aire 03 - Siempre a tiempo_mpeg4",
+      "duration_raw": "22:52",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 2104,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801383385673&type=32&idx=11&tkn=vf0_tCOTrNBjKAom22rOSOFkjL8&fn=external_8"
+    },
+    {
+      "video_id": "1811110365769",
+      "title_raw": "[RS]Los aventureros del aire 04 - Mamá por un día_mpeg4",
+      "duration_raw": "23:01",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1748,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801401997897&type=32&idx=5&tkn=Ox_9f3uHmB7gzJGUpZeL3UOvkwU&fn=external_8"
+    },
+    {
+      "video_id": "1811111545417",
+      "title_raw": "[RS]Los aventureros del aire 05 - El iceberg_mpeg4",
+      "duration_raw": "22:52",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 2113,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801492503113&type=32&idx=4&tkn=HYfJWjrVCtq4eDgUpZ107fDoTuI&fn=external_8"
+    },
+    {
+      "video_id": "1811111348809",
+      "title_raw": "[RS]Los aventureros del aire 06 - Molly mimada_mpeg4",
+      "duration_raw": "22:51",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 1518,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801479264841&type=32&idx=2&tkn=h7xI8nHk55IEnR7Ul_yX8cxiYXE&fn=external_8"
+    },
+    {
+      "video_id": "1811111152201",
+      "title_raw": "[RS]Los aventureros del aire 07 - El perico del tesoro_mpeg4",
+      "duration_raw": "22:44",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1618,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801466157641&type=32&idx=3&tkn=3i-0QF-4b8T-NADp29_IIxKM2J4&fn=external_8"
+    },
+    {
+      "video_id": "1811110300233",
+      "title_raw": "[RS]Los aventureros del aire 08 - Juego de vocales_mpeg4",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1721,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801397148233&type=32&idx=14&tkn=Ef_16etr8a6CyXHhjDZbgQFADro&fn=external_8"
+    },
+    {
+      "video_id": "1811111479881",
+      "title_raw": "[RS]Los aventureros del aire 09 - El ídolo rico_mpeg4",
+      "duration_raw": "22:53",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 1304,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801487653449&type=32&idx=14&tkn=3U0qbrCtnaP7gWign-LRL86lqhk&fn=external_8"
+    },
+    {
+      "video_id": "1811111742025",
+      "title_raw": "[RS]Los aventureros del aire 10 - Clima tempestuoso_mpeg4",
+      "duration_raw": "22:56",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 1427,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801508428361&type=32&idx=5&tkn=NmqyMJwUMX58MGXU8eNQx2x0k6E&fn=external_8"
+    },
+    {
+      "video_id": "1811110693449",
+      "title_raw": "[RS]Los aventureros del aire 11 - Osunamente vivo_mpeg4",
+      "duration_raw": "22:56",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 927,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801430833737&type=32&idx=7&tkn=bnc3RYzHX3gNjLz_l7CSUthKJPU&fn=external_8"
+    },
+    {
+      "video_id": "1811110169161",
+      "title_raw": "[RS]Los aventureros del aire 12 - Su oportunidad para soñar_mpeg4",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 1293,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801387645513&type=32&idx=3&tkn=zLwgLYQG5I4sOfE3o6osvJhbvdw&fn=external_8"
+    },
+    {
+      "video_id": "1811110431305",
+      "title_raw": "[RS]Los aventureros del aire 13 - Toda ballena termina ballena_mpeg4",
+      "duration_raw": "22:52",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 807,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801406650953&type=32&idx=8&tkn=VJqgZyI-hAbGnC6aDT_F9JColRk&fn=external_8"
+    },
+    {
+      "video_id": "1811110758985",
+      "title_raw": "[RS]Los aventureros del aire 14 - El piñón dorado de la amistad_mpeg4",
+      "duration_raw": "22:27",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 873,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801434765897&type=32&idx=4&tkn=eOIgagFVlvi-KzsLkeXUja0mFp8&fn=external_8"
+    },
+    {
+      "video_id": "1811110562377",
+      "title_raw": "[RS]Los aventureros del aire 15 - La estación de combustible_mpeg4",
+      "duration_raw": "22:51",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 940,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801416022601&type=32&idx=0&tkn=NsdbCKaxzhkSunR28_DgpeUHR9g&fn=external_8"
+    },
+    {
+      "video_id": "1811111873097",
+      "title_raw": "[RS]Los aventureros del aire 16 - Una mala reflexión sobre ti parte 1_mpeg4",
+      "duration_raw": "22:55",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 840,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801519176265&type=32&idx=13&tkn=_ZN_OnYZP627uNkzmyyjwzwidG8&fn=external_8"
+    },
+    {
+      "video_id": "1811111283273",
+      "title_raw": "[RS]Los aventureros del aire 17 - Una mala reflexión sobre ti parte 2_mpeg4",
+      "duration_raw": "22:53",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 990,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801474742857&type=32&idx=0&tkn=yk5oVsrVgfV1o8pHf7dPQiZTDj8&fn=external_8"
+    },
+    {
+      "video_id": "1811111217737",
+      "title_raw": "[RS]Los aventureros del aire 18 - Sobre un ala y un oso_mpeg4",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 776,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801470941769&type=32&idx=6&tkn=gR835eOgisjeMfeX6HlxSWnwhSo&fn=external_8"
+    },
+    {
+      "video_id": "1811111086665",
+      "title_raw": "[RS]Los aventureros del aire 19 - Una estrella rasgada_mpeg4",
+      "duration_raw": "22:53",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 834,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801462422089&type=32&idx=5&tkn=HaFGXPtdaE6Dy5Oi_5poEPz5GOo&fn=external_8"
+    },
+    {
+      "video_id": "1811111938633",
+      "title_raw": "[RS]Los aventureros del aire 20 - Verdaderos amigos_mpeg4",
+      "duration_raw": "22:59",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 766,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801523960393&type=32&idx=14&tkn=DSuqaIc6tuT9EP2RjSq_TToGUDg&fn=external_8"
+    },
+    {
+      "video_id": "1811111610953",
+      "title_raw": "[RS]Los aventureros del aire 21 - Cuanto más grandes son, más ruidoso es el oink_mpeg4",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 862,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801498466889&type=32&idx=8&tkn=tbJrKOei6mkaA03bRrwucuD1Ncg&fn=external_8"
+    },
+    {
+      "video_id": "1811110496841",
+      "title_raw": "[RS]Los aventureros del aire 22 - Un espía en la sombra_mpeg4",
+      "duration_raw": "22:48",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 695,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801412155977&type=32&idx=14&tkn=YCVcrDbmWNoqxgBPa2divSDk42M&fn=external_8"
+    },
+    {
+      "video_id": "1811110234697",
+      "title_raw": "[RS]Los aventureros del aire 23 - La sangre azul de Baloo_mpeg4",
+      "duration_raw": "22:51",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 1075,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801391512137&type=32&idx=4&tkn=hcz40_5Pb3_CT4D3Di0YwWQizUY&fn=external_8"
+    },
+    {
+      "video_id": "1811111414345",
+      "title_raw": "[RS]Los aventureros del aire 24 - Un Baloo cambiado_mpeg4",
+      "duration_raw": "22:49",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 726,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801483524681&type=32&idx=10&tkn=G6fsq7Vl3irQLTxYXLv5Tpj6ilE&fn=external_8"
+    },
+    {
+      "video_id": "1811110824521",
+      "title_raw": "[RS]Los aventureros del aire 25 - La leyenda de Whistlestop_mpeg4",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 694,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801439681097&type=32&idx=6&tkn=ftM18nooeg8nWD08F3zV0CsF3NE&fn=external_8"
+    },
+    {
+      "video_id": "1811111676489",
+      "title_raw": "[RS]Los aventureros del aire 26 - Doble o nada_mpeg4",
+      "duration_raw": "22:52",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 671,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801503906377&type=32&idx=10&tkn=z2EV7ZeYMtpiK6f18ExgFbDzVbI&fn=external_8"
+    },
+    {
+      "video_id": "1811111021129",
+      "title_raw": "[RS]Los aventureros del aire 27 - Aire femenino_mpeg4",
+      "duration_raw": "22:44",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 657,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801457900105&type=32&idx=1&tkn=VQblQdSIo6fr0igttQNcMvrt_fs&fn=external_8"
+    },
+    {
+      "video_id": "1811110955593",
+      "title_raw": "[RS]Los aventureros del aire 28_mpeg4",
+      "duration_raw": "22:51",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 876,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801451936329&type=32&idx=1&tkn=KMJtP6aD6mIbuxK4AO-HKi223Ns&fn=external_8"
+    },
+    {
+      "video_id": "1811110627913",
+      "title_raw": "[RS]Los aventureros del aire 29 - El vuelo del pato de las nieves_mpeg4",
+      "duration_raw": "23:00",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 652,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801421855305&type=32&idx=12&tkn=3Ml8zvDqPu7nLkD7n3CkPgUe65U&fn=external_8"
+    },
+    {
+      "video_id": "1811110890057",
+      "title_raw": "[RS]Los aventureros del aire 30 - Salva al tigre_mpeg4",
+      "duration_raw": "22:58",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 834,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801445382729&type=32&idx=9&tkn=BiJXkogsIAJrnexdUZ7-2DA6Vs4&fn=external_8"
+    },
+    {
+      "video_id": "1811427363401",
+      "title_raw": "[RS]Los aventureros del aire 31 - El viejo y el ganso_mpeg4",
+      "duration_raw": "22:56",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 679,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801658112585&type=32&idx=9&tkn=LjKaRf3nAOy-RbMfuSYeVbK77e8&fn=external_8"
+    },
+    {
+      "video_id": "1811427232329",
+      "title_raw": "[RS]Los aventureros del aire 32 - Guerra de los Weirds_mpeg4",
+      "duration_raw": "22:35",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 691,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801652869705&type=32&idx=8&tkn=Q5962qGkWVAv0jmFWgvg0_nV-6s&fn=external_8"
+    },
+    {
+      "video_id": "1811425528393",
+      "title_raw": "[RS]Los aventureros del aire 33 - El club de los aventureros_mpeg4",
+      "duration_raw": "22:38",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 619,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801587268169&type=32&idx=2&tkn=_DxmrsXRUvGII_446r97gMNPLXI&fn=external_8"
+    },
+    {
+      "video_id": "1811425462857",
+      "title_raw": "[RS]Los aventureros del aire 34 - Saqueo y relámpagos parte 1_mpeg4",
+      "duration_raw": "22:45",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 704,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801584450121&type=32&idx=3&tkn=NC150zVGLP60fdLfgOWANTuSoC8&fn=external_8"
+    },
+    {
+      "video_id": "1811425921609",
+      "title_raw": "[RS]Los aventureros del aire 35 - Saqueo y relámpagos parte 2_mpeg4",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 676,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801605093961&type=32&idx=6&tkn=9pp7xEWu539ZM1v-zDdXxx2XST0&fn=external_8"
+    },
+    {
+      "video_id": "1811425397321",
+      "title_raw": "[RS]Los aventureros del aire 36 - Saqueo y relámpagos parte 3_mpeg4",
+      "duration_raw": "23:01",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 731,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801581501001&type=32&idx=8&tkn=6uUvWzgKgwNkX3YpNKevC2z_ij0&fn=external_8"
+    },
+    {
+      "video_id": "1811426183753",
+      "title_raw": "[RS]Los aventureros del aire 37 - Saqueo y relámpagos parte 4_mpeg4",
+      "duration_raw": "22:45",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 615,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801614596681&type=32&idx=3&tkn=qh8QC0HsTbpBCIA7DAVgVLoLVt4&fn=external_8"
+    },
+    {
+      "video_id": "1811426118217",
+      "title_raw": "[RS]Los aventureros del aire 38 - El ladrón del tiempo_mpeg4",
+      "duration_raw": "22:55",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 744,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801611844169&type=32&idx=2&tkn=8gwWfezrqXLDTzeixA4BEVbuW6A&fn=external_8"
+    },
+    {
+      "video_id": "1811426249289",
+      "title_raw": "[RS]Los aventureros del aire 39 - Por quien repican las campanas parte 1_mpeg4",
+      "duration_raw": "22:49",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 774,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801616562761&type=32&idx=3&tkn=YbzUYv5YIRcnPqJQmq9RIf2vNTo&fn=external_8"
+    },
+    {
+      "video_id": "1811426511433",
+      "title_raw": "[RS]Los aventureros del aire 40 - Por quien repican las campanas parte 2_mpeg4",
+      "duration_raw": "23:03",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 551,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801626982985&type=32&idx=3&tkn=qSKtdsHlzeicyGXmnlKJvhqOhRQ&fn=external_8"
+    },
+    {
+      "video_id": "1811426904649",
+      "title_raw": "[RS]Los aventureros del aire 41 - Ciudadano Khan_mpeg4",
+      "duration_raw": "22:54",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 840,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801639959113&type=32&idx=1&tkn=VRvLFv32cbfTJ83e84-7jmdnlQE&fn=external_8"
+    },
+    {
+      "video_id": "1811426445897",
+      "title_raw": "[RS]Los aventureros del aire 42 - La isla del demonio_mpeg4",
+      "duration_raw": "23:00",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 686,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801624492617&type=32&idx=14&tkn=4Tr1PqOdWetouqyldPhdm4dkNaU&fn=external_8"
+    },
+    {
+      "video_id": "1848541841993",
+      "title_raw": "TaleSpin.S01E43.480p.WEB-DL.AAC2.0.HEVC-MrGentMr",
+      "duration_raw": "22:56",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 827,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=824656923209&type=32&idx=9&tkn=pCELiAXPHeTHtXm1GNK42Tvt2GA&fn=external_8"
+    },
+    {
+      "video_id": "1811427166793",
+      "title_raw": "[RS]Los aventureros del aire 44 - Mi caballeroso Baloo_mpeg4",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 44,
+      "views": 668,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801650969161&type=32&idx=1&tkn=tFAbVSASP0mZYgrEhgdK12f6g4A&fn=external_8"
+    },
+    {
+      "video_id": "1811427494473",
+      "title_raw": "[RS]Los aventureros del aire 45 - La competencia_mpeg4",
+      "duration_raw": "22:58",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 574,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801662765641&type=32&idx=11&tkn=cWGGmfv4Jfk_dN1OmSx_4hwlAsc&fn=external_8"
+    },
+    {
+      "video_id": "1811425725001",
+      "title_raw": "[RS]Los aventureros del aire 46 - Escuela de pilotos_mpeg4",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 46,
+      "views": 534,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801596967497&type=32&idx=5&tkn=2Rp9DAUeqN7iD3Nf31C0PBAiDfQ&fn=external_8"
+    },
+    {
+      "video_id": "1811426576969",
+      "title_raw": "[RS]Los aventureros del aire 47 - Arrestando a Babyface_mpeg4",
+      "duration_raw": "22:32",
+      "season_number": 1,
+      "episode_number": 47,
+      "views": 577,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801629014601&type=32&idx=7&tkn=T0-2osKuznfzRGY0TfKEL0Lf4G8&fn=external_8"
+    },
+    {
+      "video_id": "1811427428937",
+      "title_raw": "[RS]Los aventureros del aire 48 - En busca de antiguos errores_mpeg4",
+      "duration_raw": "21:47",
+      "season_number": 1,
+      "episode_number": 48,
+      "views": 589,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801661061705&type=32&idx=12&tkn=cJrjlrwa5xBIX75Hr4Kv1mi7weQ&fn=external_8"
+    },
+    {
+      "video_id": "1811425659465",
+      "title_raw": "[RS]Los aventureros del aire 49 - La última batalla de Louie_mpeg4",
+      "duration_raw": "22:50",
+      "season_number": 1,
+      "episode_number": 49,
+      "views": 634,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801594477129&type=32&idx=8&tkn=2nQkpUnXdGuz-bvLilQaUFrHaVM&fn=external_8"
+    },
+    {
+      "video_id": "1811427101257",
+      "title_raw": "[RS]Los aventureros del aire 50 - Diploma superficial_mpeg4",
+      "duration_raw": "22:58",
+      "season_number": 1,
+      "episode_number": 50,
+      "views": 561,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801648282185&type=32&idx=2&tkn=FxDgS1_IZWvgL01JafVrc1KX_hA&fn=external_8"
+    },
+    {
+      "video_id": "1811427035721",
+      "title_raw": "[RS]Los aventureros del aire 51 - Pizzas en el cielo_mpeg4",
+      "duration_raw": "22:23",
+      "season_number": 1,
+      "episode_number": 51,
+      "views": 739,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801644481097&type=32&idx=1&tkn=pio5vh9J6kxD7oZT1OsOeN5CjFI&fn=external_8"
+    },
+    {
+      "video_id": "1811427297865",
+      "title_raw": "[RS]Los aventureros del aire 52 - Baloo echa chispas_mpeg4",
+      "duration_raw": "22:53",
+      "season_number": 1,
+      "episode_number": 52,
+      "views": 572,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801655425609&type=32&idx=6&tkn=mlAgKOFtFleJvzMs22Br2JgHbgE&fn=external_8"
+    },
+    {
+      "video_id": "1811426773577",
+      "title_raw": "[RS]Los aventureros del aire 53 - Baloo cabeza de bala_mpeg4",
+      "duration_raw": "22:58",
+      "season_number": 1,
+      "episode_number": 53,
+      "views": 595,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801636223561&type=32&idx=13&tkn=l0l7tMn_VNXjdjFEqB9iuYUKGKI&fn=external_8"
+    },
+    {
+      "video_id": "1811426314825",
+      "title_raw": "[RS]Los aventureros del aire 54 - El destino cabalga de nuevo_mpeg4",
+      "duration_raw": "22:56",
+      "season_number": 1,
+      "episode_number": 54,
+      "views": 538,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801618922057&type=32&idx=3&tkn=ECTFgJdMxRlKx76Nq59oFFd22XQ&fn=external_8"
+    },
+    {
+      "video_id": "1811425790537",
+      "title_raw": "[RS]Los aventureros del aire 55 - Cero a uno y pierde el farsante_mpeg4",
+      "duration_raw": "22:52",
+      "season_number": 1,
+      "episode_number": 55,
+      "views": 606,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801599523401&type=32&idx=14&tkn=EiaxXVH8hBaaVVO0h27VnCPwEOc&fn=external_8"
+    },
+    {
+      "video_id": "1811426642505",
+      "title_raw": "[RS]Los aventureros del aire 56 - Pegado a ti_mpeg4",
+      "duration_raw": "22:38",
+      "season_number": 1,
+      "episode_number": 56,
+      "views": 543,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801631046217&type=32&idx=0&tkn=POdyKYpmdw_sYnA6qVUn-GRuj7w&fn=external_8"
+    },
+    {
+      "video_id": "1811426708041",
+      "title_raw": "[RS]Los aventureros del aire 57 - El sonido y el peludo_mpeg4",
+      "duration_raw": "22:58",
+      "season_number": 1,
+      "episode_number": 57,
+      "views": 549,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801632815689&type=32&idx=3&tkn=EV0fp08UsyXSuG7OWnmQFn-2X9M&fn=external_8"
+    },
+    {
+      "video_id": "1811426052681",
+      "title_raw": "[RS]Los aventureros del aire 58 - El camino de Macadamia_mpeg4",
+      "duration_raw": "22:58",
+      "season_number": 1,
+      "episode_number": 58,
+      "views": 540,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801609747017&type=32&idx=11&tkn=IjTbWiLk49pgazNlLXT834_dcbQ&fn=external_8"
+    },
+    {
+      "video_id": "1811425593929",
+      "title_raw": "[RS]Los aventureros del aire 59 - El rescate del chimpancé rojo_mpeg4",
+      "duration_raw": "22:43",
+      "season_number": 1,
+      "episode_number": 59,
+      "views": 572,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801591134793&type=32&idx=0&tkn=xS2EOHL_keV_XxvP2aCBlWY-Ctk&fn=external_8"
+    },
+    {
+      "video_id": "1811425331785",
+      "title_raw": "[RS]Los aventureros del aire 60 - Baloo está en el correo_mpeg4",
+      "duration_raw": "22:51",
+      "season_number": 1,
+      "episode_number": 60,
+      "views": 651,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801579797065&type=32&idx=13&tkn=CAotnBYiNAh5pfYEw0vZlCQ9E0c&fn=external_8"
+    },
+    {
+      "video_id": "1811426839113",
+      "title_raw": "[RS]Los aventureros del aire 61 - Paraíso perdido_mpeg4",
+      "duration_raw": "22:48",
+      "season_number": 1,
+      "episode_number": 61,
+      "views": 647,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801638320713&type=32&idx=5&tkn=dvZAFUw7bsps-3pDzRH7FPRpj80&fn=external_8"
+    },
+    {
+      "video_id": "1811426970185",
+      "title_raw": "[RS]Los aventureros del aire 62 - La increíble Molly encogida_mpeg4",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 62,
+      "views": 636,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801641990729&type=32&idx=1&tkn=UqkVIY5Ahta6ns2qf9F8tt13u7Q&fn=external_8"
+    },
+    {
+      "video_id": "1811425987145",
+      "title_raw": "[RS]Los aventureros del aire 63 - Los héroes de Baloo_mpeg4",
+      "duration_raw": "22:52",
+      "season_number": 1,
+      "episode_number": 63,
+      "views": 572,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801606732361&type=32&idx=7&tkn=LIXGBryE4FLH9Y_WbKafTPcYUTg&fn=external_8"
+    },
+    {
+      "video_id": "1811425856073",
+      "title_raw": "[RS]Los aventureros del aire 64_mpeg4",
+      "duration_raw": "22:52",
+      "season_number": 1,
+      "episode_number": 64,
+      "views": 609,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801602538057&type=32&idx=7&tkn=tz1zuvwb-afSHg6ZhIiMt4t28oo&fn=external_8"
+    },
+    {
+      "video_id": "1811426380361",
+      "title_raw": "[RS]Los aventureros del aire 65 - Ladrones y artilleros_mpeg4",
+      "duration_raw": "22:50",
+      "season_number": 1,
+      "episode_number": 65,
+      "views": 1113,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=801621805641&type=32&idx=1&tkn=5Yyl7g-eK3EN1aFuq7Gllcp9iUg&fn=external_8"
+    }
+  ]
+}

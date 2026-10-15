@@ -1,0 +1,628 @@
+{
+  "title": "Grendizer",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2841929",
+  "year": "1975",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Ciencia Ficción",
+  "videos": [
+    {
+      "video_id": "1634084653641",
+      "title_raw": "Grendizer 01 - Carlos y Duke Fleed",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 1381,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191043128042&type=32&idx=4&tkn=QeaS2UgLaxJJn0zHlAlTzg_LmRg&fn=external_8"
+    },
+    {
+      "video_id": "1634083473993",
+      "title_raw": "Grendizer 02 - Nuestra verde Tierra",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 455,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191045094122&type=32&idx=14&tkn=6F6iZ52zI2MdLoEMXEcT6GwY1q8&fn=external_8"
+    },
+    {
+      "video_id": "1634084194889",
+      "title_raw": "Grendizer 03 - El rancho en peligro",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 216,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191046929130&type=32&idx=12&tkn=kCb1P840GwuFpZnweJLevNHvIp8&fn=external_8"
+    },
+    {
+      "video_id": "1634083670601",
+      "title_raw": "Grendizer 04 - Abajo Gol Gol",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 159,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6685285550789&type=32&idx=5&tkn=7X7O83kclf9WXkdxlD4haAT6Ie4&fn=external_8"
+    },
+    {
+      "video_id": "1634085964361",
+      "title_raw": "Grendizer 05 - Amor al atardecer",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 146,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191053679338&type=32&idx=2&tkn=Xh7mpZkaDiupthMbf2pDKqf2k-w&fn=external_8"
+    },
+    {
+      "video_id": "1634084129353",
+      "title_raw": "Grendizer 06 - Espiritu de lucha en el espacio",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 142,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6685281225413&type=32&idx=3&tkn=RNroHiw3YfLmmAjJqgofJcMovDE&fn=external_8"
+    },
+    {
+      "video_id": "1634086292041",
+      "title_raw": "Grendizer 07 - Aunque me cueste la vida",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 135,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6685279783621&type=32&idx=9&tkn=-m-fMXrSLbGTule3_TaGwCbkEU8&fn=external_8"
+    },
+    {
+      "video_id": "1634083539529",
+      "title_raw": "Grendizer 08 - Que mundo tan pacifico",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 96,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191026744042&type=32&idx=7&tkn=8Xai9yIJQlfXskR4qpjgWJYbbSs&fn=external_8"
+    },
+    {
+      "video_id": "1634083736137",
+      "title_raw": "Grendizer 09 - Domina la ira imperdonable",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 141,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191028644586&type=32&idx=8&tkn=f6fEJYAlOVyzSAjZk78hOmf2VIM&fn=external_8"
+    },
+    {
+      "video_id": "1634086095433",
+      "title_raw": "Grendizer 10 - Añorando a sus padres",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 100,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191031134954&type=32&idx=15&tkn=3FKBjy3Ado12Llo0ipxNmtqkxHg&fn=external_8"
+    },
+    {
+      "video_id": "1634086619721",
+      "title_raw": "Grendizer 11 - Los diablos bloquean el sol ardiente",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 135,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191033035498&type=32&idx=9&tkn=uj6bEpZyih_4dBc5t_FC9JoufCY&fn=external_8"
+    },
+    {
+      "video_id": "1634083801673",
+      "title_raw": "Grendizer 12 - Una chica cruza un puente arcoiris",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 96,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191017503466&type=32&idx=4&tkn=VCbHJpqCfqv6TRsCiLHDp1IYdwA&fn=external_8"
+    },
+    {
+      "video_id": "1634085046857",
+      "title_raw": "Grendizer 13 - Grendizer en peligro",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 80,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191035067114&type=32&idx=10&tkn=YcDzTCuLqyQNI3-xYgypFBDn4hw&fn=external_8"
+    },
+    {
+      "video_id": "1634084260425",
+      "title_raw": "Grendizer 14 - Dia de año nuevo para el Jefe Borot",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 88,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191037623018&type=32&idx=5&tkn=gXmAx-DcwDIYSO7QvxLVz6pHWCU&fn=external_8"
+    },
+    {
+      "video_id": "1634085571145",
+      "title_raw": "Grendizer 15 - Carta a la querida madre",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 148,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191040834282&type=32&idx=6&tkn=plc6axW9XAkFJ28IqFq8CKP6A7E&fn=external_8"
+    },
+    {
+      "video_id": "1634084325961",
+      "title_raw": "Grendizer 16 - La victoria de un amor",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 89,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191057742570&type=32&idx=8&tkn=aIoC8rKg3fDy4X7Crmghgpx2OIs&fn=external_8"
+    },
+    {
+      "video_id": "1634085177929",
+      "title_raw": "Grendizer 17 - El rescate",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 88,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6685243542213&type=32&idx=15&tkn=WFUHG2GT5FIjNKoE1sIHUwq9JBM&fn=external_8"
+    },
+    {
+      "video_id": "1634084915785",
+      "title_raw": "Grendizer 20 - Escape del monte nevado",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 76,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191066524394&type=32&idx=3&tkn=5GK84LS7LNjOWs78hNhbCcCDcSA&fn=external_8"
+    },
+    {
+      "video_id": "1634084063817",
+      "title_raw": "Grendizer 21 - El día de la Aurora",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 78,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191094770410&type=32&idx=6&tkn=o1GYRGzuaOl2WvRhcHg9SENCDnc&fn=external_8"
+    },
+    {
+      "video_id": "1634086750793",
+      "title_raw": "Grendizer 22 - La valentía de una flor",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 88,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191069473514&type=32&idx=13&tkn=pzCx8DtueIdMfgXGSB8RgmOKS2A&fn=external_8"
+    },
+    {
+      "video_id": "1634086488649",
+      "title_raw": "Grendizer 23 - Hilary en peligro",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 85,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191092345578&type=32&idx=2&tkn=5Jiu-jF1moVjrrMhEXD8dMu1f2A&fn=external_8"
+    },
+    {
+      "video_id": "1634083605065",
+      "title_raw": "Grendizer 25 - Una flor que apareció en el cielo",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 97,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191077010154&type=32&idx=5&tkn=9oC9ckNs6qo-GJjONJ0O6lRPtBM&fn=external_8"
+    },
+    {
+      "video_id": "1634085898825",
+      "title_raw": "Grendizer 26 - Luna llena",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 85,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191081794282&type=32&idx=2&tkn=9NXPnNNnuCLrntoWBi7iJ_lXc0Q&fn=external_8"
+    },
+    {
+      "video_id": "1634085440073",
+      "title_raw": "Grendizer 27 - El Fiero contrataque de Grendizer",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 79,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191089265386&type=32&idx=1&tkn=jCW3ZG2D5IFMJu78ZxWHwnQW2jU&fn=external_8"
+    },
+    {
+      "video_id": "1634083867209",
+      "title_raw": "Grendizer 29 - Adios al amigo del espacio",
+      "duration_raw": "22:38",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 41,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191087299306&type=32&idx=11&tkn=PoYbMv8VVuVw0yirYsiwSXP1TdY&fn=external_8"
+    },
+    {
+      "video_id": "1634086226505",
+      "title_raw": "Grendizer 30 - La balada de la cicatriz roja",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 28,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6685199502021&type=32&idx=5&tkn=IIN5lhVnXKMuD8qBRCIAEkufQ5I&fn=external_8"
+    },
+    {
+      "video_id": "1634086554185",
+      "title_raw": "Grendizer 31 - La amistad del Jefe",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 99,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6685197273797&type=32&idx=14&tkn=w9m9Dl8hpzAySzclECQ74G4NBYQ&fn=external_8"
+    },
+    {
+      "video_id": "1634085702217",
+      "title_raw": "Grendizer 32 - Rebelion contra la madre",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 35,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191102700266&type=32&idx=12&tkn=TBVXtBzIgIQEoTAQ4-hzQzgDajA&fn=external_8"
+    },
+    {
+      "video_id": "1634085767753",
+      "title_raw": "Grendizer 33 - La Muerte del mutante M",
+      "duration_raw": "22:38",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 38,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191104994026&type=32&idx=14&tkn=SuCu2jG9l2R7AMW6gjThWTqcF8c&fn=external_8"
+    },
+    {
+      "video_id": "1634085636681",
+      "title_raw": "Grendizer 34 - Una llama de lobo es un meteoro",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 78,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191106697962&type=32&idx=6&tkn=_MXECo02fVR7mNLNQdnBxI8ss_w&fn=external_8"
+    },
+    {
+      "video_id": "1634085112393",
+      "title_raw": "Grendizer 35 - ¡En Marcha delta stelar!",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 81,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191108664042&type=32&idx=6&tkn=c0NXSKk-uU9V2_Px514AkuUnv5E&fn=external_8"
+    },
+    {
+      "video_id": "1634084391497",
+      "title_raw": "Grendizer 36 - Un Juramento en el cielo",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 88,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191110367978&type=32&idx=8&tkn=D--BglLHfyKpRoWpjdJbiX89oLA&fn=external_8"
+    },
+    {
+      "video_id": "1634085243465",
+      "title_raw": "Grendizer 37 - Tu Vida Depende De Las Alas",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 78,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191112137450&type=32&idx=3&tkn=dbSbKqzjYUshG1JyPhxUqCfGLAA&fn=external_8"
+    },
+    {
+      "video_id": "1634086423113",
+      "title_raw": "Grendizer 38 - Hillary ataca entre lagrimas",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 73,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191114562282&type=32&idx=11&tkn=qDQMsfVGH0rRF52p94DhriIyb8c&fn=external_8"
+    },
+    {
+      "video_id": "1634084850249",
+      "title_raw": "Grendizer 39 - Un Ataque sorpresa de las tropas de asalto de vega",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 118,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191126686442&type=32&idx=9&tkn=LhaU6HbDP_GDvdowv1jyMJ7hRek&fn=external_8"
+    },
+    {
+      "video_id": "1634084719177",
+      "title_raw": "Grendizer 40 - Un Choque violento,el mar en llamas",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 99,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191116200682&type=32&idx=1&tkn=3J0HoPN8kYSQVGFLmw1PstOzIZo&fn=external_8"
+    },
+    {
+      "video_id": "1634086029897",
+      "title_raw": "Grendizer 41 - La primera mision del planeador marino",
+      "duration_raw": "22:38",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 79,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191118297834&type=32&idx=11&tkn=L1wu9hmKQTHmh0_be6HKXayeeGU&fn=external_8"
+    },
+    {
+      "video_id": "1634086816329",
+      "title_raw": "Grendizer 42 - Una Emergencia alerta a todos los miembros del instituto",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 72,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191121771242&type=32&idx=1&tkn=_o_VPh0xEzdZ6KaYB7A3TYGUXkc&fn=external_8"
+    },
+    {
+      "video_id": "1634085374537",
+      "title_raw": "Grendizer 43 - El Meteorito de la isla solitaria",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 71,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6685172435653&type=32&idx=10&tkn=T8p65q1ZHx50ostpoKPI7I2gbhc&fn=external_8"
+    },
+    {
+      "video_id": "1634084981321",
+      "title_raw": "Grendizer 44 - El monstruo platillo volador aparece en la noche del festival",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 44,
+      "views": 29,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191099095786&type=32&idx=1&tkn=6shRK83eEPQrVdYy5yHoAwiWX-g&fn=external_8"
+    },
+    {
+      "video_id": "1634084522569",
+      "title_raw": "Grendizer 45 - El Taladro Espacial al ataque",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 71,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6685165292229&type=32&idx=7&tkn=FKUfFcR17RJI0N2LYA-y5YXOb6k&fn=external_8"
+    },
+    {
+      "video_id": "1634086685257",
+      "title_raw": "Grendizer 46 - Los tiburones vienen del cielo",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 46,
+      "views": 60,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6685163326149&type=32&idx=5&tkn=rnrSFYIQvLchZI4gIjDUowelA7U&fn=external_8"
+    },
+    {
+      "video_id": "1634084588105",
+      "title_raw": "Grendizer 47 - El lago emite fuego infernal",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 47,
+      "views": 331,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6685160245957&type=32&idx=6&tkn=U1SiP9xaUKT-fHQzS4Hf6FXsmi4&fn=external_8"
+    },
+    {
+      "video_id": "1634085505609",
+      "title_raw": "Grendizer 48 - Demonios de las entrañas de la tierra",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 48,
+      "views": 70,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6685116730053&type=32&idx=14&tkn=9qcD9-G2vC2-iH-jsAqWNA4Gq4Q&fn=external_8"
+    },
+    {
+      "video_id": "1634085833289",
+      "title_raw": "Grendizer 49 - Vi a mi hermano en el sol poniente",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 49,
+      "views": 71,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191145036522&type=32&idx=7&tkn=JAcwKVapoleXHWkHDLPbcJhLHUA&fn=external_8"
+    },
+    {
+      "video_id": "1634083932745",
+      "title_raw": "Grendizer 50 - Deshacerse de Carlos",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 50,
+      "views": 85,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191147199210&type=32&idx=10&tkn=KYIZe58RCOfJm8FkDRFO9GyI7Wo&fn=external_8"
+    },
+    {
+      "video_id": "1634730379849",
+      "title_raw": "Grendizer 51 - El Gran Acercamiento",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 51,
+      "views": 94,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191148968682&type=32&idx=9&tkn=Mvh1XoaYGty2rwGHpzrXartmPYg&fn=external_8"
+    },
+    {
+      "video_id": "1634730052169",
+      "title_raw": "Grendizer 52 - El Gran movimiento del ejercito del Rey Vega",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 52,
+      "views": 91,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6685103688389&type=32&idx=3&tkn=fZmu9trcjtu4XTIRVH3VYqAoS-4&fn=external_8"
+    },
+    {
+      "video_id": "1634730314313",
+      "title_raw": "Grendizer 53 - Lucha a muerte con King Gori",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 53,
+      "views": 88,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191154277098&type=32&idx=14&tkn=RTJR40bjt0JHFROVLKikn184Lyg&fn=external_8"
+    },
+    {
+      "video_id": "1634730445385",
+      "title_raw": "Grendizer 54 - Horror en el interior de Japón",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 54,
+      "views": 89,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191129307882&type=32&idx=15&tkn=ImXHVtXisUMQBdX2Zg1FRpaGSlI&fn=external_8"
+    },
+    {
+      "video_id": "1634729921097",
+      "title_raw": "Grendizer 55 - El misterioso globo del terror",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 55,
+      "views": 77,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191132650218&type=32&idx=14&tkn=MBcQaMhKqnzM3SWCHAKCmO21CzE&fn=external_8"
+    },
+    {
+      "video_id": "1634729986633",
+      "title_raw": "Grendizer 56 - Un falso doctor provoca una crisis",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 56,
+      "views": 76,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191141563114&type=32&idx=14&tkn=xtI-VxFRA6qvZEBKwtaS6YeJEjY&fn=external_8"
+    },
+    {
+      "video_id": "1634730117705",
+      "title_raw": "Grendizer 58 - La Aparicion de un Grendizer falso",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 58,
+      "views": 101,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191157291754&type=32&idx=3&tkn=eZHvKwsfH0MBa7upCt679lXufuQ&fn=external_8"
+    },
+    {
+      "video_id": "1634729790025",
+      "title_raw": "Grendizer 59-Niños comandos",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 59,
+      "views": 77,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6685069085381&type=32&idx=9&tkn=YN6B2jA6SX-5avs1VAuV-NWB_ik&fn=external_8"
+    },
+    {
+      "video_id": "1634729855561",
+      "title_raw": "Grendizer 60 - La torre de Tokio volará en pedazos a las 7 de la tarde",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 60,
+      "views": 100,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191168957162&type=32&idx=4&tkn=VRlwRicrEkmbPJodj-IkOFnQA8o&fn=external_8"
+    },
+    {
+      "video_id": "1634730773065",
+      "title_raw": "Grendizer 62 - El día que llegaron los cisnes",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 62,
+      "views": 81,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191172430570&type=32&idx=2&tkn=9HyKDeBM0jMBiGzAS-iJZMeT0vU&fn=external_8"
+    },
+    {
+      "video_id": "1634730707529",
+      "title_raw": "Grendizer 63 - Kirka desaparece en la nieve",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 63,
+      "views": 76,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6685060696773&type=32&idx=12&tkn=UXjQRXgR4vVDeACH85FyhG_rSy0&fn=external_8"
+    },
+    {
+      "video_id": "1634730641993",
+      "title_raw": "Grendizer 64 - Faltan 5 minutos para la destrucción total de Tokio",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 64,
+      "views": 84,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191175314154&type=32&idx=6&tkn=_Td4BHKnlqBJ0KprS9aPQXvS240&fn=external_8"
+    },
+    {
+      "video_id": "1634730248777",
+      "title_raw": "Grendizer 65 - Carlos el hombre",
+      "duration_raw": "22:33",
+      "season_number": 1,
+      "episode_number": 65,
+      "views": 83,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6685054405317&type=32&idx=1&tkn=ivACBHC2IX0IMDZTJxK3mRMx5LQ&fn=external_8"
+    },
+    {
+      "video_id": "1634729658953",
+      "title_raw": "Grendizer 66 - Muerte en el mar",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 66,
+      "views": 71,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191177149162&type=32&idx=9&tkn=oPXLUI77LtsBPp6lahoFAHV6yww&fn=external_8"
+    },
+    {
+      "video_id": "1634729527881",
+      "title_raw": "Grendizer 67 - Explosión en la base submarina",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 67,
+      "views": 66,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191178656490&type=32&idx=15&tkn=_3DbzRbpn5Z1rgJXK6LdBxiEjTs&fn=external_8"
+    },
+    {
+      "video_id": "1634730969673",
+      "title_raw": "Grendizer 68 - María en la tempestad",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 68,
+      "views": 105,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191182588650&type=32&idx=6&tkn=aGr6vCAMBvMN2zlV8nRXa-YVr5Y&fn=external_8"
+    },
+    {
+      "video_id": "1634730838601",
+      "title_raw": "Grendizer 69 - Aurora por papá",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 69,
+      "views": 72,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191159454442&type=32&idx=8&tkn=XJbOKaadJ3TPfG9EFV8dX0O_7kc&fn=external_8"
+    },
+    {
+      "video_id": "1634729593417",
+      "title_raw": "Grendizer 70 - Adiós rey Fleed",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 70,
+      "views": 30,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6685037431493&type=32&idx=12&tkn=B4c7wiFCtgextPVk4dOQny_ZVDQ&fn=external_8"
+    },
+    {
+      "video_id": "1634731035209",
+      "title_raw": "Grendizer 71 - Adiós a mi mejor amigo",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 71,
+      "views": 166,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191163189994&type=32&idx=4&tkn=GpqHzdrnergKjMjxyw_WAaIpBNA&fn=external_8"
+    },
+    {
+      "video_id": "1634730510921",
+      "title_raw": "Grendizer 72 - El planeta natal",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 72,
+      "views": 110,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191164893930&type=32&idx=7&tkn=ATLVUcBOpiBYjW66FOACuUSCJiU&fn=external_8"
+    },
+    {
+      "video_id": "1634729724489",
+      "title_raw": "Grendizer 73 - Por esta Tierra bella y adorable",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 73,
+      "views": 79,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191166008042&type=32&idx=5&tkn=clkvs1_2i6buPX9hV0wdI4jEYdg&fn=external_8"
+    },
+    {
+      "video_id": "1634730183241",
+      "title_raw": "Grendizer 74 - Estrellas brillad para siempre",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 74,
+      "views": 208,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4191184030442&type=32&idx=14&tkn=nOGURAzlHhjUrv65phR9rXyQeq0&fn=external_8"
+    }
+  ]
+}

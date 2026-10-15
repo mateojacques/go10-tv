@@ -1,0 +1,502 @@
+{
+  "title": "La Máscara: La Serie Animada",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2129481",
+  "year": "1995",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "1336711645769",
+      "title_raw": "Episodio 01 - El Lado Más Verde de la Mascara (Bryan-espa)_x264",
+      "duration_raw": "22:15",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 154567,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579098577481&type=32&idx=2&tkn=d_MPHuxvs2jc9j9s0NyKoiOO-uk&fn=external_8"
+    },
+    {
+      "video_id": "1336711514697",
+      "title_raw": "Episodio 02 - El Lado Más Verde de la Mascara II (Bryan-espa)_x264",
+      "duration_raw": "22:15",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 41898,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579093531209&type=32&idx=11&tkn=Ijg_VvXcc8XTMkG5tGLvIyETHyo&fn=external_8"
+    },
+    {
+      "video_id": "1336709614153",
+      "title_raw": "Episodio 03 - El duo Dinamico (Bryan-espa)_x264",
+      "duration_raw": "22:09",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 25791,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579046738505&type=32&idx=3&tkn=j_CfwlhwDboCGzoETI4OfbkUMPI&fn=external_8"
+    },
+    {
+      "video_id": "1336760142409",
+      "title_raw": "Episodio 04 - Un Paseo Salvaje (Bryan-espa)_x264",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 18795,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579042806345&type=32&idx=5&tkn=Eny8U5XxGfQWIYAUgVkh7ZZ6q6w&fn=external_8"
+    },
+    {
+      "video_id": "1336712104521",
+      "title_raw": "Episodio 05 - La Sombra de Stillit (Bryan-espa)_x264",
+      "duration_raw": "22:07",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 14794,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579082979913&type=32&idx=14&tkn=5L3kaJZY6PBGVdRvKXUy6s-S7nQ&fn=external_8"
+    },
+    {
+      "video_id": "1336710072905",
+      "title_raw": "Episodio 06 - La Mascara gemela (Bryan-espa)_x264",
+      "duration_raw": "22:04",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 14654,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579050932809&type=32&idx=12&tkn=uDkZckVtREkrz__2Ncur3NUlIrE&fn=external_8"
+    },
+    {
+      "video_id": "1336710138441",
+      "title_raw": "Episodio 07 - Una Novia Para Pretorius (Bryan-espa)_x264",
+      "duration_raw": "22:03",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 12252,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579051194953&type=32&idx=1&tkn=sAVkfamHdcdvowjxCwnqAAC-Ogo&fn=external_8"
+    },
+    {
+      "video_id": "1336758962761",
+      "title_raw": "Episodio 08 - Doble reversa (Bryan-espa)_x264",
+      "duration_raw": "22:04",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 10542,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579044444745&type=32&idx=13&tkn=fqlIRkgWNAobcOHjAEb-JomasdE&fn=external_8"
+    },
+    {
+      "video_id": "1336710728265",
+      "title_raw": "Episodio 09 - Itkisia Aguda (Bryan-espa)_x264",
+      "duration_raw": "22:10",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 8819,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579120794185&type=32&idx=4&tkn=tSdJoRyKmxCD9nAEnZUJwdE60RI&fn=external_8"
+    },
+    {
+      "video_id": "1336711055945",
+      "title_raw": "Episodio 10 - La Mascara Marciana (Bryan-espa)_x264",
+      "duration_raw": "22:05",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 9616,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579116141129&type=32&idx=14&tkn=xbNT4IPDKMvIzRXJjq1az4-O9zw&fn=external_8"
+    },
+    {
+      "video_id": "1336711711305",
+      "title_raw": "Episodio 11 - Voten Por Mi (Bryan-espa)_x264",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 9069,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579119417929&type=32&idx=14&tkn=ANJKGlIIAF9PtM9aWlw-wRYLfxk&fn=external_8"
+    },
+    {
+      "video_id": "1336710597193",
+      "title_raw": "Episodio 12 - Perro Enlatado (Bryan-espa)_x264",
+      "duration_raw": "22:10",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 7987,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579110111817&type=32&idx=0&tkn=QagQ4jFUxYas9NqIlQJO1FhBVbc&fn=external_8"
+    },
+    {
+      "video_id": "1336711121481",
+      "title_raw": "Episodio 13 - Noche De Hallowen (Bryan-espa)_x264",
+      "duration_raw": "22:07",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 9314,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579063581257&type=32&idx=13&tkn=9McX2vzTHD4K_VB6ak-3EZ7J5_g&fn=external_8"
+    },
+    {
+      "video_id": "1336711907913",
+      "title_raw": "Episodio 14 - Santa Mascara (Bryan-espa)_x264",
+      "duration_raw": "22:08",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 7119,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579114764873&type=32&idx=1&tkn=3bpV5mb_WZciIpi_X_7xi3nSwSg&fn=external_8"
+    },
+    {
+      "video_id": "1336758831689",
+      "title_raw": "Episodio 15 - Personalidad Dividida (Bryan-espa)_x264",
+      "duration_raw": "22:08",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 10439,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579050146377&type=32&idx=4&tkn=nAsmKXh7gjMvrsqoUKiP78VF8o4&fn=external_8"
+    },
+    {
+      "video_id": "1336711187017",
+      "title_raw": "Episodio 16 - Comedia historica (Bryan-espa)_x264",
+      "duration_raw": "21:04",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 11880,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579106441801&type=32&idx=7&tkn=NSwl5z2cMnqeiyEqcCujlKJru7Q&fn=external_8"
+    },
+    {
+      "video_id": "1336760076873",
+      "title_raw": "Episodio 17 - Que verdes jugadores (Bryan-espa)_x264",
+      "duration_raw": "21:08",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 7832,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579043068489&type=32&idx=6&tkn=5wb6loWR6xYYHmyWKwQGLn43dEc&fn=external_8"
+    },
+    {
+      "video_id": "1336759945801",
+      "title_raw": "Episodio 18 - Liviano como una pluma (Bryan-espa)_x264",
+      "duration_raw": "21:05",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 8594,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579087043145&type=32&idx=11&tkn=BxZqeuxazZWHi7BDgD9Ls1YyiS4&fn=external_8"
+    },
+    {
+      "video_id": "1336760207945",
+      "title_raw": "Episodio 19 - El bueno el malo y el pez frito (Bryan-espa)_x264",
+      "duration_raw": "21:08",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 7528,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579092286025&type=32&idx=0&tkn=V3EB7K7xODSaoaMINIDD6NprK-4&fn=external_8"
+    },
+    {
+      "video_id": "1336712366665",
+      "title_raw": "Episodio 20 - De Compras (Bryan-espa) (1)_x264",
+      "duration_raw": "21:05",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 6420,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579111488073&type=32&idx=2&tkn=OHKn3lDijDjrXcUt5dF1A9B0Svs&fn=external_8"
+    },
+    {
+      "video_id": "1336759290441",
+      "title_raw": "Episodio 21 - El sintonizador (Bryan-espa)_x264",
+      "duration_raw": "21:07",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 5727,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579047459401&type=32&idx=0&tkn=uLTztctxndZKGO9nJVBn6Rj4WTY&fn=external_8"
+    },
+    {
+      "video_id": "1336711252553",
+      "title_raw": "Episodio 22 - Mascara al gratin (Bryan-espa)_x264",
+      "duration_raw": "21:03",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 5644,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579103427145&type=32&idx=13&tkn=T3ZRg8143qRZigsgRvEGU6V3Sao&fn=external_8"
+    },
+    {
+      "video_id": "1336709745225",
+      "title_raw": "Episodio 23 - Mascara jurasica (Bryan-espa)_x264",
+      "duration_raw": "21:10",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 5297,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579047983689&type=32&idx=6&tkn=6SlUmlBK8NxdxN3CNgN3jJhC0gI&fn=external_8"
+    },
+    {
+      "video_id": "1336712170057",
+      "title_raw": "Episodio 24 - Con manera de actor (Bryan-espa)_x264",
+      "duration_raw": "21:08",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 4756,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579108735561&type=32&idx=14&tkn=mCLR4REgN8rDVeisDa2o7Q7_CNA&fn=external_8"
+    },
+    {
+      "video_id": "1336759224905",
+      "title_raw": "Episodio 25 - Una mascara del mas alla (Bryan-espa)_x264",
+      "duration_raw": "21:10",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 4630,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579050736201&type=32&idx=2&tkn=SgNt0cdL7qYqdboC-uw92FgXMoM&fn=external_8"
+    },
+    {
+      "video_id": "1336759880265",
+      "title_raw": "Episodio 26 - Vacaciones Sin la Mascara (Bryan-espa)_x264",
+      "duration_raw": "21:09",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 4139,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579049228873&type=32&idx=10&tkn=eyz8L_jUq2S-qnI7xe6TIuy-Jr8&fn=external_8"
+    },
+    {
+      "video_id": "1336712235593",
+      "title_raw": "Episodio 27 - Pacto diabolico (Bryan-espa)_x264",
+      "duration_raw": "21:11",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 4386,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579096873545&type=32&idx=13&tkn=DCmtfmczF66s2VFZfIpqcRgSJbM&fn=external_8"
+    },
+    {
+      "video_id": "1336759683657",
+      "title_raw": "Episodio 28 - Tiempo al tiempo (Bryan-espa)_x264",
+      "duration_raw": "21:10",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 3802,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579045821001&type=32&idx=10&tkn=LdgWqOPhdzTRrxuNp5p6fDVeNck&fn=external_8"
+    },
+    {
+      "video_id": "1336710203977",
+      "title_raw": "Episodio 29 - Aclamen a la Mascara (Bryan-espa)_x264",
+      "duration_raw": "21:08",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 3458,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579066464841&type=32&idx=4&tkn=xmhsoy9Gs9O-8hLXAh2odUKJTzY&fn=external_8"
+    },
+    {
+      "video_id": "1336710859337",
+      "title_raw": "Episodio 30 - Poder de la Sugestión (Bryan-espa)_x264",
+      "duration_raw": "21:09",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 3417,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579105196617&type=32&idx=3&tkn=f9MG3L_aJmg7OuvMBfsNQ0o4hxE&fn=external_8"
+    },
+    {
+      "video_id": "1336760011337",
+      "title_raw": "Episodio 31 - La mascara va a Washington (Bryan-espa)_x264",
+      "duration_raw": "21:07",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 3501,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579088943689&type=32&idx=11&tkn=a9ZHdaxJqbHPPkJIMaLke9qwb5I&fn=external_8"
+    },
+    {
+      "video_id": "1336711842377",
+      "title_raw": "Episodio 32 - La Tempestad (Bryan-espa)_x264",
+      "duration_raw": "21:08",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 3986,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579117517385&type=32&idx=0&tkn=Q5JnAvEo1_EkiKuQAVbBATZpKk0&fn=external_8"
+    },
+    {
+      "video_id": "1336711580233",
+      "title_raw": "Episodio 33 - La madre de la justicia (Bryan-espa) (1)_x264",
+      "duration_raw": "20:57",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 3746,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579100346953&type=32&idx=7&tkn=YR17JcCJ6Szi0lPoFFSTJtbCxiA&fn=external_8"
+    },
+    {
+      "video_id": "1336711449161",
+      "title_raw": "Episodio 34 - Ser o no ser (Bryan-espa)_x264",
+      "duration_raw": "21:09",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 3386,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579122039369&type=32&idx=2&tkn=r0Iwv1U_vCSbNnD7s-3JzsplKVE&fn=external_8"
+    },
+    {
+      "video_id": "1336759028297",
+      "title_raw": "Episodio 35 - La posima del amor (Bryan-espa)_x264",
+      "duration_raw": "21:10",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 3608,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579043658313&type=32&idx=1&tkn=d6T-GetQ86LSPVlh6_PUKTkipbM&fn=external_8"
+    },
+    {
+      "video_id": "1336710793801",
+      "title_raw": "Episodio 36 - Las manos en la mascara (Bryan-espa)_x264",
+      "duration_raw": "21:06",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 3057,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579094645321&type=32&idx=3&tkn=nUDO4Bz8mXUFoHVlwJDgFPyUU40&fn=external_8"
+    },
+    {
+      "video_id": "1336759749193",
+      "title_raw": "Episodio 37 - El que obra mal (Bryan-espa)_x264",
+      "duration_raw": "21:08",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 2990,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579078130249&type=32&idx=8&tkn=t3oN9iR64JYfsHcM95PSj_1d7VM&fn=external_8"
+    },
+    {
+      "video_id": "1336710990409",
+      "title_raw": "Episodio 38 - La mascara en exclusiva (Bryan-espa)_x264",
+      "duration_raw": "21:09",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 2717,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579118369353&type=32&idx=4&tkn=daRWiDWYOln9nwZnqLw0WQ_fb5s&fn=external_8"
+    },
+    {
+      "video_id": "1336759814729",
+      "title_raw": "Episodio 39 - La mascara del futuro (Bryan-espa)_x264",
+      "duration_raw": "21:10",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 3497,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579081275977&type=32&idx=10&tkn=AvIyYypwYz3W2idEJZ8bANdeucs&fn=external_8"
+    },
+    {
+      "video_id": "1336711318089",
+      "title_raw": "Episodio 40 - Destino sellado (Bryan-espa)_x264",
+      "duration_raw": "21:05",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 2786,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579070134857&type=32&idx=11&tkn=BABq5jjew0RqBvd2jKLrWLvq3hw&fn=external_8"
+    },
+    {
+      "video_id": "1336759093833",
+      "title_raw": "Episodio 41 - Los Angeles verdes (Bryan-espa)_x264",
+      "duration_raw": "20:57",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 2706,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579046279753&type=32&idx=4&tkn=MxqzeRMtkuvA4gGu9r6KCfQd8sU&fn=external_8"
+    },
+    {
+      "video_id": "1336759159369",
+      "title_raw": "Episodio 42 - Los cazadores de recompensas (Bryan-espa)_x264",
+      "duration_raw": "21:08",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 2566,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579048639049&type=32&idx=12&tkn=wtazdBbiB8EZtpwkNl-F4MXoSCY&fn=external_8"
+    },
+    {
+      "video_id": "1336711776841",
+      "title_raw": "Episodio 43 - Convención del Mal (Bryan-espa)_x264",
+      "duration_raw": "21:07",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 2924,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579112798793&type=32&idx=5&tkn=6P-Uch9hF4M45xU8NKuV0Da_1Vs&fn=external_8"
+    },
+    {
+      "video_id": "1336709352009",
+      "title_raw": "Episodio 44 - The Mask (Portugués - Ingles) (Bryan-espa)_x264",
+      "duration_raw": "20:57",
+      "season_number": 1,
+      "episode_number": 44,
+      "views": 2528,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579045034569&type=32&idx=1&tkn=9B24ip3aevad9aqHghhwuNcu_48&fn=external_8"
+    },
+    {
+      "video_id": "1336711973449",
+      "title_raw": "Episodio 45 - The Mask (Portugués - Ingles) (Bryan-espa) (1)_x264",
+      "duration_raw": "21:12",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 2969,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579073739337&type=32&idx=1&tkn=EAuHwh3SU3nJ6Qku4ifMo3fROEM&fn=external_8"
+    },
+    {
+      "video_id": "1336710924873",
+      "title_raw": "Episodio 46 - Magia (Bryan-espa)_x264",
+      "duration_raw": "22:10",
+      "season_number": 1,
+      "episode_number": 46,
+      "views": 5501,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579085470281&type=32&idx=4&tkn=2xr1HuC2X9ydIlzMAmHuICzPWR4&fn=external_8"
+    },
+    {
+      "video_id": "1336711383625",
+      "title_raw": "Episodio 47 - La pequeña gran mascara (Bryan-espa)_x264",
+      "duration_raw": "22:09",
+      "season_number": 1,
+      "episode_number": 47,
+      "views": 3962,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579123219017&type=32&idx=7&tkn=XBk25-THH7XAg4jIQXwx3zAgOOw&fn=external_8"
+    },
+    {
+      "video_id": "1340079540809",
+      "title_raw": "Episodio 48 - Viaje fantastico (Bryan-espa)_x264",
+      "duration_raw": "22:10",
+      "season_number": 1,
+      "episode_number": 48,
+      "views": 3552,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579044051529&type=32&idx=14&tkn=-TItpgSqhr-5MCFIEm4S3a1l_x4&fn=external_8"
+    },
+    {
+      "video_id": "1336759421513",
+      "title_raw": "Episodio 49 - La tira comica mas cara del mundo (Bryan-espa)_x264",
+      "duration_raw": "22:07",
+      "season_number": 1,
+      "episode_number": 49,
+      "views": 3484,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579069020745&type=32&idx=1&tkn=LKfwuJZ-4PadibH9oW4tuPUOiwk&fn=external_8"
+    },
+    {
+      "video_id": "1336712301129",
+      "title_raw": "Episodio 50 - Problemas de salud (Bryan-espa)_x264",
+      "duration_raw": "22:10",
+      "season_number": 1,
+      "episode_number": 50,
+      "views": 3334,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579102247497&type=32&idx=11&tkn=4xNkDETIuLy68I_ZDE1PApmoRks&fn=external_8"
+    },
+    {
+      "video_id": "1336709417545",
+      "title_raw": "Episodio 51 - El clucero misterioso (Bryan-espa)_x264",
+      "duration_raw": "22:12",
+      "season_number": 1,
+      "episode_number": 51,
+      "views": 3300,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579045427785&type=32&idx=4&tkn=ZMAEeZ7RSttN8iye7oOKLYtfO1s&fn=external_8"
+    },
+    {
+      "video_id": "1336712038985",
+      "title_raw": "Episodio 52 - Los bobalitontos (Bryan-espa)_x264",
+      "duration_raw": "22:13",
+      "season_number": 1,
+      "episode_number": 52,
+      "views": 2804,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579079899721&type=32&idx=3&tkn=03C7AxFoQmiQmKogtHnBAMdjx8I&fn=external_8"
+    },
+    {
+      "video_id": "1336759618121",
+      "title_raw": "Episodio 53 - Cuando los puercos reinaban la tierra (Bryan-espa)_x264",
+      "duration_raw": "22:10",
+      "season_number": 1,
+      "episode_number": 53,
+      "views": 3277,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579075181129&type=32&idx=14&tkn=DYSQLv7vB6xR4K_-iJVRtpHTsoM&fn=external_8"
+    },
+    {
+      "video_id": "1336710662729",
+      "title_raw": "Episodio 54 - Mentes ajenas (Bryan-espa)_x264",
+      "duration_raw": "22:05",
+      "season_number": 1,
+      "episode_number": 54,
+      "views": 5701,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579099167305&type=32&idx=7&tkn=0yQ4IgGZoLxrwhs9NVHo3b0Wm4Q&fn=external_8"
+    }
+  ]
+}

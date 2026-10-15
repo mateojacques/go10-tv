@@ -1,0 +1,295 @@
+{
+  "title": "Rupert",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c7655497 c13103945",
+  "year": "1991",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "720p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Infantil",
+  "genre_secondary": "Animación",
+  "videos": [
+    {
+      "video_id": "3590585649737",
+      "title_raw": "Rupert Las S01E01",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 39,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2393959303753&type=37&idx=15&tkn=rXLXy9Vtl8zAkfGJAzhVN1FO9NM&fn=external_8"
+    },
+    {
+      "video_id": "3590584863305",
+      "title_raw": "Rupert Las S01E02",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 35,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2393928698441&type=37&idx=14&tkn=Z_-IVy5pZ3SmBX85PZItOPuWtL8&fn=external_8"
+    },
+    {
+      "video_id": "3590585125449",
+      "title_raw": "Rupert Las S01E04",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 21,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2393938266697&type=37&idx=15&tkn=lmJ0j7MKNEUldpwb1CMa6ckftjo&fn=external_8"
+    },
+    {
+      "video_id": "3590585453129",
+      "title_raw": "Rupert Las S01E05",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 27,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2393949407817&type=37&idx=3&tkn=B8cW4iQLyBiVt35wkJdADhSS9RY&fn=external_8"
+    },
+    {
+      "video_id": "3590584797769",
+      "title_raw": "Rupert Las S01E06",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 42,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2393927387721&type=37&idx=15&tkn=4RkqbHG0fm0gtUIj-81vHYkBjH8&fn=external_8"
+    },
+    {
+      "video_id": "3590585190985",
+      "title_raw": "Rupert Las S01E07",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 27,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2393940822601&type=37&idx=8&tkn=i0xemZTctFh60T1LPrIzbd3AJ7w&fn=external_8"
+    },
+    {
+      "video_id": "3590585387593",
+      "title_raw": "Rupert Las S01E08",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 35,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2393947900489&type=37&idx=15&tkn=0pOSvXra44rtMGHXt9HzxgmaE0c&fn=external_8"
+    },
+    {
+      "video_id": "3590584470089",
+      "title_raw": "Rupert Las S01E09",
+      "duration_raw": "23:39",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 38,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2393914083913&type=37&idx=15&tkn=66xuPsqEraTyZIZVc6twOh0qxLM&fn=external_8"
+    },
+    {
+      "video_id": "3590585256521",
+      "title_raw": "Rupert Las S01E13",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 37,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2393942657609&type=37&idx=1&tkn=tboac7TqP7BIEZVanpcFtUHK__M&fn=external_8"
+    },
+    {
+      "video_id": "3590584142409",
+      "title_raw": "Rupert Las S02E14",
+      "duration_raw": "23:12",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 34,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2393905171017&type=37&idx=3&tkn=_JfG8AJBy23iGvi1vfCQHXJuuKI&fn=external_8"
+    },
+    {
+      "video_id": "3590585584201",
+      "title_raw": "Rupert Las S02E16",
+      "duration_raw": "23:12",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 37,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2393954781769&type=37&idx=13&tkn=WTaSw7hUv3MQsLcTRMnSnRHMAFA&fn=external_8"
+    },
+    {
+      "video_id": "3590584994377",
+      "title_raw": "Rupert Las S02E17",
+      "duration_raw": "23:13",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 38,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2393932892745&type=37&idx=7&tkn=BQprajNdz6Wowjo_j86dcFheC-Y&fn=external_8"
+    },
+    {
+      "video_id": "3590584339017",
+      "title_raw": "Rupert Las S02E18",
+      "duration_raw": "23:12",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 33,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2393910872649&type=37&idx=1&tkn=3f8_eYKh4BTa8NUiT90bKia4rJ4&fn=external_8"
+    },
+    {
+      "video_id": "3590584404553",
+      "title_raw": "Rupert Las S02E19",
+      "duration_raw": "23:12",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 28,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2393912379977&type=37&idx=3&tkn=QBP6O4jat9xsrjB7irUqReKFzzo&fn=external_8"
+    },
+    {
+      "video_id": "3590585059913",
+      "title_raw": "Rupert Las S02E20",
+      "duration_raw": "23:12",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 30,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2393936104009&type=37&idx=1&tkn=bY9gOaZ9SzCLVYrwOI9r56RKgPM&fn=external_8"
+    },
+    {
+      "video_id": "3590584273481",
+      "title_raw": "Rupert Las S02E21",
+      "duration_raw": "23:12",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 47,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2393908578889&type=37&idx=6&tkn=8wGQ-tFjnaNrvfbdK2ncVFqBQ8w&fn=external_8"
+    },
+    {
+      "video_id": "3590584207945",
+      "title_raw": "Rupert Las S02E22",
+      "duration_raw": "23:12",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 42,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2393907137097&type=37&idx=3&tkn=3QZqXY3h8mMksw6TXg8jZytypjM&fn=external_8"
+    },
+    {
+      "video_id": "3590584732233",
+      "title_raw": "Rupert Las S02E23",
+      "duration_raw": "23:12",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 30,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2393925487177&type=37&idx=2&tkn=6B4_smJzy0GvrY45umvtn1GjF90&fn=external_8"
+    },
+    {
+      "video_id": "3590584666697",
+      "title_raw": "Rupert Las S02E24",
+      "duration_raw": "23:12",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 25,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2393922734665&type=37&idx=6&tkn=oZAZFxZOgY9D_FkHpiEwZr140G8&fn=external_8"
+    },
+    {
+      "video_id": "3590584535625",
+      "title_raw": "Rupert Las S02E25",
+      "duration_raw": "23:12",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 38,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2393917819465&type=37&idx=4&tkn=hKO7Bei6OqlEEhfJMrLio-9LCVs&fn=external_8"
+    },
+    {
+      "video_id": "3590585518665",
+      "title_raw": "Rupert Las S03E28",
+      "duration_raw": "23:12",
+      "season_number": 3,
+      "episode_number": 2,
+      "views": 46,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2393950587465&type=37&idx=12&tkn=lETvUzJ3j0_cnBessjV-Rp-Dens&fn=external_8"
+    },
+    {
+      "video_id": "3590584601161",
+      "title_raw": "Rupert Las S03E30",
+      "duration_raw": "23:12",
+      "season_number": 3,
+      "episode_number": 4,
+      "views": 51,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2393919588937&type=37&idx=2&tkn=KkP7f-_UmA-4-8f2v9ysRnZHjpo&fn=external_8"
+    },
+    {
+      "video_id": "3590584928841",
+      "title_raw": "Rupert Las S03E32",
+      "duration_raw": "23:12",
+      "season_number": 3,
+      "episode_number": 6,
+      "views": 51,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2393930336841&type=37&idx=5&tkn=0QYnJd_bEXr5vhFtHWvgy-Eh7t8&fn=external_8"
+    },
+    {
+      "video_id": "3590585322057",
+      "title_raw": "Rupert Las S03E33",
+      "duration_raw": "23:12",
+      "season_number": 3,
+      "episode_number": 7,
+      "views": 31,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2393945737801&type=37&idx=3&tkn=dquDe1EVBKP8IO-2FXMytnLh7W8&fn=external_8"
+    },
+    {
+      "video_id": "3591284066889",
+      "title_raw": "Rupert Las S03E34",
+      "duration_raw": "23:13",
+      "season_number": 3,
+      "episode_number": 8,
+      "views": 45,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2394673318473&type=37&idx=2&tkn=zOjHtizDd2m6ffZUKvDZz-HqQbk&fn=external_8"
+    },
+    {
+      "video_id": "3591284132425",
+      "title_raw": "Rupert Las S03E36",
+      "duration_raw": "23:12",
+      "season_number": 3,
+      "episode_number": 10,
+      "views": 46,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2394682100297&type=37&idx=4&tkn=OTM7VHNvI7VOXQmOkHHaPNG5sh0&fn=external_8"
+    },
+    {
+      "video_id": "3591284197961",
+      "title_raw": "Rupert Las S03E37",
+      "duration_raw": "23:12",
+      "season_number": 3,
+      "episode_number": 11,
+      "views": 52,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2394690423369&type=37&idx=5&tkn=S11KwnkJl64lCJ-_4U9WvI-GZqk&fn=external_8"
+    },
+    {
+      "video_id": "3591284329033",
+      "title_raw": "Rupert Las S04E40",
+      "duration_raw": "23:12",
+      "season_number": 4,
+      "episode_number": 1,
+      "views": 65,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2394706938441&type=37&idx=6&tkn=oD5_adzbRvGglNrjS1AH_Gl2840&fn=external_8"
+    },
+    {
+      "video_id": "3591284460105",
+      "title_raw": "Rupert Las S04E47",
+      "duration_raw": "23:12",
+      "season_number": 4,
+      "episode_number": 8,
+      "views": 123,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2394723584585&type=37&idx=6&tkn=V8Bl2VkN3mxjz8WgXHbS_rBMbrc&fn=external_8"
+    },
+    {
+      "video_id": "3591284263497",
+      "title_raw": "Rupert Las S05E55",
+      "duration_raw": "23:12",
+      "season_number": 5,
+      "episode_number": 3,
+      "views": 62,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2394698484297&type=37&idx=11&tkn=ceHisdFRvrvKFrIhLwEcZ7erL6s&fn=external_8"
+    },
+    {
+      "video_id": "3591284394569",
+      "title_raw": "Rupert Las S05E65",
+      "duration_raw": "23:12",
+      "season_number": 5,
+      "episode_number": 13,
+      "views": 74,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2394715654729&type=37&idx=12&tkn=SXuwWFZDrncr9yH-KOghXYLmauU&fn=external_8"
+    }
+  ]
+}

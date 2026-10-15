@@ -1,0 +1,718 @@
+{
+  "title": "Oggy y las Cucarachas",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2159177",
+  "year": "1998",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "360p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "1350525913673",
+      "title_raw": "(1x01) Chocolat amer_x264",
+      "duration_raw": "08:03",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 33623,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584013187657&type=32&idx=1&tkn=NX1D9ifMJHCP19MOtQhDg-GPAzk&fn=external_8"
+    },
+    {
+      "video_id": "1350525717065",
+      "title_raw": "(1x02) Coup de cafard_x264",
+      "duration_raw": "08:01",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 8878,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584011418185&type=32&idx=12&tkn=WJ9Myz9PQs82glQSvEsNE0bZ_zM&fn=external_8"
+    },
+    {
+      "video_id": "1350525585993",
+      "title_raw": "(1x03) Les frites_x264",
+      "duration_raw": "08:05",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 5461,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584010631753&type=32&idx=4&tkn=IpapRVk1A-g9lv0dbe3LTXz7aoI&fn=external_8"
+    },
+    {
+      "video_id": "1350526110281",
+      "title_raw": "(1x04) Mission Oggy_x264",
+      "duration_raw": "07:59",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 4549,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584014367305&type=32&idx=0&tkn=ip_sOH0NAOzNz5TqeVdFw0nTrf4&fn=external_8"
+    },
+    {
+      "video_id": "1350525454921",
+      "title_raw": "(1x05) Tchao Tympan_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 3296,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584009583177&type=32&idx=14&tkn=a5_BBLr2pr7mV_cmi-58_Z4crJ4&fn=external_8"
+    },
+    {
+      "video_id": "1414829967945",
+      "title_raw": "Oggy_y_las_cucarachas_Le_Patient_01x06_Le_Patient",
+      "duration_raw": "08:04",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 3645,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=599005137481&type=32&idx=0&tkn=IcJKmMWK22_q5gp2tGh1fN3M8h4&fn=external_8"
+    },
+    {
+      "video_id": "1350526241353",
+      "title_raw": "(1x07) Rythme et bleus_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 2393,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584015546953&type=32&idx=14&tkn=7jpDeL_PvKsupRPi387lYXhnu1s&fn=external_8"
+    },
+    {
+      "video_id": "1350526700105",
+      "title_raw": "(1x08) Plus dure sera la chute_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1979,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584018496073&type=32&idx=13&tkn=56n6r1CtTu-fIlnunCqPVqOggHk&fn=external_8"
+    },
+    {
+      "video_id": "1350526437961",
+      "title_raw": "(1x09) Petit, petit, petit_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 2113,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584016857673&type=32&idx=14&tkn=J1bCcPQYinaHsSK9k2fz2SsBGXo&fn=external_8"
+    },
+    {
+      "video_id": "1350525651529",
+      "title_raw": "(1x10) Joyeux Anniversaire_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 1706,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584010762825&type=32&idx=12&tkn=aPQVMhePijnMwTYLikEo3k9TmU8&fn=external_8"
+    },
+    {
+      "video_id": "1350524406345",
+      "title_raw": "(1x11) La métamorphose_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 1554,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584002374217&type=32&idx=4&tkn=LhrOiSfrxdwqk_WNor1bdDShRqM&fn=external_8"
+    },
+    {
+      "video_id": "1414830033481",
+      "title_raw": "Oggy_y_las_cucarachas_Jalousie_01x12_Jalousie",
+      "duration_raw": "08:03",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 2161,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=599005399625&type=32&idx=14&tkn=8558Jfl3PgOurUITocdJw_2fZMY&fn=external_8"
+    },
+    {
+      "video_id": "1350523619913",
+      "title_raw": "(1x13) Vendredi 13_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 1432,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=583997262409&type=32&idx=9&tkn=JhuMn6-JnOCpOTFTx561v6JQb0c&fn=external_8"
+    },
+    {
+      "video_id": "1350524602953",
+      "title_raw": "(1x14) Sois zen avec l-oseille_x264",
+      "duration_raw": "07:37",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 1342,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584003947081&type=32&idx=0&tkn=0XiqPkniubd4VyPnrFimCE53yis&fn=external_8"
+    },
+    {
+      "video_id": "1350525389385",
+      "title_raw": "(1x15) Dents de lait_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 1302,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584008927817&type=32&idx=0&tkn=FAyngnkHfy6qULK2GF_dUlEz-4w&fn=external_8"
+    },
+    {
+      "video_id": "1350524275273",
+      "title_raw": "(1x16) Une vie duraille_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 1231,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584001653321&type=32&idx=2&tkn=Kr3pUdT7G7YgoVpYuO-nbvEbarU&fn=external_8"
+    },
+    {
+      "video_id": "1350524734025",
+      "title_raw": "(1x17) Grignotator_x264",
+      "duration_raw": "07:56",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 1062,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584004471369&type=32&idx=2&tkn=hFeRVvllmOzq3tT0RXKwmD3SgZQ&fn=external_8"
+    },
+    {
+      "video_id": "1350524930633",
+      "title_raw": "(1x18) 37°2 toute la journée_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 934,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584006175305&type=32&idx=2&tkn=Y2Lc-0fT5d50bQyuD3qiuiGZGzo&fn=external_8"
+    },
+    {
+      "video_id": "1350525520457",
+      "title_raw": "(1x19) Soigne ton code_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 901,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584010173001&type=32&idx=8&tkn=-aBj3PG5bSdGMxrSg3aITAg_ceU&fn=external_8"
+    },
+    {
+      "video_id": "1350525127241",
+      "title_raw": "(1x20) Cherchez l-intrus!_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 1026,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584007617097&type=32&idx=4&tkn=G0Az9fCO_s003w7idGPMP60eYoc&fn=external_8"
+    },
+    {
+      "video_id": "1350524799561",
+      "title_raw": "(1x21) Jolie poupée_x264",
+      "duration_raw": "07:59",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 1013,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584005192265&type=32&idx=0&tkn=LSjY6MZJinCBVES5otqrim7_6Mw&fn=external_8"
+    },
+    {
+      "video_id": "1350524668489",
+      "title_raw": "(1x22) La solitude_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 898,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584004209225&type=32&idx=14&tkn=1qhugLe_eYISJmI2yr17TfhW49A&fn=external_8"
+    },
+    {
+      "video_id": "1350524537417",
+      "title_raw": "(1x23) Oggy et les cafards géants_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 1087,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584003095113&type=32&idx=14&tkn=M2eYZvTw0_obW3KxzSTNKxf5JHk&fn=external_8"
+    },
+    {
+      "video_id": "1350523685449",
+      "title_raw": "(1x24) Oggy et les bébés_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 1136,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=583997524553&type=32&idx=1&tkn=53B4Yj3FmiXe8BzRMh-1T43l5zw&fn=external_8"
+    },
+    {
+      "video_id": "1350524471881",
+      "title_raw": "(1x25) Comme des chiens_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 767,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584002832969&type=32&idx=10&tkn=6iJX_4pUxV_JPy1vD1yfYPLPLKg&fn=external_8"
+    },
+    {
+      "video_id": "1350524340809",
+      "title_raw": "(1x26) Jeux de carpes_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 707,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584002046537&type=32&idx=6&tkn=7J0DPQkYRCQEyNHvyU2T9AHa6pY&fn=external_8"
+    },
+    {
+      "video_id": "1350526569033",
+      "title_raw": "(1x27) Rock -n- Roll Altitude_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 658,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584017775177&type=32&idx=6&tkn=himdZxyKsrp6q0leae6DE9cRLzU&fn=external_8"
+    },
+    {
+      "video_id": "1350524209737",
+      "title_raw": "(1x28) Un dîner en ville_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 727,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584001129033&type=32&idx=1&tkn=HjxgGc6eNhLCu_o-JydGp3UcfM8&fn=external_8"
+    },
+    {
+      "video_id": "1350524078665",
+      "title_raw": "(1x29) Le régime d-Oggy_x264",
+      "duration_raw": "07:37",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 790,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584000014921&type=32&idx=6&tkn=zTysXukHKevHRvj19pnWkvIWGc0&fn=external_8"
+    },
+    {
+      "video_id": "1350523750985",
+      "title_raw": "(1x30) La tête et les muscles_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 690,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=583997917769&type=32&idx=8&tkn=Vfh1HqXj6aU5F1KlgVz9wwDVl80&fn=external_8"
+    },
+    {
+      "video_id": "1350525258313",
+      "title_raw": "(1x31) Le voyage dans le temps_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 742,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584008469065&type=32&idx=4&tkn=TTBw1B6A2JHVphmKlZTb9LX9St0&fn=external_8"
+    },
+    {
+      "video_id": "1350526372425",
+      "title_raw": "(1x32) Le ticket de loto_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 638,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584016333385&type=32&idx=3&tkn=hjzvET1mu5_EmcTZ-XfibIEa6Go&fn=external_8"
+    },
+    {
+      "video_id": "1350525782601",
+      "title_raw": "(1x33) Globulopolis_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 645,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584011745865&type=32&idx=5&tkn=z1LTNSQa2tY1n8ehQvmJM4xx8gU&fn=external_8"
+    },
+    {
+      "video_id": "1350524144201",
+      "title_raw": "(1x34) Occupé_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 648,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584000539209&type=32&idx=1&tkn=BF8OLpll5_gLOhPUI35IVAtueLM&fn=external_8"
+    },
+    {
+      "video_id": "1350524865097",
+      "title_raw": "(1x35) Maison à louer_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 621,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584005716553&type=32&idx=12&tkn=M2GnqHq54tNSPLtMPUgkUS__N98&fn=external_8"
+    },
+    {
+      "video_id": "1350526634569",
+      "title_raw": "(1x36) L-appât se rebiffe_x264",
+      "duration_raw": "07:37",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 669,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584018233929&type=32&idx=0&tkn=AQAsHK3jLtrOgec1WuF26n9kezo&fn=external_8"
+    },
+    {
+      "video_id": "1350525192777",
+      "title_raw": "(1x37) Aux secousses!_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 597,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584008010313&type=32&idx=3&tkn=v1et9Z8LXcZ-mI0JiII84_mlFoE&fn=external_8"
+    },
+    {
+      "video_id": "1350524013129",
+      "title_raw": "(1x38) Le caillou qui voulait nager_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 580,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=583999556169&type=32&idx=7&tkn=wSopofUQMQYMn1OkKRiv-zE4jXc&fn=external_8"
+    },
+    {
+      "video_id": "1350526306889",
+      "title_raw": "(1x39) Les cafards de l-espace_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 602,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584016071241&type=32&idx=1&tkn=pBLAOuZK96OApYgwJblb-DP3N4M&fn=external_8"
+    },
+    {
+      "video_id": "1350523947593",
+      "title_raw": "(1x40) Mamie jubile_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 621,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=583999097417&type=32&idx=5&tkn=UdQ4QqcVex8Bm2L4vNMiiXS5oBg&fn=external_8"
+    },
+    {
+      "video_id": "1350525323849",
+      "title_raw": "(1x41) Le dictateur_x264",
+      "duration_raw": "07:59",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 686,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584008665673&type=32&idx=9&tkn=Y2lavTnPMqz490MhMj78pCmKduk&fn=external_8"
+    },
+    {
+      "video_id": "1350523816521",
+      "title_raw": "(1x42) Souvenirs, souvenirs_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 569,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=583998638665&type=32&idx=13&tkn=KOFXdKTfaGG8uRS8XhYSOJBR2nI&fn=external_8"
+    },
+    {
+      "video_id": "1350526044745",
+      "title_raw": "(1x43) Remue-méninges_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 600,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584014170697&type=32&idx=13&tkn=9jDDAzt3FxSrJWm0kwI-vJl7OJc&fn=external_8"
+    },
+    {
+      "video_id": "1350526503497",
+      "title_raw": "(1x44) Kit en tas_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 44,
+      "views": 619,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584017513033&type=32&idx=10&tkn=0oyFaEcHnhixGybDxIoFHthy-dk&fn=external_8"
+    },
+    {
+      "video_id": "1350523882057",
+      "title_raw": "(1x45) Tremblez manèges!_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 572,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=583998769737&type=32&idx=2&tkn=OYM7zBTFzPtwBG02DDxzu3I4dbI&fn=external_8"
+    },
+    {
+      "video_id": "1350524996169",
+      "title_raw": "(1x46) Coquilles en stock_x264",
+      "duration_raw": "07:59",
+      "season_number": 1,
+      "episode_number": 46,
+      "views": 566,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584006830665&type=32&idx=13&tkn=s10dscbs5CGkoOTAOYDejWhs9Rk&fn=external_8"
+    },
+    {
+      "video_id": "1350525979209",
+      "title_raw": "(1x47) Micro-craignos_x264",
+      "duration_raw": "07:59",
+      "season_number": 1,
+      "episode_number": 47,
+      "views": 555,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584013580873&type=32&idx=13&tkn=YhVLXVDNy87SNCw_GQ8kIEqYA_0&fn=external_8"
+    },
+    {
+      "video_id": "1350525848137",
+      "title_raw": "(1x48) Super cafard_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 48,
+      "views": 582,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584012466761&type=32&idx=1&tkn=ir5jYgrUIKjIScJFnJcyzzgD_ms&fn=external_8"
+    },
+    {
+      "video_id": "1350525061705",
+      "title_raw": "(1x49) Attention travaux_x264",
+      "duration_raw": "07:59",
+      "season_number": 1,
+      "episode_number": 49,
+      "views": 552,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584007223881&type=32&idx=9&tkn=ZbWnT2FOPT3ArDjfDAEgquMB9ew&fn=external_8"
+    },
+    {
+      "video_id": "1350526175817",
+      "title_raw": "(1x50) Canicule_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 50,
+      "views": 558,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584014891593&type=32&idx=4&tkn=oP_6kWQ9d3bHUcKU9dRRjyL0QRk&fn=external_8"
+    },
+    {
+      "video_id": "1350566349385",
+      "title_raw": "(1x51) La révolte des canards_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 51,
+      "views": 570,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584028719689&type=32&idx=1&tkn=AouFGWq7NXC7NSXjGH2DgPbq3mk&fn=external_8"
+    },
+    {
+      "video_id": "1350565825097",
+      "title_raw": "(1x52) C-est pas du Pipeau_x264",
+      "duration_raw": "07:59",
+      "season_number": 1,
+      "episode_number": 52,
+      "views": 567,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584024984137&type=32&idx=3&tkn=iFJwBs4DiG1HoLSqSpPV18JNSyY&fn=external_8"
+    },
+    {
+      "video_id": "1350566218313",
+      "title_raw": "(1x53) Chasse toujóurs... tu m-intéresses_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 53,
+      "views": 552,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584027081289&type=32&idx=1&tkn=D64WG2rx3j3B2wlvZbZzw1J3buo&fn=external_8"
+    },
+    {
+      "video_id": "1350565890633",
+      "title_raw": "(1x54) Oggy contre les fantômes_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 54,
+      "views": 574,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584025377353&type=32&idx=9&tkn=EQ5Se2x0gBcv1v9Wo4G0XJRpeSI&fn=external_8"
+    },
+    {
+      "video_id": "1350565694025",
+      "title_raw": "(1x55) Qui perd gagne!_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 55,
+      "views": 557,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584023607881&type=32&idx=4&tkn=A5UWoEAgpJZuyBOSIxkCdAQjUwQ&fn=external_8"
+    },
+    {
+      "video_id": "1350566808137",
+      "title_raw": "(1x56) Balle au but_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 56,
+      "views": 569,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584031799881&type=32&idx=13&tkn=RiwvHxpGmMMXlIvvVe46LOL2rjU&fn=external_8"
+    },
+    {
+      "video_id": "1350567266889",
+      "title_raw": "(1x57) Les joies du plein air_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 57,
+      "views": 698,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584034355785&type=32&idx=12&tkn=YPZqsYqdLGWoW6cmk1fCdVjfUl4&fn=external_8"
+    },
+    {
+      "video_id": "1350566480457",
+      "title_raw": "(1x58) La tirelire_x264",
+      "duration_raw": "07:38",
+      "season_number": 1,
+      "episode_number": 58,
+      "views": 554,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584029899337&type=32&idx=10&tkn=Z5vzkOOyx3ff35v4htWQ1txY9zY&fn=external_8"
+    },
+    {
+      "video_id": "1350567135817",
+      "title_raw": "(1x59) La trêve de Noël_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 59,
+      "views": 810,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584034028105&type=32&idx=11&tkn=tjYpVbpZiZP8vmWgoA60k_Um1j8&fn=external_8"
+    },
+    {
+      "video_id": "1350565497417",
+      "title_raw": "(1x60) Le clône d-Ogg_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 60,
+      "views": 582,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584022166089&type=32&idx=8&tkn=9eRKnuox9xMwHWmygbA_vI3KAsg&fn=external_8"
+    },
+    {
+      "video_id": "1350567397961",
+      "title_raw": "(1x61) Complètement accro_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 61,
+      "views": 1046,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584034814537&type=32&idx=4&tkn=l8p1wPPSOC5BEYBu9ECgwxr7_rs&fn=external_8"
+    },
+    {
+      "video_id": "1350565956169",
+      "title_raw": "(1x62) À tout berzingue!_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 62,
+      "views": 550,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584025901641&type=32&idx=10&tkn=eFLkvTk6t_B8FlDn--5fLex8Qew&fn=external_8"
+    },
+    {
+      "video_id": "1350567070281",
+      "title_raw": "(1x63) La nuit du grime_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 63,
+      "views": 652,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584033503817&type=32&idx=2&tkn=CaM6oE-OYrjyr5c_kfgfc-AORvA&fn=external_8"
+    },
+    {
+      "video_id": "1350566152777",
+      "title_raw": "(1x64) Le jardin des supplices_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 64,
+      "views": 556,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584026950217&type=32&idx=11&tkn=5neB3K4w8QDpKvrmT3B5S2ZqmBE&fn=external_8"
+    },
+    {
+      "video_id": "1350567332425",
+      "title_raw": "(1x65) Pris au piège_x264",
+      "duration_raw": "07:36",
+      "season_number": 1,
+      "episode_number": 65,
+      "views": 820,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584034552393&type=32&idx=0&tkn=OAofQQ9rhTNq-B_mSz4jthTY3tc&fn=external_8"
+    },
+    {
+      "video_id": "1350565628489",
+      "title_raw": "(1x66) Tout le charme d-un week end_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 66,
+      "views": 551,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584023214665&type=32&idx=12&tkn=qfN8JwHL7Co36mINcNaaQSyMuBA&fn=external_8"
+    },
+    {
+      "video_id": "1350566087241",
+      "title_raw": "(1x67) La multiplication des cancrelats_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 67,
+      "views": 550,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584026491465&type=32&idx=7&tkn=-wRXUDGv7TTLvBDSeZhAfXBRpS0&fn=external_8"
+    },
+    {
+      "video_id": "1350566873673",
+      "title_raw": "(1x68) Les trois voeux_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 68,
+      "views": 565,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584032389705&type=32&idx=10&tkn=YWNf-X_rB_bTXN-mekoF9Ep7E8E&fn=external_8"
+    },
+    {
+      "video_id": "1350566283849",
+      "title_raw": "(1x69) Voyage virtuel_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 69,
+      "views": 550,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584027408969&type=32&idx=1&tkn=HXkKMfYPB6asJihFhLy0Sh6gS34&fn=external_8"
+    },
+    {
+      "video_id": "1350566545993",
+      "title_raw": "(1x70) Mite des neiges_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 70,
+      "views": 594,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584030423625&type=32&idx=12&tkn=f13DjV2Gjq_do-4CNhSqHjYzlow&fn=external_8"
+    },
+    {
+      "video_id": "1350566611529",
+      "title_raw": "(1x71) Le chat de la voisine_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 71,
+      "views": 549,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584030751305&type=32&idx=9&tkn=3h9jQu1D5eMX6bK8bjZcbqU1Oq0&fn=external_8"
+    },
+    {
+      "video_id": "1350567004745",
+      "title_raw": "(1x72) Première à l-opéra_x264",
+      "duration_raw": "08:08",
+      "season_number": 1,
+      "episode_number": 72,
+      "views": 685,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584033241673&type=32&idx=12&tkn=04NFr3DKnawVibdX8DWDpivsJXs&fn=external_8"
+    },
+    {
+      "video_id": "1350566742601",
+      "title_raw": "(1x73) Lune de miel_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 73,
+      "views": 717,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584031144521&type=32&idx=11&tkn=SolYxL3olLqSbm7CMVsVJcWL0mM&fn=external_8"
+    },
+    {
+      "video_id": "1350566414921",
+      "title_raw": "(1x74) Sandwich au sable_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 74,
+      "views": 555,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584029440585&type=32&idx=9&tkn=nJZIDS6SQNKs1Cl6q_Q5wOcV5dI&fn=external_8"
+    },
+    {
+      "video_id": "1350566939209",
+      "title_raw": "(1x75) Zig zags pour deux zigues_x264",
+      "duration_raw": "07:47",
+      "season_number": 1,
+      "episode_number": 75,
+      "views": 671,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584032782921&type=32&idx=2&tkn=dW_4V9TtDkmN-C8hdUKB7kAiA5s&fn=external_8"
+    },
+    {
+      "video_id": "1350565562953",
+      "title_raw": "(1x76) Urgences_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 76,
+      "views": 563,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584022821449&type=32&idx=8&tkn=iQRmhb1lMpBfOW6u1hVzWd13QdI&fn=external_8"
+    },
+    {
+      "video_id": "1350566021705",
+      "title_raw": "(1x77) Balai à réactions_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 77,
+      "views": 592,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584026229321&type=32&idx=11&tkn=DcV2yB68jW6BOwrt-Vjoc0NS6Aw&fn=external_8"
+    },
+    {
+      "video_id": "1350565759561",
+      "title_raw": "(1x78) Vieilles canailles_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 78,
+      "views": 1548,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584024328777&type=32&idx=4&tkn=gMkODujFeJNlSn4tLD9P85NcF1c&fn=external_8"
+    }
+  ]
+}

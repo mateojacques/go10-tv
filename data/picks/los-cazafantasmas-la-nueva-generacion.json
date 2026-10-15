@@ -1,0 +1,376 @@
+{
+  "title": "Los Cazafantasmas: La Nueva Generación",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c5063241",
+  "year": "1997",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "2599862012489",
+      "title_raw": "01 - Tinieblas al Mediodia",
+      "duration_raw": "20:05",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 7605,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679819512492&type=32&idx=7&tkn=7w1yv6Q1Y81JsobV06F9DywV0LI&fn=external_8"
+    },
+    {
+      "video_id": "2599861946953",
+      "title_raw": "02 Oscuridad al mediodía (Parte 2)",
+      "duration_raw": "21:20",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 4407,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679839107756&type=32&idx=11&tkn=ORdg8y3Z6lCh7AqjKLvwaImkqrU&fn=external_8"
+    },
+    {
+      "video_id": "2599862667849",
+      "title_raw": "03 El Miedo Mismo",
+      "duration_raw": "20:34",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 2896,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679821806252&type=32&idx=7&tkn=93TCmM7MKAJAjLdsgrR4e_iFGOg&fn=external_8"
+    },
+    {
+      "video_id": "2599861881417",
+      "title_raw": "04 Hogar Terrífico Hogar",
+      "duration_raw": "20:05",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 2525,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679816956588&type=32&idx=4&tkn=nFGsVAKt5e2--1APVuUXIWartIQ&fn=external_8"
+    },
+    {
+      "video_id": "2599861684809",
+      "title_raw": "05 Casi muertos[Webbrip-Latino]",
+      "duration_raw": "21:58",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 2094,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679840484012&type=32&idx=13&tkn=DlWlgpNCoQdzNcQyGdRqnhkjmgQ&fn=external_8"
+    },
+    {
+      "video_id": "2599861291593",
+      "title_raw": "06 Lanzando[Webbrip-Latino][",
+      "duration_raw": "21:55",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 1655,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679836813996&type=32&idx=9&tkn=VV_e20aUAR7TdCID2tIPPPZeGWY&fn=external_8"
+    },
+    {
+      "video_id": "2599863126601",
+      "title_raw": "07 La máquina infernal",
+      "duration_raw": "21:45",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1605,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679836748460&type=32&idx=7&tkn=ZNrthZgGIAXK3iL_WM-4ZBoD_SI&fn=external_8"
+    },
+    {
+      "video_id": "2599862602313",
+      "title_raw": "08 hogar terrifico hogar",
+      "duration_raw": "20:06",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1789,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679821216428&type=32&idx=5&tkn=eu32WfSJ62_nCIrCE_H0ofphqt4&fn=external_8"
+    },
+    {
+      "video_id": "2599861619273",
+      "title_raw": "09 Aguafiestas[Webbrip-Latino]",
+      "duration_raw": "22:04",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 1734,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679839042220&type=32&idx=9&tkn=4aChR7QSoLjVDfMk2P6htvG6j2Y&fn=external_8"
+    },
+    {
+      "video_id": "2599863061065",
+      "title_raw": "10 Lo invisible[Webbrip-Latino]",
+      "duration_raw": "21:53",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 1391,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679838321324&type=32&idx=8&tkn=zadypZtUwj4I8m14jJcHJqcrvYk&fn=external_8"
+    },
+    {
+      "video_id": "2599861357129",
+      "title_raw": "11 El trepador[Webbrip-Latino",
+      "duration_raw": "22:16",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 1398,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679838845612&type=32&idx=5&tkn=dIXBgJUMvSG8k2IfB49_v3vIoeE&fn=external_8"
+    },
+    {
+      "video_id": "2599861553737",
+      "title_raw": "12 El flautista de Manhattan[Webbrip-Latino]",
+      "duration_raw": "21:46",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 1325,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679838452396&type=32&idx=9&tkn=xKwvn-Qd-ymI_vrtgVYAT42Fs78&fn=external_8"
+    },
+    {
+      "video_id": "2599862864457",
+      "title_raw": "13 Ten cuidado con lo que deseas[Webbrip-Latino]",
+      "duration_raw": "22:03",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 1470,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679838714540&type=32&idx=15&tkn=n3OmDjLDEIw1Ho0wf8xtZ145Wdc&fn=external_8"
+    },
+    {
+      "video_id": "2599862274633",
+      "title_raw": "14 Vaselina[Webbrip-Latino]",
+      "duration_raw": "22:04",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 1245,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679840352940&type=32&idx=12&tkn=Pqna2V-d_XyYAuMlF3XTC4tqxZ8&fn=external_8"
+    },
+    {
+      "video_id": "2599861422665",
+      "title_raw": "15 El diablo de Jersey me obligó a hacerlo[Webbrip-Latino]",
+      "duration_raw": "21:56",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 1186,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679839632044&type=32&idx=8&tkn=w4kQRlcf3nAIjgsV0btU8S6gTKM&fn=external_8"
+    },
+    {
+      "video_id": "2599860701769",
+      "title_raw": "16 El hechizo marino[Webbrip-Latino]",
+      "duration_raw": "21:54",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 1362,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679839369900&type=32&idx=1&tkn=pyheLgvX5uOCMmGkGC3KLJtQMKk&fn=external_8"
+    },
+    {
+      "video_id": "2599860963913",
+      "title_raw": "17 Juventud sónica[Webbrip-Latino]",
+      "duration_raw": "22:04",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 1226,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679840418476&type=32&idx=2&tkn=sJbayEvjmYFqpZ2aJ3NNGERLSrY&fn=external_8"
+    },
+    {
+      "video_id": "2599861094985",
+      "title_raw": "18 Un futuro apocalíptico[Webbrip-Latino]",
+      "duration_raw": "21:57",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 1235,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679839697580&type=32&idx=9&tkn=Ql6cQtgf6iROt2yJWkdTZBvkiGI&fn=external_8"
+    },
+    {
+      "video_id": "2599860767305",
+      "title_raw": "19 Ave de presa[Webbrip-Latino]",
+      "duration_raw": "22:04",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 1249,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679840221868&type=32&idx=3&tkn=jzHbpu3PJYe_XPoNygNYeifPuvs&fn=external_8"
+    },
+    {
+      "video_id": "2599861488201",
+      "title_raw": "20 La semilla de la destrucción[Webbrip-Latino]",
+      "duration_raw": "21:55",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 1233,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679837076140&type=32&idx=9&tkn=yEDgLmaoM0YrrhPzMhPpRuyVbNM&fn=external_8"
+    },
+    {
+      "video_id": "2599860832841",
+      "title_raw": "21 La suerte del irlandés[Webbrip-Latino]",
+      "duration_raw": "22:01",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 1242,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679838976684&type=32&idx=8&tkn=sVyT6vvLAgK7z6htE4_M5kH0C1o&fn=external_8"
+    },
+    {
+      "video_id": "2599861029449",
+      "title_raw": "22 Hacedor de fantasmas[Webbrip-Latino]",
+      "duration_raw": "21:57",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 1241,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679839173292&type=32&idx=6&tkn=_RzuGp3nj7cwp2uZUuHptnHJERQ&fn=external_8"
+    },
+    {
+      "video_id": "2599862471241",
+      "title_raw": "23 El sacrificio de Pegajoso[Webbrip-Latino]",
+      "duration_raw": "21:52",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 1157,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679839894188&type=32&idx=2&tkn=FPVEONLBhVVfG5_FKKuaZJmHLpk&fn=external_8"
+    },
+    {
+      "video_id": "2599860898377",
+      "title_raw": "24 Grondelesque[Webbrip-Latino]",
+      "duration_raw": "21:53",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 996,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679839566508&type=32&idx=14&tkn=kYzI3y96F832X1V71omlXMrNJBo&fn=external_8"
+    },
+    {
+      "video_id": "2599862536777",
+      "title_raw": "25 Nuestros sueños[Webbrip-Latino]",
+      "duration_raw": "21:53",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 1130,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679836945068&type=32&idx=5&tkn=CutZ1y_Vo89m23zRycUaoGumM1A&fn=external_8"
+    },
+    {
+      "video_id": "2599861750345",
+      "title_raw": "26 El primer cazafantasmas[Webbrip-Latino]",
+      "duration_raw": "21:52",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 1170,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679838649004&type=32&idx=4&tkn=R6tc5-1vqG671AQ2i5q7gue-mBY&fn=external_8"
+    },
+    {
+      "video_id": "2599862733385",
+      "title_raw": "27 Peligro[Webbrip-Latino]",
+      "duration_raw": "21:52",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 1089,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679837469356&type=32&idx=11&tkn=Z-Ko8fdKFf-5abLaEDJaZeyShdY&fn=external_8"
+    },
+    {
+      "video_id": "2599861160521",
+      "title_raw": "28 Los ojos de un dragón[Webbrip-Latino]",
+      "duration_raw": "21:52",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 1000,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679838583468&type=32&idx=11&tkn=F9fGmJTAvKlJSmWUEIqgYeIA7mc&fn=external_8"
+    },
+    {
+      "video_id": "2599862209097",
+      "title_raw": "29 Hasta que la muerte nos una[Webbrip-Latino]",
+      "duration_raw": "21:53",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 1114,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679837665964&type=32&idx=8&tkn=SPVBmqMLd0iaikXZ7QcPCDXGCvc&fn=external_8"
+    },
+    {
+      "video_id": "2599863192137",
+      "title_raw": "30 El pecado de la glotonería[Webbrip-Latino]",
+      "duration_raw": "21:53",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 1132,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679838124716&type=32&idx=4&tkn=YV1JY6dgMNYTEWFYrK3qqlcELZM&fn=external_8"
+    },
+    {
+      "video_id": "2599862143561",
+      "title_raw": "31 El fantasma de la máquina[Webbrip-Latino]",
+      "duration_raw": "21:53",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 1209,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679839435436&type=32&idx=11&tkn=HpJsG675SpV4cB1gWqgqtHmXFLg&fn=external_8"
+    },
+    {
+      "video_id": "2599863257673",
+      "title_raw": "32 Días caninos[Webbrip-Latino]",
+      "duration_raw": "21:51",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 1164,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679840025260&type=32&idx=13&tkn=CPHppvJd6DTZ2WCd4DJX7bLRAR4&fn=external_8"
+    },
+    {
+      "video_id": "2599862995529",
+      "title_raw": "33 La gente topo[Webbrip-Latino",
+      "duration_raw": "21:53",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 940,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679839763116&type=32&idx=9&tkn=8MRVzvNmd8PrPKci5UgoXiYuqgQ&fn=external_8"
+    },
+    {
+      "video_id": "2599862798921",
+      "title_raw": "34 Demencia temporal[Webbrip-Latino]",
+      "duration_raw": "21:52",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 1085,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679837928108&type=32&idx=3&tkn=ySQTwGQxYObrPUYgz7gr3TBdhlI&fn=external_8"
+    },
+    {
+      "video_id": "2599862340169",
+      "title_raw": "35 Ira[Webbrip-Latino]",
+      "duration_raw": "21:55",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 1069,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679840287404&type=32&idx=5&tkn=H-vcc5BHmOlUkdurXdRRUXzzJzY&fn=external_8"
+    },
+    {
+      "video_id": "2599862929993",
+      "title_raw": "36 Corazón de sombras[Webbrip-Latino]",
+      "duration_raw": "21:52",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 1226,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679839304364&type=32&idx=5&tkn=08KPh3mw-do2a8Tt5AufdUdn9qU&fn=external_8"
+    },
+    {
+      "video_id": "2626279180873",
+      "title_raw": "37 La esfinge",
+      "duration_raw": "21:57",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 2827,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1450983033417&type=32&idx=8&tkn=_9wP0lqHEgYOVhIk2Zrl0JW31Qk&fn=external_8"
+    },
+    {
+      "video_id": "2599862405705",
+      "title_raw": "38 Las brujas[Webbrip-Latino",
+      "duration_raw": "21:55",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 1069,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679838255788&type=32&idx=4&tkn=3Jvaao3aofTPzejhlkHHV3Hpee8&fn=external_8"
+    },
+    {
+      "video_id": "2599861815881",
+      "title_raw": "39 De vuelta a las andadas (parte 1)[Webbrip-Latino]",
+      "duration_raw": "21:55",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 1473,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679839238828&type=32&idx=8&tkn=2_0KB6C8tjDOsPj3pcDB-4WrlBw&fn=external_8"
+    },
+    {
+      "video_id": "2599861226057",
+      "title_raw": "40 De vuelta a las andadas (parte 2)[Webbrip-Latino]",
+      "duration_raw": "21:52",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 1610,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8679837862572&type=32&idx=12&tkn=dZWlul50e4_3o3rdi53qjHsqSTM&fn=external_8"
+    }
+  ]
+}

@@ -1,0 +1,484 @@
+{
+  "title": "Action Man",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c4450889",
+  "year": "2000",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "2286571555401",
+      "title_raw": "A.T.O.M. T01E01 _mpeg4",
+      "duration_raw": "21:53",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 5325,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1109984741961&type=32&idx=3&tkn=mIyYLhrmWJa97jn1g8rD0-WpLg4&fn=external_8"
+    },
+    {
+      "video_id": "2286573652553",
+      "title_raw": "A.T.O.M. T01E02 _mpeg4",
+      "duration_raw": "21:43",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 1932,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110192818761&type=32&idx=5&tkn=ap0ELkU2LhI4UEB3P32YB4s9qVE&fn=external_8"
+    },
+    {
+      "video_id": "2286572603977",
+      "title_raw": "A.T.O.M. T01E03 _mpeg4",
+      "duration_raw": "21:38",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1593,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110080948809&type=32&idx=1&tkn=Mx-WKbNrN9OVkgImUG2a1WT3Neo&fn=external_8"
+    },
+    {
+      "video_id": "2286570703433",
+      "title_raw": "A.T.O.M. T01E04 _mpeg4",
+      "duration_raw": "21:53",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1468,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1109919861321&type=32&idx=4&tkn=zmkLxnuy-1HEyJ-rGpQQPqaZOFI&fn=external_8"
+    },
+    {
+      "video_id": "2286573193801",
+      "title_raw": "A.T.O.M. T01E05 _mpeg4",
+      "duration_raw": "21:38",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1232,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110144649801&type=32&idx=1&tkn=7I9h78YIkNJ5oKXsZE4Y1OXOGKE&fn=external_8"
+    },
+    {
+      "video_id": "2286572735049",
+      "title_raw": "A.T.O.M. T01E06 _mpeg4",
+      "duration_raw": "21:53",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 985,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110092810825&type=32&idx=9&tkn=G5_G6u_qH9oHt67yD4JZz2kXCho&fn=external_8"
+    },
+    {
+      "video_id": "2286573259337",
+      "title_raw": "A.T.O.M. T01E07 _mpeg4",
+      "duration_raw": "21:42",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1094,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110152120905&type=32&idx=1&tkn=MNPV14GmjsAv045YFLd0nd5IEH0&fn=external_8"
+    },
+    {
+      "video_id": "2286570834505",
+      "title_raw": "A.T.O.M. T01E08 _mpeg4",
+      "duration_raw": "21:43",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1008,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1109927725641&type=32&idx=9&tkn=6PS-T1A1lnbMTcYo41Hty4wcMBE&fn=external_8"
+    },
+    {
+      "video_id": "2286571031113",
+      "title_raw": "A.T.O.M. T01E09 _mpeg4",
+      "duration_raw": "21:53",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 777,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1109942405705&type=32&idx=1&tkn=ubfICdfe7qrSu6LdUA011ZduuAQ&fn=external_8"
+    },
+    {
+      "video_id": "2286571162185",
+      "title_raw": "A.T.O.M. T01E10 _mpeg4",
+      "duration_raw": "21:54",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 923,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1109956168265&type=32&idx=11&tkn=qtrbCDyLgSL_vZ2QJBZCQVLfMCA&fn=external_8"
+    },
+    {
+      "video_id": "2286572931657",
+      "title_raw": "A.T.O.M. T01E11 _mpeg4",
+      "duration_raw": "21:53",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 1013,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110115355209&type=32&idx=3&tkn=LT14EVbhVkOmvMQf5ThV-hjNh6M&fn=external_8"
+    },
+    {
+      "video_id": "2286573980233",
+      "title_raw": "A.T.O.M. T01E12 _mpeg4",
+      "duration_raw": "21:53",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 774,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110223096393&type=32&idx=0&tkn=IdXbMCzcbWgAVIBNiHBBSHHzxzU&fn=external_8"
+    },
+    {
+      "video_id": "2286571948617",
+      "title_raw": "A.T.O.M. T01E13 _mpeg4",
+      "duration_raw": "21:53",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 954,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110014822985&type=32&idx=0&tkn=Sxy1-3XixhS18up49gz1C9i3hwE&fn=external_8"
+    },
+    {
+      "video_id": "2286572472905",
+      "title_raw": "A.T.O.M. T01E14 _mpeg4",
+      "duration_raw": "21:53",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 909,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110068628041&type=32&idx=3&tkn=JVWB_xqNJp4jjVO3Gp2zMxhwPmA&fn=external_8"
+    },
+    {
+      "video_id": "2286573455945",
+      "title_raw": "A.T.O.M. T01E15 _mpeg4",
+      "duration_raw": "21:53",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 858,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110170733129&type=32&idx=3&tkn=mmWnpjtvzb-70tBayld0vcWO6GQ&fn=external_8"
+    },
+    {
+      "video_id": "2286572800585",
+      "title_raw": "A.T.O.M. T01E16 _mpeg4",
+      "duration_raw": "21:53",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 727,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110099561033&type=32&idx=4&tkn=_aKr928nQs0V2gisPM0r67wgGOE&fn=external_8"
+    },
+    {
+      "video_id": "2286572341833",
+      "title_raw": "A.T.O.M. T01E17 _mpeg4",
+      "duration_raw": "21:53",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 668,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110056766025&type=32&idx=7&tkn=6aEKiXKOyt-EszK3oUg3r1l-lDg&fn=external_8"
+    },
+    {
+      "video_id": "2286572997193",
+      "title_raw": "A.T.O.M. T01E18 _mpeg4",
+      "duration_raw": "21:43",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 815,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110120860233&type=32&idx=1&tkn=L9yqJjVdlgTrXu-piTrJdiR7z1U&fn=external_8"
+    },
+    {
+      "video_id": "2286572014153",
+      "title_raw": "A.T.O.M. T01E19 _mpeg4",
+      "duration_raw": "21:53",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 702,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110021704265&type=32&idx=5&tkn=W2DhJuyqo_aEgmTRon2oBlfCPgc&fn=external_8"
+    },
+    {
+      "video_id": "2286570768969",
+      "title_raw": "A.T.O.M. T01E20 _mpeg4",
+      "duration_raw": "21:53",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 779,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1109923859017&type=32&idx=8&tkn=Eb6JwaVC7Sb6Z3X8UHXUwhE_pUg&fn=external_8"
+    },
+    {
+      "video_id": "2286571227721",
+      "title_raw": "A.T.O.M. T01E21 _mpeg4",
+      "duration_raw": "21:49",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 668,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1109962066505&type=32&idx=1&tkn=JlqzVhHG3e3EFc9rcqTypGMQlO8&fn=external_8"
+    },
+    {
+      "video_id": "2286571096649",
+      "title_raw": "A.T.O.M. T01E22 _mpeg4",
+      "duration_raw": "21:53",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 643,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1109949418057&type=32&idx=10&tkn=SPXYKjry-2sBjwFPOlwXxkQGWUo&fn=external_8"
+    },
+    {
+      "video_id": "2286570965577",
+      "title_raw": "A.T.O.M. T01E23 _mpeg4",
+      "duration_raw": "21:53",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 605,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1109935000137&type=32&idx=14&tkn=oyPRDD6-Dysq65JODpf7s76lTsM&fn=external_8"
+    },
+    {
+      "video_id": "2286573914697",
+      "title_raw": "A.T.O.M. T01E24 _mpeg4",
+      "duration_raw": "21:53",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 1145,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110216673865&type=32&idx=14&tkn=KiDwXVv5vGLoPQi2IJ5dtg2tKVo&fn=external_8"
+    },
+    {
+      "video_id": "2286573718089",
+      "title_raw": "A.T.O.M. T01E25 _mpeg4",
+      "duration_raw": "21:53",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 645,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110200355401&type=32&idx=1&tkn=NAWzr4oLR3IJAT0ywUXZTz7vB3g&fn=external_8"
+    },
+    {
+      "video_id": "2286571293257",
+      "title_raw": "A.T.O.M. T01E26 _mpeg4",
+      "duration_raw": "21:53",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 786,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1109967833673&type=32&idx=0&tkn=ulel4T3gHPi9ym2LRcVJo6QdOm8&fn=external_8"
+    },
+    {
+      "video_id": "2286571358793",
+      "title_raw": "A.T.O.M. T02E01 _mpeg4",
+      "duration_raw": "21:43",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 870,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1109971896905&type=32&idx=10&tkn=j0KRTxgXjiUtnhu6qSg9AfeuKkk&fn=external_8"
+    },
+    {
+      "video_id": "2286571620937",
+      "title_raw": "A.T.O.M. T02E02 _mpeg4",
+      "duration_raw": "21:43",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 912,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1109987625545&type=32&idx=0&tkn=Lm3OW4Khh3xax4WHiuX_IvHAU9E&fn=external_8"
+    },
+    {
+      "video_id": "2286571817545",
+      "title_raw": "A.T.O.M. T02E03 _mpeg4",
+      "duration_raw": "21:43",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 763,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110001060425&type=32&idx=0&tkn=Q37Mmgwirw7jHkrtbUOWmnyGvYw&fn=external_8"
+    },
+    {
+      "video_id": "2286571686473",
+      "title_raw": "A.T.O.M. T02E04 _mpeg4",
+      "duration_raw": "21:43",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 738,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1109990312521&type=32&idx=7&tkn=QV8t5FMUeyVh4J2RYk8ODO8lo-s&fn=external_8"
+    },
+    {
+      "video_id": "2286572538441",
+      "title_raw": "A.T.O.M. T02E05 _mpeg4",
+      "duration_raw": "21:43",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 698,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110074001993&type=32&idx=1&tkn=hmNHFIaWPy60T7qwJnvoJORjJTA&fn=external_8"
+    },
+    {
+      "video_id": "2286572210761",
+      "title_raw": "A.T.O.M. T02E06 _mpeg4",
+      "duration_raw": "21:43",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 674,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110042479177&type=32&idx=0&tkn=4Jjyn8OyGjlOS8zE3d-Ppk_p48Y&fn=external_8"
+    },
+    {
+      "video_id": "2286573521481",
+      "title_raw": "A.T.O.M. T02E07 _mpeg4",
+      "duration_raw": "21:43",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 625,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110176762441&type=32&idx=0&tkn=NZMXgGVZjmQ32uoaiUoU7v_VYPw&fn=external_8"
+    },
+    {
+      "video_id": "2286572407369",
+      "title_raw": "A.T.O.M. T02E08 _mpeg4",
+      "duration_raw": "21:43",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 763,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110061812297&type=32&idx=14&tkn=ZuBGNjXJTPTxgKsYBjj690FJhTQ&fn=external_8"
+    },
+    {
+      "video_id": "2286572669513",
+      "title_raw": "A.T.O.M. T02E09 _mpeg4",
+      "duration_raw": "21:43",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 611,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110086847049&type=32&idx=0&tkn=xAlopo4n8HKcmO69IHa9mldclqI&fn=external_8"
+    },
+    {
+      "video_id": "2286572145225",
+      "title_raw": "A.T.O.M. T02E10 _mpeg4",
+      "duration_raw": "21:43",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 581,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110035270217&type=32&idx=8&tkn=kUawa3oDvbdGV2NpLungRnfURds&fn=external_8"
+    },
+    {
+      "video_id": "2286573062729",
+      "title_raw": "A.T.O.M. T02E11 _mpeg4",
+      "duration_raw": "21:43",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 626,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110129707593&type=32&idx=8&tkn=ZS-HJ8CLpfcslinWypRtIcCNBtY&fn=external_8"
+    },
+    {
+      "video_id": "2286571752009",
+      "title_raw": "A.T.O.M. T02E12 _mpeg4",
+      "duration_raw": "21:43",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 614,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1109995031113&type=32&idx=2&tkn=7xjQ7ZAZ_qzxG6SwcWM8s7fkj7I&fn=external_8"
+    },
+    {
+      "video_id": "2286573783625",
+      "title_raw": "A.T.O.M. T02E13 _mpeg4",
+      "duration_raw": "21:43",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 676,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110206712393&type=32&idx=0&tkn=ooyJSCRQQQjbmtjCzHPHuRG-v0w&fn=external_8"
+    },
+    {
+      "video_id": "2286573390409",
+      "title_raw": "A.T.O.M. T02E14 _mpeg4",
+      "duration_raw": "21:43",
+      "season_number": 2,
+      "episode_number": 14,
+      "views": 652,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110164769353&type=32&idx=0&tkn=CyFgtyH06C-yPtuIkC8awP6qxU4&fn=external_8"
+    },
+    {
+      "video_id": "2286572866121",
+      "title_raw": "A.T.O.M. T02E15 _mpeg4",
+      "duration_raw": "21:43",
+      "season_number": 2,
+      "episode_number": 15,
+      "views": 528,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110108473929&type=32&idx=2&tkn=a8qqByI8qLFRtIxHTxd1LjzJgek&fn=external_8"
+    },
+    {
+      "video_id": "2286571424329",
+      "title_raw": "A.T.O.M. T02E16 _mpeg4",
+      "duration_raw": "21:43",
+      "season_number": 2,
+      "episode_number": 16,
+      "views": 461,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1109975829065&type=32&idx=5&tkn=RQFyYdvh4hlETOXjaiY6pYePvHQ&fn=external_8"
+    },
+    {
+      "video_id": "2286573587017",
+      "title_raw": "A.T.O.M. T02E17 _mpeg4",
+      "duration_raw": "21:43",
+      "season_number": 2,
+      "episode_number": 17,
+      "views": 490,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110184430153&type=32&idx=9&tkn=4bUt_AuFhcNMKf_U8EbkxKDAkj0&fn=external_8"
+    },
+    {
+      "video_id": "2286572276297",
+      "title_raw": "A.T.O.M. T02E18 _mpeg4",
+      "duration_raw": "21:43",
+      "season_number": 2,
+      "episode_number": 18,
+      "views": 537,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110049950281&type=32&idx=13&tkn=rt8fvrFA7_zbGjHHTUFXvg6227w&fn=external_8"
+    },
+    {
+      "video_id": "2286571489865",
+      "title_raw": "A.T.O.M. T02E19 _mpeg4",
+      "duration_raw": "21:43",
+      "season_number": 2,
+      "episode_number": 19,
+      "views": 550,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1109979892297&type=32&idx=4&tkn=qt9Lf6cFKz7rowhPTi8N4Hd9QzU&fn=external_8"
+    },
+    {
+      "video_id": "2286573849161",
+      "title_raw": "A.T.O.M. T02E20 _mpeg4",
+      "duration_raw": "21:43",
+      "season_number": 2,
+      "episode_number": 20,
+      "views": 578,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110211365449&type=32&idx=0&tkn=bS61sgpS_pW-iPRFLJ9PTH9Z3iE&fn=external_8"
+    },
+    {
+      "video_id": "2286573324873",
+      "title_raw": "A.T.O.M. T02E21 _mpeg4",
+      "duration_raw": "21:43",
+      "season_number": 2,
+      "episode_number": 21,
+      "views": 588,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110158150217&type=32&idx=5&tkn=KUd2o1sn-2THQDLOR5ZfiEEiils&fn=external_8"
+    },
+    {
+      "video_id": "2286571883081",
+      "title_raw": "A.T.O.M. T02E22 _mpeg4",
+      "duration_raw": "21:43",
+      "season_number": 2,
+      "episode_number": 22,
+      "views": 513,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110008269385&type=32&idx=3&tkn=g4bmsX6Gp0y1EsmmUCMnihSaQIc&fn=external_8"
+    },
+    {
+      "video_id": "2286574045769",
+      "title_raw": "A.T.O.M. T02E23 _mpeg4",
+      "duration_raw": "21:43",
+      "season_number": 2,
+      "episode_number": 23,
+      "views": 552,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110230436425&type=32&idx=5&tkn=R4Q3RaRailMKslTocUbs7xo5jaI&fn=external_8"
+    },
+    {
+      "video_id": "2286573128265",
+      "title_raw": "A.T.O.M. T02E24 _mpeg4",
+      "duration_raw": "21:43",
+      "season_number": 2,
+      "episode_number": 24,
+      "views": 544,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110136195657&type=32&idx=13&tkn=FjItTLT9khlDhjgf0zgj4iJJy10&fn=external_8"
+    },
+    {
+      "video_id": "2286574111305",
+      "title_raw": "A.T.O.M. T02E25 _mpeg4",
+      "duration_raw": "21:43",
+      "season_number": 2,
+      "episode_number": 25,
+      "views": 644,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110236072521&type=32&idx=10&tkn=te61tQjxbH9e9MoZsv0EDS-500A&fn=external_8"
+    },
+    {
+      "video_id": "2286572079689",
+      "title_raw": "A.T.O.M. T02E26 _mpeg4",
+      "duration_raw": "21:53",
+      "season_number": 2,
+      "episode_number": 26,
+      "views": 1144,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1110030092873&type=32&idx=10&tkn=UqFaimopx-EabH2qhtzUFkKGBEk&fn=external_8"
+    }
+  ]
+}

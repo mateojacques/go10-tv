@@ -1,0 +1,390 @@
+{
+  "title": "El Proyecto Zeta",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c5410889 c2341449",
+  "year": "1999",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Ciencia Ficción",
+  "videos": [
+    {
+      "video_id": "2781720808009",
+      "title_raw": "S01E01_x264",
+      "duration_raw": "21:24",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 5728,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1631679023689&type=32&idx=14&tkn=3ve5Ssf3VMlYN1Mwr61c0H5n-QM&fn=external_8"
+    },
+    {
+      "video_id": "2781720414793",
+      "title_raw": "S01E02_x264",
+      "duration_raw": "21:15",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 2278,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1631648614985&type=32&idx=4&tkn=i3aY7RA5SCmETVndBjIpStXTEEU&fn=external_8"
+    },
+    {
+      "video_id": "2781720152649",
+      "title_raw": "S01E03_x264",
+      "duration_raw": "20:53",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1840,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1631619254857&type=32&idx=9&tkn=4e46X_NNJMSap_yx9MPDGWCeCBk&fn=external_8"
+    },
+    {
+      "video_id": "2781720480329",
+      "title_raw": "S01E04_x264",
+      "duration_raw": "21:00",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 2075,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1631655955017&type=32&idx=6&tkn=5oX-IDMedWY2KP1f33x7oUp3DFc&fn=external_8"
+    },
+    {
+      "video_id": "2781719956041",
+      "title_raw": "S01E05_x264",
+      "duration_raw": "21:02",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1608,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1631607196233&type=32&idx=15&tkn=Gx-Y_5I_z_2IfRwvQE6EgVvPJQA&fn=external_8"
+    },
+    {
+      "video_id": "2781720611401",
+      "title_raw": "S01E06_x264",
+      "duration_raw": "21:01",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 1415,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1631665326665&type=32&idx=15&tkn=TA5_YOKGNlMJGMHt4xHaPXHqNxc&fn=external_8"
+    },
+    {
+      "video_id": "2781720349257",
+      "title_raw": "S01E07_x264",
+      "duration_raw": "21:05",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1313,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1631643699785&type=32&idx=4&tkn=H66OMiwydIO2elY2epqmjYga9RI&fn=external_8"
+    },
+    {
+      "video_id": "2781720939081",
+      "title_raw": "S01E08_x264",
+      "duration_raw": "21:12",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1557,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1631687281225&type=32&idx=2&tkn=gD6mHGc4ZzOoiYSFgSKBHF67sRo&fn=external_8"
+    },
+    {
+      "video_id": "2781719693897",
+      "title_raw": "S01E09_x264",
+      "duration_raw": "20:54",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 1157,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1631585765961&type=32&idx=7&tkn=zlxTg-GPBB4GH0tLB-M80AMsuGE&fn=external_8"
+    },
+    {
+      "video_id": "2781720218185",
+      "title_raw": "S01E10_x264",
+      "duration_raw": "20:44",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 1166,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1631632099913&type=32&idx=9&tkn=JsbuJzF5WvE56XZKzgWcWmzSk6Y&fn=external_8"
+    },
+    {
+      "video_id": "2781721070153",
+      "title_raw": "S01E11_x264",
+      "duration_raw": "21:07",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 1082,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1631698618953&type=32&idx=15&tkn=D-pviP3AB8fYLCcvrtfCbPRTy8o&fn=external_8"
+    },
+    {
+      "video_id": "2781721266761",
+      "title_raw": "S01E12_x264",
+      "duration_raw": "20:49",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 1187,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1631711332937&type=32&idx=15&tkn=X0AKeFzDwcSwB8Bs0qSTNab3qx0&fn=external_8"
+    },
+    {
+      "video_id": "1447074794057",
+      "title_raw": "El Proyecto Z 13.-Zero Absoluto",
+      "duration_raw": "21:16",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 131,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=385580403208&type=32&idx=13&tkn=ny06W9TFTBKxBJmfpwx6mC3ODbQ&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1447074531913",
+      "title_raw": "El Proyecto Z 14.-Alambrado 1ª Parte",
+      "duration_raw": "21:13",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 152,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=385584138760&type=32&idx=4&tkn=-ra7C5W2Fbc1flSziJNa740I9ic&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1447073614409",
+      "title_raw": "El Proyecto Z 15.-Alambrado 2ª Parte",
+      "duration_raw": "21:10",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 123,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=385581451784&type=32&idx=7&tkn=Rp_rfU-hGHwtRyPGmoAkVnRt8nQ&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1447074990665",
+      "title_raw": "El Proyecto Z 16.-Cacería En El Centro",
+      "duration_raw": "21:13",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 122,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=385581124104&type=32&idx=14&tkn=IUu3rE_IGlm-UxnatZIBE5xJmsg&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1447074859593",
+      "title_raw": "El Proyecto Z 17.-El Don De Ro",
+      "duration_raw": "21:16",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 119,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=385583221256&type=32&idx=13&tkn=lsJeomWxnVOuP97GqyuDmQ5ESA8&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1447073942089",
+      "title_raw": "El Proyecto Z 18.-Tiempo De Calidad",
+      "duration_raw": "21:19",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 134,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=385583942152&type=32&idx=0&tkn=o_hUR9aEkqzH-TuyOB0sWMdYu0E&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1447075056201",
+      "title_raw": "El Proyecto Z 19.-Reanudar La Misión",
+      "duration_raw": "21:24",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 121,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=385584728584&type=32&idx=2&tkn=o7jxJErPW0T69Be6pwGz7RZ_FCw&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1447074335305",
+      "title_raw": "El Proyecto Z 20.-Perdido Y Recobrado",
+      "duration_raw": "21:19",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 125,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=385584531976&type=32&idx=12&tkn=PrSMNLo3Bflgy0YIheoxKWOzQIQ&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1447074269769",
+      "title_raw": "El Proyecto Z 21.-En La Cuerda Floja",
+      "duration_raw": "20:50",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 156,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=385582303752&type=32&idx=2&tkn=w3WGqgmSq1HULqXNNUeo1e1CTZI&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1447074728521",
+      "title_raw": "El Proyecto Z 22.-Presión En Cabina",
+      "duration_raw": "21:02",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 104,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=385584204296&type=32&idx=8&tkn=neHLUUCfYI_E0Nd5Q7IP6OCfuNY&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1447073679945",
+      "title_raw": "El Proyecto Z 23.-El Holograma Equivocado",
+      "duration_raw": "21:35",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 105,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=385584335368&type=32&idx=6&tkn=AupDY_TldqycC_cIk5FuTwqWGOM&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1447074007625",
+      "title_raw": "El Proyecto Z 24.-En El Ojo De La Tormenta",
+      "duration_raw": "21:03",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 103,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=385584597512&type=32&idx=4&tkn=8sZjPIeu7h4EafX8XWBIimjMoHs&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1447074662985",
+      "title_raw": "El Proyecto Z 25.-La Inundación",
+      "duration_raw": "21:02",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 100,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=385583483400&type=32&idx=7&tkn=Pu6RE6DCxx2n6H8Yl2JqSneSp1s&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1447074597449",
+      "title_raw": "El Proyecto Z 26.-El Hombre Holograma",
+      "duration_raw": "21:11",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 240,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=385581976072&type=32&idx=1&tkn=5ZiwgNOFS0ngpfNGC-OHdy1orYQ&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "2781720021577",
+      "title_raw": "S02E01_x264",
+      "duration_raw": "21:02",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 1200,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1631612373577&type=32&idx=1&tkn=7ei05LSujmOJeBDllisQej_tJ5s&fn=external_8"
+    },
+    {
+      "video_id": "2781721397833",
+      "title_raw": "S02E02_x264",
+      "duration_raw": "21:03",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 1069,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1631723719241&type=32&idx=13&tkn=jJzqru_jyanvHexpMpdYItQt3U0&fn=external_8"
+    },
+    {
+      "video_id": "2781719890505",
+      "title_raw": "S02E03_x264",
+      "duration_raw": "21:00",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 1267,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1631601363529&type=32&idx=14&tkn=qPrBzCFFn9mhX-XMVQPComzSiHg&fn=external_8"
+    },
+    {
+      "video_id": "2781721201225",
+      "title_raw": "S02E04_x264",
+      "duration_raw": "21:03",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 1175,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1631707662921&type=32&idx=15&tkn=xFvpL1iwrt17US39u-2lgbm_5VE&fn=external_8"
+    },
+    {
+      "video_id": "2781720873545",
+      "title_raw": "S02E05_x264",
+      "duration_raw": "21:04",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 987,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1631682103881&type=32&idx=14&tkn=NDErSp1XXFJUWyf-3FtN50ZC70w&fn=external_8"
+    },
+    {
+      "video_id": "2781720545865",
+      "title_raw": "S02E06_x264",
+      "duration_raw": "21:16",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 1128,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1631660345929&type=32&idx=11&tkn=LvQZrAM_gqPHdVj84OJPOaaD7Cc&fn=external_8"
+    },
+    {
+      "video_id": "2781720742473",
+      "title_raw": "S02E07_x264",
+      "duration_raw": "21:09",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 1210,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1631675419209&type=32&idx=6&tkn=C1fx1G3Wh7cDED2wPIO88ir7mUA&fn=external_8"
+    },
+    {
+      "video_id": "2781719824969",
+      "title_raw": "S02E08_x264",
+      "duration_raw": "21:10",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 1014,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1631595399753&type=32&idx=10&tkn=1n2U4Z5XigGbP8w4nUH-OoodSPM&fn=external_8"
+    },
+    {
+      "video_id": "2781720676937",
+      "title_raw": "S02E09_x264",
+      "duration_raw": "20:57",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 1141,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1631670897225&type=32&idx=2&tkn=g5Rz4Ke3c65SiszIW9xi1hWDWHA&fn=external_8"
+    },
+    {
+      "video_id": "2781720283721",
+      "title_raw": "S02E10_x264",
+      "duration_raw": "20:56",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 1117,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1631637473865&type=32&idx=2&tkn=vbtSCOlrz4DPTjyZK32mZkgI4q8&fn=external_8"
+    },
+    {
+      "video_id": "2781721004617",
+      "title_raw": "S02E11_x264",
+      "duration_raw": "21:08",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 1011,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1631692655177&type=32&idx=12&tkn=g7vM1e_sNYQGX3lv8PxirG9IPIQ&fn=external_8"
+    },
+    {
+      "video_id": "2781719759433",
+      "title_raw": "S02E12_x264",
+      "duration_raw": "21:06",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 955,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1631591664201&type=32&idx=5&tkn=b0dYJo2FDIwOuz9vo8fmncDmWiE&fn=external_8"
+    },
+    {
+      "video_id": "2781721332297",
+      "title_raw": "S02E13_x264",
+      "duration_raw": "21:06",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 1112,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1631719787081&type=32&idx=8&tkn=_osXeXtyVl80z_MIR2oVe-b2bMc&fn=external_8"
+    },
+    {
+      "video_id": "2781721135689",
+      "title_raw": "S02E14_x264",
+      "duration_raw": "21:08",
+      "season_number": 2,
+      "episode_number": 14,
+      "views": 1889,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1631703140937&type=32&idx=10&tkn=Ito15Oh8As2oklHHJaoVoPrpRqw&fn=external_8"
+    }
+  ]
+}

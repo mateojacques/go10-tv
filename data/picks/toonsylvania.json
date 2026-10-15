@@ -1,0 +1,205 @@
+{
+  "title": "Toonsylvania",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c4975945",
+  "year": "1998",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "2535530695241",
+      "title_raw": "[www.RetroCanal.Net]-TYL-01x01",
+      "duration_raw": "21:19",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 3453,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1329880762896&type=32&idx=10&tkn=qkpZv5hDbye2G_qrthd0mZMTcGM&fn=external_8"
+    },
+    {
+      "video_id": "2535530498633",
+      "title_raw": "[www.RetroCanal.Net]-TYL-01x02",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 1195,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1329886726672&type=32&idx=9&tkn=iUasCNJqONjw07LPM7EgGujIwKE&fn=external_8"
+    },
+    {
+      "video_id": "2535530105417",
+      "title_raw": "[www.RetroCanal.Net]-TYL-01x03",
+      "duration_raw": "21:22",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1253,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1329872177680&type=32&idx=12&tkn=2CeJbs5NFhUunwYItXyo54TqL4s&fn=external_8"
+    },
+    {
+      "video_id": "2535530629705",
+      "title_raw": "[www.RetroCanal.Net]-TYL-01x04",
+      "duration_raw": "21:16",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 890,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1329874143760&type=32&idx=13&tkn=ejB7E8OzO03J0jnxIv3XsTxo2mU&fn=external_8"
+    },
+    {
+      "video_id": "2535530236489",
+      "title_raw": "[www.RetroCanal.Net]-TYL-01x05",
+      "duration_raw": "21:15",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 842,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1329877027344&type=32&idx=6&tkn=lzjLW_4WTj8R2RAJs7PTf5OdvxM&fn=external_8"
+    },
+    {
+      "video_id": "2535529581129",
+      "title_raw": "[www.RetroCanal.Net]-TYL-01x06",
+      "duration_raw": "21:14",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 761,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1329873095184&type=32&idx=7&tkn=IgEz3-Sox_05aa19Qg-IJBUPAcg&fn=external_8"
+    },
+    {
+      "video_id": "2535530957385",
+      "title_raw": "[www.RetroCanal.Net]-TYL-01x07",
+      "duration_raw": "21:19",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1232,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1329879583248&type=32&idx=2&tkn=Ks-7KaOj22JhnfY9RbNkE2fg5Dc&fn=external_8"
+    },
+    {
+      "video_id": "2535530302025",
+      "title_raw": "[www.RetroCanal.Net]-TYL-01x08",
+      "duration_raw": "21:19",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 679,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1329876240912&type=32&idx=8&tkn=uBGm9vXQPOnyYpJXuH3O_sqm5gE&fn=external_8"
+    },
+    {
+      "video_id": "2535529974345",
+      "title_raw": "[www.RetroCanal.Net]-TYL-01x09",
+      "duration_raw": "21:14",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 900,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1329881877008&type=32&idx=10&tkn=gT-ppBEMCxNXdhnMT_NLYXleBjI&fn=external_8"
+    },
+    {
+      "video_id": "2535530760777",
+      "title_raw": "[www.RetroCanal.Net]-TYL-01x10",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 704,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1329883187728&type=32&idx=5&tkn=t3icaW0UOlvA24XmmcKVkWo1FYc&fn=external_8"
+    },
+    {
+      "video_id": "2535530367561",
+      "title_raw": "[www.RetroCanal.Net]-TYL-01x11",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 648,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1329884039696&type=32&idx=9&tkn=ktbvuKth_cBIq7i76vNq6ulWk6M&fn=external_8"
+    },
+    {
+      "video_id": "2535529712201",
+      "title_raw": "[www.RetroCanal.Net]-TYL-01x12",
+      "duration_raw": "21:19",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 610,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1329885874704&type=32&idx=8&tkn=YKi1Oi7DLhk2DOBQZxq-DW5CYRE&fn=external_8"
+    },
+    {
+      "video_id": "2535529908809",
+      "title_raw": "[www.RetroCanal.Net]-TYL-01x13",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 451,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1329878010384&type=32&idx=6&tkn=qzjnHe84oIA3ZOdYU-ymGpJ-PW0&fn=external_8"
+    },
+    {
+      "video_id": "2535530433097",
+      "title_raw": "[www.RetroCanal.Net]-TYL-02x01",
+      "duration_raw": "21:24",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 637,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1330031102480&type=32&idx=5&tkn=tl63rne9-V0bPCOj1WC4PuSfW_g&fn=external_8"
+    },
+    {
+      "video_id": "2535529777737",
+      "title_raw": "[www.RetroCanal.Net]-TYL-02x02",
+      "duration_raw": "21:29",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 594,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1330031626768&type=32&idx=14&tkn=OqEFTq_CzRm3e0EdTjFJsbsSb48&fn=external_8"
+    },
+    {
+      "video_id": "2535529515593",
+      "title_raw": "[www.RetroCanal.Net]-TYL-02x03",
+      "duration_raw": "21:26",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 481,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1330032478736&type=32&idx=11&tkn=g9jM8EsyDfiflJTd7DUu9csO1zA&fn=external_8"
+    },
+    {
+      "video_id": "2535530564169",
+      "title_raw": "[www.RetroCanal.Net]-TYL-02x04",
+      "duration_raw": "21:27",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 596,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1330032151056&type=32&idx=6&tkn=xxmwMhePolOYE13d3lA4ucr2Lak&fn=external_8"
+    },
+    {
+      "video_id": "2535529843273",
+      "title_raw": "[www.RetroCanal.Net]-TYL-02x05",
+      "duration_raw": "21:09",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 443,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1330030381584&type=32&idx=2&tkn=qx2MMdHn70V-1m4XtFJpEod39EY&fn=external_8"
+    },
+    {
+      "video_id": "2535530170953",
+      "title_raw": "[www.RetroCanal.Net]-TYL-02x06",
+      "duration_raw": "21:26",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 398,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1330029464080&type=32&idx=9&tkn=5z9cf6hssldT1ep82gBUBsAAnUg&fn=external_8"
+    },
+    {
+      "video_id": "2535530826313",
+      "title_raw": "[www.RetroCanal.Net]-TYL-02x07",
+      "duration_raw": "21:27",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 460,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1330029857296&type=32&idx=9&tkn=SFecsXPXt3uF9FSCIX2skwaHVOI&fn=external_8"
+    },
+    {
+      "video_id": "2535530039881",
+      "title_raw": "[www.RetroCanal.Net]-TYL-02x08",
+      "duration_raw": "21:28",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 455,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1330031233552&type=32&idx=11&tkn=TDgXOikmc5JD1O-KFbXNNHq7u9o&fn=external_8"
+    }
+  ]
+}

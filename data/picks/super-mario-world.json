@@ -1,0 +1,133 @@
+{
+  "title": "Súper Mario World",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2998857",
+  "year": "1991",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "360p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Aventura",
+  "videos": [
+    {
+      "video_id": "1716899547721",
+      "title_raw": "Super Mario World   Cap 01   Venta De Fuego (Latino)",
+      "duration_raw": "11:07",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 24780,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=481598900856&type=32&idx=2&tkn=4-WCnUCB_X3H66m84OMPJ_KAiJg&fn=external_8"
+    },
+    {
+      "video_id": "1716899678793",
+      "title_raw": "Super Mario World   Cap 02   La Rueda (Latino)",
+      "duration_raw": "11:06",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 4849,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=481599097464&type=32&idx=0&tkn=ZEyxiPzCfERb-MzXsOJFjwuuXFk&fn=external_8"
+    },
+    {
+      "video_id": "1716899744329",
+      "title_raw": "Super Mario World   Cap 03   Koopa Circo (Latino)",
+      "duration_raw": "11:06",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 3488,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=481599031928&type=32&idx=0&tkn=0-wJaabRDcmXYdzhrzm7YAOB708&fn=external_8"
+    },
+    {
+      "video_id": "1716899875401",
+      "title_raw": "Super Mario World   Cap 04   Fantasmas Juguetones (Latino)",
+      "duration_raw": "11:06",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 3189,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=481598769784&type=32&idx=0&tkn=0d7u_KYXRfKm8Eo300lyz4gOnXI&fn=external_8"
+    },
+    {
+      "video_id": "1716900006473",
+      "title_raw": "Super Mario World   Cap 05   El Koopa Ingrediente Secreto (Latino)",
+      "duration_raw": "11:07",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 2581,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=481601260152&type=32&idx=6&tkn=5lVyAaQrHZf7v3T-b_SU-9L3RhQ&fn=external_8"
+    },
+    {
+      "video_id": "1716900137545",
+      "title_raw": "Super Mario World   Cap 06   La cueva de Navidad (Latino)",
+      "duration_raw": "11:06",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 1886,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=481600998008&type=32&idx=1&tkn=oJ40gWiS6QFsw9VvHpe6GZMLlHA&fn=external_8"
+    },
+    {
+      "video_id": "1716900268617",
+      "title_raw": "Super Mario World   Cap 07   Nacido Para Vagar (Latino)",
+      "duration_raw": "11:25",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1917,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=481600735864&type=32&idx=3&tkn=oN_YYqJew6ik4R8AVeCTloQVP3s&fn=external_8"
+    },
+    {
+      "video_id": "1716900334153",
+      "title_raw": "Super Mario World   Cap 08   Problemas Telefonicos (Latino)",
+      "duration_raw": "10:15",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1598,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=481600866936&type=32&idx=5&tkn=p-IXVJ2bpxJTCP4uzqNyBpCAMT8&fn=external_8"
+    },
+    {
+      "video_id": "1716900203081",
+      "title_raw": "Super Mario World   Cap 09   Topos Comelones (Latino)",
+      "duration_raw": "11:02",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 1631,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=481600670328&type=32&idx=0&tkn=SL5b7HCzCNwDmI5o-Ckj5kYqn8A&fn=external_8"
+    },
+    {
+      "video_id": "1716900072009",
+      "title_raw": "Super Mario World   Cap 10   Roca Television (Latino)",
+      "duration_raw": "10:49",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 1424,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=481600801400&type=32&idx=8&tkn=LOMlNB_ApDqPc6urBvccJoHFOIM&fn=external_8"
+    },
+    {
+      "video_id": "1716899940937",
+      "title_raw": "Super Mario World   Cap 11   Partida de Futbol (Español)",
+      "duration_raw": "10:14",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 1313,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=481601981048&type=32&idx=14&tkn=3gPOqdkoHtUoxBQZByiTca6SoEg&fn=external_8"
+    },
+    {
+      "video_id": "1716899809865",
+      "title_raw": "Super Mario World   Cap 12   Una pequeña leccion (Español)",
+      "duration_raw": "10:13",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 1242,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=481602177656&type=32&idx=3&tkn=y8CYcAwP_1z5-rbCnRUrN5dTkNw&fn=external_8"
+    },
+    {
+      "video_id": "1716899613257",
+      "title_raw": "Super Mario World   Cap 13   Mama Luigi (Latino)",
+      "duration_raw": "10:32",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 2731,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=481602243192&type=32&idx=1&tkn=Ukl7BbacjPCdXalrZsbmVT9osJI&fn=external_8"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "title": "La Pandilla de Yogui",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2357833",
+  "year": "1972",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "1454611171913",
+      "title_raw": "01 Mr. Bigot por tooonskaboom",
+      "duration_raw": "23:21",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 10977,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=837319592568&type=32&idx=11&tkn=yowoG1Z7Boex85Jrok_2OaQNeGQ&fn=external_8"
+    },
+    {
+      "video_id": "1454611499593",
+      "title_raw": "02 The Greedy Genie  por toonskaboom",
+      "duration_raw": "23:19",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 3872,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=837321034360&type=32&idx=5&tkn=McjAchMtJ8IzJoYJQPqxvQP_fmA&fn=external_8"
+    },
+    {
+      "video_id": "1454611892809",
+      "title_raw": "03 Mr. Prankster  por toonskaboom",
+      "duration_raw": "23:19",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 2365,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=837319002744&type=32&idx=6&tkn=s2ew7raAvyFJnE2F1gF4PpjLBZ8&fn=external_8"
+    },
+    {
+      "video_id": "1454610975305",
+      "title_raw": "04 Mr. Fibber  por toonskaboom",
+      "duration_raw": "22:09",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1754,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=837318478456&type=32&idx=6&tkn=GnGUSAEp9Lg1SQkSrYwXRrazQIw&fn=external_8"
+    },
+    {
+      "video_id": "1454611302985",
+      "title_raw": "05 La bruja chismosa By Omegatron777",
+      "duration_raw": "21:55",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1992,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=837321820792&type=32&idx=5&tkn=AOeYctpwFdd6U29G0eNcjia7LPg&fn=external_8"
+    },
+    {
+      "video_id": "1454611827273",
+      "title_raw": "06 Mr. Sloppy  por toonskaboom",
+      "duration_raw": "22:08",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 1361,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=837320313464&type=32&idx=13&tkn=7QEXfprPtPrjEiWsH0PPZjg--r0&fn=external_8"
+    },
+    {
+      "video_id": "1454611237449",
+      "title_raw": "07 Mr. Cheater  por toonskaboom",
+      "duration_raw": "23:18",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1166,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=837320706680&type=32&idx=5&tkn=ju1MfpTtczHA1wBDP7rAU7tDaNA&fn=external_8"
+    },
+    {
+      "video_id": "1454611696201",
+      "title_raw": "08 Mr. Waste  por toonskaboom",
+      "duration_raw": "23:14",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1033,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=837321362040&type=32&idx=12&tkn=DpDdjyGLd8ijf2lfQQ5wjCjm9bE&fn=external_8"
+    },
+    {
+      "video_id": "1454611761737",
+      "title_raw": "09 Mr. Vandal  por toonskaboom",
+      "duration_raw": "23:19",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 938,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=837308648056&type=32&idx=6&tkn=Mq6FIRMvPnRXP-J2aOzOOL3NZxw&fn=external_8"
+    },
+    {
+      "video_id": "1454611106377",
+      "title_raw": "10 The Sheik Of Selfishness  por toonskaboom",
+      "duration_raw": "22:12",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 1215,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=837309303416&type=32&idx=5&tkn=3DEOJ45GhG3oAE4ZTq34DaLmb-s&fn=external_8"
+    },
+    {
+      "video_id": "1454611434057",
+      "title_raw": "11 Mr. Smog  por toonskaboom",
+      "duration_raw": "23:18",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 922,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=837309565560&type=32&idx=9&tkn=66-LBDftv8zTaZHHslyAlTZNm_g&fn=external_8"
+    },
+    {
+      "video_id": "1454611368521",
+      "title_raw": "12 Lotta Litter  por toonskaboom",
+      "duration_raw": "23:19",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 1031,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=837308910200&type=32&idx=13&tkn=L4JcTRaG851XpbgCke5bVo9cVzc&fn=external_8"
+    },
+    {
+      "video_id": "1454611565129",
+      "title_raw": "13 The Envy Brothers  por toonskaboom",
+      "duration_raw": "23:19",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 898,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=837308254840&type=32&idx=12&tkn=pseo-Ifs4PvC9z-J1n-WradKYYY&fn=external_8"
+    },
+    {
+      "video_id": "1454611040841",
+      "title_raw": "14 Captain Swipe  por toonskaboom",
+      "duration_raw": "23:18",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 863,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=837306878584&type=32&idx=10&tkn=QYz_ZfzOQRT1MgBRBvJDfCH2ovw&fn=external_8"
+    },
+    {
+      "video_id": "1454611630665",
+      "title_raw": "15 Mr. Hothead  por toonskaboom",
+      "duration_raw": "23:17",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 1309,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=837307533944&type=32&idx=12&tkn=JPyW1JU0BseSo3T2eYQ4PuHgVrA&fn=external_8"
+    }
+  ]
+}

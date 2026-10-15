@@ -1,0 +1,484 @@
+{
+  "title": "Las Chicas Superpoderosas Z",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c4109129",
+  "year": "2006",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "2095608695369",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 01",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 37889,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983499475529&type=32&idx=0&tkn=D_hlo9wZq5Z6AJNf2cqli9qwc1E&fn=external_8"
+    },
+    {
+      "video_id": "2095608826441",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 02",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 8693,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983504980553&type=32&idx=0&tkn=8JFApo8fA9kplhf81RlyJ6XffQQ&fn=external_8"
+    },
+    {
+      "video_id": "2095609023049",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 03",
+      "duration_raw": "23:31",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 6723,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983513369161&type=32&idx=0&tkn=PB7eHef0u3vf1zPmhLa4iaVVYAQ&fn=external_8"
+    },
+    {
+      "video_id": "2095609285193",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 04",
+      "duration_raw": "23:38",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 5281,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983526541897&type=32&idx=0&tkn=GgiyMlTdiQmaVTneEYfAF-DTesU&fn=external_8"
+    },
+    {
+      "video_id": "2095609154121",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 05",
+      "duration_raw": "23:53",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 3841,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983519726153&type=32&idx=14&tkn=hO_-pd-ucW8SE3bS-LyMvNdIYY0&fn=external_8"
+    },
+    {
+      "video_id": "2095609416265",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 06",
+      "duration_raw": "23:45",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 3884,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983532243529&type=32&idx=0&tkn=vo7kCCVcjmTvwMNey7Ss0oi7uF8&fn=external_8"
+    },
+    {
+      "video_id": "2095609547337",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 07",
+      "duration_raw": "23:48",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 3347,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983537486409&type=32&idx=0&tkn=ESxKz496dskUQEW2m8lyqkgG10A&fn=external_8"
+    },
+    {
+      "video_id": "2095609678409",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 08",
+      "duration_raw": "23:37",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 3849,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983544760905&type=32&idx=0&tkn=p8oIqMw2dYa1asczQtxKrslZzhQ&fn=external_8"
+    },
+    {
+      "video_id": "2095609809481",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 09",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 2773,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983550986825&type=32&idx=0&tkn=RiQQc9IbfkJ3hbMtgvgSWM2FAaQ&fn=external_8"
+    },
+    {
+      "video_id": "2095610137161",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 10",
+      "duration_raw": "23:45",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 2641,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983554394697&type=32&idx=0&tkn=z2t_qOD9m2w7-x9_iapczceVUEo&fn=external_8"
+    },
+    {
+      "video_id": "2095610595913",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 11",
+      "duration_raw": "23:56",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 2343,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983568681545&type=32&idx=7&tkn=t8WwWNiSS4OlNqtGPnfMs7hF5PA&fn=external_8"
+    },
+    {
+      "video_id": "2095610792521",
+      "title_raw": "Chicas Superpoderosas Z Capìtulo 12",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 2485,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983578446409&type=32&idx=0&tkn=eT2o-0UitcLE4qYUI7vvfMvsay8&fn=external_8"
+    },
+    {
+      "video_id": "2095610726985",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 13",
+      "duration_raw": "23:53",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 2448,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983571106377&type=32&idx=6&tkn=4A7wE65Ev9cplKqm3OtISHYb9pA&fn=external_8"
+    },
+    {
+      "video_id": "2095610989129",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 14",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 2471,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983589849673&type=32&idx=0&tkn=K8S_MqlAu1w5zarkWAJSTowDeTc&fn=external_8"
+    },
+    {
+      "video_id": "2095610530377",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 15",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 2555,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983562193481&type=32&idx=0&tkn=SnvSkEgv52Lj47z0-XNP1KFZLwM&fn=external_8"
+    },
+    {
+      "video_id": "2095610333769",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 16",
+      "duration_raw": "23:35",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 2099,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983557999177&type=32&idx=0&tkn=VWANpCXpy2eAOyKwY3FQujUP6Eo&fn=external_8"
+    },
+    {
+      "video_id": "2095610006089",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 17",
+      "duration_raw": "23:45",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 1796,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983552428617&type=32&idx=0&tkn=cx7eE3SOPyYCHCzCVCwCullIMCo&fn=external_8"
+    },
+    {
+      "video_id": "2095609350729",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 18",
+      "duration_raw": "23:37",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 1904,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983527787081&type=32&idx=0&tkn=sF-_7C_g60I1yoHGikQEGiLfs4k&fn=external_8"
+    },
+    {
+      "video_id": "2095610464841",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 19",
+      "duration_raw": "23:55",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 1717,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983560424009&type=32&idx=0&tkn=nm5dDaxMiRqkWqi6uEMiEC6gUos&fn=external_8"
+    },
+    {
+      "video_id": "2095608957513",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 20",
+      "duration_raw": "23:45",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 4911,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983508322889&type=32&idx=13&tkn=U8wfVVS1oCa--5VxYN743hfc-kA&fn=external_8"
+    },
+    {
+      "video_id": "2095609219657",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 21",
+      "duration_raw": "23:53",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 1958,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983521561161&type=32&idx=0&tkn=p0-ewVt0kNUfvSanYLk3uQzWzK0&fn=external_8"
+    },
+    {
+      "video_id": "2095609481801",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 22",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 1888,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983533357641&type=32&idx=0&tkn=zqT6EMBxM7q-wF1TdQOEBW21ShI&fn=external_8"
+    },
+    {
+      "video_id": "2095609743945",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 23",
+      "duration_raw": "23:53",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 1640,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983546137161&type=32&idx=0&tkn=qeQG-amwTsVSmoDtiN2J5GHqlVA&fn=external_8"
+    },
+    {
+      "video_id": "2095610268233",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 24",
+      "duration_raw": "23:45",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 1636,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983555967561&type=32&idx=0&tkn=ZeKI7zkK9BF4N8T8nEmyYZt45X4&fn=external_8"
+    },
+    {
+      "video_id": "2095610399305",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 25",
+      "duration_raw": "23:55",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 2243,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983559309897&type=32&idx=0&tkn=BtUBWk1Hp4zgbVgRjWDSWEkKLtA&fn=external_8"
+    },
+    {
+      "video_id": "2095609612873",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 26",
+      "duration_raw": "23:43",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 1522,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983539321417&type=32&idx=0&tkn=mlmdHIaN0uoP6jYEGnVxHbkgnlM&fn=external_8"
+    },
+    {
+      "video_id": "2095609088585",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 27",
+      "duration_raw": "23:52",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 1812,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983514352201&type=32&idx=0&tkn=XL7VP-NEYsNlH1vkkBOyFvrr5rc&fn=external_8"
+    },
+    {
+      "video_id": "2095610858057",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 28",
+      "duration_raw": "23:43",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 1719,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983581657673&type=32&idx=0&tkn=2vFs_x1gvSp3wXWdM82P_1pqbm8&fn=external_8"
+    },
+    {
+      "video_id": "2095608891977",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 29",
+      "duration_raw": "23:50",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 1581,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983506291273&type=32&idx=0&tkn=9IVoPYm3lL2XAP2N9lS0OooLobY&fn=external_8"
+    },
+    {
+      "video_id": "2095608760905",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 30",
+      "duration_raw": "23:50",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 1891,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=983500851785&type=32&idx=0&tkn=HsJxo84aFzhmc3cUgGXGM_QG1CE&fn=external_8"
+    },
+    {
+      "video_id": "2102559115849",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 31",
+      "duration_raw": "23:51",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 1497,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=988786002505&type=32&idx=0&tkn=XuZlWHPgP8gS6enzf4PwBDIM91w&fn=external_8"
+    },
+    {
+      "video_id": "2102558919241",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 32",
+      "duration_raw": "23:45",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 1659,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=988783053385&type=32&idx=0&tkn=QP4YtGMfT8R_IzeM5ljgs6kkOrE&fn=external_8"
+    },
+    {
+      "video_id": "2102559377993",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 33",
+      "duration_raw": "23:52",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 1451,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=988791441993&type=32&idx=0&tkn=vpCvu_S4korL7_sYZObUU6sgHq0&fn=external_8"
+    },
+    {
+      "video_id": "2102559246921",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 34",
+      "duration_raw": "23:50",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 1373,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=988788951625&type=32&idx=0&tkn=Kkyj68io1ASrgFPZKDpad3uT_0o&fn=external_8"
+    },
+    {
+      "video_id": "2102558788169",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 35",
+      "duration_raw": "23:49",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 1276,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=988780431945&type=32&idx=0&tkn=vp3lwH6FbkGsgJcYhv4uJt6w9E4&fn=external_8"
+    },
+    {
+      "video_id": "2102559509065",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 36",
+      "duration_raw": "23:48",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 1503,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=988793277001&type=32&idx=0&tkn=Dt9RId7gn6gmh-Dl5bjIjKlkrN4&fn=external_8"
+    },
+    {
+      "video_id": "2102559640137",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 37",
+      "duration_raw": "23:55",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 2713,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=988796095049&type=32&idx=0&tkn=jm9HzBUaWH6Wp_Z0PNxLtkNpNoQ&fn=external_8"
+    },
+    {
+      "video_id": "2102559574601",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 38",
+      "duration_raw": "23:48",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 1348,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=988794522185&type=32&idx=0&tkn=rTrKGy0zEHuBbb_ftYhcKv9BDWQ&fn=external_8"
+    },
+    {
+      "video_id": "2102559443529",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 39",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 1234,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=988792425033&type=32&idx=0&tkn=N_LEwXv9MJW4SNwd_qejBuCE5yU&fn=external_8"
+    },
+    {
+      "video_id": "2102559312457",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 40",
+      "duration_raw": "23:49",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 1318,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=988790262345&type=32&idx=0&tkn=9Yedt_CDKr2I_j4E-HW5BDvsLW4&fn=external_8"
+    },
+    {
+      "video_id": "2102559181385",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 41",
+      "duration_raw": "23:53",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 1851,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=988787575369&type=32&idx=0&tkn=NIfIb5GemV7nZ7KukthL3BKD-z8&fn=external_8"
+    },
+    {
+      "video_id": "2102558853705",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 42",
+      "duration_raw": "23:49",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 1859,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=988781611593&type=32&idx=0&tkn=DMqIV1xijNC7Csh035b5uv-O8GI&fn=external_8"
+    },
+    {
+      "video_id": "2102558984777",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 43",
+      "duration_raw": "23:53",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 1213,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=988784495177&type=32&idx=10&tkn=k7D7BTlAJiWBGjKAUkh_0ofwV_E&fn=external_8"
+    },
+    {
+      "video_id": "2102558198345",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 44",
+      "duration_raw": "22:50",
+      "season_number": 1,
+      "episode_number": 44,
+      "views": 1246,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=988762212937&type=32&idx=6&tkn=Jo8QxXPk3g8Lf6PgB8MVMXtV5MI&fn=external_8"
+    },
+    {
+      "video_id": "2102558329417",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 45",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 1263,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=988765948489&type=32&idx=4&tkn=LsXe4TGrOXlKu1Ofx7pwaSoacY8&fn=external_8"
+    },
+    {
+      "video_id": "2102558722633",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 46",
+      "duration_raw": "23:54",
+      "season_number": 1,
+      "episode_number": 46,
+      "views": 1284,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=988779514441&type=32&idx=0&tkn=C2GufkO53m-NYsfWVjmwNHBoGuk&fn=external_8"
+    },
+    {
+      "video_id": "2102558526025",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 47",
+      "duration_raw": "23:54",
+      "season_number": 1,
+      "episode_number": 47,
+      "views": 1289,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=988771387977&type=32&idx=0&tkn=TCoeMsiByrVrhuAWnKDyjGKxQeg&fn=external_8"
+    },
+    {
+      "video_id": "2102558591561",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 48",
+      "duration_raw": "23:49",
+      "season_number": 1,
+      "episode_number": 48,
+      "views": 1370,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=988772371017&type=32&idx=0&tkn=i8pbUUeKS5gJUiyZzmbRnD0WOhs&fn=external_8"
+    },
+    {
+      "video_id": "2102558657097",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 49",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 49,
+      "views": 1191,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=988777941577&type=32&idx=14&tkn=CFf9ROJGV1emc5l_Lv5wwxyw348&fn=external_8"
+    },
+    {
+      "video_id": "2102558460489",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 50",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 50,
+      "views": 1365,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=988768307785&type=32&idx=0&tkn=2qXTWaroGzjYrw2sGj-FFxv96Gg&fn=external_8"
+    },
+    {
+      "video_id": "2102558394953",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 51",
+      "duration_raw": "23:55",
+      "season_number": 1,
+      "episode_number": 51,
+      "views": 1846,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=988767521353&type=32&idx=0&tkn=-u_CvYK6D64DKtRR0ov6Ow9jBoQ&fn=external_8"
+    },
+    {
+      "video_id": "2102558263881",
+      "title_raw": "Chicas Superpoderosas Z Capitulo 52 Final",
+      "duration_raw": "23:25",
+      "season_number": 1,
+      "episode_number": 52,
+      "views": 3906,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=988763392585&type=32&idx=0&tkn=HZ4HkPcih8-1A4YNvZEQNHu5l6s&fn=external_8"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "title": "Clue Club",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2178633",
+  "year": "1976",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "1359479769673",
+      "title_raw": "Clue Club 01.The Paper Shaper Caper_x264",
+      "duration_raw": "21:31",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 8888,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=588379589193&type=32&idx=4&tkn=3jlCuYVJcl0Um0-g7fPwT56tFZ4&fn=external_8"
+    },
+    {
+      "video_id": "1359479441993",
+      "title_raw": "Clue Club 02.The Case of the Lighthouse_x264",
+      "duration_raw": "21:32",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 2005,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=588373953097&type=32&idx=3&tkn=yRjO1MW4tJlSETsWddMWoPRpqHE&fn=external_8"
+    },
+    {
+      "video_id": "1359479507529",
+      "title_raw": "Clue Club 03.The Real Gone Gondola_x264",
+      "duration_raw": "21:27",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1414,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=588375001673&type=32&idx=0&tkn=9MbVAzCme6vw7o60DOARUO9y2jo&fn=external_8"
+    },
+    {
+      "video_id": "1359479704137",
+      "title_raw": "Clue Club 04.Who-s to Blame For the Empty Frame_x264",
+      "duration_raw": "21:26",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1059,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=588378671689&type=32&idx=7&tkn=H1V-8Lx7lOHls2PJS_U6mLSW6R0&fn=external_8"
+    },
+    {
+      "video_id": "1359479638601",
+      "title_raw": "Clue Club 05.The Wild Seaweed Smuggling Caper_x264",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 951,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=588377360969&type=32&idx=8&tkn=kHTYL_6UQzmZcoTW3wDADKr_KVM&fn=external_8"
+    },
+    {
+      "video_id": "1359479573065",
+      "title_raw": "Clue Club 06.The Green Thumb_x264",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 939,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=588376050249&type=32&idx=1&tkn=zc-e9jmSR9WssLMzGBSoZDSmZ1E&fn=external_8"
+    },
+    {
+      "video_id": "1359479179849",
+      "title_raw": "Clue Club 07.The Disappearing Airport Caper_x264",
+      "duration_raw": "21:27",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 814,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=588367399497&type=32&idx=12&tkn=bB22J6YA15-AE2y4eXjQuoaiPDc&fn=external_8"
+    },
+    {
+      "video_id": "1359479376457",
+      "title_raw": "Clue Club 08.The Walking House Caper_x264",
+      "duration_raw": "21:27",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 747,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=588372576841&type=32&idx=2&tkn=yQ9VtEiTApSqOUXutbBxwTnTHBM&fn=external_8"
+    },
+    {
+      "video_id": "1359478983241",
+      "title_raw": "Clue Club 09.The Solar Energy Caper_x264",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 699,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=588362811977&type=32&idx=1&tkn=lXPzU9rFFrV01Q23sahbaZ8i0ts&fn=external_8"
+    },
+    {
+      "video_id": "1359479310921",
+      "title_raw": "Clue Club 10.The Vanishing Train Caper_x264",
+      "duration_raw": "21:26",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 728,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=588370414153&type=32&idx=0&tkn=CL6IBlOdT4AZYqNCluyALYNg_aU&fn=external_8"
+    },
+    {
+      "video_id": "1359479245385",
+      "title_raw": "Clue Club 11.The Dissolving Statue Caper_x264",
+      "duration_raw": "21:05",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 615,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=588368972361&type=32&idx=2&tkn=w3FgUP1_uinEx4f5BdPmR0PcWdc&fn=external_8"
+    },
+    {
+      "video_id": "1359479114313",
+      "title_raw": "Clue Club 12.The Missing Pig Caper_x264",
+      "duration_raw": "21:29",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 638,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=588365761097&type=32&idx=12&tkn=-V8lpxLplegsPOm4tUBS3qMO_yY&fn=external_8"
+    },
+    {
+      "video_id": "1359479048777",
+      "title_raw": "Clue Club 13.One of Our Elephants Is Missing_x264",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 664,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=588363991625&type=32&idx=2&tkn=B-r1PWCPuY6NgC_B-84SJQQGnAo&fn=external_8"
+    }
+  ]
+}

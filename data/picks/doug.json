@@ -1,0 +1,34 @@
+{
+  "title": "Doug",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2158665",
+  "year": "1991",
+  "studio": "Nickelodeon",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "1350464375369",
+      "title_raw": "Doug - Doug Y Los Hermanos Cerebro (eSp mEx) by Antibiotic_x264",
+      "duration_raw": "10:58",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 463,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=583970654793&type=32&idx=9&tkn=R1pRFg0Q2Qj2oGYuoXiM_p9Jlv4&fn=external_8"
+    },
+    {
+      "video_id": "1350465096265",
+      "title_raw": "Doug - La Caricatura de Doug (eSp mEx) by Antibiotic_x264",
+      "duration_raw": "11:05",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 497,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=583975438921&type=32&idx=11&tkn=mt95bmcmO5ulCKYrmBcBNjnGBs4&fn=external_8"
+    }
+  ]
+}

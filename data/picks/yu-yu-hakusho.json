@@ -1,0 +1,1025 @@
+{
+  "title": "Yu Yu Hakusho",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c8101961 c2232137",
+  "year": "1992",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "1395831474761",
+      "title_raw": "001_-_La_muerte_nos_sorprende_x264",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 5278,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596626442825&type=32&idx=2&tkn=4-X5DONf2XoFwc49P5XdOQELHOc&fn=external_8"
+    },
+    {
+      "video_id": "1395831278153",
+      "title_raw": "002_-_Entrenamiento_para_revivir_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 2538,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596621920841&type=32&idx=3&tkn=Us4Ir7EhjsD0MJM3h3XD0xL2fII&fn=external_8"
+    },
+    {
+      "video_id": "1395831081545",
+      "title_raw": "003_-_Kuwabara_x264",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 5296,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596615367241&type=32&idx=8&tkn=vn_BNAUKeigTKR31Xead_pklh8w&fn=external_8"
+    },
+    {
+      "video_id": "1395831212617",
+      "title_raw": "004 - Requisitos para enamorados_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1844,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596620151369&type=32&idx=4&tkn=ViH_gg6sot26-4IHpojv3BrlJis&fn=external_8"
+    },
+    {
+      "video_id": "1395830491721",
+      "title_raw": "005 - El regreso de Yusuke_x264",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1917,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596596755017&type=32&idx=9&tkn=r9kB__OJV0_qAcqnFRb-geMc6hI&fn=external_8"
+    },
+    {
+      "video_id": "1395829901897",
+      "title_raw": "006 - Tres monstruos- Hiei, Kurama y Gooki_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 1848,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596582730313&type=32&idx=11&tkn=cL_QsscN-AKyFjK8dqvw8AMLL_o&fn=external_8"
+    },
+    {
+      "video_id": "1395828918857",
+      "title_raw": "007 - Gooki y Kurama_x264",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 2523,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596548979273&type=32&idx=12&tkn=grHkMwsFD3q8Qsw_DA3-BYibp40&fn=external_8"
+    },
+    {
+      "video_id": "1395830098505",
+      "title_raw": "008 - Hiei, el de los tres ojos_x264",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1643,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596588300873&type=32&idx=13&tkn=lrU8ZJMcStqzPwCg-j-nTLAiCoI&fn=external_8"
+    },
+    {
+      "video_id": "1395829115465",
+      "title_raw": "009 - Inicia la busqueda_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 1588,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596555008585&type=32&idx=7&tkn=EXGLD0aBnQKk35fAxr6nxopsYe0&fn=external_8"
+    },
+    {
+      "video_id": "1395829639753",
+      "title_raw": "010 - Combate en la oscuridad_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 1354,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596574603849&type=32&idx=3&tkn=dFV_FNkQC8Xfs5OrNlTx-xXkj2M&fn=external_8"
+    },
+    {
+      "video_id": "1395830557257",
+      "title_raw": "011 - Una pelea dificil_x264",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 1535,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596598852169&type=32&idx=0&tkn=yzdpNBdCe7rHmM-vdIhxIGayTy8&fn=external_8"
+    },
+    {
+      "video_id": "1395830164041",
+      "title_raw": "012 - Rando aparece, la derrota de Kuwabara_x264",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 1582,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596590463561&type=32&idx=5&tkn=T2uKoE0Y-zd9wMUsTOgjFLNw1No&fn=external_8"
+    },
+    {
+      "video_id": "1395831671369",
+      "title_raw": "013 - La batalla magica de Yusuke y Rando_x264",
+      "duration_raw": "23:00",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 1513,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596631751241&type=32&idx=0&tkn=qAL5s0DiAFFE2Z3d9f5U8IeggOU&fn=external_8"
+    },
+    {
+      "video_id": "1395830295113",
+      "title_raw": "014 - Las cuatro bestias sagradas_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 1486,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596593674825&type=32&idx=12&tkn=S0aeodUKyDU-kYoMZHkG0dmkmSI&fn=external_8"
+    },
+    {
+      "video_id": "1395830884937",
+      "title_raw": "015 - Las cuatro bestias y el desafio_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 1401,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596609862217&type=32&idx=0&tkn=IALksCqcwKZoeBwEdEE3P9MI1jw&fn=external_8"
+    },
+    {
+      "video_id": "1395831999049",
+      "title_raw": "016 - La batalla de Kuwabara_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 1268,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596639943241&type=32&idx=9&tkn=8ooETk9Cyo7XLKI_SaJccwVQKO8&fn=external_8"
+    },
+    {
+      "video_id": "1395831016009",
+      "title_raw": "017 - El grito de guerra de Byakko_x264",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 1135,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596613335625&type=32&idx=12&tkn=lWXbWKLswIlumjzpMUPnGFWfiHA&fn=external_8"
+    },
+    {
+      "video_id": "1395828984393",
+      "title_raw": "018 - La batalla de Hiei_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 9541,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596551207497&type=32&idx=6&tkn=DVPJ7Buy1G_goNbR6P-q9vvG3Vo&fn=external_8"
+    },
+    {
+      "video_id": "1395832064585",
+      "title_raw": "019 - Suzaku, la ultima bestia_x264",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 1165,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596641188425&type=32&idx=2&tkn=EIs1WvW9aO-1dnn6xH8qlut_l1c&fn=external_8"
+    },
+    {
+      "video_id": "1395831802441",
+      "title_raw": "020 - Las tecnicas secretas de Suzaku_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 1053,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596636404297&type=32&idx=6&tkn=IWaTNj1yAG9Sdtx1mecCOtePLjA&fn=external_8"
+    },
+    {
+      "video_id": "1395830753865",
+      "title_raw": "021 - Yusuke contraataca_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 1062,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596605536841&type=32&idx=8&tkn=ixKk-_vt2teW1Ho3DnUvj-6XllI&fn=external_8"
+    },
+    {
+      "video_id": "1395830360649",
+      "title_raw": "022 - La triste Yukina_x264",
+      "duration_raw": "23:39",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 1061,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596594788937&type=32&idx=14&tkn=mnYK69jXBLOX3TkhOh1GL4dI5_E&fn=external_8"
+    },
+    {
+      "video_id": "1395831933513",
+      "title_raw": "023 - Mensajeros de la oscuridad_x264",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 976,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596638763593&type=32&idx=14&tkn=ClTm_uey2pxxfJPYgvFelN7_Ak4&fn=external_8"
+    },
+    {
+      "video_id": "1395829049929",
+      "title_raw": "024 - Los tres demonios_x264",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 862,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596553173577&type=32&idx=9&tkn=Cj8uS1aBTOB4scHTECXi3gaTjko&fn=external_8"
+    },
+    {
+      "video_id": "1395830819401",
+      "title_raw": "025 - Kuwabara y el poder del amor_x264",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 914,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596608092745&type=32&idx=9&tkn=eDrjHA5uMXMZIzAF9kh1vKGjnFM&fn=external_8"
+    },
+    {
+      "video_id": "1395831736905",
+      "title_raw": "026 - El regreso de los hermanos Toguro_x264",
+      "duration_raw": "23:39",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 991,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596634176073&type=32&idx=3&tkn=FwO9owzbaGey4FPt3aftGWjaJEM&fn=external_8"
+    },
+    {
+      "video_id": "1395832130121",
+      "title_raw": "027 - Inicia el concurso de artes marcia_x264",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 1179,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596642302537&type=32&idx=1&tkn=Jp139FWvDmYYY_A_WtciGmzV-Dk&fn=external_8"
+    },
+    {
+      "video_id": "1395831147081",
+      "title_raw": "028 - Empieza la primera batalla_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 1032,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596617661001&type=32&idx=9&tkn=57qUTU_fCysfUoZVkfadK4tGwoc&fn=external_8"
+    },
+    {
+      "video_id": "1395829508681",
+      "title_raw": "029 - Flores de sangre en la arena_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 998,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596568574537&type=32&idx=7&tkn=D688ZiBQtY2ggyVaonE0m5kQVqg&fn=external_8"
+    },
+    {
+      "video_id": "1395830950473",
+      "title_raw": "030 - La tecnica secreta de Hiei_x264",
+      "duration_raw": "22:08",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 1074,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596611304009&type=32&idx=0&tkn=68qUAw_uerYjtbq4dveduxSkJgM&fn=external_8"
+    },
+    {
+      "video_id": "1395831867977",
+      "title_raw": "031 - Shaku y la tecnica Suiken_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 1074,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596637518409&type=32&idx=6&tkn=hMaRfR96mSxCd68u0GWp4Yu_yzI&fn=external_8"
+    },
+    {
+      "video_id": "1395829181001",
+      "title_raw": "032 - Duelo a muerte con cuchillos_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 899,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596557367881&type=32&idx=7&tkn=PngSZwEIqxNvR-sP3OP55VcGl_I&fn=external_8"
+    },
+    {
+      "video_id": "1395831605833",
+      "title_raw": "033 - La batalla del octavo finalista_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 1074,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596630178377&type=32&idx=7&tkn=wgdfO6ltOSP38-sdK-DbtBcJ61U&fn=external_8"
+    },
+    {
+      "video_id": "1395830032969",
+      "title_raw": "034 - Un reducido margen de victoria_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 975,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596586138185&type=32&idx=8&tkn=H4R64JfqL2TksE6_kuNNfj-QnBA&fn=external_8"
+    },
+    {
+      "video_id": "1395830688329",
+      "title_raw": "035 - El bello rostro detras de la masca_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 909,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596603636297&type=32&idx=5&tkn=Y9YP1wncEGm7Ntbp8W301OZ2yVs&fn=external_8"
+    },
+    {
+      "video_id": "1395829836361",
+      "title_raw": "036 - Una ambicion destruida_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 931,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596579191369&type=32&idx=10&tkn=buDeKqP0NGNBurhzXdTrYgA1dLg&fn=external_8"
+    },
+    {
+      "video_id": "1395830426185",
+      "title_raw": "037 - Machoskai_ el equipo de la oscurid_x264",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 927,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596595837513&type=32&idx=5&tkn=GTw089TaUuh6_EoUteFea1NzUy8&fn=external_8"
+    },
+    {
+      "video_id": "1395831409225",
+      "title_raw": "038 - El maquillaje de la muerte_x264",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 877,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596624804425&type=32&idx=13&tkn=uPN4UtgpbGnklSq3Y4fxJxDSzzI&fn=external_8"
+    },
+    {
+      "video_id": "1395830622793",
+      "title_raw": "039 - Venciendo al enemigo_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 922,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596601408073&type=32&idx=7&tkn=mlHjrh3QAU6-SJkvJiz4zoeygho&fn=external_8"
+    },
+    {
+      "video_id": "1395829705289",
+      "title_raw": "040 - Una dificil pelea con el amo del v_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 871,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596575914569&type=32&idx=11&tkn=bxyjnjduvzaeKMrbPVAJ29RurMw&fn=external_8"
+    },
+    {
+      "video_id": "1395829377609",
+      "title_raw": "041 - Reiko-odan_ un giro inesperado_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 766,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596564970057&type=32&idx=12&tkn=2SlPKpCXODiRTDWltQlmrLeFNz4&fn=external_8"
+    },
+    {
+      "video_id": "1395830229577",
+      "title_raw": "042 - La fuerza del amor ayuda a Kuwabar_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 800,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596592167497&type=32&idx=6&tkn=XK4kPolpSEzMf0rN_vwy-XhS7Wk&fn=external_8"
+    },
+    {
+      "video_id": "1395831540297",
+      "title_raw": "043 - El bello rostro de la mascara_x264",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 939,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596627294793&type=32&idx=1&tkn=6A8JSgtzlD54ZoBbPkQ6OSnTPB4&fn=external_8"
+    },
+    {
+      "video_id": "1395829770825",
+      "title_raw": "044 - La prueba final de Genkai_x264",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 44,
+      "views": 915,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596577159753&type=32&idx=0&tkn=aWMzaSgEr2pYiJmQ_zZWYYEtoOk&fn=external_8"
+    },
+    {
+      "video_id": "1395829967433",
+      "title_raw": "045 - Hiei utiliza su Kokuryuha_x264",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 920,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596584761929&type=32&idx=7&tkn=GS7XCVALp3d_EV4tJkz6cvrzcpo&fn=external_8"
+    },
+    {
+      "video_id": "1395829246537",
+      "title_raw": "046 - La transformacion de Kuromomotaro_x264",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 46,
+      "views": 882,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596559858249&type=32&idx=5&tkn=_keRuU7uE8Zq_4q2DHkLmIaHnWk&fn=external_8"
+    },
+    {
+      "video_id": "1395831343689",
+      "title_raw": "047 - El bandido legendario Yohko Kurama_x264",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 47,
+      "views": 833,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596623166025&type=32&idx=10&tkn=GpEva3Rn5Y25a4GCV2CLr6YQTqo&fn=external_8"
+    },
+    {
+      "video_id": "1395829443145",
+      "title_raw": "048 - La capa del camino sin retorno_x264",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 48,
+      "views": 745,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596566542921&type=32&idx=10&tkn=uGRh0_zkRA1CAPzcLqL7l1OdpHc&fn=external_8"
+    },
+    {
+      "video_id": "1395829312073",
+      "title_raw": "049 - Genkai pelea con toda su fuerza_x264",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 49,
+      "views": 764,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596562938441&type=32&idx=3&tkn=5QH7rZTOrO1l-BkBF_p0lG9S8y0&fn=external_8"
+    },
+    {
+      "video_id": "3688751368777",
+      "title_raw": "yuyu hakusho movie blu ray 50 rip_x264",
+      "duration_raw": "1:33:07",
+      "season_number": 1,
+      "episode_number": 50,
+      "views": 3635,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2519512320585&type=37&idx=15&tkn=jE33Dl9SVeXE8hCQn4lpwZv97is&fn=external_8",
+      "quality": "1080p"
+    },
+    {
+      "video_id": "1396200507977",
+      "title_raw": "051 - La sombra de Toguro_x264",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 51,
+      "views": 868,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596679068233&type=32&idx=0&tkn=Acj3E9eKnlKBtEsCwpxa0KNbm6Q&fn=external_8"
+    },
+    {
+      "video_id": "1396199459401",
+      "title_raw": "052 - La muerte de Genkai_x264",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 52,
+      "views": 876,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596647348809&type=32&idx=7&tkn=gsEUtPQTCH9quvd6uLWU4fX9GBU&fn=external_8"
+    },
+    {
+      "video_id": "1396202277449",
+      "title_raw": "053 - Yusuke supera su dolor_x264",
+      "duration_raw": "23:48",
+      "season_number": 1,
+      "episode_number": 53,
+      "views": 876,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596726647369&type=32&idx=4&tkn=dIjskf1BMvjNrh9YFyfXpPmKr3g&fn=external_8"
+    },
+    {
+      "video_id": "1396201556553",
+      "title_raw": "054 - La final ha comenzado_x264",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 54,
+      "views": 872,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596706855497&type=32&idx=8&tkn=Tcx6oeb8GmXFulxBtad27CABeCw&fn=external_8"
+    },
+    {
+      "video_id": "1396201687625",
+      "title_raw": "055 - El zorro ha despertado_x264",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 55,
+      "views": 958,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596709673545&type=32&idx=1&tkn=8oFc3XsnXo2warTD3TFFv225II0&fn=external_8"
+    },
+    {
+      "video_id": "1396200442441",
+      "title_raw": "056 - Kurama ataca_x264",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 56,
+      "views": 868,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596677429833&type=32&idx=2&tkn=Saz5c8urJypXBI2qrGn7U2ck40M&fn=external_8"
+    },
+    {
+      "video_id": "1396202801737",
+      "title_raw": "057 - Bui se quita la armadura_x264",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 57,
+      "views": 846,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596737854025&type=32&idx=6&tkn=CTil82eDYyHvktQPMhAZyHEUDnc&fn=external_8"
+    },
+    {
+      "video_id": "1396202080841",
+      "title_raw": "058 - El ataque del dragon negro_x264",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 58,
+      "views": 840,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596721863241&type=32&idx=10&tkn=P5PiwAyHR05IRnBq7PsR9yOFmsU&fn=external_8"
+    },
+    {
+      "video_id": "1396201818697",
+      "title_raw": "059 - La extrana sombra de Toguro el may_x264",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 59,
+      "views": 799,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596713933385&type=32&idx=12&tkn=9zyh-erT_7qmeWCxs_wBQoF-lw8&fn=external_8"
+    },
+    {
+      "video_id": "1396201425481",
+      "title_raw": "060 - La propuesta de Sakyo_x264",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 60,
+      "views": 857,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596703709769&type=32&idx=8&tkn=8nX8qnOF5mTXq51QAvU3XpUqpjM&fn=external_8"
+    },
+    {
+      "video_id": "1396202342985",
+      "title_raw": "061 - Inicia la pelea de la venganza_x264",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 61,
+      "views": 916,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596728547913&type=32&idx=7&tkn=QqTp1srnOGCWkX88Z5wV8KrPGnI&fn=external_8"
+    },
+    {
+      "video_id": "1396201163337",
+      "title_raw": "062 - Toguro pelea al 100 por ciento_x264",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 62,
+      "views": 971,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596694272585&type=32&idx=1&tkn=xabA0YJ9JE5dyro-Nqlks_aY3AE&fn=external_8"
+    },
+    {
+      "video_id": "1396202015305",
+      "title_raw": "063 - Una triste mision para Yusuke_x264",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 63,
+      "views": 901,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596720683593&type=32&idx=14&tkn=6UeSgOoZiJgn4PqwTIfZD4FWdtc&fn=external_8"
+    },
+    {
+      "video_id": "1396201294409",
+      "title_raw": "064 - La batalla termina_x264",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 64,
+      "views": 935,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596696828489&type=32&idx=12&tkn=jjtZbIC_XHiWwLwIaqW-8vZFljg&fn=external_8"
+    },
+    {
+      "video_id": "1396199590473",
+      "title_raw": "065 - La ambicion desaparece_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 65,
+      "views": 775,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596651608649&type=32&idx=4&tkn=tnPUwmBFQhBP6jXEz-rLrpDzRdY&fn=external_8"
+    },
+    {
+      "video_id": "1396202605129",
+      "title_raw": "066 - El mas grande deseo de Toguro_x264",
+      "duration_raw": "23:43",
+      "season_number": 1,
+      "episode_number": 66,
+      "views": 789,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596732611145&type=32&idx=13&tkn=823h6_aPe0TQgmNEudItf5CxTrY&fn=external_8"
+    },
+    {
+      "video_id": "1396201949769",
+      "title_raw": "067 El inicio de la proxima pelea_x264",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 67,
+      "views": 991,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596718914121&type=32&idx=6&tkn=XVuyLpg50XgSOiDd-UF_f5TV6xw&fn=external_8"
+    },
+    {
+      "video_id": "1396199852617",
+      "title_raw": "068 Las trampas de la casona del terror_x264",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 68,
+      "views": 781,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596660324937&type=32&idx=3&tkn=hOQta4sU1oZc54AbiykMXLoT3Qg&fn=external_8"
+    },
+    {
+      "video_id": "1396202736201",
+      "title_raw": "069 El ingenio de Kurama_x264",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 69,
+      "views": 836,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596735429193&type=32&idx=10&tkn=_epm-150WDXwWORSEYO_Jh44quk&fn=external_8"
+    },
+    {
+      "video_id": "1396200770121",
+      "title_raw": "070 La terrible verdad_ el nuevo misteri_x264",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 70,
+      "views": 746,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596685556297&type=32&idx=3&tkn=gpHtP9XEILowZ0kuVlG20tDc-AI&fn=external_8"
+    },
+    {
+      "video_id": "1396200376905",
+      "title_raw": "071 El terror_ la puerta del mundo espir_x264",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 71,
+      "views": 757,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596675267145&type=32&idx=8&tkn=NhR3m0ET2Q-aeHELzGVlOstaYss&fn=external_8"
+    },
+    {
+      "video_id": "1396200704585",
+      "title_raw": "072 El mensajero del mundo del mal_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 72,
+      "views": 792,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596683917897&type=32&idx=9&tkn=zO9ycs5VWHpEiiLZeikHEWIHjSI&fn=external_8"
+    },
+    {
+      "video_id": "1396201884233",
+      "title_raw": "073 La trampa del doctor al acecho_x264",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 73,
+      "views": 695,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596715965001&type=32&idx=0&tkn=yByN1e86rAJUmzxkfDnEIUftCeg&fn=external_8"
+    },
+    {
+      "video_id": "1396200639049",
+      "title_raw": "074 Un territorio menos_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 74,
+      "views": 700,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596682279497&type=32&idx=13&tkn=Xu7Hli8hqTfmlsgmKehBravCmYs&fn=external_8"
+    },
+    {
+      "video_id": "1396202670665",
+      "title_raw": "075 Marino_ la trampa oculta en la lluvi_x264",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 75,
+      "views": 743,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596734249545&type=32&idx=1&tkn=QAq8pIU6eeyDqZq8VyuZpJlueG8&fn=external_8"
+    },
+    {
+      "video_id": "1396200049225",
+      "title_raw": "076 Kuwabara recupera su poder_x264",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 76,
+      "views": 695,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596667337289&type=32&idx=1&tkn=_ZAacJPMspgKmGDDZ364DT-NANM&fn=external_8"
+    },
+    {
+      "video_id": "1396200114761",
+      "title_raw": "077 El oscuro pasado del ex detective Se_x264",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 77,
+      "views": 754,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596669565513&type=32&idx=1&tkn=IBW64kToP2FArZNomaurLpUMIBs&fn=external_8"
+    },
+    {
+      "video_id": "1396201622089",
+      "title_raw": "078 Buena suerte angel de la noche_x264",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 78,
+      "views": 719,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596708493897&type=32&idx=5&tkn=Yg58Pzyc2WS2D2payMLBE1b0A4Q&fn=external_8"
+    },
+    {
+      "video_id": "1396199787081",
+      "title_raw": "079 Yusuke rescata a Kuwabara_x264",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 79,
+      "views": 704,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596657900105&type=32&idx=14&tkn=h4zDLuKE0xZgQTqJp5ZCCRf_Y9M&fn=external_8"
+    },
+    {
+      "video_id": "1396200245833",
+      "title_raw": "080 El blanco de Hagiri. Marcas de la mu_x264",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 80,
+      "views": 665,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596672449097&type=32&idx=8&tkn=K7X-xyF26mx4F2hbkfq5WegEy3U&fn=external_8"
+    },
+    {
+      "video_id": "1396201359945",
+      "title_raw": "081 El juego de batalla en la cueva_x264",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 81,
+      "views": 665,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596698139209&type=32&idx=1&tkn=PH-u-9f2gkV2sgAhBlJR3ys2Cyk&fn=external_8"
+    },
+    {
+      "video_id": "1396199918153",
+      "title_raw": "082 La gran habilidad del amo del juego_x264",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 82,
+      "views": 696,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596662225481&type=32&idx=0&tkn=m5mc1jVyIjvKvHSjQoH9LgjEMnA&fn=external_8"
+    },
+    {
+      "video_id": "1396201491017",
+      "title_raw": "083 El último recurso la decisión de_x264",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 83,
+      "views": 709,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596705675849&type=32&idx=11&tkn=YfZPirZxmel9u_2mTPE9X6I2kTk&fn=external_8"
+    },
+    {
+      "video_id": "1396202211913",
+      "title_raw": "084 Kurama revela su verdadera identidad_x264",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 84,
+      "views": 766,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596725205577&type=32&idx=3&tkn=XeIfE8elfokCQiQRFWDMcqwzX3U&fn=external_8"
+    },
+    {
+      "video_id": "1396200311369",
+      "title_raw": "085 Los detectives en una pelea fatal_x264",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 85,
+      "views": 811,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596673890889&type=32&idx=1&tkn=sb2pGuvWY8JHNMhWmXEZda41sdI&fn=external_8"
+    },
+    {
+      "video_id": "1396200835657",
+      "title_raw": "086 Yusuke sufre la cruel diferencia_x264",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 86,
+      "views": 752,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596687129161&type=32&idx=14&tkn=Fxb5U-m5E3Xbt69DnW9JWpPVNdo&fn=external_8"
+    },
+    {
+      "video_id": "1396201753161",
+      "title_raw": "087 El arma mortal de Koenma_x264",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 87,
+      "views": 768,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596711836233&type=32&idx=5&tkn=orI0bdDiihmML3onxnCd3GdHmRA&fn=external_8"
+    },
+    {
+      "video_id": "1396202146377",
+      "title_raw": "088 Sensui muestra el seiko ki_x264",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 88,
+      "views": 765,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596723894857&type=32&idx=11&tkn=HL4-uAdMm5FH_85g2EBWzgvfCB0&fn=external_8"
+    },
+    {
+      "video_id": "1396200180297",
+      "title_raw": "089 Un mal presentimiento_x264",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 89,
+      "views": 682,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596670941769&type=32&idx=6&tkn=HLNdel-TqA9W-BH7kAd7b2R5_jU&fn=external_8"
+    },
+    {
+      "video_id": "1396201097801",
+      "title_raw": "090 Cumple los deseos de tu amigo_x264",
+      "duration_raw": "23:48",
+      "season_number": 1,
+      "episode_number": 90,
+      "views": 686,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596692896329&type=32&idx=4&tkn=oB56vKYFnpA38eaX5qKdCI1PU2E&fn=external_8"
+    },
+    {
+      "video_id": "1396200966729",
+      "title_raw": "091 Despertar. Otra batalla_x264",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 91,
+      "views": 800,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596690733641&type=32&idx=2&tkn=Ao9qGjx_fS6M-nxrQEIq1oNbpz4&fn=external_8"
+    },
+    {
+      "video_id": "1396202408521",
+      "title_raw": "092 La gran batalla. La prueba del Mazok_x264",
+      "duration_raw": "23:45",
+      "season_number": 1,
+      "episode_number": 92,
+      "views": 709,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596730972745&type=32&idx=2&tkn=R8tXYBgA2Gnh70rc9mMAhk3oV1g&fn=external_8"
+    },
+    {
+      "video_id": "1396201032265",
+      "title_raw": "093 La pelea final_x264",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 93,
+      "views": 831,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596691716681&type=32&idx=10&tkn=5yV4yEKQMzHbKDnURpECiQAJwG0&fn=external_8"
+    },
+    {
+      "video_id": "1396199656009",
+      "title_raw": "094 El epí­logo_x264",
+      "duration_raw": "23:48",
+      "season_number": 1,
+      "episode_number": 94,
+      "views": 914,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596653181513&type=32&idx=6&tkn=F6NVinOjbuSnD5Ni043tkQ_PDUA&fn=external_8"
+    },
+    {
+      "video_id": "1396199721545",
+      "title_raw": "095 El destino de Yusuke_x264",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 95,
+      "views": 713,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596655606345&type=32&idx=1&tkn=zjFI7tUrdf1dUCkPGTfHisfdVpI&fn=external_8"
+    },
+    {
+      "video_id": "1396199983689",
+      "title_raw": "096 Los visitantes de la oscuridad_x264",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 96,
+      "views": 744,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596664715849&type=32&idx=7&tkn=nK540gBVjf0erQ3z0VNmNCt2YGY&fn=external_8"
+    },
+    {
+      "video_id": "1396200901193",
+      "title_raw": "097 Adios La despedida de todos_x264",
+      "duration_raw": "23:48",
+      "season_number": 1,
+      "episode_number": 97,
+      "views": 853,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596688308809&type=32&idx=7&tkn=Z7XwuciPUUgIfakoFWd6yP-mamY&fn=external_8"
+    },
+    {
+      "video_id": "1396201228873",
+      "title_raw": "098 El encuentro con mi padre_x264",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 98,
+      "views": 696,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596695190089&type=32&idx=8&tkn=9nG7vLZvnNKy30NMp417OTA8YcM&fn=external_8"
+    },
+    {
+      "video_id": "1396199524937",
+      "title_raw": "099 El nacimiento_ recuerdo imborrable_x264",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 99,
+      "views": 805,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596649642569&type=32&idx=6&tkn=q0tJ7wQFRM9rfkS8GbVGAVKjVGA&fn=external_8"
+    },
+    {
+      "video_id": "1396200573513",
+      "title_raw": "100 Revelando el secreto del Jagan_x264",
+      "duration_raw": "23:48",
+      "season_number": 1,
+      "episode_number": 100,
+      "views": 693,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596680116809&type=32&idx=10&tkn=MG2mLG9PkIO3wFTr_OcNCUZeuJc&fn=external_8"
+    },
+    {
+      "video_id": "1397821606473",
+      "title_raw": "101 Los bandidos del mundo del mal_x264",
+      "duration_raw": "23:43",
+      "season_number": 1,
+      "episode_number": 101,
+      "views": 802,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596785629769&type=32&idx=14&tkn=u6WBNKaLnZo_pqEp0MAsHHex8Pw&fn=external_8"
+    },
+    {
+      "video_id": "1397821409865",
+      "title_raw": "102 La transformaciÃ³n de Yoko_x264",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 102,
+      "views": 692,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596778879561&type=32&idx=8&tkn=Z37M8y_wm39pJQB7W_6ewpCY8qs&fn=external_8"
+    },
+    {
+      "video_id": "1397821147721",
+      "title_raw": "103 Laúltima voluntad de mi padre_x264",
+      "duration_raw": "23:48",
+      "season_number": 1,
+      "episode_number": 103,
+      "views": 695,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596764265033&type=32&idx=4&tkn=u9OnmZhI_GcS-EWUC1VTZvMZqVI&fn=external_8"
+    },
+    {
+      "video_id": "1397821475401",
+      "title_raw": "104 Mi propuesta cambia el mundo del mal_x264",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 104,
+      "views": 683,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596780911177&type=32&idx=6&tkn=E14JE0PJXnXnNvbDDY95fcWru6k&fn=external_8"
+    },
+    {
+      "video_id": "1397821016649",
+      "title_raw": "105 Inician las eliminatorias del torneo_x264",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 105,
+      "views": 705,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596760726089&type=32&idx=6&tkn=fZQFdUrR4Bo5icFED7EglJEO73k&fn=external_8"
+    },
+    {
+      "video_id": "1397821672009",
+      "title_raw": "106 La batalla entre padre e hijo_x264",
+      "duration_raw": "23:47",
+      "season_number": 1,
+      "episode_number": 106,
+      "views": 748,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596787268169&type=32&idx=13&tkn=dEMr01DizguHzhaNYmzXeEILsDw&fn=external_8"
+    },
+    {
+      "video_id": "1397821213257",
+      "title_raw": "107 - El sueno de cada peleado_x264",
+      "duration_raw": "23:43",
+      "season_number": 1,
+      "episode_number": 107,
+      "views": 833,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596767083081&type=32&idx=1&tkn=uLBfb3P0Km-kQD43rRK93awY2KM&fn=external_8"
+    },
+    {
+      "video_id": "1397821540937",
+      "title_raw": "108 Kurama Adiós al pasado_x264",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 108,
+      "views": 740,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596783729225&type=32&idx=13&tkn=NGz5_ak6nXOsT0MAz-9dwR0hBAY&fn=external_8"
+    },
+    {
+      "video_id": "1397821737545",
+      "title_raw": "109 Pelea a muerte Hiei contra Mokuro_x264",
+      "duration_raw": "23:47",
+      "season_number": 1,
+      "episode_number": 109,
+      "views": 908,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596789955145&type=32&idx=3&tkn=4I76ei0I17y_DZyzX5WnI-4pL7I&fn=external_8"
+    },
+    {
+      "video_id": "1397821344329",
+      "title_raw": "110 - Mi poder es todo lo que tengo_x264",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 110,
+      "views": 716,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596771605065&type=32&idx=12&tkn=yndyVAqHoJBwfEQRPSt-b1b_h3A&fn=external_8"
+    },
+    {
+      "video_id": "1397821082185",
+      "title_raw": "111 - El final despues de la batalla_x264",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 111,
+      "views": 807,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596762298953&type=32&idx=13&tkn=rax2rYtljS5AHYRRyrZk_lpuHIg&fn=external_8"
+    },
+    {
+      "video_id": "1397821278793",
+      "title_raw": "112 - Por siempre YuYu Hakusho_x264",
+      "duration_raw": "23:09",
+      "season_number": 1,
+      "episode_number": 112,
+      "views": 17150,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=596769835593&type=32&idx=0&tkn=EWATcZEDh-S5Nvup2HWH8Z4cSvY&fn=external_8"
+    }
+  ]
+}

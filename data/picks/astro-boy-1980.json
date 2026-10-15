@@ -1,0 +1,484 @@
+{
+  "title": "Astro Boy (1980)",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c3015497",
+  "year": "1980",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "360p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Ciencia Ficción",
+  "videos": [
+    {
+      "video_id": "1738553494089",
+      "title_raw": "[1980]AstBoy_001",
+      "duration_raw": "24:51",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 14177,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10109456288462&type=32&idx=14&tkn=tmUKjmctwyUzWIxPolSEN4YO32o&fn=external_8"
+    },
+    {
+      "video_id": "1738554214985",
+      "title_raw": "[1980]AstBoy_002",
+      "duration_raw": "23:18",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 2665,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10109476801230&type=32&idx=2&tkn=toKPpncZohe4UsqHRvKlYCXg1O0&fn=external_8"
+    },
+    {
+      "video_id": "1738553297481",
+      "title_raw": "[1980]AstBoy_003",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 4267,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10109518547662&type=32&idx=7&tkn=PWzqe7GSpENH9K-EIwmm3x-Y01U&fn=external_8"
+    },
+    {
+      "video_id": "1738554018377",
+      "title_raw": "[1980]AstBoy_004",
+      "duration_raw": "23:00",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1323,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10109662923470&type=32&idx=12&tkn=A6sQJsUX7NLWvWHbEOdv8wg2nkg&fn=external_8"
+    },
+    {
+      "video_id": "1738553756233",
+      "title_raw": "[1980]AstBoy_005",
+      "duration_raw": "23:37",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1183,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10109727083214&type=32&idx=3&tkn=X5H3pMHLbFfI00YFBpcwNEziI_8&fn=external_8"
+    },
+    {
+      "video_id": "1738556312137",
+      "title_raw": "[1980]AstBoy_006",
+      "duration_raw": "23:43",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 828,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10109540633294&type=32&idx=13&tkn=Of_Sjgky-KiXVB38fvwZZ3cIlyM&fn=external_8"
+    },
+    {
+      "video_id": "1738553690697",
+      "title_raw": "[1980]AstBoy_007",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 809,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10109496199886&type=32&idx=4&tkn=3krWQJHS_gkEaxYZj7QUSHmfUs4&fn=external_8"
+    },
+    {
+      "video_id": "1738553428553",
+      "title_raw": "[1980]AstBoy_008",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 707,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10109705784014&type=32&idx=12&tkn=B0msTj6CVqw3mVrwd430Kd6yRSY&fn=external_8"
+    },
+    {
+      "video_id": "1738556049993",
+      "title_raw": "[1980]AstBoy_009",
+      "duration_raw": "23:43",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 648,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10109681142478&type=32&idx=8&tkn=BkScwBXBL4i4QKSGc0kV4Mar8aU&fn=external_8"
+    },
+    {
+      "video_id": "1738556115529",
+      "title_raw": "[1980]AstBoy_010",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 665,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10109621308110&type=32&idx=5&tkn=7MwfxqhTRU1fhKIUSG54Bg0pbII&fn=external_8"
+    },
+    {
+      "video_id": "1738554608201",
+      "title_raw": "[1980]AstBoy_011",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 500,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10109641034446&type=32&idx=11&tkn=sS7i51qMX0G74xpPWGir8gmaG1s&fn=external_8"
+    },
+    {
+      "video_id": "1738556377673",
+      "title_raw": "[1980]AstBoy_012",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 560,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10109563767502&type=32&idx=13&tkn=RjpEiwVarP_yUWhfoj7m1E01eOw&fn=external_8"
+    },
+    {
+      "video_id": "1738554477129",
+      "title_raw": "[1980]AstBoy_013",
+      "duration_raw": "22:30",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 556,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10109582379726&type=32&idx=3&tkn=gB7lKdAd-nxHF_kqncNWYwVUBS8&fn=external_8"
+    },
+    {
+      "video_id": "1738553363017",
+      "title_raw": "[1980]AstBoy_014",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 486,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10109602499278&type=32&idx=13&tkn=97kb-nDBTnbmF_BCBO8dnDsP-Xw&fn=external_8"
+    },
+    {
+      "video_id": "1738556246601",
+      "title_raw": "[1980]AstBoy_015",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 488,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10109439183566&type=32&idx=1&tkn=T1Ys-oWhSuQfAGptFqPgWegq_5g&fn=external_8"
+    },
+    {
+      "video_id": "1738555656777",
+      "title_raw": "[1980]AstBoy_016",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 543,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10109806250702&type=32&idx=2&tkn=m8-gfvH2vfLljT_3SbB22nfgoXo&fn=external_8"
+    },
+    {
+      "video_id": "1738554346057",
+      "title_raw": "[1980]AstBoy_017",
+      "duration_raw": "23:43",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 439,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2486775319246&type=32&idx=8&tkn=qlD3eezAvcP7yJw5STjop844fz8&fn=external_8"
+    },
+    {
+      "video_id": "1738554870345",
+      "title_raw": "[1980]AstBoy_018",
+      "duration_raw": "23:38",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 387,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10110040541902&type=32&idx=6&tkn=Qn9zWdYfsvImyRau1LFfqTGFn_I&fn=external_8"
+    },
+    {
+      "video_id": "1738555132489",
+      "title_raw": "[1980]AstBoy_019",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 397,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10109828795086&type=32&idx=11&tkn=vAvO0oee_PdBENKe1lQiUeTEZyc&fn=external_8"
+    },
+    {
+      "video_id": "1738556705353",
+      "title_raw": "[1980]AstBoy_020",
+      "duration_raw": "23:43",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 394,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10110021929678&type=32&idx=11&tkn=ovJ_qFoFf6_172E5vWJmBaY5wWY&fn=external_8"
+    },
+    {
+      "video_id": "1738555198025",
+      "title_raw": "[1980]AstBoy_021",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 1062,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10109873162958&type=32&idx=2&tkn=ulVVoF4jPI09fX7SYnMSPZUYscE&fn=external_8"
+    },
+    {
+      "video_id": "1738555853385",
+      "title_raw": "[1980]AstBoy_022",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 394,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10109938174670&type=32&idx=15&tkn=jK2_dEuk55rTA_Gy25sRAooeZvY&fn=external_8"
+    },
+    {
+      "video_id": "1738554673737",
+      "title_raw": "[1980]AstBoy_023",
+      "duration_raw": "23:43",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 379,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10109980117710&type=32&idx=6&tkn=4ZVO2pMuXGhavNqiPhJaz8J4mdQ&fn=external_8"
+    },
+    {
+      "video_id": "1738554083913",
+      "title_raw": "[1980]AstBoy_024",
+      "duration_raw": "23:22",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 461,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10109893806798&type=32&idx=10&tkn=Y2ueWBJGz71ixIga5SeyVkPT0J0&fn=external_8"
+    },
+    {
+      "video_id": "1738555591241",
+      "title_raw": "[1980]AstBoy_025",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 391,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10110001810126&type=32&idx=8&tkn=Cdf9mgjbVXcjrZ3HSQvXanHd_gU&fn=external_8"
+    },
+    {
+      "video_id": "1738556574281",
+      "title_raw": "[1980]AstBoy_026",
+      "duration_raw": "23:27",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 382,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10109765487310&type=32&idx=15&tkn=_BEX_S0Umno486d1Bk_WmSZOVb8&fn=external_8"
+    },
+    {
+      "video_id": "1738555460169",
+      "title_raw": "[1980]AstBoy_027",
+      "duration_raw": "22:35",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 382,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10109747530446&type=32&idx=4&tkn=vE1-9evOOE2sis75CVA1nUmwam8&fn=external_8"
+    },
+    {
+      "video_id": "1738556639817",
+      "title_raw": "[1980]AstBoy_028",
+      "duration_raw": "23:37",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 391,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10109849832142&type=32&idx=8&tkn=bjHljkcnwjtTnDh3_HTO8_1qMzA&fn=external_8"
+    },
+    {
+      "video_id": "1738553952841",
+      "title_raw": "[1980]AstBoy_029",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 380,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10109960391374&type=32&idx=11&tkn=NOKhOoZvJG4yzCO41ACiLwKMjQA&fn=external_8"
+    },
+    {
+      "video_id": "1738554280521",
+      "title_raw": "[1980]AstBoy_030",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 370,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10109916547790&type=32&idx=4&tkn=d7osE56HencpgczQtMjzcEx6yTA&fn=external_8"
+    },
+    {
+      "video_id": "1738555001417",
+      "title_raw": "[1980]AstBoy_031",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 382,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10110059547342&type=32&idx=15&tkn=VjyZ_L4qUc0e8wGeRhxFRbdAo0A&fn=external_8"
+    },
+    {
+      "video_id": "1738555787849",
+      "title_raw": "[1980]AstBoy_032",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 375,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10110119578318&type=32&idx=8&tkn=GAdcDTvVcGeHb2c4lOggICxKSts&fn=external_8"
+    },
+    {
+      "video_id": "1738555066953",
+      "title_raw": "[1980]AstBoy_033",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 389,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10110099065550&type=32&idx=12&tkn=2zzPKC9ZJR4rDa3Wqvxe8tr38jY&fn=external_8"
+    },
+    {
+      "video_id": "1738555329097",
+      "title_raw": "[1980]AstBoy_034",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 375,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10110340041422&type=32&idx=9&tkn=8OXaaHtY9G_d9XyL6AJPZKZzHrw&fn=external_8"
+    },
+    {
+      "video_id": "1738553559625",
+      "title_raw": "[1980]AstBoy_035",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 362,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10110077897422&type=32&idx=2&tkn=I8VIUsQNUGSnUX-7X9y6EXevkVw&fn=external_8"
+    },
+    {
+      "video_id": "1738555525705",
+      "title_raw": "[1980]AstBoy_036",
+      "duration_raw": "23:43",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 406,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10110317103822&type=32&idx=5&tkn=CC8GUzObNRTGdKhDIcopip-H2uM&fn=external_8"
+    },
+    {
+      "video_id": "1738553821769",
+      "title_raw": "[1980]AstBoy_037",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 376,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10110363110094&type=32&idx=7&tkn=UfLkKV9YgH5rk0pQjHSUAGgLRhk&fn=external_8"
+    },
+    {
+      "video_id": "1738554411593",
+      "title_raw": "[1980]AstBoy_038",
+      "duration_raw": "23:09",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 371,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10110139566798&type=32&idx=11&tkn=wMYm3HV9dwOJjjJLqr_bV_lYjDk&fn=external_8"
+    },
+    {
+      "video_id": "1738555984457",
+      "title_raw": "[1980]AstBoy_039",
+      "duration_raw": "23:43",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 358,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10110294231758&type=32&idx=14&tkn=EQq93kbyzNUt2u-WL_bIUDILx18&fn=external_8"
+    },
+    {
+      "video_id": "1738553887305",
+      "title_raw": "[1980]AstBoy_040",
+      "duration_raw": "22:53",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 1335,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10110159424206&type=32&idx=10&tkn=nVxSJe9HNzf9QGdOhmPDEb9XNG0&fn=external_8"
+    },
+    {
+      "video_id": "1738556508745",
+      "title_raw": "[1980]AstBoy_041",
+      "duration_raw": "23:18",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 361,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10110275685070&type=32&idx=12&tkn=yCYKG4-9Ux7TQtdhySidEcnd_UM&fn=external_8"
+    },
+    {
+      "video_id": "1738555263561",
+      "title_raw": "[1980]AstBoy_042",
+      "duration_raw": "23:43",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 356,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10110185245390&type=32&idx=3&tkn=W9Dz4j8DjGzTAdQzDsysZCYFYnc&fn=external_8"
+    },
+    {
+      "video_id": "1738556770889",
+      "title_raw": "[1980]AstBoy_043",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 375,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10110214605518&type=32&idx=11&tkn=R44JDFanqHRLslxB-HtPxY2n8mw&fn=external_8"
+    },
+    {
+      "video_id": "1738555722313",
+      "title_raw": "[1980]AstBoy_044",
+      "duration_raw": "23:22",
+      "season_number": 1,
+      "episode_number": 44,
+      "views": 358,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10110255172302&type=32&idx=1&tkn=t4MXYEB2IU4yl7toLQw9_KYf9p8&fn=external_8"
+    },
+    {
+      "video_id": "1738555394633",
+      "title_raw": "[1980]AstBoy_045",
+      "duration_raw": "23:33",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 386,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10110233021134&type=32&idx=11&tkn=Qk9RVcHB4GDIEmCkBN7RfaM_Abs&fn=external_8"
+    },
+    {
+      "video_id": "1738554739273",
+      "title_raw": "[1980]AstBoy_046",
+      "duration_raw": "23:20",
+      "season_number": 1,
+      "episode_number": 46,
+      "views": 354,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10110384540366&type=32&idx=9&tkn=MiDummlUMvNl_rFX9k3CjIlHhV8&fn=external_8"
+    },
+    {
+      "video_id": "1738553625161",
+      "title_raw": "[1980]AstBoy_047",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 47,
+      "views": 348,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10110408329934&type=32&idx=7&tkn=Y97iuUHWv9C2beOkR57F15NmW_A&fn=external_8"
+    },
+    {
+      "video_id": "1738554542665",
+      "title_raw": "[1980]AstBoy_048",
+      "duration_raw": "23:30",
+      "season_number": 1,
+      "episode_number": 48,
+      "views": 392,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10110429694670&type=32&idx=7&tkn=6cxckeaqSwkHCf6ibXPQH6-HUoM&fn=external_8"
+    },
+    {
+      "video_id": "1738554149449",
+      "title_raw": "[1980]AstBoy_049",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 49,
+      "views": 377,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10110505257678&type=32&idx=3&tkn=rfSPyiWCKRq1xDPINN_AcF1Z7VM&fn=external_8"
+    },
+    {
+      "video_id": "1738555918921",
+      "title_raw": "[1980]AstBoy_050",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 50,
+      "views": 530,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10110448700110&type=32&idx=2&tkn=FASKyAc-4s4GtsI9fQJwCqULA6E&fn=external_8"
+    },
+    {
+      "video_id": "1738611624521",
+      "title_raw": "[1980]AstBoy_051",
+      "duration_raw": "23:19",
+      "season_number": 1,
+      "episode_number": 51,
+      "views": 620,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10110527474382&type=32&idx=6&tkn=tIDLAN35iaFQqHcBInuKZvRRv5c&fn=external_8"
+    },
+    {
+      "video_id": "1738611690057",
+      "title_raw": "[1980]AstBoy_052",
+      "duration_raw": "23:43",
+      "season_number": 1,
+      "episode_number": 52,
+      "views": 1146,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=10110481926862&type=32&idx=12&tkn=c63FO7qIEjbd92Ct_nHVlvWo4qc&fn=external_8"
+    }
+  ]
+}

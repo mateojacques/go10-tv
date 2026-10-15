@@ -1,0 +1,23 @@
+{
+  "title": "Ritmo y Melodía",
+  "type": "movie",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial album c2263881 (50 Clasicos de Disney)",
+  "year": "1948",
+  "studio": "Disney",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Clásicos",
+  "videos": [
+    {
+      "video_id": "1417892989513",
+      "title_raw": "08 - Ritmo y melodia",
+      "duration_raw": "1:15:07",
+      "views": 1835,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7372322966149&type=32&idx=6&tkn=Pi3OpFqBWj9A7ZJ9hkkcHsLQFCg&fn=external_8"
+    }
+  ]
+}

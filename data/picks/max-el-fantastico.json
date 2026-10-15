@@ -1,0 +1,250 @@
+{
+  "title": "Max, el Fantástico",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c5087817",
+  "year": "1999",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "360p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "2607262665289",
+      "title_raw": "[www.RetroCanal.Net]-MAX-01x01",
+      "duration_raw": "20:54",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 1815,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6986870622743&type=32&idx=11&tkn=W0jkI4zaKKIeE3TaIJDfwPOsV_s&fn=external_8"
+    },
+    {
+      "video_id": "2607263386185",
+      "title_raw": "[www.RetroCanal.Net]-MAX-01x02",
+      "duration_raw": "21:07",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 398,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6986875603479&type=32&idx=13&tkn=_epqhlhvaBGm7UlSjQ0VwuTknNY&fn=external_8"
+    },
+    {
+      "video_id": "2607263713865",
+      "title_raw": "[www.RetroCanal.Net]-MAX-01x03",
+      "duration_raw": "20:59",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 332,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6986879797783&type=32&idx=10&tkn=Ean98DbiIOqEBJ47fNTDq0A9s8w&fn=external_8"
+    },
+    {
+      "video_id": "2607264107081",
+      "title_raw": "[www.RetroCanal.Net]-MAX-01x04",
+      "duration_raw": "20:52",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 236,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6986906208791&type=32&idx=8&tkn=sOzWE31zZdD1SQJketaVL-l8QYM&fn=external_8"
+    },
+    {
+      "video_id": "2607262927433",
+      "title_raw": "[www.RetroCanal.Net]-MAX-01x05",
+      "duration_raw": "20:52",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 171,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6986883926551&type=32&idx=11&tkn=zWJ_LAQUSz3v7OxsIvMpsveRWj0&fn=external_8"
+    },
+    {
+      "video_id": "2607264238153",
+      "title_raw": "[www.RetroCanal.Net]-MAX-01x06",
+      "duration_raw": "20:53",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 176,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6986889693719&type=32&idx=1&tkn=afWRTwJun5aAiiQM9qzYkw8UYvc&fn=external_8"
+    },
+    {
+      "video_id": "2607263124041",
+      "title_raw": "[www.RetroCanal.Net]-MAX-01x07",
+      "duration_raw": "21:09",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 153,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6986902669847&type=32&idx=6&tkn=NBbbfHPL8v8jaXFE_hArXQ7FaFA&fn=external_8"
+    },
+    {
+      "video_id": "2607263582793",
+      "title_raw": "[www.RetroCanal.Net]-MAX-01x08",
+      "duration_raw": "20:59",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 211,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6986894346775&type=32&idx=2&tkn=RCSb_A4zBg6_xy-0n2nd-8Cn7xY&fn=external_8"
+    },
+    {
+      "video_id": "2607264041545",
+      "title_raw": "[www.RetroCanal.Net]-MAX-01x09",
+      "duration_raw": "21:03",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 149,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6986898147863&type=32&idx=14&tkn=6RiQUZF2yDdNa6ufWyozBG9YEaM&fn=external_8"
+    },
+    {
+      "video_id": "2607262992969",
+      "title_raw": "[www.RetroCanal.Net]-MAX-01x10",
+      "duration_raw": "20:59",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 315,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6986822126103&type=32&idx=11&tkn=YoTAcVVmRswzMuB7U6Afj-94Ws4&fn=external_8"
+    },
+    {
+      "video_id": "2607264172617",
+      "title_raw": "[www.RetroCanal.Net]-MAX-01x11",
+      "duration_raw": "20:59",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 127,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6986845587991&type=32&idx=14&tkn=WW9x7ycBYg5t5MFHU-DhROTqWNM&fn=external_8"
+    },
+    {
+      "video_id": "2607263910473",
+      "title_raw": "[www.RetroCanal.Net]-MAX-01x12",
+      "duration_raw": "21:01",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 139,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6986851551767&type=32&idx=7&tkn=ljD0eJ-MohXEAeeFIoFzOFpTZEg&fn=external_8"
+    },
+    {
+      "video_id": "2607263648329",
+      "title_raw": "[www.RetroCanal.Net]-MAX-01x13",
+      "duration_raw": "20:54",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 107,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6986910206487&type=32&idx=4&tkn=EL8HZz5EGddn8bAzZqo6Yp61DyA&fn=external_8"
+    },
+    {
+      "video_id": "2607262796361",
+      "title_raw": "[www.RetroCanal.Net]-MAX-02x01",
+      "duration_raw": "21:01",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 124,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6986858498583&type=32&idx=2&tkn=7N_fh6V-OSpHh6Hv88T83_PL9aU&fn=external_8"
+    },
+    {
+      "video_id": "2607262730825",
+      "title_raw": "[www.RetroCanal.Net]-MAX-02x02",
+      "duration_raw": "21:02",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 208,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6986866100759&type=32&idx=4&tkn=ObdmCzlpMiiklbI8T4_84bRsTbw&fn=external_8"
+    },
+    {
+      "video_id": "2607263779401",
+      "title_raw": "[www.RetroCanal.Net]-MAX-02x03",
+      "duration_raw": "20:56",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 122,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6986916432407&type=32&idx=14&tkn=3-O-uu837LdxI_8aLVbLFGrNdZ0&fn=external_8"
+    },
+    {
+      "video_id": "2607263255113",
+      "title_raw": "[www.RetroCanal.Net]-MAX-02x04",
+      "duration_raw": "21:03",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 86,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6986922265111&type=32&idx=6&tkn=U15cxGv5MJKrQ6bfz0PPMOgO9sI&fn=external_8"
+    },
+    {
+      "video_id": "2607262861897",
+      "title_raw": "[www.RetroCanal.Net]-MAX-02x05",
+      "duration_raw": "21:01",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 81,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6986966895127&type=32&idx=9&tkn=Ix4PIEWbqwAiiSy74328n-GMPRg&fn=external_8"
+    },
+    {
+      "video_id": "2607263058505",
+      "title_raw": "[www.RetroCanal.Net]-MAX-02x06",
+      "duration_raw": "20:53",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 169,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6986935765527&type=32&idx=10&tkn=moTX_IOHSrU2T-6qLPNM3OGadSs&fn=external_8"
+    },
+    {
+      "video_id": "2607264369225",
+      "title_raw": "[www.RetroCanal.Net]-MAX-02x07",
+      "duration_raw": "21:05",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 158,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6986951559703&type=32&idx=6&tkn=8Xedx8DNkTcOcVXwhbGEX96ALy0&fn=external_8"
+    },
+    {
+      "video_id": "2607263976009",
+      "title_raw": "[www.RetroCanal.Net]-MAX-02x08",
+      "duration_raw": "20:55",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 95,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6986927245847&type=32&idx=8&tkn=zxl8sZwYckjIhGuLjDe9IlfkMLk&fn=external_8"
+    },
+    {
+      "video_id": "2607263517257",
+      "title_raw": "[www.RetroCanal.Net]-MAX-02x09",
+      "duration_raw": "20:51",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 109,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6986942122519&type=32&idx=1&tkn=zYFSr84RJf_kBPx4UrpEqWqn4QY&fn=external_8"
+    },
+    {
+      "video_id": "2607263451721",
+      "title_raw": "[www.RetroCanal.Net]-MAX-02x10",
+      "duration_raw": "20:56",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 87,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6986958899735&type=32&idx=15&tkn=YhH3LMShEXLhrvN0uVdi5UkL_xg&fn=external_8"
+    },
+    {
+      "video_id": "2607264434761",
+      "title_raw": "[www.RetroCanal.Net]-MAX-02x11",
+      "duration_raw": "21:05",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 132,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6986971089431&type=32&idx=7&tkn=fhhI834DaBJM7SrPgU-Xt1jp1fc&fn=external_8"
+    },
+    {
+      "video_id": "2607263320649",
+      "title_raw": "[www.RetroCanal.Net]-MAX-02x12",
+      "duration_raw": "21:01",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 80,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6986978036247&type=32&idx=3&tkn=XuWOtBKvaRgL08LXrKxVOIm0RNQ&fn=external_8"
+    },
+    {
+      "video_id": "2607263189577",
+      "title_raw": "[www.RetroCanal.Net]-MAX-02x13",
+      "duration_raw": "20:54",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 119,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6986982820375&type=32&idx=4&tkn=BRLPIGtMbdFnCDoZYBVoYXApvl4&fn=external_8"
+    }
+  ]
+}

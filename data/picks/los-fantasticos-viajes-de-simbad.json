@@ -1,0 +1,250 @@
+{
+  "title": "Los Fantásticos Viajes de Simbad",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c5856329",
+  "year": "1975",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "360p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Aventura",
+  "videos": [
+    {
+      "video_id": "3299944434249",
+      "title_raw": "01 Symbad - Curse of the Paraoh's Belt",
+      "duration_raw": "23:22",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 2713,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048730532425&type=32&idx=3&tkn=zpBgbaPKhRuHtN9rHr0Fpo4XUcQ&fn=external_8"
+    },
+    {
+      "video_id": "3299945286217",
+      "title_raw": "02 Symbad - Hakeem and the Flying Carpet",
+      "duration_raw": "23:14",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 747,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048814811721&type=32&idx=12&tkn=0GJalcIJ-Jv7wf3-ZLvFFDUSuBg&fn=external_8"
+    },
+    {
+      "video_id": "3299944696393",
+      "title_raw": "03 Symbad - Isle of the Amazons",
+      "duration_raw": "23:17",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 662,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048758057545&type=32&idx=10&tkn=vabcKC3920vFw7xApOez25cNcFQ&fn=external_8"
+    },
+    {
+      "video_id": "3299944499785",
+      "title_raw": "04 Symbad - Land of the Tiny Warriors",
+      "duration_raw": "23:28",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 542,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048740035145&type=32&idx=4&tkn=Dl6-0XtqD58nxBwBe2JER7SD7Kw&fn=external_8"
+    },
+    {
+      "video_id": "3299944761929",
+      "title_raw": "05 Symbad - The Cloak of Changing",
+      "duration_raw": "17:49",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 392,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048764742217&type=32&idx=10&tkn=LsvysqxcE91ouBgrbJFCmLKUWH0&fn=external_8"
+    },
+    {
+      "video_id": "3299945155145",
+      "title_raw": "06 Symbad - The Curse of the Gorgon",
+      "duration_raw": "23:23",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 441,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048803342921&type=32&idx=7&tkn=giIY0sttjNYtVCcRrXw3Fo3ePZk&fn=external_8"
+    },
+    {
+      "video_id": "3299945941577",
+      "title_raw": "07 Symbad - The Deadly Fountain of Youth",
+      "duration_raw": "23:15",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 411,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048890047049&type=32&idx=2&tkn=QDeE2cFWfjQhi9OTKCdRYXPASCw&fn=external_8"
+    },
+    {
+      "video_id": "3299945548361",
+      "title_raw": "08 Symbad - The Flight of the Unicorn",
+      "duration_raw": "23:12",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 517,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048847710793&type=32&idx=15&tkn=LeasJhcI5xO0kL2LieSu5z9A7Bc&fn=external_8"
+    },
+    {
+      "video_id": "3299945351753",
+      "title_raw": "09 Symbad - The Imp of Evil",
+      "duration_raw": "21:50",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 464,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048821955145&type=32&idx=3&tkn=ukXQWuSDMuzTEtSbQeCaX0pk6SQ&fn=external_8"
+    },
+    {
+      "video_id": "3299944827465",
+      "title_raw": "10 Symbad - The Island of Horrors",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 367,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048771689033&type=32&idx=4&tkn=ccS5KlQeK5uwJBbNcyXHLfPfoN8&fn=external_8"
+    },
+    {
+      "video_id": "3299945089609",
+      "title_raw": "11 Symbad - The Land of the Giant Roc",
+      "duration_raw": "23:17",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 389,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048796527177&type=32&idx=6&tkn=i7W8tYhHZn7o4x9WP7N5EzBk0dA&fn=external_8"
+    },
+    {
+      "video_id": "3299945220681",
+      "title_raw": "12 Symbad - The Leviathan and the Maiden",
+      "duration_raw": "23:29",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 380,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048808520265&type=32&idx=9&tkn=Kq_92WRoe8_dU3PSFUqvWokSkOA&fn=external_8"
+    },
+    {
+      "video_id": "3299944565321",
+      "title_raw": "13 Symbad - The Meteor of Destruction",
+      "duration_raw": "23:16",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 318,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048747309641&type=32&idx=8&tkn=E9hzMgwtKHDSUb41qzk-x2Eq8No&fn=external_8"
+    },
+    {
+      "video_id": "3299946007113",
+      "title_raw": "14 Symbad - The Mystery of Elephant Island",
+      "duration_raw": "20:11",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 459,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048898042441&type=32&idx=4&tkn=Q9P6xVXLaCAWM6DC8t-0opRrwDg&fn=external_8"
+    },
+    {
+      "video_id": "3299945024073",
+      "title_raw": "15 Symbad - The Ruby Eye of the Cyclops",
+      "duration_raw": "23:22",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 343,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048788793929&type=32&idx=9&tkn=vwSZeiRf9iAyWB84yRy__cpQ_5U&fn=external_8"
+    },
+    {
+      "video_id": "3299946138185",
+      "title_raw": "16 Symbad - The Sandpits of Kabool",
+      "duration_raw": "23:23",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 387,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048915278409&type=32&idx=10&tkn=Bbo-AdxpBloGae6KC8MHyBgLvPI&fn=external_8"
+    },
+    {
+      "video_id": "3299945417289",
+      "title_raw": "17 Symbad - The Tale of the Golden Touch",
+      "duration_raw": "23:13",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 317,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048830605897&type=32&idx=6&tkn=2RIB75YsF2FnsKcqfZhq7ZudKVo&fn=external_8"
+    },
+    {
+      "video_id": "3299945744969",
+      "title_raw": "18 Symbad - The Triangle of Doom",
+      "duration_raw": "23:09",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 357,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048863832649&type=32&idx=1&tkn=0RHmyY4lf7_PI5VFwV78BcDGnCc&fn=external_8"
+    },
+    {
+      "video_id": "3299944893001",
+      "title_raw": "19 Symbad - The Witches Cauldron",
+      "duration_raw": "23:17",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 315,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048777259593&type=32&idx=1&tkn=Iv30wSX5Pin0Vi6c7kmvteBodX0&fn=external_8"
+    },
+    {
+      "video_id": "3299944630857",
+      "title_raw": "20 Symbad - Tomb of the Crystal Wizard",
+      "duration_raw": "23:26",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 317,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048753535561&type=32&idx=1&tkn=ipW-pS5MOvmqFT5RyaGUpGHm_j0&fn=external_8"
+    },
+    {
+      "video_id": "3299946072649",
+      "title_raw": "21 Symbad - Beauty and the Minotaur",
+      "duration_raw": "23:31",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 374,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048909314633&type=32&idx=4&tkn=u9-xXMU7Zibd2phsd1DfydRQCIE&fn=external_8"
+    },
+    {
+      "video_id": "3299945810505",
+      "title_raw": "22 Symbad - Sinbad's Deadly Double",
+      "duration_raw": "23:13",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 328,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048872417865&type=32&idx=10&tkn=4tdwm5dUJILjiRUTI59tVldWhOM&fn=external_8"
+    },
+    {
+      "video_id": "3299945679433",
+      "title_raw": "23 Symbad - The Beginning",
+      "duration_raw": "23:28",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 319,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048856623689&type=32&idx=15&tkn=GAIEvBdbaqWOKE_hrgy0fTCM-ag&fn=external_8"
+    },
+    {
+      "video_id": "3299944958537",
+      "title_raw": "24 Symbad - The Idol of Lahk-ra",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 321,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048783157833&type=32&idx=4&tkn=R5KSSDJBhggorTvHUFs3v5gHZGY&fn=external_8"
+    },
+    {
+      "video_id": "3299945876041",
+      "title_raw": "25 Symbad - The Lost City of Aquatica",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 625,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048879495753&type=32&idx=4&tkn=bExsEDJfBRnjkQDfLlFxhYZcH2E&fn=external_8"
+    },
+    {
+      "video_id": "3299945482825",
+      "title_raw": "26 Symbad - The Winged Argosy",
+      "duration_raw": "23:38",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 417,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048839256649&type=32&idx=4&tkn=msfJx3x5LEAd51wAoQ5MsbPfuy8&fn=external_8"
+    }
+  ]
+}

@@ -1,0 +1,475 @@
+{
+  "title": "Scooby-Doo! Misterios S.A.",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2131017",
+  "year": "2010",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "1335599237705",
+      "title_raw": "1x01 - Cuidado con la Bestia de las Alcantarillas_x264",
+      "duration_raw": "23:11",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 278586,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578600438345&type=32&idx=1&tkn=aP8lAk5xFzSXM2BJBlo3Ktoos0M&fn=external_8"
+    },
+    {
+      "video_id": "1335598320201",
+      "title_raw": "1x02 - Los Cocodrilos_x264",
+      "duration_raw": "23:07",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 110247,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578589559369&type=32&idx=13&tkn=gWv-VsOwOPqoY6MnI0v3fY_1KwA&fn=external_8"
+    },
+    {
+      "video_id": "1335600417353",
+      "title_raw": "1x03 - El fantasma de la carretera_x264",
+      "duration_raw": "23:08",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 98774,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578613348937&type=32&idx=9&tkn=YiLY3F2VmarSnrWZbfa8X1PULMg&fn=external_8"
+    },
+    {
+      "video_id": "1335598910025",
+      "title_raw": "1x04 - La venganza del Hombre Cangrejo_x264",
+      "duration_raw": "22:21",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 84586,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578596702793&type=32&idx=5&tkn=Wg1npm6QjoNamta6ZKBubkuVHSY&fn=external_8"
+    },
+    {
+      "video_id": "1335599958601",
+      "title_raw": "1x05 - La canción misteriosa_x264",
+      "duration_raw": "22:25",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 81064,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578609613385&type=32&idx=5&tkn=nHW3STUcX1eFX1AgqanYwVnV4dU&fn=external_8"
+    },
+    {
+      "video_id": "1335597599305",
+      "title_raw": "1x06 - La leyenda de Alice May_x264",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 78350,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578578287177&type=32&idx=2&tkn=Ps7k7l9icxw8cG_rsl3MZQpATlU&fn=external_8"
+    },
+    {
+      "video_id": "1335600286281",
+      "title_raw": "1x07 - El fantasma aterrorizante_x264",
+      "duration_raw": "22:48",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 79327,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578612693577&type=32&idx=1&tkn=9okQsk0-ScuK7GNSZ9YRqUY8cIQ&fn=external_8"
+    },
+    {
+      "video_id": "1335600745033",
+      "title_raw": "1x08 - El ataque del gnomo_x264",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 66870,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578616429129&type=32&idx=13&tkn=rVn6QYuPQyoxMYuO7Prdadx3En4&fn=external_8"
+    },
+    {
+      "video_id": "1335599696457",
+      "title_raw": "1x09 - La batalla De Los Humungonautas_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 70181,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578606533193&type=32&idx=11&tkn=00Da_NTVy8-x_8jlrrL6bJo2uCo&fn=external_8"
+    },
+    {
+      "video_id": "1335600155209",
+      "title_raw": "1x10 - El sabueso endemoniado_x264",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 67588,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578611513929&type=32&idx=7&tkn=ggTaXODCNv4xOeN5o3nr6I48MN0&fn=external_8"
+    },
+    {
+      "video_id": "1335599106633",
+      "title_raw": "1x11 - La poción de la juventud_x264",
+      "duration_raw": "22:24",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 63033,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578598931017&type=32&idx=9&tkn=5n7zIfosQuUoeZkZgh0kJ_EdEwk&fn=external_8"
+    },
+    {
+      "video_id": "1335600024137",
+      "title_raw": "1x12 - Una bestia de otra dimensión_x264",
+      "duration_raw": "22:32",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 62244,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578610137673&type=32&idx=4&tkn=SI6WbCmUIKzdwvwJihtYepCVoLs&fn=external_8"
+    },
+    {
+      "video_id": "1335600810569",
+      "title_raw": "1x13 - Cuando la cigarra llama_x264",
+      "duration_raw": "22:00",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 57753,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578617018953&type=32&idx=5&tkn=hy0roalJzJMQEzVB0LwMvm7DXWc&fn=external_8"
+    },
+    {
+      "video_id": "1335600548425",
+      "title_raw": "1x14 - Finales del club de misterios por resolver_x264",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 56419,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578614266441&type=32&idx=14&tkn=1hV4M467BDfo85wqzhhnkOYwpQE&fn=external_8"
+    },
+    {
+      "video_id": "1335599041097",
+      "title_raw": "1x15 - La Pandilla Salvaje_x264",
+      "duration_raw": "22:02",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 57458,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578598275657&type=32&idx=10&tkn=1slxWif6q6fgn4IoeS6h5favWdM&fn=external_8"
+    },
+    {
+      "video_id": "1335598844489",
+      "title_raw": "1x16 - La venganza de Afrodita_x264",
+      "duration_raw": "20:55",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 57153,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578596112969&type=32&idx=11&tkn=1ngiBaXnw7hgy0BpAzcQs_VIKOI&fn=external_8"
+    },
+    {
+      "video_id": "1335597664841",
+      "title_raw": "1x17 - El escape de la mansión_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 55239,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578578811465&type=32&idx=5&tkn=fjI30aXhM4tcCQmIKXA9_tcqRjU&fn=external_8"
+    },
+    {
+      "video_id": "1335599172169",
+      "title_raw": "1x18 - El secreto del dragón_x264",
+      "duration_raw": "22:13",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 53158,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578599586377&type=32&idx=2&tkn=voZWMYEPc5eU9h54iqfQ_jcfEBU&fn=external_8"
+    },
+    {
+      "video_id": "1335598713417",
+      "title_raw": "1x19 - Noche de Miedo_x264",
+      "duration_raw": "22:14",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 53441,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578594277961&type=32&idx=13&tkn=EqlATAQziQqpNykf-r87pwlC9bU&fn=external_8"
+    },
+    {
+      "video_id": "1335598516809",
+      "title_raw": "1x20 - El canto de la sirena_x264",
+      "duration_raw": "22:44",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 53383,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578591853129&type=32&idx=8&tkn=K68Cu5jKgmEmkW2cK8g8l5dyLRs&fn=external_8"
+    },
+    {
+      "video_id": "1335598647881",
+      "title_raw": "1x21 - La amenaza del Manticora_x264",
+      "duration_raw": "22:32",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 53076,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578593294921&type=32&idx=2&tkn=OIwu0Q-CQUbhclSrRk0JGXVMeTA&fn=external_8"
+    },
+    {
+      "video_id": "1335598385737",
+      "title_raw": "1x22 - El ataque del monstruo sin cabeza_x264",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 49995,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578590214729&type=32&idx=4&tkn=7pBH90qzcslAkNYppstaJY2R4r8&fn=external_8"
+    },
+    {
+      "video_id": "1335598778953",
+      "title_raw": "1x23 - Una aparición en Cueva Cristal_x264",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 51004,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578594998857&type=32&idx=2&tkn=NoIkxIb1G6UN2PvUzgUYyxu_AI4&fn=external_8"
+    },
+    {
+      "video_id": "1336764992073",
+      "title_raw": "1x24 - La Justicia Muerta_x264",
+      "duration_raw": "22:20",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 51168,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=579061221961&type=32&idx=8&tkn=gw4odgwO77J2ztkC7mhzhcVAmxs&fn=external_8"
+    },
+    {
+      "video_id": "1335599827529",
+      "title_raw": "1x25 - La Verdadera Identidad_x264",
+      "duration_raw": "22:45",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 53143,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578608237129&type=32&idx=6&tkn=LoZ1iJE8WPR0MQnT5dgL_g7IPW0&fn=external_8"
+    },
+    {
+      "video_id": "1335598058057",
+      "title_raw": "1x26 - El Fenómeno de Cueva Cristal_x264",
+      "duration_raw": "22:48",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 55532,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578586413641&type=32&idx=3&tkn=jAhaKQ-pQ34USvRS9DaPtw2CqUs&fn=external_8"
+    },
+    {
+      "video_id": "1335597926985",
+      "title_raw": "2x01 - La noche en que el Bufón lloró_x264",
+      "duration_raw": "22:46",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 69270,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578584709705&type=32&idx=1&tkn=GUW5xrQwDnFpEbeR3LOcOioXOB8&fn=external_8"
+    },
+    {
+      "video_id": "1335597730377",
+      "title_raw": "2x02 - La casa de la Bruja Pesadilla_x264",
+      "duration_raw": "22:42",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 61954,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578581105225&type=32&idx=1&tkn=HCL5V0sg8UvgNLQtCjsVxL6vaew&fn=external_8"
+    },
+    {
+      "video_id": "1335600613961",
+      "title_raw": "2x03 - La noche en que el Bufón lloró. Segunda parte_x264",
+      "duration_raw": "22:43",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 61669,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578615118409&type=32&idx=12&tkn=99wdEsBcw1-Om84wBihShtbdez8&fn=external_8"
+    },
+    {
+      "video_id": "1335600482889",
+      "title_raw": "2x05 - El Hodag del terror_x264",
+      "duration_raw": "22:38",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 63585,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578613938761&type=32&idx=14&tkn=F101yV2ZRn_VXNmRRanXPGt9mKw&fn=external_8"
+    },
+    {
+      "video_id": "1335599565385",
+      "title_raw": "2x06 - Arte oscuro_x264",
+      "duration_raw": "22:45",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 50638,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578604829257&type=32&idx=14&tkn=IIMN9Y0lIxMMBoHQidoaExCTGBo&fn=external_8"
+    },
+    {
+      "video_id": "1335600089673",
+      "title_raw": "2x07 - La creciente oscuridad_x264",
+      "duration_raw": "22:24",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 46859,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578610989641&type=32&idx=6&tkn=otyi-qZEOk-qXGJt7OCbR1OuA6A&fn=external_8"
+    },
+    {
+      "video_id": "1335598451273",
+      "title_raw": "2x08 - Una noche en la Macabra Montaña_x264",
+      "duration_raw": "22:42",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 48491,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578591132233&type=32&idx=7&tkn=EUwYqaMQDGbfCshJMKg1Bq4sl8g&fn=external_8"
+    },
+    {
+      "video_id": "1335597992521",
+      "title_raw": "2x09 - El juicio de Grim_x264",
+      "duration_raw": "22:42",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 44591,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578585430601&type=32&idx=14&tkn=lVznYMl3bXsi28qsf3dfbPDs1Ts&fn=external_8"
+    },
+    {
+      "video_id": "1335597795913",
+      "title_raw": "2x10 - Terrores nocturnos_x264",
+      "duration_raw": "22:46",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 47014,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578583333449&type=32&idx=14&tkn=FwiS_nl044wlZs9zCFtLaYajBWE&fn=external_8"
+    },
+    {
+      "video_id": "1335599434313",
+      "title_raw": "2x11 - Dimensión Desconocida_x264",
+      "duration_raw": "22:31",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 44513,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578603125321&type=32&idx=10&tkn=8ZtWxiaTHbBD8Tf2fH5cLK9vLWM&fn=external_8"
+    },
+    {
+      "video_id": "1335597861449",
+      "title_raw": "2x12 - El Oso Monstruoso_x264",
+      "duration_raw": "22:41",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 43971,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578584054345&type=32&idx=7&tkn=jP6grageFjRy2IIkZdNuyeN1ZHQ&fn=external_8"
+    },
+    {
+      "video_id": "1335600876105",
+      "title_raw": "2x13 - La ira de Krampus_x264",
+      "duration_raw": "22:32",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 47851,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578617543241&type=32&idx=14&tkn=ZuXzIFNTwZwiFrLJkmjwvWe6e_Q&fn=external_8"
+    },
+    {
+      "video_id": "1335598254665",
+      "title_raw": "2x14 - Corazón de Maldad_x264",
+      "duration_raw": "22:39",
+      "season_number": 2,
+      "episode_number": 14,
+      "views": 40148,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578588641865&type=32&idx=12&tkn=cK2sPAGNuKlclIALp2SVGuahKNo&fn=external_8"
+    },
+    {
+      "video_id": "1335599499849",
+      "title_raw": "2x15 - El Teatro de la Perdición_x264",
+      "duration_raw": "22:38",
+      "season_number": 2,
+      "episode_number": 15,
+      "views": 45506,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578603911753&type=32&idx=12&tkn=9DoOsdcYj0RqpHNaPx_bdOVYAfo&fn=external_8"
+    },
+    {
+      "video_id": "1335600220745",
+      "title_raw": "2x16 - Alienígenas entre nosotros_x264",
+      "duration_raw": "22:32",
+      "season_number": 2,
+      "episode_number": 16,
+      "views": 41711,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578612169289&type=32&idx=2&tkn=b90Ks6A0ySx8QkTrfefDd_GRnHI&fn=external_8"
+    },
+    {
+      "video_id": "1335599368777",
+      "title_raw": "2x17 - La Manada del Horror_x264",
+      "duration_raw": "22:37",
+      "season_number": 2,
+      "episode_number": 17,
+      "views": 43487,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578601814601&type=32&idx=5&tkn=7uyBHWs_xIivgUIN06_PALdfHAM&fn=external_8"
+    },
+    {
+      "video_id": "1335599630921",
+      "title_raw": "2x18 - La danza de los No Muertos_x264",
+      "duration_raw": "22:36",
+      "season_number": 2,
+      "episode_number": 18,
+      "views": 45673,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578605746761&type=32&idx=13&tkn=b81KiJyZzNiv7FOfnl0WVJj0Nqw&fn=external_8"
+    },
+    {
+      "video_id": "1335598975561",
+      "title_raw": "2x19 - El Devorador_x264",
+      "duration_raw": "22:43",
+      "season_number": 2,
+      "episode_number": 19,
+      "views": 42982,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578597620297&type=32&idx=5&tkn=dNWzqLHymU47lkvs3a9-8CvYU2E&fn=external_8"
+    },
+    {
+      "video_id": "1335600679497",
+      "title_raw": "2x20 - El Dinero o la Vida_x264",
+      "duration_raw": "22:37",
+      "season_number": 2,
+      "episode_number": 20,
+      "views": 39636,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578616166985&type=32&idx=6&tkn=cQi0ultHN-auldUPre_J1stEXi8&fn=external_8"
+    },
+    {
+      "video_id": "1335599893065",
+      "title_raw": "2x21 - El Hombre del Espejo_x264",
+      "duration_raw": "22:39",
+      "season_number": 2,
+      "episode_number": 21,
+      "views": 41544,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578609154633&type=32&idx=1&tkn=cBbwKFUqvM2NReyIVcnVha_pZ_o&fn=external_8"
+    },
+    {
+      "video_id": "1335598582345",
+      "title_raw": "2x22 - Pesadilla en Rojo_x264",
+      "duration_raw": "22:42",
+      "season_number": 2,
+      "episode_number": 22,
+      "views": 40458,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578592574025&type=32&idx=3&tkn=63mXC-yXUUu2vZdqZMaSWnoKaYo&fn=external_8"
+    },
+    {
+      "video_id": "1335598189129",
+      "title_raw": "2x23 - La Noche Negra de los Cazadores_x264",
+      "duration_raw": "22:37",
+      "season_number": 2,
+      "episode_number": 23,
+      "views": 42352,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578588052041&type=32&idx=8&tkn=HAE9r9KpoVINxZC1KCapUFclKF0&fn=external_8"
+    },
+    {
+      "video_id": "1335599761993",
+      "title_raw": "2x24 - Las Puertas de la Oscuridad_x264",
+      "duration_raw": "22:43",
+      "season_number": 2,
+      "episode_number": 24,
+      "views": 42772,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578607188553&type=32&idx=5&tkn=xgFBels4UYPjAu5_hUZWdDhFuNE&fn=external_8"
+    },
+    {
+      "video_id": "1335598123593",
+      "title_raw": "2x25 - A través de la cortina_x264",
+      "duration_raw": "22:35",
+      "season_number": 2,
+      "episode_number": 25,
+      "views": 42362,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578587265609&type=32&idx=14&tkn=trhasw9TI5tSgvm_xMyVlTW6Qz4&fn=external_8"
+    },
+    {
+      "video_id": "1335599303241",
+      "title_raw": "2x26 - Liberados_x264",
+      "duration_raw": "22:38",
+      "season_number": 2,
+      "episode_number": 26,
+      "views": 53374,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=578600962633&type=32&idx=12&tkn=xHl-LqheEgLlRwCWs5CL440kYxc&fn=external_8"
+    }
+  ]
+}

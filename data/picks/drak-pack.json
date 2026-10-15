@@ -1,0 +1,160 @@
+{
+  "title": "Drak Pack",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c7285321 c2224457",
+  "year": "1980",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "3553214335561",
+      "title_raw": "Drack Pack 01 - Color Me Dredful (September 6, 1980)_x264",
+      "duration_raw": "21:43",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 5991,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2348757813833&type=32&idx=9&tkn=XHQNjBdZwxD9hdXZHeTe4vPXPtI&fn=external_8"
+    },
+    {
+      "video_id": "3553214401097",
+      "title_raw": "Drack Pack 02 - Mind Your Manners, Dr. Dred (September 13, 1980)_x264",
+      "duration_raw": "21:39",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 1509,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2348773870153&type=32&idx=14&tkn=WiIyFKO9qPb7dXjeq_kfvai_BuU&fn=external_8"
+    },
+    {
+      "video_id": "3553214466633",
+      "title_raw": "Drack Pack 03 - Happy Birthday, Dr. Dred (September 20, 1980)_x264",
+      "duration_raw": "21:38",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 719,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2348789402185&type=32&idx=13&tkn=ElRMzoRMArwmsO-FXe56CmND7YQ&fn=external_8"
+    },
+    {
+      "video_id": "3553214597705",
+      "title_raw": "Drack Pack 04 - Dreadful Weather We're Having (September 27, 1980)_x264",
+      "duration_raw": "21:34",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 553,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2348805196361&type=32&idx=13&tkn=U9VYmP2gF-aSxMfadVg_hyDiYIo&fn=external_8"
+    },
+    {
+      "video_id": "3553214663241",
+      "title_raw": "Drack Pack 05 - Perilous Plunder of Pirate's Park (October 4, 1980)_x264",
+      "duration_raw": "21:36",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 503,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2348821842505&type=32&idx=11&tkn=-o6yrFrcS-k-r313fXuEcD91YF4&fn=external_8"
+    },
+    {
+      "video_id": "3553215318601",
+      "title_raw": "Drack Pack 06 - Night of the Terbites (October 11, 1980)_x264",
+      "duration_raw": "21:43",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 542,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2348992236105&type=32&idx=8&tkn=zqGAQjsO5AgJX3QNSUdCpSk8LvQ&fn=external_8"
+    },
+    {
+      "video_id": "3553214728777",
+      "title_raw": "Drack Pack 07 - Time Out for Dr. Dred (October 18, 1980)_x264",
+      "duration_raw": "21:38",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 374,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2348840061513&type=32&idx=14&tkn=HBjqIE8UtSn13VMOCFBuUGiVmgo&fn=external_8"
+    },
+    {
+      "video_id": "3553214925385",
+      "title_raw": "Drack Pack 08 - Hideout Hotel (October 25, 1980)_x264",
+      "duration_raw": "21:40",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 383,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2348901468745&type=32&idx=5&tkn=RDUcSSWhw2unMo_nyPibX0bf_ZE&fn=external_8"
+    },
+    {
+      "video_id": "3553214794313",
+      "title_raw": "Drack Pack 09 - Dred Goes Hollywood (November 1, 1980)_x264",
+      "duration_raw": "21:42",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 328,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2348859984457&type=32&idx=12&tkn=I0zpCYW_jb8O36Fc_1-y2NmB5bo&fn=external_8"
+    },
+    {
+      "video_id": "3553215384137",
+      "title_raw": "Drack Pack 010 - Dred's Photo Finish (November 8, 1980)_x264",
+      "duration_raw": "21:42",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 351,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2349012224585&type=32&idx=1&tkn=lS-A9o4CRNP3hUw2LRtDM4F6Mcs&fn=external_8"
+    },
+    {
+      "video_id": "3553215253065",
+      "title_raw": "Drack Pack 011 - Dr. Dred is a Shrinker (November 15, 1980)_x264",
+      "duration_raw": "21:38",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 308,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2348978408009&type=32&idx=4&tkn=t_KIwyaHl8LvjaMd6G71pa5LW7I&fn=external_8"
+    },
+    {
+      "video_id": "3553214859849",
+      "title_raw": "Drack Pack 012 - A Dire Day at Dredfulland (November 22, 1980)_x264",
+      "duration_raw": "21:41",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 282,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2348882790985&type=32&idx=10&tkn=0uZqlWrD8iCYPM6JKX96VVh1_0E&fn=external_8"
+    },
+    {
+      "video_id": "3553215056457",
+      "title_raw": "Drack Pack 013 - Package Deal (November 29, 1980)_x264",
+      "duration_raw": "21:37",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 253,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2348929059401&type=32&idx=2&tkn=WFo68Z4BUWzVVMZhHCQ0rBXa6Ws&fn=external_8"
+    },
+    {
+      "video_id": "3553214990921",
+      "title_raw": "Drack Pack 014 - The Grimmest Book of Records (December 6, 1980)_x264",
+      "duration_raw": "21:38",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 268,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2348918180425&type=32&idx=8&tkn=N46QK17gCniJPVw-aWNdaICEf5k&fn=external_8"
+    },
+    {
+      "video_id": "3553215121993",
+      "title_raw": "Drack Pack 015 - International Graffiti (December 13, 1980)_x264",
+      "duration_raw": "21:39",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 278,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2348944591433&type=32&idx=12&tkn=rLf87-kl8EE0SZ12lmF-FkSeRlA&fn=external_8"
+    },
+    {
+      "video_id": "3553215187529",
+      "title_raw": "Drack Pack 016 - It's In the Bag, Dr. Dred (December 20, 1980)_x264",
+      "duration_raw": "21:43",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 305,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2348960451145&type=32&idx=9&tkn=8dl9W866KIbP4AH8SLX0iXWRyNQ&fn=external_8"
+    }
+  ]
+}

@@ -1,0 +1,547 @@
+{
+  "title": "Superman: La Serie Animada",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2819401 c2271305",
+  "year": "1996",
+  "studio": "DC",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Superhéroes",
+  "videos": [
+    {
+      "video_id": "1629176924745",
+      "title_raw": "1 - 001 - El Ultimo Hijo de Krypton Parte I - 404-descarga-no-encontrada, subido por Monito",
+      "duration_raw": "21:05",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 3003,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8708040821256&type=32&idx=7&tkn=ddcGmYINahcARu9O-mw4sBmwB4w&fn=external_8"
+    },
+    {
+      "video_id": "1629176793673",
+      "title_raw": "3 - 002 - Apokalipsis Ahora Parte I - 404-descarga-no-encontrada, subido por Monito",
+      "duration_raw": "21:16",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 417,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8708084468232&type=32&idx=12&tkn=1ITGSoJHJIMIM6W0CpY-xR_eBWs&fn=external_8"
+    },
+    {
+      "video_id": "1629176531529",
+      "title_raw": "3 - 003 - Apokalipsis Ahora Parte II - 404-descarga-no-encontrada, subido por Monito",
+      "duration_raw": "21:17",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 446,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8708084861448&type=32&idx=4&tkn=nxZznC0U8HYfoPsaoHT-RRU_EZ0&fn=external_8"
+    },
+    {
+      "video_id": "1629176728137",
+      "title_raw": "3 - 004 - Niña perdida Parte I - 404-descarga-no-encontrada, subido por Monito",
+      "duration_raw": "21:15",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 373,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8708085385736&type=32&idx=9&tkn=fYssMNRsjYDATn0xHQOVhG98m9A&fn=external_8"
+    },
+    {
+      "video_id": "1629175876169",
+      "title_raw": "2 - 005 - Dosis Doble - 404-descarga-no-encontrada, subido por Monito",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 368,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8708070574600&type=32&idx=11&tkn=RMj5kxCduM89h9eUK0Vraz411VE&fn=external_8"
+    },
+    {
+      "video_id": "1629177383497",
+      "title_raw": "1 - 006 - Energia Vital - 404-descarga-no-encontrada, subido por Monito",
+      "duration_raw": "21:17",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 591,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8708047833608&type=32&idx=11&tkn=qUmTqgwGpgKxPgJgi3Sp2w9N2ZU&fn=external_8"
+    },
+    {
+      "video_id": "1629175745097",
+      "title_raw": "3 - 007 - La Hora del Caballero Nocturno - 404-descarga-no-encontrada, subido por Monito",
+      "duration_raw": "21:16",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 437,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8708089055752&type=32&idx=8&tkn=-1AApf833lJgCsciwi7i5Tgn-8E&fn=external_8"
+    },
+    {
+      "video_id": "1629175941705",
+      "title_raw": "2 - 008 - Nueva y grandiosa Metropolis - 404-descarga-no-encontrada, subido por Monito",
+      "duration_raw": "21:14",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 351,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8708073523720&type=32&idx=6&tkn=Y51LZtX_Rh0kgEH0gyhknJ1MZOQ&fn=external_8"
+    },
+    {
+      "video_id": "1629176662601",
+      "title_raw": "2 - 009 - Un fantasma en la maquina - 404-descarga-no-encontrada, subido por Monito",
+      "duration_raw": "21:14",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 370,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8708075620872&type=32&idx=15&tkn=LFceAqOuyICrWMR-etVfBFi84RY&fn=external_8"
+    },
+    {
+      "video_id": "1629176072777",
+      "title_raw": "2 - 010 - Lo mejor del mundo Parte I - 404-descarga-no-encontrada, subido por Monito",
+      "duration_raw": "21:36",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 452,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8708075948552&type=32&idx=12&tkn=1g_eUwquQlbbSWWAXGEFeisNfAg&fn=external_8"
+    },
+    {
+      "video_id": "1629175155273",
+      "title_raw": "1 - 011 - Mi Chica - 404-descarga-no-encontrada, subido por Monito",
+      "duration_raw": "21:19",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 497,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8708051831304&type=32&idx=8&tkn=w4nCxM_2lRjKa-Y5t5tCx-kUQIw&fn=external_8"
+    },
+    {
+      "video_id": "1629178104393",
+      "title_raw": "3 - 012 - Un dia Soleado - 404-descarga-no-encontrada, subido por Monito",
+      "duration_raw": "21:14",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 371,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8708096920072&type=32&idx=1&tkn=AUlKDzOcMn5xBQyT2XcprFLUGMI&fn=external_8"
+    },
+    {
+      "video_id": "1629175482953",
+      "title_raw": "2 - 013 - Dia del padre - 404-descarga-no-encontrada, subido por Monito",
+      "duration_raw": "21:13",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 385,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8708077914632&type=32&idx=15&tkn=oCcencjCBwljgLtCsB9cohDaTGU&fn=external_8"
+    },
+    {
+      "video_id": "1629176203849",
+      "title_raw": "1 - 014 - El Prometeo - 404-descarga-no-encontrada, subido por Monito",
+      "duration_raw": "21:16",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 417,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8708055566856&type=32&idx=6&tkn=cjeE4_Z7d1IUehsV-Utqu-Ev6lo&fn=external_8"
+    },
+    {
+      "video_id": "1629176990281",
+      "title_raw": "2 - 015 - El mundo de Bizarro - 404-descarga-no-encontrada, subido por Monito",
+      "duration_raw": "21:06",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 362,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8708080142856&type=32&idx=14&tkn=gJLMnfe1DtNSDvbQrTwtivbBGlw&fn=external_8"
+    },
+    {
+      "video_id": "1629174827593",
+      "title_raw": "2 - 016 - Prototipo - 404-descarga-no-encontrada, subido por Monito",
+      "duration_raw": "21:16",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 379,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8708081191432&type=32&idx=2&tkn=N7tS4F2r42PfVrn2gaPq3UsUK54&fn=external_8"
+    },
+    {
+      "video_id": "1629177776713",
+      "title_raw": "1 - 017 - Alto Voltaje - 404-descarga-no-encontrada, subido por Monito",
+      "duration_raw": "21:14",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 402,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8708062120456&type=32&idx=4&tkn=N6_FgjtOPnWiWDjqmS6uAwfDkkw&fn=external_8"
+    },
+    {
+      "video_id": "1629177842249",
+      "title_raw": "1 - 018 - Demonios de la Velocidad - 404-descarga-no-encontrada, subido por Monito",
+      "duration_raw": "21:16",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 466,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8708063562248&type=32&idx=2&tkn=DGXygnsV1D1otcL3gjMpLm7L2VA&fn=external_8"
+    },
+    {
+      "video_id": "1426555275849",
+      "title_raw": "Superman 2x01 Ráfagas del pasado 1ra parte",
+      "duration_raw": "19:48",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 78,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602471926345&type=32&idx=4&tkn=L4GL8kaNkwNmgH-8szJs6cGQrYM&fn=external_8"
+    },
+    {
+      "video_id": "1426557307465",
+      "title_raw": "Superman 2x02 Ráfagas del pasado 2da parte",
+      "duration_raw": "20:38",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 125,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602505022025&type=32&idx=9&tkn=Iu8I-WDCpK5zWIZuzIwRq63dy00&fn=external_8"
+    },
+    {
+      "video_id": "1426555144777",
+      "title_raw": "Superman 2x03 Prometeo",
+      "duration_raw": "20:27",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 89,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602469370441&type=32&idx=11&tkn=nLeWN25iNjdbo0OyOVb1DtnDtcE&fn=external_8"
+    },
+    {
+      "video_id": "1426557700681",
+      "title_raw": "Superman 2x04 Los diablos de la velocidad",
+      "duration_raw": "20:31",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 121,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602512558665&type=32&idx=8&tkn=z9g5L71hfrg0WKy5dWFdBPjhZ6U&fn=external_8"
+    },
+    {
+      "video_id": "1426555865673",
+      "title_raw": "Superman 2x05 Livewire",
+      "duration_raw": "20:22",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 100,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602479987273&type=32&idx=0&tkn=yrCd8ye5DhWvQha2YG4EhqyjLY4&fn=external_8"
+    },
+    {
+      "video_id": "1426554948169",
+      "title_raw": "Superman 2x06 Crisis de identidad",
+      "duration_raw": "19:56",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 71,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602467338825&type=32&idx=0&tkn=pRByJYmAcd-oHgXl9dd5_WYpIjg&fn=external_8"
+    },
+    {
+      "video_id": "1426555537993",
+      "title_raw": "Superman 2x07 El objetivo",
+      "duration_raw": "19:22",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 81,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602475137609&type=32&idx=14&tkn=sDtgqlnrUCd6onUTCmgm7a2gyoU&fn=external_8"
+    },
+    {
+      "video_id": "1426556193353",
+      "title_raw": "Superman 2x08 Mxyzpixilado",
+      "duration_raw": "20:06",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 120,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602484247113&type=32&idx=1&tkn=TMXLqGs2X1wzDorMRoYJIAiw3s4&fn=external_8"
+    },
+    {
+      "video_id": "1426554554953",
+      "title_raw": "Superman 2x09 Muñecos de acción",
+      "duration_raw": "20:04",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 98,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602461506121&type=32&idx=13&tkn=_MSu7J5Q7XtYUniIorfzUW-7Kao&fn=external_8"
+    },
+    {
+      "video_id": "1426555931209",
+      "title_raw": "Superman 2x10 Doble dosis",
+      "duration_raw": "20:32",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 98,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602480839241&type=32&idx=10&tkn=kHZ1u_r2sS1QY-L7Tyt3d8PUY84&fn=external_8"
+    },
+    {
+      "video_id": "1426556979785",
+      "title_raw": "Superman 2x11 Energía solar",
+      "duration_raw": "20:23",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 91,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602499451465&type=32&idx=0&tkn=ZgBmMHmAump2BuS9vJ-waat81mU&fn=external_8"
+    },
+    {
+      "video_id": "1426555210313",
+      "title_raw": "Superman 2x12 Una Metropolis feliz",
+      "duration_raw": "20:24",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 70,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602470156873&type=32&idx=5&tkn=6ar24pCsZSsilK3WcgWje8I14qg&fn=external_8"
+    },
+    {
+      "video_id": "1426554686025",
+      "title_raw": "Superman 2x13 Un mono muy especial",
+      "duration_raw": "20:28",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 78,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602464193097&type=32&idx=13&tkn=boljxK9hO2XwmrCjzn1RUqyTEHQ&fn=external_8"
+    },
+    {
+      "video_id": "1426556848713",
+      "title_raw": "Superman 2x14 El fantasma de la máquina",
+      "duration_raw": "20:25",
+      "season_number": 2,
+      "episode_number": 14,
+      "views": 99,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602496961097&type=32&idx=5&tkn=WtDda9GtOApTovwN9OcRBdsCxdY&fn=external_8"
+    },
+    {
+      "video_id": "1426556586569",
+      "title_raw": "Superman 2x15 El día del padre",
+      "duration_raw": "20:21",
+      "season_number": 2,
+      "episode_number": 15,
+      "views": 84,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602491652681&type=32&idx=7&tkn=OxQNUbn-Pt5BuN0BNX5k0rrpMBE&fn=external_8"
+    },
+    {
+      "video_id": "1426555341385",
+      "title_raw": "Superman 2x16 Lo mejor de lo mejor 1ra parte",
+      "duration_raw": "20:43",
+      "season_number": 2,
+      "episode_number": 16,
+      "views": 93,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602472909385&type=32&idx=9&tkn=5bregtBWT61E2kNxI6s97-nna7w&fn=external_8"
+    },
+    {
+      "video_id": "1426556914249",
+      "title_raw": "Superman 2x17 Lo mejor de lo mejor 2da parte",
+      "duration_raw": "20:31",
+      "season_number": 2,
+      "episode_number": 17,
+      "views": 128,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602497944137&type=32&idx=1&tkn=tIZuaMZTaG1JZKIIf9hDl9ILALw&fn=external_8"
+    },
+    {
+      "video_id": "1426554882633",
+      "title_raw": "Superman 2x18 Lo mejor de lo mejor 3ra parte",
+      "duration_raw": "20:43",
+      "season_number": 2,
+      "episode_number": 18,
+      "views": 66,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602466486857&type=32&idx=14&tkn=kHsoxxfGNSSTEWp79UxNFERK2w8&fn=external_8"
+    },
+    {
+      "video_id": "1426557176393",
+      "title_raw": "Superman 2x19 La mano del destino",
+      "duration_raw": "20:16",
+      "season_number": 2,
+      "episode_number": 19,
+      "views": 83,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602502793801&type=32&idx=4&tkn=ia_6w0wQaaLXIGAgaqamkBFiNJw&fn=external_8"
+    },
+    {
+      "video_id": "1426555013705",
+      "title_raw": "Superman 2x20 El mundo de Bizarro",
+      "duration_raw": "20:15",
+      "season_number": 2,
+      "episode_number": 20,
+      "views": 72,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602468256329&type=32&idx=13&tkn=NHbju1aZRiZkjMcfIocgi-dRgDs&fn=external_8"
+    },
+    {
+      "video_id": "1426556324425",
+      "title_raw": "Superman 2x21 Prototipo",
+      "duration_raw": "20:25",
+      "season_number": 2,
+      "episode_number": 21,
+      "views": 86,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602486475337&type=32&idx=4&tkn=5UPU5qLolKc_K4bVDxfYDDwxXZs&fn=external_8"
+    },
+    {
+      "video_id": "1426556062281",
+      "title_raw": "Superman 2x22 El difunto Sr. Kent",
+      "duration_raw": "20:09",
+      "season_number": 2,
+      "episode_number": 22,
+      "views": 127,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602482346569&type=32&idx=9&tkn=FVqRZlb5RSSqZwrQUZbDye1eUJ4&fn=external_8"
+    },
+    {
+      "video_id": "1426557504073",
+      "title_raw": "Superman 2x23 Heavy Metal",
+      "duration_raw": "19:55",
+      "season_number": 2,
+      "episode_number": 23,
+      "views": 93,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602508626505&type=32&idx=12&tkn=raBw2yKWxYSZzG3LAuJRQYtzmzc&fn=external_8"
+    },
+    {
+      "video_id": "1426556127817",
+      "title_raw": "Superman 2x24 La reina guerrera",
+      "duration_raw": "20:15",
+      "season_number": 2,
+      "episode_number": 24,
+      "views": 127,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602483460681&type=32&idx=8&tkn=glUKe7pZqEkyFGBMXPPRURqyHEg&fn=external_8"
+    },
+    {
+      "video_id": "1426556258889",
+      "title_raw": "Superman 2x25 Apokolips... Now! 1ra parte",
+      "duration_raw": "20:25",
+      "season_number": 2,
+      "episode_number": 25,
+      "views": 84,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602485033545&type=32&idx=6&tkn=NfG8VZUDw47bVI2kGTd25a9GjMY&fn=external_8"
+    },
+    {
+      "video_id": "1426557110857",
+      "title_raw": "Superman 2x26 Apokolips... Now! 2da parte",
+      "duration_raw": "20:27",
+      "season_number": 2,
+      "episode_number": 26,
+      "views": 106,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602501745225&type=32&idx=1&tkn=Mc4EZiXMT7LD9axtAm5dw8tTuwY&fn=external_8"
+    },
+    {
+      "video_id": "1426557045321",
+      "title_raw": "Superman 2x27 La niña perdida 1ra parte",
+      "duration_raw": "20:25",
+      "season_number": 2,
+      "episode_number": 27,
+      "views": 119,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602500368969&type=32&idx=6&tkn=PQyDQTvxilw4MWAdf3d6cPPYAwo&fn=external_8"
+    },
+    {
+      "video_id": "1426555996745",
+      "title_raw": "Superman 2x28 La niña perdida 2da parte",
+      "duration_raw": "20:38",
+      "season_number": 2,
+      "episode_number": 28,
+      "views": 99,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602481691209&type=32&idx=2&tkn=FHY7ipmRWylMoTgIzHAALfv9Pzw&fn=external_8"
+    },
+    {
+      "video_id": "1426556652105",
+      "title_raw": "Superman 3x01 Por el humo se sabe dónde está el fuego",
+      "duration_raw": "20:20",
+      "season_number": 3,
+      "episode_number": 1,
+      "views": 158,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602492504649&type=32&idx=12&tkn=t8T2l9Qts6qlHrrqt39FoIu8n1I&fn=external_8"
+    },
+    {
+      "video_id": "1426555603529",
+      "title_raw": "Superman 3x02 El caballero ausente",
+      "duration_raw": "20:26",
+      "season_number": 3,
+      "episode_number": 2,
+      "views": 90,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602475924041&type=32&idx=10&tkn=2TnYIbYQ21CKAXM64O426-dkius&fn=external_8"
+    },
+    {
+      "video_id": "1426555669065",
+      "title_raw": "Superman 3x03 Chicos nuevos en el pueblo",
+      "duration_raw": "20:23",
+      "season_number": 3,
+      "episode_number": 3,
+      "views": 75,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602476776009&type=32&idx=8&tkn=I67UJQ8myrkfCe2JfcBcj-RESQg&fn=external_8"
+    },
+    {
+      "video_id": "1426554751561",
+      "title_raw": "Superman 3x04 Obsesión",
+      "duration_raw": "20:24",
+      "season_number": 3,
+      "episode_number": 4,
+      "views": 78,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602464848457&type=32&idx=13&tkn=gLbIKmSVVibin6C3MO6rp-5hwzk&fn=external_8"
+    },
+    {
+      "video_id": "1426554489417",
+      "title_raw": "Superman 3x05 El retorno de Mxyzptlk",
+      "duration_raw": "19:57",
+      "season_number": 3,
+      "episode_number": 5,
+      "views": 94,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602459736649&type=32&idx=1&tkn=t_mIV8X_bO0TBLqCm9qDuyv3ZAA&fn=external_8"
+    },
+    {
+      "video_id": "1426556521033",
+      "title_raw": "Superman 3x06 Poder absoluto",
+      "duration_raw": "19:25",
+      "season_number": 3,
+      "episode_number": 6,
+      "views": 402,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602490145353&type=32&idx=3&tkn=4hX4W5uc7EckhEgFkmZMF-fPXgU&fn=external_8"
+    },
+    {
+      "video_id": "1426556717641",
+      "title_raw": "Superman 3x07 Luces y sombras",
+      "duration_raw": "20:22",
+      "season_number": 3,
+      "episode_number": 7,
+      "views": 101,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602494339657&type=32&idx=0&tkn=BX-Kc04YRV3WS16tb-Vg5sGyxNk&fn=external_8"
+    },
+    {
+      "video_id": "1426556455497",
+      "title_raw": "Superman 3x08 El nuevo amigo de Superman",
+      "duration_raw": "19:35",
+      "season_number": 3,
+      "episode_number": 8,
+      "views": 155,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602489424457&type=32&idx=14&tkn=mx4OheulPtbS5JfS226j6yktBno&fn=external_8"
+    },
+    {
+      "video_id": "1426554620489",
+      "title_raw": "Superman 3x09 Un asunto escamante",
+      "duration_raw": "20:09",
+      "season_number": 3,
+      "episode_number": 9,
+      "views": 82,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602463210057&type=32&idx=12&tkn=Mi2PEY5Czszl_UFePIRkBMeLg1I&fn=external_8"
+    },
+    {
+      "video_id": "1426991680073",
+      "title_raw": "Superman 3x10 La unidad",
+      "duration_raw": "20:08",
+      "season_number": 3,
+      "episode_number": 10,
+      "views": 133,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602687277641&type=32&idx=10&tkn=yk1fdC9ZOmj8_W-TDrRiLybTMPA&fn=external_8"
+    },
+    {
+      "video_id": "1426991876681",
+      "title_raw": "Superman 3x11 Un renacer diabólico",
+      "duration_raw": "18:29",
+      "season_number": 3,
+      "episode_number": 11,
+      "views": 251,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602691013193&type=32&idx=12&tkn=CEcxi14tB437r5vGWid5E6d1u64&fn=external_8"
+    },
+    {
+      "video_id": "1426991811145",
+      "title_raw": "Superman 3x12 El legado 1ra parte",
+      "duration_raw": "18:16",
+      "season_number": 3,
+      "episode_number": 12,
+      "views": 122,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602690357833&type=32&idx=12&tkn=SAqixyV-brZ1xyXsaYSjfVsxFjY&fn=external_8"
+    },
+    {
+      "video_id": "1426991745609",
+      "title_raw": "Superman 3x13 El legado 2da parte",
+      "duration_raw": "18:53",
+      "season_number": 3,
+      "episode_number": 13,
+      "views": 119,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=602688653897&type=32&idx=0&tkn=KWD29aFyhmkNseVgvlxlccI3cc0&fn=external_8"
+    }
+  ]
+}

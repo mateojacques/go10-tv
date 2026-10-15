@@ -1,0 +1,250 @@
+{
+  "title": "Aunque Usted no lo Crea, de Ripley",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c4843593",
+  "year": "1999",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Aventura",
+  "videos": [
+    {
+      "video_id": "2482658544201",
+      "title_raw": "S01E01 Las Muñecas Daruma",
+      "duration_raw": "23:38",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 3616,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1282913208905&type=32&idx=0&tkn=a3w7P12n3wqTACN35LgJZ7uX534&fn=external_8"
+    },
+    {
+      "video_id": "2482659002953",
+      "title_raw": "S01E02 La Máscara del Guerrero",
+      "duration_raw": "24:29",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 625,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1282926840393&type=32&idx=9&tkn=oMxZS4d3_sW_Wt8AoS-N95vwIOs&fn=external_8"
+    },
+    {
+      "video_id": "2482659330633",
+      "title_raw": "S01E03 El Detector de Mentiras",
+      "duration_raw": "23:33",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 530,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1282944993865&type=32&idx=6&tkn=DUEObJtvy27N2600sVvVizDZ3Ps&fn=external_8"
+    },
+    {
+      "video_id": "2482658413129",
+      "title_raw": "S01E04 La Maldición del Faraón",
+      "duration_raw": "24:30",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 325,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1282908490313&type=32&idx=3&tkn=jy4EMIwMe-SHglVnCks7Reb8nDA&fn=external_8"
+    },
+    {
+      "video_id": "2482659658313",
+      "title_raw": "S01e05 El Vampiro",
+      "duration_raw": "24:28",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 305,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1282954889801&type=32&idx=3&tkn=JJs-yaAOyvXu8VZoQMo2l-_FXv8&fn=external_8"
+    },
+    {
+      "video_id": "2482658871881",
+      "title_raw": "S01e06 El Fantasma de la Casa Misteriosa",
+      "duration_raw": "24:28",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 264,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1282924481097&type=32&idx=1&tkn=4HLyEiAyO_RndZja6WVtDXoCIiI&fn=external_8"
+    },
+    {
+      "video_id": "2482659592777",
+      "title_raw": "S01E07 El Cráneo de Lama",
+      "duration_raw": "24:29",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 207,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1282953644617&type=32&idx=5&tkn=1tKQG_75mJxhhW5Un_m1sgSLexc&fn=external_8"
+    },
+    {
+      "video_id": "2482660051529",
+      "title_raw": "S01E08 El Casco Dorado de Ur",
+      "duration_raw": "24:30",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 220,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1282965834313&type=32&idx=6&tkn=ruDOlbHxYRLtUw7jC1oZchVCD7A&fn=external_8"
+    },
+    {
+      "video_id": "2482659854921",
+      "title_raw": "S01E09 El Huevo de un Millón de Años",
+      "duration_raw": "24:28",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 195,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1282958559817&type=32&idx=2&tkn=5RN-O0OkUwHfuRIGZfCaUlPiy88&fn=external_8"
+    },
+    {
+      "video_id": "2482659920457",
+      "title_raw": "S01E10 Hechizo de Amor",
+      "duration_raw": "24:28",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 248,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1282961508937&type=32&idx=7&tkn=2S2ZKmiJNH3z8yp9NbQyXg3RT3k&fn=external_8"
+    },
+    {
+      "video_id": "2482659527241",
+      "title_raw": "S01E11 El Pronóstico del Tiempo",
+      "duration_raw": "24:28",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 194,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1282951285321&type=32&idx=4&tkn=rmvuX_9s3pyxl0BJ0_Pt5u7eK6M&fn=external_8"
+    },
+    {
+      "video_id": "2482658478665",
+      "title_raw": "S01E12 Eternidad a la Venta",
+      "duration_raw": "24:22",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 168,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1282911046217&type=32&idx=14&tkn=sw3IwxHCAWmJQqG2oKiLw1INgY8&fn=external_8"
+    },
+    {
+      "video_id": "2482658806345",
+      "title_raw": "S01e13 El Primer Objeto",
+      "duration_raw": "24:28",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 176,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1282922252873&type=32&idx=1&tkn=nQcQASXbYxL0mzw0BalNllbimOc&fn=external_8"
+    },
+    {
+      "video_id": "2482658609737",
+      "title_raw": "S02e01 El Pozo De Doon",
+      "duration_raw": "24:31",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 199,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1282917009993&type=32&idx=9&tkn=xDTV59cXDnU4Wblij_ZduL-54LI&fn=external_8"
+    },
+    {
+      "video_id": "2482659789385",
+      "title_raw": "S02e02 Una Canción De Cuna",
+      "duration_raw": "25:01",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 176,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1282957314633&type=32&idx=4&tkn=zkezuG_xRBcR40fRh98jIFBEtAo&fn=external_8"
+    },
+    {
+      "video_id": "2482658675273",
+      "title_raw": "S02e03 Cara O Cruz",
+      "duration_raw": "24:31",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 170,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1282918451785&type=32&idx=12&tkn=0XQiNuE6vIIbPgPWh7HIYzPk5ZE&fn=external_8"
+    },
+    {
+      "video_id": "2482659396169",
+      "title_raw": "S02e04 Moda Ardiente",
+      "duration_raw": "24:31",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 167,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1282946173513&type=32&idx=8&tkn=IKb8HAdWc0vmkBqMrg2ysfBXXh8&fn=external_8"
+    },
+    {
+      "video_id": "2482659985993",
+      "title_raw": "S02e05 Con La Fuerza De 10",
+      "duration_raw": "24:31",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 169,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1282964851273&type=32&idx=6&tkn=41MDEwOL-RL-AFWFss409p2Imhk&fn=external_8"
+    },
+    {
+      "video_id": "2482659199561",
+      "title_raw": "S02e06 La Mano De La Suerte",
+      "duration_raw": "24:31",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 310,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1282937653833&type=32&idx=6&tkn=uKRWO2Z-ZlwWNF6OcplhFnXj9gI&fn=external_8"
+    },
+    {
+      "video_id": "2482659068489",
+      "title_raw": "S02E07 Sobre Los Pasos de su Tío By Kenicki",
+      "duration_raw": "24:30",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 167,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1282932476489&type=32&idx=2&tkn=Rtqav2cGm09F8sElGGUMGN4-C_Y&fn=external_8"
+    },
+    {
+      "video_id": "2482659461705",
+      "title_raw": "S02E08 El Bosque",
+      "duration_raw": "24:30",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 170,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1282948401737&type=32&idx=14&tkn=Hp9zuABN3DVFMI8SYpB6HWo88tc&fn=external_8"
+    },
+    {
+      "video_id": "2482659134025",
+      "title_raw": "S02E09 Alcanzar un Sueño",
+      "duration_raw": "24:31",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 166,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1282934966857&type=32&idx=3&tkn=xqN75h9trn5QDnZ9rpC-IG0CLIA&fn=external_8"
+    },
+    {
+      "video_id": "2482659723849",
+      "title_raw": "S02e10 La Venganza Es Dulce",
+      "duration_raw": "24:31",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 168,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1282956069449&type=32&idx=7&tkn=Ju_oBKdpBG_P_9L-kqpFqX614Zo&fn=external_8"
+    },
+    {
+      "video_id": "2482659265097",
+      "title_raw": "S02e11 El Ojo Perverso",
+      "duration_raw": "24:31",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 166,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1282941192777&type=32&idx=1&tkn=MxDRiC0G_qyqgW6wc0FCXYvhGAw&fn=external_8"
+    },
+    {
+      "video_id": "2482658740809",
+      "title_raw": "S02e12 El Odio No Pierde",
+      "duration_raw": "24:31",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 165,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1282920548937&type=32&idx=14&tkn=QumRYvKEAxb9PM8b70kDsbMjzqU&fn=external_8"
+    },
+    {
+      "video_id": "2482658282057",
+      "title_raw": "S02E13 Paz para una Princesa",
+      "duration_raw": "24:31",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 225,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1282906589769&type=32&idx=10&tkn=DXeWimVNc2sHaQIZI44GiJ2ABDc&fn=external_8"
+    }
+  ]
+}

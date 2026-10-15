@@ -1,0 +1,106 @@
+{
+  "title": "Pulgarcito, Investigador Privado",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c4097353",
+  "year": "1973",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "2086492244553",
+      "title_raw": "PIP-02",
+      "duration_raw": "23:54",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 4631,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976680258121&type=32&idx=11&tkn=GhVHNaPUygc_JZkcbvtbBgA7zmk&fn=external_8"
+    },
+    {
+      "video_id": "2086492441161",
+      "title_raw": "PIP-03",
+      "duration_raw": "23:53",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 842,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976683272777&type=32&idx=12&tkn=tCCXejiuwiiYqHK5KCYbHhTSoIU&fn=external_8"
+    },
+    {
+      "video_id": "2086492572233",
+      "title_raw": "PIP-04",
+      "duration_raw": "23:53",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 603,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976686156361&type=32&idx=3&tkn=FaBjrQg3jvOYGyNJq3ey43IPUuI&fn=external_8"
+    },
+    {
+      "video_id": "2086492637769",
+      "title_raw": "PIP-05",
+      "duration_raw": "23:49",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 501,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976687729225&type=32&idx=8&tkn=ELgXTocsg7TeR1opakbQuwnPPfM&fn=external_8"
+    },
+    {
+      "video_id": "2086492834377",
+      "title_raw": "PIP-07",
+      "duration_raw": "23:50",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 385,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976691268169&type=32&idx=7&tkn=Dm-mze0UudEROmjs6Sjs7R953Jo&fn=external_8"
+    },
+    {
+      "video_id": "2086492965449",
+      "title_raw": "PIP-08",
+      "duration_raw": "23:53",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 435,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976695331401&type=32&idx=10&tkn=TYdvlXY81k-5DvVMi7okdi-Fvyk&fn=external_8"
+    },
+    {
+      "video_id": "2086492899913",
+      "title_raw": "PIP-09",
+      "duration_raw": "23:50",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 422,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976693299785&type=32&idx=3&tkn=0ZvFvXS-ZZm3QGb0HsDJVu-rsyg&fn=external_8"
+    },
+    {
+      "video_id": "2086492768841",
+      "title_raw": "PIP-11",
+      "duration_raw": "23:50",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 308,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976689105481&type=32&idx=12&tkn=3_Qq7oYTYseuX9lGI1_YI5tDats&fn=external_8"
+    },
+    {
+      "video_id": "2086492506697",
+      "title_raw": "PIP-12",
+      "duration_raw": "23:50",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 326,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976684649033&type=32&idx=12&tkn=jgHe8X4sYMCg6m_ZemQ4mFo6Miw&fn=external_8"
+    },
+    {
+      "video_id": "2086492375625",
+      "title_raw": "PIP-13",
+      "duration_raw": "23:48",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 367,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976681699913&type=32&idx=6&tkn=Q3Lc9eH-atTNmmkZUG6PRXejbng&fn=external_8"
+    }
+  ]
+}

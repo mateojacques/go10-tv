@@ -1,0 +1,250 @@
+{
+  "title": "El Corsario Negro",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c3069257",
+  "year": "1999",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Aventura",
+  "videos": [
+    {
+      "video_id": "1761895909961",
+      "title_raw": "01.- Un Hombre Vestido de Negro",
+      "duration_raw": "24:35",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 3288,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=769507134025&type=37&idx=5&tkn=HJS-Rfx1WspR19ZIJTD1F9azFS8&fn=external_8"
+    },
+    {
+      "video_id": "1761896565321",
+      "title_raw": "02.- Expedición a Maracaibo",
+      "duration_raw": "24:16",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 729,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=769528171081&type=37&idx=6&tkn=BcDWasGRN50dBzBsiSEEVkjTZF0&fn=external_8"
+    },
+    {
+      "video_id": "1761897220681",
+      "title_raw": "03.- El Corsario Rojo",
+      "duration_raw": "24:26",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 551,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=769550256713&type=37&idx=4&tkn=EhdyCuMDHFguuAjWvErkb_4fEn8&fn=external_8"
+    },
+    {
+      "video_id": "1761896630857",
+      "title_raw": "04.- No Hay Escapatoria",
+      "duration_raw": "24:03",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 465,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=769529875017&type=37&idx=9&tkn=QE_6YXD0xd1A558kF-vmbMCRJaM&fn=external_8"
+    },
+    {
+      "video_id": "1761896303177",
+      "title_raw": "05.- El Escape de Maracaibo",
+      "duration_raw": "24:31",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 502,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=769519585865&type=37&idx=10&tkn=-eNrE2r7nBnSzdpg0punwc4PYBI&fn=external_8"
+    },
+    {
+      "video_id": "1761896041033",
+      "title_raw": "06.- La Furia del Corsario Negro",
+      "duration_raw": "24:19",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 366,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=769513425481&type=37&idx=7&tkn=ATkSjtTfOPXuBJxNnehNbyFD4Ts&fn=external_8"
+    },
+    {
+      "video_id": "1761896499785",
+      "title_raw": "07.- Un tributo a la Venganza",
+      "duration_raw": "24:32",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 344,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=769525025353&type=37&idx=12&tkn=baExBCjFTbHpwFa4strcAKXs6S8&fn=external_8"
+    },
+    {
+      "video_id": "1765341137481",
+      "title_raw": "08.- Honorata Van Gould",
+      "duration_raw": "24:27",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 326,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=771774941769&type=37&idx=1&tkn=WBZJj2p8d2JrBQxfTUGVWzuA7kc&fn=external_8"
+    },
+    {
+      "video_id": "1761895844425",
+      "title_raw": "09.- La Llegada a la Isla Tortuga",
+      "duration_raw": "23:34",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 289,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=769504447049&type=37&idx=11&tkn=LWENKSfLzDBprLSLLM2skYawIPE&fn=external_8"
+    },
+    {
+      "video_id": "1762114669129",
+      "title_raw": "10.- Navegando Hacia Maracaibo",
+      "duration_raw": "24:13",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 245,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=769633880649&type=37&idx=6&tkn=MXiLDqS6jVt5ci398wxqTzqrhks&fn=external_8"
+    },
+    {
+      "video_id": "1761896761929",
+      "title_raw": "11.- El Asalto",
+      "duration_raw": "24:29",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 233,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=769534921289&type=37&idx=12&tkn=bPggBP-cENhjRY5Jp1oe0XXuda0&fn=external_8"
+    },
+    {
+      "video_id": "1761895778889",
+      "title_raw": "12.- Tras el Rastro de Van Gould",
+      "duration_raw": "24:32",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 236,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=769501694537&type=37&idx=9&tkn=cyrodFXn6jk1c10ODrrcDRVfN9s&fn=external_8"
+    },
+    {
+      "video_id": "1761896696393",
+      "title_raw": "13.- Los Peligros de la Selva",
+      "duration_raw": "24:25",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 228,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=769531972169&type=37&idx=2&tkn=jGTdbab8j59748vh3nKnk3HZ6A8&fn=external_8"
+    },
+    {
+      "video_id": "1762114603593",
+      "title_raw": "14.- La Trampa",
+      "duration_raw": "24:22",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 239,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=769629817417&type=37&idx=3&tkn=ahzXLRXJHH5gEGAHt9mjVEpi2L0&fn=external_8"
+    },
+    {
+      "video_id": "1762114734665",
+      "title_raw": "15.- La Revelación",
+      "duration_raw": "24:26",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 226,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=769638664777&type=37&idx=13&tkn=WrZKCjFRVf21Iz2AxA6w_HbMFhM&fn=external_8"
+    },
+    {
+      "video_id": "1761896368713",
+      "title_raw": "16.- La Tormenta, los Remordimientos, La esperanza",
+      "duration_raw": "24:41",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 222,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=769521617481&type=37&idx=4&tkn=2nh5nJxprynDEfME-g3fXW_O6h8&fn=external_8"
+    },
+    {
+      "video_id": "1761896827465",
+      "title_raw": "17.- Yara",
+      "duration_raw": "24:23",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 888,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=769537149513&type=37&idx=2&tkn=_iokSvvmKjbKT7Vpni9e2WYTpwo&fn=external_8"
+    },
+    {
+      "video_id": "1761896237641",
+      "title_raw": "18.- Un Nuevo Aliado",
+      "duration_raw": "24:17",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 244,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=769517357641&type=37&idx=13&tkn=OwZuR-tFtMmlLaFjEylSuZa7WIA&fn=external_8"
+    },
+    {
+      "video_id": "1762114538057",
+      "title_raw": "19.- El Esquivo Van Gould",
+      "duration_raw": "24:23",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 207,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=769625426505&type=37&idx=7&tkn=67Y78YbK-0HGgI7ibLUM19UT_1k&fn=external_8"
+    },
+    {
+      "video_id": "1761897089609",
+      "title_raw": "20.- El Ataque a Vera Cruz",
+      "duration_raw": "24:46",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 209,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=769544948297&type=37&idx=9&tkn=3nz7zOjmsvAdUCI9fppsxFtRzQQ&fn=external_8"
+    },
+    {
+      "video_id": "1761895975497",
+      "title_raw": "21.- Prisioneros!",
+      "duration_raw": "24:27",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 214,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=769510607433&type=37&idx=7&tkn=lUa4CYQyAuHqqXfCCt0h5dZ1DsY&fn=external_8"
+    },
+    {
+      "video_id": "1762115390025",
+      "title_raw": "22.- El Desafio",
+      "duration_raw": "24:20",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 212,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=769641417289&type=37&idx=13&tkn=QonY6bvgZIx1PF_wwjffgrcI_nI&fn=external_8"
+    },
+    {
+      "video_id": "1761896958537",
+      "title_raw": "23.- El Naufragio",
+      "duration_raw": "24:25",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 191,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=769540491849&type=37&idx=12&tkn=qGNO6mnxZOpEke5UXvfGTeIZYP0&fn=external_8"
+    },
+    {
+      "video_id": "1761897024073",
+      "title_raw": "24.- La Reina de los Nativos",
+      "duration_raw": "24:28",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 204,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=769542589001&type=37&idx=0&tkn=4YcMC6jgN_7mVMqvKoss0CCXNm8&fn=external_8"
+    },
+    {
+      "video_id": "1761897155145",
+      "title_raw": "25.- El Perdon",
+      "duration_raw": "24:37",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 220,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=769548421705&type=37&idx=11&tkn=AkZoqnbbS-LqbK7BlOmieyMC_CM&fn=external_8"
+    },
+    {
+      "video_id": "1771047225929",
+      "title_raw": "26.- Los Señores de Ventimiglia",
+      "duration_raw": "24:27",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 301,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=775647857225&type=37&idx=0&tkn=j3ScDXJjw5YGobYSY-Q-Cjk4fNQ&fn=external_8"
+    }
+  ]
+}

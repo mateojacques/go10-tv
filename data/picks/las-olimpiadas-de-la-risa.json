@@ -1,0 +1,232 @@
+{
+  "title": "Las Olimpiadas de la Risa",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2229321",
+  "year": "1977",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "1389869009481",
+      "title_raw": "1- Alpes Suizos - Japon",
+      "duration_raw": "23:15",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 15809,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=840746207770&type=32&idx=0&tkn=HTlB0IrXzvskeRgD0_dGFij_e94&fn=external_8"
+    },
+    {
+      "video_id": "1389868157513",
+      "title_raw": "2- Florida - China",
+      "duration_raw": "22:38",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 5457,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=840745028122&type=32&idx=14&tkn=LdXaXs-0DIaHzlEtX_X5TUWNyLI&fn=external_8"
+    },
+    {
+      "video_id": "1389868812873",
+      "title_raw": "3- Mexico - Inglaterra",
+      "duration_raw": "22:19",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 3789,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=840748370458&type=32&idx=14&tkn=OLlBqw9xU5Ll3x6SGuVVNMrPJxc&fn=external_8"
+    },
+    {
+      "video_id": "1389868419657",
+      "title_raw": "4- Sahara - Escocia",
+      "duration_raw": "23:34",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 3634,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=840746600986&type=32&idx=7&tkn=7bd_7z3Gho4QoEk6Zn0rfwySBiY&fn=external_8"
+    },
+    {
+      "video_id": "1389868288585",
+      "title_raw": "5- Francia - Australia",
+      "duration_raw": "23:55",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 2664,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=840749877786&type=32&idx=6&tkn=IWgxg2ZCVn-qkFA-j6JyUM6aJsg&fn=external_8"
+    },
+    {
+      "video_id": "1389868681801",
+      "title_raw": "6- Grecia - Montañas Hozark",
+      "duration_raw": "22:21",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 2505,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=840745945626&type=32&idx=11&tkn=EmA2TpNcFRj5uxFgJijADrNqMBo&fn=external_8"
+    },
+    {
+      "video_id": "1389867764297",
+      "title_raw": "7- Italia - Kitty Hog",
+      "duration_raw": "17:17",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 2079,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=840747452954&type=32&idx=1&tkn=r4MVLPYakAgfCx-wkf7qH53Z430&fn=external_8"
+    },
+    {
+      "video_id": "1389867698761",
+      "title_raw": "8- Egipto - Bosque de Sherwood",
+      "duration_raw": "23:52",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 2035,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=840746863130&type=32&idx=11&tkn=tSN9VJUih7QjB9tRrBtQUKHUk5s&fn=external_8"
+    },
+    {
+      "video_id": "1389867436617",
+      "title_raw": "9- España - Himalayas",
+      "duration_raw": "23:45",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 2249,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=840749550106&type=32&idx=10&tkn=rTqhB39pp8RuGk--TCUSvuNAyfg&fn=external_8"
+    },
+    {
+      "video_id": "1389867895369",
+      "title_raw": "10- India - Israel",
+      "duration_raw": "23:45",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 2795,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=840748829210&type=32&idx=11&tkn=bDzn6g2ZIsPOxo30NxugTQs_xCU&fn=external_8"
+    },
+    {
+      "video_id": "1389868485193",
+      "title_raw": "11- Africa - San Francisco",
+      "duration_raw": "23:47",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 2172,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=840747715098&type=32&idx=10&tkn=Gv5VsfhOmIpHciltZFDgPvnXLyw&fn=external_8"
+    },
+    {
+      "video_id": "1389868223049",
+      "title_raw": "12- Gran Canon - Irlanda",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 1921,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=840745749018&type=32&idx=14&tkn=GWDjLEB6_vCF2oWZ7epPwUrdESc&fn=external_8"
+    },
+    {
+      "video_id": "1389868091977",
+      "title_raw": "13- Hawaii - Noruega",
+      "duration_raw": "23:45",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 2027,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=840748173850&type=32&idx=3&tkn=YZK7odMz0lR7Xs-qQhbBqm_h0r4&fn=external_8"
+    },
+    {
+      "video_id": "1389868550729",
+      "title_raw": "14-  Polo Norte - Tahiti",
+      "duration_raw": "23:54",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 1819,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=840747321882&type=32&idx=10&tkn=pGjJnnRGz1kWkfsnUdZMk_irwZE&fn=external_8"
+    },
+    {
+      "video_id": "1389868354121",
+      "title_raw": "15- Quebec and Baghdad",
+      "duration_raw": "22:50",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 2272,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=840750402074&type=32&idx=3&tkn=iffhso2DVNbTyobzRujWAsmmxYg&fn=external_8"
+    },
+    {
+      "video_id": "1389868878409",
+      "title_raw": "16- Riviera francesa - Nueva Zelanda",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 1780,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=840750860826&type=32&idx=10&tkn=C_9-FQJIe9KKbzu2d2uww1BTR34&fn=external_8"
+    },
+    {
+      "video_id": "1389868616265",
+      "title_raw": "17- Nueva Orleans - Atlantida",
+      "duration_raw": "23:01",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 1572,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=840751188506&type=32&idx=8&tkn=rGZ8sVqWmlnt2GWmS5xbO65Dc14&fn=external_8"
+    },
+    {
+      "video_id": "1389867829833",
+      "title_raw": "18- Morocco to Washington",
+      "duration_raw": "22:56",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 1824,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=840750598682&type=32&idx=14&tkn=Vvatn9JsOxIDEx8rXe4f10v4AfE&fn=external_8"
+    },
+    {
+      "video_id": "1389868943945",
+      "title_raw": "19- canada y polonia",
+      "duration_raw": "21:39",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 1337,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=840749156890&type=32&idx=8&tkn=gihFS2t6QtmeAgujWo6XPUb9MQ8&fn=external_8"
+    },
+    {
+      "video_id": "1389867502153",
+      "title_raw": "20- Siam y la Luna",
+      "duration_raw": "22:58",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 1678,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=840745486874&type=32&idx=14&tkn=2jjAQqy4YlsqbWxKILJ5hJ8N7ag&fn=external_8"
+    },
+    {
+      "video_id": "1389868747337",
+      "title_raw": "21 Rusia y el caribe",
+      "duration_raw": "22:56",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 2193,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2444608735978&type=32&idx=1&tkn=dAH6PPiEw83y0Xb-9X_BgBFVUxk&fn=external_8"
+    },
+    {
+      "video_id": "1389868026441",
+      "title_raw": "22 Arizona y Holanda",
+      "duration_raw": "22:17",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 1692,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6499847637512&type=32&idx=5&tkn=pGvdkEsz-2YAzqJbir6FFGAUrgM&fn=external_8"
+    },
+    {
+      "video_id": "1389867567689",
+      "title_raw": "23 Nueva York y Turkia",
+      "duration_raw": "19:48",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 2047,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6499851897352&type=32&idx=13&tkn=VnwgJqLoFL-DsiYw6-V-MYLXUZY&fn=external_8"
+    },
+    {
+      "video_id": "1389867633225",
+      "title_raw": "24 Sudamerica y Transilvania",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 2205,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6499857467912&type=32&idx=1&tkn=qmJSkYLzvfCg5TvgLWEeTFHIDg0&fn=external_8"
+    }
+  ]
+}

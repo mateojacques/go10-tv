@@ -1,0 +1,871 @@
+{
+  "title": "Los Osos Gummi",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c4007753",
+  "year": "1985",
+  "studio": "Disney",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "2034955782729",
+      "title_raw": "1x01 Un nuevo comienzo (A new beginning)",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 17844,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974619060856&type=32&idx=8&tkn=0JtBD8XfQgDuCLW3xw43CVS9N6w&fn=external_8"
+    },
+    {
+      "video_id": "2034956044873",
+      "title_raw": "1x02a El escultor siniestro (The sinister sculptor)",
+      "duration_raw": "11:13",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 4135,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974614342264&type=32&idx=7&tkn=v6qDxRj-rDH_umxHhHVkjfRbsCs&fn=external_8"
+    },
+    {
+      "video_id": "2034955913801",
+      "title_raw": "1x02b La magia de Zummi (Zummi Makes It Hot)",
+      "duration_raw": "10:45",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 2608,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974611196536&type=32&idx=15&tkn=mTWy8OzWEyVcLimmNUEWSDeQxqw&fn=external_8"
+    },
+    {
+      "video_id": "2034956175945",
+      "title_raw": "1x03a Las huellas del dragón (Someday My Prints Will Come)",
+      "duration_raw": "11:13",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 2281,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974607985272&type=32&idx=9&tkn=n3pYlD7kHAngizUxLL5z_5pe8NY&fn=external_8"
+    },
+    {
+      "video_id": "2034957027913",
+      "title_raw": "1x03b ¿Puedo quedarme con él¿ (Can I Keep Him)",
+      "duration_raw": "11:13",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1692,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974605691512&type=32&idx=11&tkn=FlW75pr_Buga7Sm0vdSLmCE8PnA&fn=external_8"
+    },
+    {
+      "video_id": "2034956307017",
+      "title_raw": "1x04 Gummi en jaula dorada (A Gummi In A Gilded Cage)",
+      "duration_raw": "22:54",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 1914,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974603135608&type=32&idx=4&tkn=122eMQn5HVSPEG3x9ATC4TtKGNs&fn=external_8"
+    },
+    {
+      "video_id": "2034956831305",
+      "title_raw": "1x05a El Oráculo (The Oracle)",
+      "duration_raw": "11:41",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1628,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974596057720&type=32&idx=12&tkn=AIOydMqT9GjhKTY7grTCzben0IA&fn=external_8"
+    },
+    {
+      "video_id": "2034956241481",
+      "title_raw": "1x05b La piedra de los deseos (When You Wish Upon a Stone)",
+      "duration_raw": "11:13",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1438,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974593567352&type=32&idx=3&tkn=ZSju1C8GyzzCvn3oVYmTQDgmgvM&fn=external_8"
+    },
+    {
+      "video_id": "2034956372553",
+      "title_raw": "1x06 Aunque no se llamara Gummi (A Gummi By Any Other Name)",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 1551,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974591142520&type=32&idx=8&tkn=IvaxUe7IL9kAH6LDH4ayGQ6QWiE&fn=external_8"
+    },
+    {
+      "video_id": "2034956110409",
+      "title_raw": "1X07a Loopy a tu casa (Loopy, Go Home)",
+      "duration_raw": "11:42",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 1171,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974578100856&type=32&idx=12&tkn=Jzy-4DJCioz00J8oHoNEd_X3zEc&fn=external_8"
+    },
+    {
+      "video_id": "2034956569161",
+      "title_raw": "1x07b Vamos de caceria (A-Hunting We Will Go)",
+      "duration_raw": "11:14",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 1106,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974576790136&type=32&idx=14&tkn=JHWTV3h7EcOdGGkI4B820HjqJ4c&fn=external_8"
+    },
+    {
+      "video_id": "2034956962377",
+      "title_raw": "1x08a El indeciso (The Fence Sitter)",
+      "duration_raw": "11:42",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 882,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974575151736&type=32&idx=14&tkn=iPxLrmwUyF-GNw1EZ7kajoigKvQ&fn=external_8"
+    },
+    {
+      "video_id": "2034956765769",
+      "title_raw": "1x08b La noche de la gárgola (Night Of The Gargoyle)",
+      "duration_raw": "11:14",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 927,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974573251192&type=32&idx=3&tkn=H2CUF2tE3UeIX4YJws_MTvZanUQ&fn=external_8"
+    },
+    {
+      "video_id": "2034957158985",
+      "title_raw": "1x09 El secreto del juego (The Secret Of The Juice)",
+      "duration_raw": "22:53",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 1065,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974571481720&type=32&idx=15&tkn=NKgvQOA4lf2k5OkTJHGS7an7CWY&fn=external_8"
+    },
+    {
+      "video_id": "2034956896841",
+      "title_raw": "1X10a El malo y el bueno (Sweet And Sour Gruffi)",
+      "duration_raw": "11:43",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 1291,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974567746168&type=32&idx=6&tkn=axtqLF5nzBaMNJJdRvop-Zr111M&fn=external_8"
+    },
+    {
+      "video_id": "2034957093449",
+      "title_raw": "1x10b Duelo de magos (Duel Of The Wizards)",
+      "duration_raw": "11:12",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 810,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974565976696&type=32&idx=9&tkn=RkvOIlTbU3E8P4JsPM8qZ0tr3GQ&fn=external_8"
+    },
+    {
+      "video_id": "2034956634697",
+      "title_raw": "1x11a Soy lo que ves (What You See is Me)",
+      "duration_raw": "11:41",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 767,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974563945080&type=32&idx=6&tkn=vyKwSXMsNZTxulMXrkiMwsOrwtc&fn=external_8"
+    },
+    {
+      "video_id": "2034955848265",
+      "title_raw": "1x11b El viaje increible de sapito (Toadie's Wild Ride)",
+      "duration_raw": "11:14",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 803,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974560078456&type=32&idx=14&tkn=iJM7M60XBHXiF-vN7-8RAzIpmqA&fn=external_8"
+    },
+    {
+      "video_id": "2034955979337",
+      "title_raw": "1x12a Dragoncito (Bubble Trouble)",
+      "duration_raw": "11:41",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 808,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974557719160&type=32&idx=15&tkn=vYcmbUve9zB9ENi1FxZmRCp5O48&fn=external_8"
+    },
+    {
+      "video_id": "2034956503625",
+      "title_raw": "1x12b El duende del bosque (Gummi In A Strange Land)",
+      "duration_raw": "11:13",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 812,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974554704504&type=32&idx=15&tkn=mCz4wrajARoo6tInYEY4ZvWOaAI&fn=external_8"
+    },
+    {
+      "video_id": "2034956700233",
+      "title_raw": "1x13 La luz correcta (Light Makes Right)",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 1083,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974552935032&type=32&idx=15&tkn=D4RPRpVixKA63oq0DTLCkuH7O2o&fn=external_8"
+    },
+    {
+      "video_id": "2035164711497",
+      "title_raw": "2x01 Arriba, arriba y lejos (Up, Up, And Away)",
+      "duration_raw": "22:57",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 1227,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974550248056&type=32&idx=15&tkn=n4UCifovsKQKZvGnHiKnu69yUYE&fn=external_8"
+    },
+    {
+      "video_id": "2035164645961",
+      "title_raw": "2X02a Más rápido que un Tomi veloz (Faster Than A Speeding Tummi)",
+      "duration_raw": "11:42",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 857,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974546315896&type=32&idx=13&tkn=LPfyk88aNJ4SQIDpjO7SyR380Wk&fn=external_8"
+    },
+    {
+      "video_id": "2035164580425",
+      "title_raw": "2X02b Por un poco más (For A Few Sovereigns More)",
+      "duration_raw": "11:15",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 735,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974543563384&type=32&idx=3&tkn=9uH6o9xlmGwZe85s_AkyhjZyGYA&fn=external_8"
+    },
+    {
+      "video_id": "2035164908105",
+      "title_raw": "2X03a Cabin y los gnomos (Over The River And Through The Trolls)",
+      "duration_raw": "11:41",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 742,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974540286584&type=32&idx=8&tkn=rJWkExeKne0bUgBMXKwfJYO0kzU&fn=external_8"
+    },
+    {
+      "video_id": "2035164777033",
+      "title_raw": "2X03b Cala la defensora (You Snooze, You Lose)",
+      "duration_raw": "11:13",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 706,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974536944248&type=32&idx=4&tkn=TJTIfMm4KiYt7PkOTPoPJjcy824&fn=external_8"
+    },
+    {
+      "video_id": "2035164318281",
+      "title_raw": "2x04 El Vengador Escarlata (The Crimson Avenger)",
+      "duration_raw": "22:56",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 774,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974532553336&type=32&idx=8&tkn=E3fEBG39gUoUVXZqH_Bx4xYc3F0&fn=external_8"
+    },
+    {
+      "video_id": "2035164449353",
+      "title_raw": "2x05a Grofi caballero (A Hard Dazed Knight)",
+      "duration_raw": "11:39",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 670,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974527375992&type=32&idx=3&tkn=6X33cSnCrGEpMs-aIYb_6Jvv5bg&fn=external_8"
+    },
+    {
+      "video_id": "2035165039177",
+      "title_raw": "2x05b Haz al ogro (Do Unto Ogres)",
+      "duration_raw": "11:11",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 653,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974523968120&type=32&idx=3&tkn=1_w_d9kxUEDYX1O0w8fDY9QFk14&fn=external_8"
+    },
+    {
+      "video_id": "2035164383817",
+      "title_raw": "2x06  Por quien dobla el hechizo (For Whom The Spell Holds)",
+      "duration_raw": "22:54",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 767,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974521281144&type=32&idx=1&tkn=u5Dtp7xhdvOKCxIcPUO9cTBrqN4&fn=external_8"
+    },
+    {
+      "video_id": "2035164514889",
+      "title_raw": "2x07a Ositos perdidos (Little Bears Lost)",
+      "duration_raw": "11:41",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 584,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974515317368&type=32&idx=8&tkn=nfypIr5cSkr2V05HFfeZZpqW3ss&fn=external_8"
+    },
+    {
+      "video_id": "2035164973641",
+      "title_raw": "2x07b Adivina quien viene a cenar (Guess Who's Gumming To Dinner)",
+      "duration_raw": "11:14",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 561,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974511516280&type=32&idx=12&tkn=OrkjFRmUZ76w_azPydxgARTdUys&fn=external_8"
+    },
+    {
+      "video_id": "2035164842569",
+      "title_raw": "2x08 Naufragos (My Gummi Lies Over The Ocean)",
+      "duration_raw": "22:55",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 736,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974509288056&type=32&idx=11&tkn=OgtNgJs3MQV3lIlfnOzxfzHJsDw&fn=external_8"
+    },
+    {
+      "video_id": "2035165235785",
+      "title_raw": "3X01a Se rego la melaza (Too Many Cooks)",
+      "duration_raw": "11:49",
+      "season_number": 3,
+      "episode_number": 1,
+      "views": 895,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974486022776&type=32&idx=6&tkn=-6IkySsq2sJtDdsTZpk2V-Qpo3g&fn=external_8"
+    },
+    {
+      "video_id": "2035165366857",
+      "title_raw": "3X01b El ogro inteligente (Just A Tad Smarter)",
+      "duration_raw": "11:22",
+      "season_number": 3,
+      "episode_number": 2,
+      "views": 993,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974483335800&type=32&idx=9&tkn=2ihp2Om3LmGxvgY0HofqSbMYv64&fn=external_8"
+    },
+    {
+      "video_id": "2035165497929",
+      "title_raw": "3x02a Si yo fuera tú (If I Were You)",
+      "duration_raw": "11:49",
+      "season_number": 3,
+      "episode_number": 3,
+      "views": 620,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974480386680&type=32&idx=6&tkn=2aBdE0a_0lmVTS3pV56m3RXYKmk&fn=external_8"
+    },
+    {
+      "video_id": "2035165629001",
+      "title_raw": "3X02b Según como se mire (Eye Of The Beholder)",
+      "duration_raw": "11:21",
+      "season_number": 3,
+      "episode_number": 4,
+      "views": 704,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974476651128&type=32&idx=11&tkn=3MP0eQwrZqRztuUFhI6GBtLIpkA&fn=external_8"
+    },
+    {
+      "video_id": "2035165760073",
+      "title_raw": "3x03a Magia gommi (Presto Gummo)",
+      "duration_raw": "11:49",
+      "season_number": 3,
+      "episode_number": 5,
+      "views": 604,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974472784504&type=32&idx=8&tkn=SCQHAFghyT4ydOv5Jg8ljeUhARU&fn=external_8"
+    },
+    {
+      "video_id": "2035165891145",
+      "title_raw": "3x03b El árbol del tesoro (A Tree Grows In Dunwyn)",
+      "duration_raw": "11:23",
+      "season_number": 3,
+      "episode_number": 6,
+      "views": 532,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974468721272&type=32&idx=15&tkn=KT2qzxtBPiL-xfuwqqc3Ca_rPBE&fn=external_8"
+    },
+    {
+      "video_id": "2035166022217",
+      "title_raw": "3X04 Abecinas al ataque (Day Of The Beevilweevils)",
+      "duration_raw": "23:08",
+      "season_number": 3,
+      "episode_number": 7,
+      "views": 833,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974463806072&type=32&idx=2&tkn=Kv0jdg9bsTunOmiukFMqgBLzKx4&fn=external_8"
+    },
+    {
+      "video_id": "2035166087753",
+      "title_raw": "3x05a La Sierna (Water Way To Go)",
+      "duration_raw": "11:46",
+      "season_number": 3,
+      "episode_number": 8,
+      "views": 797,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974456072824&type=32&idx=3&tkn=XhHXhZ41p82DcT_dP8dC2T2nx44&fn=external_8"
+    },
+    {
+      "video_id": "2035165956681",
+      "title_raw": "3x05b Encuentros cercanos (Close Encounters Of A Gummi Kind",
+      "duration_raw": "11:20",
+      "season_number": 3,
+      "episode_number": 9,
+      "views": 576,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974451354232&type=32&idx=12&tkn=KKvkQ47bBYY1vGs5GbWpjT07uTk&fn=external_8"
+    },
+    {
+      "video_id": "2035165825609",
+      "title_raw": "3x06a El hijo de Von Nieve (Snows Your Old Man)",
+      "duration_raw": "11:50",
+      "season_number": 3,
+      "episode_number": 10,
+      "views": 526,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974447618680&type=32&idx=8&tkn=5gKiXcU8lIgE_92RDUNIZvtsma4&fn=external_8"
+    },
+    {
+      "video_id": "2035165694537",
+      "title_raw": "3x06b El Pequeño Ditto (Boggling the Bears)",
+      "duration_raw": "11:20",
+      "season_number": 3,
+      "episode_number": 11,
+      "views": 684,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974443948664&type=32&idx=10&tkn=FTheQm-hDyKysqEWjTZu26fzL-4&fn=external_8"
+    },
+    {
+      "video_id": "2035165563465",
+      "title_raw": "3X07 Los Caballeros de Gummadon (The Knight's Of Gummadoon) (fragmento en castellano)",
+      "duration_raw": "23:07",
+      "season_number": 3,
+      "episode_number": 12,
+      "views": 657,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974439361144&type=32&idx=15&tkn=anEKBRgKF7yyxwqU3YOaDubD5pU&fn=external_8"
+    },
+    {
+      "video_id": "2035165432393",
+      "title_raw": "3x08a Chocarren y Yo (MIrthy Me)",
+      "duration_raw": "11:48",
+      "season_number": 3,
+      "episode_number": 13,
+      "views": 509,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974428744312&type=32&idx=9&tkn=AD9J6Es4UcBHzTa1Vm_wSjv0IVQ&fn=external_8"
+    },
+    {
+      "video_id": "2035165301321",
+      "title_raw": "3x08b Mani querida (Gummi Dearest)",
+      "duration_raw": "11:19",
+      "season_number": 3,
+      "episode_number": 14,
+      "views": 616,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974425270904&type=32&idx=13&tkn=n8YmJHcIsHJoYrIZoxvzM-7alT4&fn=external_8"
+    },
+    {
+      "video_id": "2035829770825",
+      "title_raw": "4x01 Los 7 magníficos gummis (The Magnificent Seven Gummies)",
+      "duration_raw": "22:57",
+      "season_number": 4,
+      "episode_number": 1,
+      "views": 835,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974413933176&type=32&idx=15&tkn=TbO0SJ6nUdIERmZ_nSSexCyJiU4&fn=external_8"
+    },
+    {
+      "video_id": "2035829049929",
+      "title_raw": "4X02a La música tiene su encanto (Music Hath Charms)",
+      "duration_raw": "11:44",
+      "season_number": 4,
+      "episode_number": 2,
+      "views": 571,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974405151352&type=32&idx=5&tkn=pi44rj_NwSfQz9o_eGigzdMWuXk&fn=external_8"
+    },
+    {
+      "video_id": "2035829901897",
+      "title_raw": "4X02b El hábito hace al gommi (Dress For Success)",
+      "duration_raw": "11:15",
+      "season_number": 4,
+      "episode_number": 3,
+      "views": 530,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974402595448&type=32&idx=14&tkn=KqPVmd-dahlMruJyxwYBLif2zyA&fn=external_8"
+    },
+    {
+      "video_id": "2035829115465",
+      "title_raw": "4X03a Caballero inolvidable (A Knight To Remember)",
+      "duration_raw": "11:43",
+      "season_number": 4,
+      "episode_number": 4,
+      "views": 550,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974398990968&type=32&idx=8&tkn=zdFFvLk2g8czeHEMtIlCgXt0zaE&fn=external_8"
+    },
+    {
+      "video_id": "2035830032969",
+      "title_raw": "4X03b Los Gomis solo quieren divertirse (Gummi's Just Want To Have Fun)",
+      "duration_raw": "11:16",
+      "season_number": 4,
+      "episode_number": 5,
+      "views": 481,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974395452024&type=32&idx=3&tkn=iJudzW-a3JFcnaxxJ-p3XrS59nM&fn=external_8"
+    },
+    {
+      "video_id": "2035829967433",
+      "title_raw": "4x04a Hogar dulce hogar (There's No Place Like Home)",
+      "duration_raw": "11:44",
+      "season_number": 4,
+      "episode_number": 6,
+      "views": 494,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974391061112&type=32&idx=4&tkn=udOF3ttQQnM_Y2TKvvYVx6Pw2YM&fn=external_8"
+    },
+    {
+      "video_id": "2035829181001",
+      "title_raw": "4x04b El artista (Color Me Gummi)",
+      "duration_raw": "11:17",
+      "season_number": 4,
+      "episode_number": 7,
+      "views": 535,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974386539128&type=32&idx=15&tkn=5NpshrU5ia1by_vdABRlX6qOnOI&fn=external_8"
+    },
+    {
+      "video_id": "2035829574217",
+      "title_raw": "4x05 Quien rie el último (He Who Laugh's Last)",
+      "duration_raw": "23:06",
+      "season_number": 4,
+      "episode_number": 8,
+      "views": 688,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974382279288&type=32&idx=2&tkn=jN7VPv9Xt3qe_JBjs1rLR5vA2N8&fn=external_8"
+    },
+    {
+      "video_id": "2035829312073",
+      "title_raw": "4x06a La última batalla de Tomi (Tummi's Last Stand)",
+      "duration_raw": "11:39",
+      "season_number": 4,
+      "episode_number": 9,
+      "views": 477,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974375725688&type=32&idx=15&tkn=TyFf7uC_iyB62XVFI1986vHNvr0&fn=external_8"
+    },
+    {
+      "video_id": "2035829836361",
+      "title_raw": "4x06b El Vengador Escarlata (The Crimson Avenger Strikes Again)",
+      "duration_raw": "11:15",
+      "season_number": 4,
+      "episode_number": 10,
+      "views": 480,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974370089592&type=32&idx=7&tkn=_jWnyiw9vvfATqjCb6aWG_RyM0g&fn=external_8"
+    },
+    {
+      "video_id": "2035829377609",
+      "title_raw": "4x07a Explosión sapográfica (Ogre Baby Boom)",
+      "duration_raw": "11:34",
+      "season_number": 4,
+      "episode_number": 11,
+      "views": 477,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974366222968&type=32&idx=10&tkn=-mIwiGeM65732QwwyuzwfB-4BkE&fn=external_8"
+    },
+    {
+      "video_id": "2035829508681",
+      "title_raw": "4x07b El caballero blanco (The White Knight)",
+      "duration_raw": "11:06",
+      "season_number": 4,
+      "episode_number": 12,
+      "views": 618,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974358948472&type=32&idx=5&tkn=jUL1y1eRndy1S3fqVIPbjfoQRTg&fn=external_8"
+    },
+    {
+      "video_id": "2035829705289",
+      "title_raw": "4x08a Gummi el buen vecino (Good Neighbor Gummi)",
+      "duration_raw": "11:58",
+      "season_number": 4,
+      "episode_number": 13,
+      "views": 509,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974356523640&type=32&idx=7&tkn=4ZxhqW6h1COst2GNKbpClNi3t8k&fn=external_8"
+    },
+    {
+      "video_id": "2035829443145",
+      "title_raw": "4x08b El caballero misterioso (Girl's Knight Out)",
+      "duration_raw": "11:12",
+      "season_number": 4,
+      "episode_number": 14,
+      "views": 502,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974352984696&type=32&idx=4&tkn=06aCn-wZMLKY447woaqYc_oxyxE&fn=external_8"
+    },
+    {
+      "video_id": "2035829246537",
+      "title_raw": "4x09 El piloto (Top Gum) (preview en castellano)",
+      "duration_raw": "23:11",
+      "season_number": 4,
+      "episode_number": 15,
+      "views": 581,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974346955384&type=32&idx=6&tkn=1Lt9fyQanjgs8B4fBkVA56ojbXk&fn=external_8"
+    },
+    {
+      "video_id": "2035829639753",
+      "title_raw": "4x10 Gumis marineros (Gummi's At Sea) (preview castellano)",
+      "duration_raw": "23:07",
+      "season_number": 4,
+      "episode_number": 16,
+      "views": 530,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974335945336&type=32&idx=8&tkn=Q0PNVW49lQ5j3YdHOLOzLs_eqYA&fn=external_8"
+    },
+    {
+      "video_id": "2035830426185",
+      "title_raw": "5x01 El camino a Ursalia (The Road To Ursalia)",
+      "duration_raw": "23:02",
+      "season_number": 5,
+      "episode_number": 1,
+      "views": 631,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974302784120&type=32&idx=1&tkn=8HilTPgv0APwoxO42TPXKXEXI-I&fn=external_8"
+    },
+    {
+      "video_id": "2035830688329",
+      "title_raw": "5x02a Un Gumi al dia Ahuyenta al Medico (A Gummi A Day Keeps The Doctor Away)",
+      "duration_raw": "11:47",
+      "season_number": 5,
+      "episode_number": 2,
+      "views": 524,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974283188856&type=32&idx=15&tkn=O2HNJhOw2r7UDjxqrzYeZzPehD0&fn=external_8"
+    },
+    {
+      "video_id": "2035830557257",
+      "title_raw": "5x02b Cuidado con el gigante (Let Sleeping Giants Lie)",
+      "duration_raw": "11:19",
+      "season_number": 5,
+      "episode_number": 3,
+      "views": 521,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974276307576&type=32&idx=3&tkn=BDrqoFFKf6cyfNBKTPcxh96x3PM&fn=external_8"
+    },
+    {
+      "video_id": "2035830819401",
+      "title_raw": "5x03a El gran puente gomi (Bridge On The River Gummi)",
+      "duration_raw": "11:47",
+      "season_number": 5,
+      "episode_number": 4,
+      "views": 490,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974264773240&type=32&idx=3&tkn=5_e2rowVa3xBY3UoLBngB4HlHa4&fn=external_8"
+    },
+    {
+      "video_id": "2035830950473",
+      "title_raw": "5x03b El alae de la fiesta (Life Of The Party)",
+      "duration_raw": "11:19",
+      "season_number": 5,
+      "episode_number": 5,
+      "views": 525,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974254680696&type=32&idx=7&tkn=mzrHlbD77s37KAGDTSXgjRNgn5I&fn=external_8"
+    },
+    {
+      "video_id": "2035831081545",
+      "title_raw": "5x04a Mi reino por un pastel (My Kingdom for a Pie)",
+      "duration_raw": "11:47",
+      "season_number": 5,
+      "episode_number": 6,
+      "views": 475,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974243015288&type=32&idx=5&tkn=rJSJ5fgZnW2O3OCoVs5te0c_Fvw&fn=external_8"
+    },
+    {
+      "video_id": "2035830884937",
+      "title_raw": "5x04b El Mundo de Gusto (The World According To Gusto)",
+      "duration_raw": "11:17",
+      "season_number": 5,
+      "episode_number": 7,
+      "views": 476,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974232595064&type=32&idx=3&tkn=9U7v7m1-8ArvWbwZ2Bn9WVulK0k&fn=external_8"
+    },
+    {
+      "video_id": "2035831016009",
+      "title_raw": "5x05 Ogro por un día (Ogre For A Day)",
+      "duration_raw": "23:04",
+      "season_number": 5,
+      "episode_number": 8,
+      "views": 476,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974222699128&type=32&idx=2&tkn=FFHOMdGec_1LW8lSaZ_DWxnRzhg&fn=external_8"
+    },
+    {
+      "video_id": "2035831147081",
+      "title_raw": "5x06a Problemas reales (Princess Problems)",
+      "duration_raw": "11:48",
+      "season_number": 5,
+      "episode_number": 9,
+      "views": 491,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974202972792&type=32&idx=11&tkn=D1Ox9sT_O7OwTVcd7HK_Ycd8B9w&fn=external_8"
+    },
+    {
+      "video_id": "2035830753865",
+      "title_raw": "5x06b El gummi es el mejor amigo (A Gummi Is A Gummi's Best Friend)",
+      "duration_raw": "11:18",
+      "season_number": 5,
+      "episode_number": 10,
+      "views": 472,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974189275768&type=32&idx=2&tkn=lr-4pZUzP576Ouf79Wz3Z560Nbs&fn=external_8"
+    },
+    {
+      "video_id": "2035830622793",
+      "title_raw": "5x07 Las joyas de la corona (Beg, Burrow And Steal)",
+      "duration_raw": "23:04",
+      "season_number": 5,
+      "episode_number": 11,
+      "views": 488,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974178003576&type=32&idx=10&tkn=RvqRbfxm6WHvzphD9Y4Ntz3SxbQ&fn=external_8"
+    },
+    {
+      "video_id": "2035830491721",
+      "title_raw": "5x08 Regreso a Ursalia (Return To Ursalia)",
+      "duration_raw": "22:55",
+      "season_number": 5,
+      "episode_number": 12,
+      "views": 593,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974151133816&type=32&idx=4&tkn=R8XBe9E9aylCz_9DG_erU1TRDNI&fn=external_8"
+    },
+    {
+      "video_id": "2036161317449",
+      "title_raw": "6x01 El trabajo de un gummi no acaba nunca (A Gummi's Work Is Never Done)",
+      "duration_raw": "22:45",
+      "season_number": 6,
+      "episode_number": 1,
+      "views": 825,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974103095928&type=32&idx=13&tkn=MkmPVBIn9899ykaiS2SnCNhjAaU&fn=external_8"
+    },
+    {
+      "video_id": "2036160465481",
+      "title_raw": "6x02a Fray Tummy (Friar Tum)",
+      "duration_raw": "11:36",
+      "season_number": 6,
+      "episode_number": 2,
+      "views": 473,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974080420472&type=32&idx=15&tkn=QxGnOMuyOPAL8q-gqOiqUBDB5kk&fn=external_8"
+    },
+    {
+      "video_id": "2036161055305",
+      "title_raw": "6x02b Nunca des a un gummi una oportunidad (Never Give A Gummi An Even Break)",
+      "duration_raw": "11:14",
+      "season_number": 6,
+      "episode_number": 3,
+      "views": 559,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974070983288&type=32&idx=10&tkn=x7eE1PjawSDMqexjwTDwoStC7h4&fn=external_8"
+    },
+    {
+      "video_id": "2036160727625",
+      "title_raw": "6x03 La Justa de Tuxford (Tuxford's Turnaround)",
+      "duration_raw": "22:41",
+      "season_number": 6,
+      "episode_number": 4,
+      "views": 480,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974065216120&type=32&idx=9&tkn=YyYuxp9tY0-32MoD8vJj4-GPzSs&fn=external_8"
+    },
+    {
+      "video_id": "2036161186377",
+      "title_raw": "6x04 Sapo el conquistador (Toadie the conqueror)",
+      "duration_raw": "22:38",
+      "season_number": 6,
+      "episode_number": 5,
+      "views": 480,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6974025239160&type=32&idx=14&tkn=crZhuNkVJcapBVPHFXEsv0oZv9s&fn=external_8"
+    },
+    {
+      "video_id": "2036160531017",
+      "title_raw": "6X05a Zumi sonámbulo (Zummi In Slumberland)",
+      "duration_raw": "11:34",
+      "season_number": 6,
+      "episode_number": 6,
+      "views": 472,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6973998238328&type=32&idx=9&tkn=kfmZFJYjhxIO_V51PK6ylHOEYU0&fn=external_8"
+    },
+    {
+      "video_id": "2036160858697",
+      "title_raw": "6x05b Problemas en la cocina (A Recipe For Trouble)",
+      "duration_raw": "11:08",
+      "season_number": 6,
+      "episode_number": 7,
+      "views": 461,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6973990177400&type=32&idx=8&tkn=BtSqpCEUzPbCcMsoZWDo5i8hieg&fn=external_8"
+    },
+    {
+      "video_id": "2036161448521",
+      "title_raw": "6x06 Mosaico Gummi (Patchwork Gummi)",
+      "duration_raw": "22:44",
+      "season_number": 6,
+      "episode_number": 8,
+      "views": 478,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6973979298424&type=32&idx=4&tkn=VLMPxazmTPdrtP5iaCBwKCtgTIY&fn=external_8"
+    },
+    {
+      "video_id": "2036161645129",
+      "title_raw": "6x07 Sir Thornberry al Rescate (Thornberry to the rescue)",
+      "duration_raw": "21:40",
+      "season_number": 6,
+      "episode_number": 9,
+      "views": 491,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6973957671544&type=32&idx=7&tkn=q7511Vrribhvm8icaG_86KpeLss&fn=external_8"
+    },
+    {
+      "video_id": "2036160334409",
+      "title_raw": "6x08 Una vez más el vengador escarlata (Once More The Crimson Avenger)",
+      "duration_raw": "22:42",
+      "season_number": 6,
+      "episode_number": 10,
+      "views": 519,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6973930211960&type=32&idx=11&tkn=-6T9EhVBcZQSmZfAlTYUuoi3hdo&fn=external_8"
+    },
+    {
+      "video_id": "2036161514057",
+      "title_raw": "6x09 La Reina de los Carpis (Queen of The Carpies comp)",
+      "duration_raw": "21:48",
+      "season_number": 6,
+      "episode_number": 11,
+      "views": 485,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6973907995256&type=32&idx=1&tkn=AHnn1PPQwOHzftyikJdsV1ExuFo&fn=external_8"
+    },
+    {
+      "video_id": "2036161382985",
+      "title_raw": "6x10 El autentico Gritty (True Gritty)",
+      "duration_raw": "22:46",
+      "season_number": 6,
+      "episode_number": 12,
+      "views": 570,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6973882632824&type=32&idx=1&tkn=0dUApwuv1n8qipGV-X3i175KFb0&fn=external_8"
+    },
+    {
+      "video_id": "2036160596553",
+      "title_raw": "6x11 Rey Igthorn - Parte 1 (King Igthorn Part-1)",
+      "duration_raw": "22:44",
+      "season_number": 6,
+      "episode_number": 13,
+      "views": 675,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6973862513272&type=32&idx=5&tkn=BQv0WiaThq-Hhhg7MWa8VUReQAM&fn=external_8"
+    },
+    {
+      "video_id": "2036161710665",
+      "title_raw": "6x12 Rey Igthorn - Parte 2 (King Igthorn Part-2)",
+      "duration_raw": "22:47",
+      "season_number": 6,
+      "episode_number": 14,
+      "views": 561,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6973836298872&type=32&idx=3&tkn=uSNnauPi1qbdPF1M-Wu03ICovJ8&fn=external_8"
+    },
+    {
+      "video_id": "2036161120841",
+      "title_raw": "6x13 Que bonito el amor (Tummi Trouble)",
+      "duration_raw": "22:46",
+      "season_number": 6,
+      "episode_number": 15,
+      "views": 803,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6973803596408&type=32&idx=2&tkn=HpGVW7gkFhBwOuKK_GEnyNHO2PU&fn=external_8"
+    },
+    {
+      "video_id": "2036161579593",
+      "title_raw": "6x14 El Hechizo De La Eterna Gummitud (Rocking Chair Bear)",
+      "duration_raw": "22:33",
+      "season_number": 6,
+      "episode_number": 16,
+      "views": 669,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6973763291768&type=32&idx=12&tkn=4HCVfDsql3rLX0cKEGsvVlouMYQ&fn=external_8"
+    },
+    {
+      "video_id": "2036160924233",
+      "title_raw": "6x15 Cambiar de cara (Trading Faces)",
+      "duration_raw": "22:45",
+      "season_number": 6,
+      "episode_number": 17,
+      "views": 486,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6973734521464&type=32&idx=5&tkn=AouiTgIOs-Elae45HRSfc7qXcLE&fn=external_8"
+    },
+    {
+      "video_id": "2036160399945",
+      "title_raw": "6x16 Que gane la mejor (May the Best Princess Win)",
+      "duration_raw": "22:44",
+      "season_number": 6,
+      "episode_number": 18,
+      "views": 619,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6973700377208&type=32&idx=1&tkn=jNsu92hKj9YoEmsfT3XwDAxfVYk&fn=external_8"
+    },
+    {
+      "video_id": "2036161251913",
+      "title_raw": "6x17 Alas sobre Dunwyn (Wings Over Dunwyn)",
+      "duration_raw": "22:41",
+      "season_number": 6,
+      "episode_number": 19,
+      "views": 493,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6973660334712&type=32&idx=6&tkn=P_TR4H4wl-CSrgGMx-Tzpv1rUFk&fn=external_8"
+    },
+    {
+      "video_id": "2036160793161",
+      "title_raw": "6x18 La prueba (The Rite Stuff)",
+      "duration_raw": "22:45",
+      "season_number": 6,
+      "episode_number": 20,
+      "views": 945,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6973642246776&type=32&idx=5&tkn=SS4wKnozj9XGE1HqpT_MFQ1rgRQ&fn=external_8"
+    }
+  ]
+}

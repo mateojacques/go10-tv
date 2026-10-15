@@ -1,0 +1,601 @@
+{
+  "title": "La Patrulla Galáctica",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c3366985",
+  "year": "1986",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Ciencia Ficción",
+  "videos": [
+    {
+      "video_id": "1824172673609",
+      "title_raw": "01 Phoenix",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 12354,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809503754825&type=32&idx=3&tkn=C18ZIlUeAoeXNwCqZXO3cfHxrYM&fn=external_8"
+    },
+    {
+      "video_id": "1824173722185",
+      "title_raw": "02 Nueva frontera",
+      "duration_raw": "22:38",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 2839,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809543600713&type=32&idx=4&tkn=5_b7z0lXr8PlXXdiyrm0lQWvxtY&fn=external_8"
+    },
+    {
+      "video_id": "1824173787721",
+      "title_raw": "03 Tortuna",
+      "duration_raw": "22:43",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1451,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809546353225&type=32&idx=2&tkn=KRA5e3yseX8OqSOzOnbxlhNf9vY&fn=external_8"
+    },
+    {
+      "video_id": "1824172804681",
+      "title_raw": "04 Encadenado",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1055,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809511357001&type=32&idx=7&tkn=4ji0i7b6uiVTr3-F2Z31faGW8eg&fn=external_8"
+    },
+    {
+      "video_id": "1824173001289",
+      "title_raw": "05 La carrera del contrabandista",
+      "duration_raw": "22:43",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 901,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809516665417&type=32&idx=13&tkn=A6JUmoCivkx5fv2lGA7gdMX-rRc&fn=external_8"
+    },
+    {
+      "video_id": "1824172280393",
+      "title_raw": "06 Mistwalker",
+      "duration_raw": "22:44",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 717,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809487501897&type=32&idx=0&tkn=cdhwXLUsfBF7MGoG74Dls2mzaAg&fn=external_8"
+    },
+    {
+      "video_id": "1824172608073",
+      "title_raw": "07 Widfire",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 722,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809500871241&type=32&idx=4&tkn=JZxoLak4byBAEF1ux5fkv8tz48E&fn=external_8"
+    },
+    {
+      "video_id": "1824173853257",
+      "title_raw": "08 La estacion fantasma",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 736,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809549498953&type=32&idx=0&tkn=85AUxy_G-lUfKwrhcAW2BQA7Lxo&fn=external_8"
+    },
+    {
+      "video_id": "1824173263433",
+      "title_raw": "09 Un millon de emociones",
+      "duration_raw": "22:43",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 567,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809528658505&type=32&idx=11&tkn=q_6VDbTsqxacYKMyEINa8AMRnuo&fn=external_8"
+    },
+    {
+      "video_id": "1824172411465",
+      "title_raw": "10 Traash",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 549,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809493203529&type=32&idx=1&tkn=OwHJ-Phx8a1H8TqVTi18AFBLMDg&fn=external_8"
+    },
+    {
+      "video_id": "1824173132361",
+      "title_raw": "11 La malla psiquica",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 553,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809522367049&type=32&idx=3&tkn=y6mofZxC8CqqNgRq37LJVIjccc0&fn=external_8"
+    },
+    {
+      "video_id": "1824173394505",
+      "title_raw": "12 Puesta a punto",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 455,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809531017801&type=32&idx=11&tkn=8w3Q6TPlmR7P39gVwKIFRf6jUYQ&fn=external_8"
+    },
+    {
+      "video_id": "1824173197897",
+      "title_raw": "13 El brujo del espacio",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 458,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809525381705&type=32&idx=2&tkn=dWlMOmQ3XtpLLxM4OtPSVAqKFcw&fn=external_8"
+    },
+    {
+      "video_id": "1824172477001",
+      "title_raw": "14 Progreso",
+      "duration_raw": "22:43",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 398,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809495759433&type=32&idx=13&tkn=4Fjsz4O5d1jOB3Gxu-UQDw6_vAQ&fn=external_8"
+    },
+    {
+      "video_id": "1824172214857",
+      "title_raw": "15 La guarida de la Reina",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 478,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809484814921&type=32&idx=0&tkn=-jf4HM0GfsHQyIrKG_gDTCtmzww&fn=external_8"
+    },
+    {
+      "video_id": "1824174115401",
+      "title_raw": "16 Ax",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 416,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809561557577&type=32&idx=3&tkn=AP1lx94iEjzXONQ0XLSiutIoy_Q&fn=external_8"
+    },
+    {
+      "video_id": "1824172083785",
+      "title_raw": "17 El planeta tembloroso",
+      "duration_raw": "22:43",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 382,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809479178825&type=32&idx=6&tkn=dRQeMZMQ_tayTbtlyMD55GviSuc&fn=external_8"
+    },
+    {
+      "video_id": "1824173525577",
+      "title_raw": "18 La ballena espacial",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 505,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809535867465&type=32&idx=0&tkn=sU1Pv88Ve1F8QSMwFmHgS03Vzm4&fn=external_8"
+    },
+    {
+      "video_id": "1824174049865",
+      "title_raw": "19 Espantapajaros",
+      "duration_raw": "22:35",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 456,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809557494345&type=32&idx=8&tkn=znqasLzIjv9CR8VAWn2Sil10l4E&fn=external_8"
+    },
+    {
+      "video_id": "1824173460041",
+      "title_raw": "20 El poder interior",
+      "duration_raw": "22:44",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 435,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809533639241&type=32&idx=2&tkn=05a3SlhKCPt8UxpMCCoeflfzAdA&fn=external_8"
+    },
+    {
+      "video_id": "1824172018249",
+      "title_raw": "21 Los juegos",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 395,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809476229705&type=32&idx=10&tkn=87hhDxqyDGcawFQVpfhFMXmYjd4&fn=external_8"
+    },
+    {
+      "video_id": "1824173918793",
+      "title_raw": "22 La funcion va a comenzar",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 340,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809552579145&type=32&idx=11&tkn=JvrdZ8tLmA_oThDa9VDI3bNjtys&fn=external_8"
+    },
+    {
+      "video_id": "1824172345929",
+      "title_raw": "23 PhicoCrypto",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 366,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809491171913&type=32&idx=8&tkn=W7kn6bwMn9c-0UXQ70Tnu5eAo9o&fn=external_8"
+    },
+    {
+      "video_id": "1824172149321",
+      "title_raw": "24 En el limite de la oscuridad",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 547,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809481800265&type=32&idx=2&tkn=nKhSW3ZZDIPWhejTlp3v4csSODQ&fn=external_8"
+    },
+    {
+      "video_id": "1824173656649",
+      "title_raw": "25 Los patrulleros renegados",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 412,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809541503561&type=32&idx=13&tkn=uT5lvRqKgpcqbPZcqz3vyHsaJJw&fn=external_8"
+    },
+    {
+      "video_id": "1824172739145",
+      "title_raw": "26 Los generosos Kiwi",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 317,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809507359305&type=32&idx=0&tkn=pt-aT4nj3pQtyZYASbcX11ZsSaI&fn=external_8"
+    },
+    {
+      "video_id": "1824172935753",
+      "title_raw": "27 La Armada",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 390,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809514437193&type=32&idx=5&tkn=upJDziOgvBNlrftMzY4Q6eUYJQc&fn=external_8"
+    },
+    {
+      "video_id": "1824172542537",
+      "title_raw": "28 Pajaros del mismo plumaje",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 327,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809498380873&type=32&idx=10&tkn=p1RppJ5L9NMMVIQ9MKE9Jor45vs&fn=external_8"
+    },
+    {
+      "video_id": "1824173066825",
+      "title_raw": "29 La puerta del Universo",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 362,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809519352393&type=32&idx=1&tkn=gyOwP0-BB8ozeuN1Z2Hx9aoEdCI&fn=external_8"
+    },
+    {
+      "video_id": "1824173591113",
+      "title_raw": "30 Las locuras de BuzzWong",
+      "duration_raw": "22:38",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 350,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809538488905&type=32&idx=11&tkn=rOL3E3m71fx-TSE7Z7giAMv2cSc&fn=external_8"
+    },
+    {
+      "video_id": "1824337496649",
+      "title_raw": "31 El corazon de Tarkon",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 341,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809631681097&type=32&idx=6&tkn=5-PPtS1NmVhw8aBoizjD_ZYOQp0&fn=external_8"
+    },
+    {
+      "video_id": "1824338217545",
+      "title_raw": "32 Asesinato en el expreso Andoriano",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 472,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809656388169&type=32&idx=3&tkn=AV_5ofAWxXbAUsI0Nuifarhj-ig&fn=external_8"
+    },
+    {
+      "video_id": "1824335858249",
+      "title_raw": "33 La dama de la Luz",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 1668,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809581283913&type=32&idx=12&tkn=HioYaOt1NUuY1qzf3rKydPz0bQo&fn=external_8"
+    },
+    {
+      "video_id": "1824335989321",
+      "title_raw": "34 El Alce Mariposa",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 309,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809588296265&type=32&idx=8&tkn=8YTnOTQY7lOWqy14arHl5BKQqMc&fn=external_8"
+    },
+    {
+      "video_id": "1824336710217",
+      "title_raw": "35 Equilibrio Natural",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 305,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809613855305&type=32&idx=9&tkn=6AnRza7hKW9XRja5KJreppphkUo&fn=external_8"
+    },
+    {
+      "video_id": "1824338086473",
+      "title_raw": "36 La venganza del espantapajaros",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 355,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809652128329&type=32&idx=0&tkn=vWU1u1hFdreUV5V5OLxsFKDpFGk&fn=external_8"
+    },
+    {
+      "video_id": "1824335923785",
+      "title_raw": "37 Lobos con piel de cordero",
+      "duration_raw": "22:38",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 342,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809585478217&type=32&idx=5&tkn=ZvRvRNRuNEVyGKETo328VFKDXvY&fn=external_8"
+    },
+    {
+      "video_id": "1824336185929",
+      "title_raw": "38 Los arboles de Marshmallow",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 304,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809598257737&type=32&idx=10&tkn=OBhxN-goAAveDIAxquBD5NvjQcQ&fn=external_8"
+    },
+    {
+      "video_id": "1824336054857",
+      "title_raw": "39 El duelo",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 351,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809591769673&type=32&idx=3&tkn=2-6lHvFa05TBUKK-My5uojUACGc&fn=external_8"
+    },
+    {
+      "video_id": "1824338020937",
+      "title_raw": "40 el oso Bronto",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 304,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809648982601&type=32&idx=10&tkn=usnie6o5IiX0ZEOylPtTKwi8N8I&fn=external_8"
+    },
+    {
+      "video_id": "1824336120393",
+      "title_raw": "41 Invasion",
+      "duration_raw": "22:29",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 338,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809595243081&type=32&idx=8&tkn=qLLPQnyDJaGlD5tJPT7u8HtIU6o&fn=external_8"
+    },
+    {
+      "video_id": "1824337037897",
+      "title_raw": "42 El brazo malvado",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 318,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809621523017&type=32&idx=10&tkn=JMTR_q85Lq_SsXVvOKisYkF2EcA&fn=external_8"
+    },
+    {
+      "video_id": "1824337562185",
+      "title_raw": "43 Rodeo",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 334,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809634433609&type=32&idx=3&tkn=7rCU97V5pjGSyGnkpQ-WNySwmLo&fn=external_8"
+    },
+    {
+      "video_id": "1824336579145",
+      "title_raw": "44 Ases y monos",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 44,
+      "views": 312,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809610381897&type=32&idx=5&tkn=J50UBgAtU_cV3u4RTIONF-_XTwY&fn=external_8"
+    },
+    {
+      "video_id": "1824336448073",
+      "title_raw": "45 La placa del poder",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 322,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809606842953&type=32&idx=4&tkn=bwams3G6G54nkP0O1Q4IJYuG_RY&fn=external_8"
+    },
+    {
+      "video_id": "1824336251465",
+      "title_raw": "46 Boomtown",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 46,
+      "views": 307,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809600092745&type=32&idx=12&tkn=BTvBiJuQezgvSfjIbEzOgPci-fQ&fn=external_8"
+    },
+    {
+      "video_id": "1824337627721",
+      "title_raw": "47 SuperTroopers",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 47,
+      "views": 363,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809635940937&type=32&idx=0&tkn=UsIagqWxmUlrm6hWXZh4wxtggMA&fn=external_8"
+    },
+    {
+      "video_id": "1824337955401",
+      "title_raw": "48 Forastero Galactico",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 48,
+      "views": 338,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809645967945&type=32&idx=13&tkn=Xeis6I0QJxILdrYH7uKPkkl8FEg&fn=external_8"
+    },
+    {
+      "video_id": "1824336317001",
+      "title_raw": "49 El Sr de las Arenas",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 49,
+      "views": 328,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809602058825&type=32&idx=9&tkn=LfewYMjROv24rDU1b9g959BqgHI&fn=external_8"
+    },
+    {
+      "video_id": "1824337365577",
+      "title_raw": "50 El suplantador",
+      "duration_raw": "22:38",
+      "season_number": 1,
+      "episode_number": 50,
+      "views": 331,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809629518409&type=32&idx=6&tkn=-HUAnzCwxgIcT-kP1Er_LTCHP2w&fn=external_8"
+    },
+    {
+      "video_id": "1824338152009",
+      "title_raw": "51 La tierra prometida",
+      "duration_raw": "23:11",
+      "season_number": 1,
+      "episode_number": 51,
+      "views": 339,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809653766729&type=32&idx=1&tkn=e1lE2r1PxZ0ek7Ifll9xQ8AH6Zk&fn=external_8"
+    },
+    {
+      "video_id": "1824337889865",
+      "title_raw": "52 Carrera hacia el oeste",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 52,
+      "views": 325,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809644001865&type=32&idx=2&tkn=OkO6LJg2pk26n1Te6cxfIYDHppI&fn=external_8"
+    },
+    {
+      "video_id": "1824337758793",
+      "title_raw": "53 El hacedor de lluvia",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 53,
+      "views": 304,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809640004169&type=32&idx=10&tkn=ClekEnrwapKhKUwpkO7tf4OVhFQ&fn=external_8"
+    },
+    {
+      "video_id": "1824337168969",
+      "title_raw": "54 Duelo de bandas",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 54,
+      "views": 326,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809624144457&type=32&idx=9&tkn=2LflOM-xQB4MTLzy48lctHA5K38&fn=external_8"
+    },
+    {
+      "video_id": "1824337300041",
+      "title_raw": "55 Rusty y los muchachos",
+      "duration_raw": "22:44",
+      "season_number": 1,
+      "episode_number": 55,
+      "views": 312,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809627814473&type=32&idx=8&tkn=dAVaqUrP0aPRRyu2Y6xLoR5KQBk&fn=external_8"
+    },
+    {
+      "video_id": "1824337234505",
+      "title_raw": "56 Peligro en Texton",
+      "duration_raw": "22:38",
+      "season_number": 1,
+      "episode_number": 56,
+      "views": 335,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809626372681&type=32&idx=0&tkn=ZCAx9XFhbEuelYlGZCbkd11ysfM&fn=external_8"
+    },
+    {
+      "video_id": "1824337824329",
+      "title_raw": "57 El Dios Caballo",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 57,
+      "views": 324,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809641839177&type=32&idx=3&tkn=-bYI0xDC9ao4JvWJtEm_D_1k8YU&fn=external_8"
+    },
+    {
+      "video_id": "1824336775753",
+      "title_raw": "58 Ariel",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 58,
+      "views": 336,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809615690313&type=32&idx=11&tkn=x28DvJ_kC0PLEY0ZVRBhJmTfhdU&fn=external_8"
+    },
+    {
+      "video_id": "1824337103433",
+      "title_raw": "59 Don Quijote Cody",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 59,
+      "views": 332,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809622637129&type=32&idx=9&tkn=cg4XpAjXy7Dy_5eynLxOvSGfiP8&fn=external_8"
+    },
+    {
+      "video_id": "1824336841289",
+      "title_raw": "60 El rock de Tortuna",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 60,
+      "views": 310,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809617263177&type=32&idx=13&tkn=WaGiUTuubQPCPKzE1M-MYCXpDz0&fn=external_8"
+    },
+    {
+      "video_id": "1824336644681",
+      "title_raw": "61 Hierro y fuego",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 61,
+      "views": 315,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809611692617&type=32&idx=13&tkn=9pFSWcYJBYBX7Ft6WegZmmabs14&fn=external_8"
+    },
+    {
+      "video_id": "1824337693257",
+      "title_raw": "62 La torre de combate",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 62,
+      "views": 334,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809638103625&type=32&idx=1&tkn=K3q4UaTH9GvPAfsszxSDL2_ITgI&fn=external_8"
+    },
+    {
+      "video_id": "1824336513609",
+      "title_raw": "63 Regalo de vida",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 63,
+      "views": 326,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809608415817&type=32&idx=0&tkn=FGjFViGaKxtis2zSpK13EtCYuUo&fn=external_8"
+    },
+    {
+      "video_id": "1824336382537",
+      "title_raw": "64 Sundancer",
+      "duration_raw": "22:38",
+      "season_number": 1,
+      "episode_number": 64,
+      "views": 337,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809603762761&type=32&idx=10&tkn=v_fwnWnCQlMII01qXm7NBmcaJbY&fn=external_8"
+    },
+    {
+      "video_id": "1824336972361",
+      "title_raw": "65 Pulso vital",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 65,
+      "views": 797,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=809618573897&type=32&idx=9&tkn=Wimt8_gSkIB1osWozwGwny1ctzk&fn=external_8"
+    }
+  ]
+}

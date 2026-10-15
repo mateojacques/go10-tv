@@ -1,0 +1,367 @@
+{
+  "title": "Animal Crackers",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c5855049",
+  "year": "1997",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "3372207966793",
+      "title_raw": "01",
+      "duration_raw": "24:33",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 2803,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2128500361801&type=32&idx=3&tkn=JOl3Tr4WA4uYkSngkIr4G0G64hY&fn=external_8"
+    },
+    {
+      "video_id": "3299564718665",
+      "title_raw": "S01E02 - Un Regalo Prehistórico  Entrenamiento Selvático",
+      "duration_raw": "23:34",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 789,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048354159177&type=32&idx=13&tkn=e69OrusG8HeweJxKNJ36aEX-PoA&fn=external_8"
+    },
+    {
+      "video_id": "3299563801161",
+      "title_raw": "S01E03 - El Tesoro De La Selva Nacandona  Llamada Telefónica",
+      "duration_raw": "23:35",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 494,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048213125705&type=32&idx=9&tkn=1yjAznoYnEjdyvRqvTZf4zsY0aQ&fn=external_8"
+    },
+    {
+      "video_id": "3299565177417",
+      "title_raw": "S01E04 - No Seas Venenosilla  Mi Suegra Llegó",
+      "duration_raw": "23:34",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 383,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048422447689&type=32&idx=4&tkn=JbhV89kW5QaH5Q-Lyh3IYx8DLFE&fn=external_8"
+    },
+    {
+      "video_id": "3299565046345",
+      "title_raw": "S01E05 - Si Les Tienes Miedo, Únete a Ellos  Fiebre De Primavera",
+      "duration_raw": "23:33",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 338,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048399837769&type=32&idx=15&tkn=zAf1sqpQZ4BLkU2F5JRN2jUzvNA&fn=external_8"
+    },
+    {
+      "video_id": "3326168468041",
+      "title_raw": "S01E06 - Pandemonio Paquidermo  Mentalidad De Manada",
+      "duration_raw": "23:34",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 297,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2075087997513&type=32&idx=8&tkn=g1JYvYtGCYR_q5k1YnVgViu0HA0&fn=external_8"
+    },
+    {
+      "video_id": "3299565439561",
+      "title_raw": "S01E07 - El Pato Dodo  Fiasco De Película",
+      "duration_raw": "23:34",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 295,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048464194121&type=32&idx=5&tkn=2EJAPXpZT4cGr-nFMokC7nTEgFU&fn=external_8"
+    },
+    {
+      "video_id": "3299564784201",
+      "title_raw": "S01E08 - Empacando Maletas  Mamita Querida",
+      "duration_raw": "23:34",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 189,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048361957961&type=32&idx=12&tkn=WD79IEV_bQZEDqEF2uV5htRwNGs&fn=external_8"
+    },
+    {
+      "video_id": "3299565308489",
+      "title_raw": "S01E09 - Sherlock Dodo  Espíritus",
+      "duration_raw": "23:34",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 202,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048442370633&type=32&idx=2&tkn=jjI75OhqNw7tlAa2qFoRL9yWWWo&fn=external_8"
+    },
+    {
+      "video_id": "3299564325449",
+      "title_raw": "S01E10 - El Oráculo Leo  Selva Antártica",
+      "duration_raw": "23:34",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 236,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048269617737&type=32&idx=5&tkn=3keuwxLkXsd9edlGQRzXWO3JU1M&fn=external_8"
+    },
+    {
+      "video_id": "3299564653129",
+      "title_raw": "S01E11 - Svelte Veldt  All the Preserve's a Stage",
+      "duration_raw": "23:34",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 214,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048335022665&type=32&idx=6&tkn=6twhPIiO0uokBNaUsFz8RhFLdZQ&fn=external_8"
+    },
+    {
+      "video_id": "3326168861257",
+      "title_raw": "S01E12 - It's a Date  Woolly for Bully",
+      "duration_raw": "23:34",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 231,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2075112704585&type=32&idx=3&tkn=xS2H_Hzn2oC1zpwQPwMo5OHA7Qg&fn=external_8"
+    },
+    {
+      "video_id": "3299564522057",
+      "title_raw": "S01E13 - Lights! Camera! Lyle!  Bud and Edna's Excellent Adventure!",
+      "duration_raw": "23:34",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 198,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048298453577&type=32&idx=9&tkn=fOc5vh_gD2mxEv7z1Y5OvleBJgE&fn=external_8"
+    },
+    {
+      "video_id": "3299564390985",
+      "title_raw": "S02E14 - A Dormir  Casanova De Primera",
+      "duration_raw": "23:34",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 308,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048280234569&type=32&idx=9&tkn=zgOIZCwPX45HW6vaKMBEcZG8XW4&fn=external_8"
+    },
+    {
+      "video_id": "3299564128841",
+      "title_raw": "S02E15 - El Gran Juego  Leo Guardabosques",
+      "duration_raw": "23:32",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 191,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048253495881&type=32&idx=6&tkn=N1xokzaCPGPAZuQCeOY0Q_tYg4g&fn=external_8"
+    },
+    {
+      "video_id": "3299565636169",
+      "title_raw": "S02E16 - El Arca De Leo  Cómo Ser Millonario",
+      "duration_raw": "23:34",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 217,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048496437833&type=32&idx=15&tkn=b0vHsECqzaiQdovpSB9vqbyqXcw&fn=external_8"
+    },
+    {
+      "video_id": "3299564915273",
+      "title_raw": "S02E17 - Invasión Extraterrestre  Sirviente Por Dos Días",
+      "duration_raw": "23:35",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 188,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048379521609&type=32&idx=8&tkn=ZuyFx3gdR-R9uOdx3fjjgu8jtBg&fn=external_8"
+    },
+    {
+      "video_id": "3299563997769",
+      "title_raw": "S02E18 - Leo El Intrépido  Las Clases De Vuelo",
+      "duration_raw": "23:34",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 169,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048236849737&type=32&idx=15&tkn=4lSM9fqmKH0j4gWHML50kdWiM_U&fn=external_8"
+    },
+    {
+      "video_id": "3299565767241",
+      "title_raw": "S02E19 - Regreso a La Escuela  El Llamado De La Naturaleza",
+      "duration_raw": "23:34",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 192,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048514329161&type=32&idx=11&tkn=RfZ744c44ApldPZrTLxeb0CCx6E&fn=external_8"
+    },
+    {
+      "video_id": "3299565570633",
+      "title_raw": "S02E20 - El Resfriado  El Último Huevo De Dodo",
+      "duration_raw": "23:34",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 189,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048486738505&type=32&idx=12&tkn=hqL2P9aLwgNIptxuwMBuPcGe0iI&fn=external_8"
+    },
+    {
+      "video_id": "3299564587593",
+      "title_raw": "S02E21 - Lana Rompe-Corazones  Confía en Mí",
+      "duration_raw": "23:33",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 178,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048309987913&type=32&idx=9&tkn=-WyKqA-9GSLn7uuWeqrsKLpL_0w&fn=external_8"
+    },
+    {
+      "video_id": "3299563866697",
+      "title_raw": "S02E22 - La Fiesta Sorpresa  Tito Enamorado",
+      "duration_raw": "23:33",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 189,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048221645385&type=32&idx=5&tkn=CDsnbf6WPq8ocmBnOeHirSkhCA8&fn=external_8"
+    },
+    {
+      "video_id": "3299565374025",
+      "title_raw": "S02E23 - Recorte De Personal  La Excursión",
+      "duration_raw": "23:33",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 147,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048452332105&type=32&idx=1&tkn=cTW80FMDF5eGHUj2zJq7N05qg5c&fn=external_8"
+    },
+    {
+      "video_id": "3299565242953",
+      "title_raw": "S02E24 - La Bella Y Eugenio  El Centro Vacacional",
+      "duration_raw": "23:34",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 150,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048431229513&type=32&idx=5&tkn=F3J34KwcUY7qKc3eszgbfqGrCO8&fn=external_8"
+    },
+    {
+      "video_id": "3326168599113",
+      "title_raw": "S02E25 - Horrórscopos",
+      "duration_raw": "23:34",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 153,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2075095861833&type=32&idx=11&tkn=OHnD8ibTxnOjcbJLSjVacxTX40I&fn=external_8"
+    },
+    {
+      "video_id": "3299565963849",
+      "title_raw": "S02E26 - El Primo  Para Eso Son Los Amigos",
+      "duration_raw": "23:34",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 154,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048541592137&type=32&idx=9&tkn=MW76ZMu2RNzjRYUWi8ZQ3trMjmY&fn=external_8"
+    },
+    {
+      "video_id": "3299563932233",
+      "title_raw": "S03E27 - Mira Quien No Habla  Paris, Tierra Salvaje",
+      "duration_raw": "23:34",
+      "season_number": 3,
+      "episode_number": 1,
+      "views": 185,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048229509705&type=32&idx=11&tkn=GGJjLGPuk3vrB4W8-AGgTUaJROg&fn=external_8"
+    },
+    {
+      "video_id": "3299564456521",
+      "title_raw": "S03E28 - Eu-Genio  Eugenio Periodista",
+      "duration_raw": "23:34",
+      "season_number": 3,
+      "episode_number": 2,
+      "views": 176,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048291310153&type=32&idx=6&tkn=N1NqeoYVvmEG3jOv3I1WvQnLWhs&fn=external_8"
+    },
+    {
+      "video_id": "3299565898313",
+      "title_raw": "S03E29 - Miedofobia  Come Vuela El Tiempo",
+      "duration_raw": "23:34",
+      "season_number": 3,
+      "episode_number": 3,
+      "views": 144,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048533727817&type=32&idx=2&tkn=6SaoaZrEv-1x32TyGD985n8mG_o&fn=external_8"
+    },
+    {
+      "video_id": "3299565832777",
+      "title_raw": "S03E30 - El Gran Chisme  Crimen Por Cable",
+      "duration_raw": "23:34",
+      "season_number": 3,
+      "episode_number": 4,
+      "views": 156,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048523110985&type=32&idx=14&tkn=02A2K87ZJWbZhyNmVo08-4eHITA&fn=external_8"
+    },
+    {
+      "video_id": "3326168795721",
+      "title_raw": "S03E31 - Los Caza Basura  Tierra Salvaje en Línea",
+      "duration_raw": "23:34",
+      "season_number": 3,
+      "episode_number": 5,
+      "views": 134,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2075102677577&type=32&idx=9&tkn=PLBp4FQvzxDejeyv24V4PjYxFiM&fn=external_8"
+    },
+    {
+      "video_id": "3299564063305",
+      "title_raw": "S03E32 - Alto en Nombre De Lana  Invasión",
+      "duration_raw": "23:34",
+      "season_number": 3,
+      "episode_number": 6,
+      "views": 177,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048244845129&type=32&idx=4&tkn=HHwDN0Yea4AeRGdfFWNYQE_d27o&fn=external_8"
+    },
+    {
+      "video_id": "3299565111881",
+      "title_raw": "S03E33 - La Erupción Del Volcan  El Amor Es Ciego",
+      "duration_raw": "23:34",
+      "season_number": 3,
+      "episode_number": 7,
+      "views": 131,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048410389065&type=32&idx=2&tkn=dv23jos2EAlYfF0cOc24f6gm0SM&fn=external_8"
+    },
+    {
+      "video_id": "3326168926793",
+      "title_raw": "S03E34 - El Pozo De Los Deseos  La Carta Cadena",
+      "duration_raw": "23:34",
+      "season_number": 3,
+      "episode_number": 8,
+      "views": 181,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2075120831049&type=32&idx=3&tkn=LKem2XNid99mJgLWh35p9GRk1b0&fn=external_8"
+    },
+    {
+      "video_id": "3299565701705",
+      "title_raw": "S03E35 - El Mensaje en La Botella  La Carta Cadena",
+      "duration_raw": "23:34",
+      "season_number": 3,
+      "episode_number": 9,
+      "views": 131,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048504433225&type=32&idx=14&tkn=jBa4rUi3_VvAKM1a4LzYkNYZ1Xo&fn=external_8"
+    },
+    {
+      "video_id": "3299564194377",
+      "title_raw": "S03E36 - Un Cuento De Hadas  La Corte De Tierra Salvaje",
+      "duration_raw": "23:33",
+      "season_number": 3,
+      "episode_number": 10,
+      "views": 139,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048261753417&type=32&idx=5&tkn=VViwAtVEaYquXiKmyDGDA5_wnFA&fn=external_8"
+    },
+    {
+      "video_id": "3299564980809",
+      "title_raw": "S03E37 - Buuu  La Fuente De La Jeventud",
+      "duration_raw": "23:34",
+      "season_number": 3,
+      "episode_number": 11,
+      "views": 151,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048387844681&type=32&idx=13&tkn=IsvPAR6joqtEt5Pvtk9x49VG0ak&fn=external_8"
+    },
+    {
+      "video_id": "3299565505097",
+      "title_raw": "S03E38 - Súper Ñu  Sábado Por La Noche",
+      "duration_raw": "23:34",
+      "season_number": 3,
+      "episode_number": 12,
+      "views": 140,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048477825609&type=32&idx=9&tkn=ASYuD69SdnGfISV8XA8EoQDhF9c&fn=external_8"
+    },
+    {
+      "video_id": "3299564849737",
+      "title_raw": "S03E39 - El Mapa Del Tesoro  Mitos",
+      "duration_raw": "23:34",
+      "season_number": 3,
+      "episode_number": 13,
+      "views": 188,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2048370674249&type=32&idx=3&tkn=l3E4boQMdl5UoTjBEuFakb4nhrM&fn=external_8"
+    }
+  ]
+}

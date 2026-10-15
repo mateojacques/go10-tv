@@ -1,0 +1,214 @@
+{
+  "title": "Shuriken School",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2374217",
+  "year": "2006",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "1463439854153",
+      "title_raw": "SKN (1)",
+      "duration_raw": "22:38",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 4646,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3399098763926&type=32&idx=5&tkn=Y_Bg4uNnOZ96_CeoA3JAEJwZ1RM&fn=external_8"
+    },
+    {
+      "video_id": "1463439198793",
+      "title_raw": "SKN (2)",
+      "duration_raw": "23:07",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 988,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3399082707606&type=32&idx=15&tkn=wJI5p9Clo_eS5fxxF89DE3e7XG0&fn=external_8"
+    },
+    {
+      "video_id": "1463438805577",
+      "title_raw": "SKN (3)",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 639,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3399083559574&type=32&idx=13&tkn=ymphXbPiDwcdU__08XBOgu1Djds&fn=external_8"
+    },
+    {
+      "video_id": "1463439395401",
+      "title_raw": "SKN (4)",
+      "duration_raw": "23:01",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 535,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3399084280470&type=32&idx=1&tkn=zCR4MsRzur7lqVVnrOvXq7Ts9f8&fn=external_8"
+    },
+    {
+      "video_id": "1463439460937",
+      "title_raw": "SKN (5)",
+      "duration_raw": "23:02",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 487,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3399084739222&type=32&idx=15&tkn=DBZGEpCKv67PUqOqx9t5BPMfTvM&fn=external_8"
+    },
+    {
+      "video_id": "1463440050761",
+      "title_raw": "SKN (6)",
+      "duration_raw": "23:16",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 470,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3399085394582&type=32&idx=2&tkn=kosNw8d2HwGjVFbKHnVJDZHDjvY&fn=external_8"
+    },
+    {
+      "video_id": "1463440116297",
+      "title_raw": "SKN (7)",
+      "duration_raw": "22:48",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 379,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3399086246550&type=32&idx=8&tkn=BGg5TkQ-9o2iPfDhbHCnvGMKxNY&fn=external_8"
+    },
+    {
+      "video_id": "1463439264329",
+      "title_raw": "SKN (8)",
+      "duration_raw": "22:51",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 331,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3399087753878&type=32&idx=11&tkn=y7kvQVztVH05oF-1dn4UjHpmfI8&fn=external_8"
+    },
+    {
+      "video_id": "1463439985225",
+      "title_raw": "SKN (9)",
+      "duration_raw": "22:55",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 443,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3399089064598&type=32&idx=9&tkn=x4jyb2We9vjJtI3Zeilo4VajTxo&fn=external_8"
+    },
+    {
+      "video_id": "1463439329865",
+      "title_raw": "SKN (10)",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 382,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3399089719958&type=32&idx=12&tkn=GyUfXlrOFKC4jhj8W1zIndINxNU&fn=external_8"
+    },
+    {
+      "video_id": "1463439657545",
+      "title_raw": "SKN (11)",
+      "duration_raw": "23:01",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 317,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3399090375318&type=32&idx=6&tkn=MeWNwDob0d3dQsXVTyxNLBu5s1E&fn=external_8"
+    },
+    {
+      "video_id": "1463438936649",
+      "title_raw": "SKN (12)",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 350,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3399093193366&type=32&idx=8&tkn=Mw5Lu8iXzQ-zSZDOz0Q9w0vN5Uk&fn=external_8"
+    },
+    {
+      "video_id": "1463439919689",
+      "title_raw": "SKN (13)",
+      "duration_raw": "22:33",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 315,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3399093652118&type=32&idx=15&tkn=xhtEABnQGQRhkTPI0CtEoatyyOI&fn=external_8"
+    },
+    {
+      "video_id": "1463439788617",
+      "title_raw": "SKN (14)",
+      "duration_raw": "22:29",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 245,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3399094569622&type=32&idx=3&tkn=lPyLre373FCEMQEqZXtfYKBY0T4&fn=external_8"
+    },
+    {
+      "video_id": "1463439002185",
+      "title_raw": "SKN (15)",
+      "duration_raw": "22:35",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 279,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3399094897302&type=32&idx=9&tkn=50jDaGgtA64uB22yuAcZzVLMvHo&fn=external_8"
+    },
+    {
+      "video_id": "1463439723081",
+      "title_raw": "SKN (16)",
+      "duration_raw": "22:22",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 248,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3399095224982&type=32&idx=5&tkn=w3O0ekfJwirwiVfY5rapKSLV4bs&fn=external_8"
+    },
+    {
+      "video_id": "1463438871113",
+      "title_raw": "SKN (17)",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 282,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3399095487126&type=32&idx=3&tkn=pmrTx8rircw95RXGQx6sOqyhi6M&fn=external_8"
+    },
+    {
+      "video_id": "1463438740041",
+      "title_raw": "SKN (18)",
+      "duration_raw": "22:32",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 228,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3399095814806&type=32&idx=14&tkn=AoIDHqIlQDLuj5mJM_vMHzh4nGk&fn=external_8"
+    },
+    {
+      "video_id": "1463439592009",
+      "title_raw": "SKN (19)",
+      "duration_raw": "22:30",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 299,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3399096339094&type=32&idx=11&tkn=EWuW63HAmaspFvY133kpo_Gv8Vs&fn=external_8"
+    },
+    {
+      "video_id": "1463439067721",
+      "title_raw": "SKN (20)",
+      "duration_raw": "22:52",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 324,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3399097191062&type=32&idx=13&tkn=tQn3neiZzI-CXhBmjJcfbL85mRU&fn=external_8"
+    },
+    {
+      "video_id": "1463439526473",
+      "title_raw": "SKN (21)",
+      "duration_raw": "22:23",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 241,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3399097977494&type=32&idx=8&tkn=Imnt0GzF0sWct3YIQsMn60Y29o0&fn=external_8"
+    },
+    {
+      "video_id": "1463440181833",
+      "title_raw": "SKN (22)",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 425,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3399098239638&type=32&idx=3&tkn=ZpfmT3wydwEdKqgQxzv0qv8qhm4&fn=external_8"
+    }
+  ]
+}

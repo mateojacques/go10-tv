@@ -1,0 +1,484 @@
+{
+  "title": "Meteoro",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2240841",
+  "year": "1967",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Clásicos",
+  "videos": [
+    {
+      "video_id": "1412489677385",
+      "title_raw": "Meteoro01",
+      "duration_raw": "21:38",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 41820,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=885240629934&type=32&idx=8&tkn=HLrKYX7IDm0GHXNny-a7c72x1fw&fn=external_8"
+    },
+    {
+      "video_id": "1412486990409",
+      "title_raw": "Meteoro02",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 10354,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=885241416366&type=32&idx=14&tkn=_Emx3Kx79Ns74Htx-3aXGFNBIUU&fn=external_8"
+    },
+    {
+      "video_id": "1412489415241",
+      "title_raw": "Meteoro03",
+      "duration_raw": "22:20",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 6766,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7001977391628&type=32&idx=13&tkn=DEScffHDhoOCkHn52w8jKL2BjSU&fn=external_8"
+    },
+    {
+      "video_id": "1412488497737",
+      "title_raw": "Meteoro04",
+      "duration_raw": "22:32",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 4199,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=885244431022&type=32&idx=14&tkn=ix0JGHucyAYTzZU5D6VJjbOV2CU&fn=external_8"
+    },
+    {
+      "video_id": "1412487318089",
+      "title_raw": "Meteoro05",
+      "duration_raw": "22:30",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 3457,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=885244234414&type=32&idx=6&tkn=GA3iTRAVR6yejBCHtZtD8BMP72c&fn=external_8"
+    },
+    {
+      "video_id": "1412488366665",
+      "title_raw": "Meteoro06",
+      "duration_raw": "22:29",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 2345,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=885245545134&type=32&idx=12&tkn=Kbs_UHzYnZ1COVNq-IUohNmCUy4&fn=external_8"
+    },
+    {
+      "video_id": "1412489546313",
+      "title_raw": "Meteoro07",
+      "duration_raw": "20:55",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 2826,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7001982306828&type=32&idx=5&tkn=HkCQbm-kxUreSdtszU-g28DJK6A&fn=external_8"
+    },
+    {
+      "video_id": "1412487514697",
+      "title_raw": "Meteoro08",
+      "duration_raw": "21:31",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 2402,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7001983486476&type=32&idx=6&tkn=GGRnSSfv43atexaE8ABxDZq8xfs&fn=external_8"
+    },
+    {
+      "video_id": "1412487842377",
+      "title_raw": "Meteoro09",
+      "duration_raw": "20:58",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 2620,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=885247969966&type=32&idx=5&tkn=xeLYWisOqC65sruHUrzw0dazq7Y&fn=external_8"
+    },
+    {
+      "video_id": "1412490136137",
+      "title_raw": "Meteoro10",
+      "duration_raw": "21:27",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 2174,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=885248297646&type=32&idx=13&tkn=8nICJXoqhsAnVczbB2znQpmhvtg&fn=external_8"
+    },
+    {
+      "video_id": "1412490005065",
+      "title_raw": "Meteoro11",
+      "duration_raw": "21:02",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 1990,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=885249542830&type=32&idx=3&tkn=dfrTWF0g0ayuVMQTDMlNrMUYZyE&fn=external_8"
+    },
+    {
+      "video_id": "1412487580233",
+      "title_raw": "Meteoro12",
+      "duration_raw": "21:57",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 1845,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=885250329262&type=32&idx=6&tkn=Ppzi5_5RkMCLtzW03YWj9vuN9oQ&fn=external_8"
+    },
+    {
+      "video_id": "1412490201673",
+      "title_raw": "Meteoro13",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 1504,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=885251377838&type=32&idx=3&tkn=8Z1MYM17eyYH41JRQJGCFrHjM2Q&fn=external_8"
+    },
+    {
+      "video_id": "1412489480777",
+      "title_raw": "Meteoro14",
+      "duration_raw": "22:15",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 1682,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=885251705518&type=32&idx=6&tkn=1VY0HmL1Nzt1zHF8RJgBDVewKpw&fn=external_8"
+    },
+    {
+      "video_id": "1412489742921",
+      "title_raw": "Meteoro15",
+      "duration_raw": "22:33",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 1424,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=885252033198&type=32&idx=14&tkn=U1EwKib4Qfi8Cmv6gYGOjYZuNVs&fn=external_8"
+    },
+    {
+      "video_id": "1412487055945",
+      "title_raw": "Meteoro16",
+      "duration_raw": "22:09",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 1569,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=885252754094&type=32&idx=13&tkn=PFDXwZ8gFDfDejZVsZMiz7WdWhM&fn=external_8"
+    },
+    {
+      "video_id": "1412488694345",
+      "title_raw": "Meteoro17",
+      "duration_raw": "22:18",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 1173,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=885253409454&type=32&idx=8&tkn=DhpUqTWk3jgLwPiYM8Xz6213k-g&fn=external_8"
+    },
+    {
+      "video_id": "1412487907913",
+      "title_raw": "Meteoro18",
+      "duration_raw": "21:37",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 1120,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=885254195886&type=32&idx=12&tkn=51XzqQwtkhtWZtTYsBHCNIwF2EA&fn=external_8"
+    },
+    {
+      "video_id": "1412487449161",
+      "title_raw": "Meteoro19",
+      "duration_raw": "22:08",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 912,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=885255637678&type=32&idx=1&tkn=2mg3_NDVIqX8UM-z1ow9t_-zdUE&fn=external_8"
+    },
+    {
+      "video_id": "1412489873993",
+      "title_raw": "Meteoro20",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 1297,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=885256555182&type=32&idx=2&tkn=aUw2k8l8Mjx6mqFLYcXNPvjtKXE&fn=external_8"
+    },
+    {
+      "video_id": "1412487645769",
+      "title_raw": "Meteoro21",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 1057,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=885257800366&type=32&idx=6&tkn=7ILEBj3nYtlu4t-a2u3-LfF_7Jg&fn=external_8"
+    },
+    {
+      "video_id": "1412488563273",
+      "title_raw": "Meteoro22",
+      "duration_raw": "22:30",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 1038,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=885258652334&type=32&idx=4&tkn=sgaaYrJPveyZt-pUfKooO0OrwjY&fn=external_8"
+    },
+    {
+      "video_id": "1412489939529",
+      "title_raw": "Meteoro23",
+      "duration_raw": "22:29",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 894,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=885259307694&type=32&idx=8&tkn=4sg6-YaOVBU9Uh8R8vnocWuchL0&fn=external_8"
+    },
+    {
+      "video_id": "1412487121481",
+      "title_raw": "Meteoro24",
+      "duration_raw": "21:31",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 884,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=885261011630&type=32&idx=1&tkn=r2gZ_Yh9q8geTyGV89GX__6QckA&fn=external_8"
+    },
+    {
+      "video_id": "1412488956489",
+      "title_raw": "Meteoro25",
+      "duration_raw": "21:39",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 721,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=885262060206&type=32&idx=10&tkn=DYs6xnmHG5K-PMQOT9i9FCeJmNY&fn=external_8"
+    },
+    {
+      "video_id": "1412488104521",
+      "title_raw": "Meteoro26",
+      "duration_raw": "21:33",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 895,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=886095219374&type=32&idx=5&tkn=o1bY4Ig0ycjaSDVcqlJhc6I-21I&fn=external_8"
+    },
+    {
+      "video_id": "1412488235593",
+      "title_raw": "Meteoro27",
+      "duration_raw": "21:41",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 776,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7002009045516&type=32&idx=12&tkn=ldVZR4mZ2c20D52yUcdkyQq7tUk&fn=external_8"
+    },
+    {
+      "video_id": "1412488628809",
+      "title_raw": "Meteoro28",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 689,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7002009963020&type=32&idx=8&tkn=l8h1gEXy4ILtbZpAUVG_SOSl-tg&fn=external_8"
+    },
+    {
+      "video_id": "1412488759881",
+      "title_raw": "Meteoro29",
+      "duration_raw": "21:24",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 925,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=886098430638&type=32&idx=8&tkn=qSP6M-nJZJXAU7epb40hq4hXbG4&fn=external_8"
+    },
+    {
+      "video_id": "1412490332745",
+      "title_raw": "Meteoro30",
+      "duration_raw": "21:45",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 950,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=886099741358&type=32&idx=7&tkn=EITSs_mUyX12kzLHOTkM5FU6TQY&fn=external_8"
+    },
+    {
+      "video_id": "1412489611849",
+      "title_raw": "Meteoro31",
+      "duration_raw": "21:39",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 720,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=886101117614&type=32&idx=14&tkn=247WWbQBULtx5SnxpdX1XxP7Ez8&fn=external_8"
+    },
+    {
+      "video_id": "1412488890953",
+      "title_raw": "Meteoro32",
+      "duration_raw": "21:39",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 691,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7002013567500&type=32&idx=4&tkn=JVseMAET_ZMWJOH5l2ELON-U8Jw&fn=external_8"
+    },
+    {
+      "video_id": "1412489349705",
+      "title_raw": "Meteoro33",
+      "duration_raw": "21:31",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 745,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=886102362798&type=32&idx=7&tkn=ARL1QbpgqttyZramhaghF2PVmKQ&fn=external_8"
+    },
+    {
+      "video_id": "1412490267209",
+      "title_raw": "Meteoro34",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 763,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=886103018158&type=32&idx=6&tkn=E9bhFrStq-vkIqBHJ1YqsNg_TFY&fn=external_8"
+    },
+    {
+      "video_id": "1412489153097",
+      "title_raw": "Meteoro35",
+      "duration_raw": "21:44",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 639,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=886103476910&type=32&idx=4&tkn=jxcbr4eXtaFjfYOIt8lmeLZ3dqI&fn=external_8"
+    },
+    {
+      "video_id": "1412489087561",
+      "title_raw": "Meteoro36",
+      "duration_raw": "21:40",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 634,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=886103804590&type=32&idx=7&tkn=ElumDe1wM-SlMci5pnh6p8mJ5fk&fn=external_8"
+    },
+    {
+      "video_id": "1412488301129",
+      "title_raw": "Meteoro37",
+      "duration_raw": "21:38",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 681,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7002019924492&type=32&idx=10&tkn=NbqZvB2kFD5BGx_g-InA51R4Ito&fn=external_8"
+    },
+    {
+      "video_id": "1412487776841",
+      "title_raw": "Meteoro38",
+      "duration_raw": "20:16",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 659,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7002021300748&type=32&idx=7&tkn=1IJEvIXvLUlNNiPefyf8WiL6cBE&fn=external_8"
+    },
+    {
+      "video_id": "1412488170057",
+      "title_raw": "Meteoro39",
+      "duration_raw": "21:03",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 626,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=886104853166&type=32&idx=0&tkn=ZpvI8O_AWTKxiYsQTPJ3E55Cphk&fn=external_8"
+    },
+    {
+      "video_id": "1412490070601",
+      "title_raw": "Meteoro40",
+      "duration_raw": "21:42",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 638,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=886105639598&type=32&idx=2&tkn=YQMMgZ8YZ6SR3yLQfn5VB3mnOHw&fn=external_8"
+    },
+    {
+      "video_id": "1412489022025",
+      "title_raw": "Meteoro41",
+      "duration_raw": "20:43",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 713,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=886106753710&type=32&idx=8&tkn=gO-hhNOB28sS4Y2lnVE2r4VVLyA&fn=external_8"
+    },
+    {
+      "video_id": "1412489218633",
+      "title_raw": "Meteoro42",
+      "duration_raw": "20:17",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 634,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7002025757196&type=32&idx=2&tkn=cnq07W9kiVgkgaT_f-i0eMogiH8&fn=external_8"
+    },
+    {
+      "video_id": "1412489284169",
+      "title_raw": "Meteoro43",
+      "duration_raw": "21:33",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 621,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=886108523182&type=32&idx=2&tkn=5qaok0sjssR4L6NScivBuKHe2DA&fn=external_8"
+    },
+    {
+      "video_id": "1412488432201",
+      "title_raw": "Meteoro44",
+      "duration_raw": "21:11",
+      "season_number": 1,
+      "episode_number": 44,
+      "views": 664,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=886108916398&type=32&idx=8&tkn=e7ry7XGeOLwmaWrmOukzFIJm-jA&fn=external_8"
+    },
+    {
+      "video_id": "1412487252553",
+      "title_raw": "Meteoro45",
+      "duration_raw": "21:22",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 875,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=886109244078&type=32&idx=5&tkn=zil_TVi8gcRXtLYwjU1gQdueLZY&fn=external_8"
+    },
+    {
+      "video_id": "1412487973449",
+      "title_raw": "Meteoro46",
+      "duration_raw": "21:22",
+      "season_number": 1,
+      "episode_number": 46,
+      "views": 648,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7002031458828&type=32&idx=9&tkn=HFajZyKTooC44FCiMId_iUDZIDo&fn=external_8"
+    },
+    {
+      "video_id": "1412487383625",
+      "title_raw": "Meteoro47",
+      "duration_raw": "21:19",
+      "season_number": 1,
+      "episode_number": 47,
+      "views": 917,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=886110161582&type=32&idx=5&tkn=_NpMS8YgYe3HgkdKY2zWK91SbIc&fn=external_8"
+    },
+    {
+      "video_id": "1412488038985",
+      "title_raw": "Meteoro48",
+      "duration_raw": "21:24",
+      "season_number": 1,
+      "episode_number": 48,
+      "views": 633,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=886110489262&type=32&idx=5&tkn=OvdTgWSXNwDEAdkypXIFVqZqGII&fn=external_8"
+    },
+    {
+      "video_id": "1412487711305",
+      "title_raw": "Meteoro49",
+      "duration_raw": "20:11",
+      "season_number": 1,
+      "episode_number": 49,
+      "views": 610,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=886110948014&type=32&idx=8&tkn=A5TYKBxjPUweMq46Y9q1gDminwQ&fn=external_8"
+    },
+    {
+      "video_id": "1412487187017",
+      "title_raw": "Meteoro50",
+      "duration_raw": "21:03",
+      "season_number": 1,
+      "episode_number": 50,
+      "views": 956,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=886111472302&type=32&idx=11&tkn=4Cc7LF265A_ygneAnpABltDMPgM&fn=external_8"
+    },
+    {
+      "video_id": "1412488825417",
+      "title_raw": "Meteoro51",
+      "duration_raw": "21:22",
+      "season_number": 1,
+      "episode_number": 51,
+      "views": 1599,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7002038077964&type=32&idx=2&tkn=qF7SMzRBfKuWaCStJ9gavPtLBJA&fn=external_8"
+    },
+    {
+      "video_id": "1412489808457",
+      "title_raw": "Meteoro52",
+      "duration_raw": "21:05",
+      "season_number": 1,
+      "episode_number": 52,
+      "views": 2506,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=886196341422&type=32&idx=0&tkn=sW5DNWXb21atu7DC4R2W4kmAGRs&fn=external_8"
+    }
+  ]
+}

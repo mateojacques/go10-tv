@@ -1,0 +1,455 @@
+{
+  "title": "La Sirenita: La Serie",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c3029833 c2214473",
+  "year": "1992",
+  "studio": "Disney",
+  "source": "lacartoons Oficial",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Fantasía",
+  "videos": [
+    {
+      "video_id": "1753604229705",
+      "title_raw": "The.Little.Mermaid.S01E01.1080p",
+      "duration_raw": "23:56",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 63925,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764124990025&type=37&idx=7&tkn=0sLWBkIChJrzYfxfHw-dqQkLcZE&fn=external_8"
+    },
+    {
+      "video_id": "1753604360777",
+      "title_raw": "The.Little.Mermaid.S01E02.1080p",
+      "duration_raw": "23:15",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 15192,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764131871305&type=37&idx=11&tkn=jgyKyz5MHYNUjnUXQ-SPwoFDcI4&fn=external_8"
+    },
+    {
+      "video_id": "1753604885065",
+      "title_raw": "The.Little.Mermaid.S01E03.1080p",
+      "duration_raw": "23:20",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 7500,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764163394121&type=37&idx=9&tkn=JYwucajP8TkSTZ1mzDG5AAo5hLg&fn=external_8"
+    },
+    {
+      "video_id": "1753605278281",
+      "title_raw": "The.Little.Mermaid.S01E04.1080p",
+      "duration_raw": "23:14",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 4293,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764198718025&type=37&idx=11&tkn=lEc5OFJ1roTG9huTKoy02y78OfI&fn=external_8"
+    },
+    {
+      "video_id": "1753604622921",
+      "title_raw": "The.Little.Mermaid.S01E05.1080p",
+      "duration_raw": "23:07",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 3616,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764144519753&type=37&idx=11&tkn=0r_F6iYUnOYYOkHxWIlI2PGSM0U&fn=external_8"
+    },
+    {
+      "video_id": "1753604295241",
+      "title_raw": "The.Little.Mermaid.S01E06.1080p",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 3887,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764128397897&type=37&idx=12&tkn=w3cTRivSbyuJOHgPpajIhqK8yio&fn=external_8"
+    },
+    {
+      "video_id": "1753604819529",
+      "title_raw": "The.Little.Mermaid.S01E07.1080p",
+      "duration_raw": "23:11",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 3936,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764157233737&type=37&idx=8&tkn=O76cDkog8xm9zQbHnDnVbeGMNwA&fn=external_8"
+    },
+    {
+      "video_id": "1753605016137",
+      "title_raw": "The.Little.Mermaid.S01E08.1080p",
+      "duration_raw": "23:11",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 3327,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764174797385&type=37&idx=13&tkn=xkWt7jVFf8gdHs0tLYHMvggDHOQ&fn=external_8"
+    },
+    {
+      "video_id": "1753604688457",
+      "title_raw": "The.Little.Mermaid.S01E09.1080p",
+      "duration_raw": "23:10",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 2625,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764147927625&type=37&idx=0&tkn=tQukTsb7dLChZ7tHCIbgTkqr1Cg&fn=external_8"
+    },
+    {
+      "video_id": "1753604950601",
+      "title_raw": "The.Little.Mermaid.S01E10.1080p",
+      "duration_raw": "23:10",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 2402,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764169685577&type=37&idx=9&tkn=APfy5oIH1kx0yT-hCI_B8xWr5R0&fn=external_8"
+    },
+    {
+      "video_id": "1753605671497",
+      "title_raw": "The.Little.Mermaid.S01E11.1080p",
+      "duration_raw": "23:10",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 2822,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764235876937&type=37&idx=5&tkn=rIsiUZC8SI7SGGPPGogncLk6Efk&fn=external_8"
+    },
+    {
+      "video_id": "1753605474889",
+      "title_raw": "The.Little.Mermaid.S01E12.1080p",
+      "duration_raw": "23:10",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 3769,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764216216137&type=37&idx=8&tkn=5kjazrTWj1BeVxdqXf1X_mzm_gU&fn=external_8"
+    },
+    {
+      "video_id": "1753605540425",
+      "title_raw": "The.Little.Mermaid.S01E13.1080p",
+      "duration_raw": "23:17",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 2388,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764222507593&type=37&idx=2&tkn=iyJjese4wv3OjBbD6kjzTKjSncQ&fn=external_8"
+    },
+    {
+      "video_id": "1753605081673",
+      "title_raw": "The.Little.Mermaid.S01E14.1080p",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 2446,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764180040265&type=37&idx=1&tkn=p9zBgciadgAOAFDqGijlPhLNtr0&fn=external_8"
+    },
+    {
+      "video_id": "1376860244553",
+      "title_raw": "La Sirenita_ La Serie Animada Episodio 15 _ Sebastián es Resignado_x264",
+      "duration_raw": "23:00",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 223,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593635248713&type=32&idx=0&tkn=hUVnPNoDl-PPs1oZUbsW4p1XmpM&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1376859261513",
+      "title_raw": "La Sirenita_ La Serie Animada Episodio 17 _ Salven a Manchita_x264",
+      "duration_raw": "22:56",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 200,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593618405961&type=32&idx=7&tkn=1VNrOOoIqlIPWBh1nCLeloaGYTY&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1376859195977",
+      "title_raw": "La Sirenita_ La Serie Animada Episodio 18 _ Contracorriente_x264",
+      "duration_raw": "22:58",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 206,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593617881673&type=32&idx=4&tkn=Gv6x-2lTP_1K6Zq-hodva2lfJPY&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1376859523657",
+      "title_raw": "La Sirenita_ La Serie Animada Episodio 19 _ Risitas_x264",
+      "duration_raw": "22:59",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 261,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593622665801&type=32&idx=9&tkn=S1SimYztQ4kM30K9_TETswuxqkQ&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1376858933833",
+      "title_raw": "La Sirenita_ La Serie Animada Episodio 20 _ La Mágica Estrella de los Deseos_x264",
+      "duration_raw": "23:01",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 604,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593611065929&type=32&idx=7&tkn=Hx8JHd9Och-lc5xtHSrUqRIDjos&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1376860441161",
+      "title_raw": "La Sirenita_ La Serie Animada Episodio 21 _ El Cuento de dos Cangrejos_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 234,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593640229449&type=32&idx=4&tkn=F33oYgMXOcaY9-7jqYdBlCm9TKE&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1376858999369",
+      "title_raw": "La Sirenita_ La Serie Animada Episodio 22 _ El Pez de Metal_x264",
+      "duration_raw": "22:58",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 207,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593612638793&type=32&idx=9&tkn=aezuCA38d1DNiPf6VoEPHa0q5Vc&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1376860047945",
+      "title_raw": "La Sirenita_ La Serie Animada Episodio 23 _ Gracias por eso, Ariel_x264",
+      "duration_raw": "23:03",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 196,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593630923337&type=32&idx=8&tkn=i8Iujr4o4Z8GDh3oFboD4X1xZMo&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1376860375625",
+      "title_raw": "La Sirenita_ La Serie Animada Episodio 24 _ Scuttle_x264",
+      "duration_raw": "23:03",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 698,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593639246409&type=32&idx=10&tkn=wTUA5sY3ifjxt8NQA7uQKsW5zvs&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1376860179017",
+      "title_raw": "La Sirenita_ La Serie Animada Episodio 25 _ El Rey Cangrejo_x264",
+      "duration_raw": "23:02",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 206,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593634003529&type=32&idx=6&tkn=HznoyWx4c84E2S02tkRqgkBPMok&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1376858606153",
+      "title_raw": "La Sirenita_ La Serie Animada Episodio 26 _ La Isla Terrorífica_x264",
+      "duration_raw": "23:02",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 194,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593603463753&type=32&idx=4&tkn=NITGunIvFIlTLQuKSm59gfYFCd4&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1376858671689",
+      "title_raw": "La Sirenita_ La Serie Animada Episodio 27 _ La Tierra de los Dinosaurios_x264",
+      "duration_raw": "23:03",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 506,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593605167689&type=32&idx=6&tkn=WkTw2go9m1C6wud78p30Fokzdkc&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1376860113481",
+      "title_raw": "La Sirenita_ La Serie Animada Episodio 28 _ Héroes_x264",
+      "duration_raw": "23:02",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 200,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593632561737&type=32&idx=1&tkn=BJ9gLDqDCDvtXGYoHB2VRg6hhQ8&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1376859130441",
+      "title_raw": "29 The Beast Within_x264",
+      "duration_raw": "23:03",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 200,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593616308809&type=32&idx=10&tkn=EAcGbKZCzbthpkvdxhaLnZoEyv8&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1376859589193",
+      "title_raw": "30 Ariel-s Treasures_x264",
+      "duration_raw": "23:04",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 195,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593623583305&type=32&idx=0&tkn=FgtEAObo-4d5-TOptHbsq33VByY&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1376859916873",
+      "title_raw": "La Sirenita_ La Serie Animada Episodio 31 _ El Pequeño Malvadín_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 377,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=593614408265&type=32&idx=14&tkn=yeuhZFSbKvcvaGYmYEvPfd6FZ5Q&fn=external_8",
+      "quality": "480p"
+    },
+    {
+      "video_id": "1753604426313",
+      "title_raw": "The.Little.Mermaid.S02E01.1080p",
+      "duration_raw": "23:07",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 4933,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764135148105&type=37&idx=12&tkn=st0diqrjsavoGSRM1WQ-Iocjil0&fn=external_8"
+    },
+    {
+      "video_id": "1753604557385",
+      "title_raw": "The.Little.Mermaid.S02E02.1080p",
+      "duration_raw": "23:07",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 2658,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764141242953&type=37&idx=12&tkn=Jc51nSKT2XVMJTR2xx_Tnd-GWXU&fn=external_8"
+    },
+    {
+      "video_id": "1753606195785",
+      "title_raw": "The.Little.Mermaid.S02E03.1080p",
+      "duration_raw": "23:01",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 2384,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764286798409&type=37&idx=4&tkn=6EcvmIL100fqO0O_oHPCvGfrtms&fn=external_8"
+    },
+    {
+      "video_id": "1753604753993",
+      "title_raw": "The.Little.Mermaid.S02E04.1080p",
+      "duration_raw": "23:03",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 2637,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764152318537&type=37&idx=6&tkn=0Jvk2aFdOAFmbdwGdy9R3NrJl_s&fn=external_8"
+    },
+    {
+      "video_id": "1753605999177",
+      "title_raw": "The.Little.Mermaid.S02E05.1080p",
+      "duration_raw": "23:05",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 2594,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764268579401&type=37&idx=6&tkn=xfFLAvYufRqvl-JmcZrK6rFsrZA&fn=external_8"
+    },
+    {
+      "video_id": "1753605147209",
+      "title_raw": "The.Little.Mermaid.S02E06.1080p",
+      "duration_raw": "23:07",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 2927,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764186266185&type=37&idx=5&tkn=v0r5KS8t7hVenKcjKUmlEfsBJVc&fn=external_8"
+    },
+    {
+      "video_id": "1753605212745",
+      "title_raw": "The.Little.Mermaid.S02E07.1080p",
+      "duration_raw": "23:09",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 1824,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764193016393&type=37&idx=8&tkn=hdJv6Isfr6gXAkOct17oKABLSV8&fn=external_8"
+    },
+    {
+      "video_id": "1753606130249",
+      "title_raw": "The.Little.Mermaid.S02E08.1080p",
+      "duration_raw": "23:04",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 2161,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764282473033&type=37&idx=3&tkn=BRGENz6HJ86maYc8efMcjRteX3Q&fn=external_8"
+    },
+    {
+      "video_id": "1753605605961",
+      "title_raw": "The.Little.Mermaid.S02E09.1080p",
+      "duration_raw": "23:08",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 2182,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764229126729&type=37&idx=4&tkn=1y4EKNgTQdywKpsWhQWCdB0jmlo&fn=external_8"
+    },
+    {
+      "video_id": "1753605933641",
+      "title_raw": "The.Little.Mermaid.S03E01.1080p",
+      "duration_raw": "23:09",
+      "season_number": 3,
+      "episode_number": 1,
+      "views": 3235,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764260846153&type=37&idx=10&tkn=_7MWWRv4z1F5w-EBwOwQ855Vh_w&fn=external_8"
+    },
+    {
+      "video_id": "1753606064713",
+      "title_raw": "The.Little.Mermaid.S03E02.1080p",
+      "duration_raw": "23:08",
+      "season_number": 3,
+      "episode_number": 2,
+      "views": 2151,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764275591753&type=37&idx=14&tkn=F9p_TtByKJvvJ-2Vr22_YIMIB7E&fn=external_8"
+    },
+    {
+      "video_id": "1753605802569",
+      "title_raw": "The.Little.Mermaid.S03E03.1080p",
+      "duration_raw": "23:08",
+      "season_number": 3,
+      "episode_number": 3,
+      "views": 1790,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764248787529&type=37&idx=4&tkn=Nh0enu64pfh7Vpo1c8_hj0bEZq8&fn=external_8"
+    },
+    {
+      "video_id": "1753605343817",
+      "title_raw": "The.Little.Mermaid.S03E04.1080p",
+      "duration_raw": "23:08",
+      "season_number": 3,
+      "episode_number": 4,
+      "views": 3745,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764203371081&type=37&idx=5&tkn=ms6xhZF2LZjqYbRbrMrYPAkWcQs&fn=external_8"
+    },
+    {
+      "video_id": "1753605409353",
+      "title_raw": "The.Little.Mermaid.S03E05.1080p",
+      "duration_raw": "23:08",
+      "season_number": 3,
+      "episode_number": 5,
+      "views": 1776,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764208941641&type=37&idx=1&tkn=2wieP0I0D8YHD-Oh2VPkvZNFvN0&fn=external_8"
+    },
+    {
+      "video_id": "1753605737033",
+      "title_raw": "The.Little.Mermaid.S03E06.1080p",
+      "duration_raw": "23:09",
+      "season_number": 3,
+      "episode_number": 6,
+      "views": 1745,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764242889289&type=37&idx=2&tkn=738dmN1fGm7geKpTLby2baVC0Ks&fn=external_8"
+    },
+    {
+      "video_id": "1753605868105",
+      "title_raw": "The.Little.Mermaid.S03E07.1080p",
+      "duration_raw": "23:08",
+      "season_number": 3,
+      "episode_number": 7,
+      "views": 1839,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764254751305&type=37&idx=5&tkn=4Sko7c1rnc2bO4FRpuLeP3a9D8o&fn=external_8"
+    },
+    {
+      "video_id": "1753604491849",
+      "title_raw": "The.Little.Mermaid.S03E08.1080p",
+      "duration_raw": "23:09",
+      "season_number": 3,
+      "episode_number": 8,
+      "views": 2999,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=764138687049&type=37&idx=11&tkn=7LtELpGgvOZEKpacGSUybox_EcM&fn=external_8"
+    }
+  ]
+}

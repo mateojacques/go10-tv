@@ -49,9 +49,19 @@
     "heidi-3d": "tv/62475",
     "las-aventuras-de-silvestre-y-piolin": "tv/9867",
     "looney-tunes-speedy-gonzales": "tv/333432",
-    "sirena": "tv/71886"
+    "sirena": "tv/71886",
+    "digimon-adventure": "tv/31654",
+    "digimon-adventure-02": "tv/31654",
+    "los-caballeros-del-zodiaco-la-saga-de-hades": "tv/67199"
   },
   "block": [
-    "la-pantera-rosa"
+    "la-pantera-rosa",
+    "los-vengadores-unidos",
+    "cartoon-cartoons",
+    "el-pajaro-loco",
+    "el-rey-arturo-y-los-caballeros-de-la-justicia",
+    "grandes-heroes-y-leyendas-de-la-biblia",
+    "quo-vadis",
+    "aunque-usted-no-lo-crea-de-ripley"
   ]
 }

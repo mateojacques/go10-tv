@@ -1,0 +1,610 @@
+{
+  "title": "Clifford, el Gran Perro Rojo",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c5865289",
+  "year": "2000",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Infantil",
+  "genre_secondary": "Animación",
+  "videos": [
+    {
+      "video_id": "3318257551945",
+      "title_raw": "01 - El mejor amigo - Cleo no quiere compartir",
+      "duration_raw": "26:05",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 7812,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2066366007881&type=37&idx=5&tkn=JZbcpTu4F4LgGqFCdZ6NQZj3YZk&fn=external_8"
+    },
+    {
+      "video_id": "3318258207305",
+      "title_raw": "02 - Entrega especial - El perro del año",
+      "duration_raw": "26:04",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 2240,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2066783078985&type=37&idx=15&tkn=PZBDyyWU_VkMqVdbbI8ARBNU-eY&fn=external_8"
+    },
+    {
+      "video_id": "3318258797129",
+      "title_raw": "03 - Y Birdy estuvo ahì - Hogar es dinde està la diversiòn",
+      "duration_raw": "26:05",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1356,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2067097127497&type=37&idx=15&tkn=Clcohysdk7o6bhp2dtU9rn8vLg4&fn=external_8"
+    },
+    {
+      "video_id": "3318258469449",
+      "title_raw": "04 - La feria de Clifford - La reuniòn sw Clifford",
+      "duration_raw": "26:05",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1273,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2066905893449&type=37&idx=6&tkn=tPpzaG4llq9xqlK9psU8z5FP2tY&fn=external_8"
+    },
+    {
+      "video_id": "3318258928201",
+      "title_raw": "05 - La gran carrera - Problemas estomacales",
+      "duration_raw": "26:04",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1586,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2067186125385&type=37&idx=3&tkn=fw3sOfFRJV4XaVI1pTnaxaKPljQ&fn=external_8"
+    },
+    {
+      "video_id": "3318258076233",
+      "title_raw": "06 - Cleo viene al pueblo - Falsos amigos",
+      "duration_raw": "26:05",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 1035,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2066740808265&type=37&idx=2&tkn=bs1GCzBD6ZwUrnl-WQTbrZSBuAI&fn=external_8"
+    },
+    {
+      "video_id": "3318258862665",
+      "title_raw": "07 - Clifford y la planta màgica - La comezòn",
+      "duration_raw": "26:05",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1227,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2067142543945&type=37&idx=1&tkn=Q837sMz8O_RZq2R77-3IVEj5k1E&fn=external_8"
+    },
+    {
+      "video_id": "3318257683017",
+      "title_raw": "08 - Un nuevo amigo - Una tormenta se avecina",
+      "duration_raw": "26:05",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1150,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2066544527945&type=37&idx=13&tkn=e6ju40AnAOudc2nXEim4bf8s33c&fn=external_8"
+    },
+    {
+      "video_id": "3318258666057",
+      "title_raw": "09 - Estrellas de circo - Miedo escénico",
+      "duration_raw": "26:05",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 1319,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2067001641545&type=37&idx=5&tkn=OG3hv2OdBLCkVowLiWsyYtM5XNY&fn=external_8"
+    },
+    {
+      "video_id": "3318257748553",
+      "title_raw": "10 - Atrapar un pájaro - La mejor fiesta de cumpleaños",
+      "duration_raw": "26:06",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 1078,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2066579786313&type=37&idx=13&tkn=G2S38d9yqUQYlR94NafGRIAbUSY&fn=external_8"
+    },
+    {
+      "video_id": "3318258338377",
+      "title_raw": "11 - Vuelve Mac",
+      "duration_raw": "13:34",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 932,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2066810145353&type=37&idx=3&tkn=vhwz7ouzoQZJKk0YVM82BPYQ4KM&fn=external_8"
+    },
+    {
+      "video_id": "3318257814089",
+      "title_raw": "12 - El pequeño Clifford - Bienvenido a la isla Birdwell",
+      "duration_raw": "26:05",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 920,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2066620942921&type=37&idx=12&tkn=_9UALc3C8Ld9zXP6t1gPTVDkIsA&fn=external_8"
+    },
+    {
+      "video_id": "3318258731593",
+      "title_raw": "13 - Hacer lo correcto - El perro que gritò 'guau'",
+      "duration_raw": "26:05",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 973,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2067050400329&type=37&idx=13&tkn=cwbFlEpWe8dY2wtZyWAZCfsDhds&fn=external_8"
+    },
+    {
+      "video_id": "3318258010697",
+      "title_raw": "14 - La hoja faltante - Nadie es perfecto",
+      "duration_raw": "26:04",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 855,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2066701879881&type=37&idx=7&tkn=qet1sxQ4iURFIVjmvmsFGlt6qW8&fn=external_8"
+    },
+    {
+      "video_id": "3318257945161",
+      "title_raw": "15 - La maestra de mascotas - El personaje del año",
+      "duration_raw": "26:04",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 737,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2066660067913&type=37&idx=10&tkn=6w7cqdCa1dc6W2Q7HuT6pWCnD4g&fn=external_8"
+    },
+    {
+      "video_id": "3318258600521",
+      "title_raw": "16 - La gran sorpresa de Clifford - Está en los oidos",
+      "duration_raw": "26:05",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 733,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2066956814921&type=37&idx=10&tkn=l1PozA3trULgZdri0Vo2H6OOWuE&fn=external_8"
+    },
+    {
+      "video_id": "3318259059273",
+      "title_raw": "17 - Bastante rudo - Estrellas en tus ojos",
+      "duration_raw": "26:05",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 676,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2067238423113&type=37&idx=1&tkn=AEKb7_YlY_ShPLay0AIANbJAuh8&fn=external_8"
+    },
+    {
+      "video_id": "3318259190345",
+      "title_raw": "18 - El club secreto de perros de Mac - El parque para perros",
+      "duration_raw": "26:05",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 753,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2067297929801&type=37&idx=15&tkn=0byEydsvS6MkFYbSPxGPISxILwI&fn=external_8"
+    },
+    {
+      "video_id": "3318257617481",
+      "title_raw": "19 - Cleo la más lanuda - Trabajo en equipo",
+      "duration_raw": "26:04",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 709,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2066484759113&type=37&idx=5&tkn=RMENHmzxoOTlTtYcAqWnLOFL8KI&fn=external_8"
+    },
+    {
+      "video_id": "3318258403913",
+      "title_raw": "20 - Clifford desfila - Sigan al líder",
+      "duration_raw": "26:05",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 815,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2066861591113&type=37&idx=7&tkn=ks5wuouJbwu5fUY32Z7qWVMJ2oo&fn=external_8"
+    },
+    {
+      "video_id": "3323885521481",
+      "title_raw": "21 - Adios T-Bone - La verdad sobre perros y gatos",
+      "duration_raw": "26:05",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 839,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2072902109769&type=37&idx=12&tkn=Mu7hMd-sW_p4_nma0l6L_IxICCs&fn=external_8"
+    },
+    {
+      "video_id": "3323884669513",
+      "title_raw": "22 - Todos a dormir - Perro por un día",
+      "duration_raw": "26:05",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 925,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2072347281993&type=37&idx=8&tkn=CN_O29OaIVjaQ9LNBZMc6rqPZUQ&fn=external_8"
+    },
+    {
+      "video_id": "3323885914697",
+      "title_raw": "23 - T-Bone, el perro de moda - El gran corazón de Clifford",
+      "duration_raw": "26:05",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 1040,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2072998316617&type=37&idx=12&tkn=JpJtuhjSfigAdjPv9fEdQKtuPKs&fn=external_8"
+    },
+    {
+      "video_id": "3323885718089",
+      "title_raw": "24 - Celosa yo - Un conejo en un pajar",
+      "duration_raw": "26:05",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 770,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2072956635721&type=37&idx=9&tkn=UTD7-E7AYaN5GwuTiHjj0-vUHJQ&fn=external_8"
+    },
+    {
+      "video_id": "3323884866121",
+      "title_raw": "25 - El traje no hace al perro - Cambio de altura",
+      "duration_raw": "26:04",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 811,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2072542186057&type=37&idx=1&tkn=gLHU_OLdKcsTow4nXCRF1aRXVtQ&fn=external_8"
+    },
+    {
+      "video_id": "3323885783625",
+      "title_raw": "26 - Ladrón de comida - Pidiendo a gritos un helado",
+      "duration_raw": "26:05",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 936,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2072969873993&type=37&idx=3&tkn=dSzHySU19FjbrdFvRt_X3nKAL4g&fn=external_8"
+    },
+    {
+      "video_id": "3323885587017",
+      "title_raw": "27 - Un perro nuevo en el vecindario - Que te mejores",
+      "duration_raw": "26:05",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 805,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2072923736649&type=37&idx=15&tkn=5I6EY2zvZRr5vXQ0_rrB1X3MxPY&fn=external_8"
+    },
+    {
+      "video_id": "3323885849161",
+      "title_raw": "28 - El blues de la niñera - Sábado en la mañana",
+      "duration_raw": "26:05",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 839,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2072985274953&type=37&idx=9&tkn=1cy-2-aIGlLIkMnpJHSvtKL5ZYo&fn=external_8"
+    },
+    {
+      "video_id": "3323884735049",
+      "title_raw": "29 - La mejor pata delantera - Y entonces llegó Bob",
+      "duration_raw": "26:04",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 720,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2072414259785&type=37&idx=3&tkn=xPfzEdwDHldH6m57R22hNg1pjaQ&fn=external_8"
+    },
+    {
+      "video_id": "3323885455945",
+      "title_raw": "30 - Amigos todo el día - El día especial del Sr. Bleakman",
+      "duration_raw": "26:04",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 923,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2072877206089&type=37&idx=6&tkn=I0onvjFoGgj3ojThOhJkfy-CJqw&fn=external_8"
+    },
+    {
+      "video_id": "3323884800585",
+      "title_raw": "31 - Bienvenido a la caseta - Promesas, promesas",
+      "duration_raw": "26:04",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 820,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2072486152777&type=37&idx=4&tkn=1iNhQD1efdYFCoz2JH9fqyEGups&fn=external_8"
+    },
+    {
+      "video_id": "3323885652553",
+      "title_raw": "32 - El hipo de Clifford - Es mi fiesta",
+      "duration_raw": "26:05",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 1033,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2072940317257&type=37&idx=14&tkn=48N6PI8FmxAS-7DAMX5VrUU8aH0&fn=external_8"
+    },
+    {
+      "video_id": "3323884931657",
+      "title_raw": "33 - Clifford limpia su caseta - El bebé",
+      "duration_raw": "26:04",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 1117,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2072588847689&type=37&idx=4&tkn=3zsRaTpxTl58C1OEU1-JTfXthWY&fn=external_8"
+    },
+    {
+      "video_id": "3323885193801",
+      "title_raw": "34 - La gran mentira de Jetta - La gran entrega",
+      "duration_raw": "26:04",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 808,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2072746789449&type=37&idx=13&tkn=aEfcKdytkqIQbhWNrPeQ_jow7v0&fn=external_8"
+    },
+    {
+      "video_id": "3323885324873",
+      "title_raw": "35 - El aguafiestas - El mejor regalo",
+      "duration_raw": "26:04",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 1016,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2072809376329&type=37&idx=2&tkn=51Gn4k6EmmPIBEBesR2D9Cz_4lE&fn=external_8"
+    },
+    {
+      "video_id": "3323885062729",
+      "title_raw": "36 - Dos son compañía - Amigo del buen tiempo",
+      "duration_raw": "26:05",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 717,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2072681515593&type=37&idx=2&tkn=2Fi2zWd92YLA6nRxYLUlrYokLSo&fn=external_8"
+    },
+    {
+      "video_id": "3323885390409",
+      "title_raw": "37 - Jardín de perros - El tesoro del Capitán Birdwell",
+      "duration_raw": "26:05",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 1572,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2072845224521&type=37&idx=10&tkn=WLzejVjJ_-jJh6d3dCI-KmYI3lg&fn=external_8"
+    },
+    {
+      "video_id": "3323884997193",
+      "title_raw": "38 - El día de todo al revés - La escuela de elegancia de Clifford",
+      "duration_raw": "26:04",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 918,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2072637409865&type=37&idx=7&tkn=aXtNDgB0XF0_z45oXcOp1Ct5v50&fn=external_8"
+    },
+    {
+      "video_id": "3323885259337",
+      "title_raw": "39 - Olvidar y perdonar - Mimí regresa al pueblo",
+      "duration_raw": "26:05",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 1292,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2072778312265&type=37&idx=14&tkn=2HgrBPHX0CdbqKxEaQERwsYL_n8&fn=external_8"
+    },
+    {
+      "video_id": "3323885128265",
+      "title_raw": "40 - Su manta preferida - Dino Clifford",
+      "duration_raw": "26:04",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 997,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2072713562697&type=37&idx=1&tkn=jgc8YXW4olerpxT5UcULDWvzkQ0&fn=external_8"
+    },
+    {
+      "video_id": "3317219723849",
+      "title_raw": "41.That's Snow Lie - A Friend in Need",
+      "duration_raw": "26:06",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 1052,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2065384081993&type=32&idx=11&tkn=OQQYnBPfSln1oOmreh6P4OmsKAU&fn=external_8"
+    },
+    {
+      "video_id": "3317220903497",
+      "title_raw": "42.Fan Mail - Hooray for Cleo",
+      "duration_raw": "26:06",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 1506,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2065869507145&type=32&idx=7&tkn=vS6VufitayhBlBiEkVvfb8E8pT0&fn=external_8"
+    },
+    {
+      "video_id": "3317220182601",
+      "title_raw": "43.Nothing to Fur But Fur Itself - Jetta's Project",
+      "duration_raw": "26:06",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 37503,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2065564764745&type=32&idx=4&tkn=75SrwTB1b-0wxUIuS0ijgkQojAc&fn=external_8"
+    },
+    {
+      "video_id": "3317219396169",
+      "title_raw": "44.Stinky Friends - He's Wonderful Mr. Bleakman",
+      "duration_raw": "26:06",
+      "season_number": 1,
+      "episode_number": 44,
+      "views": 888,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2065333094985&type=32&idx=2&tkn=r3sG50z5lbaYHWVDzfdbCOo4Oww&fn=external_8"
+    },
+    {
+      "video_id": "3317219854921",
+      "title_raw": "45.Magic in the Air - Everyone Loves Clifford",
+      "duration_raw": "26:06",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 757,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2065469409865&type=32&idx=2&tkn=Ksj-KUHgHVBK5syBMT99F_D0Fb4&fn=external_8"
+    },
+    {
+      "video_id": "3317221231177",
+      "title_raw": "46.Clifford Grows Up - Jetta's Sweater",
+      "duration_raw": "26:06",
+      "season_number": 1,
+      "episode_number": 46,
+      "views": 661,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2066005690953&type=32&idx=6&tkn=aV8qXODx_vJKSyfhELZrxDVLbps&fn=external_8"
+    },
+    {
+      "video_id": "3317219592777",
+      "title_raw": "47.Big Hearted T-Bone - Cleo's Valentine Surprise",
+      "duration_raw": "26:06",
+      "season_number": 1,
+      "episode_number": 47,
+      "views": 613,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2065356229193&type=32&idx=7&tkn=2QRD0hUWlk4ACrLfFJCxQmTcGwQ&fn=external_8"
+    },
+    {
+      "video_id": "3317220313673",
+      "title_raw": "48.Embarassing Moments - Lucky Charm",
+      "duration_raw": "26:06",
+      "season_number": 1,
+      "episode_number": 48,
+      "views": 674,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2065630038601&type=32&idx=2&tkn=nz6wIJ6yCypkV7xFsBLI-UKA3nw&fn=external_8"
+    },
+    {
+      "video_id": "3317219134025",
+      "title_raw": "49.Little Big Pup - Getting to Know You",
+      "duration_raw": "26:06",
+      "season_number": 1,
+      "episode_number": 49,
+      "views": 640,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2065263823433&type=32&idx=3&tkn=_bjge470syQH-JD-mIIljXfZYdw&fn=external_8"
+    },
+    {
+      "video_id": "3317220575817",
+      "title_raw": "50.Fishing Lessons - No Baths for Cleo",
+      "duration_raw": "26:06",
+      "season_number": 1,
+      "episode_number": 50,
+      "views": 921,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2065754294857&type=32&idx=3&tkn=eP2JslOqOpjr7zednKrblDZ57L4&fn=external_8"
+    },
+    {
+      "video_id": "3317219330633",
+      "title_raw": "51.Another Fine Mess - King Mac",
+      "duration_raw": "26:06",
+      "season_number": 1,
+      "episode_number": 51,
+      "views": 916,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2065317628489&type=32&idx=3&tkn=VnQbGnVU4dPzPWcq5_lnjQhUPlI&fn=external_8"
+    },
+    {
+      "video_id": "3317220969033",
+      "title_raw": "52.When I Grow Up - Not Now, I'm Busy",
+      "duration_raw": "26:06",
+      "season_number": 1,
+      "episode_number": 52,
+      "views": 1057,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2065904831049&type=32&idx=4&tkn=obg5qBc16fW2KYjmTMel8fdGpJA&fn=external_8"
+    },
+    {
+      "video_id": "3317220117065",
+      "title_raw": "53.Special T-Bone - Jetta's Sneak Peak",
+      "duration_raw": "26:06",
+      "season_number": 1,
+      "episode_number": 53,
+      "views": 635,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2065533307465&type=32&idx=13&tkn=YbCKaAGcFJdKJ0pNczLdY3L0Df8&fn=external_8"
+    },
+    {
+      "video_id": "3317220379209",
+      "title_raw": "54.Vaz Goes Down the Tubes - Cyber Puppy Problems",
+      "duration_raw": "26:06",
+      "season_number": 1,
+      "episode_number": 54,
+      "views": 908,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2065658284617&type=32&idx=7&tkn=yhe48cPevicVxc2f0G3XcA3H4BQ&fn=external_8"
+    },
+    {
+      "video_id": "3317219920457",
+      "title_raw": "55.Cleo Gets a Cone - A Job Well Read",
+      "duration_raw": "26:06",
+      "season_number": 1,
+      "episode_number": 55,
+      "views": 886,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2065502112329&type=32&idx=10&tkn=TvAPaL7kT0rdqolC24FJifA3sms&fn=external_8"
+    },
+    {
+      "video_id": "3317220772425",
+      "title_raw": "56.Who Moved My Bone - Clifford Pirate King",
+      "duration_raw": "26:06",
+      "season_number": 1,
+      "episode_number": 56,
+      "views": 690,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2065839426121&type=32&idx=11&tkn=gNIqoGWAEVSb5_qH0sNuVzh6zws&fn=external_8"
+    },
+    {
+      "video_id": "3317220248137",
+      "title_raw": "57.Clifford's Cookie Craving - Jetta's Friend",
+      "duration_raw": "26:06",
+      "season_number": 1,
+      "episode_number": 57,
+      "views": 7637,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2065593731657&type=32&idx=10&tkn=8SjRuzVzte4PFWw8f2OndIQV2Z4&fn=external_8"
+    },
+    {
+      "video_id": "3317220641353",
+      "title_raw": "58.Food for Thought - Friends Forever",
+      "duration_raw": "26:06",
+      "season_number": 1,
+      "episode_number": 58,
+      "views": 613,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2065782737481&type=32&idx=4&tkn=J7VITeCyjNUbyWq2zZO5b9fYHcc&fn=external_8"
+    },
+    {
+      "video_id": "3317219789385",
+      "title_raw": "59. Clifford's Big Heart - Cleo's Valentine Surprise",
+      "duration_raw": "26:06",
+      "season_number": 1,
+      "episode_number": 59,
+      "views": 580,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2065419143753&type=32&idx=12&tkn=Qrr3QIALquI3ehuVrNS6J-8hYzg&fn=external_8"
+    },
+    {
+      "video_id": "3317220510281",
+      "title_raw": "60.A Big Help - The Trouble with Kittens",
+      "duration_raw": "26:06",
+      "season_number": 1,
+      "episode_number": 60,
+      "views": 660,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2065721789001&type=32&idx=14&tkn=BrJX8muI7Jjtd9XhUE5VCwn4UrM&fn=external_8"
+    },
+    {
+      "video_id": "3317221034569",
+      "title_raw": "61.Led Astray - Wedding Bell Blues",
+      "duration_raw": "26:06",
+      "season_number": 1,
+      "episode_number": 61,
+      "views": 699,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2065939302985&type=32&idx=1&tkn=u6K1JqMbmrSnOJExa_qtNyWgt40&fn=external_8"
+    },
+    {
+      "video_id": "3317220444745",
+      "title_raw": "62.Doggie Detectives - Camping It Up",
+      "duration_raw": "26:06",
+      "season_number": 1,
+      "episode_number": 62,
+      "views": 678,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2065693936201&type=32&idx=2&tkn=zh_l_Nyb1KKmuQI3pkODj4xZPIg&fn=external_8"
+    },
+    {
+      "video_id": "3317219265097",
+      "title_raw": "63.Tie Dyed Clifford - Stage Struck",
+      "duration_raw": "26:06",
+      "season_number": 1,
+      "episode_number": 63,
+      "views": 858,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2065300392521&type=32&idx=7&tkn=xg9Zm8Ok2bd__dbfV1D0LZWPOs0&fn=external_8"
+    },
+    {
+      "video_id": "3317220706889",
+      "title_raw": "64.Doghouse Rock - Guess Who's Coming to Birdwell Island",
+      "duration_raw": "26:06",
+      "season_number": 1,
+      "episode_number": 64,
+      "views": 742,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2065810459209&type=32&idx=1&tkn=6bZpjj_cdRrYKVa9Wnq1VkPA17o&fn=external_8"
+    },
+    {
+      "video_id": "3317219527241",
+      "title_raw": "65.Princess Cleo - Basketball Stories",
+      "duration_raw": "26:06",
+      "season_number": 1,
+      "episode_number": 65,
+      "views": 725,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2065344301641&type=32&idx=13&tkn=V9Ci_860nLE-bFY-izYxUPchQeM&fn=external_8"
+    },
+    {
+      "video_id": "3317221100105",
+      "title_raw": "66. Little Big Pup- Getting To Know You",
+      "duration_raw": "26:06",
+      "season_number": 1,
+      "episode_number": 66,
+      "views": 728,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2065969580617&type=32&idx=1&tkn=ASN9oexa2wD9om6bg7Jlanf0vNY&fn=external_8"
+    }
+  ]
+}

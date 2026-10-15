@@ -1,0 +1,304 @@
+{
+  "title": "Power Rangers: Furia Animal",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c5418825",
+  "year": "2008",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "720p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Acción",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "2808167664201",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 01_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 30768,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662582655561&type=38&idx=6&tkn=j7Q2amoytEV-p-SMG9tiapnRaN8&fn=external_8"
+    },
+    {
+      "video_id": "2808167533129",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 02_x264",
+      "duration_raw": "22:38",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 17561,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662576888393&type=38&idx=7&tkn=n5AV7UHUGYplXwKB8M33t-CSpAI&fn=external_8"
+    },
+    {
+      "video_id": "2808168581705",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 03_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 12271,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662633118281&type=38&idx=14&tkn=1NQ-TqxyZRTMUOSTK3YrwIUpQ9c&fn=external_8"
+    },
+    {
+      "video_id": "2808168450633",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 04_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 10469,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662626826825&type=38&idx=11&tkn=mbbr2aK_X8cCXKpTE4ufPBNJO30&fn=external_8"
+    },
+    {
+      "video_id": "2808168188489",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 05_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 8608,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662609656393&type=38&idx=9&tkn=N9nJA2zPGiGREj_GW-SuKQnZ54Q&fn=external_8"
+    },
+    {
+      "video_id": "2808169171529",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 06_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 8439,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662663592521&type=38&idx=10&tkn=kMm5oEih3YFxo654LivUV9n1Sng&fn=external_8"
+    },
+    {
+      "video_id": "2808168843849",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 07_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 7584,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662645045833&type=38&idx=6&tkn=CtZvjlY-Z2NPajY-Xz6ifpIeE9k&fn=external_8"
+    },
+    {
+      "video_id": "2808168122953",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 08_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 7671,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662605199945&type=38&idx=9&tkn=r62BwWx48hUzbAwkB9tXNhcEHt8&fn=external_8"
+    },
+    {
+      "video_id": "2808167860809",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 09_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 6977,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662594845257&type=38&idx=3&tkn=zMCQStde4wTCIcAMsdJ9Gn9x6ME&fn=external_8"
+    },
+    {
+      "video_id": "2808167729737",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 10_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 7227,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662586325577&type=38&idx=3&tkn=5GUP8110OwW9ORkyI8luMHCqpuE&fn=external_8"
+    },
+    {
+      "video_id": "2808168974921",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 11_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 6715,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662651337289&type=38&idx=3&tkn=Lx0t3R2c0jGXEB8WaA1D0G5zzIs&fn=external_8"
+    },
+    {
+      "video_id": "2808167926345",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 12_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 7171,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662599891529&type=38&idx=11&tkn=erCp_wriUnOIRhPcIeakT_Lxri8&fn=external_8"
+    },
+    {
+      "video_id": "2808167336521",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 13_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 7272,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662559914569&type=38&idx=9&tkn=StiEGQSsYLOYdZ4Bv-lGkFGnzeo&fn=external_8"
+    },
+    {
+      "video_id": "2808167598665",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 14_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 7306,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662580427337&type=38&idx=8&tkn=S5FhcLxbRW0XfEMmR1FwfVIKTA0&fn=external_8"
+    },
+    {
+      "video_id": "2808168778313",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 15_x264",
+      "duration_raw": "22:38",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 7100,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662642227785&type=38&idx=2&tkn=mmazRdY6awsBcrGHVIyyYi8WLLs&fn=external_8"
+    },
+    {
+      "video_id": "2808169237065",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 16_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 7331,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662668180041&type=38&idx=13&tkn=n12VsEIJPBeb8wa4oNFmM4gKjdE&fn=external_8"
+    },
+    {
+      "video_id": "2808167074377",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 17_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 6269,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662537042505&type=38&idx=13&tkn=_GrkEkq4joCHODxMa4ZxTrIRQkw&fn=external_8"
+    },
+    {
+      "video_id": "2808167795273",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 18_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 6079,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662591240777&type=38&idx=3&tkn=7wg1Fxhc5xJnB8n_RilDn0nW2mw&fn=external_8"
+    },
+    {
+      "video_id": "2808168319561",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 19_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 6666,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662614506057&type=38&idx=2&tkn=GRwwovp3dr_rs45FFrpB6XN8Wvg&fn=external_8"
+    },
+    {
+      "video_id": "2808167467593",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 20_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 6011,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662571055689&type=38&idx=8&tkn=9kBgZxB_nCrqNEnmDOa4hcz3Zrg&fn=external_8"
+    },
+    {
+      "video_id": "2808168909385",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 21_x264",
+      "duration_raw": "22:38",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 5999,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662648126025&type=38&idx=11&tkn=DRDfgIVjMV9zHCaIPeKHC1Qs-Jw&fn=external_8"
+    },
+    {
+      "video_id": "2808167139913",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 22_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 5809,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662543661641&type=38&idx=9&tkn=bUPKicB9HAaDa9j5s2wRNKF9hTo&fn=external_8"
+    },
+    {
+      "video_id": "2808169302601",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 23_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 5811,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662674471497&type=38&idx=7&tkn=zL8eHJMKCvRSb467cadXTUfDvnE&fn=external_8"
+    },
+    {
+      "video_id": "2808168647241",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 24_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 5726,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662635805257&type=38&idx=3&tkn=j2s1z3MLQdTGVCSMDV9w1nu97lg&fn=external_8"
+    },
+    {
+      "video_id": "2808167270985",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 25_x264",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 5618,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662555589193&type=38&idx=6&tkn=5XdZzbqN953yboLHQRipZKqNWTE&fn=external_8"
+    },
+    {
+      "video_id": "2808167205449",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 26_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 4973,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662552050249&type=38&idx=12&tkn=l4Ygmb2H8vodWO9E2jkUVq5GV9g&fn=external_8"
+    },
+    {
+      "video_id": "2808168057417",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 27_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 5525,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662602381897&type=38&idx=11&tkn=iqZM4kSeXqmpHu07SMeK4_VLhcE&fn=external_8"
+    },
+    {
+      "video_id": "2808167402057",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 28_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 5565,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662565288521&type=38&idx=11&tkn=vNq7vMJgdYI1MlI_A0p7nUfmWOc&fn=external_8"
+    },
+    {
+      "video_id": "2808168712777",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 29_x264",
+      "duration_raw": "22:38",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 18170,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662638819913&type=38&idx=10&tkn=ycPUUMIUDzA6NrFQTOhYQeLnzgU&fn=external_8"
+    },
+    {
+      "video_id": "2808169040457",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 30_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 5239,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662655859273&type=38&idx=6&tkn=KcSgghTukT3DQkqFZyVIfv7XXfU&fn=external_8"
+    },
+    {
+      "video_id": "2808168516169",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 31_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 6379,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662630234697&type=38&idx=13&tkn=a-DAsB9kcdvjvym-ULZSHl392Go&fn=external_8"
+    },
+    {
+      "video_id": "2808168385097",
+      "title_raw": "[SR] Power Rangers Jungle Fury - 32_x264",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 8493,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1662621059657&type=38&idx=10&tkn=YnCQF_jz9lzr5MKFR4Z3myGufAI&fn=external_8"
+    }
+  ]
+}

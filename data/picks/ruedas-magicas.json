@@ -1,0 +1,151 @@
+{
+  "title": "Ruedas Mágicas",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2225993",
+  "year": "1972",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "1388024433225",
+      "title_raw": "La Carrera de Caballos_x264",
+      "duration_raw": "05:45",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 352,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595340495433&type=32&idx=2&tkn=NjjO7b6sie0wCpJ8UJ1OfldzN_A&fn=external_8"
+    },
+    {
+      "video_id": "1388024498761",
+      "title_raw": "Ruedas Magicas y Los Ovnis_x264",
+      "duration_raw": "05:44",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 400,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595341281865&type=32&idx=13&tkn=fett6VUa2zc5EmzpjD7OImJrv7E&fn=external_8"
+    },
+    {
+      "video_id": "1388024564297",
+      "title_raw": "El Pueblo Fantasma_x264",
+      "duration_raw": "05:44",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 531,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595341806153&type=32&idx=12&tkn=c0Y8Ud6ytLNmElXguer6wXGGp0A&fn=external_8"
+    },
+    {
+      "video_id": "1388024629833",
+      "title_raw": "El Intento de Robo_x264",
+      "duration_raw": "05:45",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 936,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595342002761&type=32&idx=2&tkn=befAAsRvjenihLo0vs7i-p53dCw&fn=external_8"
+    },
+    {
+      "video_id": "1388024695369",
+      "title_raw": "El Robo Del Oro_x264",
+      "duration_raw": "05:44",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 436,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595342592585&type=32&idx=4&tkn=4cIG-4fFqImg328l4cCISTjPhzg&fn=external_8"
+    },
+    {
+      "video_id": "1388024760905",
+      "title_raw": "El Principe Desaparecido_x264",
+      "duration_raw": "05:44",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 540,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595342985801&type=32&idx=14&tkn=CVkPl2wxz5bVj-hLi-EvHQhIRJ4&fn=external_8"
+    },
+    {
+      "video_id": "1388024826441",
+      "title_raw": "El Hombre de Nieve_x264",
+      "duration_raw": "05:43",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1784,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595343182409&type=32&idx=8&tkn=EhnSe9Zsgbl_wvq4f59IMvT339g&fn=external_8"
+    },
+    {
+      "video_id": "1388024891977",
+      "title_raw": "El Ojo Del Idolo_x264",
+      "duration_raw": "05:42",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 663,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595343641161&type=32&idx=7&tkn=GeGzrBAmHFapgGXUes48uOdE3dU&fn=external_8"
+    },
+    {
+      "video_id": "1388024957513",
+      "title_raw": "Su Doble Problema_x264",
+      "duration_raw": "05:42",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 466,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595343968841&type=32&idx=9&tkn=j0dvxpiCY4YJ9s2sm7zuqIrlVA8&fn=external_8"
+    },
+    {
+      "video_id": "1388025023049",
+      "title_raw": "El Globo de Oro_x264",
+      "duration_raw": "05:44",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 8080,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595344624201&type=32&idx=13&tkn=WAw5l8cm-1zoVT46Nr0E4LS2pzg&fn=external_8"
+    },
+    {
+      "video_id": "1388025088585",
+      "title_raw": "Los Cuatreros_x264",
+      "duration_raw": "05:45",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 345,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595345279561&type=32&idx=13&tkn=sZECfVSICulAjqvEXrBIYEAwuU8&fn=external_8"
+    },
+    {
+      "video_id": "1388025154121",
+      "title_raw": "La Carrera Aerea_x264",
+      "duration_raw": "05:41",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 395,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595346328137&type=32&idx=13&tkn=87SGYrRWGV5s4pVb1bSmLruQfXE&fn=external_8"
+    },
+    {
+      "video_id": "1388025219657",
+      "title_raw": "El Rascacielos_x264",
+      "duration_raw": "05:42",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 430,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595348163145&type=32&idx=10&tkn=jv4Dfn6fRtYMzwRiZ-pUX-SFwPA&fn=external_8"
+    },
+    {
+      "video_id": "1388025285193",
+      "title_raw": "Los Animales_x264",
+      "duration_raw": "05:46",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 343,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595349080649&type=32&idx=0&tkn=UIQ_ziFJvEplMNarh_SrFJMHj2I&fn=external_8"
+    },
+    {
+      "video_id": "1388025350729",
+      "title_raw": "El Secreto del Hermitaño_x264",
+      "duration_raw": "05:44",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 428,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595349670473&type=32&idx=10&tkn=AIImyQqzm7-Inp1dTkQm4Zt2Ibs&fn=external_8"
+    }
+  ]
+}

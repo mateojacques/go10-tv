@@ -1,0 +1,250 @@
+{
+  "title": "Mi Padre el Rockero",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c5088073",
+  "year": "2002",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "2607303166537",
+      "title_raw": "[www.RetroCanal.Net]-MER-01x01",
+      "duration_raw": "23:31",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 7454,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1427448859209&type=32&idx=13&tkn=gqGPOOVtOegXOIZaMiEEnusRkck&fn=external_8"
+    },
+    {
+      "video_id": "2607302904393",
+      "title_raw": "[www.RetroCanal.Net]-MER-01x02",
+      "duration_raw": "23:29",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 2276,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1427441781321&type=32&idx=6&tkn=B8_N7ucXaabKDU_Egmy-7MrYa70&fn=external_8"
+    },
+    {
+      "video_id": "2607303428681",
+      "title_raw": "[www.RetroCanal.Net]-MER-01x03",
+      "duration_raw": "23:29",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1384,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1427454102089&type=32&idx=5&tkn=d8CeEp6RLHXRaFarnn1BPT0c-VQ&fn=external_8"
+    },
+    {
+      "video_id": "2607302642249",
+      "title_raw": "[www.RetroCanal.Net]-MER-01x04",
+      "duration_raw": "23:31",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1146,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1427435620937&type=32&idx=10&tkn=azzpDf59husiB1xXIBki4IWZv_A&fn=external_8"
+    },
+    {
+      "video_id": "2607302838857",
+      "title_raw": "[www.RetroCanal.Net]-MER-01x05",
+      "duration_raw": "23:31",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1166,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1427439487561&type=32&idx=12&tkn=KLmb2-MXpuOH27QD9DDwmn8P0Ps&fn=external_8"
+    },
+    {
+      "video_id": "2607303232073",
+      "title_raw": "[www.RetroCanal.Net]-MER-01x06",
+      "duration_raw": "23:32",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 1045,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1427450104393&type=32&idx=13&tkn=fNkMdbImZOn7AnI454Z4_HRrby4&fn=external_8"
+    },
+    {
+      "video_id": "2607302707785",
+      "title_raw": "[www.RetroCanal.Net]-MER-01x07",
+      "duration_raw": "23:30",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 823,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1427436603977&type=32&idx=5&tkn=41lpoxCZFRPC6clNSondUhWHCOk&fn=external_8"
+    },
+    {
+      "video_id": "2607303756361",
+      "title_raw": "[www.RetroCanal.Net]-MER-01x08",
+      "duration_raw": "23:30",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 794,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1427462818377&type=32&idx=14&tkn=FHs7YFdf-EdqPvDawI_BO85bopg&fn=external_8"
+    },
+    {
+      "video_id": "2607302249033",
+      "title_raw": "[www.RetroCanal.Net]-MER-01x09",
+      "duration_raw": "23:30",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 572,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1427425200713&type=32&idx=14&tkn=yEhIgp2-8rFVXgeh5Kwy4QHt1Fk&fn=external_8"
+    },
+    {
+      "video_id": "2607302380105",
+      "title_raw": "[www.RetroCanal.Net]-MER-01x10",
+      "duration_raw": "23:31",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 645,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1427429526089&type=32&idx=1&tkn=p85jgH_XHr9XLyVomj9y5Ckm2-c&fn=external_8"
+    },
+    {
+      "video_id": "2607303035465",
+      "title_raw": "[www.RetroCanal.Net]-MER-01x11",
+      "duration_raw": "23:30",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 620,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1427445844553&type=32&idx=3&tkn=Avu6V98GjT8UnW4-YzTDuE2xdl4&fn=external_8"
+    },
+    {
+      "video_id": "2607302511177",
+      "title_raw": "[www.RetroCanal.Net]-MER-01x12",
+      "duration_raw": "23:30",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 577,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1427432606281&type=32&idx=9&tkn=XKW5PsllTv7A76uuBvrfGnw3mhs&fn=external_8"
+    },
+    {
+      "video_id": "2607303494217",
+      "title_raw": "[www.RetroCanal.Net]-MER-01x13",
+      "duration_raw": "23:31",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 565,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1427456133705&type=32&idx=12&tkn=ceS0x33GG0vL9id8sZP2x0n57IM&fn=external_8"
+    },
+    {
+      "video_id": "2607303363145",
+      "title_raw": "[www.RetroCanal.Net]-MER-02x01",
+      "duration_raw": "23:30",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 670,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1427452725833&type=32&idx=15&tkn=KCUHRJ0k8qWZ57M8js-gUr2NdDM&fn=external_8"
+    },
+    {
+      "video_id": "2607302445641",
+      "title_raw": "[www.RetroCanal.Net]-MER-02x02",
+      "duration_raw": "23:30",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 545,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1427431033417&type=32&idx=2&tkn=6TbyqMbWkS1RZDhayBDhbdQBj7A&fn=external_8"
+    },
+    {
+      "video_id": "2607303101001",
+      "title_raw": "[www.RetroCanal.Net]-MER-02x03",
+      "duration_raw": "23:30",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 476,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1427447482953&type=32&idx=14&tkn=rFUwBX6Pymggqve4CWZGVaYtijA&fn=external_8"
+    },
+    {
+      "video_id": "2607302314569",
+      "title_raw": "[www.RetroCanal.Net]-MER-02x04",
+      "duration_raw": "23:30",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 467,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1427426970185&type=32&idx=14&tkn=ZITBf68cBXVhCJArH2Nrcss1pvQ&fn=external_8"
+    },
+    {
+      "video_id": "2607303559753",
+      "title_raw": "[www.RetroCanal.Net]-MER-02x05",
+      "duration_raw": "23:30",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 420,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1427458034249&type=32&idx=12&tkn=bPtFrnBNBH6eruQBK-LA48qtfHs&fn=external_8"
+    },
+    {
+      "video_id": "2607302969929",
+      "title_raw": "[www.RetroCanal.Net]-MER-02x06",
+      "duration_raw": "23:30",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 415,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1427443878473&type=32&idx=5&tkn=mEPVCGN3B52cqF4shR9pZJo6qS0&fn=external_8"
+    },
+    {
+      "video_id": "2607303625289",
+      "title_raw": "[www.RetroCanal.Net]-MER-02x07",
+      "duration_raw": "23:30",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 402,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1427459213897&type=32&idx=3&tkn=Fxc_XaDv4lzfQ9gg1y_FiojcKfM&fn=external_8"
+    },
+    {
+      "video_id": "2607302773321",
+      "title_raw": "[www.RetroCanal.Net]-MER-02x08",
+      "duration_raw": "23:31",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 355,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1427437914697&type=32&idx=4&tkn=6PPRKS5oK-9QR9Hv3d4tG9HsocE&fn=external_8"
+    },
+    {
+      "video_id": "2607303690825",
+      "title_raw": "[www.RetroCanal.Net]-MER-02x09",
+      "duration_raw": "23:30",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 504,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1427461048905&type=32&idx=6&tkn=iUeFOwZhcwUpVHuJpDwr94XmfPI&fn=external_8"
+    },
+    {
+      "video_id": "2607303821897",
+      "title_raw": "[www.RetroCanal.Net]-MER-02x10",
+      "duration_raw": "23:30",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 365,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1427464522313&type=32&idx=2&tkn=y8rvGdn8tMggQpO4A-CmshbaVWU&fn=external_8"
+    },
+    {
+      "video_id": "2607302576713",
+      "title_raw": "[www.RetroCanal.Net]-MER-02x11",
+      "duration_raw": "23:30",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 378,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1427433785929&type=32&idx=9&tkn=Wn_kh5Pki59vegMq3sFGiS0SeVI&fn=external_8"
+    },
+    {
+      "video_id": "2607303887433",
+      "title_raw": "[www.RetroCanal.Net]-MER-02x12",
+      "duration_raw": "23:30",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 449,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1427466750537&type=32&idx=1&tkn=-aPvfJj9z2AaDvBsjFdRsBRk_Oc&fn=external_8"
+    },
+    {
+      "video_id": "2607303297609",
+      "title_raw": "[www.RetroCanal.Net]-MER-02x13",
+      "duration_raw": "23:30",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 846,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1427451349577&type=32&idx=14&tkn=BNUlGWlXxRHy9wpxYbR48uA0H2c&fn=external_8"
+    }
+  ]
+}

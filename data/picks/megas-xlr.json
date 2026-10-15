@@ -1,0 +1,250 @@
+{
+  "title": "Megas XLR",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c12348489 c2346825",
+  "year": "2004",
+  "studio": "Cartoon N.",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "4699363019337",
+      "title_raw": "01.Viaje.De.Prueba",
+      "duration_raw": "23:01",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 9730,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=5118920755785&type=32&idx=15&tkn=RJJuL49gtRikMMR8AOAtCkwo5tI&fn=external_8"
+    },
+    {
+      "video_id": "4699362888265",
+      "title_raw": "02.Batalla.Real",
+      "duration_raw": "22:44",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 3709,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6531511355977&type=32&idx=9&tkn=fL77D9_LC6NA1AW_xlJOQEvK42I&fn=external_8"
+    },
+    {
+      "video_id": "4699363150409",
+      "title_raw": "03.Gordo.y.Furioso",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 2517,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345071286939&type=32&idx=6&tkn=9oc3TyqR5rOdKo3EDOTeaWMb-kY&fn=external_8"
+    },
+    {
+      "video_id": "4699363215945",
+      "title_raw": "04.Yo.Solo.Quera.Una.Malteada",
+      "duration_raw": "22:55",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1824,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345070303899&type=32&idx=10&tkn=9IwvblyT8piDfS2z1l6ZTlycFmg&fn=external_8"
+    },
+    {
+      "video_id": "4699364067913",
+      "title_raw": "05.El.Villano",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1638,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345081117339&type=32&idx=9&tkn=gUFuxQbBQpfKfm8aSJWD8iPUzYc&fn=external_8"
+    },
+    {
+      "video_id": "4699363347017",
+      "title_raw": "06.Fallas.Del.Sistema",
+      "duration_raw": "22:12",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 1382,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345074694811&type=32&idx=5&tkn=dhRXzFk2dx0glbVsYMp1iGxMOrY&fn=external_8"
+    },
+    {
+      "video_id": "4699363609161",
+      "title_raw": "07.La.Fuga",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1205,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345076726427&type=32&idx=15&tkn=_h_BFnU07D-2Y5XvL4a6iQYp1kM&fn=external_8"
+    },
+    {
+      "video_id": "4699363674697",
+      "title_raw": "08.Viejo,.Dnde.Esta.Mi.Cabeza",
+      "duration_raw": "22:37",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1227,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345079347867&type=32&idx=1&tkn=9VGHgY7g9CCdXjC7mzKoryzNWuI&fn=external_8"
+    },
+    {
+      "video_id": "4699363936841",
+      "title_raw": "09.DIM.Departamento.De.Infres.s",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 1296,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3762665622089&type=32&idx=7&tkn=tydUsCB51cNtbqTMiaX4M58CpA0&fn=external_8"
+    },
+    {
+      "video_id": "4699364002377",
+      "title_raw": "10.Chatarra",
+      "duration_raw": "22:43",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 1032,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345084197531&type=32&idx=13&tkn=q0zREHoGYvpyApeowJuHvy7Nr5Y&fn=external_8"
+    },
+    {
+      "video_id": "4699363740233",
+      "title_raw": "11.Cena.y.Televisin",
+      "duration_raw": "22:52",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 1204,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345072728731&type=32&idx=14&tkn=Ektp4pp86TwF2f7wa2c88TY8T-g&fn=external_8"
+    },
+    {
+      "video_id": "4699363805769",
+      "title_raw": "12.El.Asiento.Del.Cher",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 1018,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345091078811&type=32&idx=14&tkn=TQWvBkm53l25z5fUWLtBNkBxwdg&fn=external_8"
+    },
+    {
+      "video_id": "4699363871305",
+      "title_raw": "13Golpe.De.Estado",
+      "duration_raw": "22:56",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 925,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345088916123&type=32&idx=1&tkn=amDBSJvJdl-Byw9wpijMAAZtWpo&fn=external_8"
+    },
+    {
+      "video_id": "4699528890953",
+      "title_raw": "14.Ultra.Nenas",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 1237,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345096780443&type=32&idx=9&tkn=tqwcJdJZnqYSnGnBIF8NEo9nfaA&fn=external_8"
+    },
+    {
+      "video_id": "4699528825417",
+      "title_raw": "15.El.Retorno",
+      "duration_raw": "21:30",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 933,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345098025627&type=32&idx=6&tkn=ptydUsjiCiKVsgh64wk136e53Jo&fn=external_8"
+    },
+    {
+      "video_id": "4699528956489",
+      "title_raw": "16.No.Le.Digas.A.Mam.Que.La.Niera.Es.Coop",
+      "duration_raw": "22:23",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 1512,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345099336347&type=32&idx=8&tkn=e5iUxv_dF9Roi18cRL5GtMPC98E&fn=external_8"
+    },
+    {
+      "video_id": "4699529022025",
+      "title_raw": "17.Viva.Las.s",
+      "duration_raw": "22:28",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 968,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345101564571&type=32&idx=13&tkn=1exeUvltPV73IqPVtztGJV9rMz0&fn=external_8"
+    },
+    {
+      "video_id": "4699529087561",
+      "title_raw": "18.Fuerza.S.O.S",
+      "duration_raw": "22:02",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 919,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345102547611&type=32&idx=14&tkn=spfAOMWjiPPC05HK37elSkUt-zo&fn=external_8"
+    },
+    {
+      "video_id": "4757469727305",
+      "title_raw": "19.Botn.Espacial",
+      "duration_raw": "23:07",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 1046,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345103792795&type=32&idx=3&tkn=dXcvZ4Tn5fDcFOJ1JU7RIhaQjGk&fn=external_8"
+    },
+    {
+      "video_id": "4699529611849",
+      "title_raw": "20.Golpiza.DeDe.Gracias",
+      "duration_raw": "22:09",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 882,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345105431195&type=32&idx=1&tkn=cj0pOME4czlS4CvYNQW13iOb9Vg&fn=external_8"
+    },
+    {
+      "video_id": "4699529153097",
+      "title_raw": "21.Liqudenla",
+      "duration_raw": "21:42",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 803,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345106741915&type=32&idx=4&tkn=DKsG_uKXWBRUZ59ioLA_K9kH-cs&fn=external_8"
+    },
+    {
+      "video_id": "4699529546313",
+      "title_raw": "22.Un.s.Bien.Helado",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 672,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345107856027&type=32&idx=5&tkn=oLBty_ANjrxuy7nhrrzdn2TDKiw&fn=external_8"
+    },
+    {
+      "video_id": "4699529284169",
+      "title_raw": "23.s.Mecnico",
+      "duration_raw": "22:30",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 726,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345108511387&type=32&idx=3&tkn=o98uVqiQwLyAAX542exRNTm27qg&fn=external_8"
+    },
+    {
+      "video_id": "4699529480777",
+      "title_raw": "24.Control.Remoto.Universal",
+      "duration_raw": "22:09",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 851,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345109363355&type=32&idx=5&tkn=P6RXAbI2IiBxOtXdACH4nbIWPVA&fn=external_8"
+    },
+    {
+      "video_id": "4699529349705",
+      "title_raw": "25.Espejo.Retrovisor.1ª.Parte",
+      "duration_raw": "21:06",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 1348,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345111198363&type=32&idx=1&tkn=7h8O6D596lcuHZQ8xipimRvnYTg&fn=external_8"
+    },
+    {
+      "video_id": "4699529415241",
+      "title_raw": "26.Espejo.Retrovisor.2ª.Parte",
+      "duration_raw": "22:51",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 1503,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345112771227&type=32&idx=4&tkn=UxNMbOQb7GUhE6pcKObyF3FLrQ0&fn=external_8"
+    }
+  ]
+}

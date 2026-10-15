@@ -1,0 +1,133 @@
+{
+  "title": "Jones, el Robot",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c4978249",
+  "year": "2002",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "2537332673097",
+      "title_raw": "[www.RetroCanal.Net]-JER-01x01",
+      "duration_raw": "22:37",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 3403,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345936165449&type=32&idx=8&tkn=haUL_0SjYxd4AKqRJicRlVhOTh4&fn=external_8"
+    },
+    {
+      "video_id": "2537331821129",
+      "title_raw": "[www.RetroCanal.Net]-JER-01x02",
+      "duration_raw": "22:29",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 1283,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345883867721&type=32&idx=9&tkn=xVnLjZmkeugFagMg4S0ujoZdQxw&fn=external_8"
+    },
+    {
+      "video_id": "2537332083273",
+      "title_raw": "[www.RetroCanal.Net]-JER-01x03",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1138,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345892518473&type=32&idx=12&tkn=hCT9RXHw5LKQgnh9sNicnnKI1cI&fn=external_8"
+    },
+    {
+      "video_id": "2537332017737",
+      "title_raw": "[www.RetroCanal.Net]-JER-01x04",
+      "duration_raw": "22:30",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 721,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345888258633&type=32&idx=14&tkn=qNoR19Vfc8DGOzoFi5OooCsToXI&fn=external_8"
+    },
+    {
+      "video_id": "2537332738633",
+      "title_raw": "[www.RetroCanal.Net]-JER-01x05",
+      "duration_raw": "22:31",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 780,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345942456905&type=32&idx=5&tkn=fBEW6gnxcGcAZxV-nTxpVVsqNeY&fn=external_8"
+    },
+    {
+      "video_id": "2537332476489",
+      "title_raw": "[www.RetroCanal.Net]-JER-01x06",
+      "duration_raw": "15:00",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 661,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345923451465&type=32&idx=15&tkn=MNTjp0JeCUhIEoHhXfwmUe1XCkE&fn=external_8"
+    },
+    {
+      "video_id": "2537332148809",
+      "title_raw": "[www.RetroCanal.Net]-JER-02x01",
+      "duration_raw": "22:32",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 683,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345897368137&type=32&idx=9&tkn=CNjENX5fsbBLqUNd2Gv8qQSMG3M&fn=external_8"
+    },
+    {
+      "video_id": "2537332542025",
+      "title_raw": "[www.RetroCanal.Net]-JER-02x02",
+      "duration_raw": "22:29",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 589,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345928628809&type=32&idx=1&tkn=uZI6F82zCCrA9HsrIPj0UsZOOTY&fn=external_8"
+    },
+    {
+      "video_id": "2537332607561",
+      "title_raw": "[www.RetroCanal.Net]-JER-02x03",
+      "duration_raw": "22:26",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 509,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345933281865&type=32&idx=3&tkn=UMzM80b4bVsf3hya7eJzu5vJf18&fn=external_8"
+    },
+    {
+      "video_id": "2537332410953",
+      "title_raw": "[www.RetroCanal.Net]-JER-02x04",
+      "duration_raw": "22:21",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 456,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345918601801&type=32&idx=4&tkn=V7ZSmr_TzGPozB0owQv2c8L7fxo&fn=external_8"
+    },
+    {
+      "video_id": "2537332279881",
+      "title_raw": "[www.RetroCanal.Net]-JER-02x05",
+      "duration_raw": "22:25",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 560,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345909492297&type=32&idx=14&tkn=PuBAdOZJQgEK8EXeeeuk21W_PHU&fn=external_8"
+    },
+    {
+      "video_id": "2537332345417",
+      "title_raw": "[www.RetroCanal.Net]-JER-02x06",
+      "duration_raw": "22:12",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 436,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345914800713&type=32&idx=4&tkn=7zMZDSzTZnJ5H6Kv67Kt6JnS_1c&fn=external_8"
+    },
+    {
+      "video_id": "2537332214345",
+      "title_raw": "[www.RetroCanal.Net]-JER-02x07",
+      "duration_raw": "22:15",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 781,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1345904511561&type=32&idx=11&tkn=wIhCIMwi3QKMVy2U0Ao4lCFwwDg&fn=external_8"
+    }
+  ]
+}

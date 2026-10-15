@@ -1,0 +1,169 @@
+{
+  "title": "Funky Phantom",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c4835145",
+  "year": "1971",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "2481053502025",
+      "title_raw": "The Funky Phantom - 01- Dont Fool With a Phantom",
+      "duration_raw": "22:18",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 3798,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281085803081&type=32&idx=11&tkn=WsGv0jVLQfDqwyLNREot5vsljPM&fn=external_8"
+    },
+    {
+      "video_id": "2481054288457",
+      "title_raw": "The Funky Phantom - 02 - Heir Scare",
+      "duration_raw": "22:18",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 1327,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281164708425&type=32&idx=0&tkn=6u435GpgvlIwhI3SWQV7EFvUK9Q&fn=external_8"
+    },
+    {
+      "video_id": "2481054222921",
+      "title_raw": "The Funky Phantom -3. I'll Haunt You Later",
+      "duration_raw": "21:22",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1050,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=817053043226&type=32&idx=8&tkn=jLQB6uoVNOHqiSRpRiw7QgH7Dy4&fn=external_8"
+    },
+    {
+      "video_id": "2481053698633",
+      "title_raw": "The Funky Phantom -4. Who's Chicken",
+      "duration_raw": "21:37",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 935,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=817034693146&type=32&idx=12&tkn=ESn1orLf-xYHeD0cfsFbcSN7U4E&fn=external_8"
+    },
+    {
+      "video_id": "2481054616137",
+      "title_raw": "The Funky Phantom - 5. The Headless Horseman",
+      "duration_raw": "21:46",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 873,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=817046227482&type=32&idx=7&tkn=83xmf0iKal-8ggoz_5v1Kc9CDeo&fn=external_8"
+    },
+    {
+      "video_id": "2481054419529",
+      "title_raw": "The Funky Phantom - 06 - Spirit Spooked",
+      "duration_raw": "22:13",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 687,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281181485641&type=32&idx=5&tkn=Dd2_21p9W3UdkF4IbzqSIHGQors&fn=external_8"
+    },
+    {
+      "video_id": "2481053764169",
+      "title_raw": "The Funky Phantom - 07 - Ghost Town Ghost",
+      "duration_raw": "22:13",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 596,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281123551817&type=32&idx=12&tkn=GfZw5ESuQTGb7byzi-1NI4y4TMM&fn=external_8"
+    },
+    {
+      "video_id": "2481054353993",
+      "title_raw": "The Funky Phantom - 08 - We Saw A Sea Serpent",
+      "duration_raw": "22:16",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 640,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281173424713&type=32&idx=11&tkn=WDogiR4jQ5I8fUCRfn485Nnz2p0&fn=external_8"
+    },
+    {
+      "video_id": "2481053567561",
+      "title_raw": "The Funky Phantom - 09 - Haunt In Inn",
+      "duration_raw": "22:15",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 867,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281093732937&type=32&idx=1&tkn=wBOiSY0Sh8Ab_SLAG07aZXgq71o&fn=external_8"
+    },
+    {
+      "video_id": "2481054091849",
+      "title_raw": "The Funky Phantom - 10 - Mudsy Joins The Circus",
+      "duration_raw": "22:18",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 576,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281149176393&type=32&idx=6&tkn=GjH3-GGU63P7u5Q_qOejDOFSGz4&fn=external_8"
+    },
+    {
+      "video_id": "2481053960777",
+      "title_raw": "The Funky Phantom - 11 - Pigskin Predicament",
+      "duration_raw": "22:16",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 549,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281134824009&type=32&idx=4&tkn=cGddfMCIW8WzEVngsbQ-7CFkyH8&fn=external_8"
+    },
+    {
+      "video_id": "2481053633097",
+      "title_raw": "The Funky Phantom - 12 - The Liberty Bell Caper",
+      "duration_raw": "22:17",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 528,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281102711369&type=32&idx=13&tkn=akOZ20ksHRGroZxQpfKKIYAAmhw&fn=external_8"
+    },
+    {
+      "video_id": "2481054485065",
+      "title_raw": "The Funky Phantom -13.April's Foolish Day",
+      "duration_raw": "21:43",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 581,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=817109666330&type=32&idx=7&tkn=2uSA5ukV8UF9UVM42-4oLsS9zks&fn=external_8"
+    },
+    {
+      "video_id": "2481054550601",
+      "title_raw": "The Funky Phantom - 14.The Forest's Prime-Evil",
+      "duration_raw": "21:42",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 549,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=817134176794&type=32&idx=13&tkn=LuxUf3EnkTmKJYaR9yyXweJvuao&fn=external_8"
+    },
+    {
+      "video_id": "2481054681673",
+      "title_raw": "The Funky Phantom - 15 - The Hairy Scary Houndman",
+      "duration_raw": "22:15",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 573,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281221921353&type=32&idx=11&tkn=mTJMcsDMIXWSWWzrCkCO4PP_VZo&fn=external_8"
+    },
+    {
+      "video_id": "2481054026313",
+      "title_raw": "The Funky Phantom - 16 - Mudsy And Muddlemore Manor",
+      "duration_raw": "22:14",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 543,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281141115465&type=32&idx=8&tkn=SKGKLFZxmMUVwLV6V3--UlP9hsk&fn=external_8"
+    },
+    {
+      "video_id": "2481053829705",
+      "title_raw": "The Funky Phantom - 17 - Ghost Grabbers",
+      "duration_raw": "22:15",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 698,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1281129384521&type=32&idx=14&tkn=P_XYHK9WBTz2JGMJu2sKBh1dqxc&fn=external_8"
+    }
+  ]
+}

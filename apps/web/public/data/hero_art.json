@@ -1069,6 +1069,22 @@
       "tmdb": "movie/815",
       "backdrop": "/hh35rkki4XHbAYXPqsSumyQ9Ns7.jpg"
     },
+    "1417892923977": {
+      "tmdb": "movie/9904",
+      "backdrop": "/mT3nr5RtXV50vxh6b8L8VgNAcp3.jpg"
+    },
+    "1417892989513": {
+      "tmdb": "movie/13757",
+      "backdrop": "/zy7wZp6WEdK4zeVhrw2V5BIbLRy.jpg"
+    },
+    "1417894300233": {
+      "tmdb": "movie/15947",
+      "backdrop": "/kcWYiBWej3JdYbGEVaKYAQGfqYp.jpg"
+    },
+    "1417894627913": {
+      "tmdb": "movie/14906",
+      "backdrop": "/epWLmnK6XYtlR8ICOKauGH546W2.jpg"
+    },
     "14207044487918": {
       "tmdb": "movie/50321",
       "backdrop": "/sU9wVEAgWPXPULYQMctd0T5MCdI.jpg"
@@ -1597,6 +1613,10 @@
       "tmdb": "movie/1423191",
       "backdrop": "/3icyRAqgakNcQn6aDVz9libFmBA.jpg"
     },
+    "2-perros-tontos": {
+      "tmdb": "tv/1916",
+      "backdrop": "/qyW97RT9OFwwQJteSQ1FACQfrBD.jpg"
+    },
     "2016043207229": {
       "tmdb": "tv/10610",
       "backdrop": "/imjpzPXwiCSNCuJESfjMDZiYfjp.jpg"
@@ -1640,6 +1660,10 @@
     "2808504191608": {
       "tmdb": "movie/39108",
       "backdrop": "/b6u42A4TkZzv3TNhZfmfu5bjuFK.jpg"
+    },
+    "31-minutos": {
+      "tmdb": "tv/43",
+      "backdrop": "/ooFdkopLCwPp42zymuM9syg8M22.jpg"
     },
     "35372403321": {
       "tmdb": "movie/42360",
@@ -1849,6 +1873,10 @@
       "tmdb": "tv/2429",
       "backdrop": "/cvzpcE68wfD8FenvQlXw8eKPGRX.jpg"
     },
+    "action-man": {
+      "tmdb": "tv/22887",
+      "backdrop": "/uCC3P17YgFhMeSCLn3mtnsoEF1K.jpg"
+    },
     "agente-elvis": {
       "tmdb": "tv/110126",
       "backdrop": "/khrlmwalDuftxzywQOAyotJfPs5.jpg"
@@ -1869,21 +1897,53 @@
       "tmdb": "tv/61223",
       "backdrop": "/3XAGgklKkJhv5M9m5NkfhBYb7l8.jpg"
     },
+    "alf": {
+      "tmdb": "tv/4658",
+      "backdrop": "/ebLHsB8wsBnZnNa9UhGAqYeo33B.jpg"
+    },
     "among-us": {
       "tmdb": "tv/229544",
       "backdrop": "/zoa11EvyuasC3j7PmH1QGftrSvf.jpg"
+    },
+    "anatole": {
+      "tmdb": "tv/18640",
+      "backdrop": "/iMRSr5kfCRujJqVwWT4bWI2xupo.jpg"
     },
     "angel-la-nina-de-las-flores": {
       "tmdb": "tv/68343",
       "backdrop": "/z8zsrSjpCuvQSxWSkLJsJUk51t6.jpg"
     },
+    "angela-anaconda": {
+      "tmdb": "tv/5373",
+      "backdrop": "/9EKmJUscWv9oqV0hkpKCJ88yvzc.jpg"
+    },
+    "animal-crackers": {
+      "tmdb": "tv/11335",
+      "backdrop": "/8GLmA6uI6RQYrMPplqiidfU8OJb.jpg"
+    },
+    "animaniacs": {
+      "tmdb": "tv/82",
+      "backdrop": "/8TThBwlIZnzCFkj21rv5Nv2lTNG.jpg"
+    },
     "another": {
       "tmdb": "tv/42589",
       "backdrop": "/lL0rMeVqiOyVwmft6oPKQKbDYr6.jpg"
     },
+    "aquaman": {
+      "tmdb": "tv/10724",
+      "backdrop": "/dr34CKL43c1yYKoXkDHrrcdN1Tk.jpg"
+    },
     "arcane": {
       "tmdb": "tv/94605",
       "backdrop": "/5cvnxEHT3e39DvT6ARw4GNCFrB0.jpg"
+    },
+    "arthur": {
+      "tmdb": "tv/2153",
+      "backdrop": "/5k3JpB88vubqYVSHHiAhk2T8z17.jpg"
+    },
+    "baby-looney-tunes": {
+      "tmdb": "tv/670",
+      "backdrop": "/Mo7Dmx1bhOe6fMich6uHXKcHey.jpg"
     },
     "baki-hanma": {
       "tmdb": "tv/129600",
@@ -1892,6 +1952,10 @@
     "bakugan-battle-brawlers": {
       "tmdb": "tv/34109",
       "backdrop": "/fI3m5UjTMyigglkFeQWkPJgFLSC.jpg"
+    },
+    "batman-la-serie-animada": {
+      "tmdb": "tv/2098",
+      "backdrop": "/4QnFxk03yAn7U2ZTL5oMCCqxlPc.jpg"
     },
     "ben-10": {
       "tmdb": "tv/4686",
@@ -1905,6 +1969,14 @@
       "tmdb": "tv/37807",
       "backdrop": "/dHQ6u5nRMCHGHLCl220iCah6jX0.jpg"
     },
+    "big-bad-beetleborgs": {
+      "tmdb": "tv/2136",
+      "backdrop": "/bkDJm5MHw9ttRnUk2fd43eBPpao.jpg"
+    },
+    "blade": {
+      "tmdb": "tv/62798",
+      "backdrop": "/vknOLvvET1s9BaC2kmrulMCeE7Y.jpg"
+    },
     "blue-gender": {
       "tmdb": "tv/19855",
       "backdrop": "/iewxJpcc0ecumxqwNGSYQ49EL1X.jpg"
@@ -1912,6 +1984,14 @@
     "bob-esponja": {
       "tmdb": "tv/387",
       "backdrop": "/pv8zQ2MKIZA67VmOfTNktJLmHa5.jpg"
+    },
+    "bonkers": {
+      "tmdb": "tv/6616",
+      "backdrop": "/9oORP9DqqkjaLOqsWygXm0eEoqg.jpg"
+    },
+    "bravestarr": {
+      "tmdb": "tv/5172",
+      "backdrop": "/mXWdENI76waDRMZvBcrrH9NAONi.jpg"
     },
     "btooom": {
       "tmdb": "tv/45125",
@@ -1921,9 +2001,33 @@
       "tmdb": "tv/9542",
       "backdrop": "/3nmwKiDhF3daBoGPO3BlUumxcIt.jpg"
     },
+    "cadillacs-y-dinosaurios": {
+      "tmdb": "tv/16814",
+      "backdrop": "/mHNF3D1HINn5JqtAdHcrwk6FhGG.jpg"
+    },
+    "candy-candy": {
+      "tmdb": "tv/9160",
+      "backdrop": "/9A5h3Z1nIZCb3zUXQIOlAe9NSjm.jpg"
+    },
+    "cantinflas-y-sus-amigos": {
+      "tmdb": "tv/205936",
+      "backdrop": "/6mzaHUMfyeo0YjXQfDa2Q2fGmCk.jpg"
+    },
+    "capitan-futuro": {
+      "tmdb": "tv/23004",
+      "backdrop": "/ikfli8KPDNaIrJZm3IXF4jsqda4.jpg"
+    },
+    "capitan-n": {
+      "tmdb": "tv/1824",
+      "backdrop": "/4C6mXY38695IHyTYGdIj49Pmha0.jpg"
+    },
     "carrie": {
       "tmdb": "tv/288673",
       "backdrop": "/9yCJtipMeDe8uAdSJKvw8BnYfRz.jpg"
+    },
+    "casados-con-hijos": {
+      "tmdb": "tv/4239",
+      "backdrop": "/y6nEgbjMUpYLnVUwZDzX95wH5Vj.jpg"
     },
     "castlevania": {
       "tmdb": "tv/71024",
@@ -1941,9 +2045,25 @@
       "tmdb": "tv/50035",
       "backdrop": "/1kTVbczFhMDA2dyJO4GvoMwWu38.jpg"
     },
+    "clarissa-lo-explica-todo": {
+      "tmdb": "tv/249",
+      "backdrop": "/2gSnqOroF5mC9vxsGCdURiXcZa5.jpg"
+    },
     "claymore": {
       "tmdb": "tv/34791",
       "backdrop": "/9345bFQXPCyIJLQemkpI5zFJCOp.jpg"
+    },
+    "clue-club": {
+      "tmdb": "tv/10518",
+      "backdrop": "/e2hh2OEqKG6FegxIuRTYY61hIhA.jpg"
+    },
+    "code-lyoko": {
+      "tmdb": "tv/4622",
+      "backdrop": "/oSBOivU2VjjrLlslo5Hdixygneo.jpg"
+    },
+    "cool-mccool": {
+      "tmdb": "tv/3642",
+      "backdrop": "/TbEmCgtQoDRYT018p8QSJsS7Nc.jpg"
     },
     "coraje-el-perro-cobarde": {
       "tmdb": "tv/2085",
@@ -1957,9 +2077,25 @@
       "tmdb": "tv/30991",
       "backdrop": "/A4PHx94G7mvM3b8vsDJ5HEaQ6uv.jpg"
     },
+    "creepie": {
+      "tmdb": "tv/3031",
+      "backdrop": "/lyoNCMcq1qGNv67HwVYdq0na71m.jpg"
+    },
     "cyberpunk-edgerunners": {
       "tmdb": "tv/105248",
       "backdrop": "/3UbHGmu9vIMSC5uNfnGt7DjetqT.jpg"
+    },
+    "cyborg-009": {
+      "tmdb": "tv/69113",
+      "backdrop": "/x8T0dcllXzScXpO5jTi1m4letUY.jpg"
+    },
+    "d-artacan-y-los-tres-mosqueperros": {
+      "tmdb": "tv/5341",
+      "backdrop": "/vuysbSp6iiJzjdNJjGw1q8FiRNq.jpg"
+    },
+    "daniel-el-travieso": {
+      "tmdb": "tv/3518",
+      "backdrop": "/x22cZj1Y2cGuBNsP5zHaRJAkJMS.jpg"
     },
     "darling-in-the-franxx": {
       "tmdb": "tv/76121",
@@ -1985,13 +2121,57 @@
       "tmdb": "tv/235930",
       "backdrop": "/zPO7RC0T1kA79cH3zBXPVNUL1Ge.jpg"
     },
+    "dientes-de-lata": {
+      "tmdb": "tv/1763",
+      "backdrop": "/KZ5UO4sjonu8vrim6dDctlvjW3.jpg"
+    },
     "digimon-adventure": {
-      "tmdb": "tv/98034",
-      "backdrop": "/xsEMAdrDprq3Ldre56Rm0zqbfCA.jpg"
+      "tmdb": "tv/31654",
+      "backdrop": "/naP3oYVX0vSxpx0HjUkdeKbkfiA.jpg"
+    },
+    "digimon-adventure-02": {
+      "tmdb": "tv/31654",
+      "backdrop": "/naP3oYVX0vSxpx0HjUkdeKbkfiA.jpg"
+    },
+    "digimon-frontier": {
+      "tmdb": "tv/8991",
+      "backdrop": "/nPM1BXYKyVwxBvdBGDAfBsF1ygf.jpg"
+    },
+    "digimon-tamers": {
+      "tmdb": "tv/9302",
+      "backdrop": "/rRoqRhFoUGUoCXSdxDjplML2SSK.jpg"
+    },
+    "dino-riders": {
+      "tmdb": "tv/2545",
+      "backdrop": "/v9KcsJyaNKOKkz5sxkCloSXmvkE.jpg"
+    },
+    "dog-city": {
+      "tmdb": "tv/10500",
+      "backdrop": "/iUZvzuLQsmsAmxnNGvURxuEClmt.jpg"
+    },
+    "don-gato-y-su-pandilla": {
+      "tmdb": "tv/4232",
+      "backdrop": "/82czKnq7CcHaGjNSkxlHLwanE2k.jpg"
+    },
+    "doraemon": {
+      "tmdb": "tv/57911",
+      "backdrop": "/6oVBODwFvbDJczBFlf4J930jKZg.jpg"
+    },
+    "double-dragon": {
+      "tmdb": "tv/10670",
+      "backdrop": "/fny0lljXrQO9dndyVyuVs5XFXBS.jpg"
+    },
+    "doug": {
+      "tmdb": "tv/384",
+      "backdrop": "/9coN2jb3hdDZzN6vxI26cMhElwS.jpg"
     },
     "dragon-ball": {
       "tmdb": "tv/12609",
       "backdrop": "/30L49n4Dhn7dzuGG50GV3ybMhC3.jpg"
+    },
+    "dragon-ball-gt": {
+      "tmdb": "tv/12697",
+      "backdrop": "/aJOlYXjxb5IvnTsO4I1tmFpC7GH.jpg"
     },
     "dragon-ball-super-beerus": {
       "tmdb": "tv/312359",
@@ -2000,6 +2180,14 @@
     "dragon-ball-z": {
       "tmdb": "tv/12971",
       "backdrop": "/ydf1CeiBLfdxiyNTpskM0802TKl.jpg"
+    },
+    "dragon-quest-las-aventuras-de-fly": {
+      "tmdb": "tv/38324",
+      "backdrop": "/taqD0yjyXEQ58HGHJVG1sxJBGQO.jpg"
+    },
+    "drak-pack": {
+      "tmdb": "tv/11144",
+      "backdrop": "/mcnCaHvHnoPqEoFEeCo5Qys3E5r.jpg"
     },
     "drake-y-josh": {
       "tmdb": "tv/2038",
@@ -2013,17 +2201,81 @@
       "tmdb": "tv/606",
       "backdrop": "/iRbNLYmqlxbqkfCuAmHaFwZ9ocY.jpg"
     },
+    "eek-el-gato": {
+      "tmdb": "tv/3370",
+      "backdrop": "/p42FF87AZOAnEI1fOhYvKKnnQU1.jpg"
+    },
     "efectos-colaterales": {
       "tmdb": "tv/228878",
       "backdrop": "/4drV6iluttgjZmU1Q0xDqjrBQ1.jpg"
+    },
+    "el-baron-rojo": {
+      "tmdb": "tv/34090",
+      "backdrop": "/l4XWaTC4SFlGodPBxZW4J7W0Nzd.jpg"
+    },
+    "el-capitan-planeta-y-los-planetarios": {
+      "tmdb": "tv/478",
+      "backdrop": "/fnBiI05I0eFqPWUHvC0NdYz3skM.jpg"
     },
     "el-chavo-del-8": {
       "tmdb": "tv/47",
       "backdrop": "/6zzyWTu3p2Diztotbnb0kf128uo.jpg"
     },
+    "el-conde-patula": {
+      "tmdb": "tv/2416",
+      "backdrop": "/3Yte3y3wVTSDvVmcYUv2Fl6KlBk.jpg"
+    },
+    "el-corsario-negro": {
+      "tmdb": "tv/66900",
+      "backdrop": "/phQyDTuW8JhaczoNHURkSCQV6UF.jpg"
+    },
+    "el-escuadron-del-tiempo": {
+      "tmdb": "tv/4314",
+      "backdrop": "/vDzGyOk6S6F7hk3rehmfuJ5Y3NR.jpg"
+    },
+    "el-espectacular-hombre-arana": {
+      "tmdb": "tv/3854",
+      "backdrop": "/fypGcrQCyb9vQ7L8AM6PHCjQSBC.jpg"
+    },
+    "el-galactico": {
+      "tmdb": "tv/44777",
+      "backdrop": "/kBVz2tcSSw6xjVNWxrMagYIJMne.jpg"
+    },
+    "el-gladiador": {
+      "tmdb": "tv/43979",
+      "backdrop": "/yz3HsJGO7CWwKwWtDbbMLdiunzW.jpg"
+    },
+    "el-increible-hulk": {
+      "tmdb": "tv/6332",
+      "backdrop": "/2BvGyFBjDMNIZ5ojlhHpQLwWFxU.jpg"
+    },
+    "el-inspector": {
+      "tmdb": "tv/316614",
+      "backdrop": "/6iFD0S0sJ3Axr4zmjT857nDvnVH.jpg"
+    },
+    "el-inspector-ardilla": {
+      "tmdb": "tv/4752",
+      "backdrop": "/9CzupCCCpyIOC3DLaTed27AJ1Ff.jpg"
+    },
+    "el-lagartijo-de-ned": {
+      "tmdb": "tv/6361",
+      "backdrop": "/ja6ehhvks6kI4L9WezM8wQAcgUk.jpg"
+    },
+    "el-lagarto-juancho": {
+      "tmdb": "tv/15307",
+      "backdrop": "/r0MNtyQgUzi5oJBSsRgIKDM7DI7.jpg"
+    },
+    "el-mundo-de-beakman": {
+      "tmdb": "tv/5343",
+      "backdrop": "/kje9CsNClEI4MhmxmjPymWpRKto.jpg"
+    },
     "el-mundo-de-bobby": {
       "tmdb": "tv/1767",
       "backdrop": "/4cKT4tpP5xuuqfI9BWCdfIzKDXs.jpg"
+    },
+    "el-mundo-fantastico-de-richard-scarry": {
+      "tmdb": "tv/6460",
+      "backdrop": "/1c91q77XyQtYtD3rHNf7WwawxeA.jpg"
     },
     "el-nuevo-show-de-tom-y-jerry": {
       "tmdb": "tv/14705",
@@ -2033,9 +2285,45 @@
       "tmdb": "tv/97333",
       "backdrop": "/qSdvfhaDhFhNbfU3A6ukJgJrGLQ.jpg"
     },
+    "el-pais-de-donkey-kong": {
+      "tmdb": "tv/2784",
+      "backdrop": "/nYHCdaNsfRSBdwNT7XrZDFjShmm.jpg"
+    },
     "el-principito": {
       "tmdb": "tv/61483",
       "backdrop": "/fkHMiqUT0AQTXGUyaCA99p39LHx.jpg"
+    },
+    "el-proyecto-zeta": {
+      "tmdb": "tv/4508",
+      "backdrop": "/wNBAHkh1bpdVWxnWThWsFofcTEf.jpg"
+    },
+    "el-reto-de-los-super-amigos": {
+      "tmdb": "tv/10610",
+      "backdrop": "/imjpzPXwiCSNCuJESfjMDZiYfjp.jpg"
+    },
+    "el-show-de-amanda": {
+      "tmdb": "tv/376",
+      "backdrop": "/5GkRPoUZXiYPGQeOUUUC3zIbL4w.jpg"
+    },
+    "el-show-de-charlie-brown-y-snoopy": {
+      "tmdb": "tv/6670",
+      "backdrop": "/dwNNwA3tY9ShotYFxXRbcb7MrIN.jpg"
+    },
+    "el-show-de-scooby-doo": {
+      "tmdb": "tv/2150",
+      "backdrop": "/tzk6NKctIOA1GyWuVPmrago05L4.jpg"
+    },
+    "el-show-de-scooby-doo-y-scrappy-doo": {
+      "tmdb": "tv/6005",
+      "backdrop": "/1ISPXD33qsdo9dBvhC90S60wdBK.jpg"
+    },
+    "el-show-de-super-mario-bros": {
+      "tmdb": "tv/14613",
+      "backdrop": "/5rzLzgmwWK8Jjj4xVsk0IeFtEAz.jpg"
+    },
+    "el-vengador": {
+      "tmdb": "tv/9152",
+      "backdrop": "/ali6jWoZo1rGY3fgbNbUuZAR7LY.jpg"
     },
     "elfen-lied": {
       "tmdb": "tv/42671",
@@ -2045,6 +2333,10 @@
       "tmdb": "tv/1097",
       "backdrop": "/jGAgj9QztYjSsYCnZhDMgBUzQKU.jpg"
     },
+    "escalofrios": {
+      "tmdb": "tv/5835",
+      "backdrop": "/gN3gG8m1QfdKiQ5crRO5a0J7ObL.jpg"
+    },
     "este-mundo-no-me-hara-mala-persona": {
       "tmdb": "tv/214603",
       "backdrop": "/wBs20hL8Sr9qHNxfwD3TNhJ3LOd.jpg"
@@ -2053,6 +2345,14 @@
       "tmdb": "tv/4334",
       "backdrop": "/t9owI1MGsFCIamNQmPkjUFh8b5T.jpg"
     },
+    "fraggle-rock": {
+      "tmdb": "tv/2957",
+      "backdrop": "/mJOBGeYAmb7gVfhtc4guOhhzrjq.jpg"
+    },
+    "franklin": {
+      "tmdb": "tv/1458",
+      "backdrop": "/yWHVK0Gswv2mH8V7fsJ2wshBJRO.jpg"
+    },
     "futurama": {
       "tmdb": "tv/615",
       "backdrop": "/4xKG4S1IyLIglHbCYGJDsptgQNh.jpg"
@@ -2060,6 +2360,10 @@
     "gantz": {
       "tmdb": "tv/11279",
       "backdrop": "/wlaBpzJPkBe5vKxyb51IlESAcKP.jpg"
+    },
+    "garfield-y-sus-amigos": {
+      "tmdb": "tv/4606",
+      "backdrop": "/4qcNKcng7HYlKJJ0DFYIH52gWNF.jpg"
     },
     "gargolas": {
       "tmdb": "tv/1719",
@@ -2073,9 +2377,17 @@
       "tmdb": "tv/32118",
       "backdrop": "/jXiKtz7PPWOI4zKl5CdtrKyLUh8.jpg"
     },
+    "ginger": {
+      "tmdb": "tv/1760",
+      "backdrop": "/lXQpWlN24cxwBjNvqOUju2WouDg.jpg"
+    },
     "gravity-falls": {
       "tmdb": "tv/40075",
       "backdrop": "/lhg7eA6CTOCL10QNVdKiyxkgPsL.jpg"
+    },
+    "grotescologia": {
+      "tmdb": "tv/6942",
+      "backdrop": "/5us73Fy8euZCAeCGFaYU49qeaNx.jpg"
     },
     "guia-headspace-para-la-meditacion": {
       "tmdb": "tv/114419",
@@ -2093,6 +2405,10 @@
       "tmdb": "tv/94954",
       "backdrop": "/9K6QtLqyocVHgIZe4yqCIl1q2ZR.jpg"
     },
+    "he-man-y-los-amos-del-universo": {
+      "tmdb": "tv/931",
+      "backdrop": "/evgm79NS64RjQ4F1BjZzoOj7D2L.jpg"
+    },
     "heidi": {
       "tmdb": "tv/29452",
       "backdrop": "/cafsMt9cQlaRCNVqf5KXtTUQP6V.jpg"
@@ -2109,9 +2425,17 @@
       "tmdb": "tv/61752",
       "backdrop": "/PZEdudP5M4FBz5cPoQ4rHCejLj.jpg"
     },
+    "hercules-la-serie-animada": {
+      "tmdb": "tv/2567",
+      "backdrop": "/RYdH7j8X1JWVc5mdMofcu9CAyY.jpg"
+    },
     "heroman": {
       "tmdb": "tv/42412",
       "backdrop": "/w1VM5d1PvrSSUjNLMsBMUYZdV5C.jpg"
+    },
+    "hi-hi-puffy-amiyumi": {
+      "tmdb": "tv/255",
+      "backdrop": "/16JZ5IRrA9YSxVSqWflY0nLhLwz.jpg"
     },
     "high-school-dxd": {
       "tmdb": "tv/45950",
@@ -2121,17 +2445,89 @@
       "tmdb": "tv/56998",
       "backdrop": "/ivWNDYPxDMjc82ajeSPuyq70hu9.jpg"
     },
+    "historias-de-fantasmas": {
+      "tmdb": "tv/35466",
+      "backdrop": "/eAQKaLrdlfGk6yiILuCWIGUTaL0.jpg"
+    },
+    "hombres-de-negro-la-serie-animada": {
+      "tmdb": "tv/1153",
+      "backdrop": "/k57FhSy0kkmRmigMG76gFoy4ZtY.jpg"
+    },
+    "hong-kong-phooey": {
+      "tmdb": "tv/10106",
+      "backdrop": "/uUVJN9IMKsnmh0jAyFHKnjZdirZ.jpg"
+    },
     "hora-de-aventura": {
       "tmdb": "tv/15260",
       "backdrop": "/pe4B3OYBb7qYCdkAz7nKWordbls.jpg"
+    },
+    "inhumanoids": {
+      "tmdb": "tv/218",
+      "backdrop": "/cg7GicTOTW0JfoPWLDNzX5155nD.jpg"
+    },
+    "inspector-gadget": {
+      "tmdb": "tv/4035",
+      "backdrop": "/vWaIxifDJeKXq4igHTOE5epqcop.jpg"
+    },
+    "invasor-zim": {
+      "tmdb": "tv/3793",
+      "backdrop": "/eCefaxvMxisEJHahp8Az2eBpwud.jpg"
     },
     "invincible": {
       "tmdb": "tv/95557",
       "backdrop": "/9qrroces8C6R9aKr08hACNPVXdZ.jpg"
     },
+    "iron-man-aventuras-de-hierro": {
+      "tmdb": "tv/7330",
+      "backdrop": "/geoJ7FkV4NXAhZ7pYNCOWGYEBLV.jpg"
+    },
+    "isa-tk": {
+      "tmdb": "tv/31148",
+      "backdrop": "/3nxvXOPobJ9XV16YAhBaybvZpDe.jpg"
+    },
+    "isa-tkm": {
+      "tmdb": "tv/18594",
+      "backdrop": "/zEddPHclgfhBOHrhDLvACHpVY3Z.jpg"
+    },
+    "jacobo-dos-dos": {
+      "tmdb": "tv/13350",
+      "backdrop": "/oS2DMSbuIzAcNqzpF90rpHJZIUv.jpg"
+    },
+    "jake-long-el-dragon-occidental": {
+      "tmdb": "tv/346",
+      "backdrop": "/5LU77x2BK2IFn0hhyA8GbqjzMt4.jpg"
+    },
     "jake-y-los-piratas-del-pais-de-nunca-jamas": {
       "tmdb": "tv/34891",
       "backdrop": "/vV1EQ1zLuZ5yPL7LaBqPayVsggC.jpg"
+    },
+    "jem-y-los-hologramas": {
+      "tmdb": "tv/3127",
+      "backdrop": "/bLd0to348ElyArqpkQgLjlLkNXx.jpg"
+    },
+    "johnny-test": {
+      "tmdb": "tv/1769",
+      "backdrop": "/gxSbrQ0pR85NdEA0bXvSokVVRdA.jpg"
+    },
+    "jones-el-robot": {
+      "tmdb": "tv/1789",
+      "backdrop": "/3Iu6f6OcKpwsiunwBp0JVpNywa5.jpg"
+    },
+    "jonny-quest": {
+      "tmdb": "tv/962",
+      "backdrop": "/RzL0xt6aOyzhLyqVgiGxQCf0Gf.jpg"
+    },
+    "kappa-mikey": {
+      "tmdb": "tv/1634",
+      "backdrop": "/2nKmXtyHnpLXsimZTBU3E0j4mkr.jpg"
+    },
+    "karate-kid": {
+      "tmdb": "tv/10200",
+      "backdrop": "/8Q9VIPsLLV1aNIHyoFmXzN35b7S.jpg"
+    },
+    "kenan-y-kel": {
+      "tmdb": "tv/1835",
+      "backdrop": "/aAHC2D9XaLcFtJ5cWPf1BYARuJn.jpg"
     },
     "kevin": {
       "tmdb": "tv/255760",
@@ -2144,6 +2540,14 @@
     "knd-los-chicos-del-barrio": {
       "tmdb": "tv/2660",
       "backdrop": "/h7rHu5pt9Wzkb7vLGKrA5XD63ge.jpg"
+    },
+    "la-bruja-tonta": {
+      "tmdb": "tv/316411",
+      "backdrop": "/hOVBqddUojiu678Kc5CNFE1mvTQ.jpg"
+    },
+    "la-carrera-espacial-de-yogui": {
+      "tmdb": "tv/12266",
+      "backdrop": "/jX7hPlhbOj42uSxlnKg7X2EaNzC.jpg"
     },
     "la-casa-buho": {
       "tmdb": "tv/92685",
@@ -2161,17 +2565,45 @@
       "tmdb": "tv/86825",
       "backdrop": "/fjwBftw4JYDDVwqJ9TgFpNWkYxP.jpg"
     },
+    "la-garrapata": {
+      "tmdb": "tv/321068",
+      "backdrop": "/8naY3MrXaNh9DyjWZKOWzKMTufM.jpg"
+    },
+    "la-hormiga-atomica": {
+      "tmdb": "tv/22172",
+      "backdrop": "/rRwzxH8LG6MmGD4DoxHCf2DCbZA.jpg"
+    },
+    "la-hormiga-y-el-oso-hormiguero": {
+      "tmdb": "tv/306971",
+      "backdrop": "/e8UVxA1JOc2YqtFUq6G82mFToX6.jpg"
+    },
     "la-ley-de-las-vegas": {
       "tmdb": "tv/298343",
       "backdrop": "/jH1vBLHxp7E2AZGdhvjnxA96mJh.jpg"
+    },
+    "la-leyenda-de-tarzan": {
+      "tmdb": "tv/2395",
+      "backdrop": "/hjqUwvok9RdKqtEnwzOZmrQLUoX.jpg"
+    },
+    "la-pequena-lulu": {
+      "tmdb": "tv/10400",
+      "backdrop": "/7PJl7G515bu3XajvKWrfi2hz8iW.jpg"
     },
     "la-princesita-sofia": {
       "tmdb": "tv/46928",
       "backdrop": "/5tLsZoolMwqkCMUwEXYfh61Pajn.jpg"
     },
+    "la-tropa-goofy": {
+      "tmdb": "tv/2235",
+      "backdrop": "/1D9UrX1kv9woJdOOuzIbxYxE6JJ.jpg"
+    },
     "la-vaca-y-el-pollito": {
       "tmdb": "tv/3611",
       "backdrop": "/iohe4KtMpFKYzuA3QIBRrcbJIbz.jpg"
+    },
+    "las-aventuras-de-jackie-chan": {
+      "tmdb": "tv/240",
+      "backdrop": "/cjvyqIvCKQtUzd3J5TbVnCFbSNZ.jpg"
     },
     "las-aventuras-de-silvestre-y-piolin": {
       "tmdb": "tv/9867",
@@ -2185,45 +2617,157 @@
       "tmdb": "tv/607",
       "backdrop": "/gnK2nptRXra4RnKgGqAWFSqP5aG.jpg"
     },
+    "las-chicas-superpoderosas-z": {
+      "tmdb": "tv/12406",
+      "backdrop": "/1PaEWlOjm0Qxo4w6NAvJRnZbKDN.jpg"
+    },
     "las-guerreras-magicas": {
       "tmdb": "tv/34158",
       "backdrop": "/mVya8Yf5BV8wBLXXAremnzHumAK.jpg"
+    },
+    "las-increibles-aventuras-de-jonny-quest": {
+      "tmdb": "tv/1168",
+      "backdrop": "/iIQKA17YHJUmGYRpXmP0KXaxq99.jpg"
     },
     "las-maravillosas-desventuras-de-flapjack": {
       "tmdb": "tv/6673",
       "backdrop": "/80KgNNF0bpoDvU5iNXT07Lgb2wL.jpg"
     },
+    "las-nuevas-aventuras-de-batman": {
+      "tmdb": "tv/4625",
+      "backdrop": "/nHNFi7GE1tQND1Q8QTNSYPkivIQ.jpg"
+    },
     "las-nuevas-aventuras-de-peter-pan": {
       "tmdb": "tv/53113",
       "backdrop": "/olOGyGEOpv3d1011RLoD8cmFaEp.jpg"
+    },
+    "las-nuevas-peliculas-de-scooby-doo": {
+      "tmdb": "tv/1068",
+      "backdrop": "/1lJ0Bb5JWThXkJMRe85BOyMpjKu.jpg"
+    },
+    "las-olimpiadas-de-la-risa": {
+      "tmdb": "tv/1072",
+      "backdrop": "/b1jIOCcB9QeXubzhvoguq258RNW.jpg"
     },
     "las-sombrias-aventuras-de-billy-y-mandy": {
       "tmdb": "tv/897",
       "backdrop": "/7aWytAE9Gcf6UZXcS6ejJEdEhEb.jpg"
     },
+    "las-tortugas-ninja": {
+      "tmdb": "tv/160",
+      "backdrop": "/s1Kr1RntP2b8MdUKTYJxNmcVEBP.jpg"
+    },
+    "las-tres-mellizas": {
+      "tmdb": "tv/66695",
+      "backdrop": "/iiSsAwhnnEt3BtKwjWJYGyTsSCU.jpg"
+    },
+    "le-temes-a-la-oscuridad": {
+      "tmdb": "tv/2913",
+      "backdrop": "/nXmuzHiT3ODY9v50x8ipfSAFaNs.jpg"
+    },
+    "lindo-pulgoso": {
+      "tmdb": "tv/242409",
+      "backdrop": "/jVtUje8L1g02j3pJ1C6am15RmKS.jpg"
+    },
+    "looney-tunes": {
+      "tmdb": "tv/333432",
+      "backdrop": "/34Tq9DVH9cTMRLBJqsDEovZuRlT.jpg"
+    },
     "looney-tunes-speedy-gonzales": {
       "tmdb": "tv/333432",
       "backdrop": "/34Tq9DVH9cTMRLBJqsDEovZuRlT.jpg"
+    },
+    "loopy-de-loop": {
+      "tmdb": "tv/319126",
+      "backdrop": "/2lNlvmd5R7YCYZOMobOUxZHNumR.jpg"
+    },
+    "los-13-fantasmas-de-scooby-doo": {
+      "tmdb": "tv/1069",
+      "backdrop": "/8ue1wppL1W9jiJMwUXj9T4ilnCe.jpg"
     },
     "los-caballeros-del-zodiaco": {
       "tmdb": "tv/42444",
       "backdrop": "/xqi7xzgzed2TyVuoXBmm6neYGee.jpg"
     },
+    "los-caballeros-del-zodiaco-la-saga-de-hades": {
+      "tmdb": "tv/67199",
+      "backdrop": "/wJYkWiVcrBIAsZjyyLt46wDyngU.jpg"
+    },
+    "los-centuriones": {
+      "tmdb": "tv/2650",
+      "backdrop": "/d5INXBI1fDN0fHjMba7ZUyzAifJ.jpg"
+    },
+    "los-gatos-samurai": {
+      "tmdb": "tv/10797",
+      "backdrop": "/wZrUquHF7N20jzORTIpWwOm6B9z.jpg"
+    },
+    "los-herculoides": {
+      "tmdb": "tv/3578",
+      "backdrop": "/vgu3qpX0FMMOFRaZOJYFDORn6JT.jpg"
+    },
     "los-heroes-de-la-ciudad": {
       "tmdb": "tv/552",
       "backdrop": "/56KZQ81O7oBTIaJeIkBdGDlJtXq.jpg"
+    },
+    "los-imposibles": {
+      "tmdb": "tv/12164",
+      "backdrop": "/f78cCf9wSssHmSqzF6LPlXCc32G.jpg"
     },
     "los-jovenes-titanes": {
       "tmdb": "tv/604",
       "backdrop": "/ilKbbbCYjerHXQr6NRuKPu9DBsJ.jpg"
     },
+    "los-locos-addams": {
+      "tmdb": "tv/14009",
+      "backdrop": "/vPWjtsNklEMYiSF0BiQ1QLHbCSC.jpg"
+    },
+    "los-locos-de-la-galaxia": {
+      "tmdb": "tv/13526",
+      "backdrop": "/ygyBGUbZcMTiG0y5d9cGDOzOCtk.jpg"
+    },
+    "los-misterios-de-moville": {
+      "tmdb": "tv/43219",
+      "backdrop": "/7Y4ksbJq5RkprfA044wgliQQsJD.jpg"
+    },
     "los-padrinos-magicos": {
       "tmdb": "tv/4630",
       "backdrop": "/rMKFsYeK3LPJGk9xqUHhGdqA4aB.jpg"
     },
+    "los-peligros-de-penelope-glamour": {
+      "tmdb": "tv/1765",
+      "backdrop": "/zRZohPYDsD8kCjEemeMOvmDveCD.jpg"
+    },
+    "los-pequenos-picapiedra": {
+      "tmdb": "tv/4167",
+      "backdrop": "/b7iffoUr98QbhMdKRrc7ofETp2j.jpg"
+    },
+    "los-pitufos": {
+      "tmdb": "tv/5687",
+      "backdrop": "/1szJqm8ksrwbPheLfEZn2ohTGbg.jpg"
+    },
+    "los-sabados-secretos": {
+      "tmdb": "tv/14636",
+      "backdrop": "/pmfDPxanEVZ2qFiNJvuKtuwYeoX.jpg"
+    },
     "los-simpsons": {
       "tmdb": "tv/456",
       "backdrop": "/jIArNHIekrCSVgdMbKPAXpPY03Y.jpg"
+    },
+    "los-super-globetrotters": {
+      "tmdb": "tv/2628",
+      "backdrop": "/qI4wAZAaoJlC7RvEdHz8wgd9b75.jpg"
+    },
+    "los-tres-chiflados": {
+      "tmdb": "tv/13592",
+      "backdrop": "/dAR8dAvhedwVCzpZN26QdiTaNos.jpg"
+    },
+    "los-vengadores-los-heroes-mas-poderosos-del-planeta": {
+      "tmdb": "tv/33623",
+      "backdrop": "/vgPDKfOerEyF260CvozVEWj9T8n.jpg"
+    },
+    "los-verdaderos-cazafantasmas": {
+      "tmdb": "tv/2286",
+      "backdrop": "/fE1HSYnlUlGYBdq81oLuiOnTDC7.jpg"
     },
     "love-death-robots": {
       "tmdb": "tv/86831",
@@ -2237,17 +2781,49 @@
       "tmdb": "tv/2004",
       "backdrop": "/si3OheCrSpEyK2JUtZOThsZPUR4.jpg"
     },
+    "mandibulin": {
+      "tmdb": "tv/2936",
+      "backdrop": "/ocKvwGa9GRd2QebEGiYw1xCslIw.jpg"
+    },
     "martha-habla": {
       "tmdb": "tv/7736",
       "backdrop": "/vt9dDUZljz10svcGQT7flF4kCH0.jpg"
+    },
+    "martin-mystery": {
+      "tmdb": "tv/140",
+      "backdrop": "/sTRb3YjoBzzlmh3JWXLiP4Ar5ex.jpg"
     },
     "mas-alla-del-jardin": {
       "tmdb": "tv/61617",
       "backdrop": "/hozufHEzqIRpqJrlyGDqnsyFrAQ.jpg"
     },
+    "max-steel": {
+      "tmdb": "tv/5283",
+      "backdrop": "/3dCSmWj90zPTtAgD2AHtA7gMzTx.jpg"
+    },
+    "mazinger-z": {
+      "tmdb": "tv/19253",
+      "backdrop": "/fQArjxrRZaZHBffjs3FU4AQ8cxN.jpg"
+    },
+    "megas-xlr": {
+      "tmdb": "tv/472",
+      "backdrop": "/vhDErhLUBnyLdDNtgaeOYAfIoM2.jpg"
+    },
     "merlina": {
       "tmdb": "tv/119051",
       "backdrop": "/iHSwvRVsRyxpX7FE7GbviaDvgGZ.jpg"
+    },
+    "meteoro": {
+      "tmdb": "tv/30986",
+      "backdrop": "/yOCxMtJ3wgQyXjP9j8zUhoixPrU.jpg"
+    },
+    "mi-padre-el-rockero": {
+      "tmdb": "tv/1643",
+      "backdrop": "/ayw9CQN67IrmPOKfzgDG1Wrmt0C.jpg"
+    },
+    "mike-lu-y-og": {
+      "tmdb": "tv/4350",
+      "backdrop": "/yjWxc40PJeB3Iie1SFCD2z39iAD.jpg"
     },
     "mini-einsteins": {
       "tmdb": "tv/3090",
@@ -2257,9 +2833,29 @@
       "tmdb": "tv/64375",
       "backdrop": "/52mp7oFltDUkw3kx1ArlRZkLyr3.jpg"
     },
+    "mona-la-vampira": {
+      "tmdb": "tv/536",
+      "backdrop": "/wmMuOJQK46WK19pZotUcEZV77gY.jpg"
+    },
+    "mortal-kombat-defensores-del-reino": {
+      "tmdb": "tv/6212",
+      "backdrop": "/lqxChPsUbvxw2lBwUTOkq63Hb4d.jpg"
+    },
+    "mucha-lucha": {
+      "tmdb": "tv/288",
+      "backdrop": "/fAK0LFIikHi8c7HLgkIQRCQQcYO.jpg"
+    },
     "noblesse": {
       "tmdb": "tv/99779",
       "backdrop": "/4jaGeTbps5BKk6l1x6K2P9b3Qto.jpg"
+    },
+    "oban-star-racers": {
+      "tmdb": "tv/4335",
+      "backdrop": "/jUhdXLgj2FZtxAXQI7FIsImkpR0.jpg"
+    },
+    "oggy-y-las-cucarachas": {
+      "tmdb": "tv/2777",
+      "backdrop": "/fVO7r9tAnauny8DAqbetlQ1tVtu.jpg"
     },
     "on-flux": {
       "tmdb": "tv/406",
@@ -2277,6 +2873,18 @@
       "tmdb": "tv/1434",
       "backdrop": "/l7wShoIdIUwaDIbsHno9pO5MZXT.jpg"
     },
+    "pelswick": {
+      "tmdb": "tv/5601",
+      "backdrop": "/tO3pVxGkWQpVY8uGBRJiuM80lCM.jpg"
+    },
+    "pepe-potamo-y-so-so": {
+      "tmdb": "tv/12350",
+      "backdrop": "/k0VZcADFdOXE11UKmhdr0jdvfCO.jpg"
+    },
+    "pepper-ann": {
+      "tmdb": "tv/4568",
+      "backdrop": "/jNbVRcVwx4qSImE8rWBbKG4Oqf4.jpg"
+    },
     "pequena-diabla": {
       "tmdb": "tv/125392",
       "backdrop": "/A7pq4B0uCPCLvk1EPFKQgJZQoVG.jpg"
@@ -2293,6 +2901,26 @@
       "tmdb": "tv/204154",
       "backdrop": "/rTViEeltl4rO974PmkUAdhQqW2R.jpg"
     },
+    "poochini": {
+      "tmdb": "tv/24685",
+      "backdrop": "/eC0yNxig1YglEbwVraeiO1YxCDT.jpg"
+    },
+    "popeye-el-marino": {
+      "tmdb": "tv/8392",
+      "backdrop": "/2YeQEGqzE0FDto39IiWRlDg9lN6.jpg"
+    },
+    "popeye-y-su-hijo": {
+      "tmdb": "tv/10425",
+      "backdrop": "/wN4nRipxBCfvf9mBVQagNaMavlt.jpg"
+    },
+    "pound-puppies": {
+      "tmdb": "tv/10490",
+      "backdrop": "/5VyEeUk3L7x7hbWaD6Y6nnV6X3S.jpg"
+    },
+    "power-rangers": {
+      "tmdb": "tv/2328",
+      "backdrop": "/i01wnWz0Z3rMATqbkAVLHEaGbNP.jpg"
+    },
     "primal": {
       "tmdb": "tv/89456",
       "backdrop": "/zBfnpI8883yeQkXK2kpLavHv9Yw.jpg"
@@ -2301,9 +2929,17 @@
       "tmdb": "tv/64706",
       "backdrop": "/7FqF8p7XsjgHOqVI9uwYy45jDDS.jpg"
     },
+    "protagonistas-de-la-historia": {
+      "tmdb": "tv/16794",
+      "backdrop": "/iOyEW0ItzJyljV1sfVHDuBnkox8.jpg"
+    },
     "pucca": {
       "tmdb": "tv/6782",
       "backdrop": "/nfAUOxd3qeZZpfPESIivZOyvije.jpg"
+    },
+    "pulgarcito-investigador-privado": {
+      "tmdb": "tv/10475",
+      "backdrop": "/5AKycTv64KwALKjZeUbdkbWflyu.jpg"
     },
     "que-hay-de-nuevo-scooby-doo": {
       "tmdb": "tv/652",
@@ -2313,9 +2949,41 @@
       "tmdb": "tv/57706",
       "backdrop": "/dI2O0d5Dkk8tpuTvCkUKQw3LNMv.jpg"
     },
+    "reboot": {
+      "tmdb": "tv/2121",
+      "backdrop": "/bO4BrAyqkIYSYOpC9z2aE3OGSZX.jpg"
+    },
+    "recreo": {
+      "tmdb": "tv/1546",
+      "backdrop": "/PJSgscE4Es0TXmgIqp3X6ey8Ux.jpg"
+    },
+    "relatos-animados-de-la-biblia": {
+      "tmdb": "tv/247185",
+      "backdrop": "/4cGUl9eyvmwRk3jbZTRRhkyeZ70.jpg"
+    },
     "rick-y-morty": {
       "tmdb": "tv/60625",
       "backdrop": "/5BDNWWHweQL0q1fmTv7gmRXfnl4.jpg"
+    },
+    "robocop-alpha-commando": {
+      "tmdb": "tv/3281",
+      "backdrop": "/vEXiqPQpjbClMNdFQgW1vlBu2NW.jpg"
+    },
+    "robocop-la-serie-animada": {
+      "tmdb": "tv/3411",
+      "backdrop": "/quOkMpsmwPSUKU9bjLoSGmqHRrc.jpg"
+    },
+    "robotech": {
+      "tmdb": "tv/2192",
+      "backdrop": "/aEvoRR2lcesBoKJSSqDqsppQrKJ.jpg"
+    },
+    "rocket-power": {
+      "tmdb": "tv/2009",
+      "backdrop": "/oBGchglw5lgrW7jc5UYK7IHsi4X.jpg"
+    },
+    "rupert": {
+      "tmdb": "tv/9780",
+      "backdrop": "/9DtG0ZQaqdAfngDJum20H7mBUDs.jpg"
     },
     "saber-marionette-j": {
       "tmdb": "tv/25850",
@@ -2337,6 +3005,10 @@
       "tmdb": "tv/35790",
       "backdrop": "/w6a3S1E5p3UfFcP3jkieXlAY5mz.jpg"
     },
+    "samurai-champloo": {
+      "tmdb": "tv/1063",
+      "backdrop": "/aZRGh7ccNAdqQWhHypvlT9UuXjZ.jpg"
+    },
     "samurai-de-ojos-azules": {
       "tmdb": "tv/225180",
       "backdrop": "/oCMZpwLBcb3dnRuzEKWNWrw1tHz.jpg"
@@ -2353,9 +3025,21 @@
       "tmdb": "tv/926",
       "backdrop": "/cuGHiBCIS8cUbnsV1TecOg9Z9Nd.jpg"
     },
+    "scooby-doo-misterios-s-a": {
+      "tmdb": "tv/18123",
+      "backdrop": "/2VvLk11UlmdHFPQkDgm4KPSjLrs.jpg"
+    },
     "sentenced-to-be-a-hero": {
       "tmdb": "tv/249907",
       "backdrop": "/k8uBEraJWZf9o7oJbaVHrECwvjC.jpg"
+    },
+    "shaggy-y-scooby-doo-detectives": {
+      "tmdb": "tv/593",
+      "backdrop": "/7MaeZP8g5HHztlPPBSYiRzQ2hXY.jpg"
+    },
+    "shazzan": {
+      "tmdb": "tv/10501",
+      "backdrop": "/wOUTstdb7fKireyJy1AGKiqhFM2.jpg"
     },
     "she-ra-y-las-princesas-del-poder": {
       "tmdb": "tv/79732",
@@ -2365,21 +3049,45 @@
       "tmdb": "tv/34144",
       "backdrop": "/gojctO0VsadPKjWz3fQVTL67QzZ.jpg"
     },
+    "shinzo": {
+      "tmdb": "tv/21175",
+      "backdrop": "/KSxxz5Fuv1dLspqZNZnp2CuYCI.jpg"
+    },
+    "shuriken-school": {
+      "tmdb": "tv/14",
+      "backdrop": "/as6DK6A84DHcsnCqzzC0JQ6P5Rr.jpg"
+    },
     "sid-el-nino-cientifico": {
       "tmdb": "tv/7744",
       "backdrop": "/8bqTCdrWUw9jfnyaIEtQ0STGNB0.jpg"
+    },
+    "silver-surfer": {
+      "tmdb": "tv/1130",
+      "backdrop": "/jTupUx9wdoIKe8BFoP5Z1xzEtno.jpg"
     },
     "sirena": {
       "tmdb": "tv/71886",
       "backdrop": "/6Sj3bIXEgfxrhurMwXGb1Meb64v.jpg"
     },
+    "skeleton-warriors": {
+      "tmdb": "tv/1718",
+      "backdrop": "/opOgs7yIpWEPr3SmMlVAYvJLHIr.jpg"
+    },
     "smallville": {
       "tmdb": "tv/4604",
       "backdrop": "/4wVq9ICc4MI2XcssrumpCOhKLpI.jpg"
     },
+    "sonic-underground": {
+      "tmdb": "tv/20992",
+      "backdrop": "/mNS58Y1olwQexQd69strqkBlcCT.jpg"
+    },
     "south-park": {
       "tmdb": "tv/2190",
       "backdrop": "/3UviYOlhn8EgXMBuiT6MnUuo1w9.jpg"
+    },
+    "soy-la-comadreja": {
+      "tmdb": "tv/177",
+      "backdrop": "/4vR2Ctk0dBrEKIxwBaV3BCkYCRc.jpg"
     },
     "spawn": {
       "tmdb": "tv/10331",
@@ -2405,6 +3113,14 @@
       "tmdb": "tv/114478",
       "backdrop": "/m2QTmJhe36uKrkQjC1MsNV7Dcqp.jpg"
     },
+    "stargate-infinity": {
+      "tmdb": "tv/2580",
+      "backdrop": "/eg50pCLII0TevPrGKXu2ba8uizA.jpg"
+    },
+    "static-shock": {
+      "tmdb": "tv/1487",
+      "backdrop": "/oYeWPNV0QZri8eRNmyRTeC57ijx.jpg"
+    },
     "steven-universe": {
       "tmdb": "tv/61175",
       "backdrop": "/e5YSF0Inv9eL77jv2WQtNOOB3Bg.jpg"
@@ -2417,6 +3133,14 @@
       "tmdb": "tv/224263",
       "backdrop": "/ulBGaxq9GmJexyEOi4Xci74g6Vt.jpg"
     },
+    "street-fighter-ii-v": {
+      "tmdb": "tv/31713",
+      "backdrop": "/umeyX0a6JkDubtxfCDNPjWW66FL.jpg"
+    },
+    "street-sharks": {
+      "tmdb": "tv/12544",
+      "backdrop": "/k2WyVwA0G8l8omBnzr07Ia7Z1jD.jpg"
+    },
     "stripperella": {
       "tmdb": "tv/3072",
       "backdrop": "/46k6zZvUCWEm1SrZOWGLSVb9YxK.jpg"
@@ -2425,6 +3149,14 @@
       "tmdb": "tv/55011",
       "backdrop": "/fyyJSBWbBZT1faAQ2djemYziJYk.jpg"
     },
+    "super-duper-sumos": {
+      "tmdb": "tv/12150",
+      "backdrop": "/9GELUumAKHkFDcs0ZbF4gaFpdxG.jpg"
+    },
+    "super-mario-world": {
+      "tmdb": "tv/26732",
+      "backdrop": "/mNhOTxhmr5JjvULZgt3Yh2FUjxH.jpg"
+    },
     "super-why": {
       "tmdb": "tv/14766",
       "backdrop": "/U9VKLLo9IeQU1aQAOA6s4Na5Pc.jpg"
@@ -2432,6 +3164,18 @@
     "supercampeones": {
       "tmdb": "tv/25707",
       "backdrop": "/bwQHVs25LNYpPzfvDIYdVJjk2fW.jpg"
+    },
+    "superman-la-serie-animada": {
+      "tmdb": "tv/4303",
+      "backdrop": "/yDsLb8WRHplh7X5EpHDFHl7TP8T.jpg"
+    },
+    "swat-kats": {
+      "tmdb": "tv/590",
+      "backdrop": "/4kMbAmqrl8RMLXtnSUCFh15ZF8p.jpg"
+    },
+    "taz-mania": {
+      "tmdb": "tv/10126",
+      "backdrop": "/kWwj7gNJsnd5ocTRvlmEznaB8wG.jpg"
     },
     "teen-wolf": {
       "tmdb": "tv/34524",
@@ -2449,13 +3193,25 @@
       "tmdb": "tv/2304",
       "backdrop": "/wIe1HL7oMNwyltsqqx2sCPwNl4w.jpg"
     },
+    "thundarr-el-barbaro": {
+      "tmdb": "tv/13800",
+      "backdrop": "/qQxamxz7YvJFfvJuppwBGiy4JYC.jpg"
+    },
     "thundercats": {
       "tmdb": "tv/1988",
       "backdrop": "/lWsof34OJY8VV691mZxNq97cKkX.jpg"
     },
+    "tiny-toon-adventures": {
+      "tmdb": "tv/1830",
+      "backdrop": "/svFh88hKUiH8W5P936noyLC9L6F.jpg"
+    },
     "tio-grandpa": {
       "tmdb": "tv/47035",
       "backdrop": "/cyH8Ni1OSMtBbloEmI9eE69Xi7j.jpg"
+    },
+    "tiro-loco-mcgraw": {
+      "tmdb": "tv/38960",
+      "backdrop": "/15RoVBbscgx1iJ1xb9gXLebdhob.jpg"
     },
     "titan-sim-bionico": {
       "tmdb": "tv/32315",
@@ -2485,6 +3241,10 @@
       "tmdb": "tv/34356",
       "backdrop": "/b3HNbmtOfskwhD9TMMbcyVa3xWm.jpg"
     },
+    "un-cachorro-llamado-scooby-doo": {
+      "tmdb": "tv/418",
+      "backdrop": "/tnGkk8SH68n6DbcFg3J4oVKA5Ml.jpg"
+    },
     "un-show-mas": {
       "tmdb": "tv/31132",
       "backdrop": "/bhF63Jd90gRYyTHd4y5GCGA2vX6.jpg"
@@ -2493,9 +3253,37 @@
       "tmdb": "tv/86340",
       "backdrop": "/ua4rzxx9DB6xUVZ0cBX6SYZDUXs.jpg"
     },
+    "vr-troopers": {
+      "tmdb": "tv/518",
+      "backdrop": "/nLzFrOdNzBx1qTkjmKaOhRUp2iy.jpg"
+    },
+    "wolverine-anime": {
+      "tmdb": "tv/38247",
+      "backdrop": "/b4wRDmy0tqad6JC7GybUu1dzLxF.jpg"
+    },
+    "wolverine-y-los-x-men": {
+      "tmdb": "tv/6549",
+      "backdrop": "/ix5tWGa7m7qGmXOmEBJgqv91T6F.jpg"
+    },
+    "xena-la-princesa-guerrera": {
+      "tmdb": "tv/4616",
+      "backdrop": "/1V7WuDv5kmzwCCNd9CNQvOmqHdm.jpg"
+    },
+    "xiaolin-chronicles": {
+      "tmdb": "tv/60306",
+      "backdrop": "/lcdYKqxvPRRMnfoS8a9FfLrYDfu.jpg"
+    },
+    "yakky-doodle": {
+      "tmdb": "tv/296377",
+      "backdrop": "/sPXF5hrYmGSbybqnzbSwR0y6Pe6.jpg"
+    },
     "yin-yang-yo": {
       "tmdb": "tv/3809",
       "backdrop": "/gT1XXAeTDS6Ni5Y3BxRWCbijrva.jpg"
+    },
+    "yo-yogi": {
+      "tmdb": "tv/10442",
+      "backdrop": "/hkdHkEtZXTuaJK8DQelhNpoNvaE.jpg"
     },
     "yu-gi-oh": {
       "tmdb": "tv/36406",
@@ -2504,6 +3292,26 @@
     "yu-gi-oh-gx": {
       "tmdb": "tv/12536",
       "backdrop": "/1cKV1MXj1D9NJBXS1zlmkEYqGgY.jpg"
+    },
+    "yu-yu-hakusho": {
+      "tmdb": "tv/30669",
+      "backdrop": "/uNM5dbnPJXJJs1eggepRWjSvdIR.jpg"
+    },
+    "zatch-bell": {
+      "tmdb": "tv/35894",
+      "backdrop": "/n4MfPSRk5PzHeVrm43NHam8oH5d.jpg"
+    },
+    "zenki": {
+      "tmdb": "tv/34663",
+      "backdrop": "/2bo6q6SbX0JSjZ4cqQuLijuNVg0.jpg"
+    },
+    "zoboomafoo": {
+      "tmdb": "tv/4217",
+      "backdrop": "/OMZrF60GxJa1iUA78SwwRDjd0k.jpg"
+    },
+    "zona-tiza": {
+      "tmdb": "tv/4413",
+      "backdrop": "/hguRih18aMSiGi0Nxik0VNVvgjv.jpg"
     }
   }
 }

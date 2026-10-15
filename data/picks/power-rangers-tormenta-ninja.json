@@ -1,0 +1,358 @@
+{
+  "title": "Power Rangers: Tormenta Ninja",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c5417545 c4815433",
+  "year": "2003",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "720p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Acción",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "2798921648713",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 01_x264",
+      "duration_raw": "21:29",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 32289,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651703351881&type=38&idx=7&tkn=exevxpvJmUFxeO96ZwrfKKP6UU0&fn=external_8"
+    },
+    {
+      "video_id": "2798921779785",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 02_x264",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 15478,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651731925577&type=38&idx=11&tkn=dNqckcfK1i4x9_mjfEYRcMLZRww&fn=external_8"
+    },
+    {
+      "video_id": "2798921583177",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 03_x264",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 10939,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651690375753&type=38&idx=3&tkn=Ei9-7oMgx4wc2i3ea-xE_HEz2y8&fn=external_8"
+    },
+    {
+      "video_id": "2798921255497",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 04_x264",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 9787,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651644828233&type=38&idx=6&tkn=BM9-HDm5x9VOvuejXNyXUFkTgtU&fn=external_8"
+    },
+    {
+      "video_id": "2798922762825",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 05_x264",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 11079,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651956976201&type=38&idx=10&tkn=qsw-2ynqBLXUaxPXBoA6ClmBG6Y&fn=external_8"
+    },
+    {
+      "video_id": "2798922631753",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 06_x264",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 9566,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651928533577&type=38&idx=3&tkn=Rq1wgc9qrq1JkmhfbImue9cF2Cc&fn=external_8"
+    },
+    {
+      "video_id": "2798920534601",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 07_x264",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 9256,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651557206601&type=38&idx=6&tkn=zWbwsta1gXcNJXAvNRmfHJ2cf24&fn=external_8"
+    },
+    {
+      "video_id": "2798922369609",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 08_x264",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 8398,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651861228105&type=38&idx=7&tkn=1fPMmnUx8zv1Nl4NAMJAAqhQSyQ&fn=external_8"
+    },
+    {
+      "video_id": "2798922107465",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 09_x264",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 7162,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651798051401&type=38&idx=10&tkn=-R-ZHfC23dfO758O5tH2pHQPw0c&fn=external_8"
+    },
+    {
+      "video_id": "2798922304073",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 10_x264",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 8801,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651845040713&type=38&idx=2&tkn=ruBZBijSIFVe4THu6vfZaWiiH6I&fn=external_8"
+    },
+    {
+      "video_id": "2798921517641",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 11_x264",
+      "duration_raw": "21:29",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 7637,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651678251593&type=38&idx=15&tkn=WWfCE48xiFfx0UU-JX9_hkNkH4g&fn=external_8"
+    },
+    {
+      "video_id": "2798920600137",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 12_x264",
+      "duration_raw": "21:27",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 7329,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651560417865&type=38&idx=3&tkn=vWKNE-ES4NDIsCe3Th_GflIEklo&fn=external_8"
+    },
+    {
+      "video_id": "2798922500681",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 13_x264",
+      "duration_raw": "21:27",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 8033,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651896552009&type=38&idx=4&tkn=BNdyKwtwiqT0M67IKpog90bPevg&fn=external_8"
+    },
+    {
+      "video_id": "2798921189961",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 14_x264",
+      "duration_raw": "21:27",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 6729,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651632573001&type=38&idx=2&tkn=21xgfzJ2ZTnl0CeuY0-qlWStTj4&fn=external_8"
+    },
+    {
+      "video_id": "2798920927817",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 15_x264",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 6202,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651594889801&type=38&idx=2&tkn=iDvehg5N5F5iy8dK1ha1K3GTGxw&fn=external_8"
+    },
+    {
+      "video_id": "2798920796745",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 16_x264",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 7815,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651579554377&type=38&idx=7&tkn=S-EoOR24LHIjpvkH9GkrVqIKS_c&fn=external_8"
+    },
+    {
+      "video_id": "2798920665673",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 17_x264",
+      "duration_raw": "21:29",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 7624,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651566053961&type=38&idx=15&tkn=xPCLLA4TjwzvIIGhPSFS6RJfq80&fn=external_8"
+    },
+    {
+      "video_id": "2798920862281",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 18_x264",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 7974,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651587287625&type=38&idx=2&tkn=aQOjzNHYcUn8_3cG-b79sVC_XYQ&fn=external_8"
+    },
+    {
+      "video_id": "2798922041929",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 19_x264",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 6718,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651785665097&type=38&idx=2&tkn=JXLsnANrldNbWFHS_-QonfKNyVk&fn=external_8"
+    },
+    {
+      "video_id": "2798920731209",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 20_x264",
+      "duration_raw": "21:27",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 6077,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651573393993&type=38&idx=2&tkn=rZlPvQDPnESB8FBLW39mALEXccE&fn=external_8"
+    },
+    {
+      "video_id": "2798922173001",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 21_x264",
+      "duration_raw": "21:27",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 5770,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651815483977&type=38&idx=9&tkn=D7RQ2_sGZLaAuLks1QVyhmZ73aM&fn=external_8"
+    },
+    {
+      "video_id": "2798920993353",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 22_x264",
+      "duration_raw": "21:27",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 5264,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651603409481&type=38&idx=11&tkn=puzZrx4Fa_EqgsZ_zO3rA8vqujs&fn=external_8"
+    },
+    {
+      "video_id": "2798921845321",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 23_x264",
+      "duration_raw": "21:27",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 5892,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651744246345&type=38&idx=8&tkn=TX8fRqO2E7BnzM9WN2b3ofTyopk&fn=external_8"
+    },
+    {
+      "video_id": "2798922435145",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 24_x264",
+      "duration_raw": "21:27",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 5282,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651878660681&type=38&idx=9&tkn=PMJTw2Gn_RP7ckxyRGlOhCCBvVM&fn=external_8"
+    },
+    {
+      "video_id": "2798922566217",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 25_x264",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 5258,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651912018505&type=38&idx=2&tkn=P-w4ocqttW0PNsnwQKRC3xElwl4&fn=external_8"
+    },
+    {
+      "video_id": "2798921714249",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 26_x264",
+      "duration_raw": "21:27",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 5612,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651719211593&type=38&idx=8&tkn=BNtFtuv4y4T38vHCc_AHvs2e4fg&fn=external_8"
+    },
+    {
+      "video_id": "2798922697289",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 27_x264",
+      "duration_raw": "21:27",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 5317,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651944589897&type=38&idx=10&tkn=SAyGTJ3YrfHDoFBRigtTqGxvPI4&fn=external_8"
+    },
+    {
+      "video_id": "2798921452105",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 28_x264",
+      "duration_raw": "21:27",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 5810,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651666061897&type=38&idx=6&tkn=CtwphymH8KwOEjWiVglvoVK1P94&fn=external_8"
+    },
+    {
+      "video_id": "2798921058889",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 29_x264",
+      "duration_raw": "21:27",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 5130,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651610552905&type=38&idx=6&tkn=ClsczoUQ5PLjPsDXIwc-AngjI34&fn=external_8"
+    },
+    {
+      "video_id": "2798921124425",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 30_x264",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 4986,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651621497417&type=38&idx=8&tkn=ZZRTb4Fje_1uEGSBuelslM_H4W0&fn=external_8"
+    },
+    {
+      "video_id": "2798922828361",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 31_x264",
+      "duration_raw": "21:27",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 4674,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651974605385&type=38&idx=2&tkn=avQm3KEfN0LEMdUPh-y4S09WsHs&fn=external_8"
+    },
+    {
+      "video_id": "2798922893897",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 32_x264",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 4740,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651990596169&type=38&idx=15&tkn=UoZvoJj2QmipGPKo41rTOXAcoQU&fn=external_8"
+    },
+    {
+      "video_id": "2798921910857",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 33_x264",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 4805,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651758008905&type=38&idx=6&tkn=UwWHnpx_zznIcfc0Aw6qY8Wjjew&fn=external_8"
+    },
+    {
+      "video_id": "2798921976393",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 34_x264",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 4924,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651774720585&type=38&idx=6&tkn=huBqp36lU-4rSX8SGsfi0FtJr_o&fn=external_8"
+    },
+    {
+      "video_id": "2798922238537",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 35_x264",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 4667,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651829574217&type=38&idx=8&tkn=-M59KPWNddKxugC9wg_2aaFEU2A&fn=external_8"
+    },
+    {
+      "video_id": "2798921321033",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 36_x264",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 4425,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1651654855241&type=38&idx=2&tkn=7BklldZvTqerRCbKlmpl0NF-aS4&fn=external_8"
+    },
+    {
+      "video_id": "2798923024969",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 37_x264",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 6120,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1652025789001&type=38&idx=1&tkn=Q97Il6irZBIGYXVLh_4B9OgSP9w&fn=external_8"
+    },
+    {
+      "video_id": "2798922959433",
+      "title_raw": "[SR] Power Rangers Ninja Storm - 38_x264",
+      "duration_raw": "21:27",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 6924,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1652011108937&type=38&idx=15&tkn=W_9jBM16QVq0Q2aaUXSk8UxjgV8&fn=external_8"
+    }
+  ]
+}

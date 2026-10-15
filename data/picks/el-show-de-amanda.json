@@ -1,0 +1,304 @@
+{
+  "title": "El Show de Amanda",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c5102921",
+  "year": "1999",
+  "studio": "Nickelodeon",
+  "source": "lacartoons Oficial",
+  "quality": "720p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Comedia",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "2615450012233",
+      "title_raw": "1x02 Episodio 2_RVL",
+      "duration_raw": "24:02",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 21990,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437247933001&type=37&idx=9&tkn=0JalBAWWpCqu9mN1Bp1ESeXxkbk&fn=external_8"
+    },
+    {
+      "video_id": "2615450274377",
+      "title_raw": "1x03 Episodio 3_RVL",
+      "duration_raw": "24:19",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 4873,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437311371849&type=37&idx=1&tkn=FavFonVpRLXcaMsxlWB_PVQajs0&fn=external_8"
+    },
+    {
+      "video_id": "2615450143305",
+      "title_raw": "1x04 Episodio 4_RVL",
+      "duration_raw": "24:19",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 2800,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437281749577&type=37&idx=7&tkn=fSkK-sin30lf5G2c8l5WKgYNMho&fn=external_8"
+    },
+    {
+      "video_id": "2615450602057",
+      "title_raw": "1x06 Episodio 6_RVL",
+      "duration_raw": "24:19",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 2522,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437388114505&type=37&idx=3&tkn=72vjdl3HmDDOJDY0znVOPfeg8Ls&fn=external_8"
+    },
+    {
+      "video_id": "2615450405449",
+      "title_raw": "1x07 Episodio 7_RVL",
+      "duration_raw": "24:19",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 2066,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437336799817&type=37&idx=15&tkn=Xj5hSEi1hQtFE4bKfRwWXTXIXm0&fn=external_8"
+    },
+    {
+      "video_id": "2615450536521",
+      "title_raw": "1x09 Episodio 9_RVL",
+      "duration_raw": "24:20",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 2595,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437369829961&type=37&idx=12&tkn=NsUEUo2Kkjgllgky8ucmLetzxgI&fn=external_8"
+    },
+    {
+      "video_id": "2615448963657",
+      "title_raw": "1x10 Episodio 10_RVL",
+      "duration_raw": "24:17",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 1712,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437050997321&type=37&idx=15&tkn=eVTxM_3EAdRXsjTuuf2gdo8QnEU&fn=external_8"
+    },
+    {
+      "video_id": "2615450470985",
+      "title_raw": "1x11 Episodio 11_RVL",
+      "duration_raw": "24:16",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 1634,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437354297929&type=37&idx=3&tkn=p-OjLF4G5Tb0DKMrVASMXyuIdP8&fn=external_8"
+    },
+    {
+      "video_id": "2615449881161",
+      "title_raw": "1x13 Episodio 13_RVL",
+      "duration_raw": "24:17",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 1505,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437217589833&type=37&idx=13&tkn=un3z2LnP-CNPzbdBNyjg-LDE2Rs&fn=external_8"
+    },
+    {
+      "video_id": "2615450339913",
+      "title_raw": "2x01 Episodio 1_RVL",
+      "duration_raw": "22:11",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 1379,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437323627081&type=37&idx=6&tkn=-UQMNO6SFZDu2wyxGeFzoo13t94&fn=external_8"
+    },
+    {
+      "video_id": "2615449619017",
+      "title_raw": "2x02 Episodio 2_RVL",
+      "duration_raw": "24:05",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 1316,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437106899529&type=37&idx=1&tkn=MRupGab9HENse5lj2BUHhc32VH4&fn=external_8"
+    },
+    {
+      "video_id": "2615449750089",
+      "title_raw": "2x04 Episodio 4_RVL",
+      "duration_raw": "22:05",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 1399,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437184559689&type=37&idx=9&tkn=Pg3RsT9g3876ZWGovKYfsJj-A10&fn=external_8"
+    },
+    {
+      "video_id": "2615449422409",
+      "title_raw": "2x05 Episodio 5_RVL",
+      "duration_raw": "22:06",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 1050,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437078456905&type=37&idx=13&tkn=h0nvuefNJF_AnyJX52W0zo2hsfw&fn=external_8"
+    },
+    {
+      "video_id": "2615450077769",
+      "title_raw": "2x06 Episodio 6_RVL",
+      "duration_raw": "22:05",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 1164,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437262809673&type=37&idx=12&tkn=UnUvrIx7YLMY8OoH-M2nllSO_yQ&fn=external_8"
+    },
+    {
+      "video_id": "2615449553481",
+      "title_raw": "2x07 Episodio 7_RVL",
+      "duration_raw": "22:05",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 1043,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437154150985&type=37&idx=3&tkn=vpTKeDgE_te8sIJHXwdhezQjB2k&fn=external_8"
+    },
+    {
+      "video_id": "2615449946697",
+      "title_raw": "2x08 Episodio 8_RVL",
+      "duration_raw": "22:04",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 1293,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437230893641&type=37&idx=14&tkn=uql596TNSuFq49FAwOpDB35WKKY&fn=external_8"
+    },
+    {
+      "video_id": "2615449487945",
+      "title_raw": "2x09 Episodio 9_RVL",
+      "duration_raw": "22:05",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 1021,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437171124809&type=37&idx=13&tkn=smAjtXd-sC2xTAVCu1aAaUD7Cd0&fn=external_8"
+    },
+    {
+      "video_id": "2615450208841",
+      "title_raw": "2x10 Episodio 10_RVL",
+      "duration_raw": "22:05",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 1136,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437296167497&type=37&idx=2&tkn=ZqMX4-ebsK60AWpYkGVJ4qASeSg&fn=external_8"
+    },
+    {
+      "video_id": "2615449815625",
+      "title_raw": "2x11 Episodio 11_RVL",
+      "duration_raw": "22:07",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 867,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437203106377&type=37&idx=14&tkn=DzcWAEXhHH5oL_x01p1mnY1KS70&fn=external_8"
+    },
+    {
+      "video_id": "2615449684553",
+      "title_raw": "2x13 Episodio 13_RVL",
+      "duration_raw": "22:06",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 906,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437129312841&type=37&idx=9&tkn=ENdDdTRIH1PiH9pmXTLongYuWVA&fn=external_8"
+    },
+    {
+      "video_id": "2615716874825",
+      "title_raw": "2x14 Episodio 14_RVL",
+      "duration_raw": "22:05",
+      "season_number": 2,
+      "episode_number": 14,
+      "views": 929,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437653142089&type=37&idx=15&tkn=OYgAT4GlilrtPoaRIcEB-QO1fQQ&fn=external_8"
+    },
+    {
+      "video_id": "2615716416073",
+      "title_raw": "2x15 Episodio 15_RVL",
+      "duration_raw": "22:06",
+      "season_number": 2,
+      "episode_number": 15,
+      "views": 755,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437446769225&type=37&idx=15&tkn=KrJ2nc-iJde1AyS8Lh66yb3RoPo&fn=external_8"
+    },
+    {
+      "video_id": "2615716481609",
+      "title_raw": "2x16 Episodio 16_RVL",
+      "duration_raw": "20:22",
+      "season_number": 2,
+      "episode_number": 16,
+      "views": 895,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437470886473&type=37&idx=4&tkn=rW_2tGK2wALrhwuSPRQseOCs7G4&fn=external_8"
+    },
+    {
+      "video_id": "2615716678217",
+      "title_raw": "2x17 Episodio 17_RVL",
+      "duration_raw": "22:05",
+      "season_number": 2,
+      "episode_number": 17,
+      "views": 849,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437576792649&type=37&idx=10&tkn=qJhmI4_xGYnon278f5_C7FSQKrE&fn=external_8"
+    },
+    {
+      "video_id": "2615716350537",
+      "title_raw": "3x01 Episodio 1_RVL",
+      "duration_raw": "22:05",
+      "season_number": 3,
+      "episode_number": 1,
+      "views": 1087,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437422586441&type=37&idx=8&tkn=rWzjSsf3ssvVeyNSyG9rUwnkLtE&fn=external_8"
+    },
+    {
+      "video_id": "2615716285001",
+      "title_raw": "3x02 Episodio 2_RVL",
+      "duration_raw": "22:06",
+      "season_number": 3,
+      "episode_number": 2,
+      "views": 1010,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437401680457&type=37&idx=15&tkn=qRnt5T2UzmZne0_uudA042m27Lo&fn=external_8"
+    },
+    {
+      "video_id": "2615716940361",
+      "title_raw": "3x03 Episodio 3_RVL",
+      "duration_raw": "22:01",
+      "season_number": 3,
+      "episode_number": 3,
+      "views": 875,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437679487561&type=37&idx=13&tkn=7KTYA1pMFu5TW9PWiin8vKMKz0Q&fn=external_8"
+    },
+    {
+      "video_id": "2615716809289",
+      "title_raw": "3x04 Episodio 4_RVL",
+      "duration_raw": "22:05",
+      "season_number": 3,
+      "episode_number": 4,
+      "views": 856,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437630335561&type=37&idx=2&tkn=o6yuvKV2wKpk6U3lMMnALN547ds&fn=external_8"
+    },
+    {
+      "video_id": "2615717005897",
+      "title_raw": "3x05 Episodio 5_RVL",
+      "duration_raw": "22:05",
+      "season_number": 3,
+      "episode_number": 5,
+      "views": 808,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437702359625&type=37&idx=4&tkn=NNk77qQwt83V2H-GVPtccYzWRWI&fn=external_8"
+    },
+    {
+      "video_id": "2615716547145",
+      "title_raw": "3x07 Episodio 7_RVL",
+      "duration_raw": "22:05",
+      "season_number": 3,
+      "episode_number": 7,
+      "views": 929,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437495069257&type=37&idx=14&tkn=K1d-17EuFFcpsr_BRYv-8AgHUCI&fn=external_8"
+    },
+    {
+      "video_id": "2615716612681",
+      "title_raw": "3x08 Episodio 8_RVL",
+      "duration_raw": "22:05",
+      "season_number": 3,
+      "episode_number": 8,
+      "views": 1313,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437552020041&type=37&idx=9&tkn=1CxPcMS8cjnCc9dmMCutgPwLxs4&fn=external_8"
+    },
+    {
+      "video_id": "2615716743753",
+      "title_raw": "3x10 Episodio 10_RVL",
+      "duration_raw": "23:26",
+      "season_number": 3,
+      "episode_number": 10,
+      "views": 1917,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1437603007049&type=37&idx=8&tkn=XpeMjFLEv5XAcEdeBxFVxP5jclY&fn=external_8"
+    }
+  ]
+}

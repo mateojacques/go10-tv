@@ -1,0 +1,250 @@
+{
+  "title": "D'Artacán y los Tres Mosqueperros",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c3014473",
+  "year": "1981",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Aventura",
+  "videos": [
+    {
+      "video_id": "1738286959177",
+      "title_raw": "DTM-1",
+      "duration_raw": "23:57",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 8557,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018258303621&type=32&idx=1&tkn=R5ILZgKG--bpi4ae1JDai7J1c4o&fn=external_8"
+    },
+    {
+      "video_id": "1738287286857",
+      "title_raw": "DTM-2",
+      "duration_raw": "23:54",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 1978,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018254043781&type=32&idx=15&tkn=92ALgZUomdyuVyngF1L9HmnuhGE&fn=external_8"
+    },
+    {
+      "video_id": "1738287221321",
+      "title_raw": "DTM-3",
+      "duration_raw": "23:59",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1329,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018252143237&type=32&idx=1&tkn=ZaX78qBd4c-LDQQK-OGdt1_dkD0&fn=external_8"
+    },
+    {
+      "video_id": "1738287549001",
+      "title_raw": "DTM-4",
+      "duration_raw": "23:59",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1180,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018254502533&type=32&idx=1&tkn=gBm5FFqIDO75CJKKYl9--75t2vU&fn=external_8"
+    },
+    {
+      "video_id": "1738287155785",
+      "title_raw": "DTM-5",
+      "duration_raw": "23:55",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 762,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018257255045&type=32&idx=1&tkn=x5XmlWbZkFDjSgPy838YfWMCD3E&fn=external_8"
+    },
+    {
+      "video_id": "1738286828105",
+      "title_raw": "DTM-6",
+      "duration_raw": "24:00",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 859,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018252667525&type=32&idx=1&tkn=bEvqfEob1ZFOhNEHVrXpYh50zVs&fn=external_8"
+    },
+    {
+      "video_id": "1738286893641",
+      "title_raw": "DTM-7",
+      "duration_raw": "23:59",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 706,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018255092357&type=32&idx=1&tkn=w8N9Ix1g_vQ1G5_dMkVyub3RS5k&fn=external_8"
+    },
+    {
+      "video_id": "1738287090249",
+      "title_raw": "DTM-8",
+      "duration_raw": "24:00",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 579,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018256075397&type=32&idx=1&tkn=FVnh3yNucgTkzzwekcyzuktDqio&fn=external_8"
+    },
+    {
+      "video_id": "1738288007753",
+      "title_raw": "DTM-9",
+      "duration_raw": "23:52",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 461,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018253519493&type=32&idx=1&tkn=svr3koIe9BwvwKZy2Kg_dtRQWrk&fn=external_8"
+    },
+    {
+      "video_id": "1738288269897",
+      "title_raw": "DTM-10",
+      "duration_raw": "24:03",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 412,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018251225733&type=32&idx=1&tkn=ru64oIqflDwcwHU6ftfGgEfmokU&fn=external_8"
+    },
+    {
+      "video_id": "1738286697033",
+      "title_raw": "DTM-11",
+      "duration_raw": "24:05",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 384,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018262760069&type=32&idx=1&tkn=D04Bt5HqSSminyCrT9XnlsE0eJM&fn=external_8"
+    },
+    {
+      "video_id": "1738287352393",
+      "title_raw": "DTM-12",
+      "duration_raw": "24:02",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 323,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018268592773&type=32&idx=1&tkn=GRC48rHWfRa_BCpLMj47uGATUbs&fn=external_8"
+    },
+    {
+      "video_id": "1738287614537",
+      "title_raw": "DTM-13",
+      "duration_raw": "24:01",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 358,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018267019909&type=32&idx=1&tkn=6DCqUas-VQZjwN_oImtxFUEC0Rw&fn=external_8"
+    },
+    {
+      "video_id": "1738286762569",
+      "title_raw": "DTM-14",
+      "duration_raw": "24:01",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 293,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018270886533&type=32&idx=1&tkn=yabA6gK5vc3C4WnSJc671wlJG-s&fn=external_8"
+    },
+    {
+      "video_id": "1738287417929",
+      "title_raw": "DTM-15",
+      "duration_raw": "23:59",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 313,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018270100101&type=32&idx=1&tkn=fk1hg4yWt9zoH7uCXcd1_ux_SSM&fn=external_8"
+    },
+    {
+      "video_id": "1738287811145",
+      "title_raw": "DTM-16",
+      "duration_raw": "23:57",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 354,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018264070789&type=32&idx=1&tkn=_MvOmW80KjmoNoFA2ZxSKckCxhg&fn=external_8"
+    },
+    {
+      "video_id": "1738287680073",
+      "title_raw": "DTM-17",
+      "duration_raw": "23:58",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 266,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018268920453&type=32&idx=1&tkn=jAC-p7AbN8THWuEWrbQqwFKY4E8&fn=external_8"
+    },
+    {
+      "video_id": "1738287483465",
+      "title_raw": "DTM-18",
+      "duration_raw": "23:23",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 269,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018265709189&type=32&idx=1&tkn=RwXRM6Mduev7yTlG_Sbg1JMoVsQ&fn=external_8"
+    },
+    {
+      "video_id": "1738287024713",
+      "title_raw": "DTM-19",
+      "duration_raw": "23:59",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 231,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018260531845&type=32&idx=1&tkn=GVYAZb5GBW7O_9OsWMAuoacRpPI&fn=external_8"
+    },
+    {
+      "video_id": "1738288335433",
+      "title_raw": "DTM-20",
+      "duration_raw": "24:00",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 235,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018261449349&type=32&idx=1&tkn=r4Boo5hSxbS3PaKRnrc1m4R4eO0&fn=external_8"
+    },
+    {
+      "video_id": "1738288138825",
+      "title_raw": "DTM-21",
+      "duration_raw": "23:55",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 240,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018278226565&type=32&idx=1&tkn=fQ2uX4bqyoZjT3JKIF9DUC3hS64&fn=external_8"
+    },
+    {
+      "video_id": "1738288073289",
+      "title_raw": "DTM-22",
+      "duration_raw": "24:06",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 242,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018279733893&type=32&idx=4&tkn=hOsCYzp5Itee8np_F65NuxEdzwA&fn=external_8"
+    },
+    {
+      "video_id": "1738287876681",
+      "title_raw": "DTM-23",
+      "duration_raw": "24:01",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 187,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018280258181&type=32&idx=1&tkn=yw5PmYwHrhZ1C-fvNsvG_DxJi-o&fn=external_8"
+    },
+    {
+      "video_id": "1738287745609",
+      "title_raw": "DTM-24",
+      "duration_raw": "23:56",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 219,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018279406213&type=32&idx=1&tkn=gSOjLpkBesSK6Mq_qBliYkzqIqk&fn=external_8"
+    },
+    {
+      "video_id": "1738287942217",
+      "title_raw": "DTM-25",
+      "duration_raw": "23:57",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 258,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018277374597&type=32&idx=1&tkn=afkmJOpybzqPH74SVbhbWs6lLD0&fn=external_8"
+    },
+    {
+      "video_id": "1738288204361",
+      "title_raw": "DTM-26",
+      "duration_raw": "23:50",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 505,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018278947461&type=32&idx=1&tkn=8HeyTPR8iR_wVUknOKgXgY8MZJY&fn=external_8"
+    }
+  ]
+}

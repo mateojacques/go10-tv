@@ -1,0 +1,23 @@
+{
+  "title": "Vida Salvaje",
+  "type": "movie",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial album c2263881 (50 Clasicos de Disney)",
+  "year": "2006",
+  "studio": "Disney",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "1417892923977",
+      "title_raw": "43 - Vida Salvaje",
+      "duration_raw": "1:21:37",
+      "views": 6112,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7372617222789&type=32&idx=1&tkn=sfL19JZMJjPRWrZdaH2WHUFxotQ&fn=external_8"
+    }
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "title": "El País de Donkey Kong",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c5158473",
+  "year": "1997",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Aventura",
+  "videos": [
+    {
+      "video_id": "2640343992905",
+      "title_raw": "Donkey Kong Country  S01E01 - I Spy with My Hairy Eye_x264",
+      "duration_raw": "23:43",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 10782,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1466091178569&type=32&idx=3&tkn=12r7XVwjWz8N-qcPqxkSyb4wFL8&fn=external_8"
+    },
+    {
+      "video_id": "2640343403081",
+      "title_raw": "Donkey Kong Country  S01E02 - The Big Chill Out_x264",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 2242,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1466056510025&type=32&idx=11&tkn=ZQcogzycMG4Uc0DQ9Aq8m4AAELk&fn=external_8"
+    },
+    {
+      "video_id": "2640343534153",
+      "title_raw": "Donkey Kong Country  S01E03 - Bad Hair Day_x264",
+      "duration_raw": "23:43",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1433,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1466064177737&type=32&idx=6&tkn=v-OozdScllL54K3t8Qqx0ax0G5c&fn=external_8"
+    },
+    {
+      "video_id": "2640343337545",
+      "title_raw": "Donkey Kong Country  S01E04 - Booty and the Beast_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 942,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1466052446793&type=32&idx=2&tkn=JIZ6b6WdpNaj2gKwubmMlmSzv3E&fn=external_8"
+    },
+    {
+      "video_id": "2640344713801",
+      "title_raw": "Donkey Kong Country  S01E05 - Raiders of the Lost Banana_x264",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1097,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1466112608841&type=32&idx=11&tkn=V1mItTEkYxZ8szh6J6rArDEUjrU&fn=external_8"
+    },
+    {
+      "video_id": "2640344910409",
+      "title_raw": "Donkey Kong Country  S01E06 - Ape Foo Young_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 730,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1466121783881&type=32&idx=8&tkn=KrzQHIZgObhScAa2W71NJlhDvKA&fn=external_8"
+    },
+    {
+      "video_id": "2640344844873",
+      "title_raw": "Donkey Kong Country  S01E07 - Kong for a Day_x264",
+      "duration_raw": "23:43",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 937,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1466119424585&type=32&idx=7&tkn=_IGFPGv-3kcbvsbsvuqKs8SV4tg&fn=external_8"
+    },
+    {
+      "video_id": "2640344648265",
+      "title_raw": "Donkey Kong Country  S01E08 - From Zero to Hero_x264",
+      "duration_raw": "23:43",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 682,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1466109987401&type=32&idx=11&tkn=Y4vQd9ZS4ccRSA21_XLxum8uO9w&fn=external_8"
+    },
+    {
+      "video_id": "2640343599689",
+      "title_raw": "Donkey Kong Country  S01E09 - Buried Treasure_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 510,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1466068240969&type=32&idx=3&tkn=RPRjYfMJJf85EaPgZ_4Auj4DGTc&fn=external_8"
+    },
+    {
+      "video_id": "2640344517193",
+      "title_raw": "Donkey Kong Country  S01E10 - Cranky's Tickle Tonic_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 572,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1466106317385&type=32&idx=3&tkn=rvADGIi40rd7QM-kiusnhkQCfn8&fn=external_8"
+    },
+    {
+      "video_id": "2640344975945",
+      "title_raw": "Donkey Kong Country  S01E11 - Get a Life, Don't Save One_x264",
+      "duration_raw": "23:43",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 483,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1466124405321&type=32&idx=12&tkn=1ZcXkcpUQVrEkB_sZnzx9XCrmyY&fn=external_8"
+    },
+    {
+      "video_id": "2640344779337",
+      "title_raw": "Donkey Kong Country  S01E12 - The Curse of Kongo Bongo_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 509,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1466116999753&type=32&idx=12&tkn=iQ5pEL-mgjRh3HvFOtUq4_uPf_s&fn=external_8"
+    },
+    {
+      "video_id": "2640343861833",
+      "title_raw": "Donkey Kong Country  S01E13 - Orangutango_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 462,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1466086132297&type=32&idx=14&tkn=2VjlWH16dsdk6YL4UGYORbADiU4&fn=external_8"
+    },
+    {
+      "video_id": "2640343796297",
+      "title_raw": "Donkey Kong Country  S01E14 - Speed_x264",
+      "duration_raw": "23:43",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 485,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1466080889417&type=32&idx=14&tkn=_xSDvmZfswVohfd0k_jJWmg_wIg&fn=external_8"
+    },
+    {
+      "video_id": "2640344189513",
+      "title_raw": "Donkey Kong Country  S01E15 - Klump's Lumps_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 524,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1466097142345&type=32&idx=12&tkn=wpXCQsB8FDhQyAMpTM_ILYzl47g&fn=external_8"
+    },
+    {
+      "video_id": "2640344386121",
+      "title_raw": "Donkey Kong Country  S01E16 - Bluster's Sale Ape-Stravaganza_x264",
+      "duration_raw": "23:43",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 414,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1466101729865&type=32&idx=14&tkn=T0bhzJB80w79dqIuGgmJGYm13ys&fn=external_8"
+    },
+    {
+      "video_id": "2640343468617",
+      "title_raw": "Donkey Kong Country  S01E17 - Kong Fu_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 432,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1466059459145&type=32&idx=9&tkn=uJRNXdHKrMMfQsGPU7MJKuxZS9o&fn=external_8"
+    },
+    {
+      "video_id": "2640343730761",
+      "title_raw": "Donkey Kong Country  S01E18 - Bug a Boogie_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 369,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1466074663497&type=32&idx=1&tkn=7eMOVqzA-VUZbxqod0TDc43Vmao&fn=external_8"
+    },
+    {
+      "video_id": "2640344451657",
+      "title_raw": "Donkey Kong Country  S01E19 - Watch the Skies_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 405,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1466103827017&type=32&idx=7&tkn=QHXgdA4y13h4EftsH5BgrWfND6U&fn=external_8"
+    },
+    {
+      "video_id": "2640343665225",
+      "title_raw": "Donkey Kong Country  S01E20 - Baby Kong Blues_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 390,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1466071321161&type=32&idx=5&tkn=nbQujxP59T-o1vNb31NO0tmGD8U&fn=external_8"
+    },
+    {
+      "video_id": "2640344582729",
+      "title_raw": "Donkey Kong Country  S01E21 - To the Moon Baboon_x264",
+      "duration_raw": "23:43",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 379,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1466107955785&type=32&idx=4&tkn=R_d7RA1yaZ2JqM0zDKMRPjBHZF0&fn=external_8"
+    },
+    {
+      "video_id": "2640343927369",
+      "title_raw": "Donkey Kong Country  S01E22 - Double Date Trouble_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 400,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1466088688201&type=32&idx=5&tkn=dypxFavKY9HL3H0XeDo6MEvgacY&fn=external_8"
+    },
+    {
+      "video_id": "2640344320585",
+      "title_raw": "Donkey Kong Country  S01E23 - Ape-Nesia_x264",
+      "duration_raw": "23:43",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 369,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1466100222537&type=32&idx=12&tkn=d0u6ZqZ1Fi57V7mCgq0sk5ABtjY&fn=external_8"
+    },
+    {
+      "video_id": "2640344058441",
+      "title_raw": "Donkey Kong Country  S01E24 - A Thin Line Between Love & Ape_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 378,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1466093144649&type=32&idx=4&tkn=pGszwxgo8FR5zPCeiLtzNMlHGXw&fn=external_8"
+    },
+    {
+      "video_id": "2640344255049",
+      "title_raw": "Donkey Kong Country  S01E25 - Barrel, Barrel... Who's Got the Barrel_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 457,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1466098911817&type=32&idx=13&tkn=R5ia0j6wm9wWIOIFYayVg3k8RNM&fn=external_8"
+    },
+    {
+      "video_id": "2640344123977",
+      "title_raw": "Donkey Kong Country  S01E26 - Legend of the Crystal Coconut_x264",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 387,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1466095438409&type=32&idx=5&tkn=4cJwm5BiimcKGGBbmzYJMb1ZYp8&fn=external_8"
+    },
+    {
+      "video_id": "2639939045961",
+      "title_raw": "Donkey Kong Country  S02E01 - Tres Hurras Por Kongo Bongo",
+      "duration_raw": "23:53",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 938,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1465576983113&type=32&idx=6&tkn=wFZT4eEVT6HsaTFqDc1W0a4PnQk&fn=external_8"
+    },
+    {
+      "video_id": "2639939635785",
+      "title_raw": "Donkey Kong Country  S02E02 - El festival de las luces De Kongo Bongo",
+      "duration_raw": "23:52",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 513,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1465647237705&type=32&idx=10&tkn=EG53R-tmpDzsRt7fJkPE8KvIGjA&fn=external_8"
+    },
+    {
+      "video_id": "2639939832393",
+      "title_raw": "Donkey Kong Country  S02E03 - No Hables Mal, Amigo",
+      "duration_raw": "23:53",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 450,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1465669585481&type=32&idx=5&tkn=3bEGcakZkjb-v02DM2VK0myHPlQ&fn=external_8"
+    },
+    {
+      "video_id": "2639939111497",
+      "title_raw": "Donkey Kong Country  S02E04 - El Dia Que Se Quedo Quieta La Isla",
+      "duration_raw": "23:53",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 400,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1465586813513&type=32&idx=13&tkn=d3NtY4n-K8krLWABbilc_qz8OVs&fn=external_8"
+    },
+    {
+      "video_id": "2639939308105",
+      "title_raw": "Donkey Kong Country  S02E05 - El Pais De Donkey Kong",
+      "duration_raw": "23:53",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 631,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1465606539849&type=32&idx=8&tkn=9xdPjXB1yw5Z1s1HdyeS4f-IMq4&fn=external_8"
+    },
+    {
+      "video_id": "2639938980425",
+      "title_raw": "Donkey Kong Country  S02E06 - Cuatro Bodas Y Un Coco",
+      "duration_raw": "23:53",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 374,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1465568725577&type=32&idx=13&tkn=OJMYNlFWV7OqcRRJYIdbfxv_xSo&fn=external_8"
+    },
+    {
+      "video_id": "2639939701321",
+      "title_raw": "Donkey Kong Country  S02E07 - El Coco De Cristal",
+      "duration_raw": "23:52",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 541,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1465655626313&type=32&idx=4&tkn=d3rI6LzK9jT2wfDnc_CMam6BcyM&fn=external_8"
+    },
+    {
+      "video_id": "2639939439177",
+      "title_raw": "Donkey Kong Country  S02E08 - Voto De Confianza",
+      "duration_raw": "23:53",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 417,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1465623644745&type=32&idx=3&tkn=_kumYUGsVSEq4oMMI23FmYuYZ00&fn=external_8"
+    },
+    {
+      "video_id": "2639938849353",
+      "title_raw": "Donkey Kong Country  S02E09 - El Gran Intercambio",
+      "duration_raw": "23:53",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 405,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1465560664649&type=32&idx=9&tkn=rzoTSysXbj3NBbwNo3b0uN_f_88&fn=external_8"
+    },
+    {
+      "video_id": "2639939570249",
+      "title_raw": "Donkey Kong Country  S02E10 - Hunka Hunka Ardiente Bluster",
+      "duration_raw": "23:52",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 331,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1465638783561&type=32&idx=7&tkn=W6BVW_6pX6-iwlOMnt2Bubhnvm8&fn=external_8"
+    },
+    {
+      "video_id": "2639939373641",
+      "title_raw": "Donkey Kong Country  S02E11 - El Mejor Enemigo",
+      "duration_raw": "23:52",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 375,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1465615845961&type=32&idx=15&tkn=MpFvx0TSpJCR6OW4LdWNkX_GQMs&fn=external_8"
+    },
+    {
+      "video_id": "2639939242569",
+      "title_raw": "Donkey Kong Country  S02E12 - La Vida Es Maravillosa",
+      "duration_raw": "23:52",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 330,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1465596119625&type=32&idx=7&tkn=HN8LiD5tlPwS6_19W9mcDlBP6MA&fn=external_8"
+    },
+    {
+      "video_id": "2639939766857",
+      "title_raw": "Donkey Kong Country  S02E13 - Era Broma",
+      "duration_raw": "23:52",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 359,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1465662442057&type=32&idx=7&tkn=urKtaK6ejEZSdfKAEp3HiiRQBH0&fn=external_8"
+    },
+    {
+      "video_id": "2639939504713",
+      "title_raw": "Donkey Kong Country  S02E14 - El Mensaje De La Botella",
+      "duration_raw": "23:52",
+      "season_number": 2,
+      "episode_number": 14,
+      "views": 533,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1465630657097&type=32&idx=14&tkn=sttcdOR4hvvdXIz-wr7gUjFT8Og&fn=external_8"
+    }
+  ]
+}

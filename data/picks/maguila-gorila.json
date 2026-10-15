@@ -1,0 +1,295 @@
+{
+  "title": "Maguila Gorila",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2255433",
+  "year": "1964",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "720p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Clásicos",
+  "videos": [
+    {
+      "video_id": "1414764431945",
+      "title_raw": "01 Caza mayor",
+      "duration_raw": "06:45",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 7575,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=598975842889&type=32&idx=0&tkn=QtAe2qzBskB5vS9MXCoyF5v4wBc&fn=external_8"
+    },
+    {
+      "video_id": "1414765939273",
+      "title_raw": "02 Gridiron gorila",
+      "duration_raw": "06:46",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 2438,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=599000746569&type=32&idx=5&tkn=V78_CmCK46gBtsyWSnxmWlUv7AM&fn=external_8"
+    },
+    {
+      "video_id": "1414765873737",
+      "title_raw": "03 El soldado maguila",
+      "duration_raw": "06:46",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1847,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=598999239241&type=32&idx=2&tkn=ic9L8f9pRbOiRJX82UefBnaFOog&fn=external_8"
+    },
+    {
+      "video_id": "1414765152841",
+      "title_raw": "04 Asalta bancos",
+      "duration_raw": "06:46",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1444,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=598987639369&type=32&idx=8&tkn=VLW6w_YnVy-7OQKNj0YsTNhhrUg&fn=external_8"
+    },
+    {
+      "video_id": "1414764628553",
+      "title_raw": "05 Películas locas",
+      "duration_raw": "06:47",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1169,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=598980364873&type=32&idx=1&tkn=zyKNBcHbIVzjBhpNEC1vX_yGzgc&fn=external_8"
+    },
+    {
+      "video_id": "1414765414985",
+      "title_raw": "06 Gorila al aire",
+      "duration_raw": "06:46",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 924,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=598991637065&type=32&idx=14&tkn=ltOHDCUYF-iHzp9jaTeZTuV0lkI&fn=external_8"
+    },
+    {
+      "video_id": "1414765283913",
+      "title_raw": "07 La venta de maguila",
+      "duration_raw": "06:45",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1340,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=598988819017&type=32&idx=0&tkn=1KMGcJO3qGrQSY1Vls5al4hEzm4&fn=external_8"
+    },
+    {
+      "video_id": "1414764956233",
+      "title_raw": "08 El profesor loco",
+      "duration_raw": "06:45",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 895,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=598984428105&type=32&idx=13&tkn=0jIfoq9FKQnfq7wTgw7m0JT6vsk&fn=external_8"
+    },
+    {
+      "video_id": "1414766004809",
+      "title_raw": "09 Fiesta de disfraces",
+      "duration_raw": "06:46",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 859,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=599002712649&type=32&idx=9&tkn=iuE278rXTHOu41DNWqN_oOyV0wU&fn=external_8"
+    },
+    {
+      "video_id": "1414765742665",
+      "title_raw": "10 Vuelve a casa maguila",
+      "duration_raw": "06:46",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 1058,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=598997142089&type=32&idx=9&tkn=FTmAEFGwZzUo74sCQM3Wdx_kRvc&fn=external_8"
+    },
+    {
+      "video_id": "1414765546057",
+      "title_raw": "11 Hada madrina",
+      "duration_raw": "06:46",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 912,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=598994127433&type=32&idx=10&tkn=7P0j9BH54KU2b2QQ4hBELancuT0&fn=external_8"
+    },
+    {
+      "video_id": "1414765677129",
+      "title_raw": "12 El planeta cero",
+      "duration_raw": "06:45",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 786,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=598996421193&type=32&idx=14&tkn=_6QOS0GRHHMyYK17DkqXlczgj3g&fn=external_8"
+    },
+    {
+      "video_id": "1414764104265",
+      "title_raw": "13 El príncipe azul",
+      "duration_raw": "06:45",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 803,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=598968699465&type=32&idx=12&tkn=RB7U59lV536hN3A819qeCjHNbkY&fn=external_8"
+    },
+    {
+      "video_id": "1414765480521",
+      "title_raw": "14 Maguila motociclista",
+      "duration_raw": "06:46",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 771,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=598993013321&type=32&idx=1&tkn=kxj9w-Px8maJKQbvUM9lb9FhuDM&fn=external_8"
+    },
+    {
+      "video_id": "1414764169801",
+      "title_raw": "15 Maguila en el zoologico",
+      "duration_raw": "06:46",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 853,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=598970272329&type=32&idx=0&tkn=nBHdtW00BgqHop66NS_8qyta9K8&fn=external_8"
+    },
+    {
+      "video_id": "1414764497481",
+      "title_raw": "16 Perico niñero",
+      "duration_raw": "06:45",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 1061,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=598977677897&type=32&idx=0&tkn=4GTJDQ3WvVUlOciRtvqCzzgaNWQ&fn=external_8"
+    },
+    {
+      "video_id": "1414764235337",
+      "title_raw": "17 Maguila cirquero",
+      "duration_raw": "06:45",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 774,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=598971648585&type=32&idx=14&tkn=J856fS-9lADAuuzgcMqFdXI-SIw&fn=external_8"
+    },
+    {
+      "video_id": "1414765611593",
+      "title_raw": "18 Maguila lobato",
+      "duration_raw": "06:45",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 720,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=598995176009&type=32&idx=14&tkn=N8olnaLPk96jI4GAKH1MwF9sghM&fn=external_8"
+    },
+    {
+      "video_id": "1414764890697",
+      "title_raw": "19 El enmascarado",
+      "duration_raw": "06:47",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 627,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=598983051849&type=32&idx=3&tkn=uJDLik6jBTeUKCV6vTutaknGBXo&fn=external_8"
+    },
+    {
+      "video_id": "1414764366409",
+      "title_raw": "20 Amor al primer golpe",
+      "duration_raw": "06:45",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 714,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=598974401097&type=32&idx=6&tkn=z-LQEtoJlYjox7gFRyNQMmikmXA&fn=external_8"
+    },
+    {
+      "video_id": "1414765808201",
+      "title_raw": "21 Magilla el rey del ser",
+      "duration_raw": "06:45",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 676,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=598997797449&type=32&idx=2&tkn=yNwdBPOq1z3T8iSeGBV7IyDzGQA&fn=external_8"
+    },
+    {
+      "video_id": "1414765349449",
+      "title_raw": "22 La mascota triunfadora",
+      "duration_raw": "06:45",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 666,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=598989343305&type=32&idx=0&tkn=ZpS1uI3Ae0oW4GtVG5m5WAhfk00&fn=external_8"
+    },
+    {
+      "video_id": "1414765218377",
+      "title_raw": "23 El gorila volador",
+      "duration_raw": "06:46",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 622,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=598988294729&type=32&idx=9&tkn=uTumvBTwkCq3KurBQCHmPwvsJV0&fn=external_8"
+    },
+    {
+      "video_id": "1414765021769",
+      "title_raw": "24 El gorila buceador",
+      "duration_raw": "06:45",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 626,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=598985935433&type=32&idx=1&tkn=LuHAJGaP2aBCq_bq89mY_Q7hA94&fn=external_8"
+    },
+    {
+      "video_id": "1414764825161",
+      "title_raw": "25 Había una vez un co cu cu",
+      "duration_raw": "06:46",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 554,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=598982527561&type=32&idx=9&tkn=9ZaNolXRfx3jZJzQ0fAMZW1AUeo&fn=external_8"
+    },
+    {
+      "video_id": "1414765087305",
+      "title_raw": "26 Amor al primer golpe",
+      "duration_raw": "06:46",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 568,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=598986721865&type=32&idx=0&tkn=ZKzh--JQjYtticdBLyD2lkziiBo&fn=external_8"
+    },
+    {
+      "video_id": "1414764300873",
+      "title_raw": "27 Maguila el rey del surf",
+      "duration_raw": "06:45",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 464,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=598973418057&type=32&idx=2&tkn=nvOvo4BLk4T8-YuopC2cTQcu8xY&fn=external_8"
+    },
+    {
+      "video_id": "1466897205833",
+      "title_raw": "28 La mascota triunfadora_x264",
+      "duration_raw": "06:45",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 546,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1022067411578&type=32&idx=0&tkn=_L70eygQkkPXv2umDgxFJQCQ9xs&fn=external_8"
+    },
+    {
+      "video_id": "1414764563017",
+      "title_raw": "29 El gorila volador",
+      "duration_raw": "06:46",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 445,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=598978923081&type=32&idx=9&tkn=XuUVfmdwNlyVEMBgzPunG-LoyX4&fn=external_8"
+    },
+    {
+      "video_id": "1414764759625",
+      "title_raw": "30 El gorila buceador",
+      "duration_raw": "06:46",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 460,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=598981347913&type=32&idx=1&tkn=-fwawsfqVvEtAEnrZGTeW34y1L8&fn=external_8"
+    },
+    {
+      "video_id": "1466897140297",
+      "title_raw": "31 El mensajero_x264",
+      "duration_raw": "06:46",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 664,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4144997075576&type=32&idx=5&tkn=VMVjc3XEnE859uIv8YJhyWh5ajM&fn=external_8"
+    }
+  ]
+}

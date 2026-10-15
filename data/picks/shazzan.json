@@ -1,0 +1,178 @@
+{
+  "title": "Shazzan",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c55836233",
+  "year": "1967",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "720p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Aventura",
+  "videos": [
+    {
+      "video_id": "13775938521673",
+      "title_raw": "001",
+      "duration_raw": "20:55",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 151,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=14453198031433&type=37&idx=1&tkn=7ZcCCxn-hUkA7ncfCy79z9ig-v0&fn=external_8"
+    },
+    {
+      "video_id": "13775940225609",
+      "title_raw": "002",
+      "duration_raw": "20:26",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 213,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=14453963491913&type=37&idx=2&tkn=-Qxhg_NjttPJXW4-UAor26oYNfE&fn=external_8"
+    },
+    {
+      "video_id": "13775940356681",
+      "title_raw": "003",
+      "duration_raw": "20:09",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 259,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=14454038530633&type=37&idx=2&tkn=xThJuY3NVplIqDTCMFflAt8eajY&fn=external_8"
+    },
+    {
+      "video_id": "13775939766857",
+      "title_raw": "004",
+      "duration_raw": "20:35",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 347,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=14453778745929&type=37&idx=2&tkn=g4WaKmrlXb0BsAHNYE_XrzeBGtQ&fn=external_8"
+    },
+    {
+      "video_id": "13775939439177",
+      "title_raw": "005",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 310,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=14453561756233&type=37&idx=3&tkn=m2PTEFP1JRIB9CjsUFW5gweTetE&fn=external_8"
+    },
+    {
+      "video_id": "13775938718281",
+      "title_raw": "006",
+      "duration_raw": "20:34",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 862,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=14453294565961&type=37&idx=2&tkn=XtptYi_0uJURYBixRkc31iXEEEQ&fn=external_8"
+    },
+    {
+      "video_id": "13775939111497",
+      "title_raw": "007",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 163,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=14453434550857&type=37&idx=1&tkn=HySDJWOn94Ny03Cij8OyxpDhgnA&fn=external_8"
+    },
+    {
+      "video_id": "13775940094537",
+      "title_raw": "008",
+      "duration_raw": "20:27",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 239,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=14453900315209&type=37&idx=1&tkn=cuvk821DgusEvFRw3LmLLqLv-To&fn=external_8"
+    },
+    {
+      "video_id": "13775939897929",
+      "title_raw": "009",
+      "duration_raw": "21:33",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 205,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=14453843167817&type=37&idx=1&tkn=cW-8LuvYyQi70ItEiXFhfFGTFHI&fn=external_8"
+    },
+    {
+      "video_id": "13775939242569",
+      "title_raw": "010",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 462,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=14453512538697&type=37&idx=1&tkn=ghTj4ink_6eoEXphF5Bp1iPDMO0&fn=external_8"
+    },
+    {
+      "video_id": "13775939701321",
+      "title_raw": "011",
+      "duration_raw": "21:24",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 328,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=14453717731913&type=37&idx=2&tkn=U-JagcxMCDhP-iF4K3WRQV0jK1M&fn=external_8"
+    },
+    {
+      "video_id": "13775939635785",
+      "title_raw": "012",
+      "duration_raw": "21:29",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 190,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=14453667924553&type=37&idx=3&tkn=CFxup4Pz2TaKwRkvPLScj8SXDUE&fn=external_8"
+    },
+    {
+      "video_id": "13775938587209",
+      "title_raw": "013",
+      "duration_raw": "21:25",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 157,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=14453247576649&type=37&idx=3&tkn=1jgGIoNF0AxZb9nfNtuj_1m5jKE&fn=external_8"
+    },
+    {
+      "video_id": "13775938456137",
+      "title_raw": "014",
+      "duration_raw": "21:19",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 246,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=14453155433033&type=37&idx=3&tkn=nBjC-5Dukwd8kJk05mLUuLwvpCQ&fn=external_8"
+    },
+    {
+      "video_id": "13775939504713",
+      "title_raw": "015",
+      "duration_raw": "20:56",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 161,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=14453631617609&type=37&idx=3&tkn=OGjPJbYTi4Wu-Wcm3d-_N0sztIQ&fn=external_8"
+    },
+    {
+      "video_id": "13775939177033",
+      "title_raw": "016",
+      "duration_raw": "21:30",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 381,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=14453468695113&type=37&idx=2&tkn=xGFubMMripKApZpGnNkJ5C74zmM&fn=external_8"
+    },
+    {
+      "video_id": "13775938849353",
+      "title_raw": "017",
+      "duration_raw": "21:25",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 282,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=14453344307785&type=37&idx=3&tkn=MjcKHx57O2mGi_mrrfJTDFyPV3g&fn=external_8"
+    },
+    {
+      "video_id": "13775939045961",
+      "title_raw": "018",
+      "duration_raw": "21:29",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 166,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=14453383891529&type=37&idx=3&tkn=az3trLM8Tn7G-Q4Nuk9BuowWHPE&fn=external_8"
+    }
+  ]
+}

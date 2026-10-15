@@ -1,0 +1,250 @@
+{
+  "title": "Pelswick",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c5901129",
+  "year": "2000",
+  "studio": "Nickelodeon",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "3343920007753",
+      "title_raw": "S01-E01 - Los Derechos Del Rodante_x264",
+      "duration_raw": "23:35",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 2579,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2095583005257&type=32&idx=13&tkn=EkO2Xpbjc5iI78QHgRhKFY603xk&fn=external_8"
+    },
+    {
+      "video_id": "3343919352393",
+      "title_raw": "S01-E02 - No Correré, No Me Pregunt_x264",
+      "duration_raw": "23:35",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 517,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2095491123785&type=32&idx=10&tkn=yUUNQah6PqBADJeMzlmWzbX6p10&fn=external_8"
+    },
+    {
+      "video_id": "3343920728649",
+      "title_raw": "S01-E03 - ¡Dibuja_x264",
+      "duration_raw": "23:35",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 391,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2095688976969&type=32&idx=13&tkn=2ABsGOq7BXFyhZ5qrYlZaYsJS0c&fn=external_8"
+    },
+    {
+      "video_id": "3343919417929",
+      "title_raw": "S01-E04 - Los Sorbe Cerebros_x264",
+      "duration_raw": "23:35",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 295,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2095501281865&type=32&idx=5&tkn=nlcnsj8tlD0yYFSvADEMS1avDf4&fn=external_8"
+    },
+    {
+      "video_id": "3343919614537",
+      "title_raw": "S01-E05 - Yo, Yo Mismo Y La Ira_x264",
+      "duration_raw": "23:35",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 258,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2095532935753&type=32&idx=10&tkn=ICB9l3MOfrnABoSW7I4YBPZ_bD0&fn=external_8"
+    },
+    {
+      "video_id": "3343919745609",
+      "title_raw": "S01-E06 - Asalto Y Agresión_x264",
+      "duration_raw": "23:35",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 190,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2095554628169&type=32&idx=7&tkn=CJrcdVffP9t0TNPUqrafaaRW7yw&fn=external_8"
+    },
+    {
+      "video_id": "3343919680073",
+      "title_raw": "S01-E07 - N'Talentosos_x264",
+      "duration_raw": "23:35",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 237,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2095542438473&type=32&idx=1&tkn=g_Pt8FiYeWJ4yDEHYCvaPjD3wow&fn=external_8"
+    },
+    {
+      "video_id": "3343919549001",
+      "title_raw": "S01-E08 - El Mundo Rodante_x264",
+      "duration_raw": "23:35",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 224,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2095522187849&type=32&idx=4&tkn=Bgo4SW0SeQsRqoGtv7H3_A8pG44&fn=external_8"
+    },
+    {
+      "video_id": "3343920663113",
+      "title_raw": "S01-E09 - David Y Goonliathi_x264",
+      "duration_raw": "23:35",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 221,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2095682161225&type=32&idx=10&tkn=_MIDOd2jATL0ctTmaxeaRZV5tgw&fn=external_8"
+    },
+    {
+      "video_id": "3343920925257",
+      "title_raw": "S01-E10 - Pestañea Y Estarás_x264",
+      "duration_raw": "23:35",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 185,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2095709293129&type=32&idx=11&tkn=vRoGN-ZtPWRe7lPqwa_4d-rpH9U&fn=external_8"
+    },
+    {
+      "video_id": "3343920859721",
+      "title_raw": "S01-E11 - Sola en El Asilo_x264",
+      "duration_raw": "23:35",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 152,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2095704640073&type=32&idx=13&tkn=1xxwMnbWH5lT5ikU8Ei13WKRqg0&fn=external_8"
+    },
+    {
+      "video_id": "3343920400969",
+      "title_raw": "S01-E12 - Primaveras Aburridas_x264",
+      "duration_raw": "23:35",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 169,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2095644150345&type=32&idx=11&tkn=nfJK6rzCeKNLJBiXIunCpAvvNnc&fn=external_8"
+    },
+    {
+      "video_id": "3343920466505",
+      "title_raw": "S01-E13 - Transmisión Imposible_x264",
+      "duration_raw": "23:35",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 151,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2095652735561&type=32&idx=7&tkn=ZNAb9D0szJpcul2e5zU7LTD3dF0&fn=external_8"
+    },
+    {
+      "video_id": "3343920269897",
+      "title_raw": "Watch Pelswick (Español) S02-E01 - Wheeldini_x264",
+      "duration_raw": "23:35",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 144,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2095624030793&type=32&idx=11&tkn=SiEKYUfgCSTiNrIVKtG8UdSNUOo&fn=external_8"
+    },
+    {
+      "video_id": "3343920335433",
+      "title_raw": "Watch Pelswick (Español) S02-E02 - Eggert-Gedón_x264",
+      "duration_raw": "23:35",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 145,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2095635040841&type=32&idx=2&tkn=yISqPECA6LewEmeIpbFSgX7nYLY&fn=external_8"
+    },
+    {
+      "video_id": "3343920073289",
+      "title_raw": "Watch Pelswick (Español) S02-E03 - El Chico Pájaro De Alcatr_x264",
+      "duration_raw": "23:35",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 150,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2095593294409&type=32&idx=14&tkn=BZ8EhsyqisUQhec1fc-v_LwH2Uw&fn=external_8"
+    },
+    {
+      "video_id": "3343919876681",
+      "title_raw": "Watch Pelswick (Español) S02-E04 - Deben Ser Los Zapatos_x264",
+      "duration_raw": "23:35",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 150,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2095565572681&type=32&idx=14&tkn=pp0PDHjVGOUo6xt3a_YUNT3QK8Y&fn=external_8"
+    },
+    {
+      "video_id": "3343921056329",
+      "title_raw": "Watch Pelswick (Español) S02-E05 - Pelswick en Una Cuerda_x264",
+      "duration_raw": "23:35",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 182,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2095727184457&type=32&idx=1&tkn=ueNb7usV5hWtydiAW5kqj-jb-CI&fn=external_8"
+    },
+    {
+      "video_id": "3343920794185",
+      "title_raw": "Watch Pelswick (Español) S02-E06 - Invasión De Zombies_x264",
+      "duration_raw": "23:35",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 159,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2095696251465&type=32&idx=12&tkn=VRXlFv2BRQmN1iSPZHaHoOv42Ew&fn=external_8"
+    },
+    {
+      "video_id": "3343920204361",
+      "title_raw": "Watch Pelswick (Español) S02-E07 - Boyd, Aquí Viene El Diluv Free_x264",
+      "duration_raw": "23:35",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 131,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2095614724681&type=32&idx=12&tkn=V48kdEsOUpxMptFOSXPBsrUUYfI&fn=external_8"
+    },
+    {
+      "video_id": "3343920138825",
+      "title_raw": "Watch Pelswick (Español) S02-E08 - -¿Villana O Escrupulosa_x264",
+      "duration_raw": "23:36",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 141,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2095603976777&type=32&idx=4&tkn=eyCoD05Ny-5IwvZmCdjphNM4Pls&fn=external_8"
+    },
+    {
+      "video_id": "3343920597577",
+      "title_raw": "Watch Pelswick (Español) S02-E09 - El Caso De Los Archivos H Free_x264",
+      "duration_raw": "23:35",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 143,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2095674952265&type=32&idx=5&tkn=yD2QIUgwF5PPUZjoM170uybP4cA&fn=external_8"
+    },
+    {
+      "video_id": "3343919483465",
+      "title_raw": "Watch Pelswick (Español) S02-E10 - Un Rap Controversial_x264",
+      "duration_raw": "23:35",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 149,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2095512422985&type=32&idx=14&tkn=qknw-d_sgTMNQdltRw52IXIfFi4&fn=external_8"
+    },
+    {
+      "video_id": "3343920990793",
+      "title_raw": "Watch Pelswick (Español) S02-E11 - Patéame, Kate Free_x264",
+      "duration_raw": "23:35",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 128,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2095718206025&type=32&idx=11&tkn=8dmv-05OtykX4R5XNsn_dxHygdE&fn=external_8"
+    },
+    {
+      "video_id": "3343919942217",
+      "title_raw": "Watch Pelswick (Español) S02-E12 - ¿Debemos Bailar_x264",
+      "duration_raw": "23:35",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 124,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2095573830217&type=32&idx=2&tkn=L1vT8KcJd0-3Q8sNm2hZuZiHNbI&fn=external_8"
+    },
+    {
+      "video_id": "3343920532041",
+      "title_raw": "Watch Pelswick (Español) S02-E13 - Oh, Malvado ¿Dónde Estás_x264",
+      "duration_raw": "23:35",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 184,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2095665515081&type=32&idx=12&tkn=4sCoo96kdRsNGtOSP2yg9_CjYDU&fn=external_8"
+    }
+  ]
+}

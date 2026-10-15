@@ -1,0 +1,124 @@
+{
+  "title": "RoboCop: La Serie Animada",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2202953",
+  "year": "1988",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "1368784243273",
+      "title_raw": "01_x264",
+      "duration_raw": "21:24",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 19759,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=590801996361&type=32&idx=12&tkn=sVnWn2LB_9uWVRGyVFjBZUH3R3k&fn=external_8"
+    },
+    {
+      "video_id": "1368783915593",
+      "title_raw": "02_x264",
+      "duration_raw": "21:24",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 3435,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=590797736521&type=32&idx=4&tkn=SX4OXmWI-lEW2c6HOOmWik0tTQg&fn=external_8"
+    },
+    {
+      "video_id": "1368784636489",
+      "title_raw": "03_x264",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 2149,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=590805273161&type=32&idx=7&tkn=-E6jSmeeOEaCHM0BgQkWlI7mdAk&fn=external_8"
+    },
+    {
+      "video_id": "1368784177737",
+      "title_raw": "04_x264",
+      "duration_raw": "21:22",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1495,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=590799243849&type=32&idx=13&tkn=dlLAkaThphyX3hpS0ue8akx_y3A&fn=external_8"
+    },
+    {
+      "video_id": "1368784308809",
+      "title_raw": "05_x264",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1603,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=590802192969&type=32&idx=2&tkn=OGKbvfUvPIh3xm5xDLFeqUnVLt4&fn=external_8"
+    },
+    {
+      "video_id": "1368784439881",
+      "title_raw": "06_x264",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 1238,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=590802913865&type=32&idx=5&tkn=2t6u4PnqzAKqUe5JUswwQecg1PQ&fn=external_8"
+    },
+    {
+      "video_id": "1368783981129",
+      "title_raw": "07_x264",
+      "duration_raw": "21:25",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1112,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=590798129737&type=32&idx=8&tkn=1vLg2JITALCmIz0M_M8HDd6dbxQ&fn=external_8"
+    },
+    {
+      "video_id": "1368784046665",
+      "title_raw": "08_x264",
+      "duration_raw": "21:04",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1005,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=590798457417&type=32&idx=0&tkn=wKVsDTC8q03rxhBn210AGO1QAOQ&fn=external_8"
+    },
+    {
+      "video_id": "1368784374345",
+      "title_raw": "09_x264",
+      "duration_raw": "21:07",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 966,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=590802651721&type=32&idx=3&tkn=wyjjU1kL9yE4B1g8crjXMu99Q9E&fn=external_8"
+    },
+    {
+      "video_id": "1368784112201",
+      "title_raw": "10_x264",
+      "duration_raw": "21:07",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 994,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=590798588489&type=32&idx=13&tkn=rEQxbnKPwj2oz78lolE5KS4TJYE&fn=external_8"
+    },
+    {
+      "video_id": "1368784570953",
+      "title_raw": "11_x264",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 866,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=590804093513&type=32&idx=11&tkn=t3yXZnznApCOYZuZRqRJot9Bdcg&fn=external_8"
+    },
+    {
+      "video_id": "1368784505417",
+      "title_raw": "12_x264",
+      "duration_raw": "21:06",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 1305,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=590803241545&type=32&idx=0&tkn=q6_KZrsy8h1CMmHSPQS4wYeJKno&fn=external_8"
+    }
+  ]
+}

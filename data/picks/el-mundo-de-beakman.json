@@ -1,0 +1,835 @@
+{
+  "title": "El Mundo de Beakman",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2151241",
+  "year": "1992",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Documental",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "1352362887753",
+      "title_raw": "S01E01 Beakman - Lluvia, Beakmanía Y Volcanes",
+      "duration_raw": "21:05",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 55400,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3933476096711&type=32&idx=7&tkn=kZZe6WQTn2NKxDp3BdFZS8JvlGM&fn=external_8"
+    },
+    {
+      "video_id": "1352363477577",
+      "title_raw": "S01E02 Beakman - Gravedad, Beakmanía E Inercia",
+      "duration_raw": "21:04",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 14990,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3933470198471&type=32&idx=2&tkn=E89odFBw8PotzNv-9khOaClwSdg&fn=external_8"
+    },
+    {
+      "video_id": "1352362297929",
+      "title_raw": "S01E03 Beakman - Ruidos Nocturnos, Beakmanía Y La Nariz",
+      "duration_raw": "21:04",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 9148,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3933472033479&type=32&idx=6&tkn=d2Eg9j4_BIprSAQYpEnAmMF3_Rw&fn=external_8"
+    },
+    {
+      "video_id": "1352361314889",
+      "title_raw": "S01E04 Beakman - Sangre, Beakmanía Y Los Sueños",
+      "duration_raw": "21:05",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 8100,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3933534489287&type=32&idx=15&tkn=R0A5qoWJ2fIKFce7ckX_PB7Qz0E&fn=external_8"
+    },
+    {
+      "video_id": "1352363543113",
+      "title_raw": "S01E05 Beakman - Hojas, Beakmanía y Papel",
+      "duration_raw": "21:05",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 5760,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3933508799175&type=32&idx=4&tkn=ULJfQ8fPMlwx54AnUSHPNdRYH90&fn=external_8"
+    },
+    {
+      "video_id": "1352362166857",
+      "title_raw": "S01E06 Beakman - Jabón, Beakmanía y Motores",
+      "duration_raw": "21:04",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 5636,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3933475048135&type=32&idx=1&tkn=s059RU250qc2Fj6gH04hkqCk4lQ&fn=external_8"
+    },
+    {
+      "video_id": "1352363805257",
+      "title_raw": "S01E07 Beakman - Electricidad, Beakmanía y Bombillas",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 5612,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3933531409095&type=32&idx=1&tkn=-DIffd6DZeO1Pd5w3AJVJGSxh4s&fn=external_8"
+    },
+    {
+      "video_id": "1352363149897",
+      "title_raw": "S01E08 Beakman - Sonido, Beakmanía y Explosiones",
+      "duration_raw": "21:19",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 4266,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3933477276359&type=32&idx=13&tkn=7NdeOXanX9VsfYpu7zU8urzypdI&fn=external_8"
+    },
+    {
+      "video_id": "1352361839177",
+      "title_raw": "S01E09 Beakman - Refracción, Beakmanía y Magnetos",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 3984,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3933478718151&type=32&idx=1&tkn=Ar6Qtx1a8pJpTclALdWPeeo2SRw&fn=external_8"
+    },
+    {
+      "video_id": "1352363346505",
+      "title_raw": "S01E10 Beakman - Palancas, Beakmanía y Televisión",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 3571,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3933533309639&type=32&idx=9&tkn=6phPXLzkSmgEInKln7PUk_dN1Zs&fn=external_8"
+    },
+    {
+      "video_id": "1352363412041",
+      "title_raw": "S01E11 Beakman - Barcos, Beakmanía y Aviones",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 3369,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3933482715847&type=32&idx=13&tkn=RP6QlfMNn9LkjRatx8lUmv6bZWs&fn=external_8"
+    },
+    {
+      "video_id": "1352364395081",
+      "title_raw": "S01E12 Beakman - Burbujas, Beakmanía y los Pies",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 2826,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3933500934855&type=32&idx=11&tkn=ReOwhONFIy7BJY9P2Y86yjoIeJk&fn=external_8"
+    },
+    {
+      "video_id": "1352361380425",
+      "title_raw": "S01E13 Beakman - Microscopio, Beakmanía y Cicatrización",
+      "duration_raw": "21:06",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 2915,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3933532326599&type=32&idx=15&tkn=8zYkFmZ5LXz5Eo6-4S1UYz880Uk&fn=external_8"
+    },
+    {
+      "video_id": "1352361511497",
+      "title_raw": "S01E14 Beakman - El Método Científico, Beakmanía y el Arcoíris",
+      "duration_raw": "21:02",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 3208,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3933486516935&type=32&idx=4&tkn=EBSixiAOoVN131T2Rnand2hwg5g&fn=external_8"
+    },
+    {
+      "video_id": "1352361445961",
+      "title_raw": "S01E15 Beakman - Vacunas, Beakmanía y Fricción",
+      "duration_raw": "21:06",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 2685,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3933506964167&type=32&idx=15&tkn=VHWf7732rtImsdBxWd4dRi4dZqY&fn=external_8"
+    },
+    {
+      "video_id": "1352362232393",
+      "title_raw": "S01E16 Beakman - Termodinámica, Beakmanía y Espinillas",
+      "duration_raw": "21:05",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 2709,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3933488483015&type=32&idx=8&tkn=C6cInjbzx_ffIYfJ8EN1Mf4OZS8&fn=external_8"
+    },
+    {
+      "video_id": "1352363018825",
+      "title_raw": "S01E17 Beakman - Fósiles, Beakmanía y la Voz Humana",
+      "duration_raw": "21:06",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 2409,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3933504867015&type=32&idx=14&tkn=ujU-NCUhD4zKNL0KrT4ADDAe3vU&fn=external_8"
+    },
+    {
+      "video_id": "1352364067401",
+      "title_raw": "S01E18 Beakman - Los Pulmones, Beakmanía y los Teléfonos",
+      "duration_raw": "21:06",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 2314,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3933490121415&type=32&idx=4&tkn=biXR-8G8g9-2CtNPEW2e3rE5GCk&fn=external_8"
+    },
+    {
+      "video_id": "1352362953289",
+      "title_raw": "S01E19 Beakman - Grabación de cintas, Beakmanía, fuerza y presión",
+      "duration_raw": "21:06",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 2085,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3933496019655&type=32&idx=10&tkn=M-79Awm7-q_FG1EpdX7C65QkkKM&fn=external_8"
+    },
+    {
+      "video_id": "1352363739721",
+      "title_raw": "S01E20 Beakman - Las Microondas, Beakmanía y la Arañas",
+      "duration_raw": "21:00",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 2041,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3933498182343&type=32&idx=12&tkn=gMTq-pztgDtDFCs4x2UEDtArYPA&fn=external_8"
+    },
+    {
+      "video_id": "1352361642569",
+      "title_raw": "S01E21 Beakman - Cerumen, Beakmanía y Cohetes",
+      "duration_raw": "21:07",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 1717,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3933505784519&type=32&idx=3&tkn=GrGHlpUW9o_gVl8O_s-wCq96zCM&fn=external_8"
+    },
+    {
+      "video_id": "1352362756681",
+      "title_raw": "S01E22 Beakman - El Ozono, Beakmanía y los Ácidos",
+      "duration_raw": "21:07",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 1809,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3933491890887&type=32&idx=15&tkn=MNEGRHRgOWjpXRjdPFN1jqY9Tww&fn=external_8"
+    },
+    {
+      "video_id": "1352362494537",
+      "title_raw": "S01E23 Beakman - Fontaneria, Beakmanía y Montañas",
+      "duration_raw": "21:07",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 1732,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3933500279495&type=32&idx=8&tkn=sd6prNSYt_jTWkSe0-XqSIvt2G8&fn=external_8"
+    },
+    {
+      "video_id": "1352363280969",
+      "title_raw": "S01E24 Beakman - Abejas, Beakmanía y Temblores",
+      "duration_raw": "21:06",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 1755,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3933496478407&type=32&idx=8&tkn=3srYN5XYS4Y7-1lSNZGwHjkuY4U&fn=external_8"
+    },
+    {
+      "video_id": "1352362429001",
+      "title_raw": "S01E25 Beakman - Reflexión, Beakmania y Madame Curie",
+      "duration_raw": "21:05",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 1646,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3933547989703&type=32&idx=14&tkn=F8F7csHUt2vndA7UP63MyLEoUQY&fn=external_8"
+    },
+    {
+      "video_id": "1352364132937",
+      "title_raw": "S01E26 Beakman - La Rueda, Beakmanía y buscando respuestas",
+      "duration_raw": "21:05",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 1760,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3933493070535&type=32&idx=14&tkn=D5j3YZ5d7K7LBgltTiOE_q0NT38&fn=external_8"
+    },
+    {
+      "video_id": "1352363870793",
+      "title_raw": "S02E01 Beakman - Submarinos, Beakmanía y Digestión",
+      "duration_raw": "21:27",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 3615,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4636006877895&type=32&idx=3&tkn=TA2t120s_isUiEi7GlQ19sFbH0I&fn=external_8"
+    },
+    {
+      "video_id": "1352362560073",
+      "title_raw": "S02E02 Beakman - Corazón, Beakmanía y Helicópteros",
+      "duration_raw": "21:26",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 2715,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4636058127047&type=32&idx=8&tkn=-BKAVR3UvJYhL4n6RTcOTCRcP_o&fn=external_8"
+    },
+    {
+      "video_id": "1352361577033",
+      "title_raw": "S02E03 Beakman - Las Baterías, Beakmanía y los Globos",
+      "duration_raw": "21:27",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 2512,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4636062452423&type=32&idx=9&tkn=92JPb_1GLPMa4cYxVjJB_oH7K1I&fn=external_8"
+    },
+    {
+      "video_id": "1352361904713",
+      "title_raw": "S02E04 Beakman - Túneles, Beakmanía y Trenes",
+      "duration_raw": "21:24",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 1932,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4636068088519&type=32&idx=9&tkn=sR69t5uWSjWBt_1fcLVn3J-I70Y&fn=external_8"
+    },
+    {
+      "video_id": "1352363608649",
+      "title_raw": "S02E05 Beakman - Murciélagos, Beakmanía y Energía",
+      "duration_raw": "21:30",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 1934,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4636070906567&type=32&idx=8&tkn=GW3ysHYW-jRrv6LLcQsmjFSOSmo&fn=external_8"
+    },
+    {
+      "video_id": "1352363084361",
+      "title_raw": "S02E06 Beakman - Cielo, Beakmanía y Henry Ford",
+      "duration_raw": "21:26",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 1854,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4636075166407&type=32&idx=9&tkn=NslbnK_YnJrRn79fdv7jfIMuia8&fn=external_8"
+    },
+    {
+      "video_id": "1352364329545",
+      "title_raw": "S02E07 Beakman - Sonido, Beakmanía e Ilusiones",
+      "duration_raw": "21:27",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 1839,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4636081982151&type=32&idx=3&tkn=uv7pARoanatJCGFIgZ9xN6vLWFU&fn=external_8"
+    },
+    {
+      "video_id": "1352362822217",
+      "title_raw": "S02E08 Beakman - Relampagos, Beakmanía y los Huesos",
+      "duration_raw": "21:30",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 1685,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4636092271303&type=32&idx=4&tkn=s70y4GvhQmzpZyHSfI853BrTKYc&fn=external_8"
+    },
+    {
+      "video_id": "1352362691145",
+      "title_raw": "S02E09 Beakman - La Luna, Beakmanía y los Ascensores",
+      "duration_raw": "21:26",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 1695,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4636099152583&type=32&idx=10&tkn=Kc4gBylDV0ap8rtVm_EMzWIsK3M&fn=external_8"
+    },
+    {
+      "video_id": "1352364001865",
+      "title_raw": "S02E10 Beakman - Videojuegos, Beakmanía y los Dientes",
+      "duration_raw": "21:27",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 2101,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4636121107143&type=32&idx=1&tkn=eBFGVP8KB4akuyBMpGjfcYOSJ1o&fn=external_8"
+    },
+    {
+      "video_id": "1352361708105",
+      "title_raw": "S02E11 Beakman - Revisiones médicas, Beakmanía y Petróleo",
+      "duration_raw": "21:29",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 1358,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4636133034695&type=32&idx=12&tkn=XODoqyep9MQQ6NO007iP1Lkscng&fn=external_8"
+    },
+    {
+      "video_id": "1352362035785",
+      "title_raw": "S02E12 Beakman - Benjamín Franklin, Beakmanía y Reacción Química",
+      "duration_raw": "21:27",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 1478,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4636142734023&type=32&idx=10&tkn=H30I2nxkccIpwNm9TsWd_MHfkEs&fn=external_8"
+    },
+    {
+      "video_id": "1352362625609",
+      "title_raw": "S02E13 Beakman - Las Hormigas, Beakmanía y Colisiones",
+      "duration_raw": "21:53",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 1279,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4636153350855&type=32&idx=14&tkn=rO6j2Bur62x4Hl39M9GYyjz_3-k&fn=external_8"
+    },
+    {
+      "video_id": "1352364198473",
+      "title_raw": "S02E14 Beakman - El Dolor, Beakmanía y Cometas",
+      "duration_raw": "21:30",
+      "season_number": 2,
+      "episode_number": 14,
+      "views": 1337,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4636015725255&type=32&idx=1&tkn=dch0iXulxfR9eTJno426yLFOlxw&fn=external_8"
+    },
+    {
+      "video_id": "1352363674185",
+      "title_raw": "S02E15 Beakman - Hidraulica, Beakmanía y los Dinosaurios",
+      "duration_raw": "21:27",
+      "season_number": 2,
+      "episode_number": 15,
+      "views": 1402,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4636018608839&type=32&idx=14&tkn=lMM9oRqdAwOe2_LX3lzhhVNpf0M&fn=external_8"
+    },
+    {
+      "video_id": "1352362363465",
+      "title_raw": "S02E16 Beakman - Motores Eléctricos, Beakmanía y Tiempo",
+      "duration_raw": "21:32",
+      "season_number": 2,
+      "episode_number": 16,
+      "views": 1590,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4636022934215&type=32&idx=4&tkn=VWYWLAFgG7SQAuf2W_n0Rba4Uyk&fn=external_8"
+    },
+    {
+      "video_id": "1352361970249",
+      "title_raw": "S02E17 Beakman - Ranas y Sapos, Beakmanía y Polímeros",
+      "duration_raw": "21:27",
+      "season_number": 2,
+      "episode_number": 17,
+      "views": 1173,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4636026276551&type=32&idx=8&tkn=Q43HoPIDfFf3JK3cgXQ8N8Bz65Q&fn=external_8"
+    },
+    {
+      "video_id": "1352364264009",
+      "title_raw": "S02E18 Beakman - Dinero, Beakmanía e Hidroelectricidad",
+      "duration_raw": "21:27",
+      "season_number": 2,
+      "episode_number": 18,
+      "views": 1197,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4636028635847&type=32&idx=2&tkn=JbHIjwxDz45HRy1I8e5dpu9FeYo&fn=external_8"
+    },
+    {
+      "video_id": "1352364460617",
+      "title_raw": "S02E19 Beakman - Basura, Beakmanía y Meteorología",
+      "duration_raw": "21:23",
+      "season_number": 2,
+      "episode_number": 19,
+      "views": 1023,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4636032109255&type=32&idx=7&tkn=FoXVlbUPf3fkxo4t9TWAIzAwyC8&fn=external_8"
+    },
+    {
+      "video_id": "1352363215433",
+      "title_raw": "S02E20 Beakman - Rascacielos, Beakmanía e Indicadores",
+      "duration_raw": "21:27",
+      "season_number": 2,
+      "episode_number": 20,
+      "views": 1045,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4636035910343&type=32&idx=11&tkn=ouk384OZ8wlqljKDKMThcT5pq-M&fn=external_8"
+    },
+    {
+      "video_id": "1352364591689",
+      "title_raw": "S02E21 Beakman - Tiburones, Beakmanía y Einstein",
+      "duration_raw": "21:26",
+      "season_number": 2,
+      "episode_number": 21,
+      "views": 1110,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4636042136263&type=32&idx=2&tkn=NWhlj1oZUlsrnUgDUpWgpBn4RNg&fn=external_8"
+    },
+    {
+      "video_id": "1352364526153",
+      "title_raw": "S02E22 Beakman - El Moho, Beakmanía y las Cuevas",
+      "duration_raw": "21:27",
+      "season_number": 2,
+      "episode_number": 22,
+      "views": 1076,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4636044692167&type=32&idx=2&tkn=KmELuGN6goPCr4HUWZSdh1QPtZo&fn=external_8"
+    },
+    {
+      "video_id": "1352363936329",
+      "title_raw": "S02E23 Beakman - El Ímpetu, Beakmanía y las Vacas",
+      "duration_raw": "21:27",
+      "season_number": 2,
+      "episode_number": 23,
+      "views": 998,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4636048689863&type=32&idx=3&tkn=_evihXWmqhQbkaLprbEw_mWrYtQ&fn=external_8"
+    },
+    {
+      "video_id": "1352361773641",
+      "title_raw": "S02E24 Beakman - Alergias, Beakmanía y Claves",
+      "duration_raw": "21:27",
+      "season_number": 2,
+      "episode_number": 24,
+      "views": 1031,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4636053473991&type=32&idx=8&tkn=CM7hW_6ZdFdzZFahUf_69BvWNUI&fn=external_8"
+    },
+    {
+      "video_id": "1352476527177",
+      "title_raw": "S02E25 Beakman - Serpientes, Beakmanía y las Estaciones",
+      "duration_raw": "21:26",
+      "season_number": 2,
+      "episode_number": 25,
+      "views": 1053,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4636157414087&type=32&idx=14&tkn=za06jcftmzb_Obo7lq5iUWVo_d8&fn=external_8"
+    },
+    {
+      "video_id": "1352476133961",
+      "title_raw": "S02E26 Beakman - Tornados, Beakmanía y los Bomberos",
+      "duration_raw": "21:27",
+      "season_number": 2,
+      "episode_number": 26,
+      "views": 1116,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584921713225&type=32&idx=0&tkn=kXWdwkH6gyQE2tqZPgsYjCaq4Us&fn=external_8"
+    },
+    {
+      "video_id": "1352476789321",
+      "title_raw": "S03E01 Beakman - Semillas, Beakmanía y Puentes",
+      "duration_raw": "21:26",
+      "season_number": 3,
+      "episode_number": 1,
+      "views": 2015,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341306837638&type=32&idx=0&tkn=Mk0E3dORBDeTuIrPQAlUWyObYYk&fn=external_8"
+    },
+    {
+      "video_id": "1352475806281",
+      "title_raw": "S03E02 Beakman - Equilibrio, Beakmanía y Camuflaje",
+      "duration_raw": "21:26",
+      "season_number": 3,
+      "episode_number": 2,
+      "views": 1492,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341305592454&type=32&idx=3&tkn=nPYwOoYdUyEc4UA4Wr72Q4dwGvY&fn=external_8"
+    },
+    {
+      "video_id": "1352476854857",
+      "title_raw": "S03E03 Beakman - Carbón, Beakmanía e Inventos",
+      "duration_raw": "21:26",
+      "season_number": 3,
+      "episode_number": 3,
+      "views": 1850,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584939604553&type=32&idx=11&tkn=fiPUTZleWyZwKXpY8_UM7UvPK1o&fn=external_8"
+    },
+    {
+      "video_id": "1352475871817",
+      "title_raw": "S03E04 Beakman - Giroscopios, Beakmanía y el Corazón",
+      "duration_raw": "21:26",
+      "season_number": 3,
+      "episode_number": 4,
+      "views": 1332,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341380237958&type=32&idx=7&tkn=jiqd9S-_Hc2B0scymeDvM_eHYnk&fn=external_8"
+    },
+    {
+      "video_id": "1352474298953",
+      "title_raw": "S03E05 Beakman - Acero, Beakmanía y Revelado Fotográfico",
+      "duration_raw": "21:25",
+      "season_number": 3,
+      "episode_number": 5,
+      "views": 1338,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341381286534&type=32&idx=9&tkn=L-fY7yO9GwNmpxwUU9ZzGM3d4Dc&fn=external_8"
+    },
+    {
+      "video_id": "1352475544137",
+      "title_raw": "S03E06 Beakman - Sol, Beakmanía y Metamorfosis",
+      "duration_raw": "21:26",
+      "season_number": 3,
+      "episode_number": 6,
+      "views": 1288,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341382793862&type=32&idx=0&tkn=_8HHBoLm6tGE52q7hKu1wlOewhc&fn=external_8"
+    },
+    {
+      "video_id": "1352476002889",
+      "title_raw": "S03E07 Beakman - Aspiradoras, Beakmanía y Entelar",
+      "duration_raw": "21:26",
+      "season_number": 3,
+      "episode_number": 7,
+      "views": 1121,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341382269574&type=32&idx=5&tkn=vYhfBtfd6J16GICOHPD2-_COmhQ&fn=external_8"
+    },
+    {
+      "video_id": "1352475216457",
+      "title_raw": "S03E08 Beakman - Nieve, Beakmanía y Selección Natural",
+      "duration_raw": "21:25",
+      "season_number": 3,
+      "episode_number": 8,
+      "views": 1127,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341381679750&type=32&idx=0&tkn=fpkPm9n4CiERVsLIkXmFhOHbf6k&fn=external_8"
+    },
+    {
+      "video_id": "1352476723785",
+      "title_raw": "S03E09 Beakman - Caimanes y Cocodrilos, Beakmanía y Robots",
+      "duration_raw": "21:26",
+      "season_number": 3,
+      "episode_number": 9,
+      "views": 1143,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584936720969&type=32&idx=11&tkn=p7qW5RZX0EwyVJVJrMAKdPmOGvQ&fn=external_8"
+    },
+    {
+      "video_id": "1352474167881",
+      "title_raw": "S03E10 Beakman - Géiseres y Termas, Beakmanía y Riñones",
+      "duration_raw": "21:25",
+      "season_number": 3,
+      "episode_number": 10,
+      "views": 1058,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341637401222&type=32&idx=10&tkn=8-1XHFTPh7jReutqZ551Ol5791g&fn=external_8"
+    },
+    {
+      "video_id": "1352475085385",
+      "title_raw": "S03E11 Beakman - El Sueño, Beakmanía y la Amplificación",
+      "duration_raw": "21:26",
+      "season_number": 3,
+      "episode_number": 11,
+      "views": 1088,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584903166537&type=32&idx=1&tkn=akSHqLH7Bv7A3ob3ZmgMq3JybvM&fn=external_8"
+    },
+    {
+      "video_id": "1352475675209",
+      "title_raw": "S03E12 Beakman - Crustáceos, Beakmanía y Bernoulli",
+      "duration_raw": "21:26",
+      "season_number": 3,
+      "episode_number": 12,
+      "views": 994,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341976484486&type=32&idx=12&tkn=bcxFS_QGs-tesHnJjzLa2AiebBE&fn=external_8"
+    },
+    {
+      "video_id": "1352475740745",
+      "title_raw": "S03E13 Beakman - Islas, Beakmanía, Energía y Resortes",
+      "duration_raw": "21:26",
+      "season_number": 3,
+      "episode_number": 13,
+      "views": 996,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341976812166&type=32&idx=0&tkn=hSDlrYefEJskuxAIW241VLOWliU&fn=external_8"
+    },
+    {
+      "video_id": "1352475413065",
+      "title_raw": "S04E01 Beakman - Sudor, Beakmanía y Pesando un Carro",
+      "duration_raw": "21:27",
+      "season_number": 4,
+      "episode_number": 1,
+      "views": 1747,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584908409417&type=32&idx=3&tkn=nSF4nmQqU65e85BbRa_R5pBHspI&fn=external_8"
+    },
+    {
+      "video_id": "1352475150921",
+      "title_raw": "S04E02 Beakman - Migración, Beakmanía y Vida en el Espacio",
+      "duration_raw": "21:13",
+      "season_number": 4,
+      "episode_number": 2,
+      "views": 1142,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341705099910&type=32&idx=13&tkn=VKEu9bjNhcEYNuN8f6uSrOTkpAM&fn=external_8"
+    },
+    {
+      "video_id": "1352475609673",
+      "title_raw": "S04E03 Beakman - Bunsen, Beakmanía y Drenajes",
+      "duration_raw": "21:13",
+      "season_number": 4,
+      "episode_number": 3,
+      "views": 1017,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341707786886&type=32&idx=2&tkn=muSX8hSvjOeyaz1zuxKTmDAL1mg&fn=external_8"
+    },
+    {
+      "video_id": "1352474626633",
+      "title_raw": "S04E04 Beakman - Gatos, Beakmanía y Dinamita",
+      "duration_raw": "21:13",
+      "season_number": 4,
+      "episode_number": 4,
+      "views": 1192,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341709490822&type=32&idx=14&tkn=_4U9yOFb4Wto5xTz7ji2NxeL5TQ&fn=external_8"
+    },
+    {
+      "video_id": "1352476396105",
+      "title_raw": "S04E05 Beakman - La Boca, Beakmanía y las Escalas",
+      "duration_raw": "21:13",
+      "season_number": 4,
+      "episode_number": 5,
+      "views": 1052,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341710408326&type=32&idx=10&tkn=Ppm6soICSz9x6_MPFJe05zPt2nE&fn=external_8"
+    },
+    {
+      "video_id": "1352474823241",
+      "title_raw": "S04E06 Beakman - Catalizadores, Beakmanía y Aerosoles",
+      "duration_raw": "21:27",
+      "season_number": 4,
+      "episode_number": 6,
+      "views": 965,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341711850118&type=32&idx=13&tkn=2gaOG0AgKFmoWH1PzngdXD5I9tE&fn=external_8"
+    },
+    {
+      "video_id": "1352476265033",
+      "title_raw": "S04E07 Beakman - Caucho, Beakmanía y Cabello",
+      "duration_raw": "21:27",
+      "season_number": 4,
+      "episode_number": 7,
+      "views": 918,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341712898694&type=32&idx=8&tkn=aEuhcrjb-DHVvd4kAx34IMxEPlY&fn=external_8"
+    },
+    {
+      "video_id": "1352476658249",
+      "title_raw": "S04E08 Beakman - Camellos, Beakmanía y Densidad",
+      "duration_raw": "21:09",
+      "season_number": 4,
+      "episode_number": 8,
+      "views": 956,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341712374406&type=32&idx=0&tkn=9tZwD2Cm5zkx-EHPJ4lTQ7yct00&fn=external_8"
+    },
+    {
+      "video_id": "1352474757705",
+      "title_raw": "S04E09 Beakman - El Boomerang, Beakmanía y la Ciencia del Circo",
+      "duration_raw": "21:27",
+      "season_number": 4,
+      "episode_number": 9,
+      "views": 917,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341711325830&type=32&idx=0&tkn=3Gsjw52yT_KzdI34o0Uz3vTbHbQ&fn=external_8"
+    },
+    {
+      "video_id": "1352476199497",
+      "title_raw": "S04E10 Beakman - Elefantes, Beakmanía y Rayos Equis",
+      "duration_raw": "21:27",
+      "season_number": 4,
+      "episode_number": 10,
+      "views": 897,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341709884038&type=32&idx=14&tkn=CLlSqOrlTJ1tarJ5iGc1lDUPIEQ&fn=external_8"
+    },
+    {
+      "video_id": "1352474692169",
+      "title_raw": "S04E11 Beakman - Piel, Beakmanía y Oxigeno",
+      "duration_raw": "21:17",
+      "season_number": 4,
+      "episode_number": 11,
+      "views": 944,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584898185801&type=32&idx=0&tkn=s6Fx35vBGCHUBzFW2odys5IXC7Y&fn=external_8"
+    },
+    {
+      "video_id": "1352474954313",
+      "title_raw": "S04E12 Beakman - El Pan, Beakmanía y las Medidas",
+      "duration_raw": "21:09",
+      "season_number": 4,
+      "episode_number": 12,
+      "views": 1079,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341705624198&type=32&idx=8&tkn=dHoKBsjy2Jo6G9wM6VJDSfPW23U&fn=external_8"
+    },
+    {
+      "video_id": "1352474561097",
+      "title_raw": "S04E13 Beakman - Electromagnetos, Beakmanía y los Sentidos",
+      "duration_raw": "21:27",
+      "season_number": 4,
+      "episode_number": 13,
+      "views": 1064,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341723122310&type=32&idx=2&tkn=svXO0D_hEWSqkSxmywFUW1OVphI&fn=external_8"
+    },
+    {
+      "video_id": "1352475478601",
+      "title_raw": "S04E14 Beakman - Primates, Beakmanía y Exámenes Oculares",
+      "duration_raw": "21:10",
+      "season_number": 4,
+      "episode_number": 14,
+      "views": 870,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341724170886&type=32&idx=7&tkn=utR2XpcFPHcf2POWzZZQj-ObxVg&fn=external_8"
+    },
+    {
+      "video_id": "1352474364489",
+      "title_raw": "S04E15 Beakman - Magia, Beakmanía y Química Cosmética",
+      "duration_raw": "21:16",
+      "season_number": 4,
+      "episode_number": 15,
+      "views": 943,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584894319177&type=32&idx=13&tkn=bQZnp2K94_D-5GUF2W_eWz2Wg2o&fn=external_8"
+    },
+    {
+      "video_id": "1352474233417",
+      "title_raw": "S04E16 Beakman - Cerdos, Beakmanía y Frecuencia de Sonido",
+      "duration_raw": "21:09",
+      "season_number": 4,
+      "episode_number": 16,
+      "views": 891,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584892090953&type=32&idx=0&tkn=ww99E8PHi_R2ICCeUKVAjdPg8HM&fn=external_8"
+    },
+    {
+      "video_id": "1352475019849",
+      "title_raw": "S04E17 Beakman - Tesoros hundidos, Beakmanía y el Tornillo de Arquímedes",
+      "duration_raw": "21:14",
+      "season_number": 4,
+      "episode_number": 17,
+      "views": 898,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341723908742&type=32&idx=8&tkn=PaecbbydDvyX8aBULc8H-WaWNTM&fn=external_8"
+    },
+    {
+      "video_id": "1352475281993",
+      "title_raw": "S04E18 Beakman - Las Ballenas, Beakmanía e Ilusiones Ópticas II",
+      "duration_raw": "21:16",
+      "season_number": 4,
+      "episode_number": 18,
+      "views": 874,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341722401414&type=32&idx=8&tkn=tgP1lWILW36xQZ4tDR4WAsIyr-Y&fn=external_8"
+    },
+    {
+      "video_id": "1352474888777",
+      "title_raw": "S04E19 Beakman - La Barrera del Sonido, Beakmanía y Vida Saludable",
+      "duration_raw": "21:10",
+      "season_number": 4,
+      "episode_number": 19,
+      "views": 1427,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341713685126&type=32&idx=0&tkn=836vKKGPp3XgdWePmgKpoIgc-F0&fn=external_8"
+    },
+    {
+      "video_id": "1352474495561",
+      "title_raw": "S04E20 Beakman - Exploración Polar, Beakmanía y Rotación",
+      "duration_raw": "21:08",
+      "season_number": 4,
+      "episode_number": 20,
+      "views": 867,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=584895957577&type=32&idx=11&tkn=beo5f9kDF3lQZh0oxXgWZZp-FiA&fn=external_8"
+    },
+    {
+      "video_id": "1352476592713",
+      "title_raw": "S04E21 Beakman - Perros, Beakmanía e Ingeniería Biomédica",
+      "duration_raw": "21:10",
+      "season_number": 4,
+      "episode_number": 21,
+      "views": 860,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341721025158&type=32&idx=0&tkn=N9HvI7dytOiqwGHnGHHMfsDo7IA&fn=external_8"
+    },
+    {
+      "video_id": "1352476068425",
+      "title_raw": "S04E22 Beakman - El Desarrollo Humano, Beakmanía, Soluciones y Suspensiones",
+      "duration_raw": "21:27",
+      "season_number": 4,
+      "episode_number": 22,
+      "views": 936,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341716961926&type=32&idx=12&tkn=6G8inth0r9DZpjLUMlCop_e91hs&fn=external_8"
+    },
+    {
+      "video_id": "1352476461641",
+      "title_raw": "S04E23 Beakman - Acción-Reacción, Beakmanía y Aves Parlantes",
+      "duration_raw": "21:27",
+      "season_number": 4,
+      "episode_number": 23,
+      "views": 877,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341714602630&type=32&idx=0&tkn=wdlDck2MwP-C95M9oOUHXbhtsc0&fn=external_8"
+    },
+    {
+      "video_id": "1352475937353",
+      "title_raw": "S04E24 Beakman - Protozoología, Beakmanía y Dobles de Cine",
+      "duration_raw": "21:27",
+      "season_number": 4,
+      "episode_number": 24,
+      "views": 903,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341721549446&type=32&idx=4&tkn=4REVuGiyAwjAetBXWjkyHnRp2Fc&fn=external_8"
+    },
+    {
+      "video_id": "1352476330569",
+      "title_raw": "S04E25 Beakman - Caballos, Beakmanía y Refrigeradores",
+      "duration_raw": "21:17",
+      "season_number": 4,
+      "episode_number": 25,
+      "views": 1217,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341718338182&type=32&idx=7&tkn=oje1q_xA50LXHYKgEXIzjfwRBKE&fn=external_8"
+    },
+    {
+      "video_id": "1352474430025",
+      "title_raw": "S04E26 Beakman - Huellas dactilares, Beakmanía y Flatulencia",
+      "duration_raw": "21:27",
+      "season_number": 4,
+      "episode_number": 26,
+      "views": 1698,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=341716306566&type=32&idx=6&tkn=ZdFx15eX23ofSThRP3voITadDOY&fn=external_8"
+    }
+  ]
+}

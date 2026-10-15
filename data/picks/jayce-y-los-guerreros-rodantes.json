@@ -1,0 +1,448 @@
+{
+  "title": "Jayce y los Guerreros Rodantes",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c3284809",
+  "year": "1985",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "360p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Ciencia Ficción",
+  "videos": [
+    {
+      "video_id": "1804153653833",
+      "title_raw": "Jayce y los Guerreros Rodantes- (1)",
+      "duration_raw": "22:07",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 11387,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6976896633368&type=32&idx=5&tkn=utQ_OT2o2SZBXlYZwOSCK5En8Jc&fn=external_8"
+    },
+    {
+      "video_id": "1804153719369",
+      "title_raw": "Jayce y los Guerreros Rodantes- (2)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 2372,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6976896305688&type=32&idx=14&tkn=K3ugO7TBcP0M4Ls5FTgLDpUER5s&fn=external_8"
+    },
+    {
+      "video_id": "1804152998473",
+      "title_raw": "Jayce y los Guerreros Rodantes- (3)",
+      "duration_raw": "22:07",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1343,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6976896174616&type=32&idx=13&tkn=co_Y03DFxuwM8SLi9FD7evdTN_Y&fn=external_8"
+    },
+    {
+      "video_id": "1804153522761",
+      "title_raw": "Jayce y los Guerreros Rodantes- (4)",
+      "duration_raw": "22:07",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1098,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6976896895512&type=32&idx=4&tkn=AJfryXC67-6gFB29fnZAxb-uYrQ&fn=external_8"
+    },
+    {
+      "video_id": "1804153457225",
+      "title_raw": "Jayce y los Guerreros Rodantes- (5)",
+      "duration_raw": "21:19",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 923,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6976896043544&type=32&idx=14&tkn=6PIKvkI27O07Z_OTDp1jJUt0dWI&fn=external_8"
+    },
+    {
+      "video_id": "1804153915977",
+      "title_raw": "Jayce y los Guerreros Rodantes- (6)",
+      "duration_raw": "22:08",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 812,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=796976024137&type=32&idx=14&tkn=4GdbWmhF1EBi2nj-arQOXUm1sIE&fn=external_8"
+    },
+    {
+      "video_id": "1804153195081",
+      "title_raw": "Jayce y los Guerreros Rodantes- (7)",
+      "duration_raw": "22:08",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 697,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6976895322648&type=32&idx=11&tkn=92IjYhmFc5-xhtyR6yTy4V3cZKg&fn=external_8"
+    },
+    {
+      "video_id": "1804153326153",
+      "title_raw": "Jayce y los Guerreros Rodantes- (8)",
+      "duration_raw": "22:08",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 579,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6976897157656&type=32&idx=5&tkn=4HP1UNnmhfGSQv2Yl53I5hYlWG4&fn=external_8"
+    },
+    {
+      "video_id": "1804153588297",
+      "title_raw": "Jayce y los Guerreros Rodantes- (9)",
+      "duration_raw": "22:09",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 611,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6976896240152&type=32&idx=4&tkn=aGAYnpsORpa7taa27YUzdV8LMGk&fn=external_8"
+    },
+    {
+      "video_id": "1804153981513",
+      "title_raw": "Jayce y los Guerreros Rodantes- (10)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 528,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6976896436760&type=32&idx=2&tkn=lmzZf2vgN534iJ_8QrgJdX-EO2c&fn=external_8"
+    },
+    {
+      "video_id": "1804153129545",
+      "title_raw": "Jayce y los Guerreros Rodantes- (11)",
+      "duration_raw": "22:05",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 493,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=796963310153&type=32&idx=13&tkn=QkrPfA8_9SousukFMOX-ZdfLVpM&fn=external_8"
+    },
+    {
+      "video_id": "1804153260617",
+      "title_raw": "Jayce y los Guerreros Rodantes- (12)",
+      "duration_raw": "22:08",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 491,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=796966193737&type=32&idx=2&tkn=c_fxbVct73nn1weGH_SdTmw4zcM&fn=external_8"
+    },
+    {
+      "video_id": "1804154112585",
+      "title_raw": "Jayce y los Guerreros Rodantes- (13)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 423,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=796978448969&type=32&idx=13&tkn=m9O_yDb20-Gf3wxIvbGlmx68GRU&fn=external_8"
+    },
+    {
+      "video_id": "1804152932937",
+      "title_raw": "Jayce y los Guerreros Rodantes- (14)",
+      "duration_raw": "22:07",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 532,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=796961147465&type=32&idx=14&tkn=yaVshczDXgGwnyKJTynZAlcySNg&fn=external_8"
+    },
+    {
+      "video_id": "1804153850441",
+      "title_raw": "Jayce y los Guerreros Rodantes- (15)",
+      "duration_raw": "22:08",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 407,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=796975303241&type=32&idx=14&tkn=jH0QUfE_WyTtOmuvk8VjYjU7VrE&fn=external_8"
+    },
+    {
+      "video_id": "1804154178121",
+      "title_raw": "Jayce y los Guerreros Rodantes- (16)",
+      "duration_raw": "22:07",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 397,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=796979300937&type=32&idx=5&tkn=Dv9GKUZdz7gpVGtyuFV1bgJKmcQ&fn=external_8"
+    },
+    {
+      "video_id": "1804153064009",
+      "title_raw": "Jayce y los Guerreros Rodantes- (17)",
+      "duration_raw": "22:07",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 709,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=796962916937&type=32&idx=8&tkn=WztJRYp8fVYJJyeA7qnncIoalvI&fn=external_8"
+    },
+    {
+      "video_id": "1804153391689",
+      "title_raw": "Jayce y los Guerreros Rodantes- (18)",
+      "duration_raw": "22:08",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 397,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=796969011785&type=32&idx=0&tkn=gmUH2xuId7G5eqGoH7yZ9_oakpk&fn=external_8"
+    },
+    {
+      "video_id": "1804154047049",
+      "title_raw": "Jayce y los Guerreros Rodantes- (19)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 350,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=796977728073&type=32&idx=11&tkn=mMSxOOtnYC5YQx3MPhcIhGC5BUM&fn=external_8"
+    },
+    {
+      "video_id": "1804154243657",
+      "title_raw": "Jayce y los Guerreros Rodantes- (20)",
+      "duration_raw": "22:08",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 362,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=796980611657&type=32&idx=13&tkn=PvpQjGfZDhbCzVp_d85G6RoNd5A&fn=external_8"
+    },
+    {
+      "video_id": "1804555586121",
+      "title_raw": "Jayce y los Guerreros Rodantes- (21)",
+      "duration_raw": "22:07",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 356,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797218441801&type=32&idx=11&tkn=MIgq4cxSmOYApFWfMqDkxsHVVL0&fn=external_8"
+    },
+    {
+      "video_id": "1804555258441",
+      "title_raw": "Jayce y los Guerreros Rodantes- (22)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 382,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797214575177&type=32&idx=8&tkn=dktpWsyhqD-qMx8k_bC1u0qvlkk&fn=external_8"
+    },
+    {
+      "video_id": "1804555455049",
+      "title_raw": "Jayce y los Guerreros Rodantes- (23)",
+      "duration_raw": "22:07",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 357,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797217458761&type=32&idx=7&tkn=bwimDgjusubEHb8ZNjbC2EA7Aoc&fn=external_8"
+    },
+    {
+      "video_id": "1804555782729",
+      "title_raw": "Jayce y los Guerreros Rodantes- (24)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 330,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797225650761&type=32&idx=11&tkn=RYxHenJsiJmKtqKMij6AkGnQ7oo&fn=external_8"
+    },
+    {
+      "video_id": "1804555389513",
+      "title_raw": "Jayce y los Guerreros Rodantes- (25)",
+      "duration_raw": "22:07",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 345,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797216606793&type=32&idx=10&tkn=vUUtdNO16c6comcZ3oS0yExx1IU&fn=external_8"
+    },
+    {
+      "video_id": "1804555323977",
+      "title_raw": "Jayce y los Guerreros Rodantes- (26)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 327,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797215492681&type=32&idx=14&tkn=YJMDvKZMM0cMqFyifgAVsFKDlbQ&fn=external_8"
+    },
+    {
+      "video_id": "1804555651657",
+      "title_raw": "Jayce y los Guerreros Rodantes- (27)",
+      "duration_raw": "22:07",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 348,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797219752521&type=32&idx=13&tkn=LOJwFvUrtSkgOkrJuBjYv36ujcI&fn=external_8"
+    },
+    {
+      "video_id": "1804555061833",
+      "title_raw": "Jayce y los Guerreros Rodantes- (28)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 328,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797211888201&type=32&idx=13&tkn=pWM2XswzNWqd_LThec8Vp79mHCQ&fn=external_8"
+    },
+    {
+      "video_id": "1804555848265",
+      "title_raw": "Jayce y los Guerreros Rodantes- (29)",
+      "duration_raw": "22:07",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 327,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797228141129&type=32&idx=9&tkn=bOuigpWVQpHv5Wk7XNwducTKcT4&fn=external_8"
+    },
+    {
+      "video_id": "1804555717193",
+      "title_raw": "Jayce y los Guerreros Rodantes- (30)",
+      "duration_raw": "22:07",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 331,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797222373961&type=32&idx=9&tkn=AZnGKcYX-XMZ8fzR_Btb-kBJlA8&fn=external_8"
+    },
+    {
+      "video_id": "1804554603081",
+      "title_raw": "Jayce y los Guerreros Rodantes- (31)",
+      "duration_raw": "22:07",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 325,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797206121033&type=32&idx=14&tkn=3_FCBpv-wFWthngYnbk-DCZC1Z4&fn=external_8"
+    },
+    {
+      "video_id": "1804555192905",
+      "title_raw": "Jayce y los Guerreros Rodantes- (32)",
+      "duration_raw": "22:08",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 320,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797213461065&type=32&idx=1&tkn=lFNFHhCROrUuPGUp8crSFuwwdyE&fn=external_8"
+    },
+    {
+      "video_id": "1804554537545",
+      "title_raw": "Jayce y los Guerreros Rodantes- (33)",
+      "duration_raw": "22:08",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 331,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797204679241&type=32&idx=13&tkn=dKE5K1ST2INMwR-L0X-HsefnqeY&fn=external_8"
+    },
+    {
+      "video_id": "1804554734153",
+      "title_raw": "Jayce y los Guerreros Rodantes- (34)",
+      "duration_raw": "21:37",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 347,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797207628361&type=32&idx=8&tkn=POxj72wSHj-GZABmztfz_eNWH64&fn=external_8"
+    },
+    {
+      "video_id": "1804555127369",
+      "title_raw": "Jayce y los Guerreros Rodantes- (35)",
+      "duration_raw": "21:37",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 324,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797212674633&type=32&idx=3&tkn=Pc-cKLserLf668Tg2woeLGb5kso&fn=external_8"
+    },
+    {
+      "video_id": "1804554930761",
+      "title_raw": "Jayce y los Guerreros Rodantes- (36)",
+      "duration_raw": "21:36",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 331,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797210380873&type=32&idx=4&tkn=cTI7-4huhem0QNPRbqxps5VEol4&fn=external_8"
+    },
+    {
+      "video_id": "1804554996297",
+      "title_raw": "Jayce y los Guerreros Rodantes- (37)",
+      "duration_raw": "21:37",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 330,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797211167305&type=32&idx=6&tkn=85Ifeoif_NfCzqr22tMAD9gSNaY&fn=external_8"
+    },
+    {
+      "video_id": "1804554865225",
+      "title_raw": "Jayce y los Guerreros Rodantes- (38)",
+      "duration_raw": "22:07",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 323,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797209594441&type=32&idx=9&tkn=boooylwePkz8LQkokj5AwrIas_A&fn=external_8"
+    },
+    {
+      "video_id": "1804554668617",
+      "title_raw": "Jayce y los Guerreros Rodantes- (39)",
+      "duration_raw": "20:09",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 330,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797206514249&type=32&idx=1&tkn=cHRiGIBAjRnyCNsCrAEEqCaMaC8&fn=external_8"
+    },
+    {
+      "video_id": "1804554799689",
+      "title_raw": "Jayce y los Guerreros Rodantes- (40)",
+      "duration_raw": "20:09",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 329,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797208414793&type=32&idx=6&tkn=Ys9UR8WaduNfwGf8TPJW8707noE&fn=external_8"
+    },
+    {
+      "video_id": "1804720540233",
+      "title_raw": "Jayce y los Guerreros Rodantes- (41)",
+      "duration_raw": "20:09",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 345,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797321267785&type=32&idx=9&tkn=dWkV9lzO4a3lMeqAYIz0v51j1l4&fn=external_8"
+    },
+    {
+      "video_id": "1804720736841",
+      "title_raw": "Jayce y los Guerreros Rodantes- (42)",
+      "duration_raw": "20:09",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 363,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797322578505&type=32&idx=11&tkn=8qCUNsSxPwVQtACyEXc_cRT8eU8&fn=external_8"
+    },
+    {
+      "video_id": "1804720802377",
+      "title_raw": "Jayce y los Guerreros Rodantes- (43)",
+      "duration_raw": "20:08",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 822,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797323037257&type=32&idx=14&tkn=ZsDxDNZFzTbSUHPHNTs9Vjmj6YM&fn=external_8"
+    },
+    {
+      "video_id": "1804720998985",
+      "title_raw": "Jayce y los Guerreros Rodantes- (44)",
+      "duration_raw": "20:08",
+      "season_number": 1,
+      "episode_number": 44,
+      "views": 571,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797324544585&type=32&idx=2&tkn=KEZbe5XzqQGIHw24sHHETHj0OGo&fn=external_8"
+    },
+    {
+      "video_id": "1804720605769",
+      "title_raw": "Jayce y los Guerreros Rodantes- (45)",
+      "duration_raw": "20:08",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 407,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797321857609&type=32&idx=5&tkn=1Kz7QMURMdhsHLfp9WZ9Id--J0A&fn=external_8"
+    },
+    {
+      "video_id": "1804720671305",
+      "title_raw": "Jayce y los Guerreros Rodantes- (54)",
+      "duration_raw": "20:08",
+      "season_number": 1,
+      "episode_number": 54,
+      "views": 1747,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797321529929&type=32&idx=14&tkn=Fg5kI5Zd8-YGXno7p1XjCCl_OAM&fn=external_8"
+    },
+    {
+      "video_id": "1804720867913",
+      "title_raw": "Jayce y los Guerreros Rodantes- (59)",
+      "duration_raw": "20:08",
+      "season_number": 1,
+      "episode_number": 59,
+      "views": 556,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797323627081&type=32&idx=2&tkn=-7wFrYvhBaJR10R3zdtQ3i8QNa4&fn=external_8"
+    },
+    {
+      "video_id": "1804720933449",
+      "title_raw": "Jayce y los Guerreros Rodantes- (61)",
+      "duration_raw": "20:08",
+      "season_number": 1,
+      "episode_number": 61,
+      "views": 1696,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=797324085833&type=32&idx=5&tkn=fThd7yemcz-rh3Awm0eGlnuaDnY&fn=external_8"
+    }
+  ]
+}

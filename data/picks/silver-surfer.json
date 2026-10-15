@@ -1,0 +1,133 @@
+{
+  "title": "Silver Surfer",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c8285001 c2253385",
+  "year": "1998",
+  "studio": "Marvel",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Superhéroes",
+  "videos": [
+    {
+      "video_id": "3681645562441",
+      "title_raw": "Silver.Surfer.S01E01.The.Origin.of.the.Silver.Surfer.Part.1.480p.DSNP.WEB-DL.AAC2.0.H.264-Byx10",
+      "duration_raw": "20:43",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 9903,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2510243236425&type=32&idx=1&tkn=97c6its-F873wa0IfsqpO2OFEF8&fn=external_8"
+    },
+    {
+      "video_id": "3681658866249",
+      "title_raw": "Silver.Surfer.S01E02.The.Origin.of.the.Silver.Surfer.Part.2.480p.DSNP.WEB-DL.AAC2.0.H.264-Byx10",
+      "duration_raw": "20:47",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 4132,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2510259751497&type=32&idx=7&tkn=Q6tKlzJS8QPTs6jcE_pLgI5wy4Y&fn=external_8"
+    },
+    {
+      "video_id": "3681658997321",
+      "title_raw": "Silver.Surfer.S01E03.The.Origin.of.the.Silver.Surfer.Part.3.480p.DSNP.WEB-DL.AAC2.0.H.264-Byx10",
+      "duration_raw": "20:47",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 6716,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2510276594249&type=32&idx=3&tkn=LReECN6t4N5vQj7GwXOrlegpIZE&fn=external_8"
+    },
+    {
+      "video_id": "3681659128393",
+      "title_raw": "Silver.Surfer.S01E04.The.Planet.of.Dr..Moreau.480p.DSNP.WEB-DL.AAC2.0.H.264-Byx10",
+      "duration_raw": "21:19",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 3210,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2510293502537&type=32&idx=9&tkn=X_nYN-wzGbN340lVVwUaU60GNec&fn=external_8"
+    },
+    {
+      "video_id": "3681659259465",
+      "title_raw": "Silver.Surfer.S01E05.Learning.Curve.Part.1.480p.DSNP.WEB-DL.AAC2.0.H.264-Byx10",
+      "duration_raw": "20:58",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 2636,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2510309755465&type=32&idx=1&tkn=iX63khIClglJt8XKES9ikETltBI&fn=external_8"
+    },
+    {
+      "video_id": "3681659390537",
+      "title_raw": "Silver.Surfer.S01E06.Learning.Curve.Part.2.480p.DSNP.WEB-DL.AAC2.0.H.264-Byx10",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 2194,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2510337346121&type=32&idx=7&tkn=QJzuV0btQQTI6JaxtbLDZqQqTgo&fn=external_8"
+    },
+    {
+      "video_id": "3681659456073",
+      "title_raw": "Silver.Surfer.S01E07.Innervisions.480p.DSNP.WEB-DL.AAC2.0.H.264-Byx10",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 2057,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2510349470281&type=32&idx=6&tkn=9owBSqYccy7wrRcZx55PjHQVBjo&fn=external_8"
+    },
+    {
+      "video_id": "3681658931785",
+      "title_raw": "Silver.Surfer.S01E08.Antibody.480p.DSNP.WEB-DL.AAC2.0.H.264-Byx10",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1984,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2510268664393&type=32&idx=11&tkn=JC3jKgGdbEvOyEnu2NLAVMlT_sk&fn=external_8"
+    },
+    {
+      "video_id": "3681659193929",
+      "title_raw": "Silver.Surfer.S01E09.Second.Foundation.480p.DSNP.WEB-DL.AAC2.0.H.264-Byx10",
+      "duration_raw": "20:48",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 1946,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2510300121673&type=32&idx=3&tkn=jSP8Uuf2jt9xUJ8etsYx2haFehc&fn=external_8"
+    },
+    {
+      "video_id": "3681659521609",
+      "title_raw": "Silver.Surfer.S01E10.Radical.Justice.480p.DSNP.WEB-DL.AAC2.0.H.264-Byx10",
+      "duration_raw": "21:17",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 1807,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2510358514249&type=32&idx=2&tkn=NNkvOshx-6_lqwf0Kr2glHlpwFk&fn=external_8"
+    },
+    {
+      "video_id": "3681659062857",
+      "title_raw": "Silver.Surfer.S01E11.The.Forever.War.480p.DSNP.WEB-DL.AAC2.0.H.264-Byx10",
+      "duration_raw": "21:15",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 1663,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2510284917321&type=32&idx=10&tkn=hJ7zX1RZ9rcDRfTc_8kjiN5qop0&fn=external_8"
+    },
+    {
+      "video_id": "3681659325001",
+      "title_raw": "Silver.Surfer.S01E12.Return.to.Zenn-LA.480p.DSNP.WEB-DL.AAC2.0.H.264-Byx10",
+      "duration_raw": "21:19",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 1704,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2510323190345&type=32&idx=6&tkn=FM7GhWvT_J5pI02Vph3chf3z8eA&fn=external_8"
+    },
+    {
+      "video_id": "3681659587145",
+      "title_raw": "Silver.Surfer.S01E13.The.End.of.Eternity.480p.DSNP.WEB-DL.AAC2.0.H.264-Byx10",
+      "duration_raw": "21:19",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 2302,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2510368934473&type=32&idx=10&tkn=nLE5cTvnMLcLS7sVp9T0jl1T2hc&fn=external_8"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Dragon Quest: Las Aventuras de Fly",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c8504393 c2380873",
+  "year": "1991",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Aventura",
+  "videos": [
+    {
+      "video_id": "1468943239753",
+      "title_raw": "045 D Q [www.animemf.net] Seba_767",
+      "duration_raw": "19:06",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 637,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2764993596131&type=32&idx=15&tkn=whENV6MjrbxQ2VhnWKONQWh3pMk&fn=external_8"
+    }
+  ]
+}

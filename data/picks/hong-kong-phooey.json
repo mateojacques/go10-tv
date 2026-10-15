@@ -1,0 +1,151 @@
+{
+  "title": "Hong Kong Phooey",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2226249",
+  "year": "1974",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "1388050123337",
+      "title_raw": "HKP - 01 Car Thieves - Zoo Story_x264",
+      "duration_raw": "21:30",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 13313,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595354978889&type=32&idx=12&tkn=pZFQIL_o_aAbCl3nHTYZm-uyfdE&fn=external_8"
+    },
+    {
+      "video_id": "1388050778697",
+      "title_raw": "HKP - 02 Iron Head The Robot & Cotton Pickin Pocket Picker_x264",
+      "duration_raw": "21:26",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 3148,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595365726793&type=32&idx=11&tkn=jvCdGCCLH35K3nNnNFxHTSXchxw&fn=external_8"
+    },
+    {
+      "video_id": "1388050909769",
+      "title_raw": "HKP - 03 Grandma Goody & Candle Power_x264",
+      "duration_raw": "21:27",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1584,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595366840905&type=32&idx=4&tkn=KtsrOp2kamjfKo9tD93MLUHcaYQ&fn=external_8"
+    },
+    {
+      "video_id": "1388051040841",
+      "title_raw": "HKP - 05 The Voltage Villain & The Giggler_x264",
+      "duration_raw": "21:26",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1373,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595370052169&type=32&idx=6&tkn=l6oCVNG7HvdO5ZhHaRLszRCfM8g&fn=external_8"
+    },
+    {
+      "video_id": "1388050254409",
+      "title_raw": "HKP - 06 The Gumdrop Kid & Professor Presto_x264",
+      "duration_raw": "21:24",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 817,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595357403721&type=32&idx=6&tkn=4QvwrxvCo7u6zvAfEQ5GhC4aSqk&fn=external_8"
+    },
+    {
+      "video_id": "1388050385481",
+      "title_raw": "HKP - 07 TV Or Not TV & Stop Horsing Around_x264",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 931,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595359763017&type=32&idx=4&tkn=MObGqHDN92d6kzuBgB1GoKva4VI&fn=external_8"
+    },
+    {
+      "video_id": "1388050188873",
+      "title_raw": "HKP - 08 Mirror Mirror On The Wall & Great Movie Mystery_x264",
+      "duration_raw": "21:31",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1133,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595356158537&type=32&idx=12&tkn=takCP9o9iJNx4Yrf_0TEiMfy5Sk&fn=external_8"
+    },
+    {
+      "video_id": "1388050844233",
+      "title_raw": "HKP - 09 The Claw & Phooey Vs Phooey_x264",
+      "duration_raw": "21:29",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 800,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595366251081&type=32&idx=12&tkn=gzLAkpQXUJ8lMGvuuc_BmL4WRa8&fn=external_8"
+    },
+    {
+      "video_id": "1388050057801",
+      "title_raw": "HKP - 10 The Abominable Snowman & Professor Crosshatch_x264",
+      "duration_raw": "21:29",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 678,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595353471561&type=32&idx=7&tkn=D_iSOzqo_xJIZZs50351dTpn-lI&fn=external_8"
+    },
+    {
+      "video_id": "1388050713161",
+      "title_raw": "HKP - 11 Goldfisher & Green Thumb_x264",
+      "duration_raw": "21:12",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 632,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595364809289&type=32&idx=3&tkn=y__xgUJToArDxxQEBRuoLJPXMio&fn=external_8"
+    },
+    {
+      "video_id": "1388050647625",
+      "title_raw": "HKP - 12 From Bad To Verse & Kong And The Counterfeiters_x264",
+      "duration_raw": "21:29",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 763,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595364219465&type=32&idx=9&tkn=CRnWPaedYlQIdNBPNoDoO63PhZM&fn=external_8"
+    },
+    {
+      "video_id": "1388050451017",
+      "title_raw": "HKP - 13 The Great Choo Choo Robbery & Patty Cake Patty Cake Bakery Man_x264",
+      "duration_raw": "21:20",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 547,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595360942665&type=32&idx=14&tkn=B647lJSwbaPbfqGXHhZP77e2PaU&fn=external_8"
+    },
+    {
+      "video_id": "1388050975305",
+      "title_raw": "HKP - 14 Mr. Tornado & The Little Crook Who Wasnt There_x264",
+      "duration_raw": "21:27",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 578,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595367889481&type=32&idx=14&tkn=QHMlxR7wCUHSRVFwRVMThn4HFrQ&fn=external_8"
+    },
+    {
+      "video_id": "1388050516553",
+      "title_raw": "HKP - 15 Dr. Disguiso & The Incredible Mr. Shrink_x264",
+      "duration_raw": "21:26",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 509,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595361991241&type=32&idx=11&tkn=UgsOiyRuIiVIPq7FUecZ8CdH4jI&fn=external_8"
+    },
+    {
+      "video_id": "1388050319945",
+      "title_raw": "HKP - 16 Comedy Cowboys_x264",
+      "duration_raw": "21:31",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 683,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=595358976585&type=32&idx=11&tkn=5g3XISS1OUJ-Vo7Q6yYOkTRd6fE&fn=external_8"
+    }
+  ]
+}

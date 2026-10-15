@@ -1,0 +1,700 @@
+{
+  "title": "Daniel el Travieso",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2643017",
+  "year": "1986",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "1594269567561",
+      "title_raw": "Dennis The Menace - 1x01 - So Long, Old Paint - Trembly Assembly - Private I_x264",
+      "duration_raw": "22:13",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 16562,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686123125321&type=32&idx=0&tkn=4bM4LmFNRpowUfj_3gY6Jfria_o&fn=external_8"
+    },
+    {
+      "video_id": "1594269436489",
+      "title_raw": "Dennis The Menace - 1x02 - A Visitor From Outer Space - Train That Boy - Genie Madness_x264",
+      "duration_raw": "22:13",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 3590,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686116637257&type=32&idx=11&tkn=UhTnVZx2TbeYUUFAAiUnzv6l-T0&fn=external_8"
+    },
+    {
+      "video_id": "1594269370953",
+      "title_raw": "Dennis The Menace - 1x04 - Shark Treatment - Jungle Bungle - Racetrack Menace_x264",
+      "duration_raw": "22:14",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1993,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686113884745&type=32&idx=13&tkn=smziN0facDD8MX_jZQ_zKLjNVjI&fn=external_8"
+    },
+    {
+      "video_id": "1594269305417",
+      "title_raw": "Dennis The Menace - 1x05 - All The President-s Menace - The Love Rowboat - Wilson The Menace_x264",
+      "duration_raw": "22:13",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1490,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686108904009&type=32&idx=2&tkn=6CM1nMaB3BqGPX3W4UnKn1tylco&fn=external_8"
+    },
+    {
+      "video_id": "1594270550601",
+      "title_raw": "Dennis The Menace - 1x06 - Fishing For Trouble - Future Fortune - Time Bomb_x264",
+      "duration_raw": "22:14",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 1014,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686163429961&type=32&idx=2&tkn=bdP-n-XXBnKQmS07BzTOqWKin0s&fn=external_8"
+    },
+    {
+      "video_id": "1594271468105",
+      "title_raw": "Dennis The Menace - 1x07 - Spa Blahs - Whale Of A Tale - Disaster On The Green_x264",
+      "duration_raw": "22:16",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1095,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686208584265&type=32&idx=9&tkn=1AuadHLkqdBpK1yUBxsTE9fGPWM&fn=external_8"
+    },
+    {
+      "video_id": "1594271009353",
+      "title_raw": "Dennis The Menace - 1x08 - Here, Kitty - Circus Berserkus - The Monster Of Mudville Flats_x264",
+      "duration_raw": "22:16",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1046,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686186170953&type=32&idx=1&tkn=Gy54jnZVaJPaNxA8p-BtWyvWGoc&fn=external_8"
+    },
+    {
+      "video_id": "1594271599177",
+      "title_raw": "Dennis The Menace - 1x09 - The Price Of Stardom - Space Menace - The Magic Flute_x264",
+      "duration_raw": "22:15",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 805,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686214744649&type=32&idx=9&tkn=BZkQDjq-bT5yryc0wKQHKM9mIWA&fn=external_8"
+    },
+    {
+      "video_id": "1594270419529",
+      "title_raw": "Dennis The Menace - 1x10 - Dennis- Yard Sale - The Abominable Snow Menace - It Came From The Planet_x264",
+      "duration_raw": "22:15",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 944,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686158121545&type=32&idx=11&tkn=fRQGYvJM2AVEHK3lZIPiwezPzVI&fn=external_8"
+    },
+    {
+      "video_id": "1594271533641",
+      "title_raw": "Dennis The Menace - 1x11 - Snowman Madness - The Invisible Kid - Home Destruction_x264",
+      "duration_raw": "22:10",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 817,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686211467849&type=32&idx=7&tkn=_ZmeGoDeEqjTGcrlKLwkSQO4FZM&fn=external_8"
+    },
+    {
+      "video_id": "1594271402569",
+      "title_raw": "Dennis The Menace - 1x12 - Chitty Chitty Moon Walk - Wet -n Wild - Dennis At The Movies_x264",
+      "duration_raw": "22:14",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 607,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686205045321&type=32&idx=8&tkn=YDUZaVZT1BegbFmiPsQ-PvMsqQ8&fn=external_8"
+    },
+    {
+      "video_id": "1594269502025",
+      "title_raw": "Dennis The Menace - 1x13 - The Supermarket - The Big Candied Apple - The Defective Detector_x264",
+      "duration_raw": "22:12",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 704,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686119127625&type=32&idx=6&tkn=T2S62Br9D1fHqymKQml2P-T6kuY&fn=external_8"
+    },
+    {
+      "video_id": "1594270681673",
+      "title_raw": "Dennis The Menace - 1x14 - Henry The Menace - Come Fly With Me - Camping Out_x264",
+      "duration_raw": "22:11",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 627,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686171359817&type=32&idx=1&tkn=aJgcRM0p3RxFA2oO0VeLHIeH1BA&fn=external_8"
+    },
+    {
+      "video_id": "1594269960777",
+      "title_raw": "Dennis The Menace - 1x15 - Up Up And Away (from Here) - Going Ape - Dennis The Pirate_x264",
+      "duration_raw": "22:12",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 639,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686137674313&type=32&idx=3&tkn=PwloamGawKRA77Sof8eODIamTdk&fn=external_8"
+    },
+    {
+      "video_id": "1594271926857",
+      "title_raw": "Dennis The Menace - 1x16 - It-s A Ruff Life - Professor Myron Mentalapse - Dennis Race 2000_x264",
+      "duration_raw": "22:10",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 591,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686238534217&type=32&idx=7&tkn=stwofIFZn21T8ezDp_7v7F2FsAw&fn=external_8"
+    },
+    {
+      "video_id": "1594270288457",
+      "title_raw": "Dennis The Menace - 1x17 - A Better Mousetrap - The Wizzer Of Odd - Canine Car Wash_x264",
+      "duration_raw": "22:10",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 512,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686152026697&type=32&idx=3&tkn=bRoIieMSo1R9t8HPvWsj2ETRS-8&fn=external_8"
+    },
+    {
+      "video_id": "1594269698633",
+      "title_raw": "Dennis The Menace - 1x18 - Ride -em Cowboy - Tenting Tonight - A Hair Raising Tale_x264",
+      "duration_raw": "22:10",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 632,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686131579465&type=32&idx=2&tkn=H0qnUpdVxHab9gMyaQAgcLSoacg&fn=external_8"
+    },
+    {
+      "video_id": "1594271664713",
+      "title_raw": "Dennis The Menace - 1x19 - Medieval Evil - Beaver-mania - Say Uncle_x264",
+      "duration_raw": "22:11",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 507,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686219397705&type=32&idx=13&tkn=Ne2JfDOWcDhllzRCrvB53rTym6Y&fn=external_8"
+    },
+    {
+      "video_id": "1594271074889",
+      "title_raw": "Dennis The Menace - 1x20 - Hopping Mad - Mayan Mayhem - The Big Power Trip_x264",
+      "duration_raw": "22:10",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 480,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686187940425&type=32&idx=10&tkn=6H2cO1Fxc_oXpuP2Hf3242eY7NM&fn=external_8"
+    },
+    {
+      "video_id": "1594269633097",
+      "title_raw": "Dennis The Menace - 1x21 - Strong Medicine - Gold Strike - Lights, Camera, Mud_x264",
+      "duration_raw": "22:10",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 399,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686127516233&type=32&idx=2&tkn=A76TUEwMjboGlYpH6xnVHTi3aMY&fn=external_8"
+    },
+    {
+      "video_id": "1594271140425",
+      "title_raw": "Dennis The Menace - 1x22 - Invasion of the Blob - Wild West Show-Down - The Hen Party_x264",
+      "duration_raw": "22:11",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 461,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686190496329&type=32&idx=11&tkn=VdIaOWE1sLQA0Earoy3IWodrx3w&fn=external_8"
+    },
+    {
+      "video_id": "1594271861321",
+      "title_raw": "Dennis The Menace - 1x23 - Up Up and Oh Boy - The Company Picnic - Dennis The Menace - Aw Nuts!_x264",
+      "duration_raw": "22:11",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 390,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686231390793&type=32&idx=14&tkn=4ay_yaEqENPjpa40nhs4r7auwW0&fn=external_8"
+    },
+    {
+      "video_id": "1594272189001",
+      "title_raw": "Dennis The Menace - 1x24 - Clip-Joint Capers - Tanks for the Memory - Second Honeymoon_x264",
+      "duration_raw": "22:09",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 475,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686253410889&type=32&idx=7&tkn=_tD52_OTg8f3xFUyVgZfUZyWEQ4&fn=external_8"
+    },
+    {
+      "video_id": "1594270157385",
+      "title_raw": "Dennis The Menace - 1x25 - A Couple of Coo-Coos - The Cloneheads - Nothing But the Tooth_x264",
+      "duration_raw": "22:11",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 436,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686144490057&type=32&idx=13&tkn=_Lv92oB7q5I1Ptcm3ISABBTbRPI&fn=external_8"
+    },
+    {
+      "video_id": "1594271205961",
+      "title_raw": "Dennis The Menace - 1x26 - Mummy-s Little Boy - Horsing Around - Dennis Plasters Pamplona_x264",
+      "duration_raw": "22:10",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 472,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686194362953&type=32&idx=1&tkn=T4hhNZKvKMOYWA-GUm7GC0aLXa4&fn=external_8"
+    },
+    {
+      "video_id": "1594270747209",
+      "title_raw": "Dennis The Menace - 1x27 - Dennis Predicts - Dennis _ the Kangaroo Cavalry - Meatball Mess_x264",
+      "duration_raw": "22:10",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 410,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686175095369&type=32&idx=8&tkn=iy9O-gLETv3u9bVErcivJVv5Yuc&fn=external_8"
+    },
+    {
+      "video_id": "1594270812745",
+      "title_raw": "Dennis The Menace - 1x28 - My Fair Dennis - A Good Knight-s Work - Life in the Fast Lane_x264",
+      "duration_raw": "22:08",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 425,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686179224137&type=32&idx=0&tkn=ThQgDPB_Rt_f5Iq0OepMOFNbMJw&fn=external_8"
+    },
+    {
+      "video_id": "1594271992393",
+      "title_raw": "Dennis The Menace - 1x29 - A Nightmare at the Opera - A Royal Pain - Having a Marbleous Time_x264",
+      "duration_raw": "22:09",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 427,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686242269769&type=32&idx=8&tkn=EcdRSTYyLFVpZGoV6cPc8IJg_0o&fn=external_8"
+    },
+    {
+      "video_id": "1594272123465",
+      "title_raw": "Dennis The Menace - 1x30 - Marky the Menace - Dennis the Genius - A Step Ahead_x264",
+      "duration_raw": "22:13",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 513,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686250134089&type=32&idx=12&tkn=nwZg0Kwi1cXPQ5qb5dnsEU2ClEw&fn=external_8"
+    },
+    {
+      "video_id": "1594270222921",
+      "title_raw": "Dennis The Menace - 1x31 - The Boss Gets Scalped - Mr. Dennistein - Lean Green Jumping Machine_x264",
+      "duration_raw": "22:07",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 417,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686148684361&type=32&idx=3&tkn=M7ywl9MNWL6fncDKeP_7WCDJIeg&fn=external_8"
+    },
+    {
+      "video_id": "1594270943817",
+      "title_raw": "Dennis The Menace - 1x33 - Ruff-s Hat Trick - A Moving Experience - Lemon-Aid_x264",
+      "duration_raw": "22:15",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 385,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686183811657&type=32&idx=6&tkn=Pkm49Db4o4kPRBbMyy4GwJ8FRSI&fn=external_8"
+    },
+    {
+      "video_id": "1594270878281",
+      "title_raw": "Dennis The Menace - 1x34 - Sounds in the Night - Dennis Does Hollywood - Ruff to the Rescue_x264",
+      "duration_raw": "22:07",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 385,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686181386825&type=32&idx=14&tkn=IAzvbveOTs6jSgEphWUgqkD0fB4&fn=external_8"
+    },
+    {
+      "video_id": "1594271271497",
+      "title_raw": "Dennis The Menace - 1x35 - The Bicycle Thief - Menace of the Mine Shaft - Margaret-s Birthday Party_x264",
+      "duration_raw": "22:11",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 412,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686198491721&type=32&idx=8&tkn=OTDYMiMLL1f2fXBQxwYRg1GqhO4&fn=external_8"
+    },
+    {
+      "video_id": "1633632127561",
+      "title_raw": "Dennis The Menace - 1x36 - So Sorry! - Shock Therapy - Yard Wars_x264",
+      "duration_raw": "22:10",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 517,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=704392137289&type=32&idx=12&tkn=T9vrzhkqYnX5tatS_5YrGd_CLVE&fn=external_8"
+    },
+    {
+      "video_id": "1594270616137",
+      "title_raw": "Dennis The Menace - 1x37 - Ruff-s Masterpiece - Going to the Dogs - Big Baby_x264",
+      "duration_raw": "22:10",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 626,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686167820873&type=32&idx=13&tkn=yLUxqsWHWKrmZUI2fvKYexd0IpI&fn=external_8"
+    },
+    {
+      "video_id": "1633631996489",
+      "title_raw": "Dennis The Menace - 1x38 - Building a Better Dog House - Dennis and the Dragon - Hic [V_2]_x264",
+      "duration_raw": "22:14",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 367,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=704387680841&type=32&idx=3&tkn=O3Bq6Mj45fvKy-czo18GbwXN8A4&fn=external_8"
+    },
+    {
+      "video_id": "1633631865417",
+      "title_raw": "Dennis The Menace - 1x39 - Strike Up the Band - Queen of Chinatown_x264",
+      "duration_raw": "22:07",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 374,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=704383683145&type=32&idx=10&tkn=DoEJgJoQwPsBeseJF4OUAUk7E4E&fn=external_8"
+    },
+    {
+      "video_id": "1633631799881",
+      "title_raw": "Dennis The Menace - 1x40 - Give a Little Whistle - Charmed I-m Sure - After Hours [V_2]_x264",
+      "duration_raw": "22:10",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 378,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=704382241353&type=32&idx=7&tkn=fkPHSuxzI4MG1CgHWen5ueOww3M&fn=external_8"
+    },
+    {
+      "video_id": "1594269895241",
+      "title_raw": "Dennis The Menace - 1x41 - Baseball-s Best Ballplayer - Mr. Wilson-s Diet - The Backyard Band_x264",
+      "duration_raw": "22:10",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 357,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686135052873&type=32&idx=2&tkn=lrDK0WXxLfHU5yGSMuJJicXVHM0&fn=external_8"
+    },
+    {
+      "video_id": "1594271337033",
+      "title_raw": "Dennis The Menace - 1x42 - Double Dennis - Timber Wolves - Help Not Wanted_x264",
+      "duration_raw": "22:11",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 403,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686201702985&type=32&idx=1&tkn=Vi_c_rDoGzwQF5OdXBCEFjBlp3w&fn=external_8"
+    },
+    {
+      "video_id": "1633631930953",
+      "title_raw": "Dennis The Menace - 1x43 - Million Dollar Dennis - 3-D and Me - Barber Shop Disharmony_x264",
+      "duration_raw": "22:10",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 366,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=704385714761&type=32&idx=0&tkn=nC8HXPsA0ZJk0boCjmDguOs0NkM&fn=external_8"
+    },
+    {
+      "video_id": "1594272057929",
+      "title_raw": "Dennis The Menace - 1x44 - Bowling for Dennis - Dennis Conquers the Navy - The Longest Half-Yard (1)_x264",
+      "duration_raw": "22:11",
+      "season_number": 1,
+      "episode_number": 44,
+      "views": 379,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686245087817&type=32&idx=14&tkn=xNPXtbLbK3-hP4rlSD7uovROju8&fn=external_8"
+    },
+    {
+      "video_id": "1594272254537",
+      "title_raw": "Dennis The Menace - 1x45 - Vampire Scare - Give Me Liberty or Give Me Dennis - Wilson for Mayor_x264",
+      "duration_raw": "22:10",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 471,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686257343049&type=32&idx=4&tkn=3K3Jcw62rAdzZLkLfItSz7ki6C0&fn=external_8"
+    },
+    {
+      "video_id": "1633632193097",
+      "title_raw": "Dennis The Menace - 1x46 - Dangerous Detour - The Prodigy - The Chimp_x264",
+      "duration_raw": "22:12",
+      "season_number": 1,
+      "episode_number": 46,
+      "views": 494,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=704394168905&type=32&idx=9&tkn=yOlmffJCR8S3XpgaBSUMS78G_pA&fn=external_8"
+    },
+    {
+      "video_id": "1594270353993",
+      "title_raw": "Dennis The Menace - 1x47 - High Steel - Bicycle Mania - Little Dogs Lost_x264",
+      "duration_raw": "22:11",
+      "season_number": 1,
+      "episode_number": 47,
+      "views": 385,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686156221001&type=32&idx=11&tkn=Z5F6CXjOxCXVQzMAD5xRBnBMGMI&fn=external_8"
+    },
+    {
+      "video_id": "1633632062025",
+      "title_raw": "Dennis The Menace - 1x48 - Dennis Destroys Dallas - Black _ Blue Hawaii - Oil-s Well That Ends Well_x264",
+      "duration_raw": "22:10",
+      "season_number": 1,
+      "episode_number": 48,
+      "views": 373,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=704389777993&type=32&idx=4&tkn=I3P5IxQXvNDa8NzSzZzb0N5wX_U&fn=external_8"
+    },
+    {
+      "video_id": "1594270091849",
+      "title_raw": "Dennis The Menace - 1x49 - Door to Door Bore - Dennis in Venice - Young Sherlock Dennis_x264",
+      "duration_raw": "22:10",
+      "season_number": 1,
+      "episode_number": 49,
+      "views": 362,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686140885577&type=32&idx=10&tkn=OXOA_tIiMNRvcjJIiC3N_vGzBiM&fn=external_8"
+    },
+    {
+      "video_id": "1594271795785",
+      "title_raw": "Dennis The Menace - 1x50 - Surf-s Up - Yo Ho Ho - The Karate Kiddie_x264",
+      "duration_raw": "22:10",
+      "season_number": 1,
+      "episode_number": 50,
+      "views": 365,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686227065417&type=32&idx=3&tkn=sIcQv7tWslHfdNxFRGrBkzWHe34&fn=external_8"
+    },
+    {
+      "video_id": "1594684934729",
+      "title_raw": "Dennis The Menace - 1x51 - Dennis and the Deep - K-9 Kollege - Housepests_x264",
+      "duration_raw": "22:09",
+      "season_number": 1,
+      "episode_number": 51,
+      "views": 425,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686337624649&type=32&idx=6&tkn=gwUHVxzV6G4RXqj-Dytpc9STgoE&fn=external_8"
+    },
+    {
+      "video_id": "1594684344905",
+      "title_raw": "Dennis The Menace - 1x52 - Animalympics - No Bones About It - Dennis Takes the Cake_x264",
+      "duration_raw": "22:09",
+      "season_number": 1,
+      "episode_number": 52,
+      "views": 405,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686305315401&type=32&idx=14&tkn=ETo9eX4O-GiIouVfdr1psfT_mPw&fn=external_8"
+    },
+    {
+      "video_id": "1594684082761",
+      "title_raw": "Dennis The Menace - 1x53 - Quiet Riot - The Magic Pen - A Feeling for Stealing_x264",
+      "duration_raw": "22:09",
+      "season_number": 1,
+      "episode_number": 53,
+      "views": 342,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686288931401&type=32&idx=14&tkn=stCCp0DRKlJ3o-8eaZ-yKqiZFO4&fn=external_8"
+    },
+    {
+      "video_id": "1594684410441",
+      "title_raw": "Dennis The Menace - 1x54 - Househusband Henry - Wheeling & Double-Dealing - Stop That Car!_x264",
+      "duration_raw": "22:11",
+      "season_number": 1,
+      "episode_number": 54,
+      "views": 359,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686309771849&type=32&idx=1&tkn=CHFo8JDjR6EjGuQTsTUd2qc582o&fn=external_8"
+    },
+    {
+      "video_id": "1594684803657",
+      "title_raw": "Dennis The Menace - 1x55 - Lights, Camera, Auction - Boy Ahoy - Faulty Alarm_x264",
+      "duration_raw": "22:09",
+      "season_number": 1,
+      "episode_number": 55,
+      "views": 352,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686329891401&type=32&idx=12&tkn=hTtFciO2wXUZmcgwIg1rEW7jmDA&fn=external_8"
+    },
+    {
+      "video_id": "1594684672585",
+      "title_raw": "Dennis The Menace - 1x56 - Hail to the Chief - Dennis in Microchipland - Handy Dandy Dennis_x264",
+      "duration_raw": "22:10",
+      "season_number": 1,
+      "episode_number": 56,
+      "views": 375,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686321306185&type=32&idx=0&tkn=0ihkAQdmrQSooC-CrcCxw-GkhY8&fn=external_8"
+    },
+    {
+      "video_id": "1594684279369",
+      "title_raw": "Dennis The Menace - 1x57 - Dennis the Businessman - Soccer it to Me, Dennis - Camp Over Here-Over There_x264",
+      "duration_raw": "22:11",
+      "season_number": 1,
+      "episode_number": 57,
+      "views": 700,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686301514313&type=32&idx=11&tkn=hqPhVOfTv9hhR7QiHH4i5gOFXWU&fn=external_8"
+    },
+    {
+      "video_id": "1594684017225",
+      "title_raw": "Dennis The Menace - 1x58 - Hullaballoo at the Harmony Homes - Phantom of the Wax Museum - Dennis and_x264",
+      "duration_raw": "22:10",
+      "season_number": 1,
+      "episode_number": 58,
+      "views": 345,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686284999241&type=32&idx=9&tkn=d_b20twWMMgSFPavc9-d6jr13Ao&fn=external_8"
+    },
+    {
+      "video_id": "1594684738121",
+      "title_raw": "Dennis The Menace - 1x59 - Attack of the Giant Tomatoes - The Dinosaur Doozy - Funhouse Grouch_x264",
+      "duration_raw": "22:11",
+      "season_number": 1,
+      "episode_number": 59,
+      "views": 505,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686325697097&type=32&idx=4&tkn=S5fLGudDxsO42kFfFW7DAOoGDGA&fn=external_8"
+    },
+    {
+      "video_id": "1594684607049",
+      "title_raw": "Dennis The Menace - 1x60 - Dennis Rocks Out - Deserted with Dennis - Fashionable Menace_x264",
+      "duration_raw": "22:10",
+      "season_number": 1,
+      "episode_number": 60,
+      "views": 376,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686318488137&type=32&idx=8&tkn=I0SNO-jbnAkKDBTp-suOW55qT9g&fn=external_8"
+    },
+    {
+      "video_id": "1594684475977",
+      "title_raw": "Dennis The Menace - 1x61 - Back to the Drawing Board - Part-Time Helper - G.I. George_x264",
+      "duration_raw": "22:11",
+      "season_number": 1,
+      "episode_number": 61,
+      "views": 342,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686312065609&type=32&idx=14&tkn=ZCWVMJN0qFf2QDYN-0Yg4FmEjvw&fn=external_8"
+    },
+    {
+      "video_id": "1594684541513",
+      "title_raw": "Dennis The Menace - 1x62 - Wanted_ Scarface Wilson - Ruff Come Home - 10-4 Dennis_x264",
+      "duration_raw": "22:11",
+      "season_number": 1,
+      "episode_number": 62,
+      "views": 354,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686315342409&type=32&idx=3&tkn=h7WLZqm0kpwUTEjhNeN2xxIF00s&fn=external_8"
+    },
+    {
+      "video_id": "1594684148297",
+      "title_raw": "Dennis The Menace - 1x63 - Heroes Unwelcome - The Martians are Coming - Ancient Olympics [V_2]_x264",
+      "duration_raw": "22:11",
+      "season_number": 1,
+      "episode_number": 63,
+      "views": 351,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686292929097&type=32&idx=3&tkn=ej67lakpDmwzEVJcsrNtk6apdtM&fn=external_8"
+    },
+    {
+      "video_id": "1594684213833",
+      "title_raw": "Dennis The Menace - 1x64 - Pool Haul - Fool for Gold - Nothin- to Be Afraid Of_x264",
+      "duration_raw": "22:11",
+      "season_number": 1,
+      "episode_number": 64,
+      "views": 349,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686298106441&type=32&idx=11&tkn=7EKN7_89gz-ytFDrwgJMSzqEtM4&fn=external_8"
+    },
+    {
+      "video_id": "1594684869193",
+      "title_raw": "Dennis The Menace - 1x65 - Yankee Doodle Dennis - Dennis the Barnstormer - Trial and Error_x264",
+      "duration_raw": "22:08",
+      "season_number": 1,
+      "episode_number": 65,
+      "views": 390,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686333823561&type=32&idx=2&tkn=EHkSTWp5KjAnFi57VNEdmI1xoZc&fn=external_8"
+    },
+    {
+      "video_id": "1594836257353",
+      "title_raw": "Dennis The Menace - 2x01 - The Incredible Shrinking Dennis - Swiss Family Mitchell - The Great Pie Swap",
+      "duration_raw": "23:59",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 534,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686366984777&type=32&idx=10&tkn=J4JQkWSWwAuBHYZu5RxN4KiCuHk&fn=external_8"
+    },
+    {
+      "video_id": "1594836978249",
+      "title_raw": "Dennis The Menace - 2x02 - Frankenstymied - Space Race - Little Beauty Shop of Horrors",
+      "duration_raw": "22:58",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 448,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686392216137&type=32&idx=0&tkn=QD41dWvtv-_CnkZvKlCd6moqJb8&fn=external_8"
+    },
+    {
+      "video_id": "1594836650569",
+      "title_raw": "Dennis The Menace - 2x03 - Crummy Mummy - Climb of the Century - Pie in the Eye",
+      "duration_raw": "23:49",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 374,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686379633225&type=32&idx=1&tkn=4TF3slopS22v783n6ATsNGdjpFs&fn=external_8"
+    },
+    {
+      "video_id": "1594836191817",
+      "title_raw": "Dennis The Menace - 2x04 - Thor-Sicle - A Fox Tale - Shared Interest",
+      "duration_raw": "23:12",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 465,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686363511369&type=32&idx=0&tkn=rmJi8eh4mgGS56qeBXqctDUcIGA&fn=external_8"
+    },
+    {
+      "video_id": "1594836453961",
+      "title_raw": "Dennis The Menace - 2x05 - Tunnel Vision - Super Duper Dennis - Ice Show Show-Off",
+      "duration_raw": "24:53",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 398,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686374718025&type=32&idx=0&tkn=PK79hoVoyOWCv_RGcdoX7225B5Y&fn=external_8"
+    },
+    {
+      "video_id": "1594836322889",
+      "title_raw": "Dennis The Menace - 2x06 -Snow Wars - The Moroccan Pigeon - Dennis of the Jungle",
+      "duration_raw": "23:27",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 674,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686369933897&type=32&idx=14&tkn=7JiqzOqelNiZ2BvhALkDLnpR_l8&fn=external_8"
+    },
+    {
+      "video_id": "1594836388425",
+      "title_raw": "Dennis The Menace - 2x07 - Dennis in Wonderland - Water on the Brain - A Word from Our Sponsor",
+      "duration_raw": "22:24",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 420,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686372096585&type=32&idx=10&tkn=HmJn02HbC1WQKb4zFlj4ZhpXfyA&fn=external_8"
+    },
+    {
+      "video_id": "1594836126281",
+      "title_raw": "Dennis The Menace - 2x08 - A Froggy Day - Loch Ness Mess - Box Office Smash",
+      "duration_raw": "23:32",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 357,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686358989385&type=32&idx=4&tkn=tZtZUBDJvsOrzhvW7OOUXWDOH8U&fn=external_8"
+    },
+    {
+      "video_id": "1594836585033",
+      "title_raw": "Dennis The Menace - 2x09 - Menaced Marriage - Dennis of the Yukon - Seal of Approval",
+      "duration_raw": "22:57",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 412,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686377601609&type=32&idx=5&tkn=pvGKIwExRnGkKERWOOxJVz7q_zw&fn=external_8"
+    },
+    {
+      "video_id": "1594836912713",
+      "title_raw": "Dennis The Menace - 2x10 - Instant Replay - Underwater Wonderland - Safe at Home",
+      "duration_raw": "24:03",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 425,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686390053449&type=32&idx=7&tkn=VYNOVmBLg5h678SJU5lGetoPRqA&fn=external_8"
+    },
+    {
+      "video_id": "1594836847177",
+      "title_raw": "Dennis The Menace - 2x11 -  Gorilla Warfare - Young At Heart - It's Magic Time",
+      "duration_raw": "23:53",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 372,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686386645577&type=32&idx=12&tkn=ddwbj1jyxmSIG9aiaPKPGRcyxmE&fn=external_8"
+    },
+    {
+      "video_id": "1594836781641",
+      "title_raw": "Dennis The Menace - 2x12 - Kooked Goose - Pell Mell Hotel - The Old Ball Game",
+      "duration_raw": "23:52",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 673,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686382451273&type=32&idx=2&tkn=3EuzttB-8ioVLDu_9WDhkkaONao&fn=external_8"
+    },
+    {
+      "video_id": "1594837043785",
+      "title_raw": "Dennis The Menace - 2x13 - The Wright Stuff - Hassle in the Castle - Wilson's Night Out",
+      "duration_raw": "23:44",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 764,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=686393789001&type=32&idx=0&tkn=dOVvWfp12AQJ6r4a6otDi1Zpnlc&fn=external_8"
+    }
+  ]
+}

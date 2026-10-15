@@ -1,0 +1,133 @@
+{
+  "title": "Los Súper Globetrotters",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c3353673",
+  "year": "1979",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "1823366384201",
+      "title_raw": "01 - The Super Globetrotters vs. Museum Man",
+      "duration_raw": "23:04",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 9508,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7023689271941&type=32&idx=10&tkn=1dITASGqioG9DFIigbKsr9syEUg&fn=external_8"
+    },
+    {
+      "video_id": "1823365925449",
+      "title_raw": "02 - The Super Globetrotters vs. Bwana Bob",
+      "duration_raw": "23:09",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 1285,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7023683963525&type=32&idx=6&tkn=rRDk0yp179JyNEtailmwu7IC9Kg&fn=external_8"
+    },
+    {
+      "video_id": "1823366515273",
+      "title_raw": "03 - The Super Globetrotters vs. The Facelift",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 875,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7023693400709&type=32&idx=14&tkn=GD5emulucCydIIjejX-Vf-RQoGc&fn=external_8"
+    },
+    {
+      "video_id": "1823366449737",
+      "title_raw": "04 - The Super Globetrotters vs. Whaleman",
+      "duration_raw": "23:11",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 729,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7023681342085&type=32&idx=9&tkn=gyObUTzSwlmRQ5JHWQSv-XeUAAs&fn=external_8"
+    },
+    {
+      "video_id": "1823366056521",
+      "title_raw": "05 - The Super Globetrotters vs. Robo and the Globots",
+      "duration_raw": "21:41",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 645,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7023691369093&type=32&idx=10&tkn=u8U6CuJq7re6iCATO-IIooyPldc&fn=external_8"
+    },
+    {
+      "video_id": "1823366580809",
+      "title_raw": "06 - The Super Globetrotters vs. Tattoo Man",
+      "duration_raw": "23:08",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 615,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7023692417669&type=32&idx=12&tkn=lRy1KPTG68pG33HYKqAKdOQP-28&fn=external_8"
+    },
+    {
+      "video_id": "1823365990985",
+      "title_raw": "07 - The Super Globetrotters vs. Movie Man",
+      "duration_raw": "23:09",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 412,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7023687436933&type=32&idx=5&tkn=8S4EVBxFoMPlPMd0WZpRHNk5PbI&fn=external_8"
+    },
+    {
+      "video_id": "1823366122057",
+      "title_raw": "08 - The Super Globetrotters vs. The Phantom Cowboy",
+      "duration_raw": "23:10",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 422,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7023695104645&type=32&idx=15&tkn=KjYqWrorKkgttvptPoDNWYVkcXU&fn=external_8"
+    },
+    {
+      "video_id": "1823366711881",
+      "title_raw": "09 - The Super Globetrotters vs. The Time Lord",
+      "duration_raw": "23:09",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 500,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7023688485509&type=32&idx=7&tkn=s1Z1MLcYYIKhl2CV2uYqhciO_X4&fn=external_8"
+    },
+    {
+      "video_id": "1823366318665",
+      "title_raw": "010 - The Super Globetrotters vs. Transylvania Terrors",
+      "duration_raw": "23:11",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 409,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7023676689029&type=32&idx=2&tkn=ds0agi5UzP-DpZm3Ag-LKG8rZmc&fn=external_8"
+    },
+    {
+      "video_id": "1823366646345",
+      "title_raw": "011 - The Super Globetrotters vs. Bull Moose",
+      "duration_raw": "23:09",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 347,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7023685470853&type=32&idx=8&tkn=4ha6SRe5Ea6FpYDbtjxsEkzPoPc&fn=external_8"
+    },
+    {
+      "video_id": "1823366253129",
+      "title_raw": "012 - The Super Globetrotters vs. Merlo the Magician",
+      "duration_raw": "23:04",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 293,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7023680096901&type=32&idx=2&tkn=QTwk3Kr8V1xnbLR6RYbkI0gp1Mc&fn=external_8"
+    },
+    {
+      "video_id": "1823366187593",
+      "title_raw": "013 - The Super Globetrotters vs. Attila the Hun",
+      "duration_raw": "22:56",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 343,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7023678327429&type=32&idx=11&tkn=8BfmB8Kf0JqzpL3thAmhH4607mM&fn=external_8"
+    }
+  ]
+}

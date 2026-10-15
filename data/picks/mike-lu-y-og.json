@@ -1,0 +1,241 @@
+{
+  "title": "Mike, Lu y Og",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c12469577 c3012681",
+  "year": "1999",
+  "studio": "Cartoon N.",
+  "source": "lacartoons Oficial",
+  "quality": "360p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "1733899127369",
+      "title_raw": "MLO-01x01",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 8842,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=938766043826&type=32&idx=6&tkn=UnvUa-bSM32ZFM4TpWvyd3B4DHY&fn=external_8"
+    },
+    {
+      "video_id": "1733900503625",
+      "title_raw": "MLO-01x02",
+      "duration_raw": "22:37",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 2125,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=938766174898&type=32&idx=7&tkn=mtC6jIfcf31UZiHAWlB49UOFFB0&fn=external_8"
+    },
+    {
+      "video_id": "1733899389513",
+      "title_raw": "MLO-01x03",
+      "duration_raw": "22:15",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1181,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=938768075442&type=32&idx=10&tkn=a3Ify3PpkMXCNHxLu3iXGoxANRM&fn=external_8"
+    },
+    {
+      "video_id": "1733899455049",
+      "title_raw": "MLO-01x04",
+      "duration_raw": "22:31",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 924,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=938768468658&type=32&idx=1&tkn=EpsiZN5Ob1EZN8wEbBG07v5vIHo&fn=external_8"
+    },
+    {
+      "video_id": "1733899323977",
+      "title_raw": "MLO-01x05",
+      "duration_raw": "22:31",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 948,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=938769386162&type=32&idx=1&tkn=cBuYISjqzAsGMdNcFtX_S65LClA&fn=external_8"
+    },
+    {
+      "video_id": "1733899717193",
+      "title_raw": "MLO-01x06",
+      "duration_raw": "22:32",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 806,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=938782886578&type=32&idx=10&tkn=Kip4NrD-FIrAs7mjevb0rGgnOnA&fn=external_8"
+    },
+    {
+      "video_id": "1733899258441",
+      "title_raw": "MLO-01x08",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 684,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=938784131762&type=32&idx=11&tkn=KwdOllziFNR3pDtZtIRVkAfKaRA&fn=external_8"
+    },
+    {
+      "video_id": "1733900307017",
+      "title_raw": "MLO-01x09",
+      "duration_raw": "22:32",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 639,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=938784328370&type=32&idx=5&tkn=JI0s_gL3nerNIRSrJqgVN96wzMA&fn=external_8"
+    },
+    {
+      "video_id": "1733900765769",
+      "title_raw": "MLO-01x10",
+      "duration_raw": "22:32",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 817,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=938784918194&type=32&idx=2&tkn=r2rTssvsmHiHtJW6ldkERIHSheM&fn=external_8"
+    },
+    {
+      "video_id": "1733899848265",
+      "title_raw": "MLO-01x11",
+      "duration_raw": "22:32",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 586,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=940543904434&type=32&idx=12&tkn=vuuHSEVpJKrL2M1vtGmaCM6l5bU&fn=external_8"
+    },
+    {
+      "video_id": "1733900700233",
+      "title_raw": "MLO-01x12",
+      "duration_raw": "22:32",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 477,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=940544887474&type=32&idx=2&tkn=PN__XY5KorCugDLuKK-7mbQmPLc&fn=external_8"
+    },
+    {
+      "video_id": "1733899192905",
+      "title_raw": "MLO-01x13",
+      "duration_raw": "22:31",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 540,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=940547312306&type=32&idx=13&tkn=efPJH1uEjFrJn4IMB8axIgs1oac&fn=external_8"
+    },
+    {
+      "video_id": "1733899061833",
+      "title_raw": "MLO-02x01",
+      "duration_raw": "22:32",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 517,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=940548098738&type=32&idx=9&tkn=3MA1Fgo7TCfLgJf2ZUwao9NkBBY&fn=external_8"
+    },
+    {
+      "video_id": "1733900372553",
+      "title_raw": "MLO-02x02",
+      "duration_raw": "22:31",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 496,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=940550064818&type=32&idx=14&tkn=nvOg7xl9PEkFf_nGWh3SPROofzc&fn=external_8"
+    },
+    {
+      "video_id": "1733900044873",
+      "title_raw": "MLO-02x03",
+      "duration_raw": "22:31",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 716,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=940551572146&type=32&idx=12&tkn=1t5i8G9Ao-v-EXj6E_aGAyaVa28&fn=external_8"
+    },
+    {
+      "video_id": "1733900438089",
+      "title_raw": "MLO-02x04",
+      "duration_raw": "22:31",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 385,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=940578638514&type=32&idx=0&tkn=Pxh4dQIfm0HQi96d5o9hycDL7RI&fn=external_8"
+    },
+    {
+      "video_id": "1733900175945",
+      "title_raw": "MLO-02x05",
+      "duration_raw": "22:31",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 405,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=940553800370&type=32&idx=11&tkn=4T4_stzX56Ee5APaM-JzvJJONgw&fn=external_8"
+    },
+    {
+      "video_id": "1733899651657",
+      "title_raw": "MLO-02x06",
+      "duration_raw": "22:31",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 487,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=940554062514&type=32&idx=10&tkn=Z7WMOJNHr8vh8kQOjoj95PfULv4&fn=external_8"
+    },
+    {
+      "video_id": "1733900241481",
+      "title_raw": "MLO-02x07",
+      "duration_raw": "22:32",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 385,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=940556094130&type=32&idx=6&tkn=7xtbXTdCQxZE-Cihq_l_R41OftI&fn=external_8"
+    },
+    {
+      "video_id": "1733899586121",
+      "title_raw": "MLO-02x08",
+      "duration_raw": "22:32",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 484,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=940556356274&type=32&idx=11&tkn=f9KzcylBD2O6PZCTWG4MhmFD8dE&fn=external_8"
+    },
+    {
+      "video_id": "1733900110409",
+      "title_raw": "MLO-02x09",
+      "duration_raw": "22:37",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 403,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=940666718898&type=32&idx=12&tkn=pPm-vM_e1t0rAQG-PSTORWWNNYE&fn=external_8"
+    },
+    {
+      "video_id": "1733899979337",
+      "title_raw": "MLO-02x10",
+      "duration_raw": "22:36",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 395,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=940667243186&type=32&idx=2&tkn=Q19TjA-adpK4bPQMv_XJh08rlkA&fn=external_8"
+    },
+    {
+      "video_id": "1733899913801",
+      "title_raw": "MLO-02x11",
+      "duration_raw": "22:35",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 359,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=940670126770&type=32&idx=9&tkn=ZEBrnbWvMyYE9-RC3EuTfd0rgZY&fn=external_8"
+    },
+    {
+      "video_id": "1733899782729",
+      "title_raw": "MLO-02x12",
+      "duration_raw": "22:33",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 414,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=940670388914&type=32&idx=2&tkn=KcCDvOU4r5FWIdE9FxDlPJhIa5w&fn=external_8"
+    },
+    {
+      "video_id": "1733900634697",
+      "title_raw": "MLO-02x13",
+      "duration_raw": "22:35",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 769,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=940672617138&type=32&idx=8&tkn=soFLsMyhYODJbyrwLS8jUzYY_1M&fn=external_8"
+    }
+  ]
+}

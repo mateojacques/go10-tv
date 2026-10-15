@@ -1,0 +1,331 @@
+{
+  "title": "RoboCop: Alpha Commando",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c4864585",
+  "year": "1998",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "2490703088201",
+      "title_raw": "RoboCop Alpha Commando 01 Justice Reborn Part1 (WebRip) Lat-Esp-Eng_x264",
+      "duration_raw": "22:25",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 6300,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1291940596297&type=32&idx=13&tkn=ER9aHBuEP6YKwTNjGbWuVlvkzZI&fn=external_8"
+    },
+    {
+      "video_id": "2490703022665",
+      "title_raw": "RoboCop Alpha Commando 02 Justice Reborn Part2 (WebRip) Lat-Esp-Eng_x264",
+      "duration_raw": "22:23",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 1920,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1291932994121&type=32&idx=9&tkn=VCBtII-Twjx9vW6tACHk1AXWbFE&fn=external_8"
+    },
+    {
+      "video_id": "2490703284809",
+      "title_raw": "RoboCop Alpha Commando 03 Justice Reborn Part3 (WebRip) Lat-Esp-Eng_x264",
+      "duration_raw": "22:27",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1479,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1291966024265&type=32&idx=5&tkn=erTcPSHXYsdJsPUlzy2FfJcZNgA&fn=external_8"
+    },
+    {
+      "video_id": "2490703415881",
+      "title_raw": "RoboCop Alpha Commando 04 Doppleganger (WebRip) Lat-Esp-Eng_x264",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1323,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1291974281801&type=32&idx=1&tkn=UiLyPYOxyGEyCvFZrDe10kuZk7M&fn=external_8"
+    },
+    {
+      "video_id": "2490703612489",
+      "title_raw": "RoboCop Alpha Commando 05 Town Of Tomorrow (WebRip) Lat-Esp-Eng_x264",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1073,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1291991124553&type=32&idx=7&tkn=wDaBrReZazHYhBWwHTKzhrqqmOo&fn=external_8"
+    },
+    {
+      "video_id": "2490704529993",
+      "title_raw": "RoboCop Alpha Commando 06 Cyber Fagin (WebRip) Lat-Esp-Eng_x264",
+      "duration_raw": "22:28",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 1041,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1292104239689&type=32&idx=4&tkn=fg5JegVCfRBncc8BcNAcR3P3i4Q&fn=external_8"
+    },
+    {
+      "video_id": "2490704333385",
+      "title_raw": "RoboCop Alpha Commando 07 Plague On Ice (WebRip) Lat-Esp-Eng_x264",
+      "duration_raw": "22:25",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 871,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1292082678345&type=32&idx=13&tkn=OMJsU07b7xdeydur4V1IIAbeH1s&fn=external_8"
+    },
+    {
+      "video_id": "2490702826057",
+      "title_raw": "RoboCop Alpha Commando 08 Robo Racer (WebRip) Lat-Esp-Eng_x264",
+      "duration_raw": "22:28",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 918,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1291912022601&type=32&idx=1&tkn=JPXQzwexxgLkbj5TCyeVPIHkRaw&fn=external_8"
+    },
+    {
+      "video_id": "2490704005705",
+      "title_raw": "RoboCop Alpha Commando 09 The Hermanator (WebRip) Lat-Esp-Eng_x264",
+      "duration_raw": "22:28",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 931,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1292046568009&type=32&idx=0&tkn=GpuRZWh1gRRisbrc28jT7a0_TPw&fn=external_8"
+    },
+    {
+      "video_id": "2490703219273",
+      "title_raw": "RoboCop Alpha Commando 10 Robopop (WebRip) Lat-Esp-Eng_x264",
+      "duration_raw": "22:26",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 925,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1291957307977&type=32&idx=6&tkn=pCz_ZwD6hS4qvLolaZJUP4auMeY&fn=external_8"
+    },
+    {
+      "video_id": "2490703481417",
+      "title_raw": "RoboCop Alpha Commando 13 A Pretty Girl Is Like A Malady (WebRip) Lat -Eng_x264",
+      "duration_raw": "22:29",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 2545,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1291982277193&type=32&idx=8&tkn=cxf7qkQqhXefbmTmDQeabeZ_tn8&fn=external_8"
+    },
+    {
+      "video_id": "2490704202313",
+      "title_raw": "RoboCop Alpha Commando 15 Power Play (WebRip) Lat - Eng_x264",
+      "duration_raw": "22:27",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 787,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1292067605065&type=32&idx=7&tkn=J-r3_mWIEq0wSDK3kWFwCClME7M&fn=external_8"
+    },
+    {
+      "video_id": "2490703743561",
+      "title_raw": "RoboCop Alpha Commando 16 Deep Trouble (WebRip) Lat-Eng_x264",
+      "duration_raw": "22:28",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 752,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1292009146953&type=32&idx=8&tkn=WIzwpwzkRCZQUeR046Ed2InCMx0&fn=external_8"
+    },
+    {
+      "video_id": "2490702957129",
+      "title_raw": "RoboCop Alpha Commando 17 Maxsop 4 (WebRip) Lat-Eng_x264",
+      "duration_raw": "22:20",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 814,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1291925260873&type=32&idx=3&tkn=t1xvrLtGGxoLZc9A7ddQ9Jl5ryA&fn=external_8"
+    },
+    {
+      "video_id": "2490703678025",
+      "title_raw": "RoboCop Alpha Commando 18 Oh Tannenbaum Whoa Tannenbaum (WebRip) Lat-Eng_x264",
+      "duration_raw": "22:24",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 682,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1291999513161&type=32&idx=4&tkn=ks1D9yp_siZ3oi1P8ZuZuczFxMg&fn=external_8"
+    },
+    {
+      "video_id": "2490702039625",
+      "title_raw": "RoboCop Alpha Commando 19 We-ll Always Have Paris (WebRip) Lat-Eng_x264",
+      "duration_raw": "22:18",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 683,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1291837573705&type=32&idx=9&tkn=gpDfI1HMfKgNy5I4OmwHg3nlNRE&fn=external_8"
+    },
+    {
+      "video_id": "2490702694985",
+      "title_raw": "RoboCop Alpha Commando 20 Best Friends (WebRip) Lat-Eng_x264",
+      "duration_raw": "22:17",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 650,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1291896818249&type=32&idx=7&tkn=dvDsOh8Yt29pS-RR_M8wKw89rmw&fn=external_8"
+    },
+    {
+      "video_id": "2490702629449",
+      "title_raw": "RoboCop Alpha Commando 22 Robodog (WebRip) Lat-Eng_x264",
+      "duration_raw": "22:20",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 669,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1291888429641&type=32&idx=7&tkn=LQ_rWxrgUx3v5ghQZu8nJ3vxKTs&fn=external_8"
+    },
+    {
+      "video_id": "2490702105161",
+      "title_raw": "RoboCop Alpha Commando 23 Brawl In The Family (WebRip) Lat-Eng_x264",
+      "duration_raw": "22:18",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 647,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1291846027849&type=32&idx=0&tkn=1qXd3ESBb3-u3fdJmha0mFG5ios&fn=external_8"
+    },
+    {
+      "video_id": "2490702563913",
+      "title_raw": "RoboCop Alpha Commando 24 Cop Games (WebRip) Lat-Eng_x264",
+      "duration_raw": "22:21",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 662,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1291882007113&type=32&idx=6&tkn=JlqjLer6KsYnsO0Sx0smDuUlAnE&fn=external_8"
+    },
+    {
+      "video_id": "2490703874633",
+      "title_raw": "RoboCop Alpha Commando 25 H-2-Uh-Oh (WebRip) Lat-Eng_x264",
+      "duration_raw": "22:21",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 751,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1292029659721&type=32&idx=1&tkn=lpc0WqzUXvhI0nBM2PtcoVN0oSc&fn=external_8"
+    },
+    {
+      "video_id": "2490702432841",
+      "title_raw": "RoboCop Alpha Commando 26 Inside Out (WebRip) Lat-Eng_x264",
+      "duration_raw": "22:22",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 668,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1291865492041&type=32&idx=8&tkn=vY8gusS7Lmnuq0QHcV-gFw2ZJWc&fn=external_8"
+    },
+    {
+      "video_id": "2490702170697",
+      "title_raw": "RoboCop Alpha Commando 27 The Erg And I (WebRip) Lat-Esp-Eng_x264",
+      "duration_raw": "22:22",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 669,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1291852057161&type=32&idx=1&tkn=IzAg1CwhjYnGoNVdalsSb03tSCs&fn=external_8"
+    },
+    {
+      "video_id": "2490702498377",
+      "title_raw": "RoboCop Alpha Commando 28 Survival Of The Fittest (WebRip) Lat- Eng_x264",
+      "duration_raw": "22:21",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 638,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1291872176713&type=32&idx=3&tkn=4fMTwxPBiyMR0ilwGwMyHmQWoUI&fn=external_8"
+    },
+    {
+      "video_id": "2490702367305",
+      "title_raw": "RoboCop Alpha Commando 29 While You Were Sleeping (WebRip) Lat-Eng_x264",
+      "duration_raw": "22:22",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 699,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1291858938441&type=32&idx=0&tkn=XnmGYB4JmFH8nTtKhY8ofWQ6RHo&fn=external_8"
+    },
+    {
+      "video_id": "2490703809097",
+      "title_raw": "RoboCop Alpha Commando 30 Return Of The Hermanator (WebRip) Lat-Esp-Eng_x264",
+      "duration_raw": "22:22",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 634,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1292018846281&type=32&idx=13&tkn=7uTfuaTVM4U5taWmu5dPgQHjiho&fn=external_8"
+    },
+    {
+      "video_id": "2490703153737",
+      "title_raw": "RoboCop Alpha Commando 32 Family Reunion Part2 (WebRip) Lat-Eng_x264",
+      "duration_raw": "22:22",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 679,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1291950426697&type=32&idx=12&tkn=RWahuVUCI667BKnEum_V0kh5GUE&fn=external_8"
+    },
+    {
+      "video_id": "2490704595529",
+      "title_raw": "RoboCop Alpha Commando 33 Small Packages (WebRip) Lat-Eng_x264",
+      "duration_raw": "22:22",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 727,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1292112431689&type=32&idx=9&tkn=KkumQpajqgk_s4cY5L377u8vyV0&fn=external_8"
+    },
+    {
+      "video_id": "2490704464457",
+      "title_raw": "RoboCop Alpha Commando 34 Head Games (WebRip) Lat-Eng_x264",
+      "duration_raw": "22:22",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 646,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1292097227337&type=32&idx=8&tkn=6QBCROWqUJUQ4zgFpaPbyFB1ag4&fn=external_8"
+    },
+    {
+      "video_id": "2490704398921",
+      "title_raw": "RoboCop Alpha Commando 35 Darc Secrets (WebRip) Lat-Esp-Eng_x264",
+      "duration_raw": "22:25",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 661,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1292090411593&type=32&idx=13&tkn=nfGzFx87NdUXsk0cqgyE-SUsuKE&fn=external_8"
+    },
+    {
+      "video_id": "2490704267849",
+      "title_raw": "RoboCop Alpha Commando 36 Thank You Very Mulch (WebRip) Lat-Eng_x264",
+      "duration_raw": "22:22",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 608,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1292075338313&type=32&idx=14&tkn=GyZQ3yj_iwx4vW337uRyuSJr4iw&fn=external_8"
+    },
+    {
+      "video_id": "2490702760521",
+      "title_raw": "RoboCop Alpha Commando 37 Father-s Day (WebRip) Lat-Eng_x264",
+      "duration_raw": "22:25",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 616,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1291903306313&type=32&idx=2&tkn=Ts-2A7GkKeijYWXhpIyVUwaPRU4&fn=external_8"
+    },
+    {
+      "video_id": "2490702891593",
+      "title_raw": "RoboCop Alpha Commando 38 Out Of The Dark (WebRip) Lat-Esp-Eng_x264",
+      "duration_raw": "22:22",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 616,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1291919690313&type=32&idx=5&tkn=1Hu3gsCkrrTOSATuAIjiidv2Erc&fn=external_8"
+    },
+    {
+      "video_id": "2490704136777",
+      "title_raw": "RoboCop Alpha Commando 39 Das Re-Boot (WebRip) Lat-Esp-Eng_x264",
+      "duration_raw": "22:21",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 593,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1292058102345&type=32&idx=9&tkn=eW6hT8QQSB4CvfLR5AGaHXnn_VI&fn=external_8"
+    },
+    {
+      "video_id": "2490703940169",
+      "title_raw": "RoboCop Alpha Commando 40 Talk About.The Weather (WebRip) Lat-Esp-Eng_x264",
+      "duration_raw": "22:21",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 732,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1292038048329&type=32&idx=12&tkn=XtjtPHQD1RxJasKljiv0ChuoeWI&fn=external_8"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "title": "Power Rangers Super Samurai",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c5419593",
+  "year": "2012",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "720p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Acción",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "2812047264329",
+      "title_raw": "[SR] Power Rangers Super Samurai - 01_x264",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 14588,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1667576891977&type=37&idx=8&tkn=eAyfyM-G-wktbXFq5QX5PPIxMeo&fn=external_8"
+    },
+    {
+      "video_id": "2812046608969",
+      "title_raw": "[SR] Power Rangers Super Samurai - 02_x264",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 6430,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1667349350985&type=37&idx=7&tkn=8rv_AowtGC373TU07QiEYX2tiII&fn=external_8"
+    },
+    {
+      "video_id": "2812046936649",
+      "title_raw": "[SR] Power Rangers Super Samurai - 03_x264",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 5486,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1667476884041&type=37&idx=1&tkn=nXr9nkAwQCL6g9c_i8Fx1ljayrU&fn=external_8"
+    },
+    {
+      "video_id": "2812046477897",
+      "title_raw": "[SR] Power Rangers Super Samurai - 04_x264",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 4989,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1667274771017&type=37&idx=15&tkn=tM5FsMp-B13NfK3yulRiwtoxLM0&fn=external_8"
+    },
+    {
+      "video_id": "2812046346825",
+      "title_raw": "[SR] Power Rangers Super Samurai - 05_x264",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 4485,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1667189705289&type=37&idx=5&tkn=ZRtFlrBDXeQZHvkFcfNj5G7EWVM&fn=external_8"
+    },
+    {
+      "video_id": "2812047198793",
+      "title_raw": "[SR] Power Rangers Super Samurai - 06_x264",
+      "duration_raw": "23:39",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 5335,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1667560573513&type=37&idx=7&tkn=VhB5h_ZoRtz0eI99KSIHIzsKHWk&fn=external_8"
+    },
+    {
+      "video_id": "2812046871113",
+      "title_raw": "[SR] Power Rangers Super Samurai - 07_x264",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 4864,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1667457550921&type=37&idx=6&tkn=QGoOkB6M0f1lI-rt4-ePwk7QDGg&fn=external_8"
+    },
+    {
+      "video_id": "2812047002185",
+      "title_raw": "[SR] Power Rangers Super Samurai - 08_x264",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 4029,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1667496610377&type=37&idx=7&tkn=MEDLjlapAhQGNrS4Lm7ZtrJaGIE&fn=external_8"
+    },
+    {
+      "video_id": "2812047329865",
+      "title_raw": "[SR] Power Rangers Super Samurai - 09_x264",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 3984,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1667590851145&type=37&idx=9&tkn=qgM5En--akh9hRC6EJfbG3pWuZ0&fn=external_8"
+    },
+    {
+      "video_id": "2812046740041",
+      "title_raw": "[SR] Power Rangers Super Samurai - 10_x264",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 4241,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1667410037321&type=37&idx=4&tkn=UXg6Gt1-Oovk84PGVbikvFeUdkk&fn=external_8"
+    },
+    {
+      "video_id": "2812047460937",
+      "title_raw": "[SR] Power Rangers Super Samurai - 11_x264",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 3845,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1667602516553&type=37&idx=7&tkn=CnUZdxoy589wH1AlRxjOypzLos8&fn=external_8"
+    },
+    {
+      "video_id": "2812047133257",
+      "title_raw": "[SR] Power Rangers Super Samurai - 12_x264",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 4165,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1667539077705&type=37&idx=2&tkn=9jp24dXCS4PfDQ6xA_zgzN_Fd4c&fn=external_8"
+    },
+    {
+      "video_id": "2812046281289",
+      "title_raw": "[SR] Power Rangers Super Samurai - 13_x264",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 4603,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1667146844745&type=37&idx=2&tkn=VDMrlyS_Yztrok2buR18AmyGGcY&fn=external_8"
+    },
+    {
+      "video_id": "2812046805577",
+      "title_raw": "[SR] Power Rangers Super Samurai - 14_x264",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 4255,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1667436579401&type=37&idx=3&tkn=0ItZOVi5Jmut3Z48zuQXPo4rG_0&fn=external_8"
+    },
+    {
+      "video_id": "2812047067721",
+      "title_raw": "[SR] Power Rangers Super Samurai - 15_x264",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 4534,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1667517647433&type=37&idx=15&tkn=5Jb2qRwnq43ck45OJd2zBFgZ6ok&fn=external_8"
+    },
+    {
+      "video_id": "2812045953609",
+      "title_raw": "[SR] Power Rangers Super Samurai - 16_x264",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 5066,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1667020556873&type=37&idx=3&tkn=g3vQ1QIzvX6tQLT072ZTqofOo9E&fn=external_8"
+    },
+    {
+      "video_id": "2812046543433",
+      "title_raw": "[SR] Power Rangers Super Samurai - 17_x264",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 4762,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1667315337801&type=37&idx=3&tkn=RvHCtAnPF8MS8So46UaA2qPw_To&fn=external_8"
+    },
+    {
+      "video_id": "2812046412361",
+      "title_raw": "[SR] Power Rangers Super Samurai - 18_x264",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 4514,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1667229223497&type=37&idx=2&tkn=QY2jY4uFi-xE-wPm_Fh6jPYk5eE&fn=external_8"
+    },
+    {
+      "video_id": "2812046019145",
+      "title_raw": "[SR] Power Rangers Super Samurai - 19_x264",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 5132,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1667061058121&type=37&idx=11&tkn=FY-cu0PC6O4lvzBZER8kRUfb9VI&fn=external_8"
+    },
+    {
+      "video_id": "2812046084681",
+      "title_raw": "[SR] Power Rangers Super Samurai - 20_x264",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 7783,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1667099462217&type=37&idx=5&tkn=jX27R-dMelLnrMZ_OND1bOUhzHs&fn=external_8"
+    },
+    {
+      "video_id": "2812046674505",
+      "title_raw": "[SR] Power Rangers Super Samurai - 21_x264",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 2683,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1667374189129&type=37&idx=3&tkn=y38oOlMmJ_N3Bif1ixjpLHQqHgo&fn=external_8"
+    },
+    {
+      "video_id": "2812045888073",
+      "title_raw": "[SR] Power Rangers Super Samurai - 22_x264",
+      "duration_raw": "23:33",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 2228,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1666963278409&type=37&idx=10&tkn=mXtaCwx4Y75CxgLDL-13PXbJDso&fn=external_8"
+    }
+  ]
+}

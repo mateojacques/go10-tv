@@ -1,0 +1,25 @@
+{
+  "title": "Scooby-Doo y Scrappy-Doo",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2224201",
+  "year": "1979",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "1387722181193",
+      "title_raw": "1x16 - El rescate del jefe Scooby",
+      "duration_raw": "16:46",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 506,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2640863759018&type=32&idx=7&tkn=-aB9l1wIv8KnXakbzVvcoX4hRFE&fn=external_8"
+    }
+  ]
+}

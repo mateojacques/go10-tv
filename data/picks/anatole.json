@@ -1,0 +1,250 @@
+{
+  "title": "Anatole",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c5680457",
+  "year": "1998",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "2973105523273",
+      "title_raw": "Anatole_ La Aventura Parisina De Anatole - Ep.1 (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 1304,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1840105917001&type=32&idx=14&tkn=YjH4tE_TPoAKq0HTbQLv4aRz79o&fn=external_8"
+    },
+    {
+      "video_id": "2973105195593",
+      "title_raw": "Anatole_ Ratas Ce Alcantarilla - Ep.2 (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 286,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1840074787401&type=32&idx=15&tkn=nwsUDVcPFIH2sD54XziSATy_5Q4&fn=external_8"
+    },
+    {
+      "video_id": "2973104867913",
+      "title_raw": "Anatole_ El Ratón Que Gritó Aí Lobo - Ep.3 (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 182,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1840034679369&type=32&idx=15&tkn=ROopWae9BVnMOsmwRK4ixDyBo_k&fn=external_8"
+    },
+    {
+      "video_id": "2973105654345",
+      "title_raw": "Anatole_ La Ratona-Lisa - Ep.4 (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 147,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1840114633289&type=32&idx=6&tkn=PxvGAyHRiAsa_VfPZocAaNVtslo&fn=external_8"
+    },
+    {
+      "video_id": "2973104933449",
+      "title_raw": "Anatole_ El Evasor Ingenioso - Ep.5 (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 102,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1840041101897&type=32&idx=4&tkn=T8uE1M_v2mbE_FDDxoTdRcFWQns&fn=external_8"
+    },
+    {
+      "video_id": "2973106571849",
+      "title_raw": "Anatole_ La Aldea se Derrumba - Ep.6 (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 117,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1840211036745&type=32&idx=2&tkn=MLC-W-UhIQhR6xap8XoK6RuLuUk&fn=external_8"
+    },
+    {
+      "video_id": "2973105785417",
+      "title_raw": "Anatole_ Volando en las Alturas - Ep.7 (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 96,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1840131672649&type=32&idx=13&tkn=Jrey07KMAhXAJDTixh37m86kdOE&fn=external_8"
+    },
+    {
+      "video_id": "2973105261129",
+      "title_raw": "Anatole_ El Impostor Del Queso - Ep.8 (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 97,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1840083241545&type=32&idx=8&tkn=vmPZTyvNufmnCVpsz5UAt0zt5_s&fn=external_8"
+    },
+    {
+      "video_id": "2973105719881",
+      "title_raw": "Anatole_ El Fantasma Del Queso - Ep.9 (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 88,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1840124594761&type=32&idx=7&tkn=EdPNryM1kaL_vdoF0YzeNKPs_Fk&fn=external_8"
+    },
+    {
+      "video_id": "2973106375241",
+      "title_raw": "Anatole_ La Noche De Luces - Ep.10 (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 99,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1840186788425&type=32&idx=1&tkn=PyiKvQOFPSpHee1C2kxlGNCPFYc&fn=external_8"
+    },
+    {
+      "video_id": "2973106637385",
+      "title_raw": "Anatole_ Vida en el Bosque - Ep.11 (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 92,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1840218376777&type=32&idx=7&tkn=8U3uoCTxD21Oj8zYsRonDdm5ahw&fn=external_8"
+    },
+    {
+      "video_id": "2973106178633",
+      "title_raw": "Anatole_ Aventuras con los Gatos - Ep.12 (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 124,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1840167717449&type=32&idx=14&tkn=nHEb89B_yRpCNvZzMeUvduoAw-Y&fn=external_8"
+    },
+    {
+      "video_id": "2973105130057",
+      "title_raw": "Anatole_ El Jorobado De Notre Dame - Ep.13 (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 112,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1840065219145&type=32&idx=14&tkn=EmzOwDgJtqLAJMvO4Cdy0ivfZww&fn=external_8"
+    },
+    {
+      "video_id": "2973106309705",
+      "title_raw": "Anatole_ Anatole y el collar de parlas - Ep.14 (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 74,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1840180038217&type=32&idx=14&tkn=to4l5rxlKrNUKgS7Doqp9q21Mss&fn=external_8"
+    },
+    {
+      "video_id": "2973106113097",
+      "title_raw": "Anatole_ La obra Ratona maestra - Ep.15 (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 114,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1840160180809&type=32&idx=6&tkn=9idSr0use-fu4bAAyBuY6gExpLo&fn=external_8"
+    },
+    {
+      "video_id": "2973106244169",
+      "title_raw": "Anatole_ Te engañé - Ep.16 (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 61,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1840174402121&type=32&idx=10&tkn=nINoWYf4cuKbN702C9tkq2hdEDE&fn=external_8"
+    },
+    {
+      "video_id": "2973104736841",
+      "title_raw": "Anatole_ El tesono de la sutrue as - Ep.17 (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 57,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1840020064841&type=32&idx=9&tkn=_eRZTx8XbWaCQP2AU6HQ9JI28_0&fn=external_8"
+    },
+    {
+      "video_id": "2973106047561",
+      "title_raw": "Anatole_ La larga, larga noche - Ep.18 (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 61,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1840152447561&type=32&idx=6&tkn=xBzjMOiqiYbty-W_9y-LdEhZuiI&fn=external_8"
+    },
+    {
+      "video_id": "2973106702921",
+      "title_raw": "Anatole_ Los mouserables  - Ep.19 (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 84,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1840224864841&type=32&idx=10&tkn=6BedJhL__siQuvRqZuCe0FTou6U&fn=external_8"
+    },
+    {
+      "video_id": "2973105850953",
+      "title_raw": "Anatole_ Over the sea - Ep.20 (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 64,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1840138750537&type=32&idx=9&tkn=i5QY6NL7gpYKA7SUcO6C7wzrX9A&fn=external_8"
+    },
+    {
+      "video_id": "2973105064521",
+      "title_raw": "Anatole_ Anatole y el nuevo gato - Ep.21 (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 67,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1840054798921&type=32&idx=1&tkn=_CMOoCwa9Kai1wzCMycr7narJ4g&fn=external_8"
+    },
+    {
+      "video_id": "2973106506313",
+      "title_raw": "Anatole_ El misterio de la bailarina fantasma - Ep.22 (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 93,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1840202517065&type=32&idx=15&tkn=bZReacrwtGb9bKG61fTIahfks2s&fn=external_8"
+    },
+    {
+      "video_id": "2973104998985",
+      "title_raw": "Anatole_ El mundo del queso - Ep.23 (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 74,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1840047131209&type=32&idx=15&tkn=VLoz3WTwObmm56vIP5ZEY0up61Q&fn=external_8"
+    },
+    {
+      "video_id": "2973106440777",
+      "title_raw": "Anatole_ Un pendenciero para Anatole - Ep.24 (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 65,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1840193800777&type=32&idx=1&tkn=kf-QOduOp7Ds92fHZtXvexfIt7Y&fn=external_8"
+    },
+    {
+      "video_id": "2973105457737",
+      "title_raw": "Anatole_ Las aventuras de Paulette - Ep.25 (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 63,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1840092351049&type=32&idx=11&tkn=4JBIw8Iy2cObKUHbgtCZhwlsitk&fn=external_8"
+    },
+    {
+      "video_id": "2973104802377",
+      "title_raw": "Anatole_ Mi ratón favorito - Ep.26 (480p_30fps_H264-128kbit_AAC)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 93,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1840027535945&type=32&idx=4&tkn=QvQGda9n8SEc-yvsVjIzDGttCR0&fn=external_8"
+    }
+  ]
+}

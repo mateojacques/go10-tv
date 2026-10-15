@@ -1,0 +1,250 @@
+{
+  "title": "Extrema Evolución",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c4836425",
+  "year": "2001",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Ciencia Ficción",
+  "videos": [
+    {
+      "video_id": "2479048821321",
+      "title_raw": "Evolution the Animated Series E01 Sobreviviendo Parte 1",
+      "duration_raw": "20:47",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 3167,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279414635081&type=32&idx=1&tkn=MILrYhf96hYZDMlHkjPbD3qISx0&fn=external_8"
+    },
+    {
+      "video_id": "2479048952393",
+      "title_raw": "Evolution the Animated Series E02 Sobreviviendo Parte 2",
+      "duration_raw": "20:48",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 1109,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279417911881&type=32&idx=2&tkn=a3GY2MUlcBfuYgF4yccRv2Iq7H4&fn=external_8"
+    },
+    {
+      "video_id": "2479048100425",
+      "title_raw": "Evolution the Animated Series E03 Sobreviviendo Parte 3",
+      "duration_raw": "20:48",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 847,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279396940361&type=32&idx=5&tkn=njbbgDmVTGFO2LCABoXdAov9_Ms&fn=external_8"
+    },
+    {
+      "video_id": "2479047379529",
+      "title_raw": "Evolution the Animated Series E04 No bebas el agua",
+      "duration_raw": "20:49",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 906,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279385602633&type=32&idx=0&tkn=TplLKDFi1knrKijDmU1UxDHxw5Y&fn=external_8"
+    },
+    {
+      "video_id": "2479048362569",
+      "title_raw": "Evolution the Animated Series E05 Elegante",
+      "duration_raw": "20:48",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 656,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279402117705&type=32&idx=7&tkn=7TnYSlRwJAd_ULfrLDrrnLf1D_M&fn=external_8"
+    },
+    {
+      "video_id": "2479048690249",
+      "title_raw": "Evolution the Animated Series E06 Enjambre",
+      "duration_raw": "20:48",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 658,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279411292745&type=32&idx=9&tkn=5c6ZA_xFE8kHie4gYH5gl1GsQoI&fn=external_8"
+    },
+    {
+      "video_id": "2479048165961",
+      "title_raw": "Evolution the Animated Series E07 Fuego y Hielo",
+      "duration_raw": "20:48",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 599,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279397923401&type=32&idx=12&tkn=xhLKu19W2MN-GjYPkhBvnCQnc7k&fn=external_8"
+    },
+    {
+      "video_id": "2479047772745",
+      "title_raw": "Evolution the Animated Series E08 Colapso",
+      "duration_raw": "20:48",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 533,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279393663561&type=32&idx=13&tkn=7YJ0rNbctQsgB7yhU4_eOAzqLF0&fn=external_8"
+    },
+    {
+      "video_id": "2479047576137",
+      "title_raw": "Evolution the Animated Series E09 Perros de desague",
+      "duration_raw": "20:48",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 487,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279390059081&type=32&idx=14&tkn=GiBXK_dRrSlpsqjguiwhcxLfgto&fn=external_8"
+    },
+    {
+      "video_id": "2479047903817",
+      "title_raw": "Evolution the Animated Series E10 El metro fránces",
+      "duration_raw": "20:49",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 486,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279395826249&type=32&idx=9&tkn=rplXWzJU91bOCb7MbxIC0XWjSOk&fn=external_8"
+    },
+    {
+      "video_id": "2479048231497",
+      "title_raw": "Evolution the Animated Series E11 Escape forzado",
+      "duration_raw": "20:48",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 464,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279399103049&type=32&idx=3&tkn=4-y44cQ4vuypAWPcUznskyWY-eY&fn=external_8"
+    },
+    {
+      "video_id": "2479047838281",
+      "title_raw": "Evolution the Animated Series E12 Las células muertas de Wayne",
+      "duration_raw": "20:47",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 417,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279394712137&type=32&idx=5&tkn=OH7TAW1Th_kzvVjUFip2L4tejYI&fn=external_8"
+    },
+    {
+      "video_id": "2479049083465",
+      "title_raw": "Evolution the Animated Series E13 Vacaciones en Roma",
+      "duration_raw": "20:49",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 518,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279420926537&type=32&idx=1&tkn=vMtuFljEsKZaPpA17x-Xi6RTBnc&fn=external_8"
+    },
+    {
+      "video_id": "2479047445065",
+      "title_raw": "Evolution the Animated Series E14 Aventura en Cartago",
+      "duration_raw": "20:47",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 413,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279387044425&type=32&idx=12&tkn=iu16iRorMDsfYIcY5luHd8S3qzk&fn=external_8"
+    },
+    {
+      "video_id": "2479048755785",
+      "title_raw": "Evolution the Animated Series E15 Año del Genus",
+      "duration_raw": "20:48",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 370,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279413258825&type=32&idx=13&tkn=X10A3mLC0J6oVtAx861Sj4Gmkf0&fn=external_8"
+    },
+    {
+      "video_id": "2479047313993",
+      "title_raw": "Evolution the Animated Series E16 Java Caliente",
+      "duration_raw": "20:48",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 357,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279382915657&type=32&idx=2&tkn=IwBCpe1IvorCiyTv865wCGELQsI&fn=external_8"
+    },
+    {
+      "video_id": "2479047707209",
+      "title_raw": "Evolution the Animated Series E17 Ira sabe más",
+      "duration_raw": "20:01",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 390,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279392811593&type=32&idx=6&tkn=XeBhDAyjOLJGHUVo0ZXHQz9W1Ww&fn=external_8"
+    },
+    {
+      "video_id": "2479047510601",
+      "title_raw": "Evolution the Animated Series E18 Con ganas de Genus",
+      "duration_raw": "20:02",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 330,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279388355145&type=32&idx=12&tkn=ZHTJp9fyyRcCf3Yf6NiNuoahPVA&fn=external_8"
+    },
+    {
+      "video_id": "2479047641673",
+      "title_raw": "Evolution the Animated Series E19 Genus en el tanque",
+      "duration_raw": "20:47",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 352,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279391369801&type=32&idx=5&tkn=CM4Wtc-NtWBVAc8X_qq1LtcJBWA&fn=external_8"
+    },
+    {
+      "video_id": "2479048559177",
+      "title_raw": "Evolution the Animated Series E20 La cuna se cae",
+      "duration_raw": "20:48",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 353,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279408474697&type=32&idx=9&tkn=ibhYEK07uT0ZM1ypUCqsMkHtHDA&fn=external_8"
+    },
+    {
+      "video_id": "2479048886857",
+      "title_raw": "Evolution the Animated Series E21 Caso de Cabeza",
+      "duration_raw": "20:49",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 297,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279416797769&type=32&idx=4&tkn=OFklSkGbq5t_JSxrVrM__OfR0Lk&fn=external_8"
+    },
+    {
+      "video_id": "2479048493641",
+      "title_raw": "Evolution the Animated Series E22 Final del Juego",
+      "duration_raw": "20:48",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 306,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279406312009&type=32&idx=7&tkn=NrQpIUonOso_jQdVqUDvH2DHKg4&fn=external_8"
+    },
+    {
+      "video_id": "2479048624713",
+      "title_raw": "Evolution the Animated Series E23 Desorden General",
+      "duration_raw": "20:49",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 313,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279409588809&type=32&idx=14&tkn=Td2GctbW7L5nqyC4j3sjapdnxbo&fn=external_8"
+    },
+    {
+      "video_id": "2479048428105",
+      "title_raw": "Evolution the Animated Series E24 Segadora 1",
+      "duration_raw": "20:49",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 302,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279404149321&type=32&idx=12&tkn=akWatNIAv9pLB5zAFfR-GEDxnEo&fn=external_8"
+    },
+    {
+      "video_id": "2479048297033",
+      "title_raw": "Evolution the Animated Series E25 Segadora 2",
+      "duration_raw": "20:47",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 354,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279400086089&type=32&idx=14&tkn=DlADf1puWa0PjsepaefwAC-vxLE&fn=external_8"
+    },
+    {
+      "video_id": "2479049017929",
+      "title_raw": "Evolution the Animated Series E26 Alfa y Omega",
+      "duration_raw": "21:25",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 533,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1279420074569&type=32&idx=8&tkn=HMnFoQq8_D4MxLmVfMosHCDmGZs&fn=external_8"
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "title": "El Increíble Hulk",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2277193",
+  "year": "1996",
+  "studio": "Marvel",
+  "source": "lacartoons Oficial",
+  "quality": "360p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Superhéroes",
+  "videos": [
+    {
+      "video_id": "1429844462153",
+      "title_raw": "El Increible Hulk de los 90s 01",
+      "duration_raw": "21:32",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 31411,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=604093614665&type=32&idx=10&tkn=CGgCamOorsv7MqJBM1K3LJ_qJag&fn=external_8"
+    },
+    {
+      "video_id": "1429844331081",
+      "title_raw": "El Increible Hulk de los 90s 02",
+      "duration_raw": "19:43",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 7423,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=604093286985&type=32&idx=4&tkn=N3TZF697GR5oSZDz6qcQvETNS94&fn=external_8"
+    },
+    {
+      "video_id": "1429844789833",
+      "title_raw": "El Increible Hulk de los 90s 03",
+      "duration_raw": "20:33",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 5891,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=604094270025&type=32&idx=2&tkn=eMkjlQlqHlMOHYGzozP5Fp-JbBk&fn=external_8"
+    },
+    {
+      "video_id": "1429844920905",
+      "title_raw": "El Increible Hulk de los 90s 04",
+      "duration_raw": "21:04",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 4993,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=604094466633&type=32&idx=5&tkn=F9PWjXd3dkcTfHmqNG3g4kQJ8dA&fn=external_8"
+    },
+    {
+      "video_id": "1429844593225",
+      "title_raw": "El Increible Hulk de los 90s 05",
+      "duration_raw": "19:26",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 4282,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=604093811273&type=32&idx=7&tkn=kKNP4SkUZh1kj_tA4FlQjhugNdE&fn=external_8"
+    },
+    {
+      "video_id": "1429845051977",
+      "title_raw": "El Increible Hulk de los 90s 06",
+      "duration_raw": "19:56",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 4661,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=604094859849&type=32&idx=5&tkn=YSR8-hR7BJOj7ZAFRNBGQ6dzJwY&fn=external_8"
+    },
+    {
+      "video_id": "1429844724297",
+      "title_raw": "El Increible Hulk de los 90s 07",
+      "duration_raw": "20:23",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 4741,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=604094138953&type=32&idx=14&tkn=YiRtZr69EdkepbtgOCo-n_dzBso&fn=external_8"
+    },
+    {
+      "video_id": "1429844855369",
+      "title_raw": "El Increible Hulk de los 90s 08",
+      "duration_raw": "19:54",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 3979,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=604094335561&type=32&idx=3&tkn=IaXQ_K1di7GbUOv3Q0m8WVjlRjs&fn=external_8"
+    },
+    {
+      "video_id": "1429844658761",
+      "title_raw": "El Increible Hulk de los 90s 09",
+      "duration_raw": "19:27",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 3179,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=604093942345&type=32&idx=7&tkn=pXEXyGRFi35RCImZfOtw69wlIp0&fn=external_8"
+    },
+    {
+      "video_id": "1429844396617",
+      "title_raw": "El Increible Hulk de los 90s 10",
+      "duration_raw": "20:25",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 3006,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=604093418057&type=32&idx=9&tkn=p-KgI5z7d0fNDWR7kR-DKpumMeo&fn=external_8"
+    },
+    {
+      "video_id": "1429844265545",
+      "title_raw": "El Increible Hulk de los 90s 11",
+      "duration_raw": "20:24",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 3165,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=604093090377&type=32&idx=12&tkn=pbmllBtPjl_G0dGPW1QGFZ5Cyx8&fn=external_8"
+    },
+    {
+      "video_id": "1429844200009",
+      "title_raw": "El Increible Hulk de los 90s 12",
+      "duration_raw": "20:58",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 2965,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=604092959305&type=32&idx=2&tkn=I3fgPnZjb1LmioaAij7nZAOtIks&fn=external_8"
+    },
+    {
+      "video_id": "1429845183049",
+      "title_raw": "El Increible Hulk de los 90s 13",
+      "duration_raw": "20:24",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 3077,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=604095056457&type=32&idx=1&tkn=LmxrJTnkl3z86c_pFQGXmj5EeMo&fn=external_8"
+    },
+    {
+      "video_id": "1429845314121",
+      "title_raw": "El Increible Hulk de los 90s 14",
+      "duration_raw": "21:12",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 4913,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=604095318601&type=32&idx=0&tkn=WxT_mXVb3gBwUfzUGhF3sSRQVso&fn=external_8"
+    },
+    {
+      "video_id": "1429845445193",
+      "title_raw": "El Increible Hulk de los 90s 15",
+      "duration_raw": "20:39",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 3792,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=604095449673&type=32&idx=1&tkn=Rzx5GTpMq-IwmdG_1MR02bt1So8&fn=external_8"
+    },
+    {
+      "video_id": "1429845510729",
+      "title_raw": "El Increible Hulk de los 90s 16",
+      "duration_raw": "21:12",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 3568,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=604095515209&type=32&idx=6&tkn=BKpls971ttq9IdsecCNYU_zfCT0&fn=external_8"
+    },
+    {
+      "video_id": "1429844527689",
+      "title_raw": "El Increible Hulk de los 90s 17",
+      "duration_raw": "21:07",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 2814,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=604093680201&type=32&idx=3&tkn=vsThsMDAooRMcn1iZlmG4Y1AW84&fn=external_8"
+    },
+    {
+      "video_id": "1429845379657",
+      "title_raw": "El Increible Hulk de los 90s 18",
+      "duration_raw": "21:35",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 2581,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=604095384137&type=32&idx=5&tkn=tKlaiiNyQsU5_tMTVn_rQTCp6hg&fn=external_8"
+    },
+    {
+      "video_id": "1429845248585",
+      "title_raw": "El Increible Hulk de los 90s 19",
+      "duration_raw": "21:07",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 2376,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=604095187529&type=32&idx=8&tkn=fQ81Zx9DbJQ3VPZjmR935uOElcM&fn=external_8"
+    },
+    {
+      "video_id": "1429845117513",
+      "title_raw": "El Increible Hulk de los 90s 20",
+      "duration_raw": "20:39",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 2177,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=604094990921&type=32&idx=10&tkn=-L6yCkXN-UagP8btzgqiC4p946U&fn=external_8"
+    },
+    {
+      "video_id": "1429844986441",
+      "title_raw": "El Increible Hulk de los 90s 21",
+      "duration_raw": "20:39",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 3307,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=604094663241&type=32&idx=5&tkn=Ea90Gt-3_lmXo-RI6Zh0PX1FzJo&fn=external_8"
+    }
+  ]
+}

@@ -1,0 +1,1183 @@
+{
+  "title": "Los Superamigos",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2210377 c2210633 c2210889 c2211145 c2211401 c2211657 c2211913 c2212169 c2212425",
+  "year": "1973",
+  "studio": "DC",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Superhéroes",
+  "videos": [
+    {
+      "video_id": "1372446591561",
+      "title_raw": "Superamigos 1x01 The power pirate_x264",
+      "duration_raw": "45:07",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 55407,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=592632154697&type=32&idx=2&tkn=21oRifj6JrHFQZhSPOjoMUZZe6w&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1372446788169",
+      "title_raw": "Superamigos 1x02 The Baffles Puzzle.",
+      "duration_raw": "44:52",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 10072,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8879676131848&type=32&idx=1&tkn=ZwL6uEnCWyr7HpA0fJiaTefoyQc&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1372445805129",
+      "title_raw": "Superamigos 1x03 Professor Goodfellow-s g.e.e.c._x264",
+      "duration_raw": "45:06",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 5868,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=592592964169&type=32&idx=12&tkn=yuYMXgAZ-xJxTQ2NJbtwtQPF1tk&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1372446919241",
+      "title_raw": "Superamigos 1x04 The Weather Maker",
+      "duration_raw": "44:39",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 5073,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8879677704712&type=32&idx=1&tkn=J-QgcJ1mePWXgd2mYAP9v-fe8Tw&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1372446984777",
+      "title_raw": "Superamigos 1x05 Dr. Pelagian's War",
+      "duration_raw": "43:53",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 3932,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8879720237576&type=32&idx=8&tkn=9mQvjX2z53u5CyVBEEch58PpA1s&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1372446853705",
+      "title_raw": "Superamigos 1x06 The Shamon U",
+      "duration_raw": "43:52",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 3073,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8879678229000&type=32&idx=12&tkn=7o-gikp8idj-hPds0XCJeICpX7c&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1372446329417",
+      "title_raw": "Superamigos 1x07 Too Hot To Handle_x264",
+      "duration_raw": "43:47",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 3378,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=592619702857&type=32&idx=12&tkn=kuH7S_UHlpw6KdB_fIG1ZTp8dMI&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1372445870665",
+      "title_raw": "Superamigos 1x08 The Androids_x264",
+      "duration_raw": "44:48",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 3208,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=592596961865&type=32&idx=2&tkn=TDuMzsU46KUMu5lDMDyi2eFCNxM&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1372446198345",
+      "title_raw": "Superamigos 1x09 The Balloon People_x264",
+      "duration_raw": "44:08",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 2539,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=592612297289&type=32&idx=11&tkn=Gv0Gf1QyNMYvY_1L4PCHd_o9vWQ&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1372446526025",
+      "title_raw": "Superamigos 1x10 The Fantastic Frerps_x264",
+      "duration_raw": "44:42",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 2820,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=592628550217&type=32&idx=6&tkn=IY452BFsLwUADf1-hPF9r0k83rs&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1372446067273",
+      "title_raw": "Superamigos 1x11- The Ultra Beam_x264",
+      "duration_raw": "45:30",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 2460,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=592605940297&type=32&idx=2&tkn=kLcvAuxaoBXaQ35S35Ec083p7V8&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1372446657097",
+      "title_raw": "Superamigos 1x12- The Menace Of The White Dwarf_x264",
+      "duration_raw": "45:02",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 2334,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=592635497033&type=32&idx=1&tkn=k-pA7g0SIPxJ-SryKsQbQv0yjs4&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1372446394953",
+      "title_raw": "Superamigos 1x13- The Mysterious Moles_x264",
+      "duration_raw": "45:28",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 2291,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=592622914121&type=32&idx=1&tkn=KBukK1UnV-8zCPYjfyHZlx4ssVA&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1372445739593",
+      "title_raw": "Superamigos 1x14- Gulliver-s Gigantic Goof_x264",
+      "duration_raw": "45:06",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 2828,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=592588638793&type=32&idx=3&tkn=G2tZWNp6RLOgKMKqOFIuge6GOms&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1372446132809",
+      "title_raw": "Superamigos 1x15- The Planet Splitter_x264",
+      "duration_raw": "45:07",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 2246,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=592609217097&type=32&idx=13&tkn=MmSSeCtJazdjUITAPAJ3hOaUgck&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1372446263881",
+      "title_raw": "Superamigos 1x16- The Watermen_x264",
+      "duration_raw": "45:04",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 4287,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=592616032841&type=32&idx=9&tkn=eKuRGrZgNbTgIJlUUktdubOzAqw&fn=external_8",
+      "quality": "360p"
+    },
+    {
+      "video_id": "1372623211081",
+      "title_raw": "T2 01 The Brain Machine",
+      "duration_raw": "07:41",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 2760,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844835785242&type=32&idx=3&tkn=Ao4CDR9NQd9qEJCC4jEZHR8_Ls0&fn=external_8"
+    },
+    {
+      "video_id": "1372621245001",
+      "title_raw": "T2 02 Joy Ride",
+      "duration_raw": "05:10",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 1919,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844837554714&type=32&idx=13&tkn=NF8Q-U2NSyh1aelk0pngP3EcECg&fn=external_8"
+    },
+    {
+      "video_id": "1372622555721",
+      "title_raw": "T2 03 Whirlpool",
+      "duration_raw": "08:48",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 1874,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844836112922&type=32&idx=3&tkn=hkmJupCBOojRyFBHNqv6Ka7BABE&fn=external_8"
+    },
+    {
+      "video_id": "1372622686793",
+      "title_raw": "T2 04 The Secret Four",
+      "duration_raw": "07:41",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 1992,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844836899354&type=32&idx=2&tkn=QnOTP1p4p56wbHwwsG1MiadsqKA&fn=external_8"
+    },
+    {
+      "video_id": "1372622490185",
+      "title_raw": "T2 05 Tiger On The Loose",
+      "duration_raw": "05:11",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 1588,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844837161498&type=32&idx=3&tkn=Io7bLhG3goyAVT5rYaG11VMB8JU&fn=external_8"
+    },
+    {
+      "video_id": "1372621900361",
+      "title_raw": "T2 06 The Antidote",
+      "duration_raw": "08:54",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 1663,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844837358106&type=32&idx=0&tkn=2t1FG8N5d4mKMysRICP8vOacewo&fn=external_8"
+    },
+    {
+      "video_id": "1372623145545",
+      "title_raw": "T2 07 Invasion Of The Hydronoids",
+      "duration_raw": "07:40",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 1651,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844836571674&type=32&idx=12&tkn=YUA5EnVCnlHtHzsuo9HcRclipVY&fn=external_8"
+    },
+    {
+      "video_id": "1372622359113",
+      "title_raw": "T2 08 Hitchhike",
+      "duration_raw": "05:09",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 3250,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844840831514&type=32&idx=4&tkn=ntQ1-NMSM8Uus4ZvUUiSaifQTdw&fn=external_8"
+    },
+    {
+      "video_id": "1372622162505",
+      "title_raw": "T2 09 Space Emergency",
+      "duration_raw": "08:48",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 1523,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844837816858&type=32&idx=8&tkn=KsqUEhr9VwtQwPOeT7YIdE_ar68&fn=external_8"
+    },
+    {
+      "video_id": "1372622031433",
+      "title_raw": "T2 10 Doctor Fright",
+      "duration_raw": "07:44",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 1595,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844838734362&type=32&idx=14&tkn=ViVUEuNvuSsPTXJUCa-LhHHrNe8&fn=external_8"
+    },
+    {
+      "video_id": "1372621376073",
+      "title_raw": "T2 11 Drag Race",
+      "duration_raw": "05:14",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 1378,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844841028122&type=32&idx=6&tkn=wGR-e_jz9nnOsBOuiPelyFN6MoQ&fn=external_8"
+    },
+    {
+      "video_id": "1372621834825",
+      "title_raw": "T2 12 Fire",
+      "duration_raw": "08:55",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 1420,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844838144538&type=32&idx=4&tkn=aB5GMoQ7OC8jGxiTBy3ZzAvtIPQ&fn=external_8"
+    },
+    {
+      "video_id": "1372621965897",
+      "title_raw": "T2 13 The Monster Of Doctor Droid",
+      "duration_raw": "07:44",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 1864,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844839914010&type=32&idx=14&tkn=UHE2XKgbTe_azC3FESxG0JIkM40&fn=external_8"
+    },
+    {
+      "video_id": "1372621638217",
+      "title_raw": "T2 14 Vandals",
+      "duration_raw": "05:12",
+      "season_number": 2,
+      "episode_number": 14,
+      "views": 1292,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844840241690&type=32&idx=4&tkn=YklDAmAOjaTdG77zbmq9o4mx-nY&fn=external_8"
+    },
+    {
+      "video_id": "1372621441609",
+      "title_raw": "T2 15 The Energy Mass",
+      "duration_raw": "08:54",
+      "season_number": 2,
+      "episode_number": 15,
+      "views": 1438,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844838996506&type=32&idx=2&tkn=2pa183F9kIHj5K7Z8OREu_3YHeY&fn=external_8"
+    },
+    {
+      "video_id": "1372622817865",
+      "title_raw": "T2 16 The Enforcer",
+      "duration_raw": "07:42",
+      "season_number": 2,
+      "episode_number": 16,
+      "views": 1345,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844838406682&type=32&idx=8&tkn=377-KxV3Z_15wYxiCgDKKZWaw4A&fn=external_8"
+    },
+    {
+      "video_id": "1372623276617",
+      "title_raw": "T2 17 Shark",
+      "duration_raw": "05:12",
+      "season_number": 2,
+      "episode_number": 17,
+      "views": 1592,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844839389722&type=32&idx=6&tkn=jqq3zdr6PEHBMfqYsQ_4OVYf-7c&fn=external_8"
+    },
+    {
+      "video_id": "1372622948937",
+      "title_raw": "T2 18 Flood Of Diamonds",
+      "duration_raw": "08:49",
+      "season_number": 2,
+      "episode_number": 18,
+      "views": 1452,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844840700442&type=32&idx=0&tkn=wixltZuJUwHTsSCgFg-71SGmdOs&fn=external_8"
+    },
+    {
+      "video_id": "1372621703753",
+      "title_raw": "T2 40 The Marsh Monster",
+      "duration_raw": "07:42",
+      "season_number": 2,
+      "episode_number": 40,
+      "views": 1771,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844840897050&type=32&idx=14&tkn=k5x5keAdBk3Peqli3lQIeKXE4Rw&fn=external_8"
+    },
+    {
+      "video_id": "1372622228041",
+      "title_raw": "T2 41 Runaways",
+      "duration_raw": "05:15",
+      "season_number": 2,
+      "episode_number": 41,
+      "views": 1643,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844839193114&type=32&idx=7&tkn=i8ka4O8G-eYfGfxZdeuhd_VrwBo&fn=external_8"
+    },
+    {
+      "video_id": "1372621769289",
+      "title_raw": "T2 42 Time Rescue",
+      "duration_raw": "08:55",
+      "season_number": 2,
+      "episode_number": 42,
+      "views": 2341,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844841355802&type=32&idx=6&tkn=OS9c_cEVUbRvbKVMjmOJ5D4RsKk&fn=external_8"
+    },
+    {
+      "video_id": "1372677016137",
+      "title_raw": "SF3-01",
+      "duration_raw": "22:46",
+      "season_number": 3,
+      "episode_number": 1,
+      "views": 5244,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844481956378&type=32&idx=4&tkn=egREj3QuR_p8tV_WicwAsIcmgj4&fn=external_8"
+    },
+    {
+      "video_id": "1372676295241",
+      "title_raw": "SF3-02",
+      "duration_raw": "22:39",
+      "season_number": 3,
+      "episode_number": 2,
+      "views": 2425,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844482480666&type=32&idx=12&tkn=LBRmntxfiqdJ55v1_IxxgDCtpmY&fn=external_8"
+    },
+    {
+      "video_id": "1372676753993",
+      "title_raw": "SF3-03",
+      "duration_raw": "22:52",
+      "season_number": 3,
+      "episode_number": 3,
+      "views": 1961,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844482677274&type=32&idx=2&tkn=ctyhrNTilGfoiyaLeVBZLMjF9WY&fn=external_8"
+    },
+    {
+      "video_id": "1372677081673",
+      "title_raw": "SF3-04",
+      "duration_raw": "22:46",
+      "season_number": 3,
+      "episode_number": 4,
+      "views": 1876,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844483529242&type=32&idx=5&tkn=rQToW0RzZogCtc2FYr61s914w-g&fn=external_8"
+    },
+    {
+      "video_id": "1372676360777",
+      "title_raw": "SF3-05",
+      "duration_raw": "22:45",
+      "season_number": 3,
+      "episode_number": 5,
+      "views": 1471,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844484119066&type=32&idx=2&tkn=2ipdLdalFxeiZT88IJ671Z7NLAU&fn=external_8"
+    },
+    {
+      "video_id": "1372676819529",
+      "title_raw": "SF3-06",
+      "duration_raw": "22:51",
+      "season_number": 3,
+      "episode_number": 6,
+      "views": 2087,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844483201562&type=32&idx=11&tkn=UZ0kQNo1ICNC4vPwWGhV-kSfE8E&fn=external_8"
+    },
+    {
+      "video_id": "1372676885065",
+      "title_raw": "SF3-07",
+      "duration_raw": "22:49",
+      "season_number": 3,
+      "episode_number": 7,
+      "views": 1558,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844482218522&type=32&idx=2&tkn=-oVIuGHO2vzmwdI45dtQgdVZP1U&fn=external_8"
+    },
+    {
+      "video_id": "1372676491849",
+      "title_raw": "SF3-08",
+      "duration_raw": "22:48",
+      "season_number": 3,
+      "episode_number": 8,
+      "views": 1929,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844484774426&type=32&idx=1&tkn=6yEnloj1t6wgcvCaXCMVnFTWUlY&fn=external_8"
+    },
+    {
+      "video_id": "1372677278281",
+      "title_raw": "SF3-09",
+      "duration_raw": "22:44",
+      "season_number": 3,
+      "episode_number": 9,
+      "views": 1591,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844485364250&type=32&idx=14&tkn=W1Tsqu5iI9NMflz4C0Pe_xsaT4k&fn=external_8"
+    },
+    {
+      "video_id": "1372676688457",
+      "title_raw": "SF3-10",
+      "duration_raw": "22:42",
+      "season_number": 3,
+      "episode_number": 10,
+      "views": 1309,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844485560858&type=32&idx=8&tkn=d0FIOmOHkCRUYy91E-vDuavQ2PY&fn=external_8"
+    },
+    {
+      "video_id": "1372676950601",
+      "title_raw": "SF3-11",
+      "duration_raw": "22:46",
+      "season_number": 3,
+      "episode_number": 11,
+      "views": 1282,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844485888538&type=32&idx=12&tkn=oI-fLKsqNNBw8CmBx-laJ8_w8-M&fn=external_8"
+    },
+    {
+      "video_id": "1372676557385",
+      "title_raw": "SF3-12",
+      "duration_raw": "22:41",
+      "season_number": 3,
+      "episode_number": 12,
+      "views": 1424,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844485495322&type=32&idx=12&tkn=kmg_58BZ3VieyDDOcTlgX-ke0C4&fn=external_8"
+    },
+    {
+      "video_id": "1372677212745",
+      "title_raw": "SF3-13",
+      "duration_raw": "22:38",
+      "season_number": 3,
+      "episode_number": 13,
+      "views": 1975,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844485102106&type=32&idx=14&tkn=-Yt_1n1HW_eaDWEDm0DE9IwZoC4&fn=external_8"
+    },
+    {
+      "video_id": "1372677147209",
+      "title_raw": "SF3-14",
+      "duration_raw": "22:47",
+      "season_number": 3,
+      "episode_number": 14,
+      "views": 1697,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7109333093095&type=32&idx=7&tkn=zZUvItPIFexPQrkmdCbbU04dfDg&fn=external_8"
+    },
+    {
+      "video_id": "1372676426313",
+      "title_raw": "SF3-15",
+      "duration_raw": "22:50",
+      "season_number": 3,
+      "episode_number": 15,
+      "views": 1233,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844483791386&type=32&idx=4&tkn=fwwPgwOfubM078qQyHJ-NvHReiU&fn=external_8"
+    },
+    {
+      "video_id": "1372676622921",
+      "title_raw": "SF3-16",
+      "duration_raw": "22:43",
+      "season_number": 3,
+      "episode_number": 16,
+      "views": 1542,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844482546202&type=32&idx=13&tkn=E7LZ4eupc4gUGiD7LBOYpH6wJCw&fn=external_8"
+    },
+    {
+      "video_id": "1372681931337",
+      "title_raw": "WGSF-01",
+      "duration_raw": "22:13",
+      "season_number": 4,
+      "episode_number": 1,
+      "views": 2606,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2542471940800&type=32&idx=9&tkn=M4izVv_PkPM-h6dftZvHzg0OzqU&fn=external_8",
+      "quality": "240p"
+    },
+    {
+      "video_id": "1372681865801",
+      "title_raw": "WGSF-02",
+      "duration_raw": "22:10",
+      "season_number": 4,
+      "episode_number": 2,
+      "views": 2199,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844499257882&type=32&idx=9&tkn=VtTlguyT5aw_FVB86bWgQnqv7uI&fn=external_8",
+      "quality": "240p"
+    },
+    {
+      "video_id": "1372682062409",
+      "title_raw": "WGSF-03",
+      "duration_raw": "22:01",
+      "season_number": 4,
+      "episode_number": 3,
+      "views": 1765,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844499978778&type=32&idx=12&tkn=eDusAwduTKPHo5dlG-TnEX9Liak&fn=external_8",
+      "quality": "240p"
+    },
+    {
+      "video_id": "1372682324553",
+      "title_raw": "WGSF-04",
+      "duration_raw": "22:05",
+      "season_number": 4,
+      "episode_number": 4,
+      "views": 1540,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8879572978184&type=32&idx=4&tkn=MmOssE-5GwfC7uBuYITY0icdgmQ&fn=external_8",
+      "quality": "240p"
+    },
+    {
+      "video_id": "1372682127945",
+      "title_raw": "WGSF-05",
+      "duration_raw": "22:09",
+      "season_number": 4,
+      "episode_number": 5,
+      "views": 1629,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844500044314&type=32&idx=8&tkn=irJisXex62v-h1PfAI4oL2B6Hy0&fn=external_8",
+      "quality": "240p"
+    },
+    {
+      "video_id": "1372682259017",
+      "title_raw": "WGSF-06",
+      "duration_raw": "22:14",
+      "season_number": 4,
+      "episode_number": 6,
+      "views": 1535,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8879574419976&type=32&idx=15&tkn=hXI7z0DKcwdMtOSBj_ZiSbRxcH4&fn=external_8",
+      "quality": "240p"
+    },
+    {
+      "video_id": "1372682193481",
+      "title_raw": "WGSF-07",
+      "duration_raw": "22:11",
+      "season_number": 4,
+      "episode_number": 7,
+      "views": 2064,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8879575534088&type=32&idx=1&tkn=dgUIEsY_A82fEm4qryaA1XoaIUQ&fn=external_8",
+      "quality": "240p"
+    },
+    {
+      "video_id": "1372681996873",
+      "title_raw": "WGSF-08",
+      "duration_raw": "22:11",
+      "season_number": 4,
+      "episode_number": 8,
+      "views": 1589,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844498995738&type=32&idx=8&tkn=cfOYX6BfxvXT-dbd4TnJ5VCUEtE&fn=external_8",
+      "quality": "240p"
+    },
+    {
+      "video_id": "1372688484937",
+      "title_raw": "01 Outlaws Of Orion",
+      "duration_raw": "07:07",
+      "season_number": 5,
+      "episode_number": 1,
+      "views": 3906,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844871371290&type=32&idx=11&tkn=GomWXS0INiBHW6pNobaHibuxuhQ&fn=external_8"
+    },
+    {
+      "video_id": "1372687436361",
+      "title_raw": "02 Three Wishes",
+      "duration_raw": "07:07",
+      "season_number": 5,
+      "episode_number": 2,
+      "views": 1934,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844873468442&type=32&idx=10&tkn=S-Sff4mNcVDNkpv3fuxn1nV9wSE&fn=external_8"
+    },
+    {
+      "video_id": "1372687305289",
+      "title_raw": "03 Scorpio",
+      "duration_raw": "06:06",
+      "season_number": 5,
+      "episode_number": 3,
+      "views": 1684,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844874385946&type=32&idx=1&tkn=WVGxi1pn8VTjX5dWCksepvK56J8&fn=external_8"
+    },
+    {
+      "video_id": "1372688026185",
+      "title_raw": "04 Journey Into Blackness",
+      "duration_raw": "07:35",
+      "season_number": 5,
+      "episode_number": 4,
+      "views": 1526,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844872550938&type=32&idx=0&tkn=6HHiMKYz3Xhe5sHYDPrLyMhmq5U&fn=external_8"
+    },
+    {
+      "video_id": "1372688091721",
+      "title_raw": "05 Cycle Gang",
+      "duration_raw": "07:05",
+      "season_number": 5,
+      "episode_number": 5,
+      "views": 1109,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844874779162&type=32&idx=9&tkn=3Zy2GmngtQdgsjqLMhqILwXLhYQ&fn=external_8"
+    },
+    {
+      "video_id": "1372687501897",
+      "title_raw": "06 Dive To Disaster",
+      "duration_raw": "07:06",
+      "season_number": 5,
+      "episode_number": 6,
+      "views": 1262,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844875631130&type=32&idx=4&tkn=H78RhPKGx9IePYd5Xfc6vkopzfY&fn=external_8"
+    },
+    {
+      "video_id": "1372688222793",
+      "title_raw": "07 Yuna The Terrible",
+      "duration_raw": "07:36",
+      "season_number": 5,
+      "episode_number": 7,
+      "views": 1495,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844878580250&type=32&idx=7&tkn=UBanmSjCol_NHUrIeAj5fKu8btE&fn=external_8"
+    },
+    {
+      "video_id": "1372688747081",
+      "title_raw": "08 Rock And Roll Space Bandits",
+      "duration_raw": "07:06",
+      "season_number": 5,
+      "episode_number": 8,
+      "views": 1185,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844885395994&type=32&idx=2&tkn=GdE07EvBJoOHG1sqEWjA4daqBbg&fn=external_8"
+    },
+    {
+      "video_id": "1372687829577",
+      "title_raw": "09 Elevator To Nowhere",
+      "duration_raw": "07:07",
+      "season_number": 5,
+      "episode_number": 9,
+      "views": 1211,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844878318106&type=32&idx=0&tkn=f1ZOKxuBJKTsMUOgyPmS_dWRBPg&fn=external_8"
+    },
+    {
+      "video_id": "1372687239753",
+      "title_raw": "10 One Small Step For Mars",
+      "duration_raw": "07:37",
+      "season_number": 5,
+      "episode_number": 10,
+      "views": 1169,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844876089882&type=32&idx=14&tkn=6PhEY_Ql3GcxTOcMw_Oh-RDeM34&fn=external_8"
+    },
+    {
+      "video_id": "1372687764041",
+      "title_raw": "11 Haunted House",
+      "duration_raw": "07:05",
+      "season_number": 5,
+      "episode_number": 11,
+      "views": 1149,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844885920282&type=32&idx=11&tkn=TFymbDmfT5DGB8QNdvg5AEM_hnU&fn=external_8"
+    },
+    {
+      "video_id": "1372688353865",
+      "title_raw": "12 The Incredible Crude Oil Monster",
+      "duration_raw": "07:06",
+      "season_number": 5,
+      "episode_number": 12,
+      "views": 1294,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844885133850&type=32&idx=1&tkn=NC4ttSqXpenw8cY7IXkgJn-cbKg&fn=external_8"
+    },
+    {
+      "video_id": "1372688550473",
+      "title_raw": "13 The Voodoo Vampire",
+      "duration_raw": "07:37",
+      "season_number": 5,
+      "episode_number": 13,
+      "views": 1500,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844877859354&type=32&idx=3&tkn=rtt-dRmGpJuo98DFlJ-lEzLszQc&fn=external_8"
+    },
+    {
+      "video_id": "1372688157257",
+      "title_raw": "14 Invasion Of The Gleeks",
+      "duration_raw": "07:07",
+      "season_number": 5,
+      "episode_number": 14,
+      "views": 1012,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844879694362&type=32&idx=5&tkn=Ohu6lYzRFUCxah_zaLWEaFTGgxM&fn=external_8"
+    },
+    {
+      "video_id": "1372687370825",
+      "title_raw": "15 Mxyzptlk Strikes Again",
+      "duration_raw": "07:07",
+      "season_number": 5,
+      "episode_number": 15,
+      "views": 1329,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844883692058&type=32&idx=7&tkn=StQaR0k-hz_1IB4r9dHmAi77erE&fn=external_8"
+    },
+    {
+      "video_id": "1372687632969",
+      "title_raw": "16 The Man In The Moon",
+      "duration_raw": "07:37",
+      "season_number": 5,
+      "episode_number": 16,
+      "views": 1056,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844876745242&type=32&idx=11&tkn=aPFBm6xlDDBOJTvPTqIXReFVQL4&fn=external_8"
+    },
+    {
+      "video_id": "1372687567433",
+      "title_raw": "17 Circus Of Horrors",
+      "duration_raw": "07:06",
+      "season_number": 5,
+      "episode_number": 17,
+      "views": 1100,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844881857050&type=32&idx=14&tkn=1CdeRaviYjCDSmclWjhGNWlfxO8&fn=external_8"
+    },
+    {
+      "video_id": "1372688616009",
+      "title_raw": "18 Around The World In 80 Riddles",
+      "duration_raw": "07:06",
+      "season_number": 5,
+      "episode_number": 18,
+      "views": 1145,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844880611866&type=32&idx=9&tkn=E85YFd2lHdK0JanjS40sop-zlZM&fn=external_8"
+    },
+    {
+      "video_id": "1372687698505",
+      "title_raw": "19 Termites From Venus",
+      "duration_raw": "07:38",
+      "season_number": 5,
+      "episode_number": 19,
+      "views": 957,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844876941850&type=32&idx=14&tkn=_OmaZc-DI8GBwXoslruDHs0K3wk&fn=external_8"
+    },
+    {
+      "video_id": "1372688419401",
+      "title_raw": "20 Eruption",
+      "duration_raw": "07:06",
+      "season_number": 5,
+      "episode_number": 20,
+      "views": 919,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844883298842&type=32&idx=0&tkn=fWK7wTiAGqJE7Hto_gycKZdkAmk&fn=external_8"
+    },
+    {
+      "video_id": "1372687895113",
+      "title_raw": "21 Return Of Atlantis",
+      "duration_raw": "07:06",
+      "season_number": 5,
+      "episode_number": 21,
+      "views": 1251,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844882053658&type=32&idx=3&tkn=TEaQDEcp9MN0A5PTKwNRV1Zm-nc&fn=external_8"
+    },
+    {
+      "video_id": "1372688288329",
+      "title_raw": "22 The Killer Machines",
+      "duration_raw": "07:39",
+      "season_number": 5,
+      "episode_number": 22,
+      "views": 1046,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844877072922&type=32&idx=10&tkn=D70bGoBiI_pkBsr96IRtUGJgEHE&fn=external_8"
+    },
+    {
+      "video_id": "1372688681545",
+      "title_raw": "23 Garden Of Doom",
+      "duration_raw": "07:07",
+      "season_number": 5,
+      "episode_number": 23,
+      "views": 1027,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844880415258&type=32&idx=3&tkn=jPzKji-cinVVzvEgKGwehibJEyE&fn=external_8"
+    },
+    {
+      "video_id": "1372687960649",
+      "title_raw": "24 Revenge Of Bizarro",
+      "duration_raw": "07:05",
+      "season_number": 5,
+      "episode_number": 24,
+      "views": 1519,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844881136154&type=32&idx=2&tkn=wZIja7Uh2yiFLXRZ9jXMRpjTYXI&fn=external_8"
+    },
+    {
+      "video_id": "1372708342345",
+      "title_raw": "01 Big Food",
+      "duration_raw": "07:35",
+      "season_number": 6,
+      "episode_number": 1,
+      "views": 2842,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844870650394&type=32&idx=14&tkn=1blZihWQJPDXvPcxe8pi6enUKhw&fn=external_8"
+    },
+    {
+      "video_id": "1372708866633",
+      "title_raw": "02 The Ice Demon",
+      "duration_raw": "07:07",
+      "season_number": 6,
+      "episode_number": 2,
+      "views": 1558,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844873075226&type=32&idx=13&tkn=L2AY0gAfq7TOXZfgAH9xuIqkAJc&fn=external_8"
+    },
+    {
+      "video_id": "1372708080201",
+      "title_raw": "03 The Make-up Monster",
+      "duration_raw": "07:07",
+      "season_number": 6,
+      "episode_number": 3,
+      "views": 1234,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844875172378&type=32&idx=1&tkn=S4TvoKQlLb9H9P3ImquP6VE52Gw&fn=external_8"
+    },
+    {
+      "video_id": "1372707883593",
+      "title_raw": "04 Mxyzptlk’s Flick",
+      "duration_raw": "07:06",
+      "season_number": 6,
+      "episode_number": 4,
+      "views": 1261,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844877400602&type=32&idx=6&tkn=VfUyBtRDJvj3MgEWAtowoqA2pRU&fn=external_8"
+    },
+    {
+      "video_id": "1372708014665",
+      "title_raw": "05 Sink Hole",
+      "duration_raw": "07:07",
+      "season_number": 6,
+      "episode_number": 5,
+      "views": 1004,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844874058266&type=32&idx=14&tkn=F1NUYdTQ2cqODrwlc6cFbgpplKM&fn=external_8"
+    },
+    {
+      "video_id": "1372708276809",
+      "title_raw": "06 Alien Mummy",
+      "duration_raw": "06:05",
+      "season_number": 6,
+      "episode_number": 6,
+      "views": 1249,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844876483098&type=32&idx=3&tkn=knsr_a6YI98uJ0jjlI3BALMfXPU&fn=external_8"
+    },
+    {
+      "video_id": "1372708997705",
+      "title_raw": "07 Evil From Krypton",
+      "duration_raw": "07:07",
+      "season_number": 6,
+      "episode_number": 7,
+      "views": 1219,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844885723674&type=32&idx=12&tkn=RfhX78r-t1n0DCeE2uHuHsaF-UA&fn=external_8"
+    },
+    {
+      "video_id": "1372708735561",
+      "title_raw": "08 The Creature From The Dump",
+      "duration_raw": "07:06",
+      "season_number": 6,
+      "episode_number": 8,
+      "views": 913,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844879366682&type=32&idx=11&tkn=r5_KgO7boCViq0ADFdZOZWkdUNI&fn=external_8"
+    },
+    {
+      "video_id": "1372708670025",
+      "title_raw": "09 Aircraft Terror",
+      "duration_raw": "06:07",
+      "season_number": 6,
+      "episode_number": 9,
+      "views": 962,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844878711322&type=32&idx=1&tkn=EQo1XN5oIQYkjyTeN2A1v8sYwrc&fn=external_8"
+    },
+    {
+      "video_id": "1372708932169",
+      "title_raw": "10 Lava Men",
+      "duration_raw": "07:07",
+      "season_number": 6,
+      "episode_number": 10,
+      "views": 933,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844886247962&type=32&idx=1&tkn=_4w2WASNyqJXYNETKSOew7MdtXU&fn=external_8"
+    },
+    {
+      "video_id": "1372707949129",
+      "title_raw": "11 Bizarowulrd",
+      "duration_raw": "07:07",
+      "season_number": 6,
+      "episode_number": 11,
+      "views": 1122,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844885592602&type=32&idx=14&tkn=kDcH_n_qoS2OGKy1K0q9DSCcDwU&fn=external_8"
+    },
+    {
+      "video_id": "1372708538953",
+      "title_raw": "12 The Warlord’s Amulet",
+      "duration_raw": "06:07",
+      "season_number": 6,
+      "episode_number": 12,
+      "views": 978,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844884478490&type=32&idx=12&tkn=K6ON7PIO2UzcAt4NutsUwUq51jE&fn=external_8"
+    },
+    {
+      "video_id": "1372708211273",
+      "title_raw": "13 The Iron Cyclops",
+      "duration_raw": "07:07",
+      "season_number": 6,
+      "episode_number": 13,
+      "views": 791,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844879104538&type=32&idx=11&tkn=Jf1d0fo8QasbDMnwgE991_fW34U&fn=external_8"
+    },
+    {
+      "video_id": "1372708473417",
+      "title_raw": "14 Palette’s Perils",
+      "duration_raw": "07:07",
+      "season_number": 6,
+      "episode_number": 14,
+      "views": 861,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844884675098&type=32&idx=7&tkn=GWVfQr4OoGfoVr7poDjEhNy7XMo&fn=external_8"
+    },
+    {
+      "video_id": "1372708407881",
+      "title_raw": "15 Colossuss",
+      "duration_raw": "06:07",
+      "season_number": 6,
+      "episode_number": 15,
+      "views": 847,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844879890970&type=32&idx=1&tkn=arWT8GkRKeQURyYfZgA2LrCJTVY&fn=external_8"
+    },
+    {
+      "video_id": "1372708145737",
+      "title_raw": "16 Stowaways From Space",
+      "duration_raw": "07:07",
+      "season_number": 6,
+      "episode_number": 16,
+      "views": 792,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844882381338&type=32&idx=3&tkn=M_QqGgUKPKpW5t-Qa-Z4yjTIABg&fn=external_8"
+    },
+    {
+      "video_id": "1372708801097",
+      "title_raw": "17 The Scaraghosta Sea",
+      "duration_raw": "07:06",
+      "season_number": 6,
+      "episode_number": 17,
+      "views": 757,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844880153114&type=32&idx=2&tkn=aeY-n8Q41xbmrBMfaofKhT3mVRo&fn=external_8"
+    },
+    {
+      "video_id": "1372708604489",
+      "title_raw": "18 The Witch’s Arcade",
+      "duration_raw": "06:04",
+      "season_number": 6,
+      "episode_number": 18,
+      "views": 1035,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844883888666&type=32&idx=3&tkn=sG0ZY69T31NoTTLmayEJcjk-fek&fn=external_8"
+    },
+    {
+      "video_id": "1372722760265",
+      "title_raw": "SF-L0ST-Ep1- Www.MundoHeroes.Net",
+      "duration_raw": "21:32",
+      "season_number": 7,
+      "episode_number": 1,
+      "views": 2563,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8879640676872&type=32&idx=7&tkn=IFC7k9bFrSx93zYI4PbhFJsbXHk&fn=external_8"
+    },
+    {
+      "video_id": "1372722891337",
+      "title_raw": "SF-L0ST-Ep2- Www.MundoHeroes.Net",
+      "duration_raw": "21:32",
+      "season_number": 7,
+      "episode_number": 2,
+      "views": 1886,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8879641922056&type=32&idx=13&tkn=mXoqtnQqyV-sUS51xfThDAthSmE&fn=external_8"
+    },
+    {
+      "video_id": "1372723153481",
+      "title_raw": "SF-L0ST-Ep3- Www.MundoHeroes.Net",
+      "duration_raw": "21:32",
+      "season_number": 7,
+      "episode_number": 3,
+      "views": 1747,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8879642511880&type=32&idx=10&tkn=J9-ZnF1Mqsn09lH2AmspQW-nU9U&fn=external_8"
+    },
+    {
+      "video_id": "1372723022409",
+      "title_raw": "SF-L0ST-Ep4- Www.MundoHeroes.Net",
+      "duration_raw": "21:32",
+      "season_number": 7,
+      "episode_number": 4,
+      "views": 1435,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8879643429384&type=32&idx=11&tkn=KkslgzuPxQfNPZSMF5_vKDMzhsc&fn=external_8"
+    },
+    {
+      "video_id": "1372722694729",
+      "title_raw": "SF-L0ST-Ep5- Www.MundoHeroes.Net",
+      "duration_raw": "21:30",
+      "season_number": 7,
+      "episode_number": 5,
+      "views": 1703,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8879645264392&type=32&idx=12&tkn=ecwlykKfTCSGBnXy8CKBgBO-WlE&fn=external_8"
+    },
+    {
+      "video_id": "1372722956873",
+      "title_raw": "SF-L0ST-Ep6- Www.MundoHeroes.Net",
+      "duration_raw": "21:35",
+      "season_number": 7,
+      "episode_number": 6,
+      "views": 1398,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8879646902792&type=32&idx=10&tkn=VTAPEcA7acvuJGXe9e_epQ7SC88&fn=external_8"
+    },
+    {
+      "video_id": "1372723087945",
+      "title_raw": "SF-L0ST-Ep7- Www.MundoHeroes.Net",
+      "duration_raw": "21:34",
+      "season_number": 7,
+      "episode_number": 7,
+      "views": 1662,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8879649786376&type=32&idx=4&tkn=FvNfAL2l2n30QgCeWraSzbvnOoA&fn=external_8"
+    },
+    {
+      "video_id": "1372722825801",
+      "title_raw": "SF-L0ST-Ep8- Www.MundoHeroes.Net",
+      "duration_raw": "21:28",
+      "season_number": 7,
+      "episode_number": 8,
+      "views": 1548,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8879653653000&type=32&idx=9&tkn=SOgc2XxBlNqgXMBJrom-9m_6evI&fn=external_8"
+    },
+    {
+      "video_id": "1372727675465",
+      "title_raw": "SFLSPS - 01 LaNovia de Darkside",
+      "duration_raw": "22:53",
+      "season_number": 8,
+      "episode_number": 1,
+      "views": 3434,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7309916769006&type=32&idx=12&tkn=TGlzJoP9FOuRzGh1GBdu6gpjVeU&fn=external_8"
+    },
+    {
+      "video_id": "1372727216713",
+      "title_raw": "SFLSPS - 02",
+      "duration_raw": "21:45",
+      "season_number": 8,
+      "episode_number": 2,
+      "views": 1555,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7309937674990&type=32&idx=5&tkn=3c7-zlqsBHDtUrUxMYzAKq1VQL8&fn=external_8"
+    },
+    {
+      "video_id": "1372727609929",
+      "title_raw": "SFLSPS - 03",
+      "duration_raw": "18:54",
+      "season_number": 8,
+      "episode_number": 3,
+      "views": 1751,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7309944031982&type=32&idx=12&tkn=8fq0o74Z81dYMoeHEpV5bt4vZOs&fn=external_8"
+    },
+    {
+      "video_id": "1372727544393",
+      "title_raw": "SFLSPS - 04",
+      "duration_raw": "21:55",
+      "season_number": 8,
+      "episode_number": 4,
+      "views": 1745,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7309967821550&type=32&idx=3&tkn=_79YNO7Kv5E_qFzyS6ytBsapDG4&fn=external_8"
+    },
+    {
+      "video_id": "1372727413321",
+      "title_raw": "SFLSPS - 05",
+      "duration_raw": "21:58",
+      "season_number": 8,
+      "episode_number": 5,
+      "views": 1506,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7311575223022&type=32&idx=12&tkn=N1USXcuhA4u4Ycq7KgH8vijFV1s&fn=external_8"
+    },
+    {
+      "video_id": "1372727478857",
+      "title_raw": "SFLSPS - 06",
+      "duration_raw": "21:55",
+      "season_number": 8,
+      "episode_number": 6,
+      "views": 1485,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7309910870766&type=32&idx=3&tkn=nxEdvBItsfGBdVE9zKNwpUpDeB8&fn=external_8"
+    },
+    {
+      "video_id": "1372727282249",
+      "title_raw": "SFLSPS - 07",
+      "duration_raw": "21:57",
+      "season_number": 8,
+      "episode_number": 7,
+      "views": 1364,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7309951306478&type=32&idx=15&tkn=1J03tmskRMaQWHrdC2L2ZA0bh4M&fn=external_8"
+    },
+    {
+      "video_id": "1372727347785",
+      "title_raw": "SFLSPS - 08",
+      "duration_raw": "21:51",
+      "season_number": 8,
+      "episode_number": 8,
+      "views": 1288,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7311586101998&type=32&idx=1&tkn=TxoXaVGFk4EPr1-QjPxyLldUs64&fn=external_8"
+    },
+    {
+      "video_id": "1372732656201",
+      "title_raw": "SPTgg01. las semillas del mal",
+      "duration_raw": "21:16",
+      "season_number": 9,
+      "episode_number": 1,
+      "views": 3338,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8879667612168&type=32&idx=1&tkn=8bsD0OQiBeyrtbmkrMZpz6bzCtY&fn=external_8"
+    },
+    {
+      "video_id": "1372732262985",
+      "title_raw": "SPTgg02-1. La nave fantasma",
+      "duration_raw": "21:13",
+      "season_number": 9,
+      "episode_number": 2,
+      "views": 1155,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8879668857352&type=32&idx=12&tkn=ME_ZBdXwr7LQ327jJHxpb6isdIg&fn=external_8"
+    },
+    {
+      "video_id": "1372732852809",
+      "title_raw": "SPTgg03. La desepcion de Darkside",
+      "duration_raw": "21:08",
+      "season_number": 9,
+      "episode_number": 3,
+      "views": 1392,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8879670102536&type=32&idx=1&tkn=1L6hTuZt_4uTLaWCjI8kQ6nolZk&fn=external_8"
+    },
+    {
+      "video_id": "1372732525129",
+      "title_raw": "SPTgg04. El Miedo",
+      "duration_raw": "21:05",
+      "season_number": 9,
+      "episode_number": 4,
+      "views": 1550,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844892998170&type=32&idx=0&tkn=0dbgh0bVfoy3ZwCOSXXJLJ7WI4c&fn=external_8"
+    },
+    {
+      "video_id": "1372732721737",
+      "title_raw": "SPTgg05. Las cartas locas",
+      "duration_raw": "21:21",
+      "season_number": 9,
+      "episode_number": 5,
+      "views": 1110,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844895291930&type=32&idx=2&tkn=RDhYLFTGQ74STdzvhomJEy13LGw&fn=external_8"
+    },
+    {
+      "video_id": "1372732328521",
+      "title_raw": "SPTgg06-1. El supercerebro",
+      "duration_raw": "21:21",
+      "season_number": 9,
+      "episode_number": 6,
+      "views": 991,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=844895423002&type=32&idx=4&tkn=D2-gwVCCMOrOKmZJlmBb50HXdzs&fn=external_8"
+    },
+    {
+      "video_id": "1372732459593",
+      "title_raw": "SPTgg07. La muerte de superman",
+      "duration_raw": "20:59",
+      "season_number": 9,
+      "episode_number": 7,
+      "views": 2127,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8879671675400&type=32&idx=9&tkn=x6Gbj1aui39rJlDQ8Ci8Tq1KzHg&fn=external_8"
+    },
+    {
+      "video_id": "1372732590665",
+      "title_raw": "SPTgg8. Escape de la ciudad espacial",
+      "duration_raw": "21:09",
+      "season_number": 9,
+      "episode_number": 8,
+      "views": 1840,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8879672330760&type=32&idx=10&tkn=ejCIhKI34W8tETDyEbhqQz21sAM&fn=external_8"
+    }
+  ]
+}

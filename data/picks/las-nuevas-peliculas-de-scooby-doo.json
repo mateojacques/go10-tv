@@ -1,0 +1,196 @@
+{
+  "title": "Las Nuevas Películas de Scooby-Doo",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2500425",
+  "year": "1972",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "1519694449225",
+      "title_raw": "1x01 - Pueblo Fantasma Cucuy_x264",
+      "duration_raw": "41:07",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 158,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=649802091081&type=32&idx=14&tkn=Kf3KCoceyzsFphudRo6YNTQc86U&fn=external_8"
+    },
+    {
+      "video_id": "1519694187081",
+      "title_raw": "1x02 - Scooby-Doo en un Asunto Dinámico_x264",
+      "duration_raw": "39:47",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 130,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=649790556745&type=32&idx=14&tkn=uynODUrv9LCIGaq3XVQCXOmY_S0&fn=external_8"
+    },
+    {
+      "video_id": "1519694318153",
+      "title_raw": "1x03 - Scooby-Doo Meets the Addams Family_x264",
+      "duration_raw": "41:18",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 415,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=649797044809&type=32&idx=12&tkn=hPyDyEJ1i97SmoYsG-5rvR72pbU&fn=external_8"
+    },
+    {
+      "video_id": "1519694907977",
+      "title_raw": "1x04 - Escalofriante descanso_x264",
+      "duration_raw": "41:37",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 151,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=649829485129&type=32&idx=0&tkn=GRTqanAG5T95cJiUnwHQKGyIqns&fn=external_8"
+    },
+    {
+      "video_id": "1519693924937",
+      "title_raw": "1x05 - El General dasaparecido_x264",
+      "duration_raw": "41:37",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 109,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=649779546697&type=32&idx=0&tkn=gz5FYuDJELAr490c6eDLtt8pUX0&fn=external_8"
+    },
+    {
+      "video_id": "1519694776905",
+      "title_raw": "1x06 - A Good Medium is Rare_x264",
+      "duration_raw": "41:11",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 126,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=649821489737&type=32&idx=8&tkn=fYRJ3tMia0Kg9-ghBW6NERzV5B0&fn=external_8"
+    },
+    {
+      "video_id": "1519694514761",
+      "title_raw": "1x07 - Sandy Duncan-s Jekyll and Hyde_x264",
+      "duration_raw": "41:19",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 192,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=649807202889&type=32&idx=10&tkn=VyLTo1AeHotVAAfxN0S4S0fMuwU&fn=external_8"
+    },
+    {
+      "video_id": "1519694121545",
+      "title_raw": "1x08 - The Secret of Shark Island_x264",
+      "duration_raw": "41:28",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 117,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=649788656201&type=32&idx=7&tkn=Iu3omCz0pnehVfojP7dYQpOK2Sc&fn=external_8"
+    },
+    {
+      "video_id": "1519695235657",
+      "title_raw": "1x09 - La Niebla Tenebrosa_x264",
+      "duration_raw": "41:29",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 216,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=649853930057&type=32&idx=4&tkn=XS31uJzruw3QUjmwQub7QhrMFEY&fn=external_8"
+    },
+    {
+      "video_id": "1519695170121",
+      "title_raw": "1x11 - El fantasma de Baron rojo_x264",
+      "duration_raw": "41:34",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 247,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=649849801289&type=32&idx=2&tkn=ucRPzfKebEuF-3Uvg9YHElZhDHw&fn=external_8"
+    },
+    {
+      "video_id": "1519694842441",
+      "title_raw": "1x13 - The Haunted Horseman of Hagglethorn Hall_x264",
+      "duration_raw": "41:14",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 120,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=649826273865&type=32&idx=3&tkn=_qgQC6dFPGOTZQg9c-s_LQW6oLo&fn=external_8"
+    },
+    {
+      "video_id": "1519695039049",
+      "title_raw": "1x14 - The Phantom of the Country Music Hall_x264",
+      "duration_raw": "41:14",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 151,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=649841347145&type=32&idx=8&tkn=c6Z_EtvqGph846ZRzd4WibddEAw&fn=external_8"
+    },
+    {
+      "video_id": "1519694711369",
+      "title_raw": "1x15 - Los cruzados enmascarados_x264",
+      "duration_raw": "40:54",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 147,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=649817295433&type=32&idx=0&tkn=QZudd6ami1Es9m1Dw7CyeH_ZGDY&fn=external_8"
+    },
+    {
+      "video_id": "1519695104585",
+      "title_raw": "1x16 - La mansión del tío Daniel_x264",
+      "duration_raw": "41:36",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 497,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=649845541449&type=32&idx=5&tkn=WI6PNoGX1cqF32xBFQ9cjZIzVZo&fn=external_8"
+    },
+    {
+      "video_id": "1519694580297",
+      "title_raw": "2x02 - The Haunted Showboat_x264",
+      "duration_raw": "43:27",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 126,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=649811266121&type=32&idx=14&tkn=8cmhadkC5i9GMN9eS9trK29fLIY&fn=external_8"
+    },
+    {
+      "video_id": "1519694973513",
+      "title_raw": "2x04 - El tenebroso viento de Winona_x264",
+      "duration_raw": "41:49",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 151,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=649833482825&type=32&idx=2&tkn=gdTnjlX9e0XKVpbYviv-Jrtb0IA&fn=external_8"
+    },
+    {
+      "video_id": "1519695301193",
+      "title_raw": "2x05 - The Spirit Spooked Sports Show_x264",
+      "duration_raw": "43:09",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 188,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=649861466697&type=32&idx=5&tkn=V475HM9xDqrWQORDVvgypCLiFgM&fn=external_8"
+    },
+    {
+      "video_id": "1519694252617",
+      "title_raw": "2x06 - El exterminador_x264",
+      "duration_raw": "41:53",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 142,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=649793112649&type=32&idx=14&tkn=_pQ50XmfNCS5vRH4wHiPN0kzZQ0&fn=external_8"
+    },
+    {
+      "video_id": "1519694383689",
+      "title_raw": "2x07 - La fábrica de dulces encantada_x264",
+      "duration_raw": "41:35",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 168,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=649799797321&type=32&idx=13&tkn=NyURuUFFUEwyQLbLq64xhWyyF9o&fn=external_8"
+    },
+    {
+      "video_id": "1519694645833",
+      "title_raw": "2x08 - Scooby conoce a Dick Van Dyke_x264",
+      "duration_raw": "41:36",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 124,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=649814739529&type=32&idx=9&tkn=o789y0rBS4Mg6ALWWBOOPtuCENk&fn=external_8"
+    }
+  ]
+}

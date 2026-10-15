@@ -1,0 +1,394 @@
+{
+  "title": "El Fantasma del Espacio",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2222665",
+  "year": "1966",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Superhéroes",
+  "videos": [
+    {
+      "video_id": "1386825648713",
+      "title_raw": "01 - La Cosa Ardiente_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 19754,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594961828425&type=32&idx=1&tkn=2un82T8H1wLtwFoKmNQlC_vOI1c&fn=external_8"
+    },
+    {
+      "video_id": "1386826435145",
+      "title_raw": "02 - Zorak_x264",
+      "duration_raw": "07:56",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 5235,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594964777545&type=32&idx=1&tkn=VXcaiYRt5SNBU3n0PY4vPiGkDuE&fn=external_8"
+    },
+    {
+      "video_id": "1386824075849",
+      "title_raw": "03 - Los Hombres Lagarto_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 3485,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594955733577&type=32&idx=1&tkn=Ql9MilQYdL2LC296u8qMJZQfnxM&fn=external_8"
+    },
+    {
+      "video_id": "1386826304073",
+      "title_raw": "04 - La Telaraña_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 2104,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594964384329&type=32&idx=7&tkn=AGEvIfgcOTLDGJgfXnULxUJRr3M&fn=external_8"
+    },
+    {
+      "video_id": "1386823813705",
+      "title_raw": "05 - El Rey de los Animales_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 2043,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594954422857&type=32&idx=1&tkn=tL_ke5McBlFcMtBmztPSwTKhyck&fn=external_8"
+    },
+    {
+      "video_id": "1386825976393",
+      "title_raw": "06 - El Viejo Morfeo_x264",
+      "duration_raw": "07:56",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 1778,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594962942537&type=32&idx=4&tkn=5ao_XcSssfu-JG21WMTd1LXF4uw&fn=external_8"
+    },
+    {
+      "video_id": "1386823748169",
+      "title_raw": "07 - El Maléfico_x264",
+      "duration_raw": "07:56",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1461,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594954291785&type=32&idx=1&tkn=OQEG4yT3KAWm3dyvUNGZ7sZo3qs&fn=external_8"
+    },
+    {
+      "video_id": "1386825452105",
+      "title_raw": "08 - El Zángano_x264",
+      "duration_raw": "07:56",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1306,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594960976457&type=32&idx=11&tkn=WOF2U3CgJnWnpd7WSiMCRYNaIqk&fn=external_8"
+    },
+    {
+      "video_id": "1386825714249",
+      "title_raw": "09 - El Rayo Direccional_x264",
+      "duration_raw": "07:56",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 1862,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594962025033&type=32&idx=1&tkn=ZgHhHzqjis92bp5otyjT9Tqr40A&fn=external_8"
+    },
+    {
+      "video_id": "1386826173001",
+      "title_raw": "10 - El amo de los Robots_x264",
+      "duration_raw": "07:56",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 1315,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594963663433&type=32&idx=7&tkn=vw7krTC2pv9XVu-I_UaJC1a6BY8&fn=external_8"
+    },
+    {
+      "video_id": "1386826041929",
+      "title_raw": "11 - El Rayo de Hielo_x264",
+      "duration_raw": "07:56",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 1520,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594963204681&type=32&idx=1&tkn=NjFNwZg6R2SMIJ4aNC0NTZB8Zp4&fn=external_8"
+    },
+    {
+      "video_id": "1416027441737",
+      "title_raw": "Fantasma_del_Espacio_Los_Piratas_12_Los_Piratas",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 1290,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=599642737225&type=32&idx=1&tkn=oglL5TYOz7zsxCnjhBuY2p0gvdE&fn=external_8"
+    },
+    {
+      "video_id": "1386825910857",
+      "title_raw": "13 - El Monstruo de Energía_x264",
+      "duration_raw": "07:56",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 999,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594962680393&type=32&idx=1&tkn=EU3q3WBRdVcF2ovhwjrA1gIq75A&fn=external_8"
+    },
+    {
+      "video_id": "1386825845321",
+      "title_raw": "14 - La Trampa_x264",
+      "duration_raw": "07:56",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 1122,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594962418249&type=32&idx=1&tkn=rhrZCK9XY_KMbuem73jqqC0JAHY&fn=external_8"
+    },
+    {
+      "video_id": "1386825583177",
+      "title_raw": "15 - Los Ciclopedas_x264",
+      "duration_raw": "07:56",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 1030,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594961631817&type=32&idx=13&tkn=J3t38xStySEpIsgqnVcavNClOv0&fn=external_8"
+    },
+    {
+      "video_id": "1386825386569",
+      "title_raw": "16 - El Diabólico Maquinador_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 932,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594960845385&type=32&idx=1&tkn=XfYXvn8jBbdeoFSNmHjyWC4lkT0&fn=external_8"
+    },
+    {
+      "video_id": "1386824600137",
+      "title_raw": "17 - Lokar, el Rey de la Plaga de Langostas_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 940,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594958289481&type=32&idx=1&tkn=tDjaV1kv8i5GI5C8ge_qG_lgyJs&fn=external_8"
+    },
+    {
+      "video_id": "1386824927817",
+      "title_raw": "18 - Sargazo Espacial_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 958,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594959338057&type=32&idx=1&tkn=AiFIx6Bx3ZV80K9SGTZxCrWH_t8&fn=external_8"
+    },
+    {
+      "video_id": "1386825124425",
+      "title_raw": "19 - Brago_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 923,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594960124489&type=32&idx=1&tkn=iS0jtFL-OHeA-kNhAMhUjA45Ba0&fn=external_8"
+    },
+    {
+      "video_id": "1386823879241",
+      "title_raw": "20 - La Venganza de la Mujer Araña_x264",
+      "duration_raw": "07:56",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 931,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594954750537&type=32&idx=1&tkn=7uKq9s7yvKO43NjrF8VKeQ3s6dY&fn=external_8"
+    },
+    {
+      "video_id": "1386823944777",
+      "title_raw": "21 - El Platillo Volador_x264",
+      "duration_raw": "07:56",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 786,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594955078217&type=32&idx=1&tkn=H62E8mLURo7czWFm1z1pEQIFrns&fn=external_8"
+    },
+    {
+      "video_id": "1386824337993",
+      "title_raw": "22 - Los Pájaros Espaciales_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 834,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594956847689&type=32&idx=1&tkn=mwtNpe7mDtjTEy08WAmlvTWvuis&fn=external_8"
+    },
+    {
+      "video_id": "1386826238537",
+      "title_raw": "23 - La Máquina del Tiempo_x264",
+      "duration_raw": "07:56",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 734,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594963991113&type=32&idx=5&tkn=eBd32tnT5VlQJC4oM87YvaW8jow&fn=external_8"
+    },
+    {
+      "video_id": "1386824141385",
+      "title_raw": "24 - El Planeta de Pesadilla_x264",
+      "duration_raw": "07:58",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 967,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594956061257&type=32&idx=1&tkn=Sqn-a10SNk8mBumjk3uHjQ1KmfE&fn=external_8"
+    },
+    {
+      "video_id": "1386824272457",
+      "title_raw": "25 - La Armada del Espacio_x264",
+      "duration_raw": "07:56",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 675,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594956585545&type=32&idx=11&tkn=NvNj6x3oD3hPR1ub8JLd_sycTcw&fn=external_8"
+    },
+    {
+      "video_id": "1386824534601",
+      "title_raw": "26 - El Reto_x264",
+      "duration_raw": "07:56",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 746,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594958027337&type=32&idx=8&tkn=r8hBGVvsZgjThuhXuY_bO2ZDYes&fn=external_8"
+    },
+    {
+      "video_id": "1386825189961",
+      "title_raw": "27 - El Planeta Selvático_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 959,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594960255561&type=32&idx=1&tkn=_OF8_2hkk0QJvgf1zsKs5u0PUh8&fn=external_8"
+    },
+    {
+      "video_id": "1386824993353",
+      "title_raw": "28 - El Rey de las Rocas Robots_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 732,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594959600201&type=32&idx=1&tkn=-4Ez7JZvgsg66IXVjc2pvn_sKGw&fn=external_8"
+    },
+    {
+      "video_id": "1386824862281",
+      "title_raw": "29 - Cristalor_x264",
+      "duration_raw": "07:56",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 734,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594958879305&type=32&idx=1&tkn=huluRKXeGmMEoCu9yg3OE-QozaY&fn=external_8"
+    },
+    {
+      "video_id": "1386826369609",
+      "title_raw": "30 - El Arca Espacial_x264",
+      "duration_raw": "07:56",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 744,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594964515401&type=32&idx=1&tkn=sdA9-s2rGHSmkxdyUs5wpD0HaZ8&fn=external_8"
+    },
+    {
+      "video_id": "1386824403529",
+      "title_raw": "31 - El Brujo_x264",
+      "duration_raw": "07:56",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 705,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594957240905&type=32&idx=1&tkn=s9mV-3AJSDx4jPx3yVkHfIThGdA&fn=external_8"
+    },
+    {
+      "video_id": "1386825779785",
+      "title_raw": "32 - Las Pirañas Espaciales_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 669,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594962156105&type=32&idx=1&tkn=kqGc1Qo-7XqaSZQQrBlfiSh2RYk&fn=external_8"
+    },
+    {
+      "video_id": "1386825321033",
+      "title_raw": "33 - Los Hornos de Moltor_x264",
+      "duration_raw": "08:00",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 676,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594960583241&type=32&idx=2&tkn=yN7VpdIQyqhxBmRRGEIPXSTQO2k&fn=external_8"
+    },
+    {
+      "video_id": "1386824665673",
+      "title_raw": "34 - Transor_x264",
+      "duration_raw": "07:56",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 737,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594958355017&type=32&idx=1&tkn=pwxB-A7cyXpDRB66uTW0KeBxvcc&fn=external_8"
+    },
+    {
+      "video_id": "1386824469065",
+      "title_raw": "35 - Los Gargoloides_x264",
+      "duration_raw": "07:56",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 725,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594957568585&type=32&idx=1&tkn=2jJ0JIOZNQepH_gApIFzE0g8zP0&fn=external_8"
+    },
+    {
+      "video_id": "1386826107465",
+      "title_raw": "36 - Los Ladrones_x264",
+      "duration_raw": "07:57",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 688,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594963401289&type=32&idx=8&tkn=HWbWWM-_MUZS82Gf2UWT2bcIhDg&fn=external_8"
+    },
+    {
+      "video_id": "1386824010313",
+      "title_raw": "37 - El Encuentro_x264",
+      "duration_raw": "07:21",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 727,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594955340361&type=32&idx=10&tkn=SSs3PdfrT06R93ZjRrExb-2wwSE&fn=external_8"
+    },
+    {
+      "video_id": "1386824796745",
+      "title_raw": "38 - En las Garras del Rey de los Animales_x264",
+      "duration_raw": "07:20",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 723,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594958486089&type=32&idx=7&tkn=HOr7NUMnabE8URWIbeS6VSxMets&fn=external_8"
+    },
+    {
+      "video_id": "1386825517641",
+      "title_raw": "39 - La Trampa Fatal_x264",
+      "duration_raw": "07:19",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 721,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594961304137&type=32&idx=0&tkn=roWEkp4TYcP9dU6ITx_zFFIzgaQ&fn=external_8"
+    },
+    {
+      "video_id": "1386825255497",
+      "title_raw": "40 - Los Monstruos de Moltar_x264",
+      "duration_raw": "07:20",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 815,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594960452169&type=32&idx=11&tkn=rfc5Qu5xfmTdCgPKR1CxADS4l5c&fn=external_8"
+    },
+    {
+      "video_id": "1386825058889",
+      "title_raw": "41 - Las Dos Caras de la Muerte_x264",
+      "duration_raw": "07:19",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 830,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594959862345&type=32&idx=0&tkn=TwFUK07OmVzSm-wrgModJyda0oo&fn=external_8"
+    },
+    {
+      "video_id": "1386824206921",
+      "title_raw": "42 - El Encuentro Final_x264",
+      "duration_raw": "07:23",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 1433,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594956192329&type=32&idx=0&tkn=lWvridkH94d5OiN0gTasw34088I&fn=external_8"
+    }
+  ]
+}

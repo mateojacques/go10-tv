@@ -1,0 +1,484 @@
+{
+  "title": "Grotescología",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c5710409",
+  "year": "2006",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "720p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "3008089754185",
+      "title_raw": "1x01 Reina por un Dia",
+      "duration_raw": "22:35",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 5102,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876340640329&type=37&idx=9&tkn=gCDONgrH_gZ3joqk8fZyoMhmSfM&fn=external_8"
+    },
+    {
+      "video_id": "3008090016329",
+      "title_raw": "1x02 Slim, el Hombre de Mucosa",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 1569,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876415285833&type=37&idx=6&tkn=REHNAUpS5f80--jlw6cV5mMWXKw&fn=external_8"
+    },
+    {
+      "video_id": "3008089623113",
+      "title_raw": "1x03 Gaszilla",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1446,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876302694985&type=37&idx=13&tkn=nAO76dSc6vXyMtYHrVw79k6Ld4I&fn=external_8"
+    },
+    {
+      "video_id": "3008089360969",
+      "title_raw": "1x04 El Apestoso Perfecto",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1202,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876215532105&type=37&idx=15&tkn=gL2MZZQ1IjUXFlMPM86sF2oafao&fn=external_8"
+    },
+    {
+      "video_id": "3008090475081",
+      "title_raw": "1x05 Esta Costra es Para Ti",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 991,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876506118729&type=37&idx=10&tkn=DmmEDGliE9i8ppYkNQLDAa3r5PE&fn=external_8"
+    },
+    {
+      "video_id": "3008091589193",
+      "title_raw": "1x06 Corre que te Alcanza",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 1063,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876557040201&type=37&idx=1&tkn=FuNK0FI3-LY8mna4IjURqBEZuUU&fn=external_8"
+    },
+    {
+      "video_id": "3008089295433",
+      "title_raw": "1x07 El Club de los Parásitos",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1013,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876191611465&type=37&idx=7&tkn=A40eER310K1Qrlz6MhHs8MfJAiw&fn=external_8"
+    },
+    {
+      "video_id": "3008090540617",
+      "title_raw": "1x08 Vamos, Pez",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1030,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876523551305&type=37&idx=14&tkn=PwzO9Fs4Eo6x3Q0XyXerDVu8Fww&fn=external_8"
+    },
+    {
+      "video_id": "3008090999369",
+      "title_raw": "1x09 Tienen que ser los Zapatos",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 1140,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876542425673&type=37&idx=10&tkn=yv-FHqeuGW38qxMPtE-euUROJCk&fn=external_8"
+    },
+    {
+      "video_id": "3008090344009",
+      "title_raw": "1x10 Lechuza de Corral",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 872,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876467845705&type=37&idx=9&tkn=GEgP-4hkMtdj7fqKpYFr7DUH3Zw&fn=external_8"
+    },
+    {
+      "video_id": "3008089492041",
+      "title_raw": "1x11 La Epidemia de Vomito",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 937,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876264421961&type=37&idx=9&tkn=TjhMGyUShhY90tUD9eT4rLMVqf4&fn=external_8"
+    },
+    {
+      "video_id": "3008091523657",
+      "title_raw": "1x12 El Chico Podrido",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 1107,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876555008585&type=37&idx=12&tkn=wOU0IIZImorQNFRJb8s4YS00GVE&fn=external_8"
+    },
+    {
+      "video_id": "3008088902217",
+      "title_raw": "1x13 La Carrera de Insectos",
+      "duration_raw": "22:33",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 781,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876047366729&type=37&idx=13&tkn=WGF2Rr0oQKifC7n7dJLE8xneP5o&fn=external_8"
+    },
+    {
+      "video_id": "3008089164361",
+      "title_raw": "2x01 Todos Juntos",
+      "duration_raw": "22:37",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 1074,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876141279817&type=37&idx=1&tkn=MCmlsFP5MBT8xoGV1B7tJAjkeoE&fn=external_8"
+    },
+    {
+      "video_id": "3008089229897",
+      "title_raw": "2x02 Venganza Interna",
+      "duration_raw": "22:37",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 713,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876166183497&type=37&idx=2&tkn=XHYLzzZkCubB3hMWjt3tczmNwNo&fn=external_8"
+    },
+    {
+      "video_id": "3008089033289",
+      "title_raw": "2x03 Viejita Pero Bonita",
+      "duration_raw": "22:34",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 1151,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876096649801&type=37&idx=7&tkn=ikucIWwchBINpu_qXagKMCydwOc&fn=external_8"
+    },
+    {
+      "video_id": "3008091130441",
+      "title_raw": "2x04 La Supervivencia del más Grotesco",
+      "duration_raw": "22:33",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 742,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876543539785&type=37&idx=14&tkn=SGroXVaspffZZxGdbAObYOpKsNE&fn=external_8"
+    },
+    {
+      "video_id": "3008089885257",
+      "title_raw": "2x05 Vacaiones Grotescas",
+      "duration_raw": "22:35",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 726,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876376947273&type=37&idx=7&tkn=KqYAaB7cjZwp5KVXVLkfSVHXn78&fn=external_8"
+    },
+    {
+      "video_id": "3008090278473",
+      "title_raw": "2x06 Noche de Halloween",
+      "duration_raw": "22:35",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 1111,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876450478665&type=37&idx=15&tkn=Flo3nObYc91Hxse3qgbkQAb-EzU&fn=external_8"
+    },
+    {
+      "video_id": "3008089688649",
+      "title_raw": "2x07 Gases Letales, Primera parte",
+      "duration_raw": "22:35",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 805,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876322028105&type=37&idx=8&tkn=OrHFk49Gs_MqPFJg9_JrcRODX_Q&fn=external_8"
+    },
+    {
+      "video_id": "3008089098825",
+      "title_raw": "2x08 Gases Letales, Segunda Parte",
+      "duration_raw": "22:35",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 706,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876118669897&type=37&idx=15&tkn=Zc_dBGPFIW6-NcCEussZLbmX3x4&fn=external_8"
+    },
+    {
+      "video_id": "3008090147401",
+      "title_raw": "2x09 El rey del Bosque de Putringham",
+      "duration_raw": "22:35",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 738,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876432783945&type=37&idx=11&tkn=tOSU01HgOmzicT13qvdX6uWTuRA&fn=external_8"
+    },
+    {
+      "video_id": "3008090933833",
+      "title_raw": "2x10 ¿Quién Apago la Luz-",
+      "duration_raw": "22:35",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 868,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876541180489&type=37&idx=4&tkn=Aq88Qc51bsEdEjakZNcdvrAQPTw&fn=external_8"
+    },
+    {
+      "video_id": "3008091654729",
+      "title_raw": "2x11 Frankenmoco",
+      "duration_raw": "22:35",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 560,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876558744137&type=37&idx=8&tkn=1lS9hI1NaV9R6FrKT3yGeHXklXY&fn=external_8"
+    },
+    {
+      "video_id": "3008089557577",
+      "title_raw": "2x12 Si Lo Echas, Te Vas",
+      "duration_raw": "22:35",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 756,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876284607049&type=37&idx=2&tkn=23chLVsa6dflnFzh4a_mENt_NLY&fn=external_8"
+    },
+    {
+      "video_id": "3008089950793",
+      "title_raw": "2x13 Plantados",
+      "duration_raw": "22:35",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 688,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876398508617&type=37&idx=5&tkn=FY4koOs54p0qcii5Kkua3RLg6Ss&fn=external_8"
+    },
+    {
+      "video_id": "3008089426505",
+      "title_raw": "3x01 Rivalidad Siniestra",
+      "duration_raw": "22:35",
+      "season_number": 3,
+      "episode_number": 1,
+      "views": 773,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876239059529&type=37&idx=11&tkn=IN3fmqD_ibDcSa9yfnWr3eP9bAo&fn=external_8"
+    },
+    {
+      "video_id": "3008089819721",
+      "title_raw": "3x02 Al Drenaje",
+      "duration_raw": "22:35",
+      "season_number": 3,
+      "episode_number": 2,
+      "views": 624,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876359842377&type=37&idx=6&tkn=rQGwcoDHDptvYwUS4tQrc3oYSuo&fn=external_8"
+    },
+    {
+      "video_id": "3008091327049",
+      "title_raw": "3x03 Al Ritmo del Vértigo",
+      "duration_raw": "22:35",
+      "season_number": 3,
+      "episode_number": 3,
+      "views": 570,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876546882121&type=37&idx=12&tkn=yFDgMu42LUD49Mt9oCYKUmPWzXs&fn=external_8"
+    },
+    {
+      "video_id": "3008090802761",
+      "title_raw": "3x04 Basura para Llevar",
+      "duration_raw": "22:35",
+      "season_number": 3,
+      "episode_number": 4,
+      "views": 847,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876538952265&type=37&idx=15&tkn=UGEGRHsRsx7TpiMQwKYjvA-uIPk&fn=external_8"
+    },
+    {
+      "video_id": "3008090868297",
+      "title_raw": "3x05 Susurros Peludos",
+      "duration_raw": "22:35",
+      "season_number": 3,
+      "episode_number": 5,
+      "views": 1014,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876539935305&type=37&idx=10&tkn=l8tSLr9RBqjE7Tt2Y8a6O55dk28&fn=external_8"
+    },
+    {
+      "video_id": "3008090737225",
+      "title_raw": "3x06 Peste",
+      "duration_raw": "22:34",
+      "season_number": 3,
+      "episode_number": 6,
+      "views": 856,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876537576009&type=37&idx=15&tkn=h13f61V3A1O9lwdPkxas2Wgd4bE&fn=external_8"
+    },
+    {
+      "video_id": "3008090409545",
+      "title_raw": "3x07 Monstruo de Moho",
+      "duration_raw": "22:34",
+      "season_number": 3,
+      "episode_number": 7,
+      "views": 503,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876487440969&type=37&idx=2&tkn=GAk6MZC_IfsunwJpofmH7eg8uH0&fn=external_8"
+    },
+    {
+      "video_id": "3008090671689",
+      "title_raw": "3x08 El Ataque de las Alergias",
+      "duration_raw": "22:34",
+      "season_number": 3,
+      "episode_number": 8,
+      "views": 656,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876532660809&type=37&idx=8&tkn=zIYAXKTMPYzJIT_YeQrYuBAsOfw&fn=external_8"
+    },
+    {
+      "video_id": "3008091458121",
+      "title_raw": "3x09 El Pustulador",
+      "duration_raw": "22:34",
+      "season_number": 3,
+      "episode_number": 9,
+      "views": 550,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876553435721&type=37&idx=10&tkn=hW_9WaAKYL6-G9Pj1TZ7T8-VWjs&fn=external_8"
+    },
+    {
+      "video_id": "3008091261513",
+      "title_raw": "3x10 Ácaros Mutantes",
+      "duration_raw": "22:34",
+      "season_number": 3,
+      "episode_number": 10,
+      "views": 526,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876545571401&type=37&idx=10&tkn=Pd7abZdT24BcYAAqymDsiSBT9yw&fn=external_8"
+    },
+    {
+      "video_id": "3008088967753",
+      "title_raw": "3x11 Guerras Fétidas",
+      "duration_raw": "22:34",
+      "season_number": 3,
+      "episode_number": 11,
+      "views": 660,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876071287369&type=37&idx=14&tkn=8YxPOrFyjYlArs_p5hjM4tC_lRU&fn=external_8"
+    },
+    {
+      "video_id": "3008091392585",
+      "title_raw": "3x12 Spa Insectiva",
+      "duration_raw": "22:34",
+      "season_number": 3,
+      "episode_number": 12,
+      "views": 706,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1876550093385&type=37&idx=1&tkn=W1G4f_ZiQOiJALR1TyoKi-0f7KQ&fn=external_8"
+    },
+    {
+      "video_id": "3009447594569",
+      "title_raw": "3x13 Ópera de Terror",
+      "duration_raw": "22:34",
+      "season_number": 3,
+      "episode_number": 13,
+      "views": 733,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1877407763017&type=37&idx=8&tkn=PKrefJ8H0hBBTsipzz6OW8osN_s&fn=external_8"
+    },
+    {
+      "video_id": "3009447987785",
+      "title_raw": "4x01 Dulce Agonia",
+      "duration_raw": "22:35",
+      "season_number": 4,
+      "episode_number": 1,
+      "views": 658,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1877479459401&type=37&idx=2&tkn=IPqxw_xj9y0UHKGTpH1XwyjkFfQ&fn=external_8"
+    },
+    {
+      "video_id": "3009447922249",
+      "title_raw": "4x02 Gas Pantanoso",
+      "duration_raw": "22:34",
+      "season_number": 4,
+      "episode_number": 2,
+      "views": 668,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1877468777033&type=37&idx=3&tkn=aRf_ikbrqfhdx1F0EzKBZGYbHo8&fn=external_8"
+    },
+    {
+      "video_id": "3009447660105",
+      "title_raw": "4x03 Lombrices",
+      "duration_raw": "22:34",
+      "season_number": 4,
+      "episode_number": 3,
+      "views": 551,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1877417790025&type=37&idx=9&tkn=GmxqBp8LTpp8bDP-ILs0DM0DUqY&fn=external_8"
+    },
+    {
+      "video_id": "3009448249929",
+      "title_raw": "4x04 Que coman pastel de Frutas",
+      "duration_raw": "22:34",
+      "season_number": 4,
+      "episode_number": 4,
+      "views": 548,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1877530118729&type=37&idx=4&tkn=ivqYmMwSiBfWKwzn5S2UNCuOsQ8&fn=external_8"
+    },
+    {
+      "video_id": "3009447725641",
+      "title_raw": "4x05 Los Nuevos Reclutas",
+      "duration_raw": "22:34",
+      "season_number": 4,
+      "episode_number": 5,
+      "views": 820,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1877446691401&type=37&idx=3&tkn=TXh6K3sR2-ZlCwgDv45NMUvftBg&fn=external_8"
+    },
+    {
+      "video_id": "3009448184393",
+      "title_raw": "4x06 La Noche de los Arrollados Vivientes",
+      "duration_raw": "22:35",
+      "season_number": 4,
+      "episode_number": 6,
+      "views": 564,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1877517273673&type=37&idx=14&tkn=K6mkfbL3_Sh6q9ZX3Ce-I9m0JHA&fn=external_8"
+    },
+    {
+      "video_id": "3009448118857",
+      "title_raw": "4x07 Ojo Rojo y Cerebro",
+      "duration_raw": "22:35",
+      "season_number": 4,
+      "episode_number": 7,
+      "views": 646,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1877505280585&type=37&idx=13&tkn=-jpOmM_EglCJW9ovvgv_3XZ8nuU&fn=external_8"
+    },
+    {
+      "video_id": "3009447529033",
+      "title_raw": "4x08 La Venganza de Ojo Rojo - Primera Parte",
+      "duration_raw": "22:35",
+      "season_number": 4,
+      "episode_number": 8,
+      "views": 474,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1877393082953&type=37&idx=15&tkn=1VbTjfGhWmfSHj9tK1fALCsPFwA&fn=external_8"
+    },
+    {
+      "video_id": "3009447856713",
+      "title_raw": "4x09 La Venganza de Ojo Rojo - Segunda Parte",
+      "duration_raw": "22:34",
+      "season_number": 4,
+      "episode_number": 9,
+      "views": 422,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1877458684489&type=37&idx=5&tkn=-tkmD7zGUmdO4CViXUmoXrv7BKQ&fn=external_8"
+    },
+    {
+      "video_id": "3009448446537",
+      "title_raw": "4x10 Colmillos",
+      "duration_raw": "22:35",
+      "season_number": 4,
+      "episode_number": 10,
+      "views": 661,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1877581171273&type=37&idx=9&tkn=D1G6Hi5YAfHNwaHnbhUadxeC_0g&fn=external_8"
+    },
+    {
+      "video_id": "3009448315465",
+      "title_raw": "4x11 Un bello día",
+      "duration_raw": "22:35",
+      "season_number": 4,
+      "episode_number": 11,
+      "views": 749,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1877543291465&type=37&idx=4&tkn=jWho4sYhzI4d1kT6fr7urtVTvlE&fn=external_8"
+    },
+    {
+      "video_id": "3009448053321",
+      "title_raw": "4x12 Besos",
+      "duration_raw": "22:34",
+      "season_number": 4,
+      "episode_number": 12,
+      "views": 1748,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1877493287497&type=37&idx=3&tkn=EufG7YPQnKOqExnDhxkMf3gSkzM&fn=external_8"
+    },
+    {
+      "video_id": "3009448381001",
+      "title_raw": "4x13 Flatulencia lunar",
+      "duration_raw": "22:34",
+      "season_number": 4,
+      "episode_number": 13,
+      "views": 909,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1877567867465&type=37&idx=4&tkn=vywHlaYrPGNku-KyeLQTSwYUElc&fn=external_8"
+    }
+  ]
+}

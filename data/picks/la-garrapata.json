@@ -1,0 +1,340 @@
+{
+  "title": "La Garrapata",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c4095561",
+  "year": "1994",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Superhéroes",
+  "videos": [
+    {
+      "video_id": "2086269487689",
+      "title_raw": "01+The+Tick+vs+The+Idea+Men",
+      "duration_raw": "20:13",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 9053,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976534833737&type=32&idx=3&tkn=KsdPYWnH5iqtES_R5xOfpYeWnfk&fn=external_8"
+    },
+    {
+      "video_id": "2086270732873",
+      "title_raw": "02+The+Tick+vs+Chairface+Chippendale",
+      "duration_raw": "18:36",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 2370,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976562883145&type=32&idx=14&tkn=bWLpCM1qsCQs4EsqwJfdCLmuVcc&fn=external_8"
+    },
+    {
+      "video_id": "2086270470729",
+      "title_raw": "03+The+Tick+vs+Dinosaur+Neil",
+      "duration_raw": "21:11",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1550,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976558492233&type=32&idx=12&tkn=2pSjnQzyoQqa2Sp2F71ERym-Dbc&fn=external_8"
+    },
+    {
+      "video_id": "2086270339657",
+      "title_raw": "04+The+Tick+vs+Mr.+Mental",
+      "duration_raw": "20:13",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1196,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976554560073&type=32&idx=2&tkn=a4ZztPQmLb7EfmqR9MjahXAoVJA&fn=external_8"
+    },
+    {
+      "video_id": "2086270143049",
+      "title_raw": "05+The+Tick+vs+The+Breadmaster",
+      "duration_raw": "20:13",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1022,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976551479881&type=32&idx=1&tkn=zOxmyajjCKP-8xQDr5NzYYw_cbE&fn=external_8"
+    },
+    {
+      "video_id": "2086270011977",
+      "title_raw": "06+The+Tick+vs+El+Seed",
+      "duration_raw": "20:13",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 886,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976548661833&type=32&idx=3&tkn=k4V1csbbPlUeqS8JVMABU8FQqd8&fn=external_8"
+    },
+    {
+      "video_id": "2086269880905",
+      "title_raw": "07+The+Tick+vs+The+Tick",
+      "duration_raw": "20:52",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 798,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976544729673&type=32&idx=8&tkn=OyA7Xv5tT4nG7YeifrVcnBzmC-s&fn=external_8"
+    },
+    {
+      "video_id": "2086269749833",
+      "title_raw": "08+The+Tick+vs+The+Uncommon+Cold",
+      "duration_raw": "20:27",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 743,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976540863049&type=32&idx=8&tkn=BwkvfodHkHdbRcVrFdUF0QoUgek&fn=external_8"
+    },
+    {
+      "video_id": "2086270601801",
+      "title_raw": "09+The+Tick+vs+Brainchild",
+      "duration_raw": "20:33",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 735,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976561113673&type=32&idx=4&tkn=kBlhwOLlBeVZSbdSFky0v9BHstI&fn=external_8"
+    },
+    {
+      "video_id": "2086270995017",
+      "title_raw": "10+The+Tick+vs+Pineapple+Pokopo",
+      "duration_raw": "20:31",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 687,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976568650313&type=32&idx=4&tkn=t0fLiNlvcufuRL_cok7Oqs5JedM&fn=external_8"
+    },
+    {
+      "video_id": "2086271126089",
+      "title_raw": "11+The+Tick+vs+The+Mole-Men",
+      "duration_raw": "20:34",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 631,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976572254793&type=32&idx=4&tkn=wNyZQ3dwmQ-XpuLANrM4Do24aCo&fn=external_8"
+    },
+    {
+      "video_id": "2086271257161",
+      "title_raw": "12+The+Tick+vs+The+Proto+Clown",
+      "duration_raw": "20:33",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 724,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976574286409&type=32&idx=14&tkn=hCFz0_9NdnrBVBoU9aZ-rwMXxQY&fn=external_8"
+    },
+    {
+      "video_id": "2086271388233",
+      "title_raw": "13+The+Tick+vs+Arthur's+Bank+Account",
+      "duration_raw": "20:35",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 704,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976578021961&type=32&idx=10&tkn=1DqqoHe4alIl8L_1fpjTdMpFd38&fn=external_8"
+    },
+    {
+      "video_id": "2086271519305",
+      "title_raw": "14+The+Little+Wooden+Boy+and+the+Belly+of+Love",
+      "duration_raw": "20:28",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 748,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976581560905&type=32&idx=7&tkn=xt-UphLWBuKU-wwFUq9Vq5Pc4lM&fn=external_8"
+    },
+    {
+      "video_id": "2086271650377",
+      "title_raw": "15+Alone+Together",
+      "duration_raw": "20:32",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 661,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976584837705&type=32&idx=4&tkn=th-5Lb3LPbWMgemaqHwYPIJDDGk&fn=external_8"
+    },
+    {
+      "video_id": "2086271781449",
+      "title_raw": "16+Armless+but+Not+Harmless",
+      "duration_raw": "20:32",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 587,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976586803785&type=32&idx=12&tkn=g4B8WxzcmHLpQ31GkdZ68wfS0TE&fn=external_8"
+    },
+    {
+      "video_id": "2086271846985",
+      "title_raw": "17+Leonardo+da+Vinci+and+His+Fig",
+      "duration_raw": "20:31",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 565,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976588245577&type=32&idx=13&tkn=GCUDqIn7giBjywSkfPyMuIjWv7g&fn=external_8"
+    },
+    {
+      "video_id": "2086271715913",
+      "title_raw": "18+Coach+Fussell's+Lament",
+      "duration_raw": "20:30",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 483,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976585886281&type=32&idx=12&tkn=V9Pq5ojCB9NcC75EZLzQo--mDhY&fn=external_8"
+    },
+    {
+      "video_id": "2086271584841",
+      "title_raw": "19+Bloomsday",
+      "duration_raw": "20:30",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 458,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976583526985&type=32&idx=3&tkn=l8QJNA_ur7Yo441Mc4epcYqVjBE&fn=external_8"
+    },
+    {
+      "video_id": "2086271453769",
+      "title_raw": "20+Evil+Sits+Down+for+a+Moment",
+      "duration_raw": "20:41",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 509,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976579922505&type=32&idx=12&tkn=FfCw0qEbZ3Ypw6ZyPWG9-AXEFbY&fn=external_8"
+    },
+    {
+      "video_id": "2086271322697",
+      "title_raw": "21+Heroes",
+      "duration_raw": "20:31",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 510,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976575990345&type=32&idx=8&tkn=J24BSpd0B5Y0YbORJLBwENbWHpM&fn=external_8"
+    },
+    {
+      "video_id": "2086271191625",
+      "title_raw": "22+Ants+in+Pants!",
+      "duration_raw": "20:27",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 437,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976573303369&type=32&idx=10&tkn=dyJjlR7YksYIJpOatID2rtp36AQ&fn=external_8"
+    },
+    {
+      "video_id": "2086271060553",
+      "title_raw": "23+The+Tick+Loves+Santa!ingles",
+      "duration_raw": "20:34",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 478,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1849696520942&type=32&idx=8&tkn=KvtAZSW33YW3ha570Gt1qsaKuSM&fn=external_8"
+    },
+    {
+      "video_id": "2086270929481",
+      "title_raw": "24+Tick+vs+The+Big+Nothing",
+      "duration_raw": "20:31",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 393,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976566946377&type=32&idx=8&tkn=PMteP_OeIMW-7YwzTaq1UQT8N6k&fn=external_8"
+    },
+    {
+      "video_id": "2086270798409",
+      "title_raw": "25+Tick+vs+Reno,+Nevada",
+      "duration_raw": "20:31",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 347,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976564652617&type=32&idx=11&tkn=qpqyavYIM3TGdNN0Qkvtr5tosdY&fn=external_8"
+    },
+    {
+      "video_id": "2086270667337",
+      "title_raw": "26+Grandpa+Wore+Tights",
+      "duration_raw": "20:34",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 388,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976562293321&type=32&idx=10&tkn=11NuLTzyuInbIpZTMQcPT1dpgv4&fn=external_8"
+    },
+    {
+      "video_id": "2086270536265",
+      "title_raw": "27+That+Mustache+FeelingIngles+con+subs",
+      "duration_raw": "19:57",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 501,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4200904395502&type=32&idx=2&tkn=i3yeUowbvscpFOM9RqHhDDVm2Uo&fn=external_8"
+    },
+    {
+      "video_id": "2086270405193",
+      "title_raw": "28+Tick+vs+Dot+and+Neil's+Wedding",
+      "duration_raw": "20:03",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 463,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976556329545&type=32&idx=9&tkn=ybL3HtTnpNU0SLcrAW35Af9X7DU&fn=external_8"
+    },
+    {
+      "video_id": "2086270274121",
+      "title_raw": "29+Sidekicks+Don't+Kiss",
+      "duration_raw": "20:03",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 404,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=932919511790&type=32&idx=10&tkn=8Yg-871nF7xxHAWKGfOJlKITDns&fn=external_8"
+    },
+    {
+      "video_id": "2086270077513",
+      "title_raw": "30+Tick+vs+Arthur",
+      "duration_raw": "20:03",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 455,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976550234697&type=32&idx=4&tkn=rpzUWu6B3vYNlsUEqZOCWw4Y50U&fn=external_8"
+    },
+    {
+      "video_id": "2086269946441",
+      "title_raw": "31+Devil+in+Diapers",
+      "duration_raw": "20:08",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 440,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976546433609&type=32&idx=8&tkn=4ZDt1ghBDoNugWvxavQ1LhemWBc&fn=external_8"
+    },
+    {
+      "video_id": "2086269815369",
+      "title_raw": "32+Tick+vs+Filth",
+      "duration_raw": "20:01",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 339,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976542239305&type=32&idx=2&tkn=2NOkNyYrJyjgdSVNNgy_hHH5qDc&fn=external_8"
+    },
+    {
+      "video_id": "2086269684297",
+      "title_raw": "33+Tick+vs+Europe",
+      "duration_raw": "20:02",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 377,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976539486793&type=32&idx=12&tkn=g3xOfL4ZKdzxD3usncaUi5dplaU&fn=external_8"
+    },
+    {
+      "video_id": "2086269553225",
+      "title_raw": "34+Tick+vs+Science",
+      "duration_raw": "20:03",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 459,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976536406601&type=32&idx=9&tkn=8FpQP9i-D9uUYIa6YTKTADBOD0I&fn=external_8"
+    },
+    {
+      "video_id": "2086270863945",
+      "title_raw": "35+Tick+vs+Prehistory",
+      "duration_raw": "20:04",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 352,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976565832265&type=32&idx=5&tkn=50_60KuPokJ2nJimUnzk-HgKcpU&fn=external_8"
+    },
+    {
+      "video_id": "2086269618761",
+      "title_raw": "36+Tick+vs+Education",
+      "duration_raw": "20:06",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 504,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=976538110537&type=32&idx=11&tkn=v7rix-AZvbm27fHeVgM9SpKC0Sg&fn=external_8"
+    }
+  ]
+}

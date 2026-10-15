@@ -1,0 +1,23 @@
+{
+  "title": "Saludos Amigos",
+  "type": "movie",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial album c2263881 (50 Clasicos de Disney)",
+  "year": "1942",
+  "studio": "Disney",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Clásicos",
+  "videos": [
+    {
+      "video_id": "1417894627913",
+      "title_raw": "06 - Saludos Amigos",
+      "duration_raw": "41:56",
+      "views": 663,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7372299373189&type=32&idx=12&tkn=3EThOOBpsZ8RJGRYsD4rkjcFXwE&fn=external_8"
+    }
+  ]
+}

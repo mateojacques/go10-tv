@@ -1,0 +1,664 @@
+{
+  "title": "La Tropa Goofy",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2886985",
+  "year": "1992",
+  "studio": "Disney",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "1656572676681",
+      "title_raw": "Goof.Troop 01 Axed.by.Addition",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 566,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713857894985&type=32&idx=11&tkn=9EIie3YoDf3UG8ry5F5-GytepsE&fn=external_8"
+    },
+    {
+      "video_id": "1656572807753",
+      "title_raw": "Goof.Troop 03_Vamos de kampamento",
+      "duration_raw": "21:22",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 248,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713869953609&type=32&idx=4&tkn=oPl9kyH2_8-4Hk0lyD5VJm5XA_g&fn=external_8"
+    },
+    {
+      "video_id": "1656572742217",
+      "title_raw": "Goof.Troop 04 El Mutilador",
+      "duration_raw": "21:10",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 171,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713865038409&type=32&idx=8&tkn=qyLCntS2-HUQrdFRzaRVeDD7Nbk&fn=external_8"
+    },
+    {
+      "video_id": "1656572938825",
+      "title_raw": "Goof.Troop 05 Goofy Falsificado",
+      "duration_raw": "21:13",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 174,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713878473289&type=32&idx=9&tkn=cjbCcFZawVmVzIqL3UOi3hHNoMo&fn=external_8"
+    },
+    {
+      "video_id": "1656573004361",
+      "title_raw": "Goof.Troop 07 La Rampa Mortal",
+      "duration_raw": "21:17",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 177,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713885026889&type=32&idx=3&tkn=NXVxGI1w0YlJ9ggdKinslhlwXAI&fn=external_8"
+    },
+    {
+      "video_id": "1656572873289",
+      "title_raw": "Goof.Troop 08 Encuentros Cercanos del Tercer Mimo",
+      "duration_raw": "21:16",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 189,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713873689161&type=32&idx=7&tkn=LlC6IUhsTehyP1SdPEbgfOh5p98&fn=external_8"
+    },
+    {
+      "video_id": "1656573135433",
+      "title_raw": "Goof.Troop 09 pescador Pescasdo",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 146,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713894660681&type=32&idx=14&tkn=-WNqXFgyfnxSh0ei-wNYHkYpZzg&fn=external_8"
+    },
+    {
+      "video_id": "1656573069897",
+      "title_raw": "Goof.Troop 10 Mi Casa Es Tu Casa",
+      "duration_raw": "21:24",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 157,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713888893513&type=32&idx=12&tkn=xL3zXTPZzxcRfvM3rVqfTNMgXbU&fn=external_8"
+    },
+    {
+      "video_id": "1656707746377",
+      "title_raw": "Goof.Troop 11Goofy El Bombero",
+      "duration_raw": "21:29",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 240,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713906195017&type=32&idx=10&tkn=u8ks7610xjCUhqqUzZ-I1awSSLk&fn=external_8"
+    },
+    {
+      "video_id": "1656708205129",
+      "title_raw": "Goof.Troop 12_Cita Con El Destino",
+      "duration_raw": "21:20",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 142,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713954691657&type=32&idx=3&tkn=bF0_uA0FrYnE_yvK3DuiMSDso8M&fn=external_8"
+    },
+    {
+      "video_id": "1656707811913",
+      "title_raw": "Goof.Troop 13 Pilotos A La Fuerza",
+      "duration_raw": "21:16",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 164,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713912224329&type=32&idx=5&tkn=eR9CSvsJfPMZHpGgY1t5ghfmT9A&fn=external_8"
+    },
+    {
+      "video_id": "1656708008521",
+      "title_raw": "Goof.Troop 14 Saquenme del Partido",
+      "duration_raw": "21:14",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 151,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713934441033&type=32&idx=8&tkn=AtEKHPq7OEJviBfxsZBnQcYHMjw&fn=external_8"
+    },
+    {
+      "video_id": "1656708270665",
+      "title_raw": "Goof.Troop 15 Ruinas Mentiras y  Videotapes",
+      "duration_raw": "21:20",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 263,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713956395593&type=32&idx=9&tkn=OHy8_IT-2thENQ37yJE0FCgBWXE&fn=external_8"
+    },
+    {
+      "video_id": "1656708336201",
+      "title_raw": "Goof.Troop 16 Maximum.Protection",
+      "duration_raw": "21:11",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 247,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713958165065&type=32&idx=2&tkn=yDDLihpid8ZdFTCV2XXGwa5u2qk&fn=external_8"
+    },
+    {
+      "video_id": "1656708139593",
+      "title_raw": "Goof.Troop 17 Goofin hood",
+      "duration_raw": "21:13",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 150,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713951480393&type=32&idx=13&tkn=2ptee675Qr4_a2g9SFjDLCUIzqU&fn=external_8"
+    },
+    {
+      "video_id": "1656707877449",
+      "title_raw": "Goof.Troop 18 Lider Faraon",
+      "duration_raw": "21:15",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 146,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713917139529&type=32&idx=9&tkn=yxq7RWGMGG4qoMtT_hPHxD31Ds8&fn=external_8"
+    },
+    {
+      "video_id": "1656708074057",
+      "title_raw": "Goof.Troop 19_Inspector.Goofy",
+      "duration_raw": "21:20",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 166,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713943419465&type=32&idx=13&tkn=0ihyDpcJrPDIpLX2D88NCuPnvRg&fn=external_8"
+    },
+    {
+      "video_id": "1656707942985",
+      "title_raw": "Goof.Troop 20 Vamos A Bailar Goofy Rock",
+      "duration_raw": "21:16",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 204,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713926249033&type=32&idx=3&tkn=x_z25dkc4lDmeXW6ygkyXKTs8NU&fn=external_8"
+    },
+    {
+      "video_id": "1656842291785",
+      "title_raw": "Goof.Troop 21_Pedro Agoniza",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 153,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713962424905&type=32&idx=4&tkn=45zsYhD7_6gd1XasL54rok1gPw8&fn=external_8"
+    },
+    {
+      "video_id": "1656842816073",
+      "title_raw": "Goof.Troop 22_Oro Puro",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 151,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713976842825&type=32&idx=8&tkn=tsbE_L-vpGUeRi5V2ulMfXEMSQE&fn=external_8"
+    },
+    {
+      "video_id": "1656842357321",
+      "title_raw": "Goof.Troop 23 Fama De Gato",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 139,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713964063305&type=32&idx=0&tkn=AidH1ibXKukV9nxO09Tdn1cOxtc&fn=external_8"
+    },
+    {
+      "video_id": "1656842553929",
+      "title_raw": "Goof.Troop 24 No Desperdicies Desperdicios",
+      "duration_raw": "21:26",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 152,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713969699401&type=32&idx=2&tkn=zRUG4PeCnT7y_EdQjRQhUnTl4QI&fn=external_8"
+    },
+    {
+      "video_id": "1656842619465",
+      "title_raw": "Goof.Troop 25 Los Intocagoofies",
+      "duration_raw": "21:17",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 147,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713971927625&type=32&idx=10&tkn=nldycvY-kwQ76Z_5lmPpiGL4-80&fn=external_8"
+    },
+    {
+      "video_id": "1656842685001",
+      "title_raw": "Goof.Troop 26 Reportero Del Crimen",
+      "duration_raw": "21:15",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 173,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713973500489&type=32&idx=2&tkn=jumdef0QccGY8Xpgcq0rMTvSpas&fn=external_8"
+    },
+    {
+      "video_id": "1656843471433",
+      "title_raw": "Goof.Troop 27_Heredar Es Humano",
+      "duration_raw": "21:17",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 181,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713997290057&type=32&idx=8&tkn=R5f5hejbQRMunp8WiZM0Gyb-X9o&fn=external_8"
+    },
+    {
+      "video_id": "1656843209289",
+      "title_raw": "Goof.Troop 28 Fantamiedosos",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 164,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713990212169&type=32&idx=10&tkn=z62V3pSNHgJePgcBZGwQFv6jFkA&fn=external_8"
+    },
+    {
+      "video_id": "1656842422857",
+      "title_raw": "Goof.Troop 29 La Carrera De Bañeras",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 151,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713964915273&type=32&idx=9&tkn=QkxPo1BmYC9Yk0xFlO9r-eFtNHA&fn=external_8"
+    },
+    {
+      "video_id": "1656843405897",
+      "title_raw": "Goof.Troop 30 Mayor Goofy",
+      "duration_raw": "21:58",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 143,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713997027913&type=32&idx=10&tkn=DkItKi9YQ_ooTvQEYn3GD5e6jt8&fn=external_8"
+    },
+    {
+      "video_id": "1656842488393",
+      "title_raw": "Goof.Troop 31 Goofy Candidato",
+      "duration_raw": "21:30",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 139,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713966750281&type=32&idx=4&tkn=7YXEkmslD3XCHNjEXp0JVj78SV8&fn=external_8"
+    },
+    {
+      "video_id": "1656843340361",
+      "title_raw": "Goof.Troop 32 Goofy Bajo Mi Techo",
+      "duration_raw": "21:16",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 151,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713995258441&type=32&idx=2&tkn=EvbqBBC5RtGsyCml9NwURFEEG48&fn=external_8"
+    },
+    {
+      "video_id": "1656842947145",
+      "title_raw": "Goof.Troop 33 Recuerdos Del porvenir",
+      "duration_raw": "21:19",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 164,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713982609993&type=32&idx=13&tkn=bJo4UJm-ZO7Pk0_oy_Ra10eAGyQ&fn=external_8"
+    },
+    {
+      "video_id": "1656843078217",
+      "title_raw": "Goof.Troop 34 Goofy buen Vecino",
+      "duration_raw": "21:22",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 158,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713987525193&type=32&idx=5&tkn=XFWKxJZ8-uovFmQ74L-0ydsqq9E&fn=external_8"
+    },
+    {
+      "video_id": "1656843536969",
+      "title_raw": "Goof.Troop 35 Adios Señor Goofy",
+      "duration_raw": "21:10",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 150,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713998535241&type=32&idx=14&tkn=2nCj-LaBFMcF1qcrLegsISILbsc&fn=external_8"
+    },
+    {
+      "video_id": "1656843012681",
+      "title_raw": "Goof.Troop 36 Goofito Mortal",
+      "duration_raw": "21:16",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 161,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713986542153&type=32&idx=4&tkn=IcO-O7FxSNs7cOgg_FK0At3Jzhk&fn=external_8"
+    },
+    {
+      "video_id": "1656843143753",
+      "title_raw": "Goof.Troop 37 Frankengoofy",
+      "duration_raw": "21:30",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 174,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713988049481&type=32&idx=1&tkn=Q_YZLd40ZjAsCYCF8rGdzd8LpU4&fn=external_8"
+    },
+    {
+      "video_id": "1656843274825",
+      "title_raw": "Goof.Troop 38 Goofy Einstien",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 146,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713992702537&type=32&idx=11&tkn=iGMk7Zxtbmb21o4kZ8DPidPXUT8&fn=external_8"
+    },
+    {
+      "video_id": "1656842881609",
+      "title_raw": "Goof.Troop 39 Vamos Al  Hipodromo",
+      "duration_raw": "21:11",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 277,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713979202121&type=32&idx=1&tkn=4UdJZzm3t3bf_PheUeAcozu7hvY&fn=external_8"
+    },
+    {
+      "video_id": "1656842750537",
+      "title_raw": "Goof.Troop 40 Que Goofy Nos Ayude",
+      "duration_raw": "21:13",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 151,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=713975138889&type=32&idx=13&tkn=3jjlmhVKRwNgrtNDWzryPVvdqK8&fn=external_8"
+    },
+    {
+      "video_id": "1736718682697",
+      "title_raw": "Goof.Troop 41 Terceros En discordia",
+      "duration_raw": "21:54",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 184,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=753685563977&type=32&idx=1&tkn=zq75uyU6GM5LlNpgOBJjk2GPYWE&fn=external_8"
+    },
+    {
+      "video_id": "1736719403593",
+      "title_raw": "Goof.Troop 42_El Increible Bulk",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 225,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=753722001993&type=32&idx=7&tkn=-tX8G4xPsHUYhb5gDMDmHVHzeVM&fn=external_8"
+    },
+    {
+      "video_id": "1736719141449",
+      "title_raw": "Goof.Troop 43 El Gran Concurso",
+      "duration_raw": "21:22",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 170,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=753707649609&type=32&idx=0&tkn=Vk7eG2bG_ach-vsw0fQZl7iehog&fn=external_8"
+    },
+    {
+      "video_id": "1657022777929",
+      "title_raw": "Goof.Troop 44 El Que lo hace lo Espantan",
+      "duration_raw": "21:36",
+      "season_number": 1,
+      "episode_number": 44,
+      "views": 155,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=714036349513&type=32&idx=0&tkn=ReJBggoWKlIexlCjUvrgwg_h0bo&fn=external_8"
+    },
+    {
+      "video_id": "1736719534665",
+      "title_raw": "Goof.Troop 45 La Gran Ciudad",
+      "duration_raw": "21:22",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 232,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=753731570249&type=32&idx=4&tkn=oliihL0jkMRQ9yhEjP-e8rvX-jw&fn=external_8"
+    },
+    {
+      "video_id": "1657022843465",
+      "title_raw": "Goof.Troop 46 El Amuleto",
+      "duration_raw": "21:22",
+      "season_number": 1,
+      "episode_number": 46,
+      "views": 155,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=714043951689&type=32&idx=9&tkn=kLl4hRgXMKRi0NT85NRf7vvKtvY&fn=external_8"
+    },
+    {
+      "video_id": "1736719600201",
+      "title_raw": "Goof.Troop 47_La Competencia",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 47,
+      "views": 324,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=753735305801&type=32&idx=5&tkn=5iPGVnLhmbn8SzLaliM3ZH1f6Vc&fn=external_8"
+    },
+    {
+      "video_id": "1736718748233",
+      "title_raw": "Goof.Troop 48_Pesadilla En La Calle Goofy",
+      "duration_raw": "21:50",
+      "season_number": 1,
+      "episode_number": 48,
+      "views": 212,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=753687857737&type=32&idx=6&tkn=4aNTvAs1C88whqh8OVgOie0h_aQ&fn=external_8"
+    },
+    {
+      "video_id": "1736719272521",
+      "title_raw": "Goof.Troop 49 Donde Hay Goofy Hay Voluntad",
+      "duration_raw": "21:27",
+      "season_number": 1,
+      "episode_number": 49,
+      "views": 197,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=753713220169&type=32&idx=0&tkn=q0YWLV65KY0ATX25fPtDa8zUCOU&fn=external_8"
+    },
+    {
+      "video_id": "1657022909001",
+      "title_raw": "Goof.Troop 50 Abovinadilandia",
+      "duration_raw": "21:34",
+      "season_number": 1,
+      "episode_number": 50,
+      "views": 157,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=714049587785&type=32&idx=1&tkn=rvcyaKavBL3HwLLlXvnr_tfszFY&fn=external_8"
+    },
+    {
+      "video_id": "1657022974537",
+      "title_raw": "Goof.Troop 51 Gimnasium",
+      "duration_raw": "21:22",
+      "season_number": 1,
+      "episode_number": 51,
+      "views": 169,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=714055354953&type=32&idx=3&tkn=Wd3MT4Fi8ss4Akw-h6SDCE7l2rE&fn=external_8"
+    },
+    {
+      "video_id": "1657023040073",
+      "title_raw": "Goof.Troop 53 La Dieta Milagrosa",
+      "duration_raw": "21:32",
+      "season_number": 1,
+      "episode_number": 53,
+      "views": 156,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=714059418185&type=32&idx=9&tkn=oXbvX4LowPqQ9Okiygf287U6va0&fn=external_8"
+    },
+    {
+      "video_id": "1736719338057",
+      "title_raw": "Goof.Troop 54 Reunion Familiar",
+      "duration_raw": "21:25",
+      "season_number": 1,
+      "episode_number": 54,
+      "views": 325,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=753717348937&type=32&idx=4&tkn=USCvpTrS5UzgvqX7xYgKll1ROB8&fn=external_8"
+    },
+    {
+      "video_id": "1736719469129",
+      "title_raw": "Goof.Troop 55 Fuerza Bruta",
+      "duration_raw": "21:22",
+      "season_number": 1,
+      "episode_number": 55,
+      "views": 202,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=753726196297&type=32&idx=7&tkn=48kCUPlTH4NxLSRDlY9QYuToKyk&fn=external_8"
+    },
+    {
+      "video_id": "1736718879305",
+      "title_raw": "Goof.Troop 56 La orquesta Magica del doctor Horacio",
+      "duration_raw": "21:30",
+      "season_number": 1,
+      "episode_number": 56,
+      "views": 169,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=753696246345&type=32&idx=2&tkn=3yE3g2qjCh0kwA7FuwyE8Fle68I&fn=external_8"
+    },
+    {
+      "video_id": "1736718944841",
+      "title_raw": "Goof.Troop 57 Y Ellos Se Juntan",
+      "duration_raw": "21:29",
+      "season_number": 1,
+      "episode_number": 57,
+      "views": 162,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=753699261001&type=32&idx=13&tkn=F1ZvQIR5Ys2_-pmRmPVGxWbFjJE&fn=external_8"
+    },
+    {
+      "video_id": "1736719206985",
+      "title_raw": "Goof.Troop 58 Mafiosos Burlados",
+      "duration_raw": "21:31",
+      "season_number": 1,
+      "episode_number": 58,
+      "views": 193,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=753710074441&type=32&idx=10&tkn=b65FFYdQhMD06XKP_xrl80M3gAw&fn=external_8"
+    },
+    {
+      "video_id": "1736719075913",
+      "title_raw": "Goof.Troop 59 - The Good, The Bad _ the Goofy",
+      "duration_raw": "21:49",
+      "season_number": 1,
+      "episode_number": 59,
+      "views": 229,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=753705028169&type=32&idx=9&tkn=W7dIjD-M8qSxjEkKZKlhHuIHS4A&fn=external_8"
+    },
+    {
+      "video_id": "1736719010377",
+      "title_raw": "Goof.Troop 60 Goofy Educado",
+      "duration_raw": "21:24",
+      "season_number": 1,
+      "episode_number": 60,
+      "views": 171,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=753702734409&type=32&idx=3&tkn=0kOUg6Yms_j3_tELy8Z3PoXY1vI&fn=external_8"
+    },
+    {
+      "video_id": "1658222545481",
+      "title_raw": "Goof.Troop 61_Peg En La Jungla",
+      "duration_raw": "21:30",
+      "season_number": 1,
+      "episode_number": 61,
+      "views": 148,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=714500147785&type=32&idx=9&tkn=ePsSiLTmeOxUzfoPzy1LKvTLkDc&fn=external_8"
+    },
+    {
+      "video_id": "1658223069769",
+      "title_raw": "Goof.Troop 62 Pillo Pillado",
+      "duration_raw": "21:16",
+      "season_number": 1,
+      "episode_number": 62,
+      "views": 166,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=714548775497&type=32&idx=4&tkn=ina_2LwB8XYbcnHlQ0zOmgnuNfY&fn=external_8"
+    },
+    {
+      "video_id": "1658223200841",
+      "title_raw": "Goof.Troop 63 Pizzas Pisadas",
+      "duration_raw": "21:34",
+      "season_number": 1,
+      "episode_number": 63,
+      "views": 168,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=714558999113&type=32&idx=13&tkn=svb-qlFKce5qBPdC8tI6gz8YgR8&fn=external_8"
+    },
+    {
+      "video_id": "1658222152265",
+      "title_raw": "Goof.Troop 64 Te Para Dos",
+      "duration_raw": "21:33",
+      "season_number": 1,
+      "episode_number": 64,
+      "views": 166,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=714480814665&type=32&idx=3&tkn=zw_wZfy1Q_Z41u7IbC4x5TNyJZc&fn=external_8"
+    },
+    {
+      "video_id": "1658223004233",
+      "title_raw": "Goof.Troop 65_El Duelol",
+      "duration_raw": "22:03",
+      "season_number": 1,
+      "episode_number": 65,
+      "views": 207,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=714545367625&type=32&idx=2&tkn=rSBETqnsGYQrm_qR1nU2VEvJglk&fn=external_8"
+    },
+    {
+      "video_id": "1658222414409",
+      "title_raw": "Goof.Troop 66 La Moto de La Suerter",
+      "duration_raw": "21:32",
+      "season_number": 1,
+      "episode_number": 66,
+      "views": 199,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=714489203273&type=32&idx=4&tkn=VVEzcR9iH5eFmT3oXeIPkzHv638&fn=external_8"
+    },
+    {
+      "video_id": "1658222807625",
+      "title_raw": "Goof.Troop 67 Maximum.Insecurity",
+      "duration_raw": "21:47",
+      "season_number": 1,
+      "episode_number": 67,
+      "views": 438,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=714529966665&type=32&idx=11&tkn=OLwOMkpQIrqmOtu-FlOMWGX2Ais&fn=external_8"
+    },
+    {
+      "video_id": "1658222611017",
+      "title_raw": "Goof.Troop 68 Primer Amor",
+      "duration_raw": "21:09",
+      "season_number": 1,
+      "episode_number": 68,
+      "views": 235,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=714507618889&type=32&idx=12&tkn=CFkqcRkQcxwWGjzgdq3EBLJpyrU&fn=external_8"
+    },
+    {
+      "video_id": "1736718813769",
+      "title_raw": "Goof.Troop 69 El Gran Huevo",
+      "duration_raw": "21:16",
+      "season_number": 1,
+      "episode_number": 69,
+      "views": 149,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=714568108617&type=32&idx=0&tkn=XHCiKGLwKDSxDk5YpDxLdMx81h8&fn=external_8"
+    },
+    {
+      "video_id": "1658222873161",
+      "title_raw": "Goof.Troop 70 Three Ring Bind",
+      "duration_raw": "21:38",
+      "season_number": 1,
+      "episode_number": 70,
+      "views": 260,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=714536847945&type=32&idx=5&tkn=KxhykJ7SmYeC29EL-gDgAdE_08M&fn=external_8"
+    },
+    {
+      "video_id": "1658222938697",
+      "title_raw": "Goof.Troop 71 Chocarreros",
+      "duration_raw": "21:26",
+      "season_number": 1,
+      "episode_number": 71,
+      "views": 180,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=714541238857&type=32&idx=3&tkn=Gb7U2TNJOa17NzsGB0rPSKs7paQ&fn=external_8"
+    },
+    {
+      "video_id": "1658222676553",
+      "title_raw": "Goof.Troop 73 Maxitalento",
+      "duration_raw": "21:35",
+      "season_number": 1,
+      "episode_number": 73,
+      "views": 179,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=714517121609&type=32&idx=4&tkn=QoF3AnXGp6wz6pjmw0goPzS43Kw&fn=external_8"
+    },
+    {
+      "video_id": "1658222479945",
+      "title_raw": "Goof.Troop 75 Subiendo A la Alta Sociedad",
+      "duration_raw": "21:11",
+      "season_number": 1,
+      "episode_number": 75,
+      "views": 188,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=714495494729&type=32&idx=8&tkn=p3mn3kM0k3mU55ipXEMSyY8pOF0&fn=external_8"
+    },
+    {
+      "video_id": "1658222742089",
+      "title_raw": "Goof.Troop 76 Sherlock.Goofy",
+      "duration_raw": "21:39",
+      "season_number": 1,
+      "episode_number": 76,
+      "views": 207,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=714524199497&type=32&idx=11&tkn=ZVX9CVQFINoKjOpQNTmdBMU2Wf0&fn=external_8"
+    },
+    {
+      "video_id": "1658222283337",
+      "title_raw": "Goof.Troop 78 Goofy Cavernicola",
+      "duration_raw": "21:47",
+      "season_number": 1,
+      "episode_number": 78,
+      "views": 201,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=714484353609&type=32&idx=8&tkn=B-agThxFqVkl_3z5Tbfg6R3ZLPU&fn=external_8"
+    }
+  ]
+}

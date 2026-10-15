@@ -1,0 +1,232 @@
+{
+  "title": "Droopy",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2223177",
+  "year": "1943",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "360p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Clásicos",
+  "videos": [
+    {
+      "video_id": "1386877749833",
+      "title_raw": "01-Droopy - Dumb-Hounded - Richi",
+      "duration_raw": "08:03",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 62880,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2409213200897&type=32&idx=15&tkn=z2fRN6jDMk1eA5ENx_d3dAxjDQU&fn=external_8"
+    },
+    {
+      "video_id": "1386879126089",
+      "title_raw": "02-Droopy - The Shooting Of Dan McGoo - Richi",
+      "duration_raw": "07:53",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 25097,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018624453253&type=32&idx=14&tkn=BohYhCguKNHCil4eRKfTRnkkt7E&fn=external_8"
+    },
+    {
+      "video_id": "1386878863945",
+      "title_raw": "03-Droopy - Wild And Woolfy - Richi",
+      "duration_raw": "07:39",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 18165,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2411501652481&type=32&idx=7&tkn=mojNun__3SSpEOfQdcCdV9k-QpM&fn=external_8"
+    },
+    {
+      "video_id": "1386877880905",
+      "title_raw": "04-Droopy - Northwest Hounded Police - Richi",
+      "duration_raw": "07:32",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 15005,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=9349265623722&type=32&idx=12&tkn=69bMM0vqQWV6ygxOYyPltYxlmpI&fn=external_8"
+    },
+    {
+      "video_id": "1386878208585",
+      "title_raw": "05- Señor Droopy - Richi",
+      "duration_raw": "08:21",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 11726,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018624060037&type=32&idx=2&tkn=V6dx_W69JHTnYKsvviQzqDeJKVQ&fn=external_8"
+    },
+    {
+      "video_id": "1386878405193",
+      "title_raw": "06-Droopy - Wags to Riches - Richi",
+      "duration_raw": "07:13",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 10977,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018622749317&type=32&idx=11&tkn=fbJ5GjX_E5EmaHADYF_pDvx99BU&fn=external_8"
+    },
+    {
+      "video_id": "1386878732873",
+      "title_raw": "07-Droopy - Out Foxed - Richi",
+      "duration_raw": "08:20",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 10111,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018621831813&type=32&idx=13&tkn=2nzZyLiac-PfVegXl6lbNzARpjc&fn=external_8"
+    },
+    {
+      "video_id": "1386877618761",
+      "title_raw": "08-Droopy - The Chump Champ - Richi",
+      "duration_raw": "07:17",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 10096,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2408794360321&type=32&idx=1&tkn=ugELkYexNEDxqYOfJ2EbFvYmueg&fn=external_8"
+    },
+    {
+      "video_id": "1386878274121",
+      "title_raw": "09-Droopy - Daredevil - Richi",
+      "duration_raw": "06:29",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 8276,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018625305221&type=32&idx=12&tkn=HSHxiig117mt0pl5ifzFnUchXHM&fn=external_8"
+    },
+    {
+      "video_id": "1386878077513",
+      "title_raw": "10-Droopy - Good Deed - Richi",
+      "duration_raw": "07:21",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 7556,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018621241989&type=32&idx=15&tkn=luWjdilz294e1Bayut6ugOG10f4&fn=external_8"
+    },
+    {
+      "video_id": "1386878011977",
+      "title_raw": "11-Droopy - Double Trouble - Richi",
+      "duration_raw": "07:09",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 8323,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2409005648385&type=32&idx=2&tkn=25w_dIxQ9ZeTos5Hetf2ob2Z7NI&fn=external_8"
+    },
+    {
+      "video_id": "1386879060553",
+      "title_raw": "12-Droopy - Caballero - Richi",
+      "duration_raw": "06:29",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 7472,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2441564981761&type=32&idx=2&tkn=VgfSjqKZA1GJqrgwTXKb3n6Ja0w&fn=external_8"
+    },
+    {
+      "video_id": "1386878536265",
+      "title_raw": "13-droopy, los tres cachorritos - Richi",
+      "duration_raw": "06:41",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 7343,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2681658608298&type=32&idx=14&tkn=82scZ08LSoXBxZJgzNvSUoJs80s&fn=external_8"
+    },
+    {
+      "video_id": "1386878470729",
+      "title_raw": "14-Drag-A-Long Droopy - Richi",
+      "duration_raw": "07:32",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 7517,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2076906031709&type=32&idx=4&tkn=2FrIPBVQC6zFV4dNdPuJE_E4ONo&fn=external_8"
+    },
+    {
+      "video_id": "1386877684297",
+      "title_raw": "15-Droopy - Homesteader - Richi",
+      "duration_raw": "07:45",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 6473,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018637232773&type=32&idx=6&tkn=XUT1Zu3M8LS7JxP7GG0QG46HOzI&fn=external_8"
+    },
+    {
+      "video_id": "1386878143049",
+      "title_raw": "16-dixieland (ingles)",
+      "duration_raw": "07:42",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 7505,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7213829196458&type=32&idx=6&tkn=gtNw5wUldQiqtoRUOEiuX3D9Nrk&fn=external_8"
+    },
+    {
+      "video_id": "1386878929481",
+      "title_raw": "17-Droopy - Deputy - Richi",
+      "duration_raw": "06:34",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 10767,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018636315269&type=32&idx=15&tkn=_HHtJoeY6vqD7KfRdZI2ZEzY6p8&fn=external_8"
+    },
+    {
+      "video_id": "1386878601801",
+      "title_raw": "18-Droopy - Millionaire - Richi",
+      "duration_raw": "06:53",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 6069,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2409071905281&type=32&idx=5&tkn=FSEGbbImHFkQByTUVyx-xYRA5Qo&fn=external_8"
+    },
+    {
+      "video_id": "1386878995017",
+      "title_raw": "19-Droopy - Grin And Share It - Richi",
+      "duration_raw": "06:38",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 5849,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2408974912001&type=32&idx=7&tkn=UiwAUIccg2a389YzO1xHWBaEU-E&fn=external_8"
+    },
+    {
+      "video_id": "1386877946441",
+      "title_raw": "20- En la Escuela - Richi",
+      "duration_raw": "06:26",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 5368,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2417344645633&type=32&idx=8&tkn=23hLwgLDBIcdXZIN3IIe01Llgug&fn=external_8"
+    },
+    {
+      "video_id": "1386877815369",
+      "title_raw": "21-Droopy - One Droopy Knight - Richi",
+      "duration_raw": "06:48",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 6468,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7018630548101&type=32&idx=1&tkn=SHGxsvMtY-6Mtol-nuW-xbCT9fk&fn=external_8"
+    },
+    {
+      "video_id": "1386878339657",
+      "title_raw": "22-Droopy - Sheep Wrecked - Richi",
+      "duration_raw": "06:18",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 5905,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2409104673281&type=32&idx=12&tkn=2y9GHRqweiPbcVcxRue3V4UP16o&fn=external_8"
+    },
+    {
+      "video_id": "1386878667337",
+      "title_raw": "23-Droopy Loco por las Carreras - Richi",
+      "duration_raw": "06:51",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 726,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7209960147626&type=32&idx=1&tkn=Z8KlGmkskDIBSAYhDkLRdJrnQo8&fn=external_8"
+    },
+    {
+      "video_id": "1386878798409",
+      "title_raw": "24-Droopy - Leprechaun - Richi",
+      "duration_raw": "06:30",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 1071,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2409258486273&type=32&idx=1&tkn=DDaeKJ9tiZGEtUyxK1sRENVvU04&fn=external_8"
+    }
+  ]
+}

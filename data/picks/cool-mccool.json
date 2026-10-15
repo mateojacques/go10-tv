@@ -1,0 +1,196 @@
+{
+  "title": "Cool McCool",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c4298825",
+  "year": "1966",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "720p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "2205728115273",
+      "title_raw": "1x01 Lo Que el Viento se Llevo - El Fantasma de la Opera - Los Malvados Plumiferos_RVL",
+      "duration_raw": "21:11",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 5575,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1058612185673&type=37&idx=2&tkn=bGIf10aImIAdso8MbjDTZBpuaSo&fn=external_8"
+    },
+    {
+      "video_id": "2205728311881",
+      "title_raw": "1x02 Cuidado con esos sombreros - La Pelota Robada - La Casa que Construyo Jack_RVL",
+      "duration_raw": "21:10",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 1410,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1058638727753&type=37&idx=4&tkn=TpUrlFo1HEWXIh1kMwQRCNlRU2c&fn=external_8"
+    },
+    {
+      "video_id": "2205728377417",
+      "title_raw": "1x03 Dos gordos y un malvado - Los Calzadores Perdidos - El Jardin del Mal_RVL",
+      "duration_raw": "21:04",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 881,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1058649606729&type=37&idx=4&tkn=1MhQZNtYYv0lubGumam4aaGIj7w&fn=external_8"
+    },
+    {
+      "video_id": "2205728705097",
+      "title_raw": "1x04 Los proyectiles robados - Tienes un Pastel en el Ojo - El Rescate de una Reina_RVL",
+      "duration_raw": "21:12",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 729,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1058677787209&type=37&idx=8&tkn=-sPZCnPZw_oW7lb9t6xO_KaFhPM&fn=external_8"
+    },
+    {
+      "video_id": "2205727656521",
+      "title_raw": "1x05 El Lavado de Cerebro - Leñador -El Rastrero Ataca de Nuevo_RVL",
+      "duration_raw": "21:08",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 633,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1058539440713&type=37&idx=3&tkn=s72_tTJgY-hDaleFBCJIzJkmD7k&fn=external_8"
+    },
+    {
+      "video_id": "2205728246345",
+      "title_raw": "1x06 Ríe payaso - El Gimnasio - El Saco de Viento_RVL",
+      "duration_raw": "21:12",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 604,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1058627586633&type=37&idx=8&tkn=D8wRQW8XoxFWNypqTMOY4P4kF1o&fn=external_8"
+    },
+    {
+      "video_id": "2205728442953",
+      "title_raw": "1x07 Adivine cuál es el Cool Mobile - Policias de Altura - La Lechuza Ladrona_RVL",
+      "duration_raw": "21:11",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 459,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1058659306057&type=37&idx=6&tkn=KJWrociOF0sdZIktNQormkUVQU8&fn=external_8"
+    },
+    {
+      "video_id": "2205727722057",
+      "title_raw": "1x08 Los Soplidos del Soplon - El Auto Nuevo - Como Engañar a una Lechuza_RVL",
+      "duration_raw": "21:11",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 450,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1058549271113&type=37&idx=9&tkn=15Z-fEerhT0O_dhodmMUpjCNei0&fn=external_8"
+    },
+    {
+      "video_id": "2205728770633",
+      "title_raw": "1x09 Sombreros y Ladrones - Tres Hombres Sobre una Casa - El Romantico Rastrero_RVL",
+      "duration_raw": "21:11",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 492,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1058682964553&type=37&idx=14&tkn=i83L5mkT8KF-IqDPLwRTgepyL2w&fn=external_8"
+    },
+    {
+      "video_id": "2205728180809",
+      "title_raw": "1x10 Jack el Boxeador - Se Alboroto el Gallinero - El Gas del Amor_RVL",
+      "duration_raw": "21:11",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 514,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1058619787849&type=37&idx=9&tkn=-Sj9MuCsNLj_hl145kIra4YjoK8&fn=external_8"
+    },
+    {
+      "video_id": "2205728574025",
+      "title_raw": "1x11 Quien Robo Mis 32 Agentes - El Demonio Volador - El Canario de 500 Libras_RVL",
+      "duration_raw": "21:11",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 527,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1058672413257&type=37&idx=1&tkn=S-vJxCMU6JSc23mzjNHXg_m0dgk&fn=external_8"
+    },
+    {
+      "video_id": "2205728508489",
+      "title_raw": "1x12 Juegos y juguetes_RVL",
+      "duration_raw": "21:15",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 431,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1058665269833&type=37&idx=12&tkn=t6UqqBdd-e3ZKXWmeW2n1oKr-cQ&fn=external_8"
+    },
+    {
+      "video_id": "2205727459913",
+      "title_raw": "1x13 Los Diamantes Perdidos - Bromistas de Altura - El Escurridizo Rastrero v2_RVL",
+      "duration_raw": "21:11",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 410,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1058513291849&type=37&idx=10&tkn=As_QmN96bd050AwRV8EyjZ3H2Go&fn=external_8"
+    },
+    {
+      "video_id": "2205727918665",
+      "title_raw": "1x14 Jack el Asaltante - Cuestion de Minutos - La Diosa del Viento_RVL",
+      "duration_raw": "21:10",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 463,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1058577320521&type=37&idx=1&tkn=M_3odcIuCr4IlLFpKm6htwETD0Y&fn=external_8"
+    },
+    {
+      "video_id": "2205727787593",
+      "title_raw": "1x15 Los Apuros de McCool - Monerias - Un Problema Creciente_RVL",
+      "duration_raw": "21:12",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 361,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1058557790793&type=37&idx=5&tkn=Eyf-cY2ELZxsaosm-UT8mTkL71I&fn=external_8"
+    },
+    {
+      "video_id": "2205728049737",
+      "title_raw": "1x16 Las Enredaderas Mortales - El Dragon Verde - Todo lo que Sube, Baja_RVL",
+      "duration_raw": "21:08",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 364,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1058600061513&type=37&idx=2&tkn=-hYYDTieQcIW6aRNrcwJXA5-vdU&fn=external_8"
+    },
+    {
+      "video_id": "2205727984201",
+      "title_raw": "1x17 Dios los Cría y Ellos se Juntan - Globos para Bobos - El Malvado Jack el Muñeco_RVL",
+      "duration_raw": "21:11",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 413,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1058588461641&type=37&idx=8&tkn=gP5IstsKt4bSuaCs-jRNuftRAFU&fn=external_8"
+    },
+    {
+      "video_id": "2205727525449",
+      "title_raw": "1x18 Ola de Crimenes - Cazadores de Cabras - La Floreria_RVL",
+      "duration_raw": "21:12",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 393,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1058520762953&type=37&idx=5&tkn=XTPfYCkB32TjD2TEqm5XBWFdktg&fn=external_8"
+    },
+    {
+      "video_id": "2205727853129",
+      "title_raw": "1x19 Las Obras de Arte Robadas - Con las Manos en la Masa - Escuela de Bandidos_RVL",
+      "duration_raw": "21:11",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 458,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1058565917257&type=37&idx=10&tkn=WIZcX5xK5LZ3Jg3OB_U6EJ1HJTc&fn=external_8"
+    },
+    {
+      "video_id": "2205727590985",
+      "title_raw": "1x20 El Caso del Sombrero - Vida de Perros - Viaje a la Luna_RVL",
+      "duration_raw": "21:09",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 444,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1058530331209&type=37&idx=8&tkn=lXt2eS2GSCIKA7ujq5nMo91LtGE&fn=external_8"
+    }
+  ]
+}

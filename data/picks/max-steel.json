@@ -1,0 +1,331 @@
+{
+  "title": "Max Steel",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c5172809",
+  "year": "2000",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "2649120574025",
+      "title_raw": "Max.Steel.S01E01.Strangers.480p.WEBRip_x264",
+      "duration_raw": "19:54",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 21951,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476494428745&type=32&idx=15&tkn=ssQP0pYMQT3FyhlQ-NFCo9O77Ms&fn=external_8"
+    },
+    {
+      "video_id": "2649122671177",
+      "title_raw": "Max.Steel.S01E02.Shadows.480p.WEBRip_x264",
+      "duration_raw": "19:38",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 4503,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476626614857&type=32&idx=14&tkn=HL94Ow0GWd9cPsuCIq8kx-DOR7E&fn=external_8"
+    },
+    {
+      "video_id": "2649120770633",
+      "title_raw": "Max.Steel.S01E03.Sacrifices.480p.WEBRip_x264",
+      "duration_raw": "20:38",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 2868,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476540369481&type=32&idx=14&tkn=BI62mA8MpX_lm4WsOYV3bR4Hnl4&fn=external_8"
+    },
+    {
+      "video_id": "2649120639561",
+      "title_raw": "Max.Steel.S01E04.Sportsmen.480p.WEBRip_x264",
+      "duration_raw": "19:59",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 2309,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476505373257&type=32&idx=12&tkn=CehOvvZTSLyf6Fbg4xcylnk_Bng&fn=external_8"
+    },
+    {
+      "video_id": "2649120901705",
+      "title_raw": "Max.Steel.S01E05.Sabres.480p.WEBRip_x264",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1974,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476594567753&type=32&idx=6&tkn=XBtcTSfycTMYfbsdfzvTHpg3Ofo&fn=external_8"
+    },
+    {
+      "video_id": "2649121098313",
+      "title_raw": "Max.Steel.S01E06.Sharks.480p.WEBRip_x264",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 2343,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476598762057&type=32&idx=9&tkn=o4bsIhkpYq2xGIWupNRceZTDDMw&fn=external_8"
+    },
+    {
+      "video_id": "2649121491529",
+      "title_raw": "Max.Steel.S01E07.Sphinxes.480p.WEBRip_x264",
+      "duration_raw": "20:31",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1707,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476607609417&type=32&idx=12&tkn=qFDVBw8xb5p6_RzL0hkR0C70-LQ&fn=external_8"
+    },
+    {
+      "video_id": "2649121884745",
+      "title_raw": "Max.Steel.S01E08.Seraphim.480p.WEBRip_x264",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1700,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476614097481&type=32&idx=6&tkn=Zgw91ncQfXrDJE4EkGrSaC4bE4c&fn=external_8"
+    },
+    {
+      "video_id": "2649120705097",
+      "title_raw": "Max.Steel.S01E09.Snowblind.480p.WEBRip_x264",
+      "duration_raw": "21:04",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 1350,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476516907593&type=32&idx=9&tkn=CHsYKnMD_DZWO-1e-pNHJQqqBA4&fn=external_8"
+    },
+    {
+      "video_id": "2649121294921",
+      "title_raw": "Max.Steel.S01E10.Swashbucklers.480p.WEBRip_x264",
+      "duration_raw": "20:48",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 1361,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476602825289&type=32&idx=11&tkn=Mikow4mzDYwdqMkc1avN2Is8tXo&fn=external_8"
+    },
+    {
+      "video_id": "2649121425993",
+      "title_raw": "Max.Steel.S01E11.Spear.Carriers.480p.WEBRip_x264",
+      "duration_raw": "21:22",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 1307,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476606298697&type=32&idx=1&tkn=uV_Uk6VP3U9KS2tF9eMg6iu0l0E&fn=external_8"
+    },
+    {
+      "video_id": "2649120836169",
+      "title_raw": "Max.Steel.S01E12.Scions.480p.WEBRip_x264",
+      "duration_raw": "20:50",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 1376,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476708272713&type=32&idx=3&tkn=iU1-Kh-VQa7BU59iJ70z904aNJ4&fn=external_8"
+    },
+    {
+      "video_id": "2649122409033",
+      "title_raw": "Max.Steel.S01E13.Shattered.480p.WEBRip_x264",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 1588,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476622748233&type=32&idx=9&tkn=aA6dZSVpkS8FR8UHwWn7_GzOKJg&fn=external_8"
+    },
+    {
+      "video_id": "2649122015817",
+      "title_raw": "Max.Steel.S02E01.The.Return.480p.WEBRip_x264",
+      "duration_raw": "21:23",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 2070,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476616456777&type=32&idx=12&tkn=VxHhQOTF8TG9P8PnROc2DXr7Bug&fn=external_8"
+    },
+    {
+      "video_id": "2649122343497",
+      "title_raw": "Max.Steel.S02E02.Fun.In.The.Sun.480p.WEBRip_x264",
+      "duration_raw": "21:23",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 1281,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476621568585&type=32&idx=4&tkn=z0D7IvmCZxxyek5QZBT1PKRX188&fn=external_8"
+    },
+    {
+      "video_id": "2649121622601",
+      "title_raw": "Max.Steel.S02E03.Amazon.480p.WEBRip_x264",
+      "duration_raw": "21:21",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 1412,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476610099785&type=32&idx=9&tkn=YQyEcD9vVnOHcI4WHWU_WgYBFXY&fn=external_8"
+    },
+    {
+      "video_id": "2649121032777",
+      "title_raw": "Max.Steel.S02E04.When.Lightning.Strikes.Twice.480p.WEBRip_x264",
+      "duration_raw": "20:23",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 1273,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476598172233&type=32&idx=13&tkn=5SX-jpkPgPTY3oAtH6r4aB_R194&fn=external_8"
+    },
+    {
+      "video_id": "2649122146889",
+      "title_raw": "Max.Steel.S02E05.Fire.&.Ice.480p.WEBRip_x264",
+      "duration_raw": "21:23",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 1272,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476618226249&type=32&idx=1&tkn=fBCLEjKwBaEgWhztbFxgxlF7RYQ&fn=external_8"
+    },
+    {
+      "video_id": "2649121557065",
+      "title_raw": "Max.Steel.S02E06.Trapped.480p.WEBRip_x264",
+      "duration_raw": "21:23",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 1144,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476609247817&type=32&idx=7&tkn=D1eNVlt84GGeJEE7Hbc8qmSLihA&fn=external_8"
+    },
+    {
+      "video_id": "2649121163849",
+      "title_raw": "Max.Steel.S02E07.Steel.Vs.Steel.480p.WEBRip_x264",
+      "duration_raw": "21:23",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 1324,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476600072777&type=32&idx=12&tkn=XS6tTOHmQZkuks8-csOXFkP0X9g&fn=external_8"
+    },
+    {
+      "video_id": "2649122605641",
+      "title_raw": "Max.Steel.S02E08.Space.Opera.480p.WEBRip_x264",
+      "duration_raw": "21:24",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 974,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476625893961&type=32&idx=6&tkn=k--6kdGlHgBDADcLnWYpWy_T1AI&fn=external_8"
+    },
+    {
+      "video_id": "2649122540105",
+      "title_raw": "Max.Steel.S02E09.Old.Friend.New.Enemy.480p.WEBRip_x264",
+      "duration_raw": "21:22",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 1246,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476625238601&type=32&idx=3&tkn=-G7_vjKgzoeeIB5UnryQEQQhbuc&fn=external_8"
+    },
+    {
+      "video_id": "2649121229385",
+      "title_raw": "Max.Steel.S02E10.Extreme.480p.WEBRip_x264",
+      "duration_raw": "21:23",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 1073,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476601973321&type=32&idx=1&tkn=DKxo-l0TLUVZ0iWUkX3bvi0c72Q&fn=external_8"
+    },
+    {
+      "video_id": "2649122736713",
+      "title_raw": "Max.Steel.S02E11.Best.Friend.480p.WEBRip_x264",
+      "duration_raw": "20:46",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 1456,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476628253257&type=32&idx=9&tkn=Mt2MOvtHGG_Czx5lTlA4w8vhhXw&fn=external_8"
+    },
+    {
+      "video_id": "2649121688137",
+      "title_raw": "Max.Steel.S02E12.The.Race.480p.WEBRip_x264",
+      "duration_raw": "20:52",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 937,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476610886217&type=32&idx=5&tkn=0n1itPtknBgYVSLpVhOfv0ImYpM&fn=external_8"
+    },
+    {
+      "video_id": "2649121950281",
+      "title_raw": "Max.Steel.S02E13.Breakout.480p.WEBRip_x264",
+      "duration_raw": "21:22",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 1108,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476615342665&type=32&idx=6&tkn=VVk-Y46OzRQuhI0r5wwdvxOBTMg&fn=external_8"
+    },
+    {
+      "video_id": "2649122081353",
+      "title_raw": "Max.Steel.S03E01.Deep.Cover.480p.WEBRip_x264",
+      "duration_raw": "21:24",
+      "season_number": 3,
+      "episode_number": 1,
+      "views": 2109,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476617177673&type=32&idx=1&tkn=Gw4biIHCwyIY3eh_l2Yc7XtactU&fn=external_8"
+    },
+    {
+      "video_id": "2649122802249",
+      "title_raw": "Max.Steel.S03E02.Survival.Instinct.480p.WEBRip_x264",
+      "duration_raw": "21:13",
+      "season_number": 3,
+      "episode_number": 2,
+      "views": 1192,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476629695049&type=32&idx=3&tkn=R9IRxUBpvcEvsyoi-VQQoTGqKcA&fn=external_8"
+    },
+    {
+      "video_id": "2649122277961",
+      "title_raw": "Max.Steel.S03E03.Cold.Sweat.480p.WEBRip_x264",
+      "duration_raw": "20:39",
+      "season_number": 3,
+      "episode_number": 3,
+      "views": 968,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476620716617&type=32&idx=8&tkn=EV0F591OuTiLPKmOQzR1-rsbd0E&fn=external_8"
+    },
+    {
+      "video_id": "2649120967241",
+      "title_raw": "Max.Steel.S03E04.Fan.Appreciation.480p.WEBRip_x264",
+      "duration_raw": "21:24",
+      "season_number": 3,
+      "episode_number": 4,
+      "views": 918,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476595878473&type=32&idx=1&tkn=S-WxTq2i9VnvNsPo5P5cGhbWyzo&fn=external_8"
+    },
+    {
+      "video_id": "2649121360457",
+      "title_raw": "Max.Steel.S03E05.Rough.Seas.480p.WEBRip_x264",
+      "duration_raw": "21:23",
+      "season_number": 3,
+      "episode_number": 5,
+      "views": 891,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476604201545&type=32&idx=5&tkn=aXpIMs9jPiHXmtz5_r-4hCjHnNk&fn=external_8"
+    },
+    {
+      "video_id": "2649122212425",
+      "title_raw": "Max.Steel.S03E06.Prey.480p.WEBRip_x264",
+      "duration_raw": "20:41",
+      "season_number": 3,
+      "episode_number": 6,
+      "views": 1008,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476619668041&type=32&idx=13&tkn=NLLqisESn2WdxBhLpntr8hjL3oc&fn=external_8"
+    },
+    {
+      "video_id": "2649122474569",
+      "title_raw": "Max.Steel.S03E07.Special.Delivery.480p.WEBRip_x264",
+      "duration_raw": "21:22",
+      "season_number": 3,
+      "episode_number": 7,
+      "views": 1109,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476623993417&type=32&idx=2&tkn=EoeiG6_pI_L2C05PedXILhUpyeQ&fn=external_8"
+    },
+    {
+      "video_id": "2649121819209",
+      "title_raw": "Max.Steel.S03E08.Turbulence.480p.WEBRip_x264",
+      "duration_raw": "21:22",
+      "season_number": 3,
+      "episode_number": 8,
+      "views": 978,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476613245513&type=32&idx=7&tkn=ZDdvX3F-fkzQo5ZS-wOkxg5EQ1A&fn=external_8"
+    },
+    {
+      "video_id": "2649121753673",
+      "title_raw": "Max.Steel.S03E09.Truth.Be.Told.480p.WEBRip_x264",
+      "duration_raw": "21:22",
+      "season_number": 3,
+      "episode_number": 9,
+      "views": 2336,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1476612065865&type=32&idx=12&tkn=0OM0mTSSoocOe-_-Zi8z5BDyZd0&fn=external_8"
+    }
+  ]
+}

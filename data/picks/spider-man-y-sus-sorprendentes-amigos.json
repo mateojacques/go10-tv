@@ -1,0 +1,232 @@
+{
+  "title": "Spider-Man y sus Sorprendentes Amigos",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2261321",
+  "year": "1981",
+  "studio": "Marvel",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Superhéroes",
+  "videos": [
+    {
+      "video_id": "1416679852617",
+      "title_raw": "SM & AF - 01",
+      "duration_raw": "23:58",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 48976,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7861002701360&type=32&idx=1&tkn=QZ_nSxEiBsDJ9ZHRQzkSYNFT9cU&fn=external_8"
+    },
+    {
+      "video_id": "1416679262793",
+      "title_raw": "SM & AF - 02",
+      "duration_raw": "23:58",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 10701,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7861003815472&type=32&idx=8&tkn=TSWfKct_c48j5QwUboh5_JCbYRg&fn=external_8"
+    },
+    {
+      "video_id": "1416679918153",
+      "title_raw": "SM & AF - 03",
+      "duration_raw": "23:57",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 5840,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7861004077616&type=32&idx=13&tkn=bkAFR3_uYPB1vWYeI0z7keorhjo&fn=external_8"
+    },
+    {
+      "video_id": "1416679590473",
+      "title_raw": "SM & AF - 04",
+      "duration_raw": "23:59",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 5203,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7861003749936&type=32&idx=8&tkn=GWPKnDj_kBYxZUfL6oLEUdIZmx8&fn=external_8"
+    },
+    {
+      "video_id": "1416679787081",
+      "title_raw": "SM & AF - 05",
+      "duration_raw": "23:56",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 5073,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7861004274224&type=32&idx=7&tkn=6YT3iemZfO65a94H64QqtbEzWAE&fn=external_8"
+    },
+    {
+      "video_id": "1416679524937",
+      "title_raw": "SM & AF - 06",
+      "duration_raw": "23:58",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 4906,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7861003422256&type=32&idx=1&tkn=pX6NEMK1n8AH3T6m0F3VKk1bF9g&fn=external_8"
+    },
+    {
+      "video_id": "1416679197257",
+      "title_raw": "SM & AF - 07",
+      "duration_raw": "23:59",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 3378,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7861005257264&type=32&idx=14&tkn=uY81vOtS4sxrlsJuBjMmKeqZjt8&fn=external_8"
+    },
+    {
+      "video_id": "1416679393865",
+      "title_raw": "SM & AF - 08",
+      "duration_raw": "24:07",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 3957,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7861004143152&type=32&idx=13&tkn=MlUTTIFsoJkwa2Gmwq45UkWMVNo&fn=external_8"
+    },
+    {
+      "video_id": "1416679066185",
+      "title_raw": "SM & AF - 09",
+      "duration_raw": "23:59",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 3555,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7861004405296&type=32&idx=3&tkn=Sqg94rXffBBTtBFtyde2AZ2GBNE&fn=external_8"
+    },
+    {
+      "video_id": "1416679459401",
+      "title_raw": "SM & AF - 10",
+      "duration_raw": "23:57",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 3716,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7861005912624&type=32&idx=4&tkn=TKwlaIwCqMUKSa3EcEaQBHopY3Y&fn=external_8"
+    },
+    {
+      "video_id": "1416679656009",
+      "title_raw": "SM & AF - 11",
+      "duration_raw": "24:01",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 2879,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6942650337821&type=32&idx=13&tkn=yFpPe39N-4SEocRwnSE6GFU-4bU&fn=external_8"
+    },
+    {
+      "video_id": "1416679721545",
+      "title_raw": "SM & AF - 12",
+      "duration_raw": "24:01",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 2729,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7128336763514&type=32&idx=3&tkn=glTTd7Pc7hmemP-O8W9e0Ap4g5E&fn=external_8"
+    },
+    {
+      "video_id": "1416679131721",
+      "title_raw": "SM & AF - 13",
+      "duration_raw": "23:57",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 3058,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7861003881008&type=32&idx=6&tkn=nlDSTpJPW9Oo0q9xZZyVutXOFt8&fn=external_8"
+    },
+    {
+      "video_id": "1416680245833",
+      "title_raw": "SM & AF - 14",
+      "duration_raw": "24:03",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 4424,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7861004667440&type=32&idx=3&tkn=7IXKtzxbmo756I6jz_Wk7XmbQZQ&fn=external_8"
+    },
+    {
+      "video_id": "1416680311369",
+      "title_raw": "SM & AF - 15",
+      "duration_raw": "24:02",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 4795,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7861004798512&type=32&idx=1&tkn=7Bq0mZg9I5pIIhbVTE2kddePk5s&fn=external_8"
+    },
+    {
+      "video_id": "1416680376905",
+      "title_raw": "SM & AF - 16",
+      "duration_raw": "24:01",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 4959,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7861004470832&type=32&idx=9&tkn=iaspzS152qmJBkUmeEAmUWcVmRs&fn=external_8"
+    },
+    {
+      "video_id": "1416680573513",
+      "title_raw": "SM & AF - 17",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 3410,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7861005322800&type=32&idx=8&tkn=7WOGe7eQQnKhgNY5PU5dYXobHqI&fn=external_8"
+    },
+    {
+      "video_id": "1416681097801",
+      "title_raw": "SM & AF - 18",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 2859,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7861004601904&type=32&idx=0&tkn=kwweZ7cjfTip46oem6jxk7924Bw&fn=external_8"
+    },
+    {
+      "video_id": "1416681032265",
+      "title_raw": "SM & AF - 19",
+      "duration_raw": "23:45",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 2323,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7861004536368&type=32&idx=9&tkn=sCjeR8UPz0vlSXULrPSej9djMas&fn=external_8"
+    },
+    {
+      "video_id": "1416680639049",
+      "title_raw": "SM & AF - 20",
+      "duration_raw": "23:42",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 2675,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7861005716016&type=32&idx=11&tkn=Rwr4AomrIKPRdcR6s-OdJ4mQE_E&fn=external_8"
+    },
+    {
+      "video_id": "1416680704585",
+      "title_raw": "SM & AF - 21",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 3021,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7861004864048&type=32&idx=11&tkn=86XeZCW5udaVNk_oXcpkPs1gHag&fn=external_8"
+    },
+    {
+      "video_id": "1416680966729",
+      "title_raw": "SM & AF - 22",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 2544,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7861004732976&type=32&idx=10&tkn=nAVEwB7GWGoi-7o2wlDbuEQul6k&fn=external_8"
+    },
+    {
+      "video_id": "1416680835657",
+      "title_raw": "SM & AF - 23",
+      "duration_raw": "23:34",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 3087,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7861004208688&type=32&idx=13&tkn=PiNyrUz8Tpv5usinEx5n-agLZw0&fn=external_8"
+    },
+    {
+      "video_id": "1416680901193",
+      "title_raw": "SM & AF - 24",
+      "duration_raw": "23:46",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 2801,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8072338213424&type=32&idx=13&tkn=gpUHBaI4cNmh4g9uQ1b9T3Bdgg8&fn=external_8"
+    }
+  ]
+}

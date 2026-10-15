@@ -1,0 +1,25 @@
+{
+  "title": "Tuff Puppy",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c4974665",
+  "year": "2010",
+  "studio": "Nickelodeon",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "2534886672969",
+      "title_raw": "[www.RetroCanal.Net]-TUF-02x06",
+      "duration_raw": "23:19",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 269,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1343032527433&type=32&idx=1&tkn=L2P2rFKBR1LJXYqmyjU3VTwNF1U&fn=external_8"
+    }
+  ]
+}

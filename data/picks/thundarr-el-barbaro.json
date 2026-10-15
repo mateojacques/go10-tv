@@ -1,0 +1,205 @@
+{
+  "title": "Thundarr el Bárbaro",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c3014729",
+  "year": "1980",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "360p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Aventura",
+  "videos": [
+    {
+      "video_id": "1738306882121",
+      "title_raw": "Thundar_El_BarbaroEp1",
+      "duration_raw": "20:40",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 10440,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7411544361592&type=32&idx=15&tkn=5DTUTjEB6WDHSmFk-HMGsp2Cys4&fn=external_8"
+    },
+    {
+      "video_id": "1738306488905",
+      "title_raw": "Thundar_El_BarbaroEp2",
+      "duration_raw": "20:35",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 2953,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7411511069304&type=32&idx=11&tkn=Q-puXcL2WPvlcPt5iZRyxd-AyvA&fn=external_8"
+    },
+    {
+      "video_id": "1738306947657",
+      "title_raw": "Thundar_El_BarbaroEp3",
+      "duration_raw": "20:39",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 2087,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7411464211064&type=32&idx=5&tkn=sNdkaqDMeLQwzyUMpuB4W51obVk&fn=external_8"
+    },
+    {
+      "video_id": "1738307013193",
+      "title_raw": "Thundar_El_BarbaroEp4",
+      "duration_raw": "20:30",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1584,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7411404442232&type=32&idx=12&tkn=9460x0SG7WUBwjuyPo3Dzoykuaw&fn=external_8"
+    },
+    {
+      "video_id": "1738306357833",
+      "title_raw": "Thundar_El_BarbaroEp5",
+      "duration_raw": "20:33",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1416,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7411377506936&type=32&idx=3&tkn=sle4owhIq6p6LjNlR0adAbg09ok&fn=external_8"
+    },
+    {
+      "video_id": "1738306161225",
+      "title_raw": "Thundar_El_BarbaroEp6",
+      "duration_raw": "20:34",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 1356,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8060521089675&type=32&idx=13&tkn=zpVVVH0vy-_GuBKqIk8hJomviZQ&fn=external_8"
+    },
+    {
+      "video_id": "1738306226761",
+      "title_raw": "Thundar_El_BarbaroEp7",
+      "duration_raw": "20:30",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1296,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=8060532230795&type=32&idx=4&tkn=TfEJzqrr6c0DmGWn9SPdg5OvJNI&fn=external_8"
+    },
+    {
+      "video_id": "1738305899081",
+      "title_raw": "Thundar_El_BarbaroEp8",
+      "duration_raw": "20:31",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1075,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=7411271207544&type=32&idx=5&tkn=2Nj1v3Bx7wmhhpb53FwXnZHI6SA&fn=external_8"
+    },
+    {
+      "video_id": "1738306030153",
+      "title_raw": "Thundar_El_BarbaroEp9",
+      "duration_raw": "20:33",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 1034,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=793120213624&type=32&idx=3&tkn=3Q_DW95li17PZRrtFRsCy9itAz0&fn=external_8"
+    },
+    {
+      "video_id": "1738305768009",
+      "title_raw": "Thundar_El_BarbaroEp10",
+      "duration_raw": "20:30",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 1046,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=793121065592&type=32&idx=1&tkn=xvNtiznWhylt94x9NkKdNYVjz5Y&fn=external_8"
+    },
+    {
+      "video_id": "1738306685513",
+      "title_raw": "Thundar_El_BarbaroEp11",
+      "duration_raw": "20:29",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 990,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=793120672376&type=32&idx=11&tkn=evXjmBXhe2kBd1l5ptqL569uMQM&fn=external_8"
+    },
+    {
+      "video_id": "1738306095689",
+      "title_raw": "Thundar_El_BarbaroEp12",
+      "duration_raw": "20:24",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 960,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=793120410232&type=32&idx=1&tkn=U9YFiYcGBzC0BNa9rpV2pzChH6s&fn=external_8"
+    },
+    {
+      "video_id": "1738305833545",
+      "title_raw": "Thundar_El_BarbaroEp13",
+      "duration_raw": "20:32",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 1173,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=12195491547692&type=32&idx=12&tkn=ij2NY4EE0PYtJ3r_Jlt1NstNc9U&fn=external_8"
+    },
+    {
+      "video_id": "1738306423369",
+      "title_raw": "Thundar_El_BarbaroEp14",
+      "duration_raw": "20:27",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 932,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=793119820408&type=32&idx=13&tkn=1IAkkyHPRYq1vkhG2Oa7ku_E4r4&fn=external_8"
+    },
+    {
+      "video_id": "1738306292297",
+      "title_raw": "Thundar_El_BarbaroEp15",
+      "duration_raw": "22:18",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 955,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=793119427192&type=32&idx=6&tkn=1_AiOKPGc6E3qXojAKibPzyiufk&fn=external_8"
+    },
+    {
+      "video_id": "1738306816585",
+      "title_raw": "Thundar_El_BarbaroEp16",
+      "duration_raw": "20:28",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 967,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=793119296120&type=32&idx=0&tkn=O4a7sJRIYZARugn1YWGTO5iLQUw&fn=external_8"
+    },
+    {
+      "video_id": "1738307078729",
+      "title_raw": "Thundar_El_BarbaroEp17",
+      "duration_raw": "20:29",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 793,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=793117133432&type=32&idx=14&tkn=MpWxAbc0siiIqzAaJJa6TRkULDI&fn=external_8"
+    },
+    {
+      "video_id": "1738306751049",
+      "title_raw": "Thundar_El_BarbaroEp18",
+      "duration_raw": "20:32",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 786,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=793116347000&type=32&idx=7&tkn=uxCZC0DgLYI4k4kr-eg9HarOZwk&fn=external_8"
+    },
+    {
+      "video_id": "1738306554441",
+      "title_raw": "Thundar_El_BarbaroEp19",
+      "duration_raw": "20:28",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 790,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=793116609144&type=32&idx=2&tkn=pNMdMA5AG8fFxLlxYumlNez3nFQ&fn=external_8"
+    },
+    {
+      "video_id": "1738306619977",
+      "title_raw": "Thundar_El_BarbaroEp20",
+      "duration_raw": "20:31",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 780,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=793115036280&type=32&idx=8&tkn=MJvqG_qKwJv97LOZoKMmMZWoRjg&fn=external_8"
+    },
+    {
+      "video_id": "1738305964617",
+      "title_raw": "Thundar_El_BarbaroEp21",
+      "duration_raw": "20:28",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 1182,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=12846648855263&type=32&idx=11&tkn=7UQpSFdSV_Eb-9MUIQw-gjlZ_6E&fn=external_8"
+    }
+  ]
+}

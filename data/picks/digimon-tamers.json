@@ -1,0 +1,476 @@
+{
+  "title": "Digimon Tamers",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2488137 c2206537",
+  "year": "2001",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Aventura",
+  "videos": [
+    {
+      "video_id": "1509653350985",
+      "title_raw": "[SR] Digimon Tamers - 01_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 30124,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644789504585&type=37&idx=2&tkn=8N_Oo3YfoUUlXZSf5l9mJQclhQ4&fn=external_8"
+    },
+    {
+      "video_id": "1509653613129",
+      "title_raw": "[SR] Digimon Tamers - 02_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 14195,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644802480713&type=37&idx=0&tkn=XOdbXfLNoIwI__EyCiS8aIICDbc&fn=external_8"
+    },
+    {
+      "video_id": "1509654268489",
+      "title_raw": "[SR] Digimon Tamers - 03_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 11588,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644841736777&type=37&idx=0&tkn=CGTBDfMprNA6qtZMUoZxVoziVuA&fn=external_8"
+    },
+    {
+      "video_id": "1509654399561",
+      "title_raw": "[SR] Digimon Tamers - 04_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 10565,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644853336649&type=37&idx=0&tkn=V07ozHTDiLVRvVneb0GYGGOn0xM&fn=external_8"
+    },
+    {
+      "video_id": "1509654202953",
+      "title_raw": "[SR] Digimon Tamers - 05_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 8925,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644837083721&type=37&idx=0&tkn=CP9WLpWyWwTyWontGOk2qechF9I&fn=external_8"
+    },
+    {
+      "video_id": "1509652499017",
+      "title_raw": "[SR] Digimon Tamers - 06_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 9055,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644737796681&type=37&idx=0&tkn=wwGGHjA3H-psVAQCnWSY6FAQFb0&fn=external_8"
+    },
+    {
+      "video_id": "1509653023305",
+      "title_raw": "[SR] Digimon Tamers - 07_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 7888,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644771875401&type=37&idx=7&tkn=RQTI9qRWFQdJyVtQCWm83XRPPTg&fn=external_8"
+    },
+    {
+      "video_id": "1509651778121",
+      "title_raw": "[SR] Digimon Tamers - 08_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 8746,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644695984713&type=37&idx=0&tkn=HBz8oVtT4p0FsJ34T36oeaAwnQA&fn=external_8"
+    },
+    {
+      "video_id": "1509655054921",
+      "title_raw": "[SR] Digimon Tamers - 09_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 6944,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644914678345&type=37&idx=0&tkn=WWorJCSnihXx3MKfjFGz_2rkOW8&fn=external_8"
+    },
+    {
+      "video_id": "1509653809737",
+      "title_raw": "[SR] Digimon Tamers - 10_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 6642,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644815915593&type=37&idx=0&tkn=Bd1aMEyur_ayLOFDGM3C8HDhKts&fn=external_8"
+    },
+    {
+      "video_id": "1509652040265",
+      "title_raw": "[SR] Digimon Tamers - 11_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 6293,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644707584585&type=37&idx=0&tkn=MUspKyXpSRQwex9w4qCQ8tJKQww&fn=external_8"
+    },
+    {
+      "video_id": "1509652367945",
+      "title_raw": "[SR] Digimon Tamers - 12_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 6192,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644730260041&type=37&idx=0&tkn=LiWe54zrhwTi6WhMSY3qFt6-9Tk&fn=external_8"
+    },
+    {
+      "video_id": "1509655120457",
+      "title_raw": "[SR] Digimon Tamers - 13_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 6109,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644920379977&type=37&idx=0&tkn=aH_A5OlgCbtcFQbXAp487xCNY60&fn=external_8"
+    },
+    {
+      "video_id": "1509652433481",
+      "title_raw": "[SR] Digimon Tamers - 14_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 7432,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644733340233&type=37&idx=0&tkn=3cv9bj5ivBg9fM_qLi2fT1i22fI&fn=external_8"
+    },
+    {
+      "video_id": "1509653482057",
+      "title_raw": "[SR] Digimon Tamers - 15_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 5794,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644795271753&type=37&idx=10&tkn=LNxBlDW--ritjD51DIKw2POzIN4&fn=external_8"
+    },
+    {
+      "video_id": "1509653875273",
+      "title_raw": "[SR] Digimon Tamers - 16_x264",
+      "duration_raw": "23:07",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 5470,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644821682761&type=37&idx=4&tkn=rPs43iKATC9-hbWJbnXlLMYmddk&fn=external_8"
+    },
+    {
+      "video_id": "1509655185993",
+      "title_raw": "[SR] Digimon Tamers - 17_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 6067,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644923984457&type=37&idx=4&tkn=wetTOnYU8bjFEavbTxWfUfQu8Mo&fn=external_8"
+    },
+    {
+      "video_id": "1509654334025",
+      "title_raw": "[SR] Digimon Tamers - 18_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 5835,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644847700553&type=37&idx=0&tkn=0vB8Ne_LtoZTVLJpkITegM27ldM&fn=external_8"
+    },
+    {
+      "video_id": "1509654858313",
+      "title_raw": "[SR] Digimon Tamers - 19_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 5455,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644891478601&type=37&idx=0&tkn=rR462c_5lFz4ExpYunLdhwIpgBQ&fn=external_8"
+    },
+    {
+      "video_id": "1509651909193",
+      "title_raw": "[SR] Digimon Tamers - 20_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 5909,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644699064905&type=37&idx=0&tkn=CX2n0eg9VSoX4aCe42vsxXLKyrw&fn=external_8"
+    },
+    {
+      "video_id": "1509652630089",
+      "title_raw": "[SR] Digimon Tamers - 21_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 5408,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644745136713&type=37&idx=0&tkn=Z42XcCVFVx9aM76K3HozuTssPv0&fn=external_8"
+    },
+    {
+      "video_id": "1509653547593",
+      "title_raw": "[SR] Digimon Tamers - 22_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 5525,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644798548553&type=37&idx=0&tkn=9ujjUFAKnqKeLAyyCcfioBHfTPc&fn=external_8"
+    },
+    {
+      "video_id": "1509652105801",
+      "title_raw": "[SR] Digimon Tamers - 23_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 7052,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644712041033&type=37&idx=0&tkn=0KAHfb0t587ipskAMDj64dburbM&fn=external_8"
+    },
+    {
+      "video_id": "1509653940809",
+      "title_raw": "[SR] Digimon Tamers - 24_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 6288,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644825680457&type=37&idx=0&tkn=89zlARhVPurDopumgP6hD7XSQek&fn=external_8"
+    },
+    {
+      "video_id": "1509654661705",
+      "title_raw": "[SR] Digimon Tamers - 25_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 5522,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644865329737&type=37&idx=0&tkn=klTK-YWLZoRK36zJIDUvghUBeKw&fn=external_8"
+    },
+    {
+      "video_id": "1509654596169",
+      "title_raw": "[SR] Digimon Tamers - 26_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 4889,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644861987401&type=37&idx=0&tkn=8ld2uVGSG2b_Cw-hQcBP3o6HcT4&fn=external_8"
+    },
+    {
+      "video_id": "1509653678665",
+      "title_raw": "[SR] Digimon Tamers - 27_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 5689,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644807133769&type=37&idx=0&tkn=kq5972SurMfe4MbV5IQqGv-Qjes&fn=external_8"
+    },
+    {
+      "video_id": "1509653416521",
+      "title_raw": "[SR] Digimon Tamers - 28_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 5420,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644792715849&type=37&idx=0&tkn=1IK9mMDLrqWODZDvX0mvsgWP6PE&fn=external_8"
+    },
+    {
+      "video_id": "1509654465097",
+      "title_raw": "[SR] Digimon Tamers - 29_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 4995,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644857662025&type=37&idx=0&tkn=k0kJ0wmZAof05YayOpwLbcf-6dY&fn=external_8"
+    },
+    {
+      "video_id": "1509652302409",
+      "title_raw": "[SR] Digimon Tamers - 30_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 4891,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644724230729&type=37&idx=0&tkn=nVzk5VPS-U6vNi2iOBI8S0ixa6s&fn=external_8"
+    },
+    {
+      "video_id": "1509652236873",
+      "title_raw": "[SR] Digimon Tamers - 31_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 4919,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644720036425&type=37&idx=11&tkn=7Qg3hAF3H33fSOUeD2EzjsFkv24&fn=external_8"
+    },
+    {
+      "video_id": "1509653744201",
+      "title_raw": "[SR] Digimon Tamers - 32_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 4851,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644811393609&type=37&idx=0&tkn=hXw4meyjkdBgC7ptqW2v6sJ_30M&fn=external_8"
+    },
+    {
+      "video_id": "1509652171337",
+      "title_raw": "[SR] Digimon Tamers - 33_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 4795,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644716825161&type=37&idx=0&tkn=8XMlZlL9ikSMAK0alhSQcb4r9SM&fn=external_8"
+    },
+    {
+      "video_id": "1509654071881",
+      "title_raw": "[SR] Digimon Tamers - 34_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 5911,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644833151561&type=37&idx=0&tkn=kRuSZ8S3qWuWBK3R5pkH4s79bvs&fn=external_8"
+    },
+    {
+      "video_id": "1509654006345",
+      "title_raw": "[SR] Digimon Tamers - 35_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 7018,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644829809225&type=37&idx=0&tkn=E7THdLtYiKzaisdXklOlXBsz43Y&fn=external_8"
+    },
+    {
+      "video_id": "1509653154377",
+      "title_raw": "[SR] Digimon Tamers - 36_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 6451,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644778953289&type=37&idx=2&tkn=DvsFnWagPy_Tmyk2nXcM5_Uo7A8&fn=external_8"
+    },
+    {
+      "video_id": "1509652761161",
+      "title_raw": "[SR] Digimon Tamers - 37_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 6217,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644753787465&type=37&idx=0&tkn=13PFT1emjqm2t6RlOVC6HNXm-V4&fn=external_8"
+    },
+    {
+      "video_id": "1509652892233",
+      "title_raw": "[SR] Digimon Tamers - 38_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 5469,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644762896969&type=37&idx=0&tkn=BjNWjQ9bg2tLpH9SDvxtvTaDkFY&fn=external_8"
+    },
+    {
+      "video_id": "1509651974729",
+      "title_raw": "[SR] Digimon Tamers - 39_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 6320,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644703717961&type=37&idx=0&tkn=Kxxb081LtcjtAKOuFfA80JrWKoY&fn=external_8"
+    },
+    {
+      "video_id": "1509654727241",
+      "title_raw": "[SR] Digimon Tamers - 40_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 5263,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644869327433&type=37&idx=0&tkn=C0mfCooZv94T0VTy9DwSjAV7Me8&fn=external_8"
+    },
+    {
+      "video_id": "1509654792777",
+      "title_raw": "[SR] Digimon Tamers - 41_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 5235,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644878240329&type=37&idx=0&tkn=iL8wjKk5gPmy3Tp3c60goboaMew&fn=external_8"
+    },
+    {
+      "video_id": "1509654989385",
+      "title_raw": "[SR] Digimon Tamers - 42_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 5146,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644909894217&type=37&idx=0&tkn=nyCIlBzlOlnwlLBUX8KeCALoAag&fn=external_8"
+    },
+    {
+      "video_id": "1509653219913",
+      "title_raw": "[SR] Digimon Tamers - 43_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 5970,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644782688841&type=37&idx=0&tkn=gSV1zGTlEuby6aFJFH11GKB4QDM&fn=external_8"
+    },
+    {
+      "video_id": "1509653285449",
+      "title_raw": "[SR] Digimon Tamers - 44_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 44,
+      "views": 5190,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644785703497&type=37&idx=0&tkn=RGzyP3TJyE4bkfqs9-mzlCP9YhA&fn=external_8"
+    },
+    {
+      "video_id": "1509654923849",
+      "title_raw": "[SR] Digimon Tamers - 45_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 5549,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644900719177&type=37&idx=0&tkn=hyJY_dZ_weOXid9NplJuBIgA82c&fn=external_8"
+    },
+    {
+      "video_id": "1509653088841",
+      "title_raw": "[SR] Digimon Tamers - 46_x264",
+      "duration_raw": "23:07",
+      "season_number": 1,
+      "episode_number": 46,
+      "views": 5471,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644776397385&type=37&idx=0&tkn=uFnNPSPt27ilXAUx6pi0A-Swswo&fn=external_8"
+    },
+    {
+      "video_id": "1509652957769",
+      "title_raw": "[SR] Digimon Tamers - 47_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 47,
+      "views": 5555,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644767025737&type=37&idx=0&tkn=QGtIfetvnBH99hAT2mqWc0FP7Es&fn=external_8"
+    },
+    {
+      "video_id": "1509652564553",
+      "title_raw": "[SR] Digimon Tamers - 48_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 48,
+      "views": 5853,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644741401161&type=37&idx=0&tkn=jfYNvG5mCEJnw2AZA4UBpMq06Sw&fn=external_8"
+    },
+    {
+      "video_id": "1509652826697",
+      "title_raw": "[SR] Digimon Tamers - 49_x264",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 49,
+      "views": 5444,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644758112841&type=37&idx=0&tkn=nDVBNgWJ74OfBX_9XyHREaZsqMM&fn=external_8"
+    },
+    {
+      "video_id": "1509652695625",
+      "title_raw": "[SR] Digimon Tamers - 50_x264",
+      "duration_raw": "23:06",
+      "season_number": 1,
+      "episode_number": 50,
+      "views": 6521,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=644749462089&type=37&idx=0&tkn=NWIbJdkfe033LNY49Vnj07PTxJo&fn=external_8"
+    },
+    {
+      "video_id": "1370350422601",
+      "title_raw": "D_T_3 51 [www.animemf.net] Seba_767",
+      "duration_raw": "23:09",
+      "season_number": 1,
+      "episode_number": 51,
+      "views": 6737,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6526530030324&type=32&idx=1&tkn=jWBdsU9UviAzJXRAxt9aPG9hEww&fn=external_8",
+      "quality": "480p"
+    }
+  ]
+}

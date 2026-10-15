@@ -1,0 +1,781 @@
+{
+  "title": "Robotech",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c12348745 c2458185",
+  "year": "1985",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Ciencia Ficción",
+  "videos": [
+    {
+      "video_id": "4723659770441",
+      "title_raw": "Robotech T1E01 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 17418,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=4564279953993&type=37&idx=13&tkn=xOOdraj82qs_cD-UW4-jaK58Myg&fn=external_8"
+    },
+    {
+      "video_id": "4723659049545",
+      "title_raw": "Robotech T1E02 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "24:10",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 6329,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=5244217068105&type=37&idx=3&tkn=mTZH559I92a3qRvesZUSQFM_DiM&fn=external_8"
+    },
+    {
+      "video_id": "4723659573833",
+      "title_raw": "Robotech T1E03 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "24:05",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 4318,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6034592172617&type=37&idx=10&tkn=0lXPNfc8st199FSyygYoin2uSHw&fn=external_8"
+    },
+    {
+      "video_id": "4723659115081",
+      "title_raw": "Robotech T1E04 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 3350,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3793262676553&type=37&idx=5&tkn=9-kmkRuyYBGmgqNWq5y5NcqRplM&fn=external_8"
+    },
+    {
+      "video_id": "4723659180617",
+      "title_raw": "Robotech T1E05 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "23:49",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 3552,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6412067801673&type=37&idx=1&tkn=_9ivKDASY7TxU8W4rWOTDUArRSE&fn=external_8"
+    },
+    {
+      "video_id": "4723659311689",
+      "title_raw": "Robotech T1E06 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "23:50",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 2955,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3793412622921&type=37&idx=1&tkn=gWDLviJ2GQmRYV7QfTfVYiUgK9M&fn=external_8"
+    },
+    {
+      "video_id": "4723659901513",
+      "title_raw": "Robotech T1E07 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "24:02",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 2837,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3793972234825&type=37&idx=14&tkn=_0wscQDKpCt1mu1hu72o7Dgl3Gw&fn=external_8"
+    },
+    {
+      "video_id": "4723659967049",
+      "title_raw": "Robotech T1E08 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "23:35",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 2136,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3794040982089&type=37&idx=1&tkn=OqV_rzbGLfaL159QqEASq0uozLc&fn=external_8"
+    },
+    {
+      "video_id": "4723659835977",
+      "title_raw": "Robotech T1E09 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "23:39",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 2301,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3793890708041&type=37&idx=5&tkn=QAejxQz4tO9eYBJQo8HFAOcFjYU&fn=external_8"
+    },
+    {
+      "video_id": "4723659377225",
+      "title_raw": "Robotech T1E10 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "23:54",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 2380,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3793487792713&type=37&idx=13&tkn=4m0qIDpfrebH0Xn3NRVlL-aEfgw&fn=external_8"
+    },
+    {
+      "video_id": "4723659639369",
+      "title_raw": "Robotech T1E11 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "22:59",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 2193,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3793756752457&type=37&idx=2&tkn=0xKF9swX3C2Et6E3g3c9vrhyHQE&fn=external_8"
+    },
+    {
+      "video_id": "4723659442761",
+      "title_raw": "Robotech T1E12 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "24:13",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 2045,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3793553001033&type=37&idx=5&tkn=kmsQcYb4BgJrFaA-X3TK8eR_qko&fn=external_8"
+    },
+    {
+      "video_id": "4723660032585",
+      "title_raw": "Robotech T1E13 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "23:50",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 1914,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3794112481865&type=37&idx=5&tkn=DCkppvqpGoNqqTqDrO7cjhPrtGc&fn=external_8"
+    },
+    {
+      "video_id": "4723659508297",
+      "title_raw": "Robotech T1E14 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "23:34",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 1591,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3793625942601&type=37&idx=1&tkn=DyX3j0nLdrqQSu3FC4ik5k-szF0&fn=external_8"
+    },
+    {
+      "video_id": "4725921876553",
+      "title_raw": "Robotech T1E15 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "23:52",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 1791,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3795999525449&type=37&idx=1&tkn=muYscRvmv6iC8WEIXFsRRpPf-m0&fn=external_8"
+    },
+    {
+      "video_id": "4725921483337",
+      "title_raw": "Robotech T1E16 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "23:59",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 1874,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3795580815945&type=37&idx=11&tkn=rZchjbx2v6bh2wDOJ2D5sESyyow&fn=external_8"
+    },
+    {
+      "video_id": "4725922662985",
+      "title_raw": "Robotech T1E17 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "24:11",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 1551,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3797178976841&type=37&idx=10&tkn=G20ZtKh2o6btSN2oeZvsldRarfo&fn=external_8"
+    },
+    {
+      "video_id": "4725922859593",
+      "title_raw": "Robotech T1E18 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "23:59",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 1943,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3797313849929&type=37&idx=7&tkn=_VYLf9BjE5qhA1hvK242XVlw8sA&fn=external_8"
+    },
+    {
+      "video_id": "4725922400841",
+      "title_raw": "Robotech T1E19 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "23:57",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 1956,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3796792773193&type=37&idx=7&tkn=OJN-kX3DdSJ7a4YdTMsItEv6Q-k&fn=external_8"
+    },
+    {
+      "video_id": "4725922466377",
+      "title_raw": "Robotech T1E20 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "23:45",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 1704,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3796900383305&type=37&idx=1&tkn=RpUvvDUaTYcLGn4TLuHASZxh1aQ&fn=external_8"
+    },
+    {
+      "video_id": "4725921942089",
+      "title_raw": "Robotech T1E21 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "23:41",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 1702,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3796092258889&type=37&idx=1&tkn=YRWmMxtiLE2xqNmZZuP6h1uZ9dI&fn=external_8"
+    },
+    {
+      "video_id": "4725921679945",
+      "title_raw": "Robotech T1E22 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "23:56",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 1836,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3795666012745&type=37&idx=1&tkn=zZCjRRLTU93zSXNYVnHH09bZWWE&fn=external_8"
+    },
+    {
+      "video_id": "4725922073161",
+      "title_raw": "Robotech T1E23 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "24:03",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 1855,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3796207733321&type=37&idx=1&tkn=zupDB10Vi1B8Pu5OYOMU2GoX8wA&fn=external_8"
+    },
+    {
+      "video_id": "4725922204233",
+      "title_raw": "Robotech T1E24 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "24:12",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 1791,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3796432980553&type=37&idx=8&tkn=li7UZcY3Vw81oIlyuzBhDc6NuJw&fn=external_8"
+    },
+    {
+      "video_id": "4725922925129",
+      "title_raw": "Robotech T1E25 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "24:13",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 1665,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3797430176329&type=37&idx=7&tkn=D7yXnBQ35v_nd6JYT6S6jReiXOo&fn=external_8"
+    },
+    {
+      "video_id": "4725922138697",
+      "title_raw": "Robotech T1E26 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "24:23",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 1578,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3796320520777&type=37&idx=4&tkn=ZkgQWzZQsuFAkBFSmI_c5OQmPws&fn=external_8"
+    },
+    {
+      "video_id": "4725922597449",
+      "title_raw": "Robotech T1E27 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "24:32",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 2086,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3797039778377&type=37&idx=12&tkn=vCVmQ7m9ksbtguL_HmeUKbSqPys&fn=external_8"
+    },
+    {
+      "video_id": "4725923056201",
+      "title_raw": "Robotech T1E28 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "24:19",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 1553,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3797566360137&type=37&idx=12&tkn=aNOPHtFFR38PudRVB7-zsJtIseI&fn=external_8"
+    },
+    {
+      "video_id": "4725921745481",
+      "title_raw": "Robotech T1E29 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "24:01",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 1660,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3795763006025&type=37&idx=1&tkn=XJvSI_ea05SskCWv_2yt35ehVPY&fn=external_8"
+    },
+    {
+      "video_id": "4725922269769",
+      "title_raw": "Robotech T1E30 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "23:33",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 1569,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3796542753353&type=37&idx=1&tkn=7-3AgBhgDylSbZDSGjcD-6hxJi4&fn=external_8"
+    },
+    {
+      "video_id": "4725921811017",
+      "title_raw": "Robotech T1E31 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "24:21",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 1487,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3795890801225&type=37&idx=13&tkn=ctlKX9-VB0n-qehWqXOlCzKS2-Q&fn=external_8"
+    },
+    {
+      "video_id": "4725922335305",
+      "title_raw": "Robotech T1E32 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "24:06",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 1621,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3796663405129&type=37&idx=6&tkn=cp7u7BEf8d0yg-Mn2LYxOXPxAJE&fn=external_8"
+    },
+    {
+      "video_id": "4729856723529",
+      "title_raw": "Robotech T1E33 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "24:00",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 1467,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3800394107465&type=37&idx=1&tkn=Him5DXxPZZYeb-KAf7EtLaKDUP0&fn=external_8"
+    },
+    {
+      "video_id": "4729857313353",
+      "title_raw": "Robotech T1E34 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "24:21",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 1423,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3801216911945&type=37&idx=4&tkn=1t6eb_cQqzJ7i3MW1I5_4pPx4KI&fn=external_8"
+    },
+    {
+      "video_id": "4729856789065",
+      "title_raw": "Robotech T1E35 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "24:24",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 1621,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3800545823305&type=37&idx=10&tkn=BA98h-TzgOUgw4VqLM8c2mq1S-s&fn=external_8"
+    },
+    {
+      "video_id": "4729856854601",
+      "title_raw": "Robotech T1E36 (1985) [Saga Macross]1080p Latino",
+      "duration_raw": "24:44",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 2281,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3800665885257&type=37&idx=13&tkn=SMfyrBTm7SprR5-43N_gUPwmN3M&fn=external_8"
+    },
+    {
+      "video_id": "4746140715593",
+      "title_raw": "Robotech T2E37 (1985) [Saga Southern Cross]1080p Latino By MrCrimsonX",
+      "duration_raw": "23:54",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 2158,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3801452120649&type=37&idx=12&tkn=1aabox8CuFMJk6dtL6_FrmJdXLc&fn=external_8"
+    },
+    {
+      "video_id": "4729856920137",
+      "title_raw": "Robotech T2E38 (1985) [Saga Southern Cross]1080p Latino By MrCrimsonX",
+      "duration_raw": "24:23",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 1162,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3800771725897&type=37&idx=2&tkn=d0dc3GDTXFWDPWmuDE3lal4R2ME&fn=external_8"
+    },
+    {
+      "video_id": "4729857116745",
+      "title_raw": "Robotech T2E39 (1985) [Saga Southern Cross]1080p Latino By MrCrimsonX",
+      "duration_raw": "23:46",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 930,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3800878090825&type=37&idx=8&tkn=xJHbBIYFVDTWskZhNbcaQPF8Was&fn=external_8"
+    },
+    {
+      "video_id": "4746133441097",
+      "title_raw": "Robotech T2E40 (1985) [Saga Southern Cross]1080p Latino By MrCrimsonX",
+      "duration_raw": "24:09",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 806,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3832626154057&type=37&idx=2&tkn=TRR39SXcRb84fUcY_48ZG97GsR8&fn=external_8"
+    },
+    {
+      "video_id": "4746133310025",
+      "title_raw": "Robotech T2E41 (1985) [Saga Southern Cross]1080p Latino By MrCrimsonX",
+      "duration_raw": "23:48",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 851,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3819358259785&type=37&idx=9&tkn=J64JmLvF56YjD8o5f9PBTkIcuw0&fn=external_8"
+    },
+    {
+      "video_id": "4746133375561",
+      "title_raw": "Robotech T2E42 (1985) [Saga Southern Cross]1080p Latino By MrCrimsonX",
+      "duration_raw": "23:33",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 879,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3819476486729&type=37&idx=6&tkn=dxyOcVXalq9VVVTQU9fWw7tmbtA&fn=external_8"
+    },
+    {
+      "video_id": "4746133572169",
+      "title_raw": "Robotech T2E43 (1985) [Saga Southern Cross]1080p Latino By MrCrimsonX",
+      "duration_raw": "24:14",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 652,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3832699750985&type=37&idx=4&tkn=zTVacvFonDYAPTuhFv8bbJ5u3DY&fn=external_8"
+    },
+    {
+      "video_id": "4746133637705",
+      "title_raw": "Robotech T2E44 (1985) [Saga Southern Cross]1080p Latino By MrCrimsonX",
+      "duration_raw": "23:49",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 634,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3832767842889&type=37&idx=4&tkn=200Uylt7apjzzWLMetVhvxAdt2A&fn=external_8"
+    },
+    {
+      "video_id": "4729857182281",
+      "title_raw": "Robotech T2E45 (1985) [Saga Southern Cross]1080p Latino By MrCrimsonX",
+      "duration_raw": "23:52",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 534,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3800984521289&type=37&idx=15&tkn=jw002YHny1NgdLh-Fa4ypnOJW64&fn=external_8"
+    },
+    {
+      "video_id": "4729857247817",
+      "title_raw": "Robotech T2E46 (1985) [Saga Southern Cross]1080p Latino By MrCrimsonX",
+      "duration_raw": "23:47",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 554,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3801079941705&type=37&idx=14&tkn=z1nN2vxN94vXz7rBiIWmEhod25w&fn=external_8"
+    },
+    {
+      "video_id": "4746137635401",
+      "title_raw": "Robotech T2E47 (1985) [Saga Southern Cross]1080p Latino By MrCrimsonX",
+      "duration_raw": "23:11",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 606,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3832970611273&type=37&idx=1&tkn=zPZ87IU7J2GMyO-wMdGTcI4AvCo&fn=external_8"
+    },
+    {
+      "video_id": "4729857378889",
+      "title_raw": "Robotech T2E48 (1985) [Saga Southern Cross]1080p Latino By MrCrimsonX",
+      "duration_raw": "23:49",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 508,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3801330879049&type=37&idx=5&tkn=vB2BojBmv5THK3YqyEkq9Tm_inY&fn=external_8"
+    },
+    {
+      "video_id": "4746137504329",
+      "title_raw": "Robotech T2E49 (1985) [Saga Southern Cross]1080p Latino By MrCrimsonX",
+      "duration_raw": "24:11",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 546,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3832825252425&type=37&idx=5&tkn=Tb4P-pLiJOg2_797TLB1d2BxaSE&fn=external_8"
+    },
+    {
+      "video_id": "4746137569865",
+      "title_raw": "Robotech T2E50 (1985) [Saga Southern Cross]1080p Latino By MrCrimsonX",
+      "duration_raw": "24:05",
+      "season_number": 2,
+      "episode_number": 14,
+      "views": 525,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3832878467657&type=37&idx=12&tkn=DaOLd6x2BYY4eFZ_mZ-OTyO22VU&fn=external_8"
+    },
+    {
+      "video_id": "4733253454409",
+      "title_raw": "Robotech T2E51 (1985) [Saga Southern Cross]1080p Latino By MrCrimsonX",
+      "duration_raw": "23:52",
+      "season_number": 2,
+      "episode_number": 15,
+      "views": 490,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3804679703113&type=37&idx=6&tkn=830Kv_26Mm_ncSc9yXbfSpZMbjk&fn=external_8"
+    },
+    {
+      "video_id": "4733253061193",
+      "title_raw": "Robotech T2E52 (1985) [Saga Southern Cross]1080p Latino By MrCrimsonX",
+      "duration_raw": "23:43",
+      "season_number": 2,
+      "episode_number": 16,
+      "views": 502,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3804333673033&type=37&idx=4&tkn=cugyFWP4xRhHyWxB6N0rgLkZJZs&fn=external_8"
+    },
+    {
+      "video_id": "4733253126729",
+      "title_raw": "Robotech T2E53 (1985) [Saga Southern Cross]1080p Latino By MrCrimsonX",
+      "duration_raw": "23:43",
+      "season_number": 2,
+      "episode_number": 17,
+      "views": 469,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3804389378633&type=37&idx=4&tkn=aIUUmvVbKjlYmcL9WiJMSFLeJN8&fn=external_8"
+    },
+    {
+      "video_id": "4733253192265",
+      "title_raw": "Robotech T2E54 (1985) [Saga Southern Cross]1080p Latino By MrCrimsonX",
+      "duration_raw": "23:49",
+      "season_number": 2,
+      "episode_number": 18,
+      "views": 597,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3804444494409&type=37&idx=11&tkn=ENmaxNM3tC_5j_6ASF8Wup0vncM&fn=external_8"
+    },
+    {
+      "video_id": "4733254109769",
+      "title_raw": "Robotech T2E55 (1985) [Saga Southern Cross]1080p Latino By MrCrimsonX",
+      "duration_raw": "23:28",
+      "season_number": 2,
+      "episode_number": 19,
+      "views": 457,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3805386705481&type=37&idx=6&tkn=YOt5o5gZjLihRURo60GpLC0mMUg&fn=external_8"
+    },
+    {
+      "video_id": "4733253323337",
+      "title_raw": "Robotech T2E56 (1985) [Saga Southern Cross]1080p Latino By MrCrimsonX",
+      "duration_raw": "23:58",
+      "season_number": 2,
+      "episode_number": 20,
+      "views": 492,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3804571241033&type=37&idx=3&tkn=MJXXBBGxaWpfP2ya-vOveZ29YcM&fn=external_8"
+    },
+    {
+      "video_id": "4733253716553",
+      "title_raw": "Robotech T2E57 (1985) [Saga Southern Cross]1080p Latino By MrCrimsonX",
+      "duration_raw": "23:35",
+      "season_number": 2,
+      "episode_number": 21,
+      "views": 458,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3804921924169&type=37&idx=10&tkn=oxAZrLSLU5aRxGJyoh9o3on2hSA&fn=external_8"
+    },
+    {
+      "video_id": "4733253585481",
+      "title_raw": "Robotech T2E58 (1985) [Saga Southern Cross]1080p Latino By MrCrimsonX",
+      "duration_raw": "24:27",
+      "season_number": 2,
+      "episode_number": 22,
+      "views": 507,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3804802648649&type=37&idx=6&tkn=05ydQJ_kiA4KlRZbqA10AOzObko&fn=external_8"
+    },
+    {
+      "video_id": "4733254175305",
+      "title_raw": "Robotech T2E59 (1985) [Saga Southern Cross]1080p Latino By MrCrimsonX",
+      "duration_raw": "24:14",
+      "season_number": 2,
+      "episode_number": 23,
+      "views": 546,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3805478324809&type=37&idx=6&tkn=K7Pg0e8dZxvDVxi6H8X4drNDNlc&fn=external_8"
+    },
+    {
+      "video_id": "4733253651017",
+      "title_raw": "Robotech T2E60 (1985) [Saga Southern Cross]1080p Latino By MrCrimsonX",
+      "duration_raw": "24:02",
+      "season_number": 2,
+      "episode_number": 24,
+      "views": 730,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3804868512329&type=37&idx=13&tkn=iAjoRAhJmgUbEssqKQ_Y42et9RU&fn=external_8"
+    },
+    {
+      "video_id": "4733253782089",
+      "title_raw": "Robotech T3E61 (1985) [Saga Mospeada]1080p Latino",
+      "duration_raw": "22:22",
+      "season_number": 3,
+      "episode_number": 1,
+      "views": 1911,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3804987918921&type=37&idx=6&tkn=WNKBiO9FbMpiccg2GushkdI0f2Q&fn=external_8"
+    },
+    {
+      "video_id": "4733253978697",
+      "title_raw": "Robotech T3E62 (1985) [Saga Mospeada]1080p Latino",
+      "duration_raw": "22:35",
+      "season_number": 3,
+      "episode_number": 2,
+      "views": 833,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3805228698185&type=37&idx=12&tkn=jIbrdx4CUgKTocXtb375Gav5ofs&fn=external_8"
+    },
+    {
+      "video_id": "4733253257801",
+      "title_raw": "Robotech T3E63 (1985) [Saga Mospeada]1080p Latino",
+      "duration_raw": "22:53",
+      "season_number": 3,
+      "episode_number": 3,
+      "views": 845,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3804507474505&type=37&idx=9&tkn=bF1QUnzyLS8GpDBT5cHt3hW_Qsw&fn=external_8"
+    },
+    {
+      "video_id": "4733253847625",
+      "title_raw": "Robotech T3E64 (1985) [Saga Mospeada]1080p Latino",
+      "duration_raw": "23:01",
+      "season_number": 3,
+      "episode_number": 4,
+      "views": 765,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3805059484233&type=37&idx=8&tkn=MMtDqJWksUIVBYHKArUZgph_nJE&fn=external_8"
+    },
+    {
+      "video_id": "4733254044233",
+      "title_raw": "Robotech T3E65 (1985) [Saga Mospeada]1080p Latino",
+      "duration_raw": "22:47",
+      "season_number": 3,
+      "episode_number": 5,
+      "views": 671,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3805303736905&type=37&idx=1&tkn=amJcc8VRZnaw_0sVKrSFXIpEOBg&fn=external_8"
+    },
+    {
+      "video_id": "4733253519945",
+      "title_raw": "Robotech T3E66 (1985) [Saga Mospeada]1080p Latino",
+      "duration_raw": "22:33",
+      "season_number": 3,
+      "episode_number": 6,
+      "views": 634,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3804739471945&type=37&idx=2&tkn=QgM7j6BIciOmaR1YWiqlvQ8RQtM&fn=external_8"
+    },
+    {
+      "video_id": "4733253388873",
+      "title_raw": "Robotech T3E67 (1985) [Saga Mospeada]1080p Latino",
+      "duration_raw": "22:10",
+      "season_number": 3,
+      "episode_number": 7,
+      "views": 592,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3804624587337&type=37&idx=15&tkn=aPNx1i1Y5QhCviUkNRqC9y5K1o4&fn=external_8"
+    },
+    {
+      "video_id": "4733253913161",
+      "title_raw": "Robotech T3E68 (1985) [Saga Mospeada]1080p Latino",
+      "duration_raw": "22:12",
+      "season_number": 3,
+      "episode_number": 8,
+      "views": 547,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3805140093513&type=37&idx=14&tkn=LS23BiOSZ4gydp5MyMMtuRzdEg0&fn=external_8"
+    },
+    {
+      "video_id": "4737859127881",
+      "title_raw": "Robotech T3E69 (1985) [Saga Mospeada]1080p Latino",
+      "duration_raw": "22:34",
+      "season_number": 3,
+      "episode_number": 9,
+      "views": 560,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3811024374345&type=37&idx=5&tkn=kZh0H14iANe4GFlYmcwlvc0EM0Q&fn=external_8"
+    },
+    {
+      "video_id": "4737858144841",
+      "title_raw": "Robotech T3E70 (1985) [Saga Mospeada]1080p Latino",
+      "duration_raw": "22:21",
+      "season_number": 3,
+      "episode_number": 10,
+      "views": 552,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3809695763017&type=37&idx=14&tkn=wPo0ZUznP-T6RgTugcoT7R75t9Q&fn=external_8"
+    },
+    {
+      "video_id": "4737859324489",
+      "title_raw": "Robotech T3E71 (1985) [Saga Mospeada]1080p Latino",
+      "duration_raw": "22:15",
+      "season_number": 3,
+      "episode_number": 11,
+      "views": 529,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3811385477705&type=37&idx=6&tkn=gsRoQ2f0zEaqQkCYdWZ96yF_ONY&fn=external_8"
+    },
+    {
+      "video_id": "4737858341449",
+      "title_raw": "Robotech T3E72 (1985) [Saga Mospeada]1080p Latino",
+      "duration_raw": "22:26",
+      "season_number": 3,
+      "episode_number": 12,
+      "views": 534,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3809929529929&type=37&idx=3&tkn=11J2GZc7Cf0mwnG1NAhQGLSz3n4&fn=external_8"
+    },
+    {
+      "video_id": "4737858210377",
+      "title_raw": "Robotech T3E73 (1985) [Saga Mospeada]1080p Latino",
+      "duration_raw": "22:29",
+      "season_number": 3,
+      "episode_number": 13,
+      "views": 534,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3809810057801&type=37&idx=12&tkn=x0hAHcpkbE-2E_SAvsUgc7f5GZI&fn=external_8"
+    },
+    {
+      "video_id": "4737858865737",
+      "title_raw": "Robotech T3E74 (1985) [Saga Mospeada]1080p Latino",
+      "duration_raw": "22:31",
+      "season_number": 3,
+      "episode_number": 14,
+      "views": 480,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3810710981193&type=37&idx=5&tkn=_cbUA89pnjsRYCPRtBmqPU6ajkI&fn=external_8"
+    },
+    {
+      "video_id": "4737858538057",
+      "title_raw": "Robotech T3E75 (1985) [Saga Mospeada]1080p Latino",
+      "duration_raw": "22:38",
+      "season_number": 3,
+      "episode_number": 15,
+      "views": 474,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3810260486729&type=37&idx=14&tkn=Ji5c5fwm3B8_mmPJFHlH4BuiyEE&fn=external_8"
+    },
+    {
+      "video_id": "4737859258953",
+      "title_raw": "Robotech T3E76 (1985) [Saga Mospeada]1080p Latino",
+      "duration_raw": "22:30",
+      "season_number": 3,
+      "episode_number": 16,
+      "views": 553,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3811274525257&type=37&idx=12&tkn=vk_4WwFH45qt0Rf4lgX_ZAgmjYA&fn=external_8"
+    },
+    {
+      "video_id": "4737858734665",
+      "title_raw": "Robotech T3E77 (1985) [Saga Mospeada]1080p Latino",
+      "duration_raw": "22:16",
+      "season_number": 3,
+      "episode_number": 17,
+      "views": 496,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3810483505737&type=37&idx=6&tkn=dSpvknNzLoS7iKQeWY7vvs1HI3E&fn=external_8"
+    },
+    {
+      "video_id": "4737858472521",
+      "title_raw": "Robotech T3E78 (1985) [Saga Mospeada]1080p Latino",
+      "duration_raw": "22:47",
+      "season_number": 3,
+      "episode_number": 18,
+      "views": 476,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3810166966857&type=37&idx=2&tkn=zev5ieM3ipO55tdjV7fwYB83UBs&fn=external_8"
+    },
+    {
+      "video_id": "4737858406985",
+      "title_raw": "Robotech T3E79 (1985) [Saga Mospeada]1080p Latino",
+      "duration_raw": "22:49",
+      "season_number": 3,
+      "episode_number": 19,
+      "views": 487,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3810054572617&type=37&idx=1&tkn=acGedwgOzKdnEjEV6Bpig4VldTg&fn=external_8"
+    },
+    {
+      "video_id": "4737858603593",
+      "title_raw": "Robotech T3E80 (1985) [Saga Mospeada]1080p Latino",
+      "duration_raw": "21:55",
+      "season_number": 3,
+      "episode_number": 20,
+      "views": 538,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3810364557897&type=37&idx=2&tkn=BFHdHJMi2BJe9DXdt40MdvZLztw&fn=external_8"
+    },
+    {
+      "video_id": "4737858931273",
+      "title_raw": "Robotech T3E81 (1985) [Saga Mospeada]1080p Latino",
+      "duration_raw": "22:39",
+      "season_number": 3,
+      "episode_number": 21,
+      "views": 528,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3810820885065&type=37&idx=1&tkn=RutW-jL28-_XkKuWyJcHSSULWxM&fn=external_8"
+    },
+    {
+      "video_id": "4737859390025",
+      "title_raw": "Robotech T3E82 (1985) [Saga Mospeada]1080p Latino",
+      "duration_raw": "22:06",
+      "season_number": 3,
+      "episode_number": 22,
+      "views": 501,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3811496036937&type=37&idx=7&tkn=Qg7GhbTbGTMZb278VAlfBbsuLPY&fn=external_8"
+    },
+    {
+      "video_id": "4737858800201",
+      "title_raw": "Robotech T3E83 (1985) [Saga Mospeada]1080p Latino",
+      "duration_raw": "22:17",
+      "season_number": 3,
+      "episode_number": 23,
+      "views": 542,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3810582727241&type=37&idx=15&tkn=uv3LWZuD2i4vwY2qqzLoSN1sjS8&fn=external_8"
+    },
+    {
+      "video_id": "4737859193417",
+      "title_raw": "Robotech T3E84 (1985) [Saga Mospeada]1080p Latino",
+      "duration_raw": "22:20",
+      "season_number": 3,
+      "episode_number": 24,
+      "views": 892,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3826601232969&type=37&idx=14&tkn=-ML1XSyEPRjLlfw915R2Swb3eSU&fn=external_8"
+    },
+    {
+      "video_id": "4737858996809",
+      "title_raw": "Robotech T3E85 (1985) [Saga Mospeada]1080p Latino",
+      "duration_raw": "22:52",
+      "season_number": 3,
+      "episode_number": 25,
+      "views": 1328,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3810926856777&type=37&idx=1&tkn=vCodc2ZmPK5Nf59RTaPumdHy2P4&fn=external_8"
+    }
+  ]
+}

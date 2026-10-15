@@ -1,0 +1,169 @@
+{
+  "title": "Archie",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2220361",
+  "year": "1968",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "1382382635593",
+      "title_raw": "01.- The Added Distraction - The Disappearing Act (1)_x264",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 15384,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594561993289&type=32&idx=4&tkn=Yk79nt_oXElfFe_7o29f2ZkOv7A&fn=external_8"
+    },
+    {
+      "video_id": "1382383290953",
+      "title_raw": "02.- A Hard Day-s Knight - Beauty Is Only Fur Deep_x264",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 3089,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594568743497&type=32&idx=2&tkn=9GutOD_eEiLgzSgTvvzUhDcAb0U&fn=external_8"
+    },
+    {
+      "video_id": "1382382701129",
+      "title_raw": "03.- Anchor-s Away - Jughead-s Double_x264",
+      "duration_raw": "21:23",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1706,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594562583113&type=32&idx=10&tkn=CPo_qMMi9MTVRbKHroRq6Agc_Vg&fn=external_8"
+    },
+    {
+      "video_id": "1382383159881",
+      "title_raw": "04.- The Circus - The Prize Winner_x264",
+      "duration_raw": "21:22",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1023,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594566908489&type=32&idx=1&tkn=yetzpO5ih_vTKVM9QgRv62sOMs8&fn=external_8"
+    },
+    {
+      "video_id": "1382382504521",
+      "title_raw": "05.- Flying Saucers - Field Trip_x264",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1102,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594560092745&type=32&idx=1&tkn=aFiEOi5sTiCBP0vwaabXQTacz4o&fn=external_8"
+    },
+    {
+      "video_id": "1382382438985",
+      "title_raw": "06.- The Marathon - Way-Out Like West_x264",
+      "duration_raw": "21:20",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 831,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594559830601&type=32&idx=5&tkn=Rvf8MyHK__LK9ZBQOXueNNaXobg&fn=external_8"
+    },
+    {
+      "video_id": "1382382307913",
+      "title_raw": "07.- Hot Rod Drag - Snow Business_x264",
+      "duration_raw": "21:22",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 815,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594558454345&type=32&idx=13&tkn=LJYAGCP4sQUsJU_ED5rJIVmwmL0&fn=external_8"
+    },
+    {
+      "video_id": "1382382897737",
+      "title_raw": "08.- A Chimp Off the Old Block - Who Is Afraid of Reggie Wolf_x264",
+      "duration_raw": "21:14",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 773,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594563828297&type=32&idx=5&tkn=PsywYlA489_nO70NWKzHF7Oa9TI&fn=external_8"
+    },
+    {
+      "video_id": "1382383094345",
+      "title_raw": "09.- Kids DayJughead -Sampson- Jones_x264",
+      "duration_raw": "20:29",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 747,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594565728841&type=32&idx=9&tkn=8K6XoKwTDSF2jdo8zbEsI3dzkss&fn=external_8"
+    },
+    {
+      "video_id": "1382382242377",
+      "title_raw": "10.- Rocket Rock - Par One_x264",
+      "duration_raw": "21:16",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 493,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594556881481&type=32&idx=9&tkn=1fLAEQRxrCp6yluAbs4scRiiTgk&fn=external_8"
+    },
+    {
+      "video_id": "1382382766665",
+      "title_raw": "11.- Groovy Ghosts - PFC Hot Dog_x264",
+      "duration_raw": "21:19",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 580,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594562845257&type=32&idx=8&tkn=_C4urjs9jpm1MrZtgri5uk20hGs&fn=external_8"
+    },
+    {
+      "video_id": "1382383225417",
+      "title_raw": "12.- Surf-bored - The Computer_x264",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 717,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594567891529&type=32&idx=9&tkn=gZ5Me_f7U8n-4pIqKSvoyyBNQDw&fn=external_8"
+    },
+    {
+      "video_id": "1382382832201",
+      "title_raw": "13.- The Old Sea Dog - Jughead-s Girl_x264",
+      "duration_raw": "21:16",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 515,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594563369545&type=32&idx=12&tkn=y-RoHfai8iIMTN6mZOECQy6TFk4&fn=external_8"
+    },
+    {
+      "video_id": "1382382963273",
+      "title_raw": "14.- Dilton-s Folly - Lodge-s Dept. Store_x264",
+      "duration_raw": "21:16",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 426,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594564024905&type=32&idx=14&tkn=HSrY6z3hdigEEKv5We5n7xhug3Y&fn=external_8"
+    },
+    {
+      "video_id": "1382383028809",
+      "title_raw": "15.- Private Eye Jughead - Reggie-s Cousin_x264",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 466,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594565073481&type=32&idx=3&tkn=ctk4kiYgSOjpB_hJ-x1lSMXNc-Q&fn=external_8"
+    },
+    {
+      "video_id": "1382382373449",
+      "title_raw": "16.- Strike Three - The Cat Next Door_x264",
+      "duration_raw": "21:17",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 394,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594559568457&type=32&idx=8&tkn=eDzOQQXBDAJe4ICY8TKJAvk-u0I&fn=external_8"
+    },
+    {
+      "video_id": "1382382570057",
+      "title_raw": "17.- The Jones Farm - Veronica-s Veil_x264",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 818,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=594560879177&type=32&idx=4&tkn=mboeecMpY-lQj4eypRqdqNCzS2k&fn=external_8"
+    }
+  ]
+}

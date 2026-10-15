@@ -1,0 +1,133 @@
+{
+  "title": "La Carrera Espacial de Yogui",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c5071177",
+  "year": "1978",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "720p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "2598694160969",
+      "title_raw": "01 - Las 500 millas de Saturno (September 9, 1978)",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 3871,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1417396292169&type=37&idx=8&tkn=fcGGvqhaP4FuVheywkNwQjmW4AU&fn=external_8"
+    },
+    {
+      "video_id": "2598694947401",
+      "title_raw": "02 - Las 9000 millas de Neptuno (September 16, 1978)",
+      "duration_raw": "22:36",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 1570,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1418310650441&type=37&idx=1&tkn=LV6i-uCcxWpb0w3ox6dpX7H8U4g&fn=external_8"
+    },
+    {
+      "video_id": "2598694619721",
+      "title_raw": "03 - El planeta Pongo (September 23, 1978)",
+      "duration_raw": "22:22",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 7779,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1418097265225&type=37&idx=9&tkn=k1QcoubovpytsT3GWokASaLz4Ac&fn=external_8"
+    },
+    {
+      "video_id": "2598694423113",
+      "title_raw": "04 - El planeta Prehistórica (September 30, 1978)",
+      "duration_raw": "22:34",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 1552,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1417971305033&type=37&idx=3&tkn=LkbHc_bwS1kJSkM1TId9jB_KLfg&fn=external_8"
+    },
+    {
+      "video_id": "2598694554185",
+      "title_raw": "05 - El Espectacular Spartikan (October 7, 1978)",
+      "duration_raw": "22:05",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 1262,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1418046605897&type=37&idx=15&tkn=3CyyFa-vq2BzViFULEmatwTn2Fo&fn=external_8"
+    },
+    {
+      "video_id": "2598694226505",
+      "title_raw": "06 - El maratón de Mizar (October 14, 1978)",
+      "duration_raw": "22:05",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 1173,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1417434630729&type=37&idx=12&tkn=x4rb_cw6vnyPBdlr24VtAK2nMP8&fn=external_8"
+    },
+    {
+      "video_id": "2598694685257",
+      "title_raw": "07 - El planeta perdido de Atlántida (October 21, 1978)",
+      "duration_raw": "22:14",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1146,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1418135276105&type=37&idx=7&tkn=RWOltm4bhCLdNj39Z2w4mIJ-iTM&fn=external_8"
+    },
+    {
+      "video_id": "2598694881865",
+      "title_raw": "08 - Carrera por Oz (October 28, 1978)",
+      "duration_raw": "22:15",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1156,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1418263530057&type=37&idx=3&tkn=e4nfcsMp1_h6khy8zUvCIjGees8&fn=external_8"
+    },
+    {
+      "video_id": "2598694292041",
+      "title_raw": "09 - Carrera por el planeta del Oeste (November 18, 1978)",
+      "duration_raw": "22:17",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 1095,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1418386213449&type=37&idx=7&tkn=1xlLp5cKptEjXgw_U2ni7zWjn3I&fn=external_8"
+    },
+    {
+      "video_id": "2598694488649",
+      "title_raw": "010 - El triangulo Borealis (November 11, 1978)",
+      "duration_raw": "22:04",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 1103,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1418008595017&type=37&idx=11&tkn=50rjrfWKF5onI1nNWKf5hxFJVGo&fn=external_8"
+    },
+    {
+      "video_id": "2598694816329",
+      "title_raw": "011 - Carrera por el centro del universo (November 18, 1978)",
+      "duration_raw": "22:09",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 1042,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1418214640201&type=37&idx=11&tkn=T8rn1usK4jVEDVVBGYsr6prxTHE&fn=external_8"
+    },
+    {
+      "video_id": "2598695012937",
+      "title_raw": "012 - Planeta de los Monstros (November 25, 1978)",
+      "duration_raw": "22:06",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 1095,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1418367535689&type=37&idx=14&tkn=STs_bAQiTBCV7WO4RNafqUH_vpA&fn=external_8"
+    },
+    {
+      "video_id": "2598694750793",
+      "title_raw": "013 - Franzia (December 2, 1978)",
+      "duration_raw": "22:16",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 1067,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1418171451977&type=37&idx=6&tkn=OeJSs_a-DrqogcFVjkbu2y5AGHo&fn=external_8"
+    }
+  ]
+}

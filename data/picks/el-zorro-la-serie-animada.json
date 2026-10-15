@@ -1,0 +1,241 @@
+{
+  "title": "El Zorro: La Serie Animada",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2335305",
+  "year": "1997",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "360p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Aventura",
+  "videos": [
+    {
+      "video_id": "1445577886281",
+      "title_raw": "01 - Como atrapar a un Zorro",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 10258,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=818812291610&type=32&idx=3&tkn=zWOjTjtPdWdx9Kf06rXPh0TjvOY&fn=external_8"
+    },
+    {
+      "video_id": "1445576641097",
+      "title_raw": "02 - El tesoro de Cuculcán",
+      "duration_raw": "23:44",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 1683,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=818818255386&type=32&idx=13&tkn=4K-SXecs_s3v4ri3eyuVZBT-Yo0&fn=external_8"
+    },
+    {
+      "video_id": "1445577099849",
+      "title_raw": "03 - La Noche del Tolchen",
+      "duration_raw": "22:44",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 978,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=818817665562&type=32&idx=4&tkn=tgDVI6uqGkQ22vDXpX0Q6D4_4jc&fn=external_8"
+    },
+    {
+      "video_id": "1445576247881",
+      "title_raw": "04 - Dentro de un mounstruo",
+      "duration_raw": "22:45",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 757,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=818819500570&type=32&idx=12&tkn=zq6_89q3AchEENIrLVfOFw94xxY&fn=external_8"
+    },
+    {
+      "video_id": "1445577493065",
+      "title_raw": "05 - El verdugo",
+      "duration_raw": "23:09",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 732,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=818818910746&type=32&idx=12&tkn=FaI8lbpLt0cNST9WpOSE2O-LUOE&fn=external_8"
+    },
+    {
+      "video_id": "1445577427529",
+      "title_raw": "06 - Dos Zorros son mejor que uno",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 713,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=818820352538&type=32&idx=8&tkn=neyz8IwdSD7uIAyCRg8RjDEK4G0&fn=external_8"
+    },
+    {
+      "video_id": "1445577296457",
+      "title_raw": "08 - El rescate de un rey",
+      "duration_raw": "23:10",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 672,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=818821007898&type=32&idx=7&tkn=todftqCRbS_yzNIQNFYgP0nL59A&fn=external_8"
+    },
+    {
+      "video_id": "1445576903241",
+      "title_raw": "09 - Los piratas de San Pedro",
+      "duration_raw": "23:10",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 493,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=818821532186&type=32&idx=2&tkn=Hu3gNYJtz7io6_Gj3U90QXxfyMo&fn=external_8"
+    },
+    {
+      "video_id": "1445577951817",
+      "title_raw": "10 - El Anti-Zorro",
+      "duration_raw": "22:45",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 527,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=818815371802&type=32&idx=10&tkn=JHgwTh7pjFO5VQbc5SB86p8HHcA&fn=external_8"
+    },
+    {
+      "video_id": "1445576772169",
+      "title_raw": "11 - El valle de los hombres bestia",
+      "duration_raw": "22:44",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 406,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=818812619290&type=32&idx=6&tkn=E05oSv25aJXLigSGgk8O3PnGHrc&fn=external_8"
+    },
+    {
+      "video_id": "1445576575561",
+      "title_raw": "12 - La venganza de la pantera",
+      "duration_raw": "23:01",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 422,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=818812881434&type=32&idx=0&tkn=ve1D6fD2fm3NBJv3R1FSABfKAzg&fn=external_8"
+    },
+    {
+      "video_id": "1445576706633",
+      "title_raw": "13 - El hombre de hierro",
+      "duration_raw": "23:16",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 421,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=818813209114&type=32&idx=6&tkn=TLE2m5Saur12KQA5RiAn1JwzYIU&fn=external_8"
+    },
+    {
+      "video_id": "1445578017353",
+      "title_raw": "14 - El Samurai y el Hechicero",
+      "duration_raw": "23:05",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 525,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=818815175194&type=32&idx=5&tkn=2scOrtEpsGg7s-aJK1Zz-lUMng8&fn=external_8"
+    },
+    {
+      "video_id": "1445576378953",
+      "title_raw": "15 - La pluma siniestra",
+      "duration_raw": "23:15",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 395,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=818816616986&type=32&idx=1&tkn=ipIvsn8cYR3QP6G0ChKpjbHWMM8&fn=external_8"
+    },
+    {
+      "video_id": "1445576837705",
+      "title_raw": "16 - Una visión siniestra",
+      "duration_raw": "23:16",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 345,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=818814454298&type=32&idx=0&tkn=IMJ927WQRahXvFGhm71uksRP-7o&fn=external_8"
+    },
+    {
+      "video_id": "1445576510025",
+      "title_raw": "17 - El caso del bandido enmascarado",
+      "duration_raw": "22:50",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 384,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=818813667866&type=32&idx=8&tkn=tXyXfnH5AsWMeiQHG9RBqDrzwHI&fn=external_8"
+    },
+    {
+      "video_id": "1445576313417",
+      "title_raw": "18 - Regreso de los conquistadores",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 456,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=818817927706&type=32&idx=0&tkn=KLbhRiwsgfaSGrtV-t8RPWB8exw&fn=external_8"
+    },
+    {
+      "video_id": "1445577755209",
+      "title_raw": "19 - El cazador",
+      "duration_raw": "23:10",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 401,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=818815830554&type=32&idx=2&tkn=00cgsv-bl-wEiIv1zw-zgJ1wBdk&fn=external_8"
+    },
+    {
+      "video_id": "1445577558601",
+      "title_raw": "20 - La fiesta del asalto",
+      "duration_raw": "21:30",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 433,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=818813733402&type=32&idx=2&tkn=Yz4KhrflHQB3so6nrAc4jpH0EYA&fn=external_8"
+    },
+    {
+      "video_id": "1445576444489",
+      "title_raw": "21 - Los cuatro jinetes",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 390,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=818814913050&type=32&idx=11&tkn=6V_KI9H-uICFJq2B6xAU7ck-H0U&fn=external_8"
+    },
+    {
+      "video_id": "1445576968777",
+      "title_raw": "22 - Pesadillas sobre rieles",
+      "duration_raw": "22:45",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 356,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=818814650906&type=32&idx=8&tkn=9Q23xfVKIbQi9JU4kmBoy7OnjMA&fn=external_8"
+    },
+    {
+      "video_id": "1445577361993",
+      "title_raw": "23 - El mounstruo de hielo",
+      "duration_raw": "23:07",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 352,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=818814126618&type=32&idx=6&tkn=N5mjFWyd52knbPfjE5isHveMXMk&fn=external_8"
+    },
+    {
+      "video_id": "1445577230921",
+      "title_raw": "24 - El secreto del zorro",
+      "duration_raw": "22:49",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 467,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=818819238426&type=32&idx=8&tkn=zis84C86nzYeN7DkocBfKBRECzE&fn=external_8"
+    },
+    {
+      "video_id": "1445577165385",
+      "title_raw": "25 - Invasión nórdica",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 406,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=818818648602&type=32&idx=8&tkn=cC-umhjxLammyHrYhB_TNO7Q29w&fn=external_8"
+    },
+    {
+      "video_id": "1445577820745",
+      "title_raw": "26 - Adiós, mi capitán",
+      "duration_raw": "22:50",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 764,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=818813471258&type=32&idx=14&tkn=e6bmM_hKwRtwiO7_2XdCEvnPrxM&fn=external_8"
+    }
+  ]
+}

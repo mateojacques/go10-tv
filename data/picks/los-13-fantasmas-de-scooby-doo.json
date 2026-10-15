@@ -1,0 +1,133 @@
+{
+  "title": "Los 13 Fantasmas de Scooby-Doo",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2229577",
+  "year": "1985",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "1390128794185",
+      "title_raw": "01 - A todos los fantasmas que he amado",
+      "duration_raw": "23:32",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 42901,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2521758763670&type=32&idx=2&tkn=t7Gq7ToKpr2718TUhQRvMauHhDs&fn=external_8"
+    },
+    {
+      "video_id": "1390128663113",
+      "title_raw": "02 - Scoobra Kadoobra",
+      "duration_raw": "23:33",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 17255,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2521763416726&type=32&idx=12&tkn=EMTv53qmAgKJKBa9SUBBzAWke5k&fn=external_8"
+    },
+    {
+      "video_id": "1390128204361",
+      "title_raw": "03 - Yo y mi sombra demonio",
+      "duration_raw": "23:43",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 11216,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2521760729750&type=32&idx=1&tkn=0veBlmLTEQehSLaTRYj2345Qfc4&fn=external_8"
+    },
+    {
+      "video_id": "1390128597577",
+      "title_raw": "04 - Reflexiones en un ojo gélido",
+      "duration_raw": "23:35",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 8282,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2521766431382&type=32&idx=3&tkn=onsLsRCGkOgL0P4tHQ4W-tZipiU&fn=external_8"
+    },
+    {
+      "video_id": "1390128925257",
+      "title_raw": "05 - Eso es Monstertainment",
+      "duration_raw": "23:37",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 7127,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2521784781462&type=32&idx=6&tkn=Q5zQBsEkN35wNDLXLfSOjpXstiU&fn=external_8"
+    },
+    {
+      "video_id": "1390128335433",
+      "title_raw": "06 - Buque de fantasmas",
+      "duration_raw": "23:37",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 6566,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2521771739798&type=32&idx=14&tkn=RL7c2zb627DD_NY0g-VX1LyEMs8&fn=external_8"
+    },
+    {
+      "video_id": "1390128269897",
+      "title_raw": "07 - Un pequeño fantasma como tú",
+      "duration_raw": "23:36",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 5581,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2521776720534&type=32&idx=4&tkn=yp4A4aceKPAZx0HchzUQ9GHi1E0&fn=external_8"
+    },
+    {
+      "video_id": "1390128400969",
+      "title_raw": "08 - Cuando deseas un Scooby",
+      "duration_raw": "23:37",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 5393,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2521780128406&type=32&idx=11&tkn=CyeCROHUILAwQdcBI0u__b1Ho3c&fn=external_8"
+    },
+    {
+      "video_id": "1390128466505",
+      "title_raw": "09 - Es un maravilloso Scooby",
+      "duration_raw": "23:40",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 5475,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=5987610003976&type=32&idx=8&tkn=5yylqbQGOicREHR5BrLimTxtJYg&fn=external_8"
+    },
+    {
+      "video_id": "1390128859721",
+      "title_raw": "10 - Scooby en Kwackyland",
+      "duration_raw": "23:37",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 4920,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2521782880918&type=32&idx=5&tkn=2b-FsJPVl8cxpMGQslYBc9qg1gQ&fn=external_8"
+    },
+    {
+      "video_id": "1390128990793",
+      "title_raw": "11 - Desliza al fantasma",
+      "duration_raw": "23:30",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 4469,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2521773312662&type=32&idx=9&tkn=GtSE4Fj8TLLLbAOc98IiSPWIhQM&fn=external_8"
+    },
+    {
+      "video_id": "1390128532041",
+      "title_raw": "12 - El espectáculo de Ghouliest en la tierra",
+      "duration_raw": "23:38",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 4162,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=5987619244552&type=32&idx=15&tkn=AokTGabiDgixt-ELWPgtlnHaHMs&fn=external_8"
+    },
+    {
+      "video_id": "1390128728649",
+      "title_raw": "13 - Horóscopo Scooby",
+      "duration_raw": "23:37",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 4930,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2521769052822&type=32&idx=2&tkn=40Ff7I25dAyRBT-goqZTcw_28mA&fn=external_8"
+    }
+  ]
+}

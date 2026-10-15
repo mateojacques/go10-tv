@@ -1,0 +1,133 @@
+{
+  "title": "El Espectacular Hombre Araña",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2262857",
+  "year": "2008",
+  "studio": "Marvel",
+  "source": "lacartoons Oficial",
+  "quality": "360p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Superhéroes",
+  "videos": [
+    {
+      "video_id": "1417702279753",
+      "title_raw": "SpNAS01",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 80553,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=15961988205296&type=32&idx=1&tkn=O-jSoLpP5hkB4aD83smXSEoIIw0&fn=external_8"
+    },
+    {
+      "video_id": "1417701624393",
+      "title_raw": "SpNAS02",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 13375,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=15961982307056&type=32&idx=1&tkn=TEjThlHPKdjq1M9TcFcF7lxE8_Q&fn=external_8"
+    },
+    {
+      "video_id": "1417702476361",
+      "title_raw": "SpNAS03",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 10343,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=15961973263088&type=32&idx=2&tkn=BotzUR7DI4W4vRyLO5fQF9Ny8vo&fn=external_8"
+    },
+    {
+      "video_id": "1417702410825",
+      "title_raw": "SpNAS04",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 7600,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=15961966250736&type=32&idx=1&tkn=F5i-1ely_gag_sWbjm0nZvS_Its&fn=external_8"
+    },
+    {
+      "video_id": "1417702345289",
+      "title_raw": "SpNAS05",
+      "duration_raw": "21:22",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 7189,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=15961961532144&type=32&idx=2&tkn=a4MJtj8z_g2eynhLXOmCQOBPcXc&fn=external_8"
+    },
+    {
+      "video_id": "1417701755465",
+      "title_raw": "SpNAS06",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 7350,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=15962058001136&type=32&idx=2&tkn=TivUhPw2arBJkTQBGCy-ncW5d10&fn=external_8"
+    },
+    {
+      "video_id": "1417702148681",
+      "title_raw": "SpNAS07",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 6276,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=15962019203824&type=32&idx=2&tkn=D2SZq6nvweCotLFh84firhq1U9Y&fn=external_8"
+    },
+    {
+      "video_id": "1417702083145",
+      "title_raw": "SpNAS08",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 6196,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=15962011208432&type=32&idx=2&tkn=SUHT_axPD5-vtwOhs6Nd4vwqjkE&fn=external_8"
+    },
+    {
+      "video_id": "1417702017609",
+      "title_raw": "SpNAS09",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 5152,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=15962003475184&type=32&idx=1&tkn=I82Y4jE462kaHzkfEryWm1WxJIE&fn=external_8"
+    },
+    {
+      "video_id": "1417701821001",
+      "title_raw": "SpNAS010",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 6233,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2532843391517&type=32&idx=4&tkn=qnQgZTMizzDmBqecRiF4FcbSVu4&fn=external_8"
+    },
+    {
+      "video_id": "1417701886537",
+      "title_raw": "SpNAS011",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 4974,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=15962109905648&type=32&idx=2&tkn=B_ZsWmHwMIA4t9vCP-vaXybS1DI&fn=external_8"
+    },
+    {
+      "video_id": "1417702214217",
+      "title_raw": "SpNAS012",
+      "duration_raw": "21:21",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 4878,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=15962102041328&type=32&idx=1&tkn=hIYvCg4mPiD-lm2rI5O0Y80Qtwo&fn=external_8"
+    },
+    {
+      "video_id": "1417701952073",
+      "title_raw": "SpNAS013",
+      "duration_raw": "21:36",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 5608,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=15962094832368&type=32&idx=1&tkn=3rAlVbD_YBZoa_cI_1iniLRPpkU&fn=external_8"
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "title": "Los Misterios de Moville",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2270793",
+  "year": "2002",
+  "studio": "Nickelodeon",
+  "source": "lacartoons Oficial",
+  "quality": "360p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "1426461100617",
+      "title_raw": "01 Los Misterios de Moville -  Los Cazadores Del Suspensorio Perdido",
+      "duration_raw": "21:42",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 16110,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=113269475961&type=32&idx=13&tkn=7_TToMD_Gm0jAAdE_VHmuhvAijA&fn=external_8"
+    },
+    {
+      "video_id": "1426460183113",
+      "title_raw": "02 Los Misterios de Moville - El Sillon Delator",
+      "duration_raw": "21:46",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 5392,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=113269541497&type=32&idx=2&tkn=1dcUVmt0sxYiHOh0ebF0kAOpQ0g&fn=external_8"
+    },
+    {
+      "video_id": "1426459789897",
+      "title_raw": "03 Los Misterios de Moville - El Dia Q Rico Se Volvio Inteligente",
+      "duration_raw": "21:59",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 3685,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=113269607033&type=32&idx=12&tkn=odLYLUe8SQRYrS0oPnh7bMy77eg&fn=external_8"
+    },
+    {
+      "video_id": "1426461362761",
+      "title_raw": "04 Los Misterios de Moville - Que Verde Era la Carne De Mi ALmuerzo",
+      "duration_raw": "22:19",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 4040,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=286369188359&type=32&idx=11&tkn=Z-dZR0cNZCo5aaBMUIn6mmaZFiY&fn=external_8"
+    },
+    {
+      "video_id": "1426461297225",
+      "title_raw": "05 Los Misterios de Moville - El Proyecto de la Bruja de Moville",
+      "duration_raw": "22:19",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 2751,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=286369188359&type=32&idx=11&tkn=Z-dZR0cNZCo5aaBMUIn6mmaZFiY&fn=external_8"
+    },
+    {
+      "video_id": "1426461166153",
+      "title_raw": "06 Los Misterios de Moville - Un Enjanbre de Problemas",
+      "duration_raw": "21:43",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 2692,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=113269803641&type=32&idx=5&tkn=106GJTBlbsRRiWiQQoYQmw14Ex8&fn=external_8"
+    },
+    {
+      "video_id": "1426460052041",
+      "title_raw": "07 Los Misterios de Moville - Aquellos Fueron Los Buenos Tiempos",
+      "duration_raw": "21:59",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 2771,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=113269869177&type=32&idx=1&tkn=6Z84dpb1emki0Iys_aL6Vpnx7NQ&fn=external_8"
+    },
+    {
+      "video_id": "1426460838473",
+      "title_raw": "08 Los Misterios de Moville - La Maldicion De Las Mamas",
+      "duration_raw": "22:09",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 2263,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=113269934713&type=32&idx=11&tkn=UTfkguOZPuyOHsBmmo608qi1VGk&fn=external_8"
+    },
+    {
+      "video_id": "1426460707401",
+      "title_raw": "09 Los Misterios de Moville - ¡GOOOL",
+      "duration_raw": "21:34",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 2119,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=113270065785&type=32&idx=1&tkn=xe5d08QTzQ1W9dULOPzaHTggwPI&fn=external_8"
+    },
+    {
+      "video_id": "1426461035081",
+      "title_raw": "10 Los Misterios de Moville - El Chico De Las Novedades",
+      "duration_raw": "21:42",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 2489,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=113270131321&type=32&idx=9&tkn=e3JERXr0NcagfiRlzK0RnigWlgM&fn=external_8"
+    },
+    {
+      "video_id": "1426460576329",
+      "title_raw": "11 Los Misterios de Moville - El Monstruo De A Lado",
+      "duration_raw": "21:40",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 2174,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=113270196857&type=32&idx=8&tkn=Gl9iRHY9FSdK6TAYe47BtZDPLAU&fn=external_8"
+    },
+    {
+      "video_id": "1426460445257",
+      "title_raw": "12 Los Misterios de Moville - El Golpe De Un Angel",
+      "duration_raw": "21:39",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 1850,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=113270262393&type=32&idx=5&tkn=NQy3gwkAn_VmS2Hnsf-FsYSZ82o&fn=external_8"
+    },
+    {
+      "video_id": "1426459920969",
+      "title_raw": "13 Los Misterios de Moville (Latino)  -  Mira una vaca que mauya",
+      "duration_raw": "21:22",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 1726,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=113270327929&type=32&idx=5&tkn=8zQSNeyTpGQNPmHRGzHbrEgpb1E&fn=external_8"
+    },
+    {
+      "video_id": "1426459986505",
+      "title_raw": "14 Los Misterios de Moville (Latino)    Noche y Dia Noche del Cazador",
+      "duration_raw": "21:46",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 2005,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=113270393465&type=32&idx=0&tkn=OPOT72eZES8k6tTglTPgizG-Lag&fn=external_8"
+    },
+    {
+      "video_id": "1426460904009",
+      "title_raw": "15 Los Misterios de Moville Latino  -  15   Sigan a ese Mo",
+      "duration_raw": "21:39",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 1652,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=113270459001&type=32&idx=6&tkn=xBRhdQTcJIyLrjUSMEt4xo40TmQ&fn=external_8"
+    },
+    {
+      "video_id": "1426459855433",
+      "title_raw": "16 Los Misterios de Moville (Latino)  -  16  Gran pulgar gran maldad",
+      "duration_raw": "21:38",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 1561,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=113270524537&type=32&idx=3&tkn=B4ygRXmBgC_Y916VFQRoRiVZ_9A&fn=external_8"
+    },
+    {
+      "video_id": "1426461231689",
+      "title_raw": "17 Los Misterios de Moville (Latino)  -  17  Espejito, espejito de la pared",
+      "duration_raw": "21:37",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 1507,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=113270590073&type=32&idx=2&tkn=LysBgv3nIQnuKTmy1fU4bCS47D4&fn=external_8"
+    },
+    {
+      "video_id": "1426459724361",
+      "title_raw": "18 Los Misterios de Moville (Latino) -   Hay algo extraño en el lago dame dame te tengo",
+      "duration_raw": "21:50",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 1475,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=113270655609&type=32&idx=14&tkn=C82LqLwxtRyN_A1MsZf6FYf0rXQ&fn=external_8"
+    },
+    {
+      "video_id": "1426460772937",
+      "title_raw": "19 Los Misterios de Moville (Latino)  -  19 Mascotas de pesadilla",
+      "duration_raw": "21:55",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 1587,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=113270721145&type=38&idx=2&tkn=T3qPJ9fYf98BqrHhjV3y9tkpAlE&fn=external_8"
+    },
+    {
+      "video_id": "1426460314185",
+      "title_raw": "20 Los Misterios de Moville (Latino)  -  20  Vendiste tu alma por ¿Que",
+      "duration_raw": "21:40",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 1678,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=113270786681&type=32&idx=6&tkn=b2mIxp-B5wpKCU1j5HPd-eHhRgA&fn=external_8"
+    },
+    {
+      "video_id": "1426460969545",
+      "title_raw": "21 Los Misterios de Moville (Latino)  -  21 No toques el dial",
+      "duration_raw": "21:43",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 1468,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=113270852217&type=32&idx=1&tkn=zMVSQPCTutnAYvm4VLBZ0nsPyC8&fn=external_8"
+    },
+    {
+      "video_id": "1426460641865",
+      "title_raw": "22 Los Misterios de Moville (Latino)  -  22   Qué mala suerte",
+      "duration_raw": "21:50",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 1344,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=113270917753&type=32&idx=4&tkn=9NvjyE5Sx4iuVgR7cBDnHD6VlyA&fn=external_8"
+    },
+    {
+      "video_id": "1426460510793",
+      "title_raw": "23 Los Misterios de Moville - El reloj mágico",
+      "duration_raw": "21:48",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 1409,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=113270983289&type=32&idx=10&tkn=Z3KRkBO9q_L2LW8F3w7R3n1hZ8g&fn=external_8"
+    },
+    {
+      "video_id": "1426460379721",
+      "title_raw": "24 Los Misterios de Moville (Latino)  -  24  Limpieza Peligrosa",
+      "duration_raw": "21:35",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 1316,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=113271048825&type=32&idx=8&tkn=Ss2ryw6k-K_rUDPncfnvIwfwuWo&fn=external_8"
+    },
+    {
+      "video_id": "1426460117577",
+      "title_raw": "25 Los misterios de moville  el oro del duende",
+      "duration_raw": "21:39",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 1516,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=113271114361&type=32&idx=6&tkn=D5UdapxcAYowkSGVkhweA8wKIkQ&fn=external_8"
+    },
+    {
+      "video_id": "1426460248649",
+      "title_raw": "26 Los misterios de moville - Vendiste tu alma por¿Que",
+      "duration_raw": "21:40",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 1486,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=113271179897&type=32&idx=1&tkn=MVaZGV_S9KBUACwaLlqrO_P_T_E&fn=external_8"
+    }
+  ]
+}

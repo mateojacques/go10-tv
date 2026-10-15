@@ -1,0 +1,484 @@
+{
+  "title": "Capitán Futuro",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2339401",
+  "year": "1978",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Ciencia Ficción",
+  "videos": [
+    {
+      "video_id": "1446599920201",
+      "title_raw": "Capitan futuro 01 El Emperador del Universo",
+      "duration_raw": "24:32",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 16127,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612602219081&type=32&idx=4&tkn=3Dx9ymv-uV5IEKGIDU6oAcG2DIE&fn=external_8"
+    },
+    {
+      "video_id": "1446598871625",
+      "title_raw": "Capitan futuro 02 Prisionero en el Mar Flamígero",
+      "duration_raw": "24:28",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 5212,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612597566025&type=32&idx=10&tkn=TeNtkd8a7BZOGuaz9yGSmaXoqh4&fn=external_8"
+    },
+    {
+      "video_id": "1446600772169",
+      "title_raw": "Capitan futuro 03 La Ciudad Antigua",
+      "duration_raw": "24:33",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 3415,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612607003209&type=32&idx=9&tkn=Kg4IX25h9TbwU4aBxtAUrbFNJQ8&fn=external_8"
+    },
+    {
+      "video_id": "1446600247881",
+      "title_raw": "Capitan futuro 04 El Ataque de los Megarianos",
+      "duration_raw": "24:25",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 2483,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612604316233&type=32&idx=14&tkn=RXRKHkBCDQd-OYB2PC6Wbm6Oy-4&fn=external_8"
+    },
+    {
+      "video_id": "1446598347337",
+      "title_raw": "Capitan futuro 05 Viaje hacia el pasado",
+      "duration_raw": "24:33",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 2433,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612594879049&type=32&idx=13&tkn=5eeL_kSFd6hPTeOLEI9iFr9Jqx0&fn=external_8"
+    },
+    {
+      "video_id": "1446597888585",
+      "title_raw": "Capitan futuro 06 El planeta sagrado de Koom",
+      "duration_raw": "24:31",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 2077,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612592650825&type=32&idx=7&tkn=GTh2m7Ev7BuK5kaXNrqSbabVLUA&fn=external_8"
+    },
+    {
+      "video_id": "1446600706633",
+      "title_raw": "Capitan futuro 07 La genesis del Sistema Solar",
+      "duration_raw": "24:34",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1977,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612606806601&type=32&idx=0&tkn=KEKIauMTotCkRO-Hj1KnVCYWVQ8&fn=external_8"
+    },
+    {
+      "video_id": "1446599854665",
+      "title_raw": "Capitan futuro 08 El viaje de 5000 millones de anios",
+      "duration_raw": "24:31",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 1831,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612602153545&type=32&idx=14&tkn=AHlCAus2aAdLCs-b7oU6t2uugKc&fn=external_8"
+    },
+    {
+      "video_id": "1446600444489",
+      "title_raw": "Capitan futuro 09 El Rey Destructor",
+      "duration_raw": "24:13",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 1847,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612605037129&type=32&idx=0&tkn=U9gLj5KYzpE9jCz7Ozj9hI9ylN4&fn=external_8"
+    },
+    {
+      "video_id": "1446599526985",
+      "title_raw": "Capitan futuro 10 Trampa en el fondo del mar",
+      "duration_raw": "24:15",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 1507,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612600515145&type=32&idx=4&tkn=GrK55IlqyVSV3Q_YD1mmCX0AG_U&fn=external_8"
+    },
+    {
+      "video_id": "1446598216265",
+      "title_raw": "Capitan futuro 11 El demonio de los abismos",
+      "duration_raw": "24:32",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 1347,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612593961545&type=32&idx=14&tkn=hB4EPtA5qZE3Truyfabi6_Ydj2s&fn=external_8"
+    },
+    {
+      "video_id": "1446597757513",
+      "title_raw": "Capitan futuro 12 El Secreto de Wrekler",
+      "duration_raw": "24:40",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 1346,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612592192073&type=32&idx=0&tkn=mjLDX8RLoghV6xXMMLudFDGedbc&fn=external_8"
+    },
+    {
+      "video_id": "1446599002697",
+      "title_raw": "Capitan futuro 13 Falta de aire en Laguna",
+      "duration_raw": "24:25",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 1400,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612598352457&type=32&idx=4&tkn=lZfvR2wNdfFbOJ1NZFN4AhbxlaQ&fn=external_8"
+    },
+    {
+      "video_id": "1446600116809",
+      "title_raw": "Capitan futuro 14 El secreto de la galaxia",
+      "duration_raw": "24:43",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 1304,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612603923017&type=32&idx=7&tkn=zxUAln4jBbhjO-a_gadZB6zGGNQ&fn=external_8"
+    },
+    {
+      "video_id": "1446598412873",
+      "title_raw": "Capitan futuro 15 El protector Suruun",
+      "duration_raw": "24:12",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 1120,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612595075657&type=32&idx=4&tkn=gNM3od24sMzxXHNkFa9Od-WX4Qo&fn=external_8"
+    },
+    {
+      "video_id": "1446598478409",
+      "title_raw": "Capitan futuro 16 Un Planeta lleno de vida",
+      "duration_raw": "24:41",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 1200,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612595272265&type=32&idx=7&tkn=wgFgfDqATevpQDLfeELJ7ypmbf4&fn=external_8"
+    },
+    {
+      "video_id": "1446598937161",
+      "title_raw": "Capitan futuro 17 El Infierno de los vivos",
+      "duration_raw": "24:59",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 1298,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612598221385&type=32&idx=7&tkn=R8yqcQ5kQnFU4P8zUVy4h01EQx4&fn=external_8"
+    },
+    {
+      "video_id": "1446598806089",
+      "title_raw": "Capitan futuro 18 El Valle de los murmullos",
+      "duration_raw": "24:25",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 1148,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612597041737&type=32&idx=0&tkn=djAOiMW5DX2Na2fw6ZyIs8xm56g&fn=external_8"
+    },
+    {
+      "video_id": "1446597495369",
+      "title_raw": "Capitan futuro 19 Disperso en el espacio",
+      "duration_raw": "24:14",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 1059,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612590553673&type=32&idx=13&tkn=PlPzNgohnr-5YTncWXSKjPVS6Is&fn=external_8"
+    },
+    {
+      "video_id": "1446597823049",
+      "title_raw": "Capitan futuro 20 Planeta transparente",
+      "duration_raw": "25:52",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 1021,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612592388681&type=32&idx=10&tkn=idf0ubAEsMx0Hnb3rKeQ8Vj8KnE&fn=external_8"
+    },
+    {
+      "video_id": "1446599789129",
+      "title_raw": "Capitan futuro 21 La piedra durmiente del Kerusu",
+      "duration_raw": "20:50",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 1031,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612602022473&type=32&idx=13&tkn=L8TJL9Fox_t8mn7BEwLd5eOeDMA&fn=external_8"
+    },
+    {
+      "video_id": "1446599199305",
+      "title_raw": "Capitan futuro 22 El mago del circo galactico",
+      "duration_raw": "24:28",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 986,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612599335497&type=32&idx=10&tkn=Y_XYKxdhxNXf6CfujTmwGqw8Vxc&fn=external_8"
+    },
+    {
+      "video_id": "1446600575561",
+      "title_raw": "Capitan futuro 23 La conspiracion y duelos mortales",
+      "duration_raw": "24:36",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 1360,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612605954633&type=32&idx=14&tkn=z_Wu0er2J7-v_x5BAs0Jx5LvWSA&fn=external_8"
+    },
+    {
+      "video_id": "1446600313417",
+      "title_raw": "Capitan futuro 24 La teoria de los universos paralelos",
+      "duration_raw": "25:39",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 1232,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612604578377&type=32&idx=5&tkn=ezDW_hug8AQSC9GRVXTWhLWW8gc&fn=external_8"
+    },
+    {
+      "video_id": "1446598675017",
+      "title_raw": "Capitan futuro 25 El cementerio del espacio",
+      "duration_raw": "24:13",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 1073,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612596124233&type=32&idx=6&tkn=EtqF1Zk0B2laRiXDrPzpMUxBi0Q&fn=external_8"
+    },
+    {
+      "video_id": "1446598281801",
+      "title_raw": "Capitan futuro 26 Hielo flotante",
+      "duration_raw": "24:36",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 919,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2390624242326&type=32&idx=15&tkn=o54iYcmO-Pchewk441MovlRFYNc&fn=external_8"
+    },
+    {
+      "video_id": "1446600051273",
+      "title_raw": "Capitan futuro 27 El cazador",
+      "duration_raw": "24:19",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 802,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2390623521430&type=32&idx=1&tkn=mt4E_SMwb3lYOH20fsj-ds3LRpQ&fn=external_8"
+    },
+    {
+      "video_id": "1446597626441",
+      "title_raw": "Capitan futuro 28 El planeta de la ilusion",
+      "duration_raw": "24:39",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 918,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2390624963222&type=32&idx=7&tkn=UMWmgGyvgFlRbrgJvWF5vjfzmAo&fn=external_8"
+    },
+    {
+      "video_id": "1446599330377",
+      "title_raw": "Capitan futuro 29 Los piratas del espacio",
+      "duration_raw": "24:34",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 886,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612599859785&type=32&idx=13&tkn=HQPBJb5wcgK79VqYkgysrtGB_P4&fn=external_8"
+    },
+    {
+      "video_id": "1446598609481",
+      "title_raw": "Capitan futuro 30 Escape de la galaxia",
+      "duration_raw": "24:36",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 879,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612595796553&type=32&idx=9&tkn=BVGkC8XH_SdoD8oXtuihVBLwp2g&fn=external_8"
+    },
+    {
+      "video_id": "1446600837705",
+      "title_raw": "Capitan futuro 31 Construir desde la Nada",
+      "duration_raw": "24:38",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 983,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612607199817&type=32&idx=8&tkn=1mpPOaKRHls74kbzHg6HvDd6afA&fn=external_8"
+    },
+    {
+      "video_id": "1446599395913",
+      "title_raw": "Capitan futuro 32 Un acto de coraje",
+      "duration_raw": "24:34",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 814,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612600253001&type=32&idx=14&tkn=27A6jslIxnLCYd--0yAHKfM4Ml4&fn=external_8"
+    },
+    {
+      "video_id": "1446599068233",
+      "title_raw": "Capitan futuro 33 El encuentro de las contrapartes",
+      "duration_raw": "24:16",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 841,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612598745673&type=32&idx=4&tkn=X2hObRBqPv4QnottaVMcNnWIYM4&fn=external_8"
+    },
+    {
+      "video_id": "1446598543945",
+      "title_raw": "Capitan futuro 34 Dramatica renovación espacial",
+      "duration_raw": "24:33",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 731,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612595665481&type=32&idx=4&tkn=ugwP75mhfEBEHwremc9HJGG0ik4&fn=external_8"
+    },
+    {
+      "video_id": "1446597560905",
+      "title_raw": "Capitan futuro 35 Un planeta fantasma",
+      "duration_raw": "24:35",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 785,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612590881353&type=32&idx=11&tkn=ssuFUqKFTX0C8a4vR_BVvXHccH0&fn=external_8"
+    },
+    {
+      "video_id": "1446597691977",
+      "title_raw": "Capitan futuro 36 El premio",
+      "duration_raw": "24:39",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 720,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612591995465&type=32&idx=11&tkn=JcHO7avtD-acn3oBqBI3KVQD2Vw&fn=external_8"
+    },
+    {
+      "video_id": "1446599264841",
+      "title_raw": "Capitan futuro 37 La astronave desaparece",
+      "duration_raw": "24:31",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 786,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612599466569&type=32&idx=8&tkn=7dX0vlSUtCR9wYmTjxOU62twbas&fn=external_8"
+    },
+    {
+      "video_id": "1446599133769",
+      "title_raw": "Capitan futuro 38 El senior del cometa",
+      "duration_raw": "24:32",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 754,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612598876745&type=32&idx=7&tkn=korhjQjow6PiVgfgJ885HPKfAus&fn=external_8"
+    },
+    {
+      "video_id": "1446600378953",
+      "title_raw": "Capitan futuro 39 La verdad de Alulus",
+      "duration_raw": "24:35",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 744,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612604840521&type=32&idx=7&tkn=7S0BeMh8t9ENGQH42IN-7zOz1Zk&fn=external_8"
+    },
+    {
+      "video_id": "1446598150729",
+      "title_raw": "Capitan futuro 40 Pesadilla de la cuarta dimension",
+      "duration_raw": "24:41",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 769,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612593633865&type=32&idx=13&tkn=4WUy9uKzWeLJ0vcujPNQtBmsAuo&fn=external_8"
+    },
+    {
+      "video_id": "1446598740553",
+      "title_raw": "Capitan futuro 41 La ciudad de las máquinas",
+      "duration_raw": "25:52",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 776,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612596582985&type=32&idx=12&tkn=NrVUO1S3FxKbEohTerO02UJXack&fn=external_8"
+    },
+    {
+      "video_id": "1446597954121",
+      "title_raw": "Capitan futuro 42 El Emperador",
+      "duration_raw": "24:35",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 766,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612592847433&type=32&idx=14&tkn=k4dGoK21iwhb1Z8OsZNt62js_Xg&fn=external_8"
+    },
+    {
+      "video_id": "1446600182345",
+      "title_raw": "Capitan futuro 43 El bosque de los hongos gigantes",
+      "duration_raw": "24:35",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 750,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612604119625&type=32&idx=2&tkn=Tvw4qjRwiIJcPMmED4KZyTXstUQ&fn=external_8"
+    },
+    {
+      "video_id": "1446599723593",
+      "title_raw": "Capitan futuro 44 Los hombres alados",
+      "duration_raw": "25:30",
+      "season_number": 1,
+      "episode_number": 44,
+      "views": 752,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612601563721&type=32&idx=12&tkn=VgjRv5D6WuxxqVLHZJiNo3cVxLk&fn=external_8"
+    },
+    {
+      "video_id": "1446599461449",
+      "title_raw": "Capitan futuro 45 Viaje a otra dimension",
+      "duration_raw": "25:48",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 851,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612600449609&type=32&idx=12&tkn=yMpEAg_Icf2kSeEHkQtnj84N-XM&fn=external_8"
+    },
+    {
+      "video_id": "1446599658057",
+      "title_raw": "Capitan futuro 46 La vuelta del heroe",
+      "duration_raw": "24:37",
+      "season_number": 1,
+      "episode_number": 46,
+      "views": 726,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612601432649&type=32&idx=9&tkn=Z1pM-qwqO4bTIkvd9-GxCGn4Ld0&fn=external_8"
+    },
+    {
+      "video_id": "1446600510025",
+      "title_raw": "Capitan futuro 47 La separación del alma",
+      "duration_raw": "24:31",
+      "season_number": 1,
+      "episode_number": 47,
+      "views": 1035,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612605626953&type=32&idx=14&tkn=oXpUGq7gTfML5Ff-FzdYazrnR38&fn=external_8"
+    },
+    {
+      "video_id": "1446598019657",
+      "title_raw": "Capitan futuro 48 La vida congelada",
+      "duration_raw": "26:00",
+      "season_number": 1,
+      "episode_number": 48,
+      "views": 833,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=612593109577&type=32&idx=3&tkn=loRliFozqk6JwzueaXwok1AFI0Y&fn=external_8"
+    },
+    {
+      "video_id": "1446599985737",
+      "title_raw": "Capitan futuro 49.mp4",
+      "duration_raw": "24:36",
+      "season_number": 1,
+      "episode_number": 49,
+      "views": 788,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=6950474353156&type=32&idx=0&tkn=8xPCk05NoMQB30jN1UruFdJKu1w&fn=external_8"
+    },
+    {
+      "video_id": "1446599592521",
+      "title_raw": "Capitan futuro 50 Formas de vida artificial",
+      "duration_raw": "24:21",
+      "season_number": 1,
+      "episode_number": 50,
+      "views": 787,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2390641412758&type=32&idx=8&tkn=bgndefbwm-KNKu1CdnHJByBKYPw&fn=external_8"
+    },
+    {
+      "video_id": "1446600641097",
+      "title_raw": "Capitan futuro 51 Batalla en la ciudad muerta",
+      "duration_raw": "23:57",
+      "season_number": 1,
+      "episode_number": 51,
+      "views": 932,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2390642068118&type=32&idx=5&tkn=VKzeYXhVBUlhu8Kk4RgyssWYGYo&fn=external_8"
+    },
+    {
+      "video_id": "1446598085193",
+      "title_raw": "Capitan futuro 52 De la luz a la oscuridad",
+      "duration_raw": "24:23",
+      "season_number": 1,
+      "episode_number": 52,
+      "views": 1859,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=2390640822934&type=32&idx=2&tkn=r_HFmlP0cCZtoPsIP7IFz_RuJQY&fn=external_8"
+    }
+  ]
+}

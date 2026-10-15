@@ -1,0 +1,502 @@
+{
+  "title": "Superman (1988)",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c5205577",
+  "year": "1988",
+  "studio": "DC",
+  "source": "lacartoons Oficial",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Superhéroes",
+  "videos": [
+    {
+      "video_id": "2667541563977",
+      "title_raw": "Superman The Animated Series S01E01 - Superman The Last Son of Krypton  Part One [1080p] [LAT]_x264",
+      "duration_raw": "21:05",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 21972,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498272369225&type=37&idx=7&tkn=vYY93gPG5ku5SF72UVBYVlTSFp8&fn=external_8"
+    },
+    {
+      "video_id": "2667540908617",
+      "title_raw": "Superman The Animated Series S01E02 - Superman The Last Son of Krypton  Part Two [1080p] [LAT]_x264",
+      "duration_raw": "20:07",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 12683,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498224462409&type=37&idx=4&tkn=kqzHj-8NXSOAtSNmbYaFVyYpy6E&fn=external_8"
+    },
+    {
+      "video_id": "2667541039689",
+      "title_raw": "Superman The Animated Series S01E03 - Superman The Last Son of Krypton  Part Three [1080p] [LAT]_x264",
+      "duration_raw": "21:34",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 9758,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498233637449&type=37&idx=9&tkn=z9i-ki9TqT2kULNe6GxM6TNu5CE&fn=external_8"
+    },
+    {
+      "video_id": "2667541891657",
+      "title_raw": "Superman The Animated Series S01E04 - Fun And Games [1080p] [LAT]_x264",
+      "duration_raw": "21:15",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 9283,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498308282953&type=37&idx=14&tkn=-hrq-bDqTEk5b95eDBFg3XcRlTI&fn=external_8"
+    },
+    {
+      "video_id": "2667542022729",
+      "title_raw": "Superman The Animated Series S01E05 - A Little Piece Of Home [1080p] [LAT]_x264",
+      "duration_raw": "21:27",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 7776,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498316868169&type=37&idx=1&tkn=dJcHzsr-HtE9I92M1dk9iyaORn0&fn=external_8"
+    },
+    {
+      "video_id": "2667540843081",
+      "title_raw": "Superman The Animated Series S01E06 - Feeding Time [1080p] [LAT]_x264",
+      "duration_raw": "21:15",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 7292,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498222168649&type=37&idx=9&tkn=G_stj8QasIjYfVlhOsU_PDAfiSw&fn=external_8"
+    },
+    {
+      "video_id": "2667541629513",
+      "title_raw": "Superman The Animated Series S01E07 - The Way Of All Flesh [1080p] [LAT]_x264",
+      "duration_raw": "21:18",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 6089,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498281806409&type=37&idx=12&tkn=SwzXtO50cE14Fr31QTQRsI3mjEA&fn=external_8"
+    },
+    {
+      "video_id": "2667541957193",
+      "title_raw": "Superman The Animated Series S01E08 - Stolen Memories [1080p] [LAT]_x264",
+      "duration_raw": "20:31",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 5452,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498312346185&type=37&idx=13&tkn=6aQNQHsL4a4pTnArmw4YDu3UQ8Q&fn=external_8"
+    },
+    {
+      "video_id": "2667542219337",
+      "title_raw": "Superman The Animated Series S01E09 - The Main Man Part I [1080p] [LAT]_x264",
+      "duration_raw": "20:12",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 5933,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498332072521&type=37&idx=3&tkn=Qk2dfcjh4YwAieuu5_GiA7Bp1fo&fn=external_8"
+    },
+    {
+      "video_id": "2667541695049",
+      "title_raw": "Superman The Animated Series S01E10 - The Main Man Part II [1080p] [LAT]_x264",
+      "duration_raw": "20:37",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 4941,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498287770185&type=37&idx=1&tkn=job9qZwatgFQg1pEZR2q7FcwZwY&fn=external_8"
+    },
+    {
+      "video_id": "2667541301833",
+      "title_raw": "Superman The Animated Series S01E11 - My Girl [1080p] [LAT]_x264",
+      "duration_raw": "21:15",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 5861,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498253691465&type=37&idx=7&tkn=UQrA8U4oTmufkeKejcMAsAZF0sM&fn=external_8"
+    },
+    {
+      "video_id": "2667541498441",
+      "title_raw": "Superman The Animated Series S01E12 - Tools Of The Trade [1080p] [LAT]_x264",
+      "duration_raw": "21:00",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 5341,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498266995273&type=37&idx=9&tkn=MaBh8dYYoMk59fCMC3N-hAfAvQs&fn=external_8"
+    },
+    {
+      "video_id": "2667541367369",
+      "title_raw": "Superman The Animated Series S01E13 - Twos A Crowd [1080p] [LAT]_x264",
+      "duration_raw": "21:11",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 4959,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498258999881&type=37&idx=5&tkn=jWfPzKxpnnzdNDXn9GZKnbPv1Ns&fn=external_8"
+    },
+    {
+      "video_id": "2667542547017",
+      "title_raw": "Superman The Animated Series S02E01 - Blasts From The Past  Part I [1080p] [LAT]_x264",
+      "duration_raw": "19:50",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 4637,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498357566025&type=37&idx=9&tkn=3PsJ4U6FM9Za5bNuzo1a0EM91Go&fn=external_8"
+    },
+    {
+      "video_id": "2667541105225",
+      "title_raw": "Superman The Animated Series S02E02 - Blasts From The Past  Part II [1080p] [LAT]_x264",
+      "duration_raw": "21:24",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 4006,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498239863369&type=37&idx=10&tkn=dw6Yvdkpz1Nyy1-NCinDmH1MSY4&fn=external_8"
+    },
+    {
+      "video_id": "2667542284873",
+      "title_raw": "Superman The Animated Series S02E03 - The Prometheon [1080p] [LAT]_x264",
+      "duration_raw": "21:12",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 4816,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498337905225&type=37&idx=6&tkn=QQAZgvqzJS4G_IktqLgJ3K2eHIc&fn=external_8"
+    },
+    {
+      "video_id": "2667542743625",
+      "title_raw": "Superman The Animated Series S02E04 - Speed Demons [1080p] [LAT]_x264",
+      "duration_raw": "21:16",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 4924,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498379258441&type=37&idx=2&tkn=Qo4OD7ZaUwauWYXyVVne2S8FCXk&fn=external_8"
+    },
+    {
+      "video_id": "2667540974153",
+      "title_raw": "Superman The Animated Series S02E05 - Livewire [1080p] [LAT]_x264",
+      "duration_raw": "21:12",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 5525,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498228853321&type=37&idx=6&tkn=DdAcMVNZSFeqDIQOTU-ZTJrAmf8&fn=external_8"
+    },
+    {
+      "video_id": "2667542153801",
+      "title_raw": "Superman The Animated Series S02E06 - Identity Crisis [1080p] [LAT]_x264",
+      "duration_raw": "20:44",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 5629,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498326829641&type=37&idx=1&tkn=P-bN1V_vg0PRJcR4-0vw1f_qDW8&fn=external_8"
+    },
+    {
+      "video_id": "2667541170761",
+      "title_raw": "Superman The Animated Series S02E07 - Target [1080p] [LAT]_x264",
+      "duration_raw": "20:14",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 4693,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498242812489&type=37&idx=15&tkn=mUrS7jYlwf9WcppUAkowV2kyupc&fn=external_8"
+    },
+    {
+      "video_id": "2667542350409",
+      "title_raw": "Superman The Animated Series S02E08 - Mxyzpixilated [1080p] [LAT]_x264",
+      "duration_raw": "20:55",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 4771,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498343606857&type=37&idx=2&tkn=s0AklPTdbiJkMat9komwn9_CoNQ&fn=external_8"
+    },
+    {
+      "video_id": "2667542678089",
+      "title_raw": "Superman The Animated Series S02E09 - Action Figures [1080p] [LAT]_x264",
+      "duration_raw": "20:52",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 4458,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498370607689&type=37&idx=15&tkn=UsOxy9rmTKU6VxcrYRpLkSmSATs&fn=external_8"
+    },
+    {
+      "video_id": "2667542481481",
+      "title_raw": "Superman The Animated Series S02E10 - Double Dose [1080p] [LAT]_x264",
+      "duration_raw": "21:20",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 4126,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498353699401&type=37&idx=11&tkn=Fknt2isnfa29v_3bN01iZnEJq6s&fn=external_8"
+    },
+    {
+      "video_id": "2667542415945",
+      "title_raw": "Superman The Animated Series S02E11 - Solar Power [1080p] [LAT]_x264",
+      "duration_raw": "21:10",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 4013,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498347604553&type=37&idx=1&tkn=Aex_Y5KXUO5TOTH1JhA03tVeFDY&fn=external_8"
+    },
+    {
+      "video_id": "2667541826121",
+      "title_raw": "Superman The Animated Series S02E12 - Brave New Metropolis [1080p] [LAT]_x264",
+      "duration_raw": "21:07",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 4112,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498300025417&type=37&idx=11&tkn=NycO2oT2_kkh9E91HsbmixuBOqY&fn=external_8"
+    },
+    {
+      "video_id": "2667541432905",
+      "title_raw": "Superman The Animated Series S02E13 - Monkey Fun [1080p] [LAT]_x264",
+      "duration_raw": "21:12",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 3832,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498263587401&type=37&idx=14&tkn=7qR3wD_k-6qO8biqZdhsWeMcIeI&fn=external_8"
+    },
+    {
+      "video_id": "2667541760585",
+      "title_raw": "Superman The Animated Series S02E14 - Ghost In The Machine [1080p] [LAT]_x264",
+      "duration_raw": "21:12",
+      "season_number": 2,
+      "episode_number": 14,
+      "views": 3895,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498293865033&type=37&idx=15&tkn=e6vuzLXx4cueTF6Hv6wK96bdnx8&fn=external_8"
+    },
+    {
+      "video_id": "2667541236297",
+      "title_raw": "Superman The Animated Series S02E15 - Fathers Day [1080p] [LAT]_x264",
+      "duration_raw": "21:10",
+      "season_number": 2,
+      "episode_number": 15,
+      "views": 3532,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498248907337&type=37&idx=14&tkn=JIKtmZssHdBPMk5DJcdzJcVunLI&fn=external_8"
+    },
+    {
+      "video_id": "2667542088265",
+      "title_raw": "Superman The Animated Series S02E16 - Worlds Finest  Part I [1080p] [LAT]_x264",
+      "duration_raw": "21:33",
+      "season_number": 2,
+      "episode_number": 16,
+      "views": 6584,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498322045513&type=37&idx=12&tkn=fuPSXKJ8N_aLGaa9eONyjfA6f4Q&fn=external_8"
+    },
+    {
+      "video_id": "2667542612553",
+      "title_raw": "Superman The Animated Series S02E17 - Worlds Finest  Part II [1080p] [LAT]_x264",
+      "duration_raw": "21:19",
+      "season_number": 2,
+      "episode_number": 17,
+      "views": 5263,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1498364381769&type=37&idx=2&tkn=h6PSEjWOaog8sSQQVzFEkEcDtaM&fn=external_8"
+    },
+    {
+      "video_id": "2668485151305",
+      "title_raw": "Superman The Animated Series S02E18 - Worlds Finest  Part III [1080p] [LAT]_x264",
+      "duration_raw": "21:31",
+      "season_number": 2,
+      "episode_number": 18,
+      "views": 4679,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1499446250057&type=37&idx=15&tkn=mBV-_ZnrElRbokAJoRLSnDD7Aeg&fn=external_8"
+    },
+    {
+      "video_id": "2668484364873",
+      "title_raw": "Superman The Animated Series S02E19 - Bizarros World [1080p] [LAT]_x264",
+      "duration_raw": "21:01",
+      "season_number": 2,
+      "episode_number": 19,
+      "views": 3831,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1499314129481&type=37&idx=15&tkn=vdXdVw8NgPRzV13_pU0oYsWwzfE&fn=external_8"
+    },
+    {
+      "video_id": "2668484233801",
+      "title_raw": "Superman The Animated Series S02E20 - The Hand Of Fate [1080p] [LAT]_x264",
+      "duration_raw": "20:59",
+      "season_number": 2,
+      "episode_number": 20,
+      "views": 3416,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1499290864201&type=37&idx=3&tkn=br9Qe3ZqumCw9Dyi6I7VtHn0lXg&fn=external_8"
+    },
+    {
+      "video_id": "2668484495945",
+      "title_raw": "Superman The Animated Series S02E21 - Prototype [1080p] [LAT]_x264",
+      "duration_raw": "21:15",
+      "season_number": 2,
+      "episode_number": 21,
+      "views": 3782,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1499339426377&type=37&idx=10&tkn=bNA9KZpcl_C0slCwhl_oyCQVF0Y&fn=external_8"
+    },
+    {
+      "video_id": "2668485347913",
+      "title_raw": "Superman The Animated Series S02E22 - The Late Mr. Kent [1080p] [LAT]_x264",
+      "duration_raw": "20:57",
+      "season_number": 2,
+      "episode_number": 22,
+      "views": 4782,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1499484981833&type=37&idx=14&tkn=RuPNXAH5QDOlOG-c4gJpShThy7I&fn=external_8"
+    },
+    {
+      "video_id": "2668485216841",
+      "title_raw": "Superman The Animated Series S02E23 - Heavy Metal [1080p] [LAT]_x264",
+      "duration_raw": "20:45",
+      "season_number": 2,
+      "episode_number": 23,
+      "views": 3982,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1499460733513&type=37&idx=13&tkn=1vbGoLqET5AOwCH6ZSOKwsDXE-Y&fn=external_8"
+    },
+    {
+      "video_id": "2668484561481",
+      "title_raw": "Superman The Animated Series S02E24 - Warrior Queen [1080p] [LAT]_x264",
+      "duration_raw": "21:02",
+      "season_number": 2,
+      "episode_number": 24,
+      "views": 4662,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1499351353929&type=37&idx=9&tkn=ou6REzCa28ZaH_yMcm4apiUNPUA&fn=external_8"
+    },
+    {
+      "video_id": "2668484299337",
+      "title_raw": "Superman The Animated Series S02E25 - Apokolips...Now  Part I [1080p] [LAT]_x264",
+      "duration_raw": "21:12",
+      "season_number": 2,
+      "episode_number": 25,
+      "views": 5299,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1499302333001&type=37&idx=7&tkn=0hBJcHkk2Uw66JXA0p_zviumcUI&fn=external_8"
+    },
+    {
+      "video_id": "2668485282377",
+      "title_raw": "Superman The Animated Series S02E26 - Apokolips...Now  Part II [1080p] [LAT]_x264",
+      "duration_raw": "21:17",
+      "season_number": 2,
+      "episode_number": 26,
+      "views": 4742,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1499474365001&type=37&idx=11&tkn=cnAv5KzlzMba1Eu5FX1JiTHzHik&fn=external_8"
+    },
+    {
+      "video_id": "2668485610057",
+      "title_raw": "Superman The Animated Series S02E27 - Little Girl Lost  Part I [1080p] [LAT]_x264",
+      "duration_raw": "21:15",
+      "season_number": 2,
+      "episode_number": 27,
+      "views": 4585,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1499535116873&type=37&idx=7&tkn=afLd4nRRQR9lHSayFmbRXn0eXLw&fn=external_8"
+    },
+    {
+      "video_id": "2668484889161",
+      "title_raw": "Superman The Animated Series S02E28 - Little Girl Lost  Part II [1080p] [LAT]_x264",
+      "duration_raw": "21:28",
+      "season_number": 2,
+      "episode_number": 28,
+      "views": 3538,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1499398736457&type=37&idx=14&tkn=rxMMau8yntil8U7iIWK-5nloDaI&fn=external_8"
+    },
+    {
+      "video_id": "2668485085769",
+      "title_raw": "Superman The Animated Series S03E01 - Where Theres Smoke [1080p] [LAT]_x264",
+      "duration_raw": "21:12",
+      "season_number": 3,
+      "episode_number": 1,
+      "views": 3445,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1499432290889&type=37&idx=13&tkn=Iu49Mp35utChOEbeFjhMDSe20rQ&fn=external_8"
+    },
+    {
+      "video_id": "2668485020233",
+      "title_raw": "Superman The Animated Series S03E02 - Knight Time [1080p] [LAT]_x264",
+      "duration_raw": "21:14",
+      "season_number": 3,
+      "episode_number": 2,
+      "views": 6474,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1499419183689&type=37&idx=11&tkn=kDbf8tqpAS8HsEspIxPG3gCfAi4&fn=external_8"
+    },
+    {
+      "video_id": "2668485544521",
+      "title_raw": "Superman The Animated Series S03E03 - New Kids In Town [1080p] [LAT]_x264",
+      "duration_raw": "21:15",
+      "season_number": 3,
+      "episode_number": 3,
+      "views": 3233,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1499525483081&type=37&idx=9&tkn=hiyOUZxtPshtvpyKFvlfnQHrt58&fn=external_8"
+    },
+    {
+      "video_id": "2668485413449",
+      "title_raw": "Superman The Animated Series S03E04 - Obsession [1080p] [LAT]_x264",
+      "duration_raw": "21:14",
+      "season_number": 3,
+      "episode_number": 4,
+      "views": 3345,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1499498875465&type=37&idx=11&tkn=GmJP4kN_F2mr4XX-yOqB_CMmqKA&fn=external_8"
+    },
+    {
+      "video_id": "2668485478985",
+      "title_raw": "Superman The Animated Series S03E05 - Little Big Head Man [1080p] [LAT]_x264",
+      "duration_raw": "20:44",
+      "season_number": 3,
+      "episode_number": 5,
+      "views": 3122,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1499513358921&type=37&idx=2&tkn=_3wqH8NrliSqYmzD5JmSxRF6LKc&fn=external_8"
+    },
+    {
+      "video_id": "2668484430409",
+      "title_raw": "Superman The Animated Series S03E06 - Absolute Power [1080p] [LAT]_x264",
+      "duration_raw": "20:12",
+      "season_number": 3,
+      "episode_number": 6,
+      "views": 3125,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1499327892041&type=37&idx=10&tkn=4E1gpEpZYf6VjFLYH9ozN0SkPNw&fn=external_8"
+    },
+    {
+      "video_id": "2668485675593",
+      "title_raw": "Superman The Animated Series S03E07 - In Brightest Day [1080p] [LAT]_x264",
+      "duration_raw": "21:14",
+      "season_number": 3,
+      "episode_number": 7,
+      "views": 3893,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1499550255689&type=37&idx=1&tkn=e8Oi_81AYKZ0Sa54d6xTUSI0vko&fn=external_8"
+    },
+    {
+      "video_id": "2668484823625",
+      "title_raw": "Superman The Animated Series S03E08 - Supermans Pal [1080p] [LAT]_x264",
+      "duration_raw": "20:22",
+      "season_number": 3,
+      "episode_number": 8,
+      "views": 3414,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1499389168201&type=37&idx=8&tkn=Wfumgabo6FMtUuqn-QHOcObtbfw&fn=external_8"
+    },
+    {
+      "video_id": "2668485806665",
+      "title_raw": "Superman The Animated Series S03E09 - A Fish Story [1080p] [LAT]_x264",
+      "duration_raw": "20:57",
+      "season_number": 3,
+      "episode_number": 9,
+      "views": 3132,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1499580402249&type=37&idx=8&tkn=UVFqSYJwhHZsM_6d0P3ZpkOnk-I&fn=external_8"
+    },
+    {
+      "video_id": "2668484627017",
+      "title_raw": "Superman The Animated Series S03E10 - Unity [1080p] [LAT]_x264",
+      "duration_raw": "20:56",
+      "season_number": 3,
+      "episode_number": 10,
+      "views": 2941,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1499364461129&type=37&idx=3&tkn=Xw5MWIIQmNU30jPIdMEKU4EZPsE&fn=external_8"
+    },
+    {
+      "video_id": "2668484692553",
+      "title_raw": "Superman The Animated Series S03E11 - The Demon Reborn [1080p] [LAT]_x264",
+      "duration_raw": "20:53",
+      "season_number": 3,
+      "episode_number": 11,
+      "views": 3865,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1499380189769&type=37&idx=5&tkn=zrE-wRo4tGhjogjV6KetSFzfnG4&fn=external_8"
+    },
+    {
+      "video_id": "2668484954697",
+      "title_raw": "Superman The Animated Series S03E12 - Legacy  Part I [1080p] [LAT]_x264",
+      "duration_raw": "20:38",
+      "season_number": 3,
+      "episode_number": 12,
+      "views": 4367,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1499409222217&type=37&idx=10&tkn=jBnPpMyW-iNJ9aBG3xvbkgsyeAM&fn=external_8"
+    },
+    {
+      "video_id": "2668485741129",
+      "title_raw": "Superman The Animated Series S03E13 - Legacy  Part II [1080p] [LAT]_x264",
+      "duration_raw": "21:43",
+      "season_number": 3,
+      "episode_number": 13,
+      "views": 4563,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1499564477001&type=37&idx=15&tkn=KAspGHOe_2tj8JmhpbKR0D0BhDk&fn=external_8"
+    }
+  ]
+}

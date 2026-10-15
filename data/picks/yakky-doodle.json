@@ -1,0 +1,304 @@
+{
+  "title": "Yakky Doodle",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2358089",
+  "year": "1961",
+  "studio": "WarnerBros",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Clásicos",
+  "videos": [
+    {
+      "video_id": "1454662552137",
+      "title_raw": "YD Temp 1 - 01",
+      "duration_raw": "14:33",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 4063,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196443822742&type=32&idx=6&tkn=HNYcRPVNwpcqSQ9mcWvlpwvQOvc&fn=external_8"
+    },
+    {
+      "video_id": "1454661438025",
+      "title_raw": "YD Temp 1 - 02",
+      "duration_raw": "14:33",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 1450,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196444478102&type=32&idx=5&tkn=LP8EHqSv70vZptRWU50lfz8Z1xA&fn=external_8"
+    },
+    {
+      "video_id": "1454662355529",
+      "title_raw": "YD Temp 1 - 03",
+      "duration_raw": "14:33",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1037,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196445002390&type=32&idx=5&tkn=clyE3YL-pzmrrQIJQSA7f4zoLDo&fn=external_8"
+    },
+    {
+      "video_id": "1454662289993",
+      "title_raw": "YD Temp 1 - 04",
+      "duration_raw": "14:33",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 730,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196445592214&type=32&idx=2&tkn=7PT10P2NmmrDpNmyXNUiT6Q6ZXs&fn=external_8"
+    },
+    {
+      "video_id": "1454661241417",
+      "title_raw": "YD Temp 1 - 05",
+      "duration_raw": "13:22",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 802,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196445854358&type=32&idx=1&tkn=7MPFiHZaETp-b5zmvVBs6SVJrmA&fn=external_8"
+    },
+    {
+      "video_id": "1454661700169",
+      "title_raw": "YD Temp 1 - 06",
+      "duration_raw": "14:33",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 570,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196464138902&type=32&idx=12&tkn=LJXK_DZbMxESRbI78Vev2waZMPw&fn=external_8"
+    },
+    {
+      "video_id": "1454661569097",
+      "title_raw": "YD Temp 1 - 07",
+      "duration_raw": "14:16",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 495,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196464663190&type=32&idx=6&tkn=PHibcdReYoIyhTAHldmiIgE4tug&fn=external_8"
+    },
+    {
+      "video_id": "1454661634633",
+      "title_raw": "YD Temp 1 - 08",
+      "duration_raw": "14:33",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 467,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196465056406&type=32&idx=5&tkn=VsFGifhieWukJwOlQs0pUfVPyDg&fn=external_8"
+    },
+    {
+      "video_id": "1454660717129",
+      "title_raw": "YD Temp 1 - 09",
+      "duration_raw": "14:31",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 491,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196465515158&type=32&idx=1&tkn=-q5oBm62pUEa3CdRA7Tz7vhkc0w&fn=external_8"
+    },
+    {
+      "video_id": "1454662158921",
+      "title_raw": "YD Temp 1 - 10",
+      "duration_raw": "14:33",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 570,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196466236054&type=32&idx=6&tkn=DJSZ9Abol5bqawo81KRuLqsCR-c&fn=external_8"
+    },
+    {
+      "video_id": "1454661503561",
+      "title_raw": "YD Temp 1 - 11",
+      "duration_raw": "14:33",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 445,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196466891414&type=32&idx=10&tkn=uSPviWrT21-sS-gTAXN2ZIcpyI4&fn=external_8"
+    },
+    {
+      "video_id": "1454661372489",
+      "title_raw": "YD Temp 1 - 12",
+      "duration_raw": "14:31",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 382,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196468136598&type=32&idx=1&tkn=MSqhfti1BlW_Tm4NXRIE9hYeu34&fn=external_8"
+    },
+    {
+      "video_id": "1454662748745",
+      "title_raw": "YD Temp 1 - 13",
+      "duration_raw": "14:14",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 484,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196468529814&type=32&idx=13&tkn=WxQnTkyRou2nWpyoBDrc5Zap24s&fn=external_8"
+    },
+    {
+      "video_id": "1454661831241",
+      "title_raw": "YD Temp 1 - 14",
+      "duration_raw": "14:32",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 347,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196469119638&type=32&idx=12&tkn=tRXvBwKHAkW-5UFS7eTus54FgQU&fn=external_8"
+    },
+    {
+      "video_id": "1454662617673",
+      "title_raw": "YD Temp 1 - 15",
+      "duration_raw": "14:31",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 381,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196471806614&type=32&idx=13&tkn=O2EhglB0jtdoyMAFLSb_lPJDsMc&fn=external_8"
+    },
+    {
+      "video_id": "1454661044809",
+      "title_raw": "YD Temp 1 - 16",
+      "duration_raw": "14:16",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 372,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196483472022&type=32&idx=9&tkn=3uuTtuzWn0mEzJyB7v6fOd38M3w&fn=external_8"
+    },
+    {
+      "video_id": "1454661765705",
+      "title_raw": "YD Temp 2 - 01",
+      "duration_raw": "14:33",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 434,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196484127382&type=32&idx=3&tkn=_rDe5KT166QS0Ne-ZZ2916r-gt8&fn=external_8"
+    },
+    {
+      "video_id": "1454660848201",
+      "title_raw": "YD Temp 2 - 02",
+      "duration_raw": "14:31",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 408,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196484717206&type=32&idx=3&tkn=xR1GXke1jlwxnNCRpXI_Icfhk0c&fn=external_8"
+    },
+    {
+      "video_id": "1454662486601",
+      "title_raw": "YD Temp 2 - 03",
+      "duration_raw": "14:33",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 346,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196484848278&type=32&idx=1&tkn=o411zKoc73rbxrOMzyKfHS7fwHE&fn=external_8"
+    },
+    {
+      "video_id": "1454660651593",
+      "title_raw": "YD Temp 2 - 04",
+      "duration_raw": "14:32",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 323,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196485110422&type=32&idx=10&tkn=XjchRUH0mKZgPfkOnzRdvG9SWx8&fn=external_8"
+    },
+    {
+      "video_id": "1454661175881",
+      "title_raw": "YD Temp 2 - 05",
+      "duration_raw": "14:32",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 339,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196485765782&type=32&idx=2&tkn=XXWqHSAxKiBdASW6pQJpgIczu0s&fn=external_8"
+    },
+    {
+      "video_id": "1454662421065",
+      "title_raw": "YD Temp 2 - 06",
+      "duration_raw": "14:33",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 375,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196486027926&type=32&idx=5&tkn=GjBQ2aolSJsl6zrCSV_AlSrheeY&fn=external_8"
+    },
+    {
+      "video_id": "1454662224457",
+      "title_raw": "YD Temp 2 - 07",
+      "duration_raw": "14:33",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 338,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196486421142&type=32&idx=10&tkn=NVw5WLi370prjhvwB2IX0kpW0oc&fn=external_8"
+    },
+    {
+      "video_id": "1454662683209",
+      "title_raw": "YD Temp 2 - 08",
+      "duration_raw": "14:32",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 328,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196486683286&type=32&idx=7&tkn=qOCQZdk25Bzy4JDBWEC85BwxLWY&fn=external_8"
+    },
+    {
+      "video_id": "1454660979273",
+      "title_raw": "YD Temp 2 - 09",
+      "duration_raw": "14:33",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 327,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196493367958&type=32&idx=1&tkn=s2gGqAt60hHQ6L9oMjqht7aW134&fn=external_8"
+    },
+    {
+      "video_id": "1454661110345",
+      "title_raw": "YD Temp 2 - 10",
+      "duration_raw": "14:32",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 480,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196493695638&type=32&idx=3&tkn=yju5rVOj-yQMHoH3W7WwRv9ip2I&fn=external_8"
+    },
+    {
+      "video_id": "1454661962313",
+      "title_raw": "YD Temp 2 - 11",
+      "duration_raw": "14:32",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 313,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196494219926&type=32&idx=5&tkn=D2NBKS3Mp8KG-jdCCQwWNkAeXC4&fn=external_8"
+    },
+    {
+      "video_id": "1454661896777",
+      "title_raw": "YD Temp 2 - 12",
+      "duration_raw": "14:35",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 314,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196494350998&type=32&idx=5&tkn=7PwCXl1410iJl8vkWncWhZFAMzk&fn=external_8"
+    },
+    {
+      "video_id": "1454660913737",
+      "title_raw": "YD Temp 2 - 13",
+      "duration_raw": "14:33",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 305,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196494678678&type=32&idx=7&tkn=1pdvyGD2iITWQaEcXt7DzpX2uWw&fn=external_8"
+    },
+    {
+      "video_id": "1454662093385",
+      "title_raw": "YD Temp 2 - 14",
+      "duration_raw": "14:35",
+      "season_number": 2,
+      "episode_number": 14,
+      "views": 327,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196495334038&type=32&idx=4&tkn=7Ps9ydElNC4hP7P0bkmgJ5WxIYs&fn=external_8"
+    },
+    {
+      "video_id": "1454662027849",
+      "title_raw": "YD Temp 2 - 15",
+      "duration_raw": "14:32",
+      "season_number": 2,
+      "episode_number": 15,
+      "views": 308,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196495792790&type=32&idx=15&tkn=YP9DHjPh142Z6Z62rwWd8md2gNc&fn=external_8"
+    },
+    {
+      "video_id": "1454661306953",
+      "title_raw": "YD Temp 2 - 16",
+      "duration_raw": "14:33",
+      "season_number": 2,
+      "episode_number": 16,
+      "views": 359,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=3196496120470&type=32&idx=4&tkn=qB5tE4iW1NA8H61oSvIZH2-TR3c&fn=external_8"
+    }
+  ]
+}

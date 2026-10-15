@@ -1,0 +1,241 @@
+{
+  "title": "Transformers: Beast Machines",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c2204233",
+  "year": "1999",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Ciencia Ficción",
+  "videos": [
+    {
+      "video_id": "1369626249801",
+      "title_raw": "01 - Reformación_x264",
+      "duration_raw": "21:27",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 16472,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591278180937&type=32&idx=2&tkn=UmKpIiXf06QPGY8Rptz92iyveUs&fn=external_8"
+    },
+    {
+      "video_id": "1369626380873",
+      "title_raw": "02 - Maestro Del Hogar_x264",
+      "duration_raw": "21:27",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 5211,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591280933449&type=32&idx=5&tkn=vq6ly6Bkkh9UOUB1G6p1n_YeYho&fn=external_8"
+    },
+    {
+      "video_id": "1369625528905",
+      "title_raw": "03 - Fuegos Del Pasado_x264",
+      "duration_raw": "21:24",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 3265,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591260551753&type=32&idx=9&tkn=LyNXe437Yg-ibVXVp87KZKccwqU&fn=external_8"
+    },
+    {
+      "video_id": "1369626905161",
+      "title_raw": "04 - Persecuciones Mercenarias_x264",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 2770,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591290632777&type=32&idx=9&tkn=E58tJBa6plI7C2ChhuOgLOQUIeU&fn=external_8"
+    },
+    {
+      "video_id": "1369626839625",
+      "title_raw": "06 - El Componente Débil_x264",
+      "duration_raw": "21:24",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 2456,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591289649737&type=32&idx=13&tkn=VN4UMk3ZgnZkg4jne6xtTb3MSyI&fn=external_8"
+    },
+    {
+      "video_id": "1369625791049",
+      "title_raw": "07 - Revelaciones, Parte 01 - Descubrimiento_x264",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 2351,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591268153929&type=32&idx=12&tkn=3E67aYontbxsO9yARNaqKa2D9BI&fn=external_8"
+    },
+    {
+      "video_id": "1369626315337",
+      "title_raw": "08 - Revelaciones, Parte 02 - Ascendencia_x264",
+      "duration_raw": "21:29",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 2006,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591279426121&type=32&idx=10&tkn=ys5pthMIatrurM4f7eA--hwRssc&fn=external_8"
+    },
+    {
+      "video_id": "1369625922121",
+      "title_raw": "09 - Revelaciones, Parte 03 - Apocalipsis_x264",
+      "duration_raw": "21:29",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 2027,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591270709833&type=32&idx=2&tkn=G6NiODBc8briRrLvSgW4CzD0U9s&fn=external_8"
+    },
+    {
+      "video_id": "1369625856585",
+      "title_raw": "10 - Sobreviviente_x264",
+      "duration_raw": "21:29",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 2074,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591269202505&type=32&idx=5&tkn=71viiu-u8ZBceZv6xGzdgGZ93Z8&fn=external_8"
+    },
+    {
+      "video_id": "1369626511945",
+      "title_raw": "11 - Guerra Tecno-Orgánica, Parte 01 - La Llave_x264",
+      "duration_raw": "21:29",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 1894,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591283489353&type=32&idx=14&tkn=51MFbo-TfDQSUaUaBa1nS8FzPIQ&fn=external_8"
+    },
+    {
+      "video_id": "1369625594441",
+      "title_raw": "12 - Guerra Tecno-Orgánica, Parte 02 - El Catalizador_x264",
+      "duration_raw": "21:29",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 1803,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591262255689&type=32&idx=0&tkn=4k3yvBA8YT00UMLPIgZNeZUMBcg&fn=external_8"
+    },
+    {
+      "video_id": "1369626774089",
+      "title_raw": "13 - Guerra Tecno-Orgánica, Parte 03 - Final De La Línea_x264",
+      "duration_raw": "21:29",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 1924,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591288863305&type=32&idx=10&tkn=bbKgsuhNUdPK59_Ahsbkwd-fDec&fn=external_8"
+    },
+    {
+      "video_id": "1369626053193",
+      "title_raw": "14 - Lluvia Radiactiva_x264",
+      "duration_raw": "19:54",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 1884,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591273593417&type=32&idx=2&tkn=pgWke6htQNlzmA09nH9p5vqdJ9k&fn=external_8"
+    },
+    {
+      "video_id": "1369626577481",
+      "title_raw": "15 - El Noble Salvaje_x264",
+      "duration_raw": "20:46",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 1773,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591284603465&type=32&idx=10&tkn=Gq4zpuLcnSTeqLLm919xdZekLj8&fn=external_8"
+    },
+    {
+      "video_id": "1369625266761",
+      "title_raw": "16 - Prometeo Liberado_x264",
+      "duration_raw": "21:05",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 1756,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591251245641&type=32&idx=3&tkn=HDGrMQXuCy6OwWqVeRclEcJN8qw&fn=external_8"
+    },
+    {
+      "video_id": "1369625725513",
+      "title_raw": "17 - El Caballero En La Oscuridad_x264",
+      "duration_raw": "21:31",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 2482,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591266712137&type=32&idx=10&tkn=90d8wozQ9kyZfcRg7XRBvcHvNxs&fn=external_8"
+    },
+    {
+      "video_id": "1369626708553",
+      "title_raw": "18 - Un Lobo En Redil_x264",
+      "duration_raw": "21:31",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 1876,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591287224905&type=32&idx=3&tkn=NBVP0apULqepiMvnI5Sz2Lbm1Kk&fn=external_8"
+    },
+    {
+      "video_id": "1369625397833",
+      "title_raw": "19 - Su Tierra Natal_x264",
+      "duration_raw": "21:28",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 1890,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591255767625&type=32&idx=10&tkn=lbDdj7eS5MX0xJBwaEbqLLs2748&fn=external_8"
+    },
+    {
+      "video_id": "1369626118729",
+      "title_raw": "20 - Querra De Chispas, Parte 01 - El Ataque_x264",
+      "duration_raw": "21:31",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 1950,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591275559497&type=32&idx=2&tkn=6XhGvVJPLeVGdc5mk1cjptoj9KY&fn=external_8"
+    },
+    {
+      "video_id": "1369625987657",
+      "title_raw": "21 - Querra De Chispas, Parte 02 - La Búsqueda_x264",
+      "duration_raw": "20:58",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 1672,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591272282697&type=32&idx=12&tkn=7_SOVxH0fjuu2hp2mw3kLChSE5E&fn=external_8"
+    },
+    {
+      "video_id": "1369625332297",
+      "title_raw": "22 - Querra De Chispas, Parte 03 - El Asedio_x264",
+      "duration_raw": "20:43",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 1658,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591253146185&type=32&idx=9&tkn=yVagtCQ8gDST4OPxoOG6wt6X_Fo&fn=external_8"
+    },
+    {
+      "video_id": "1369626446409",
+      "title_raw": "23 - Chispa De Oscuridad_x264",
+      "duration_raw": "20:02",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 1744,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591282506313&type=32&idx=7&tkn=2WoOCxafMQNDN4QJfnrCkOfvY8A&fn=external_8"
+    },
+    {
+      "video_id": "1369626184265",
+      "title_raw": "24 - Juego Final, Parte 01 - La Espiral Descendente_x264",
+      "duration_raw": "21:30",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 2367,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591276804681&type=32&idx=12&tkn=a2uP22VAAdlXj9AOCh4AYwLB5WE&fn=external_8"
+    },
+    {
+      "video_id": "1369625659977",
+      "title_raw": "25 - Juego Final, Parte 02 - Las Leyendas Caen_x264",
+      "duration_raw": "20:52",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 1790,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591264680521&type=32&idx=12&tkn=wa2prG51cqHmlW_sxJYOl3MjlJs&fn=external_8"
+    },
+    {
+      "video_id": "1369626643017",
+      "title_raw": "26 - Juego Final, Parte 03 - Las Semillas Del Futuro_x264",
+      "duration_raw": "20:48",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 3551,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=591285717577&type=32&idx=13&tkn=UUkPyByHngfZf9LJ2XzUrO30MAI&fn=external_8"
+    }
+  ]
+}

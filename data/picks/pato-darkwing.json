@@ -1,0 +1,826 @@
+{
+  "title": "Pato Darkwing",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c3078729",
+  "year": "1991",
+  "studio": "Disney",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Superhéroes",
+  "videos": [
+    {
+      "video_id": "1763234286153",
+      "title_raw": "El Pato Darkwing - S01E01 - Darkly Dawns the Duck - Part 1_x264",
+      "duration_raw": "22:43",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 19450,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770378631753&type=32&idx=11&tkn=PQw_cWJt6dC8VhRu3Dw_fegit70&fn=external_8"
+    },
+    {
+      "video_id": "1763235662409",
+      "title_raw": "El Pato Darkwing - S01E02 - Darkly Dawns the Duck - Part 2_x264",
+      "duration_raw": "22:57",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 5524,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770441218633&type=32&idx=14&tkn=M0v1MfRKriGnY_7zMFrgRx6ZPeM&fn=external_8"
+    },
+    {
+      "video_id": "1763235400265",
+      "title_raw": "El Pato Darkwing - S01E03 - Beauty and the Beet_x264",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 4103,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770429618761&type=32&idx=8&tkn=ffIDU6wRYF_iBmL-eTQM3Q3hSbo&fn=external_8"
+    },
+    {
+      "video_id": "1763234810441",
+      "title_raw": "El Pato Darkwing - S01E04 - The Apes of Wrath_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 3209,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770404387401&type=32&idx=2&tkn=k5HRe3WT5eirzh4oI6AtQsIPirM&fn=external_8"
+    },
+    {
+      "video_id": "1763235596873",
+      "title_raw": "El Pato Darkwing - S01E05 - Night of the Living Spud_x264",
+      "duration_raw": "22:48",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 2770,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770438072905&type=32&idx=4&tkn=pC614bKmiooN4Z6iDX-D2aIPTBE&fn=external_8"
+    },
+    {
+      "video_id": "1763234941513",
+      "title_raw": "El Pato Darkwing - S01E06 - Getting Antsy_x264",
+      "duration_raw": "23:01",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 1935,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770411072073&type=32&idx=14&tkn=jkqGyzGQ0gDWIwQUrICRnxrpI6s&fn=external_8"
+    },
+    {
+      "video_id": "1763235465801",
+      "title_raw": "El Pato Darkwing - S01E07 - Dirty Money_x264",
+      "duration_raw": "22:38",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 2236,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770431584841&type=32&idx=9&tkn=jQrj_jxTH01EorTCh9IvC-mEYDA&fn=external_8"
+    },
+    {
+      "video_id": "1763235334729",
+      "title_raw": "El Pato Darkwing - S01E08 - Duck Blind_x264",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 2133,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770427849289&type=32&idx=2&tkn=rV5RWMko_iwalzy0jNHcIFsF6lI&fn=external_8"
+    },
+    {
+      "video_id": "1763234482761",
+      "title_raw": "El Pato Darkwing - S01E09 - Comic Book Caper_x264",
+      "duration_raw": "22:43",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 2097,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770388724297&type=32&idx=12&tkn=wWFXqSxRCqnTXv23J8OZdGWeJCA&fn=external_8"
+    },
+    {
+      "video_id": "1763233827401",
+      "title_raw": "El Pato Darkwing - S01E10 - Water Way to Go (DWD)_x264",
+      "duration_raw": "22:53",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 2008,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770357070409&type=32&idx=11&tkn=3Me_SXMr2PgH_RHAY7lMEU3FdA4&fn=external_8"
+    },
+    {
+      "video_id": "1763234351689",
+      "title_raw": "El Pato Darkwing - S01E11 - Paraducks_x264",
+      "duration_raw": "22:56",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 1704,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770382236233&type=32&idx=7&tkn=gVOR6GFYzN7m5lK7RIn6bNA2Xck&fn=external_8"
+    },
+    {
+      "video_id": "1763233958473",
+      "title_raw": "El Pato Darkwing - S01E12 - Easy Come, Easy Grows_x264",
+      "duration_raw": "22:53",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 1541,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770362509897&type=32&idx=11&tkn=bMZIOdD67yImFXRQ14nPX48aH9Y&fn=external_8"
+    },
+    {
+      "video_id": "1763234024009",
+      "title_raw": "El Pato Darkwing - S01E13 - A Revolution in Home Appliances_x264",
+      "duration_raw": "22:45",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 1329,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770366769737&type=32&idx=11&tkn=5rgxtWxP2mL4O35DwLdhNFX94s8&fn=external_8"
+    },
+    {
+      "video_id": "1763234220617",
+      "title_raw": "El Pato Darkwing - S01E14 - Trading Faces_x264",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 1561,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770375682633&type=32&idx=6&tkn=WhHYI21X9LjRVwpAqIzV0VkXkP8&fn=external_8"
+    },
+    {
+      "video_id": "1763233892937",
+      "title_raw": "El Pato Darkwing - S01E15 - Hush, Hush Sweet Charlatan_x264",
+      "duration_raw": "22:50",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 1341,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770360150601&type=32&idx=9&tkn=aMwGGq3BHh1CC91asq_Qe2nrlXc&fn=external_8"
+    },
+    {
+      "video_id": "1763234417225",
+      "title_raw": "El Pato Darkwing - S01E16 - Can_t Bayou Love_x264",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 16,
+      "views": 1347,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770386365001&type=32&idx=9&tkn=tXSN3le9uUNOJjqVqscngMkPau0&fn=external_8"
+    },
+    {
+      "video_id": "1763234155081",
+      "title_raw": "El Pato Darkwing - S01E17 - Bearskin Thugs_x264",
+      "duration_raw": "22:52",
+      "season_number": 1,
+      "episode_number": 17,
+      "views": 1319,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770373585481&type=32&idx=0&tkn=eGF2AQS7dUnHkvlz67nrDROWVsk&fn=external_8"
+    },
+    {
+      "video_id": "1763235269193",
+      "title_raw": "El Pato Darkwing - S01E18 - You Sweat Your Life_x264",
+      "duration_raw": "22:48",
+      "season_number": 1,
+      "episode_number": 18,
+      "views": 1485,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770424506953&type=32&idx=7&tkn=ykWOtLJWO4yxBMpj2ZrDZxTg8ao&fn=external_8"
+    },
+    {
+      "video_id": "1763235531337",
+      "title_raw": "El Pato Darkwing - S01E19 - Days Of Blunder_x264",
+      "duration_raw": "22:44",
+      "season_number": 1,
+      "episode_number": 19,
+      "views": 1175,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770435058249&type=32&idx=8&tkn=8K5riQPJYES1tUyIGk8hLsJP2SA&fn=external_8"
+    },
+    {
+      "video_id": "1763234089545",
+      "title_raw": "El Pato Darkwing - S01E20 - Just Us Justice Ducks - Part 1_x264",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 20,
+      "views": 2100,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770369915465&type=32&idx=13&tkn=sMyzMtGBTsGCoqqvFrX33_h15a0&fn=external_8"
+    },
+    {
+      "video_id": "1763234613833",
+      "title_raw": "El Pato Darkwing - S01E21 - Just Us Justice Ducks - Part 2_x264",
+      "duration_raw": "22:53",
+      "season_number": 1,
+      "episode_number": 21,
+      "views": 1525,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770392984137&type=32&idx=2&tkn=fQN8UKtByoWJV_JozVe83snWfk0&fn=external_8"
+    },
+    {
+      "video_id": "1763235072585",
+      "title_raw": "El Pato Darkwing - S01E22 - Double Darkwings_x264",
+      "duration_raw": "22:43",
+      "season_number": 1,
+      "episode_number": 22,
+      "views": 1063,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770414414409&type=32&idx=7&tkn=XHoJvQdzj1XnkkJxYyTogHrmtlg&fn=external_8"
+    },
+    {
+      "video_id": "1763235007049",
+      "title_raw": "El Pato Darkwing - S01E23 - Aduckyphobia_x264",
+      "duration_raw": "22:40",
+      "season_number": 1,
+      "episode_number": 23,
+      "views": 1185,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770412579401&type=32&idx=4&tkn=TCsMOvXHM4oXwRLQtJs_7PGRzCo&fn=external_8"
+    },
+    {
+      "video_id": "1763234744905",
+      "title_raw": "El Pato Darkwing - S01E24 - Jurassic Jumble_x264",
+      "duration_raw": "22:38",
+      "season_number": 1,
+      "episode_number": 24,
+      "views": 1146,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770398816841&type=32&idx=9&tkn=scAAc3sX-4-b1CAk5T37BGzgad8&fn=external_8"
+    },
+    {
+      "video_id": "1763234679369",
+      "title_raw": "El Pato Darkwing - S01E25 - When Aliens Collide_x264",
+      "duration_raw": "22:44",
+      "season_number": 1,
+      "episode_number": 25,
+      "views": 1002,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770394753609&type=32&idx=12&tkn=EE9tB6p1pXuzqq6Ij3hXmaY8yxc&fn=external_8"
+    },
+    {
+      "video_id": "1763235203657",
+      "title_raw": "El Pato Darkwing - S01E26 - Cleanliness Is Next To Badliness_x264",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 26,
+      "views": 1018,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770421492297&type=32&idx=11&tkn=WiZFi706bnbQ9Hsf5A53zq1aYg4&fn=external_8"
+    },
+    {
+      "video_id": "1763234875977",
+      "title_raw": "El Pato Darkwing - S01E27 - Smarter Than A Speeding Bullet_x264",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 27,
+      "views": 912,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770408057417&type=32&idx=13&tkn=oZnNacmLZZ1ZJ8bhO0NS9ccmAos&fn=external_8"
+    },
+    {
+      "video_id": "1763235138121",
+      "title_raw": "El Pato Darkwing - S01E28 - All_s Fahrenheit In Love And War_x264",
+      "duration_raw": "22:44",
+      "season_number": 1,
+      "episode_number": 28,
+      "views": 987,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770418281033&type=32&idx=2&tkn=XFdRPkJKZpl7jCDgKxwlbM7x64A&fn=external_8"
+    },
+    {
+      "video_id": "1763235727945",
+      "title_raw": "El Pato Darkwing - S01E29 - Whiffle While You Work_x264",
+      "duration_raw": "22:41",
+      "season_number": 1,
+      "episode_number": 29,
+      "views": 1034,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770444298825&type=32&idx=0&tkn=hKOalqp3BSD0iLXMXhMJbyILoKM&fn=external_8"
+    },
+    {
+      "video_id": "1763234548297",
+      "title_raw": "El Pato Darkwing - S01E30 - Ghoul Of My Dreams_x264",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 30,
+      "views": 1058,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770390559305&type=32&idx=2&tkn=7DU06La9cU0lBEF3uBDsN3sYvA8&fn=external_8"
+    },
+    {
+      "video_id": "1763374205513",
+      "title_raw": "El Pato Darkwing - S01E31 - Adopt-A-Con_x264",
+      "duration_raw": "15:35",
+      "season_number": 1,
+      "episode_number": 31,
+      "views": 949,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770681670217&type=32&idx=6&tkn=wBoQQ21jeU0-4HUgtf6WoPqmWik&fn=external_8"
+    },
+    {
+      "video_id": "1763375647305",
+      "title_raw": "El Pato Darkwing - S01E32 - Toys Czar Us_x264",
+      "duration_raw": "22:44",
+      "season_number": 1,
+      "episode_number": 32,
+      "views": 980,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770676034121&type=32&idx=13&tkn=dAw7wCyBVsurZ6Cy1GuIB2VXqqA&fn=external_8"
+    },
+    {
+      "video_id": "1763375974985",
+      "title_raw": "El Pato Darkwing - S01E33 - The Secret Origins Of Darkwing Duck_x264",
+      "duration_raw": "22:43",
+      "season_number": 1,
+      "episode_number": 33,
+      "views": 1047,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770688092745&type=32&idx=6&tkn=XTJDlsVW_3e6CIs7okSUCp0Fdgg&fn=external_8"
+    },
+    {
+      "video_id": "1763376040521",
+      "title_raw": "El Pato Darkwing - S01E34 - Up, Up And Awry (DWD)_x264",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 34,
+      "views": 901,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770681932361&type=32&idx=14&tkn=I6-ltjJyP7vh-gxrgn6h1eOFzyk&fn=external_8"
+    },
+    {
+      "video_id": "1763375843913",
+      "title_raw": "El Pato Darkwing - S01E35 - Life, The Negaverse And Everything_x264",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 35,
+      "views": 1354,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770654931529&type=32&idx=13&tkn=fVwQGaTXQaExqxDXZZlxg3RenuU&fn=external_8"
+    },
+    {
+      "video_id": "1763374664265",
+      "title_raw": "El Pato Darkwing - S01E36 - Dry Hard_x264",
+      "duration_raw": "22:43",
+      "season_number": 1,
+      "episode_number": 36,
+      "views": 1066,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770660960841&type=32&idx=0&tkn=i9EYA7qpd1aVJ9fifsMkVM3MtUc&fn=external_8"
+    },
+    {
+      "video_id": "1763375057481",
+      "title_raw": "El Pato Darkwing - S01E37 - Heavy Mental_x264",
+      "duration_raw": "22:47",
+      "season_number": 1,
+      "episode_number": 37,
+      "views": 900,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770670529097&type=32&idx=4&tkn=EsXvD6bOPCQPPjtJc5PKiGlm_gU&fn=external_8"
+    },
+    {
+      "video_id": "1763375909449",
+      "title_raw": "El Pato Darkwing - S01E38 - Disguise The Limit_x264",
+      "duration_raw": "22:43",
+      "season_number": 1,
+      "episode_number": 38,
+      "views": 1045,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770666465865&type=32&idx=12&tkn=lhUv4v0cigT9L1LWdsSMdUUgWy8&fn=external_8"
+    },
+    {
+      "video_id": "1763375254089",
+      "title_raw": "El Pato Darkwing - S01E39 - Planet Of The Capes_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 39,
+      "views": 1036,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770663713353&type=32&idx=13&tkn=2PN11whRPYkMk7JnoOQd2n0Q4Qo&fn=external_8"
+    },
+    {
+      "video_id": "1763374598729",
+      "title_raw": "El Pato Darkwing - S01E40 - The Darkwing Doubloon_x264",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 40,
+      "views": 1483,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770681408073&type=32&idx=7&tkn=4rR6iqsFze8CBI-sMwjnKS-iP58&fn=external_8"
+    },
+    {
+      "video_id": "1763374860873",
+      "title_raw": "El Pato Darkwing - S01E41 - It_s A Wonderful Leaf_x264",
+      "duration_raw": "22:45",
+      "season_number": 1,
+      "episode_number": 41,
+      "views": 830,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770663123529&type=32&idx=5&tkn=21pxmJpG26kHahbECfoP74cBeVY&fn=external_8"
+    },
+    {
+      "video_id": "1763375581769",
+      "title_raw": "El Pato Darkwing - S01E42 - Twitching Channels_x264",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 42,
+      "views": 900,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770656111177&type=32&idx=4&tkn=Qhu31Q6ca6QJtR4EzHxf8zHa0o4&fn=external_8"
+    },
+    {
+      "video_id": "1763376106057",
+      "title_raw": "El Pato Darkwing - S01E43 - Dances With Bigfoot_x264",
+      "duration_raw": "22:38",
+      "season_number": 1,
+      "episode_number": 43,
+      "views": 786,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770683046473&type=32&idx=13&tkn=B0J3ilX0FlRJJ3gyQtVGaDOPS70&fn=external_8"
+    },
+    {
+      "video_id": "1763375778377",
+      "title_raw": "El Pato Darkwing - S01E44 - Twin Beaks_x264",
+      "duration_raw": "22:43",
+      "season_number": 1,
+      "episode_number": 44,
+      "views": 813,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770662795849&type=32&idx=11&tkn=OrxT1E2PNrLxRS7QvnBmEC-wTvU&fn=external_8"
+    },
+    {
+      "video_id": "1763375712841",
+      "title_raw": "El Pato Darkwing - S01E45 - Incredible Bulk, The_x264",
+      "duration_raw": "22:45",
+      "season_number": 1,
+      "episode_number": 45,
+      "views": 735,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770689731145&type=32&idx=14&tkn=aioQfz2ZQjnUCrCbrAL9r1qlCsU&fn=external_8"
+    },
+    {
+      "video_id": "1763375516233",
+      "title_raw": "El Pato Darkwing - S01E46 - My Valentine Ghoul_x264",
+      "duration_raw": "22:56",
+      "season_number": 1,
+      "episode_number": 46,
+      "views": 957,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770668694089&type=32&idx=5&tkn=g9KEku5mA-bDZYHyO_joR6LL5O4&fn=external_8"
+    },
+    {
+      "video_id": "1763375385161",
+      "title_raw": "El Pato Darkwing - S01E47 - Dead Duck_x264",
+      "duration_raw": "22:44",
+      "season_number": 1,
+      "episode_number": 47,
+      "views": 909,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770685536841&type=32&idx=11&tkn=UN9ZyOiCypPWCm1W9L8ICFsQbuE&fn=external_8"
+    },
+    {
+      "video_id": "1763374074441",
+      "title_raw": "El Pato Darkwing - S01E48 - A Duck By Any Other Name_x264",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 48,
+      "views": 747,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770443315785&type=32&idx=5&tkn=E0PUFkteYq0W7FAS89W8tCvM7oY&fn=external_8"
+    },
+    {
+      "video_id": "1763374336585",
+      "title_raw": "El Pato Darkwing - S01E49 - Let_s Get Respectable_x264",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 49,
+      "views": 721,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770663451209&type=32&idx=5&tkn=Me2V4hdndSy0guXdnyLd5IQ0-S0&fn=external_8"
+    },
+    {
+      "video_id": "1763374729801",
+      "title_raw": "El Pato Darkwing - S01E50 - In Like Blunt_x264",
+      "duration_raw": "22:43",
+      "season_number": 1,
+      "episode_number": 50,
+      "views": 869,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770689534537&type=32&idx=4&tkn=MG_HX_tNCPl3-be8QhemYoZ1Qfc&fn=external_8"
+    },
+    {
+      "video_id": "1763374139977",
+      "title_raw": "El Pato Darkwing - S01E51 - Quack Of Ages_x264",
+      "duration_raw": "22:45",
+      "season_number": 1,
+      "episode_number": 51,
+      "views": 699,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770681735753&type=32&idx=13&tkn=cshnp146tCpsaLVRe4ethTRxmis&fn=external_8"
+    },
+    {
+      "video_id": "1763374467657",
+      "title_raw": "El Pato Darkwing - S01E52 - Time And Punishment_x264",
+      "duration_raw": "22:43",
+      "season_number": 1,
+      "episode_number": 52,
+      "views": 1160,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770655324745&type=32&idx=13&tkn=qS35RddTQ_S005ELy_zga9PRB2U&fn=external_8"
+    },
+    {
+      "video_id": "1763375123017",
+      "title_raw": "El Pato Darkwing - S01E53 - Stressed To Kill_x264",
+      "duration_raw": "22:45",
+      "season_number": 1,
+      "episode_number": 53,
+      "views": 743,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770654079561&type=32&idx=8&tkn=zHSegTR69TQVq_YCVtGqOYM-Qyg&fn=external_8"
+    },
+    {
+      "video_id": "1763374926409",
+      "title_raw": "El Pato Darkwing - S01E54 - Darkwing Squad, The_x264",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 54,
+      "views": 715,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770678786633&type=32&idx=5&tkn=ICr3csAo9_blxu1TJ08NR_rdR1I&fn=external_8"
+    },
+    {
+      "video_id": "1763374402121",
+      "title_raw": "El Pato Darkwing - S01E55 - Inside Binkie_s Brain_x264",
+      "duration_raw": "22:43",
+      "season_number": 1,
+      "episode_number": 55,
+      "views": 706,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770659125833&type=32&idx=13&tkn=mVtSpQYpNCWEZ3IjgOJxlhPGQEA&fn=external_8"
+    },
+    {
+      "video_id": "1763375188553",
+      "title_raw": "El Pato Darkwing - S01E56 - The Haunting Of Mr Banana Brain_x264",
+      "duration_raw": "22:44",
+      "season_number": 1,
+      "episode_number": 56,
+      "views": 749,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770671381065&type=32&idx=14&tkn=JevxDaBuodYtHLPEA5FyygltxnM&fn=external_8"
+    },
+    {
+      "video_id": "1763374991945",
+      "title_raw": "El Pato Darkwing - S01E57 - Slime Okay, You_re Okay_x264",
+      "duration_raw": "22:44",
+      "season_number": 1,
+      "episode_number": 57,
+      "views": 747,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770680752713&type=32&idx=8&tkn=QnvPcAeiq555WJtN4U633gKK-w4&fn=external_8"
+    },
+    {
+      "video_id": "1763375319625",
+      "title_raw": "El Pato Darkwing - S01E58 - Whirled History_x264",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 58,
+      "views": 633,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770673347145&type=32&idx=9&tkn=SBn2FPItBPuxiqsT9WUHPKxQPq4&fn=external_8"
+    },
+    {
+      "video_id": "1763375450697",
+      "title_raw": "El Pato Darkwing - S01E59 - U F Foe_x264",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 59,
+      "views": 616,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770672298569&type=32&idx=14&tkn=blGh8ZioUYGfxn-9w3LU-C18UDI&fn=external_8"
+    },
+    {
+      "video_id": "1763374271049",
+      "title_raw": "El Pato Darkwing - S01E60 - A Star Is Scorned_x264",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 60,
+      "views": 643,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770689337929&type=32&idx=4&tkn=PZoP5QfThAP_y3pdrugHOaXqsgg&fn=external_8"
+    },
+    {
+      "video_id": "1763397929545",
+      "title_raw": "El Pato Darkwing - S01E61 - Quiverwing Quack_x264",
+      "duration_raw": "22:39",
+      "season_number": 1,
+      "episode_number": 61,
+      "views": 755,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770457340489&type=32&idx=2&tkn=I58wDJISE7_SWM5CEwtzcMyt9dI&fn=external_8"
+    },
+    {
+      "video_id": "1763399305801",
+      "title_raw": "El Pato Darkwing - S01E62 - Jail Bird (DWD)_x264",
+      "duration_raw": "22:46",
+      "season_number": 1,
+      "episode_number": 62,
+      "views": 807,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770522810953&type=32&idx=0&tkn=O03qn2oJ0B01yotAFs3nZkx4bnE&fn=external_8"
+    },
+    {
+      "video_id": "1763399174729",
+      "title_raw": "El Pato Darkwing - S01E63 - Dirty Something_x264",
+      "duration_raw": "22:44",
+      "season_number": 1,
+      "episode_number": 63,
+      "views": 623,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770517174857&type=32&idx=3&tkn=Yi2MWzUAfOqz6WNRKXfXw0G9qSE&fn=external_8"
+    },
+    {
+      "video_id": "1763399043657",
+      "title_raw": "El Pato Darkwing - S01E64 - Kung Fooled_x264",
+      "duration_raw": "22:42",
+      "season_number": 1,
+      "episode_number": 64,
+      "views": 637,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770509179465&type=32&idx=1&tkn=jmaKEdp27txrEicSzEGSW78bZCo&fn=external_8"
+    },
+    {
+      "video_id": "1763398650441",
+      "title_raw": "El Pato Darkwing - S01E65 - Bad Luck Duck_x264",
+      "duration_raw": "22:43",
+      "season_number": 1,
+      "episode_number": 65,
+      "views": 620,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770490894921&type=32&idx=1&tkn=rzTHi0nVu3u_GdGVu9Ef301cPf4&fn=external_8"
+    },
+    {
+      "video_id": "1763398978121",
+      "title_raw": "El Pato Darkwing - S02E01 - That Sinking Feeling_x264",
+      "duration_raw": "22:43",
+      "season_number": 2,
+      "episode_number": 1,
+      "views": 758,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770504985161&type=32&idx=2&tkn=6sUAzHSZMyM_ibKCrXpL-QIVTdA&fn=external_8"
+    },
+    {
+      "video_id": "1763398519369",
+      "title_raw": "El Pato Darkwing - S02E02 - Film Flam_x264",
+      "duration_raw": "22:51",
+      "season_number": 2,
+      "episode_number": 2,
+      "views": 612,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770483817033&type=32&idx=8&tkn=aaBO28QyPhqigEv65zk2259pO2E&fn=external_8"
+    },
+    {
+      "video_id": "1763399764553",
+      "title_raw": "El Pato Darkwing - S02E03 - Negaduck_x264",
+      "duration_raw": "22:39",
+      "season_number": 2,
+      "episode_number": 3,
+      "views": 1451,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770542602825&type=32&idx=10&tkn=GCMLCRwCWx6uzgiqSTbWt22daA4&fn=external_8"
+    },
+    {
+      "video_id": "1763398847049",
+      "title_raw": "El Pato Darkwing - S02E04 - Fungus Amongus_x264",
+      "duration_raw": "22:41",
+      "season_number": 2,
+      "episode_number": 4,
+      "views": 764,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770501118537&type=32&idx=12&tkn=Pa7-LosD6II18JmpDuGQvuODaXE&fn=external_8"
+    },
+    {
+      "video_id": "1763398781513",
+      "title_raw": "El Pato Darkwing - S02E05 - Slaves To Fashion_x264",
+      "duration_raw": "22:47",
+      "season_number": 2,
+      "episode_number": 5,
+      "views": 761,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770499086921&type=32&idx=0&tkn=1f_Na4Yj-n1a4HFIWXo3dc5PBqQ&fn=external_8"
+    },
+    {
+      "video_id": "1763399371337",
+      "title_raw": "El Pato Darkwing - S02E06 - Something Fishy_x264",
+      "duration_raw": "22:40",
+      "season_number": 2,
+      "episode_number": 6,
+      "views": 628,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770528250441&type=32&idx=4&tkn=Hduqr-Qfl4VdV8WmvrEVV-yzngY&fn=external_8"
+    },
+    {
+      "video_id": "1763399109193",
+      "title_raw": "El Pato Darkwing - S02E07 - Tiff Of The Titans_x264",
+      "duration_raw": "22:38",
+      "season_number": 2,
+      "episode_number": 7,
+      "views": 1843,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770512849481&type=32&idx=6&tkn=-Hqc3wf4xw7T5PxDBASnW0ciMfk&fn=external_8"
+    },
+    {
+      "video_id": "1763399633481",
+      "title_raw": "El Pato Darkwing - S02E08 - Calm A Chameleon_x264",
+      "duration_raw": "22:44",
+      "season_number": 2,
+      "episode_number": 8,
+      "views": 636,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770539063881&type=32&idx=10&tkn=lPjnBT2_rtj7p3B9MXu8cbxkbmM&fn=external_8"
+    },
+    {
+      "video_id": "1763398257225",
+      "title_raw": "El Pato Darkwing - S02E09 - Battle Of The Brainteasers_x264",
+      "duration_raw": "22:45",
+      "season_number": 2,
+      "episode_number": 9,
+      "views": 613,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770469399113&type=32&idx=0&tkn=TK5aGmpVypGAlCDwiZ-7b8t8P4k&fn=external_8"
+    },
+    {
+      "video_id": "1763398191689",
+      "title_raw": "El Pato Darkwing - S02E10 - Bad Tidings_x264",
+      "duration_raw": "22:45",
+      "season_number": 2,
+      "episode_number": 10,
+      "views": 643,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770465270345&type=32&idx=7&tkn=L1Sk_vGXQZdk8dpj6xsD8IuSJSo&fn=external_8"
+    },
+    {
+      "video_id": "1763399830089",
+      "title_raw": "El Pato Darkwing - S02E11 - Going Nowhere Fast_x264",
+      "duration_raw": "22:42",
+      "season_number": 2,
+      "episode_number": 11,
+      "views": 816,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770544241225&type=32&idx=2&tkn=kaddS-qN4m0M_HN7D3ns7hAeFKY&fn=external_8"
+    },
+    {
+      "video_id": "1763398060617",
+      "title_raw": "El Pato Darkwing - S02E12 - A Brush With Oblivion_x264",
+      "duration_raw": "22:46",
+      "season_number": 2,
+      "episode_number": 12,
+      "views": 845,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770461862473&type=32&idx=14&tkn=QoXhmVFqK9LPbRzMGJ7ahrzR0SQ&fn=external_8"
+    },
+    {
+      "video_id": "1763397995081",
+      "title_raw": "El Pato Darkwing - S02E13 - The Merchant Of Menace_x264",
+      "duration_raw": "22:46",
+      "season_number": 2,
+      "episode_number": 13,
+      "views": 642,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770459568713&type=32&idx=9&tkn=W_prUMUT1PM2FLXqGkqyQLsghNo&fn=external_8"
+    },
+    {
+      "video_id": "1763399240265",
+      "title_raw": "El Pato Darkwing - S03E01 - Monsters R Us_x264",
+      "duration_raw": "22:44",
+      "season_number": 3,
+      "episode_number": 1,
+      "views": 777,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770520779337&type=32&idx=10&tkn=XYC5sLhhxG8hyuxu_HspWFzx_mo&fn=external_8"
+    },
+    {
+      "video_id": "1763398322761",
+      "title_raw": "El Pato Darkwing - S03E02 - Inherit The Wimp_x264",
+      "duration_raw": "22:43",
+      "season_number": 3,
+      "episode_number": 2,
+      "views": 620,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770472479305&type=32&idx=11&tkn=HQHZx1lZULZZvDAG4PWQ3QqMPJk&fn=external_8"
+    },
+    {
+      "video_id": "1763399502409",
+      "title_raw": "El Pato Darkwing - S03E03 - The Revenge Of The Return Of The Brainteasers_x264",
+      "duration_raw": "22:45",
+      "season_number": 3,
+      "episode_number": 3,
+      "views": 653,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770536442441&type=32&idx=0&tkn=8h8SkPCUEnc1pYHMWbkNRHJVU3Y&fn=external_8"
+    },
+    {
+      "video_id": "1763399436873",
+      "title_raw": "El Pato Darkwing - S03E04 - Star Crossed Circuits_x264",
+      "duration_raw": "22:43",
+      "season_number": 3,
+      "episode_number": 4,
+      "views": 621,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770532641353&type=32&idx=1&tkn=ieuqeHAgvPel-zQU7ohCGfJxsMk&fn=external_8"
+    },
+    {
+      "video_id": "1763398453833",
+      "title_raw": "El Pato Darkwing - S03E05 - Steerminator_x264",
+      "duration_raw": "22:42",
+      "season_number": 3,
+      "episode_number": 5,
+      "views": 778,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770481195593&type=32&idx=14&tkn=CFLtcqBQQaaW4RYHuRJ5p6kMtTo&fn=external_8"
+    },
+    {
+      "video_id": "1763399895625",
+      "title_raw": "El Pato Darkwing - S03E06 - The Frequency Fiends_x264",
+      "duration_raw": "22:41",
+      "season_number": 3,
+      "episode_number": 6,
+      "views": 658,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770549025353&type=32&idx=8&tkn=zho2JeNgW4rAYxmtQ_h4MWXqFTA&fn=external_8"
+    },
+    {
+      "video_id": "1763398584905",
+      "title_raw": "El Pato Darkwing - S03E07 - Paint Misbehavin__x264",
+      "duration_raw": "22:38",
+      "season_number": 3,
+      "episode_number": 7,
+      "views": 608,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770486569545&type=32&idx=5&tkn=vbeQWWpU9VYPR7fgfMa2XupD6Yw&fn=external_8"
+    },
+    {
+      "video_id": "1763398388297",
+      "title_raw": "El Pato Darkwing - S03E09 - Fraudcast News_x264",
+      "duration_raw": "22:43",
+      "season_number": 3,
+      "episode_number": 9,
+      "views": 642,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770477263433&type=32&idx=10&tkn=jvF6GTjSAslGNJmzfZ87Asurhgo&fn=external_8"
+    },
+    {
+      "video_id": "1763399699017",
+      "title_raw": "El Pato Darkwing - S03E010 - Clash Reunion_x264",
+      "duration_raw": "22:42",
+      "season_number": 3,
+      "episode_number": 10,
+      "views": 688,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770540767817&type=32&idx=2&tkn=8hY2i-kKJBkkj47iKLAhivE6xz8&fn=external_8"
+    },
+    {
+      "video_id": "1763398715977",
+      "title_raw": "El Pato Darkwing - S03E11 - Mutantcy On The Bouncy_x264",
+      "duration_raw": "22:43",
+      "season_number": 3,
+      "episode_number": 11,
+      "views": 625,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770495613513&type=32&idx=0&tkn=dcw_brhunkJMweYZHupjLtyUrM0&fn=external_8"
+    },
+    {
+      "video_id": "1763398912585",
+      "title_raw": "El Pato Darkwing - S03E12 - Malice_s Restaurant_x264",
+      "duration_raw": "22:43",
+      "season_number": 3,
+      "episode_number": 12,
+      "views": 646,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770503084617&type=32&idx=5&tkn=wxiKppivcaaCZmd4wkpx-w7yDrA&fn=external_8"
+    },
+    {
+      "video_id": "1763399961161",
+      "title_raw": "El Pato Darkwing - S03E13 - Extinct Possibility_x264",
+      "duration_raw": "22:41",
+      "season_number": 3,
+      "episode_number": 13,
+      "views": 1173,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=770552891977&type=32&idx=8&tkn=OpheHbeHCVB90wGPIuTcZVqE4Es&fn=external_8"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "title": "Historias de Santos y Héroes Cristianos",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "lacartoons Oficial albums c5829193",
+  "year": "",
+  "studio": "",
+  "source": "lacartoons Oficial",
+  "quality": "480p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "3243970005577",
+      "title_raw": "01 - The Day The Sun Danced - The True Story of Fatima_x264",
+      "duration_raw": "28:45",
+      "season_number": 1,
+      "episode_number": 1,
+      "views": 2695,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1998610106953&type=32&idx=5&tkn=456jQFmKgX-DqokLTXYr3vNITaA&fn=external_8"
+    },
+    {
+      "video_id": "3243970136649",
+      "title_raw": "02 - Francis - The Knight of Assisi_x264",
+      "duration_raw": "26:31",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 799,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1998630357577&type=32&idx=7&tkn=X_-7NFW5E57pqBZkBpgA2qA_QO4&fn=external_8"
+    },
+    {
+      "video_id": "3243969874505",
+      "title_raw": "03 - Nicholas - The Boy Who Became Santa_x264",
+      "duration_raw": "26:45",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 936,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1998586579529&type=32&idx=15&tkn=jB2X7GeLOaH7hcLG1CCVzo9BoFo&fn=external_8"
+    },
+    {
+      "video_id": "3243970267721",
+      "title_raw": "04 - Bernadette -  The Princess of Lourdes_x264",
+      "duration_raw": "29:24",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 856,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1998653950537&type=32&idx=1&tkn=6rzxHrKbw_p-53FFPnL-lL4fm6s&fn=external_8"
+    },
+    {
+      "video_id": "3243969677897",
+      "title_raw": "05 - Columbus - Adventures to the Edge of the World_x264",
+      "duration_raw": "29:32",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 612,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1998551648841&type=32&idx=8&tkn=uTH6InhVwVcQPFKnbGdRWmUvs-g&fn=external_8"
+    },
+    {
+      "video_id": "3243893525065",
+      "title_raw": "06 - Ben-Hur - A Race to Glory_x264",
+      "duration_raw": "26:40",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 1030,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1998665615945&type=32&idx=4&tkn=m1pev9iH3YuIqyfrfGYpcXKLC8Y&fn=external_8"
+    },
+    {
+      "video_id": "3243969940041",
+      "title_raw": "07 - The Odyssey - A Journey Back Home_x264",
+      "duration_raw": "29:55",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 469,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1998597917257&type=32&idx=10&tkn=fHBBAysorDAlg7eD_6s8eNMN01w&fn=external_8"
+    },
+    {
+      "video_id": "3243970202185",
+      "title_raw": "08 - Francis Xavier and the Samurai's Lost Treasure_x264",
+      "duration_raw": "32:41",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 665,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1998643989065&type=32&idx=2&tkn=XPzsC2ky393NJ0be83yHC_GSvhY&fn=external_8"
+    },
+    {
+      "video_id": "3243970071113",
+      "title_raw": "09 - Patrick - Brave Shepard of the Emerald Isle_x264",
+      "duration_raw": "31:31",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 382,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1998620068425&type=32&idx=2&tkn=hA84BeIOX7JLibHdPDD1pt9suyI&fn=external_8"
+    },
+    {
+      "video_id": "3243969743433",
+      "title_raw": "10 - My Secret Friend - A Guardian Angel Story_x264",
+      "duration_raw": "33:44",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 1854,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1998564493897&type=32&idx=12&tkn=In8QWT3fAC82tEXfUlGFjsbaSWk&fn=external_8"
+    },
+    {
+      "video_id": "3243969808969",
+      "title_raw": "11 - Juan Diego - Messenger of Guadalupe_x264",
+      "duration_raw": "35:14",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 761,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=1998576683593&type=32&idx=15&tkn=l9ykMD6UhJxjSr8-ZHaC6-xDFjo&fn=external_8"
+    }
+  ]
+}
