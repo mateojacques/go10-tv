@@ -1,4 +1,5 @@
 import type { Collection as CollectionData } from '@go10/core/collections/types'
+import { artSrc } from '../catalog/art'
 import type { Title } from '@go10/core/types'
 import { CatalogGrid } from './Catalog'
 import '../components/Row.css'
@@ -26,7 +27,7 @@ export function Collection({
       {/* The logo is the page heading, so there's no separate title row. */}
       <h1 className="go-collection_banner">
         {background && <img className="go-collection_bg" src={`/${background}`} alt="" />}
-        <img className="go-collection_logo" src={`/${collection.logo}`} alt={collection.name} />
+        <img className="go-collection_logo" src={artSrc(collection.logo)} alt={collection.name} />
       </h1>
 
       {/* Keyed so switching collections starts again from the first batch. */}

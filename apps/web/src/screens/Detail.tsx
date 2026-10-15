@@ -11,7 +11,7 @@ import { listProgress, resumeFromTime, type Progress } from '@go10/core/progress
 import { playedFraction, titleProgress } from '@go10/core/progress/titleProgress'
 import { playMeta, rowStatus } from '@go10/core/progress/describe'
 import { detailEyebrow, detailMeta } from '@go10/core/catalog/describeTitle'
-import { imageSrc } from '@go10/core/lib/imageSrc'
+import { artSrc } from '../catalog/art'
 import { resolveArt, type HeroArtIndex } from '@go10/core/hero/art'
 import './Detail.css'
 
@@ -214,8 +214,8 @@ export function Detail({
               <div className="go-detail_frame">
                 <img
                   className="go-detail_key"
-                  src={imageSrc(art.large)}
-                  srcSet={`${imageSrc(art.small)} 960w, ${imageSrc(art.large)} 1920w`}
+                  src={artSrc(art.large)}
+                  srcSet={`${artSrc(art.small)} 960w, ${artSrc(art.large)} 1920w`}
                   sizes="100vw"
                   alt=""
                   fetchPriority="high"
@@ -268,7 +268,7 @@ export function Detail({
 
         {!artLayout && (
           <figure className="go-detail_art">
-            <img src={imageSrc(title.thumbnail)} alt="" />
+            <img src={artSrc(title.thumbnail)} alt="" />
           </figure>
         )}
       </div>

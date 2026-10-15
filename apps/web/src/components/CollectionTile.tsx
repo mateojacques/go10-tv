@@ -1,4 +1,5 @@
 import type { Collection } from '@go10/core/collections/types'
+import { artSrc } from '../catalog/art'
 import { useFocusable } from '../focus/useFocusable'
 import './CollectionTile.css'
 
@@ -31,7 +32,7 @@ export function CollectionTile({
       onClick={activate}
     >
       {background && <img className="go-tile_bg" src={`/${background}`} alt="" loading="lazy" />}
-      <img className="go-tile_logo" src={`/${collection.logo}`} alt="" />
+      <img className="go-tile_logo" src={artSrc(collection.logo)} alt="" />
     </div>
   )
 }

@@ -1,7 +1,7 @@
 import type { Title } from '@go10/core/types'
 import { useFocusable } from '../focus/useFocusable'
 import { ProgressBar } from './ProgressBar'
-import { imageSrc } from '@go10/core/lib/imageSrc'
+import { artSrc } from '../catalog/art'
 import { cardMeta, seasonCount } from '@go10/core/catalog/describeTitle'
 import './Card.css'
 
@@ -42,7 +42,7 @@ export function Card({
       onClick={activate}
     >
       <div className="go-card_frame">
-        <img className="go-card_img" src={imageSrc(title.thumbnail)} alt="" loading="lazy" />
+        <img className="go-card_img" src={artSrc(title.thumbnail)} alt="" loading="lazy" />
         <div className="go-card_tags">
           {title.quality === '4K' && <span className="go-card_tag is-accent">4K</span>}
           {title.kind === 'show' && seasons > 0 && (

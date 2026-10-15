@@ -26,8 +26,14 @@ npx vite build --base ./ --mode tizen
 cd ../..
 
 cd apps/tizen/prod
-rm -rf index.html assets data Debug tizen_web_project.yaml
+rm -rf index.html assets catalogo_files data Debug tizen_web_project.yaml
 cp -r ../../web/dist/. .
+# The art (thumbnails, logos, hero art: every assets/ subfolder, plus the
+# base catalog's catalogo_files/) is loaded from the site on the TV (see
+# VITE_IMAGE_BASE in .env.tizen). Packaged, it outgrew the TV's storage.
+# Vite's own bundles are the files directly in assets/, and stay.
+find assets -mindepth 1 -maxdepth 1 -type d -exec rm -rf {} +
+rm -rf catalogo_files
 
 "$TZ" build -w . -s go10-tizen
 "$TZ" pack -w . -s go10-tizen

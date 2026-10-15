@@ -2,7 +2,7 @@ import { useMemo, useRef, useState, type ReactNode } from 'react'
 import type { CatalogRow, Title } from '@go10/core/types'
 import type { HeroSlide } from '@go10/core/hero/pickHero'
 import { heroMeta } from '@go10/core/catalog/describeTitle'
-import { imageSrc } from '@go10/core/lib/imageSrc'
+import { artSrc } from '../catalog/art'
 import { listProgress } from '@go10/core/progress/progressStore'
 import { playedFraction, titleProgress } from '@go10/core/progress/titleProgress'
 import { remainingLabel, rowLabel } from '@go10/core/progress/describe'
@@ -60,8 +60,8 @@ function Stage({ slide, art, active, near, onArtError }: {
         <div className="go-hero_frame">
           <img
             className="go-hero_key"
-            src={imageSrc(art.large)}
-            srcSet={`${imageSrc(art.small)} 960w, ${imageSrc(art.large)} 1920w`}
+            src={artSrc(art.large)}
+            srcSet={`${artSrc(art.small)} 960w, ${artSrc(art.large)} 1920w`}
             sizes="100vw"
             alt=""
             fetchPriority={active ? 'high' : 'low'}
@@ -73,7 +73,7 @@ function Stage({ slide, art, active, near, onArtError }: {
           <Backdrop thumbnail={slide.title.thumbnail} />
           {/* Narrow screens: the thumbnail itself fills the 16:9 art frame (CSS shows it ≤ 900px). */}
           <div className="go-hero_frame go-hero_frame--thumb">
-            <img className="go-hero_key go-hero_key--thumb" src={imageSrc(slide.title.thumbnail)} alt="" />
+            <img className="go-hero_key go-hero_key--thumb" src={artSrc(slide.title.thumbnail)} alt="" />
           </div>
         </>
       )}
@@ -229,7 +229,7 @@ export function HeroCarousel({ slides, onPlay, onInfo }: {
               {/* No key art, wide screens: the thumbnail crisp at close to its native 368x210. */}
               {!artOf(i) && (
                 <figure className="go-hero_art">
-                  <img src={imageSrc(title.thumbnail)} alt="" />
+                  <img src={artSrc(title.thumbnail)} alt="" />
                 </figure>
               )}
             </div>

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import type { Channel, Schedule } from '@go10/core/tv/types'
 import { programLabel, progressOf } from '@go10/core/tv/describe'
-import { imageSrc } from '@go10/core/lib/imageSrc'
+import { artSrc } from '../catalog/art'
 import { useFocusable } from '../focus/useFocusable'
 import { useTv } from './TvProvider'
 
@@ -103,9 +103,9 @@ export function ChannelTile({
       onPointerLeave={stopPreview}
     >
       <div ref={thumbRef} className="go-chtile_thumb" style={{ backgroundColor: channel.collection.tile.color }}>
-        <img className="go-chtile_img" src={imageSrc(schedule.current.unit.row.thumbnail)} alt="" loading="lazy" />
+        <img className="go-chtile_img" src={artSrc(schedule.current.unit.row.thumbnail)} alt="" loading="lazy" />
         <span className="go-chtile_badge">
-          <img src={`/${channel.collection.logo}`} alt="" />
+          <img src={artSrc(channel.collection.logo)} alt="" />
           <span>{channel.number}</span>
         </span>
       </div>

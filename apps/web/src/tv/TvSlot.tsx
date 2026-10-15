@@ -6,7 +6,7 @@ import { clockLabel, programLabel } from '@go10/core/tv/describe'
 import { playerRetryReducer, initialPlayerRetryState, backoffMs } from '@go10/core/player/playerRetry'
 import { LOAD_TIMEOUT_MS } from '@go10/core/player/playbackSession'
 import { okru } from '@go10/core/player/providers/okru'
-import { imageSrc } from '@go10/core/lib/imageSrc'
+import { artSrc } from '../catalog/art'
 import './tv.css'
 
 export type SlotMode = 'staged' | 'full' | 'tile' | 'mini'
@@ -210,7 +210,7 @@ export function TvSlot({
     <div className={`go-tvslot go-tvslot--${mode}`} data-channel={channel.id} style={style}>
       {gaveUp ? (
         preview ? (
-          airing && <img className="go-tvslot_thumb" src={imageSrc(airing.unit.row.thumbnail)} alt="" />
+          airing && <img className="go-tvslot_thumb" src={artSrc(airing.unit.row.thumbnail)} alt="" />
         ) : (
           <div className="go-tvslot_card" role="status">
             <strong>Señal interrumpida</strong>

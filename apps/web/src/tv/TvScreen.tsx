@@ -1,4 +1,5 @@
 import { Fragment, useCallback, useEffect, useReducer, useRef, useState } from 'react'
+import { artSrc } from '../catalog/art'
 import type { Channel } from '@go10/core/tv/types'
 import { channelByNumber, stepChannel } from '@go10/core/tv/lineup'
 import { clockLabel, programLabel, progressOf } from '@go10/core/tv/describe'
@@ -245,7 +246,7 @@ export function TvScreen({
       {schedule && (
         <div className={`go-tv_now${open ? ' is-open' : ''}`}>
           <span className="go-tv_chip">
-            <img src={`/${channel.collection.logo}`} alt="" />
+            <img src={artSrc(channel.collection.logo)} alt="" />
             {channel.number}
           </span>
           <div className="go-tv_now-text">
