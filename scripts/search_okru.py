@@ -53,7 +53,7 @@ VIDEO_ID_RE = re.compile(r'data-movie-id="(\d+)"|href="/video/(\d+)')
 NAME_RE = re.compile(r'class="video_search_result_name" title="([^"]*)"')
 NAME_TEXT_RE = re.compile(r'data-tsid="video-name">([^<]*)<')
 IMG_RE = re.compile(r'<img[^>]*src="([^"]+)"[^>]*alt="([^"]*)"[^>]*class="video-card_img"')
-DURATION_RE = re.compile(r'class="video-card_duration">([^<]*)<')
+DURATION_RE = re.compile(r'class="vid(?:eo)?-card_duration">([^<]*)<')
 VIEWS_RE = re.compile(r'data-tsid="video-views-count">([^<]*)<')
 CREATED_RE = re.compile(r'data-tsid="video-created-date">([^<]*)<')
 OWNER_RE = re.compile(

@@ -17,3 +17,6 @@ catalogo_files/*
 # Local env (TMDB token, feature switches)
 .env.local
 .env.*.local
+
+# ok.ru crawl state (scripts/crawl_okru_albums.py)
+.cache/

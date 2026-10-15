@@ -46,7 +46,7 @@ CARD_RE = re.compile(
     re.S,
 )
 TITLE_RE = re.compile(r'class="video-card_n ellip[^"]*"[^>]*title="([^"]*)"')
-DURATION_RE = re.compile(r'class="video-card_duration">([^<]*)<')
+DURATION_RE = re.compile(r'class="vid(?:eo)?-card_duration">([^<]*)<')
 VIEWS_RE = re.compile(r'class="video-card_info_i">([^<]*)<')
 THUMB_RE = re.compile(r'<img[^>]*src="([\w.-]+_files/[^"]+)"')
 # Fallback for a card whose page wasn't saved as a "complete webpage", so no
