@@ -1,0 +1,23 @@
+{
+  "title": "Teen Wolf",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "https://ok.ru/video/15938482735854",
+  "year": "2011",
+  "studio": "",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Drama",
+  "genre_secondary": "Fantasía",
+  "videos": [
+    {
+      "video_id": "15938482735854",
+      "season_number": 1,
+      "title_raw": "Teen Wolf - Temporada 1 y 2 (Amazon) [1080p] [Español]",
+      "duration_raw": "16:43:55",
+      "views": 488
+    }
+  ]
+}

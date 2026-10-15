@@ -1,0 +1,22 @@
+{
+  "title": "Hope: el primer impacto",
+  "type": "movie",
+  "added": "2026-10-15",
+  "query": "https://ok.ru/video/15948506925806",
+  "year": "2026",
+  "studio": "",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Coreano",
+  "subtitled": true,
+  "genre": "Ciencia Ficción",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "15948506925806",
+      "title_raw": "Hope: el primer impacto [1080p] [Sub Español]",
+      "duration_raw": "2:37:01",
+      "views": 517
+    }
+  ]
+}

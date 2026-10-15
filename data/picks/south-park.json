@@ -1,0 +1,23 @@
+{
+  "title": "South Park",
+  "type": "series",
+  "added": "2026-10-15",
+  "query": "https://ok.ru/video/15882864626414",
+  "year": "1997",
+  "studio": "Comedy C.",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "15882864626414",
+      "season_number": 3,
+      "title_raw": "South Park - Temporada 3 (Comedy C.) [1080p] [Español]",
+      "duration_raw": "6:15:03",
+      "views": 348
+    }
+  ]
+}

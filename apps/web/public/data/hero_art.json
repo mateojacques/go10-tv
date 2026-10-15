@@ -1581,6 +1581,10 @@
       "tmdb": "movie/76726",
       "backdrop": "/rgNzvSagnlc32TuMEBa529QFIig.jpg"
     },
+    "15948506925806": {
+      "tmdb": "movie/1058424",
+      "backdrop": "/xBcKnWJHodUpvzUVIWTuNMnvEwl.jpg"
+    },
     "16572229814880": {
       "tmdb": "movie/1003581",
       "backdrop": "/soRpXRJOYqBBsDYuH3mLYSIeufk.jpg"
@@ -2241,6 +2245,10 @@
       "tmdb": "tv/61617",
       "backdrop": "/hozufHEzqIRpqJrlyGDqnsyFrAQ.jpg"
     },
+    "merlina": {
+      "tmdb": "tv/119051",
+      "backdrop": "/iHSwvRVsRyxpX7FE7GbviaDvgGZ.jpg"
+    },
     "mini-einsteins": {
       "tmdb": "tv/3090",
       "backdrop": "/7PASkiQ1H5nik9PSerbmU7b4MiJ.jpg"
@@ -2361,6 +2369,10 @@
       "tmdb": "tv/7744",
       "backdrop": "/8bqTCdrWUw9jfnyaIEtQ0STGNB0.jpg"
     },
+    "sirena": {
+      "tmdb": "tv/71886",
+      "backdrop": "/6Sj3bIXEgfxrhurMwXGb1Meb64v.jpg"
+    },
     "smallville": {
       "tmdb": "tv/4604",
       "backdrop": "/4wVq9ICc4MI2XcssrumpCOhKLpI.jpg"
@@ -2420,6 +2432,10 @@
     "supercampeones": {
       "tmdb": "tv/25707",
       "backdrop": "/bwQHVs25LNYpPzfvDIYdVJjk2fW.jpg"
+    },
+    "teen-wolf": {
+      "tmdb": "tv/34524",
+      "backdrop": "/1F2RnXLc0fmRt7iWfBK4mNVsjno.jpg"
     },
     "terminator-las-cronicas-de-sarah-connor": {
       "tmdb": "tv/433",
