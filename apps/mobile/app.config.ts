@@ -13,9 +13,13 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     name: 'GO10 TV',
     slug: 'go10-tv',
     scheme: 'go10',
+    // Release version -- see CHANGELOG.md for the scheme. Bump versionCode on
+    // every release: Android only installs an update over a lower one.
+    version: '1.1.0',
     icon: './assets/images/icon.png',
     android: {
       package: 'blog.go10.tv',
+      versionCode: 2,
       adaptiveIcon: { foregroundImage: './assets/images/adaptive-icon.png', backgroundColor: '#08090c' },
     },
     plugins: [

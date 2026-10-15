@@ -172,6 +172,7 @@ On-device checks: `docs/android-live-tv-checklist.md`.
 One universal APK (phone + TV), signed with a local keystore that never enters the repo:
 
 - Keystore: `~/.config/go10-tv/go10-release.jks`; its alias and passwords are in `~/.gradle/gradle.properties` (`GO10_RELEASE_*`). **Back both up** — an APK signed with a different key can't update an installed one.
+- Version: bump it before every release, as `CHANGELOG.md` describes (content → Y, feature → X, bugfix → Z), and add the release there.
 - Build: `npm run build:release -w @go10/mobile` → `apps/mobile/android/app/build/outputs/apk/release/app-release.apk`.
 - Install: `adb install -r app-release.apk`. A debug build on the device must be uninstalled first (different signature), which clears its progress.
 - Brand images: `python3 apps/mobile/scripts/brand_images.py` regenerates `apps/mobile/assets/images/`.
