@@ -1,5 +1,5 @@
 /** Which Home strip and live TV group a collection belongs to. */
-export type CollectionGroup = 'network' | 'franchise'
+export type CollectionGroup = 'network' | 'franchise' | 'decade'
 
 /** A hand-curated group of titles, one per `data/collections/<id>.json`. */
 export interface Collection {
@@ -8,7 +8,7 @@ export interface Collection {
   name: string
   /** Tile position on Home, ascending. Unique across collections. */
   order: number
-  /** Network/studio (default) or a single franchise, which gets a 24/7 channel. */
+  /** Network/studio (default), a single franchise, or a decade; franchises and decades get a 24/7 channel. */
   group?: CollectionGroup
   /** Path relative to `public/`, like `Title.thumbnail`. */
   logo: string

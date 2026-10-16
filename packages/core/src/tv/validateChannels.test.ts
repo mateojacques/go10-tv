@@ -66,17 +66,33 @@ describe('validateChannels', () => {
 
 describe('number ranges', () => {
   const titles = [showTitle('s', 3, 600)]
-  const collections = [collectionOf('net', ['s']), { ...collectionOf('fr', ['s']), group: 'franchise' as const }]
+  const collections = [
+    collectionOf('net', ['s']),
+    { ...collectionOf('fr', ['s']), group: 'franchise' as const },
+    { ...collectionOf('dec', ['s']), group: 'decade' as const },
+  ]
   const file = (channels: unknown[]) => ({ epoch: '2026-10-01T00:00:00Z', defaultChannel: 'n', channels })
 
-  it('accepts a network at 1–99 and a franchise at 101+', () => {
-    expect(validateChannels(file([{ id: 'n', number: 99, collection: 'net' }, { id: 'f', number: 101, collection: 'fr' }]), { collections, titles })).toEqual([])
+  it('accepts a network at 1–99, a franchise at 101–199 and a decade at 201+', () => {
+    const channels = [
+      { id: 'n', number: 99, collection: 'net' },
+      { id: 'f', number: 199, collection: 'fr' },
+      { id: 'd', number: 201, collection: 'dec' },
+    ]
+    expect(validateChannels(file(channels), { collections, titles })).toEqual([])
+  })
+
+  it('rejects a franchise above 199 and a decade below 201', () => {
+    expect(validateChannels(file([{ id: 'f', number: 200, collection: 'fr' }, { id: 'd', number: 150, collection: 'dec' }]), { collections, titles }).slice(0, 2)).toEqual([
+      'channels.json: channels[0] (f): a franchise channel\'s number must be from 101 to 199',
+      'channels.json: channels[1] (d): a decade channel\'s number must be 201 or more',
+    ])
   })
 
   it('rejects a network above 99 and a franchise below 101', () => {
     expect(validateChannels(file([{ id: 'n', number: 100, collection: 'net' }, { id: 'f', number: 100, collection: 'fr' }]), { collections, titles })).toEqual([
       'channels.json: channels[0] (n): a network channel\'s number must be 99 or less',
-      'channels.json: channels[1] (f): a franchise channel\'s number must be 101 or more',
+      'channels.json: channels[1] (f): a franchise channel\'s number must be from 101 to 199',
       'channels.json: number 100 is used by more than one channel',
     ])
   })

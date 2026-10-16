@@ -1,0 +1,22 @@
+{
+  "id": "anos-2010",
+  "name": "Años 2010",
+  "order": 205,
+  "group": "decade",
+  "logo": "assets/collections/anos-2010/logo.svg",
+  "tile": {
+    "color": "#f2c230"
+  },
+  "titles": [
+    "hora-de-aventura",
+    "un-show-mas",
+    "gravity-falls",
+    "steven-universe",
+    "star-vs-las-fuerzas-del-mal",
+    "rick-y-morty",
+    "scooby-doo-misterios-s-a",
+    "clarence",
+    "tio-grandpa",
+    "stranger-things"
+  ]
+}

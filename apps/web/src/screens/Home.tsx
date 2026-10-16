@@ -5,7 +5,7 @@ import { Row } from '../components/Row'
 import { listProgress } from '@go10/core/progress/progressStore'
 import { continueWatching } from '@go10/core/progress/titleProgress'
 import { continueCardProgress } from '@go10/core/progress/describe'
-import { collectionGroup, splitByGroup } from '@go10/core/collections/groups'
+import { collectionGroup, DECADES_AFTER, splitByGroup } from '@go10/core/collections/groups'
 import type { Collection } from '@go10/core/collections/types'
 import { visibleCollections } from '@go10/core/collections/resolveCollection'
 import { CollectionStrip } from '../components/CollectionStrip'
@@ -72,11 +72,18 @@ export function Home({
     )
   }
 
-  // Focus rows: networks strip, franchises strip, then the live row, then Seguir viendo, then the catalog rows.
-  const stripRows = (strips.network.length > 0 ? 1 : 0) + (strips.franchise.length > 0 ? 1 : 0)
-  const liveIndex = stripRows
+  // Focus rows: networks strip, then the live row, then Seguir viendo, then the franchises strip, then the catalog
+  // rows, with the decades strip after the first DECADES_AFTER of them.
+  const liveIndex = strips.network.length > 0 ? 1 : 0
   const live = liveRow?.(liveIndex) ?? null
-  const firstRow = liveIndex + (live ? 1 : 0)
+  const continueIndex = liveIndex + (live ? 1 : 0)
+  const franchiseIndex = continueIndex + (continueGroup.titles.length > 0 ? 1 : 0)
+  const firstRow = franchiseIndex + (strips.franchise.length > 0 ? 1 : 0)
+  const hasDecades = strips.decade.length > 0
+  const decadeIndex = firstRow + Math.min(DECADES_AFTER, groups.length)
+  const decadeStrip = hasDecades && (
+    <CollectionStrip key="decadas" collections={strips.decade} rowIndex={decadeIndex} label="Décadas" onSelect={onOpenCollection} />
+  )
 
   return (
     <div className="go-home">
@@ -94,19 +101,11 @@ export function Home({
 
       <div className="go-rows">
         {strips.network.length > 0 && <CollectionStrip collections={strips.network} rowIndex={0} onSelect={onOpenCollection} />}
-        {strips.franchise.length > 0 && (
-          <CollectionStrip
-            collections={strips.franchise}
-            rowIndex={strips.network.length > 0 ? 1 : 0}
-            label="Franquicias"
-            onSelect={onOpenCollection}
-          />
-        )}
         {live}
         {continueGroup.titles.length > 0 && (
           <Row
             group={continueGroup}
-            rowIndex={firstRow}
+            rowIndex={continueIndex}
             onSelect={(title) => {
               const item = continueItems.get(title.key)
               if (item) onResume(title, item.progress.row)
@@ -117,11 +116,23 @@ export function Home({
             }}
           />
         )}
-        {groups.map((group, index) => (
+        {strips.franchise.length > 0 && (
+          <CollectionStrip
+            collections={strips.franchise}
+            rowIndex={franchiseIndex}
+            label="Franquicias"
+            onSelect={onOpenCollection}
+          />
+        )}
+        {groups.slice(0, DECADES_AFTER).map((group, index) => (
+          <Row key={group.id} group={group} rowIndex={index + firstRow} onSelect={onSelect} />
+        ))}
+        {decadeStrip}
+        {groups.slice(DECADES_AFTER).map((group, index) => (
           <Row
             key={group.id}
             group={group}
-            rowIndex={index + firstRow + (continueGroup.titles.length > 0 ? 1 : 0)}
+            rowIndex={decadeIndex + (hasDecades ? 1 : 0) + index}
             onSelect={onSelect}
           />
         ))}

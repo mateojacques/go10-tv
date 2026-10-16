@@ -23,6 +23,7 @@ function model(overrides: Partial<HomeModel> = {}): HomeModel {
     titles: [title('a'), title('b'), title('c')],
     strip: [pixar],
     franchiseStrip: [],
+    decadeStrip: [],
     rows: [
       { id: 'recientes', label: 'Recién añadidos', titles: [title('a'), title('b')] },
       { id: 'series', label: 'Series', titles: [title('c')] },
@@ -123,12 +124,20 @@ describe('HomeView live TV', () => {
     [showTitle('s1', 3, 600)],
   )!
 
-  it('puts the franchise strip right after the networks strip, only when it has collections', () => {
+  it('puts the franchise strip after Seguir viendo, only when it has collections', () => {
     const cn = collectionOf('cn', ['s1'])
     const db = { ...collectionOf('db', ['s1']), group: 'franchise' as const }
     const base = { ...model(), strip: [cn], franchiseStrip: [db] }
-    expect(homeSections(base, 0, true).slice(0, 3)).toEqual([{ kind: 'strip' }, { kind: 'franchises' }, { kind: 'live' }])
+    expect(homeSections(base, 1, true).slice(0, 4)).toEqual([{ kind: 'strip' }, { kind: 'live' }, { kind: 'continue' }, { kind: 'franchises' }])
     expect(homeSections({ ...base, franchiseStrip: [] }, 0, true).slice(0, 2)).toEqual([{ kind: 'strip' }, { kind: 'live' }])
+  })
+
+  it('puts the decades strip two catalog rows below the franchise strip', () => {
+    const decades = { ...collectionOf('anos-80', ['s1']), group: 'decade' as const }
+    const rows = ['r1', 'r2', 'r3'].map((id) => ({ id, label: id, titles: [title('a')] }))
+    const base = { ...model(), franchiseStrip: [{ ...collectionOf('db', ['s1']), group: 'franchise' as const }], decadeStrip: [decades], rows }
+    expect(homeSections(base).map((s) => s.kind)).toEqual(['strip', 'franchises', 'row', 'row', 'decades', 'row'])
+    expect(homeSections({ ...base, decadeStrip: [] }).map((s) => s.kind)).toEqual(['strip', 'franchises', 'row', 'row', 'row'])
   })
 
   it('puts "En vivo ahora" right after the collection strip when channels are on the air', () => {

@@ -25,7 +25,7 @@ export function buildChannelPlan(config: ChannelConfig, collection: Collection, 
     channelId: config.id,
     seed: channelSeed(config.id),
     blockSeconds: (config.blockMinutes ?? DEFAULT_BLOCK_MINUTES) * 60,
-    mode: collectionGroup(collection) === 'franchise' ? 'runs' : 'blocks',
+    mode: collectionGroup(collection) === 'network' ? 'blocks' : 'runs',
     titles: resolveCollection(collection, titles)
       .filter((title) => !excluded.has(title.key))
       .map((title) => ({ key: title.key, units: unitsOf(title) }))

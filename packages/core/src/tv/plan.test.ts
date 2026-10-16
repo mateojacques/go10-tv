@@ -29,7 +29,8 @@ describe('buildChannelPlan', () => {
   const titles = [showTitle('coraje', 3, 660), movieTitle('mulan', 5280), movieTitle('empty', 0)]
   const collection = collectionOf('cn', ['coraje', 'gone', 'mulan', 'empty'])
 
-  it('schedules a network in blocks and a franchise in runs', () => {
+  it('schedules a network in blocks and a franchise or a decade in runs', () => {
+    expect(buildChannelPlan({ id: 'cn', number: 201, collection: 'cn' }, { ...collection, group: 'decade' }, titles).mode).toBe('runs')
     expect(buildChannelPlan({ id: 'cn', number: 1, collection: 'cn' }, collection, titles).mode).toBe('blocks')
     expect(buildChannelPlan({ id: 'cn', number: 101, collection: 'cn' }, { ...collection, group: 'franchise' }, titles).mode).toBe('runs')
   })

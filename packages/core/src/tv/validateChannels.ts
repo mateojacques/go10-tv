@@ -58,8 +58,11 @@ export function validateChannelEntry(entry: unknown, index: number, ctx: Channel
   const named = `${FILE}: channels[${index}] (${config.id})`
   const collection = ctx.collections.find((c) => c.id === config.collection)
   if (!collection) return [`${named}: unknown collection "${config.collection}"`]
-  if (collectionGroup(collection) === 'franchise') {
-    if (config.number < 101) errors.push(`${named}: a franchise channel's number must be 101 or more`)
+  const group = collectionGroup(collection)
+  if (group === 'franchise') {
+    if (config.number < 101 || config.number > 199) errors.push(`${named}: a franchise channel's number must be from 101 to 199`)
+  } else if (group === 'decade') {
+    if (config.number < 201) errors.push(`${named}: a decade channel's number must be 201 or more`)
   } else if (config.number > 99) {
     errors.push(`${named}: a network channel's number must be 99 or less`)
   }

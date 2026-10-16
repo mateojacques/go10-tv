@@ -1,0 +1,22 @@
+{
+  "id": "anos-2000",
+  "name": "Años 2000",
+  "order": 204,
+  "group": "decade",
+  "logo": "assets/collections/anos-2000/logo.svg",
+  "tile": {
+    "color": "#1d63c9"
+  },
+  "titles": [
+    "yu-gi-oh",
+    "ben-10",
+    "los-jovenes-titanes",
+    "31-minutos",
+    "isa-tkm",
+    "malcolm-el-de-en-medio",
+    "drake-y-josh",
+    "phineas-y-ferb",
+    "mucha-lucha",
+    "las-sombrias-aventuras-de-billy-y-mandy"
+  ]
+}

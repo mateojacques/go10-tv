@@ -3,7 +3,7 @@ import type { Collection, CollectionGroup } from '../collections/types'
 
 export const DEFAULT_BLOCK_MINUTES = 30
 
-/** `blocks`: rotating turns of consecutive episodes (networks). `runs`: 2–3 episodes from a random point (franchises). */
+/** `blocks`: rotating turns of consecutive episodes (networks). `runs`: 2–3 episodes from a random point (franchises, decades). */
 export type ScheduleMode = 'blocks' | 'runs'
 
 /** One entry of `data/channels.json` as written. */

@@ -1,0 +1,22 @@
+{
+  "id": "anos-70",
+  "name": "Años 70",
+  "order": 201,
+  "group": "decade",
+  "logo": "assets/collections/anos-70/logo.svg",
+  "tile": {
+    "color": "#d9622b"
+  },
+  "titles": [
+    "el-chavo-del-8",
+    "mazinger-z",
+    "candy-candy",
+    "heidi",
+    "angel-la-nina-de-las-flores",
+    "los-superamigos",
+    "el-show-de-scooby-doo",
+    "las-olimpiadas-de-la-risa",
+    "fuerza-g",
+    "doraemon"
+  ]
+}

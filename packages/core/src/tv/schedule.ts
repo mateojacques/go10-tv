@@ -60,7 +60,7 @@ export function playRound(plan: ChannelPlan, cp: Checkpoint): { airings: Airing[
 const REPICKS = 8
 
 /**
- * One run (franchise channels): a unit picked uniformly over every unit of
+ * One run (franchise and decade channels): a unit picked uniformly over every unit of
  * every title, so a long series outweighs a single movie, then 2 or 3
  * consecutive units of that title from there, cut at the title's end. Never
  * the title the previous run aired, unless the plan has only one.
@@ -91,7 +91,7 @@ export function playRun(plan: ChannelPlan, cp: Checkpoint): { airings: Airing[];
   return { airings, next: { round: cp.round + 1, startsAt: t, cursors: cp.cursors, lastTitle: pick.title } }
 }
 
-/** The next round (block channels) or run (franchise channels). */
+/** The next round (block channels) or run (franchise and decade channels). */
 export function playNext(plan: ChannelPlan, cp: Checkpoint): { airings: Airing[]; next: Checkpoint } {
   return plan.mode === 'runs' ? playRun(plan, cp) : playRound(plan, cp)
 }

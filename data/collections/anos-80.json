@@ -1,0 +1,22 @@
+{
+  "id": "anos-80",
+  "name": "Años 80",
+  "order": 202,
+  "group": "decade",
+  "logo": "assets/collections/anos-80/logo.svg",
+  "tile": {
+    "color": "#1b0b3a"
+  },
+  "titles": [
+    "los-pitufos",
+    "thundercats",
+    "he-man-y-los-amos-del-universo",
+    "los-caballeros-del-zodiaco",
+    "dragon-ball",
+    "dragon-ball-z",
+    "supercampeones",
+    "las-tortugas-ninja",
+    "alf",
+    "los-simpsons"
+  ]
+}

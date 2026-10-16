@@ -1,0 +1,22 @@
+{
+  "id": "anos-90",
+  "name": "Años 90",
+  "order": 203,
+  "group": "decade",
+  "logo": "assets/collections/anos-90/logo.svg",
+  "tile": {
+    "color": "#0f9d8f"
+  },
+  "titles": [
+    "sailor-moon",
+    "yu-yu-hakusho",
+    "x-men-la-serie-animada",
+    "spider-man-la-serie-animada",
+    "power-rangers",
+    "el-mundo-de-beakman",
+    "las-chicas-superpoderosas",
+    "digimon-adventure",
+    "coraje-el-perro-cobarde",
+    "bob-esponja"
+  ]
+}

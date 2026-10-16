@@ -129,13 +129,13 @@ describe('validateCollection', () => {
     ])
   })
 
-  it.each([['network'], ['franchise']])('accepts group "%s"', (group) => {
+  it.each([['network'], ['franchise'], ['decade']])('accepts group "%s"', (group) => {
     expect(check({ ...valid(), group })).toEqual([])
   })
 
   it.each([['Franchise'], [''], [1], [null]])('rejects group %j', (group) => {
     expect(check({ ...valid(), group })).toEqual([
-      'cartoon-network.json: group must be "network" or "franchise" when present',
+      'cartoon-network.json: group must be "network", "franchise" or "decade" when present',
     ])
   })
 })

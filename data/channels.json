@@ -26,6 +26,12 @@
     { "id": "thundercats", "number": 109, "collection": "thundercats" },
     { "id": "spider-man", "number": 110, "collection": "spider-man" },
     { "id": "barbie", "number": 111, "collection": "barbie" },
-    { "id": "monster-high", "number": 112, "collection": "monster-high" }
+    { "id": "monster-high", "number": 112, "collection": "monster-high" },
+    { "id": "anos-70", "number": 201, "collection": "anos-70" },
+    { "id": "anos-80", "number": 202, "collection": "anos-80" },
+    { "id": "anos-90", "number": 203, "collection": "anos-90" },
+    { "id": "anos-2000", "number": 204, "collection": "anos-2000" },
+    { "id": "anos-2010", "number": 205, "collection": "anos-2010" },
+    { "id": "anos-2020", "number": 206, "collection": "anos-2020" }
   ]
 }

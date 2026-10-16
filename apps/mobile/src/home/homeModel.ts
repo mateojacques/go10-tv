@@ -13,6 +13,8 @@ export interface HomeModel {
   strip: Collection[]
   /** Franchise collections with at least one title, in tile order: the second strip, also headless. */
   franchiseStrip: Collection[]
+  /** Decade collections with at least one title, in tile order: the third strip, DECADES_AFTER rows below the second. */
+  decadeStrip: Collection[]
   rows: CatalogRowGroup[]
   /** Every title, for Seguir viendo. */
   titles: Title[]
@@ -27,6 +29,7 @@ export function buildHome(data: CatalogData): HomeModel | null {
     slides,
     strip: strips.network,
     franchiseStrip: strips.franchise,
+    decadeStrip: strips.decade,
     rows: buildRows(data.titles, { heroArt: data.heroArt, featured: slides.map((slide) => slide.title.key) }),
     titles: data.titles,
   }

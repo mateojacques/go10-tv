@@ -14,7 +14,8 @@ describe('splitByGroup', () => {
     const cn = collectionOf('cn', ['x'])
     const db = { ...collectionOf('db', ['x']), group: 'franchise' as const }
     const jx = collectionOf('jx', ['x'])
-    expect(splitByGroup([cn, db, jx], collectionGroup)).toEqual({ network: [cn, jx], franchise: [db] })
-    expect(splitByGroup([cn], collectionGroup)).toEqual({ network: [cn], franchise: [] })
+    const a80 = { ...collectionOf('anos-80', ['x']), group: 'decade' as const }
+    expect(splitByGroup([cn, a80, db, jx], collectionGroup)).toEqual({ network: [cn, jx], franchise: [db], decade: [a80] })
+    expect(splitByGroup([cn], collectionGroup)).toEqual({ network: [cn], franchise: [], decade: [] })
   })
 })

@@ -24,6 +24,7 @@ const collection = (id: string, name: string, titles: string[]): Collection => (
 
 const CN = collection('cartoon-network', 'Cartoon Network', ['m1'])
 const DB: Collection = { ...collection('dragon-ball', 'Dragon Ball', ['m2']), order: 101, group: 'franchise' }
+const DECADE: Collection = { ...collection('anos-80', 'Años 80', ['m1']), order: 201, group: 'decade' }
 const STALE = collection('stale', 'Stale', ['gone'])
 
 function renderHome(collections: Collection[], onOpenCollection = vi.fn()) {
@@ -46,6 +47,13 @@ describe('Home collections strip', () => {
     const strips = screen.getAllByRole('navigation', { name: /Colecciones|Franquicias/ })
     expect(strips.map((s) => within(s).getAllByRole('button').length)).toEqual([1, 1])
     expect(screen.queryByRole('heading', { name: 'Franquicias' })).toBeNull()
+  })
+
+  it('renders decades in a third strip, two catalog rows below the franchises', () => {
+    renderHome([CN, DB, DECADE])
+    const decades = screen.getByRole('navigation', { name: 'Décadas' })
+    const before = [...decades.parentElement!.children].slice(0, [...decades.parentElement!.children].indexOf(decades))
+    expect(before.map((el) => el.getAttribute('aria-label') ?? el.tagName)).toEqual(['Colecciones', 'Franquicias', 'SECTION', 'SECTION'])
   })
 
   it('renders one strip when no franchise collection is visible', () => {

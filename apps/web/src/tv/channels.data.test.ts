@@ -16,9 +16,14 @@ describe('data/channels.json', () => {
     expect(validateChannels(CHANNELS_FILE, { collections: COLLECTIONS, titles })).toEqual([])
   })
 
-  it('puts every franchise collection on a 101+ channel', () => {
-    const franchiseIds = COLLECTIONS.filter((c) => c.group === 'franchise').map((c) => c.id)
-    const numbers = (CHANNELS_FILE as { channels: { collection: string; number: number }[] }).channels
-    expect(franchiseIds.sort()).toEqual(numbers.filter((c) => c.number >= 101).map((c) => c.collection).sort())
+  const numbers = (CHANNELS_FILE as { channels: { collection: string; number: number }[] }).channels
+  const idsOf = (group: string) => COLLECTIONS.filter((c) => c.group === group).map((c) => c.id).sort()
+
+  it('puts every franchise collection on a 101–199 channel', () => {
+    expect(idsOf('franchise')).toEqual(numbers.filter((c) => c.number >= 101 && c.number <= 199).map((c) => c.collection).sort())
+  })
+
+  it('puts every decade collection on a 201+ channel', () => {
+    expect(idsOf('decade')).toEqual(numbers.filter((c) => c.number >= 201).map((c) => c.collection).sort())
   })
 })

@@ -1,0 +1,22 @@
+{
+  "id": "anos-2020",
+  "name": "Años 2020",
+  "order": 206,
+  "group": "decade",
+  "logo": "assets/collections/anos-2020/logo.svg",
+  "tile": {
+    "color": "#101014"
+  },
+  "titles": [
+    "arcane",
+    "invincible",
+    "la-casa-buho",
+    "merlina",
+    "cyberpunk-edgerunners",
+    "ranma-12",
+    "10460210989806",
+    "15153776757486",
+    "14427084557038",
+    "15605367114478"
+  ]
+}
