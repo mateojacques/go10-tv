@@ -1,7 +1,6 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useReducer, useRef, useState, type ReactNode } from 'react'
 import type { Lineup } from '@go10/core/tv/types'
 import { pickChannel, writeLastChannel } from '@go10/core/tv/lineup'
-import { okru } from '@go10/core/player/providers/okru'
 import type { Rect, SlotHandle, SlotMode } from './TvSlot'
 import { canPreview } from './canPreview'
 import { leanTv } from './leanTv'
@@ -190,21 +189,16 @@ export function TvProvider({ lineup, children }: { lineup: Lineup | null; childr
     return handle?.isLoaded() ? handle : null
   }, [mainId])
 
-  // ok.ru autoplays muted, and its own controls sit under the TV screen's
-  // shield: sound is always asked for explicitly.
+  // Embeds autoplay muted (ok.ru on its own, YouTube lives by request), and
+  // their controls sit under the TV screen's shield: sound is always asked for explicitly.
   const applySound = useCallback((handle: SlotHandle) => {
-    if (soundRef.current) {
-      handle.post(okru.unmuteMessage)
-      handle.post(okru.volumeMessage?.(1))
-    } else {
-      handle.post(okru.muteMessage)
-    }
+    handle.setSound(soundRef.current)
   }, [])
 
   const playMain = useCallback(() => {
     const handle = loadedMain()
     if (!handle) return
-    handle.post(okru.playMessage)
+    handle.play()
     applySound(handle)
   }, [loadedMain, applySound])
 
@@ -235,7 +229,7 @@ export function TvProvider({ lineup, children }: { lineup: Lineup | null; childr
     (slotId: number) => {
       // Previews are always silent; one gets its sound when promoted (main changes, see above).
       if (slotsRef.current.some((s) => s.id === slotId && s.role === 'preview')) {
-        handles.current.get(slotId)?.post(okru.muteMessage)
+        handles.current.get(slotId)?.setSound(false)
         return
       }
       if (activated && slotId === mainId) playMain()

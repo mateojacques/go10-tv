@@ -11,7 +11,7 @@ const EPOCH = Date.UTC(2026, 9, 1)
 const collection = collectionOf('cn', ['m'])
 const lineup: Lineup = {
   epochMs: EPOCH, defaultChannel: 'cn',
-  channels: [{ id: 'cn', number: 1, name: 'Cartoon Network', collection, group: 'network', plan: buildChannelPlan({ id: 'cn', number: 1, collection: 'cn' }, collection, [movieTitle('m', 3000)]) }],
+  channels: [{ kind: 'schedule', id: 'cn', number: 1, name: 'Cartoon Network', collection, group: 'network', plan: buildChannelPlan({ id: 'cn', number: 1, collection: 'cn' }, collection, [movieTitle('m', 3000)]) }],
 }
 
 beforeEach(() => {
@@ -40,7 +40,7 @@ describe('LiveRow', () => {
     ...lineup,
     channels: [
       ...lineup.channels,
-      { id: 'dbz', number: 101, name: 'Dragon Ball', collection: franchise, group: 'franchise', plan: buildChannelPlan({ id: 'dbz', number: 101, collection: 'dbz' }, franchise, [movieTitle('m', 3000)]) },
+      { kind: 'schedule', id: 'dbz', number: 101, name: 'Dragon Ball', collection: franchise, group: 'franchise', plan: buildChannelPlan({ id: 'dbz', number: 101, collection: 'dbz' }, franchise, [movieTitle('m', 3000)]) },
     ],
   }
   const renderLiveRow = (l: Lineup) =>

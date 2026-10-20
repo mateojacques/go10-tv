@@ -25,7 +25,7 @@ export function LiveRow({ rowIndex, onWatch }: { rowIndex: number; onWatch: (cha
               <span className="go-channel-group">{group.label}</span>
               {group.channels.map((channel) => {
                 const schedule = live.get(channel.id)
-                return schedule ? (
+                return schedule || channel.kind === 'live' ? (
                   <ChannelTile key={channel.id} channel={channel} schedule={schedule} row={rowIndex} col={col++} scope="live" onSelect={(c) => onWatch(c.id)} />
                 ) : null
               })}

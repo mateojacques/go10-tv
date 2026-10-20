@@ -4,14 +4,14 @@ import { TvProvider, useTv, type TvApi } from './TvProvider'
 import { TvLayer } from './TvLayer'
 import { buildChannelPlan } from '@go10/core/tv/plan'
 import { collectionOf, movieTitle } from '@go10/core/tv/testing'
-import type { Channel, Lineup } from '@go10/core/tv/types'
+import type { Channel, ScheduleChannel, Lineup } from '@go10/core/tv/types'
 import { writeLastChannel } from '@go10/core/tv/lineup'
 
 const EPOCH = Date.UTC(2026, 9, 1)
 const titles = [movieTitle('m1', 3000), movieTitle('m2', 3000), movieTitle('m3', 3000)]
-const channelOf = (id: string, number: number, key: string): Channel => {
+const channelOf = (id: string, number: number, key: string): ScheduleChannel => {
   const collection = collectionOf(id, [key])
-  return { id, number, name: id.toUpperCase(), group: 'network', collection, plan: buildChannelPlan({ id, number, collection: id }, collection, titles) }
+  return { kind: 'schedule', id, number, name: id.toUpperCase(), group: 'network', collection, plan: buildChannelPlan({ id, number, collection: id }, collection, titles) }
 }
 const lineup: Lineup = { epochMs: EPOCH, defaultChannel: 'b', channels: [channelOf('a', 1, 'm1'), channelOf('b', 2, 'm2'), channelOf('c', 3, 'm3')] }
 
@@ -21,9 +21,9 @@ function Grab() {
   return null
 }
 const onOpen = vi.fn()
-function renderLayer() {
+function renderLayer(l: Lineup = lineup) {
   render(
-    <TvProvider lineup={lineup}>
+    <TvProvider lineup={l}>
       <Grab />
       <TvLayer onOpen={onOpen} />
     </TvProvider>,
@@ -216,6 +216,18 @@ describe('TvProvider + TvLayer', () => {
       post.mockClear()
       act(() => api.nudgeSound())
       expect(post).toHaveBeenCalledWith(...UNMUTE)
+    })
+
+    it('asks a YouTube live for sound in its own terms', () => {
+      const live: Channel = {
+        kind: 'live', id: 'aj', number: 301, name: 'AJ', group: 'live', source: { videoId: 'gCNeDWCI0vo' }, logo: null, thumbnail: null,
+      }
+      renderLayer({ ...lineup, channels: [...lineup.channels, live] })
+      const post = watchLoaded('aj')
+      const YT = 'https://www.youtube-nocookie.com'
+      expect(post).toHaveBeenCalledWith('{"event":"command","func":"playVideo","args":[]}', YT)
+      expect(post).toHaveBeenCalledWith('{"event":"command","func":"unMute","args":[]}', YT)
+      expect(post).toHaveBeenCalledWith('{"event":"command","func":"setVolume","args":[100]}', YT)
     })
 
     it('mutes and unmutes on request, and gestures then leave it muted', () => {

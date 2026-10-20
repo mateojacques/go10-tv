@@ -6,16 +6,16 @@ import { TvScreen, ZAP_SETTLE_MS } from './TvScreen'
 import { TvLayer } from './TvLayer'
 import { buildChannelPlan } from '@go10/core/tv/plan'
 import { collectionOf, movieTitle, showTitle } from '@go10/core/tv/testing'
-import type { Channel, Lineup } from '@go10/core/tv/types'
+import type { Channel, ScheduleChannel, Lineup } from '@go10/core/tv/types'
 
 // A TV: one embed at a time.
 vi.mock('./leanTv', () => ({ leanTv: () => true }))
 
 const EPOCH = Date.UTC(2026, 9, 1)
 const titles = [showTitle('coraje', 4, 600), movieTitle('mulan', 5280), movieTitle('shrek', 5400)]
-const channelOf = (id: string, number: number, keys: string[]): Channel => {
+const channelOf = (id: string, number: number, keys: string[]): ScheduleChannel => {
   const collection = collectionOf(id, keys)
-  return { id, number, name: id.toUpperCase(), group: 'network', collection, plan: buildChannelPlan({ id, number, collection: id }, collection, titles) }
+  return { kind: 'schedule', id, number, name: id.toUpperCase(), group: 'network', collection, plan: buildChannelPlan({ id, number, collection: id }, collection, titles) }
 }
 const lineup: Lineup = {
   epochMs: EPOCH, defaultChannel: 'cn',

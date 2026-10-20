@@ -1,11 +1,10 @@
 import { useEffect, useMemo, useReducer, useRef, useState } from 'react'
 import type { Channel } from '@go10/core/tv/types'
-import { createLiveSession } from '@go10/core/tv/liveSession'
+import { createSessionFor } from '@go10/core/tv/sessionFor'
 import { scheduleAt } from '@go10/core/tv/schedule'
 import { clockLabel, programLabel } from '@go10/core/tv/describe'
 import { playerRetryReducer, initialPlayerRetryState, backoffMs } from '@go10/core/player/playerRetry'
 import { LOAD_TIMEOUT_MS } from '@go10/core/player/playbackSession'
-import { okru } from '@go10/core/player/providers/okru'
 import { artSrc } from '../catalog/art'
 import './tv.css'
 
@@ -19,7 +18,9 @@ export interface Rect {
 }
 
 export interface SlotHandle {
-  post(message: unknown): void
+  play(): void
+  /** Sound on (unmuted, full volume) or off, in the embed's own terms. */
+  setSound(on: boolean): void
   isLoaded(): boolean
 }
 
@@ -34,7 +35,8 @@ const PREVIEW_RETRIES = 1
 export const STALL_MS = 4000
 
 /**
- * One channel's embed, kept on the live schedule. It never moves in the DOM
+ * One channel's embed, kept on the live schedule (a YouTube live: at its live
+ * edge). It never moves in the DOM
  * (a moved iframe reloads); `mode` only changes where CSS puts it.
  */
 export function TvSlot({
@@ -80,10 +82,10 @@ export function TvSlot({
   onStalledChangeRef.current = onStalledChange
 
   const [session] = useState(() =>
-    createLiveSession({
-      plan: channel.plan,
+    createSessionFor({
+      channel,
       epochMs,
-      send: (command) => frameRef.current?.contentWindow?.postMessage(command, okru.origin),
+      send: (command) => frameRef.current?.contentWindow?.postMessage(command, session.origin),
       onFinishedEarly: rerender,
     }),
   )
@@ -124,24 +126,25 @@ export function TvSlot({
 
   useEffect(() => {
     if (!bind) return
+    const post = (message: unknown) => frameRef.current?.contentWindow?.postMessage(message, session.origin)
     bind({
-      post: (message) => frameRef.current?.contentWindow?.postMessage(message, okru.origin),
+      play: () => post(session.playMessage),
+      setSound: (on) => session.soundMessages(on).forEach(post),
       isLoaded: () => loaded.current,
     })
     return () => bind(null)
-  }, [bind])
+  }, [bind, session])
 
   useEffect(() => {
     function onMessage(event: MessageEvent) {
-      if (event.origin !== okru.origin || event.source !== frameRef.current?.contentWindow) return
+      if (event.origin !== session.origin || event.source !== frameRef.current?.contentWindow) return
       if (!heard.current) {
         heard.current = true
         onReadyRef.current?.()
       }
-      const row = session.current()?.unit.row
-      const report = row ? okru.parse(event.data, row) : null
-      if (report?.kind === 'time' && report.time !== lastTime.current) {
-        lastTime.current = report.time
+      const time = session.parseTime(event.data)
+      if (time !== null && time !== lastTime.current) {
+        lastTime.current = time
         lastProgressAt.current = Date.now()
         setStalled(false)
       }
@@ -199,10 +202,13 @@ export function TvSlot({
     return () => document.removeEventListener('visibilitychange', onVisibility)
   }, [gaveUp, session])
 
+  /** What airs after the current program; null on a live, which has no schedule. */
   const upNext = () => {
+    if (channel.kind === 'live') return null
     const after = scheduleAt(channel.plan, epochMs, endsAt, 1).current
     return `${programLabel(after.unit)} a las ${clockLabel(after.startsAt)}`
   }
+  const thumbnail = channel.kind === 'live' ? channel.thumbnail : airing ? artSrc(airing.unit.row.thumbnail) : null
 
   const style = mode === 'tile' && rect ? { top: rect.top, left: rect.left, width: rect.width, height: rect.height } : undefined
 
@@ -210,11 +216,11 @@ export function TvSlot({
     <div className={`go-tvslot go-tvslot--${mode}`} data-channel={channel.id} style={style}>
       {gaveUp ? (
         preview ? (
-          airing && <img className="go-tvslot_thumb" src={artSrc(airing.unit.row.thumbnail)} alt="" />
+          thumbnail && <img className="go-tvslot_thumb" src={thumbnail} alt="" />
         ) : (
           <div className="go-tvslot_card" role="status">
             <strong>Señal interrumpida</strong>
-            <span>Volvemos con {upNext()}</span>
+            {channel.kind === 'schedule' && <span>Volvemos con {upNext()}</span>}
           </div>
         )
       ) : (
@@ -229,6 +235,7 @@ export function TvSlot({
           // Live TV: Space and the arrows must never reach the embed's own controls.
           tabIndex={-1}
           onLoad={() => {
+            session.attach()
             lastProgressAt.current = Date.now()
             lastTime.current = null
             loaded.current = true

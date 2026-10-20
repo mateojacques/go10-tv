@@ -6,13 +6,13 @@ import { TvScreen } from './TvScreen'
 import { TvLayer } from './TvLayer'
 import { buildChannelPlan } from '@go10/core/tv/plan'
 import { collectionOf, movieTitle, showTitle } from '@go10/core/tv/testing'
-import type { Channel, Lineup } from '@go10/core/tv/types'
+import type { Channel, ScheduleChannel, Lineup } from '@go10/core/tv/types'
 
 const EPOCH = Date.UTC(2026, 9, 1)
 const titles = [showTitle('coraje', 4, 600), movieTitle('mulan', 5280), movieTitle('shrek', 5400)]
-const channelOf = (id: string, number: number, keys: string[]): Channel => {
+const channelOf = (id: string, number: number, keys: string[]): ScheduleChannel => {
   const collection = collectionOf(id, keys)
-  return { id, number, name: id.toUpperCase(), group: 'network', collection, plan: buildChannelPlan({ id, number, collection: id }, collection, titles) }
+  return { kind: 'schedule', id, number, name: id.toUpperCase(), group: 'network', collection, plan: buildChannelPlan({ id, number, collection: id }, collection, titles) }
 }
 const lineup: Lineup = {
   epochMs: EPOCH, defaultChannel: 'cn',
@@ -55,7 +55,7 @@ afterEach(() => {
 
 describe('TvScreen', () => {
   describe('channel groups', () => {
-    const dbz: Channel = { ...channelOf('dbz', 101, ['shrek']), group: 'franchise' }
+    const dbz: ScheduleChannel = { ...channelOf('dbz', 101, ['shrek']), group: 'franchise' }
     const mixedLineup: Lineup = { ...lineup, channels: [...lineup.channels, dbz] }
 
     it('shows networks under "Canales" and franchises under "24/7"', () => {
@@ -365,5 +365,25 @@ describe('TvScreen', () => {
     })
     expect(shield.classList.contains('is-pass-through')).toBe(false)
     expect(screen.queryByText('Tocá para ver')).toBeNull()
+  })
+})
+
+describe('TvScreen on a YouTube live', () => {
+  const live: Channel = {
+    kind: 'live', id: 'aj', number: 301, name: 'Al Jazeera', group: 'live',
+    source: { videoId: 'gCNeDWCI0vo' }, logo: 'assets/live/aj.png', thumbnail: null,
+  }
+  const withLive: Lineup = { ...lineup, channels: [...lineup.channels, live] }
+
+  it('shows the name and "En vivo" instead of a program, and lists it under "En vivo"', () => {
+    renderScreen(live, withLive)
+    const now = document.querySelector('.go-tv_now') as HTMLElement
+    expect(within(now).getByText('Al Jazeera')).not.toBeNull()
+    expect(within(now).getByText('En vivo')).not.toBeNull()
+    expect(now.querySelector('.go-tv_chip img')!.getAttribute('src')).toContain('assets/live/aj.png')
+    expect(now.querySelector('.go-tv_progress')).toBeNull()
+    const nav = within(strip())
+    expect(nav.getByText('En vivo', { selector: '.go-channel-group' })).not.toBeNull()
+    expect(nav.getByRole('button', { name: '301 Al Jazeera: En vivo' })).not.toBeNull()
   })
 })

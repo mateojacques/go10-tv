@@ -7,7 +7,7 @@ import { useTv } from './TvProvider'
 
 export const PREVIEW_DELAY_MS = 600
 
-/** A channel and what it's airing right now. */
+/** A channel and what it's airing right now (a YouTube live: just that it's live). */
 export function ChannelTile({
   channel,
   schedule,
@@ -19,7 +19,8 @@ export function ChannelTile({
   onKey,
 }: {
   channel: Channel
-  schedule: Schedule
+  /** Absent for a YouTube live. */
+  schedule?: Schedule
   row: number
   col: number
   current?: boolean
@@ -33,7 +34,9 @@ export function ChannelTile({
   const { ref, focused, activate, tabIndex } = useFocusable(`${scope}:${channel.id}`, row, col, () => onSelect(channel), { onKey })
   const thumbRef = useRef<HTMLDivElement>(null)
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null)
-  const label = programLabel(schedule.current.unit)
+  const label = schedule ? programLabel(schedule.current.unit) : 'En vivo'
+  const thumbnail = channel.kind === 'live' ? channel.thumbnail : schedule ? artSrc(schedule.current.unit.row.thumbnail) : null
+  const logo = channel.kind === 'live' ? channel.logo : channel.collection.logo
 
   const [previewing, setPreviewing] = useState(false)
   const tvRef = useRef(tv)
@@ -102,16 +105,22 @@ export function ChannelTile({
       }}
       onPointerLeave={stopPreview}
     >
-      <div ref={thumbRef} className="go-chtile_thumb" style={{ backgroundColor: channel.collection.tile.color }}>
-        <img className="go-chtile_img" src={artSrc(schedule.current.unit.row.thumbnail)} alt="" loading="lazy" />
+      <div
+        ref={thumbRef}
+        className="go-chtile_thumb"
+        style={{ backgroundColor: channel.kind === 'schedule' ? channel.collection.tile.color : 'var(--go-bg-raised)' }}
+      >
+        {thumbnail && <img className="go-chtile_img" src={thumbnail} alt="" loading="lazy" />}
         <span className="go-chtile_badge">
-          <img src={artSrc(channel.collection.logo)} alt="" />
+          {logo && <img src={artSrc(logo)} alt="" />}
           <span>{channel.number}</span>
         </span>
       </div>
-      <div className="go-chtile_progress">
-        <i style={{ width: `${Math.round(progressOf(schedule) * 100)}%` }} />
-      </div>
+      {schedule && (
+        <div className="go-chtile_progress">
+          <i style={{ width: `${Math.round(progressOf(schedule) * 100)}%` }} />
+        </div>
+      )}
       <div className="go-chtile_label">{label}</div>
     </div>
   )

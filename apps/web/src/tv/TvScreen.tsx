@@ -121,6 +121,7 @@ export function TvScreen({
   )
 
   const schedule = live.get(channel.id)
+  const logo = channel.kind === 'live' ? channel.logo : channel.collection.logo
   const fullscreen = useFullscreen()
 
   // A half-typed channel number ("1–") tunes on its own after a pause.
@@ -243,22 +244,28 @@ export function TvScreen({
         }}
       />
 
-      {schedule && (
+      {(schedule || channel.kind === 'live') && (
         <div className={`go-tv_now${open ? ' is-open' : ''}`}>
           <span className="go-tv_chip">
-            <img src={artSrc(channel.collection.logo)} alt="" />
+            {logo && <img src={artSrc(logo)} alt="" />}
             {channel.number}
           </span>
           <div className="go-tv_now-text">
-            <strong className="go-tv_program">{programLabel(schedule.current.unit)}</strong>
-            {upNext && (
-              <span className="go-tv_next">
-                A continuación: {programLabel(upNext.unit)} · {clockLabel(upNext.startsAt)}
+            <strong className="go-tv_program">{schedule ? programLabel(schedule.current.unit) : channel.name}</strong>
+            {schedule ? (
+              upNext && (
+                <span className="go-tv_next">
+                  A continuación: {programLabel(upNext.unit)} · {clockLabel(upNext.startsAt)}
+                </span>
+              )
+            ) : (
+              <span className="go-tv_next">En vivo</span>
+            )}
+            {schedule && (
+              <span className="go-tv_progress">
+                <i style={{ width: `${Math.round(progressOf(schedule) * 100)}%` }} />
               </span>
             )}
-            <span className="go-tv_progress">
-              <i style={{ width: `${Math.round(progressOf(schedule) * 100)}%` }} />
-            </span>
           </div>
           {!leanTv() && (
             <button
@@ -314,7 +321,7 @@ export function TvScreen({
                 <span className="go-channel-group">{group.label}</span>
                 {group.channels.map((c) => {
                   const s = live.get(c.id)
-                  return s ? (
+                  return s || c.kind === 'live' ? (
                     <ChannelTile
                       key={c.id}
                       channel={c}

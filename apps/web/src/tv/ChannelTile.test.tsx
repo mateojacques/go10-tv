@@ -7,17 +7,17 @@ import { TvProvider, useTv, type TvApi } from './TvProvider'
 import { buildChannelPlan } from '@go10/core/tv/plan'
 import { scheduleAt } from '@go10/core/tv/schedule'
 import { collectionOf, movieTitle, showTitle } from '@go10/core/tv/testing'
-import type { Channel, Lineup } from '@go10/core/tv/types'
+import type { Channel, ScheduleChannel, Lineup } from '@go10/core/tv/types'
 
 const EPOCH = Date.UTC(2026, 9, 1)
 const collection = collectionOf('cn', ['coraje'])
-const channel: Channel = {
-  id: 'cn', number: 1, name: 'Cartoon Network', collection, group: 'network',
+const channel: ScheduleChannel = {
+  kind: 'schedule', id: 'cn', number: 1, name: 'Cartoon Network', collection, group: 'network',
   plan: buildChannelPlan({ id: 'cn', number: 1, collection: 'cn' }, collection, [showTitle('coraje', 4, 600)]),
 }
 const otherCollection = collectionOf('jx', ['mulan'])
-const other: Channel = {
-  id: 'jx', number: 2, name: 'Jetix', collection: otherCollection, group: 'network',
+const other: ScheduleChannel = {
+  kind: 'schedule', id: 'jx', number: 2, name: 'Jetix', collection: otherCollection, group: 'network',
   plan: buildChannelPlan({ id: 'jx', number: 2, collection: 'jx' }, otherCollection, [movieTitle('mulan', 5280)]),
 }
 const lineup: Lineup = { epochMs: EPOCH, defaultChannel: 'cn', channels: [channel, other] }
@@ -115,5 +115,25 @@ describe('useLiveNow', () => {
     expect(result.current.get('cn')!.offset).toBe(first.offset + 5)
     act(() => vi.advanceTimersByTime(first.current.endsAt - Date.now()))
     expect(result.current.get('cn')!.current.unit.key).not.toBe(first.current.unit.key)
+  })
+})
+
+describe('ChannelTile for a YouTube live', () => {
+  const live: Channel = {
+    kind: 'live', id: 'aj', number: 301, name: 'Al Jazeera', group: 'live',
+    source: { videoId: 'gCNeDWCI0vo' }, logo: null, thumbnail: 'https://i.ytimg.com/vi/gCNeDWCI0vo/hqdefault_live.jpg',
+  }
+  
+  it('shows the live thumbnail and "En vivo", with no progress', () => {
+    render(
+      <TvProvider lineup={{ ...lineup, channels: [...lineup.channels, live] }}>
+        <FocusProvider onBack={() => {}}>
+          <ChannelTile channel={live} row={0} col={0} scope="tv" onSelect={vi.fn()} />
+        </FocusProvider>
+      </TvProvider>,
+    )
+    const tile = screen.getByRole('button', { name: '301 Al Jazeera: En vivo' })
+    expect(tile.querySelector('.go-chtile_img')!.getAttribute('src')).toBe('https://i.ytimg.com/vi/gCNeDWCI0vo/hqdefault_live.jpg')
+    expect(tile.querySelector('.go-chtile_progress')).toBeNull()
   })
 })

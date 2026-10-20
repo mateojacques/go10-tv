@@ -4,12 +4,19 @@ import { scheduleAt } from '@go10/core/tv/schedule'
 
 export const LIVE_REFRESH_MS = 5000
 
-/** What every channel is airing now, refreshed every few seconds and at the next program boundary. */
+/**
+ * What every collection channel is airing now, refreshed every few seconds and
+ * at the next program boundary. YouTube lives have no schedule, so no entry.
+ */
 export function useLiveNow(lineup: Lineup | null): Map<string, Schedule> {
   const [tick, bump] = useReducer((n: number) => n + 1, 0)
   const now = useMemo(() => {
     const at = Date.now()
-    return new Map((lineup?.channels ?? []).map((channel) => [channel.id, scheduleAt(channel.plan, lineup!.epochMs, at, 1)]))
+    return new Map(
+      (lineup?.channels ?? []).flatMap((channel) =>
+        channel.kind === 'schedule' ? [[channel.id, scheduleAt(channel.plan, lineup!.epochMs, at, 1)] as const] : [],
+      ),
+    )
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [lineup, tick])
 

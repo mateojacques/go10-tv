@@ -1,16 +1,16 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { act, fireEvent, render, screen } from '@testing-library/react'
-import { TvSlot } from './TvSlot'
+import { TvSlot, type SlotHandle } from './TvSlot'
 import { buildChannelPlan } from '@go10/core/tv/plan'
 import { scheduleAt } from '@go10/core/tv/schedule'
 import { collectionOf, movieTitle, showTitle } from '@go10/core/tv/testing'
-import type { Channel } from '@go10/core/tv/types'
+import type { Channel, ScheduleChannel } from '@go10/core/tv/types'
 
 const EPOCH = Date.UTC(2026, 9, 1)
 const titles = [showTitle('a', 3, 600), movieTitle('m', 3000)]
 const collection = collectionOf('cn', ['a', 'm'])
-const channel: Channel = {
-  id: 'cn', number: 1, name: 'CN', collection, group: 'network',
+const channel: ScheduleChannel = {
+  kind: 'schedule', id: 'cn', number: 1, name: 'CN', collection, group: 'network',
   plan: buildChannelPlan({ id: 'cn', number: 1, collection: 'cn' }, collection, titles),
 }
 
@@ -80,12 +80,19 @@ describe('TvSlot', () => {
     expect([root.style.top, root.style.left, root.style.width, root.style.height]).toEqual(['10px', '20px', '300px', '169px'])
   })
 
-  it('exposes a handle that posts to the embed', () => {
-    let handle: { post(m: unknown): void } | null = null
+  it('exposes a handle that plays the embed and sets its sound', () => {
+    let handle: SlotHandle | null = null
     render(<TvSlot channel={channel} epochMs={EPOCH} mode="full" bind={(h) => (handle = h)} />)
     const post = vi.spyOn(frame()!.contentWindow!, 'postMessage')
-    handle!.post({ action: 'play' })
-    expect(post).toHaveBeenCalledWith({ action: 'play' }, 'https://ok.ru')
+    handle!.play()
+    handle!.setSound(true)
+    handle!.setSound(false)
+    expect(post.mock.calls).toEqual([
+      [{ action: 'play' }, 'https://ok.ru'],
+      [{ action: 'unmute' }, 'https://ok.ru'],
+      [{ action: 'volume', value: 1 }, 'https://ok.ru'],
+      [{ action: 'mute' }, 'https://ok.ru'],
+    ])
   })
 
   it("reports once per load when the embed's player first speaks", () => {
@@ -150,5 +157,58 @@ describe('TvSlot', () => {
     expect(onStalledChange).toHaveBeenLastCalledWith(true)
     report(64)
     expect(onStalledChange).toHaveBeenLastCalledWith(false)
+  })
+})
+
+describe('TvSlot with a YouTube live', () => {
+  const YT = 'https://www.youtube-nocookie.com'
+  const live: Channel = {
+    kind: 'live', id: 'aj', number: 301, name: 'Al Jazeera', group: 'live',
+    source: { videoId: 'gCNeDWCI0vo' }, logo: null, thumbnail: 'https://i.ytimg.com/vi/gCNeDWCI0vo/hqdefault_live.jpg',
+  }
+  
+  it('loads the live edge, muted', () => {
+    render(<TvSlot channel={live} epochMs={EPOCH} mode="full" />)
+    expect(frame()!.src.startsWith(`${YT}/embed/gCNeDWCI0vo?enablejsapi=1&autoplay=1&playsinline=1&rel=0&mute=1`)).toBe(true)
+    expect(screen.queryByText(/A continuación/)).toBeNull()
+  })
+
+  it('handshakes once the frame loads', () => {
+    render(<TvSlot channel={live} epochMs={EPOCH} mode="full" />)
+    const post = vi.spyOn(frame()!.contentWindow!, 'postMessage')
+    fireEvent.load(frame()!)
+    expect(post).toHaveBeenCalledWith('{"event":"listening","id":1,"channel":"widget"}', YT)
+  })
+
+  it('reloads at the live edge when the page comes back into view', () => {
+    render(<TvSlot channel={live} epochMs={EPOCH} mode="full" />)
+    const first = frame()
+    act(() => {
+      document.dispatchEvent(new Event('visibilitychange'))
+    })
+    expect(frame()).not.toBe(first)
+  })
+
+  it('sets its sound in YouTube terms', () => {
+    let handle: SlotHandle | null = null
+    render(<TvSlot channel={live} epochMs={EPOCH} mode="full" bind={(h) => (handle = h)} />)
+    const post = vi.spyOn(frame()!.contentWindow!, 'postMessage')
+    handle!.setSound(true)
+    expect(post.mock.calls).toEqual([
+      ['{"event":"command","func":"unMute","args":[]}', YT],
+      ['{"event":"command","func":"setVolume","args":[100]}', YT],
+    ])
+  })
+
+  it('gives up with no "up next" to promise', () => {
+    render(<TvSlot channel={live} epochMs={EPOCH} mode="full" />)
+    for (const wait of [8000, 1000, 8000, 2000, 8000, 3000, 8000]) act(() => vi.advanceTimersByTime(wait))
+    expect(screen.getByRole('status').textContent).toBe('Señal interrumpida')
+  })
+
+  it('shows its thumbnail when a preview gives up', () => {
+    render(<TvSlot channel={live} epochMs={EPOCH} mode="tile" preview />)
+    for (const wait of [8000, 1000, 8000, 2000, 8000, 3000, 8000]) act(() => vi.advanceTimersByTime(wait))
+    expect(document.querySelector('.go-tvslot_thumb')!.getAttribute('src')).toBe('https://i.ytimg.com/vi/gCNeDWCI0vo/hqdefault_live.jpg')
   })
 })
