@@ -32,6 +32,7 @@
     { "id": "anos-90", "number": 203, "collection": "anos-90" },
     { "id": "anos-2000", "number": 204, "collection": "anos-2000" },
     { "id": "anos-2010", "number": 205, "collection": "anos-2010" },
-    { "id": "anos-2020", "number": 206, "collection": "anos-2020" }
+    { "id": "anos-2020", "number": 206, "collection": "anos-2020" },
+    { "id": "lol-bootcamp", "number": 301, "name": "LoL Bootcamp NA", "youtube": "https://www.youtube.com/channel/UC65ZDJCYI1dwzj48XIeuOBA" }
   ]
 }
