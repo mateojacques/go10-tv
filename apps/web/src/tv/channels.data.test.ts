@@ -23,7 +23,7 @@ describe('data/channels.json', () => {
     expect(idsOf('franchise')).toEqual(numbers.filter((c) => c.number >= 101 && c.number <= 199).map((c) => c.collection).sort())
   })
 
-  it('puts every decade collection on a 201+ channel', () => {
-    expect(idsOf('decade')).toEqual(numbers.filter((c) => c.number >= 201).map((c) => c.collection).sort())
+  it('puts every decade collection on a 201–299 channel', () => {
+    expect(idsOf('decade')).toEqual(numbers.filter((c) => c.number >= 201 && c.number <= 299).map((c) => c.collection).sort())
   })
 })
