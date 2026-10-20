@@ -214,7 +214,11 @@ export function TvSlot({
   const style = mode === 'tile' && rect ? { top: rect.top, left: rect.left, width: rect.width, height: rect.height } : undefined
 
   return (
-    <div className={`go-tvslot go-tvslot--${mode}`} data-channel={channel.id} style={style}>
+    <div
+      className={`go-tvslot go-tvslot--${mode}${channel.kind === 'live' ? ' go-tvslot--uncropped' : ''}`}
+      data-channel={channel.id}
+      style={style}
+    >
       {gaveUp ? (
         preview ? (
           thumbnail && <img className="go-tvslot_thumb" src={thumbnail} alt="" />

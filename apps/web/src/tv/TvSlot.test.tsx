@@ -173,6 +173,13 @@ describe('TvSlot with a YouTube live', () => {
     expect(screen.queryByText(/A continuación/)).toBeNull()
   })
 
+  it("is not cropped like ok.ru (YouTube's picture fills its frame)", () => {
+    render(<TvSlot channel={live} epochMs={EPOCH} mode="full" />)
+    expect(document.querySelector('.go-tvslot')!.classList.contains('go-tvslot--uncropped')).toBe(true)
+    render(<TvSlot channel={channel} epochMs={EPOCH} mode="full" />)
+    expect(document.querySelectorAll('.go-tvslot--uncropped')).toHaveLength(1)
+  })
+
   it('handshakes once the frame loads', () => {
     render(<TvSlot channel={live} epochMs={EPOCH} mode="full" />)
     const post = vi.spyOn(frame()!.contentWindow!, 'postMessage')

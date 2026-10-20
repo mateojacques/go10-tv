@@ -13,6 +13,10 @@
    * chrome peeks through, or if the picture gets clipped. */
   --go-okru-chrome: 64px;
 }
+/* YouTube has no such strips: its picture fills the frame. */
+.go-tvslot--uncropped {
+  --go-okru-chrome: 0px;
+}
 .go-tvslot_frame {
   position: absolute;
   left: 0;
