@@ -24,7 +24,7 @@ export function LiveRow({ lineup, imageBase, onWatch }: { lineup: Lineup; imageB
               <Text style={styles.group}>{group.label}</Text>
               {group.channels.map((channel) => {
                 const schedule = live.get(channel.id)
-                return schedule ? <ChannelTile key={channel.id} channel={channel} schedule={schedule} imageBase={imageBase} onSelect={(c) => onWatch(c.id)} /> : null
+                return schedule || channel.kind === 'live' ? <ChannelTile key={channel.id} channel={channel} schedule={schedule} imageBase={imageBase} onSelect={(c) => onWatch(c.id)} /> : null
               })}
             </Fragment>
           ))}

@@ -207,3 +207,28 @@ describe('TvScreenView', () => {
     expect(strip()).toBeTruthy()
   })
 })
+
+describe('TvScreenView on a YouTube live', () => {
+  const withLive = resolveLineup(
+    {
+      epoch: '2026-10-01T00:00:00Z',
+      defaultChannel: 'a',
+      channels: [
+        { id: 'a', number: 1, collection: 'a' },
+        { id: 'aj', number: 301, name: 'Al Jazeera', youtube: 'gCNeDWCI0vo', logo: 'assets/live/aj.png' },
+      ],
+    },
+    [collectionOf('a', ['s1'])],
+    [showTitle('s1', 3, 600)],
+  )!
+  const live = withLive.channels[1]
+
+  it('shows the name and "En vivo" with its logo, and lists it under "En vivo"', async () => {
+    await render(<TvScreenView lineup={withLive} channel={live} siteUrl="https://tv.test/" imageBase="https://tv.test/" onZap={jest.fn()} onBack={jest.fn()} />)
+    await press('right')
+    expect(screen.getByText('Al Jazeera')).toBeTruthy()
+    expect(screen.getAllByText('En vivo').length).toBeGreaterThanOrEqual(2) // the now line and the strip's group
+    expect(screen.getByTestId('tv-chip-logo').props.source).toEqual([{ uri: 'https://tv.test/assets/live/aj.png' }])
+    expect(screen.getByLabelText('301 Al Jazeera: En vivo')).toBeTruthy()
+  })
+})

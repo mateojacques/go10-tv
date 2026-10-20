@@ -3,9 +3,8 @@ import { AppState, Platform, StyleSheet, Text, View } from 'react-native'
 import { WebView, type WebViewMessageEvent } from 'react-native-webview'
 import { LOAD_TIMEOUT_MS } from '@go10/core/player/playbackSession'
 import { backoffMs, initialPlayerRetryState, playerRetryReducer } from '@go10/core/player/playerRetry'
-import { okru } from '@go10/core/player/providers/okru'
 import { clockLabel, programLabel } from '@go10/core/tv/describe'
-import { createLiveSession } from '@go10/core/tv/liveSession'
+import { createSessionFor } from '@go10/core/tv/sessionFor'
 import { scheduleAt } from '@go10/core/tv/schedule'
 import type { Channel } from '@go10/core/tv/types'
 import { commandScript, hostHtml, OKRU_CHROME_PX, parseHostMessage } from '../player/hostPage'
@@ -23,7 +22,8 @@ export const STALL_MS = 4000
 /**
  * One channel's embed, kept on the live schedule (apps/web/src/tv/TvSlot.tsx
  * on the player's WebView host page). Every load and retry rejoins the live
- * second; a dead channel retunes at the next program boundary.
+ * second (a YouTube live: its live edge); a dead channel retunes at the next
+ * program boundary.
  */
 export function LiveVideo({
   channel,
@@ -47,8 +47,8 @@ export function LiveVideo({
   const webRef = useRef<WebView>(null)
   const loaded = useRef(false)
   const [session] = useState(() =>
-    createLiveSession({
-      plan: channel.plan,
+    createSessionFor({
+      channel,
       epochMs,
       send: (command) => webRef.current?.injectJavaScript(commandScript(command)),
       onFinishedEarly: rerender,
@@ -62,17 +62,10 @@ export function LiveVideo({
   const airing = session.current()
   const gaveUp = state.status === 'failed'
 
-  // ok.ru autoplays muted (spike 2026-10-01): sound is always asked for.
+  // ok.ru autoplays muted (spike 2026-10-01), YouTube lives are loaded muted: sound is always asked for.
   const soundRef = useRef(soundOn)
   soundRef.current = soundOn
-  const applySound = () => {
-    if (soundRef.current) {
-      send(okru.unmuteMessage)
-      send(okru.volumeMessage?.(1))
-    } else {
-      send(okru.muteMessage)
-    }
-  }
+  const applySound = () => session.soundMessages(soundRef.current).forEach(send)
   useEffect(() => {
     if (loaded.current) applySound()
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -161,7 +154,8 @@ export function LiveVideo({
       lastProgressAt.current = Date.now()
       lastTime.current = null
       dispatch({ type: 'loaded' })
-      send(okru.playMessage)
+      session.attach()
+      send(session.playMessage)
       applySound()
       return
     }
@@ -171,17 +165,18 @@ export function LiveVideo({
       heard.current = true
       applySound()
     }
-    const row = session.current()?.unit.row
-    const report = row ? okru.parse(message.data, row) : null
-    if (report?.kind === 'time' && report.time !== lastTime.current) {
-      lastTime.current = report.time
+    const time = session.parseTime(message.data)
+    if (time !== null && time !== lastTime.current) {
+      lastTime.current = time
       lastProgressAt.current = Date.now()
       setStalled(false)
     }
     session.handle(message.data)
   }
 
+  /** What airs after the current program; null on a live, which has no schedule. */
   const upNext = () => {
+    if (channel.kind === 'live') return null
     const after = scheduleAt(channel.plan, epochMs, endsAt, 1).current
     return `${programLabel(after.unit)} a las ${clockLabel(after.startsAt)}`
   }
@@ -193,7 +188,7 @@ export function LiveVideo({
       {gaveUp ? (
         <View style={styles.card} accessibilityRole="alert">
           <Text style={styles.cardTitle}>Señal interrumpida</Text>
-          <Text style={styles.cardText}>{`Volvemos con ${upNext()}`}</Text>
+          {channel.kind === 'schedule' && <Text style={styles.cardText}>{`Volvemos con ${upNext()}`}</Text>}
         </View>
       ) : (
         <WebView
@@ -201,7 +196,8 @@ export function LiveVideo({
           ref={webRef}
           testID="live-webview"
           style={styles.web}
-          source={{ html: hostHtml(src, okru.origin, { cropPx: OKRU_CHROME_PX }), baseUrl: siteUrl }}
+          // ok.ru's title and control bars are cropped off; YouTube's are left alone.
+          source={{ html: hostHtml(src, session.origin, { cropPx: channel.kind === 'schedule' ? OKRU_CHROME_PX : 0 }), baseUrl: siteUrl }}
           originWhitelist={['*']}
           onMessage={onMessage}
           onShouldStartLoadWithRequest={(request) => allowNavigation(request, siteUrl)}

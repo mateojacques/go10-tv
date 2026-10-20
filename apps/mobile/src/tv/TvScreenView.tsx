@@ -119,6 +119,7 @@ export function TvScreenView({ lineup, channel, siteUrl, imageBase, onZap, onBac
 
   const schedule = live.get(channel.id)
   const upNext = schedule?.next[0]
+  const logo = channel.kind === 'live' ? channel.logo : channel.collection.logo
   const zapping = tuned?.id !== channel.id
 
   return (
@@ -145,24 +146,31 @@ export function TvScreenView({ lineup, channel, siteUrl, imageBase, onZap, onBac
         </View>
       )}
 
-      {open && schedule && (
+      {open && (schedule || channel.kind === 'live') && (
         <View style={styles.now}>
           <View style={styles.chip}>
-            <Image source={{ uri: imageSrc(channel.collection.logo, imageBase) }} style={styles.chipLogo} contentFit="contain" />
+            {logo && <Image testID="tv-chip-logo" source={{ uri: imageSrc(logo, imageBase) }} style={styles.chipLogo} contentFit="contain" />}
             <Text style={styles.chipNumber}>{channel.number}</Text>
           </View>
           <View style={styles.nowText}>
             <Text style={styles.program} numberOfLines={1}>
-              {programLabel(schedule.current.unit)}
+              {schedule ? programLabel(schedule.current.unit) : channel.name}
             </Text>
+            {!schedule && (
+              <Text style={styles.next} numberOfLines={1}>
+                En vivo
+              </Text>
+            )}
             {upNext && (
               <Text style={styles.next} numberOfLines={1}>
                 {`A continuación: ${programLabel(upNext.unit)} · ${clockLabel(upNext.startsAt)}`}
               </Text>
             )}
-            <View style={styles.progress}>
-              <View style={[styles.progressFill, { width: `${Math.round(progressOf(schedule) * 100)}%` }]} />
-            </View>
+            {schedule && (
+              <View style={styles.progress}>
+                <View style={[styles.progressFill, { width: `${Math.round(progressOf(schedule) * 100)}%` }]} />
+              </View>
+            )}
           </View>
           {/* A TV has its own volume keys and Back; a phone gets the web's sound toggle and a back button. */}
           {!tv && (
@@ -191,7 +199,7 @@ export function TvScreenView({ lineup, channel, siteUrl, imageBase, onZap, onBac
                 <Text style={styles.group}>{group.label}</Text>
                 {group.channels.map((c) => {
                   const s = live.get(c.id)
-                  return s ? (
+                  return s || c.kind === 'live' ? (
                     <ChannelTile
                       key={c.id}
                       channel={c}

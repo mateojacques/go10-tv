@@ -3,6 +3,7 @@ import { AppState } from 'react-native'
 import { resolveLineup } from '@go10/core/tv/lineup'
 import { scheduleAt } from '@go10/core/tv/schedule'
 import { collectionOf, showTitle } from '@go10/core/tv/testing'
+import type { ScheduleChannel } from '@go10/core/tv/types'
 import { LiveVideo } from './LiveVideo'
 
 const mockInject = jest.fn()
@@ -24,7 +25,7 @@ const lineup = resolveLineup(
   [collectionOf('cn', ['coraje', 'dexter'])],
   titles,
 )!
-const channel = lineup.channels[0]
+const channel = lineup.channels[0] as ScheduleChannel
 const SITE = 'https://tv.test/'
 
 const webview = () => screen.getByTestId('live-webview')
@@ -153,5 +154,40 @@ describe('LiveVideo', () => {
     await host({ kind: 'loaded' })
     await host({ kind: 'embed', data: { event: 'ended', time: 600 } })
     expect(screen.getByText(/^A continuación: .+ a las \d\d:\d\d$/)).toBeTruthy()
+  })
+})
+
+describe('LiveVideo on a YouTube live', () => {
+  const live = resolveLineup(
+    { epoch: '2026-10-01T00:00:00Z', defaultChannel: 'aj', channels: [{ id: 'aj', number: 301, name: 'Al Jazeera', youtube: 'gCNeDWCI0vo' }] },
+    [],
+    [],
+  )!.channels[0]
+  const YT = 'https://www.youtube-nocookie.com'
+  const renderYt = (props: Partial<Parameters<typeof LiveVideo>[0]> = {}) =>
+    render(<LiveVideo channel={live} epochMs={lineup.epochMs} siteUrl={SITE} soundOn {...props} />)
+
+  it('hosts the muted live edge, uncropped, trusting YouTube', async () => {
+    await renderYt()
+    const html = webview().props.source.html as string
+    expect(html).toContain(`src="${YT}/embed/gCNeDWCI0vo?enablejsapi=1&amp;autoplay=1&amp;playsinline=1&amp;rel=0&amp;mute=1`)
+    expect(html).toContain(`var ORIGIN = "${YT}"`)
+    expect(html).not.toContain('top:-64px')
+  })
+
+  it('handshakes, plays and asks for sound once loaded', async () => {
+    await renderYt()
+    await host({ kind: 'loaded' })
+    expect(injected()).toContain(JSON.stringify('{"event":"listening","id":1,"channel":"widget"}'))
+    expect(injected()).toContain(JSON.stringify('{"event":"command","func":"playVideo","args":[]}'))
+    expect(injected()).toContain(JSON.stringify('{"event":"command","func":"unMute","args":[]}'))
+    expect(injected()).toContain(JSON.stringify('{"event":"command","func":"setVolume","args":[100]}'))
+  })
+
+  it('gives up with no "up next" to promise', async () => {
+    await renderYt()
+    await exhaustRetries()
+    expect(screen.getByText('Señal interrumpida')).toBeTruthy()
+    expect(screen.queryByText(/Volvemos con/)).toBeNull()
   })
 })
