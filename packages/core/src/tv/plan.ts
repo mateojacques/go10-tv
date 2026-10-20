@@ -4,7 +4,7 @@ import { collectionGroup } from '../collections/groups'
 import { resolveCollection } from '../collections/resolveCollection'
 import { rowKey } from '../catalog/rowKey'
 import { hash01 } from '../lib/hash'
-import { DEFAULT_BLOCK_MINUTES, type ChannelConfig, type ChannelPlan, type Unit } from './types'
+import { DEFAULT_BLOCK_MINUTES, type ChannelPlan, type ScheduleChannelConfig, type Unit } from './types'
 
 /** A title's airable rows, in its own (season, episode) order. */
 export function unitsOf(title: Title): Unit[] {
@@ -19,7 +19,7 @@ export function channelSeed(channelId: string): number {
   return Math.floor(hash01(0, channelId) * 4294967296)
 }
 
-export function buildChannelPlan(config: ChannelConfig, collection: Collection, titles: Title[]): ChannelPlan {
+export function buildChannelPlan(config: ScheduleChannelConfig, collection: Collection, titles: Title[]): ChannelPlan {
   const excluded = new Set(config.exclude ?? [])
   return {
     channelId: config.id,

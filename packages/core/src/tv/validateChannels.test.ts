@@ -73,11 +73,11 @@ describe('number ranges', () => {
   ]
   const file = (channels: unknown[]) => ({ epoch: '2026-10-01T00:00:00Z', defaultChannel: 'n', channels })
 
-  it('accepts a network at 1–99, a franchise at 101–199 and a decade at 201+', () => {
+  it('accepts a network at 1–99, a franchise at 101–199 and a decade at 201–299', () => {
     const channels = [
       { id: 'n', number: 99, collection: 'net' },
       { id: 'f', number: 199, collection: 'fr' },
-      { id: 'd', number: 201, collection: 'dec' },
+      { id: 'd', number: 299, collection: 'dec' },
     ]
     expect(validateChannels(file(channels), { collections, titles })).toEqual([])
   })
@@ -85,7 +85,13 @@ describe('number ranges', () => {
   it('rejects a franchise above 199 and a decade below 201', () => {
     expect(validateChannels(file([{ id: 'f', number: 200, collection: 'fr' }, { id: 'd', number: 150, collection: 'dec' }]), { collections, titles }).slice(0, 2)).toEqual([
       'channels.json: channels[0] (f): a franchise channel\'s number must be from 101 to 199',
-      'channels.json: channels[1] (d): a decade channel\'s number must be 201 or more',
+      'channels.json: channels[1] (d): a decade channel\'s number must be from 201 to 299',
+    ])
+  })
+
+  it('rejects a decade at 300 or more, where live channels start', () => {
+    expect(validateChannels(file([{ id: 'n', number: 1, collection: 'net' }, { id: 'd', number: 301, collection: 'dec' }]), { collections, titles })).toEqual([
+      'channels.json: channels[1] (d): a decade channel\'s number must be from 201 to 299',
     ])
   })
 
@@ -95,5 +101,46 @@ describe('number ranges', () => {
       'channels.json: channels[1] (f): a franchise channel\'s number must be from 101 to 199',
       'channels.json: number 100 is used by more than one channel',
     ])
+  })
+})
+
+describe('validateChannels: YouTube live channels', () => {
+  const collections = [collectionOf('cn', ['m1'])]
+  const titles = [movieTitle('m1', 600)]
+  const live = (overrides: Record<string, unknown> = {}) => ({
+    id: 'al-jazeera', number: 301, name: 'Al Jazeera', youtube: 'https://www.youtube.com/watch?v=gCNeDWCI0vo', ...overrides,
+  })
+  const file = (entry: unknown) => ({ epoch: '2026-10-01T00:00:00Z', defaultChannel: 'cn', channels: [{ id: 'cn', number: 1, collection: 'cn' }, entry] })
+  const check = (entry: unknown) => validateChannels(file(entry), { collections, titles })
+
+  it('accepts a live by video URL or by channel URL, with an optional logo', () => {
+    expect(check(live())).toEqual([])
+    expect(check(live({ youtube: 'https://www.youtube.com/channel/UCNye-wNBqNL5ZzHSJj3l8Bg', logo: 'assets/live/aj.png' }))).toEqual([])
+  })
+
+  it('needs a name', () => {
+    expect(check(live({ name: undefined }))).toEqual(['channels.json: channels[1]: name is required for a youtube channel'])
+  })
+
+  it('rejects links it cannot play, like @handles', () => {
+    expect(check(live({ youtube: 'https://www.youtube.com/@AlJazeeraEnglish' }))).toEqual([
+      'channels.json: channels[1]: youtube must be a video URL/id or a channel URL with a UC… id',
+    ])
+  })
+
+  it('takes either a collection or a youtube link, not both', () => {
+    expect(check(live({ collection: 'cn' }))).toEqual(['channels.json: channels[1]: use either collection or youtube, not both'])
+  })
+
+  it('rejects schedule-only fields and a bad logo', () => {
+    expect(check(live({ blockMinutes: 30, exclude: [], logo: '' }))).toEqual([
+      'channels.json: channels[1]: blockMinutes and exclude are for collection channels',
+      'channels.json: channels[1]: logo must be a non-empty string when present',
+    ])
+  })
+
+  it('keeps lives at 301–399', () => {
+    expect(check(live({ number: 205 }))).toEqual(['channels.json: channels[1] (al-jazeera): a live channel\'s number must be from 301 to 399'])
+    expect(check(live({ number: 400 }))).toEqual(['channels.json: channels[1] (al-jazeera): a live channel\'s number must be from 301 to 399'])
   })
 })

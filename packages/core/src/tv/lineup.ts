@@ -4,7 +4,8 @@ import { collectionGroup } from '../collections/groups'
 import { keyValueStore } from '../ports/keyValueStore'
 import { buildChannelPlan } from './plan'
 import { validateChannelEntry, validateChannelsTop } from './validateChannels'
-import type { Channel, ChannelConfig, ChannelsFile, Lineup } from './types'
+import { parseYoutube, type YoutubeSource } from '../player/youtubeUrl'
+import type { Channel, ChannelConfig, ChannelsFile, LiveChannelConfig, Lineup } from './types'
 
 const LAST_CHANNEL_KEY = 'go10:tvLastChannel'
 
@@ -33,10 +34,15 @@ export function resolveLineup(raw: unknown, collections: Collection[], titles: T
       console.warn(`Skipping channel: ${errors.join('; ')}`)
       return
     }
-    const collection = collections.find((c) => c.id === config.collection) as Collection
     ids.add(config.id)
     numbers.add(config.number)
+    if ('youtube' in config) {
+      channels.push(liveChannel(config))
+      return
+    }
+    const collection = collections.find((c) => c.id === config.collection) as Collection
     channels.push({
+      kind: 'schedule',
       id: config.id,
       number: config.number,
       name: config.name ?? collection.name,
@@ -51,6 +57,20 @@ export function resolveLineup(raw: unknown, collections: Collection[], titles: T
     epochMs: Date.parse(file.epoch),
     defaultChannel: ids.has(file.defaultChannel) ? file.defaultChannel : channels[0].id,
     channels,
+  }
+}
+
+function liveChannel(config: LiveChannelConfig): Channel {
+  const source = parseYoutube(config.youtube) as YoutubeSource
+  return {
+    kind: 'live',
+    id: config.id,
+    number: config.number,
+    name: config.name,
+    group: 'live',
+    source,
+    logo: config.logo ?? null,
+    thumbnail: 'videoId' in source ? `https://i.ytimg.com/vi/${source.videoId}/hqdefault_live.jpg` : null,
   }
 }
 

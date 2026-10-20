@@ -2,7 +2,8 @@ import type { Title } from '../types'
 import type { Collection } from '../collections/types'
 import { collectionGroup } from '../collections/groups'
 import { buildChannelPlan } from './plan'
-import type { ChannelConfig } from './types'
+import { parseYoutube } from '../player/youtubeUrl'
+import type { LiveChannelConfig, ScheduleChannelConfig } from './types'
 
 /** Omit either to validate structure only, as the app does at runtime before the catalog loads. */
 export interface ChannelValidationContext {
@@ -39,6 +40,7 @@ export function validateChannelEntry(entry: unknown, index: number, ctx: Channel
 
   if (typeof entry.id !== 'string' || !KEBAB.test(entry.id)) fail('id must be a kebab-case string')
   if (!Number.isInteger(entry.number) || (entry.number as number) < 1) fail('number must be a positive integer')
+  if (entry.youtube !== undefined) return [...errors, ...validateLiveEntry(entry, where)]
   if (typeof entry.collection !== 'string') fail('collection must be a string')
   if (entry.name !== undefined && (typeof entry.name !== 'string' || entry.name.trim() === '')) {
     fail('name must be a non-empty string when present')
@@ -54,7 +56,7 @@ export function validateChannelEntry(entry: unknown, index: number, ctx: Channel
   }
   if (errors.length > 0 || !ctx.collections) return errors
 
-  const config = entry as unknown as ChannelConfig
+  const config = entry as unknown as ScheduleChannelConfig
   const named = `${FILE}: channels[${index}] (${config.id})`
   const collection = ctx.collections.find((c) => c.id === config.collection)
   if (!collection) return [`${named}: unknown collection "${config.collection}"`]
@@ -62,7 +64,7 @@ export function validateChannelEntry(entry: unknown, index: number, ctx: Channel
   if (group === 'franchise') {
     if (config.number < 101 || config.number > 199) errors.push(`${named}: a franchise channel's number must be from 101 to 199`)
   } else if (group === 'decade') {
-    if (config.number < 201) errors.push(`${named}: a decade channel's number must be 201 or more`)
+    if (config.number < 201 || config.number > 299) errors.push(`${named}: a decade channel's number must be from 201 to 299`)
   } else if (config.number > 99) {
     errors.push(`${named}: a network channel's number must be 99 or less`)
   }
@@ -71,6 +73,26 @@ export function validateChannelEntry(entry: unknown, index: number, ctx: Channel
   }
   if (ctx.titles && buildChannelPlan(config, collection, ctx.titles).titles.length === 0) {
     errors.push(`${named}: nothing in collection "${collection.id}" can air`)
+  }
+  return errors
+}
+
+/** A YouTube live's own fields (id and number are checked by the caller). */
+function validateLiveEntry(entry: Record<string, unknown>, where: string): string[] {
+  const errors: string[] = []
+  const fail = (message: string) => errors.push(`${where}: ${message}`)
+  if (entry.collection !== undefined) fail('use either collection or youtube, not both')
+  if (typeof entry.name !== 'string' || entry.name.trim() === '') fail('name is required for a youtube channel')
+  if (typeof entry.youtube !== 'string' || !parseYoutube(entry.youtube)) {
+    fail('youtube must be a video URL/id or a channel URL with a UC… id')
+  }
+  if (entry.blockMinutes !== undefined || entry.exclude !== undefined) fail('blockMinutes and exclude are for collection channels')
+  if (entry.logo !== undefined && (typeof entry.logo !== 'string' || entry.logo.trim() === '')) {
+    fail('logo must be a non-empty string when present')
+  }
+  const config = entry as unknown as LiveChannelConfig
+  if (errors.length === 0 && Number.isInteger(config.number) && (config.number < 301 || config.number > 399)) {
+    errors.push(`${where} (${config.id}): a live channel's number must be from 301 to 399`)
   }
   return errors
 }

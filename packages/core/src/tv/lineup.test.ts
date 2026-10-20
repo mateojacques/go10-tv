@@ -112,3 +112,23 @@ describe('franchise channels in the lineup', () => {
     expect(pickChannel(lineup, null)?.id).toBe('n1')
   })
 })
+
+describe('resolveLineup with a YouTube live', () => {
+  it('resolves it as a live channel, sorted among the others', () => {
+    const lineup = resolveLineup({
+      epoch: '2026-10-01T00:00:00Z',
+      defaultChannel: 'cn',
+      channels: [
+        { id: 'aj', number: 301, name: 'Al Jazeera', youtube: 'https://youtu.be/gCNeDWCI0vo' },
+        { id: 'dw', number: 302, name: 'DW', youtube: 'https://www.youtube.com/channel/UCNye-wNBqNL5ZzHSJj3l8Bg', logo: 'assets/live/dw.png' },
+        { id: 'cn', number: 1, collection: 'cn' },
+      ],
+    }, collections, titles)!
+    expect(lineup.channels.map((c) => [c.number, c.kind])).toEqual([[1, 'schedule'], [301, 'live'], [302, 'live']])
+    expect(lineup.channels[1]).toEqual({
+      kind: 'live', id: 'aj', number: 301, name: 'Al Jazeera', group: 'live',
+      source: { videoId: 'gCNeDWCI0vo' }, logo: null, thumbnail: 'https://i.ytimg.com/vi/gCNeDWCI0vo/hqdefault_live.jpg',
+    })
+    expect(lineup.channels[2]).toMatchObject({ source: { channelId: 'UCNye-wNBqNL5ZzHSJj3l8Bg' }, logo: 'assets/live/dw.png', thumbnail: null })
+  })
+})
