@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GO10 YouTube</title>
+<style>html,body{margin:0;height:100%;background:#000;overflow:hidden}iframe{border:0;width:100%;height:100%}</style>
+</head>
+<body>
+<script>
+  // The YouTube relay for builds served from file:// (packaged Tizen), which
+  // YouTube refuses with error 153: the app embeds this page with
+  // ?src=<embed url>, this page embeds YouTube from the site's own origin,
+  // and messages pass through both ways (see the youtube provider in
+  // packages/core). ES5: Tizen's Chromium is old.
+  (function () {
+    var match = /[?&]src=([^&]*)/.exec(location.search);
+    var src = match ? decodeURIComponent(match[1]) : '';
+    var embed = /^(https:\/\/www\.youtube(-nocookie)?\.com)\/embed\//.exec(src);
+    if (!embed) return;
+    var origin = embed[1];
+    var frame = document.createElement('iframe');
+    frame.setAttribute('src', src);
+    frame.setAttribute('allow', 'autoplay; fullscreen; encrypted-media');
+    frame.setAttribute('allowfullscreen', '');
+    document.body.appendChild(frame);
+    window.addEventListener('message', function (e) {
+      if (e.source === window.parent) frame.contentWindow.postMessage(e.data, origin);
+      // The app's page is file://, origin "null": it can only be addressed as '*'.
+      else if (e.source === frame.contentWindow && e.origin === origin) window.parent.postMessage(e.data, '*');
+    });
+  })();
+</script>
+</body>
+</html>
