@@ -5,6 +5,10 @@ export type PlayerEvent =
   | { kind: 'time'; time: number; duration: number }
   | { kind: 'paused' }
   | { kind: 'ended'; time: number }
+  /** Playing again, with no position in the same report (YouTube). */
+  | { kind: 'playing' }
+  /** The embed can't play this video at all (YouTube's onError: removed, embedding disabled…). */
+  | { kind: 'error'; code: number }
 
 /**
  * Everything the Player needs to know about one embed provider.
@@ -19,6 +23,8 @@ export interface EmbedProvider {
   /** `row` is what's playing now, so stale events can be dropped. */
   parse(data: unknown, row: CatalogRow): PlayerEvent | null
   seekMessage(time: number): unknown
+  /** Posted until the embed first speaks: YouTube says nothing until it hears it. */
+  handshakeMessage?: unknown
   /** Resume/pause commands; absent when the embed has none (vidlove). */
   playMessage?: unknown
   pauseMessage?: unknown

@@ -172,7 +172,7 @@ export function createPlaybackSession({ send, onEnded, onPlayingChange, now = Da
       } else if (event.kind === 'paused') {
         setPlaying(false)
         flush()
-      } else {
+      } else if (event.kind === 'ended') {
         finish(row, position?.duration || event.time || 0)
       }
     },
