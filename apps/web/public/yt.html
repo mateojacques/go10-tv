@@ -24,6 +24,12 @@
     frame.setAttribute('allow', 'autoplay; fullscreen; encrypted-media');
     frame.setAttribute('allowfullscreen', '');
     document.body.appendChild(frame);
+    // The app's handshake starts when this page loads, and gives up after a
+    // while; YouTube's own frame can load much later on a slow TV. Say it
+    // again for the app once YouTube is there (its replies go up as usual).
+    frame.addEventListener('load', function () {
+      frame.contentWindow.postMessage('{"event":"listening","id":1,"channel":"widget"}', origin);
+    });
     window.addEventListener('message', function (e) {
       if (e.source === window.parent) frame.contentWindow.postMessage(e.data, origin);
       // The app's page is file://, origin "null": it can only be addressed as '*'.

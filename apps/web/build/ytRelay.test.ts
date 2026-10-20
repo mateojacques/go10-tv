@@ -41,6 +41,12 @@ describe('yt.html relay', () => {
     expect(r.toParent).toHaveBeenCalledWith('{"event":"infoDelivery"}', '*')
   })
 
+  it("handshakes with YouTube itself once YouTube's frame loads, however slow", () => {
+    const r = relay(EMBED)
+    r.frame!.dispatchEvent(new r.win.Event('load'))
+    expect(r.toEmbed).toHaveBeenCalledWith('{"event":"listening","id":1,"channel":"widget"}', 'https://www.youtube-nocookie.com')
+  })
+
   it('ignores everyone else', () => {
     const r = relay(EMBED)
     r.receive('x', r.frame!.contentWindow, 'https://evil.example')
