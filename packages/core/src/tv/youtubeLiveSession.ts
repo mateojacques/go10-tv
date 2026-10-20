@@ -7,10 +7,12 @@ import type { LiveChannel } from './types'
  * A YouTube live on a channel slot: always joined at the live edge (a fresh
  * load, never a seek), started muted so autoplay is never refused (the slot
  * asks for sound like it does of ok.ru), and played again if it pauses.
+ * `onError` fires when YouTube can't play it at all (embedding disabled…).
  */
-export function createYoutubeLiveSession({ channel, send, now = Date.now }: {
+export function createYoutubeLiveSession({ channel, send, onError, now = Date.now }: {
   channel: LiveChannel
   send: (command: unknown) => void
+  onError?: (code: number) => void
   now?: () => number
 }): LiveSession {
   // Per slot: partial infoDelivery updates are tracked per embed.
@@ -38,6 +40,7 @@ export function createYoutubeLiveSession({ channel, send, now = Date.now }: {
       const event = parse(data)
       if (!event) return
       handshake?.stop()
+      if (event.kind === 'error') return onError?.(event.code)
       if (event.kind !== 'paused' || now() - lastResume < RESUME_INTERVAL_MS) return
       lastResume = now()
       send(youtube.playMessage)

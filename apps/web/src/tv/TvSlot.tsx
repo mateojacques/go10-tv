@@ -87,6 +87,7 @@ export function TvSlot({
       epochMs,
       send: (command) => frameRef.current?.contentWindow?.postMessage(command, session.origin),
       onFinishedEarly: rerender,
+      onError: () => dispatch({ type: 'fail' }),
     }),
   )
 

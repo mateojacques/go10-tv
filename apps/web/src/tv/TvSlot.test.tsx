@@ -206,6 +206,15 @@ describe('TvSlot with a YouTube live', () => {
     expect(screen.getByRole('status').textContent).toBe('Señal interrumpida')
   })
 
+  it('gives up at once when the live cannot be embedded', () => {
+    render(<TvSlot channel={live} epochMs={EPOCH} mode="full" />)
+    fireEvent.load(frame()!)
+    act(() => {
+      window.dispatchEvent(new MessageEvent('message', { data: JSON.stringify({ event: 'onError', info: 150 }), origin: YT, source: frame()!.contentWindow }))
+    })
+    expect(screen.getByRole('status').textContent).toBe('Señal interrumpida')
+  })
+
   it('shows its thumbnail when a preview gives up', () => {
     render(<TvSlot channel={live} epochMs={EPOCH} mode="tile" preview />)
     for (const wait of [8000, 1000, 8000, 2000, 8000, 3000, 8000]) act(() => vi.advanceTimersByTime(wait))

@@ -52,6 +52,7 @@ export function LiveVideo({
       epochMs,
       send: (command) => webRef.current?.injectJavaScript(commandScript(command)),
       onFinishedEarly: rerender,
+      onError: () => dispatch({ type: 'fail' }),
     }),
   )
   const send = (command: unknown) => webRef.current?.injectJavaScript(commandScript(command))

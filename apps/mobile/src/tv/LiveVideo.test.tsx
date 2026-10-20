@@ -184,6 +184,13 @@ describe('LiveVideo on a YouTube live', () => {
     expect(injected()).toContain(JSON.stringify('{"event":"command","func":"setVolume","args":[100]}'))
   })
 
+  it('gives up at once when the live cannot be embedded', async () => {
+    await renderYt()
+    await host({ kind: 'loaded' })
+    await host({ kind: 'embed', data: JSON.stringify({ event: 'onError', info: 150 }) })
+    expect(screen.getByText('Señal interrumpida')).toBeTruthy()
+  })
+
   it('gives up with no "up next" to promise', async () => {
     await renderYt()
     await exhaustRetries()

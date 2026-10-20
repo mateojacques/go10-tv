@@ -60,6 +60,13 @@ describe('createYoutubeLiveSession', () => {
     expect(sent).toHaveLength(2)
   })
 
+  it("reports the embed's errors", () => {
+    const onError = vi.fn()
+    const session = createYoutubeLiveSession({ channel, send: () => {}, onError })
+    session.handle(JSON.stringify({ event: 'onError', info: 150 }))
+    expect(onError).toHaveBeenCalledWith(150)
+  })
+
   it('speaks YouTube for play, sound and position', () => {
     const { session } = setup()
     expect(session.origin).toBe('https://www.youtube-nocookie.com')
