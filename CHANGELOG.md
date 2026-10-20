@@ -11,6 +11,25 @@ The version is set in `apps/mobile/app.config.ts` (with Android's
 `versionCode`, which must go up by one every release), in
 `apps/mobile/package.json` and in `apps/tizen/prod/config.xml`.
 
+## 2.0.0 — 2026-10-20
+
+New feature: YouTube. Videos and lives from YouTube play with the remote
+just like ok.ru, on the web, Android (phone and TV) and Tizen.
+
+- A catalog row whose `embed_url` is a YouTube link plays on YouTube. It
+  starts by itself, resumes where you left off, seeks ±10 s with Left/Right,
+  and has Play/Pause, previous/next and auto-next. A video YouTube won't let
+  other sites play opens the "Abrir en YouTube" fallback right away. Ads
+  YouTube plays first never count as progress.
+- YouTube lives are live TV channels, numbered 301–399 and listed under
+  "En vivo". Add one to `data/channels.json` with `name` and `youtube` (a
+  video link, or a channel's `/channel/UC…` link to follow whatever it
+  streams). They always open at the latest point.
+- *LoL Bootcamp NA* on 301: League of Legends pros streaming their NA
+  bootcamp.
+- The Tizen app plays YouTube through `yt.html` on the site, since YouTube
+  refuses to play inside a packaged app.
+
 ## 1.2.0 — 2026-10-15
 
 New content: six decade channels, each with the ten titles Latin America
