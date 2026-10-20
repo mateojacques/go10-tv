@@ -22,6 +22,8 @@ export interface EmbedProvider {
   src(row: CatalogRow, fromTime: number | null): string
   /** `row` is what's playing now, so stale events can be dropped. */
   parse(data: unknown, row: CatalogRow): PlayerEvent | null
+  /** A fresh `parse` for each load, for an embed whose reports only carry what changed (YouTube). */
+  createParser?: () => (data: unknown, row: CatalogRow) => PlayerEvent | null
   seekMessage(time: number): unknown
   /** Posted until the embed first speaks: YouTube says nothing until it hears it. */
   handshakeMessage?: unknown

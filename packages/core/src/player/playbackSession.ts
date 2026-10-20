@@ -6,6 +6,8 @@ import { startHandshake } from './handshake'
 
 /** How far before the resume point a report still counts as the video itself, not an ad before it. */
 const RESUME_SLACK_SECONDS = 5
+/** A handshaking embed (YouTube) reporting a file this much shorter than the row is playing an ad. */
+const AD_DURATION_RATIO = 0.8
 
 /** How long to wait for the embed before treating it as a load failure. */
 export const LOAD_TIMEOUT_MS = 8000
@@ -64,6 +66,7 @@ export function createPlaybackSession({ send, onEnded, onPlayingChange, onError,
 }): PlaybackSession {
   let row: CatalogRow | null = null
   let provider: EmbedProvider | null = null
+  let parse: EmbedProvider['parse'] = () => null
   let position: { key: string; time: number; duration: number } | null = null
   // Kept apart from `position` so seeking still works after a save clears it.
   let lastTime = 0
@@ -149,6 +152,7 @@ export function createPlaybackSession({ send, onEnded, onPlayingChange, onError,
       stopHandshake()
       row = next
       provider = providerFor(next)
+      parse = provider.createParser?.() ?? provider.parse.bind(provider)
       position = null
       ended = false
       setPlaying(false)
@@ -178,7 +182,7 @@ export function createPlaybackSession({ send, onEnded, onPlayingChange, onError,
 
     handle(data) {
       if (!row || !provider) return
-      const event = provider.parse(data, row)
+      const event = parse(data, row)
       if (!event) return
       stopHandshake()
       if (ended) return
@@ -193,6 +197,9 @@ export function createPlaybackSession({ send, onEnded, onPlayingChange, onError,
       }
       if (event.kind === 'time') {
         setPlaying(true)
+        // The row's file is never much shorter than the row: a short "file" is an ad before it.
+        const fileAtLeast = row.duration_seconds * AD_DURATION_RATIO
+        if (provider.handshakeMessage !== undefined && event.duration > 0 && event.duration < fileAtLeast) return
         if (reachedFrom !== null) {
           if (event.time < reachedFrom) return
           reachedFrom = null

@@ -79,6 +79,10 @@ describe('youtube provider: parse', () => {
     expect(parse(msg('infoDelivery', { currentTime: 2 }))).toEqual({ kind: 'time', time: 2, duration: 600 })
   })
 
+  it('reads the initial snapshot like an update', () => {
+    expect(createYoutubeParser()(msg('initialDelivery', { currentTime: 0, duration: 635, playerState: -1 }))).toEqual({ kind: 'time', time: 0, duration: 635 })
+  })
+
   it('reports playing when the state alone says so', () => {
     const parse = createYoutubeParser()
     expect(parse(msg('infoDelivery', { playerState: 1 }))).toEqual({ kind: 'playing' })

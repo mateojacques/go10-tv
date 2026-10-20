@@ -63,7 +63,8 @@ export function createYoutubeParser(): (data: unknown) => PlayerEvent | null {
     }
     if (message?.event === 'onError' && typeof message.info === 'number') return { kind: 'error', code: message.info }
     if (message?.event === 'onStateChange') return message.info === 1 ? { kind: 'playing' } : null
-    if (message?.event !== 'infoDelivery' || typeof message.info !== 'object' || message.info === null) return null
+    const delivery = message?.event === 'infoDelivery' || message?.event === 'initialDelivery'
+    if (!delivery || typeof message.info !== 'object' || message.info === null) return null
     const info = message.info as { currentTime?: number; duration?: number; playerState?: number }
     if (typeof info.duration === 'number') duration = info.duration
     const time = typeof info.currentTime === 'number' ? info.currentTime : null
@@ -75,7 +76,7 @@ export function createYoutubeParser(): (data: unknown) => PlayerEvent | null {
   }
 }
 
-// The on-demand player shows one video at a time; live slots make their own.
+// For callers without a session; the playback session takes a fresh one per load.
 const parse = createYoutubeParser()
 
 export const youtube: EmbedProvider = {
@@ -87,6 +88,7 @@ export const youtube: EmbedProvider = {
     return youtubeEmbedSrc(source, { start: fromTime })
   },
   parse: (data) => parse(data),
+  createParser: createYoutubeParser,
   seekMessage: (time) => command('seekTo', [time, true]),
   handshakeMessage: JSON.stringify({ event: 'listening', id: 1, channel: 'widget' }),
   playMessage: command('playVideo'),

@@ -352,6 +352,30 @@ describe('createPlaybackSession with YouTube', () => {
     expect(readProgress('aqz-KE-bpKQ')?.time).toBe(307)
   })
 
+  it("never saves a pre-roll ad's times on a first play", () => {
+    const { session } = setup()
+    session.load(yt)
+    session.handle(info({ currentTime: 14, duration: 15, playerState: 1 }))
+    clock += 10_000
+    session.flush()
+    expect(readProgress('aqz-KE-bpKQ')).toBeNull()
+    session.handle(info({ currentTime: 3, duration: 635 }))
+    clock += 10_000
+    session.handle(info({ currentTime: 13 }))
+    session.flush()
+    expect(readProgress('aqz-KE-bpKQ')?.time).toBe(13)
+  })
+
+  it("doesn't carry one video's duration into the next", () => {
+    const other: CatalogRow = { ...yt, video_id: 'jNQXAC9IVRw', duration_seconds: 19, embed_url: 'https://youtu.be/jNQXAC9IVRw' }
+    const { session } = setup()
+    session.load(other)
+    session.handle(info({ currentTime: 1, duration: 19, playerState: 1 }))
+    session.load(yt)
+    session.handle(info({ currentTime: 5 }))
+    expect(session.timeline().end).toBeNull()
+  })
+
   it('marks playing on a state-only report', () => {
     const { session, onPlayingChange } = setup()
     session.load(yt)
