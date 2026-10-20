@@ -279,3 +279,83 @@ describe('seekTo and timeline', () => {
     expect(setup().session.seekTo(5)).toBeNull()
   })
 })
+
+describe('createPlaybackSession with YouTube', () => {
+  const yt: CatalogRow = {
+    ...base, video_id: 'aqz-KE-bpKQ', type: 'movie', season_number: null, episode_number: null, duration_seconds: 635,
+    embed_url: 'https://www.youtube.com/watch?v=aqz-KE-bpKQ',
+  }
+  const info = (fields: Record<string, number>) => JSON.stringify({ event: 'infoDelivery', info: fields })
+  const HANDSHAKE = '{"event":"listening","id":1,"channel":"widget"}'
+
+  beforeEach(() => vi.useFakeTimers())
+  afterEach(() => vi.useRealTimers())
+
+  it('handshakes on attach until the embed first speaks', () => {
+    const { session, sent } = setup()
+    session.load(yt)
+    session.attach()
+    vi.advanceTimersByTime(500)
+    expect(sent).toEqual([HANDSHAKE, HANDSHAKE, HANDSHAKE])
+    session.handle(info({ currentTime: 0, duration: 635, playerState: -1 }))
+    vi.advanceTimersByTime(2000)
+    expect(sent).toHaveLength(3)
+  })
+
+  it('stops handshaking when a new file loads', () => {
+    const { session, sent } = setup()
+    session.load(yt)
+    session.attach()
+    session.load(yt)
+    vi.advanceTimersByTime(2000)
+    expect(sent).toEqual([HANDSHAKE])
+  })
+
+  it('sends no handshake to ok.ru', () => {
+    const { session, sent } = setup()
+    session.load(movie)
+    session.attach()
+    vi.advanceTimersByTime(2000)
+    expect(sent).toEqual([])
+  })
+
+  it('reports an embed error once and saves nothing', () => {
+    const onError = vi.fn()
+    const session = createPlaybackSession({ send: () => {}, onEnded: () => {}, onError, now: () => clock })
+    session.load(yt)
+    session.handle(JSON.stringify({ event: 'onError', info: 101 }))
+    session.flush()
+    expect(onError).toHaveBeenCalledExactlyOnceWith(101)
+    expect(readProgress('aqz-KE-bpKQ')).toBeNull()
+  })
+
+  it("doesn't let an ad's early times overwrite the resume point", () => {
+    writeProgress('aqz-KE-bpKQ', { time: 300, duration: 635 })
+    const { session } = setup()
+    expect(session.load(yt)).toContain('&start=297')
+    session.handle(info({ currentTime: 3, duration: 15, playerState: 1 }))
+    clock += 10_000
+    session.handle(info({ currentTime: 9 }))
+    session.flush()
+    expect(readProgress('aqz-KE-bpKQ')?.time).toBe(300)
+    expect(session.timeline().time).toBe(297)
+  })
+
+  it('saves normally once playback reaches the resume point', () => {
+    writeProgress('aqz-KE-bpKQ', { time: 300, duration: 635 })
+    const { session } = setup()
+    session.load(yt)
+    session.handle(info({ currentTime: 297.2, duration: 635, playerState: 1 }))
+    clock += 10_000
+    session.handle(info({ currentTime: 307 }))
+    session.flush()
+    expect(readProgress('aqz-KE-bpKQ')?.time).toBe(307)
+  })
+
+  it('marks playing on a state-only report', () => {
+    const { session, onPlayingChange } = setup()
+    session.load(yt)
+    session.handle(info({ playerState: 1 }))
+    expect(onPlayingChange).toHaveBeenLastCalledWith(true)
+  })
+})

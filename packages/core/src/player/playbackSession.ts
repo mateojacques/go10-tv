@@ -2,6 +2,10 @@ import type { CatalogRow } from '../types'
 import { rowKey } from '../catalog/rowKey'
 import { markWatched, readProgress, resumeFromTime, writeProgress } from '../progress/progressStore'
 import { providerFor, type EmbedProvider } from './providers/index'
+import { startHandshake } from './handshake'
+
+/** How far before the resume point a report still counts as the video itself, not an ad before it. */
+const RESUME_SLACK_SECONDS = 5
 
 /** How long to wait for the embed before treating it as a load failure. */
 export const LOAD_TIMEOUT_MS = 8000
@@ -23,6 +27,8 @@ export interface PlaybackSession {
   load(row: CatalogRow): string
   /** The row changed without a reload: another chapter of the loaded file seeks to its start. */
   select(row: CatalogRow): void
+  /** The embed's frame loaded: handshake with it, if its provider needs one. */
+  attach(): void
   /** A raw message from the embed. */
   handle(data: unknown): void
   flush(): void
@@ -45,12 +51,14 @@ export interface PlaybackSession {
  * fires once per row when it finishes (the file's `ended`, or its chapter's
  * end time). With `seekCoalesceMs`, seeks made within that window of the
  * first one go out as a single seek at its end, so a slow embed isn't handed
- * a queue of seeks to work through.
+ * a queue of seeks to work through. `onError` fires when the embed says it
+ * can't play the video at all.
  */
-export function createPlaybackSession({ send, onEnded, onPlayingChange, now = Date.now, seekCoalesceMs = 0 }: {
+export function createPlaybackSession({ send, onEnded, onPlayingChange, onError, now = Date.now, seekCoalesceMs = 0 }: {
   send: (command: unknown) => void
   onEnded: () => void
   onPlayingChange?: (playing: boolean) => void
+  onError?: (code: number) => void
   now?: () => number
   seekCoalesceMs?: number
 }): PlaybackSession {
@@ -67,6 +75,16 @@ export function createPlaybackSession({ send, onEnded, onPlayingChange, now = Da
   // A coalesced seek waiting to go out; while it waits, the target (lastTime)
   // is the position, not the embed's reports from before the seek.
   let seekTimer: ReturnType<typeof setTimeout> | null = null
+  let handshake: { stop(): void } | null = null
+  // A handshaking embed (YouTube) can play an ad before the video, and reports
+  // the ad's times meanwhile: until playback reaches the resume point, they
+  // must not become the position.
+  let reachedFrom: number | null = null
+
+  function stopHandshake() {
+    handshake?.stop()
+    handshake = null
+  }
 
   function cancelSeek() {
     if (seekTimer !== null) clearTimeout(seekTimer)
@@ -128,6 +146,7 @@ export function createPlaybackSession({ send, onEnded, onPlayingChange, now = Da
     load(next) {
       flush()
       cancelSeek()
+      stopHandshake()
       row = next
       provider = providerFor(next)
       position = null
@@ -137,6 +156,7 @@ export function createPlaybackSession({ send, onEnded, onPlayingChange, now = Da
       lastTime = start ?? 0
       lastDuration = 0
       pendingSeek = provider.resumesViaUrl ? null : start
+      reachedFrom = provider.handshakeMessage !== undefined && start !== null ? start - RESUME_SLACK_SECONDS : null
       return provider.src(next, provider.resumesViaUrl ? start : null)
     },
 
@@ -151,13 +171,32 @@ export function createPlaybackSession({ send, onEnded, onPlayingChange, now = Da
       send(provider.seekMessage(lastTime))
     },
 
+    attach() {
+      stopHandshake()
+      if (provider?.handshakeMessage !== undefined) handshake = startHandshake(provider.handshakeMessage, send)
+    },
+
     handle(data) {
       if (!row || !provider) return
       const event = provider.parse(data, row)
-      if (!event || ended) return
+      if (!event) return
+      stopHandshake()
+      if (ended) return
 
+      if (event.kind === 'error') {
+        onError?.(event.code)
+        return
+      }
+      if (event.kind === 'playing') {
+        setPlaying(true)
+        return
+      }
       if (event.kind === 'time') {
         setPlaying(true)
+        if (reachedFrom !== null) {
+          if (event.time < reachedFrom) return
+          reachedFrom = null
+        }
         if (seekTimer === null) lastTime = event.time
         lastDuration = event.duration
         position = { key: rowKey(row), time: event.time, duration: event.duration }
