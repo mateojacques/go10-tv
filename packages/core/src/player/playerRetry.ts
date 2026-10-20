@@ -13,6 +13,8 @@ export type PlayerRetryEvent =
   | { type: 'retryLoadStarted' }
   | { type: 'loaded' }
   | { type: 'manualReload' }
+  /** The embed said it can't play this video: no point retrying. */
+  | { type: 'fail' }
 
 export const MAX_RETRIES = 3
 const RETRY_BACKOFF_MS = 1000
@@ -43,6 +45,8 @@ export function playerRetryReducer(
       return { ...state, status: 'loading', reloadToken: state.reloadToken + 1 }
     case 'loaded':
       return { ...state, status: 'ready' }
+    case 'fail':
+      return { ...state, status: 'failed' }
     case 'manualReload':
       return { attempt: 0, status: 'loading', reloadToken: state.reloadToken + 1 }
     default:

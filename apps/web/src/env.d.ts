@@ -4,4 +4,6 @@ interface ImportMetaEnv {
   readonly VITE_TMDB_TOKEN?: string
   /** Where catalog art is served from; unset = this site (`/`). See catalog/art.ts. */
   readonly VITE_IMAGE_BASE?: string
+  /** The site's YouTube relay page, for builds served from file:// (Tizen). */
+  readonly VITE_YT_RELAY?: string
 }

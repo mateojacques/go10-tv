@@ -96,6 +96,7 @@ export function Player({
       send: (command) => frameRef.current?.contentWindow?.postMessage(command, providerRef.current.origin),
       onEnded: () => onEndedRef.current?.(),
       onPlayingChange: setPlaying,
+      onError: () => dispatch({ type: 'fail' }),
       seekCoalesceMs: SEEK_COALESCE_MS,
     }),
   )
@@ -273,7 +274,8 @@ export function Player({
   const handleLoad = useCallback(() => {
     loaded.current = true
     dispatch({ type: 'loaded' })
-  }, [])
+    session.attach()
+  }, [session])
 
   const heading = row.series_title || row.title
   const position = rowLabel(row)

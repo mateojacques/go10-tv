@@ -69,3 +69,9 @@ describe('playerRetryReducer', () => {
     })
   })
 })
+
+describe('playerRetryReducer: fail', () => {
+  it('gives up at once, whatever the attempt', () => {
+    expect(playerRetryReducer({ attempt: 0, status: 'ready', reloadToken: 2 }, { type: 'fail' })).toEqual({ attempt: 0, status: 'failed', reloadToken: 2 })
+  })
+})
