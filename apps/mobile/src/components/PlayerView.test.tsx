@@ -326,3 +326,40 @@ describe('PlayerView on TV', () => {
     expect(catcher()).not.toBeNull()
   })
 })
+
+describe('PlayerView with YouTube', () => {
+  const yt: CatalogRow = {
+    ...movie, video_id: 'aqz-KE-bpKQ', title: 'Big Buck Bunny', duration_seconds: 635,
+    video_url: 'https://www.youtube.com/watch?v=aqz-KE-bpKQ', embed_url: 'https://www.youtube.com/watch?v=aqz-KE-bpKQ',
+  }
+  const HANDSHAKE = '{"event":"listening","id":1,"channel":"widget"}'
+
+  it('hosts the nocookie embed and trusts its origin', async () => {
+    await render(<PlayerView row={yt} siteUrl={SITE} onClose={jest.fn()} />)
+    const html = webview().props.source.html as string
+    expect(html).toContain('src="https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ?enablejsapi=1&amp;autoplay=1')
+    expect(html).toContain('var ORIGIN = "https://www.youtube-nocookie.com"')
+  })
+
+  it('handshakes once the host page says the embed loaded', async () => {
+    await render(<PlayerView row={yt} siteUrl={SITE} onClose={jest.fn()} />)
+    await post({ kind: 'loaded' })
+    expect(injected()).toContain(`window.go10Command(${JSON.stringify(HANDSHAKE)}); true;`)
+  })
+
+  it('falls back to YouTube at once when the video cannot be embedded', async () => {
+    await render(<PlayerView row={yt} siteUrl={SITE} onClose={jest.fn()} />)
+    await post({ kind: 'loaded' })
+    await post({ kind: 'embed', data: JSON.stringify({ event: 'onError', info: 150 }) })
+    expect(screen.getByText('No se pudo reproducir aquí.')).toBeTruthy()
+    expect(screen.getByRole('link', { name: 'Abrir en YouTube' })).toBeTruthy()
+  })
+
+  it('still installs the bridge on a TV, which keeps the WebView from taking focus', async () => {
+    mockTv.value = true
+    const { installBridge } = jest.requireMock('../player/embedBridge')
+    installBridge.mockClear()
+    await render(<PlayerView row={yt} siteUrl={SITE} onClose={jest.fn()} />)
+    expect(installBridge).toHaveBeenCalled()
+  })
+})

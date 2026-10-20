@@ -92,6 +92,7 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
       send: (command) => webRef.current?.injectJavaScript(commandScript(command)),
       onEnded: () => onNextRef.current?.(),
       onPlayingChange: setPlaying,
+      onError: () => dispatch({ type: 'fail' }),
       seekCoalesceMs: tvUi ? SEEK_COALESCE_MS : 0,
     }),
   )
@@ -288,6 +289,7 @@ export function PlayerView({ row, siteUrl, onClose, onPrev, onNext }: {
     if (message?.kind === 'loaded') {
       loadedRef.current = true
       dispatch({ type: 'loaded' })
+      session.attach()
     } else if (message?.kind === 'bridge') {
       bridge.handle(message.data)
     } else if (message) {
