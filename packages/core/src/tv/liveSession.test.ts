@@ -159,3 +159,27 @@ describe('createLiveSession', () => {
     expect(sent).toEqual([])
   })
 })
+
+describe('createLiveSession: the slot-facing extras', () => {
+  it('talks to ok.ru and needs no handshake', () => {
+    const { session, sent } = setup()
+    session.tune()
+    session.attach()
+    expect(session.origin).toBe('https://ok.ru')
+    expect(session.playMessage).toEqual({ action: 'play' })
+    expect(sent).toEqual([])
+  })
+
+  it('asks for sound, or silence', () => {
+    const { session } = setup()
+    expect(session.soundMessages(true)).toEqual([{ action: 'unmute' }, { action: 'volume', value: 1 }])
+    expect(session.soundMessages(false)).toEqual([{ action: 'mute' }])
+  })
+
+  it("reads the embed's position for the stall detector", () => {
+    const { session } = setup()
+    session.tune()
+    expect(session.parseTime(tick(42))).toBe(42)
+    expect(session.parseTime({ event: 'paused' })).toBeNull()
+  })
+})

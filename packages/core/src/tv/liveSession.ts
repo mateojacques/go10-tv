@@ -11,20 +11,29 @@ export const DRIFT_STRIKES = 2
 export const RESUME_INTERVAL_MS = 3000
 
 export interface LiveSession {
+  /** Where commands go and the only origin whose messages count. */
+  origin: string
   /** Joins the live second now; returns the embed src. Call on every load and every retry. */
   tune(): string
   /** Re-joins at max(now, atLeast): seeks in place if the file is the same ('seek'), else the caller reloads ('load'). */
   sync(atLeast?: number): 'seek' | 'load'
+  /** The frame loaded: handshake with the embed, if it needs one. */
+  attach(): void
   /** A raw postMessage payload from the embed. */
   handle(data: unknown): void
+  /** The embed's position in a raw payload, or null (the slot's stall detector). */
+  parseTime(data: unknown): number | null
+  playMessage: unknown
+  /** What to post for sound on (unmuted, full volume) or off. */
+  soundMessages(on: boolean): unknown[]
   current(): Airing | null
   finishedEarly(): boolean
 }
 
 /**
  * Keeps one embed on a channel's live schedule. A sibling of the on-demand
- * playback session that writes no watch progress. Channels are catalog-only,
- * so the embed is always ok.ru.
+ * playback session that writes no watch progress. Collection channels are
+ * catalog-only, so the embed is always ok.ru (YouTube lives: youtubeLiveSession).
  */
 export function createLiveSession({
   plan,
@@ -60,6 +69,15 @@ export function createLiveSession({
   }
 
   return {
+    origin: okru.origin,
+    playMessage: okru.playMessage,
+    soundMessages: (on) => (on ? [okru.unmuteMessage, okru.volumeMessage?.(1)] : [okru.muteMessage]),
+    attach() {},
+    parseTime(data) {
+      const event = airing ? okru.parse(data, airing.unit.row) : null
+      return event?.kind === 'time' ? event.time : null
+    },
+
     tune() {
       const position = settle(now())
       return buildEmbedSrc((airing as Airing).unit.row.embed_url, Math.floor(position))
