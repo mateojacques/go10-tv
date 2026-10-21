@@ -1,0 +1,1132 @@
+{
+  "title": "Avenida Brasil",
+  "type": "series",
+  "added": "2026-10-21",
+  "query": "Avenida Brasil c73794174",
+  "year": "2012",
+  "studio": "",
+  "source": "AVB",
+  "quality": "1080p",
+  "language": "Español Latino",
+  "subtitled": false,
+  "genre": "Drama",
+  "genre_secondary": "",
+  "videos": [
+    {
+      "video_id": "17119667882622",
+      "title_raw": "Avenida Brasil - Capitulo 002",
+      "duration_raw": "49:54",
+      "season_number": 1,
+      "episode_number": 2,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20644668246654&type=32&idx=0&scl=4&tkn=56f_WfRdVUJEYBO30fDzUkthvcQ&fn=external_8"
+    },
+    {
+      "video_id": "17119667489406",
+      "title_raw": "Avenida Brasil - Capitulo 003",
+      "duration_raw": "50:55",
+      "season_number": 1,
+      "episode_number": 3,
+      "views": 1,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20644613458558&type=32&idx=0&scl=4&tkn=dSR5dxfxH5yps5r11r9aIJ1RPPM&fn=external_8"
+    },
+    {
+      "video_id": "17119667686014",
+      "title_raw": "Avenida Brasil - Capitulo 004",
+      "duration_raw": "42:37",
+      "season_number": 1,
+      "episode_number": 4,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20644647275134&type=37&idx=2&scl=4&tkn=zPuqjskgPm-gkgd_MusVChhptAY&fn=external_8"
+    },
+    {
+      "video_id": "17119667620478",
+      "title_raw": "Avenida Brasil - Capitulo 005",
+      "duration_raw": "44:16",
+      "season_number": 1,
+      "episode_number": 5,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20644628990590&type=37&idx=1&scl=4&tkn=5fOGtQRS0pPhCvmNgnJYg8fONrQ&fn=external_8"
+    },
+    {
+      "video_id": "17119668275838",
+      "title_raw": "Avenida Brasil - Capitulo 006",
+      "duration_raw": "43:38",
+      "season_number": 1,
+      "episode_number": 6,
+      "views": 3,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20644725918334&type=37&idx=2&scl=4&tkn=grbKS6TNwreGYKoccyBy6mlNCxY&fn=external_8"
+    },
+    {
+      "video_id": "17119668144766",
+      "title_raw": "Avenida Brasil - Capitulo 007",
+      "duration_raw": "46:21",
+      "season_number": 1,
+      "episode_number": 7,
+      "views": 1,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20644710058622&type=37&idx=3&scl=4&tkn=YO9yE8gJ8sMttuDNQTTFGUMhtYo&fn=external_8"
+    },
+    {
+      "video_id": "17119668079230",
+      "title_raw": "Avenida Brasil - Capitulo 008",
+      "duration_raw": "43:42",
+      "season_number": 1,
+      "episode_number": 8,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20644682664574&type=37&idx=3&scl=4&tkn=yvQ4TPOnVKvqWenmbt2MpSzDNNI&fn=external_8"
+    },
+    {
+      "video_id": "17119667751550",
+      "title_raw": "Avenida Brasil - Capitulo 009",
+      "duration_raw": "47:28",
+      "season_number": 1,
+      "episode_number": 9,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20644653173374&type=32&idx=1&scl=4&tkn=Jot3xOOVKsLrAaBuRxkDdRufujU&fn=external_8"
+    },
+    {
+      "video_id": "17119806950014",
+      "title_raw": "Avenida Brasil - Capitulo 010",
+      "duration_raw": "44:38",
+      "season_number": 1,
+      "episode_number": 10,
+      "views": 4,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20644870097534&type=37&idx=1&scl=4&tkn=6Hw0iU7_He-hVaAVgsgsdNFkrrQ&fn=external_8"
+    },
+    {
+      "video_id": "17119807277694",
+      "title_raw": "Avenida Brasil - Capitulo 011",
+      "duration_raw": "47:09",
+      "season_number": 1,
+      "episode_number": 11,
+      "views": 3,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20644933405310&type=37&idx=3&scl=4&tkn=w2n4SyafB4ms8GLI-Nyv3iZAnc8&fn=external_8"
+    },
+    {
+      "video_id": "17119807539838",
+      "title_raw": "Avenida Brasil - Capitulo 012",
+      "duration_raw": "42:42",
+      "season_number": 1,
+      "episode_number": 12,
+      "views": 4,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20644956146302&type=37&idx=3&scl=4&tkn=Y9oKi6vAcx-A4JR2uIWf6yOraZQ&fn=external_8"
+    },
+    {
+      "video_id": "17119807670910",
+      "title_raw": "Avenida Brasil - Capitulo 013",
+      "duration_raw": "45:25",
+      "season_number": 1,
+      "episode_number": 13,
+      "views": 4,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20644984064638&type=37&idx=2&scl=4&tkn=6aJ0LkFfRkRC-v6eNTiUwg3souk&fn=external_8"
+    },
+    {
+      "video_id": "17119807212158",
+      "title_raw": "Avenida Brasil - Capitulo 014",
+      "duration_raw": "44:55",
+      "season_number": 1,
+      "episode_number": 14,
+      "views": 3,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20644911778430&type=37&idx=2&scl=4&tkn=oeVusnIiNE6DJuzns79QMbqdQ4g&fn=external_8"
+    },
+    {
+      "video_id": "17119807146622",
+      "title_raw": "Avenida Brasil - Capitulo 015",
+      "duration_raw": "45:14",
+      "season_number": 1,
+      "episode_number": 15,
+      "views": 4,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20644885301886&type=37&idx=2&scl=4&tkn=DNPK6V8J7MTsPps-Q4-ExpmEF2U&fn=external_8"
+    },
+    {
+      "video_id": "17121464683134",
+      "title_raw": "Avenida Brasil - Capitulo 051",
+      "duration_raw": "44:03",
+      "season_number": 1,
+      "episode_number": 51,
+      "views": 1,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20647919291006&type=37&idx=2&scl=4&tkn=kxsESqLNcSMQuA4YIjBKz0DlY2E&fn=external_8"
+    },
+    {
+      "video_id": "17121464879742",
+      "title_raw": "Avenida Brasil - Capitulo 052",
+      "duration_raw": "45:56",
+      "season_number": 1,
+      "episode_number": 52,
+      "views": 2,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20647940065918&type=37&idx=0&scl=4&tkn=-NIicIjFBqj88nW_IlnERcCAVlc&fn=external_8"
+    },
+    {
+      "video_id": "17121464552062",
+      "title_raw": "Avenida Brasil - Capitulo 053",
+      "duration_raw": "45:39",
+      "season_number": 1,
+      "episode_number": 53,
+      "views": 2,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20647894387326&type=37&idx=3&scl=4&tkn=0VVLtDUPLOUv30AjCwLx7ApjWPI&fn=external_8"
+    },
+    {
+      "video_id": "17121464289918",
+      "title_raw": "Avenida Brasil - Capitulo 054",
+      "duration_raw": "44:59",
+      "season_number": 1,
+      "episode_number": 54,
+      "views": 4,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20647826623102&type=37&idx=2&scl=4&tkn=LySfEzzBTA6J7XM42U7FcL7ipVg&fn=external_8"
+    },
+    {
+      "video_id": "17121465993854",
+      "title_raw": "Avenida Brasil - Capitulo 055",
+      "duration_raw": "42:20",
+      "season_number": 1,
+      "episode_number": 55,
+      "views": 4,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20648120617598&type=37&idx=2&scl=4&tkn=MSe8fQkeJD4f20Upok2lc8zDYTA&fn=external_8"
+    },
+    {
+      "video_id": "17121463962238",
+      "title_raw": "Avenida Brasil - Capitulo 056",
+      "duration_raw": "46:25",
+      "season_number": 1,
+      "episode_number": 56,
+      "views": 4,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20647796804222&type=37&idx=3&scl=4&tkn=Kxk6vUFreooHnMDYVpnNPwbqJzw&fn=external_8"
+    },
+    {
+      "video_id": "17121466124926",
+      "title_raw": "Avenida Brasil - Capitulo 057",
+      "duration_raw": "45:48",
+      "season_number": 1,
+      "episode_number": 57,
+      "views": 3,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20648139885182&type=37&idx=1&scl=4&tkn=06KlVP6i8AQgRWxvKswUJu2uNCo&fn=external_8"
+    },
+    {
+      "video_id": "17121464420990",
+      "title_raw": "Avenida Brasil - Capitulo 058",
+      "duration_raw": "44:55",
+      "season_number": 1,
+      "episode_number": 58,
+      "views": 2,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20647865354878&type=37&idx=0&scl=4&tkn=xcyvYlhARJgZW3vFNHn1lq2DKYw&fn=external_8"
+    },
+    {
+      "video_id": "17121466190462",
+      "title_raw": "Avenida Brasil - Capitulo 059",
+      "duration_raw": "46:22",
+      "season_number": 1,
+      "episode_number": 59,
+      "views": 1,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20648163281534&type=37&idx=3&scl=4&tkn=UEx94JdtJ0PUiBfvTd2R_7P83is&fn=external_8"
+    },
+    {
+      "video_id": "17121465076350",
+      "title_raw": "Avenida Brasil - Capitulo 060",
+      "duration_raw": "46:23",
+      "season_number": 1,
+      "episode_number": 60,
+      "views": 2,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20647966345854&type=37&idx=3&scl=4&tkn=Wd6MEsPii_x111hLn1xhCJR4Xoo&fn=external_8"
+    },
+    {
+      "video_id": "17121465141886",
+      "title_raw": "Avenida Brasil - Capitulo 061",
+      "duration_raw": "46:17",
+      "season_number": 1,
+      "episode_number": 61,
+      "views": 2,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20647992101502&type=37&idx=1&scl=4&tkn=3gPGLT3ULAXtopmYxfajOWkPSeM&fn=external_8"
+    },
+    {
+      "video_id": "17121466255998",
+      "title_raw": "Avenida Brasil - Capitulo 062",
+      "duration_raw": "46:34",
+      "season_number": 1,
+      "episode_number": 62,
+      "views": 2,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20648186940030&type=37&idx=2&scl=4&tkn=IUcftzmLbRRFVxBBQ8N-cjSIioo&fn=external_8"
+    },
+    {
+      "video_id": "17121465207422",
+      "title_raw": "Avenida Brasil - Capitulo 063",
+      "duration_raw": "45:18",
+      "season_number": 1,
+      "episode_number": 63,
+      "views": 3,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20648008223358&type=37&idx=2&scl=4&tkn=4r6xrqpXzf32bQeIKPrJkG8wItY&fn=external_8"
+    },
+    {
+      "video_id": "17121466583678",
+      "title_raw": "Avenida Brasil - Capitulo 064",
+      "duration_raw": "47:10",
+      "season_number": 1,
+      "episode_number": 64,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20648238713470&type=37&idx=2&scl=4&tkn=zkgBPmSuhpi8qiGFSqRqAmFI634&fn=external_8"
+    },
+    {
+      "video_id": "17121466387070",
+      "title_raw": "Avenida Brasil - Capitulo 065",
+      "duration_raw": "46:08",
+      "season_number": 1,
+      "episode_number": 65,
+      "views": 5,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20648210139774&type=37&idx=1&scl=4&tkn=u95jlz56i9uYPgSdNh104vLwH-I&fn=external_8"
+    },
+    {
+      "video_id": "17121464617598",
+      "title_raw": "Avenida Brasil - Capitulo 066",
+      "duration_raw": "45:29",
+      "season_number": 1,
+      "episode_number": 66,
+      "views": 2,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20647898974846&type=37&idx=3&scl=4&tkn=9zVRihJjF1PLo_4kvnyg1gZFiGY&fn=external_8"
+    },
+    {
+      "video_id": "17121465272958",
+      "title_raw": "Avenida Brasil - Capitulo 067",
+      "duration_raw": "45:21",
+      "season_number": 1,
+      "episode_number": 67,
+      "views": 3,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20648057637502&type=37&idx=0&scl=4&tkn=TBsbOGRLyDGpw4MVeBC9aLn1h8U&fn=external_8"
+    },
+    {
+      "video_id": "17121465338494",
+      "title_raw": "Avenida Brasil - Capitulo 068",
+      "duration_raw": "45:15",
+      "season_number": 1,
+      "episode_number": 68,
+      "views": 3,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20648069040766&type=37&idx=0&scl=4&tkn=W8ncgflVn0FAEQVMyvyyMZQELiE&fn=external_8"
+    },
+    {
+      "video_id": "17121465600638",
+      "title_raw": "Avenida Brasil - Capitulo 069",
+      "duration_raw": "45:58",
+      "season_number": 1,
+      "episode_number": 69,
+      "views": 3,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20648091847294&type=37&idx=3&scl=4&tkn=JLtW0D6g8443AlpMG_jGDsu38FM&fn=external_8"
+    },
+    {
+      "video_id": "17121466452606",
+      "title_raw": "Avenida Brasil - Capitulo 070",
+      "duration_raw": "46:07",
+      "season_number": 1,
+      "episode_number": 70,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20648222788222&type=37&idx=0&scl=4&tkn=cBefmc13Hg_kSnrmJH0eYXqpLpQ&fn=external_8"
+    },
+    {
+      "video_id": "17122880850558",
+      "title_raw": "Avenida Brasil - Capitulo 071",
+      "duration_raw": "45:52",
+      "season_number": 1,
+      "episode_number": 71,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20650364111486&type=37&idx=2&scl=4&tkn=BS2b653oFEMahb0aJwX5nvLgLDw&fn=external_8"
+    },
+    {
+      "video_id": "17122880457342",
+      "title_raw": "Avenida Brasil - Capitulo 072",
+      "duration_raw": "46:31",
+      "season_number": 1,
+      "episode_number": 72,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20650296478334&type=37&idx=2&scl=4&tkn=_sFedxlr3vBtJ0DbngiI4z9ivJ4&fn=external_8"
+    },
+    {
+      "video_id": "17122880916094",
+      "title_raw": "Avenida Brasil - Capitulo 073",
+      "duration_raw": "46:10",
+      "season_number": 1,
+      "episode_number": 73,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20650376170110&type=37&idx=3&scl=4&tkn=jpiA2SsJHPaoT2V2qxBZBV6qHRY&fn=external_8"
+    },
+    {
+      "video_id": "17122880719486",
+      "title_raw": "Avenida Brasil - Capitulo 074",
+      "duration_raw": "46:34",
+      "season_number": 1,
+      "episode_number": 74,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20650345564798&type=37&idx=0&scl=4&tkn=LD9JELY-LGiUF4szcbikXWPZubY&fn=external_8"
+    },
+    {
+      "video_id": "17122881374846",
+      "title_raw": "Avenida Brasil - Capitulo 075",
+      "duration_raw": "45:30",
+      "season_number": 1,
+      "episode_number": 75,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20650411690622&type=37&idx=2&scl=4&tkn=__cb8xwyiGCmFMAkPhdhCRBOONs&fn=external_8"
+    },
+    {
+      "video_id": "17122882095742",
+      "title_raw": "Avenida Brasil - Capitulo 076",
+      "duration_raw": "45:45",
+      "season_number": 1,
+      "episode_number": 76,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20650472835710&type=37&idx=0&scl=4&tkn=7K4cf49KVpBhle0oFAOj9MsVajI&fn=external_8"
+    },
+    {
+      "video_id": "17122881636990",
+      "title_raw": "Avenida Brasil - Capitulo 077",
+      "duration_raw": "46:08",
+      "season_number": 1,
+      "episode_number": 77,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20650432203390&type=37&idx=2&scl=4&tkn=OLp2U7DoO-4gnUzH-nsKkYsufIU&fn=external_8"
+    },
+    {
+      "video_id": "17122881112702",
+      "title_raw": "Avenida Brasil - Capitulo 078",
+      "duration_raw": "45:42",
+      "season_number": 1,
+      "episode_number": 78,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20650385869438&type=37&idx=3&scl=4&tkn=L_OqPrckVA0Sh_p8jupWDgaLIgM&fn=external_8"
+    },
+    {
+      "video_id": "17122881702526",
+      "title_raw": "Avenida Brasil - Capitulo 079",
+      "duration_raw": "46:20",
+      "season_number": 1,
+      "episode_number": 79,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20650439608958&type=37&idx=2&scl=4&tkn=bHU1PtZh1a_rla_mTvkoCnAEyZo&fn=external_8"
+    },
+    {
+      "video_id": "17122881768062",
+      "title_raw": "Avenida Brasil - Capitulo 080",
+      "duration_raw": "46:30",
+      "season_number": 1,
+      "episode_number": 80,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20650446031486&type=37&idx=0&scl=4&tkn=QdhRq0nxJkkyjJOXm2FAo0FkAMM&fn=external_8"
+    },
+    {
+      "video_id": "17122880653950",
+      "title_raw": "Avenida Brasil - Capitulo 081",
+      "duration_raw": "46:40",
+      "season_number": 1,
+      "episode_number": 81,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20650338421374&type=37&idx=2&scl=4&tkn=ch8FdgkQg1kRtWHUAjFs7ZUgS_E&fn=external_8"
+    },
+    {
+      "video_id": "17122881178238",
+      "title_raw": "Avenida Brasil - Capitulo 082",
+      "duration_raw": "45:05",
+      "season_number": 1,
+      "episode_number": 82,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20650393799294&type=37&idx=3&scl=4&tkn=BmsLHy8hKuXhTMFSK4hxa-BfrEc&fn=external_8"
+    },
+    {
+      "video_id": "17122880588414",
+      "title_raw": "Avenida Brasil - Capitulo 083",
+      "duration_raw": "47:15",
+      "season_number": 1,
+      "episode_number": 83,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20650307750526&type=37&idx=2&scl=4&tkn=4rLcM2TbA2SK3Sw8pZ4PiRRItVk&fn=external_8"
+    },
+    {
+      "video_id": "17122880785022",
+      "title_raw": "Avenida Brasil - Capitulo 084",
+      "duration_raw": "47:39",
+      "season_number": 1,
+      "episode_number": 84,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20650359523966&type=37&idx=2&scl=4&tkn=3Ch6orxLQ_w_OvTPGoDCf2nEe9A&fn=external_8"
+    },
+    {
+      "video_id": "17122881309310",
+      "title_raw": "Avenida Brasil - Capitulo 085",
+      "duration_raw": "45:27",
+      "season_number": 1,
+      "episode_number": 85,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20650405464702&type=37&idx=2&scl=4&tkn=OVaHW24JO73jlR-o0lLNdc8u6WM&fn=external_8"
+    },
+    {
+      "video_id": "17122881505918",
+      "title_raw": "Avenida Brasil - Capitulo 086",
+      "duration_raw": "44:59",
+      "season_number": 1,
+      "episode_number": 86,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20650419030654&type=37&idx=2&scl=4&tkn=Uti2P6yXs45LL6g6T_MDCDFMLzA&fn=external_8"
+    },
+    {
+      "video_id": "17122881571454",
+      "title_raw": "Avenida Brasil - Capitulo 087",
+      "duration_raw": "45:52",
+      "season_number": 1,
+      "episode_number": 87,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20650424666750&type=37&idx=3&scl=4&tkn=iHNq-k590kLW9zCR9lJHAs8DWRw&fn=external_8"
+    },
+    {
+      "video_id": "17122881833598",
+      "title_raw": "Avenida Brasil - Capitulo 088",
+      "duration_raw": "45:56",
+      "season_number": 1,
+      "episode_number": 88,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20650452978302&type=37&idx=3&scl=4&tkn=EjcB-VZ0rFcjuZfEXi7TkaMxdZA&fn=external_8"
+    },
+    {
+      "video_id": "17122881899134",
+      "title_raw": "Avenida Brasil - Capitulo 089",
+      "duration_raw": "47:21",
+      "season_number": 1,
+      "episode_number": 89,
+      "views": 1,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20650460318334&type=37&idx=1&scl=4&tkn=BBfX4bUM4UUpJtJlxTWI8FwRdgk&fn=external_8"
+    },
+    {
+      "video_id": "17122881964670",
+      "title_raw": "Avenida Brasil - Capitulo 090",
+      "duration_raw": "43:24",
+      "season_number": 1,
+      "episode_number": 90,
+      "views": 1,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20650466544254&type=37&idx=3&scl=4&tkn=D3btkAdKxU21A5irbAaxpCKUtus&fn=external_8"
+    },
+    {
+      "video_id": "17128187628158",
+      "title_raw": "Avenida Brasil - Capitulo 091",
+      "duration_raw": "44:04",
+      "season_number": 1,
+      "episode_number": 91,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20658983471742&type=37&idx=1&scl=4&tkn=aVo-QP5T_-Ihp_G8delRnE114Bs&fn=external_8"
+    },
+    {
+      "video_id": "17128187562622",
+      "title_raw": "Avenida Brasil - Capitulo 092",
+      "duration_raw": "43:09",
+      "season_number": 1,
+      "episode_number": 92,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20658961320574&type=37&idx=3&scl=4&tkn=zHbWu2MobxPshmUMuMk_kp7OSj8&fn=external_8"
+    },
+    {
+      "video_id": "17128187693694",
+      "title_raw": "Avenida Brasil - Capitulo 093",
+      "duration_raw": "46:28",
+      "season_number": 1,
+      "episode_number": 93,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20659007064702&type=37&idx=1&scl=4&tkn=X1uKmJS54mu68MlmoWAQAxmRFas&fn=external_8"
+    },
+    {
+      "video_id": "17128188152446",
+      "title_raw": "Avenida Brasil - Capitulo 094",
+      "duration_raw": "46:38",
+      "season_number": 1,
+      "episode_number": 94,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20659127388798&type=37&idx=0&scl=4&tkn=caQVvDUkmBoG6NkVE2eW3ik5nJU&fn=external_8"
+    },
+    {
+      "video_id": "17128187890302",
+      "title_raw": "Avenida Brasil - Capitulo 095",
+      "duration_raw": "46:10",
+      "season_number": 1,
+      "episode_number": 95,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20659100453502&type=37&idx=1&scl=4&tkn=_zsrOA39cFj-qpi2R8En-K8X2rM&fn=external_8"
+    },
+    {
+      "video_id": "17128188283518",
+      "title_raw": "Avenida Brasil - Capitulo 096",
+      "duration_raw": "47:02",
+      "season_number": 1,
+      "episode_number": 96,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20659190434430&type=37&idx=1&scl=4&tkn=RvsvsPrz2FR00IcaKDigetZDD8E&fn=external_8"
+    },
+    {
+      "video_id": "17128187824766",
+      "title_raw": "Avenida Brasil - Capitulo 097",
+      "duration_raw": "46:21",
+      "season_number": 1,
+      "episode_number": 97,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20659067882110&type=37&idx=2&scl=4&tkn=GJf2npRtoYLHaW6WEnBFoKFY1Pk&fn=external_8"
+    },
+    {
+      "video_id": "17128189659774",
+      "title_raw": "Avenida Brasil - Capitulo 098",
+      "duration_raw": "46:05",
+      "season_number": 1,
+      "episode_number": 98,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20659505203838&type=37&idx=1&scl=4&tkn=8UR-ehjbr4pZMA4vpQAgL9PCgmA&fn=external_8"
+    },
+    {
+      "video_id": "17128188873342",
+      "title_raw": "Avenida Brasil - Capitulo 099",
+      "duration_raw": "46:11",
+      "season_number": 1,
+      "episode_number": 99,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20659321440894&type=37&idx=3&scl=4&tkn=zX8eEYBwzJy_Se9KhLF1jIXN62w&fn=external_8"
+    },
+    {
+      "video_id": "17128189266558",
+      "title_raw": "Avenida Brasil - Capitulo 100",
+      "duration_raw": "45:29",
+      "season_number": 1,
+      "episode_number": 100,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20659378784894&type=37&idx=3&scl=4&tkn=_qXW4nZiFJuuah8VxqDrmFNEFLk&fn=external_8"
+    },
+    {
+      "video_id": "17128189332094",
+      "title_raw": "Avenida Brasil - Capitulo 101",
+      "duration_raw": "45:25",
+      "season_number": 1,
+      "episode_number": 101,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20659412667006&type=37&idx=3&scl=4&tkn=s8xdQK8l4q5uEyxlkDfbgsjz3LM&fn=external_8"
+    },
+    {
+      "video_id": "17128189397630",
+      "title_raw": "Avenida Brasil - Capitulo 102",
+      "duration_raw": "44:51",
+      "season_number": 1,
+      "episode_number": 102,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20659436391038&type=37&idx=3&scl=4&tkn=_vkRIWHBLmvk8tiAnTU8ME3CPHs&fn=external_8"
+    },
+    {
+      "video_id": "17128188480126",
+      "title_raw": "Avenida Brasil - Capitulo 103",
+      "duration_raw": "47:45",
+      "season_number": 1,
+      "episode_number": 103,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20659265800830&type=37&idx=2&scl=4&tkn=zm4vBbnHmchDdbyp-3MRf7nkd-o&fn=external_8"
+    },
+    {
+      "video_id": "17128188414590",
+      "title_raw": "Avenida Brasil - Capitulo 104",
+      "duration_raw": "44:44",
+      "season_number": 1,
+      "episode_number": 104,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20659220777598&type=37&idx=3&scl=4&tkn=W-LFR7AHYsJDrGMopLu8FFsaLKs&fn=external_8"
+    },
+    {
+      "video_id": "17128187759230",
+      "title_raw": "Avenida Brasil - Capitulo 105",
+      "duration_raw": "45:09",
+      "season_number": 1,
+      "episode_number": 105,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20659046255230&type=37&idx=3&scl=4&tkn=ZlmeiZNYGZD3pOAoO-GXWQjljmY&fn=external_8"
+    },
+    {
+      "video_id": "17128189463166",
+      "title_raw": "Avenida Brasil - Capitulo 106",
+      "duration_raw": "45:30",
+      "season_number": 1,
+      "episode_number": 106,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20659460115070&type=37&idx=1&scl=4&tkn=o9DfwckWL1trtzshxHqyVqDani8&fn=external_8"
+    },
+    {
+      "video_id": "17128188217982",
+      "title_raw": "Avenida Brasil - Capitulo 107",
+      "duration_raw": "47:02",
+      "season_number": 1,
+      "episode_number": 107,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20659159632510&type=37&idx=1&scl=4&tkn=6YC2Tpn5ZWf_m2RwCW5TsySNb_g&fn=external_8"
+    },
+    {
+      "video_id": "17128188742270",
+      "title_raw": "Avenida Brasil - Capitulo 108",
+      "duration_raw": "46:25",
+      "season_number": 1,
+      "episode_number": 108,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20659295095422&type=37&idx=2&scl=4&tkn=Axz6t3UKIGfY5nCWrKkO_Q9yyts&fn=external_8"
+    },
+    {
+      "video_id": "17128189201022",
+      "title_raw": "Avenida Brasil - Capitulo 109",
+      "duration_raw": "43:34",
+      "season_number": 1,
+      "episode_number": 109,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20659342543486&type=37&idx=3&scl=4&tkn=glLVZW3b6oOSA1fE_bekPKR0vSM&fn=external_8"
+    },
+    {
+      "video_id": "17128189594238",
+      "title_raw": "Avenida Brasil - Capitulo 110",
+      "duration_raw": "43:55",
+      "season_number": 1,
+      "episode_number": 110,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20659480562302&type=37&idx=2&scl=4&tkn=Wa5gVYIeQQ-thlofFiYTsGLoNIk&fn=external_8"
+    },
+    {
+      "video_id": "17128896137854",
+      "title_raw": "Avenida Brasil - Capitulo 111",
+      "duration_raw": "45:51",
+      "season_number": 1,
+      "episode_number": 111,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20660463995518&type=37&idx=1&scl=4&tkn=-LxbRhwlISs94OaoolKirSE6d5g&fn=external_8"
+    },
+    {
+      "video_id": "17128896793214",
+      "title_raw": "Avenida Brasil - Capitulo 112",
+      "duration_raw": "44:27",
+      "season_number": 1,
+      "episode_number": 112,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20660573702782&type=37&idx=1&scl=4&tkn=nH6Pi0hxeiW61JpNfDdigGIlcDg&fn=external_8"
+    },
+    {
+      "video_id": "17128897186430",
+      "title_raw": "Avenida Brasil - Capitulo 113",
+      "duration_raw": "46:23",
+      "season_number": 1,
+      "episode_number": 113,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20660699400830&type=37&idx=2&scl=4&tkn=77ov-AUG65Y12MaHmaCkWJ6P7iM&fn=external_8"
+    },
+    {
+      "video_id": "17128896924286",
+      "title_raw": "Avenida Brasil - Capitulo 114",
+      "duration_raw": "45:28",
+      "season_number": 1,
+      "episode_number": 114,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20660602931838&type=37&idx=2&scl=4&tkn=BXnjjXzKcJx6BymFoto5D30j4cE&fn=external_8"
+    },
+    {
+      "video_id": "17128897383038",
+      "title_raw": "Avenida Brasil - Capitulo 115",
+      "duration_raw": "44:08",
+      "season_number": 1,
+      "episode_number": 115,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20660769720958&type=37&idx=3&scl=4&tkn=G5tACGfglffRr4wucewjARF_T9E&fn=external_8"
+    },
+    {
+      "video_id": "17128896006782",
+      "title_raw": "Avenida Brasil - Capitulo 116",
+      "duration_raw": "46:17",
+      "season_number": 1,
+      "episode_number": 116,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20660398918270&type=37&idx=1&scl=4&tkn=icJzUYkbHzBfLBPeb0Rs0WGhwcM&fn=external_8"
+    },
+    {
+      "video_id": "17128897448574",
+      "title_raw": "Avenida Brasil - Capitulo 117",
+      "duration_raw": "44:26",
+      "season_number": 1,
+      "episode_number": 117,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20660803471998&type=37&idx=0&scl=4&tkn=FFNrB0hYsikQK1RNG8GtQ20Pydo&fn=external_8"
+    },
+    {
+      "video_id": "17128895875710",
+      "title_raw": "Avenida Brasil - Capitulo 118",
+      "duration_raw": "46:00",
+      "season_number": 1,
+      "episode_number": 118,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20660339673726&type=37&idx=0&scl=4&tkn=lObIhzeerqOO6p5p1gmbOJODGe4&fn=external_8"
+    },
+    {
+      "video_id": "17128895941246",
+      "title_raw": "Avenida Brasil - Capitulo 119",
+      "duration_raw": "44:08",
+      "season_number": 1,
+      "episode_number": 119,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20660368509566&type=37&idx=3&scl=4&tkn=TY52mV-PvRGp4LIK14mrW8NRw9w&fn=external_8"
+    },
+    {
+      "video_id": "17128896268926",
+      "title_raw": "Avenida Brasil - Capitulo 120",
+      "duration_raw": "46:41",
+      "season_number": 1,
+      "episode_number": 120,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20660476250750&type=37&idx=1&scl=4&tkn=5727VEAl7gMdqME8OT-HKB6ySwY&fn=external_8"
+    },
+    {
+      "video_id": "17128897317502",
+      "title_raw": "Avenida Brasil - Capitulo 121",
+      "duration_raw": "44:39",
+      "season_number": 1,
+      "episode_number": 121,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20660744751742&type=37&idx=3&scl=4&tkn=1sWg2Ux8eBy0_2I9q1Ff89WTBJI&fn=external_8"
+    },
+    {
+      "video_id": "17128895679102",
+      "title_raw": "Avenida Brasil - Capitulo 122",
+      "duration_raw": "47:34",
+      "season_number": 1,
+      "episode_number": 122,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20660280035966&type=37&idx=2&scl=4&tkn=c7Vlw-Zd0cUTN9mDFBFdnFWiAgM&fn=external_8"
+    },
+    {
+      "video_id": "17128896662142",
+      "title_raw": "Avenida Brasil - Capitulo 123",
+      "duration_raw": "46:40",
+      "season_number": 1,
+      "episode_number": 123,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20660552665726&type=37&idx=1&scl=4&tkn=qAqJt7x5vLUOde_v8IfwH3nE6jU&fn=external_8"
+    },
+    {
+      "video_id": "17128896399998",
+      "title_raw": "Avenida Brasil - Capitulo 124",
+      "duration_raw": "46:06",
+      "season_number": 1,
+      "episode_number": 124,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20660509608574&type=37&idx=3&scl=4&tkn=99FL27OkM080zsBDUo2iue0iLS0&fn=external_8"
+    },
+    {
+      "video_id": "17128895810174",
+      "title_raw": "Avenida Brasil - Capitulo 125",
+      "duration_raw": "46:25",
+      "season_number": 1,
+      "episode_number": 125,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20660306053758&type=37&idx=0&scl=4&tkn=5keh8b75ZSVqNx-R5Ehy9dxyg1Q&fn=external_8"
+    },
+    {
+      "video_id": "17128896072318",
+      "title_raw": "Avenida Brasil - Capitulo 126",
+      "duration_raw": "45:46",
+      "season_number": 1,
+      "episode_number": 126,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20660432079486&type=37&idx=2&scl=4&tkn=w3f7dngNNuoyBMfJrAMwoNhG2n0&fn=external_8"
+    },
+    {
+      "video_id": "17128895613566",
+      "title_raw": "Avenida Brasil - Capitulo 127",
+      "duration_raw": "47:48",
+      "season_number": 1,
+      "episode_number": 127,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20660245105278&type=37&idx=1&scl=4&tkn=-F4-5OBs6hTBZy4O9W71PTqvx0o&fn=external_8"
+    },
+    {
+      "video_id": "17128897251966",
+      "title_raw": "Avenida Brasil - Capitulo 128",
+      "duration_raw": "45:31",
+      "season_number": 1,
+      "episode_number": 128,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20660712376958&type=37&idx=2&scl=4&tkn=96EHt8g8TNXILpoHPtTLnwonwDM&fn=external_8"
+    },
+    {
+      "video_id": "17128897055358",
+      "title_raw": "Avenida Brasil - Capitulo 129",
+      "duration_raw": "45:26",
+      "season_number": 1,
+      "episode_number": 129,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20660624296574&type=37&idx=2&scl=4&tkn=LypolfawHS2TQ0k8ag5tBb23fTc&fn=external_8"
+    },
+    {
+      "video_id": "17128897120894",
+      "title_raw": "Avenida Brasil - Capitulo 130",
+      "duration_raw": "47:13",
+      "season_number": 1,
+      "episode_number": 130,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20660664732286&type=37&idx=1&scl=4&tkn=Tl1ZFRQqtG4l4JZlFFyXVQJOWF0&fn=external_8"
+    },
+    {
+      "video_id": "17130081028734",
+      "title_raw": "Avenida Brasil - Capitulo 131",
+      "duration_raw": "46:08",
+      "season_number": 1,
+      "episode_number": 131,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20662988769918&type=37&idx=0&scl=4&tkn=0Pna4sjN6cIWOumTQkArc6ue9dA&fn=external_8"
+    },
+    {
+      "video_id": "17130079586942",
+      "title_raw": "Avenida Brasil - Capitulo 132",
+      "duration_raw": "46:03",
+      "season_number": 1,
+      "episode_number": 132,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20662659648126&type=37&idx=2&scl=4&tkn=P3v4G_5tgUdCV6tOHmuWFnzOQMI&fn=external_8"
+    },
+    {
+      "video_id": "17130080766590",
+      "title_raw": "Avenida Brasil - Capitulo 133",
+      "duration_raw": "46:39",
+      "season_number": 1,
+      "episode_number": 133,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20662869232254&type=37&idx=0&scl=4&tkn=OwpldBAD0JwrQlkOMn1iYhpXTmA&fn=external_8"
+    },
+    {
+      "video_id": "17130081815166",
+      "title_raw": "Avenida Brasil - Capitulo 134",
+      "duration_raw": "46:30",
+      "season_number": 1,
+      "episode_number": 134,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20663164471934&type=37&idx=1&scl=4&tkn=DP_VrQrfvGs-1QA4sGj67vcMDGs&fn=external_8"
+    },
+    {
+      "video_id": "17130079455870",
+      "title_raw": "Avenida Brasil - Capitulo 135",
+      "duration_raw": "46:44",
+      "season_number": 1,
+      "episode_number": 135,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20662625110654&type=37&idx=2&scl=4&tkn=3n9-lpBiscKIjE6dsIYaxc2gU-M&fn=external_8"
+    },
+    {
+      "video_id": "17130081749630",
+      "title_raw": "Avenida Brasil - Capitulo 136",
+      "duration_raw": "44:07",
+      "season_number": 1,
+      "episode_number": 136,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20663121611390&type=37&idx=3&scl=4&tkn=fNISaLLrZYAhj2-67SgTZz9TG1Q&fn=external_8"
+    },
+    {
+      "video_id": "17130079980158",
+      "title_raw": "Avenida Brasil - Capitulo 137",
+      "duration_raw": "44:24",
+      "season_number": 1,
+      "episode_number": 137,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20662778530430&type=37&idx=0&scl=4&tkn=PgJULtfF4CfMGZ1H3VV6fMniJ3M&fn=external_8"
+    },
+    {
+      "video_id": "17130079324798",
+      "title_raw": "Avenida Brasil - Capitulo 138",
+      "duration_raw": "45:58",
+      "season_number": 1,
+      "episode_number": 138,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20662598896254&type=37&idx=2&scl=4&tkn=TGuvpE06wyAwazKnGa3sCTKTd7Y&fn=external_8"
+    },
+    {
+      "video_id": "17130078734974",
+      "title_raw": "Avenida Brasil - Capitulo 139",
+      "duration_raw": "47:39",
+      "season_number": 1,
+      "episode_number": 139,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20662429223550&type=37&idx=3&scl=4&tkn=25pHegXinLdozYPgI7lLxpAaJkk&fn=external_8"
+    },
+    {
+      "video_id": "17130078997118",
+      "title_raw": "Avenida Brasil - Capitulo 140",
+      "duration_raw": "46:09",
+      "season_number": 1,
+      "episode_number": 140,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20662503672446&type=37&idx=1&scl=4&tkn=JdgXNUNrjiJ03Qu2e-tcUfvlbL4&fn=external_8"
+    },
+    {
+      "video_id": "17130079193726",
+      "title_raw": "Avenida Brasil - Capitulo 141",
+      "duration_raw": "46:37",
+      "season_number": 1,
+      "episode_number": 141,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20662564162174&type=37&idx=3&scl=4&tkn=eLN7nrDvdvHM9k7rRE5-nA0QCSQ&fn=external_8"
+    },
+    {
+      "video_id": "17130079652478",
+      "title_raw": "Avenida Brasil - Capitulo 142",
+      "duration_raw": "45:05",
+      "season_number": 1,
+      "episode_number": 142,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20662723086974&type=37&idx=1&scl=4&tkn=GLuaE_sM__Dns48hSmRvG1IbbQs&fn=external_8"
+    },
+    {
+      "video_id": "17130080438910",
+      "title_raw": "Avenida Brasil - Capitulo 143",
+      "duration_raw": "45:30",
+      "season_number": 1,
+      "episode_number": 143,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20662810118782&type=37&idx=3&scl=4&tkn=h-kZnf_X7mmWAE_QLlwxnoXJ8hM&fn=external_8"
+    },
+    {
+      "video_id": "17130080701054",
+      "title_raw": "Avenida Brasil - Capitulo 144",
+      "duration_raw": "47:57",
+      "season_number": 1,
+      "episode_number": 144,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20662858418814&type=37&idx=3&scl=4&tkn=j1UTgE5B-6VLr3tepxq5htwsqw4&fn=external_8"
+    },
+    {
+      "video_id": "17130081553022",
+      "title_raw": "Avenida Brasil - Capitulo 145",
+      "duration_raw": "48:32",
+      "season_number": 1,
+      "episode_number": 145,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20663051291262&type=37&idx=2&scl=4&tkn=qt81JgPyOX8ImkaLMuLuobnGTF8&fn=external_8"
+    },
+    {
+      "video_id": "17130080832126",
+      "title_raw": "Avenida Brasil - Capitulo 146",
+      "duration_raw": "46:28",
+      "season_number": 1,
+      "episode_number": 146,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20662903900798&type=37&idx=1&scl=4&tkn=sFJ1-RDeYfHYV0-X_Are9YPalY4&fn=external_8"
+    },
+    {
+      "video_id": "17130080963198",
+      "title_raw": "Avenida Brasil - Capitulo 147",
+      "duration_raw": "46:28",
+      "season_number": 1,
+      "episode_number": 147,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20662955674238&type=37&idx=2&scl=4&tkn=PQ39fy4BeKclr9dag7EMGKkx8hU&fn=external_8"
+    },
+    {
+      "video_id": "17130082142846",
+      "title_raw": "Avenida Brasil - Capitulo 148",
+      "duration_raw": "46:03",
+      "season_number": 1,
+      "episode_number": 148,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20663215196798&type=37&idx=2&scl=4&tkn=tQS4iWlTzcs3dlDOJ4r-Z2CvUBM&fn=external_8"
+    },
+    {
+      "video_id": "17130082339454",
+      "title_raw": "Avenida Brasil - Capitulo 149",
+      "duration_raw": "45:38",
+      "season_number": 1,
+      "episode_number": 149,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20663317236350&type=37&idx=1&scl=4&tkn=6wneW6ADTFxzFIjYl3upkV_LwuM&fn=external_8"
+    },
+    {
+      "video_id": "17130081421950",
+      "title_raw": "Avenida Brasil - Capitulo 150",
+      "duration_raw": "46:59",
+      "season_number": 1,
+      "episode_number": 150,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20663014525566&type=37&idx=3&scl=4&tkn=o6meI_Koo8Uy0NlcFMUltg1_g7Q&fn=external_8"
+    },
+    {
+      "video_id": "17130082273918",
+      "title_raw": "Avenida Brasil - Capitulo 151",
+      "duration_raw": "46:35",
+      "season_number": 1,
+      "episode_number": 151,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20663301573246&type=37&idx=1&scl=4&tkn=520HKyLOfGf9cSy_hX9STJFlfSI&fn=external_8"
+    },
+    {
+      "video_id": "17130078931582",
+      "title_raw": "Avenida Brasil - Capitulo 152",
+      "duration_raw": "47:15",
+      "season_number": 1,
+      "episode_number": 152,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20662468283006&type=37&idx=3&scl=4&tkn=_yf1NuPsCxqsPEpWTR7Jl6_EURg&fn=external_8"
+    },
+    {
+      "video_id": "17130079849086",
+      "title_raw": "Avenida Brasil - Capitulo 153",
+      "duration_raw": "47:11",
+      "season_number": 1,
+      "episode_number": 153,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20662752184958&type=37&idx=1&scl=4&tkn=7ESuFAEKZh25Gs0iUkU-swhxaZk&fn=external_8"
+    },
+    {
+      "video_id": "17130078669438",
+      "title_raw": "Avenida Brasil - Capitulo 154",
+      "duration_raw": "47:23",
+      "season_number": 1,
+      "episode_number": 154,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20662400453246&type=37&idx=2&scl=4&tkn=x-h9zh3RWscDbRlJi-XkcTFHAfA&fn=external_8"
+    },
+    {
+      "video_id": "17130078603902",
+      "title_raw": "Avenida Brasil - Capitulo 155",
+      "duration_raw": "47:04",
+      "season_number": 1,
+      "episode_number": 155,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20662365194878&type=37&idx=2&scl=4&tkn=zIWC2KnLSdOwBUO7sPZNPvSXc1k&fn=external_8"
+    },
+    {
+      "video_id": "17130082208382",
+      "title_raw": "Avenida Brasil - Capitulo 156",
+      "duration_raw": "47:18",
+      "season_number": 1,
+      "episode_number": 156,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20663271623294&type=37&idx=2&scl=4&tkn=tnkuDy9gDhqDqmoEZ561KkrcLAw&fn=external_8"
+    },
+    {
+      "video_id": "17130079062654",
+      "title_raw": "Avenida Brasil - Capitulo 157",
+      "duration_raw": "47:37",
+      "season_number": 1,
+      "episode_number": 157,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20662524971646&type=37&idx=2&scl=4&tkn=xh6TuwLHaXN8h19P2ugi0Osgeb0&fn=external_8"
+    },
+    {
+      "video_id": "17130079783550",
+      "title_raw": "Avenida Brasil - Capitulo 158",
+      "duration_raw": "48:14",
+      "season_number": 1,
+      "episode_number": 158,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20662740519550&type=37&idx=1&scl=4&tkn=_gPg-sQsq1pGBKa84EPvmR_Te_E&fn=external_8"
+    },
+    {
+      "video_id": "17130081684094",
+      "title_raw": "Avenida Brasil - Capitulo 159",
+      "duration_raw": "48:56",
+      "season_number": 1,
+      "episode_number": 159,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20663093889662&type=37&idx=2&scl=4&tkn=Sd8Y4ORJaFpzVRJ6RcDoE2MYcu4&fn=external_8"
+    },
+    {
+      "video_id": "17130082011774",
+      "title_raw": "Avenida Brasil - Capitulo 160",
+      "duration_raw": "52:41",
+      "season_number": 1,
+      "episode_number": 160,
+      "views": 0,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20663184460414&type=37&idx=2&scl=4&tkn=3YYcFXSLS68pl0uPbiADN6PL9P8&fn=external_8"
+    }
+  ]
+}
