@@ -1,25 +1,34 @@
 {
   "title": "Dragon Ball Super: Beerus",
   "type": "series",
-  "added": "2026-10-12",
-  "query": "https://ok.ru/video/16136444709589",
+  "added": "2026-10-22",
+  "query": "https://ok.ru/video/17104742124156 https://ok.ru/video/17199054588540",
   "year": "2026",
   "studio": "",
-  "source": "Joel carlos",
+  "source": "Alberto Santiago",
   "quality": "1080p",
-  "language": "Japonés",
-  "subtitled": true,
+  "language": "Español Latino",
+  "subtitled": false,
   "genre": "Anime",
   "genre_secondary": "Acción",
   "videos": [
     {
-      "video_id": "16136444709589",
+      "video_id": "17104742124156",
       "season_number": 1,
       "episode_number": 1,
-      "title_raw": "Dragon Ball Super - Beerus Cap 01",
-      "duration_raw": "23:17",
-      "views": 7,
-      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=18550474738389&type=37&idx=3&scl=4&tkn=Bo5OnQcYz9xLq4Y6dzF8-KrzCQg&fn=external_7"
+      "title_raw": "1x01 El Dios de la Destrucción",
+      "duration_raw": "23:19",
+      "views": 33,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20321341147772&type=37&idx=0&scl=4&tkn=xcBLRpLJjrLWM08OtdF7Y_hOOYs&fn=external_8"
+    },
+    {
+      "video_id": "17199054588540",
+      "season_number": 1,
+      "episode_number": 2,
+      "title_raw": "1x02 El Dios de la Destrucción se dirige al planeta de los Kaio",
+      "duration_raw": "23:20",
+      "views": 5,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20483503819388&type=37&idx=2&scl=4&tkn=CvChNc7chbJz9eTdECFa3RWkiZU&fn=external_8"
     }
   ]
 }
