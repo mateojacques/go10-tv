@@ -15,11 +15,11 @@ export default ({ config }: ConfigContext): ExpoConfig => {
     scheme: 'go10',
     // Release version -- see CHANGELOG.md for the scheme. Bump versionCode on
     // every release: Android only installs an update over a lower one.
-    version: '2.0.0',
+    version: '2.1.0',
     icon: './assets/images/icon.png',
     android: {
       package: 'blog.go10.tv',
-      versionCode: 4,
+      versionCode: 5,
       adaptiveIcon: { foregroundImage: './assets/images/adaptive-icon.png', backgroundColor: '#08090c' },
     },
     plugins: [

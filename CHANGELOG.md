@@ -11,6 +11,15 @@ The version is set in `apps/mobile/app.config.ts` (with Android's
 `versionCode`, which must go up by one every release), in
 `apps/mobile/package.json` and in `apps/tizen/prod/config.xml`.
 
+## 2.1.0 — 2026-10-22
+
+New content: a Brazilian telenovela, and Dragon Ball Super: Beerus in Latin
+American Spanish.
+
+- *Avenida Brasil*: 160 episodes, dubbed in Latin American Spanish.
+- *Dragon Ball Super: Beerus*: episodes 1 and 2 in Latin American Spanish.
+  They replace the subtitled Japanese episode 1.
+
 ## 2.0.0 — 2026-10-20
 
 New feature: YouTube. Videos and lives from YouTube play with the remote
