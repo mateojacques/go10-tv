@@ -9,7 +9,7 @@ import { rowKey } from '@go10/core/catalog/rowKey'
 import { ProgressBar } from '../components/ProgressBar'
 import { listProgress, resumeFromTime, type Progress } from '@go10/core/progress/progressStore'
 import { playedFraction, titleProgress } from '@go10/core/progress/titleProgress'
-import { playMeta, rowStatus } from '@go10/core/progress/describe'
+import { episodeName, playMeta, rowStatus } from '@go10/core/progress/describe'
 import { detailEyebrow, detailMeta } from '@go10/core/catalog/describeTitle'
 import { artSrc } from '../catalog/art'
 import { resolveArt, type HeroArtIndex } from '@go10/core/hero/art'
@@ -65,6 +65,8 @@ const FIRST_EPISODE_ROW = 2
  * into ten short lines on a phone instead of fifty stacked cards. The number
  * is all most of these episodes have to tell them apart (they share one
  * thumbnail), so the grid leads with it and the rest goes on one caption line.
+ * Labeled episodes (e.g. VODs named by the teams playing) get wider tiles
+ * showing their label instead.
  */
 function EpisodeGrid({
   rows,
@@ -79,6 +81,7 @@ function EpisodeGrid({
 }) {
   const gridRef = useRef<HTMLOListElement>(null)
   const columns = useGridColumns(gridRef)
+  const labeled = rows.some((episode) => episode.episode_label)
   const { focusedId } = useFocusState()
   // The caption follows the remote across the grid, and otherwise describes
   // the episode Play would start.
@@ -91,13 +94,13 @@ function EpisodeGrid({
       <p className="go-episodes_caption">
         {described && (
           <>
-            <span className="go-episodes_caption-n">Episodio {described.episode_number}</span>
+            <span className="go-episodes_caption-n">{episodeName(described)}</span>
             {rowStatus(described, progress[rowKey(described)]) &&
               ` · ${rowStatus(described, progress[rowKey(described)])}`}
           </>
         )}
       </p>
-      <ol ref={gridRef} className="go-epgrid">
+      <ol ref={gridRef} className={`go-epgrid${labeled ? ' is-labeled' : ''}`}>
         {rows.map((episode, index) => {
           const key = rowKey(episode)
           const episodeProgress = progress[key]
@@ -109,13 +112,13 @@ function EpisodeGrid({
                 row={FIRST_EPISODE_ROW + Math.floor(index / columns)}
                 col={index % columns}
                 onEnter={() => onPick(episode)}
-                ariaLabel={[`Episodio ${episode.episode_number}`, rowStatus(episode, episodeProgress)]
+                ariaLabel={[episodeName(episode), rowStatus(episode, episodeProgress)]
                   .filter(Boolean)
                   .join(', ')}
                 className={`go-ep${key === rowKey(activeRow) ? ' is-active' : ''}${watched ? ' is-watched' : ''}`}
               >
-                <span className="go-ep_n" aria-hidden="true">
-                  {episode.episode_number}
+                <span className={labeled ? 'go-ep_label' : 'go-ep_n'} aria-hidden="true">
+                  {labeled ? episodeName(episode) : episode.episode_number}
                 </span>
                 {!watched && <ProgressBar fraction={playedFraction(episodeProgress)} className="go-ep_progress" />}
               </FocusButton>

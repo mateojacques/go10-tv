@@ -367,6 +367,27 @@
   letter-spacing: -0.01em;
 }
 
+/* Labeled episodes ("TSM vs CLG"): wider tiles, up to two lines of text. */
+.go-epgrid.is-labeled {
+  grid-template-columns: repeat(auto-fill, minmax(clamp(11rem, 15vw, 16rem), 1fr));
+}
+
+.go-epgrid.is-labeled .go-ep {
+  height: clamp(3.75rem, 4.8vw, 5.25rem);
+  padding: 0 1.25rem;
+}
+
+.go-ep_label {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  font-size: clamp(0.8125rem, 0.95vw, 1.0625rem);
+  font-weight: 600;
+  line-height: 1.25;
+  text-align: center;
+}
+
 /* Watched: stepped back, with a small check in the corner. */
 .go-ep.is-watched {
   background: transparent;

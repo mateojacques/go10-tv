@@ -6,7 +6,7 @@ import { detailEyebrow, detailMeta } from '@go10/core/catalog/describeTitle'
 import { rowKey } from '@go10/core/catalog/rowKey'
 import { imageSrc } from '@go10/core/lib/imageSrc'
 import { groupSeasons } from '@go10/core/player/groupSeasons'
-import { playMeta, rowStatus } from '@go10/core/progress/describe'
+import { episodeName, playMeta, rowStatus } from '@go10/core/progress/describe'
 import { resumeFromTime, type Progress } from '@go10/core/progress/progressStore'
 import { playedFraction, titleProgress } from '@go10/core/progress/titleProgress'
 import type { CatalogRow, Title } from '@go10/core/types'
@@ -19,11 +19,15 @@ const tv = Platform.isTV
 const GAP = 8
 const TILE_MIN = tv ? 44 : 56
 const TILE_H = tv ? 38 : 52
+/** Labeled episodes ("TSM vs CLG") get wider, taller tiles for up to two lines. */
+const LABEL_TILE_MIN = tv ? 150 : 160
+const LABEL_TILE_H = tv ? 46 : 64
 
-function EpisodeTile({ episode, progress, active, width, onPress, onFocus }: {
+function EpisodeTile({ episode, progress, active, labeled, width, onPress, onFocus }: {
   episode: CatalogRow
   progress: Progress | undefined
   active: boolean
+  labeled: boolean
   width: number
   onPress: () => void
   onFocus: () => void
@@ -32,12 +36,16 @@ function EpisodeTile({ episode, progress, active, width, onPress, onFocus }: {
   return (
     <Pressable
       accessibilityRole="button"
-      accessibilityLabel={[`Episodio ${episode.episode_number}`, rowStatus(episode, progress)].filter(Boolean).join(', ')}
+      accessibilityLabel={[episodeName(episode), rowStatus(episode, progress)].filter(Boolean).join(', ')}
       onPress={onPress}
       onFocus={onFocus}
-      style={({ focused }) => [styles.ep, { width }, watched && styles.epWatched, active && styles.epActive, focused && styles.epFocused]}
+      style={({ focused }) => [styles.ep, labeled && styles.epLabeled, { width }, watched && styles.epWatched, active && styles.epActive, focused && styles.epFocused]}
     >
-      <Text style={[styles.epN, watched && styles.epNWatched, active && styles.epNActive]}>{episode.episode_number}</Text>
+      {labeled ? (
+        <Text numberOfLines={2} style={[styles.epLabel, watched && styles.epNWatched, active && styles.epNActive]}>{episodeName(episode)}</Text>
+      ) : (
+        <Text style={[styles.epN, watched && styles.epNWatched, active && styles.epNActive]}>{episode.episode_number}</Text>
+      )}
       {watched && <Text style={styles.check}>✓</Text>}
       {!watched && <ProgressBar fraction={playedFraction(progress)} style={styles.epProgress} />}
     </Pressable>
@@ -47,7 +55,7 @@ function EpisodeTile({ episode, progress, active, width, onPress, onFocus }: {
 /**
  * A title's Detail screen (apps/web/src/screens/Detail.tsx): backdrop, title
  * block, Reproducir/Reanudar, and for shows the season tabs and a dense
- * grid of numbered episode tiles.
+ * grid of numbered episode tiles (labeled ones, when the episodes have labels).
  */
 export function DetailView({ title, progress, imageBase, onPlay, onBack }: {
   title: Title
@@ -80,7 +88,8 @@ export function DetailView({ title, progress, imageBase, onPlay, onBack }: {
   const note = playMeta(title, activeRow, activeProgress)
   const selected = seasonGroups.find((group) => group.seasonNumber === season)
   const thumb = title.thumbnail !== '' ? imageSrc(title.thumbnail, imageBase) : null
-  const grid = episodeGrid(width - theme.space.safeX * 2, TILE_MIN, GAP)
+  const labeled = selected?.rows.some((episode) => episode.episode_label) ?? false
+  const grid = episodeGrid(width - theme.space.safeX * 2, labeled ? LABEL_TILE_MIN : TILE_MIN, GAP)
   const playLabel = resuming ? 'Reanudar' : 'Reproducir'
 
   const described = selected
@@ -181,7 +190,7 @@ export function DetailView({ title, progress, imageBase, onPlay, onBack }: {
                 <Text testID="episode-caption" style={styles.caption}>
                   {described && (
                     <>
-                      <Text style={styles.captionN}>{`Episodio ${described.episode_number}`}</Text>
+                      <Text style={styles.captionN}>{episodeName(described)}</Text>
                       {describedStatus !== '' && ` · ${describedStatus}`}
                     </>
                   )}
@@ -193,6 +202,7 @@ export function DetailView({ title, progress, imageBase, onPlay, onBack }: {
                       episode={episode}
                       progress={progress[rowKey(episode)]}
                       active={rowKey(episode) === rowKey(activeRow)}
+                      labeled={labeled}
                       width={grid.tile}
                       onFocus={() => setFocusedKey(rowKey(episode))}
                       onPress={() => {
@@ -265,6 +275,8 @@ const styles = StyleSheet.create({
   epWatched: { backgroundColor: 'transparent' },
   epActive: { backgroundColor: 'rgba(198, 242, 78, 0.12)', borderWidth: 1.5, borderColor: theme.color.accent },
   epFocused: { borderWidth: 2, borderColor: theme.color.accent, transform: [{ scale: 1.08 }], zIndex: 2 },
+  epLabeled: { height: LABEL_TILE_H, paddingHorizontal: tv ? 8 : 12 },
+  epLabel: { color: theme.color.text, fontFamily: theme.font.displayBold, fontSize: tv ? 10 : 14, textAlign: 'center' },
   epN: { color: theme.color.text, fontFamily: theme.font.displayBold, fontSize: tv ? 12 : 17, fontVariant: ['tabular-nums'] },
   epNWatched: { color: theme.color.textMuted },
   epNActive: { color: theme.color.accent },

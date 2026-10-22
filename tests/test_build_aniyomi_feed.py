@@ -208,6 +208,16 @@ def test_build_feed_sorts_by_recent_rank_and_counts_episodes():
     assert series_files == {"s": {"schema_version": 1, "episodes": build_episodes(group_rows(rows)["s"])}}
 
 
+def test_build_feed_leaves_out_youtube_rows():
+    items, series_files = build_feed([
+        row(video_id="2D4P4ByODP8", type="episode", series_id="worlds", episode_number=1,
+            embed_url="https://www.youtube.com/watch?v=2D4P4ByODP8"),
+        row(video_id="20", embed_url="https://ok.ru/videoembed/20"),
+    ])
+    assert [i["id"] for i in items] == ["m:20"]
+    assert series_files == {}
+
+
 def test_write_feed_layout(tmp_path):
     out = tmp_path / "aniyomi"
     items = [{"id": "s:show", "kind": "series", "title": "Show"}]

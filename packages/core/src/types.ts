@@ -25,6 +25,8 @@ export interface CatalogRow {
   thumbnail: string
   video_url: string
   embed_url: string
+  /** Names an episode in place of its number, e.g. "TSM vs CLG". Absent on TMDB data and catalogs from before it. */
+  episode_label?: string
   /** Mapped from TMDB and played through vidlove. Absent on catalog data. */
   external?: true
 }

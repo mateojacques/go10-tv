@@ -20,14 +20,14 @@ def test_parse_views_strips_separators():
     assert parse_views("") == 0
 
 
-def test_columns_are_the_26_specified_in_order():
+def test_columns_are_the_27_specified_in_order():
     assert COLUMNS == [
         "catalog_index", "video_id", "type", "title", "title_raw",
         "series_id", "series_title", "season_number", "season_label",
         "episode_number", "chapter_start_seconds", "chapter_end_seconds",
         "year", "studio", "source", "genre", "genre_secondary",
         "quality", "language", "subtitled", "duration_raw", "duration_seconds",
-        "views", "thumbnail", "video_url", "embed_url",
+        "views", "thumbnail", "video_url", "embed_url", "episode_label",
     ]
 
 
@@ -473,6 +473,8 @@ def test_build_pick_rows_turns_a_movie_pick_into_a_movie_row(tmp_path):
     assert row["views"] == 15600
     assert row["thumbnail"] == "assets/shrek-4/4658593663605.jpg"
     assert row["embed_url"] == "https://ok.ru/videoembed/4658593663605"
+    assert row["video_url"] == "https://ok.ru/video/4658593663605"
+    assert row["episode_label"] == ""
     assert set(row) == set(COLUMNS) - {"chapter_start_seconds", "chapter_end_seconds"}
 
 
@@ -499,6 +501,18 @@ def test_build_pick_rows_keeps_a_videos_season_label(tmp_path):
     pick = {**FUTURAMA_PICK, "videos": [{**FUTURAMA_PICK["videos"][0], "season_label": "Saga de Freezer"}]}
     [pack] = parse_catalog.build_pick_rows(pick, "futurama", assets_dir=str(tmp_path))
     assert pack["season_label"] == "Saga de Freezer"
+
+
+def test_build_pick_rows_plays_a_youtube_pick_on_youtube(tmp_path):
+    pick = {**FUTURAMA_PICK, "host": "youtube", "videos": [{
+        "video_id": "2D4P4ByODP8", "title_raw": "aAa vs Epik Gamer", "duration_raw": "1:13:42",
+        "season_number": 1, "episode_number": 1, "episode_label": "aAa vs Epik Gamer", "thumbnail_url": "",
+    }]}
+    [row] = parse_catalog.build_pick_rows(pick, "worlds", assets_dir=str(tmp_path))
+    assert row["video_url"] == "https://www.youtube.com/watch?v=2D4P4ByODP8"
+    assert row["embed_url"] == "https://www.youtube.com/watch?v=2D4P4ByODP8"
+    assert row["episode_label"] == "aAa vs Epik Gamer"
+    assert row["thumbnail"] == "assets/worlds/2D4P4ByODP8.jpg"
 
 
 def test_build_pick_rows_season_packs_feed_explode_chapters(tmp_path):

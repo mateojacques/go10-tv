@@ -37,7 +37,7 @@ COLUMNS = [
     "episode_number", "chapter_start_seconds", "chapter_end_seconds",
     "year", "studio", "source", "genre", "genre_secondary",
     "quality", "language", "subtitled", "duration_raw", "duration_seconds",
-    "views", "thumbnail", "video_url", "embed_url",
+    "views", "thumbnail", "video_url", "embed_url", "episode_label",
 ]
 
 CARD_RE = re.compile(
@@ -459,6 +459,10 @@ def build_pick_rows(pick, slug, assets_dir=None):
     data/chapters/<series_id>.json entry. Metadata comes from the pick, and a
     video's own `quality`/`language`/`subtitled` override the pick's. Each
     thumbnail is downloaded once into `assets/<slug>/<video_id>.jpg`.
+
+    A pick with `"host": "youtube"` lists YouTube video ids, which play
+    through the YouTube embed. A video's `episode_label` (e.g. "TSM vs CLG")
+    is shown in place of its episode number.
     """
     assets_dir = assets_dir or ASSETS_DIR
     dest_dir = os.path.join(assets_dir, slug)
@@ -480,6 +484,11 @@ def build_pick_rows(pick, slug, assets_dir=None):
         else:
             row_type = "season" if episode_number in (None, "") else "episode"
         field = lambda name: video.get(name, pick.get(name, ""))
+        if field("host") == "youtube":
+            video_url = embed_url = f"https://www.youtube.com/watch?v={video_id}"
+        else:
+            video_url = f"https://ok.ru/video/{video_id}"
+            embed_url = f"https://ok.ru/videoembed/{video_id}"
         rows.append({
             "catalog_index": 0,
             "video_id": video_id,
@@ -503,8 +512,9 @@ def build_pick_rows(pick, slug, assets_dir=None):
             "duration_seconds": parse_duration(video["duration_raw"]),
             "views": video.get("views", 0),
             "thumbnail": f"assets/{slug}/{filename}",
-            "video_url": f"https://ok.ru/video/{video_id}",
-            "embed_url": f"https://ok.ru/videoembed/{video_id}",
+            "video_url": video_url,
+            "embed_url": embed_url,
+            "episode_label": video.get("episode_label", "") if is_series else "",
         })
     return rows
 

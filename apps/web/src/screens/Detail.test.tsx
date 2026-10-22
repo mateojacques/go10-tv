@@ -147,6 +147,26 @@ describe('Detail episode grid', () => {
   })
 })
 
+describe('Detail labeled episodes', () => {
+  it('shows each episode by its label, in the tile, the caption and the play meta', () => {
+    const rows = [
+      row({ video_id: 'a', episode_number: 1, episode_label: 'aAa vs Epik Gamer' }),
+      row({ video_id: 'b', episode_number: 2, episode_label: 'Fnatic vs Team Pacific' }),
+    ]
+    render(
+      <FocusProvider onBack={() => {}}>
+        <Detail heroArt={{}} title={makeTitle(rows)} onPlay={() => {}} onBack={() => {}} />
+      </FocusProvider>,
+    )
+
+    expect(document.querySelector('.go-epgrid')?.className).toContain('is-labeled')
+    const tile = screen.getByRole('button', { name: /^Fnatic vs Team Pacific\b/ })
+    expect(tile.textContent).toBe('Fnatic vs Team Pacific')
+    expect(document.querySelector('.go-episodes_caption')?.textContent).toContain('aAa vs Epik Gamer')
+    expect(document.querySelector('.go-play_meta')?.textContent).toBe('aAa vs Epik Gamer')
+  })
+})
+
 describe('Detail key art', () => {
   const title = { ...makeTitle([row({})]), thumbnail: 'thumb.jpg' }
   const renderWith = (heroArt: HeroArtIndex | null) =>

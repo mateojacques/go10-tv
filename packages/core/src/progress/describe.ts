@@ -3,11 +3,17 @@ import { resumeFromTime, type Progress } from './progressStore'
 import { formatDuration } from '../lib/format'
 import { playedFraction, type ContinueItem } from './titleProgress'
 
-/** Short position within a title, e.g. "T2 · E5" or "Temporada 3"; '' for a movie. */
+/** Short position within a title, e.g. "T2 · E5", "TSM vs CLG" or "Temporada 3"; '' for a movie. */
 export function rowLabel(row: CatalogRow): string {
+  if (row.type === 'episode' && row.episode_label) return row.episode_label
   if (row.type === 'episode') return `T${row.season_number ?? 1} · E${row.episode_number ?? 1}`
   if (row.type === 'season') return row.season_label || `Temporada ${row.season_number}`
   return ''
+}
+
+/** An episode's name in the episode grid: its label, else "Episodio 5". */
+export function episodeName(row: CatalogRow): string {
+  return row.episode_label || `Episodio ${row.episode_number}`
 }
 
 /** e.g. "Quedan 8 min". Never "0 min" — under a minute still reads as one. */

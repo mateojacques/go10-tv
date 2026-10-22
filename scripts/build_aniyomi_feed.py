@@ -135,6 +135,8 @@ def build_episodes(group):
 def build_feed(rows):
     items = []
     series_files = {}
+    # The extension plays ok.ru ids; YouTube rows (picks with "host": "youtube") stay site-only.
+    rows = [row for row in rows if "youtube.com" not in row["embed_url"]]
     for key, group in group_rows(rows).items():
         item = build_item(key, group)
         if item["kind"] == "series":

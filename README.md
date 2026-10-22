@@ -42,6 +42,12 @@ catalog, newest `added` first; their thumbnails are downloaded into
 `assets/<slug>/`, and a picked season pack gets its `data/chapters/`
 entry from `scripts/make_chapters.py` (uploader timestamps or equal split).
 
+A pick with `"host": "youtube"` lists YouTube video ids instead, played
+through the YouTube embed and left out of the Aniyomi feed (e.g. the League
+of Legends Worlds VODs). Any series video can carry an `episode_label`
+("TSM vs CLG"): the Detail screen then shows labeled tiles instead of
+episode numbers.
+
 `build_aniyomi_feed.py` writes the static JSON feed the Go10 TV Aniyomi
 extension reads (`/data/aniyomi/index.json` plus `series/<series_id>.json`).
 **Never rename a `series_id` or re-upload a video under a new ok.ru id** for

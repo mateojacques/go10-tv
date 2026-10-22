@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import type { CatalogRow, Title } from '../types'
 import type { Progress } from './progressStore'
-import { continueCardProgress, playMeta, rowStatus } from './describe'
+import { continueCardProgress, episodeName, playMeta, rowStatus } from './describe'
 import type { ContinueItem } from './titleProgress'
 
 const row = { type: 'episode', season_number: 1, episode_number: 2, duration_seconds: 1440 } as CatalogRow
@@ -28,9 +28,21 @@ describe('playMeta', () => {
     expect(playMeta(show, row, null)).toBe('T1 · E2')
   })
 
+  it('names a labeled episode by its label', () => {
+    expect(playMeta(show, { ...row, episode_label: 'TSM vs CLG' }, p(960))).toBe('TSM vs CLG · Quedan 8 min')
+  })
+
   it('is empty for a movie not started', () => {
     expect(playMeta(movie, { ...row, type: 'movie' }, null)).toBe('')
     expect(playMeta(movie, { ...row, type: 'movie' }, p(960))).toBe('Quedan 8 min')
+  })
+})
+
+describe('episodeName', () => {
+  it('is the label, else the number', () => {
+    expect(episodeName(row)).toBe('Episodio 2')
+    expect(episodeName({ ...row, episode_label: '' })).toBe('Episodio 2')
+    expect(episodeName({ ...row, episode_label: 'TSM vs CLG' })).toBe('TSM vs CLG')
   })
 })
 

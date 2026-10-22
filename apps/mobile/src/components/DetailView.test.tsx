@@ -85,6 +85,13 @@ describe('DetailView', () => {
     expect(within(caption).getByText('Episodio 3')).toBeTruthy()
   })
 
+  it('names labeled episodes by their label', async () => {
+    const labeled = (n: number, label: string): CatalogRow => ({ ...ep(1, n), episode_label: label })
+    await renderDetail(titleOf({ seasons: [labeled(1, 'aAa vs Epik Gamer'), labeled(2, 'Fnatic vs Team Pacific')] }))
+    expect(screen.getByRole('button', { name: 'Fnatic vs Team Pacific, 24 min' })).toBeTruthy()
+    expect(screen.getAllByText('aAa vs Epik Gamer').length).toBeGreaterThan(1) // tile, caption and Play's meta
+  })
+
   it('follows what was played while away', async () => {
     const { rerender } = await renderDetail(show, { s1e1: p(300, 1) })
     expect(screen.getByText('T1 · E1 · Quedan 19 min')).toBeTruthy()
