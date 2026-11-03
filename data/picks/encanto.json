@@ -1,0 +1,23 @@
+{
+  "title": "Encanto",
+  "type": "movie",
+  "added": "2026-11-03",
+  "query": "https://ok.ru/video/16084689554158",
+  "year": "2021",
+  "studio": "Disney",
+  "source": "Animax",
+  "quality": "4K",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Fantasía",
+  "videos": [
+    {
+      "video_id": "16084689554158",
+      "title_raw": "Encanto (Disney) [4K] [Español]",
+      "duration_raw": "1:42:07",
+      "views": 2224,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYeMpRmNHwX0uQivJdV9at-kiKey0hx8KKzxcSF16nhMg&fn=external_8"
+    }
+  ]
+}

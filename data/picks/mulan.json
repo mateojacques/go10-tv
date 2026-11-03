@@ -1,0 +1,23 @@
+{
+  "title": "Mulán",
+  "type": "movie",
+  "added": "2026-11-03",
+  "query": "https://ok.ru/video/15974785026798",
+  "year": "1998",
+  "studio": "Disney",
+  "source": "Animax",
+  "quality": "4K",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Aventura",
+  "videos": [
+    {
+      "video_id": "15974785026798",
+      "title_raw": "Mulán (Disney) [4K] [Español]",
+      "duration_raw": "1:27:51",
+      "views": 3142,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgY3a6sae7TVaVMgmmWAXRhznwcw8qlT-8u52uOCl4JJ9k&fn=external_8"
+    }
+  ]
+}

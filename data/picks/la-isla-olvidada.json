@@ -1,0 +1,23 @@
+{
+  "title": "La isla olvidada",
+  "type": "movie",
+  "added": "2026-11-03",
+  "query": "https://ok.ru/video/16107067935470",
+  "year": "2026",
+  "studio": "DreamWorks",
+  "source": "Animax",
+  "quality": "4K",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Aventura",
+  "videos": [
+    {
+      "video_id": "16107067935470",
+      "title_raw": "La isla olvidada (DreamWorks) [4K] [Español]",
+      "duration_raw": "1:49:40",
+      "views": 3538,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYjLPnzZQ1kksC5rLT9pgSxN9nxKyQTU5qmBKSkRCEvQo&fn=external_8"
+    }
+  ]
+}

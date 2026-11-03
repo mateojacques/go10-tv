@@ -1,0 +1,24 @@
+{
+  "title": "The Vampire Diaries",
+  "type": "series",
+  "added": "2026-11-03",
+  "query": "https://ok.ru/video/15970027506414",
+  "year": "2009",
+  "studio": "WarnerBros",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Drama",
+  "genre_secondary": "Fantasía",
+  "videos": [
+    {
+      "video_id": "15970027506414",
+      "season_number": 1,
+      "title_raw": "The Vampire Diaries - Temporada 1 y 2 (WarnerBros) [1080p] [Español]",
+      "duration_raw": "30:42:40",
+      "views": 2507,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYn4TDGg1A7SevP416KceoVCiAN9udy0l1w3qiGIlg-Z4&fn=external_8"
+    }
+  ]
+}

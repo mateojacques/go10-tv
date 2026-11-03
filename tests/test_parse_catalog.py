@@ -558,3 +558,10 @@ def test_merge_pick_rows_leads_the_catalog_and_skips_known_videos(tmp_path, caps
     rows = parse_catalog.merge_pick_rows(base, picks, assets_dir=str(tmp_path))
     assert [r["video_id"] for r in rows] == ["111", "222", "4658593663605", "9"]
     assert "4658593663605" in capsys.readouterr().out
+
+
+def test_merge_pick_rows_drops_the_video_a_pick_replaces(tmp_path):
+    base = [{"video_id": "old", "catalog_index": 0}, {"video_id": "9", "catalog_index": 1}]
+    picks = [("shrek-4", {**SHREK_PICK, "replaces": ["old"]})]
+    rows = parse_catalog.merge_pick_rows(base, picks, assets_dir=str(tmp_path))
+    assert [r["video_id"] for r in rows] == ["4658593663605", "9"]

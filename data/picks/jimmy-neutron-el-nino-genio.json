@@ -1,0 +1,24 @@
+{
+  "title": "Jimmy Neutrón: El niño genio",
+  "type": "series",
+  "added": "2026-11-03",
+  "query": "https://ok.ru/video/16038134614766",
+  "year": "",
+  "studio": "",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "16038134614766",
+      "season_number": 2,
+      "title_raw": "Jimmy Neutrón: El niño genio - Temporada 2 [1080p] [Español]",
+      "duration_raw": "8:14:34",
+      "views": 2785,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgY3ymMY6cLNgMRLJqMfrIAKJfwG4TWptkwkQuydp3Tl3M&fn=external_8"
+    }
+  ]
+}

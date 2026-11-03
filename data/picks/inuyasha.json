@@ -1,0 +1,25 @@
+{
+  "title": "Inuyasha",
+  "type": "series",
+  "added": "2026-11-03",
+  "query": "https://ok.ru/video/16136784972526",
+  "year": "2000",
+  "studio": "",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Aventura",
+  "videos": [
+    {
+      "video_id": "16136784972526",
+      "season_number": 1,
+      "season_label": "Episodios 1 - 83",
+      "title_raw": "Inuyasha: Episodios 1 - 83 [Parte 1] [1080p] [Español]",
+      "duration_raw": "28:25:01",
+      "views": 1460,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYc1YSpt5QL6p8u1lngrxm4c6tHxCx-DYrxnH5Fp2pgh8&fn=external_8"
+    }
+  ]
+}

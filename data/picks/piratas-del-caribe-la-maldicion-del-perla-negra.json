@@ -1,0 +1,23 @@
+{
+  "title": "Piratas del Caribe: la maldición del Perla Negra",
+  "type": "movie",
+  "added": "2026-11-03",
+  "query": "https://ok.ru/video/16149943683822",
+  "year": "2003",
+  "studio": "Disney",
+  "source": "Animax",
+  "quality": "4K",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Aventura",
+  "genre_secondary": "Fantasía",
+  "videos": [
+    {
+      "video_id": "16149943683822",
+      "title_raw": "Piratas del Caribe: la maldición del Perla Negra (Disney) [4K] [Español]",
+      "duration_raw": "2:23:14",
+      "views": 1147,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgY4ZlfBZq0ndtvzdYZcz0OIVoRnca_HP6yvUGkCDiQFNs&fn=external_8"
+    }
+  ]
+}

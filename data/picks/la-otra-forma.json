@@ -1,0 +1,23 @@
+{
+  "title": "La otra forma",
+  "type": "movie",
+  "added": "2026-11-03",
+  "query": "https://ok.ru/video/16118725085934",
+  "year": "2022",
+  "studio": "",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Mudo",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Ciencia Ficción",
+  "videos": [
+    {
+      "video_id": "16118725085934",
+      "title_raw": "La otra forma (2022) [1080p] [🌎]",
+      "duration_raw": "1:28:17",
+      "views": 468,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYAt_iaoj4kTGMhS0hN5h4I_qmBuGELuADHWt5Q-rLViE&fn=external_8"
+    }
+  ]
+}

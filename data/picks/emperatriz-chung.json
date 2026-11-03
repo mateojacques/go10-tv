@@ -1,0 +1,23 @@
+{
+  "title": "Emperatriz Chung",
+  "type": "movie",
+  "added": "2026-11-03",
+  "query": "https://ok.ru/video/15804988394222",
+  "year": "2005",
+  "studio": "",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Coreano",
+  "subtitled": true,
+  "genre": "Animación",
+  "genre_secondary": "Fantasía",
+  "videos": [
+    {
+      "video_id": "15804988394222",
+      "title_raw": "Emperatriz Chung (2005) [1080p] [Sub Español]",
+      "duration_raw": "1:35:06",
+      "views": 363,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYj4gDp2qCjq2m-51Wuw9-RiyIYlgki1yhIVCG-IhIQm8&fn=external_8"
+    }
+  ]
+}

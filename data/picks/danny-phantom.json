@@ -1,0 +1,24 @@
+{
+  "title": "Danny Phantom",
+  "type": "series",
+  "added": "2026-11-03",
+  "query": "https://ok.ru/video/16009311554286",
+  "year": "2004",
+  "studio": "Nickelodeon",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Superhéroes",
+  "videos": [
+    {
+      "video_id": "16009311554286",
+      "season_number": 1,
+      "title_raw": "Danny Phantom - Temporada 1, 2 y 3 (Nickelodeon) [1080p] [Español]",
+      "duration_raw": "21:09:13",
+      "views": 2362,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYzZfjHQOi3ERew4ZoRt3UQpy0jlRaI6W1HVzF33JMaGQ&fn=external_8"
+    }
+  ]
+}

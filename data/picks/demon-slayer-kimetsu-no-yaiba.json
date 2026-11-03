@@ -1,0 +1,24 @@
+{
+  "title": "Demon Slayer: Kimetsu no Yaiba",
+  "type": "series",
+  "added": "2026-11-03",
+  "query": "https://ok.ru/video/15961988664046",
+  "year": "2019",
+  "studio": "",
+  "source": "Animax",
+  "quality": "4K",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Anime",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "15961988664046",
+      "season_number": 1,
+      "title_raw": "Demon Slayer: Kimetsu no Yaiba - Temporada 1 (Serie) [4K] [Español]",
+      "duration_raw": "10:16:25",
+      "views": 3736,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYHBWYqiXRJPoSxVj4fmYbTo1XANqgvPkdbespG5WNYkc&fn=external_8"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Coco",
+  "type": "movie",
+  "added": "2026-11-03",
+  "query": "https://ok.ru/video/16073896954606",
+  "year": "2017",
+  "studio": "Pixar",
+  "source": "Animax",
+  "quality": "4K",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Aventura",
+  "videos": [
+    {
+      "video_id": "16073896954606",
+      "title_raw": "Coco (Disney) [4K] [Español]",
+      "duration_raw": "1:45:02",
+      "views": 18151,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYKtVVDWSAP0d8xhHVyQQc6UUAbhs6ExiPYmJ-tWQBl0I&fn=external_8"
+    }
+  ]
+}

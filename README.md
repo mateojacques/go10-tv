@@ -41,6 +41,8 @@ files instead (the `/search-okru` Claude Code skill writes them, using
 catalog, newest `added` first; their thumbnails are downloaded into
 `assets/<slug>/`, and a picked season pack gets its `data/chapters/`
 entry from `scripts/make_chapters.py` (uploader timestamps or equal split).
+A pick's optional `replaces` lists video ids it supersedes, dropping rows that
+came from a saved page instead of a pick.
 
 A pick with `"host": "youtube"` lists YouTube video ids instead, played
 through the YouTube embed and left out of the Aniyomi feed (e.g. the League

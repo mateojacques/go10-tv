@@ -1,0 +1,24 @@
+{
+  "title": "Johnny Bravo",
+  "type": "series",
+  "added": "2026-11-03",
+  "query": "https://ok.ru/video/16147783158510",
+  "year": "1997",
+  "studio": "Cartoon N.",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "16147783158510",
+      "season_number": 1,
+      "title_raw": "Johnny Bravo - Temporada 1, 2, 3 y 4 (Cartoon N.) [1080p] [Español]",
+      "duration_raw": "23:54:11",
+      "views": 816,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYD5Soj4UWY9SfpfDi9aUzE3d-bcFSzAW_sgDT3yo05bs&fn=external_8"
+    }
+  ]
+}

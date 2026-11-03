@@ -1,0 +1,23 @@
+{
+  "title": "Buddy",
+  "type": "movie",
+  "added": "2026-11-03",
+  "query": "https://ok.ru/video/15973766466286",
+  "year": "2026",
+  "studio": "",
+  "source": "Animax",
+  "quality": "4K",
+  "language": "Inglés",
+  "subtitled": true,
+  "genre": "Terror",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "15973766466286",
+      "title_raw": "Buddy (2026) [4K] [Sub Español]",
+      "duration_raw": "1:35:50",
+      "views": 3253,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYNLB8ECvyddPCV7sBiOKIdLL3uDC_bRNV2-tQWedh2KI&fn=external_8"
+    }
+  ]
+}

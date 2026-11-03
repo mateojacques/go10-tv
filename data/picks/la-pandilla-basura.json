@@ -1,0 +1,23 @@
+{
+  "title": "La pandilla basura",
+  "type": "movie",
+  "added": "2026-11-03",
+  "query": "https://ok.ru/video/16086508440302",
+  "year": "1987",
+  "studio": "",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Inglés",
+  "subtitled": true,
+  "genre": "Comedia",
+  "genre_secondary": "Aventura",
+  "videos": [
+    {
+      "video_id": "16086508440302",
+      "title_raw": "La pandilla basura (1987) [1080p] [Sub Español]",
+      "duration_raw": "1:36:37",
+      "views": 492,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYk9KH6DcFqldQNupDngbrooAFACI67bvNCk9bhUsStP8&fn=external_8"
+    }
+  ]
+}

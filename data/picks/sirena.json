@@ -2,7 +2,7 @@
   "title": "Sirena",
   "type": "series",
   "added": "2026-10-15",
-  "query": "https://ok.ru/video/15938454162158",
+  "query": "https://ok.ru/video/16073627536110",
   "year": "2018",
   "studio": "",
   "source": "Animax",
@@ -13,11 +13,12 @@
   "genre_secondary": "Drama",
   "videos": [
     {
-      "video_id": "15938454162158",
+      "video_id": "16073627536110",
       "season_number": 1,
       "title_raw": "Sirena - Temporada 1, 2 y 3 (Serie) [1080p] [Español]",
       "duration_raw": "25:12:45",
-      "views": 441
+      "views": 1970,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYxAHsvdIKPT99GiNB-eT2WY7pRpEuTBCfeChx_JxMo6s&fn=external_8"
     }
   ]
 }

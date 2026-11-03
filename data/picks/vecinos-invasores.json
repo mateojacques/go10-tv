@@ -1,0 +1,26 @@
+{
+  "title": "Vecinos Invasores",
+  "type": "movie",
+  "added": "2026-11-03",
+  "query": "https://ok.ru/video/16003565161198",
+  "replaces": [
+    "10100358908654"
+  ],
+  "year": "2006",
+  "studio": "DreamWorks",
+  "source": "Animax",
+  "quality": "4K",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "16003565161198",
+      "title_raw": "Vecinos Invasores (2006) [4K] [Español]",
+      "duration_raw": "1:23:30",
+      "views": 2834,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYQxv45wWCRG2emjNdkLVqSIbkxtsrUPEUih9zXDAoUck&fn=external_8"
+    }
+  ]
+}

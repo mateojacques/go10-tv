@@ -1,0 +1,23 @@
+{
+  "title": "Up: una aventura de altura",
+  "type": "movie",
+  "added": "2026-11-03",
+  "query": "https://ok.ru/video/16098826783470",
+  "year": "2009",
+  "studio": "Pixar",
+  "source": "Animax",
+  "quality": "4K",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Aventura",
+  "videos": [
+    {
+      "video_id": "16098826783470",
+      "title_raw": "Up: una aventura de altura (Disney) [4K] [Español]",
+      "duration_raw": "1:36:38",
+      "views": 1789,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgY3oReHEutUeYYV22KDhJiwoeiTyHBHt2YVil8JJRpMZg&fn=external_8"
+    }
+  ]
+}

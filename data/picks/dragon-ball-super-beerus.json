@@ -2,7 +2,7 @@
   "title": "Dragon Ball Super: Beerus",
   "type": "series",
   "added": "2026-10-22",
-  "query": "https://ok.ru/video/17104742124156 https://ok.ru/video/17199054588540",
+  "query": "https://ok.ru/video/17104742124156 https://ok.ru/video/17199054588540 https://ok.ru/video/17309840706172",
   "year": "2026",
   "studio": "",
   "source": "Alberto Santiago",
@@ -29,6 +29,15 @@
       "duration_raw": "23:20",
       "views": 5,
       "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20483503819388&type=37&idx=2&scl=4&tkn=CvChNc7chbJz9eTdECFa3RWkiZU&fn=external_8"
+    },
+    {
+      "video_id": "17309840706172",
+      "season_number": 1,
+      "episode_number": 3,
+      "title_raw": "1x03 El Dios de la Destrucción se dirige a la tierra",
+      "duration_raw": "23:20",
+      "views": 12,
+      "thumbnail_url": "https://iv.okcdn.ru/videoPreview?id=20668723956348&type=37&idx=1&scl=4&tkn=9_WOXJFZMYQJ_DBbQeCJLs_-LQc&fn=external_8"
     }
   ]
 }

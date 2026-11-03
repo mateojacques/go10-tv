@@ -1,0 +1,23 @@
+{
+  "title": "Marsupilami",
+  "type": "movie",
+  "added": "2026-11-03",
+  "query": "https://ok.ru/video/16003565226734",
+  "year": "2026",
+  "studio": "",
+  "source": "Animax",
+  "quality": "4K",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Comedia",
+  "genre_secondary": "Aventura",
+  "videos": [
+    {
+      "video_id": "16003565226734",
+      "title_raw": "Marsupilami (2025) [4K] [Español]",
+      "duration_raw": "1:39:21",
+      "views": 2293,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgY0QpB40-WY5-c-WAO-iMLDgDzEptsvNlH6_6GT7Zwuvo&fn=external_8"
+    }
+  ]
+}

@@ -523,7 +523,11 @@ def merge_pick_rows(rows, picks, assets_dir=None):
     """Put every pick's rows ahead of `rows` (picks newest first), so picked
     titles lead Recién añadidos. A picked video the catalog already has is
     skipped and reported: the same ok.ru id must never be ingested twice.
+    A pick's `replaces` lists older video ids it supersedes, for a title whose
+    old row comes from a saved page rather than a pick.
     """
+    replaced = {video_id for _, pick in picks for video_id in pick.get("replaces", [])}
+    rows = [row for row in rows if row["video_id"] not in replaced]
     known_ids = {row["video_id"] for row in rows}
     picked = []
     for slug, pick in picks:

@@ -1,0 +1,23 @@
+{
+  "title": "La bella y la bestia",
+  "type": "movie",
+  "added": "2026-11-03",
+  "query": "https://ok.ru/video/16075056351982",
+  "year": "1991",
+  "studio": "Disney",
+  "source": "Animax",
+  "quality": "4K",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Fantasía",
+  "videos": [
+    {
+      "video_id": "16075056351982",
+      "title_raw": "La bella y la bestia (Disney) [4K] [Español]",
+      "duration_raw": "1:24:54",
+      "views": 3669,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYtjifhhlfBXDtpx7d0zW5GOLrJAZdIGA8PH06Xaxn57w&fn=external_8"
+    }
+  ]
+}

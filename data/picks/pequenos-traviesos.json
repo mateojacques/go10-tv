@@ -1,0 +1,23 @@
+{
+  "title": "Pequeños traviesos",
+  "type": "movie",
+  "added": "2026-11-03",
+  "query": "https://ok.ru/video/16122796116718",
+  "year": "1994",
+  "studio": "",
+  "source": "Animax",
+  "quality": "4K",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Comedia",
+  "genre_secondary": "Infantil",
+  "videos": [
+    {
+      "video_id": "16122796116718",
+      "title_raw": "Pequeños traviesos (1994) [4K] [Español]",
+      "duration_raw": "1:22:28",
+      "views": 1289,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYEKI-R8YCWrq0V81QZ_wH_kBOCSzigxZPcZs9tjWCBVc&fn=external_8"
+    }
+  ]
+}

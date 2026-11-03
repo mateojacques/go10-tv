@@ -1,0 +1,24 @@
+{
+  "title": "Gatos callejeros, de Ricky Gervais",
+  "type": "series",
+  "added": "2026-11-03",
+  "query": "https://ok.ru/video/16171698490094",
+  "year": "2026",
+  "studio": "",
+  "source": "Animax",
+  "quality": "1080p",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Animación",
+  "genre_secondary": "Comedia",
+  "videos": [
+    {
+      "video_id": "16171698490094",
+      "season_number": 1,
+      "title_raw": "Gatos callejeros, de Ricky Gervais - Temporada 1 (2026) [1080p] [Español]",
+      "duration_raw": "1:43:03",
+      "views": 601,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgY2Qf3g8oCuw-jKifjgeW19v4UG3hJaEEbxCfi1d_liw0&fn=external_8"
+    }
+  ]
+}

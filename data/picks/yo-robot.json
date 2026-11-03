@@ -1,0 +1,23 @@
+{
+  "title": "Yo, Robot",
+  "type": "movie",
+  "added": "2026-11-03",
+  "query": "https://ok.ru/video/15957329513198",
+  "year": "2004",
+  "studio": "",
+  "source": "Animax",
+  "quality": "4K",
+  "language": "Español",
+  "subtitled": false,
+  "genre": "Ciencia Ficción",
+  "genre_secondary": "Acción",
+  "videos": [
+    {
+      "video_id": "15957329513198",
+      "title_raw": "Yo, Robot (2004) [4K] [Español]",
+      "duration_raw": "1:54:44",
+      "views": 2341,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYs03p8Y20qyvr48u-__NC3EJQbgMyz1-JvApFw2fdYPY&fn=external_8"
+    }
+  ]
+}

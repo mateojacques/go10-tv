@@ -237,10 +237,6 @@
       "tmdb": "movie/511817",
       "backdrop": "/apBUC70udhxoLzXo7DqclQ6gcXo.jpg"
     },
-    "10100358908654": {
-      "tmdb": "movie/7518",
-      "backdrop": "/reK7SgAFlyxg3s9R7neh6M970kh.jpg"
-    },
     "10100382960366": {
       "tmdb": "movie/12244",
       "backdrop": "/t4V34FTYzZl0ZMdAXAK0T7DE3ie.jpg"
@@ -1565,6 +1561,10 @@
       "tmdb": "movie/40205",
       "backdrop": "/53gLUhvVffVXSXOPAuXPeHkqEe9.jpg"
     },
+    "15804988394222": {
+      "tmdb": "movie/413330",
+      "backdrop": "/1B1ekfxZj2Ltrz3QQZrkiFvbWsl.jpg"
+    },
     "15806908795630": {
       "tmdb": "movie/1322562",
       "backdrop": "/5bMDrznr5P9GcClJF0OeE4NxZn9.jpg"
@@ -1600,6 +1600,78 @@
     "15948506925806": {
       "tmdb": "movie/1058424",
       "backdrop": "/xBcKnWJHodUpvzUVIWTuNMnvEwl.jpg"
+    },
+    "15957329513198": {
+      "tmdb": "movie/2048",
+      "backdrop": "/jpFcZH2eyh6gcoxCa637TrGe4bT.jpg"
+    },
+    "15973766466286": {
+      "tmdb": "movie/1514026",
+      "backdrop": "/ytoLEl5yDaxB8AtZ52uKWjaQ9ql.jpg"
+    },
+    "15974785026798": {
+      "tmdb": "movie/10674",
+      "backdrop": "/mUYV0ZdsDEliGaQahcQH1F3grsP.jpg"
+    },
+    "15989379369710": {
+      "tmdb": "movie/12222",
+      "backdrop": "/Nfwmdxl2EDvVVE4An18Lio6tSx.jpg"
+    },
+    "16003565161198": {
+      "tmdb": "movie/7518",
+      "backdrop": "/4BmZXt8Yty7F2He4KE05jqGidEz.jpg"
+    },
+    "16003565226734": {
+      "tmdb": "movie/1145899",
+      "backdrop": "/qGPJ9AvOUpbpZjM6R7yqBDs4gsk.jpg"
+    },
+    "16073896954606": {
+      "tmdb": "movie/354912",
+      "backdrop": "/g7CHF8gTLGooTbP4GznIGwaqAGL.jpg"
+    },
+    "16075056351982": {
+      "tmdb": "movie/10020",
+      "backdrop": "/fW4ZCoEZRBqLAJGFQ2g5AdAfPQR.jpg"
+    },
+    "16084689554158": {
+      "tmdb": "movie/568124",
+      "backdrop": "/3G1Q5xF40HkUBJXxt2DQgQzKTp5.jpg"
+    },
+    "16086508440302": {
+      "tmdb": "movie/14443",
+      "backdrop": "/s7211hg6ChdabX20mXm5K8NQPC1.jpg"
+    },
+    "16098178566894": {
+      "tmdb": "movie/109445",
+      "backdrop": "/rj58WQ9ImI0mYDptXdM7euX1Wjt.jpg"
+    },
+    "16098826783470": {
+      "tmdb": "movie/14160",
+      "backdrop": "/hGGC9gKo7CFE3fW07RA587e5kol.jpg"
+    },
+    "16107067935470": {
+      "tmdb": "movie/1465063",
+      "backdrop": "/cNICUho5uiAGkfCAQq1ihyaMla4.jpg"
+    },
+    "16118725085934": {
+      "tmdb": "movie/970589",
+      "backdrop": "/pbA7xjmSPwpJSLVOGEYDqy7z7sa.jpg"
+    },
+    "16122796116718": {
+      "tmdb": "movie/10897",
+      "backdrop": "/GGtBQDAl7CtZtTFTCUUoYHVHyJ.jpg"
+    },
+    "16137468513006": {
+      "tmdb": "movie/671",
+      "backdrop": "/bfh9Z3Ghz4FOJAfLOAhmc3ccnHU.jpg"
+    },
+    "16149943683822": {
+      "tmdb": "movie/22",
+      "backdrop": "/uRNgkJSkNBFbbn9fPsEjDIy8Sh3.jpg"
+    },
+    "16160733137646": {
+      "tmdb": "movie/14368",
+      "backdrop": "/cVu7FKWtFdrXgx2GSecTsdEYN3v.jpg"
     },
     "16572229814880": {
       "tmdb": "movie/1003581",
@@ -1925,6 +1997,10 @@
       "tmdb": "tv/82",
       "backdrop": "/8TThBwlIZnzCFkj21rv5Nv2lTNG.jpg"
     },
+    "anne-with-an-e": {
+      "tmdb": "tv/70785",
+      "backdrop": "/ywQtHG17LZhAFZyZtBflhtFMtJ7.jpg"
+    },
     "another": {
       "tmdb": "tv/42589",
       "backdrop": "/lL0rMeVqiOyVwmft6oPKQKbDYr6.jpg"
@@ -2101,6 +2177,10 @@
       "tmdb": "tv/3518",
       "backdrop": "/x22cZj1Y2cGuBNsP5zHaRJAkJMS.jpg"
     },
+    "danny-phantom": {
+      "tmdb": "tv/2309",
+      "backdrop": "/lnHFty7PsAnizaNjb509Kps6qeP.jpg"
+    },
     "darling-in-the-franxx": {
       "tmdb": "tv/76121",
       "backdrop": "/tKh3pc5MEjCIGV7hSJX76qi8aGA.jpg"
@@ -2116,6 +2196,10 @@
     "death-note": {
       "tmdb": "tv/13916",
       "backdrop": "/z8IPicmEKXUO4I2UDdMEqw7RqOE.jpg"
+    },
+    "demon-slayer-kimetsu-no-yaiba": {
+      "tmdb": "tv/85937",
+      "backdrop": "/nTvM4mhqNlHIvUkI1gVnW6XP7GG.jpg"
     },
     "desert-punk": {
       "tmdb": "tv/29616",
@@ -2373,6 +2457,10 @@
       "tmdb": "tv/1719",
       "backdrop": "/2HZuIQfSTcay8eoVIqeaGEwUWaB.jpg"
     },
+    "gatos-callejeros-de-ricky-gervais": {
+      "tmdb": "tv/300480",
+      "backdrop": "/auLT0EPtqtt5MwryoC2MoAG595F.jpg"
+    },
     "gaturro-3d": {
       "tmdb": "tv/93836",
       "backdrop": "/cADldbInPxOxIIsPZT3zCf8IFTE.jpg"
@@ -2400,6 +2488,10 @@
     "haibane-renmei": {
       "tmdb": "tv/34164",
       "backdrop": "/sC7DcOOWmQ2WNEVDjLY0t8rEwqS.jpg"
+    },
+    "halo-la-serie": {
+      "tmdb": "tv/52814",
+      "backdrop": "/zW0v2YT74C6tRafzqqBkfSqLAN0.jpg"
     },
     "happy-tree-friends": {
       "tmdb": "tv/1126",
@@ -2473,6 +2565,10 @@
       "tmdb": "tv/4035",
       "backdrop": "/vWaIxifDJeKXq4igHTOE5epqcop.jpg"
     },
+    "inuyasha": {
+      "tmdb": "tv/35610",
+      "backdrop": "/mVE1ULmLaYhCkBQPt3JC5xZC6T6.jpg"
+    },
     "invasor-zim": {
       "tmdb": "tv/3793",
       "backdrop": "/eCefaxvMxisEJHahp8Az2eBpwud.jpg"
@@ -2508,6 +2604,10 @@
     "jem-y-los-hologramas": {
       "tmdb": "tv/3127",
       "backdrop": "/bLd0to348ElyArqpkQgLjlLkNXx.jpg"
+    },
+    "johnny-bravo": {
+      "tmdb": "tv/2405",
+      "backdrop": "/tZPxvddk59GhIA8yxjQpLGVRQ2R.jpg"
     },
     "johnny-test": {
       "tmdb": "tv/1769",
@@ -2789,6 +2889,10 @@
       "tmdb": "tv/2936",
       "backdrop": "/ocKvwGa9GRd2QebEGiYw1xCslIw.jpg"
     },
+    "marco": {
+      "tmdb": "tv/8962",
+      "backdrop": "/w1lf6mHUa9gdLREnUDjwYqJMOaf.jpg"
+    },
     "martha-habla": {
       "tmdb": "tv/7736",
       "backdrop": "/vt9dDUZljz10svcGQT7flF4kCH0.jpg"
@@ -2977,6 +3081,10 @@
       "tmdb": "tv/3411",
       "backdrop": "/quOkMpsmwPSUKU9bjLoSGmqHRrc.jpg"
     },
+    "robot-chicken": {
+      "tmdb": "tv/709",
+      "backdrop": "/mofoDq8K1tvhSKE00NrlLkS7Mrg.jpg"
+    },
     "robotech": {
       "tmdb": "tv/2192",
       "backdrop": "/aEvoRR2lcesBoKJSSqDqsppQrKJ.jpg"
@@ -3024,6 +3132,10 @@
     "sangre-de-zeus": {
       "tmdb": "tv/111111",
       "backdrop": "/5Oj9YrVNadPGMyMOCt9SDfeF3Je.jpg"
+    },
+    "school-days": {
+      "tmdb": "tv/28061",
+      "backdrop": "/hUiStKQC4dDSgvENR1YUMY2HUtg.jpg"
     },
     "scooby-doo-donde-estas": {
       "tmdb": "tv/926",
@@ -3193,6 +3305,10 @@
       "tmdb": "tv/239287",
       "backdrop": "/woH18JkZMYhMSWqtHkPA4F6Gd1z.jpg"
     },
+    "the-vampire-diaries": {
+      "tmdb": "tv/18165",
+      "backdrop": "/cJYLon9ejKJV7ua03ab8Tj9u067.jpg"
+    },
     "thomas-y-sus-amigos": {
       "tmdb": "tv/2304",
       "backdrop": "/wIe1HL7oMNwyltsqqx2sCPwNl4w.jpg"
@@ -3280,6 +3396,10 @@
     "yakky-doodle": {
       "tmdb": "tv/296377",
       "backdrop": "/sPXF5hrYmGSbybqnzbSwR0y6Pe6.jpg"
+    },
+    "yami-shibai": {
+      "tmdb": "tv/56559",
+      "backdrop": "/gtwdI7qHNrrLe5R7nWnoDgrbEbV.jpg"
     },
     "yin-yang-yo": {
       "tmdb": "tv/3809",

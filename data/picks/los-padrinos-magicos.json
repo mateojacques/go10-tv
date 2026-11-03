@@ -1,7 +1,7 @@
 {
   "title": "Los Padrinos Mágicos",
   "type": "series",
-  "added": "2026-09-28",
+  "added": "2026-11-03",
   "query": "https://ok.ru/video/15782338693870",
   "year": "2001",
   "studio": "Nickelodeon",
@@ -19,6 +19,14 @@
       "views": 99,
       "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYujUaJG81xrryv0oaQFy3YsdiApUsKy3nPNyUt4tc444&fn=external_8",
       "season_number": 1
+    },
+    {
+      "video_id": "15783280577262",
+      "season_number": 2,
+      "title_raw": "Los padrinos mágicos - Temporada 2 (Nickelodeon) [1080p] [Español]",
+      "duration_raw": "6:03:17",
+      "views": 1406,
+      "thumbnail_url": "https://iv.okcdn.ru/i?r=BDFSTM1h2o92P_v-s8DgGlgYAivJLkk-nz5iGaGcfkHElF9_UH-dWNNGD1xNXG3BMvw&fn=external_8"
     }
   ]
 }
